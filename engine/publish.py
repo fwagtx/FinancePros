@@ -8,13 +8,13 @@ import json, os, sys, time, urllib.request
 API = "https://app.metricool.com/api/v2/scheduler/posts"
 
 
-def body(video_url, ep, when, tz):
+def body(video_url, ep, when, tz, longform=False):
     title = ep.get("yt_title") or ep["title"]
     draft = os.environ.get("METRICOOL_DRAFT", "false").lower() == "true"
     return {
         "publicationDate": {"dateTime": when, "timezone": tz},
         "text": ep["caption"],
-        "providers": [{"network": n} for n in ("instagram", "facebook", "tiktok", "youtube")],
+        "providers": [{"network": n} for n in (("youtube",) if longform else ("instagram", "facebook", "tiktok", "youtube"))],
         "autoPublish": True, "draft": draft, "shortener": False, "saveExternalMediaFiles": True,
         "media": [video_url], "mediaAltText": [], "descendants": [], "firstCommentText": "",
         "hasNotReadNotes": False, "smartLinkData": {"ids": []},
@@ -22,7 +22,7 @@ def body(video_url, ep, when, tz):
         "facebookData": {"type": "REEL", "title": title[:100]},
         "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": title[:90], "isAigc": True,
                        "disableComment": False, "disableDuet": False, "disableStitch": False, "autoAddMusic": False},
-        "youtubeData": {"title": title[:100], "type": "short", "privacy": "public", "madeForKids": False,
+        "youtubeData": {"title": title[:100], "type": "video" if longform else "short", "privacy": "public", "madeForKids": False,
                         "category": "EDUCATION", "tags": ["finance", "money", "personal finance", "FinanceProsTV"],
                         "isAiGeneratedContent": False},
     }
@@ -39,11 +39,17 @@ def wait_public(url, tries=30):
     return False
 
 
-def schedule(video_url, ep, when, tz="America/New_York"):
+def _trim(b, longform):
+    if longform:
+        for k in ("instagramData", "facebookData", "tiktokData"): b.pop(k, None)
+    return b
+
+
+def schedule(video_url, ep, when, tz="America/New_York", longform=False):
     if not wait_public(video_url):
         raise RuntimeError(f"Video is not publicly reachable yet: {video_url}")
     uid, blog, tok = os.environ["METRICOOL_USER_ID"], os.environ["METRICOOL_BLOG_ID"], os.environ["METRICOOL_USER_TOKEN"]
-    req = urllib.request.Request(f"{API}?blogId={blog}&userId={uid}", data=json.dumps(body(video_url, ep, when, tz)).encode(),
+    req = urllib.request.Request(f"{API}?blogId={blog}&userId={uid}", data=json.dumps(_trim(body(video_url, ep, when, tz, longform), longform)).encode(),
                                  headers={"Content-Type": "application/json", "X-Mc-Auth": tok}, method="POST")
     with urllib.request.urlopen(req, timeout=60) as r:
         text = r.read().decode()

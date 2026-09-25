@@ -1,32 +1,25 @@
 name: FinancePros TV daily shows
 
-# Cron is UTC. Each show fires at both the summer (EDT) and winter (EST) offsets;
-# daily.py only runs inside the right Eastern-time hour, so exactly one of the two does work.
+# Runs every hour. engine/daily.py checks the weekly plan (Eastern time) and makes whatever is due:
+# ~3 short videos a day for Instagram, Facebook, TikTok and YouTube, plus 3 long-form YouTube videos a week.
 on:
   schedule:
-    - cron: "2 11,12 * * 1-5"    # Morning Brief: builds ~7:00 ET, posts 7:30 ET
-    - cron: "2 16,17 * * 1-5"    # Midday Pulse: builds ~12:00 ET, posts 12:30 ET
-    - cron: "7 20,21 * * 1-5"    # Closing Bell: builds ~4:05 PM ET, posts 4:30 PM ET
-    - cron: "40 13-22 * * 1-5"   # FP Flash check: hourly, weekdays 9 AM-5 PM ET
+    - cron: "5 * * * *"          # hourly; daily.py runs whatever the weekly plan says is due this Eastern-time hour
   workflow_dispatch:
     inputs:
       show:
         description: "Show to run now"
         type: choice
-        options: [morning, midday, close, flash]
+        options: [auto, morning, lesson, close, world, recap, ahead, flash, lf-world, lf-school, lf-week]
         required: true
 
 permissions:
   contents: write
 
-concurrency:
-  group: financepros-daily
-  cancel-in-progress: false
-
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 150
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       METRICOOL_USER_TOKEN: ${{ secrets.METRICOOL_USER_TOKEN }}
@@ -41,15 +34,11 @@ jobs:
       - name: Pick the show
         id: show
         run: |
-          case "${{ github.event.schedule }}" in
-            "2 11,12 * * 1-5")  s=morning ;;
-            "2 16,17 * * 1-5")  s=midday ;;
-            "7 20,21 * * 1-5")  s=close ;;
-            "40 13-22 * * 1-5") s=flash ;;
-            *) s="${{ inputs.show }}" ;;
-          esac
-          echo "name=$s" >> "$GITHUB_OUTPUT"
-          [ "${{ github.event_name }}" = "workflow_dispatch" ] && echo "force=--force" >> "$GITHUB_OUTPUT" || echo "force=" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "name=${{ inputs.show }}" >> "$GITHUB_OUTPUT"; echo "force=--force" >> "$GITHUB_OUTPUT"
+          else
+            echo "name=auto" >> "$GITHUB_OUTPUT"; echo "force=" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/setup-python@v5
         with:

@@ -39,7 +39,16 @@ SHOWS = {
     "midday": "Midday Pulse (posts 12:30 PM ET). One story explained through what it means for a normal person's wallet. Theme by weekday: Mon Money Myth Monday, Tue Pocketbook Tuesday (prices people pay), Wed Why Is This Moving? (one famous company), Thu World Money Thursday, Fri Friday Face-off (two things compared).",
     "close": "Closing Bell (posts 4:30 PM ET). How U.S. stocks closed today, the biggest winner or loser and why, and what reports after hours.",
     "flash": "FP Flash (breaking). Only if something important broke in the last 90 minutes.",
+    "world": "World Money (short). The most important non-U.S. finance story today (central banks abroad, currencies, oil, trade, China, Europe, Japan) and how it reaches an American's wallet.",
+    "recap": "Week in 60 (Saturday). The five stories that moved money this week, about 10 seconds each, U.S. and world.",
+    "ahead": "Week Ahead (Sunday). The coming week's calendar: big earnings, economic data releases, Fed or central-bank meetings, with the day each lands and why it matters.",
+    "lesson": "FP Money School lesson. Evergreen financial education on one topic (given below). No news hook needed; make it practical, with one worked example with real math.",
+    "lf-world": "World Money Weekly (YouTube long-form, 16:9, 7-9 minutes). The week's biggest global finance stories explained in depth: markets in Asia, Europe and the U.S., currencies, commodities, central banks, trade. Chapters.",
+    "lf-school": "Money School Deep Dive (YouTube long-form, 16:9, 8-10 minutes). One financial-basics topic (given below) explained completely, from zero, with worked examples. Chapters.",
+    "lf-week": "This Week in Money (YouTube long-form, 16:9, 8-10 minutes). The full week recap, U.S. and world, and what's coming next week. Chapters.",
 }
+LONGFORM = {"lf-world", "lf-school", "lf-week"}
+EVERGREEN = {"lesson", "lf-school"}
 
 SCORING = """Importance score (out of 25). Reach x2 (up to 10: does it touch anyone with a loan, job, rent or savings?),
 Size (up to 5), Surprise vs expectations (up to 5), Confirmed by an official source or two outlets (up to 5; 0 means not usable).
@@ -78,7 +87,14 @@ def call(system, user, tools=None, fmt=None, max_tokens=16000):
 WEB = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 10}]
 
 
-def research(show, now):
+def research(show, now, topic=None):
+    if show in EVERGREEN:
+        q = (f"Today is {now:%B %d, %Y}. Show: {SHOWS[show]}\nTopic: {topic}\n\n"
+             "Research this topic for a beginner audience. Use web search to confirm every rule, limit, number and definition that can change "
+             "(for example contribution limits, legal protections, typical rates) and give the source for each. Write a research brief with: "
+             "the plain-English explanation, the 3-5 key facts, one worked example with exact math (show the calculation), common mistakes, "
+             "one short money term to define, and the sources. " + ("Plan 5-7 chapters. " if show in LONGFORM else "") + "End with a line 'SCORE: 25'.")
+        return call(BRAND, q, tools=WEB)
     q = (f"Today is {now:%A, %B %d, %Y}, {now:%I:%M %p} Eastern Time.\n"
          f"Show: {SHOWS[show]}\n\n{SCORING}\n\n"
          "Search the web for today's finance and economy news for this show. Use only sources published today (or the last 90 minutes for a Flash). "
@@ -86,6 +102,7 @@ def research(show, now):
          "For the chosen story, write a research brief with: the facts, every number with its exact value and date, "
          "what it means for a normal person's money, one money-basics term it teaches, what to watch next, and the source URLs "
          "(at least one official source or two independent outlets). "
+         + ("This is long-form: cover 4-6 stories in depth and plan chapters. " if show in LONGFORM else "")
          + ("For a Flash: if no story is Tier 1 or scores 18+, end your answer with the line NO_FLASH. " if show == "flash" else "")
          + "End with a line 'SCORE: <n>'.")
     return call(BRAND, q, tools=WEB)
@@ -94,7 +111,14 @@ def research(show, now):
 SCENE = {
     "type": "object", "additionalProperties": False,
     "properties": {
-        "type": {"type": "string", "enum": ["title", "number", "list", "vs", "term", "outro"]},
+        "type": {"type": "string", "enum": ["title", "number", "list", "vs", "term", "bars", "stats", "steps", "map", "chapter", "outro"]},
+        "bars": {"type": "array", "items": {"type": "object", "additionalProperties": False,
+                 "properties": {"label": {"type": "string"}, "value": {"type": "number"}, "display": {"type": "string"},
+                                "tone": {"type": "string", "enum": ["up", "down", "neutral", "brand"]}}, "required": ["label", "value", "display", "tone"]}},
+        "stats": {"type": "array", "items": {"type": "object", "additionalProperties": False,
+                  "properties": {"k": {"type": "string"}, "v": {"type": "string"}, "tone": {"type": "string", "enum": ["up", "down", "neutral"]}}, "required": ["k", "v", "tone"]}},
+        "region": {"type": "string", "enum": ["us", "europe", "uk", "china", "japan", "india", "middle-east", "latam", "canada", "africa", "australia", "world"]},
+        "chapter": {"type": "integer"},
         "group": {"type": "string"},
         "headline": {"type": "string"}, "sub": {"type": "string"},
         "label": {"type": "string"}, "value": {"type": "string"},
@@ -135,16 +159,31 @@ Scenes:
 - list: title, items [{h, d}] (max 3, h max 5 words), reveal = how many items are visible at this line. Consecutive list lines share the same group.
 - vs: left/right {tag, name (one word), rows (3 short rows)}, reveal = rows visible. Same group for consecutive lines.
 - term: term (LED, max 10 characters, same allowed characters), def (one sentence, one [highlight]), example (short). Use tk "off" for term scenes; Dot speaks them.
+- bars: title + bars [{label, value (number used for bar length), display (text shown, e.g. "$1,500" or "4.1%"), tone}] (2-5 bars). Great for comparisons and before/after.
+- stats: title + stats [{k (short label), v (short value, e.g. "4.3%"), tone}] (3-4 stats). For "the numbers at a glance".
+- steps: title + items [{h, d}] (2-4) + reveal. For processes ("how a mortgage payment splits").
+- map: region (us, europe, uk, china, japan, india, middle-east, latam, canada, africa, australia, world) + headline (max 6 words, one [highlight]) + label (short place/metric line). Use for world news.
 - outro: final line only, tk "big", expr "wink", pose "present".
+Variety matters: use at least 4 different scene types, change the visual every 1-2 lines, and prefer a chart, stat or map over a plain title whenever there is a number or a place.
 expr must match the news: up = green arrow eyes on a real up move, down = red arrow eyes on a real down move, shock only for breaking news.
 tag is the show label, e.g. "Morning Brief", "Closing Bell", "FP Flash", "Pocketbook Tuesday".
 caption: 3-5 short lines for the post: the news in plain words, why it matters, "Money 101: <term>", "Sources: <names>", "News and education, not financial advice.", then 5 hashtags starting with #FinanceProsTV.
 yt_title: max 80 characters, specific, no clickbait. Use only facts from the research brief."""
 
 
-def write_script(show, brief, now):
-    q = f"Date: {now:%A, %B %d, %Y}. Show: {SHOWS[show]}\n\nResearch brief (the ONLY facts you may use):\n{brief}\n\n{SCRIPT_GUIDE}"
-    return json.loads(call(BRAND, q, fmt=EPISODE))
+LONG_GUIDE = """This is a LONG-FORM YouTube video (16:9), 7-10 minutes, 1100-1500 spoken words, 60-100 lines.
+Open with a 20-second cold open (the most interesting fact), then a 'chapter' scene before each chapter: chapter (number) and headline (chapter title).
+Inside chapters use the same scene types with lots of variety (bars, stats, steps, map, number, vs, term). Dot explains 2-4 terms across the video.
+Recap the key takeaways in the final chapter, then the outro line. Keep every sentence plain, specific and sourced from the brief.
+yt_title: max 90 characters. caption: a YouTube description: 2-3 sentence summary, chapter list with approximate timestamps
+(0:00 Intro, then estimate ~150 words per minute), sources, "News and education, not financial advice.", 5 hashtags."""
+
+
+def write_script(show, brief, now, topic=None):
+    guide = SCRIPT_GUIDE + ("\n\n" + LONG_GUIDE if show in LONGFORM else "")
+    q = (f"Date: {now:%A, %B %d, %Y}. Show: {SHOWS[show]}\n" + (f"Topic: {topic}\n" if topic else "") +
+         f"\nResearch brief (the ONLY facts you may use):\n{brief}\n\n{guide}")
+    return json.loads(call(BRAND, q, fmt=EPISODE, max_tokens=64000 if show in LONGFORM else 16000))
 
 
 def factcheck(ep, brief, now):
@@ -161,6 +200,24 @@ def factcheck(ep, brief, now):
 
 
 LED_OK = set("ABCDEFGHIKLMNOPRSTUVWY0123456789$%.,-+ ")
+CURRICULUM = os.path.join(HERE, "curriculum.json"); STATE = os.path.join(HERE, "state.json")
+
+
+def next_lesson():
+    """Next Money School topic in order, skipping ones already done. Returns (topic, lesson number)."""
+    cur = json.load(open(CURRICULUM)); st = json.load(open(STATE)) if os.path.exists(STATE) else {"done": [], "number": 3}
+    done = set(cur["done"]) | set(st["done"])
+    for lv in cur["levels"]:
+        for t in lv["lessons"]:
+            if t not in done:
+                return t, st["number"] + 1, lv["name"]
+    return None, None, None
+
+
+def mark_lesson(topic, number):
+    st = json.load(open(STATE)) if os.path.exists(STATE) else {"done": [], "number": 3}
+    st["done"].append(topic); st["number"] = number
+    json.dump(st, open(STATE, "w"), indent=1)
 
 
 def sanitize(ep, show, date):
@@ -180,6 +237,10 @@ def sanitize(ep, show, date):
             sc.pop("pose")
         if sc.get("type") == "term":
             sc["dot"] = True
+        if sc.get("type") == "chapter":
+            sc["nocap"] = False
+        if sc.get("type") in ("steps",) and sc.get("reveal") is None:
+            sc["reveal"] = len(sc.get("items", []))
         if sc.get("type") == "outro":
             sc["nocap"] = True; sc.setdefault("cta", "Follow for the next bell")
     ep["id"] = f"{date}-{show}"
@@ -189,21 +250,30 @@ def sanitize(ep, show, date):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--show", required=True, choices=list(SHOWS))
-    ap.add_argument("--date")
+    ap.add_argument("--date"); ap.add_argument("--topic")
     a = ap.parse_args()
     now = dt.datetime.now(ET)
     date = a.date or now.strftime("%Y-%m-%d")
     logdir = os.path.join(HERE, "episodes", "daily"); os.makedirs(logdir, exist_ok=True)
-    brief = research(a.show, now)
+    topic = number = None
+    if a.show == "lesson":
+        topic, number, level = next_lesson()
+        if not topic: print("Curriculum finished."); sys.exit(3)
+    elif a.show == "lf-school":
+        topic = a.topic or "Credit scores, completely explained"
+    brief = research(a.show, now, topic)
     open(os.path.join(logdir, f"{date}-{a.show}.research.md"), "w").write(brief)
     score = re.findall(r"SCORE:\s*(\d+)", brief)
     if a.show == "flash" and ("NO_FLASH" in brief or not score or int(score[-1]) < 18):
         print("No story qualifies for a Flash."); sys.exit(3)
-    ep = sanitize(write_script(a.show, brief, now), a.show, date)
+    ep = sanitize(write_script(a.show, brief, now, topic), a.show, date)
+    if a.show in LONGFORM: ep["format"] = "landscape"
+    if a.show == "lesson": ep["tag"] = f"Money School · #{number}"
     ok, report = factcheck(ep, brief, now)
     open(os.path.join(logdir, f"{date}-{a.show}.factcheck.md"), "w").write(report)
     if not ok:
         print("Fact-check FAILED; nothing will be posted. See the factcheck report."); sys.exit(4)
+    if a.show == "lesson": mark_lesson(topic, number)
     path = os.path.join(logdir, f"{date}-{a.show}.json")
     json.dump(ep, open(path, "w"), indent=1)
     print(path)

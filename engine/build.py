@@ -24,7 +24,7 @@ def build(ep_path, stills=False):
     # mix: voice (clean + broadcast polish) + music ducked under voice + sfx, then loudness -14 LUFS
     run([FF, "-y", "-loglevel", "error", "-i", os.path.join(out, "voice.wav"), "-i", os.path.join(out, "music.wav"), "-i", os.path.join(out, "sfx.wav"),
          "-filter_complex",
-         "[0:a]aresample=48000,highpass=f=80,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=4:release=90:makeup=3,asplit=2[v][vs];"
+         "[0:a]aresample=48000,highpass=f=75,equalizer=f=180:t=q:w=1:g=2,equalizer=f=3000:t=q:w=1.2:g=2,equalizer=f=7500:t=q:w=2:g=-2,acompressor=threshold=-20dB:ratio=2.5:attack=8:release=120:makeup=2,aecho=0.8:0.25:18|31:0.07|0.04,asplit=2[v][vs];"
          "[1:a]volume=0.4[m];[m][vs]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=350[md];"
          "[2:a]volume=0.9[fx];[v][md][fx]amix=inputs=3:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9",
          "-ar", "48000", os.path.join(out, "mix.wav")])

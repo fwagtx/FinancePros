@@ -16,10 +16,10 @@ VOICES = os.environ.get("KOKORO_VOICES", os.path.join(HERE, "models", "voices-v1
 FPS = 30
 SR = 24000
 
-# Brand voices: blends of two stock voices, so they're unique to the channel.
+# Brand voices (chosen from the 40-voice casting page): Ticker = am_adam, Dot = af_sarah.
 CAST = {
-    "ticker": {"mix": [("am_michael", 0.6), ("am_fenrir", 0.4)], "speed": 1.06, "lang": "en-us"},
-    "dot": {"mix": [("af_heart", 0.55), ("af_nicole", 0.45)], "speed": 1.08, "lang": "en-us"},
+    "ticker": {"mix": [("am_adam", 1.0)], "speed": 1.0, "lang": "en-us"},
+    "dot": {"mix": [("af_sarah", 1.0)], "speed": 1.02, "lang": "en-us"},
 }
 GAP = {"ticker": 0.22, "dot": 0.22}          # pause after a line
 HANDOFF = 0.34                              # extra pause when the speaker changes
@@ -39,10 +39,36 @@ def trim(x, thr=0.012):
     return x[a:b]
 
 
+def phrases(text):
+    """Split a line where a person would breathe: after sentence ends and most commas."""
+    parts = re.split(r"(?<=[.?!])\s+|(?<=[,;:])\s+(?=\S+\s+\S+)", text.strip())
+    return [p for p in parts if p]
+
+
+def speak(k, style, who, text, seed):
+    """Read phrase by phrase with small, human-like variation in pace and pauses (less robotic than one long read)."""
+    rng = np.random.default_rng(1000 + seed)
+    out, spans, n = [], [], 0
+    ps = phrases(text)
+    for j, p in enumerate(ps):
+        sp = CAST[who]["speed"] * (1 + rng.uniform(-0.025, 0.035))
+        x, _ = k.create(p, voice=style, speed=sp, lang=CAST[who]["lang"])
+        x = trim(np.asarray(x, dtype=np.float32))
+        out.append(x); spans.append((n / SR, (n + len(x)) / SR)); n += len(x)
+        if j < len(ps) - 1:
+            gap = (0.30 if re.search(r"[.?!]$", p) else 0.14) + rng.uniform(-0.03, 0.07)
+            g = int(gap * SR); out.append(np.zeros(g, dtype=np.float32)); n += g
+    return np.concatenate(out), spans
+
+
 def word_times(text, start, end):
     """Spread words across the spoken span, weighted by length (syllable proxy)."""
     words = text.split()
-    weights = [max(2, len(re.sub(r"[^A-Za-z0-9$%]", "", w))) + (3 if re.search(r"[,.;:?!]$", w) else 0) for w in words]
+    def wt(w):  # rough syllable proxy; numbers are spoken longer than they look ("$25" = "twenty-five dollars")
+        core = re.sub(r"[^A-Za-z0-9$%]", "", w)
+        n = len(core) * (3 if re.search(r"\d", core) else 1) + (4 if "$" in core or "%" in core else 0)
+        return max(2, n)
+    weights = [wt(w) for w in words]
     total = sum(weights)
     t, out = start, []
     for w, wt in zip(words, weights):
@@ -63,11 +89,15 @@ def build(episode_path, out_dir):
         if prev and prev != who:
             audio.append(np.zeros(int(HANDOFF * SR), dtype=np.float32)); t += HANDOFF
         say = line.get("say", line["text"])      # "say" = pronunciation-friendly version
-        x, sr = k.create(say, voice=styles[who], speed=CAST[who]["speed"], lang=CAST[who]["lang"])
-        x = trim(np.asarray(x, dtype=np.float32))
+        x, spans = speak(k, styles[who], who, say, i)
         dur = len(x) / SR
+        tp = phrases(line["text"])
+        if len(tp) == len(spans):     # caption words timed inside each spoken phrase
+            words = sum((word_times(p, t + a, t + b) for p, (a, b) in zip(tp, spans)), [])
+        else:
+            words = word_times(line["text"], t, t + dur)
         lines.append({"i": i, "who": who, "text": line["text"], "s": round(t, 3), "e": round(t + dur, 3),
-                      "words": word_times(line["text"], t, t + dur), "scene": line.get("scene", {})})
+                      "words": words, "scene": line.get("scene", {})})
         audio.append(x); t += dur
         gap = line.get("pause", GAP[who])
         audio.append(np.zeros(int(gap * SR), dtype=np.float32)); t += gap
