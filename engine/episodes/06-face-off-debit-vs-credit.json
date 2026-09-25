@@ -1,0 +1,133 @@
+{
+ "id": "06-face-off-debit-vs-credit",
+ "tag": "Friday Face-off",
+ "title": "Debit vs credit: which is safer?",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Debit or credit? They look the same, but they work very differently.",
+   "scene": {
+    "type": "title",
+    "headline": "Debit vs credit: [which is safer?]",
+    "size": 116,
+    "sub": "Friday Face-off",
+    "expr": "think",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Debit spends money you already have. Credit borrows it, and you pay it back.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Your money",
+     "name": "Debit",
+     "rows": [
+      "Spends your own money",
+      "Doesn't build credit history",
+      "Stolen cash is gone while it's sorted out"
+     ]
+    },
+    "right": {
+     "tag": "Borrowed money",
+     "name": "Credit",
+     "rows": [
+      "Borrows it, you pay it back",
+      "Can build your credit score",
+      "Fraud liability capped at $50 by law"
+     ]
+    },
+    "reveal": 1,
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 1010
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying a credit card on time can build your credit score. Debit doesn't.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Your money",
+     "name": "Debit",
+     "rows": [
+      "Spends your own money",
+      "Doesn't build credit history",
+      "Stolen cash is gone while it's sorted out"
+     ]
+    },
+    "right": {
+     "tag": "Borrowed money",
+     "name": "Credit",
+     "rows": [
+      "Borrows it, you pay it back",
+      "Can build your credit score",
+      "Fraud liability capped at $50 by law"
+     ]
+    },
+    "reveal": 2,
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 1010
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fraud? Federal law caps your credit card liability at fifty dollars. With debit, the stolen money leaves your account while it gets sorted out.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Your money",
+     "name": "Debit",
+     "rows": [
+      "Spends your own money",
+      "Doesn't build credit history",
+      "Stolen cash is gone while it's sorted out"
+     ]
+    },
+    "right": {
+     "tag": "Borrowed money",
+     "name": "Credit",
+     "rows": [
+      "Borrows it, you pay it back",
+      "Can build your credit score",
+      "Fraud liability capped at $50 by law"
+     ]
+    },
+    "reveal": 3,
+    "expr": "worried",
+    "tk": "dock",
+    "capTop": 1010
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: carry a balance on credit, and interest gets expensive fast.",
+   "scene": {
+    "type": "title",
+    "headline": "Carry a balance? It gets [expensive]",
+    "size": 108,
+    "sub": "See Money School #2 on APR",
+    "expr": "down",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for next Friday's Face-off"
+   }
+  }
+ ]
+}

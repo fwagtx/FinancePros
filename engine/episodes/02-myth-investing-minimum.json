@@ -1,0 +1,100 @@
+{
+ "id": "02-myth-investing-minimum",
+ "tag": "Money Myth Monday",
+ "title": "Myth: you need thousands to start investing",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: you need thousands of dollars to start investing.",
+   "scene": {
+    "type": "myth",
+    "group": "m",
+    "myth": "You need thousands of dollars to start investing.",
+    "fact": "Many apps let you buy a [slice of a share] for a few dollars.",
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 1010,
+    "phase": "myth"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fact: many investing apps let you buy a slice of a share, for just a few dollars.",
+   "scene": {
+    "type": "myth",
+    "group": "m",
+    "myth": "You need thousands of dollars to start investing.",
+    "fact": "Many apps let you buy a [slice of a share] for a few dollars.",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 1010,
+    "phase": "fact"
+   }
+  },
+  {
+   "who": "dot",
+   "text": "That slice is called a fractional share.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "FRACTIONAL",
+    "def": "A fractional share means owning [part] of one share.",
+    "example": "$500 share \u00b7 $5 buys 1% of it",
+    "exampleAt": 2.2,
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040
+   }
+  },
+  {
+   "who": "dot",
+   "text": "If one share costs five hundred dollars, five dollars buys you one percent of it.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "FRACTIONAL",
+    "def": "A fractional share means owning [part] of one share.",
+    "example": "$500 share \u00b7 $5 buys 1% of it",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not every app or stock offers this, so check before you sign up.",
+   "scene": {
+    "type": "title",
+    "headline": "Check if your app [offers it]",
+    "size": 110,
+    "expr": "think",
+    "pose": "think",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And remember: investing can lose money too. Small or big, learn the risks first.",
+   "scene": {
+    "type": "title",
+    "headline": "Investing can [lose money] too",
+    "size": 110,
+    "sub": "Learn the risks first",
+    "expr": "worried",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for more money myths"
+   }
+  }
+ ]
+}

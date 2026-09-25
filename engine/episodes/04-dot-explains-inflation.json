@@ -1,0 +1,99 @@
+{
+ "id": "04-dot-explains-inflation",
+ "tag": "Dot Explains",
+ "title": "Why $100 buys less every year",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Leave a hundred dollars in a drawer for ten years, and it quietly shrinks.",
+   "scene": {
+    "type": "title",
+    "headline": "Why your $100 [shrinks]",
+    "size": 130,
+    "sub": "Dot explains \u00b7 inflation",
+    "expr": "worried",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 3% inflation a year, it only buys about $74 worth of stuff.",
+   "say": "At three percent inflation a year, it only buys about seventy-four dollars' worth of stuff.",
+   "scene": {
+    "type": "number",
+    "label": "$100 after 10 years of 3% inflation",
+    "value": "$74",
+    "color": "down",
+    "note": "Same bill. [Less] stuff.",
+    "expr": "down",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "dot",
+   "text": "Inflation means prices rise over time, so each dollar buys a little less.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "INFLATION",
+    "def": "Prices rise over time, so each dollar buys [less].",
+    "example": "The U.S. tracks it with the CPI price index",
+    "exampleAt": 3.0,
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040
+   }
+  },
+  {
+   "who": "dot",
+   "text": "The government tracks it by checking the prices of things people buy every month.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "INFLATION",
+    "def": "Prices rise over time, so each dollar buys [less].",
+    "example": "The U.S. tracks it with the CPI price index",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Federal Reserve aims to keep inflation around 2% a year.",
+   "say": "The Federal Reserve aims to keep inflation around two percent a year.",
+   "scene": {
+    "type": "number",
+    "label": "The Fed's inflation target",
+    "value": "2%",
+    "note": "Low and steady is the [goal].",
+    "expr": "neutral",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why money sitting still loses ground. To keep up, it has to grow at least as fast as prices.",
+   "scene": {
+    "type": "title",
+    "headline": "To keep up, money has to [grow]",
+    "size": 110,
+    "expr": "think",
+    "pose": "think",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for more Dot Explains"
+   }
+  }
+ ]
+}

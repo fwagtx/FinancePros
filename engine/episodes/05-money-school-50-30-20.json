@@ -1,0 +1,163 @@
+{
+ "id": "05-money-school-50-30-20",
+ "tag": "Money School \u00b7 #3",
+ "title": "The 50/30/20 budget in 45 seconds",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The simplest budget there is fits in three numbers. Fifty, thirty, twenty.",
+   "scene": {
+    "type": "title",
+    "headline": "The budget that fits in [3 numbers]",
+    "size": 112,
+    "sub": "Money School \u00b7 lesson 3",
+    "expr": "wink",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you take home three thousand dollars a month. Half, fifteen hundred, goes to needs.",
+   "scene": {
+    "type": "split3",
+    "group": "b",
+    "label": "$3,000 a month, after taxes",
+    "parts": [
+     {
+      "name": "Needs",
+      "pct": 50,
+      "amt": "$1,500",
+      "color": "#FFFFFF",
+      "ex": "Rent, groceries, bills, minimum payments"
+     },
+     {
+      "name": "Wants",
+      "pct": 30,
+      "amt": "$900",
+      "color": "#9DB4FF",
+      "ex": "Eating out, streaming, trips"
+     },
+     {
+      "name": "Savings",
+      "pct": 20,
+      "amt": "$600",
+      "color": "#2BD98A",
+      "ex": "Emergency fund, investing, extra debt payments"
+     }
+    ],
+    "reveal": 1,
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 1030
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Thirty percent, nine hundred, is for wants.",
+   "scene": {
+    "type": "split3",
+    "group": "b",
+    "label": "$3,000 a month, after taxes",
+    "parts": [
+     {
+      "name": "Needs",
+      "pct": 50,
+      "amt": "$1,500",
+      "color": "#FFFFFF",
+      "ex": "Rent, groceries, bills, minimum payments"
+     },
+     {
+      "name": "Wants",
+      "pct": 30,
+      "amt": "$900",
+      "color": "#9DB4FF",
+      "ex": "Eating out, streaming, trips"
+     },
+     {
+      "name": "Savings",
+      "pct": 20,
+      "amt": "$600",
+      "color": "#2BD98A",
+      "ex": "Emergency fund, investing, extra debt payments"
+     }
+    ],
+    "reveal": 2,
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 1030
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And twenty percent, six hundred, goes to savings or paying down debt.",
+   "scene": {
+    "type": "split3",
+    "group": "b",
+    "label": "$3,000 a month, after taxes",
+    "parts": [
+     {
+      "name": "Needs",
+      "pct": 50,
+      "amt": "$1,500",
+      "color": "#FFFFFF",
+      "ex": "Rent, groceries, bills, minimum payments"
+     },
+     {
+      "name": "Wants",
+      "pct": 30,
+      "amt": "$900",
+      "color": "#9DB4FF",
+      "ex": "Eating out, streaming, trips"
+     },
+     {
+      "name": "Savings",
+      "pct": 20,
+      "amt": "$600",
+      "color": "#2BD98A",
+      "ex": "Emergency fund, investing, extra debt payments"
+     }
+    ],
+    "reveal": 3,
+    "expr": "dollar",
+    "tk": "dock",
+    "capTop": 1030
+   }
+  },
+  {
+   "who": "dot",
+   "text": "It's a starting point, not a law. If rent eats more than half, adjust the split.",
+   "scene": {
+    "type": "title",
+    "headline": "A starting point, [not a law]",
+    "size": 110,
+    "expr": "neutral",
+    "tk": "off",
+    "dot": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rule was popularized by Senator Elizabeth Warren and her daughter in their book, All Your Worth.",
+   "scene": {
+    "type": "title",
+    "headline": "From the book [All Your Worth]",
+    "size": 104,
+    "sub": "Elizabeth Warren & Amelia Warren Tyagi",
+    "expr": "neutral",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for Money School #4"
+   }
+  }
+ ]
+}

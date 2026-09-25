@@ -1,0 +1,135 @@
+{
+ "id": "00-meet-ticker",
+ "tag": "FinancePros TV",
+ "title": "Meet Ticker, your money news anchor",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Hi, I'm Ticker. My face is a screen, so you'll always know how the market feels.",
+   "scene": {
+    "type": "title",
+    "headline": "Meet [Ticker]",
+    "size": 150,
+    "sub": "Your money news anchor",
+    "expr": "wink",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Green eyes? Markets are up.",
+   "scene": {
+    "type": "title",
+    "headline": "Green eyes = [markets up]",
+    "size": 120,
+    "expr": "up",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Red eyes? Rough day.",
+   "scene": {
+    "type": "title",
+    "headline": "Red eyes = [rough day]",
+    "size": 120,
+    "expr": "down",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here you'll get the money news that actually matters, explained in under a minute.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "What you get here",
+    "items": [
+     {
+      "h": "Money news that [matters]",
+      "d": "The stories that touch your wallet"
+     },
+     {
+      "h": "Money basics, [explained]",
+      "d": "The stuff school skipped"
+     },
+     {
+      "h": "No hype. [No stock tips.]",
+      "d": "Just the facts, in plain words"
+     }
+    ],
+    "reveal": 1,
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 1010
+   }
+  },
+  {
+   "who": "dot",
+   "text": "And I'm Dot! I explain the money basics nobody taught you.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "What you get here",
+    "items": [
+     {
+      "h": "Money news that [matters]",
+      "d": "The stories that touch your wallet"
+     },
+     {
+      "h": "Money basics, [explained]",
+      "d": "The stuff school skipped"
+     },
+     {
+      "h": "No hype. [No stock tips.]",
+      "d": "Just the facts, in plain words"
+     }
+    ],
+    "reveal": 2,
+    "expr": "neutral",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1010
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No hype, no stock tips. Just the money, in plain words.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "What you get here",
+    "items": [
+     {
+      "h": "Money news that [matters]",
+      "d": "The stories that touch your wallet"
+     },
+     {
+      "h": "Money basics, [explained]",
+      "d": "The stuff school skipped"
+     },
+     {
+      "h": "No hype. [No stock tips.]",
+      "d": "Just the facts, in plain words"
+     }
+    ],
+    "reveal": 3,
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 1010
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow, so you don't miss the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for the next bell"
+   }
+  }
+ ]
+}

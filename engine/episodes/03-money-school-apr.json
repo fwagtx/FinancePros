@@ -1,0 +1,119 @@
+{
+ "id": "03-money-school-apr",
+ "tag": "Money School \u00b7 #2",
+ "title": "APR: the 3 letters that can double your debt",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Three letters on your credit card can almost double what you owe. A, P, R.",
+   "say": "Three letters on your credit card can almost double what you owe. A. P. R.",
+   "scene": {
+    "type": "title",
+    "headline": "The 3 letters that can [double] your debt",
+    "size": 112,
+    "sub": "Money School \u00b7 lesson 2",
+    "expr": "shock",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "dot",
+   "text": "APR is the yearly price of borrowing money.",
+   "say": "A P R is the yearly price of borrowing money.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "APR",
+    "def": "The yearly [price] of borrowing money.",
+    "example": "24% a year \u2248 2% every month",
+    "exampleAt": 2.6,
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040
+   }
+  },
+  {
+   "who": "dot",
+   "text": "A 24% APR works out to about 2% every month.",
+   "say": "A twenty-four percent A P R works out to about two percent every month.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "APR",
+    "def": "The yearly [price] of borrowing money.",
+    "example": "24% a year \u2248 2% every month",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $1,000 balance, that's about $20 of interest in a single month.",
+   "say": "On a one thousand dollar balance, that's about twenty dollars of interest, in a single month.",
+   "scene": {
+    "type": "number",
+    "label": "$1,000 balance \u00b7 24% APR \u00b7 1 month",
+    "value": "$20",
+    "color": "down",
+    "note": "Just for [borrowing] it.",
+    "expr": "worried",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay only $25 a month, and it takes 82 months to clear.",
+   "say": "Pay only twenty-five dollars a month, and it takes eighty-two months to clear.",
+   "scene": {
+    "type": "number",
+    "group": "n",
+    "label": "Paying $25 a month",
+    "value": "82 MONTHS",
+    "color": "down",
+    "note": "That's almost [7 years].",
+    "expr": "shock",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You'd pay about $2,032 in total. Over $1,000 of that is interest.",
+   "say": "You'd pay about two thousand and thirty-two dollars in total. Over a thousand of that is interest.",
+   "scene": {
+    "type": "number",
+    "label": "Total paid on a $1,000 balance",
+    "value": "$2,032",
+    "color": "down",
+    "note": "[$1,032] of it is interest.",
+    "expr": "down",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The good news: on most cards, paying your full statement balance on time means no interest on purchases.",
+   "scene": {
+    "type": "title",
+    "headline": "Pay in full, on time: [no interest]",
+    "size": 108,
+    "sub": "On purchases, on most cards",
+    "expr": "up",
+    "pose": "thumb",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for Money School #3"
+   }
+  }
+ ]
+}
