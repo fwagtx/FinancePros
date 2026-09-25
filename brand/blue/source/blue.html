@@ -1,0 +1,133 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../v2/fonts/fonts.css">
+<script src="blue.js"></script>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#444}
+.a{position:relative;overflow:hidden;margin-bottom:30px;font-family:"Red Hat Display",sans-serif;color:#fff}
+.hd{font-family:"Red Hat Display";font-weight:900;letter-spacing:-.035em;line-height:1.02;text-transform:uppercase}
+.mono{font-family:"Red Hat Mono";font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.pill{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:10px 20px 9px}
+.abs{position:absolute}
+.hl{background:#fff;color:#1432E6;padding:0 .12em;border-radius:.08em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.chip{display:inline-flex;align-items:center;justify-content:center;background:#0A0F2E;border-radius:22px;padding:22px 26px}
+.lbl{font:600 22px/1 "Red Hat Mono";letter-spacing:.1em;text-transform:uppercase;color:#9DB4FF}
+</style></head><body>
+<div id="root"></div>
+<script>
+var R=document.getElementById('root'),h='';
+function A(id,w,hh,bg,inner){h+='<div class="a" id="'+id+'" style="width:'+w+'px;height:'+hh+'px;'+bg+'">'+inner+'</div>'}
+function fpbug(x,y,s,dark){return '<div class="abs" style="left:'+x+'px;top:'+y+'px;background:'+(dark?'#0A0F2E':'#1432E6')+';border-radius:'+(s*0.22)+'px;padding:'+(s*0.16)+'px '+(s*0.2)+'px">'+led('FP',s*0.1,'#fff',{off:0})+'</div>'}
+function tag(x,y,text,bg,fg){return '<div class="abs pill mono" style="left:'+x+'px;top:'+y+'px;background:'+bg+';color:'+fg+';font-size:24px">'+text+'</div>'}
+var cobaltBg='background-color:#1432E6;'+dotsBg(22,.10), navyBg='background-color:#0A0F2E;'+dotsBg(22,.07), paperBg='background-color:#F4F6FF;'+dotsBg(22,.9,'214,221,245');
+
+/* ================= CHARACTER SHEET ================= */
+(function(){
+ var ex=[['neutral','Talking'],['up','Market up'],['down','Market down'],['worried','Uh-oh'],['shock','Breaking'],['think','Explaining'],['wink','Sign-off'],['dollar','Big money']];
+ var mo=[['closed','M / B / P'],['small','Soft'],['talk','Ah'],['wide','Big ah'],['o','Oh / oo'],['ee','Ee']];
+ var poses=[['point','Point'],['present','Present'],['think','Think'],['thumb','Thumbs up'],['shrug','Shrug']];
+ var inner='<div class="abs" style="left:70px;top:60px">'+led('TICKER',16,'#fff',{off:.1})+'</div>'+
+ '<div class="abs" style="left:70px;top:200px;width:620px"><div class="hd" style="font-size:44px;text-transform:none;letter-spacing:-.02em">The anchor of FinancePros TV</div>'+
+ '<p style="font:500 24px/1.45 Red Hat Display;color:#C9D4FF;margin:18px 0 0">A TV-headed news anchor whose face is an LED screen. His eyes turn into green ▲ when markets rise and red ▼ when they fall, so viewers read the day from his face in half a second.</p>'+
+ '<div class="mono" style="margin-top:26px;font-size:20px;line-height:1.9;color:#fff">Personality · calm, quick, a little dry<br>Catchphrase · "That\'s the money."<br>Tell · green antenna light = live</div></div>'+
+ '<div class="abs" style="left:40px;top:560px;width:640px">'+ticker({expr:'neutral',pose:'present',attrs:'width="640"',outline:0})+'</div>'+
+ '<div class="abs lbl" style="left:760px;top:70px">Expressions</div><div class="abs" style="left:760px;top:110px;display:grid;grid-template-columns:repeat(4,390px);gap:14px">'+
+   ex.map(function(e){return '<div style="background:rgba(10,15,46,.45);border-radius:22px;padding:10px 10px 14px;text-align:center">'+ticker({expr:e[0],flash:e[0]==='shock',vb:'70 40 260 300',attrs:'width="230"'})+'<div class="mono" style="font-size:18px">'+e[1]+'</div></div>'}).join('')+'</div>'+
+ '<div class="abs lbl" style="left:760px;top:880px">Mouth shapes for lip-sync</div><div class="abs" style="left:760px;top:920px;display:grid;grid-template-columns:repeat(6,255px);gap:14px">'+
+   mo.map(function(m){return '<div style="background:rgba(10,15,46,.45);border-radius:18px;padding:8px;text-align:center">'+ticker({expr:'neutral',mouth:m[0],vb:'100 140 200 170',attrs:'width="200"'})+'<div class="mono" style="font-size:16px;margin-top:4px">'+m[1]+'</div></div>'}).join('')+'</div>'+
+ '<div class="abs lbl" style="left:760px;top:1170px">Poses</div><div class="abs" style="left:760px;top:1210px;display:grid;grid-template-columns:repeat(5,310px);gap:14px">'+
+   poses.map(function(p){return '<div style="text-align:center">'+ticker({expr:p[0]==='thumb'?'up':(p[0]==='think'?'think':(p[0]==='shrug'?'worried':'neutral')),pose:p[0],vb:'-30 30 460 580',attrs:'width="230"'})+'<div class="mono" style="font-size:18px">'+p[1]+'</div></div>'}).join('')+'</div>';
+ A('mascot-ticker-sheet',2400,1560,cobaltBg,inner);
+})();
+
+/* ================= MASCOT OPTIONS ================= */
+A('mascot-options',2400,1100,navyBg,
+ '<div class="abs hd" style="left:70px;top:60px;font-size:64px;text-transform:none;letter-spacing:-.03em">Three mascot directions</div>'+
+ [['Ticker','LED TV-head anchor','Recommended. Face is an LED screen, so expressions, arrows and even charts can appear on it. Easiest to animate and lip-sync.',ticker({expr:'up',pose:'thumb',attrs:'width="560"',outline:0})],
+  ['Bullet','The bull anchor','Instantly says "stock market". Warmer and more classic, but bulls are common in finance branding.',bullet({pose:'point',attrs:'width="560"'})],
+  ['Dot','A living LED pixel','A tiny glowing pixel buddy who pops up to explain terms. Cute and simple, works as a sidekick to Ticker.',dot({attrs:'width="440"'})]
+ ].map(function(m,i){return '<div class="abs" style="left:'+(70+i*770)+'px;top:190px;width:720px;height:860px;background:'+(i===0?'#1432E6':'#141B45')+';border-radius:32px;overflow:hidden">'+
+   '<div class="abs" style="left:0;right:0;top:'+(i===2?150:40)+'px;display:flex;justify-content:center">'+m[3]+'</div>'+
+   '<div class="abs" style="left:0;right:0;bottom:0;padding:34px 40px;background:linear-gradient(transparent,rgba(10,15,46,.95) 30%)">'+
+   '<div style="display:flex;align-items:center;gap:16px">'+led(m[0].toUpperCase(),9,'#fff',{off:0})+(i===0?'<span class="pill mono" style="background:#2BD98A;color:#0A0F2E;font-size:18px">My pick</span>':'')+'</div>'+
+   '<div class="mono" style="font-size:20px;color:#9DB4FF;margin-top:16px">'+m[1]+'</div><p style="font:500 22px/1.4 Red Hat Display;margin:10px 0 0;color:#DCE3FF">'+m[2]+'</p></div></div>'}).join(''));
+
+/* ================= THUMBNAILS 1280x720 ================= */
+// 1 Mascot react
+A('thumb-1-mascot-react',1280,720,cobaltBg,
+ tag(56,48,'Midday Pulse','#fff','#1432E6')+
+ '<div class="abs hd" style="left:56px;top:130px;font-size:150px;width:760px">Oil just<br><span class="hl">jumped</span></div>'+
+ '<div class="abs chip" style="left:56px;top:470px">'+led('^4.1%',13,'#2BD98A',{off:.08})+'</div>'+
+ '<div class="abs" style="right:10px;top:40px;width:560px">'+ticker({expr:'shock',pose:'pointL',attrs:'width="560"',outline:9})+'</div>');
+// 2 Big LED number
+A('thumb-2-big-number',1280,720,navyBg,
+ '<div class="abs lbl" style="left:60px;top:70px;font-size:26px">S&amp;P 500 · today</div>'+
+ '<div class="abs" style="left:56px;top:130px">'+led('-2.3%',24,'#FF4D5E',{off:.07})+'</div>'+
+ '<div class="abs hd" style="left:60px;top:400px;font-size:92px;width:760px">Worst day<br>since May</div>'+
+ '<div class="abs" style="right:10px;bottom:-60px;width:430px">'+ticker({expr:'down',attrs:'width="430"',outline:8})+'</div>');
+// 3 Split versus
+A('thumb-3-versus',1280,720,'background:#0A0F2E;',
+ '<div class="abs" style="left:0;top:0;width:640px;height:720px;'+cobaltBg+'"></div>'+
+ '<div class="abs hd" style="left:60px;top:70px;font-size:120px">Gold</div><div class="abs" style="left:64px;top:200px">'+led('^',22,'#2BD98A')+'</div>'+
+ '<div class="abs hd" style="right:60px;top:70px;font-size:120px;text-align:right">Stocks</div><div class="abs" style="right:64px;top:200px">'+led('^',22,'#2BD98A')+'</div>'+
+ '<div class="abs" style="left:50%;transform:translateX(-50%);top:330px;width:500px;z-index:2">'+ticker({expr:'think',pose:'think',attrs:'width="500"',outline:9})+'</div>'+
+ '<div class="abs hd" style="left:0;right:0;top:250px;text-align:center;z-index:3"><span style="background:#fff;color:#0A0F2E;font-size:72px;padding:6px 28px 10px;border-radius:18px">Why both?</span></div>');
+// 4 Question explainer
+A('thumb-4-question',1280,720,paperBg,
+ tag(56,48,'Money Explained','#1432E6','#fff')+
+ '<div class="abs hd" style="left:56px;top:130px;font-size:112px;color:#0A0F2E;width:820px;line-height:1.12">Is a<br><span style="background:#1432E6;color:#fff;padding:0 14px;border-radius:12px">recession</span><br>coming?</div>'+
+ '<div class="abs" style="right:-20px;top:70px;width:540px">'+ticker({expr:'think',pose:'think',attrs:'width="540"',outline:6,outlineColor:'#0A0F2E'})+'</div>');
+// 5 Breaking
+A('thumb-5-breaking',1280,720,navyBg,
+ '<div class="abs" style="left:0;right:0;top:0;height:150px;background:#050818;display:flex;align-items:center;gap:26px;padding-left:56px"><span style="width:28px;height:28px;border-radius:50%;background:#FF4D5E;box-shadow:0 0 22px #FF4D5E"></span>'+led('BREAKING',12,'#fff',{off:.1})+'</div>'+
+ '<div class="abs hd" style="left:56px;top:200px;font-size:132px;width:780px">Fed holds<br>rates</div>'+
+ '<div class="abs mono" style="left:60px;top:500px;font-size:30px;color:#9DB4FF">What it means for your loans →</div>'+
+ '<div class="abs" style="right:-30px;top:120px;width:540px">'+ticker({expr:'shock',flash:1,attrs:'width="540"',outline:9})+'</div>');
+// 6 Countdown
+A('thumb-6-countdown',1280,720,cobaltBg,
+ '<div class="abs" style="left:56px;top:70px">'+led('5',44,'#fff',{off:0})+'</div>'+
+ '<div class="abs hd" style="left:320px;top:90px;font-size:80px;width:520px;line-height:1.08">stories<br>that moved<br><span class="hl">your money</span></div>'+
+ '<div class="abs mono" style="left:60px;top:590px;font-size:28px;color:#fff;background:#0A0F2E;border-radius:14px;padding:14px 20px">Week in 60 · Sept 22–26</div>'+
+ '<div class="abs" style="right:0px;top:110px;width:500px">'+ticker({expr:'wink',pose:'pointL',attrs:'width="500"',outline:9})+'</div>');
+// 7 World
+(function(){var g='';for(var y=-9;y<=9;y++)for(var x=-9;x<=9;x++){var d=Math.sqrt(x*x+y*y);if(d<=9.2){var land=(Math.sin(x*0.9+y*0.4)+Math.cos(y*0.8-x*0.3))>0.35;g+='<circle cx="'+(200+x*20)+'" cy="'+(200+y*20)+'" r="7" fill="'+(land?'#2BD98A':'#fff')+'" opacity="'+(land?1:.18)+'"/>'}}
+A('thumb-7-world',1280,720,navyBg,
+ '<div class="abs" style="left:-60px;top:160px;opacity:.95"><svg width="400" height="400" viewBox="0 0 400 400">'+g+'</svg></div>'+
+ tag(56,48,'World Money','#2BD98A','#0A0F2E')+
+ '<div class="abs hd" style="left:360px;top:180px;font-size:104px;width:560px">Why the<br>yen hits<br><span class="hl">your wallet</span></div>'+
+ '<div class="abs" style="right:-110px;top:90px;width:520px">'+ticker({expr:'neutral',pose:'present',attrs:'width="520"',outline:9})+'</div>');})();
+// 8 Chart
+A('thumb-8-chart',1280,720,cobaltBg,
+ '<svg class="abs" style="left:0;top:0" width="1280" height="720"><polyline points="-10,640 120,600 220,620 330,540 430,560 540,470 640,490 760,380 860,330 960,250" fill="none" stroke="#fff" stroke-width="22" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/><polygon points="960,210 1010,250 945,285" fill="#fff"/></svg>'+
+ tag(56,48,'Closing Bell','#0A0F2E','#fff')+
+ '<div class="abs hd" style="left:56px;top:120px;font-size:118px;width:700px">Tech saves<br>the day</div>'+
+ '<div class="abs chip" style="left:56px;top:360px">'+led('^1.8%',11,'#2BD98A',{off:.08})+'</div>'+
+ '<div class="abs" style="right:-30px;top:120px;width:500px">'+ticker({expr:'up',pose:'thumb',attrs:'width="500"',outline:9})+'</div>');
+
+/* ================= COVERS 1080x1920 (grid-safe centre) ================= */
+function cover(id,bg,tagTxt,tagBg,tagFg,head,col,tk){A(id,1080,1920,bg,
+ '<div class="abs" style="left:80px;right:80px;top:285px;height:1350px">'+
+ '<div class="abs pill mono" style="left:0;top:60px;background:'+tagBg+';color:'+tagFg+';font-size:34px;padding:14px 26px 12px">'+tagTxt+'</div>'+
+ '<div class="abs hd" style="left:0;top:190px;width:920px;font-size:112px;color:'+col+'">'+head+'</div>'+
+ '<div class="abs" style="left:50%;transform:translateX(-50%);bottom:-90px;width:620px">'+tk+'</div></div>')}
+cover('cover-mascot-morning',cobaltBg,'Morning Brief · 7:30 ET','#fff','#1432E6','Futures slip<br>before <span class="hl">jobs day</span>','#fff',ticker({expr:'worried',pose:'present',attrs:'width="640"',outline:10}));
+cover('cover-mascot-flash',navyBg,'● FP Flash','#FF4D5E','#fff','Fed holds<br>rates','#fff',ticker({expr:'shock',flash:1,attrs:'width="640"',outline:10}));
+cover('cover-mascot-explained',paperBg,'Money Explained','#1432E6','#fff','What is a<br><span style="background:#1432E6;color:#fff;padding:0 12px;border-radius:12px">recession?</span>','#0A0F2E',ticker({expr:'think',pose:'think',attrs:'width="640"',outline:7,outlineColor:'#0A0F2E'}));
+
+/* ================= VIDEO FRAME WITH MASCOT ================= */
+A('frame-mascot-talking',1080,1920,navyBg,
+ '<div class="abs pill mono" style="left:70px;top:200px;background:#1432E6;color:#fff;font-size:34px;padding:14px 24px 12px">Closing Bell · 4:30 ET</div>'+
+ '<div class="abs" style="right:150px;top:196px;background:#1432E6;border-radius:18px;padding:14px 16px">'+led('FP',7,'#fff')+'</div>'+
+ '<div class="abs hd" style="left:70px;top:320px;font-size:128px;width:860px">Tech saves<br>a <span class="hl">red day</span></div>'+
+ '<div class="abs" style="left:70px;top:620px;width:860px;height:330px;background:#141B45;border-radius:28px;padding:28px 32px">'+
+   '<div style="display:flex;justify-content:space-between;align-items:center"><span class="mono" style="font-size:30px">Nasdaq</span>'+led('^0.6%',8,'#2BD98A',{off:.06})+'</div>'+
+   '<svg width="796" height="200" viewBox="0 0 796 200" style="margin-top:18px"><g stroke="#2A3470" stroke-width="2"><line x1="0" y1="40" x2="796" y2="40"/><line x1="0" y1="110" x2="796" y2="110"/><line x1="0" y1="180" x2="796" y2="180"/></g><polyline points="0,70 80,100 160,130 240,150 320,170 400,160 480,120 560,110 640,80 720,60 796,40" fill="none" stroke="#2BD98A" stroke-width="7" stroke-linejoin="round"/><circle cx="790" cy="42" r="12" fill="#2BD98A"/></svg></div>'+
+ '<div class="abs" style="left:70px;top:1010px;width:470px;font:800 56px/1.15 Red Hat Display;letter-spacing:-.02em">Chip stocks <span style="background:#fff;color:#1432E6;padding:0 10px;border-radius:10px">flipped</span> it in the last hour.</div>'+
+ '<div class="abs" style="left:450px;top:900px;width:560px">'+ticker({expr:'up',pose:'present',mouth:'talk',attrs:'width="560"',outline:8})+'</div>'+
+ '<div class="abs mono" style="left:0;right:0;top:1480px;height:84px;background:#fff;color:#0A0F2E;display:flex;align-items:center;gap:36px;padding-left:24px;font-size:34px;white-space:nowrap"><span style="background:#1432E6;color:#fff;border-radius:12px;padding:8px 14px">FP</span><span>DOW <b style="color:#E0303F">▼0.2%</b></span><span>S&amp;P <b style="color:#12A866">▲0.1%</b></span><span>NASDAQ <b style="color:#12A866">▲0.6%</b></span></div>'+
+ '<div class="abs mono" style="left:70px;top:1590px;font-size:24px;color:#9DB4FF">Source: exchange data · not financial advice</div>'+
+ '<div class="abs mono" style="right:24px;bottom:24px;font-size:20px;color:rgba(255,255,255,.35)">Sample frame · illustrative</div>');
+
+R.innerHTML=h;
+document.fonts.ready.then(function(){document.body.dataset.ready=1});
+</script></body></html>
