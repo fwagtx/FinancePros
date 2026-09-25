@@ -81,13 +81,31 @@
    "text": "You'd pay about $2,032 in total. Over $1,000 of that is interest.",
    "say": "You'd pay about two thousand and thirty-two dollars in total. Over a thousand of that is interest.",
    "scene": {
-    "type": "number",
-    "label": "Total paid on a $1,000 balance",
-    "value": "$2,032",
-    "color": "down",
-    "note": "[$1,032] of it is interest.",
+    "type": "bars",
+    "title": "$1,000 at 24% APR, paying $25 a month",
+    "bars": [
+     {
+      "label": "What you borrowed",
+      "value": 1000,
+      "display": "$1,000",
+      "tone": "brand"
+     },
+     {
+      "label": "Interest you pay",
+      "value": 1032,
+      "display": "$1,032",
+      "tone": "down"
+     },
+     {
+      "label": "Total paid",
+      "value": 2032,
+      "display": "$2,032",
+      "tone": "neutral"
+     }
+    ],
     "expr": "down",
-    "tk": "dock"
+    "tk": "dock",
+    "capTop": 1010
    }
   },
   {

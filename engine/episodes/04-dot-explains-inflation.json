@@ -20,13 +20,31 @@
    "text": "At 3% inflation a year, it only buys about $74 worth of stuff.",
    "say": "At three percent inflation a year, it only buys about seventy-four dollars' worth of stuff.",
    "scene": {
-    "type": "number",
-    "label": "$100 after 10 years of 3% inflation",
-    "value": "$74",
-    "color": "down",
-    "note": "Same bill. [Less] stuff.",
+    "type": "bars",
+    "title": "What $100 buys at 3% inflation",
+    "bars": [
+     {
+      "label": "Today",
+      "value": 100,
+      "display": "$100",
+      "tone": "neutral"
+     },
+     {
+      "label": "In 5 years",
+      "value": 86,
+      "display": "$86",
+      "tone": "brand"
+     },
+     {
+      "label": "In 10 years",
+      "value": 74,
+      "display": "$74",
+      "tone": "down"
+     }
+    ],
     "expr": "down",
-    "tk": "dock"
+    "tk": "dock",
+    "capTop": 1010
    }
   },
   {

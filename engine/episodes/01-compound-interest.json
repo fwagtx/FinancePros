@@ -300,14 +300,25 @@
    "who": "ticker",
    "text": "Here's the catch. Start ten years later, and the same habit grows to only about fifty-two thousand.",
    "scene": {
-    "type": "number",
-    "label": "Same $100 a month, starting 10 years later",
-    "value": "$52,093",
-    "color": "down",
-    "note": "Less than [half]. Time does the heavy lifting.",
+    "type": "bars",
+    "title": "$100 a month at 7%, until the same end date",
+    "bars": [
+     {
+      "label": "Start now (30 years)",
+      "value": 121997,
+      "display": "$121,997",
+      "tone": "up"
+     },
+     {
+      "label": "Start 10 years later",
+      "value": 52093,
+      "display": "$52,093",
+      "tone": "down"
+     }
+    ],
     "expr": "worried",
     "tk": "dock",
-    "capTop": 1000
+    "capTop": 1010
    }
   },
   {

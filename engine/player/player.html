@@ -1,6 +1,7 @@
 <!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="../assets/fonts/fonts.css">
 <script src="blue.js"></script>
+<script src="world.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1920px;overflow:hidden;background:#1432E6}
@@ -26,6 +27,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#1432E6}
 </style></head><body>
 <div id="stage">
   <div id="bg"></div><div id="vig"></div>
+  <div id="fx" class="abs" style="inset:0;pointer-events:none"></div>
   <div id="scene"></div>
   <div id="top" class="abs" style="left:70px;top:176px"></div>
   <div id="bug" class="abs" style="right:150px;top:172px;background:#0A0F2E;border-radius:18px;padding:13px 15px"></div>
@@ -33,6 +35,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#1432E6}
   <div id="tk"></div>
   <div id="cap"></div>
   <div id="wipe"></div>
+  <div id="prog" class="abs" style="left:0;top:0;height:8px;width:0;background:#2BD98A;box-shadow:0 0 14px #2BD98A"></div>
 </div>
 <script src="scenes.js"></script>
 </body></html>
