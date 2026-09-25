@@ -332,7 +332,7 @@ function setup(ep, tl) {
     document.documentElement.style.height = document.body.style.height = '1080px';
     var stg = $('stage'); stg.style.width = '1920px'; stg.style.height = '1080px';
     $('top').style.cssText = 'left:70px;top:44px'; $('bug').style.cssText = 'right:70px;top:40px;background:#0A0F2E;border-radius:18px;padding:13px 15px';
-    $('cap').style.cssText = 'left:70px;width:1150px;top:880px';
+    $('cap').style.cssText = 'left:70px;width:1100px;top:940px';
   }
   $('top').innerHTML = '<span class="pill"' + (ep.pillColor ? ' style="background:' + ep.pillColor + ';color:#fff"' : '') + '>' + esc(ep.tag) + '</span>';
   $('bug').innerHTML = led('FP', 6, '#fff', { off: 0 });
@@ -343,7 +343,7 @@ function render(t) {
   $('bg').style.transform = 'translate(' + (-(t * 7) % 26) + 'px,' + (-(t * 4) % 26) + 'px)';
   $('bg').style.backgroundColor = d.bg === 'navy' ? '#0A0F2E' : '#1432E6';
   var push = 1 + 0.025 * clamp((t - sc.start) / Math.max(2, (sc.stop > 1e8 ? TL.duration : sc.stop) - sc.start), 0, 1);
-  $('scene').style.transform = LAND ? 'translate(50px,-165px) scale(' + (0.9 * push) + ')' : 'scale(' + push + ')';
+  $('scene').style.transform = LAND ? 'translate(50px,-178px) scale(' + (0.78 * push) + ')' : 'scale(' + push + ')';
   $('scene').style.transformOrigin = LAND ? '0 290px' : '50% 38%';
   $('scene').innerHTML = (R[d.type] || R.title)(d, lt, md.st);
   $('fx').innerHTML = particles(t);
