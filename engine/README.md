@@ -35,8 +35,20 @@ Add these in GitHub → repo **Settings → Secrets and variables → Actions**:
 
 Then **Actions → FinancePros TV daily shows → Run workflow** once to test a show.
 
-Schedule (Eastern time, weekdays): Morning Brief builds 7:00 and posts 7:30, Midday Pulse 12:00 → 12:30,
-Closing Bell 4:05 → 4:30 PM, and an FP Flash check every hour from 9 AM to 5 PM.
+The workflow runs every hour; `daily.py` follows this weekly plan (Eastern time):
+
+| Day | Short videos (Instagram, Facebook, TikTok, YouTube Shorts) | Long-form (YouTube, 16:9) |
+|---|---|---|
+| Mon | 7:30 Morning Brief · 12:30 Money School lesson · 4:30 Closing Bell | 6:00 PM World Money Weekly |
+| Tue | 7:30 Morning Brief · 12:30 Money School lesson · 4:30 Closing Bell | |
+| Wed | 7:30 Morning Brief · 12:30 Money School lesson · 4:30 Closing Bell | 6:00 PM Money School Deep Dive |
+| Thu | 7:30 Morning Brief · 12:30 World Money · 4:30 Closing Bell | |
+| Fri | 7:30 Morning Brief · 12:30 Money School lesson · 4:30 Closing Bell | |
+| Sat | 10:00 Week in 60 · 1:00 Money School lesson · 5:00 World Money | 9:00 AM This Week in Money |
+| Sun | 11:00 Money School lesson · 2:00 World Money · 6:00 Week Ahead | |
+
+Plus an FP Flash check every weekday hour from 9 AM to 5 PM (posts only for Tier 1 news or a score of 18+).
+Money School lessons follow `curriculum.json` in order (6 levels, ~58 lessons); `state.json` remembers progress.
 
 ## Quality gates (nothing posts unless all pass)
 1. **Importance rules**: the research step scores stories; a Flash needs Tier 1 or a score of 18+/25.
@@ -57,3 +69,5 @@ Research and fact-check reports are saved with every run (`episodes/daily/*.md`)
 - `daily.py`: one scheduled run, from news to scheduled post
 - `publish.py`: schedules a video on all four networks through Metricool
 - `episodes/`: hand-written evergreen episodes; `episodes/daily/` holds generated ones
+- `curriculum.json` / `state.json`: the Money School course and where the channel is in it
+- `player/world.js`: LED world map (from public-domain country outlines) for world-news scenes

@@ -28,6 +28,13 @@ def build(ep_path, stills=False):
          "[1:a]volume=0.4[m];[m][vs]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=350[md];"
          "[2:a]volume=0.9[fx];[v][md][fx]amix=inputs=3:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9",
          "-ar", "48000", os.path.join(out, "mix.wav")])
+    # second pass: measure and correct to exactly -14 LUFS, true peak under -1.5 dB
+    meas = subprocess.run([FF, "-i", os.path.join(out, "mix.wav"), "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
+    import re
+    I = float(re.findall(r"I:\s+(-?[\d.]+) LUFS", meas)[-1])
+    run([FF, "-y", "-loglevel", "error", "-i", os.path.join(out, "mix.wav"), "-af",
+         f"volume={-14 - I:.2f}dB,alimiter=limit=0.74:attack=5:release=50:level=false", "-ar", "48000", os.path.join(out, "mix2.wav")])
+    os.replace(os.path.join(out, "mix2.wav"), os.path.join(out, "mix.wav"))
     final = os.path.join(out, ep["id"] + ".mp4")
     run([FF, "-y", "-loglevel", "error", "-i", os.path.join(out, "video.mp4"), "-i", os.path.join(out, "mix.wav"),
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-shortest", "-movflags", "+faststart", final])

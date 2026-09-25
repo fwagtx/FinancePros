@@ -22,7 +22,7 @@ const fs = require('fs'), path = require('path');
     await b.close(); return;
   }
   const ff = spawn(FF, ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(tl.fps), '-i', '-',
-    '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', String(tl.fps), path.join(out, 'video.mp4')]);
+    '-c:v', 'libx264', '-preset', land ? 'slow' : 'medium', '-tune', 'animation', '-crf', land ? '24' : '18', '-pix_fmt', 'yuv420p', '-r', String(tl.fps), path.join(out, 'video.mp4')]);
   ff.stderr.on('data', d => process.stderr.write(d));
   for (let i = 0; i < n; i++) {
     await p.evaluate(t => window.render(t), i / tl.fps);

@@ -856,22 +856,50 @@
      {
       "h": "Apply [only when needed]",
       "d": "Hard pulls add up"
+     },
+     {
+      "h": "Check your reports",
+      "d": "Free, weekly, all 3 bureaus"
      }
     ],
     "reveal": 4,
     "expr": "up",
-    "tk": "dock"
+    "tk": "dock",
+    "group": "recap"
    }
   },
   {
    "who": "ticker",
    "text": "And check your reports every few months, for free, so nothing surprises you.",
    "scene": {
-    "type": "title",
-    "headline": "Check your reports, [for free]",
+    "type": "steps",
+    "group": "recap",
+    "title": "Credit score in 5 moves",
+    "items": [
+     {
+      "h": "Pay [on time]",
+      "d": "Autopay the minimum"
+     },
+     {
+      "h": "Keep usage [low]",
+      "d": "Under 30%, lower is better"
+     },
+     {
+      "h": "Keep old accounts",
+      "d": "Length of history helps"
+     },
+     {
+      "h": "Apply [only when needed]",
+      "d": "Hard pulls add up"
+     },
+     {
+      "h": "Check your reports",
+      "d": "Free, weekly, all 3 bureaus"
+     }
+    ],
+    "reveal": 5,
     "expr": "wink",
-    "tk": "dock",
-    "size": 108
+    "tk": "dock"
    }
   },
   {
