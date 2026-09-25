@@ -20,6 +20,9 @@ PLAN = {
     6: [(10, "lesson", "11:00"), (13, "world", "14:00"), (17, "ahead", "18:00")],
 }
 LONGFORM = {"lf-world", "lf-school", "lf-week"}
+# Hand-made episodes are already scheduled 3x a day through Fri Oct 2, 2026; planned shows start after that
+# (FP Flash breaking news can still post). Override with the AUTO_START variable (YYYY-MM-DD).
+AUTO_START = dt.date.fromisoformat(os.environ.get("AUTO_START") or "2026-10-03")
 REPO = os.environ.get("GITHUB_REPOSITORY", "fwagtx/FinancePros")
 BRANCH = os.environ.get("GITHUB_REF_NAME", "claude/dazzling-newton-1ex2s0")
 
@@ -38,6 +41,8 @@ def main():
             else: print(f"Nothing scheduled at {now:%a %H:00} ET."); return
         else:
             _, a.show, post_at = due[0]
+            if now.date() < AUTO_START and not a.force:
+                print(f"{a.show}: hand-made episodes cover {now:%a %b %d}; automation starts {AUTO_START}."); return
     else:
         post_at = next((p for _, s, p in PLAN[now.weekday()] if s == a.show), None)
     date = now.strftime("%Y-%m-%d")

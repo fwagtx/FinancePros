@@ -1,0 +1,123 @@
+{
+ "id": "20-money-school-emergency-fund",
+ "tag": "Money School · #5",
+ "title": "Your emergency fund: how much you really need",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A car repair or a lost job shouldn't turn into credit card debt. That's what an emergency fund is for.",
+   "scene": {
+    "type": "title",
+    "headline": "Your [emergency fund]",
+    "size": 116,
+    "expr": "neutral",
+    "tk": "dock",
+    "sub": "Money School · lesson 5"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A common goal is three to six months of essential expenses.",
+   "scene": {
+    "type": "number",
+    "label": "The common goal",
+    "value": "3-6 MO",
+    "color": "up",
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "Of your [essential] expenses"
+   },
+   "say": "A common goal is three to six months of essential expenses."
+  },
+  {
+   "who": "ticker",
+   "text": "If your essentials cost twenty-five hundred a month, that's seventy-five hundred to fifteen thousand dollars.",
+   "scene": {
+    "type": "bars",
+    "title": "Essentials: $2,500 a month",
+    "bars": [
+     {
+      "label": "3 months",
+      "value": 7500,
+      "display": "$7,500",
+      "tone": "brand"
+     },
+     {
+      "label": "6 months",
+      "value": 15000,
+      "display": "$15,000",
+      "tone": "up"
+     }
+    ],
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   },
+   "say": "If your essentials cost twenty-five hundred a month, that's seventy-five hundred, to fifteen thousand dollars."
+  },
+  {
+   "who": "ticker",
+   "text": "That sounds like a lot, so start small. A first goal of five hundred dollars already covers many surprise bills.",
+   "scene": {
+    "type": "steps",
+    "group": "w",
+    "title": "Build it step by step",
+    "items": [
+     {
+      "h": "Start with [$500]",
+      "d": "Covers many surprise bills"
+     },
+     {
+      "h": "Then [1 month]",
+      "d": "Of essential expenses"
+     },
+     {
+      "h": "Then [3 to 6 months]",
+      "d": "Your full safety net"
+     }
+    ],
+    "reveal": 3,
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Automate it. Even twenty-five dollars every payday adds up, and keep it in a separate savings account so you don't spend it.",
+   "scene": {
+    "type": "title",
+    "headline": "[Automate] it. Keep it separate.",
+    "size": 104,
+    "expr": "wink",
+    "tk": "dock",
+    "sub": "A high-yield savings account works well",
+    "pose": "thumb"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And only use it for real emergencies. A sale is not an emergency.",
+   "scene": {
+    "type": "title",
+    "headline": "A sale is [not] an emergency",
+    "size": 112,
+    "expr": "wink",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for Money School #6"
+   }
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "id": "16-face-off-roth-vs-traditional",
+ "tag": "Face-off",
+ "title": "Roth IRA vs traditional IRA",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Roth IRA or traditional IRA? It comes down to one question: pay the tax now, or later?",
+   "scene": {
+    "type": "title",
+    "headline": "Pay the tax [now] or [later]?",
+    "size": 112,
+    "expr": "think",
+    "tk": "dock",
+    "sub": "Roth vs traditional IRA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With a traditional IRA, your contributions may be tax-deductible today. You pay income tax when you withdraw in retirement.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Tax break later",
+     "name": "Roth",
+     "rows": [
+      "Pay tax on money going in",
+      "Qualified withdrawals tax-free",
+      "Income limits apply"
+     ]
+    },
+    "right": {
+     "tag": "Tax break now",
+     "name": "Traditional",
+     "rows": [
+      "Contributions may be deductible",
+      "Withdrawals taxed as income",
+      "Required withdrawals later"
+     ]
+    },
+    "reveal": 1,
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With a Roth, you put in money you've already paid tax on. Qualified withdrawals in retirement are tax-free.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Tax break later",
+     "name": "Roth",
+     "rows": [
+      "Pay tax on money going in",
+      "Qualified withdrawals tax-free",
+      "Income limits apply"
+     ]
+    },
+    "right": {
+     "tag": "Tax break now",
+     "name": "Traditional",
+     "rows": [
+      "Contributions may be deductible",
+      "Withdrawals taxed as income",
+      "Required withdrawals later"
+     ]
+    },
+    "reveal": 2,
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rule of thumb: if you expect a higher tax rate later, the Roth often wins. If you expect a lower one, traditional can.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "Rule of thumb",
+    "items": [
+     {
+      "h": "Higher tax rate later?",
+      "d": "A Roth often wins"
+     },
+     {
+      "h": "Lower tax rate later?",
+      "d": "Traditional can win"
+     }
+    ],
+    "reveal": 2,
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Early in your career, with a lower income, many people lean Roth. Either way, starting early matters most.",
+   "scene": {
+    "type": "title",
+    "headline": "Either way: [start early]",
+    "size": 110,
+    "expr": "up",
+    "tk": "dock",
+    "sub": "Time does the heavy lifting",
+    "pose": "thumb"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for the next Face-off"
+   }
+  }
+ ]
+}

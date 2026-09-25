@@ -1,0 +1,115 @@
+{
+ "id": "19-dot-explains-hysa",
+ "tag": "Dot Explains",
+ "title": "Is your savings account paying you almost nothing?",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Is your savings account paying you almost nothing? Dot, how do we fix that?",
+   "scene": {
+    "type": "title",
+    "headline": "Is your savings paying [almost nothing]?",
+    "size": 104,
+    "expr": "worried",
+    "tk": "dock",
+    "sub": "Dot explains · savings"
+   }
+  },
+  {
+   "who": "dot",
+   "text": "Look at a high-yield savings account. It's a savings account that pays a much higher interest rate.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "HYSA",
+    "def": "A savings account that pays a [higher rate].",
+    "example": "Often offered by online banks",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040,
+    "exampleAt": 2.6
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's five thousand dollars for a year, at example rates of 0.4% versus 3.5%.",
+   "scene": {
+    "type": "bars",
+    "title": "$5,000 for one year · example rates",
+    "bars": [
+     {
+      "label": "Standard savings at 0.4%",
+      "value": 20,
+      "display": "$20",
+      "tone": "down"
+     },
+     {
+      "label": "High-yield at 3.5%",
+      "value": 175,
+      "display": "$175",
+      "tone": "up"
+     }
+    ],
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   },
+   "say": "Here's five thousand dollars for a year, at example rates of zero point four percent, versus three point five percent."
+  },
+  {
+   "who": "ticker",
+   "text": "Same money, same safety. Look for FDIC insurance, which covers up to $250,000 per depositor, per bank, per account type.",
+   "scene": {
+    "type": "number",
+    "label": "FDIC insurance limit",
+    "value": "$250,000",
+    "color": "up",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "Per depositor, per bank, per [account type]"
+   },
+   "say": "Same money, same safety. Look for F D I C insurance, which covers up to two hundred and fifty thousand dollars per depositor, per bank, per account type."
+  },
+  {
+   "who": "ticker",
+   "text": "Keep checking for daily spending, and park your savings where it earns more. Rates change, so compare before you open one.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Daily spending",
+     "name": "Checking",
+     "rows": [
+      "Bills and debit card",
+      "Pays little or no interest"
+     ]
+    },
+    "right": {
+     "tag": "Money you're saving",
+     "name": "High-yield",
+     "rows": [
+      "Emergency fund, goals",
+      "Earns a higher rate"
+     ]
+    },
+    "reveal": 2,
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for more Dot Explains"
+   }
+  }
+ ]
+}

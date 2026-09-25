@@ -1,0 +1,101 @@
+{
+ "id": "13-myth-checking-your-score",
+ "tag": "Money Myth",
+ "title": "Myth: checking your credit score hurts it",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: checking your own credit score lowers it.",
+   "scene": {
+    "type": "myth",
+    "group": "m",
+    "myth": "Checking your own credit score lowers it.",
+    "fact": "Checking your own score is a [soft check]. It never hurts.",
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960,
+    "phase": "myth"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fact: when you check your own score, it's a soft inquiry. It has zero effect.",
+   "scene": {
+    "type": "myth",
+    "group": "m",
+    "myth": "Checking your own credit score lowers it.",
+    "fact": "Checking your own score is a [soft check]. It never hurts.",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960,
+    "phase": "fact"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What can dip your score a little is a hard inquiry. That's when you apply for new credit, like a card or a loan.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "You check it",
+     "name": "Soft",
+     "rows": [
+      "Checking your own score",
+      "Some pre-approved offers",
+      "No effect on your score"
+     ]
+    },
+    "right": {
+     "tag": "You apply",
+     "name": "Hard",
+     "rows": [
+      "New card or loan application",
+      "Lender pulls your report",
+      "Can dip your score a little"
+     ]
+    },
+    "reveal": 3,
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And you can see your credit reports from all three bureaus for free, every week, at annual credit report dot com.",
+   "scene": {
+    "type": "title",
+    "headline": "Free reports, [every week]",
+    "size": 108,
+    "expr": "up",
+    "tk": "dock",
+    "sub": "AnnualCreditReport.com",
+    "pose": "thumb"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So check early, check often. Catching a mistake fast is how you protect your score.",
+   "scene": {
+    "type": "title",
+    "headline": "Check [often]. Catch mistakes fast.",
+    "size": 108,
+    "expr": "wink",
+    "tk": "dock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for more money myths"
+   }
+  }
+ ]
+}

@@ -26,6 +26,7 @@ jobs:
       METRICOOL_USER_ID: ${{ vars.METRICOOL_USER_ID }}
       METRICOOL_BLOG_ID: ${{ vars.METRICOOL_BLOG_ID }}
       METRICOOL_DRAFT: ${{ vars.METRICOOL_DRAFT || 'false' }}
+      AUTO_START: ${{ vars.AUTO_START }}
     steps:
       - uses: actions/checkout@v4
         with:

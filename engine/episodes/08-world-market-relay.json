@@ -1,0 +1,111 @@
+{
+ "id": "08-world-market-relay",
+ "tag": "World Money",
+ "title": "How the world's stock markets pass the baton",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The stock market never really sleeps. It passes the baton around the world, every single day.",
+   "scene": {
+    "type": "title",
+    "headline": "The market [never sleeps]",
+    "size": 116,
+    "expr": "wink",
+    "tk": "dock",
+    "sub": "It runs like a relay"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It starts in Asia. Tokyo opens while most of America is asleep.",
+   "scene": {
+    "type": "map",
+    "headline": "Leg 1: [Asia]",
+    "region": "japan",
+    "label": "Tokyo · Hong Kong · Shanghai",
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then Europe picks it up. London opens at 3 a.m. Eastern time.",
+   "scene": {
+    "type": "map",
+    "headline": "Leg 2: [Europe]",
+    "region": "europe",
+    "label": "London · Frankfurt · Paris",
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 960
+   },
+   "say": "Then Europe picks it up. London opens at three a.m. Eastern time."
+  },
+  {
+   "who": "ticker",
+   "text": "And the U.S. runs the last leg. The New York Stock Exchange trades from 9:30 to 4 Eastern.",
+   "scene": {
+    "type": "map",
+    "headline": "Leg 3: [The U.S.]",
+    "region": "us",
+    "label": "NYSE · Nasdaq · 9:30 to 4 ET",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   },
+   "say": "And the U.S. runs the last leg. The New York Stock Exchange trades from nine thirty to four, Eastern."
+  },
+  {
+   "who": "ticker",
+   "text": "That's why big news overnight in Asia or Europe can move U.S. stocks before most people wake up.",
+   "scene": {
+    "type": "title",
+    "headline": "Overnight news can move [your morning]",
+    "size": 104,
+    "expr": "think",
+    "tk": "dock",
+    "pose": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when we say markets reacted overnight, now you know which runners carried it.",
+   "scene": {
+    "type": "steps",
+    "group": "w",
+    "title": "The daily relay",
+    "items": [
+     {
+      "h": "[Asia] opens first",
+      "d": "Tokyo, Hong Kong, Shanghai"
+     },
+     {
+      "h": "[Europe] takes over",
+      "d": "London, Frankfurt, Paris"
+     },
+     {
+      "h": "[The U.S.] closes the day",
+      "d": "New York, 9:30 to 4 ET"
+     }
+    ],
+    "reveal": 3,
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for World Money"
+   }
+  }
+ ]
+}

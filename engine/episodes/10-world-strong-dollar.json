@@ -1,0 +1,126 @@
+{
+ "id": "10-world-strong-dollar",
+ "tag": "World Money",
+ "title": "What a 'strong dollar' means for you",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "When the news says the dollar is strong, it means one dollar buys more of other currencies.",
+   "scene": {
+    "type": "title",
+    "headline": "What a [strong dollar] means",
+    "size": 116,
+    "expr": "neutral",
+    "tk": "dock",
+    "sub": "World Money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take a hundred euro hotel room. If one euro costs a dollar ten, you pay a hundred and ten dollars.",
+   "scene": {
+    "type": "bars",
+    "title": "A €100 hotel room, in dollars",
+    "bars": [
+     {
+      "label": "€1 = $1.10 (stronger dollar)",
+      "value": 110,
+      "display": "$110",
+      "tone": "up"
+     },
+     {
+      "label": "€1 = $1.25 (weaker dollar)",
+      "value": 125,
+      "display": "$125",
+      "tone": "down"
+     }
+    ],
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   },
+   "say": "Take a one hundred euro hotel room. If one euro costs a dollar ten, you pay one hundred and ten dollars."
+  },
+  {
+   "who": "ticker",
+   "text": "If a euro costs a dollar twenty-five, the same room costs a hundred and twenty-five. The stronger dollar saves you fifteen.",
+   "scene": {
+    "type": "bars",
+    "title": "A €100 hotel room, in dollars",
+    "bars": [
+     {
+      "label": "€1 = $1.10 (stronger dollar)",
+      "value": 110,
+      "display": "$110",
+      "tone": "up"
+     },
+     {
+      "label": "€1 = $1.25 (weaker dollar)",
+      "value": 125,
+      "display": "$125",
+      "tone": "down"
+     }
+    ],
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   },
+   "say": "If a euro costs a dollar twenty-five, the same room costs one hundred and twenty-five. The stronger dollar saves you fifteen."
+  },
+  {
+   "who": "ticker",
+   "text": "A strong dollar also makes imports cheaper for Americans. But it makes American products pricier for buyers abroad.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Good for",
+     "name": "Wins",
+     "rows": [
+      "Americans traveling abroad",
+      "Buying imported goods",
+      "Paying for things priced in euros"
+     ]
+    },
+    "right": {
+     "tag": "Harder for",
+     "name": "Losses",
+     "rows": [
+      "U.S. companies selling abroad",
+      "Foreign tourists visiting the U.S.",
+      "Profits earned overseas"
+     ]
+    },
+    "reveal": 3,
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why big U.S. companies often say a strong dollar hurt their overseas sales.",
+   "scene": {
+    "type": "map",
+    "headline": "Felt [worldwide]",
+    "region": "world",
+    "label": "Currencies move every trading day",
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for World Money"
+   }
+  }
+ ]
+}

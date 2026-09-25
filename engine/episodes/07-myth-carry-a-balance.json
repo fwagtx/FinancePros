@@ -1,0 +1,103 @@
+{
+ "id": "07-myth-carry-a-balance",
+ "tag": "Money Myth",
+ "title": "Myth: you need to carry a balance to build credit",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: you have to carry a balance on your credit card to build credit.",
+   "scene": {
+    "type": "myth",
+    "group": "m",
+    "myth": "You have to carry a credit card balance to build credit.",
+    "fact": "Paying in full [still builds credit] and costs $0 in interest.",
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960,
+    "phase": "myth"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fact: paying your full statement balance every month still builds your credit, and it costs zero in interest.",
+   "scene": {
+    "type": "myth",
+    "group": "m",
+    "myth": "You have to carry a credit card balance to build credit.",
+    "fact": "Paying in full [still builds credit] and costs $0 in interest.",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960,
+    "phase": "fact"
+   },
+   "say": "Fact: paying your full statement balance every month still builds your credit. And it costs zero in interest."
+  },
+  {
+   "who": "ticker",
+   "text": "What builds your score is paying on time and keeping your balances low. Not paying interest.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "What actually builds credit",
+    "items": [
+     {
+      "h": "Pay [on time]",
+      "d": "Every bill, every month"
+     },
+     {
+      "h": "Keep balances [low]",
+      "d": "Compared with your limits"
+     },
+     {
+      "h": "Give it [time]",
+      "d": "A longer history helps"
+     }
+    ],
+    "reveal": 3,
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Carry a thousand dollars at 24% APR, and that's about twenty dollars of interest a month, for nothing.",
+   "scene": {
+    "type": "number",
+    "label": "$1,000 carried · 24% APR · 1 month",
+    "value": "$20",
+    "color": "down",
+    "expr": "worried",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "Paid for [zero] extra credit"
+   },
+   "say": "Carry a thousand dollars at twenty-four percent A P R, and that's about twenty dollars of interest a month. For nothing."
+  },
+  {
+   "who": "ticker",
+   "text": "So use the card, pay the statement balance in full, and let your score grow for free.",
+   "scene": {
+    "type": "title",
+    "headline": "Use it. Pay it [in full]. Repeat.",
+    "size": 110,
+    "expr": "up",
+    "tk": "dock",
+    "sub": "Your score grows for free",
+    "pose": "thumb"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for more money myths"
+   }
+  }
+ ]
+}

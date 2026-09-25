@@ -1,0 +1,122 @@
+{
+ "id": "15-dot-explains-stocks",
+ "tag": "Dot Explains",
+ "title": "What a stock actually is",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Everyone talks about stocks. But what are you actually buying? Dot?",
+   "scene": {
+    "type": "title",
+    "headline": "What is a [stock], really?",
+    "size": 112,
+    "expr": "think",
+    "tk": "dock",
+    "sub": "Dot explains · stocks"
+   }
+  },
+  {
+   "who": "dot",
+   "text": "A stock is a tiny piece of ownership in a company. Each piece is called a share.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "STOCK",
+    "def": "A tiny piece of [ownership] in a company.",
+    "example": "1 share = 1 slice of the company",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040,
+    "exampleAt": 2.8
+   }
+  },
+  {
+   "who": "dot",
+   "text": "If a company has a million shares and you own a hundred, you own one hundredth of one percent of it.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "STOCK",
+    "def": "A tiny piece of [ownership] in a company.",
+    "example": "1 share = 1 slice of the company",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 0.01%. Small, but it's real ownership.",
+   "scene": {
+    "type": "number",
+    "label": "100 shares of 1,000,000",
+    "value": "0.01%",
+    "color": "up",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "Small slice, [real] ownership"
+   },
+   "say": "That's zero point zero one percent. Small, but it's real ownership."
+  },
+  {
+   "who": "ticker",
+   "text": "The price moves with what buyers will pay, and that follows how the company is doing and what people expect next.",
+   "scene": {
+    "type": "title",
+    "headline": "Price = what buyers [will pay]",
+    "size": 106,
+    "expr": "think",
+    "tk": "dock",
+    "sub": "Driven by results and expectations"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some companies also share profits with owners. That's called a dividend.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "How owners can make money",
+    "items": [
+     {
+      "h": "Price goes [up]",
+      "d": "Sell for more than you paid"
+     },
+     {
+      "h": "[Dividends]",
+      "d": "Some companies pay owners cash"
+     }
+    ],
+    "reveal": 2,
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the price can fall too, even to zero. That's why most people spread their money across many companies.",
+   "scene": {
+    "type": "title",
+    "headline": "Prices can [fall] too",
+    "size": 110,
+    "expr": "worried",
+    "tk": "dock",
+    "sub": "Spreading out lowers the risk"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for more Dot Explains"
+   }
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "id": "18-money-school-paycheck",
+ "tag": "Money School · #4",
+ "title": "Where your paycheck goes before you see it",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your paycheck says one number. Your bank account gets a smaller one. Here's where the rest goes.",
+   "scene": {
+    "type": "title",
+    "headline": "Where your [paycheck] goes",
+    "size": 116,
+    "expr": "think",
+    "tk": "dock",
+    "sub": "Money School · lesson 4"
+   }
+  },
+  {
+   "who": "dot",
+   "text": "Gross pay is what you earn. Net pay is what actually lands in your account.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "NET PAY",
+    "def": "What's left [after] taxes and deductions.",
+    "example": "Gross pay − deductions = net pay",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040,
+    "exampleAt": 2.4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First up, Social Security and Medicare. Together they take 7.65% of most paychecks.",
+   "scene": {
+    "type": "number",
+    "label": "Social Security 6.2% + Medicare 1.45%",
+    "value": "7.65%",
+    "color": "down",
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "Taken from [most] paychecks"
+   },
+   "say": "First up, Social Security and Medicare. Together they take seven point six five percent of most paychecks."
+  },
+  {
+   "who": "ticker",
+   "text": "On four thousand dollars a month, that's three hundred and six dollars.",
+   "scene": {
+    "type": "number",
+    "label": "On $4,000 a month",
+    "value": "$306",
+    "color": "down",
+    "expr": "worried",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "$248 Social Security + $58 Medicare"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then federal income tax, state income tax in most states, and anything you signed up for, like health insurance or a 401k.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "Also taken out",
+    "items": [
+     {
+      "h": "Federal income tax",
+      "d": "Based on your W-4"
+     },
+     {
+      "h": "State income tax",
+      "d": "In most states"
+     },
+     {
+      "h": "Your choices",
+      "d": "Health insurance, 401(k)"
+     }
+    ],
+    "reveal": 3,
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 960
+   },
+   "say": "Then federal income tax, state income tax in most states, and anything you signed up for, like health insurance or a four oh one k."
+  },
+  {
+   "who": "ticker",
+   "text": "Tip: read your pay stub once. It shows every dollar, and it's how you catch mistakes.",
+   "scene": {
+    "type": "title",
+    "headline": "Read your [pay stub] once",
+    "size": 112,
+    "expr": "wink",
+    "tk": "dock",
+    "sub": "Every deduction is listed",
+    "pose": "thumb"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for Money School #5"
+   }
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "id": "17-myth-tax-bracket-raise",
+ "tag": "Money Myth",
+ "title": "Myth: a raise can make you take home less",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: a raise can bump you into a higher tax bracket and leave you with less money.",
+   "scene": {
+    "type": "myth",
+    "group": "m",
+    "myth": "A raise can push you into a higher tax bracket and shrink your pay.",
+    "fact": "Only the dollars [above the line] get the higher rate.",
+    "expr": "worried",
+    "tk": "dock",
+    "capTop": 960,
+    "phase": "myth"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fact: federal income tax brackets don't work that way. Only the dollars above each line get the higher rate.",
+   "scene": {
+    "type": "myth",
+    "group": "m",
+    "myth": "A raise can push you into a higher tax bracket and shrink your pay.",
+    "fact": "Only the dollars [above the line] get the higher rate.",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960,
+    "phase": "fact"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Simple example. Say the 22% bracket starts at fifty thousand, and you get a raise from forty-nine to fifty-one thousand.",
+   "scene": {
+    "type": "title",
+    "headline": "Raise: $49,000 → [$51,000]",
+    "size": 110,
+    "expr": "think",
+    "tk": "dock",
+    "sub": "Simplified example"
+   },
+   "say": "Simple example. Say the twenty-two percent bracket starts at fifty thousand, and you get a raise from forty-nine to fifty-one thousand."
+  },
+  {
+   "who": "ticker",
+   "text": "The first thousand of your raise is taxed at 12%. Only the thousand above the line is taxed at 22%.",
+   "scene": {
+    "type": "bars",
+    "title": "Tax on your $2,000 raise",
+    "bars": [
+     {
+      "label": "$1,000 below the line at 12%",
+      "value": 120,
+      "display": "$120",
+      "tone": "neutral"
+     },
+     {
+      "label": "$1,000 above the line at 22%",
+      "value": 220,
+      "display": "$220",
+      "tone": "down"
+     }
+    ],
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   },
+   "say": "The first thousand of your raise is taxed at twelve percent. Only the thousand above the line is taxed at twenty-two percent."
+  },
+  {
+   "who": "ticker",
+   "text": "That's three hundred forty dollars in federal income tax. You keep the rest of the two thousand dollar raise.",
+   "scene": {
+    "type": "number",
+    "label": "Extra federal income tax",
+    "value": "$340",
+    "color": "neutral",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "The rest of the $2,000 is [yours]"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So take the raise. Higher brackets only touch the top slice.",
+   "scene": {
+    "type": "title",
+    "headline": "Take the [raise]",
+    "size": 116,
+    "expr": "up",
+    "tk": "dock",
+    "sub": "Brackets only tax the top slice",
+    "pose": "thumb"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for more money myths"
+   }
+  }
+ ]
+}

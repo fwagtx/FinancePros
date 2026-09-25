@@ -1,0 +1,146 @@
+{
+ "id": "14-face-off-avalanche-vs-snowball",
+ "tag": "Face-off",
+ "title": "Paying off debt: avalanche vs snowball",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Two ways to crush debt: the avalanche and the snowball. Which one wins?",
+   "scene": {
+    "type": "title",
+    "headline": "Avalanche vs [snowball]",
+    "size": 116,
+    "expr": "think",
+    "tk": "dock",
+    "sub": "Debt payoff Face-off"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Both start the same. Pay the minimum on every debt, then throw every extra dollar at one target.",
+   "scene": {
+    "type": "title",
+    "headline": "Minimums on all. Extra on [one].",
+    "size": 108,
+    "expr": "neutral",
+    "tk": "dock",
+    "sub": "Both methods start here"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The avalanche targets the highest interest rate first. The snowball targets the smallest balance first.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Highest rate first",
+     "name": "Avalanche",
+     "rows": [
+      "Targets the highest APR",
+      "Pays the least interest",
+      "Slower first win"
+     ]
+    },
+    "right": {
+     "tag": "Smallest balance first",
+     "name": "Snowball",
+     "rows": [
+      "Targets the smallest debt",
+      "Quick wins, fast",
+      "Can cost more interest"
+     ]
+    },
+    "reveal": 1,
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The avalanche saves you the most money, because the most expensive debt dies first.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Highest rate first",
+     "name": "Avalanche",
+     "rows": [
+      "Targets the highest APR",
+      "Pays the least interest",
+      "Slower first win"
+     ]
+    },
+    "right": {
+     "tag": "Smallest balance first",
+     "name": "Snowball",
+     "rows": [
+      "Targets the smallest debt",
+      "Quick wins, fast",
+      "Can cost more interest"
+     ]
+    },
+    "reveal": 2,
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The snowball gives you quick wins that keep you going. And sticking with it is half the battle.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Highest rate first",
+     "name": "Avalanche",
+     "rows": [
+      "Targets the highest APR",
+      "Pays the least interest",
+      "Slower first win"
+     ]
+    },
+    "right": {
+     "tag": "Smallest balance first",
+     "name": "Snowball",
+     "rows": [
+      "Targets the smallest debt",
+      "Quick wins, fast",
+      "Can cost more interest"
+     ]
+    },
+    "reveal": 3,
+    "expr": "wink",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The real winner? Whichever one you'll actually stick with. Both beat paying only the minimums.",
+   "scene": {
+    "type": "title",
+    "headline": "The winner: the one you [stick with]",
+    "size": 104,
+    "expr": "up",
+    "tk": "dock",
+    "sub": "Both beat minimum payments",
+    "pose": "thumb"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for the next Face-off"
+   }
+  }
+ ]
+}

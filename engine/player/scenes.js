@@ -128,7 +128,7 @@ R.vs = function (d, lt, st) {
     });
     return '<div class="card" style="position:absolute;left:' + x + 'px;top:300px;width:450px;padding:30px 32px 16px">' +
       '<div class="chip" style="background:' + accent + ';color:#0A0F2E">' + esc(c.tag) + '</div>' +
-      '<div class="hd" style="font-size:72px;margin:18px 0 14px">' + esc(c.name) + '</div>' + rows + '</div>';
+      '<div class="hd" style="font-size:' + (c.name.length > 9 ? 50 : c.name.length > 7 ? 58 : 72) + 'px;margin:18px 0 14px;white-space:nowrap">' + esc(c.name) + '</div>' + rows + '</div>';
   }
   var vp = easeBack(prog(lt, 0.1, 0.4));
   return col(d.left, 60, '#9DB4FF') + col(d.right, 570, '#2BD98A') +
@@ -226,7 +226,7 @@ R.map = function (d, lt) {
            '<circle cx="' + cx + '" cy="' + cy + '" r="12" fill="#fff" opacity="' + prog(lt, 0.5, 0.2) + '"/>'; }
   var hp = prog(lt, 0.05, 0.4);
   return '<div class="abs hd" style="left:70px;top:290px;width:920px;font-size:84px;opacity:' + hp + ';transform:translateY(' + (1 - hp) * 20 + 'px)">' + hlt(d.headline || '') + '</div>' +
-    '<div class="abs card" style="left:60px;top:' + (d.headline && d.headline.length > 22 ? 520 : 430) + 'px;width:960px;padding:24px 0 18px">' +
+    '<div class="abs card" style="left:60px;top:' + (d.headline && d.headline.length > 18 ? 520 : 430) + 'px;width:960px;padding:24px 0 18px">' +
     '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '"><defs><filter id="mg"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#mg)">' + dots + '</g>' + ring + '</svg>' +
     (d.label ? '<div class="chip" style="margin:10px 0 0 30px;background:#2BD98A;color:#0A0F2E">' + esc(d.label) + '</div>' : '') + '</div>';
 };

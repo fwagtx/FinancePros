@@ -1,0 +1,136 @@
+{
+ "id": "11-scam-alert-gift-cards",
+ "tag": "Scam Alert",
+ "title": "The payment method only scammers ask for",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "If anyone asks you to pay with a gift card, stop. It's a scam.",
+   "scene": {
+    "type": "title",
+    "headline": "Asked to pay by [gift card]? Stop.",
+    "size": 108,
+    "expr": "shock",
+    "tk": "dock",
+    "sub": "Scam Alert"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Federal Trade Commission says it plainly: anyone who demands payment by gift card is a scammer.",
+   "scene": {
+    "type": "title",
+    "headline": "Gift card demand = [scammer]",
+    "size": 108,
+    "expr": "worried",
+    "tk": "dock",
+    "sub": "Per the Federal Trade Commission"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Watch for the three red flags.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "The 3 red flags",
+    "items": [
+     {
+      "h": "[Rush]",
+      "d": "\"Pay now or you'll be arrested\""
+     },
+     {
+      "h": "[Strange payment]",
+      "d": "Gift cards, wire transfers, crypto"
+     },
+     {
+      "h": "[Secrecy]",
+      "d": "\"Don't tell anyone, don't hang up\""
+     }
+    ],
+    "reveal": 1,
+    "expr": "worried",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pressure to act right now. A strange way to pay, like gift cards, wires, or crypto. And being told to keep it secret.",
+   "scene": {
+    "type": "list",
+    "group": "l",
+    "title": "The 3 red flags",
+    "items": [
+     {
+      "h": "[Rush]",
+      "d": "\"Pay now or you'll be arrested\""
+     },
+     {
+      "h": "[Strange payment]",
+      "d": "Gift cards, wire transfers, crypto"
+     },
+     {
+      "h": "[Secrecy]",
+      "d": "\"Don't tell anyone, don't hang up\""
+     }
+    ],
+    "reveal": 3,
+    "expr": "worried",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real agencies like the IRS don't call demanding gift cards.",
+   "scene": {
+    "type": "title",
+    "headline": "The IRS doesn't want [gift cards]",
+    "size": 108,
+    "expr": "think",
+    "tk": "dock",
+    "pose": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So hang up, call the company back using a number you look up yourself, and report it at report fraud dot f t c dot gov.",
+   "scene": {
+    "type": "steps",
+    "group": "w",
+    "title": "What to do",
+    "items": [
+     {
+      "h": "Hang up",
+      "d": "Don't argue, don't pay"
+     },
+     {
+      "h": "Call back [yourself]",
+      "d": "Use a number you look up"
+     },
+     {
+      "h": "Report it",
+      "d": "ReportFraud.ftc.gov"
+     }
+    ],
+    "reveal": 3,
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Share this with someone you love"
+   }
+  }
+ ]
+}

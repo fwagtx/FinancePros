@@ -1,0 +1,111 @@
+{
+ "id": "12-world-tariffs",
+ "tag": "World Money",
+ "title": "Tariffs: who actually pays?",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Tariffs are in the news a lot. So who actually pays them?",
+   "scene": {
+    "type": "title",
+    "headline": "Tariffs: who [actually pays]?",
+    "size": 116,
+    "expr": "think",
+    "tk": "dock",
+    "sub": "World Money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A tariff is a tax on goods brought in from another country.",
+   "scene": {
+    "type": "map",
+    "headline": "A tax on [imports]",
+    "region": "world",
+    "label": "Charged at the border",
+    "expr": "neutral",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's paid by the company importing the goods, to its own government. In the U.S., to Customs.",
+   "scene": {
+    "type": "title",
+    "headline": "The [importer] pays it",
+    "size": 110,
+    "expr": "neutral",
+    "tk": "dock",
+    "sub": "To U.S. Customs and Border Protection"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say a store imports a hundred dollar item with a 25% tariff. The store owes twenty-five dollars at the border.",
+   "scene": {
+    "type": "number",
+    "label": "$100 import · 25% tariff",
+    "value": "$25",
+    "color": "down",
+    "expr": "worried",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "Paid by the [U.S. importer]"
+   },
+   "say": "Say a store imports a one hundred dollar item with a twenty-five percent tariff. The store owes twenty-five dollars at the border."
+  },
+  {
+   "who": "ticker",
+   "text": "The store can absorb that cost, or pass some of it on to shoppers through higher prices.",
+   "scene": {
+    "type": "vs",
+    "group": "v",
+    "left": {
+     "tag": "Option A",
+     "name": "Absorb",
+     "rows": [
+      "Store keeps prices",
+      "Its profit shrinks"
+     ]
+    },
+    "right": {
+     "tag": "Option B",
+     "name": "Pass on",
+     "rows": [
+      "Prices go up",
+      "Shoppers pay more"
+     ]
+    },
+    "reveal": 2,
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Studies of the 2018 and 2019 U.S. tariffs found most of the cost landed on American buyers, not foreign sellers.",
+   "scene": {
+    "type": "title",
+    "headline": "2018–19: most costs landed [at home]",
+    "size": 104,
+    "expr": "down",
+    "tk": "dock",
+    "sub": "Economic studies of the U.S. tariffs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for World Money"
+   }
+  }
+ ]
+}

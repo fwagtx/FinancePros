@@ -1,0 +1,112 @@
+{
+ "id": "09-dot-explains-net-worth",
+ "tag": "Dot Explains",
+ "title": "Net worth: the one number that sums up your money",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "There's one number that sums up your whole financial life. Dot, what is it?",
+   "scene": {
+    "type": "title",
+    "headline": "The [one number] that sums up your money",
+    "size": 104,
+    "expr": "think",
+    "tk": "dock",
+    "sub": "Dot explains · net worth"
+   }
+  },
+  {
+   "who": "dot",
+   "text": "It's your net worth. Everything you own, minus everything you owe.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "NET WORTH",
+    "def": "What you [own], minus what you owe.",
+    "example": "Assets − debts = net worth",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040,
+    "exampleAt": 2.6
+   }
+  },
+  {
+   "who": "dot",
+   "text": "Say you have eight thousand dollars in savings and a car worth twelve thousand.",
+   "scene": {
+    "type": "term",
+    "group": "t",
+    "term": "NET WORTH",
+    "def": "What you [own], minus what you owe.",
+    "example": "Assets − debts = net worth",
+    "tk": "off",
+    "dot": true,
+    "capTop": 1040
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's twenty thousand in assets. Now subtract fifteen thousand in student loans and three thousand on a card.",
+   "scene": {
+    "type": "bars",
+    "title": "Example: what you own vs what you owe",
+    "bars": [
+     {
+      "label": "Own: savings + car",
+      "value": 20000,
+      "display": "$20,000",
+      "tone": "up"
+     },
+     {
+      "label": "Owe: loans + card",
+      "value": 18000,
+      "display": "$18,000",
+      "tone": "down"
+     }
+    ],
+    "expr": "think",
+    "tk": "dock",
+    "capTop": 960
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your net worth is two thousand dollars.",
+   "scene": {
+    "type": "number",
+    "label": "Your net worth",
+    "value": "$2,000",
+    "color": "up",
+    "expr": "up",
+    "tk": "dock",
+    "capTop": 950,
+    "note": "$20,000 owned − $18,000 owed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if it's negative right now? That's common early on. What matters is that it climbs over time.",
+   "scene": {
+    "type": "title",
+    "headline": "Negative? [Normal] early on.",
+    "size": 110,
+    "expr": "wink",
+    "tk": "dock",
+    "sub": "Watch the trend, not the snapshot",
+    "pose": "thumb"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. See you at the next bell.",
+   "scene": {
+    "type": "outro",
+    "expr": "wink",
+    "pose": "present",
+    "tk": "big",
+    "nocap": true,
+    "cta": "Follow for more Dot Explains"
+   }
+  }
+ ]
+}
