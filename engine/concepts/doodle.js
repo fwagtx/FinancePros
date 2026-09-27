@@ -29,7 +29,14 @@ function roughLoop(cx, cy, rx, ry, seed, turns) {   // marker circle that oversh
 function text(x, y, s, o) {
   o = o || {};
   var fam = { hand: 'Patrick Hand', serif: 'Baskerville', marker: 'Marker', chalk: 'Patrick Hand', kalam: 'Kalam' }[o.font || 'hand'];
-  var lines = String(s).split('\n'), lh = (o.size || 60) * (o.lh || 1.05), out = '';
+  var lines = String(s).split('\n'), out = '';
+  if (o.maxW) {   // shrink to fit, measured with the real font
+    var cv = text._cv || (text._cv = document.createElement('canvas').getContext('2d')), sz = o.size || 60;
+    cv.font = (o.weight || 400) + ' ' + sz + 'px "' + fam + '"';
+    var wmax = Math.max.apply(null, lines.map(function (l) { return cv.measureText(l.replace(/[\[\]]/g, '')).width; }));
+    if (wmax > o.maxW) o = Object.assign({}, o, { size: Math.floor(sz * o.maxW / wmax) });
+  }
+  var lh = (o.size || 60) * (o.lh || 1.05);
   lines.forEach(function (ln, i) {
     out += '<text x="' + x + '" y="' + f1(y + i * lh) + '" font-family="' + fam + '" font-size="' + (o.size || 60) + '"' +
       (o.weight ? ' font-weight="' + o.weight + '"' : '') + ' fill="' + (o.color || INK) + '" text-anchor="' + (o.anchor || 'middle') + '"' +

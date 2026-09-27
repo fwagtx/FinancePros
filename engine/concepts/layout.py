@@ -78,7 +78,7 @@ class Frame:
         size = size or (96 if self.v else 96)
         ls, sz = fit(text, self.w, max_lines, size, 44, k)
         y = y if y is not None else self.box[1] + sz
-        return [T(self.cx, y + i * sz * 1.12, ln, sz, font="serif", weight=700, **kw) for i, ln in enumerate(ls)], y + len(ls) * sz * 1.12
+        return [T(self.cx, y + i * sz * 1.12, ln, sz, font="serif", weight=700, maxW=self.w, **kw) for i, ln in enumerate(ls)], y + len(ls) * sz * 1.12
 
 
 def prop_items(kind, x, y, scale=1.0, label=None, value=None):
@@ -165,7 +165,7 @@ def layout_line(F, sc, st, step):
         items += ti
         cy = (yb + F.box[3]) / 2 + 20
         items += [dict(i, at=0.4) for i in prop_items(sc.get("prop", "none"), F.cx, cy, 1.25 if F.v else 1.3, sc.get("label"))]
-        if sc.get("value"): items.append(dict(k="text", x=F.cx, y=min(F.box[3], cy + 330), text=sc["value"], size=130 if F.v else 150, font="marker", color=RED, at=1.4))
+        if sc.get("value"): items.append(dict(k="text", x=F.cx, y=min(F.box[3], cy + 330), text=sc["value"], size=130 if F.v else 150, font="marker", color=RED, at=1.4, maxW=F.w))
         items += F.host_item(mood or "shock", "pointleft")
     elif t == "board":
         bx, by = F.box[0] - 10, top + 40; bw = F.w + 10 - (0 if F.host else 0); bh = 440 if F.v else 560
@@ -187,9 +187,9 @@ def layout_line(F, sc, st, step):
         for side, d, x, a in (("l", L, xl, 0.3), ("r", R, xr, 1.2)):
             items.append(dict(k="rect", id="card_" + side, x=round(x - F.w * 0.22), y=round(cy - 230), w=round(F.w * 0.44), h=460, fill="#fff", at=a))
             ls, sz = fit(d.get("label", ""), F.w * 0.4, 2, 50, 34, 0.45)
-            for i, ln in enumerate(ls): items.append(T(x, cy - 170 + i * sz * 1.1, ln, sz, at=a))
+            for i, ln in enumerate(ls): items.append(T(x, cy - 170 + i * sz * 1.1, ln, sz, at=a, maxW=round(F.w * 0.4)))
             vs = fit(d.get("value", ""), F.w * 0.4, 1, 110, 50, 0.64)[1]
-            items.append(T(x, cy + 90, d.get("value", ""), vs, font="serif", weight=700, color=col(d.get("tone")), at=a + 0.2))
+            items.append(T(x, cy + 90, d.get("value", ""), vs, font="serif", weight=700, color=col(d.get("tone")), at=a + 0.2, maxW=round(F.w * 0.4)))
             if d.get("sub"): items.append(T(x, cy + 170, d["sub"], 38, color="#555", at=a + 0.3))
         items.append(dict(k="text", x=round(F.cx), y=round(cy - 250), text="vs", size=70, font="marker", color=RED, at=0.9))
         st["compare"] = (xl, xr, cy)
@@ -205,7 +205,7 @@ def layout_line(F, sc, st, step):
             ls, sz = fit(sc["label"], F.w, 2, 76, 40, 0.48)
             for i, ln in enumerate(ls): items.append(T(F.cx, top + 90 + i * sz * 1.15, ln, sz))
         vsz = fit(sc.get("value", ""), F.w, 1, 230 if F.v else 250, 90, 0.58)[1]
-        items.append(dict(k="text", x=round(F.cx), y=round(cy + vsz * 0.3), text=sc.get("value", ""), size=vsz, font="serif", weight=700,
+        items.append(dict(k="text", x=round(F.cx), y=round(cy + vsz * 0.3), text=sc.get("value", ""), size=vsz, font="serif", weight=700, maxW=round(F.w - 40),
                           color=GREEN if sc.get("tone") == "up" else RED if sc.get("tone") == "down" else "#111", at=0.3))
         items.append(dict(k="circle", x=round(F.cx), y=round(cy), rx=round(min(F.w * 0.48, len(sc.get("value", "")) * vsz * 0.33 + 40)), ry=round(vsz * 0.7), seed=6, at=1.1))
         if sc.get("sub"): items.append(T(F.cx, cy + vsz * 0.95, sc["sub"], 46 if F.v else 50, color="#555", at=1.4))

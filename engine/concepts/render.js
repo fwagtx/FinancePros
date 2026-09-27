@@ -13,7 +13,7 @@ const fs = require('fs'), path = require('path');
   const land = ep.format === 'landscape';
   const p = await b.newPage({ viewport: land ? { width: 1920, height: 1080 } : { width: 1080, height: 1920 } });
   await p.goto('file://' + path.join(__dirname, 'doodle.html'));
-  await p.evaluate(() => document.fonts.ready);
+  await p.evaluate(async () => { for (const f of ['400 40px "Patrick Hand"', '700 40px "Baskerville"', '400 40px "Baskerville"', '400 40px "Marker"', '700 40px "Kalam"', '400 40px "Kalam"']) await document.fonts.load(f); await document.fonts.ready; });
   await p.evaluate(([e, t]) => window.setup(e, t), [ep, tl]);
   const rf = ep.renderFps || tl.fps;   // long-form draws at 15 fps (hand-drawn look), stored at 30 fps
   const n = Math.round(tl.duration * rf);
