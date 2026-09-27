@@ -315,6 +315,18 @@ var KINDS = {
     return '<g transform="translate(' + o.x + ',' + o.y + ') scale(' + (o.s || 1) + ')">' + text(-80, 0, 'FinancePros', { size: 110, font: 'serif', weight: 700 }) +
       '<rect x="300" y="-92" width="130" height="84" rx="16" fill="' + BLUE + '" ' + K + '/>' + text(365, -32, 'TV', { size: 56, font: 'marker', color: '#fff' }) + '</g>';
   },
+  path: function (o) { return '<path d="' + o.d + '" fill="' + (o.fill || 'none') + '" ' + K + '/>'; },
+  card: function (o) {
+    var w = o.w || 520, h = w * 0.63, g = '<rect x="' + (-w / 2) + '" y="' + (-h / 2) + '" width="' + w + '" height="' + h + '" rx="' + w * 0.06 + '" fill="' + (o.fill || '#2B4C8C') + '" ' + K + '/>' +
+      '<rect x="' + (-w * 0.38) + '" y="' + (-h * 0.18) + '" width="' + w * 0.16 + '" height="' + h * 0.24 + '" rx="8" fill="#F2C230" ' + K + '/>' +
+      text(-w * 0.4, h * 0.3, o.num || '4000 1234 5678 9010', { size: w * 0.07, anchor: 'start', color: '#fff', font: 'kalam' }) +
+      (o.label ? text(w * 0.1, -h * 0.25, o.label, { size: w * 0.1, color: '#fff', font: 'marker' }) : '');
+    return '<g transform="translate(' + o.x + ',' + o.y + ') rotate(' + (o.rot || 0) + ')">' + g + '</g>';
+  },
+  row: function (o) {
+    return '<rect x="' + o.x + '" y="' + o.y + '" width="' + o.w + '" height="' + (o.h || 110) + '" rx="14" fill="' + (o.fill || '#fff') + '" ' + K + '/>' +
+      text(o.x + 30, o.y + (o.h || 110) * 0.64, o.a, { size: o.size || 50, anchor: 'start' }) + text(o.x + o.w - 30, o.y + (o.h || 110) * 0.64, o.b, { size: o.size || 50, anchor: 'end', font: 'marker', color: o.bc || INK });
+  },
   rect: function (o) { return '<rect x="' + o.x + '" y="' + o.y + '" width="' + o.w + '" height="' + o.h + '" rx="' + (o.r || 14) + '" fill="' + (o.fill || '#fff') + '" ' + K + '/>'; }
 };
 var DRAWN = { circle: 1, arrow: 1, cross: 1, under: 1 };
@@ -326,9 +338,9 @@ function setup(ep, tl) {
   document.body.style.width = W + 'px'; document.body.style.height = H + 'px';
   var art = document.getElementById('art'); art.setAttribute('width', W); art.setAttribute('height', H); art.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
   var hd = document.getElementById('head');
-  if (!LAND && ep.header) { hd.style.cssText = 'left:70px;width:940px;top:' + (ep.headTop || 190) + 'px;font-size:' + (ep.headSize || 74) + 'px'; hd.innerHTML = esc(ep.header).replace(/\n/g, '<br>'); }
+  if (!LAND && ep.header) { hd.style.cssText = 'left:60px;width:880px;top:' + (ep.headTop || 235) + 'px;font-size:' + (ep.headSize || 72) + 'px'; hd.innerHTML = esc(ep.header).replace(/\n/g, '<br>'); }
   var cap = document.getElementById('cap');
-  cap.style.cssText = LAND ? 'left:260px;width:1400px;top:955px;font-size:46px' : 'left:70px;width:940px;top:' + (ep.capTop || 1395) + 'px;font-size:' + (ep.capSize || 66) + 'px';
+  cap.style.cssText = LAND ? 'left:260px;width:1400px;top:955px;font-size:46px' : 'left:60px;width:880px;top:' + (ep.capTop || 1290) + 'px;font-size:' + (ep.capSize || 62) + 'px';
   if (ep.captions === false) cap.style.display = 'none';
   SCENES = []; var cur = null;
   TL.lines.forEach(function (ln, i) {
@@ -378,7 +390,9 @@ function render(t) {
   });
   var cam = sc.cam || [1, 1.035], z = cam[0] + (cam[1] - cam[0]) * ease(clamp(lt / 6, 0, 1));
   var g = document.getElementById('g');
-  g.setAttribute('transform', 'translate(' + W / 2 + ',' + H * 0.45 + ') scale(' + z + ') translate(' + (-W / 2) + ',' + (-H * 0.45) + ')');
+  // vertical: keep the drawing inside the TikTok / Reels / Shorts safe zone (clear of the top tabs, the right-hand buttons and the bottom caption)
+  var safe = (!LAND && EP.safe !== false) ? 'translate(60,405) scale(0.9) translate(-60,-430) ' : '';
+  g.setAttribute('transform', safe + 'translate(' + W / 2 + ',' + H * 0.45 + ') scale(' + z + ') translate(' + (-W / 2) + ',' + (-H * 0.45) + ')');
   g.innerHTML = out;
   // captions: short chunks, current word in red
   var cap = document.getElementById('cap'), html = '';

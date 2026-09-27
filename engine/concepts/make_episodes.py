@@ -162,6 +162,126 @@ C1 = {"id": "C1-countries-tariffs", "format": "vertical", "music": "lofi", "head
         dict(k="country", name="china", x=780, y=1150, w=300, color="#E4572E", look=[-0.5, 0], talk=False, at=0.4)]),
 ]}
 
-for ep in (A1, A2, B1, C1):
+# ======================= D1: Scam alert (Paper Ticker) =======================
+D1 = {"id": "D1-scam-alert-gift-cards", "format": "vertical", "music": "lofi", "header": "The payment only\nscammers ask for", "lines": [
+    L("If anyone asks you to pay with a gift card, stop. It's a scam.", "g1", [
+        dict(k="rect", x=120, y=640, w=480, h=300, fill="#FFD23F"), dict(k="text", x=360, y=770, text="GIFT CARD", size=70, font="marker"),
+        dict(k="text", x=360, y=860, text="$500", size=64, font="serif", weight=700),
+        dict(k="cross", x=360, y=790, w=420, h=260, at=2.0),
+        dict(k="ticker", id="tk", x=850, y=1340, s=0.95, pose="pointleft", mood="shock", at=0.3)]),
+    L("The Federal Trade Commission says it plainly. Anyone who demands payment by gift card is a scammer.", "g2", [
+        dict(k="board", x=80, y=560, w=700, h=420, lines=[{"t": "Demands a gift card?", "size": 70}, {"t": "= SCAMMER", "size": 110}], write=3.2),
+        dict(k="ticker", id="tk", x=880, y=1340, s=0.95, pose="pointleft", stick=[-300, -470], mood="angry")]),
+    L("Watch for three red flags. One: pressure to pay right now.", "g3", [
+        dict(k="text", x=110, y=600, text="3 red flags", size=90, font="serif", weight=700, anchor="start"),
+        dict(k="text", x=110, y=760, text="1. \"Pay NOW or else!\"", size=64, anchor="start", color="#E0241B", at=2.2),
+        dict(k="ticker", id="tk", x=880, y=1340, s=0.85, pose="think", mood="worried")]),
+    L("Two: a strange way to pay, like gift cards, wire transfers or crypto.", "g3", [
+        dict(k="text", x=110, y=890, text="2. Gift cards, wires, crypto", size=64, anchor="start", color="#E0241B", at=0.4)]),
+    L("Three: being told to keep it secret.", "g3", [
+        dict(k="text", x=110, y=1020, text="3. \"Don't tell anyone\"", size=64, anchor="start", color="#E0241B", at=0.3), dict(k="ticker", id="tk", mood="shock")]),
+    L("So hang up, call back using a number you look up yourself, and report it at report fraud dot f t c dot gov.", "g4", [
+        dict(k="bubble", x=360, y=690, w=440, h=200, text="*click*", size=72),
+        dict(k="text", x=400, y=1000, text="Report it:", size=64, at=2.2), dict(k="text", x=400, y=1090, text="ReportFraud.ftc.gov", size=58, font="serif", weight=700, at=2.6),
+        dict(k="under", x1=110, x2=690, y=1112, at=3.2),
+        dict(k="ticker", id="tk", x=900, y=1340, s=0.8, pose="hips", mood="happy")]),
+    L("Share this with someone who needs it.", "end", [
+        dict(k="logo", x=540, y=620, s=1.0), T(540, 720, "money news + money basics, drawn simply", 44, at=0.4),
+        dict(k="ticker", id="tk", x=540, y=1340, s=1.05, pose="wave", mood="up", at=0.2)]),
+]}
+
+# ======================= E1: Myth, checking your score =======================
+E1 = {"id": "E1-myth-checking-score", "format": "vertical", "music": "lofi", "header": "Does checking your credit\nscore hurt it?", "lines": [
+    L("Myth: checking your own credit score lowers it.", "g1", [
+        dict(k="rect", x=160, y=620, w=520, h=330, fill="#fff"), T(420, 700, "your credit score", 48),
+        dict(k="text", x=420, y=880, text="742", size=170, font="serif", weight=700, color="#2E9A45"),
+        dict(k="text", x=460, y=1110, text="MYTH", size=120, font="marker", color="#E0241B", rot=-8, at=1.0),
+        dict(k="ticker", id="tk", x=880, y=1340, s=0.9, pose="pointleft", mood="worried")]),
+    L("Fact: checking your own score is a soft inquiry. It has zero effect.", "g1", [
+        dict(k="cross", x=460, y=1080, w=360, h=150, at=0.3), dict(k="text", x=440, y=1250, text="soft check = no effect", size=62, color="#2E9A45", at=1.0),
+        dict(k="ticker", id="tk", mood="up")]),
+    L("What can dip it a little is a hard inquiry. That's when you apply for a new card or a loan.", "g2", [
+        dict(k="rect", x=90, y=600, w=420, h=560, fill="#EAF6EC"), T(300, 690, "You check", 60), T(300, 760, "your own score", 48),
+        dict(k="text", x=300, y=980, text="0", size=200, font="serif", weight=700, color="#2E9A45"), T(300, 1100, "no effect", 52),
+        dict(k="rect", x=570, y=600, w=420, h=560, fill="#FDECEA", at=1.4), dict(k="text", x=780, y=690, text="You apply", size=60, at=1.5), dict(k="text", x=780, y=760, text="for new credit", size=48, at=1.5),
+        dict(k="arrow", x1=780, y1=840, x2=780, y2=1010, bend=0.1, at=2.0), dict(k="text", x=780, y=1100, text="small dip", size=52, color="#E0241B", at=2.4)]),
+    L("And you can see your credit reports from all three bureaus, free, every week, at annual credit report dot com.", "g3", [
+        dict(k="board", x=80, y=560, w=700, h=420, lines=[{"t": "Free reports,", "size": 80}, {"t": "every week", "size": 80}, {"t": "AnnualCreditReport.com", "size": 58}], write=4.0),
+        dict(k="ticker", id="tk", x=880, y=1340, s=0.95, pose="pointleft", stick=[-300, -470], mood="happy")]),
+    L("Check often. Catching a mistake early is how you protect your score.", "g4", [
+        dict(k="text", x=540, y=760, text="Check often.", size=110, font="serif", weight=700), dict(k="under", x1=220, x2=860, y=800, at=0.8),
+        dict(k="ticker", id="tk", x=540, y=1340, s=1.05, pose="cheer", mood="up")]),
+    L("That's the money. Follow for more.", "end", [
+        dict(k="logo", x=540, y=620, s=1.0), T(540, 720, "money news + money basics, drawn simply", 44, at=0.4),
+        dict(k="ticker", id="tk", x=540, y=1340, s=1.05, pose="wave", mood="up", at=0.2)]),
+]}
+
+# ======================= F1: APR =======================
+bal, b = [], 1000.0
+for m in range(83):
+    bal.append([m, round(max(b, 0))]); b = b * 1.02 - 25
+chF = dict(k="chart", x=150, y=620, w=640, h=520, data=bal, numeric=True, max=1100, title="$1,000 at 24% APR, paying $25 a month", titleSize=38,
+           xl=[[0, "month 0"], [40, "40"], [82, "82"]], yl=[[1000, "$1,000"], [500, "$500"]], end="82 months", endDx=-70, endDy=-150, endSize=56, draw=3.0, dot=True)
+F1 = {"id": "F1-apr-explained", "format": "vertical", "music": "lofi", "header": "APR: the 3 letters that\ncan double your debt", "lines": [
+    L("Three letters on your credit card can almost double what you owe. A, P, R.", "g1", [
+        dict(k="card", x=400, y=820, w=560, rot=-6, label="APR 24%"),
+        dict(k="circle", x=460, y=720, rx=190, ry=80, seed=5, at=2.2),
+        dict(k="ticker", id="tk", x=880, y=1340, s=0.9, pose="pointleft", mood="shock", at=0.3)],
+      say="Three letters on your credit card can almost double what you owe. A. P. R."),
+    L("APR is the yearly price of borrowing. 24% a year works out to about 2% every month.", "g2", [
+        dict(k="board", x=80, y=560, w=700, h=420, lines=[{"t": "APR = yearly price", "size": 72}, {"t": "of borrowing", "size": 72}, {"t": "24%/yr ≈ 2%/month", "size": 72}], write=4.0),
+        dict(k="ticker", id="tk", x=880, y=1340, s=0.95, pose="pointleft", stick=[-300, -470], mood="happy")],
+      say="A P R is the yearly price of borrowing. Twenty-four percent a year works out to about two percent every month."),
+    L("Owe a thousand dollars, and that's about 20 dollars of interest in one month.", "g3", [
+        dict(k="bill", x=330, y=760, w=460, rot=-5, label="$1,000"), dict(k="arrow", x1=330, y1=920, x2=330, y2=1060, bend=0.1, at=1.0),
+        dict(k="text", x=330, y=1170, text="≈ $20 a month", size=80, font="marker", color="#E0241B", at=1.5),
+        dict(k="ticker", id="tk", x=860, y=1340, s=0.9, pose="shrug", mood="worried")],
+      say="Owe a thousand dollars, and that's about twenty dollars of interest in one month."),
+    L("Pay only 25 dollars a month, and it takes 82 months to clear. Almost seven years.", "g4", [
+        chF, dict(k="ticker", id="tk", x=950, y=1340, s=0.7, pose="pointleft", mood="shock", at=0.5)],
+      say="Pay only twenty-five dollars a month, and it takes eighty-two months to clear. Almost seven years."),
+    L("You'd pay about 2,032 dollars in total. Over a thousand of that is interest.", "g5", [
+        dict(k="bag", x=300, y=1000, s=1.1, label="$1,000"), T(300, 1140, "what you borrowed", 46),
+        dict(k="bag", x=720, y=1000, s=1.35, label="$1,032", at=0.9), dict(k="text", x=720, y=1170, text="interest", size=56, color="#E0241B", at=1.1),
+        dict(k="text", x=510, y=680, text="Total paid: $2,032", size=80, font="serif", weight=700, at=1.8)],
+      say="You'd pay about two thousand and thirty-two dollars in total. Over a thousand of that is interest."),
+    L("The fix: pay your full statement balance on time, and most cards charge no interest on purchases.", "g6", [
+        dict(k="text", x=540, y=620, text="Pay in full,", size=96, font="serif", weight=700), dict(k="text", x=540, y=735, text="on time.", size=96, font="serif", weight=700, at=0.5),
+        dict(k="text", x=540, y=840, text="no interest on purchases*", size=54, color="#2E9A45", at=2.0), T(540, 900, "*on most cards", 36, color="#666", at=2.2),
+        dict(k="ticker", id="tk", x=540, y=1350, s=0.8, pose="cheer", mood="up")]),
+    L("That's the money. Follow for more.", "end", [
+        dict(k="logo", x=540, y=620, s=1.0), T(540, 720, "money news + money basics, drawn simply", 44, at=0.4),
+        dict(k="ticker", id="tk", x=540, y=1340, s=1.05, pose="wave", mood="up", at=0.2)]),
+]}
+
+# ======================= G1: Avalanche vs snowball =======================
+MT = "M-230,0 L-60,-300 L0,-210 L90,-380 L260,0 Z"
+G1 = {"id": "G1-avalanche-vs-snowball", "format": "vertical", "music": "lofi", "header": "Avalanche vs snowball:\nwhich kills debt faster?", "lines": [
+    L("Two ways to crush debt. The avalanche, and the snowball.", "g1", [
+        dict(k="path", x=300, y=1000, d="M70,1000 L240,700 L300,790 L390,620 L560,1000 Z", fill="#E8EEF6"),
+        dict(k="path", x=300, y=700, d="M390,620 L340,720 L380,700 L420,740 L445,690 Z", fill="#fff"),
+        T(310, 1090, "avalanche", 64),
+        dict(k="circle", x=780, y=880, rx=130, ry=125, seed=2, color="#111", sw=7, at=0.9),
+        dict(k="text", x=780, y=1090, text="snowball", size=64, at=1.1)]),
+    L("Both start the same. Pay the minimum on every debt, then throw every extra dollar at one of them.", "g2", [
+        dict(k="text", x=110, y=600, text="Your debts", size=80, font="serif", weight=700, anchor="start"),
+        dict(k="row", x=110, y=660, w=820, a="Credit card: $2,000", b="24%", bc="#E0241B", at=0.3),
+        dict(k="row", x=110, y=800, w=820, a="Store card: $500", b="18%", at=0.5),
+        dict(k="row", x=110, y=940, w=820, a="Car loan: $6,000", b="7%", at=0.7),
+        T(520, 1150, "(example numbers)", 40, color="#666", at=1.0)]),
+    L("The avalanche goes after the highest interest rate first. It saves the most money.", "g2", [
+        dict(k="circle", x=860, y=715, rx=80, ry=55, seed=3, at=0.3), dict(k="text", x=800, y=620, text="avalanche", size=52, color="#E0241B", at=0.8)]),
+    L("The snowball goes after the smallest balance first. Quick wins keep you going.", "g2", [
+        dict(k="circle", x=420, y=855, rx=90, ry=55, seed=4, color="#2E9A45", at=0.3), dict(k="text", x=420, y=1240, text="snowball: quick win", size=56, color="#2E9A45", at=0.8)]),
+    L("The best one is the one you'll stick with. Both beat paying only the minimums.", "g3", [
+        dict(k="text", x=540, y=640, text="Pick one.", size=110, font="serif", weight=700), dict(k="text", x=540, y=760, text="Stick with it.", size=96, font="serif", weight=700, at=0.6),
+        dict(k="under", x1=250, x2=830, y=790, at=1.2),
+        dict(k="ticker", id="tk", x=540, y=1350, s=0.8, pose="cheer", mood="up")]),
+    L("That's the money. Follow for more.", "end", [
+        dict(k="logo", x=540, y=620, s=1.0), T(540, 720, "money news + money basics, drawn simply", 44, at=0.4),
+        dict(k="ticker", id="tk", x=540, y=1340, s=1.05, pose="wave", mood="up", at=0.2)]),
+]}
+
+for ep in (A1, A2, B1, C1, D1, E1, F1, G1):
     json.dump(ep, open(os.path.join(OUT, ep["id"] + ".json"), "w"), indent=1, ensure_ascii=False)
     print(ep["id"], len(ep["lines"]))

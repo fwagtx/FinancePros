@@ -1,0 +1,295 @@
+{
+ "id": "E1-myth-checking-score",
+ "format": "vertical",
+ "music": "lofi",
+ "header": "Does checking your credit\nscore hurt it?",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: checking your own credit score lowers it.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "rect",
+      "x": 160,
+      "y": 620,
+      "w": 520,
+      "h": 330,
+      "fill": "#fff"
+     },
+     {
+      "k": "text",
+      "x": 420,
+      "y": 700,
+      "text": "your credit score",
+      "size": 48
+     },
+     {
+      "k": "text",
+      "x": 420,
+      "y": 880,
+      "text": "742",
+      "size": 170,
+      "font": "serif",
+      "weight": 700,
+      "color": "#2E9A45"
+     },
+     {
+      "k": "text",
+      "x": 460,
+      "y": 1110,
+      "text": "MYTH",
+      "size": 120,
+      "font": "marker",
+      "color": "#E0241B",
+      "rot": -8,
+      "at": 1.0
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9,
+      "pose": "pointleft",
+      "mood": "worried"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fact: checking your own score is a soft inquiry. It has zero effect.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "cross",
+      "x": 460,
+      "y": 1080,
+      "w": 360,
+      "h": 150,
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 440,
+      "y": 1250,
+      "text": "soft check = no effect",
+      "size": 62,
+      "color": "#2E9A45",
+      "at": 1.0
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "mood": "up"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What can dip it a little is a hard inquiry. That's when you apply for a new card or a loan.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "rect",
+      "x": 90,
+      "y": 600,
+      "w": 420,
+      "h": 560,
+      "fill": "#EAF6EC"
+     },
+     {
+      "k": "text",
+      "x": 300,
+      "y": 690,
+      "text": "You check",
+      "size": 60
+     },
+     {
+      "k": "text",
+      "x": 300,
+      "y": 760,
+      "text": "your own score",
+      "size": 48
+     },
+     {
+      "k": "text",
+      "x": 300,
+      "y": 980,
+      "text": "0",
+      "size": 200,
+      "font": "serif",
+      "weight": 700,
+      "color": "#2E9A45"
+     },
+     {
+      "k": "text",
+      "x": 300,
+      "y": 1100,
+      "text": "no effect",
+      "size": 52
+     },
+     {
+      "k": "rect",
+      "x": 570,
+      "y": 600,
+      "w": 420,
+      "h": 560,
+      "fill": "#FDECEA",
+      "at": 1.4
+     },
+     {
+      "k": "text",
+      "x": 780,
+      "y": 690,
+      "text": "You apply",
+      "size": 60,
+      "at": 1.5
+     },
+     {
+      "k": "text",
+      "x": 780,
+      "y": 760,
+      "text": "for new credit",
+      "size": 48,
+      "at": 1.5
+     },
+     {
+      "k": "arrow",
+      "x1": 780,
+      "y1": 840,
+      "x2": 780,
+      "y2": 1010,
+      "bend": 0.1,
+      "at": 2.0
+     },
+     {
+      "k": "text",
+      "x": 780,
+      "y": 1100,
+      "text": "small dip",
+      "size": 52,
+      "color": "#E0241B",
+      "at": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And you can see your credit reports from all three bureaus, free, every week, at annual credit report dot com.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "board",
+      "x": 80,
+      "y": 560,
+      "w": 700,
+      "h": 420,
+      "lines": [
+       {
+        "t": "Free reports,",
+        "size": 80
+       },
+       {
+        "t": "every week",
+        "size": 80
+       },
+       {
+        "t": "AnnualCreditReport.com",
+        "size": 58
+       }
+      ],
+      "write": 4.0
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 880,
+      "y": 1340,
+      "s": 0.95,
+      "pose": "pointleft",
+      "stick": [
+       -300,
+       -470
+      ],
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Check often. Catching a mistake early is how you protect your score.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 760,
+      "text": "Check often.",
+      "size": 110,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "under",
+      "x1": 220,
+      "x2": 860,
+      "y": 800,
+      "at": 0.8
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 540,
+      "y": 1340,
+      "s": 1.05,
+      "pose": "cheer",
+      "mood": "up"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "scene": {
+    "group": "end",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 620,
+      "s": 1.0
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 720,
+      "text": "money news + money basics, drawn simply",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 540,
+      "y": 1340,
+      "s": 1.05,
+      "pose": "wave",
+      "mood": "up",
+      "at": 0.2
+     }
+    ]
+   }
+  }
+ ]
+}

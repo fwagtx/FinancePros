@@ -1,0 +1,670 @@
+{
+ "id": "F1-apr-explained",
+ "format": "vertical",
+ "music": "lofi",
+ "header": "APR: the 3 letters that\ncan double your debt",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Three letters on your credit card can almost double what you owe. A, P, R.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "card",
+      "x": 400,
+      "y": 820,
+      "w": 560,
+      "rot": -6,
+      "label": "APR 24%"
+     },
+     {
+      "k": "circle",
+      "x": 460,
+      "y": 720,
+      "rx": 190,
+      "ry": 80,
+      "seed": 5,
+      "at": 2.2
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9,
+      "pose": "pointleft",
+      "mood": "shock",
+      "at": 0.3
+     }
+    ]
+   },
+   "say": "Three letters on your credit card can almost double what you owe. A. P. R."
+  },
+  {
+   "who": "ticker",
+   "text": "APR is the yearly price of borrowing. 24% a year works out to about 2% every month.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "board",
+      "x": 80,
+      "y": 560,
+      "w": 700,
+      "h": 420,
+      "lines": [
+       {
+        "t": "APR = yearly price",
+        "size": 72
+       },
+       {
+        "t": "of borrowing",
+        "size": 72
+       },
+       {
+        "t": "24%/yr ≈ 2%/month",
+        "size": 72
+       }
+      ],
+      "write": 4.0
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 880,
+      "y": 1340,
+      "s": 0.95,
+      "pose": "pointleft",
+      "stick": [
+       -300,
+       -470
+      ],
+      "mood": "happy"
+     }
+    ]
+   },
+   "say": "A P R is the yearly price of borrowing. Twenty-four percent a year works out to about two percent every month."
+  },
+  {
+   "who": "ticker",
+   "text": "Owe a thousand dollars, and that's about 20 dollars of interest in one month.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "bill",
+      "x": 330,
+      "y": 760,
+      "w": 460,
+      "rot": -5,
+      "label": "$1,000"
+     },
+     {
+      "k": "arrow",
+      "x1": 330,
+      "y1": 920,
+      "x2": 330,
+      "y2": 1060,
+      "bend": 0.1,
+      "at": 1.0
+     },
+     {
+      "k": "text",
+      "x": 330,
+      "y": 1170,
+      "text": "≈ $20 a month",
+      "size": 80,
+      "font": "marker",
+      "color": "#E0241B",
+      "at": 1.5
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 860,
+      "y": 1340,
+      "s": 0.9,
+      "pose": "shrug",
+      "mood": "worried"
+     }
+    ]
+   },
+   "say": "Owe a thousand dollars, and that's about twenty dollars of interest in one month."
+  },
+  {
+   "who": "ticker",
+   "text": "Pay only 25 dollars a month, and it takes 82 months to clear. Almost seven years.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "chart",
+      "x": 150,
+      "y": 620,
+      "w": 640,
+      "h": 520,
+      "data": [
+       [
+        0,
+        1000
+       ],
+       [
+        1,
+        995
+       ],
+       [
+        2,
+        990
+       ],
+       [
+        3,
+        985
+       ],
+       [
+        4,
+        979
+       ],
+       [
+        5,
+        974
+       ],
+       [
+        6,
+        968
+       ],
+       [
+        7,
+        963
+       ],
+       [
+        8,
+        957
+       ],
+       [
+        9,
+        951
+       ],
+       [
+        10,
+        945
+       ],
+       [
+        11,
+        939
+       ],
+       [
+        12,
+        933
+       ],
+       [
+        13,
+        927
+       ],
+       [
+        14,
+        920
+       ],
+       [
+        15,
+        914
+       ],
+       [
+        16,
+        907
+       ],
+       [
+        17,
+        900
+       ],
+       [
+        18,
+        893
+       ],
+       [
+        19,
+        886
+       ],
+       [
+        20,
+        879
+       ],
+       [
+        21,
+        871
+       ],
+       [
+        22,
+        864
+       ],
+       [
+        23,
+        856
+       ],
+       [
+        24,
+        848
+       ],
+       [
+        25,
+        840
+       ],
+       [
+        26,
+        832
+       ],
+       [
+        27,
+        823
+       ],
+       [
+        28,
+        815
+       ],
+       [
+        29,
+        806
+       ],
+       [
+        30,
+        797
+       ],
+       [
+        31,
+        788
+       ],
+       [
+        32,
+        779
+       ],
+       [
+        33,
+        769
+       ],
+       [
+        34,
+        760
+       ],
+       [
+        35,
+        750
+       ],
+       [
+        36,
+        740
+       ],
+       [
+        37,
+        730
+       ],
+       [
+        38,
+        719
+       ],
+       [
+        39,
+        709
+       ],
+       [
+        40,
+        698
+       ],
+       [
+        41,
+        687
+       ],
+       [
+        42,
+        676
+       ],
+       [
+        43,
+        664
+       ],
+       [
+        44,
+        652
+       ],
+       [
+        45,
+        641
+       ],
+       [
+        46,
+        628
+       ],
+       [
+        47,
+        616
+       ],
+       [
+        48,
+        603
+       ],
+       [
+        49,
+        590
+       ],
+       [
+        50,
+        577
+       ],
+       [
+        51,
+        564
+       ],
+       [
+        52,
+        550
+       ],
+       [
+        53,
+        536
+       ],
+       [
+        54,
+        522
+       ],
+       [
+        55,
+        507
+       ],
+       [
+        56,
+        492
+       ],
+       [
+        57,
+        477
+       ],
+       [
+        58,
+        462
+       ],
+       [
+        59,
+        446
+       ],
+       [
+        60,
+        430
+       ],
+       [
+        61,
+        413
+       ],
+       [
+        62,
+        397
+       ],
+       [
+        63,
+        380
+       ],
+       [
+        64,
+        362
+       ],
+       [
+        65,
+        344
+       ],
+       [
+        66,
+        326
+       ],
+       [
+        67,
+        308
+       ],
+       [
+        68,
+        289
+       ],
+       [
+        69,
+        270
+       ],
+       [
+        70,
+        250
+       ],
+       [
+        71,
+        230
+       ],
+       [
+        72,
+        210
+       ],
+       [
+        73,
+        189
+       ],
+       [
+        74,
+        168
+       ],
+       [
+        75,
+        146
+       ],
+       [
+        76,
+        124
+       ],
+       [
+        77,
+        101
+       ],
+       [
+        78,
+        78
+       ],
+       [
+        79,
+        55
+       ],
+       [
+        80,
+        31
+       ],
+       [
+        81,
+        7
+       ],
+       [
+        82,
+        0
+       ]
+      ],
+      "numeric": true,
+      "max": 1100,
+      "title": "$1,000 at 24% APR, paying $25 a month",
+      "titleSize": 38,
+      "xl": [
+       [
+        0,
+        "month 0"
+       ],
+       [
+        40,
+        "40"
+       ],
+       [
+        82,
+        "82"
+       ]
+      ],
+      "yl": [
+       [
+        1000,
+        "$1,000"
+       ],
+       [
+        500,
+        "$500"
+       ]
+      ],
+      "end": "82 months",
+      "endDx": -70,
+      "endDy": -150,
+      "endSize": 56,
+      "draw": 3.0,
+      "dot": true
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 950,
+      "y": 1340,
+      "s": 0.7,
+      "pose": "pointleft",
+      "mood": "shock",
+      "at": 0.5
+     }
+    ]
+   },
+   "say": "Pay only twenty-five dollars a month, and it takes eighty-two months to clear. Almost seven years."
+  },
+  {
+   "who": "ticker",
+   "text": "You'd pay about 2,032 dollars in total. Over a thousand of that is interest.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "bag",
+      "x": 300,
+      "y": 1000,
+      "s": 1.1,
+      "label": "$1,000"
+     },
+     {
+      "k": "text",
+      "x": 300,
+      "y": 1140,
+      "text": "what you borrowed",
+      "size": 46
+     },
+     {
+      "k": "bag",
+      "x": 720,
+      "y": 1000,
+      "s": 1.35,
+      "label": "$1,032",
+      "at": 0.9
+     },
+     {
+      "k": "text",
+      "x": 720,
+      "y": 1170,
+      "text": "interest",
+      "size": 56,
+      "color": "#E0241B",
+      "at": 1.1
+     },
+     {
+      "k": "text",
+      "x": 510,
+      "y": 680,
+      "text": "Total paid: $2,032",
+      "size": 80,
+      "font": "serif",
+      "weight": 700,
+      "at": 1.8
+     }
+    ]
+   },
+   "say": "You'd pay about two thousand and thirty-two dollars in total. Over a thousand of that is interest."
+  },
+  {
+   "who": "ticker",
+   "text": "The fix: pay your full statement balance on time, and most cards charge no interest on purchases.",
+   "scene": {
+    "group": "g6",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 620,
+      "text": "Pay in full,",
+      "size": 96,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 735,
+      "text": "on time.",
+      "size": 96,
+      "font": "serif",
+      "weight": 700,
+      "at": 0.5
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 840,
+      "text": "no interest on purchases*",
+      "size": 54,
+      "color": "#2E9A45",
+      "at": 2.0
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 900,
+      "text": "*on most cards",
+      "size": 36,
+      "color": "#666",
+      "at": 2.2
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 540,
+      "y": 1350,
+      "s": 0.8,
+      "pose": "cheer",
+      "mood": "up"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "scene": {
+    "group": "end",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 620,
+      "s": 1.0
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 720,
+      "text": "money news + money basics, drawn simply",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 540,
+      "y": 1340,
+      "s": 1.05,
+      "pose": "wave",
+      "mood": "up",
+      "at": 0.2
+     }
+    ]
+   }
+  }
+ ]
+}

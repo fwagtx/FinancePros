@@ -1,0 +1,266 @@
+{
+ "id": "D1-scam-alert-gift-cards",
+ "format": "vertical",
+ "music": "lofi",
+ "header": "The payment only\nscammers ask for",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "If anyone asks you to pay with a gift card, stop. It's a scam.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "rect",
+      "x": 120,
+      "y": 640,
+      "w": 480,
+      "h": 300,
+      "fill": "#FFD23F"
+     },
+     {
+      "k": "text",
+      "x": 360,
+      "y": 770,
+      "text": "GIFT CARD",
+      "size": 70,
+      "font": "marker"
+     },
+     {
+      "k": "text",
+      "x": 360,
+      "y": 860,
+      "text": "$500",
+      "size": 64,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "cross",
+      "x": 360,
+      "y": 790,
+      "w": 420,
+      "h": 260,
+      "at": 2.0
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 850,
+      "y": 1340,
+      "s": 0.95,
+      "pose": "pointleft",
+      "mood": "shock",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Federal Trade Commission says it plainly. Anyone who demands payment by gift card is a scammer.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "board",
+      "x": 80,
+      "y": 560,
+      "w": 700,
+      "h": 420,
+      "lines": [
+       {
+        "t": "Demands a gift card?",
+        "size": 70
+       },
+       {
+        "t": "= SCAMMER",
+        "size": 110
+       }
+      ],
+      "write": 3.2
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 880,
+      "y": 1340,
+      "s": 0.95,
+      "pose": "pointleft",
+      "stick": [
+       -300,
+       -470
+      ],
+      "mood": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Watch for three red flags. One: pressure to pay right now.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "text",
+      "x": 110,
+      "y": 600,
+      "text": "3 red flags",
+      "size": 90,
+      "font": "serif",
+      "weight": 700,
+      "anchor": "start"
+     },
+     {
+      "k": "text",
+      "x": 110,
+      "y": 760,
+      "text": "1. \"Pay NOW or else!\"",
+      "size": 64,
+      "anchor": "start",
+      "color": "#E0241B",
+      "at": 2.2
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 880,
+      "y": 1340,
+      "s": 0.85,
+      "pose": "think",
+      "mood": "worried"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: a strange way to pay, like gift cards, wire transfers or crypto.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "text",
+      "x": 110,
+      "y": 890,
+      "text": "2. Gift cards, wires, crypto",
+      "size": 64,
+      "anchor": "start",
+      "color": "#E0241B",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: being told to keep it secret.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "text",
+      "x": 110,
+      "y": 1020,
+      "text": "3. \"Don't tell anyone\"",
+      "size": 64,
+      "anchor": "start",
+      "color": "#E0241B",
+      "at": 0.3
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "mood": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So hang up, call back using a number you look up yourself, and report it at report fraud dot f t c dot gov.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "bubble",
+      "x": 360,
+      "y": 690,
+      "w": 440,
+      "h": 200,
+      "text": "*click*",
+      "size": 72
+     },
+     {
+      "k": "text",
+      "x": 400,
+      "y": 1000,
+      "text": "Report it:",
+      "size": 64,
+      "at": 2.2
+     },
+     {
+      "k": "text",
+      "x": 400,
+      "y": 1090,
+      "text": "ReportFraud.ftc.gov",
+      "size": 58,
+      "font": "serif",
+      "weight": 700,
+      "at": 2.6
+     },
+     {
+      "k": "under",
+      "x1": 110,
+      "x2": 690,
+      "y": 1112,
+      "at": 3.2
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 900,
+      "y": 1340,
+      "s": 0.8,
+      "pose": "hips",
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Share this with someone who needs it.",
+   "scene": {
+    "group": "end",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 620,
+      "s": 1.0
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 720,
+      "text": "money news + money basics, drawn simply",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 540,
+      "y": 1340,
+      "s": 1.05,
+      "pose": "wave",
+      "mood": "up",
+      "at": 0.2
+     }
+    ]
+   }
+  }
+ ]
+}
