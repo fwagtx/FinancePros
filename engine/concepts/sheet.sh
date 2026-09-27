@@ -2,7 +2,7 @@
 # usage: concepts/sheet.sh <episode id> <times...>  -> concepts/out/<id>/sheet.png (4 per row)
 cd /home/user/FinancePros/engine; source env.sh
 id=$1; shift; d=concepts/out/$id; ts=$(echo "$@" | tr ' ' ',')
-REUSE=1 python concepts/build.py concepts/episodes/$id.json --stills $ts >/dev/null 2>&1
+EPF=concepts/episodes/$id.json; [ -f $EPF ] || EPF=concepts/episodes/auto/$id.json; REUSE=1 python concepts/build.py $EPF --stills $ts >/dev/null 2>&1
 n=$#; ins=""; i=0; f=""
 for t in "$@"; do ins="$ins -i $d/still-$t.png"; f="$f[$i]scale=380:-1[s$i];"; i=$((i+1)); done
 row=""; rows=""; r=0

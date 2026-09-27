@@ -1,0 +1,12 @@
+{"id": "S-rule-of-72", "format": "vertical", "series": "ticker", "header": "Your debt can double\nin 3 years", "cover": {"title": "Your Debt Can Double in 3 Years", "prop": "card", "label": "APR 24%", "value": "x2"},
+ "lines": [
+  {"who": "ticker", "text": "There's a 10-second trick to see how fast money doubles. It's called the Rule of 72.", "scene": {"t": "hook", "title": "The Rule of [72]", "prop": "coins", "mood": "happy"}},
+  {"who": "ticker", "text": "Take 72 and divide it by the interest rate. That's roughly how many years it takes to double.", "scene": {"t": "board", "lines": ["72 ÷ interest rate", "= years to double"]}},
+  {"who": "ticker", "text": "Invest at 8% a year, and your money doubles in about 9 years.", "say": "Invest at eight percent a year, and your money doubles in about nine years.", "scene": {"t": "stat", "label": "72 ÷ 8% =", "value": "9 years", "tone": "up", "mood": "up"}},
+  {"who": "ticker", "text": "But it works on debt too. A credit card at 24% APR doubles what you owe in about 3 years, if you don't pay it down.", "say": "But it works on debt too. A credit card at twenty-four percent A P R doubles what you owe in about three years, if you don't pay it down.", "scene": {"t": "compare", "title": "Same math, both ways", "left": {"label": "Investing at 8%", "value": "9 yrs", "tone": "up", "sub": "to double"}, "right": {"label": "Card debt at 24%", "value": "3 yrs", "tone": "down", "sub": "to double"}}},
+  {"who": "ticker", "text": "So the same math that makes you rich can also bury you.", "scene": {"t": "compare", "keep": true, "winner": "left", "mood": "worried"}},
+  {"who": "ticker", "text": "Three ways to use it. Check the rate on every debt you have.", "scene": {"t": "list", "title": "Use the Rule of 72", "items": ["Check every debt's rate", "Kill the highest rate first", "Let investments sit and double"], "reveal": 1}},
+  {"who": "ticker", "text": "Pay off the highest rate first.", "scene": {"t": "list", "keep": true}},
+  {"who": "ticker", "text": "And give your investments time to double, then double again. It's an estimate, not a promise.", "scene": {"t": "list", "keep": true}},
+  {"who": "ticker", "text": "That's the money. Follow for more.", "scene": {"t": "cta"}}
+ ]}

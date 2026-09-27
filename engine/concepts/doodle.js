@@ -33,7 +33,8 @@ function text(x, y, s, o) {
   lines.forEach(function (ln, i) {
     out += '<text x="' + x + '" y="' + f1(y + i * lh) + '" font-family="' + fam + '" font-size="' + (o.size || 60) + '"' +
       (o.weight ? ' font-weight="' + o.weight + '"' : '') + ' fill="' + (o.color || INK) + '" text-anchor="' + (o.anchor || 'middle') + '"' +
-      (o.rot ? ' transform="rotate(' + o.rot + ' ' + x + ' ' + y + ')"' : '') + '>' + esc(ln) + '</text>';
+      (o.rot ? ' transform="rotate(' + o.rot + ' ' + x + ' ' + y + ')"' : '') + '>' +
+      esc(ln).replace(/\[([^\]]+)\]/g, '<tspan fill="' + (o.hl || RED) + '">$1</tspan>') + '</text>';
   });
   return out;
 }
@@ -314,6 +315,24 @@ var KINDS = {
   logo: function (o) {
     return '<g transform="translate(' + o.x + ',' + o.y + ') scale(' + (o.s || 1) + ')">' + text(-80, 0, 'FinancePros', { size: 110, font: 'serif', weight: 700 }) +
       '<rect x="300" y="-92" width="130" height="84" rx="16" fill="' + BLUE + '" ' + K + '/>' + text(365, -32, 'TV', { size: 56, font: 'marker', color: '#fff' }) + '</g>';
+  },
+  house: function (o) {
+    var g = '<path d="M-200,-190 L0,-340 L200,-190 Z" fill="#C9683A" ' + K + '/><rect x="-170" y="-190" width="340" height="190" fill="#F3EFE6" ' + K + '/>' +
+      '<rect x="-40" y="-110" width="80" height="110" fill="#6BA8D8" ' + K + '/><rect x="-140" y="-160" width="70" height="60" fill="#BFE0F5" ' + K + '/><rect x="70" y="-160" width="70" height="60" fill="#BFE0F5" ' + K + '/>' +
+      '<rect x="100" y="-320" width="40" height="80" fill="#8A5A2B" ' + K + '/>';
+    return '<g transform="translate(' + o.x + ',' + o.y + ') scale(' + (o.s || 1) + ')">' + g + '</g>' + (o.label ? tag(o.x + 120 * (o.s || 1), o.y - 360 * (o.s || 1), 0.9 * (o.s || 1), o.label, 6) : '');
+  },
+  car: function (o) {
+    var g = '<path d="M-220,-60 L-200,-120 L-110,-130 L-60,-200 L90,-200 L150,-130 L220,-110 L230,-60 Z" fill="' + (o.fill || RED) + '" ' + K + '/>' +
+      '<path d="M-40,-185 L-80,-130 L20,-130 L20,-185 Z M40,-185 L40,-130 L125,-130 L90,-185 Z" fill="#BFE0F5" ' + K + '/>' +
+      '<circle cx="-130" cy="-50" r="42" fill="#333" ' + K + '/><circle cx="140" cy="-50" r="42" fill="#333" ' + K + '/><circle cx="-130" cy="-50" r="14" fill="#ccc"/><circle cx="140" cy="-50" r="14" fill="#ccc"/>';
+    return '<g transform="translate(' + o.x + ',' + o.y + ') scale(' + (o.s || 1) + ')">' + g + '</g>';
+  },
+  quote: function (o) {
+    return '<rect x="' + o.x + '" y="' + o.y + '" width="' + o.w + '" height="' + o.h + '" rx="18" fill="#F7F4EC" ' + K + '/>' +
+      text(o.x + 50, o.y + 130, '\u201C', { size: 180, font: 'serif', weight: 700, color: RED, anchor: 'start' }) +
+      text(o.x + o.w / 2, o.y + 150, o.text, { size: o.size || 52, font: 'serif', lh: 1.25 }) +
+      (o.source ? text(o.x + o.w - 40, o.y + o.h - 40, '\u2014 ' + o.source, { size: 38, anchor: 'end', color: '#555' }) : '');
   },
   path: function (o) { return '<path d="' + o.d + '" fill="' + (o.fill || 'none') + '" ' + K + '/>'; },
   card: function (o) {
