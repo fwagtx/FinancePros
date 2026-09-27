@@ -369,7 +369,7 @@ function setup(ep, tl) {
     if (s.cam) cur.cam = s.cam;
     (s.items || []).forEach(function (it, j) {
       var id = it.id || ('i' + i + '_' + j);
-      if (!cur.items[id]) { cur.items[id] = { base: it, t0: ln.s + (it.at || 0), ups: [] }; cur.order.push(id); }
+      if (!cur.items[id]) { if (!KINDS[it.k]) return; cur.items[id] = { base: it, t0: ln.s + (it.at || 0), ups: [] }; cur.order.push(id); }
       else cur.items[id].ups.push({ t: ln.s + (it.at || 0), v: it });
     });
   });
