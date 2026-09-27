@@ -1,0 +1,465 @@
+{
+ "id": "B1-acorn-economics-investing",
+ "format": "vertical",
+ "music": "bouncy",
+ "pitch": 1.1,
+ "header": "Investing, explained\nwith acorns",
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "Squirrel has ten acorns. Squirrel could eat all ten acorns today.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "acorns",
+      "x": 300,
+      "y": 1230,
+      "w": 360,
+      "h": 160,
+      "n": 10,
+      "seed": 3,
+      "app": "slide"
+     },
+     {
+      "k": "nutty",
+      "id": "n",
+      "x": 720,
+      "y": 1320,
+      "s": 1.2,
+      "drool": true,
+      "who": "nutty"
+     }
+    ]
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Or. Squirrel plants one.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "nutty",
+      "id": "n",
+      "x": 300,
+      "y": 1320,
+      "s": 1.05,
+      "pose": "hold",
+      "item": "acorn",
+      "who": "nutty"
+     },
+     {
+      "k": "sprout",
+      "x": 760,
+      "y": 1250,
+      "s": 0.6,
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Nothing happens. One year later, still nothing.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 620,
+      "text": "1 year later...",
+      "size": 80,
+      "font": "marker",
+      "at": 0.9
+     },
+     {
+      "k": "nutty",
+      "id": "n",
+      "pose": "idle",
+      "item": null,
+      "tap": true,
+      "mood": "worried"
+     }
+    ]
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Thirty years later, squirrel has a whole oak tree, dropping acorns every single year. That's investing.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 600,
+      "text": "30 years later",
+      "size": 80,
+      "font": "marker"
+     },
+     {
+      "k": "tree",
+      "x": 660,
+      "y": 1260,
+      "s": 1.35,
+      "grow": true,
+      "growDur": 2.0,
+      "acorns": [
+       [
+        -120,
+        -300
+       ],
+       [
+        60,
+        -350
+       ],
+       [
+        140,
+        -260
+       ],
+       [
+        -40,
+        -220
+       ]
+      ],
+      "app": "none"
+     },
+     {
+      "k": "acorns",
+      "x": 660,
+      "y": 1265,
+      "w": 420,
+      "h": 40,
+      "n": 9,
+      "seed": 8,
+      "at": 2.0,
+      "app": "fade"
+     },
+     {
+      "k": "nutty",
+      "id": "n",
+      "x": 230,
+      "y": 1330,
+      "s": 0.8,
+      "shades": true,
+      "who": "nutty",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "With money, same idea. 100 dollars a month at 7% a year can grow to about 122,000 dollars in thirty years.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "chart",
+      "x": 150,
+      "y": 620,
+      "w": 680,
+      "h": 520,
+      "data": [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1239
+       ],
+       [
+        2,
+        2568
+       ],
+       [
+        3,
+        3993
+       ],
+       [
+        4,
+        5521
+       ],
+       [
+        5,
+        7159
+       ],
+       [
+        6,
+        8916
+       ],
+       [
+        7,
+        10800
+       ],
+       [
+        8,
+        12820
+       ],
+       [
+        9,
+        14986
+       ],
+       [
+        10,
+        17308
+       ],
+       [
+        11,
+        19799
+       ],
+       [
+        12,
+        22469
+       ],
+       [
+        13,
+        25333
+       ],
+       [
+        14,
+        28404
+       ],
+       [
+        15,
+        31696
+       ],
+       [
+        16,
+        35227
+       ],
+       [
+        17,
+        39013
+       ],
+       [
+        18,
+        43072
+       ],
+       [
+        19,
+        47425
+       ],
+       [
+        20,
+        52093
+       ],
+       [
+        21,
+        57098
+       ],
+       [
+        22,
+        62465
+       ],
+       [
+        23,
+        68219
+       ],
+       [
+        24,
+        74390
+       ],
+       [
+        25,
+        81007
+       ],
+       [
+        26,
+        88102
+       ],
+       [
+        27,
+        95711
+       ],
+       [
+        28,
+        103869
+       ],
+       [
+        29,
+        112617
+       ],
+       [
+        30,
+        121997
+       ]
+      ],
+      "numeric": true,
+      "max": 135000,
+      "color": "#2E9A45",
+      "title": "$100 a month at 7% a year",
+      "titleSize": 46,
+      "xl": [
+       [
+        0,
+        "year 0"
+       ],
+       [
+        15,
+        "15"
+       ],
+       [
+        30,
+        "30"
+       ]
+      ],
+      "yl": [
+       [
+        36000,
+        "$36k"
+       ],
+       [
+        120000,
+        "$120k"
+       ]
+      ],
+      "end": "$122,000",
+      "endDx": -30,
+      "endDy": 20,
+      "endSize": 60,
+      "draw": 3.0
+     },
+     {
+      "k": "text",
+      "x": 560,
+      "y": 1235,
+      "text": "7% is an example, not a promise",
+      "size": 40,
+      "color": "#666",
+      "at": 2.5
+     },
+     {
+      "k": "nutty",
+      "id": "n",
+      "x": 960,
+      "y": 1340,
+      "s": 0.5,
+      "pose": "point",
+      "who": "nutty",
+      "at": 0.4
+     }
+    ]
+   },
+   "say": "With money, same idea. A hundred dollars a month at seven percent a year can grow to about a hundred and twenty-two thousand dollars in thirty years."
+  },
+  {
+   "who": "nutty",
+   "text": "And squirrel doesn't bet on one tree. Squirrel buys a tiny piece of the whole forest. That's an index fund.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "basket",
+      "x": 500,
+      "y": 1230,
+      "w": 640,
+      "label": "INDEX FUND",
+      "at": 0.9
+     },
+     {
+      "k": "tree",
+      "x": 300,
+      "y": 1010,
+      "s": 0.42
+     },
+     {
+      "k": "tree",
+      "x": 500,
+      "y": 990,
+      "s": 0.48,
+      "at": 0.15
+     },
+     {
+      "k": "tree",
+      "x": 700,
+      "y": 1010,
+      "s": 0.42,
+      "at": 0.3
+     },
+     {
+      "k": "nutty",
+      "id": "n",
+      "x": 920,
+      "y": 1330,
+      "s": 0.62,
+      "pose": "up",
+      "who": "nutty"
+     }
+    ]
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "One tree burns down? The forest keeps growing. Usually.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "fire",
+      "x": 300,
+      "y": 960,
+      "s": 0.9,
+      "at": 0.2
+     },
+     {
+      "k": "nutty",
+      "id": "n",
+      "pose": "shrug"
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 1330,
+      "text": "investing can lose money",
+      "size": 42,
+      "color": "#666",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained investing. Squirrel would like one follow.",
+   "scene": {
+    "group": "end",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 620,
+      "s": 1.0
+     },
+     {
+      "k": "nutty",
+      "id": "n",
+      "x": 540,
+      "y": 1330,
+      "s": 1.05,
+      "pose": "up",
+      "who": "nutty",
+      "at": 0.2
+     },
+     {
+      "k": "acorn",
+      "x": 300,
+      "y": 1150,
+      "s": 1.0,
+      "at": 0.6
+     },
+     {
+      "k": "acorn",
+      "x": 800,
+      "y": 1160,
+      "s": 1.0,
+      "at": 0.7
+     }
+    ]
+   }
+  }
+ ]
+}

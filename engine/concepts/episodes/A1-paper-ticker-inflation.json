@@ -1,0 +1,393 @@
+{
+ "id": "A1-paper-ticker-inflation",
+ "format": "vertical",
+ "music": "lofi",
+ "header": "Your dollar is quietly\nshrinking.",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "This dollar has lost about 88 cents of its buying power since 1970. Nobody stole it.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "bill",
+      "x": 440,
+      "y": 820,
+      "w": 600,
+      "rot": -5
+     },
+     {
+      "k": "text",
+      "x": 330,
+      "y": 1130,
+      "text": "-88¢",
+      "size": 150,
+      "font": "marker",
+      "color": "#E0241B",
+      "at": 1.6
+     },
+     {
+      "k": "text",
+      "x": 330,
+      "y": 1210,
+      "text": "since 1970",
+      "size": 60,
+      "at": 2.2
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 850,
+      "y": 1330,
+      "s": 1.0,
+      "pose": "pointleft",
+      "mood": "shock",
+      "at": 0.3
+     }
+    ]
+   },
+   "say": "This dollar has lost about eighty-eight cents of its buying power since nineteen seventy. Nobody stole it."
+  },
+  {
+   "who": "ticker",
+   "text": "The thief has a name. Inflation.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "board",
+      "x": 80,
+      "y": 560,
+      "w": 700,
+      "h": 420,
+      "lines": [
+       {
+        "t": "INFLATION",
+        "size": 118
+       },
+       {
+        "t": "= prices creeping up",
+        "size": 64
+       }
+      ],
+      "write": 3.4
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 880,
+      "y": 1340,
+      "s": 0.95,
+      "pose": "pointleft",
+      "stick": [
+       -300,
+       -470
+      ],
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices across the whole economy creep up a little, almost every year.",
+   "scene": {
+    "group": "g2",
+    "items": []
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the same basket of stuff that cost 100 dollars in 1970. Today it costs about 808.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "chart",
+      "id": "c",
+      "x": 150,
+      "y": 620,
+      "w": 560,
+      "h": 560,
+      "data": [
+       [
+        1970,
+        100
+       ],
+       [
+        1975,
+        139
+       ],
+       [
+        1980,
+        212
+       ],
+       [
+        1985,
+        277
+       ],
+       [
+        1990,
+        337
+       ],
+       [
+        1995,
+        393
+       ],
+       [
+        2000,
+        444
+       ],
+       [
+        2005,
+        503
+       ],
+       [
+        2010,
+        562
+       ],
+       [
+        2015,
+        611
+       ],
+       [
+        2020,
+        667
+       ],
+       [
+        2021,
+        698
+       ],
+       [
+        2022,
+        754
+       ],
+       [
+        2023,
+        785
+       ],
+       [
+        2024,
+        809
+       ]
+      ],
+      "numeric": true,
+      "max": 900,
+      "title": "Same stuff, priced over time",
+      "titleSize": 44,
+      "xl": [
+       [
+        1970,
+        "1970"
+       ],
+       [
+        1995,
+        "1995"
+       ],
+       [
+        2024,
+        "2024"
+       ]
+      ],
+      "yl": [
+       [
+        100,
+        "$100"
+       ],
+       [
+        400,
+        "$400"
+       ],
+       [
+        800,
+        "$800"
+       ]
+      ],
+      "end": "$808",
+      "endDx": 30,
+      "endDy": 10,
+      "endAnchor": "start",
+      "draw": 2.6
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 930,
+      "y": 1340,
+      "s": 0.78,
+      "pose": "pointleft",
+      "mood": "worried",
+      "at": 0.5
+     }
+    ]
+   },
+   "say": "Here's the same basket of stuff that cost a hundred dollars in nineteen seventy. Today, it costs about eight hundred and eight."
+  },
+  {
+   "who": "ticker",
+   "text": "And in June 2022, prices were up 9.1% from a year before. The most in about 40 years.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "circle",
+      "x": 689,
+      "y": 711,
+      "rx": 70,
+      "ry": 60,
+      "seed": 4,
+      "at": 0.6
+     },
+     {
+      "k": "text",
+      "x": 459,
+      "y": 741,
+      "text": "9.1% in\na year!",
+      "size": 60,
+      "color": "#E0241B",
+      "at": 1.2
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "mood": "shock"
+     }
+    ]
+   },
+   "say": "And in June twenty twenty-two, prices were up nine point one percent from a year before. The most in about forty years."
+  },
+  {
+   "who": "ticker",
+   "text": "Some of this is on purpose. The Federal Reserve aims for about 2% inflation a year.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "fed",
+      "x": 440,
+      "y": 1200,
+      "s": 1.2
+     },
+     {
+      "k": "tag",
+      "x": 470,
+      "y": 580,
+      "s": 1.2,
+      "label": "Target: 2%",
+      "rot": -6,
+      "at": 1.2
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 900,
+      "y": 1340,
+      "s": 0.85,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ]
+   },
+   "say": "Some of this is on purpose. The Federal Reserve aims for about two percent inflation a year."
+  },
+  {
+   "who": "ticker",
+   "text": "So cash sitting still slowly loses value. Money that earns more than inflation keeps up.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "mattress",
+      "x": 270,
+      "y": 1080,
+      "s": 0.95
+     },
+     {
+      "k": "bill",
+      "x": 270,
+      "y": 950,
+      "w": 300,
+      "rot": 8,
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "x1": 270,
+      "y1": 640,
+      "x2": 270,
+      "y2": 860,
+      "bend": 0.15,
+      "at": 0.6
+     },
+     {
+      "k": "text",
+      "x": 270,
+      "y": 1200,
+      "text": "cash sitting still",
+      "size": 50,
+      "at": 0.3
+     },
+     {
+      "k": "pot",
+      "x": 800,
+      "y": 1110,
+      "s": 1.2,
+      "at": 1.8
+     },
+     {
+      "k": "arrow",
+      "x1": 800,
+      "y1": 660,
+      "x2": 800,
+      "y2": 470,
+      "bend": -0.15,
+      "color": "#2E9A45",
+      "at": 2.4
+     },
+     {
+      "k": "text",
+      "x": 800,
+      "y": 1200,
+      "text": "earning more than\ninflation",
+      "size": 50,
+      "at": 2.0
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "scene": {
+    "group": "end",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 620,
+      "s": 1.0
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 720,
+      "text": "money news + money basics, drawn simply",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 540,
+      "y": 1340,
+      "s": 1.05,
+      "pose": "wave",
+      "mood": "up",
+      "at": 0.2
+     }
+    ]
+   }
+  }
+ ]
+}

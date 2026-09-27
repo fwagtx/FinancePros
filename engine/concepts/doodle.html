@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"Patrick Hand";src:url(fonts/patrick-hand-latin-400-normal.woff2)}
+@font-face{font-family:"Baskerville";font-weight:700;src:url(fonts/libre-baskerville-latin-700-normal.woff2)}
+@font-face{font-family:"Baskerville";font-weight:400;src:url(fonts/libre-baskerville-latin-400-normal.woff2)}
+@font-face{font-family:"Marker";src:url(fonts/permanent-marker-latin-400-normal.woff2)}
+@font-face{font-family:"Gochi";src:url(fonts/gochi-hand-latin-400-normal.woff2)}
+@font-face{font-family:"Kalam";font-weight:700;src:url(fonts/kalam-latin-700-normal.woff2)}
+@font-face{font-family:"Kalam";font-weight:400;src:url(fonts/kalam-latin-400-normal.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow:hidden;background:#fff}
+#stage{position:relative;overflow:hidden;background:#fff}
+#art{position:absolute;left:0;top:0}
+#cap{position:absolute;text-align:center;font-family:"Kalam";font-weight:700;color:#111;line-height:1.15}
+#cap .w{display:inline-block;margin:0 .12em}
+#cap .w.on{color:#E0241B}
+#head{position:absolute;text-align:center;font-family:"Patrick Hand";color:#111;line-height:1.08}
+</style></head><body>
+<div id="stage">
+  <svg id="art" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="boil" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence id="turb" type="fractalNoise" baseFrequency="0.035" numOctaves="1" seed="1"/>
+        <feDisplacementMap in="SourceGraphic" scale="4.2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </defs>
+    <g id="g" filter="url(#boil)"></g>
+  </svg>
+  <div id="head"></div>
+  <div id="cap"></div>
+</div>
+<script src="geo.js"></script>
+<script src="doodle.js"></script>
+</body></html>

@@ -1,0 +1,264 @@
+{
+ "id": "C1-countries-tariffs",
+ "format": "vertical",
+ "music": "lofi",
+ "header": "Who actually pays\na tariff?",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Say America puts a 25% tariff on a 100-dollar gadget from China.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "country",
+      "id": "us",
+      "name": "us",
+      "x": 320,
+      "y": 820,
+      "w": 520,
+      "look": [
+       1,
+       0
+      ],
+      "talk": false
+     },
+     {
+      "k": "country",
+      "id": "cn",
+      "name": "china",
+      "x": 820,
+      "y": 830,
+      "w": 400,
+      "color": "#E4572E",
+      "look": [
+       -1,
+       0
+      ],
+      "talk": false,
+      "at": 0.3
+     },
+     {
+      "k": "box",
+      "x": 790,
+      "y": 1180,
+      "w": 190,
+      "label": "$100",
+      "at": 0.9,
+      "move": [
+       -460,
+       0
+      ],
+      "moveAt": 1.3,
+      "moveDur": 1.6
+     },
+     {
+      "k": "tag",
+      "x": 560,
+      "y": 560,
+      "s": 1.0,
+      "label": "+25% tariff",
+      "at": 2.6
+     }
+    ]
+   },
+   "say": "Say America puts a twenty-five percent tariff on a hundred-dollar gadget from China."
+  },
+  {
+   "who": "ticker",
+   "text": "So who pays the 25 dollars? Not China.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "bubble",
+      "x": 820,
+      "y": 540,
+      "w": 300,
+      "h": 150,
+      "text": "not me!",
+      "size": 56,
+      "tail": [
+       800,
+       650
+      ],
+      "at": 0.8
+     },
+     {
+      "k": "country",
+      "id": "us",
+      "mood": "worried"
+     }
+    ]
+   },
+   "say": "So who pays the twenty-five dollars? Not China."
+  },
+  {
+   "who": "ticker",
+   "text": "The American company bringing it in pays U.S. Customs.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "store",
+      "x": 300,
+      "y": 1240,
+      "s": 0.9,
+      "label": "U.S. IMPORTER"
+     },
+     {
+      "k": "booth",
+      "x": 820,
+      "y": 1240,
+      "s": 0.95,
+      "label": "U.S. CUSTOMS",
+      "at": 0.3
+     },
+     {
+      "k": "bag",
+      "x": 330,
+      "y": 720,
+      "s": 0.9,
+      "label": "$25",
+      "at": 0.8,
+      "move": [
+       480,
+       0
+      ],
+      "moveAt": 1.2,
+      "moveDur": 1.4
+     },
+     {
+      "k": "arrow",
+      "x1": 380,
+      "y1": 560,
+      "x2": 760,
+      "y2": 560,
+      "bend": -0.2,
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it can eat that cost, or raise the price on you.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "tag",
+      "x": 330,
+      "y": 780,
+      "s": 1.3,
+      "label": "$100",
+      "rot": -8
+     },
+     {
+      "k": "cross",
+      "x": 330,
+      "y": 780,
+      "w": 260,
+      "h": 150,
+      "at": 1.0
+     },
+     {
+      "k": "tag",
+      "x": 380,
+      "y": 1060,
+      "s": 1.3,
+      "label": "$125",
+      "rot": 6,
+      "at": 1.4
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 850,
+      "y": 1330,
+      "s": 0.85,
+      "pose": "shrug",
+      "mood": "worried",
+      "sweat": true
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Studies of the 2018 and 2019 tariffs found most of the cost landed on American buyers.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "paper",
+      "x": 470,
+      "y": 800,
+      "w": 720,
+      "head": "Most tariff costs\nlanded on U.S. buyers",
+      "sub": "studies of the 2018-19 tariffs"
+     },
+     {
+      "k": "country",
+      "id": "us2",
+      "name": "us",
+      "x": 830,
+      "y": 1250,
+      "w": 340,
+      "mood": "worried",
+      "sweat": true,
+      "look": [
+       -0.5,
+       -0.8
+      ],
+      "at": 0.8,
+      "talk": false
+     }
+    ]
+   },
+   "say": "Studies of the twenty eighteen and twenty nineteen tariffs found most of the cost landed on American buyers."
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "scene": {
+    "group": "end",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 640,
+      "s": 1.0
+     },
+     {
+      "k": "country",
+      "name": "us",
+      "x": 320,
+      "y": 1150,
+      "w": 380,
+      "look": [
+       0.5,
+       0
+      ],
+      "talk": false,
+      "at": 0.3
+     },
+     {
+      "k": "country",
+      "name": "china",
+      "x": 780,
+      "y": 1150,
+      "w": 300,
+      "color": "#E4572E",
+      "look": [
+       -0.5,
+       0
+      ],
+      "talk": false,
+      "at": 0.4
+     }
+    ]
+   }
+  }
+ ]
+}

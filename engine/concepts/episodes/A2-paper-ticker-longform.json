@@ -1,0 +1,415 @@
+{
+ "id": "A2-paper-ticker-longform",
+ "format": "landscape",
+ "music": "lofi",
+ "captions": false,
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Since 1970, prices in America have gone up about eight times.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "chart",
+      "x": 170,
+      "y": 260,
+      "w": 900,
+      "h": 560,
+      "data": [
+       [
+        1970,
+        100
+       ],
+       [
+        1975,
+        139
+       ],
+       [
+        1980,
+        212
+       ],
+       [
+        1985,
+        277
+       ],
+       [
+        1990,
+        337
+       ],
+       [
+        1995,
+        393
+       ],
+       [
+        2000,
+        444
+       ],
+       [
+        2005,
+        503
+       ],
+       [
+        2010,
+        562
+       ],
+       [
+        2015,
+        611
+       ],
+       [
+        2020,
+        667
+       ],
+       [
+        2021,
+        698
+       ],
+       [
+        2022,
+        754
+       ],
+       [
+        2023,
+        785
+       ],
+       [
+        2024,
+        809
+       ]
+      ],
+      "numeric": true,
+      "max": 900,
+      "title": "The same basket of stuff, 1970 to 2024",
+      "titleSize": 46,
+      "xl": [
+       [
+        1970,
+        "1970"
+       ],
+       [
+        1980,
+        "1980"
+       ],
+       [
+        1990,
+        "1990"
+       ],
+       [
+        2000,
+        "2000"
+       ],
+       [
+        2010,
+        "2010"
+       ],
+       [
+        2024,
+        "2024"
+       ]
+      ],
+      "yl": [
+       [
+        100,
+        "$100"
+       ],
+       [
+        400,
+        "$400"
+       ],
+       [
+        800,
+        "$800"
+       ]
+      ],
+      "end": "$808",
+      "endDx": 24,
+      "endDy": 40,
+      "endAnchor": "start",
+      "draw": 3.0
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 1520,
+      "y": 1000,
+      "s": 1.05,
+      "pose": "pointleft",
+      "stick": [
+       -330,
+       -430
+      ],
+      "mood": "happy",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A basket of stuff that cost 100 dollars back then costs about 808 dollars today.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "circle",
+      "x": 1070,
+      "y": 317,
+      "rx": 80,
+      "ry": 60,
+      "seed": 9,
+      "at": 1.4
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "mood": "shock"
+     }
+    ]
+   },
+   "say": "A basket of stuff that cost a hundred dollars back then, costs about eight hundred and eight dollars today."
+  },
+  {
+   "who": "ticker",
+   "text": "Which means a dollar from 1970 buys about 12 cents' worth of stuff now.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "bill",
+      "x": 560,
+      "y": 520,
+      "w": 640,
+      "rot": -4
+     },
+     {
+      "k": "text",
+      "x": 560,
+      "y": 830,
+      "text": "1970 dollar",
+      "size": 64,
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "x1": 920,
+      "y1": 520,
+      "x2": 1180,
+      "y2": 520,
+      "bend": -0.2,
+      "at": 0.9
+     },
+     {
+      "k": "coin",
+      "x": 1300,
+      "y": 470,
+      "r": 46,
+      "at": 1.3
+     },
+     {
+      "k": "coin",
+      "x": 1360,
+      "y": 540,
+      "r": 36,
+      "at": 1.45
+     },
+     {
+      "k": "coin",
+      "x": 1270,
+      "y": 560,
+      "r": 30,
+      "at": 1.6
+     },
+     {
+      "k": "text",
+      "x": 1320,
+      "y": 700,
+      "text": "about 12¢ today",
+      "size": 70,
+      "color": "#E0241B",
+      "at": 1.8
+     },
+     {
+      "k": "country",
+      "name": "us",
+      "x": 1560,
+      "y": 880,
+      "w": 420,
+      "mood": "worried",
+      "look": [
+       -1,
+       0
+      ],
+      "at": 2.2,
+      "talk": false
+     }
+    ]
+   },
+   "say": "Which means a dollar from nineteen seventy buys about twelve cents' worth of stuff now."
+  },
+  {
+   "who": "ticker",
+   "text": "Some of that is on purpose. The Federal Reserve targets about 2% inflation a year.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "fed",
+      "x": 700,
+      "y": 900,
+      "s": 1.4
+     },
+     {
+      "k": "tag",
+      "x": 1320,
+      "y": 420,
+      "s": 1.4,
+      "label": "Target: 2%",
+      "rot": -6,
+      "at": 1.0
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 1560,
+      "y": 1010,
+      "s": 0.95,
+      "pose": "shrug",
+      "mood": "happy"
+     }
+    ]
+   },
+   "say": "Some of that is on purpose. The Federal Reserve targets about two percent inflation a year."
+  },
+  {
+   "who": "ticker",
+   "text": "But in June 2022, prices were 9.1% higher than a year before, and the whole country felt it.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "country",
+      "name": "us",
+      "x": 780,
+      "y": 560,
+      "w": 900,
+      "mood": "worried",
+      "sweat": true,
+      "look": [
+       0.6,
+       -0.4
+      ],
+      "talk": false
+     },
+     {
+      "k": "tag",
+      "x": 1440,
+      "y": 330,
+      "s": 1.1,
+      "label": "+9.1%",
+      "rot": 8,
+      "at": 0.8
+     },
+     {
+      "k": "tag",
+      "x": 1480,
+      "y": 560,
+      "s": 0.9,
+      "label": "groceries ↑",
+      "rot": -6,
+      "at": 1.4
+     },
+     {
+      "k": "tag",
+      "x": 1400,
+      "y": 760,
+      "s": 0.9,
+      "label": "rent ↑",
+      "rot": 5,
+      "at": 1.9
+     }
+    ]
+   },
+   "say": "But in June twenty twenty-two, prices were nine point one percent higher than a year before, and the whole country felt it."
+  },
+  {
+   "who": "ticker",
+   "text": "So in this video, we'll cover where inflation comes from, why the Fed wants some, and how to protect your money.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "board",
+      "x": 200,
+      "y": 170,
+      "w": 1100,
+      "h": 640,
+      "lines": [
+       {
+        "t": "1. Where inflation comes from",
+        "size": 70
+       },
+       {
+        "t": "2. Why the Fed wants some",
+        "size": 70
+       },
+       {
+        "t": "3. How to protect your money",
+        "size": 70
+       }
+      ],
+      "write": 5.0
+     },
+     {
+      "k": "ticker",
+      "id": "tk",
+      "x": 1580,
+      "y": 1000,
+      "s": 1.0,
+      "pose": "pointleft",
+      "stick": [
+       -420,
+       -420
+      ],
+      "mood": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's start with the basics.",
+   "scene": {
+    "group": "g6",
+    "items": [
+     {
+      "k": "text",
+      "x": 960,
+      "y": 430,
+      "text": "Chapter 1",
+      "size": 70,
+      "font": "hand",
+      "color": "#E0241B"
+     },
+     {
+      "k": "text",
+      "x": 960,
+      "y": 560,
+      "text": "Where inflation comes from",
+      "size": 110,
+      "font": "serif",
+      "weight": 700,
+      "at": 0.3
+     },
+     {
+      "k": "under",
+      "x1": 420,
+      "x2": 1500,
+      "y": 600,
+      "at": 0.9
+     }
+    ]
+   }
+  }
+ ]
+}
