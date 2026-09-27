@@ -400,7 +400,7 @@ def cover(script, size=(1080, 1920)):
         if c.get("countries"):
             for i, n in enumerate(c["countries"][:2]):
                 items.append(dict(k="country", name=n, x=870 + i * 250, y=300 + i * 200, w=360 - i * 60, color=COUNTRY_COLOR.get(n, "#3E9B4F"), mood="worried" if i == 0 else "happy", look=[1 - 2 * i, 0], sweat=i == 0))
-        else: items += prop_items(c.get("prop", "chart-up"), 960, 330, 0.95, c.get("label"))
+        else: items += prop_items(c.get("prop", "chart-up"), 900, 300, 0.8, c.get("label"))
         if c.get("value"): items.append(dict(k="text", x=320, y=600, text=c["value"], size=140, font="marker", color=RED))
         items.append(dict(k="nutty", x=1150, y=715, s=0.5, shades=True) if script.get("series") == "acorn" else dict(k="ticker", x=1170, y=715, s=0.5, pose="pointleft", mood="shock"))
     return {"id": script["id"] + ("-cover" if v else "-thumb"), "size": [W, H], "items": items}
