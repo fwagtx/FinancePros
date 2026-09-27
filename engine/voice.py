@@ -29,34 +29,53 @@ def style_for(k, who):
     return sum(k.get_voice_style(n) * w for n, w in CAST[who]["mix"])
 
 
-def trim(x, thr=0.012):
-    """Trim leading/trailing near-silence, keep a few ms of air."""
+def trim(x, thr=0.004):
+    """Trim leading/trailing silence only, with enough air that soft starts and word endings are never clipped."""
     idx = np.where(np.abs(x) > thr)[0]
     if len(idx) == 0:
         return x
-    a = max(0, idx[0] - int(0.02 * SR))
-    b = min(len(x), idx[-1] + int(0.06 * SR))
+    a = max(0, idx[0] - int(0.05 * SR))
+    b = min(len(x), idx[-1] + int(0.10 * SR))
     return x[a:b]
 
 
+# Periods inside these are not sentence ends ("U.S.", "a.m.", "vs.").
+ABBR = re.compile(r"(?:\b(?:[A-Za-z]\.){2,}|\b(?:vs|Mr|Mrs|Ms|Dr|St|Inc|Jr|Sr|Co|Corp|Ltd|No|approx|est)\.)$")
+
+
 def phrases(text):
-    """Split a line where a person would breathe: after sentence ends and most commas."""
-    parts = re.split(r"(?<=[.?!])\s+|(?<=[,;:])\s+(?=\S+\s+\S+)", text.strip())
-    return [p for p in parts if p]
+    """Split a line only at real sentence ends. Each sentence is read whole, so commas get natural prosody."""
+    out, cur = [], []
+    for tok in text.strip().split():
+        cur.append(tok)
+        if re.search(r"[.?!][\"')\]]*$", tok) and not ABBR.search(tok.rstrip("\"')]")):
+            out.append(" ".join(cur)); cur = []
+    if cur: out.append(" ".join(cur))
+    return out
+
+
+SAY = [(re.compile(r"\bU\.S\.(?=\s|$|[,;:!?)])"), "U.S"), (re.compile(r"\bU\.K\.(?=\s|$|[,;:!?)])"), "U.K"),
+       (re.compile(r"\bvs\.", re.I), "versus"), (re.compile(r"\be\.g\.", re.I), "for example"), (re.compile(r"\bi\.e\.", re.I), "that is")]
+
+
+def spoken(p):
+    """What the voice model reads: no stray periods inside a sentence (they make it stop and restart)."""
+    for rx, rep in SAY: p = rx.sub(rep, p)
+    return p
 
 
 def speak(k, style, who, text, seed):
-    """Read phrase by phrase with small, human-like variation in pace and pauses (less robotic than one long read)."""
+    """Read sentence by sentence with small, human-like variation in pace and pauses."""
     rng = np.random.default_rng(1000 + seed)
     out, spans, n = [], [], 0
     ps = phrases(text)
     for j, p in enumerate(ps):
         sp = CAST[who]["speed"] * (1 + rng.uniform(-0.025, 0.035))
-        x, _ = k.create(p, voice=style, speed=sp, lang=CAST[who]["lang"])
+        x, _ = k.create(spoken(p), voice=style, speed=sp, lang=CAST[who]["lang"])
         x = trim(np.asarray(x, dtype=np.float32))
         out.append(x); spans.append((n / SR, (n + len(x)) / SR)); n += len(x)
         if j < len(ps) - 1:
-            gap = (0.30 if re.search(r"[.?!]$", p) else 0.14) + rng.uniform(-0.03, 0.07)
+            gap = 0.10 + rng.uniform(-0.02, 0.04)   # trim already leaves ~0.15s of air
             g = int(gap * SR); out.append(np.zeros(g, dtype=np.float32)); n += g
     return np.concatenate(out), spans
 
