@@ -1,0 +1,358 @@
+{
+ "id": "w1-acorn-dca",
+ "format": "vertical",
+ "music": "bouncy",
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "Squirrel wants to buy acorns. But acorn prices change every day.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 610,
+      "text": "acorn prices?",
+      "size": 78,
+      "font": "marker"
+     },
+     {
+      "k": "nutty",
+      "id": "host",
+      "x": 540,
+      "y": 1320,
+      "s": 1.2,
+      "pose": "shrug",
+      "who": "nutty"
+     }
+    ]
+   },
+   "say": "Squirrel wants to buy acorns. But acorn prices change every day."
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel could wait for the perfect day. Squirrel never knows the perfect day.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 610,
+      "text": "waiting...",
+      "size": 78,
+      "font": "marker"
+     },
+     {
+      "k": "nutty",
+      "id": "host",
+      "x": 300,
+      "y": 1320,
+      "s": 1.0,
+      "tap": true,
+      "mood": "worried",
+      "who": "nutty"
+     },
+     {
+      "k": "sprout",
+      "x": 760,
+      "y": 1250,
+      "s": 0.6
+     }
+    ]
+   },
+   "say": "Squirrel could wait for the perfect day. Squirrel never knows the perfect day."
+  },
+  {
+   "who": "nutty",
+   "text": "So squirrel buys a little every month, no matter the price. That's dollar-cost averaging.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "board",
+      "id": "board",
+      "x": 80,
+      "y": 560,
+      "w": 680,
+      "h": 440,
+      "lines": [
+       {
+        "t": "Same amount,",
+        "size": 88
+       },
+       {
+        "t": "every month,",
+        "size": 88
+       },
+       {
+        "t": "any price",
+        "size": 88
+       }
+      ],
+      "write": 3.5999999999999996
+     },
+     {
+      "k": "nutty",
+      "id": "host",
+      "mood": "happy",
+      "pose": "pointleft",
+      "x": 875,
+      "y": 1345,
+      "s": 0.6,
+      "stick": [
+       -300,
+       -470
+      ],
+      "who": "nutty"
+     }
+    ]
+   },
+   "say": "So squirrel buys a little every month, no matter the price. That's dollar-cost averaging."
+  },
+  {
+   "who": "nutty",
+   "text": "When acorns are cheap, the same money buys more. When they're expensive, it buys fewer.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 584,
+      "text": "$100 every month",
+      "size": 64,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "rect",
+      "id": "card_l",
+      "x": 117,
+      "y": 768,
+      "w": 396,
+      "h": 460,
+      "fill": "#fff",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 828,
+      "text": "acorns at $10",
+      "size": 50,
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 1088,
+      "text": "10",
+      "size": 110,
+      "font": "serif",
+      "weight": 700,
+      "color": "#2E9A45",
+      "at": 0.5
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 1168,
+      "text": "acorns bought",
+      "size": 38,
+      "color": "#555",
+      "at": 0.6
+     },
+     {
+      "k": "rect",
+      "id": "card_r",
+      "x": 567,
+      "y": 768,
+      "w": 396,
+      "h": 460,
+      "fill": "#fff",
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 828,
+      "text": "acorns at $20",
+      "size": 50,
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 1088,
+      "text": "5",
+      "size": 110,
+      "font": "serif",
+      "weight": 700,
+      "color": "#E0241B",
+      "at": 1.4
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 1168,
+      "text": "acorns bought",
+      "size": 38,
+      "color": "#555",
+      "at": 1.5
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 748,
+      "text": "vs",
+      "size": 70,
+      "font": "marker",
+      "color": "#E0241B",
+      "at": 0.9
+     }
+    ]
+   },
+   "say": "When acorns are cheap, the same money buys more. When they're expensive, it buys fewer."
+  },
+  {
+   "who": "nutty",
+   "text": "Over those two months, squirrel paid 200 dollars for 15 acorns. About 13.33 each, less than the 15 dollar average price.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "text",
+      "x": 425,
+      "y": 610,
+      "text": "$200 for 15 acorns",
+      "size": 76
+     },
+     {
+      "k": "text",
+      "x": 425,
+      "y": 954,
+      "text": "$13.33",
+      "size": 230,
+      "font": "serif",
+      "weight": 700,
+      "color": "#2E9A45",
+      "at": 0.3
+     },
+     {
+      "k": "circle",
+      "x": 425,
+      "y": 885,
+      "rx": 322,
+      "ry": 161,
+      "seed": 6,
+      "at": 1.1
+     },
+     {
+      "k": "text",
+      "x": 425,
+      "y": 1104,
+      "text": "each, vs a $15 average price",
+      "size": 46,
+      "color": "#555",
+      "at": 1.4
+     },
+     {
+      "k": "nutty",
+      "id": "host",
+      "mood": "shock",
+      "pose": "pointleft",
+      "x": 875,
+      "y": 1345,
+      "s": 0.6,
+      "who": "nutty"
+     }
+    ]
+   },
+   "say": "Over those two months, squirrel paid two hundred dollars for fifteen acorns. About thirteen dollars thirty-three each, less than the fifteen dollar average price."
+  },
+  {
+   "who": "nutty",
+   "text": "It doesn't promise profits, and prices can fall. But it takes the guessing out.",
+   "scene": {
+    "group": "g6",
+    "items": [
+     {
+      "k": "basket",
+      "x": 480,
+      "y": 1230,
+      "w": 620,
+      "label": "EVERY MONTH"
+     },
+     {
+      "k": "tree",
+      "x": 280,
+      "y": 1010,
+      "s": 0.42
+     },
+     {
+      "k": "tree",
+      "x": 480,
+      "y": 990,
+      "s": 0.48,
+      "at": 0.15
+     },
+     {
+      "k": "tree",
+      "x": 680,
+      "y": 1010,
+      "s": 0.42,
+      "at": 0.3
+     },
+     {
+      "k": "nutty",
+      "id": "host",
+      "x": 920,
+      "y": 1320,
+      "s": 0.62,
+      "pose": "up",
+      "who": "nutty"
+     }
+    ]
+   },
+   "say": "It doesn't promise profits, and prices can fall. But it takes the guessing out."
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained dollar-cost averaging. Squirrel would like one follow.",
+   "scene": {
+    "group": "g7",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 640,
+      "s": 1.0
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 740,
+      "text": "money news + money basics, drawn simply",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "nutty",
+      "id": "host",
+      "x": 540,
+      "y": 1330,
+      "s": 1.0,
+      "pose": "up",
+      "who": "nutty",
+      "at": 0.2
+     }
+    ]
+   },
+   "say": "Squirrel explained dollar-cost averaging. Squirrel would like one follow."
+  }
+ ],
+ "pitch": 1.1,
+ "header": "Dollar-cost averaging,\nexplained with acorns"
+}
