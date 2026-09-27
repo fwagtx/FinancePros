@@ -191,7 +191,7 @@ def layout_line(F, sc, st, step):
             vs = fit(d.get("value", ""), F.w * 0.4, 1, 110, 50, 0.55)[1]
             items.append(T(x, cy + 90, d.get("value", ""), vs, font="serif", weight=700, color=col(d.get("tone")), at=a + 0.2))
             if d.get("sub"): items.append(T(x, cy + 170, d["sub"], 38, color="#555", at=a + 0.3))
-        items.append(dict(k="text", x=round(F.cx), y=round(cy + 20), text="vs", size=70, font="marker", color=RED, at=0.9))
+        items.append(dict(k="text", x=round(F.cx), y=round(cy - 250), text="vs", size=70, font="marker", color=RED, at=0.9))
         st["compare"] = (xl, xr, cy)
         items += F.host_item(mood or "think", "shrug")
     elif t == "list":
@@ -385,7 +385,9 @@ def cover(script, size=(1080, 1920)):
         ls, sz = fit(title, 900, 3, 104, 60, 0.52)
         for i, ln in enumerate(ls): items.append(T(540, 540 + i * sz * 1.14, ln, sz, font="serif", weight=700))
         vy = 540 + len(ls) * sz * 1.14 + 250
-        if c.get("countries"): items += [dict(it, at=0) for it in countries_items(Frame("vertical", None), [{"name": n, "mood": "worried" if i == 0 else "happy"} for i, n in enumerate(c["countries"][:2])])]
+        if c.get("countries"):
+            ci = countries_items(Frame("vertical", None), [{"name": n, "mood": "worried" if i == 0 else "happy"} for i, n in enumerate(c["countries"][:2])])
+            items += [dict(it, at=0, y=it["y"] + (vy - 820)) for it in ci if it["k"] == "country"]
         else: items += prop_items(c.get("prop", "bill"), 470, vy, 0.95, c.get("label"))
         if c.get("value"): items.append(dict(k="text", x=540, y=1420, text=c["value"], size=150, font="marker", color=RED))
         if script.get("series") == "acorn": items.append(dict(k="nutty", x=860, y=1450, s=0.6, shades=True))

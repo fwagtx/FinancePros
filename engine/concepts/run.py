@@ -16,6 +16,13 @@ def make(script_path, stills=None):
     return out, os.path.join(HERE, "out", "thumbs", cv["id"] + ".png")
 
 
+def cover_only(script_path):
+    sc = json.load(open(script_path)); size = (1080, 1920) if sc.get("format", "vertical") != "landscape" else (1280, 720)
+    cv = layout.cover(sc, size); cp = os.path.join(HERE, "out", sc["id"] + "-covers.json"); json.dump([cv], open(cp, "w"))
+    subprocess.run(["node", os.path.join(HERE, "thumbs.js")], check=True, env=dict(os.environ, THUMBS=os.path.relpath(cp, HERE)))
+    return os.path.join(HERE, "out", "thumbs", cv["id"] + ".png")
+
+
 if __name__ == "__main__":
     st = sys.argv[sys.argv.index("--stills") + 1] if "--stills" in sys.argv else None
     print(*make(sys.argv[1], st))
