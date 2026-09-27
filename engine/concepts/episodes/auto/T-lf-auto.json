@@ -1,0 +1,458 @@
+{
+ "id": "T-lf-auto",
+ "format": "landscape",
+ "music": "lofi",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Twelve people decide what your mortgage costs.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "fed",
+      "x": 720.0,
+      "y": 835.0,
+      "s": 1.4175000000000002
+     },
+     {
+      "k": "tag",
+      "x": 720.0,
+      "y": 254.0,
+      "s": 1.35,
+      "label": "12 votes",
+      "rot": -6,
+      "at": 0.8
+     },
+     {
+      "k": "text",
+      "x": 720,
+      "y": 960,
+      "text": "the FOMC",
+      "size": 52,
+      "color": "#E0241B",
+      "at": 1.2
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "happy",
+      "pose": "shrug",
+      "x": 1600,
+      "y": 1000,
+      "s": 1.05
+     }
+    ]
+   },
+   "say": "Twelve people decide what your mortgage costs."
+  },
+  {
+   "who": "ticker",
+   "text": "Let's start at the beginning.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "text",
+      "x": 960,
+      "y": 410,
+      "text": "Chapter 1",
+      "size": 70,
+      "color": "#E0241B"
+     },
+     {
+      "k": "text",
+      "x": 960,
+      "y": 540,
+      "text": "What the Fed does",
+      "size": 110,
+      "font": "serif",
+      "weight": 700,
+      "at": 0.3
+     },
+     {
+      "k": "under",
+      "x1": 480,
+      "x2": 1440,
+      "y": 580,
+      "at": 0.9
+     }
+    ]
+   },
+   "say": "Let's start at the beginning."
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the rate since 2000.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "text",
+      "x": 720,
+      "y": 190,
+      "text": "Fed funds rate (upper target)",
+      "size": 60,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "chart",
+      "id": "chart",
+      "x": 270,
+      "y": 297,
+      "w": 830,
+      "h": 573,
+      "data": [
+       [
+        2000,
+        6.5
+       ],
+       [
+        2003,
+        1
+       ],
+       [
+        2006,
+        5.25
+       ],
+       [
+        2008,
+        0.25
+       ],
+       [
+        2015,
+        0.5
+       ],
+       [
+        2018,
+        2.5
+       ],
+       [
+        2020,
+        0.25
+       ],
+       [
+        2022,
+        4.5
+       ],
+       [
+        2023,
+        5.5
+       ]
+      ],
+      "numeric": true,
+      "max": 7.475,
+      "min": 0,
+      "title": null,
+      "xl": [
+       [
+        2000,
+        "2000"
+       ],
+       [
+        2015,
+        "2015"
+       ],
+       [
+        2023,
+        "2023"
+       ]
+      ],
+      "yl": [
+       [
+        1.625,
+        "1.625%"
+       ],
+       [
+        3.25,
+        "3.25%"
+       ],
+       [
+        5.8500000000000005,
+        "5.85%"
+       ]
+      ],
+      "lsize": 32,
+      "color": "#2E9A45",
+      "end": "5.5%",
+      "endDx": -10,
+      "endDy": -44,
+      "endSize": 56,
+      "draw": 2.6
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "happy",
+      "pose": "pointleft",
+      "x": 1600,
+      "y": 1000,
+      "s": 1.05
+     }
+    ],
+    "cam": [
+     1,
+     1.02
+    ]
+   },
+   "say": "Here's the rate since two thousand."
+  },
+  {
+   "who": "ticker",
+   "text": "In 2008 it went to almost zero.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "circle",
+      "x": 559,
+      "y": 851,
+      "rx": 70,
+      "ry": 60,
+      "seed": 4,
+      "at": 0.4
+     },
+     {
+      "k": "text",
+      "x": 599,
+      "y": 920,
+      "text": "near 0%",
+      "size": 54,
+      "color": "#E0241B",
+      "at": 1.0
+     }
+    ]
+   },
+   "say": "In two thousand and eight it went to almost zero."
+  },
+  {
+   "who": "ticker",
+   "text": "Then the question: who wins?",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "text",
+      "x": 960,
+      "y": 410,
+      "text": "Chapter 2",
+      "size": 70,
+      "color": "#E0241B"
+     },
+     {
+      "k": "text",
+      "x": 960,
+      "y": 540,
+      "text": "Winners and losers",
+      "size": 110,
+      "font": "serif",
+      "weight": 700,
+      "at": 0.3
+     },
+     {
+      "k": "under",
+      "x1": 480,
+      "x2": 1440,
+      "y": 580,
+      "at": 0.9
+     }
+    ]
+   },
+   "say": "Then the question: who wins?"
+  },
+  {
+   "who": "ticker",
+   "text": "Savers win, borrowers pay.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "text",
+      "x": 960,
+      "y": 194,
+      "text": "When rates go up",
+      "size": 64,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "rect",
+      "x": 120,
+      "y": 286,
+      "w": 806,
+      "h": 654,
+      "fill": "#EAF6EC",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 523,
+      "y": 366,
+      "text": "Winners",
+      "size": 60,
+      "font": "serif",
+      "weight": 700,
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 523,
+      "y": 456,
+      "text": "Savers",
+      "size": 44,
+      "at": 0.5
+     },
+     {
+      "k": "text",
+      "x": 523,
+      "y": 528,
+      "text": "Money market funds",
+      "size": 44,
+      "at": 0.5
+     },
+     {
+      "k": "rect",
+      "x": 994,
+      "y": 286,
+      "w": 806,
+      "h": 654,
+      "fill": "#FDECEA",
+      "at": 1.3
+     },
+     {
+      "k": "text",
+      "x": 1397,
+      "y": 366,
+      "text": "Losers",
+      "size": 60,
+      "font": "serif",
+      "weight": 700,
+      "at": 1.3
+     },
+     {
+      "k": "text",
+      "x": 1397,
+      "y": 456,
+      "text": "New borrowers",
+      "size": 44,
+      "at": 1.5
+     },
+     {
+      "k": "text",
+      "x": 1397,
+      "y": 528,
+      "text": "Credit card debt",
+      "size": 44,
+      "at": 1.5
+     }
+    ]
+   },
+   "say": "Savers win, borrowers pay."
+  },
+  {
+   "who": "ticker",
+   "text": "China and Japan feel it too.",
+   "scene": {
+    "group": "g6",
+    "items": [
+     {
+      "k": "country",
+      "id": "c_us",
+      "name": "us",
+      "x": 520,
+      "y": 520,
+      "w": 620,
+      "color": "#3E9B4F",
+      "mood": "happy",
+      "look": [
+       1,
+       0
+      ],
+      "talk": false,
+      "sweat": false,
+      "at": 0.0
+     },
+     {
+      "k": "bubble",
+      "id": "b_us",
+      "x": 520,
+      "y": 179.0,
+      "w": 294,
+      "h": 140,
+      "text": "rates up!",
+      "size": 48,
+      "tail": [
+       510,
+       334.0
+      ],
+      "at": 0.9
+     },
+     {
+      "k": "country",
+      "id": "c_japan",
+      "name": "japan",
+      "x": 1200,
+      "y": 540,
+      "w": 360,
+      "color": "#F4F1EA",
+      "mood": "worried",
+      "look": [
+       -1,
+       0
+      ],
+      "talk": false,
+      "sweat": true,
+      "at": 0.25
+     },
+     {
+      "k": "text",
+      "x": 960,
+      "y": 1010,
+      "text": "a stronger dollar",
+      "size": 60,
+      "color": "#E0241B",
+      "at": 1.6
+     }
+    ]
+   },
+   "say": "China and Japan feel it too."
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money.",
+   "scene": {
+    "group": "g7",
+    "items": [
+     {
+      "k": "logo",
+      "x": 960,
+      "y": 360,
+      "s": 1.0
+     },
+     {
+      "k": "text",
+      "x": 960,
+      "y": 460,
+      "text": "money news + money basics, drawn simply",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "x": 960,
+      "y": 1010,
+      "s": 1.0,
+      "pose": "wave",
+      "mood": "up",
+      "at": 0.2
+     }
+    ]
+   },
+   "say": "That's the money."
+  }
+ ],
+ "captions": false,
+ "renderFps": 15
+}

@@ -1,0 +1,85 @@
+{
+ "header": "Is your savings paying\nyou almost nothing?",
+ "cover": {
+  "title": "Is Your Savings Paying Nothing?",
+  "prop": "pot",
+  "value": "$20?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Is your savings account paying you almost nothing?",
+   "say": "Is your savings account paying you almost nothing?",
+   "scene": {
+    "t": "hook",
+    "title": "Savings paying [nothing]?",
+    "prop": "mattress"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A high-yield savings account pays a much higher interest rate, often at online banks.",
+   "say": "A high-yield savings account pays a much higher interest rate, often at online banks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "High-yield savings =",
+     "a higher rate",
+     "(often online banks)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's 5,000 dollars for a year at example rates of 0.4% versus 3.5%.",
+   "say": "Here's five thousand dollars for a year at example rates of zero point four percent, versus three point five percent.",
+   "scene": {
+    "t": "compare",
+    "title": "$5,000 for one year (example rates)",
+    "left": {
+     "label": "Savings at 0.4%",
+     "value": "$20",
+     "tone": "down"
+    },
+    "right": {
+     "label": "High-yield at 3.5%",
+     "value": "$175",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look for FDIC insurance, which covers up to 250,000 dollars per depositor, per bank, per account type.",
+   "say": "Look for F D I C insurance, which covers up to two hundred and fifty thousand dollars per depositor, per bank, per account type.",
+   "scene": {
+    "t": "stat",
+    "label": "FDIC insurance limit",
+    "value": "$250,000",
+    "sub": "per depositor, per bank, per ownership type",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rates change, so compare before you open one.",
+   "say": "Rates change, so compare before you open one.",
+   "scene": {
+    "t": "hook",
+    "title": "Rates [change]. Compare.",
+    "prop": "chart-up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-hysa",
+ "format": "vertical",
+ "series": "ticker"
+}

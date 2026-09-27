@@ -107,13 +107,14 @@ function nutty(o, lt) {   // the Acorn Economics squirrel: chunky marker drawing
   return '<g transform="translate(' + o.x + ',' + o.y + ') scale(' + (o.s || 1) * (o.flip ? -1 : 1) + ',' + (o.s || 1) + ')">' + g + '</g>';
 }
 
-var EYES = { us: [0.53, 0.36], china: [0.62, 0.52], mexico: [0.3, 0.3], canada: [0.44, 0.7], japan: [0.45, 0.45], uk: [0.6, 0.55], germany: [0.5, 0.45] };
+var EYES = { us: [0.53, 0.36], china: [0.62, 0.52], mexico: [0.52, 0.45], canada: [0.44, 0.7], japan: [0.6, 0.4], uk: [0.62, 0.52], germany: [0.5, 0.45] };
+var LEGY = { japan: 0.6, mexico: 0.72, uk: 0.9, us: 0.86 };
 var BOX = { us: [1000, 620] };
 function country(o, lt) {   // a country outline as a googly-eyed character
   var k = o.name, bw = (BOX[k] || [700, 700])[0], bh = (BOX[k] || [700, 700])[1], sc = o.w / bw, h = bh * sc, x0 = o.x - o.w / 2, y0 = o.y - h / 2, g = '';
   var talk = o._talk || 0, e = EYES[k] || [0.5, 0.45], ex = x0 + e[0] * o.w, ey = y0 + e[1] * h, r = Math.max(18, o.w * 0.045);
   if (o.legs !== false) {
-    var ly = y0 + h * (o.legY || 0.86), lx = ex;
+    var ly = y0 + h * (o.legY || LEGY[k] || 0.86), lx = ex;
     g += '<path d="M' + (lx - r * 1.4) + ',' + ly + ' L' + (lx - r * 1.8) + ',' + (ly + r * 4.2) + ' l-' + r * 0.9 + ',0 M' + (lx + r * 1.4) + ',' + ly + ' L' + (lx + r * 1.8) + ',' + (ly + r * 4.2) + ' l' + r * 0.9 + ',0" fill="none" ' + K + '/>';
   }
   if (o.arms) g += '<path d="' + o.arms + '" fill="none" ' + K + '/>';

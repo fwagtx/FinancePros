@@ -1,7 +1,7 @@
 name: FinancePros TV daily shows
 
 # Runs every hour. engine/daily.py checks the weekly plan (Eastern time) and makes whatever is due:
-# ~3 short videos a day for Instagram, Facebook, TikTok and YouTube, plus 3 long-form YouTube videos a week.
+# 4 doodle shorts a day (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts) + 3 long-form YouTube videos a week.
 on:
   schedule:
     - cron: "5 * * * *"          # hourly; daily.py runs whatever the weekly plan says is due this Eastern-time hour
@@ -10,7 +10,7 @@ on:
       show:
         description: "Show to run now"
         type: choice
-        options: [auto, morning, lesson, close, world, recap, ahead, flash, lf-world, lf-school, lf-week]
+        options: [auto, morning, explainer, bigstory, hot, lf-big, lf-explained, lf-world]
         required: true
 
 permissions:
@@ -19,7 +19,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 210
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       METRICOOL_USER_TOKEN: ${{ secrets.METRICOOL_USER_TOKEN }}
@@ -27,6 +27,7 @@ jobs:
       METRICOOL_BLOG_ID: ${{ vars.METRICOOL_BLOG_ID }}
       METRICOOL_DRAFT: ${{ vars.METRICOOL_DRAFT || 'false' }}
       AUTO_START: ${{ vars.AUTO_START }}
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -78,5 +79,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: logs-${{ steps.show.outputs.name }}-${{ github.run_id }}
-          path: engine/episodes/daily/
+          path: |
+            engine/concepts/scripts/auto/
+            engine/concepts/out/**/timeline.json
           if-no-files-found: ignore

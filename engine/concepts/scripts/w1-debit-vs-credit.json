@@ -1,0 +1,106 @@
+{
+ "header": "Debit vs credit:\nwhich is safer?",
+ "cover": {
+  "title": "Debit or Credit: Which Is Safer?",
+  "prop": "card",
+  "label": "DEBIT?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Debit or credit? They look the same, but they work very differently.",
+   "say": "Debit or credit? They look the same, but they work very differently.",
+   "scene": {
+    "t": "hook",
+    "title": "Debit vs [credit]",
+    "prop": "card"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Debit spends money you already have. Credit borrows it, and you pay it back.",
+   "say": "Debit spends money you already have. Credit borrows it, and you pay it back.",
+   "scene": {
+    "t": "compare",
+    "title": "Whose money is it?",
+    "left": {
+     "label": "Debit",
+     "value": "yours",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Credit",
+     "value": "borrowed",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying a credit card on time can build your credit score. Debit doesn't.",
+   "say": "Paying a credit card on time can build your credit score. Debit doesn't.",
+   "scene": {
+    "t": "split",
+    "title": "Builds credit?",
+    "left": {
+     "title": "Debit",
+     "items": [
+      "No credit history"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Credit",
+     "items": [
+      "Can build your score"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fraud? Federal law caps your credit card liability at 50 dollars. With debit, your protection depends on how fast you report it.",
+   "say": "And fraud? Federal law caps your credit card liability at fifty dollars. With debit, your protection depends on how fast you report it.",
+   "scene": {
+    "t": "compare",
+    "title": "If it's stolen",
+    "left": {
+     "label": "Credit card",
+     "value": "$50 max",
+     "tone": "up",
+     "sub": "by federal law"
+    },
+    "right": {
+     "label": "Debit card",
+     "value": "depends",
+     "tone": "down",
+     "sub": "on how fast you report"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: carry a balance on credit, and interest gets expensive fast.",
+   "say": "The catch: carry a balance on credit, and interest gets expensive fast.",
+   "scene": {
+    "t": "hook",
+    "title": "Carry a balance? [Ouch].",
+    "prop": "card",
+    "label": "APR 24%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-debit-vs-credit",
+ "format": "vertical",
+ "series": "ticker"
+}

@@ -1,0 +1,114 @@
+{
+ "header": "How the rich avoid\nselling their stock",
+ "cover": {
+  "title": "Why Billionaires Borrow Instead of Selling",
+  "prop": "bag",
+  "label": "LOAN"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Why do billionaires borrow money when they're already rich? Because selling costs them.",
+   "say": "Why do billionaires borrow money when they're already rich? Because selling costs them.",
+   "scene": {
+    "t": "hook",
+    "title": "Why the rich [borrow]",
+    "prop": "bag",
+    "label": "LOAN"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sell stock that went up, and you owe capital gains tax on the profit.",
+   "say": "Sell stock that went up, and you owe capital gains tax on the profit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sell stock that grew",
+     "= capital gains tax"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So instead, they borrow against their stock. A loan isn't income, so there's no tax on it.",
+   "say": "So instead, they borrow against their stock. A loan isn't income, so there's no tax on it.",
+   "scene": {
+    "t": "compare",
+    "title": "Two ways to get cash",
+    "left": {
+     "label": "Sell the stock",
+     "value": "taxed",
+     "tone": "down",
+     "sub": "capital gains"
+    },
+    "right": {
+     "label": "Borrow against it",
+     "value": "no tax",
+     "tone": "up",
+     "sub": "a loan isn't income"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The stock keeps growing, and they pay interest on the loan instead.",
+   "say": "The stock keeps growing, and they pay interest on the loan instead.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People call it buy, borrow, die. Buy assets. Borrow against them. And hold them until death.",
+   "say": "People call it buy, borrow, die. Buy assets. Borrow against them. And hold them until death.",
+   "scene": {
+    "t": "list",
+    "title": "Buy, borrow, die",
+    "items": [
+     "Buy assets that grow",
+     "Borrow against them",
+     "Hold them for life"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Under current U.S. law, heirs usually get a stepped-up basis, so the gains during the owner's life may never be taxed.",
+   "say": "Under current U.S. law, heirs usually get a stepped-up basis, so the gains during the owner's life may never be taxed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Heirs get a",
+     "stepped-up basis",
+     "(current U.S. law)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It only works with a lot of assets, and borrowing always carries risk if prices fall.",
+   "say": "It only works with a lot of assets, and borrowing always carries risk if prices fall.",
+   "scene": {
+    "t": "hook",
+    "title": "Big assets. Big [risk].",
+    "prop": "chart-down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-buy-borrow-die",
+ "format": "vertical",
+ "series": "ticker"
+}

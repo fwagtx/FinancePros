@@ -1,73 +1,74 @@
-# FinancePros TV video engine
+# FinancePros TV engine
 
-Turns a script into a finished 1080×1920 video hosted by Ticker, and (in the daily workflow) turns the day's news into scripts.
+Fully automated, hand-drawn ("doodle") money videos: **4 shorts a day** on TikTok, Instagram Reels, Facebook Reels and YouTube Shorts,
+plus **3 long-form YouTube videos a week**. Everything is free to run except the Claude API (writing and fact-checking) and a Metricool plan with API access.
 
-## What's free and what isn't
-| Part | Tool | Cost |
+## The look
+White paper, black marker lines that "boil" like hand animation, flat colors, red annotations, real hand-drawn charts.
+- **Paper Ticker**: Ticker, a stick figure with an old-TV head, explains news and money basics with a chalkboard, charts and props.
+- **Acorn Economics**: a chunky squirrel explains investing with acorns (short, funny sentences).
+- **World Money**: countries are googly-eyed characters (US, China, Japan, UK, Germany, Mexico, Canada).
+
+## Weekly plan (Eastern time, set in `daily.py`)
+| Slot | Every day | Format |
 |---|---|---|
-| Voices (Ticker, Dot) | Kokoro, Apache 2.0, runs on the CPU | Free |
-| Animation, captions, lip-sync | Headless Chromium drawing `player/` frame by frame | Free |
-| Music bed and sound effects | Generated from scratch in `audio.py` (no licensing) | Free |
-| Mixing and encoding | ffmpeg, loudness −14 LUFS | Free |
-| Running on a schedule | GitHub Actions (public repo) | Free |
-| Hosting the video files | This public repo (raw GitHub URLs) | Free |
-| Posting to IG, FB, TikTok, YouTube | Metricool REST API | Needs a Metricool plan with API access |
-| Researching, writing and fact-checking the news | Claude API (`claude-opus-5`) with web search | Pay-per-use |
+| 7:30 AM | **Morning Money**: the biggest money story this morning | short |
+| 12:00 PM | **Explainer**: evergreen (Acorn Economics Mon/Wed/Fri/Sun, Paper Ticker Tue/Thu/Sat) | short |
+| 4:30 PM | **The Big Story**: the day's most important money story (countries for world news) | short |
+| 7:30 PM | **Hot Take**: money myth, scam alert, face-off, "why is X so expensive" | short |
+| Mon 5 PM | **The Big Story, long-form**: the week's biggest story in depth | YouTube 16:9 |
+| Wed 5 PM | **Explained**: a high-value evergreen topic, from zero | YouTube 16:9 |
+| Sat 11 AM | **World Money**: a world-economy deep dive | YouTube 16:9 |
+
+If no confirmed news qualifies for a news slot, that slot posts an evergreen video instead, so there are always 4 shorts a day.
+
+## How a video is made (one GitHub Actions run)
+1. **Topic**: news shows research today's stories and score them (reach, surprise, high-value category, visual, confirmed). Evergreen shows take
+   the next topic from `concepts/topics.json` (weighted to investing, credit, taxes, housing, retirement, insurance); when a list runs low,
+   Claude researches what people are searching for and adds 20 new topics.
+2. **Research** with web search, then a **script** written as scene *templates* (hook, board, chart, compare, list, stat, money, countries,
+   building, news, quote, timeline, split, squirrel, chapter, cta) in a strict JSON schema.
+3. **Fact-check**: a separate Claude pass re-verifies every number and chart point on the web and must end in `VERDICT: PASS`.
+4. **Layout** (`concepts/layout.py`) turns templates into drawings placed inside each platform's safe zone.
+5. **Voice** (Kokoro, free), **music and sound effects** (generated, no licensing), **render** (Chromium frame by frame; long-form at 15 fps for the
+   hand-drawn feel), loudness to -14 LUFS.
+6. **Cover / thumbnail**: a 9:16 cover whose title sits in the square Instagram shows on the grid, or a 1280x720 YouTube thumbnail.
+7. **Hosting**: the video and cover go to the `media` branch (only the last 21 days are kept, so the repo never balloons; Metricool copies each file).
+8. **Publishing** (`publish.py`), formatted per platform:
+   - Instagram Reel + Facebook Reel: caption with hashtags, custom cover
+   - TikTok: short caption + hashtags, cover
+   - YouTube Short: title with #Shorts, description, tags
+   - Long-form: YouTube only, title, description with real chapter timestamps, tags, custom thumbnail
+
+## Turn it on
+GitHub → repo **Settings → Secrets and variables → Actions**:
+
+| Name | Type | Value |
+|---|---|---|
+| `ANTHROPIC_API_KEY` | Secret | your Claude API key |
+| `METRICOOL_USER_TOKEN` | Secret | Metricool → Account settings → API |
+| `METRICOOL_USER_ID` | Variable | `5456294` |
+| `METRICOOL_BLOG_ID` | Variable | `7091438` |
+| `METRICOOL_DRAFT` | Variable (optional) | `true` = everything waits in Metricool for your approval |
+| `AUTO_START` | Variable (optional) | first date the plan runs (default `2026-10-03`) |
+
+Test any show by hand: **Actions → FinancePros TV daily shows → Run workflow** and pick the show.
 
 ## Make a video by hand
 ```bash
 cd engine
 pip install -r requirements.txt && npm install && npx playwright install chromium && ./setup_models.sh
-python build.py episodes/01-compound-interest.json            # -> out/<id>/<id>.mp4
-python build.py episodes/01-compound-interest.json --stills 0,5,12   # review frames only
+python concepts/run.py concepts/scripts/rule-of-72.json            # -> concepts/out/<id>/<id>.mp4 + cover
+python concepts/run.py concepts/scripts/rule-of-72.json --stills 3,9   # review frames only
 ```
 
-## Turn on the daily automation
-Add these in GitHub → repo **Settings → Secrets and variables → Actions**:
-
-| Name | Type | Value |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | Secret | Your Claude API key |
-| `METRICOOL_USER_TOKEN` | Secret | Metricool → Account settings → API → REST API access token |
-| `METRICOOL_USER_ID` | Variable | `5456294` |
-| `METRICOOL_BLOG_ID` | Variable | `7091438` (the financeprostv brand) |
-| `METRICOOL_DRAFT` | Variable (optional) | `true` to save posts as drafts you approve in Metricool |
-
-Then **Actions → FinancePros TV daily shows → Run workflow** once to test a show.
-
-The workflow runs every hour; `daily.py` follows this weekly plan (Eastern time):
-
-| Day | Short videos (Instagram, Facebook, TikTok, YouTube Shorts) | Long-form (YouTube, 16:9) |
-|---|---|---|
-| Mon | 7:30 Morning Brief · 12:30 Money School lesson · 4:30 Closing Bell | 6:00 PM World Money Weekly |
-| Tue | 7:30 Morning Brief · 12:30 Money School lesson · 4:30 Closing Bell | |
-| Wed | 7:30 Morning Brief · 12:30 Money School lesson · 4:30 Closing Bell | 6:00 PM Money School Deep Dive |
-| Thu | 7:30 Morning Brief · 12:30 World Money · 4:30 Closing Bell | |
-| Fri | 7:30 Morning Brief · 12:30 Money School lesson · 4:30 Closing Bell | |
-| Sat | 10:00 Week in 60 · 1:00 Money School lesson · 5:00 World Money | 9:00 AM This Week in Money |
-| Sun | 11:00 Money School lesson · 2:00 World Money · 6:00 Week Ahead | |
-
-Plus an FP Flash check every weekday hour from 9 AM to 5 PM (posts only for Tier 1 news or a score of 18+).
-Money School lessons follow `curriculum.json` in order (6 levels, ~58 lessons); `state.json` remembers progress.
-
-## Quality gates (nothing posts unless all pass)
-1. **Importance rules**: the research step scores stories; a Flash needs Tier 1 or a score of 18+/25.
-2. **Only facts from the research brief** go into the script, with sources.
-3. **Independent fact-check**: a separate Claude pass re-verifies every claim and number on the web and must end in `VERDICT: PASS`.
-4. **Renderer guardrails**: anything the LED font can't draw falls back to a headline card; outro and disclaimer are always added.
-5. **Audio**: every video is normalized to −14 LUFS with true peak below −1.5 dB.
-
-Research and fact-check reports are saved with every run (`episodes/daily/*.md`) and uploaded as workflow artifacts.
-
 ## Files
-- `voice.py`: script → narration (`voice.wav`) and timeline (line and word timings, lip-sync envelope)
-- `audio.py`: original music bed and sound effects
-- `player/`: the scene player (Ticker, Dot, LED text, charts, captions, transitions)
-- `render.js`: renders frames with Chromium and pipes them into ffmpeg
-- `build.py`: voice → audio → frames → final mix
-- `news.py`: research → script → fact-check (Claude API)
-- `daily.py`: one scheduled run, from news to scheduled post
-- `publish.py`: schedules a video on all four networks through Metricool
-- `episodes/`: hand-written evergreen episodes; `episodes/daily/` holds generated ones
-- `curriculum.json` / `state.json`: the Money School course and where the channel is in it
-- `player/world.js`: LED world map (from public-domain country outlines) for world-news scenes
+- `daily.py`: one scheduled run (plan, fallbacks, hosting, chapters, publishing)
+- `concepts/studio.py`: topic → research → template script → fact-check (Claude API)
+- `concepts/topics.json` / `topics_state.json`: the evergreen topic bank and what's been used
+- `concepts/layout.py`: scene templates → positioned drawings (9:16 and 16:9), covers and thumbnails
+- `concepts/doodle.html`, `doodle.js`: the hand-drawn player (characters, props, charts, captions)
+- `concepts/build.py`, `render.js`, `audio2.py`, `run.py`: voice, frames, music, mix
+- `publish.py`: per-platform Metricool posts
+- `voice.py`: free Kokoro voices (Ticker = am_adam; the squirrel is am_adam pitched up)
+- Older blue "LED" engine files (`player/`, `build.py`, `news.py`) are kept for reference; `news.py` also holds the shared Claude call helper.

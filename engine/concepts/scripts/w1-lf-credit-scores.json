@@ -1,0 +1,749 @@
+{
+ "format": "landscape",
+ "cover": {
+  "title": "Credit Scores, Completely Explained.",
+  "prop": "card",
+  "label": "742",
+  "value": "300-850"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A three-digit number can change what you pay for a car, an apartment, and even a phone plan.",
+   "say": "A three-digit number can change what you pay for a car, an apartment, and even a phone plan.",
+   "scene": {
+    "t": "hook",
+    "title": "3 digits that [price] your life",
+    "prop": "card",
+    "label": "742"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's your credit score. Today we're going to take it apart, piece by piece, so you know exactly how it works.",
+   "say": "It's your credit score. Today we're going to take it apart, piece by piece, so you know exactly how it works.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your credit score,",
+     "taken apart"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. What a credit score actually is.",
+   "say": "Chapter one. What a credit score actually is.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What a credit score is"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A credit score is a number that sums up how reliably you've paid back money you borrowed.",
+   "say": "A credit score is a number that sums up how reliably you've paid back money you borrowed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A grade for how you",
+     "pay back what you borrow"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The most widely used one, the FICO score, runs from 300 to 850.",
+   "say": "The most widely used one, the FICO score, runs from three hundred to eight hundred fifty.",
+   "scene": {
+    "t": "stat",
+    "label": "The FICO score range",
+    "value": "300-850",
+    "sub": "the most widely used score",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's calculated from your credit reports, which are kept by three big credit bureaus.",
+   "say": "It's calculated from your credit reports, which are kept by three big credit bureaus.",
+   "scene": {
+    "t": "hook",
+    "title": "Kept by 3 [credit bureaus]",
+    "prop": "paper",
+    "label": "CREDIT REPORT"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Equifax, Experian, and TransUnion.",
+   "say": "Equifax, Experian, and TransUnion.",
+   "scene": {
+    "t": "list",
+    "title": "The 3 credit bureaus",
+    "items": [
+     "Equifax",
+     "Experian",
+     "TransUnion"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your credit report is the record. Your score is a grade calculated from that record.",
+   "say": "Your credit report is the record. Your score is a grade calculated from that record.",
+   "scene": {
+    "t": "compare",
+    "title": "Report vs score",
+    "left": {
+     "label": "Credit report",
+     "value": "record",
+     "tone": "neutral",
+     "sub": "your history"
+    },
+    "right": {
+     "label": "Credit score",
+     "value": "grade",
+     "tone": "neutral",
+     "sub": "calculated from it"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And you don't have just one score. There are different models, like FICO and VantageScore, and lenders pick which one they use.",
+   "say": "And you don't have just one score. There are different models, like FICO and VantageScore, and lenders pick which one they use.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "FICO, VantageScore...",
+     "lenders pick one"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why it matters: a higher score can mean lower interest rates, smaller deposits, and more yeses when you apply.",
+   "say": "Why it matters: a higher score can mean lower interest rates, smaller deposits, and more yeses when you apply.",
+   "scene": {
+    "t": "list",
+    "title": "A higher score can mean",
+    "items": [
+     "Lower interest rates",
+     "Smaller deposits",
+     "More approvals"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. The five things that make up your score.",
+   "say": "Chapter two. The five things that make up your score.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The five ingredients"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FICO publishes how much each part counts. Here's the whole recipe.",
+   "say": "FICO publishes how much each part counts. Here's the whole recipe.",
+   "scene": {
+    "t": "list",
+    "title": "The FICO recipe",
+    "items": [
+     "Payment history 35%",
+     "Amounts owed 30%",
+     "Length of history 15%",
+     "New credit 10%",
+     "Credit mix 10%"
+    ],
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Payment history is the biggest piece, at thirty-five percent. Amounts owed is next, at thirty.",
+   "say": "Payment history is the biggest piece, at thirty-five percent. Amounts owed is next, at thirty.",
+   "scene": {
+    "t": "compare",
+    "title": "The two biggest pieces",
+    "left": {
+     "label": "Payment history",
+     "value": "35%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Amounts owed",
+     "value": "30%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Together, those two are almost two-thirds of your score. So let's start there.",
+   "say": "Together, those two are almost two-thirds of your score. So let's start there.",
+   "scene": {
+    "t": "stat",
+    "label": "Together",
+    "value": "65%",
+    "sub": "almost two-thirds of your score",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. Payment history.",
+   "say": "Chapter three. Payment history.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Payment history"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This one is simple: do you pay your bills on time?",
+   "say": "This one is simple: do you pay your bills on time?",
+   "scene": {
+    "t": "hook",
+    "title": "Do you pay [on time]?",
+    "prop": "tag",
+    "label": "DUE"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A payment usually gets reported as late once it's thirty days past due.",
+   "say": "A payment usually gets reported as late once it's thirty days past due.",
+   "scene": {
+    "t": "stat",
+    "label": "Usually reported late at",
+    "value": "30 days",
+    "sub": "past due",
+    "tone": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a late payment can stay on your credit report for up to seven years.",
+   "say": "And a late payment can stay on your credit report for up to seven years.",
+   "scene": {
+    "t": "stat",
+    "label": "A late payment can stay",
+    "value": "7 years",
+    "sub": "on your credit report",
+    "tone": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying a day or two late usually means a late fee, not a hit to your credit report. The thirty-day mark is what counts.",
+   "say": "Paying a day or two late usually means a late fee, not a hit to your credit report. The thirty-day mark is what counts.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1-2 days late = late fee",
+     "30 days late = credit hit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you do miss one, pay it as fast as you can. The longer it goes, the worse it gets, at sixty and ninety days.",
+   "say": "If you do miss one, pay it as fast as you can. The longer it goes, the worse it gets, at sixty and ninety days.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "30 days",
+      "reported late"
+     ],
+     [
+      "60 days",
+      "worse"
+     ],
+     [
+      "90 days",
+      "worse still"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The easiest fix is autopay for at least the minimum, so a busy week never becomes a late payment.",
+   "say": "The easiest fix is autopay for at least the minimum, so a busy week never becomes a late payment.",
+   "scene": {
+    "t": "hook",
+    "title": "Turn on [autopay]",
+    "prop": "card",
+    "label": "AUTOPAY",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. Amounts owed.",
+   "say": "Chapter four. Amounts owed.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Amounts owed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A big part of this is your credit utilization.",
+   "say": "A big part of this is your credit utilization.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Credit utilization =",
+     "balance ÷ limit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your limit is five thousand dollars and you owe one thousand, you're using twenty percent.",
+   "say": "If your limit is five thousand dollars and you owe one thousand, you're using twenty percent.",
+   "scene": {
+    "t": "stat",
+    "label": "$1,000 owed on a $5,000 limit",
+    "value": "20%",
+    "sub": "credit utilization",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lower usage generally helps your score. Here's how the same five thousand dollar limit looks at different balances.",
+   "say": "Lower usage generally helps your score. Here's how the same five thousand dollar limit looks at different balances.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $5,000 limit",
+    "left": {
+     "label": "$500 owed",
+     "value": "10%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "$4,000 owed",
+     "value": "80%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A common rule of thumb is to stay under thirty percent, and lower is better.",
+   "say": "A common rule of thumb is to stay under thirty percent, and lower is better.",
+   "scene": {
+    "t": "stat",
+    "label": "Common rule of thumb",
+    "value": "< 30%",
+    "sub": "lower is better",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying your balance before the statement date can also lower the number that gets reported.",
+   "say": "Paying your balance before the statement date can also lower the number that gets reported.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay before the",
+     "statement date"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The good news: card balances are usually reported monthly, so paying them down can show up in your score fairly quickly.",
+   "say": "The good news: card balances are usually reported monthly, so paying them down can show up in your score fairly quickly.",
+   "scene": {
+    "t": "hook",
+    "title": "Reported [monthly]",
+    "prop": "chart-up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. The last three pieces.",
+   "say": "Chapter five. The last three pieces.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The last three pieces"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Length of history is fifteen percent. Older accounts help, so closing your oldest card can shorten your history.",
+   "say": "Length of history is fifteen percent. Older accounts help, so closing your oldest card can shorten your history.",
+   "scene": {
+    "t": "stat",
+    "label": "Length of history",
+    "value": "15%",
+    "sub": "older accounts help",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "New credit covers hard inquiries.",
+   "say": "New credit covers hard inquiries.",
+   "scene": {
+    "t": "stat",
+    "label": "New credit",
+    "value": "10%",
+    "sub": "hard inquiries",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hard inquiry stays on your report for two years, and FICO scores only count it for about one year.",
+   "say": "A hard inquiry stays on your report for two years, and FICO scores only count it for about one year.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Day 1",
+      "hard inquiry"
+     ],
+     [
+      "~1 year",
+      "FICO stops counting it"
+     ],
+     [
+      "2 years",
+      "off your report"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shopping around for a mortgage or car loan? Scoring models usually count several of those checks in a short window as one.",
+   "say": "Shopping around for a mortgage or car loan? Scoring models usually count several of those checks in a short window as one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rate shopping:",
+     "several checks",
+     "count as one"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Opening several new cards at once is different. It adds inquiries and lowers the average age of your accounts.",
+   "say": "Opening several new cards at once is different. It adds inquiries and lowers the average age of your accounts.",
+   "scene": {
+    "t": "split",
+    "title": "Many new cards at once",
+    "left": {
+     "title": "Adds",
+     "items": [
+      "Hard inquiries"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Lowers",
+     "items": [
+      "Average account age"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And credit mix means having different kinds, like a card and an installment loan. It's the smallest piece, so never borrow just to improve it.",
+   "say": "And credit mix means having different kinds, like a card and an installment loan. It's the smallest piece, so never borrow just to improve it.",
+   "scene": {
+    "t": "stat",
+    "label": "Credit mix",
+    "value": "10%",
+    "sub": "never borrow just to improve it",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. Checking your credit, for free.",
+   "say": "Chapter six. Checking your credit, for free.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Checking your credit, free"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can get free credit reports from all three bureaus every week at AnnualCreditReport dot com.",
+   "say": "You can get free credit reports from all three bureaus every week at AnnualCreditReport dot com.",
+   "scene": {
+    "t": "stat",
+    "label": "Free reports, every week",
+    "value": "3 bureaus",
+    "sub": "AnnualCreditReport.com",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Checking your own credit is a soft inquiry, so it doesn't hurt your score.",
+   "say": "Checking your own credit is a soft inquiry, so it doesn't hurt your score.",
+   "scene": {
+    "t": "hook",
+    "title": "Checking yours = [soft] check",
+    "prop": "none",
+    "value": "no hit",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look for accounts you don't recognize or payments marked late by mistake, and dispute errors with the bureau.",
+   "say": "Look for accounts you don't recognize or payments marked late by mistake, and dispute errors with the bureau.",
+   "scene": {
+    "t": "list",
+    "title": "What to look for",
+    "items": [
+     "Accounts you don't know",
+     "Wrong late payments",
+     "Dispute any errors"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter seven. Starting from zero.",
+   "say": "Chapter seven. Starting from zero.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "Starting from zero"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you have no credit history, you can't have a score yet. Here are the common ways people start.",
+   "say": "If you have no credit history, you can't have a score yet. Here are the common ways people start.",
+   "scene": {
+    "t": "list",
+    "title": "Common ways to start",
+    "items": [
+     "A secured credit card",
+     "Authorized user",
+     "Credit-builder loan"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whichever you use, the same rules apply: small balances, paid on time, every month.",
+   "say": "Whichever you use, the same rules apply: small balances, paid on time, every month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Small balances,",
+     "paid on time,",
+     "every month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter eight. Myths that cost people money.",
+   "say": "Chapter eight. Myths that cost people money.",
+   "scene": {
+    "t": "chapter",
+    "n": 8,
+    "title": "Myths that cost money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Myth: you need to carry a balance and pay interest to build credit.",
+   "say": "Myth: you need to carry a balance and pay interest to build credit.",
+   "scene": {
+    "t": "hook",
+    "title": "Myth: carry a [balance]",
+    "prop": "card",
+    "value": "MYTH"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fact: paying your full balance still shows on-time payments and low usage. You never have to pay interest to build credit.",
+   "say": "Fact: paying your full balance still shows on-time payments and low usage. You never have to pay interest to build credit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay in full =",
+     "on time + low usage",
+     "no interest needed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Myth: a higher income means a higher score. Fact: income isn't part of your credit score at all.",
+   "say": "Myth: a higher income means a higher score. Fact: income isn't part of your credit score at all.",
+   "scene": {
+    "t": "compare",
+    "title": "Does income count?",
+    "left": {
+     "label": "Your income",
+     "value": "0%",
+     "tone": "neutral",
+     "sub": "not in your score"
+    },
+    "right": {
+     "label": "Payment history",
+     "value": "35%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Myth: closing an unused card always helps. It can actually hurt, because your total limit shrinks and your usage goes up.",
+   "say": "Myth: closing an unused card always helps. It can actually hurt, because your total limit shrinks and your usage goes up.",
+   "scene": {
+    "t": "split",
+    "title": "Closing an unused card",
+    "left": {
+     "title": "Your limit",
+     "items": [
+      "Total limit shrinks"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Your usage",
+     "items": [
+      "Usage % goes up"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter nine. How long the bad stuff lasts.",
+   "say": "Chapter nine. How long the bad stuff lasts.",
+   "scene": {
+    "t": "chapter",
+    "n": 9,
+    "title": "How long bad marks last"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Late payments and collections can stay for up to seven years. Some bankruptcies stay for up to ten.",
+   "say": "Late payments and collections can stay for up to seven years. Some bankruptcies stay for up to ten.",
+   "scene": {
+    "t": "compare",
+    "title": "How long marks can stay",
+    "left": {
+     "label": "Late payments, collections",
+     "value": "7 yrs",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Some bankruptcies",
+     "value": "10 yrs",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But their impact fades. Recent on-time payments matter more than old mistakes.",
+   "say": "But their impact fades. Recent on-time payments matter more than old mistakes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Impact fades.",
+     "Recent on-time payments",
+     "matter more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the whole thing in five moves.",
+   "say": "So here's the whole thing in five moves.",
+   "scene": {
+    "t": "chapter",
+    "n": 10,
+    "title": "The whole thing in 5 moves"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay on time. Keep balances low. Keep old accounts open. And apply only when you need to.",
+   "say": "Pay on time. Keep balances low. Keep old accounts open. And apply only when you need to.",
+   "scene": {
+    "t": "list",
+    "title": "5 moves",
+    "items": [
+     "Pay on time",
+     "Keep balances low",
+     "Keep old accounts open",
+     "Apply only when needed",
+     "Check your reports"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And check your reports every few months, for free, so nothing surprises you.",
+   "say": "And check your reports every few months, for free, so nothing surprises you.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Do those consistently, and your score takes care of itself over time.",
+   "say": "Do those consistently, and your score takes care of itself over time.",
+   "scene": {
+    "t": "hook",
+    "title": "Consistency [wins]",
+    "prop": "chart-up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-lf-credit-scores",
+ "series": "ticker"
+}

@@ -15,17 +15,18 @@ const fs = require('fs'), path = require('path');
   await p.goto('file://' + path.join(__dirname, 'doodle.html'));
   await p.evaluate(() => document.fonts.ready);
   await p.evaluate(([e, t]) => window.setup(e, t), [ep, tl]);
-  const n = Math.round(tl.duration * tl.fps);
+  const rf = ep.renderFps || tl.fps;   // long-form draws at 15 fps (hand-drawn look), stored at 30 fps
+  const n = Math.round(tl.duration * rf);
   const only = process.env.FRAMES ? process.env.FRAMES.split(',').map(Number) : null;
   if (only) { // still frames for review
     for (const s of only) { await p.evaluate(t => window.render(t), s); await p.screenshot({ path: path.join(out, 'still-' + s + '.png') }); }
     await b.close(); return;
   }
-  const ff = spawn(FF, ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(tl.fps), '-i', '-',
-    '-c:v', 'libx264', '-preset', land ? 'slow' : 'medium', '-tune', 'animation', '-crf', land ? '22' : '20', '-pix_fmt', 'yuv420p', '-r', String(tl.fps), path.join(out, 'video.mp4')]);
+  const ff = spawn(FF, ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(rf), '-i', '-',
+    '-c:v', 'libx264', '-preset', land ? 'slow' : 'medium', '-tune', 'animation', '-crf', land ? (tl.duration > 420 ? '27' : '24') : '20', '-pix_fmt', 'yuv420p', '-r', String(tl.fps), path.join(out, 'video.mp4')]);
   ff.stderr.on('data', d => process.stderr.write(d));
   for (let i = 0; i < n; i++) {
-    await p.evaluate(t => window.render(t), i / tl.fps);
+    await p.evaluate(t => window.render(t), i / rf);
     const buf = await p.screenshot({ type: 'jpeg', quality: 92 });
     if (!ff.stdin.write(buf)) await new Promise(r => ff.stdin.once('drain', r));
     if (i % 150 === 0) process.stdout.write(`frame ${i}/${n}\n`);

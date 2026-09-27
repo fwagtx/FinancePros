@@ -1,0 +1,89 @@
+{
+ "header": "Can a raise make you\ntake home less?",
+ "cover": {
+  "title": "Can a Raise Lower Your Pay?",
+  "prop": "bill",
+  "value": "MYTH"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: a raise can push you into a higher tax bracket and leave you with less money.",
+   "say": "Myth: a raise can push you into a higher tax bracket and leave you with less money.",
+   "scene": {
+    "t": "hook",
+    "title": "A raise that [costs] you?",
+    "prop": "bill",
+    "value": "MYTH"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal income tax brackets don't work that way. Only the dollars above each line get the higher rate.",
+   "say": "Federal income tax brackets don't work that way. Only the dollars above each line get the higher rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Only the dollars",
+     "ABOVE the line",
+     "get the higher rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Simple example: say the 22% bracket starts at 50,000, and your pay rises from 49,000 to 51,000.",
+   "say": "Simple example: say the twenty-two percent bracket starts at fifty thousand, and your pay rises from forty-nine to fifty-one thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Tax on a $2,000 raise (simplified)",
+    "left": {
+     "label": "$1,000 below the line",
+     "value": "$120",
+     "tone": "neutral",
+     "sub": "at 12%"
+    },
+    "right": {
+     "label": "$1,000 above it",
+     "value": "$220",
+     "tone": "down",
+     "sub": "at 22%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 340 dollars in federal income tax. You keep the rest of the raise.",
+   "say": "That's three hundred forty dollars in federal income tax. You keep the rest of the raise.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra federal income tax",
+    "value": "$340",
+    "sub": "the rest of the $2,000 is yours",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So take the raise. Higher brackets only touch the top slice.",
+   "say": "So take the raise. Higher brackets only touch the top slice.",
+   "scene": {
+    "t": "hook",
+    "title": "Take the [raise]",
+    "prop": "coins",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-tax-bracket-myth",
+ "format": "vertical",
+ "series": "ticker"
+}

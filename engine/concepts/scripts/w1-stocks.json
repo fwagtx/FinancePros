@@ -1,0 +1,80 @@
+{
+ "header": "What a stock\nactually is",
+ "cover": {
+  "title": "What Is a Stock, Really?",
+  "prop": "chart-up"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Everyone talks about stocks. But what are you actually buying?",
+   "say": "Everyone talks about stocks. But what are you actually buying?",
+   "scene": {
+    "t": "hook",
+    "title": "What is a [stock]?",
+    "prop": "chart-up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A stock is a tiny piece of ownership in a company. Each piece is called a share.",
+   "say": "A stock is a tiny piece of ownership in a company. Each piece is called a share.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 share =",
+     "a tiny piece of",
+     "a company"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If a company has a million shares and you own a hundred, you own one hundredth of one percent.",
+   "say": "If a company has a million shares and you own a hundred, you own one hundredth of one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "100 shares of 1,000,000",
+    "value": "0.01%",
+    "sub": "small, but real ownership",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can make money two ways: the price goes up, or the company pays a dividend.",
+   "say": "You can make money two ways: the price goes up, or the company pays a dividend.",
+   "scene": {
+    "t": "list",
+    "title": "How owners make money",
+    "items": [
+     "The price goes up",
+     "Dividends (some companies)"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But prices can fall, even to zero. That's why many people spread their money across many companies.",
+   "say": "But prices can fall, even to zero. That's why many people spread their money across many companies.",
+   "scene": {
+    "t": "hook",
+    "title": "Prices can [fall] too",
+    "prop": "chart-down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-stocks",
+ "format": "vertical",
+ "series": "ticker"
+}

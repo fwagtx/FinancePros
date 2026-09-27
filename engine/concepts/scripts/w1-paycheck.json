@@ -1,0 +1,107 @@
+{
+ "header": "Where your paycheck goes\nbefore you see it",
+ "cover": {
+  "title": "Where Your Paycheck Goes",
+  "prop": "bill",
+  "label": "$4,000",
+  "value": "-$306"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your paycheck says one number. Your bank account gets a smaller one. Here's where the rest goes.",
+   "say": "Your paycheck says one number. Your bank account gets a smaller one. Here's where the rest goes.",
+   "scene": {
+    "t": "hook",
+    "title": "Where your [paycheck] goes",
+    "prop": "bill",
+    "label": "$4,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gross pay is what you earn. Net pay is what actually lands in your account.",
+   "say": "Gross pay is what you earn. Net pay is what actually lands in your account.",
+   "scene": {
+    "t": "compare",
+    "title": "Gross vs net",
+    "left": {
+     "label": "Gross pay",
+     "value": "earned",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Net pay",
+     "value": "landed",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, Social Security and Medicare take 7.65% of most paychecks.",
+   "say": "First, Social Security and Medicare take seven point six five percent of most paychecks.",
+   "scene": {
+    "t": "stat",
+    "label": "Social Security 6.2% + Medicare 1.45%",
+    "value": "7.65%",
+    "sub": "of most paychecks",
+    "tone": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On 4,000 dollars a month, that's 306 dollars.",
+   "say": "On four thousand dollars a month, that's three hundred and six dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "monthly pay",
+     "value": "$4,000"
+    },
+    "to": {
+     "label": "$248 + $58",
+     "value": "-$306"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then federal income tax, state income tax in most states, and anything you signed up for, like health insurance or a 401k.",
+   "say": "Then federal income tax, state income tax in most states, and anything you signed up for, like health insurance or a four oh one k.",
+   "scene": {
+    "t": "list",
+    "title": "Also taken out",
+    "items": [
+     "Federal income tax",
+     "State income tax",
+     "Health insurance, 401(k)"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Read your pay stub once. It lists every dollar, and it's how you catch mistakes.",
+   "say": "Read your pay stub once. It lists every dollar, and it's how you catch mistakes.",
+   "scene": {
+    "t": "hook",
+    "title": "Read your [pay stub] once",
+    "prop": "paper",
+    "label": "PAY STUB",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-paycheck",
+ "format": "vertical",
+ "series": "ticker"
+}

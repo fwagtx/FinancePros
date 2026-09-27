@@ -1,0 +1,170 @@
+{
+ "id": "T-lf-auto",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "The Fed just moved.\nHere's your wallet.",
+ "cover": {
+  "title": "The Fed Controls Your Money.",
+  "prop": "fed",
+  "value": "5.5%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Twelve people decide what your mortgage costs.",
+   "say": "Twelve people decide what your mortgage costs.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "12 votes",
+    "caption": "the FOMC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's start at the beginning.",
+   "say": "Let's start at the beginning.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What the Fed does"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the rate since 2000.",
+   "say": "Here's the rate since two thousand.",
+   "scene": {
+    "t": "chart",
+    "title": "Fed funds rate (upper target)",
+    "points": [
+     [
+      2000,
+      6.5
+     ],
+     [
+      2003,
+      1
+     ],
+     [
+      2006,
+      5.25
+     ],
+     [
+      2008,
+      0.25
+     ],
+     [
+      2015,
+      0.5
+     ],
+     [
+      2018,
+      2.5
+     ],
+     [
+      2020,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ]
+    ],
+    "suffix": "%",
+    "end": "5.5%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2008 it went to almost zero.",
+   "say": "In two thousand and eight it went to almost zero.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2008,
+     "text": "near 0%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the question: who wins?",
+   "say": "Then the question: who wins?",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Winners and losers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Savers win, borrowers pay.",
+   "say": "Savers win, borrowers pay.",
+   "scene": {
+    "t": "split",
+    "title": "When rates go up",
+    "left": {
+     "title": "Winners",
+     "items": [
+      "Savers",
+      "Money market funds"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Losers",
+     "items": [
+      "New borrowers",
+      "Credit card debt"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "China and Japan feel it too.",
+   "say": "China and Japan feel it too.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "rates up!"
+     },
+     {
+      "name": "japan",
+      "mood": "worried"
+     }
+    ],
+    "caption": "a stronger dollar"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money.",
+   "say": "That's the money.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "The Fed, explained from zero",
+  "ig": "x",
+  "tiktok": "x",
+  "yt_desc": "The Fed, explained.\n\nCHAPTERS\n\nSources: Federal Reserve.",
+  "tags": [
+   "fed",
+   "interest rates"
+  ]
+ }
+}

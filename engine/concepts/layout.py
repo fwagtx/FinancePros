@@ -10,8 +10,8 @@ A line with "keep": true continues the previous line's picture (reveals the next
 import re
 
 RED, GREEN = "#E0241B", "#2E9A45"
-COUNTRY_COLOR = {"us": "#3E9B4F", "china": "#E4572E", "japan": "#F4F1EA", "uk": "#3B5BA5", "germany": "#E8C547",
-                 "mexico": "#F2A541", "canada": "#F28B82"}
+COUNTRY_COLOR = {"us": "#3E9B4F", "china": "#E4572E", "japan": "#F07C7C", "uk": "#3B5BA5", "germany": "#E8C547",
+                 "mexico": "#F2A541", "canada": "#C94C4C"}
 PROPS = ("bill", "card", "house", "car", "bag", "coins", "fed", "store", "customs", "chart-up", "chart-down", "fire", "acorns",
          "box", "tag", "mattress", "pot", "paper", "none")
 TEMPLATES = ("hook", "board", "chart", "compare", "list", "stat", "money", "countries", "building", "news", "quote",
@@ -120,7 +120,9 @@ def chart_items(F, sc, top):
     xs = [p[0] for p in pts]; numeric = all(isinstance(v, (int, float)) for v in xs)
     data = [[(xv if numeric else i), yv] for i, (xv, yv) in enumerate(pts)]
     xl = [[data[0][0], str(xs[0])], [data[n // 2][0], str(xs[n // 2])], [data[-1][0], str(xs[-1])]] if n > 2 else [[data[0][0], str(xs[0])], [data[-1][0], str(xs[-1])]]
-    ticks = [mn + (mx - mn) * f for f in (0.1, 0.5, 0.9)] if mn < 0 else [hi * 0.25, hi * 0.5, hi * 0.9]
+    import math
+    span = (mx - mn) / 3 or 1; mag = 10 ** math.floor(math.log10(span)); step = next(m * mag for m in (1, 2, 2.5, 5, 10) if m * mag >= span)
+    ticks = [k * step for k in range(math.ceil(mn / step), math.floor(mx / step) + 1) if k * step != 0 or mn < 0][:4]
     trend = sc.get("color") or ("up" if vals[-1] >= vals[0] else "down")
     item = dict(k="chart", id="chart", x=round(x0), y=round(y0), w=round(w), h=round(h), data=data, numeric=True, max=mx, min=mn,
                 title=None, xl=xl, yl=[[t, fmt(t)] for t in ticks], lsize=34 if F.v else 32,
@@ -140,7 +142,7 @@ def countries_items(F, cast, prop=None):
         P = {1: [(760, 520, 760)], 2: [(520, 520, 620), (1200, 540, 480)], 3: [(420, 460, 520), (1000, 460, 440), (700, 820, 420)]}[min(n, 3)]
     for i, c in enumerate(cast[:3]):
         x, y, w = P[i]; nm = c.get("name", "us")
-        w = w * (0.75 if nm in ("uk", "japan", "germany") else 1)
+        w = w * (0.8 if nm in ("uk", "germany") else 1)
         look = [1, 0] if (n > 1 and i == 0) else ([-1, 0] if n > 1 else [0, 0.3])
         out.append(dict(k="country", id="c_" + nm, name=nm, x=x, y=y, w=round(w), color=COUNTRY_COLOR.get(nm, "#3E9B4F"), mood=c.get("mood", "happy"),
                         look=look, talk=False, sweat=c.get("mood") == "worried", at=0.25 * i))
@@ -330,9 +332,10 @@ def _step(F, sc, st, prev):
     elif t == "timeline" and "timeline" in st:
         a = st.get("tshown", 1); b = sc.get("reveal", a + 1); items += _timeline(F, st["timeline"], a, b); st["tshown"] = b
     elif t == "chart" and sc.get("note") and "pos" in st:
-        x, y = st["pos"](sc["note"].get("x")); tx = x - 200 if x > F.cx else x + 40
+        x, y = st["pos"](sc["note"].get("x")); tx = x - 200 if x > F.cx else x + 60
+        ty = y - 90 if y > (F.box[1] + F.box[3]) / 2 else y + 120
         items += [dict(k="circle", x=round(x), y=round(y), rx=70, ry=60, seed=4, at=0.4),
-                  dict(k="text", x=round(tx), y=round(min(y + 110, F.box[3] - 40)), text=sc["note"].get("text", ""), size=50 if F.v else 54, color=RED, at=1.0)]
+                  dict(k="text", x=round(tx), y=round(ty), text=sc["note"].get("text", ""), size=50 if F.v else 56, color=RED, at=1.0)]
     elif t == "compare" and sc.get("winner") and "compare" in st:
         xl, xr, cy = st["compare"]; x = xl if sc["winner"] == "left" else xr
         items.append(dict(k="circle", x=round(x), y=round(cy), rx=round(F.w * 0.26), ry=270, seed=8, color=GREEN, at=0.3))
@@ -370,7 +373,7 @@ def build_episode(script):
     ep = {"id": script["id"], "format": fmt, "music": script.get("music", "bouncy" if host == "nutty" else "lofi"), "lines": lines}
     if host == "nutty": ep["pitch"] = 1.1
     if fmt != "landscape": ep["header"] = script.get("header", "")
-    else: ep["captions"] = False
+    else: ep["captions"] = False; ep["renderFps"] = 15
     return ep
 
 

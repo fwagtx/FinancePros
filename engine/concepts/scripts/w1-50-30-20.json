@@ -1,0 +1,92 @@
+{
+ "header": "The 50/30/20 budget\nin 40 seconds",
+ "cover": {
+  "title": "The 50/30/20 Budget",
+  "prop": "coins",
+  "value": "50/30/20"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The simplest budget out there fits in three numbers: 50, 30, 20.",
+   "say": "The simplest budget out there fits in three numbers: fifty, thirty, twenty.",
+   "scene": {
+    "t": "hook",
+    "title": "The [50/30/20] budget",
+    "prop": "coins"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "50% of your take-home pay goes to needs, 30% to wants, and 20% to savings or extra debt payments.",
+   "say": "Fifty percent of your take-home pay goes to needs, thirty percent to wants, and twenty percent to savings or extra debt payments.",
+   "scene": {
+    "t": "list",
+    "title": "Of your take-home pay",
+    "items": [
+     "50% needs",
+     "30% wants",
+     "20% savings or debt"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On 3,000 dollars a month after taxes, that's 1,500, 900 and 600.",
+   "say": "On three thousand dollars a month after taxes, that's fifteen hundred, nine hundred, and six hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "$3,000 a month, after taxes",
+    "left": {
+     "label": "Needs + wants",
+     "value": "$2,400",
+     "tone": "neutral",
+     "sub": "$1,500 + $900"
+    },
+    "right": {
+     "label": "Savings",
+     "value": "$600",
+     "tone": "up",
+     "sub": "every month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It was popularized by Elizabeth Warren and Amelia Warren Tyagi in their book, All Your Worth.",
+   "say": "It was popularized by Elizabeth Warren and Amelia Warren Tyagi in their book, All Your Worth.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Popularized by",
+     "Elizabeth Warren &",
+     "Amelia Warren Tyagi"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's a starting point, not a law. If rent takes more than half, adjust the split.",
+   "say": "It's a starting point, not a law. If rent takes more than half, adjust the split.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A starting point,",
+     "not a law"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-50-30-20",
+ "format": "vertical",
+ "series": "ticker"
+}

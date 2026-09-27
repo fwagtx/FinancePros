@@ -1,0 +1,100 @@
+{
+ "header": "Roth vs traditional:\npay tax now or later?",
+ "cover": {
+  "title": "Roth or Traditional IRA?",
+  "prop": "bag",
+  "label": "IRA"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Roth IRA or traditional IRA? It comes down to one question: pay the tax now, or later?",
+   "say": "Roth IRA or traditional IRA? It comes down to one question: pay the tax now, or later?",
+   "scene": {
+    "t": "hook",
+    "title": "Pay the tax [now] or later?",
+    "prop": "bag",
+    "label": "IRA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Traditional: your contributions may be tax-deductible now, and withdrawals are taxed as income in retirement.",
+   "say": "Traditional: your contributions may be tax-deductible now, and withdrawals are taxed as income in retirement.",
+   "scene": {
+    "t": "compare",
+    "title": "Two kinds of IRA",
+    "left": {
+     "label": "Traditional",
+     "value": "later",
+     "tone": "neutral",
+     "sub": "tax break now"
+    },
+    "right": {
+     "label": "Roth",
+     "value": "now",
+     "tone": "neutral",
+     "sub": "tax-free later"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Roth: you put in money you've already paid tax on, and qualified withdrawals in retirement are tax-free.",
+   "say": "Roth: you put in money you've already paid tax on, and qualified withdrawals in retirement are tax-free.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Roth: taxed going in,",
+     "qualified withdrawals",
+     "tax-free"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rule of thumb: if you expect a higher tax rate later, a Roth often wins. If you expect a lower one, traditional can.",
+   "say": "Rule of thumb: if you expect a higher tax rate later, a Roth often wins. If you expect a lower one, traditional can.",
+   "scene": {
+    "t": "split",
+    "title": "Rule of thumb",
+    "left": {
+     "title": "Higher rate later?",
+     "items": [
+      "Roth often wins"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Lower rate later?",
+     "items": [
+      "Traditional can win"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Roth IRAs have income limits. Either way, starting early matters most.",
+   "say": "Roth IRAs have income limits. Either way, starting early matters most.",
+   "scene": {
+    "t": "hook",
+    "title": "Either way: [start early]",
+    "prop": "chart-up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-roth-vs-traditional",
+ "format": "vertical",
+ "series": "ticker"
+}

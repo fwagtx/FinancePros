@@ -1,0 +1,450 @@
+{
+ "id": "w1-buy-borrow-die",
+ "format": "vertical",
+ "music": "lofi",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Why do billionaires borrow money when they're already rich? Because selling costs them.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "text",
+      "x": 425,
+      "y": 616,
+      "text": "Why the rich",
+      "size": 96,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "text",
+      "x": 425,
+      "y": 724,
+      "text": "[borrow]",
+      "size": 96,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "bag",
+      "x": 425.0,
+      "y": 1110.52,
+      "s": 1.75,
+      "label": "LOAN",
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "shock",
+      "pose": "pointleft",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9
+     }
+    ]
+   },
+   "say": "Why do billionaires borrow money when they're already rich? Because selling costs them."
+  },
+  {
+   "who": "ticker",
+   "text": "Sell stock that went up, and you owe capital gains tax on the profit.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "board",
+      "id": "board",
+      "x": 80,
+      "y": 560,
+      "w": 680,
+      "h": 440,
+      "lines": [
+       {
+        "t": "Sell stock that grew",
+        "size": 64
+       },
+       {
+        "t": "= capital gains tax",
+        "size": 68
+       }
+      ],
+      "write": 2.4
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "happy",
+      "pose": "pointleft",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9,
+      "stick": [
+       -300,
+       -470
+      ]
+     }
+    ]
+   },
+   "say": "Sell stock that went up, and you owe capital gains tax on the profit."
+  },
+  {
+   "who": "ticker",
+   "text": "So instead, they borrow against their stock. A loan isn't income, so there's no tax on it.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 584,
+      "text": "Two ways to get cash",
+      "size": 64,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "rect",
+      "id": "card_l",
+      "x": 117,
+      "y": 768,
+      "w": 396,
+      "h": 460,
+      "fill": "#fff",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 828,
+      "text": "Sell the stock",
+      "size": 50,
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 1088,
+      "text": "taxed",
+      "size": 110,
+      "font": "serif",
+      "weight": 700,
+      "color": "#E0241B",
+      "at": 0.5
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 1168,
+      "text": "capital gains",
+      "size": 38,
+      "color": "#555",
+      "at": 0.6
+     },
+     {
+      "k": "rect",
+      "id": "card_r",
+      "x": 567,
+      "y": 768,
+      "w": 396,
+      "h": 460,
+      "fill": "#fff",
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 828,
+      "text": "Borrow against",
+      "size": 50,
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 883,
+      "text": "it",
+      "size": 50,
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 1088,
+      "text": "no tax",
+      "size": 106,
+      "font": "serif",
+      "weight": 700,
+      "color": "#2E9A45",
+      "at": 1.4
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 1168,
+      "text": "a loan isn't income",
+      "size": 38,
+      "color": "#555",
+      "at": 1.5
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 1018,
+      "text": "vs",
+      "size": 70,
+      "font": "marker",
+      "color": "#E0241B",
+      "at": 0.9
+     }
+    ]
+   },
+   "say": "So instead, they borrow against their stock. A loan isn't income, so there's no tax on it."
+  },
+  {
+   "who": "ticker",
+   "text": "The stock keeps growing, and they pay interest on the loan instead.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "circle",
+      "x": 765,
+      "y": 998,
+      "rx": 234,
+      "ry": 270,
+      "seed": 8,
+      "color": "#2E9A45",
+      "at": 0.3
+     }
+    ]
+   },
+   "say": "The stock keeps growing, and they pay interest on the loan instead."
+  },
+  {
+   "who": "ticker",
+   "text": "People call it buy, borrow, die. Buy assets. Borrow against them. And hold them until death.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "text",
+      "x": 425,
+      "y": 590,
+      "text": "Buy, borrow, die",
+      "size": 70,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "text",
+      "id": "li0_0",
+      "x": 100,
+      "y": 758,
+      "text": "[1.] Buy assets that",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "id": "li0_1",
+      "x": 100,
+      "y": 830,
+      "text": "grow",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "id": "li1_0",
+      "x": 100,
+      "y": 923,
+      "text": "[2.] Borrow against",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.6
+     },
+     {
+      "k": "text",
+      "id": "li1_1",
+      "x": 100,
+      "y": 995,
+      "text": "them",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.6
+     },
+     {
+      "k": "text",
+      "id": "li2_0",
+      "x": 100,
+      "y": 1088,
+      "text": "[3.] Hold them for",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.8999999999999999
+     },
+     {
+      "k": "text",
+      "id": "li2_1",
+      "x": 100,
+      "y": 1160,
+      "text": "life",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.8999999999999999
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "think",
+      "pose": "think",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9
+     }
+    ]
+   },
+   "say": "People call it buy, borrow, die. Buy assets. Borrow against them. And hold them until death."
+  },
+  {
+   "who": "ticker",
+   "text": "Under current U.S. law, heirs usually get a stepped-up basis, so the gains during the owner's life may never be taxed.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "board",
+      "id": "board",
+      "x": 80,
+      "y": 560,
+      "w": 680,
+      "h": 440,
+      "lines": [
+       {
+        "t": "Heirs get a",
+        "size": 88
+       },
+       {
+        "t": "stepped-up basis",
+        "size": 84
+       },
+       {
+        "t": "(current U.S. law)",
+        "size": 72
+       }
+      ],
+      "write": 3.5999999999999996
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "happy",
+      "pose": "pointleft",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9,
+      "stick": [
+       -300,
+       -470
+      ]
+     }
+    ]
+   },
+   "say": "Under current U.S. law, heirs usually get a stepped-up basis, so the gains during the owner's life may never be taxed."
+  },
+  {
+   "who": "ticker",
+   "text": "It only works with a lot of assets, and borrowing always carries risk if prices fall.",
+   "scene": {
+    "group": "g6",
+    "items": [
+     {
+      "k": "text",
+      "x": 425,
+      "y": 616,
+      "text": "Big assets.",
+      "size": 96,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "text",
+      "x": 425,
+      "y": 724,
+      "text": "Big [risk].",
+      "size": 96,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "path",
+      "x": 425.0,
+      "y": 1060.52,
+      "d": "M138,873 L138,1248 L712,1248",
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "x1": 138,
+      "y1": 929,
+      "x2": 712,
+      "y2": 1211,
+      "bend": 0.05,
+      "color": "#E0241B",
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "worried",
+      "pose": "pointleft",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9
+     }
+    ]
+   },
+   "say": "It only works with a lot of assets, and borrowing always carries risk if prices fall."
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "scene": {
+    "group": "g7",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 640,
+      "s": 1.0
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 740,
+      "text": "money news + money basics, drawn simply",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "x": 540,
+      "y": 1340,
+      "s": 1.0,
+      "pose": "wave",
+      "mood": "up",
+      "at": 0.2
+     }
+    ]
+   },
+   "say": "That's the money. Follow for more."
+  }
+ ],
+ "header": "How the rich avoid\nselling their stock"
+}

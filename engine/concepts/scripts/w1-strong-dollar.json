@@ -1,0 +1,121 @@
+{
+ "header": "What a strong dollar\nmeans for you",
+ "cover": {
+  "title": "What a Strong Dollar Means",
+  "countries": [
+   "us",
+   "japan"
+  ]
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A strong dollar sounds like good news. It's more complicated than that.",
+   "say": "A strong dollar sounds like good news. It's more complicated than that.",
+   "scene": {
+    "t": "hook",
+    "title": "What a [strong dollar] means",
+    "prop": "bill"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It means one dollar buys more of other currencies.",
+   "say": "It means one dollar buys more of other currencies.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Strong dollar =",
+     "$1 buys more abroad"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take a 100 euro hotel room. At a dollar ten per euro, it costs you 110 dollars.",
+   "say": "Take a one hundred euro hotel room. At a dollar ten per euro, it costs you one hundred and ten dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "A €100 hotel, in dollars",
+    "left": {
+     "label": "€1 = $1.10",
+     "value": "$110",
+     "tone": "up",
+     "sub": "stronger dollar"
+    },
+    "right": {
+     "label": "€1 = $1.25",
+     "value": "$125",
+     "tone": "down",
+     "sub": "weaker dollar"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At a dollar twenty-five, the same room costs 125. The stronger dollar saves you 15.",
+   "say": "At a dollar twenty-five, the same room costs one hundred and twenty-five. The stronger dollar saves you fifteen.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's good for travelers and imported goods. It's harder for U.S. companies selling abroad.",
+   "say": "It's good for travelers and imported goods. It's harder for U.S. companies selling abroad.",
+   "scene": {
+    "t": "split",
+    "title": "Who wins, who doesn't",
+    "left": {
+     "title": "Easier",
+     "items": [
+      "Trips abroad",
+      "Imported goods"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Harder",
+     "items": [
+      "U.S. exporters",
+      "Profits earned abroad"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And exchange rates move every trading day, so this changes all the time.",
+   "say": "And exchange rates move every trading day, so this changes all the time.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "my $ goes far!"
+     },
+     {
+      "name": "japan",
+      "mood": "worried"
+     }
+    ],
+    "caption": "rates move every trading day"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-strong-dollar",
+ "format": "vertical",
+ "series": "ticker"
+}

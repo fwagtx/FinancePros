@@ -1,0 +1,98 @@
+{
+ "header": "How big should your\nemergency fund be?",
+ "cover": {
+  "title": "How Big Is Your Emergency Fund?",
+  "prop": "mattress",
+  "value": "3-6 mo"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A car repair or a lost job shouldn't turn into credit card debt. That's what an emergency fund is for.",
+   "say": "A car repair or a lost job shouldn't turn into credit card debt. That's what an emergency fund is for.",
+   "scene": {
+    "t": "hook",
+    "title": "Your [emergency fund]",
+    "prop": "car"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A common goal is three to six months of essential expenses.",
+   "say": "A common goal is three to six months of essential expenses.",
+   "scene": {
+    "t": "stat",
+    "label": "The common goal",
+    "value": "3-6 mo",
+    "sub": "of essential expenses",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your essentials cost 2,500 a month, that's 7,500 to 15,000 dollars.",
+   "say": "If your essentials cost twenty-five hundred a month, that's seventy-five hundred to fifteen thousand dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Essentials: $2,500 a month",
+    "left": {
+     "label": "3 months",
+     "value": "$7,500",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "6 months",
+     "value": "$15,000",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That sounds like a lot, so start small. A first goal of 500 dollars covers many surprise bills.",
+   "say": "That sounds like a lot, so start small. A first goal of five hundred dollars covers many surprise bills.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Step 1",
+      "$500 starter"
+     ],
+     [
+      "Step 2",
+      "1 month of essentials"
+     ],
+     [
+      "Step 3",
+      "3 to 6 months"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Automate it, keep it in a separate savings account, and only use it for real emergencies.",
+   "say": "Automate it, keep it in a separate savings account, and only use it for real emergencies.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Automate it.",
+     "Keep it separate.",
+     "Emergencies only."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-emergency-fund",
+ "format": "vertical",
+ "series": "ticker"
+}

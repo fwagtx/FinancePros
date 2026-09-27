@@ -1,0 +1,84 @@
+{
+ "header": "That toll text\nis a scam",
+ "cover": {
+  "title": "That Toll Text Is a Scam",
+  "prop": "car",
+  "value": "SCAM"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "You owe 4 dollars and 15 cents in unpaid tolls. Pay now or get fined. That text is a scam.",
+   "say": "You owe four dollars and fifteen cents in unpaid tolls. Pay now or get fined. That text is a scam.",
+   "scene": {
+    "t": "hook",
+    "title": "The [unpaid toll] text",
+    "prop": "car",
+    "value": "SCAM"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FBI and the Federal Trade Commission have warned about fake toll texts sent to people across the country.",
+   "say": "The FBI and the Federal Trade Commission have warned about fake toll texts sent to people across the country.",
+   "scene": {
+    "t": "news",
+    "headline": "FBI, FTC warn of fake unpaid-toll texts",
+    "source": "FBI IC3 and FTC consumer alerts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The link goes to a fake payment page that steals your card number.",
+   "say": "The link goes to a fake payment page that steals your card number.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The link =",
+     "a fake payment page"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Red flags: a tiny amount, a threat, and a link you didn't ask for.",
+   "say": "Red flags: a tiny amount, a threat, and a link you didn't ask for.",
+   "scene": {
+    "t": "list",
+    "title": "Red flags",
+    "items": [
+     "A tiny amount due",
+     "A threat or deadline",
+     "A link you didn't ask for"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Don't click. Check your account on the toll agency's real website, and forward the text to 7726.",
+   "say": "Don't click. Check your account on the toll agency's real website, and forward the text to seven seven two six.",
+   "scene": {
+    "t": "list",
+    "title": "What to do",
+    "items": [
+     "Don't click the link",
+     "Check the official site",
+     "Forward to 7726 (SPAM)"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Send this to someone who drives. That's the money.",
+   "say": "Send this to someone who drives. That's the money.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-scam-toll-texts",
+ "format": "vertical",
+ "series": "ticker"
+}

@@ -1,0 +1,109 @@
+{
+ "header": "Is renting really\nthrowing money away?",
+ "cover": {
+  "title": "Is Renting Throwing Money Away?",
+  "prop": "house",
+  "value": "MYTH?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: renting is throwing money away.",
+   "say": "Myth: renting is throwing money away.",
+   "scene": {
+    "t": "hook",
+    "title": "Renting = [wasted] money?",
+    "prop": "house",
+    "value": "MYTH?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Owners throw money away too. It's just called something else.",
+   "say": "Owners throw money away too. It's just called something else.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Owners have",
+     "unrecoverable costs too"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage interest, property taxes, insurance and repairs never come back to you.",
+   "say": "Mortgage interest, property taxes, insurance and repairs never come back to you.",
+   "scene": {
+    "t": "list",
+    "title": "Money owners don't get back",
+    "items": [
+     "Mortgage interest",
+     "Property taxes",
+     "Insurance",
+     "Repairs"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One popular rule of thumb puts those costs at around 5% of the home's value per year.",
+   "say": "One popular rule of thumb puts those costs at around five percent of the home's value per year.",
+   "scene": {
+    "t": "stat",
+    "label": "A rule of thumb for owners' yearly costs",
+    "value": "~5%",
+    "sub": "of the home's value (varies a lot)",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a 400,000 dollar home, that's about 20,000 dollars a year, or 1,667 a month.",
+   "say": "On a four hundred thousand dollar home, that's about twenty thousand dollars a year, or sixteen hundred sixty-seven a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "home value",
+     "value": "$400,000"
+    },
+    "to": {
+     "label": "a year in unrecoverable costs",
+     "value": "~$20,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So compare rent to that number, not to the whole mortgage payment. Sometimes renting wins, sometimes buying does.",
+   "say": "So compare rent to that number, not to the whole mortgage payment. Sometimes renting wins, sometimes buying does.",
+   "scene": {
+    "t": "compare",
+    "title": "Compare the right numbers",
+    "left": {
+     "label": "Rent",
+     "value": "rent",
+     "tone": "neutral",
+     "sub": "all unrecoverable"
+    },
+    "right": {
+     "label": "Own",
+     "value": "~5%",
+     "tone": "neutral",
+     "sub": "unrecoverable part"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "id": "w1-myth-renting",
+ "format": "vertical",
+ "series": "ticker"
+}

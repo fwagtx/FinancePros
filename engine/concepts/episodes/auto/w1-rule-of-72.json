@@ -1,0 +1,418 @@
+{
+ "id": "w1-rule-of-72",
+ "format": "vertical",
+ "music": "lofi",
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "There's a 10-second trick to see how fast money doubles. It's called the Rule of 72.",
+   "scene": {
+    "group": "g1",
+    "items": [
+     {
+      "k": "text",
+      "x": 425,
+      "y": 616,
+      "text": "The Rule of",
+      "size": 96,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "text",
+      "x": 425,
+      "y": 724,
+      "text": "[72]",
+      "size": 96,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "coin",
+      "x": 337.5,
+      "y": 1080.52,
+      "r": 69,
+      "at": 0.4
+     },
+     {
+      "k": "coin",
+      "x": 475.0,
+      "y": 1020.52,
+      "r": 60,
+      "at": 0.4
+     },
+     {
+      "k": "coin",
+      "x": 500.0,
+      "y": 1120.52,
+      "r": 50,
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "happy",
+      "pose": "pointleft",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take 72 and divide it by the interest rate. That's roughly how many years it takes to double.",
+   "scene": {
+    "group": "g2",
+    "items": [
+     {
+      "k": "board",
+      "id": "board",
+      "x": 80,
+      "y": 560,
+      "w": 680,
+      "h": 440,
+      "lines": [
+       {
+        "t": "72 ÷ interest rate",
+        "size": 72
+       },
+       {
+        "t": "= years to double",
+        "size": 76
+       }
+      ],
+      "write": 2.4
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "happy",
+      "pose": "pointleft",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9,
+      "stick": [
+       -300,
+       -470
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Invest at 8% a year, and your money doubles in about 9 years.",
+   "scene": {
+    "group": "g3",
+    "items": [
+     {
+      "k": "text",
+      "x": 425,
+      "y": 610,
+      "text": "72 ÷ 8% =",
+      "size": 76
+     },
+     {
+      "k": "text",
+      "x": 425,
+      "y": 934,
+      "text": "9 years",
+      "size": 162,
+      "font": "serif",
+      "weight": 700,
+      "color": "#2E9A45",
+      "at": 0.3
+     },
+     {
+      "k": "circle",
+      "x": 425,
+      "y": 885,
+      "rx": 322,
+      "ry": 113,
+      "seed": 6,
+      "at": 1.1
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "up",
+      "pose": "pointleft",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9
+     }
+    ]
+   },
+   "say": "Invest at eight percent a year, and your money doubles in about nine years."
+  },
+  {
+   "who": "ticker",
+   "text": "But it works on debt too. A credit card at 24% APR doubles what you owe in about 3 years, if you don't pay it down.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "k": "text",
+      "x": 540,
+      "y": 584,
+      "text": "Same math, both ways",
+      "size": 64,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "rect",
+      "id": "card_l",
+      "x": 117,
+      "y": 768,
+      "w": 396,
+      "h": 460,
+      "fill": "#fff",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 828,
+      "text": "Investing at 8%",
+      "size": 50,
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 1088,
+      "text": "9 yrs",
+      "size": 110,
+      "font": "serif",
+      "weight": 700,
+      "color": "#2E9A45",
+      "at": 0.5
+     },
+     {
+      "k": "text",
+      "x": 315,
+      "y": 1168,
+      "text": "to double",
+      "size": 38,
+      "color": "#555",
+      "at": 0.6
+     },
+     {
+      "k": "rect",
+      "id": "card_r",
+      "x": 567,
+      "y": 768,
+      "w": 396,
+      "h": 460,
+      "fill": "#fff",
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 828,
+      "text": "Card debt at 24%",
+      "size": 50,
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 1088,
+      "text": "3 yrs",
+      "size": 110,
+      "font": "serif",
+      "weight": 700,
+      "color": "#E0241B",
+      "at": 1.4
+     },
+     {
+      "k": "text",
+      "x": 765,
+      "y": 1168,
+      "text": "to double",
+      "size": 38,
+      "color": "#555",
+      "at": 1.5
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 1018,
+      "text": "vs",
+      "size": 70,
+      "font": "marker",
+      "color": "#E0241B",
+      "at": 0.9
+     }
+    ]
+   },
+   "say": "But it works on debt too. A credit card at twenty-four percent A P R doubles what you owe in about three years, if you don't pay it down."
+  },
+  {
+   "who": "ticker",
+   "text": "So the same math that makes you rich can also bury you.",
+   "scene": {
+    "group": "g4",
+    "items": [
+     {
+      "id": "host",
+      "mood": "worried"
+     },
+     {
+      "k": "circle",
+      "x": 315,
+      "y": 998,
+      "rx": 234,
+      "ry": 270,
+      "seed": 8,
+      "color": "#2E9A45",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three ways to use it. Check the rate on every debt you have.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "text",
+      "x": 425,
+      "y": 590,
+      "text": "Use the Rule of 72",
+      "size": 70,
+      "font": "serif",
+      "weight": 700
+     },
+     {
+      "k": "text",
+      "id": "li0_0",
+      "x": 100,
+      "y": 758,
+      "text": "[1.] Check every",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "id": "li0_1",
+      "x": 100,
+      "y": 830,
+      "text": "debt's rate",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.3
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "mood": "think",
+      "pose": "think",
+      "x": 880,
+      "y": 1340,
+      "s": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay off the highest rate first.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "text",
+      "id": "li1_0",
+      "x": 100,
+      "y": 923,
+      "text": "[2.] Kill the highest",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "id": "li1_1",
+      "x": 100,
+      "y": 995,
+      "text": "rate first",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And give your investments time to double, then double again. It's an estimate, not a promise.",
+   "scene": {
+    "group": "g5",
+    "items": [
+     {
+      "k": "text",
+      "id": "li2_0",
+      "x": 100,
+      "y": 1088,
+      "text": "[3.] Let investments",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.3
+     },
+     {
+      "k": "text",
+      "id": "li2_1",
+      "x": 100,
+      "y": 1160,
+      "text": "sit and double",
+      "size": 68,
+      "anchor": "start",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "scene": {
+    "group": "g6",
+    "items": [
+     {
+      "k": "logo",
+      "x": 540,
+      "y": 640,
+      "s": 1.0
+     },
+     {
+      "k": "text",
+      "x": 540,
+      "y": 740,
+      "text": "money news + money basics, drawn simply",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "ticker",
+      "id": "host",
+      "x": 540,
+      "y": 1340,
+      "s": 1.0,
+      "pose": "wave",
+      "mood": "up",
+      "at": 0.2
+     }
+    ]
+   }
+  }
+ ],
+ "header": "Your debt can double\nin 3 years"
+}
