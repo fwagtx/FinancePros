@@ -188,7 +188,7 @@ def layout_line(F, sc, st, step):
             items.append(dict(k="rect", id="card_" + side, x=round(x - F.w * 0.22), y=round(cy - 230), w=round(F.w * 0.44), h=460, fill="#fff", at=a))
             ls, sz = fit(d.get("label", ""), F.w * 0.4, 2, 50, 34, 0.45)
             for i, ln in enumerate(ls): items.append(T(x, cy - 170 + i * sz * 1.1, ln, sz, at=a))
-            vs = fit(d.get("value", ""), F.w * 0.4, 1, 110, 50, 0.55)[1]
+            vs = fit(d.get("value", ""), F.w * 0.4, 1, 110, 50, 0.64)[1]
             items.append(T(x, cy + 90, d.get("value", ""), vs, font="serif", weight=700, color=col(d.get("tone")), at=a + 0.2))
             if d.get("sub"): items.append(T(x, cy + 170, d["sub"], 38, color="#555", at=a + 0.3))
         items.append(dict(k="text", x=round(F.cx), y=round(cy - 250), text="vs", size=70, font="marker", color=RED, at=0.9))
@@ -244,14 +244,16 @@ def layout_line(F, sc, st, step):
     elif t == "split":
         ti, yb = F.title(sc.get("title", ""), size=64, max_lines=2); items += ti
         for side, key, x0, a in (("l", "left", F.box[0], 0.3), ("r", "right", F.box[0] + F.w * 0.52, 1.3)):
-            d = sc.get(key, {}); cw = F.w * 0.48; tone = d.get("tone")
-            items.append(dict(k="rect", x=round(x0), y=round(yb + 20), w=round(cw), h=round(F.box[3] - yb - 40), fill="#EAF6EC" if tone == "up" else "#FDECEA" if tone == "down" else "#fff", at=a))
-            items.append(T(x0 + cw / 2, yb + 100, d.get("title", ""), fit(d.get("title", ""), cw - 40, 1, 60, 36, 0.5)[1], font="serif", weight=700, at=a))
-            y = yb + 190
+            d = sc.get(key, {}); cw = F.w * 0.48; tone = d.get("tone"); rows = []
             for it in d.get("items", [])[:4]:
-                ls, sz = fit(it, cw - 50, 2, 44, 30, 0.46)
+                ls, sz = fit(it, cw - 50, 2, 58 if F.v else 56, 36, 0.46); rows.append((ls, sz))
+            ch = 150 + sum(len(ls) * sz * 1.15 + 26 for ls, sz in rows) + 30
+            items.append(dict(k="rect", x=round(x0), y=round(yb + 20), w=round(cw), h=round(ch), fill="#EAF6EC" if tone == "up" else "#FDECEA" if tone == "down" else "#fff", at=a))
+            items.append(T(x0 + cw / 2, yb + 105, d.get("title", ""), fit(d.get("title", ""), cw - 40, 1, 64, 36, 0.52)[1], font="serif", weight=700, at=a))
+            y = yb + 200
+            for ls, sz in rows:
                 for ln in ls: items.append(T(x0 + cw / 2, y, ln, sz, at=a + 0.2)); y += sz * 1.15
-                y += 22
+                y += 26
         items += F.host_item(mood or "think", "shrug") if not F.v else []
     elif t == "squirrel":
         items += _squirrel(F, sc)
