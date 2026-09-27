@@ -54,7 +54,7 @@ def phrases(text):
     return out
 
 
-SAY = [(re.compile(r"\bU\.S\.(?=\s|$|[,;:!?)])"), "U.S"), (re.compile(r"\bU\.K\.(?=\s|$|[,;:!?)])"), "U.K"),
+SAY = [(re.compile(r"\bU\.S\.(?=\s|$|[,;:!?)])"), "US"), (re.compile(r"\bU\.K\.(?=\s|$|[,;:!?)])"), "UK"),
        (re.compile(r"\bvs\.", re.I), "versus"), (re.compile(r"\be\.g\.", re.I), "for example"), (re.compile(r"\bi\.e\.", re.I), "that is")]
 
 
