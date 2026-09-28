@@ -164,6 +164,7 @@ def layout_line(F, sc, st, step):
         ti, yb = F.title(sc.get("title", ""), size=sc.get("size"))
         items += ti
         cy = (yb + F.box[3]) / 2 + 20
+        if sc.get("prop") == "house" and sc.get("label"): cy += 70 if F.v else 60   # the house's sign stands above the roof: keep it clear of the title
         items += [dict(i, at=0.4) for i in prop_items(sc.get("prop", "none"), F.cx, cy, 1.25 if F.v else 1.3, sc.get("label"))]
         if sc.get("value"): items.append(dict(k="text", x=F.cx, y=min(F.box[3], cy + 330), text=sc["value"], size=130 if F.v else 150, font="marker", color=RED, at=1.4, maxW=F.w))
         items += F.host_item(mood or "shock", "pointleft")

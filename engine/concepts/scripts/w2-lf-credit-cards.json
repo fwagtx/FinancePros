@@ -1,0 +1,466 @@
+{
+ "id": "w2-lf-credit-cards",
+ "format": "landscape",
+ "series": "ticker",
+ "cover": {
+  "title": "How Credit Cards Really Make Money.",
+  "prop": "card",
+  "label": "VISA",
+  "value": "$198B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Every time you tap a credit card, at least three companies get paid. Even if you pay your bill in full.",
+   "say": "Every time you tap a credit card, at least three companies get paid. Even if you pay your bill in full.",
+   "scene": {
+    "t": "hook",
+    "title": "Every swipe pays [3 companies]",
+    "prop": "card",
+    "label": "TAP",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit cards are one of the most profitable businesses in America. Today: exactly where the money comes from, and who really pays for it.",
+   "say": "Credit cards are one of the most profitable businesses in America. Today: exactly where the money comes from, and who really pays for it.",
+   "scene": {
+    "t": "list",
+    "title": "Today",
+    "items": [
+     "The swipe",
+     "The network",
+     "The interest",
+     "Who pays for rewards"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1. The swipe.",
+   "say": "Chapter one. The swipe.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The swipe"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you buy a $100 pair of shoes. The store doesn't get $100.",
+   "say": "Say you buy a hundred dollar pair of shoes. The store doesn't get a hundred dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "A [$100] purchase",
+    "prop": "tag",
+    "label": "$100"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The store pays a processing fee, usually a few percent. For a credit card, often around $2 to $3 on $100.",
+   "say": "The store pays a processing fee, usually a few percent. For a credit card, often around two to three dollars on a hundred.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You pay",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Store keeps",
+     "value": "~$97-98"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest piece is the interchange fee. It goes to the bank that gave you the card.",
+   "say": "The biggest piece is the interchange fee. It goes to the bank that gave you the card.",
+   "scene": {
+    "t": "list",
+    "title": "Where the fee goes",
+    "items": [
+     "Your card's bank (biggest)",
+     "The network (Visa, Mastercard)",
+     "The store's processor"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Across the U.S., merchants paid $198 billion in card processing fees in 2025, a record.",
+   "say": "Across the U.S., merchants paid a hundred and ninety-eight billion dollars in card processing fees in twenty twenty-five, a record.",
+   "scene": {
+    "t": "stat",
+    "label": "U.S. card processing fees, 2025",
+    "value": "$198B",
+    "tone": "up",
+    "sub": "Nilson Report",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's money made on every swipe, no matter whether you ever pay a cent of interest.",
+   "say": "That's money made on every swipe, no matter whether you ever pay a cent of interest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paid on every swipe",
+     "even if you pay in full"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2. The network.",
+   "say": "Chapter two. The network.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The network"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the network: Visa and Mastercard. Here's the surprising part. Visa doesn't lend you anything.",
+   "say": "Now the network: Visa and Mastercard. Here's the surprising part. Visa doesn't lend you anything.",
+   "scene": {
+    "t": "hook",
+    "title": "Visa lends you [nothing]",
+    "prop": "card",
+    "label": "VISA",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your bank lends the money. Visa runs the pipes that move the payment, and charges a small fee on each one.",
+   "say": "Your bank lends the money. Visa runs the pipes that move the payment, and charges a small fee on each one.",
+   "scene": {
+    "t": "split",
+    "title": "Who does what",
+    "left": {
+     "title": "Your bank",
+     "items": [
+      "Lends the money",
+      "Charges interest"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Visa / Mastercard",
+     "items": [
+      "Moves the payment",
+      "Tiny fee each time"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tiny fees on billions of payments add up. In fiscal 2025, Visa's net revenue was $40 billion.",
+   "say": "Tiny fees on billions of payments add up. In fiscal twenty twenty-five, Visa's net revenue was forty billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Visa net revenue, fiscal 2025",
+    "value": "$40B",
+    "tone": "up",
+    "sub": "Visa annual results"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And its net income was $20.1 billion. About half of every dollar it took in was profit.",
+   "say": "And its net income was twenty point one billion dollars. About half of every dollar it took in was profit.",
+   "scene": {
+    "t": "compare",
+    "title": "Visa, fiscal 2025",
+    "left": {
+     "label": "Revenue",
+     "value": "$40B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Profit",
+     "value": "$20.1B",
+     "tone": "up",
+     "sub": "about 50 cents per $1"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Very few big companies keep that much. That's the power of owning the road every payment has to drive on.",
+   "say": "Very few big companies keep that much. That's the power of owning the road every payment has to drive on.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Own the road,",
+     "collect the toll"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3. The interest.",
+   "say": "Chapter three. The interest.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The interest"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the biggest money maker for card banks: interest on balances people don't pay off.",
+   "say": "Now the biggest money maker for card banks: interest on balances people don't pay off.",
+   "scene": {
+    "t": "hook",
+    "title": "The big one: [interest]",
+    "prop": "fire",
+    "label": "22%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Americans owe $1.26 trillion on credit cards, according to the New York Fed.",
+   "say": "Americans owe one point two six trillion dollars on credit cards, according to the New York Fed.",
+   "scene": {
+    "t": "stat",
+    "label": "U.S. credit card balances, Q2 2026",
+    "value": "$1.26T",
+    "tone": "down",
+    "sub": "New York Fed, Aug 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And on accounts that pay interest, the average rate was 22.15%.",
+   "say": "And on accounts that pay interest, the average rate was twenty-two point one five percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Average APR, accounts paying interest",
+    "value": "22.15%",
+    "tone": "down",
+    "sub": "Federal Reserve G.19, Q2 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Carry a $5,000 balance at that rate for a year, and that's about $1,100 in interest. Roughly $92 a month.",
+   "say": "Carry a five thousand dollar balance at that rate for a year, and that's about eleven hundred dollars in interest. Roughly ninety-two dollars a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "$5,000 balance, 1 year",
+     "value": "22.15%"
+    },
+    "to": {
+     "label": "Interest",
+     "value": "~$1,107"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there are fees: annual fees, late fees, cash advance fees, balance transfer fees.",
+   "say": "Then there are fees: annual fees, late fees, cash advance fees, balance transfer fees.",
+   "scene": {
+    "t": "list",
+    "title": "The fees",
+    "items": [
+     "Annual fees",
+     "Late fees",
+     "Cash advance fees",
+     "Balance transfer fees"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4. Who pays for rewards.",
+   "say": "Chapter four. Who pays for rewards.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Who pays for rewards"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So who pays for your points and cash back? Mostly, those swipe fees.",
+   "say": "So who pays for your points and cash back? Mostly, those swipe fees.",
+   "scene": {
+    "t": "hook",
+    "title": "Who pays for [rewards]?",
+    "prop": "coins",
+    "label": "2% BACK",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stores build card fees into their prices, so everyone pays a little, even people paying cash.",
+   "say": "Stores build card fees into their prices, so everyone pays a little, even people paying cash.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fees -> higher prices",
+     "cash payers pay too"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And people who carry a balance pay interest that helps fund the whole system.",
+   "say": "And people who carry a balance pay interest that helps fund the whole system.",
+   "scene": {
+    "t": "split",
+    "title": "Who comes out ahead",
+    "left": {
+     "title": "Pay in full",
+     "items": [
+      "Get rewards",
+      "Pay no interest"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Carry a balance",
+     "items": [
+      "Pay ~22% interest",
+      "Rewards shrink"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Earning 2% back means little if you're paying 22% on a balance.",
+   "say": "Earning two percent back means little if you're paying twenty-two percent on a balance.",
+   "scene": {
+    "t": "compare",
+    "title": "The math",
+    "left": {
+     "label": "Rewards",
+     "value": "2%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Interest",
+     "value": "22%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On most cards, paying the full statement balance on time means no interest on purchases.",
+   "say": "On most cards, paying the full statement balance on time means no interest on purchases.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5. The whole thing in one screen.",
+   "say": "Chapter five. The whole thing in one screen.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The whole thing in one screen"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how do credit card companies make money from everyone?",
+   "say": "So how do credit card companies make money from everyone?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "How card companies",
+     "make money"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: swipe fees on every purchase, $198 billion a year in the U.S.",
+   "say": "One. Swipe fees on every purchase, a hundred ninety-eight billion dollars a year in the U.S.",
+   "scene": {
+    "t": "list",
+    "title": "The recap",
+    "items": [
+     "Swipe fees",
+     "Network fees",
+     "Interest",
+     "Fees"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: the networks' toll on every payment, which made Visa $20 billion in profit.",
+   "say": "Two. The networks' toll on every payment, which made Visa twenty billion dollars in profit.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: interest, around 22% on balances that aren't paid off.",
+   "say": "Three. Interest, around twenty-two percent on balances that aren't paid off.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: fees. And the customers who pay in full, every month, cost them the most.",
+   "say": "Four. Fees. And the customers who pay in full, every month, cost them the most.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How Credit Card Companies Make Money From Everyone",
+  "yt_desc": "Every card swipe pays at least three companies, even if you pay your bill in full. We follow the money: the $198 billion in processing fees U.S. merchants paid in 2025, how Visa turned $40 billion of revenue into $20.1 billion of profit without lending a dime, the 22.15% average interest rate on $1.26 trillion of card balances, the fees, and who really pays for your rewards.\n\nCHAPTERS\n\nSources\nNilson Report: U.S. merchant processing fees, 2025 ($198.25 billion)\nVisa Inc. fiscal 2025 results (net revenue $40.0B, GAAP net income $20.1B)\nFederal Reserve Bank of New York, Household Debt and Credit Report, Q2 2026 (Aug 11, 2026)\nFederal Reserve G.19 Consumer Credit: interest rate on accounts assessed interest, Q2 2026\n\nNews and education, not financial advice.\n\n#creditcards #personalfinance #business",
+  "tags": [
+   "how credit card companies make money",
+   "interchange fees",
+   "swipe fees",
+   "visa",
+   "credit card interest",
+   "credit card rewards",
+   "personal finance"
+  ]
+ }
+}

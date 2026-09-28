@@ -1,0 +1,439 @@
+{
+ "id": "w2-lf-invest-100",
+ "format": "landscape",
+ "series": "ticker",
+ "cover": {
+  "title": "Start Investing With $100.",
+  "prop": "bill",
+  "label": "$100",
+  "value": "5 steps"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "You can start investing with $100. Not $10,000. One hundred dollars. Here's how it works, step by step.",
+   "say": "You can start investing with a hundred dollars. Not ten thousand. One hundred dollars. Here's how it works, step by step.",
+   "scene": {
+    "t": "hook",
+    "title": "Start investing with [$100]",
+    "prop": "bill",
+    "label": "$100",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick note: this is education, not advice. We'll explain the options so you can decide.",
+   "say": "Quick note: this is education, not advice. We'll explain the options so you can decide.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education,",
+     "not advice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the whole path in five steps.",
+   "say": "Here's the whole path in five steps.",
+   "scene": {
+    "t": "list",
+    "title": "The 5 steps",
+    "items": [
+     "Get ready",
+     "Pick an account",
+     "Pick an investment",
+     "Buy it",
+     "Keep going"
+    ],
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 1. Get ready.",
+   "say": "Step one. Get ready.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Get ready"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before investing, many people make sure they have a small emergency fund, so a surprise bill doesn't force them to sell.",
+   "say": "Before investing, many people make sure they have a small emergency fund, so a surprise bill doesn't force them to sell.",
+   "scene": {
+    "t": "hook",
+    "title": "First: a [cushion]",
+    "prop": "pot",
+    "label": "EMERGENCY"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And they check their debts. Paying off a card charging 22% is a guaranteed 22% return. Few investments beat that.",
+   "say": "And they check their debts. Paying off a card charging twenty-two percent is a guaranteed twenty-two percent return. Few investments beat that.",
+   "scene": {
+    "t": "compare",
+    "title": "Where $100 does more",
+    "left": {
+     "label": "Pay off card",
+     "value": "22%",
+     "tone": "up",
+     "sub": "guaranteed"
+    },
+    "right": {
+     "label": "Stocks",
+     "value": "?",
+     "tone": "neutral",
+     "sub": "not guaranteed"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 2. Pick an account.",
+   "say": "Step two. Pick an account.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Pick an account"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You need an account to hold your investments. The two most common for beginners: a regular brokerage account, or a Roth IRA.",
+   "say": "You need an account to hold your investments. The two most common for beginners: a regular brokerage account, or a Roth IRA.",
+   "scene": {
+    "t": "split",
+    "title": "Two common accounts",
+    "left": {
+     "title": "Brokerage",
+     "items": [
+      "Any amount, anytime",
+      "Gains are taxed"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Roth IRA",
+     "items": [
+      "For retirement",
+      "Qualified withdrawals tax-free"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026, you can put up to $7,500 into an IRA, if you have at least that much earned income.",
+   "say": "For twenty twenty-six, you can put up to seventy-five hundred dollars into an IRA, if you have at least that much earned income.",
+   "scene": {
+    "t": "stat",
+    "label": "IRA contribution limit, 2026",
+    "value": "$7,500",
+    "tone": "neutral",
+    "sub": "IRS; $8,600 if 50 or older"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Roth IRAs have income limits, so check the IRS rules for your situation.",
+   "say": "Roth IRAs have income limits, so check the IRS rules for your situation.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Roth IRA:",
+     "income limits apply"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many big brokerages let you open an account with no minimum and charge no commission to buy stocks and funds.",
+   "say": "Many big brokerages let you open an account with no minimum and charge no commission to buy stocks and funds.",
+   "scene": {
+    "t": "list",
+    "title": "Look for",
+    "items": [
+     "No account minimum",
+     "$0 commissions",
+     "Fractional shares",
+     "SIPC protection"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "SIPC protection covers up to $500,000 if the brokerage itself fails. It does not protect against the market going down.",
+   "say": "SIPC protection covers up to five hundred thousand dollars if the brokerage itself fails. It does not protect against the market going down.",
+   "scene": {
+    "t": "stat",
+    "label": "SIPC protection per customer",
+    "value": "$500K",
+    "tone": "neutral",
+    "sub": "incl. up to $250K cash; not market losses"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 3. Pick an investment.",
+   "say": "Step three. Pick an investment.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Pick an investment"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With $100, picking single stocks means betting on just one or two companies.",
+   "say": "With $100, picking single stocks means betting on just one or two companies.",
+   "scene": {
+    "t": "hook",
+    "title": "One stock = [one bet]",
+    "prop": "chart-down",
+    "label": "1 COMPANY",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why many beginners look at index funds. One fund can hold hundreds of companies at once.",
+   "say": "That's why many beginners look at index funds. One fund can hold hundreds of companies at once.",
+   "scene": {
+    "t": "compare",
+    "title": "$100 in",
+    "left": {
+     "label": "One stock",
+     "value": "1",
+     "tone": "down",
+     "sub": "company"
+    },
+    "right": {
+     "label": "S&P 500 fund",
+     "value": "500",
+     "tone": "up",
+     "sub": "companies"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An S&P 500 index fund, for example, owns pieces of about 500 large U.S. companies.",
+   "say": "An S and P five hundred index fund, for example, owns pieces of about five hundred large U.S. companies.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Watch the fee, called the expense ratio. Some broad index funds charge just a few hundredths of a percent a year.",
+   "say": "Watch the fee, called the expense ratio. Some broad index funds charge just a few hundredths of a percent a year.",
+   "scene": {
+    "t": "compare",
+    "title": "Yearly fee on $10,000",
+    "left": {
+     "label": "0.03% fund",
+     "value": "$3",
+     "tone": "up"
+    },
+    "right": {
+     "label": "1% fund",
+     "value": "$100",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 4. Buy it.",
+   "say": "Step four. Buy it.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Buy it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A share of a fund might cost more than $100. That's where fractional shares help: you buy a slice.",
+   "say": "A share of a fund might cost more than $100. That's where fractional shares help: you buy a slice.",
+   "scene": {
+    "t": "hook",
+    "title": "Buy a [slice] of a share",
+    "prop": "pot",
+    "label": "1/5 SHARE"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You enter a dollar amount, like $100, and the brokerage buys that much of the fund.",
+   "say": "You enter a dollar amount, like $100, and the brokerage buys that much of the fund.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Enter: $100",
+     "Get: a slice of the fund"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not every brokerage offers fractional shares of every fund, so check before you pick one.",
+   "say": "Not every brokerage offers fractional shares of every fund, so check before you pick one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Check: fractional",
+     "shares offered?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 5. Keep going.",
+   "say": "Step five. Keep going.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Keep going"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's why $100 matters. At an example 7% a year, $100 invested once grows to about $761 in 30 years.",
+   "say": "Here's why a hundred dollars matters. At an example seven percent a year, a hundred dollars invested once grows to about seven hundred sixty-one dollars in thirty years.",
+   "scene": {
+    "t": "stat",
+    "label": "$100 once, 7% a year, 30 years",
+    "value": "$761",
+    "tone": "up",
+    "sub": "example rate, not a promise"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But $100 every month at that same rate could grow to about $122,000 in 30 years.",
+   "say": "But a hundred dollars every month at that same rate could grow to about a hundred and twenty-two thousand dollars in thirty years.",
+   "scene": {
+    "t": "chart",
+    "title": "$100 a month at 7% (example)",
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      5,
+      7159
+     ],
+     [
+      10,
+      17308
+     ],
+     [
+      15,
+      31696
+     ],
+     [
+      20,
+      52093
+     ],
+     [
+      25,
+      81007
+     ],
+     [
+      30,
+      121997
+     ]
+    ],
+    "prefix": "$",
+    "end": "$122K",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You'd have put in $36,000. The rest is growth from compounding.",
+   "say": "You'd have put in thirty-six thousand dollars. The rest is growth from compounding.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 30,
+     "text": "$36K put in"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why many people set up an automatic monthly investment, the same amount every time.",
+   "say": "That's why many people set up an automatic monthly investment, the same amount every time.",
+   "scene": {
+    "t": "hook",
+    "title": "Set it on [autopilot]",
+    "prop": "coins",
+    "label": "$100/mo"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Markets go down sometimes, even a lot. Investing can lose money, especially over short periods.",
+   "say": "Markets go down sometimes, even a lot. Investing can lose money, especially over short periods.",
+   "scene": {
+    "t": "hook",
+    "title": "Markets [drop] too",
+    "prop": "chart-down",
+    "label": "RISK",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the recap: build a cushion, pick an account, consider a low-cost diversified fund, buy a slice, and keep adding.",
+   "say": "So the recap: build a cushion, pick an account, consider a low-cost diversified fund, buy a slice, and keep adding.",
+   "scene": {
+    "t": "list",
+    "title": "The recap",
+    "items": [
+     "Build a cushion",
+     "Pick an account",
+     "Low-cost, diversified",
+     "Buy a slice",
+     "Keep adding"
+    ],
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How to Start Investing With $100, Step by Step",
+  "yt_desc": "You don't need thousands of dollars to start investing. We walk through five steps: building a cushion and checking high-interest debt, choosing between a brokerage account and a Roth IRA (2026 IRA limit: $7,500), what index funds and expense ratios are, buying fractional shares, and why investing a little every month matters, with the math at an example 7% return. Education, not advice.\n\nCHAPTERS\n\nSources\nIRS: 2026 IRA contribution limit ($7,500; $8,600 age 50+), Nov 13, 2025\nSIPC: what SIPC protects (up to $500,000, including $250,000 cash)\nFederal Reserve G.19: average card APR on accounts assessed interest (22.15%, Q2 2026)\nMath: compound growth at an example 7% a year, compounded monthly; not a prediction\n\nNews and education, not financial advice. Investing involves risk, including loss of principal.\n\n#investing #personalfinance #indexfunds",
+  "tags": [
+   "how to start investing",
+   "investing with $100",
+   "index funds",
+   "roth ira",
+   "fractional shares",
+   "investing for beginners",
+   "personal finance"
+  ]
+ }
+}

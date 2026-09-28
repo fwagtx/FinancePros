@@ -1,0 +1,449 @@
+{
+ "id": "w2-lf-japan",
+ "format": "landscape",
+ "series": "ticker",
+ "cover": {
+  "title": "It Took Japan 34 Years.",
+  "countries": [
+   "japan"
+  ],
+  "prop": "chart-down",
+  "value": "-82%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "At the end of 1989, Japan's stock market hit a record. Then it took 34 years to get back there.",
+   "say": "At the end of nineteen eighty-nine, Japan's stock market hit a record. Then it took thirty-four years to get back there.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "sad",
+      "says": "34 years?!"
+     }
+    ],
+    "caption": "Japan's lost decades"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is the story of Japan's lost decades: the bubble, the crash, and what it teaches anyone with savings.",
+   "say": "This is the story of Japan's lost decades: the bubble, the crash, and what it teaches anyone with savings.",
+   "scene": {
+    "t": "list",
+    "title": "Today",
+    "items": [
+     "The bubble",
+     "The pop",
+     "The lost decades",
+     "The lessons"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1. The bubble.",
+   "say": "Chapter one. The bubble.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The bubble"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the 1980s, Japan looked unstoppable. Its companies led the world in cars and electronics.",
+   "say": "In the nineteen eighties, Japan looked unstoppable. Its companies led the world in cars and electronics.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "Number one!"
+     },
+     {
+      "name": "us",
+      "mood": "worried"
+     }
+    ],
+    "caption": "The 1980s boom"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Money was cheap. The Bank of Japan kept interest rates low, and banks lent freely against land and stocks.",
+   "say": "Money was cheap. The Bank of Japan kept interest rates low, and banks lent freely against land and stocks.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "rates: low",
+    "caption": "Easy money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices of stocks and land soared, and people borrowed more, using those rising prices as collateral.",
+   "say": "Prices of stocks and land soared, and people borrowed more, using those rising prices as collateral.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Prices up",
+     "-> borrow more",
+     "-> prices up more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On the last trading day of 1989, the Nikkei 225 stock index closed at a record 38,916.",
+   "say": "On the last trading day of nineteen eighty-nine, the Nikkei two twenty-five stock index closed at a record thirty-eight thousand nine hundred sixteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Nikkei 225, Dec 29, 1989",
+    "value": "38,916",
+    "tone": "up",
+    "sub": "record close",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2. The pop.",
+   "say": "Chapter two. The pop.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The pop"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the Bank of Japan raised rates to cool things down. Its discount rate climbed to 6% by August 1990.",
+   "say": "Then the Bank of Japan raised rates to cool things down. Its discount rate climbed to six percent by August nineteen ninety.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "rates: 6%",
+    "caption": "Rates up, 1989-1990"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The bubble burst. By the end of 1990, the Nikkei had lost almost 40%.",
+   "say": "The bubble burst. By the end of nineteen ninety, the Nikkei had lost almost forty percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Nikkei 225, year-end close",
+    "points": [
+     [
+      1989,
+      38916
+     ],
+     [
+      1990,
+      23849
+     ],
+     [
+      2002,
+      8579
+     ],
+     [
+      2007,
+      15308
+     ],
+     [
+      2008,
+      8860
+     ],
+     [
+      2012,
+      10395
+     ],
+     [
+      2020,
+      27444
+     ],
+     [
+      2023,
+      33464
+     ],
+     [
+      2024,
+      39895
+     ]
+    ],
+    "end": "39,895",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it kept falling, for years.",
+   "say": "And it kept falling, for years.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2002,
+     "text": "down ~78% by 2002"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Land prices crashed too, and banks were stuck with loans backed by assets now worth far less.",
+   "say": "Land prices crashed too, and banks were stuck with loans backed by assets now worth far less.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "Bad loans..."
+     }
+    ],
+    "prop": {
+     "kind": "bag",
+     "label": "LOANS"
+    },
+    "caption": "Banks full of bad loans"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3. The lost decades.",
+   "say": "Chapter three. The lost decades.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The lost decades"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Instead of cleaning up bad loans fast, many banks kept lending to struggling companies, sometimes called zombie companies.",
+   "say": "Instead of cleaning up bad loans fast, many banks kept lending to struggling companies, sometimes called zombie companies.",
+   "scene": {
+    "t": "hook",
+    "title": "The [zombie] companies",
+    "prop": "box",
+    "label": "BAD LOANS",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Growth stalled. Prices barely rose, and at times fell. That's called deflation.",
+   "say": "Growth stalled. Prices barely rose, and at times fell. That's called deflation.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deflation:",
+     "prices falling"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When people expect lower prices tomorrow, they wait to spend, and the economy slows even more.",
+   "say": "When people expect lower prices tomorrow, they wait to spend, and the economy slows even more.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Wait to spend",
+     "-> slower economy",
+     "-> lower prices"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rates went to zero, and in 2016 the Bank of Japan pushed its key rate below zero, to minus 0.1%.",
+   "say": "Rates went to zero, and in twenty sixteen the Bank of Japan pushed its key rate below zero, to minus zero point one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Bank of Japan policy rate, 2016-2024",
+    "value": "-0.1%",
+    "tone": "down",
+    "sub": "ended March 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After the 2008 financial crisis, the Nikkei hit a low of 7,055 in March 2009, more than 80% below its peak.",
+   "say": "After the twenty oh eight financial crisis, the Nikkei hit a low of seven thousand fifty-five in March twenty oh nine, more than eighty percent below its peak.",
+   "scene": {
+    "t": "stat",
+    "label": "Nikkei low, Mar 10, 2009",
+    "value": "7,055",
+    "tone": "down",
+    "sub": "about 82% below the 1989 peak"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4. The comeback.",
+   "say": "Chapter four. The comeback.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The comeback"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, slowly, things changed. Companies cleaned up, profits grew, and investors came back.",
+   "say": "Then, slowly, things changed. Companies cleaned up, profits grew, and investors came back.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2023,
+     "text": "climbing back"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In February 2024, the Nikkei finally closed above its 1989 record. It took 34 years.",
+   "say": "In February twenty twenty-four, the Nikkei finally closed above its nineteen eighty-nine record. It took thirty-four years.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "Finally!"
+     }
+    ],
+    "caption": "New record, Feb 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in March 2024, the Bank of Japan ended negative rates for the first time in eight years.",
+   "say": "And in March twenty twenty-four, the Bank of Japan ended negative rates for the first time in eight years.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "rates: above 0",
+    "caption": "Negative rates end, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5. The lessons.",
+   "say": "Chapter five. The lessons.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The lessons"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what does Japan teach an American with a 401(k)?",
+   "say": "So what does Japan teach an American with a four oh one K?",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy"
+     },
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "What do I learn?"
+     }
+    ],
+    "caption": "Lessons for your money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: a bubble fueled by borrowing can take decades to recover from.",
+   "say": "One: a bubble fueled by borrowing can take decades to recover from.",
+   "scene": {
+    "t": "list",
+    "title": "The lessons",
+    "items": [
+     "Bubbles can last decades",
+     "One market is a risk",
+     "Buying over time helped",
+     "Debt makes crashes worse"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: putting everything in one country's market is a risk. Someone who bought Japan at the top waited 34 years.",
+   "say": "Two. Putting everything in one country's market is a risk. Someone who bought Japan at the top waited thirty-four years.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: people who kept buying slowly over those years did far better than one big buy at the peak.",
+   "say": "Three: people who kept buying slowly over those years did far better than one big buy at the peak.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: heavy debt turns a price drop into a crisis. That's true for countries, banks, and households.",
+   "say": "Four: heavy debt turns a price drop into a crisis. That's true for countries, banks, and households.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nobody knows what markets do next. But history shows why patience and spreading your bets matter.",
+   "say": "Nobody knows what markets do next. But history shows why patience and spreading your bets matter.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No predictions.",
+     "Patience + diversification."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Japan's Lost Decades: The Crash That Took 34 Years to Recover",
+  "yt_desc": "At the end of 1989 Japan's Nikkei 225 closed at a record 38,916. Then the bubble burst, and it took 34 years to get back. We tell the story with country characters: the easy-money bubble, the rate hikes that popped it, zombie banks and deflation, negative interest rates, the 2009 low, the 2024 comeback, and the lessons for anyone investing today.\n\nCHAPTERS\n\nSources\nNikkei 225 closing levels: Nikkei Inc. (record close 38,915.87 on Dec 29, 1989; low 7,054.98 on Mar 10, 2009; new record Feb 22, 2024)\nBank of Japan: official discount rate history; negative interest rate policy (Jan 2016 - Mar 2024)\n\nNews and education, not financial advice.\n\n#japan #stockmarket #economics",
+  "tags": [
+   "japan lost decades",
+   "japan bubble",
+   "nikkei 225",
+   "deflation",
+   "negative interest rates",
+   "world economy",
+   "economics explained"
+  ]
+ }
+}
