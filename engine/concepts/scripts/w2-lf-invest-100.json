@@ -387,6 +387,100 @@
   },
   {
    "who": "ticker",
+   "text": "Bonus. The beginner mistakes.",
+   "say": "Bonus. The beginner mistakes.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The beginner mistakes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A few mistakes trip up a lot of new investors. Here are the big four.",
+   "say": "A few mistakes trip up a lot of new investors. Here are the big four.",
+   "scene": {
+    "t": "list",
+    "title": "Beginner mistakes",
+    "items": [
+     "Chasing hot tips",
+     "Trying to time it",
+     "Ignoring fees",
+     "Panic selling"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: chasing whatever is hot this week. By the time everyone's talking about it, the price often already moved.",
+   "say": "One: chasing whatever is hot this week. By the time everyone's talking about it, the price often already moved.",
+   "scene": {
+    "t": "hook",
+    "title": "Chasing [hot] tips",
+    "prop": "fire",
+    "label": "HYPE"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: trying to buy at the bottom and sell at the top. Even professionals struggle to do that consistently.",
+   "say": "Two: trying to buy at the bottom and sell at the top. Even professionals struggle to do that consistently.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Timing the market",
+     "is really hard"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: ignoring fees. A 1% yearly fee can quietly take a big bite over decades.",
+   "say": "Three: ignoring fees. A 1% yearly fee can quietly take a big bite over decades.",
+   "scene": {
+    "t": "compare",
+    "title": "Yearly fee on $10,000",
+    "left": {
+     "label": "0.03% fund",
+     "value": "$3",
+     "tone": "up"
+    },
+    "right": {
+     "label": "1% fund",
+     "value": "$100",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: selling in a panic when prices drop, which can lock in the loss.",
+   "say": "Four: selling in a panic when prices drop, which can lock in the loss.",
+   "scene": {
+    "t": "hook",
+    "title": "Panic [selling]",
+    "prop": "chart-down",
+    "label": "SELL?",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A plan you set up in advance, like automatic monthly buys, helps with all four.",
+   "say": "A plan you set up in advance, like automatic monthly buys, helps with all four.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Make a plan",
+     "before the market moves"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Markets go down sometimes, even a lot. Investing can lose money, especially over short periods.",
    "say": "Markets go down sometimes, even a lot. Investing can lose money, especially over short periods.",
    "scene": {
@@ -425,7 +519,7 @@
  ],
  "post": {
   "title": "How to Start Investing With $100, Step by Step",
-  "yt_desc": "You don't need thousands of dollars to start investing. We walk through five steps: building a cushion and checking high-interest debt, choosing between a brokerage account and a Roth IRA (2026 IRA limit: $7,500), what index funds and expense ratios are, buying fractional shares, and why investing a little every month matters, with the math at an example 7% return. Education, not advice.\n\nCHAPTERS\n\nSources\nIRS: 2026 IRA contribution limit ($7,500; $8,600 age 50+), Nov 13, 2025\nSIPC: what SIPC protects (up to $500,000, including $250,000 cash)\nFederal Reserve G.19: average card APR on accounts assessed interest (22.15%, Q2 2026)\nMath: compound growth at an example 7% a year, compounded monthly; not a prediction\n\nNews and education, not financial advice. Investing involves risk, including loss of principal.\n\n#investing #personalfinance #indexfunds",
+  "yt_desc": "You don't need thousands of dollars to start investing. We walk through five steps: building a cushion and checking high-interest debt, choosing between a brokerage account and a Roth IRA (2026 IRA limit: $7,500), what index funds and expense ratios are, buying fractional shares, and why investing a little every month matters, with the math at an example 7% return, plus the four beginner mistakes to avoid. Education, not advice.\n\nCHAPTERS\n\nSources\nIRS: 2026 IRA contribution limit ($7,500; $8,600 age 50+), Nov 13, 2025\nSIPC: what SIPC protects (up to $500,000, including $250,000 cash)\nFederal Reserve G.19: average card APR on accounts assessed interest (22.15%, Q2 2026)\nMath: compound growth at an example 7% a year, compounded monthly; not a prediction\n\nNews and education, not financial advice. Investing involves risk, including loss of principal.\n\n#investing #personalfinance #indexfunds",
   "tags": [
    "how to start investing",
    "investing with $100",

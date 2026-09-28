@@ -287,6 +287,88 @@
   },
   {
    "who": "ticker",
+   "text": "What did that feel like for regular people? Prices barely moved for years.",
+   "say": "What did that feel like for regular people? Prices barely moved for years.",
+   "scene": {
+    "t": "hook",
+    "title": "Prices [frozen] in time",
+    "prop": "tag",
+    "label": "10 YEN",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A famous example: the Umaibo corn snack cost 10 yen from its launch in 1979 until 2022.",
+   "say": "A famous example. The Umaibo corn snack cost ten yen from its launch in nineteen seventy-nine until twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Umaibo snack price, 1979-2022",
+    "value": "10 yen",
+    "tone": "neutral",
+    "sub": "first raised in April 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cheap sounds nice, but when prices don't rise, companies struggle to grow, and paychecks often don't grow either.",
+   "say": "Cheap sounds nice, but when prices don't rise, companies struggle to grow, and paychecks often don't grow either.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Flat prices",
+     "-> flat profits",
+     "-> flat paychecks"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many companies hired fewer lifetime employees and more temporary workers.",
+   "say": "Many companies hired fewer lifetime employees and more temporary workers.",
+   "scene": {
+    "t": "split",
+    "title": "Jobs changed",
+    "left": {
+     "title": "Before",
+     "items": [
+      "Job for life",
+      "Steady raises"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Lost decades",
+     "items": [
+      "More temp work",
+      "Little raises"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And households kept their money in cash and savings, because stocks and land had burned them.",
+   "say": "And households kept their money in cash and savings, because stocks and land had burned them.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "Keep it in cash."
+     }
+    ],
+    "prop": {
+     "kind": "box",
+     "label": "SAVINGS"
+    },
+    "caption": "Burned once, careful forever"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Chapter 4. The comeback.",
    "say": "Chapter four. The comeback.",
    "scene": {
@@ -435,7 +517,7 @@
  ],
  "post": {
   "title": "Japan's Lost Decades: The Crash That Took 34 Years to Recover",
-  "yt_desc": "At the end of 1989 Japan's Nikkei 225 closed at a record 38,916. Then the bubble burst, and it took 34 years to get back. We tell the story with country characters: the easy-money bubble, the rate hikes that popped it, zombie banks and deflation, negative interest rates, the 2009 low, the 2024 comeback, and the lessons for anyone investing today.\n\nCHAPTERS\n\nSources\nNikkei 225 closing levels: Nikkei Inc. (record close 38,915.87 on Dec 29, 1989; low 7,054.98 on Mar 10, 2009; new record Feb 22, 2024)\nBank of Japan: official discount rate history; negative interest rate policy (Jan 2016 - Mar 2024)\n\nNews and education, not financial advice.\n\n#japan #stockmarket #economics",
+  "yt_desc": "At the end of 1989 Japan's Nikkei 225 closed at a record 38,916. Then the bubble burst, and it took 34 years to get back. We tell the story with country characters: the easy-money bubble, the rate hikes that popped it, zombie banks and deflation, what the lost decades felt like for regular people, negative interest rates, the 2009 low, the 2024 comeback, and the lessons for anyone investing today.\n\nCHAPTERS\n\nSources\nNikkei 225 closing levels: Nikkei Inc. (record close 38,915.87 on Dec 29, 1989; low 7,054.98 on Mar 10, 2009; new record Feb 22, 2024)\nBank of Japan: official discount rate history; negative interest rate policy (Jan 2016 - Mar 2024)\nYaokin (Umaibo maker): first price increase, from 10 to 12 yen, April 2022\n\nNews and education, not financial advice.\n\n#japan #stockmarket #economics",
   "tags": [
    "japan lost decades",
    "japan bubble",

@@ -258,14 +258,13 @@
    "scene": {
     "t": "money",
     "from": {
-     "label": "$5,000 balance, 1 year",
-     "value": "22.15%"
+     "label": "Balance at 22.15% for a year",
+     "value": "$5,000"
     },
     "to": {
      "label": "Interest",
      "value": "~$1,107"
-    },
-    "mood": "shock"
+    }
    }
   },
   {
@@ -375,11 +374,106 @@
   },
   {
    "who": "ticker",
-   "text": "Chapter 5. The whole thing in one screen.",
-   "say": "Chapter five. The whole thing in one screen.",
+   "text": "Chapter 5. How to pay them nothing.",
+   "say": "Chapter five. How to pay them nothing.",
    "scene": {
     "t": "chapter",
     "n": 5,
+    "title": "How to pay them nothing"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the good news. You can use a credit card and pay the card company zero dollars in interest and fees.",
+   "say": "Now the good news. You can use a credit card and pay the card company zero dollars in interest and fees.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay them [$0]",
+    "prop": "card",
+    "label": "PAID IN FULL",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most cards give you a grace period: pay the full statement balance by the due date, and purchases cost no interest.",
+   "say": "Most cards give you a grace period: pay the full statement balance by the due date, and purchases cost no interest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay the full statement",
+     "balance by the due date",
+     "= no interest on purchases"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By law, if a card has a grace period, your bill has to arrive at least 21 days before the payment is due.",
+   "say": "By law, if a card has a grace period, your bill has to arrive at least twenty-one days before the payment is due.",
+   "scene": {
+    "t": "stat",
+    "label": "Minimum time between bill and due date",
+    "value": "21 days",
+    "tone": "up",
+    "sub": "CARD Act of 2009, cards with a grace period"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying only the minimum is where the trap is. Interest keeps building on whatever is left.",
+   "say": "Paying only the minimum is where the trap is. Interest keeps building on whatever is left.",
+   "scene": {
+    "t": "compare",
+    "title": "Each month you pay",
+    "left": {
+     "label": "Full balance",
+     "value": "$0",
+     "tone": "up",
+     "sub": "interest"
+    },
+    "right": {
+     "label": "Just the minimum",
+     "value": "22%",
+     "tone": "down",
+     "sub": "APR on the rest"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A few habits keep the card working for you instead of the other way around.",
+   "say": "A few habits keep the card working for you instead of the other way around.",
+   "scene": {
+    "t": "list",
+    "title": "Habits that help",
+    "items": [
+     "Autopay the full balance",
+     "Never pay late",
+     "Skip cash advances",
+     "Know your APR"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you already carry a balance, paying it down is like earning that interest rate back, guaranteed.",
+   "say": "If you already carry a balance, paying it down is like earning that interest rate back, guaranteed.",
+   "scene": {
+    "t": "hook",
+    "title": "Paying it down = [22%] back",
+    "prop": "chart-up",
+    "label": "PAY DOWN"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6. The whole thing in one screen.",
+   "say": "Chapter six. The whole thing in one screen.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
     "title": "The whole thing in one screen"
    }
   },
@@ -452,7 +546,7 @@
  ],
  "post": {
   "title": "How Credit Card Companies Make Money From Everyone",
-  "yt_desc": "Every card swipe pays at least three companies, even if you pay your bill in full. We follow the money: the $198 billion in processing fees U.S. merchants paid in 2025, how Visa turned $40 billion of revenue into $20.1 billion of profit without lending a dime, the 22.15% average interest rate on $1.26 trillion of card balances, the fees, and who really pays for your rewards.\n\nCHAPTERS\n\nSources\nNilson Report: U.S. merchant processing fees, 2025 ($198.25 billion)\nVisa Inc. fiscal 2025 results (net revenue $40.0B, GAAP net income $20.1B)\nFederal Reserve Bank of New York, Household Debt and Credit Report, Q2 2026 (Aug 11, 2026)\nFederal Reserve G.19 Consumer Credit: interest rate on accounts assessed interest, Q2 2026\n\nNews and education, not financial advice.\n\n#creditcards #personalfinance #business",
+  "yt_desc": "Every card swipe pays at least three companies, even if you pay your bill in full. We follow the money: the $198 billion in processing fees U.S. merchants paid in 2025, how Visa turned $40 billion of revenue into $20.1 billion of profit without lending a dime, the 22.15% average interest rate on $1.26 trillion of card balances, the fees, who really pays for your rewards, and how to use a card while paying the card company nothing.\n\nCHAPTERS\n\nSources\nNilson Report: U.S. merchant processing fees, 2025 ($198.25 billion)\nVisa Inc. fiscal 2025 results (net revenue $40.0B, GAAP net income $20.1B)\nFederal Reserve Bank of New York, Household Debt and Credit Report, Q2 2026 (Aug 11, 2026)\nFederal Reserve G.19 Consumer Credit: interest rate on accounts assessed interest, Q2 2026\nCredit CARD Act of 2009 (21-day rule for cards with a grace period), CFPB\n\nNews and education, not financial advice.\n\n#creditcards #personalfinance #business",
   "tags": [
    "how credit card companies make money",
    "interchange fees",
