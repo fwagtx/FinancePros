@@ -8,10 +8,13 @@ Long-form (16:9) -> one YouTube video (title, description with chapters, tags, c
 
 Needs env: METRICOOL_USER_TOKEN (secret), METRICOOL_USER_ID, METRICOOL_BLOG_ID.
 METRICOOL_DRAFT=true saves everything as drafts to approve in Metricool first.
+Each platform post is sent on its own (one retry, then a retry without the custom cover), so one network failing never blocks
+or duplicates the others.
 """
-import json, os, sys, time, urllib.request
+import json, os, sys, time, urllib.error, urllib.request
 
-API = "https://app.metricool.com/api/v2/scheduler/posts"
+HOST = "https://app.metricool.com/api"
+API = HOST + "/v2/scheduler/posts"
 BASE = {"autoPublish": True, "shortener": False, "saveExternalMediaFiles": True, "mediaAltText": [], "descendants": [],
         "firstCommentText": "", "hasNotReadNotes": False, "smartLinkData": {"ids": []}}
 YT_TAGS = ["personal finance", "money", "finance explained", "FinanceProsTV"]
@@ -31,13 +34,27 @@ def wait_public(url, tries=30):
     return False
 
 
+def _auth():
+    return os.environ["METRICOOL_USER_ID"], os.environ["METRICOOL_BLOG_ID"], os.environ["METRICOOL_USER_TOKEN"]
+
+
 def _post(body):
-    uid, blog, tok = os.environ["METRICOOL_USER_ID"], os.environ["METRICOOL_BLOG_ID"], os.environ["METRICOOL_USER_TOKEN"]
+    uid, blog, tok = _auth()
     req = urllib.request.Request(f"{API}?blogId={blog}&userId={uid}", data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json", "X-Mc-Auth": tok}, method="POST")
     with urllib.request.urlopen(req, timeout=120) as r:
         text = r.read().decode()
     print("Metricool:", r.status, text[:200]); return text
+
+
+def brands():
+    """The brands this Metricool token can see (a read-only call, used by daily.py --check)."""
+    uid, blog, tok = _auth()
+    req = urllib.request.Request(f"{HOST}/admin/simpleProfiles?userId={uid}", headers={"X-Mc-Auth": tok})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = json.loads(r.read().decode())
+    data = data.get("data", data) if isinstance(data, dict) else data
+    return [{"id": b.get("id", b.get("blogId")), "label": b.get("label", b.get("name", ""))} for b in data if isinstance(b, dict)]
 
 
 def short_posts(video, cover, post, when, tz):
@@ -67,21 +84,44 @@ def long_post(video, thumb, post, when, tz):
     return [b]
 
 
-def schedule(video, cover, post, when, tz="America/New_York", longform=False):
+def _networks(b): return "+".join(p["network"] for p in b["providers"])
+
+
+def _send(b):
+    """Send one post. Server errors and failed connections are retried; a 4xx is retried once without the custom cover
+    (a cover a network rejects must not block the post). A timeout is never retried: the post may already exist."""
+    detail = ""
+    for attempt in range(3):
+        try:
+            text = _post(b)
+            try: pid = json.loads(text).get("data", {}).get("id")
+            except Exception: pid = None
+            return {"network": _networks(b), "ok": True, "id": pid}
+        except urllib.error.HTTPError as e:
+            detail = f"HTTP {e.code}: " + e.read()[:300].decode("utf-8", "replace")
+            if e.code < 500:
+                if not b.get("videoThumbnailUrl"): break
+                b.pop("videoThumbnailUrl")
+        except urllib.error.URLError as e:
+            detail = f"connection: {e.reason}"
+            if isinstance(e.reason, TimeoutError) or "timed out" in str(e.reason): break
+        except TimeoutError as e:
+            detail = f"timeout: {e}"; break
+        print(f"Metricool {_networks(b)} attempt {attempt + 1} failed: {detail}", flush=True)
+        time.sleep(20)
+    print(f"Metricool {_networks(b)} FAILED: {detail}", flush=True)
+    return {"network": _networks(b), "ok": False, "error": detail[:300]}
+
+
+def schedule(video, cover, post, when, tz="America/Chicago", longform=False):
+    """Schedule every platform post for one video. Returns [{network, ok, id|error}]."""
     if not wait_public(video):
         raise RuntimeError(f"Video is not publicly reachable yet: {video}")
     if cover and not wait_public(cover, 6): cover = None
     bodies = long_post(video, cover, post, when, tz) if longform else short_posts(video, cover, post, when, tz)
-    out = []
-    for b in bodies:
-        try: out.append(_post(b))
-        except urllib.error.HTTPError as e:   # a cover the network can't take must not block the post
-            if b.get("videoThumbnailUrl"):
-                print("retrying without cover:", e.code, e.read()[:200]); b.pop("videoThumbnailUrl"); out.append(_post(b))
-            else: raise
-    return out
+    return [_send(b) for b in bodies]
 
 
 if __name__ == "__main__":
     sc = json.load(open(sys.argv[1]))
-    schedule(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None, sc["post"], sys.argv[4], longform=sc.get("format") == "landscape")
+    print(schedule(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None, sc["post"], sys.argv[4], longform=sc.get("format") == "landscape"))

@@ -1,20 +1,31 @@
 name: FinancePros TV daily shows
 
-# Runs every hour. engine/daily.py checks the weekly plan (Eastern time) and makes whatever is due:
-# 4 doodle shorts a day (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts) + 3 long-form YouTube videos a week.
+# Runs every hour. engine/daily.py checks the weekly plan (US Central time) and makes whatever is due:
+# 5 doodle shorts a day (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts) at 10 AM, 12, 2, 4 and 6 PM
+# + 5 long-form YouTube videos a week (Monday-Friday, 4 PM). A dropped or late hourly run is caught up by the next one.
 on:
   schedule:
-    - cron: "5 * * * *"          # hourly; daily.py runs whatever the weekly plan says is due this Eastern-time hour
+    - cron: "5 * * * *"
   workflow_dispatch:
     inputs:
       show:
-        description: "Show to run now"
+        description: "What to run: auto = whatever is due now, check = test the API keys (posts nothing), or one show to make now"
         type: choice
-        options: [auto, morning, explainer, bigstory, hot, lf-big, lf-explained, lf-world]
+        options: [auto, check, morning, explainer, business, bigstory, hot, lf-explained, lf-business, lf-guide, lf-world, lf-big]
         required: true
+        default: check
+      draft:
+        description: "Save to Metricool as a draft instead of publishing (for test runs)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+
+# One run at a time, so a slot is never made twice; a long render simply delays the next run.
+concurrency:
+  group: financepros-daily
+  cancel-in-progress: false
 
 jobs:
   run:
@@ -23,9 +34,9 @@ jobs:
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       METRICOOL_USER_TOKEN: ${{ secrets.METRICOOL_USER_TOKEN }}
-      METRICOOL_USER_ID: ${{ vars.METRICOOL_USER_ID }}
-      METRICOOL_BLOG_ID: ${{ vars.METRICOOL_BLOG_ID }}
-      METRICOOL_DRAFT: ${{ vars.METRICOOL_DRAFT || 'false' }}
+      METRICOOL_USER_ID: ${{ vars.METRICOOL_USER_ID || '5456294' }}
+      METRICOOL_BLOG_ID: ${{ vars.METRICOOL_BLOG_ID || '7091438' }}
+      METRICOOL_DRAFT: ${{ (github.event_name == 'workflow_dispatch' && inputs.draft) && 'true' || vars.METRICOOL_DRAFT || 'false' }}
       AUTO_START: ${{ vars.AUTO_START }}
       GH_TOKEN: ${{ github.token }}
     steps:
@@ -33,32 +44,30 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Pick the show
-        id: show
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "name=${{ inputs.show }}" >> "$GITHUB_OUTPUT"; echo "force=--force" >> "$GITHUB_OUTPUT"
-          else
-            echo "name=auto" >> "$GITHUB_OUTPUT"; echo "force=" >> "$GITHUB_OUTPUT"
-          fi
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
-          cache-dependency-path: engine/requirements.txt
+
+      - name: Anything due?
+        id: due
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "due=yes" >> "$GITHUB_OUTPUT"
+          else python engine/daily.py --due >> "$GITHUB_OUTPUT"; python engine/daily.py --plan; fi
 
       - uses: actions/setup-node@v4
+        if: steps.due.outputs.due == 'yes'
         with:
           node-version: "22"
 
       - name: Cache voice model
+        if: steps.due.outputs.due == 'yes'
         uses: actions/cache@v4
         with:
           path: engine/models
           key: kokoro-v1.0
 
       - name: Install
+        if: steps.due.outputs.due == 'yes'
         working-directory: engine
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
@@ -67,18 +76,22 @@ jobs:
           npx playwright install --with-deps chromium
           ./setup_models.sh
 
-      - name: Make and schedule the episode
+      - name: Make and schedule
+        if: steps.due.outputs.due == 'yes'
         working-directory: engine
         run: |
           git config user.name "FinancePros TV bot"
           git config user.email "actions@users.noreply.github.com"
-          python daily.py --show "${{ steps.show.outputs.name }}" ${{ steps.show.outputs.force }}
+          SHOW="${{ inputs.show }}"
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] || [ "$SHOW" = "auto" ]; then python daily.py
+          elif [ "$SHOW" = "check" ]; then python daily.py --check
+          else python daily.py --show "$SHOW"; fi
 
       - name: Keep the research and fact-check logs
-        if: always()
+        if: always() && steps.due.outputs.due == 'yes'
         uses: actions/upload-artifact@v4
         with:
-          name: logs-${{ steps.show.outputs.name }}-${{ github.run_id }}
+          name: logs-${{ github.run_id }}
           path: |
             engine/concepts/scripts/auto/
             engine/concepts/out/**/timeline.json

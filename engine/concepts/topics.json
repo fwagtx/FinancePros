@@ -1,5 +1,5 @@
 {
- "note": "Evergreen topic bank, weighted toward high-interest, high-CPM finance categories (investing, credit, taxes, housing, retirement, insurance, income). studio.py picks the next unused topic per slot; used topics are tracked in topics_state.json.",
+ "note": "Evergreen topic bank, weighted toward high-interest, high-CPM finance categories (investing, credit, taxes, housing, retirement, insurance, income, business models). studio.py picks the next unused topic per slot; used topics are tracked in topics_state.json and Claude adds 20 new researched topics whenever a list runs low.",
  "shorts": {
   "explainer_acorn": [
    "Investing, explained with acorns: why time matters more than timing",
@@ -81,6 +81,41 @@
    "How much $1,000 invested in the S&P 500 grew over time",
    "The true cost of a new car over 5 years",
    "How subscriptions quietly drain your money"
+  ],
+  "business": [
+   "How Costco makes money: it's the membership fees",
+   "McDonald's is secretly a real estate company",
+   "Starbucks holds billions of customers' dollars on gift cards and the app",
+   "How Visa makes money without lending you a dime",
+   "How banks make money from your checking account",
+   "How Robinhood makes money with zero commissions",
+   "How airlines make money selling miles to credit card banks",
+   "How Netflix makes money, and why it added an ad plan",
+   "How Spotify pays artists",
+   "How Amazon really makes money: the cloud vs the store",
+   "How Apple makes money from the App Store",
+   "How Google makes money from free search",
+   "How casinos always win: the house edge",
+   "How sports betting apps make money: the vig",
+   "How Disney makes money: theme parks vs movies",
+   "How Coca-Cola makes money selling concentrate",
+   "How movie theaters make money: it's the popcorn",
+   "How dollar stores make money",
+   "How Walmart makes money on thin margins",
+   "How YouTube pays creators",
+   "How free apps make money",
+   "How gyms make money from members who never go",
+   "How insurance companies make money: the float",
+   "How buy now, pay later companies make money",
+   "How Chick-fil-A's franchise model works",
+   "How Trader Joe's keeps prices low with store brands",
+   "How Nvidia makes money",
+   "How Ticketmaster makes money: the fees",
+   "How car dealerships make money (it's not the car)",
+   "How Uber makes money on every ride",
+   "Who pays for your credit card rewards",
+   "How Duolingo makes money from a free app",
+   "How Berkshire Hathaway uses insurance float"
   ]
  },
  "longform": {
@@ -123,6 +158,45 @@
    "How global supply chains work and why they break",
    "Central banks around the world: who moves markets",
    "The history of the world's biggest financial crises"
+  ],
+  "business": [
+   "How Costco became a membership-fee machine",
+   "How McDonald's became a real estate empire",
+   "How Visa and Mastercard make money on every swipe",
+   "How Amazon makes money (it's not the store)",
+   "How Apple makes money",
+   "How Google makes money from free",
+   "How airlines make money from credit cards, not flights",
+   "How Netflix makes money",
+   "How casinos are designed to always win",
+   "How Walmart beat everyone on price",
+   "How Starbucks makes money",
+   "How Disney makes money",
+   "How insurance companies make money: float explained",
+   "How Berkshire Hathaway works",
+   "How Nvidia became the world's most valuable chip company"
+  ],
+  "guide": [
+   "How to start investing with $100, step by step",
+   "How to build credit from zero, step by step",
+   "How to pay off credit card debt, step by step",
+   "How to open and fund a Roth IRA, step by step",
+   "How to make a budget that actually works",
+   "How to buy your first home: the whole process",
+   "How to save your first $10,000",
+   "How to read your pay stub and W-2",
+   "How to file your taxes for the first time",
+   "How to choose a health insurance plan",
+   "How to pick investments in your 401(k)",
+   "How to buy a car without overpaying",
+   "How to build an emergency fund from nothing",
+   "How to use a credit card without ever paying interest",
+   "How to get out of student loan debt: the options",
+   "How to invest in index funds, step by step",
+   "How to check and fix your credit report",
+   "How to choose a bank account and avoid fees",
+   "How to plan for retirement in your 20s and 30s",
+   "How to protect yourself from identity theft"
   ]
  }
 }
