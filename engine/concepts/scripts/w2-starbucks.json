@@ -1,0 +1,137 @@
+{
+ "id": "w2-starbucks",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Starbucks is holding\nyour money",
+ "cover": {
+  "title": "Starbucks Is Holding Your Money",
+  "prop": "card",
+  "label": "$1.8B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Starbucks is holding billions of dollars of its customers' money. Here's how.",
+   "say": "Starbucks is holding billions of dollars of its customers' money. Here's how.",
+   "scene": {
+    "t": "hook",
+    "title": "Starbucks holds your [money]",
+    "prop": "card",
+    "label": "GIFT CARD",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When you load money onto a Starbucks card or the app, Starbucks gets that cash right away, before you buy anything.",
+   "say": "When you load money onto a Starbucks card or the app, Starbucks gets that cash right away, before you buy anything.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You load $25",
+     "Starbucks gets it now",
+     "You buy coffee later"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of fiscal 2024, customers had about $1.8 billion sitting on those cards.",
+   "say": "At the end of fiscal twenty twenty-four, customers had about one point eight billion dollars sitting on those cards.",
+   "scene": {
+    "t": "stat",
+    "label": "Money loaded, not yet spent",
+    "value": "$1.78B",
+    "tone": "up",
+    "sub": "Starbucks 10-K, end of fiscal 2024",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Starbucks pays no interest on it.",
+   "say": "And Starbucks pays no interest on it.",
+   "scene": {
+    "t": "compare",
+    "title": "Where your money sits",
+    "left": {
+     "label": "Savings account",
+     "value": "interest",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Starbucks card",
+     "value": "0%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's like millions of customers giving Starbucks a free loan.",
+   "say": "It's like millions of customers giving Starbucks a free loan.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some balances never get spent at all. Starbucks counts the part it expects to go unused, called breakage, as revenue.",
+   "say": "Some balances never get spent at all. Starbucks counts the part it expects to go unused, called breakage, as revenue.",
+   "scene": {
+    "t": "hook",
+    "title": "Never spent = [breakage]",
+    "prop": "coins",
+    "label": "LEFTOVER"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the app keeps people loading: 35.5 million active U.S. Rewards members.",
+   "say": "And the app keeps people loading. Thirty-five and a half million active U.S. Rewards members.",
+   "scene": {
+    "t": "stat",
+    "label": "Active U.S. Rewards members",
+    "value": "35.5M",
+    "tone": "up",
+    "sub": "90-day active, early fiscal 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So every preloaded latte is money Starbucks gets to hold first.",
+   "say": "So every preloaded latte is money Starbucks gets to hold first.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Preload = cash now",
+     "Coffee = later"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Starbucks is holding your money",
+  "ig": "Starbucks is holding billions of dollars of its customers' money.\n\nLoad a card or the app, and Starbucks gets the cash before you buy anything.\nAt the end of fiscal 2024, about $1.78B sat on those balances, earning customers no interest.\nBalances that never get spent (breakage) become revenue.\n\nSource: Starbucks annual report (10-K).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#starbucks #business #howtheymakemoney #giftcards #financeprostv",
+  "tiktok": "Your Starbucks app balance is a free loan to Starbucks. $1.8B of it. Not financial advice. #starbucks #moneytok #business #personalfinance #financeprostv",
+  "yt_desc": "When customers preload a Starbucks card or the app, Starbucks receives the cash before any purchase. At the end of fiscal 2024 its stored-value card liability was about $1.78 billion, and it pays no interest on those balances; expected unused balances (breakage) are recognized as revenue (Starbucks Form 10-K).\n\nNews and education, not financial advice.\n\n#Shorts #starbucks #business",
+  "tags": [
+   "starbucks",
+   "starbucks gift card",
+   "how starbucks makes money",
+   "breakage",
+   "FinanceProsTV"
+  ]
+ }
+}

@@ -1,0 +1,757 @@
+{
+ "id": "w2-lf-houses",
+ "format": "landscape",
+ "series": "ticker",
+ "cover": {
+  "title": "Why Houses Got So Expensive.",
+  "prop": "house",
+  "label": "$410,700",
+  "value": "4.7x"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 1970, a new American home cost about $24,000. Today the typical new home costs about $410,000.",
+   "say": "In nineteen seventy, a new American home cost about twenty-four thousand dollars. Today the typical new home costs about four hundred and ten thousand.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "New home, 1970",
+     "value": "~$24K"
+    },
+    "to": {
+     "label": "New home, 2026",
+     "value": "$410,700"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sure, everything costs more than in 1970. But homes have gotten more expensive even compared to paychecks.",
+   "say": "Sure, everything costs more than in 1970. But homes have gotten more expensive even compared to paychecks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Everything costs more.",
+     "Homes: even more."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what happened? Today we'll take it apart: prices, supply, interest rates, and who gets squeezed.",
+   "say": "So what happened? Today we'll take it apart: prices, supply, interest rates, and who gets squeezed.",
+   "scene": {
+    "t": "list",
+    "title": "Today",
+    "items": [
+     "The price tag",
+     "Not enough homes",
+     "The rate rollercoaster",
+     "Who gets squeezed"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1. The price tag.",
+   "say": "Chapter one. The price tag.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The price tag"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's compare homes to incomes, because that's what really matters.",
+   "say": "Let's compare homes to incomes, because that's what really matters.",
+   "scene": {
+    "t": "hook",
+    "title": "Homes vs [paychecks]",
+    "prop": "house",
+    "label": "PRICE",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1970, the median household earned about $8,730 a year.",
+   "say": "In nineteen seventy, the median household earned about eight thousand seven hundred thirty dollars a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Median household income, 1970",
+    "value": "$8,730",
+    "tone": "neutral",
+    "sub": "U.S. Census Bureau"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A new home cost about 2.7 years of that income.",
+   "say": "A new home cost about two point seven years of that income.",
+   "scene": {
+    "t": "stat",
+    "label": "New home price / income, 1970",
+    "value": "2.7x",
+    "tone": "neutral",
+    "sub": "about $23,900 / $8,730"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, the median household earned $87,460, a record high.",
+   "say": "In twenty twenty-five, the median household earned eighty-seven thousand four hundred sixty dollars, a record high.",
+   "scene": {
+    "t": "stat",
+    "label": "Median household income, 2025",
+    "value": "$87,460",
+    "tone": "up",
+    "sub": "U.S. Census Bureau, Sep 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the typical new home now costs about 4.7 years of income.",
+   "say": "But the typical new home now costs about four point seven years of income.",
+   "scene": {
+    "t": "compare",
+    "title": "Years of income for a new home",
+    "left": {
+     "label": "1970",
+     "value": "2.7x",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "2026",
+     "value": "4.7x",
+     "tone": "down",
+     "sub": "$410,700 / $87,460"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Incomes went up about ten times. New home prices went up about seventeen times.",
+   "say": "Incomes went up about ten times. New home prices went up about seventeen times.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that's just the price. Most people don't pay cash. They borrow, and borrowing has its own story.",
+   "say": "And that's just the price. Most people don't pay cash. They borrow, and borrowing has its own story.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price is half the story.",
+     "The other half: the loan."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2. Not enough homes.",
+   "say": "Chapter two. Not enough homes.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Not enough homes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The simplest reason prices climb: more people want homes than there are homes.",
+   "say": "The simplest reason prices climb: more people want homes than there are homes.",
+   "scene": {
+    "t": "split",
+    "title": "Supply and demand",
+    "left": {
+     "title": "Wanting homes",
+     "items": [
+      "More households",
+      "Millennials hit 30s"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Homes for sale",
+     "items": [
+      "Not enough built",
+      "Few listings"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After the 2008 crash, builders slammed on the brakes.",
+   "say": "After the 2008 crash, builders slammed on the brakes.",
+   "scene": {
+    "t": "hook",
+    "title": "Builders [stopped] building",
+    "prop": "chart-down",
+    "label": "2009",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2009, housing starts fell to their lowest level since the government began tracking them in 1959.",
+   "say": "In two thousand nine, housing starts fell to their lowest level since the government began tracking them in nineteen fifty-nine.",
+   "scene": {
+    "t": "news",
+    "headline": "Housing starts hit record low",
+    "source": "Commerce Department data, 2009"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Construction took about a decade to recover, and all those missing years add up.",
+   "say": "Construction took about a decade to recover, and all those missing years add up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A decade of",
+     "too few homes"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How big is the gap? Estimates vary. Freddie Mac puts the shortage around 3.7 million homes.",
+   "say": "How big is the gap? Estimates vary. Freddie Mac puts the shortage around three point seven million homes.",
+   "scene": {
+    "t": "stat",
+    "label": "Housing shortage estimate",
+    "value": "3.7M",
+    "tone": "down",
+    "sub": "Freddie Mac"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Zillow's estimate is even higher: about 4.7 million.",
+   "say": "Zillow's estimate is even higher. About four point seven million.",
+   "scene": {
+    "t": "compare",
+    "title": "Shortage estimates",
+    "left": {
+     "label": "Freddie Mac",
+     "value": "3.7M",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Zillow",
+     "value": "4.7M",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Building is also slow and expensive: land, labor, materials, and local rules about what can be built where.",
+   "say": "Building is also slow and expensive: land, labor, materials, and local rules about what can be built where.",
+   "scene": {
+    "t": "list",
+    "title": "Why building is hard",
+    "items": [
+     "Land costs",
+     "Labor and materials",
+     "Local zoning rules"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When there aren't enough homes, buyers bid against each other, and prices rise.",
+   "say": "When there aren't enough homes, buyers bid against each other, and prices rise.",
+   "scene": {
+    "t": "hook",
+    "title": "Too many buyers, [too few] homes",
+    "prop": "tag",
+    "label": "SOLD",
+    "value": "+$"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3. The rate rollercoaster.",
+   "say": "Chapter three. The rate rollercoaster.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The rate rollercoaster"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the loan. Mortgage rates decide how much house a monthly payment can buy.",
+   "say": "Now the loan. Mortgage rates decide how much house a monthly payment can buy.",
+   "scene": {
+    "t": "hook",
+    "title": "The rate sets the [payment]",
+    "prop": "house",
+    "label": "MORTGAGE"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the 30-year rate, averaged by year, from Freddie Mac's survey.",
+   "say": "Here's the thirty-year rate, averaged by year, from Freddie Mac's survey.",
+   "scene": {
+    "t": "chart",
+    "title": "30-year mortgage rate",
+    "points": [
+     [
+      1971,
+      7.54
+     ],
+     [
+      1981,
+      16.63
+     ],
+     [
+      1990,
+      10.13
+     ],
+     [
+      2000,
+      8.05
+     ],
+     [
+      2010,
+      4.69
+     ],
+     [
+      2020,
+      3.11
+     ],
+     [
+      2021,
+      2.96
+     ],
+     [
+      2022,
+      5.34
+     ],
+     [
+      2023,
+      6.81
+     ],
+     [
+      2024,
+      6.72
+     ]
+    ],
+    "suffix": "%",
+    "end": "6.72%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1981, it averaged over 16%. Brutal.",
+   "say": "In nineteen eighty-one, it averaged over sixteen percent. Brutal.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 1981,
+     "text": "16.6% in 1981"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it fell for forty years, and in 2021 it averaged under 3%.",
+   "say": "Then it fell for forty years, and in twenty twenty-one it averaged under three percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2021,
+     "text": "under 3%!"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In January 2021, it hit a record low of 2.65%.",
+   "say": "In January twenty twenty-one, it hit a record low of two point six five percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Record low 30-year rate",
+    "value": "2.65%",
+    "tone": "up",
+    "sub": "Freddie Mac, Jan 7, 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cheap money let buyers borrow more, and prices jumped.",
+   "say": "Cheap money let buyers borrow more, and prices jumped.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cheap loans",
+     "-> bigger bids",
+     "-> higher prices"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then inflation hit, rates shot up, and this September the 30-year average passed 7% again.",
+   "say": "Then inflation hit, rates shot up, and this September the thirty-year average passed seven percent again.",
+   "scene": {
+    "t": "stat",
+    "label": "30-year rate, Sep 24, 2026",
+    "value": "7.03%",
+    "tone": "down",
+    "sub": "Freddie Mac weekly survey",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4. The payment math.",
+   "say": "Chapter four. The payment math.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The payment math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's make it real. Say you borrow $400,000 for 30 years.",
+   "say": "Let's make it real. Say you borrow four hundred thousand dollars for thirty years.",
+   "scene": {
+    "t": "hook",
+    "title": "Borrow [$400,000]",
+    "prop": "bill",
+    "label": "$400,000",
+    "value": "30 yrs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 3%, the monthly payment for principal and interest is about $1,686.",
+   "say": "At three percent, the monthly payment for principal and interest is about sixteen hundred eighty-six dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Payment at 3%",
+    "value": "$1,686",
+    "tone": "up",
+    "sub": "principal + interest, 30 years"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 7.03%, the same loan costs about $2,669 a month.",
+   "say": "At seven point oh three percent, the same loan costs about twenty-six hundred sixty-nine dollars a month.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $400K loan",
+    "left": {
+     "label": "At 3%",
+     "value": "$1,686",
+     "tone": "up"
+    },
+    "right": {
+     "label": "At 7.03%",
+     "value": "$2,669",
+     "tone": "down",
+     "sub": "per month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's almost $1,000 more every month, for the exact same house.",
+   "say": "That's almost a thousand dollars more every month, for the exact same house.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that's before property taxes and insurance, which have been rising too.",
+   "say": "And that's before property taxes and insurance, which have been rising too.",
+   "scene": {
+    "t": "list",
+    "title": "Not even counted yet",
+    "items": [
+     "Property taxes",
+     "Home insurance"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5. Why nobody's selling.",
+   "say": "Chapter five. Why nobody's selling.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Why nobody's selling"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the strangest part. High rates should cool prices. So why haven't they fallen much?",
+   "say": "Here's the strangest part. High rates should cool prices. So why haven't they fallen much?",
+   "scene": {
+    "t": "hook",
+    "title": "Why prices [won't] fall",
+    "prop": "house",
+    "label": "FOR SALE?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Because millions of owners locked in cheap mortgages, and they don't want to give them up.",
+   "say": "Because millions of owners locked in cheap mortgages, and they don't want to give them up.",
+   "scene": {
+    "t": "hook",
+    "title": "The [lock-in] effect",
+    "prop": "house",
+    "label": "3% LOAN"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Roughly four in five mortgages still have a rate below 6%.",
+   "say": "Roughly four in five mortgages still have a rate below six percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Mortgages with a rate below 6%",
+    "value": "~80%",
+    "tone": "neutral",
+    "sub": "FHFA data via Realtor.com, early 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Selling would mean trading a 3% loan for a 7% one. So many owners just stay put.",
+   "say": "Selling would mean trading a three percent loan for a seven percent one. So many owners just stay put.",
+   "scene": {
+    "t": "compare",
+    "title": "If an owner moves",
+    "left": {
+     "label": "Old loan",
+     "value": "3%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "New loan",
+     "value": "7%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fewer sellers means fewer homes on the market, which keeps prices high even when rates are high.",
+   "say": "Fewer sellers means fewer homes on the market, which keeps prices high even when rates are high.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fewer sellers",
+     "-> fewer listings",
+     "-> prices stay high"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6. Who gets squeezed.",
+   "say": "Chapter six. Who gets squeezed.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Who gets squeezed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put it together: high prices, high rates, few listings. Who feels it most? First-time buyers.",
+   "say": "Put it together: high prices, high rates, few listings. Who feels it most? First-time buyers.",
+   "scene": {
+    "t": "split",
+    "title": "Who feels it",
+    "left": {
+     "title": "Current owners",
+     "items": [
+      "Cheap old loans",
+      "Home values up"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "First-time buyers",
+     "items": [
+      "High prices",
+      "7% loans"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the latest National Association of Realtors survey, first-time buyers were just 21% of buyers, the lowest share on record.",
+   "say": "In the latest National Association of Realtors survey, first-time buyers were just twenty-one percent of buyers, the lowest share on record.",
+   "scene": {
+    "t": "stat",
+    "label": "First-time buyers' share",
+    "value": "21%",
+    "tone": "down",
+    "sub": "NAR 2025 Profile, record low"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the typical first-time buyer was 40 years old, also a record.",
+   "say": "And the typical first-time buyer was forty years old, also a record.",
+   "scene": {
+    "t": "stat",
+    "label": "Median age, first-time buyer",
+    "value": "40",
+    "tone": "down",
+    "sub": "NAR 2025 Profile of Home Buyers and Sellers",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many are waiting longer, saving bigger down payments, or renting for more years.",
+   "say": "Many are waiting longer, saving bigger down payments, or renting for more years.",
+   "scene": {
+    "t": "list",
+    "title": "What buyers are doing",
+    "items": [
+     "Waiting longer",
+     "Saving more",
+     "Renting longer"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 7. The whole thing in one screen.",
+   "say": "Chapter seven. The whole thing in one screen.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "The whole thing in one screen"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So why did houses get so expensive? Four reasons.",
+   "say": "So why did houses get so expensive? Four reasons.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Why houses got",
+     "so expensive"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: prices rose much faster than paychecks, from 2.7 years of income to 4.7.",
+   "say": "One. Prices rose much faster than paychecks, from two point seven years of income to four point seven.",
+   "scene": {
+    "t": "list",
+    "title": "The recap",
+    "items": [
+     "Prices outran incomes",
+     "Too few homes built",
+     "Rates doubled",
+     "Owners won't sell"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: America didn't build enough homes after 2008.",
+   "say": "Two. America didn't build enough homes after two thousand eight.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: mortgage rates more than doubled from their 2021 lows.",
+   "say": "Three. Mortgage rates more than doubled from their twenty twenty-one lows.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: owners with cheap loans are staying put, so fewer homes come up for sale.",
+   "say": "Four. Owners with cheap loans are staying put, so fewer homes come up for sale.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nobody can promise where prices go next. But now you know what's moving them.",
+   "say": "Nobody can promise where prices go next. But now you know what's moving them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No predictions.",
+     "Just the machinery."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why Houses Got So Expensive (The Full Story)",
+  "yt_desc": "In 1970 a new home cost about 2.7 years of the median household's income. Today it's about 4.7 years. We take the housing market apart: prices vs paychecks, the shortage that started after 2008, the mortgage-rate rollercoaster from 16% to 2.65% to 7%, the payment math on a $400,000 loan, the lock-in effect, and why first-time buyers are older than ever.\n\nCHAPTERS\n\nSources\nU.S. Census Bureau: median sales price of new houses sold (Q2 2026: $410,700); Income in the United States: 2025 (Sep 2026)\nCensus Bureau report P60-79: household income in 1970\nFreddie Mac Primary Mortgage Market Survey (annual averages; 7.03% on Sep 24, 2026; 2.65% on Jan 7, 2021)\nFreddie Mac and Zillow housing shortage estimates\nFHFA data via Realtor.com (share of mortgages below 6%)\nNational Association of Realtors, 2025 Profile of Home Buyers and Sellers\n\nNews and education, not financial advice.\n\n#housing #realestate #personalfinance",
+  "tags": [
+   "why are houses so expensive",
+   "housing market",
+   "mortgage rates",
+   "housing shortage",
+   "first time home buyer",
+   "lock-in effect",
+   "real estate explained"
+  ]
+ }
+}

@@ -1,7 +1,7 @@
 # FinancePros TV engine
 
-Fully automated, hand-drawn ("doodle") money videos: **4 shorts a day** on TikTok, Instagram Reels, Facebook Reels and YouTube Shorts,
-plus **3 long-form YouTube videos a week**. Everything is free to run except the Claude API (writing and fact-checking) and a Metricool plan with API access.
+Fully automated, hand-drawn ("doodle") money videos: **5 shorts a day** on TikTok, Instagram Reels, Facebook Reels and YouTube Shorts,
+plus **5 long-form YouTube videos a week**. Everything is free to run except the Claude API (writing and fact-checking) and a Metricool plan with API access.
 
 ## The look
 White paper, black marker lines that "boil" like hand animation, flat colors, red annotations, real hand-drawn charts.
@@ -9,18 +9,29 @@ White paper, black marker lines that "boil" like hand animation, flat colors, re
 - **Acorn Economics**: a chunky squirrel explains investing with acorns (short, funny sentences).
 - **World Money**: countries are googly-eyed characters (US, China, Japan, UK, Germany, Mexico, Canada).
 
-## Weekly plan (Eastern time, set in `daily.py`)
-| Slot | Every day | Format |
-|---|---|---|
-| 7:30 AM | **Morning Money**: the biggest money story this morning | short |
-| 12:00 PM | **Explainer**: evergreen (Acorn Economics Mon/Wed/Fri/Sun, Paper Ticker Tue/Thu/Sat) | short |
-| 4:30 PM | **The Big Story**: the day's most important money story (countries for world news) | short |
-| 7:30 PM | **Hot Take**: money myth, scam alert, face-off, "why is X so expensive" | short |
-| Mon 5 PM | **The Big Story, long-form**: the week's biggest story in depth | YouTube 16:9 |
-| Wed 5 PM | **Explained**: a high-value evergreen topic, from zero | YouTube 16:9 |
-| Sat 11 AM | **World Money**: a world-economy deep dive | YouTube 16:9 |
+## Weekly plan (US Central time, set in `daily.py`)
+Post times come from Metricool's best-time-to-post data for these accounts: TikTok, Instagram, Facebook and YouTube all peak at
+10 AM, 12, 2, 4 and 6 PM Central, and YouTube's single best hour is 4 PM on weekdays (weekdays score about twice the weekend).
 
-If no confirmed news qualifies for a news slot, that slot posts an evergreen video instead, so there are always 4 shorts a day.
+| Time (CT) | Every day | Format |
+|---|---|---|
+| 10:00 AM | **Morning Money**: the biggest money story this morning | short |
+| 12:00 PM | **Explainer**: evergreen (Acorn Economics Mon/Wed/Fri/Sun, Paper Ticker Tue/Thu/Sat) | short |
+| 2:00 PM | **How They Make Money**: the business model behind a company everyone knows | short |
+| 4:00 PM | **The Big Story**: the day's most important money story (countries for world news) | short |
+| 6:00 PM | **Hot Take**: money myth, scam alert, face-off, "why is X so expensive" | short |
+
+| Time (CT) | Long-form (YouTube, 16:9) |
+|---|---|
+| Mon 4 PM | **Explained**: a high-value money topic, from zero |
+| Tue 4 PM | **How They Make Money**: a company or industry in depth |
+| Wed 4 PM | **The Guide**: a step-by-step money how-to |
+| Thu 4 PM | **World Money**: a world-economy story with country characters |
+| Fri 4 PM | **The Big Story of the Week** |
+
+If no confirmed news qualifies for a news slot, that slot posts an evergreen video instead, so every slot always posts.
+Each slot starts building 2.5 hours ahead (8 hours for long-form). GitHub's hourly runs are sometimes late or dropped, so every run
+also catches up on anything still due. `concepts/scripts/auto/<date>.state.json` records every slot, so nothing is made or posted twice.
 
 ## How a video is made (one GitHub Actions run)
 1. **Topic**: news shows research today's stories and score them (reach, surprise, high-value category, visual, confirmed). Evergreen shows take
@@ -33,7 +44,7 @@ If no confirmed news qualifies for a news slot, that slot posts an evergreen vid
 5. **Voice** (Kokoro, free), **music and sound effects** (generated, no licensing), **render** (Chromium frame by frame; long-form at 15 fps for the
    hand-drawn feel), loudness to -14 LUFS.
 6. **Cover / thumbnail**: a 9:16 cover whose title sits in the square Instagram shows on the grid, or a 1280x720 YouTube thumbnail.
-7. **Hosting**: the video and cover go to the `media` branch (only the last 21 days are kept, so the repo never balloons; Metricool copies each file).
+7. **Hosting**: the video and cover go to the `media` branch (only the last 7 days are kept, so the repo never balloons; Metricool copies each file when the post is scheduled).
 8. **Publishing** (`publish.py`), formatted per platform:
    - Instagram Reel + Facebook Reel: caption with hashtags, custom cover
    - TikTok: short caption + hashtags, cover
@@ -47,12 +58,13 @@ GitHub → repo **Settings → Secrets and variables → Actions**:
 |---|---|---|
 | `ANTHROPIC_API_KEY` | Secret | your Claude API key |
 | `METRICOOL_USER_TOKEN` | Secret | Metricool → Account settings → API |
-| `METRICOOL_USER_ID` | Variable | `5456294` |
-| `METRICOOL_BLOG_ID` | Variable | `7091438` |
+| `METRICOOL_USER_ID` | Variable (optional) | `5456294` (already the default) |
+| `METRICOOL_BLOG_ID` | Variable (optional) | `7091438` (already the default) |
 | `METRICOOL_DRAFT` | Variable (optional) | `true` = everything waits in Metricool for your approval |
 | `AUTO_START` | Variable (optional) | first date the plan runs (default `2026-10-03`) |
 
-Test any show by hand: **Actions → FinancePros TV daily shows → Run workflow** and pick the show.
+Check the keys: **Actions → FinancePros TV daily shows → Run workflow → show: check** (posts nothing; the log says ALL GOOD or what's missing).
+Test one show end to end: pick the show and tick **draft**; the video lands in Metricool as a draft to review.
 
 ## Make a video by hand
 ```bash
@@ -63,7 +75,7 @@ python concepts/run.py concepts/scripts/rule-of-72.json --stills 3,9   # review 
 ```
 
 ## Files
-- `daily.py`: one scheduled run (plan, fallbacks, hosting, chapters, publishing)
+- `daily.py`: one scheduled run (plan, catch-up, state file, fallbacks, hosting, chapters, publishing, `--check`, `--plan`)
 - `concepts/studio.py`: topic → research → template script → fact-check (Claude API)
 - `concepts/topics.json` / `topics_state.json`: the evergreen topic bank and what's been used
 - `concepts/layout.py`: scene templates → positioned drawings (9:16 and 16:9), covers and thumbnails
