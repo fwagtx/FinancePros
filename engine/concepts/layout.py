@@ -227,7 +227,9 @@ def layout_line(F, sc, st, step):
         if sc.get("caption"): items.append(T(F.cx if not F.v else 540, 1330 if F.v else 1010, sc["caption"], 56 if F.v else 60, color=RED, at=1.6))
     elif t == "building":
         cy = (top + F.box[3]) / 2 + 60
-        items += prop_items(sc.get("kind", "fed"), F.cx, cy, 1.15 if F.v else 1.35, sc.get("label"))
+        bld = prop_items(sc.get("kind", "fed"), F.cx, cy, 1.15 if F.v else 1.35, sc.get("label"))
+        if sc.get("name"): bld = [dict(i, label=sc["name"]) if i["k"] == sc.get("kind", "fed") else i for i in bld]   # sign on the building, e.g. BANK OF JAPAN
+        items += bld
         if sc.get("caption"): items.append(T(F.cx, F.box[3] + (30 if F.v else 0), sc["caption"], 52, color=RED, at=1.2))
         items += F.host_item(mood or "happy", "shrug")
     elif t == "news":

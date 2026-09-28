@@ -81,7 +81,8 @@
     "t": "building",
     "kind": "fed",
     "label": "rates: low",
-    "caption": "Easy money"
+    "caption": "Easy money",
+    "name": "BANK OF JAPAN"
    }
   },
   {
@@ -128,7 +129,8 @@
     "t": "building",
     "kind": "fed",
     "label": "rates: 6%",
-    "caption": "Rates up, 1989-1990"
+    "caption": "Rates up, 1989-1990",
+    "name": "BANK OF JAPAN"
    }
   },
   {
@@ -383,11 +385,47 @@
    "say": "Then, slowly, things changed. Companies cleaned up, profits grew, and investors came back.",
    "scene": {
     "t": "chart",
-    "keep": true,
-    "note": {
-     "x": 2023,
-     "text": "climbing back"
-    },
+    "title": "Nikkei 225, year-end close",
+    "points": [
+     [
+      1989,
+      38916
+     ],
+     [
+      1990,
+      23849
+     ],
+     [
+      2002,
+      8579
+     ],
+     [
+      2007,
+      15308
+     ],
+     [
+      2008,
+      8860
+     ],
+     [
+      2012,
+      10395
+     ],
+     [
+      2020,
+      27444
+     ],
+     [
+      2023,
+      33464
+     ],
+     [
+      2024,
+      39895
+     ]
+    ],
+    "end": "39,895",
+    "color": "up",
     "mood": "up"
    }
   },
@@ -415,7 +453,8 @@
     "t": "building",
     "kind": "fed",
     "label": "rates: above 0",
-    "caption": "Negative rates end, 2024"
+    "caption": "Negative rates end, 2024",
+    "name": "BANK OF JAPAN"
    }
   },
   {

@@ -88,7 +88,7 @@ SCENE = {"type": "object", "additionalProperties": False, "required": ["t"], "pr
         "name": {"type": "string", "enum": list(layout.COUNTRY_COLOR)}, "mood": {"type": "string", "enum": ["happy", "worried", "angry", "sad"]}, "says": S}}},
     "caption": S, "kind": S, "headline": S, "source": S, "text": S,
     "events": {"type": "array", "items": {"type": "object", "additionalProperties": False, "properties": {"when": S, "what": S}, "required": ["when", "what"]}},
-    "n": I, "tagline": S, "note": S}}
+    "n": I, "tagline": S, "note": S, "name": S}}
 SCRIPT = {"type": "object", "additionalProperties": False, "required": ["series", "header", "cover", "lines", "post"], "properties": {
     "series": {"type": "string", "enum": ["ticker", "acorn"]},
     "header": S,
@@ -109,7 +109,8 @@ TEMPLATE_GUIDE = """Draw every line with ONE template in scene.t (the renderer l
 - stat: label (what the number is), value (big, <=9 chars), tone, sub (small source/context line).
 - money: from {label, value} -> to {label, value}, e.g. a 1970 dollar -> "about 12¢".
 - countries: cast (1-3 of us|china|japan|uk|germany|mexico|canada, each with mood and optional says <=18 chars), prop {kind: box|bag|tag, label}, caption (short red line). Countries are the characters; no host.
-- building: kind fed|store|customs, label (a tag on it, e.g. "rate: 4.5%"), caption.
+- building: kind fed|store|customs, label (a tag on it, e.g. "rate: 4.5%"), caption, name (the sign on the building; the fed building says
+  FEDERAL RESERVE unless you set name, so ALWAYS set name for any other central bank, e.g. "BANK OF JAPAN", "EUROPEAN CENTRAL BANK").
 - news: headline (<=10 words, factual), source (outlet or agency and date).
 - quote: text (a real, exact quote <=30 words), source (who said it and when).
 - timeline: events [{when, what (<=6 words)}] (3-5), reveal; keep:true lines reveal the next event.
@@ -246,9 +247,11 @@ def factcheck(sc, brief, now):
 def sanitize(sc, show, date):
     """Keep the model inside what the renderer can draw; convert schema shapes to layout shapes."""
     kind = SHOWS[show][0]; acorn = sc.get("series") == "acorn"
-    lines = []
+    lines = []; prev_t = None
     for ln in sc["lines"]:
         s = dict(ln["scene"])
+        if s.get("keep") and s.get("t") != prev_t:   # a "keep" line must continue the same template (e.g. not follow a chapter card)
+            s = {"t": "hook", "title": ln["text"][:48], "prop": "none"}
         if s["t"] == "squirrel" and not acorn: s = {"t": "hook", "title": ln["text"][:50], "prop": "acorns"}
         if s["t"] == "chapter" and kind != "long": continue
         if s.get("chart_note"): s["note"] = s.pop("chart_note")
@@ -260,7 +263,7 @@ def sanitize(sc, show, date):
         if s["t"] == "building" and s.get("kind") not in ("fed", "store", "customs"): s["kind"] = "fed"
         if s["t"] == "countries" and not s.get("keep"): s["cast"] = [c for c in s.get("cast", []) if c.get("name") in layout.COUNTRY_COLOR][:3] or [{"name": "us"}]
         who = "nutty" if acorn else "ticker"
-        lines.append({"who": who, "text": ln["text"], "say": ln.get("say") or ln["text"], "scene": s})
+        lines.append({"who": who, "text": ln["text"], "say": ln.get("say") or ln["text"], "scene": s}); prev_t = s["t"]
     if not lines or lines[-1]["scene"]["t"] != "cta":
         lines.append({"who": "nutty" if acorn else "ticker", "text": "That's the money. Follow for more.", "say": "That's the money. Follow for more.", "scene": {"t": "cta"}})
     out = {"id": f"{date}-{show}", "format": "landscape" if kind == "long" else "vertical", "series": "acorn" if acorn else "ticker",
