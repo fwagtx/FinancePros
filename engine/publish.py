@@ -62,10 +62,10 @@ def short_posts(video, cover, post, when, tz):
     title = post["title"].strip()
     common = dict(BASE, publicationDate={"dateTime": when, "timezone": tz}, media=[video], draft=_draft())
     ig = dict(common, text=post["ig"], providers=[{"network": "instagram"}, {"network": "facebook"}],
-              instagramData={"type": "REEL", "showReelOnFeed": True, "isAiGenerated": True},
+              instagramData={"type": "REEL", "showReelOnFeed": True, "isAiGenerated": False},
               facebookData={"type": "REEL", "title": title[:100]})
     tt = dict(common, text=post["tiktok"][:2200], providers=[{"network": "tiktok"}],
-              tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE", "title": title[:90], "isAigc": True, "disableComment": False,
+              tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE", "title": title[:90], "isAigc": False, "disableComment": False,
                           "disableDuet": False, "disableStitch": False, "autoAddMusic": False})
     yt_title = (title if "#shorts" in title.lower() else f"{title} #Shorts")[:100]
     yt = dict(common, text=post["yt_desc"], providers=[{"network": "youtube"}],
