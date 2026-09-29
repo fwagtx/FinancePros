@@ -3,7 +3,7 @@
 GitHub Actions runs this every hour (runs never overlap). Times are US Central, the brand's time zone in Metricool, and come from
 Metricool's best-time-to-post data for these accounts (Sep 2026): TikTok, Instagram, Facebook and YouTube all peak at
 10 AM, 12, 2, 4 and 6 PM, and YouTube's single best hour is 4 PM on weekdays (weekdays score about twice the weekend).
-  5 shorts a day (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts): 10:00, 12:00, 14:00, 16:00, 18:00
+  5 shorts a day (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts, Threads): 10:00, 12:00, 14:00, 16:00, 18:00
   5 long-form YouTube videos a week: Monday-Friday 16:00
 
 A slot starts building a few hours before it posts, so a delayed or dropped hourly run is caught up by the next one. Every slot is
@@ -177,7 +177,7 @@ def make_slot(show, when, date, st, key=None):
         rec.update(status="posted", made_as=made_as, title=sc["post"].get("title", ""), post_at=at.isoformat(timespec="minutes"),
                    video=urls[0], networks=results)
         if any(not r["ok"] for r in results): rec["note"] = "some networks failed; see networks"
-        return all(r["ok"] for r in results)
+        return all(r["ok"] or r.get("optional") for r in results)
     except Exception as e:
         traceback.print_exc()
         rec.update(status="failed", error=f"{type(e).__name__}: {e}"[:500]); return False

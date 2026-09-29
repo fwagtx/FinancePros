@@ -1,9 +1,11 @@
 """Schedule finished videos through the Metricool API, formatted for each platform.
 
-Shorts (9:16)  -> three posts at the same time:
+Shorts (9:16)  -> four posts at the same time:
    1. Instagram Reel + Facebook Reel (shared caption, custom 9:16 cover)
    2. TikTok (short caption + hashtags, cover)
    3. YouTube Short (title with #Shorts, description, tags)
+   4. Threads (the Instagram caption trimmed to Threads' 500 characters, one topic tag). Optional: a Threads failure
+      (for example the account is not connected) is recorded but does not count as a failed slot.
 Long-form (16:9) -> one YouTube video (title, description with chapters, tags, custom thumbnail).
 
 Needs env: METRICOOL_USER_TOKEN (secret), METRICOOL_USER_ID, METRICOOL_BLOG_ID.
@@ -57,6 +59,23 @@ def brands():
     return [{"id": b.get("id", b.get("blogId")), "label": b.get("label", b.get("name", ""))} for b in data if isinstance(b, dict)]
 
 
+def threads_text(caption, limit=500):
+    """The Instagram caption fitted to Threads: no hashtag lines, whole paragraphs up to 500 characters, one topic tag."""
+    paras = [p.strip() for p in caption.split("\n\n") if p.strip()]
+    tags = [w for p in paras for w in p.split() if w.startswith("#") and w.lower() != "#financeprostv"]
+    body = [p for p in paras if not all(w.startswith("#") for w in p.split())]
+    note = next((p for p in body if "not financial" in p.lower()), None)
+    tag = ("\n\n" + tags[0]) if tags else ""
+    out = []
+    for p in body:
+        if p is note: continue
+        room = limit - len(tag) - (len(note) + 2 if note else 0)
+        if len("\n\n".join(out + [p])) > room: break
+        out.append(p)
+    if note: out.append(note)
+    return ("\n\n".join(out) + tag)[:limit]
+
+
 def short_posts(video, cover, post, when, tz):
     """The three per-platform posts for one vertical short."""
     title = post["title"].strip()
@@ -71,8 +90,10 @@ def short_posts(video, cover, post, when, tz):
     yt = dict(common, text=post["yt_desc"], providers=[{"network": "youtube"}],
               youtubeData={"title": yt_title, "type": "short", "privacy": "public", "madeForKids": False, "category": "EDUCATION",
                            "tags": (post.get("tags") or [])[:10] + YT_TAGS[:2], "isAiGeneratedContent": False})
+    th = dict(common, text=threads_text(post.get("threads") or post["ig"]), providers=[{"network": "threads"}], threadsData={},
+              optional=True)
     if cover: ig["videoThumbnailUrl"] = cover; tt["videoThumbnailUrl"] = cover
-    return [ig, tt, yt]
+    return [ig, tt, yt, th]
 
 
 def long_post(video, thumb, post, when, tz):
@@ -90,13 +111,13 @@ def _networks(b): return "+".join(p["network"] for p in b["providers"])
 def _send(b):
     """Send one post. Server errors and failed connections are retried; a 4xx is retried once without the custom cover
     (a cover a network rejects must not block the post). A timeout is never retried: the post may already exist."""
-    detail = ""
+    detail = ""; optional = b.pop("optional", False)
     for attempt in range(3):
         try:
             text = _post(b)
             try: pid = json.loads(text).get("data", {}).get("id")
             except Exception: pid = None
-            return {"network": _networks(b), "ok": True, "id": pid}
+            return {"network": _networks(b), "ok": True, "id": pid, "optional": optional}
         except urllib.error.HTTPError as e:
             detail = f"HTTP {e.code}: " + e.read()[:300].decode("utf-8", "replace")
             if e.code < 500:
@@ -110,11 +131,11 @@ def _send(b):
         print(f"Metricool {_networks(b)} attempt {attempt + 1} failed: {detail}", flush=True)
         time.sleep(20)
     print(f"Metricool {_networks(b)} FAILED: {detail}", flush=True)
-    return {"network": _networks(b), "ok": False, "error": detail[:300]}
+    return {"network": _networks(b), "ok": False, "error": detail[:300], "optional": optional}
 
 
 def schedule(video, cover, post, when, tz="America/Chicago", longform=False):
-    """Schedule every platform post for one video. Returns [{network, ok, id|error}]."""
+    """Schedule every platform post for one video. Returns [{network, ok, id|error, optional}]."""
     if not wait_public(video):
         raise RuntimeError(f"Video is not publicly reachable yet: {video}")
     if cover and not wait_public(cover, 6): cover = None

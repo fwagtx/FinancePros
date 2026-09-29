@@ -1,6 +1,6 @@
 # FinancePros TV engine
 
-Fully automated, hand-drawn ("doodle") money videos: **5 shorts a day** on TikTok, Instagram Reels, Facebook Reels and YouTube Shorts,
+Fully automated, hand-drawn ("doodle") money videos: **5 shorts a day** on TikTok, Instagram Reels, Facebook Reels, YouTube Shorts and Threads,
 plus **5 long-form YouTube videos a week**. Everything is free to run except the Claude API (writing and fact-checking) and a Metricool plan with API access.
 
 ## The look

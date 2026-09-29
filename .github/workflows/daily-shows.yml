@@ -1,7 +1,7 @@
 name: FinancePros TV daily shows
 
 # Runs every hour. engine/daily.py checks the weekly plan (US Central time) and makes whatever is due:
-# 5 doodle shorts a day (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts) at 10 AM, 12, 2, 4 and 6 PM
+# 5 doodle shorts a day (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts, Threads) at 10 AM, 12, 2, 4 and 6 PM
 # + 5 long-form YouTube videos a week (Monday-Friday, 4 PM). A dropped or late hourly run is caught up by the next one.
 on:
   schedule:
