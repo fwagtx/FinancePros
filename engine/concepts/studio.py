@@ -181,7 +181,9 @@ def refill(key, pool, now):
     q = (f"Today is {now:%B %d, %Y}. Suggest 20 NEW evergreen video topics for the FinancePros TV slot '{key}' that are not in this list:\n"
          + "\n".join("- " + p for p in pool) + f"\n\n{INTEREST}\nUse web search to see what money questions people are searching and talking about now. "
          "Return only a JSON array of 20 topic strings.")
-    out = call(BRAND, q, tools=WEB)
+    try: out = call(BRAND, q, tools=WEB)
+    except Exception as e:   # no API key (session mode) or an API error: keep cycling the existing bank
+        print("topic refill skipped:", type(e).__name__); return []
     m = re.search(r"\[.*\]", out, re.S)
     try: return [t for t in json.loads(m.group(0)) if isinstance(t, str)][:20] if m else []
     except Exception: return []
@@ -195,7 +197,7 @@ HINT = {
 }
 
 
-def research(show, now, topic=None):
+def research_prompt(show, now, topic=None):
     kind, src, desc = SHOWS[show]
     if src == "bank":
         q = (f"Today is {now:%A, %B %d, %Y}. Show: {desc}\nTopic: {topic}\n\n"
@@ -211,10 +213,14 @@ def research(show, now, topic=None):
              "and date, a REAL data series to chart if one exists (actual values + source), the history or context that explains it, what it means "
              "for a normal person's money, and what to watch next. " + ("Plan 4-6 chapters. " if kind == "long" else "")
              + "Finish with 'SOURCES:' and the URLs. If nothing is confirmed and important, answer only NOTHING_TODAY.")
-    return call(BRAND, q, tools=WEB)
+    return q
 
 
-def write_script(show, brief, now, topic=None):
+def research(show, now, topic=None):
+    return call(BRAND, research_prompt(show, now, topic), tools=WEB)
+
+
+def write_prompt(show, brief, now, topic=None):
     kind, src, desc = SHOWS[show]
     series_hint = ("This is an Acorn Economics episode: series 'acorn', who 'nutty' on every line, use squirrel scenes plus charts/compare/lists. "
                    if topic and "acorn" in topic.lower() else "Series 'ticker': who 'ticker' on every line. ")
@@ -222,6 +228,11 @@ def write_script(show, brief, now, topic=None):
          f"\nResearch brief (the ONLY facts you may use):\n{brief}\n\n{TEMPLATE_GUIDE}\n\n{LONG_GUIDE if kind == 'long' else SHORT_GUIDE}\n"
          "Each line: who, text (the caption, numerals allowed), say (the same sentence written for the voice: numbers, symbols and "
          "acronyms in words, like 'twenty-four percent' and 'A P R'), scene.")
+    return q
+
+
+def write_script(show, brief, now, topic=None):
+    kind = SHOWS[show][0]; q = write_prompt(show, brief, now, topic)
     try:
         return json.loads(call(BRAND, q, fmt=SCRIPT, max_tokens=64000 if kind == "long" else 16000))
     except Exception as e:   # schema rejected or truncated: ask for plain JSON and parse it ourselves
@@ -230,7 +241,7 @@ def write_script(show, brief, now, topic=None):
         return json.loads(out[out.index("{"):out.rindex("}") + 1])
 
 
-def factcheck(sc, brief, now):
+def factcheck_prompt(sc, brief, now):
     def shown(s): return json.dumps({k: v for k, v in s.items() if k not in ("t", "keep", "mood", "prop", "color", "tone", "n", "reveal")}, ensure_ascii=False)
     body = "\n".join(f"- {l['text']}  | on screen: {shown(l['scene'])}" for l in sc["lines"])
     q = (f"Today is {now:%A, %B %d, %Y}, {now:%I:%M %p} ET. Fact-check this FinancePros TV video before it is published.\n\n"
@@ -239,6 +250,11 @@ def factcheck(sc, brief, now):
          "Independently verify every factual claim, number and chart data point with web search (do not trust the brief). Also flag: stale news, "
          "advice or price predictions, political opinion, a cover or title the video doesn't pay off, math errors in worked examples, "
          "and any on-screen value that differs from the spoken one. List each issue. Finish with exactly one line: VERDICT: PASS or VERDICT: FAIL.")
+    return q
+
+
+def factcheck(sc, brief, now):
+    q = factcheck_prompt(sc, brief, now)
     out = call(BRAND, q, tools=WEB)
     v = re.findall(r"VERDICT:\s*(PASS|FAIL)", out)
     return (v[-1] == "PASS" if v else False), out

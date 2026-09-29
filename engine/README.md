@@ -30,10 +30,14 @@ Post times come from Metricool's best-time-to-post data for these accounts: TikT
 | Fri 4 PM | **The Big Story of the Week** |
 
 If no confirmed news qualifies for a news slot, that slot posts an evergreen video instead, so every slot always posts.
-Each slot starts building 2.5 hours ahead (8 hours for long-form). GitHub's hourly runs are sometimes late or dropped, so every run
-also catches up on anything still due. `concepts/scripts/auto/<date>.state.json` records every slot, so nothing is made or posted twice.
+`concepts/scripts/auto/<date>.state.json` records every slot, so nothing is made or posted twice.
 
-## How a video is made (one GitHub Actions run)
+## Who runs it
+Two scheduled Claude Code sessions (Routines) on the Claude plan, every day at 5:50 AM and 12:40 PM Central; no API keys needed.
+Claude researches, writes and fact-checks (with a separate subagent), `session.py` renders and hosts, and the posts are created
+through the Metricool connector. Prompts and details: [ROUTINES.md](ROUTINES.md).
+
+## How a video is made
 1. **Topic**: news shows research today's stories and score them (reach, surprise, high-value category, visual, confirmed). Evergreen shows take
    the next topic from `concepts/topics.json` (weighted to investing, credit, taxes, housing, retirement, insurance); when a list runs low,
    Claude researches what people are searching for and adds 20 new topics.
@@ -49,10 +53,11 @@ also catches up on anything still due. `concepts/scripts/auto/<date>.state.json`
    - Instagram Reel + Facebook Reel: caption with hashtags, custom cover
    - TikTok: short caption + hashtags, cover
    - YouTube Short: title with #Shorts, description, tags
+   - Threads: the Instagram caption fitted to 500 characters, one topic tag
    - Long-form: YouTube only, title, description with real chapter timestamps, tags, custom thumbnail
 
-## Turn it on
-GitHub → repo **Settings → Secrets and variables → Actions**:
+## GitHub Actions version (optional, needs API keys)
+The same plan can also run in GitHub Actions (its hourly schedule is off). GitHub → repo **Settings → Secrets and variables → Actions**:
 
 | Name | Type | Value |
 |---|---|---|

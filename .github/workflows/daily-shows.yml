@@ -3,9 +3,9 @@ name: FinancePros TV daily shows
 # Runs every hour. engine/daily.py checks the weekly plan (US Central time) and makes whatever is due:
 # 5 doodle shorts a day (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts, Threads) at 10 AM, 12, 2, 4 and 6 PM
 # + 5 long-form YouTube videos a week (Monday-Friday, 4 PM). A dropped or late hourly run is caught up by the next one.
+# The shows are now made by scheduled Claude Code sessions on the Claude plan (see engine/ROUTINES.md), so the hourly
+# schedule is off. This workflow still works by hand if ANTHROPIC_API_KEY and METRICOOL_USER_TOKEN are added as secrets.
 on:
-  schedule:
-    - cron: "5 * * * *"
   workflow_dispatch:
     inputs:
       show:
