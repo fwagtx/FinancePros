@@ -107,8 +107,8 @@ def pick(content, now, attempt):
 
 def nxt(until):
     pull(); now = dt.datetime.now(TZ); date = now.strftime("%Y-%m-%d"); st = load_state(date)
-    if now.date() < daily.AUTO_START:
-        print(f"DONE: hand-made episodes cover {date}; the automatic plan starts {daily.AUTO_START}."); return
+    if now.date() < daily.FIRST_DAY:
+        print(f"DONE: hand-made episodes cover {date}; the automatic plan starts {daily.FIRST_DAY}."); return
     missed = [s for s, w in slots(now.date()) if now > w + daily.GRACE and st.get(s, {}).get("status") not in ("scheduled", "posted", "skipped", "missed", "failed")]
     for s in missed: st.setdefault(s, {})["status"] = "missed"
     if missed: save(date, st, f"{date}: missed {', '.join(missed)}")

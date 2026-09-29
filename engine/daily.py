@@ -31,6 +31,9 @@ TRIES = 3                            # attempts per slot per day (API errors, fa
 FALLBACK = {"morning": "hot", "bigstory": "explainer", "lf-big": "lf-explained"}   # news slot with no confirmed story -> evergreen
 # Hand-made episodes cover the days before this date; the plan runs from it. Override with the AUTO_START variable (YYYY-MM-DD).
 AUTO_START = dt.date.fromisoformat(os.environ.get("AUTO_START") or "2026-10-03")
+# Long-form videos run from this date (the hand-made ones all went out on Sep 29, so the weekday long-forms start Sep 30).
+LONG_START = dt.date.fromisoformat(os.environ.get("LONG_START") or "2026-09-30")
+FIRST_DAY = min(AUTO_START, LONG_START)
 REPO = os.environ.get("GITHUB_REPOSITORY", "fwagtx/FinancePros")
 BRANCH = os.environ.get("GITHUB_REF_NAME", "claude/dazzling-newton-1ex2s0")
 MEDIA = os.environ.get("MEDIA_BRANCH", "media")      # videos live on their own branch, trimmed to the last week
@@ -44,7 +47,8 @@ def sh(*cmd, check=True, **kw):
 
 def slots(day):
     """[(show, post time)] for one day, in posting order."""
-    plan = list(SHORTS) + ([(LONG_DAYS[day.weekday()], LONG_AT)] if day.weekday() in LONG_DAYS else [])
+    plan = (list(SHORTS) if day >= AUTO_START else []) + \
+           ([(LONG_DAYS[day.weekday()], LONG_AT)] if day.weekday() in LONG_DAYS and day >= LONG_START else [])
     return sorted(((s, dt.datetime.combine(day, dt.time.fromisoformat(t), TZ)) for s, t in plan), key=lambda x: (x[1], x[0] in LONG))
 
 
@@ -219,7 +223,7 @@ def main():
     date = now.strftime("%Y-%m-%d")
     if a.check: sys.exit(0 if check() else 1)
     if a.due or a.plan:
-        d = due(now, load_state(date)) if now.date() >= AUTO_START else []
+        d = due(now, load_state(date)) if now.date() >= FIRST_DAY else []
         if a.due: print("due=" + ("yes" if d else "no")); return
         print(f"{now:%a %Y-%m-%d %H:%M} CT, automation starts {AUTO_START}")
         for show, when in slots(now.date()):
@@ -231,8 +235,8 @@ def main():
         draft = os.environ.get("METRICOOL_DRAFT", "false").lower() == "true"
         ok = make_slot(a.show, max(when, now), date, st, key=a.show + ("-draft" if draft else ""))
         sys.exit(0 if ok else 1)
-    if now.date() < AUTO_START:
-        print(f"Hand-made episodes cover {now:%a %b %d}; the automatic plan starts {AUTO_START}."); return
+    if now.date() < FIRST_DAY:
+        print(f"Hand-made episodes cover {now:%a %b %d}; the automatic plan starts {FIRST_DAY}."); return
     t0 = time.monotonic(); failures = 0
     while time.monotonic() - t0 < 150 * 60:
         pull(); now = dt.datetime.now(TZ); st = load_state(date)
