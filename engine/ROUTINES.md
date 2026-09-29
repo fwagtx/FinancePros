@@ -1,6 +1,7 @@
 # FinancePros TV routines (Claude Code on the web)
 
-The daily shows are made by two scheduled Claude Code sessions (Routines) that run on the account's Claude plan.
+The daily shows are made by two scheduled Routines that wake the FinancePros Claude Code session on claude.ai (the one that
+built this engine; it has the Metricool connector) and run on the account's Claude plan.
 They need no API keys: Claude does the research, writing and fact-checking itself and schedules the posts through the
 Metricool connector. `engine/session.py` does the rest (plan, topics, rendering, hosting on the `media` branch, state).
 
