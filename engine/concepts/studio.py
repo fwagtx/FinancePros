@@ -35,7 +35,7 @@ Rules that never change:
 - Only confirmed facts: an official source (Fed, BLS, BEA, Treasury, SEC filing, company release, central bank) or two reputable outlets.
 - Neutral on politics: explain what a policy does to money; never take sides.
 - Every number on screen must match the spoken number. Round when spoken ("about 4 percent"), exact on screen.
-- The hook in the first 2 seconds must earn the click, and the video must pay it off. No clickbait.
+- The attention grabber in the first 3 seconds must stop the scroll and earn the click, and the video must pay it off. No clickbait.
 - No emojis in scripts."""
 
 SHOWS = {
@@ -122,8 +122,19 @@ TEMPLATE_GUIDE = """Draw every line with ONE template in scene.t (the renderer l
 Every line may set mood (happy|up|shock|worried|think|angry|sad) for the host. Change the picture every 1-2 lines; use at least 5 different
 templates in a short and many more in a long-form. Prefer a real chart, stat, compare, or countries whenever there is a number or a place."""
 
+HOOK_RULES = """THE FIRST 3 SECONDS DECIDE EVERYTHING. The first line is the attention grabber, and it must stop the scroll:
+- Spoken in under 3 seconds (at most 12 words), and it lands on screen at the same moment with one big, bold visual (hook template,
+  a huge red number or a dramatic prop). No greeting, no "hey guys", no channel name, no "in this video", no slow setup.
+- Use one proven pattern: a shocking true number ("You pay $1,000 a year for this and never see it."), a myth called out
+  ("Checking your credit score doesn't hurt it."), a direct challenge ("Your savings account is losing you money."), a "why"
+  question the viewer can't answer ("Why is a movie ticket $15 but popcorn is $9?"), or a stakes line ("This one number decides
+  your car loan.").
+- It must be true, specific and paid off by the video (no clickbait), and it should create a question that only watching answers.
+- Line 2 raises the stakes or promises the answer within the next 3 seconds, so the viewer stays past second 6.
+- The cover/thumbnail and the post's first caption line echo the same hook."""
+
 SHORT_GUIDE = """Write a vertical short (TikTok, Reels, YouTube Shorts): 35-55 seconds, 100-150 spoken words, 7-11 lines.
-Structure: hook line (the surprising fact or question) -> the key number -> why it matters to your money -> one simple takeaway -> final line
+Structure: attention-grabber hook (see the hook rules) -> the key number -> why it matters to your money -> one simple takeaway -> final line
 "That's the money. Follow for more." with t = cta. (Acorn Economics ends with "Squirrel explained <topic>. Squirrel would like one follow.")
 header: the on-screen title at the top of the video, 2 short lines separated by \\n (<= 22 chars per line), handwritten style, no brackets.
 cover: the 9:16 cover: title (<=6 words, Title Case, can be a question), a prop, and a big red value or label; or countries (1-2) for world stories.
@@ -134,8 +145,8 @@ post.tiktok: <= 150 chars incl. 4-5 hashtags (#moneytok, #personalfinance, topic
 post.yt_desc: 2-4 sentence YouTube Shorts description with the facts and sources, "News and education, not financial advice.", then "#Shorts" + 2 hashtags.
 post.tags: 5 YouTube tags."""
 
-LONG_GUIDE = """Write a long-form YouTube video (16:9): 8-10 minutes, 1250-1550 spoken words, 75-110 lines (8+ minutes allows mid-roll ads).
-Open with a 20-40 second cold open (the most surprising fact + the promise of the video), then chapters: a line with t = chapter before each of
+LONG_GUIDE = """Write a long-form YouTube video (16:9): 8.5-10 minutes, 1550-1800 spoken words, 90-120 lines (it must run past 8:00 so mid-roll ads are allowed; the voice reads about 180 words a minute).
+Open with the attention-grabber hook line (see the hook rules), then a 20-40 second cold open (the most surprising fact + the promise of the video), then chapters: a line with t = chapter before each of
 4-6 chapters. Inside chapters use every template type that fits, with real charts and data. Close with a recap chapter and the cta line.
 cover: the YouTube thumbnail: title (<= 5 words, Title Case, ends with a period or question mark, like 'Nobody Is Talking About This.'), a prop or
 countries, and a big red value. post.title: <= 90 chars, specific and curious. post.yt_desc: 3-4 sentence summary, then the line CHAPTERS
@@ -230,7 +241,7 @@ def write_prompt(show, brief, now, topic=None):
     series_hint = ("This is an Acorn Economics episode: series 'acorn', who 'nutty' on every line, use squirrel scenes plus charts/compare/lists. "
                    if topic and "acorn" in topic.lower() else "Series 'ticker': who 'ticker' on every line. ")
     q = (f"Date: {now:%A, %B %d, %Y}. Show: {desc}\n" + (f"Topic: {topic}\n" if topic else "") + series_hint +
-         f"\nResearch brief (the ONLY facts you may use):\n{brief}\n\n{TEMPLATE_GUIDE}\n\n{LONG_GUIDE if kind == 'long' else SHORT_GUIDE}\n"
+         f"\nResearch brief (the ONLY facts you may use):\n{brief}\n\n{TEMPLATE_GUIDE}\n\n{HOOK_RULES}\n\n{LONG_GUIDE if kind == 'long' else SHORT_GUIDE}\n"
          "Each line: who, text (the caption, numerals allowed), say (the same sentence written for the voice: numbers, symbols and "
          "acronyms in words, like 'twenty-four percent' and 'A P R'), scene.")
     return q

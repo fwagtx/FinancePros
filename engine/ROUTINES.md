@@ -9,6 +9,11 @@ Metricool connector. `engine/session.py` does the rest (plan, topics, rendering,
 |---|---|---|
 | FinancePros morning run | every day 5:50 AM | the 10 AM, 12 PM and 2 PM shorts, plus the weekday 4 PM long-form |
 | FinancePros afternoon run | every day 12:40 PM | the 4 PM and 6 PM shorts (fresher news), and retries anything unfinished |
+| FinancePros buffer run | every day 8:40 PM | no news; keeps filling the evergreen buffer |
+
+Every run first makes what is due today, then keeps the **evergreen buffer** full: every non-news video for the next 60 days
+(about 2 months) is made, quality-checked and scheduled in Metricool ahead of time, so a missed run never leaves a gap.
+News slots (10 AM and 4 PM shorts, Friday long-form) are always made on their own day.
 
 Each slot is claimed in `concepts/scripts/auto/<date>.state.json` before it is made, so the two runs never make the same video.
 The GitHub Actions workflow (`daily-shows.yml`) is the API-key version of the same plan; its hourly schedule is off.

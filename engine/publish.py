@@ -22,6 +22,15 @@ BASE = {"autoPublish": True, "shortener": False, "saveExternalMediaFiles": True,
 YT_TAGS = ["personal finance", "money", "finance explained", "FinanceProsTV"]
 
 
+def _tags(*groups, limit=15):
+    """Merge tag lists without duplicates (case-insensitive), keeping order."""
+    seen, out = set(), []
+    for g in groups:
+        for t in g or []:
+            if t and t.lower() not in seen: seen.add(t.lower()); out.append(t)
+    return out[:limit]
+
+
 def _draft(): return os.environ.get("METRICOOL_DRAFT", "false").lower() == "true"
 
 
@@ -91,7 +100,7 @@ def short_posts(video, cover, post, when, tz):
     yt_title = (title if "#shorts" in title.lower() else f"{title} #Shorts")[:100]
     yt = dict(common, text=post["yt_desc"], providers=[{"network": "youtube"}],
               youtubeData={"title": yt_title, "type": "short", "privacy": "public", "madeForKids": False, "category": "EDUCATION",
-                           "tags": (post.get("tags") or [])[:10] + YT_TAGS[:2], "isAiGeneratedContent": False})
+                           "tags": _tags((post.get("tags") or [])[:10], YT_TAGS[:2]), "isAiGeneratedContent": False})
     th = dict(common, text=threads_text(post.get("threads") or post["ig"]), providers=[{"network": "threads"}], threadsData={},
               optional=True)
     if cover: ig["videoThumbnailUrl"] = cover; tt["videoThumbnailUrl"] = cover; yt["videoThumbnailUrl"] = cover
@@ -102,7 +111,7 @@ def long_post(video, thumb, post, when, tz):
     b = dict(BASE, publicationDate={"dateTime": when, "timezone": tz}, media=[video], draft=_draft(), text=post["yt_desc"][:4900],
              providers=[{"network": "youtube"}],
              youtubeData={"title": post["title"][:100], "type": "video", "privacy": "public", "madeForKids": False, "category": "EDUCATION",
-                          "tags": (post.get("tags") or [])[:12] + YT_TAGS, "isAiGeneratedContent": False})
+                          "tags": _tags((post.get("tags") or [])[:12], YT_TAGS), "isAiGeneratedContent": False})
     if thumb: b["videoThumbnailUrl"] = thumb
     return [b]
 

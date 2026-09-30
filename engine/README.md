@@ -47,6 +47,12 @@ environment variables (FinancePros-only names, so a shared environment never mix
 `R2_ACCOUNT_ID`), `FP_R2_ACCESS_KEY_ID`, `FP_R2_SECRET_ACCESS_KEY`, `FP_R2_BUCKET` (default `financepros-media`), `FP_R2_PUBLIC_URL`. Without them it falls back to the repo's `media` branch (public raw.githubusercontent.com links),
 which only works while the GitHub repo is publicly visible; if neither works, `session.py next` stops before making anything.
 
+## Buffer and quality gates
+Evergreen videos are made and scheduled up to 60 days ahead (`session.py`, BUFFER). Each one goes through: fresh research, a
+script whose first line is a 3-second attention grabber (`HOOK_RULES` in `concepts/studio.py`), narration written to be spoken,
+an independent fact-check that also judges the hook and the wording for the posting date, then a rendered-video check (length in
+range, preview frames and cover inspected) before it is scheduled.
+
 ## Who runs it
 Two scheduled Claude Code sessions (Routines) on the Claude plan, every day at 5:50 AM and 12:40 PM Central; no API keys needed.
 Claude researches, writes and fact-checks (with a separate subagent), `session.py` renders and hosts, and the posts are created
