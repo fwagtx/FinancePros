@@ -1,0 +1,1321 @@
+{
+ "id": "2026-09-30-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "THE GUIDE",
+ "cover": {
+  "title": "Build Credit From Zero.",
+  "prop": "card",
+  "label": "NO SCORE",
+  "value": "6 mo"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Seven million American adults have no credit record at all. Another 25 million have one, but no score.",
+   "say": "Seven million American adults have no credit record at all. Another twenty-five million have one, but no score.",
+   "scene": {
+    "t": "stat",
+    "label": "Adults with no credit record",
+    "value": "7M",
+    "sub": "plus 25.3M unscored (CFPB, 2020 data)",
+    "tone": "down",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No score means worse loan rates, bigger deposits, and more no's.",
+   "say": "No score means worse loan rates, bigger deposits, and more no's.",
+   "scene": {
+    "t": "hook",
+    "title": "No score, [more] no's",
+    "prop": "card",
+    "label": "DENIED",
+    "value": "???",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Today: how to go from zero to a real credit score, step by step, with the actual rules and the math.",
+   "say": "Today: how to go from zero to a real credit score, step by step, with the actual rules and the math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Zero to a real score,",
+     "step by step"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the timing is good. FICO's new report says the average score is holding at 714.",
+   "say": "And the timing is good. FICO's new report says the average score is holding at seven fourteen.",
+   "scene": {
+    "t": "news",
+    "headline": "Average U.S. FICO Score holds steady at 714",
+    "source": "FICO Credit Insights report, Aug 25, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You don't need to be average on day one. You need six months and a plan.",
+   "say": "You don't need to be average on day one. You need six months and a plan.",
+   "scene": {
+    "t": "hook",
+    "title": "Six months and a [plan]",
+    "prop": "paper",
+    "label": "PLAN",
+    "value": "6 mo"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. Why you have no score yet.",
+   "say": "Chapter one. Why you have no score yet.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Why you have no score"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A credit score is a grade calculated from your credit report. No report, nothing to grade.",
+   "say": "A credit score is a grade calculated from your credit report. No report, nothing to grade.",
+   "scene": {
+    "t": "compare",
+    "title": "Report vs score",
+    "left": {
+     "label": "Credit report",
+     "value": "record",
+     "tone": "neutral",
+     "sub": "your history"
+    },
+    "right": {
+     "label": "Credit score",
+     "value": "grade",
+     "tone": "neutral",
+     "sub": "calculated from it"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your reports are kept by three bureaus: Equifax, Experian, and TransUnion.",
+   "say": "Your reports are kept by three bureaus: Equifax, Experian, and TransUnion.",
+   "scene": {
+    "t": "list",
+    "title": "The 3 credit bureaus",
+    "items": [
+     "Equifax",
+     "Experian",
+     "TransUnion"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To get a FICO score, you need at least one account that's been open six months or more.",
+   "say": "To get a FICO score, you need at least one account that's been open six months or more.",
+   "scene": {
+    "t": "stat",
+    "label": "FICO rule 1: an account open",
+    "value": "6+ mo",
+    "sub": "myFICO minimum scoring criteria",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And at least one account reported to a bureau in the last six months.",
+   "say": "And at least one account reported to a bureau in the last six months.",
+   "scene": {
+    "t": "stat",
+    "label": "FICO rule 2: reported within",
+    "value": "6 mo",
+    "sub": "can be a different account",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "VantageScore, the other big model, can score you with about one month of history.",
+   "say": "VantageScore, the other big model, can score you with about one month of history.",
+   "scene": {
+    "t": "compare",
+    "title": "Time to a first score",
+    "left": {
+     "label": "FICO",
+     "value": "6 mo",
+     "tone": "neutral",
+     "sub": "account age"
+    },
+    "right": {
+     "label": "VantageScore",
+     "value": "~1 mo",
+     "tone": "up",
+     "sub": "of history"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the clock starts the day your first account opens. Everything in this video is about starting that clock safely.",
+   "say": "So the clock starts the day your first account opens. Everything in this video is about starting that clock safely.",
+   "scene": {
+    "t": "hook",
+    "title": "Start the [clock]",
+    "prop": "tag",
+    "label": "DAY 1",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the recipe the score uses once it exists. FICO publishes the weights.",
+   "say": "Here's the recipe the score uses once it exists. FICO publishes the weights: payment history thirty-five percent, amounts owed thirty, length of history fifteen, and new credit and mix ten each.",
+   "scene": {
+    "t": "list",
+    "title": "What a FICO score weighs",
+    "items": [
+     "Payment history 35%",
+     "Amounts owed 30%",
+     "History length 15%",
+     "New credit, mix 20%"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying on time and keeping balances low are almost two-thirds of it. Remember that. It's the whole game.",
+   "say": "Paying on time and keeping balances low are almost two-thirds of it. Remember that. It's the whole game.",
+   "scene": {
+    "t": "stat",
+    "label": "Payment history + amounts owed",
+    "value": "65%",
+    "sub": "of a FICO score",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. Step one: check your reports for free.",
+   "say": "Chapter two. Step one: check your reports for free.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Step one: check your file"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before you open anything, see what the bureaus already have on you.",
+   "say": "Before you open anything, see what the bureaus already have on you.",
+   "scene": {
+    "t": "hook",
+    "title": "See what they [have]",
+    "prop": "paper",
+    "label": "CREDIT REPORT"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can pull all three reports free, every week, at AnnualCreditReport dot com. That became permanent in 2023.",
+   "say": "You can pull all three reports free, every week, at AnnualCreditReport dot com. That became permanent in twenty twenty-three.",
+   "scene": {
+    "t": "stat",
+    "label": "Free reports, all 3 bureaus",
+    "value": "weekly",
+    "sub": "AnnualCreditReport.com (FTC, 2023)",
+    "tone": "up",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Checking your own credit is a soft inquiry. It never hurts your score.",
+   "say": "Checking your own credit is a soft inquiry. It never hurts your score.",
+   "scene": {
+    "t": "split",
+    "title": "Two kinds of checks",
+    "left": {
+     "title": "Soft",
+     "items": [
+      "You check yourself",
+      "No score effect"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Hard",
+     "items": [
+      "You apply for credit",
+      "Can dip score"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look for accounts you don't recognize. If a thin file has something odd in it, dispute it with the bureau.",
+   "say": "Look for accounts you don't recognize. If a thin file has something odd in it, dispute it with the bureau.",
+   "scene": {
+    "t": "list",
+    "title": "What to look for",
+    "items": [
+     "Accounts you don't know",
+     "Wrong addresses",
+     "Dispute errors"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If there's truly nothing there, good. You're starting clean.",
+   "say": "If there's truly nothing there, good. You're starting clean.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Empty file =",
+     "clean start"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. Step two: pick your first account.",
+   "say": "Chapter three. Step two: pick your first account.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Step two: first account"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There are four common starter tools. Let's go through each one, with the trade-offs.",
+   "say": "There are four common starter tools. Let's go through each one, with the trade-offs.",
+   "scene": {
+    "t": "list",
+    "title": "4 starter tools",
+    "items": [
+     "Secured card",
+     "Credit-builder loan",
+     "Authorized user",
+     "Student card"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool one: the secured credit card. You put down a refundable deposit, and that deposit usually becomes your limit.",
+   "say": "Tool one: the secured credit card. You put down a refundable deposit, and that deposit usually becomes your limit.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Your deposit",
+     "value": "$200"
+    },
+    "to": {
+     "label": "Your credit limit",
+     "value": "$200"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Deposits often start around 200 dollars. Some issuers take less, like 49 or 99, for a 200 dollar line.",
+   "say": "Deposits often start around two hundred dollars. Some issuers take less, like forty-nine or ninety-nine, for a two hundred dollar line.",
+   "scene": {
+    "t": "compare",
+    "title": "Typical secured card deposits",
+    "left": {
+     "label": "Common minimum",
+     "value": "$200",
+     "tone": "neutral",
+     "sub": "= $200 limit"
+    },
+    "right": {
+     "label": "Some issuers",
+     "value": "$49",
+     "tone": "up",
+     "sub": "for a $200 line"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It works like a normal card, and it gets reported like one. Check that the issuer reports to all three bureaus.",
+   "say": "It works like a normal card, and it gets reported like one. Check that the issuer reports to all three bureaus.",
+   "scene": {
+    "t": "hook",
+    "title": "Reports to [all 3]?",
+    "prop": "card",
+    "label": "SECURED",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool two: the credit-builder loan. It's a loan backwards.",
+   "say": "Tool two: the credit-builder loan. It's a loan backwards.",
+   "scene": {
+    "t": "hook",
+    "title": "A loan, [backwards]",
+    "prop": "box",
+    "label": "LOCKED",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lender locks 300 to 1,000 dollars in a savings account. You pay it off over 6 to 24 months. Then you get the money.",
+   "say": "The lender locks three hundred to one thousand dollars in a savings account. You pay it off over six to twenty-four months. Then you get the money.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Day 1",
+      "$300-$1,000 locked"
+     ],
+     [
+      "6-24 months",
+      "you make payments"
+     ],
+     [
+      "The end",
+      "you get the money"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The on-time payments get reported. It usually doesn't need a credit check. But interest and fees are a real cost.",
+   "say": "The on-time payments get reported. It usually doesn't need a credit check. But interest and fees are a real cost.",
+   "scene": {
+    "t": "split",
+    "title": "Credit-builder loan",
+    "left": {
+     "title": "Pros",
+     "items": [
+      "No credit check, often",
+      "Adds a loan to your mix"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Cons",
+     "items": [
+      "Interest and fees",
+      "Money locked up"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool three: become an authorized user on someone else's card, usually a parent or partner.",
+   "say": "Tool three: become an authorized user on someone else's card, usually a parent or partner.",
+   "scene": {
+    "t": "hook",
+    "title": "Borrow a [history]",
+    "prop": "card",
+    "label": "AUTHORIZED USER"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the issuer reports it, their history can show on your report. But if they pay late, that can show up too.",
+   "say": "If the issuer reports it, their history can show on your report. But if they pay late, that can show up too.",
+   "scene": {
+    "t": "split",
+    "title": "Authorized user",
+    "left": {
+     "title": "Upside",
+     "items": [
+      "Their age and history",
+      "No application"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Risk",
+     "items": [
+      "Their late payments",
+      "Not every issuer reports"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool four: a student card or a regular card. Under 21, the law says you need your own income or a cosigner.",
+   "say": "Tool four: a student card or a regular card. Under twenty-one, the law says you need your own income or a cosigner.",
+   "scene": {
+    "t": "stat",
+    "label": "Under 21? CARD Act requires",
+    "value": "income",
+    "sub": "or a cosigner over 21",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You don't need all four. One or two accounts, handled perfectly, is enough to start the clock.",
+   "say": "You don't need all four. One or two accounts, handled perfectly, is enough to start the clock.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1-2 accounts,",
+     "handled perfectly"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And skip applying for five cards at once. Each application is a hard inquiry.",
+   "say": "And skip applying for five cards at once. Each application is a hard inquiry. It stays on your report two years, and FICO counts it for about one.",
+   "scene": {
+    "t": "stat",
+    "label": "A hard inquiry stays on your report",
+    "value": "2 years",
+    "sub": "FICO counts it for about 1 year",
+    "tone": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. Step three: use it the right way.",
+   "say": "Chapter four. Step three: use it the right way.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Step three: use it right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the routine. Put one small bill on the card. A streaming plan, a phone bill.",
+   "say": "Here's the routine. Put one small bill on the card. A streaming plan, a phone bill.",
+   "scene": {
+    "t": "hook",
+    "title": "One [small] bill",
+    "prop": "bill",
+    "label": "$15/mo"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Turn on autopay for the full statement balance, so a busy week never becomes a late payment.",
+   "say": "Turn on autopay for the full statement balance, so a busy week never becomes a late payment.",
+   "scene": {
+    "t": "hook",
+    "title": "Autopay the [full] balance",
+    "prop": "card",
+    "label": "AUTOPAY",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why it matters: a payment is usually reported late once it's 30 days past due.",
+   "say": "Why it matters: a payment is usually reported late once it's thirty days past due.",
+   "scene": {
+    "t": "stat",
+    "label": "Usually reported late at",
+    "value": "30 days",
+    "sub": "past due",
+    "tone": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a late payment can stay on your report for up to seven years. On a brand new file, that's brutal.",
+   "say": "And a late payment can stay on your report for up to seven years. On a brand new file, that's brutal.",
+   "scene": {
+    "t": "stat",
+    "label": "A late payment can stay",
+    "value": "7 years",
+    "sub": "on your credit report",
+    "tone": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, utilization. That's your balance divided by your limit.",
+   "say": "Next, utilization. That's your balance divided by your limit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Utilization =",
+     "balance / limit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Worked example. Your limit is 200 dollars. You charge 40. 40 divided by 200 is 20 percent.",
+   "say": "Worked example. Your limit is two hundred dollars. You charge forty. Forty divided by two hundred is twenty percent.",
+   "scene": {
+    "t": "stat",
+    "label": "$40 on a $200 limit",
+    "value": "20%",
+    "sub": "40 / 200 = 0.20",
+    "tone": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now charge 180 on that same card. That's 90 percent, even though it's only 180 dollars.",
+   "say": "Now charge one hundred eighty on that same card. That's ninety percent, even though it's only one hundred eighty dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $200 limit",
+    "left": {
+     "label": "$40 balance",
+     "value": "20%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "$180 balance",
+     "value": "90%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lower is better. A common rule of thumb is staying under 30 percent.",
+   "say": "Lower is better. A common rule of thumb is staying under thirty percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $200 limit",
+    "keep": true,
+    "winner": "left",
+    "left": {
+     "label": "$40 balance",
+     "value": "20%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "$180 balance",
+     "value": "90%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Small limits make this tricky. Paying before the statement closes lowers the balance that gets reported.",
+   "say": "Small limits make this tricky. Paying before the statement closes lowers the balance that gets reported.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay before the",
+     "statement closes"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the interest trap. The law says your statement must be delivered at least 21 days before the due date.",
+   "say": "Now the interest trap. The law says your statement must be delivered at least twenty-one days before the due date.",
+   "scene": {
+    "t": "stat",
+    "label": "CARD Act: statement arrives at least",
+    "value": "21 days",
+    "sub": "before the due date",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay the full statement balance by then and, on most cards, you pay zero interest.",
+   "say": "Pay the full statement balance by then and, on most cards, you pay zero interest.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay in full = [$0] interest",
+    "prop": "coins",
+    "value": "$0",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Carry a balance, and it gets expensive. Accounts charged interest paid about 22 percent on average this spring.",
+   "say": "Carry a balance, and it gets expensive. Accounts charged interest paid about twenty-two percent on average this spring.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg rate, accounts charged interest",
+    "value": "22.15%",
+    "sub": "Federal Reserve G.19, Q2 2026",
+    "tone": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The math: 500 dollars carried at 22 percent a year. 500 times 0.22, divided by 12, is about 9 dollars and 17 cents. In one month.",
+   "say": "The math: five hundred dollars carried at twenty-two percent a year. Five hundred times zero point two two, divided by twelve, is about nine dollars and seventeen cents. In one month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$500 x 0.22 / 12",
+     "= $9.17",
+     "in one month"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And carrying a balance doesn't build credit faster. The on-time payment is what counts.",
+   "say": "And carrying a balance doesn't build credit faster. The on-time payment is what counts.",
+   "scene": {
+    "t": "split",
+    "title": "Myth vs fact",
+    "left": {
+     "title": "Myth",
+     "items": [
+      "Carry a balance",
+      "to build credit"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Fact",
+     "items": [
+      "Pay on time",
+      "Pay in full works"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. Step four: wait, and watch.",
+   "say": "Chapter five. Step four: wait, and watch.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Step four: wait and watch"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This part is boring on purpose. Here's the timeline.",
+   "say": "This part is boring on purpose. Here's the timeline.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Month 0",
+      "open the account"
+     ],
+     [
+      "Month 1",
+      "first report shows up"
+     ],
+     [
+      "Month 6",
+      "first FICO score"
+     ],
+     [
+      "Month 12",
+      "one clean year"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Around month one, the account shows up on your reports. Some scores, like VantageScore, can appear.",
+   "say": "Around month one, the account shows up on your reports. Some scores, like VantageScore, can appear.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Month 0",
+      "open the account"
+     ],
+     [
+      "Month 1",
+      "first report shows up"
+     ],
+     [
+      "Month 6",
+      "first FICO score"
+     ],
+     [
+      "Month 12",
+      "one clean year"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At month six, you meet FICO's minimum. Now you have the score most lenders use.",
+   "say": "At month six, you meet FICO's minimum. Now you have the score most lenders use.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Month 0",
+      "open the account"
+     ],
+     [
+      "Month 1",
+      "first report shows up"
+     ],
+     [
+      "Month 6",
+      "first FICO score"
+     ],
+     [
+      "Month 12",
+      "one clean year"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By month twelve, you have a full year of on-time payments. That's the foundation.",
+   "say": "By month twelve, you have a full year of on-time payments. That's the foundation.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Month 0",
+      "open the account"
+     ],
+     [
+      "Month 1",
+      "first report shows up"
+     ],
+     [
+      "Month 6",
+      "first FICO score"
+     ],
+     [
+      "Month 12",
+      "one clean year"
+     ]
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Where you land varies. Here's where the country is. The average FICO score, from FICO's own reports.",
+   "say": "Where you land varies. Here's where the country is. The average FICO score, from FICO's own reports.",
+   "scene": {
+    "t": "chart",
+    "title": "Average U.S. FICO Score",
+    "points": [
+     [
+      2005,
+      688
+     ],
+     [
+      2009,
+      686
+     ],
+     [
+      2013,
+      691
+     ],
+     [
+      2017,
+      700
+     ],
+     [
+      2020,
+      708
+     ],
+     [
+      2021,
+      716
+     ],
+     [
+      2023,
+      718
+     ],
+     [
+      2024,
+      717
+     ],
+     [
+      2025,
+      715
+     ],
+     [
+      2026,
+      714
+     ]
+    ],
+    "end": "714",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It bottomed at 686 after the financial crisis, and peaked at 718 in 2023.",
+   "say": "It bottomed at six eighty-six after the financial crisis, and peaked at seven eighteen in twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Average U.S. FICO Score",
+    "points": [
+     [
+      2005,
+      688
+     ],
+     [
+      2009,
+      686
+     ],
+     [
+      2013,
+      691
+     ],
+     [
+      2017,
+      700
+     ],
+     [
+      2020,
+      708
+     ],
+     [
+      2021,
+      716
+     ],
+     [
+      2023,
+      718
+     ],
+     [
+      2024,
+      717
+     ],
+     [
+      2025,
+      715
+     ],
+     [
+      2026,
+      714
+     ]
+    ],
+    "end": "714",
+    "color": "up",
+    "note": {
+     "x": 2023,
+     "text": "record 718"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since then it's slipped a little, partly because missed student loan payments started showing up again in 2025.",
+   "say": "Since then it's slipped a little, partly because missed student loan payments started showing up again in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Average U.S. FICO Score",
+    "points": [
+     [
+      2005,
+      688
+     ],
+     [
+      2009,
+      686
+     ],
+     [
+      2013,
+      691
+     ],
+     [
+      2017,
+      700
+     ],
+     [
+      2020,
+      708
+     ],
+     [
+      2021,
+      716
+     ],
+     [
+      2023,
+      718
+     ],
+     [
+      2024,
+      717
+     ],
+     [
+      2025,
+      715
+     ],
+     [
+      2026,
+      714
+     ]
+    ],
+    "end": "714",
+    "color": "up",
+    "mood": "think",
+    "note": {
+     "x": 2026,
+     "text": "714 now"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A new file won't hit 714 overnight. Length of history is 15 percent of the score, and only time fixes that.",
+   "say": "A new file won't hit seven fourteen overnight. Length of history is fifteen percent of the score, and only time fixes that.",
+   "scene": {
+    "t": "stat",
+    "label": "Length of history",
+    "value": "15%",
+    "sub": "only time builds it",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Watch your progress with free tools, but know the number you see may be a different model than a lender uses.",
+   "say": "Watch your progress with free tools, but know the number you see may be a different model than a lender uses.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Free score apps:",
+     "maybe a different model"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. The mistakes that reset the clock.",
+   "say": "Chapter six. The mistakes that reset the clock.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Mistakes that cost you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake one: a missed payment. On a thin file, one late payment is a huge share of your history.",
+   "say": "Mistake one: a missed payment. On a thin file, one late payment is a huge share of your history.",
+   "scene": {
+    "t": "list",
+    "title": "Mistakes",
+    "items": [
+     "Missing a payment",
+     "Maxing out the card",
+     "Closing your first card",
+     "Too many applications"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake two: maxing out the card, even if you pay it off later. The reported balance is what the score sees.",
+   "say": "Mistake two: maxing out the card, even if you pay it off later. The reported balance is what the score sees.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Mistakes",
+    "items": [
+     "Missing a payment",
+     "Maxing out the card",
+     "Closing your first card",
+     "Too many applications"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake three: closing your first card too early. It can shorten your history and cut your total limit.",
+   "say": "Mistake three: closing your first card too early. It can shorten your history and cut your total limit.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Mistakes",
+    "items": [
+     "Missing a payment",
+     "Maxing out the card",
+     "Closing your first card",
+     "Too many applications"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake four: applying everywhere at once. More inquiries, and newer accounts drag down your average age.",
+   "say": "Mistake four: applying everywhere at once. More inquiries, and newer accounts drag down your average age.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Mistakes",
+    "items": [
+     "Missing a payment",
+     "Maxing out the card",
+     "Closing your first card",
+     "Too many applications"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a bonus warning: no one can legally remove accurate, current negative info from your report. A company promising that is a red flag.",
+   "say": "And a bonus warning: no one can legally remove accurate, current negative info from your report. A company promising that is a red flag.",
+   "scene": {
+    "t": "hook",
+    "title": "\"We erase bad credit\" = [red flag]",
+    "prop": "fire",
+    "label": "SCAM",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What about rent and utility bills? They only help if they're reported to the bureaus, and not every score counts them.",
+   "say": "What about rent and utility bills? They only help if they're reported to the bureaus, and not every score counts them.",
+   "scene": {
+    "t": "split",
+    "title": "Rent and utilities",
+    "left": {
+     "title": "Can help if",
+     "items": [
+      "Reported to bureaus",
+      "Model counts them"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Often not",
+     "items": [
+      "Not reported",
+      "Older FICO models"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some services report rent for a fee. It's an option to weigh, not a must.",
+   "say": "Some services report rent for a fee. It's an option to weigh, not a must.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rent reporting:",
+     "an option,",
+     "not a must"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Once you have a year or more of clean history, unsecured cards usually become possible.",
+   "say": "Once you have a year or more of clean history, unsecured cards usually become possible.",
+   "scene": {
+    "t": "hook",
+    "title": "Then you [graduate]",
+    "prop": "card",
+    "label": "UNSECURED",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many secured cards review you for an upgrade, and you get the deposit back when the account closes or graduates in good standing.",
+   "say": "Many secured cards review you for an upgrade, and you get the deposit back when the account closes or graduates in good standing.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Secured deposit",
+     "value": "$200"
+    },
+    "to": {
+     "label": "Back to you",
+     "value": "$200"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter seven. The one-screen checklist.",
+   "say": "Chapter seven. The one-screen checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "The one-screen checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one. Pull your free reports and fix any errors.",
+   "say": "Step one. Pull your free reports and fix any errors.",
+   "scene": {
+    "t": "list",
+    "title": "Build credit from zero",
+    "items": [
+     "Check free reports",
+     "Open 1-2 accounts",
+     "Autopay, low balance",
+     "Wait 6-12 months"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two. Open one or two starter accounts: a secured card, a credit-builder loan, or authorized user.",
+   "say": "Step two. Open one or two starter accounts: a secured card, a credit-builder loan, or authorized user.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Build credit from zero",
+    "items": [
+     "Check free reports",
+     "Open 1-2 accounts",
+     "Autopay, low balance",
+     "Wait 6-12 months"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step three. One small bill, autopay in full, and keep the balance low.",
+   "say": "Step three. One small bill, autopay in full, and keep the balance low.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Build credit from zero",
+    "items": [
+     "Check free reports",
+     "Open 1-2 accounts",
+     "Autopay, low balance",
+     "Wait 6-12 months"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step four. Wait. Six months for a FICO score, twelve for a solid first year.",
+   "say": "Step four. Wait. Six months for a FICO score, twelve for a solid first year.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Build credit from zero",
+    "items": [
+     "Check free reports",
+     "Open 1-2 accounts",
+     "Autopay, low balance",
+     "Wait 6-12 months"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember the two numbers that matter most: pay on time, every time, and keep that balance small.",
+   "say": "Remember the two numbers that matter most: pay on time, every time, and keep that balance small.",
+   "scene": {
+    "t": "compare",
+    "title": "The two that matter most",
+    "left": {
+     "label": "Payment history",
+     "value": "35%",
+     "tone": "up",
+     "sub": "pay on time"
+    },
+    "right": {
+     "label": "Amounts owed",
+     "value": "30%",
+     "tone": "up",
+     "sub": "keep it low"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit isn't a talent. It's a record. And a record just takes time and a boring routine.",
+   "say": "Credit isn't a talent. It's a record. And a record just takes time and a boring routine.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Credit isn't a talent.",
+     "It's a record."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not financial advice. Follow FinancePros TV for money, explained simply.",
+   "say": "This is education, not financial advice. Follow FinancePros TV for money, explained simply.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained simply."
+   }
+  }
+ ],
+ "post": {
+  "title": "How to Build Credit From Zero, Step by Step (the real rules and the math)",
+  "ig": "No credit score? Here's the 6-month plan to build one from zero.",
+  "tiktok": "Zero credit to a real score: the rules nobody explains.",
+  "yt_desc": "About 7 million U.S. adults have no credit record and 25 million more have no score. This guide walks through building credit from zero, step by step: checking your free reports, the four starter tools (secured cards, credit-builder loans, authorized user, student cards), using a card so it helps instead of hurts, and the real timeline to a FICO score. Worked examples show utilization and interest math, plus the mistakes that set you back.\n\nCHAPTERS\n\nSources: FICO Score Credit Insights report (Aug 25, 2026); FICO average score reports (2017-2025); CFPB credit invisibles update (June 2025); CFPB credit-builder loan research (2020); myFICO scoring criteria; FTC on free weekly credit reports (Oct 2023); Credit CARD Act of 2009; Federal Reserve G.19 (Q2 2026).\n\nNews and education, not financial advice.\n\n#creditscore #personalfinance #moneytips",
+  "tags": [
+   "build credit",
+   "credit score",
+   "secured credit card",
+   "credit builder loan",
+   "how to build credit",
+   "FICO score",
+   "personal finance",
+   "credit for beginners"
+  ]
+ }
+}
