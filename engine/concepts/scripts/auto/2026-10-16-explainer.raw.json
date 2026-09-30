@@ -1,0 +1,232 @@
+{
+ "series": "ticker",
+ "header": "Your medical bills\nhave a legal cap",
+ "cover": {
+  "title": "Your Medical Bills Have a Cap",
+  "prop": "bill",
+  "value": "$12,000"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Most health plans legally can't make you pay over $12,000.",
+   "say": "Most health plans legally can't make you pay over twelve grand.",
+   "scene": {
+    "t": "hook",
+    "title": "Your bills have a legal [cap]",
+    "prop": "bill",
+    "label": "medical bill",
+    "value": "$12,000",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2027, that cap is $12,000 for one person's covered in-network care, up from $10,600 in 2026.",
+   "say": "In twenty twenty-seven, that cap is twelve thousand dollars for one person's covered in-network care, up from ten thousand six hundred in twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "2027 legal out-of-pocket cap, one person",
+    "value": "$12,000",
+    "tone": "down",
+    "sub": "HHS/CMS limit, in-network care, most plans ($10,600 in 2026)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back in 2014, it was $6,350.",
+   "say": "Back in twenty fourteen, it was six thousand three hundred fifty dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "Legal out-of-pocket cap, one person",
+    "points": [
+     [
+      2014,
+      6350
+     ],
+     [
+      2015,
+      6600
+     ],
+     [
+      2016,
+      6850
+     ],
+     [
+      2017,
+      7150
+     ],
+     [
+      2018,
+      7350
+     ],
+     [
+      2019,
+      7900
+     ],
+     [
+      2020,
+      8150
+     ],
+     [
+      2021,
+      8550
+     ],
+     [
+      2022,
+      8700
+     ],
+     [
+      2023,
+      9100
+     ],
+     [
+      2024,
+      9450
+     ],
+     [
+      2025,
+      9200
+     ],
+     [
+      2026,
+      10600
+     ],
+     [
+      2027,
+      12000
+     ]
+    ],
+    "prefix": "$",
+    "end": "$12,000",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The cap works with two other numbers. The premium is what you pay every month just to have the plan.",
+   "say": "The cap works with two other numbers. The premium is what you pay every month just to have the plan.",
+   "scene": {
+    "t": "list",
+    "title": "Your plan's 3 numbers",
+    "items": [
+     "Premium",
+     "Deductible",
+     "Out-of-pocket max"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The deductible is what you pay for care before the plan starts to help.",
+   "say": "The deductible is what you pay for care before the plan starts to help.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Your plan's 3 numbers",
+    "items": [
+     "Premium",
+     "Deductible",
+     "Out-of-pocket max"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The out-of-pocket max is the ceiling. After it, covered in-network care is paid 100%.",
+   "say": "And the out-of-pocket max is the ceiling. After that, covered in-network care is paid in full.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Your plan's 3 numbers",
+    "items": [
+     "Premium",
+     "Deductible",
+     "Out-of-pocket max"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take a $30,000 bill. A $2,000 deductible plus 20% of the rest is $7,600.",
+   "say": "Take a thirty thousand dollar bill. A two thousand dollar deductible plus twenty percent of the rest is seven thousand six hundred.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$30,000 bill",
+     "$2,000 + 20% of $28,000",
+     "= $7,600"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But with a $6,000 max, you stop paying at $6,000.",
+   "say": "But with a six thousand dollar max, you stop paying at six thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "$30,000 bill, $6,000 max",
+    "left": {
+     "label": "Without a cap",
+     "value": "$7,600",
+     "tone": "down"
+    },
+    "right": {
+     "label": "With the cap",
+     "value": "$6,000",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch? Premiums never count toward the cap. Most out-of-network care doesn't either.",
+   "say": "The catch? Premiums never count toward the cap, and most out-of-network care doesn't either.",
+   "scene": {
+    "t": "hook",
+    "title": "Premiums [don't] count",
+    "prop": "card",
+    "label": "premiums",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So for covered in-network care, your worst case is a year of premiums plus the out-of-pocket max.",
+   "say": "So for covered in-network care, your worst case is a year of premiums, plus the out-of-pocket max.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "In-network worst case =",
+     "12 months of premiums",
+     "+ out-of-pocket max"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Most health plans can't make you pay over $12,000",
+  "ig": "Most health plans legally can't make you pay over $12,000.\nThat's the 2027 out-of-pocket cap for one person's covered in-network care, up from $10,600 in 2026 and $6,350 in 2014.\nPremium: what you pay every month to have the plan. Deductible: what you pay before the plan starts to help. Out-of-pocket max: the ceiling.\nPremiums never count toward the cap, and most out-of-network care doesn't either.\nSources: HealthCare.gov, HHS/CMS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#healthinsurance #deductible #openenrollment #personalfinance #financeprostv",
+  "tiktok": "Most health plans have a legal $12,000 cap in 2027. Premiums don't count. Not financial advice. #moneytok #personalfinance #financeprostv",
+  "yt_desc": "Premium, deductible and out-of-pocket max explained. The legal out-of-pocket cap for one person's covered in-network care is $12,000 in 2027, up from $10,600 in 2026 (HHS/CMS), and premiums never count toward it (HealthCare.gov). News and education, not financial advice.\n#Shorts #healthinsurance #personalfinance",
+  "tags": [
+   "deductible vs out of pocket max",
+   "health insurance explained",
+   "premium vs deductible",
+   "out of pocket maximum 2027",
+   "open enrollment"
+  ]
+ }
+}
