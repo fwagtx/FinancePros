@@ -1,0 +1,185 @@
+{
+ "id": "2026-10-13-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Florists Price\nValentine's Roses",
+ "cover": {
+  "title": "Why Roses Cost About $93",
+  "prop": "tag",
+  "label": "12 roses",
+  "value": "~$93"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Why did a dozen Valentine's roses cost about $93?",
+   "say": "Why did a dozen Valentine's roses cost about ninety-three dollars?",
+   "scene": {
+    "t": "hook",
+    "title": "The [$93] dozen roses",
+    "prop": "tag",
+    "label": "12 roses",
+    "value": "~$93",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2026 national average for a dozen long-stem red roses: $93.07.",
+   "say": "That was the twenty twenty-six national average for a dozen long-stem red roses: ninety-three dollars and seven cents.",
+   "scene": {
+    "t": "chart",
+    "title": "Dozen red roses, Valentine's avg",
+    "points": [
+     [
+      2023,
+      80.16
+     ],
+     [
+      2024,
+      88.61
+     ],
+     [
+      2025,
+      90.5
+     ],
+     [
+      2026,
+      93.07
+     ]
+    ],
+    "prefix": "$",
+    "end": "$93.07",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up 16% since 2023. The price comes down to one multiplier.",
+   "say": "That's up sixteen percent since twenty twenty-three. The price comes down to one multiplier.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2026,
+     "text": "+16% since 2023"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Florists often price fresh flowers at 3.5 times wholesale, plus vase and labor.",
+   "say": "Florists often price fresh flowers at three and a half times wholesale, plus vase and labor.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Flowers x 3.5",
+     "+ vase x 2.5",
+     "+ 25% labor"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: 12 stems at $1 wholesale = $12. Times 3.5 = $42.",
+   "say": "For example, twelve stems at one dollar is twelve dollars. Times three and a half, that's forty-two.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example: 12 stems at $1",
+     "value": "$12"
+    },
+    "to": {
+     "label": "x 3.5 at the counter",
+     "value": "$42"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now say Valentine's demand pushes wholesale to $2 a stem. Same math: $84.",
+   "say": "Now say Valentine's demand pushes wholesale to two dollars a stem. Same math, eighty-four dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Same dozen, same formula",
+    "left": {
+     "label": "Normal week",
+     "value": "$42",
+     "tone": "neutral",
+     "sub": "$1/stem example"
+    },
+    "right": {
+     "label": "Valentine's week",
+     "value": "$84",
+     "tone": "down",
+     "sub": "$2/stem example"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In our example, a $1 bump at wholesale adds $42 in flowers alone.",
+   "say": "In our example, a one-dollar bump at wholesale adds forty-two dollars in flowers alone.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: extra flower cost per dozen",
+    "value": "+$42",
+    "tone": "down",
+    "sub": "Example: 12 x $1 x 3.5",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Growers plan for it too: Colombia expected about 20% of its 2026 flower exports from Valentine's season.",
+   "say": "Growers plan for it too. Colombia expected about twenty percent of its twenty twenty-six flower exports from Valentine's season.",
+   "scene": {
+    "t": "stat",
+    "label": "Colombia: Valentine's share of 2026 exports",
+    "value": "20%",
+    "tone": "up",
+    "sub": "$480M of $2.4B, Asocolflores",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So Valentine's roses aren't priced by romance. They're priced by a multiplier on one very busy week.",
+   "say": "So Valentine's roses aren't priced by romance. They're priced by a multiplier on one very busy week.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Wholesale spike",
+     "x 3.5 markup",
+     "= a $90+ dozen"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why a dozen Valentine's roses cost about $93",
+  "ig": "Why did a dozen Valentine's roses cost about $93?\nThe national average for a dozen long-stem red roses was $93.07 for Valentine's Day 2026, up from $80.16 in 2023 (FinanceBuzz).\nA common florist rule of thumb: fresh flowers at 3.5x wholesale, hard goods 2.5x, plus 25% labor (Florists' Review).\nExample: 12 stems at $1 = $12, x 3.5 = $42. At $2 a stem, the same math gives $84.\nColombia's growers expected about 20% of 2026 flower exports ($480M of $2.4B) from Valentine's season (Asocolflores).\nSources: FinanceBuzz, CBS News, Florists' Review, Asocolflores via El Colombiano.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#valentinesday #roses #florist #howtheymakemoney #financeprostv",
+  "tiktok": "Why Valentine's roses cost about $93 a dozen: one multiplier. Not financial advice. #moneytok #personalfinance #valentinesday #florist #financeprostv",
+  "yt_desc": "A dozen long-stem red roses averaged $93.07 for Valentine's Day 2026, up from $80.16 in 2023 (FinanceBuzz). Many florists price fresh flowers at about 3.5 times wholesale (Florists' Review), so a $1 wholesale rise per stem adds $42 to a dozen in our example, and Colombia's growers expected about 20% of 2026 flower exports from Valentine's season (Asocolflores). News and education, not financial advice. #Shorts #valentinesday #florist",
+  "tags": [
+   "how florists price flowers",
+   "valentines day roses price",
+   "florist markup",
+   "why roses are expensive",
+   "how they make money"
+  ]
+ }
+}
