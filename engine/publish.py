@@ -3,7 +3,7 @@
 Shorts (9:16)  -> four posts at the same time:
    1. Instagram Reel + Facebook Reel (shared caption, custom 9:16 cover)
    2. TikTok (short caption + hashtags, cover)
-   3. YouTube Short (title with #Shorts, description, tags)
+   3. YouTube Short (title with #Shorts, description, tags, cover)
    4. Threads (the Instagram caption trimmed to Threads' 500 characters, one topic tag). Optional: a Threads failure
       (for example the account is not connected) is recorded but does not count as a failed slot.
 Long-form (16:9) -> one YouTube video (title, description with chapters, tags, custom thumbnail).
@@ -92,7 +92,7 @@ def short_posts(video, cover, post, when, tz):
                            "tags": (post.get("tags") or [])[:10] + YT_TAGS[:2], "isAiGeneratedContent": False})
     th = dict(common, text=threads_text(post.get("threads") or post["ig"]), providers=[{"network": "threads"}], threadsData={},
               optional=True)
-    if cover: ig["videoThumbnailUrl"] = cover; tt["videoThumbnailUrl"] = cover
+    if cover: ig["videoThumbnailUrl"] = cover; tt["videoThumbnailUrl"] = cover; yt["videoThumbnailUrl"] = cover
     return [ig, tt, yt, th]
 
 
