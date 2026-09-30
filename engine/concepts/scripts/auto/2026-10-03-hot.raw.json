@@ -2,42 +2,42 @@
  "series": "ticker",
  "header": "Money Myth:\nBig Money to Invest?",
  "cover": {
-  "title": "Invest With Just $1?",
+  "title": "4 in 10 Own Zero Stock",
   "prop": "bill",
   "label": "$1",
-  "value": "$1"
+  "value": "42%"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "Myth: you need thousands to start investing. Try $1.",
-   "say": "Myth: you need thousands to start investing. Try one dollar.",
+   "text": "4 in 10 Americans own zero stock. Yet $1 buys a slice.",
+   "say": "Four in ten Americans own zero stock. Yet one dollar buys a slice.",
    "scene": {
     "t": "hook",
-    "title": "Invest with just [$1]",
+    "title": "4 in 10 own [zero] stock",
     "prop": "bill",
     "label": "$1",
-    "value": "$1",
+    "value": "42%",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "Yet in 2025, 38% of Americans owned no stock at all.",
-   "say": "Yet in twenty twenty-five, thirty-eight percent of Americans owned no stock at all.",
+   "text": "Gallup's 2026 count: 42% of US adults owned no stock at all.",
+   "say": "That's Gallup's twenty twenty-six count: forty-two percent of US adults owned no stock at all.",
    "scene": {
     "t": "stat",
-    "label": "Americans with no stock",
-    "value": "38%",
+    "label": "US adults with no stock",
+    "value": "42%",
     "tone": "down",
-    "sub": "Gallup, 2025",
+    "sub": "Gallup, April 2026",
     "mood": "worried"
    }
   },
   {
    "who": "ticker",
-   "text": "Ownership rose from 52% in 2016 to 62% in 2025. Still, the myth sticks.",
-   "say": "Ownership has climbed, from fifty-two percent in twenty sixteen to sixty-two percent in twenty twenty-five, but the myth sticks.",
+   "text": "Ownership rose from 52% in 2016 to 62% in 2025, then dipped to 58% in 2026.",
+   "say": "Ownership rose from fifty-two percent in twenty sixteen to sixty-two percent in twenty twenty-five, then dipped to fifty-eight percent in twenty twenty-six.",
    "scene": {
     "t": "chart",
     "title": "% of US adults who own stock",
@@ -81,11 +81,15 @@
      [
       2025,
       62
+     ],
+     [
+      2026,
+      58
      ]
     ],
     "suffix": "%",
-    "end": "62%",
-    "color": "up",
+    "end": "58%",
+    "color": "down",
     "mood": "think"
    }
   },
@@ -105,8 +109,8 @@
   },
   {
    "who": "ticker",
-   "text": "Fidelity's minimum is $1. Schwab's is $5 per S&P 500 stock.",
-   "say": "At Fidelity, a slice starts at one dollar, and at Schwab it's five dollars per S and P five hundred stock.",
+   "text": "Fidelity's minimum is $1. At Schwab, it's $5 for any S&P 500 stock.",
+   "say": "At Fidelity, a slice starts at one dollar, and at Schwab, five dollars for any S and P five hundred stock.",
    "scene": {
     "t": "compare",
     "title": "Minimum per slice",
@@ -155,8 +159,8 @@
   },
   {
    "who": "ticker",
-   "text": "$5 a week is $260 a year. The habit matters more than the amount.",
-   "say": "Five dollars a week adds up to two hundred sixty dollars a year, so the habit matters more than the starting amount.",
+   "text": "$5 a week adds up to $260 a year.",
+   "say": "And five dollars a week adds up to two hundred sixty dollars a year.",
    "scene": {
     "t": "money",
     "from": {
@@ -180,10 +184,10 @@
   }
  ],
  "post": {
-  "title": "You don't need thousands to invest. Try $1.",
-  "ig": "Myth: you need thousands to start investing.\nFidelity's fractional shares start at $1; Schwab Stock Slices start at $5 per S&P 500 stock.\nTreasuryDirect sells I bonds from $25 and T-bills from $100.\nYet 38% of Americans owned no stock in 2025 (Gallup).\nSources: Fidelity, Schwab, TreasuryDirect, Gallup.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#investing #fractionalshares #moneymyths #personalfinance #financeprostv",
-  "tiktok": "Myth: you need thousands to invest. Slices start at $1. Not financial advice. #moneytok #personalfinance #investing #fractionalshares #financeprostv",
-  "yt_desc": "Myth: you need thousands to start investing. Fractional shares start at $1 at Fidelity and $5 per S&P 500 stock at Schwab, and TreasuryDirect sells I bonds from $25, yet 38% of Americans owned no stock in 2025 (Gallup). Sources: Fidelity, Schwab, TreasuryDirect, Gallup. News and education, not financial advice. #Shorts #investing #personalfinance",
+  "title": "4 in 10 Americans own zero stock. $1 buys a slice.",
+  "ig": "4 in 10 Americans own zero stock. Yet $1 buys a slice.\nGallup, April 2026: 58% of US adults own stock, down from 62% in 2025, so 42% own none.\nFidelity's fractional shares start at $1; Schwab Stock Slices start at $5 per S&P 500 stock.\nTreasuryDirect sells I bonds from $25 and T-bills from $100.\nSources: Gallup, Fidelity, Schwab, TreasuryDirect.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#investing #fractionalshares #moneymyths #personalfinance #financeprostv",
+  "tiktok": "4 in 10 Americans own zero stock. $1 buys a slice. Not financial advice. #moneytok #personalfinance #investing #fractionalshares #financeprostv",
+  "yt_desc": "In April 2026, Gallup found 58% of US adults own stock, down from 62% in 2025, so 42% own none. Yet fractional shares start at $1 at Fidelity and $5 per S&P 500 stock at Schwab, and TreasuryDirect sells I bonds from $25. Sources: Gallup, Fidelity, Schwab, TreasuryDirect. News and education, not financial advice. #Shorts #investing #personalfinance",
   "tags": [
    "fractional shares",
    "investing for beginners",
