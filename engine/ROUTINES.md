@@ -1,7 +1,9 @@
 # FinancePros TV routines (Claude Code on the web)
 
-The daily shows are made by two scheduled Routines that wake the "FinancePros production" Claude Code session on claude.ai
-(it has the Metricool connector and the FinancePros R2 settings) and run on the account's Claude plan.
+The daily shows are made by three scheduled Routines that wake the "FinancePros production (FinancePros env)" Claude Code
+session on claude.ai (session_01QJH6pbfNsE2AWFP9wtRSzV). It runs in the **FinancePros** environment
+(env_018hwWpp6Zm61ReQQrj7rf93), which holds the FP_R2_* settings, and it has the Metricool connector. Never run FinancePros
+work in the usecodebad or History Pros environments.
 They need no API keys: Claude does the research, writing and fact-checking itself and schedules the posts through the
 Metricool connector. `engine/session.py` does the rest (plan, topics, rendering, hosting on Cloudflare R2, state).
 
