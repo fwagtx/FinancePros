@@ -1,188 +1,188 @@
 {
-  "series": "ticker",
-  "header": "Why Is Coffee\nSo Expensive?",
-  "cover": {
-    "title": "Why Is Coffee So Expensive?",
+ "series": "ticker",
+ "header": "Why Is Coffee\nSo Expensive?",
+ "cover": {
+  "title": "Why Is Coffee So Expensive?",
+  "prop": "bag",
+  "label": "per pound",
+  "value": "+47%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Coffee costs nearly 50% more than two years ago. Here's why.",
+   "say": "Coffee costs nearly fifty percent more than two years ago. Here's why.",
+   "scene": {
+    "t": "hook",
+    "title": "Coffee: [+47%] in two years",
     "prop": "bag",
-    "label": "1 lb ground coffee",
-    "value": "$9.30"
+    "label": "per pound",
+    "value": "+47%",
+    "mood": "shock"
+   }
   },
-  "lines": [
-    {
-      "who": "ticker",
-      "text": "Grocery coffee averages $9.30 a pound. So why?",
-      "say": "Grocery coffee averages nine dollars thirty a pound. So why?",
-      "scene": {
-        "t": "hook",
-        "title": "Coffee: [$9.30] a pound",
-        "prop": "bag",
-        "label": "US avg, Aug 2026",
-        "value": "$9.30",
-        "mood": "shock"
-      }
+  {
+   "who": "ticker",
+   "text": "Ground coffee averaged $6.31 a pound in August 2024 and $9.30 in August 2026.",
+   "say": "Ground coffee averaged six thirty-one a pound in August twenty twenty-four, and nine-thirty by August twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Ground coffee, per pound",
+    "left": {
+     "label": "Aug 2024",
+     "value": "$6.31",
+     "tone": "neutral",
+     "sub": "BLS average"
     },
-    {
-      "who": "ticker",
-      "text": "In August 2024 that same pound cost $6.31, so it's up about 47% in two years.",
-      "say": "In August twenty twenty-four, that same pound cost six thirty-one, so it's up about forty-seven percent in two years.",
-      "scene": {
-        "t": "compare",
-        "title": "Ground coffee, per pound",
-        "left": {
-          "label": "Aug 2024",
-          "value": "$6.31",
-          "tone": "neutral",
-          "sub": "BLS average"
-        },
-        "right": {
-          "label": "Aug 2026",
-          "value": "$9.30",
-          "tone": "up",
-          "sub": "about +47%"
-        },
-        "mood": "worried"
-      }
+    "right": {
+     "label": "Aug 2026",
+     "value": "$9.30",
+     "tone": "up",
+     "sub": "about +47%"
     },
-    {
-      "who": "ticker",
-      "text": "First clue: more than 99% of the coffee Americans drink is imported.",
-      "say": "First clue: more than ninety-nine percent of the coffee Americans drink is imported.",
-      "scene": {
-        "t": "stat",
-        "label": "Share of US coffee that's imported",
-        "value": ">99%",
-        "tone": "neutral",
-        "sub": "Hawaii + Puerto Rico grow under 1%",
-        "mood": "think"
-      }
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First clue: more than 99% of the coffee Americans drink is imported.",
+   "say": "First clue: more than ninety-nine percent of the coffee Americans drink is imported.",
+   "scene": {
+    "t": "stat",
+    "label": "Share of US coffee that's imported",
+    "value": ">99%",
+    "tone": "neutral",
+    "sub": "US farms grow under 1%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brazil grows about 35% of the world's coffee, and drought shrank its arabica crop. Arabica futures topped $4 a pound in 2025.",
+   "say": "Brazil grows about thirty-five percent of the world's coffee, and drought shrank its arabica crop. Arabica futures topped four dollars a pound in twenty twenty-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Brazil: ~35% of world crop",
+     "drought = smaller harvest",
+     "arabica futures >$4, 2025"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then in August 2025, a 50% US tariff hit Brazilian coffee. It was lifted that November.",
+   "say": "Then in August twenty twenty-five, a fifty percent US tariff hit Brazilian coffee. It was lifted that November.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Jul 2025",
+      "what": "Tariff announced"
+     },
+     {
+      "when": "Aug 2025",
+      "what": "50% tariff on Brazil"
+     },
+     {
+      "when": "Nov 2025",
+      "what": "Coffee tariff lifted"
+     }
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But shelf prices still hit a record $9.72 a pound in April 2026.",
+   "say": "But shelf prices still hit a record nine seventy-two a pound in April twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Record avg price, ground coffee",
+    "value": "$9.72/lb",
+    "tone": "up",
+    "sub": "April 2026, BLS (since 1980)",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why so slow? Roasters lock in beans months ahead, so shelf prices trail the bean market.",
+   "say": "Why so slow? Roasters lock in beans months ahead, so shelf prices trail the bean market.",
+   "scene": {
+    "t": "split",
+    "title": "Beans vs. the shelf",
+    "left": {
+     "title": "Bean prices",
+     "items": [
+      "Peaked in 2025",
+      "Now well below"
+     ],
+     "tone": "down"
     },
-    {
-      "who": "ticker",
-      "text": "Brazil grows about 35% of the world's coffee, and drought shrank its crop. Wholesale beans topped $4 a pound in 2025.",
-      "say": "Brazil grows about thirty-five percent of the world's coffee, and drought shrank its crop. Wholesale beans topped four dollars a pound in twenty twenty-five.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "Brazil: ~35% of world crop",
-          "drought = smaller harvest",
-          "wholesale beans >$4/lb '25"
-        ],
-        "mood": "worried"
-      }
+    "right": {
+     "title": "Shelf prices",
+     "items": [
+      "Record: Apr 2026",
+      "Still near highs"
+     ],
+     "tone": "up"
     },
-    {
-      "who": "ticker",
-      "text": "Then in August 2025, a 50% US tariff hit Brazilian coffee. It was lifted that November.",
-      "say": "Then in August twenty twenty-five, a fifty percent US tariff hit Brazilian coffee. It was lifted that November.",
-      "scene": {
-        "t": "timeline",
-        "events": [
-          {
-            "when": "Jul 2025",
-            "what": "Tariff announced"
-          },
-          {
-            "when": "Aug 2025",
-            "what": "50% tariff on Brazil"
-          },
-          {
-            "when": "Nov 2025",
-            "what": "Coffee tariff lifted"
-          }
-        ],
-        "reveal": 3,
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "But shelf prices still hit a record $9.72 a pound in April 2026.",
-      "say": "But shelf prices still hit a record nine seventy-two a pound in April twenty twenty-six.",
-      "scene": {
-        "t": "stat",
-        "label": "Record avg price, ground coffee",
-        "value": "$9.72/lb",
-        "tone": "up",
-        "sub": "April 2026, BLS (since 1980)",
-        "mood": "shock"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Why so slow? Roasters lock in beans months ahead, so shelf prices trail the bean market.",
-      "say": "Why so slow? Roasters lock in beans months ahead, so shelf prices trail the bean market.",
-      "scene": {
-        "t": "split",
-        "title": "Beans vs. the shelf",
-        "left": {
-          "title": "Bean prices",
-          "items": [
-            "Peaked in 2025",
-            "Then fell"
-          ],
-          "tone": "down"
-        },
-        "right": {
-          "title": "Shelf prices",
-          "items": [
-            "Record: Apr 2026",
-            "Still near highs"
-          ],
-          "tone": "up"
-        },
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "At the August 2026 average, a 12-ounce bag comes to about $6.97.",
-      "say": "At the August average, a twelve-ounce bag comes to about six ninety-seven.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "12 oz = 0.75 lb",
-          "0.75 x $9.299 = $6.97"
-        ],
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "The takeaway: coffee's price gets set by weather, trade and timing, far from the store.",
-      "say": "The takeaway: coffee's price gets set by weather, trade and timing, far from the store.",
-      "scene": {
-        "t": "list",
-        "title": "Why coffee costs more",
-        "items": [
-          "Almost all imported",
-          "Brazil drought",
-          "2025 tariff",
-          "Roaster time lag"
-        ],
-        "reveal": 4,
-        "mood": "happy"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "That's the money. Follow for more.",
-      "say": "That's the money. Follow for more.",
-      "scene": {
-        "t": "cta"
-      }
-    }
-  ],
-  "post": {
-    "title": "Why Grocery Coffee Costs $9.30 a Pound",
-    "ig": "Grocery coffee averages $9.30 a pound. Here's why.\nGround coffee averaged $9.30/lb in August 2026, up from $6.31 in August 2024 (about +47%).\nMore than 99% of US coffee is imported, and Brazil grows about 35% of the world's supply.\nDrought, a 2025 tariff on Brazilian coffee (lifted in November 2025) and roasters buying months ahead all feed the shelf price. The record: $9.72/lb in April 2026.\nSources: BLS average price data, USDA, National Coffee Association.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#coffee #groceryprices #inflation #personalfinance #financeprostv",
-    "tiktok": "Why grocery coffee averages $9.30 a pound. Not financial advice. #moneytok #personalfinance #coffee #inflation #financeprostv",
-    "yt_desc": "Ground coffee averaged $9.30 a pound in August 2026, up about 47% from $6.31 in August 2024 (BLS), after a record $9.72 in April 2026. More than 99% of US coffee is imported, Brazil grows about 35% of the world's supply, and drought, a 2025 tariff and roaster time lags all push the shelf price. Sources: BLS, USDA, National Coffee Association. News and education, not financial advice. #Shorts #coffee #inflation",
-    "tags": [
-      "coffee prices",
-      "why is coffee so expensive",
-      "grocery prices",
-      "inflation",
-      "personal finance"
-    ]
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the August 2026 average, a 12-ounce bag comes to about $6.98.",
+   "say": "At the August average, a twelve-ounce bag comes to about six ninety-eight.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "12 oz = 0.75 lb",
+     "0.75 x $9.30 ≈ $6.98"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The takeaway: coffee's price gets set by weather, trade and timing, far from the store.",
+   "say": "The takeaway: coffee's price gets set by weather, trade and timing, far from the store.",
+   "scene": {
+    "t": "list",
+    "title": "Why coffee costs more",
+    "items": [
+     "Almost all imported",
+     "Brazil drought",
+     "2025 tariff",
+     "Roaster time lag"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
   }
+ ],
+ "post": {
+  "title": "Why Coffee Costs Nearly 50% More Than in 2024",
+  "ig": "Coffee costs nearly 50% more than two years ago. Here's why.\nGround coffee averaged $9.30/lb in August 2026, up from $6.31 in August 2024 (about +47%).\nMore than 99% of US coffee is imported, and Brazil grows about 35% of the world's supply.\nDrought, a 2025 tariff on Brazilian coffee (lifted in November 2025) and roasters buying months ahead all feed the shelf price. The record: $9.72/lb in April 2026.\nSources: BLS average price data, USDA, National Coffee Association.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#coffee #groceryprices #inflation #personalfinance #financeprostv",
+  "tiktok": "Coffee costs nearly 50% more than in 2024. Here's why. Not financial advice. #moneytok #personalfinance #coffee #inflation #financeprostv",
+  "yt_desc": "Ground coffee averaged $9.30 a pound in August 2026, up about 47% from $6.31 in August 2024 (BLS), after a record $9.72 in April 2026. More than 99% of US coffee is imported, Brazil grows about 35% of the world's supply, and drought, a 2025 tariff and roaster time lags all push the shelf price. Sources: BLS, USDA, National Coffee Association. News and education, not financial advice. #Shorts #coffee #inflation",
+  "tags": [
+   "coffee prices",
+   "why is coffee so expensive",
+   "grocery prices",
+   "inflation",
+   "personal finance"
+  ]
+ }
 }
