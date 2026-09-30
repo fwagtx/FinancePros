@@ -28,7 +28,9 @@ def _draft(): return os.environ.get("METRICOOL_DRAFT", "false").lower() == "true
 def wait_public(url, tries=30):
     for _ in range(tries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=20) as r:
+            # r2.dev rejects Python's default User-Agent, so identify like a normal client
+            req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0 (FinancePros uploader)"})
+            with urllib.request.urlopen(req, timeout=20) as r:
                 if r.status == 200: return True
         except Exception:
             pass
