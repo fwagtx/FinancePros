@@ -1,0 +1,200 @@
+{
+ "id": "2026-10-31-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why parlays pay big\nand win rarely",
+ "cover": {
+  "title": "Should Pay 15. Pays 12.",
+  "prop": "tag",
+  "label": "4-LEG PARLAY",
+  "value": "-17%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your four-leg parlay should pay 15 to 1. It pays about 12.",
+   "say": "Your four-leg parlay should pay fifteen to one. It pays about twelve.",
+   "scene": {
+    "t": "hook",
+    "title": "Should pay 15. Pays [12].",
+    "prop": "tag",
+    "label": "4-leg parlay",
+    "value": "12 to 1",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That gap is the sportsbook's edge. Every leg must win, and payouts multiply.",
+   "say": "That gap is the sportsbook's edge. Every leg must win, and payouts multiply.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Parlay = 2+ bets, 1 ticket",
+     "ALL legs must win",
+     "Payouts multiply"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$10 on four 50/50 bets at -110 returns $132.83 if all win. Fair odds pay $160.",
+   "say": "Ten dollars on four fifty-fifty bets at minus one ten returns about a hundred thirty-three. Fair odds pay a hundred sixty.",
+   "scene": {
+    "t": "compare",
+    "title": "$10 on four 50/50 bets at -110",
+    "left": {
+     "label": "Book pays",
+     "value": "$132.83",
+     "tone": "down",
+     "sub": "13.28x your bet"
+    },
+    "right": {
+     "label": "Fair payout",
+     "value": "$160",
+     "tone": "up",
+     "sub": "16x for 1-in-16 odds"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On average, each $10 ticket gets back about $8.30.",
+   "say": "On average, each ten-dollar ticket gets back about eight dollars and thirty cents.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Each ticket",
+     "value": "$10"
+    },
+    "to": {
+     "label": "Average return",
+     "value": "$8.30"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One bet like that costs about 4.5% on average. But the cut compounds.",
+   "say": "One bet like that costs about four and a half percent. But the cut compounds.",
+   "scene": {
+    "t": "list",
+    "title": "Average cut by number of legs",
+    "items": [
+     "1 leg: 4.5%",
+     "2 legs: 8.9%",
+     "4 legs: 17%",
+     "6 legs: 24.4%"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four legs cost about 17%. Six legs, about 24%.",
+   "say": "Four legs cost about seventeen percent. Six legs, about twenty-four.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Average cut by number of legs",
+    "items": [
+     "1 leg: 4.5%",
+     "2 legs: 8.9%",
+     "4 legs: 17%",
+     "6 legs: 24.4%"
+    ],
+    "reveal": 4,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Colorado, books kept 15.51% of parlay money, versus 6.46% of everything else.",
+   "say": "In Colorado, books kept about fifteen and a half percent of parlay money, versus six and a half on everything else.",
+   "scene": {
+    "t": "compare",
+    "title": "Colorado: share of bets kept",
+    "left": {
+     "label": "Parlays",
+     "value": "15.51%",
+     "tone": "down",
+     "sub": "Jul 2025 - Jul 2026"
+    },
+    "right": {
+     "label": "Other bets",
+     "value": "6.46%",
+     "tone": "neutral",
+     "sub": "Colorado Division of Gaming"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nationwide, books kept 7.5% in 2021 and 10.2% in 2025, while parlays grew.",
+   "say": "Nationwide, books kept seven and a half percent in twenty twenty-one, and about ten percent in twenty twenty-five, while parlays grew.",
+   "scene": {
+    "t": "chart",
+    "title": "US sportsbook hold (AGA)",
+    "points": [
+     [
+      2021,
+      7.5
+     ],
+     [
+      2022,
+      8.0
+     ],
+     [
+      2023,
+      9.1
+     ],
+     [
+      2024,
+      9.2
+     ],
+     [
+      2025,
+      10.2
+     ]
+    ],
+    "suffix": "%",
+    "end": "10.2%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The takeaway: more legs, bigger cut.",
+   "say": "The takeaway is simple: more legs, bigger cut.",
+   "scene": {
+    "t": "hook",
+    "title": "More legs, [bigger] cut.",
+    "prop": "coins",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your 4-leg parlay should pay 15 to 1. It pays 12.",
+  "ig": "Your four-leg parlay should pay 15 to 1. It pays about 12.\n$10 on four 50/50 legs at -110 returns $132.83 when it wins. Fair odds would return $160.\nOn average that ticket gets back about $8.30: a 17% cut, versus about 4.5% on a single bet.\nIn Colorado (July 2025 to July 2026), sportsbooks kept 15.51% of parlay money vs 6.46% of other bets.\nSources: American Gaming Association, Colorado Division of Gaming.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#parlays #sportsbetting #moneymath #personalfinance #financeprostv",
+  "tiktok": "Your 4-leg parlay should pay 15 to 1. It pays about 12. Not financial advice. #moneytok #personalfinance #parlays #sportsbetting #financeprostv",
+  "yt_desc": "A four-leg parlay of 50/50 bets at -110 wins 1 time in 16 but pays about 13.28x, not the fair 16x, so the average cut is about 17% versus 4.5% on a single bet. In Colorado from July 2025 to July 2026, sportsbooks kept 15.51% of parlay money versus 6.46% of other bets (Colorado Division of Gaming); national hold rose from 7.5% in 2021 to 10.2% in 2025 (American Gaming Association). News and education, not financial advice. #Shorts #parlays #sportsbetting",
+  "tags": [
+   "parlay odds explained",
+   "how parlays work",
+   "sports betting math",
+   "house edge",
+   "sportsbook hold"
+  ]
+ }
+}
