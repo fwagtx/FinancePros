@@ -1,0 +1,192 @@
+{
+ "series": "ticker",
+ "header": "Tax refund or owe?\nWithholding explained",
+ "cover": {
+  "title": "Your Refund Isn't a Gift",
+  "prop": "bill",
+  "label": "REFUND",
+  "value": "$3,275"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your tax refund isn't a gift. It's your own money.",
+   "say": "Your tax refund isn't a gift. It's your own money.",
+   "scene": {
+    "t": "hook",
+    "title": "Refund = [your] money",
+    "prop": "bill",
+    "label": "REFUND",
+    "value": "NOT FREE",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Refund or bill, it comes down to one word: withholding.",
+   "say": "Refund or bill, it comes down to one word: withholding.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "WITHHOLDING",
+     "refund or bill?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each paycheck, tax goes to the IRS early, based on your W-4.",
+   "say": "Each paycheck, tax goes to the IRS early, based on your W-4.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paycheck -> tax sent early",
+     "to the IRS",
+     "amount set by your W-4"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say your tax bill is $9,000 but $12,000 was withheld. $3,000 comes back.",
+   "say": "Say your tax bill is nine thousand dollars, but twelve thousand got withheld. Three thousand comes back.",
+   "scene": {
+    "t": "compare",
+    "title": "Tax bill: $9,000",
+    "left": {
+     "label": "Withheld",
+     "value": "$12,000",
+     "tone": "neutral",
+     "sub": "paid in early"
+    },
+    "right": {
+     "label": "Refund",
+     "value": "$3,000",
+     "tone": "up",
+     "sub": "$12,000 - $9,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Only $8,000 withheld? Then you owe the other $1,000.",
+   "say": "Only eight thousand withheld? Then you owe the other one thousand.",
+   "scene": {
+    "t": "stat",
+    "label": "You owe",
+    "value": "$1,000",
+    "tone": "down",
+    "sub": "$9,000 - $8,000",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By mid-April 2026, the average refund was $3,275.",
+   "say": "By mid-April twenty twenty-six, the average refund was three thousand two hundred seventy-five dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg refund by mid-April",
+    "points": [
+     [
+      2023,
+      2753
+     ],
+     [
+      2024,
+      2850
+     ],
+     [
+      2025,
+      2942
+     ],
+     [
+      2026,
+      3275
+     ]
+    ],
+    "prefix": "$",
+    "end": "$3,275",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? The IRS left 2025 withholding tables unchanged after new tax breaks. Many workers overpaid.",
+   "say": "Why? The IRS left twenty twenty-five withholding tables unchanged after new tax breaks. Many workers overpaid.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "overpaid in 2025"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $273 a month, lent to the IRS interest-free.",
+   "say": "That's about two hundred seventy-three dollars a month, lent to the IRS interest-free.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Avg refund",
+     "value": "$3,275"
+    },
+    "to": {
+     "label": "Per month",
+     "value": "~$273"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Owing isn't a failure. But owe $1,000+ and a penalty can apply: 7% a year for Oct-Dec 2026.",
+   "say": "Owing isn't a failure. But owe a thousand dollars or more, and a penalty can apply: seven percent a year for October through December twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "IRS underpayment rate",
+    "value": "7%/yr",
+    "tone": "down",
+    "sub": "Oct-Dec 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A refund means you overpaid. Owing means you underpaid. Withholding decides which.",
+   "say": "A refund means you overpaid, owing means you underpaid, and withholding decides which.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Refund = overpaid",
+     "Owe = underpaid",
+     "Withholding decides"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your tax refund isn't a gift: what withholding really does",
+  "ig": "Your tax refund isn't a gift. It's your own money coming back.\n\nWithholding sends tax to the IRS from every paycheck. Paid too much? Refund. Too little? You owe.\nThe average refund by mid-April 2026 was $3,275, up from $2,942 in 2025 (IRS).\nThat's about $273 a month, lent to the IRS interest-free.\nIRS underpayment rate for Oct-Dec 2026: 7% a year.\n\nSources: IRS filing season statistics, IRS newsroom, CNBC (Apr 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#taxes #taxrefund #withholding #personalfinance #financeprostv",
+  "tiktok": "Your tax refund isn't a gift. Here's what withholding really does. Not financial advice. #moneytok #personalfinance #taxes #taxrefund #financeprostv",
+  "yt_desc": "A tax refund is your own overpaid tax coming back; owing means too little was withheld. The average refund by mid-April 2026 was $3,275, up from $2,942 in 2025, per IRS filing season statistics, partly because 2025 withholding tables were not updated for new tax breaks. The IRS underpayment rate for Oct-Dec 2026 is 7% a year. News and education, not financial advice. #Shorts #taxes #personalfinance",
+  "tags": [
+   "tax refund",
+   "tax withholding",
+   "W-4 explained",
+   "owe taxes",
+   "average tax refund 2026"
+  ]
+ }
+}

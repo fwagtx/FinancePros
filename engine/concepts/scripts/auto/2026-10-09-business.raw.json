@@ -1,0 +1,225 @@
+{
+ "series": "ticker",
+ "header": "How comedy clubs\nreally make money",
+ "cover": {
+  "title": "They Sell Drinks, Not Jokes",
+  "prop": "tag",
+  "label": "2 items",
+  "value": "x2"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Comedy clubs aren't really selling jokes. They're selling drinks.",
+   "say": "Comedy clubs aren't really selling jokes. They're selling drinks.",
+   "scene": {
+    "t": "hook",
+    "title": "They sell [drinks], not jokes",
+    "prop": "tag",
+    "label": "2 items",
+    "value": "x2",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that two-drink minimum is how many of them stay open.",
+   "say": "And that two-drink minimum is how a lot of them stay open.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2-item minimum",
+     "per person",
+     "= the club's business"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Laugh Factory says it helps pay the comics and keep tickets cheap.",
+   "say": "The Laugh Factory says it helps pay the comics and keep tickets cheap.",
+   "scene": {
+    "t": "list",
+    "title": "Where the money goes",
+    "items": [
+     "Ticket: pays comics",
+     "Drinks: pay the bills"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At Helium, ordering nothing still costs $10, or $5 per item.",
+   "say": "At Helium, ordering nothing still costs you ten dollars, five per item.",
+   "scene": {
+    "t": "stat",
+    "label": "Helium fee if no order",
+    "value": "$10",
+    "tone": "down",
+    "sub": "Helium Comedy FAQ",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: 200 seats at $20 is $4,000. If comics get 70%, the club keeps $1,200.",
+   "say": "Picture an example club: two hundred seats at twenty dollars is four thousand. If comics get seventy percent, the club keeps twelve hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Example club, 200 seats",
+    "left": {
+     "label": "Tickets",
+     "value": "$1,200",
+     "tone": "down",
+     "sub": "kept after comics"
+    },
+    "right": {
+     "label": "Drinks",
+     "value": "$3,200",
+     "tone": "up",
+     "sub": "kept after pour"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two $10 drinks each is another $4,000. At a 20% pour cost, the club keeps $3,200.",
+   "say": "Now two ten-dollar drinks each is another four thousand. Drinks cost bars about twenty percent, so the club keeps thirty-two hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Example club, 200 seats",
+    "left": {
+     "label": "Tickets",
+     "value": "$1,200",
+     "tone": "down",
+     "sub": "kept after comics"
+    },
+    "right": {
+     "label": "Drinks",
+     "value": "$3,200",
+     "tone": "up",
+     "sub": "kept after pour"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And we do drink out. The average US household spent $643 on alcohol in 2024.",
+   "say": "And we do drink out. The average US household spent six hundred forty-three dollars on alcohol in twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg US household alcohol spend",
+    "points": [
+     [
+      2019,
+      579
+     ],
+     [
+      2020,
+      478
+     ],
+     [
+      2021,
+      554
+     ],
+     [
+      2022,
+      583
+     ],
+     [
+      2023,
+      637
+     ],
+     [
+      2024,
+      643
+     ]
+    ],
+    "prefix": "$",
+    "end": "$643",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2023, $343 of it was away from home.",
+   "say": "In twenty twenty-three, three hundred forty-three dollars of that was away from home.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg US household alcohol spend",
+    "points": [
+     [
+      2019,
+      579
+     ],
+     [
+      2020,
+      478
+     ],
+     [
+      2021,
+      554
+     ],
+     [
+      2022,
+      583
+     ],
+     [
+      2023,
+      637
+     ],
+     [
+      2024,
+      643
+     ]
+    ],
+    "prefix": "$",
+    "end": "$643",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2023,
+     "text": "$343 away from home"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the ticket pays the comedian. The drinks pay the club.",
+   "say": "So the ticket pays the comedian, and the drinks pay the club.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Ticket = the comedian",
+     "Drinks = the club"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How comedy clubs really make money: the drink minimum",
+  "ig": "Comedy clubs aren't really selling jokes. They're selling drinks.\n\nMany clubs require two food or drink items per person; the Laugh Factory says it helps pay comics and keep tickets cheap.\nHelium charges $10 ($5 per item) if you order nothing.\nExample club, 200 seats: the club keeps $1,200 from tickets but $3,200 from drinks (at a 20% pour cost).\nUS households spent $643 on alcohol in 2024 (BLS).\n\nSources: Laugh Factory and Helium FAQs, BLS Consumer Expenditure Survey, bar trade benchmarks.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#comedy #standup #business #howtheymakemoney #financeprostv",
+  "tiktok": "Comedy clubs aren't really selling jokes. The drink minimum pays the club. Not financial advice. #moneytok #personalfinance #comedy #financeprostv",
+  "yt_desc": "Many comedy clubs require two food or drink items per person, and clubs like the Laugh Factory say it helps pay the comics and keep tickets cheap. In an example 200-seat club, the club keeps $1,200 from tickets but $3,200 from drinks; US households spent $643 on alcohol in 2024 (BLS Consumer Expenditure Survey). News and education, not financial advice. #Shorts #comedy #business",
+  "tags": [
+   "comedy club",
+   "two drink minimum",
+   "how they make money",
+   "stand up comedy",
+   "business model"
+  ]
+ }
+}

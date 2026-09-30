@@ -1,0 +1,203 @@
+{
+ "series": "ticker",
+ "header": "Why are mattresses\nalways on sale?",
+ "cover": {
+  "title": "Always On Sale, Never Cheap?",
+  "prop": "mattress",
+  "label": "SALE",
+  "value": "47.1¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Why is a mattress always on sale, but never cheap?",
+   "say": "Why is a mattress always on sale, but never cheap?",
+   "scene": {
+    "t": "hook",
+    "title": "Always on sale, never [cheap]",
+    "prop": "mattress",
+    "label": "SALE",
+    "value": "why?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The answer's in one mattress maker's annual report, and it's not the foam.",
+   "say": "The answer's in one mattress maker's annual report, and it's not the foam.",
+   "scene": {
+    "t": "hook",
+    "title": "Follow the [money]",
+    "prop": "paper",
+    "label": "10-K 2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, making Sleep Number's beds cost 41.0¢ per sales dollar.",
+   "say": "In twenty twenty-five, making Sleep Number's beds cost about forty-one cents per sales dollar.",
+   "scene": {
+    "t": "stat",
+    "label": "Cost of sales per $1, 2025",
+    "value": "41.0¢",
+    "tone": "neutral",
+    "sub": "Sleep Number 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a 59.0% gross margin, between 57% and 62% since 2020.",
+   "say": "That's a gross margin of about fifty-nine percent, between fifty-seven and sixty-two since twenty twenty.",
+   "scene": {
+    "t": "chart",
+    "title": "Sleep Number gross margin",
+    "points": [
+     [
+      2020,
+      62.3
+     ],
+     [
+      2021,
+      60.4
+     ],
+     [
+      2022,
+      56.9
+     ],
+     [
+      2023,
+      57.7
+     ],
+     [
+      2024,
+      59.6
+     ],
+     [
+      2025,
+      59.0
+     ]
+    ],
+    "suffix": "%",
+    "end": "59.0%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But selling it cost more: 47.1¢ per dollar on stores, salespeople and ads.",
+   "say": "But selling it cost more, about forty-seven cents per dollar on stores, salespeople and ads.",
+   "scene": {
+    "t": "compare",
+    "title": "Per $1 of sales, 2025",
+    "left": {
+     "label": "Making it",
+     "value": "41.0¢",
+     "tone": "neutral",
+     "sub": "cost of sales"
+    },
+    "right": {
+     "label": "Selling it",
+     "value": "47.1¢",
+     "tone": "down",
+     "sub": "sales & marketing"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $2,000 bed, that's $820 to make it and $942 to sell it.",
+   "say": "On a two-thousand-dollar bed, that's eight twenty to make it and nine forty-two to sell it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$2,000 x 41.0% = $820 make",
+     "$2,000 x 47.1% = $942 sell",
+     "left over: $238"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After overhead, it posted a $47 million operating loss in 2025.",
+   "say": "After overhead, it posted a forty-seven million dollar operating loss in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Operating loss, 2025",
+    "value": "-$47M",
+    "tone": "down",
+    "sub": "Sleep Number 10-K",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the crossed-out price? FTC guides say a 'was' price must be real.",
+   "say": "And the crossed-out price? F T C guides say a was price has to be real.",
+   "scene": {
+    "t": "quote",
+    "text": "openly and actively offered for sale, for a reasonably substantial period of time",
+    "source": "FTC pricing guides, 16 CFR 233.1"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, Mattress Firm settled a California suit over allegedly fake discounts, at $40 per online order.",
+   "say": "In twenty twenty-five, Mattress Firm settled a California suit over allegedly fake discounts, at forty dollars per online order.",
+   "scene": {
+    "t": "news",
+    "headline": "Mattress Firm settles suit over alleged fake discounts",
+    "source": "Hampton v. Mattress Firm, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the price mostly pays for the selling, not the sleeping.",
+   "say": "So the price mostly pays for the selling, not the sleeping.",
+   "scene": {
+    "t": "split",
+    "title": "What the tag pays for",
+    "left": {
+     "title": "Making",
+     "items": [
+      "the bed"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Selling",
+     "items": [
+      "stores",
+      "ads",
+      "salespeople"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why mattresses are always on sale but never cheap",
+  "ig": "Why is a mattress always on sale, but never cheap?\n\nIn 2025, Sleep Number's cost of sales was 41.0 cents of every sales dollar (a 59.0% gross margin).\nSelling it cost more: sales and marketing took 47.1 cents per dollar, and the company posted a $47 million operating loss.\nFTC pricing guides say a 'was' price must be one the item was really offered at. In 2025, Mattress Firm settled a California suit over allegedly fake discounts at $40 per online order.\n\nSources: Sleep Number 2025 Form 10-K, FTC Guides Against Deceptive Pricing (16 CFR 233), Hampton v. Mattress Firm settlement.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#mattress #pricing #moneymyths #personalfinance #financeprostv",
+  "tiktok": "Why is a mattress always on sale but never cheap? The 10-K explains. Not financial advice. #moneytok #personalfinance #mattress #pricing #financeprostv",
+  "yt_desc": "In 2025, Sleep Number's cost of sales was 41.0 cents per sales dollar, but sales and marketing took 47.1 cents, and it posted a $47 million operating loss (Sleep Number 2025 10-K). FTC pricing guides say a 'was' price must be real, and in 2025 Mattress Firm settled a California suit over allegedly fake discounts. News and education, not financial advice.\n\n#Shorts #mattress #pricing",
+  "tags": [
+   "mattress prices",
+   "why is it so expensive",
+   "fake discounts",
+   "gross margin",
+   "personal finance"
+  ]
+ }
+}

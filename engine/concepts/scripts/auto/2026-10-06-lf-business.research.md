@@ -30,9 +30,9 @@ Sources: AGA press releases 2021 ($53B, "breaks 2019's previous industry record 
 - Nevada Regulation 14.040: every gaming device must theoretically pay out at least 75% of amounts wagered. (Nevada Gaming Commission Regulation 14)
 
 ## Slot hold
-- UNLV Center for Gaming Research: statewide Nevada slot hold averaged 7.1% in 2025 vs 6.55% in 2004; hold up 26% over the past 10 years; Las Vegas Strip highest average hold, 7.5%; Reno lowest 5.21%. NGCB said any tightening is within legal limits.
+- UNLV Center for Gaming Research: statewide Nevada slot hold was 7.15% in 2025 (fact-check) vs 6.55% in 2004; hold up 26% over the past 10 years; Las Vegas Strip highest average hold, 7.5%; Reno lowest 5.21%. NGCB said any tightening is within legal limits.
 - Exact quote (UNLV report, via Las Vegas Review-Journal): "Hold percentage — the portion of money gambled that the casino retains — has a huge impact on casino revenues"
-- WORKED EXAMPLE (churn): $100 bankroll, $1 per spin, 1,000 spins = $1,000 wagered (re-betting winnings). At Nevada's 2025 statewide average hold of 7.1%, average loss = $1,000 x 0.071 = $71; you walk out with $29 on average. The edge applies to every dollar wagered, not the dollars you walked in with.
+- WORKED EXAMPLE (churn): $100 bankroll, $1 per spin, 1,000 spins = $1,000 wagered (re-betting winnings). At 7.15% hold, average loss = $1,000 x 0.0715 = $71.50; you walk out with $28.50 on average (if all 1,000 spins are played). The edge applies to every dollar wagered, not the dollars you walked in with.
 - NOTE: sources conflict on whether 6.55% is the 2004 hold or the 2004-2025 average, and on the Strip figure (7.5% vs 7.57%); the script uses only the 2025 statewide 7.1% and "tighter over the past decade".
 
 ## Company numbers: MGM Resorts International, FY2025 Form 10-K (filed Feb 11, 2026)
@@ -80,3 +80,4 @@ SOURCES:
 - Wizard of Odds house edge tables; BJ21 (6:5 blackjack)
 - LVCVA 2025 visitor statistics (via Las Vegas Review-Journal, Jan 2026)
 - History.com / Mob Museum (1931); NGCB About Us (1955); Edward O. Thorp, Beat the Dealer (1962)
+- Fact-check correction: Nevada statewide slot win Aug 2026 = $865.7M (+6.1%), ~68% of total win (RJ/8newsnow via NGCB).
