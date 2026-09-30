@@ -41,9 +41,11 @@ fresh topics run out (spring 2028 for shorts), its oldest topics re-run at least
 Re-plan after editing the banks: `python concepts/plan_calendar.py`.
 
 ## Video hosting
-Rendered videos go to the `media` branch and Metricool fetches them from public raw.githubusercontent.com links (it keeps its
-own copy once the post is scheduled). This only works while the GitHub repo is publicly visible. If it is not (private repo,
-or an account flagged by GitHub), `session.py next` stops before making anything.
+Rendered videos are uploaded to the Cloudflare R2 bucket `financepros-media` (public r2.dev URL; a lifecycle rule deletes files
+after 7 days) and Metricool fetches them from there, keeping its own copy once the post is scheduled. It needs these
+environment variables in the Claude Code environment: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`,
+`R2_BUCKET`, `R2_PUBLIC_URL`. Without them it falls back to the repo's `media` branch (public raw.githubusercontent.com links),
+which only works while the GitHub repo is publicly visible; if neither works, `session.py next` stops before making anything.
 
 ## Who runs it
 Two scheduled Claude Code sessions (Routines) on the Claude plan, every day at 5:50 AM and 12:40 PM Central; no API keys needed.

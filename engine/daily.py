@@ -122,8 +122,32 @@ def script_for(show, slot_id, tries):
     return None, None
 
 
+R2 = ("R2_ACCOUNT_ID", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY", "R2_BUCKET", "R2_PUBLIC_URL")
+
+
+def r2_ready(): return all(os.environ.get(k) for k in R2)
+
+
+def host_r2(files, date):
+    """Upload files to the Cloudflare R2 bucket and return their public URLs. The bucket's lifecycle rule deletes them
+    after 7 days; Metricool keeps its own copy once a post is scheduled."""
+    import boto3, mimetypes
+    s3 = boto3.client("s3", endpoint_url=f"https://{os.environ['R2_ACCOUNT_ID']}.r2.cloudflarestorage.com",
+                      aws_access_key_id=os.environ["R2_ACCESS_KEY_ID"], aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"],
+                      region_name="auto")
+    urls = []
+    for f in files:
+        key = f"{date}/{os.path.basename(f)}"
+        s3.upload_file(f, os.environ["R2_BUCKET"], key,
+                       ExtraArgs={"ContentType": mimetypes.guess_type(f)[0] or "application/octet-stream"})
+        urls.append(f"{os.environ['R2_PUBLIC_URL'].rstrip('/')}/{key}")
+    return urls
+
+
 def host(files, date):
-    """Commit files to the media branch and return their raw URLs. Old days are dropped so the repo never grows without limit."""
+    """Host files publicly and return their URLs: Cloudflare R2 when configured, otherwise the repo's media branch
+    (commit, raw URLs, old days dropped so the repo never grows without limit)."""
+    if r2_ready(): return host_r2(files, date)
     wt = os.path.join(ROOT, ".media")
     if not os.path.exists(wt):
         if sh("git", "-C", ROOT, "fetch", "--depth", "1", "origin", f"{MEDIA}:{MEDIA}", check=False).returncode == 0:

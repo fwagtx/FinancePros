@@ -106,8 +106,10 @@ def pick(content, now, attempt):
 
 
 def hosting_ok():
-    """Metricool fetches each video from a public raw.githubusercontent.com link, so the repo must be publicly visible."""
+    """Videos are hosted on Cloudflare R2 when its env vars are set; otherwise Metricool fetches them from public
+    raw.githubusercontent.com links, which only works while the repo is publicly visible."""
     import publish
+    if daily.r2_ready(): return True
     return publish.wait_public(f"https://raw.githubusercontent.com/{daily.REPO}/{daily.MEDIA}/README.md", 2)
 
 
@@ -115,7 +117,7 @@ def nxt(until):
     pull(); now = dt.datetime.now(TZ); date = now.strftime("%Y-%m-%d"); st = load_state(date)
     if not hosting_ok():
         print("DONE: video hosting is down: the GitHub repo is not publicly visible, so Metricool cannot fetch videos. "
-              "Nothing was made; tell the user (see README: Video hosting)."); return
+              "Nothing was made; tell the user (see README: Video hosting; Cloudflare R2 env vars fix it)."); return
     if now.date() < daily.FIRST_DAY:
         print(f"DONE: hand-made episodes cover {date}; the automatic plan starts {daily.FIRST_DAY}."); return
     missed = [s for s, w in slots(now.date()) if now > w + daily.GRACE and st.get(s, {}).get("status") not in ("scheduled", "posted", "skipped", "missed", "failed")]
