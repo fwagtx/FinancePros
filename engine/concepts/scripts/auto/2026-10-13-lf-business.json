@@ -1,0 +1,1511 @@
+{
+ "id": "2026-10-13-lf-business",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "HOW THEY MAKE MONEY",
+ "cover": {
+  "title": "It's Not the Store.",
+  "prop": "box",
+  "label": "AWS 2025",
+  "value": "57%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Amazon's most profitable business isn't the store you shop at.",
+   "say": "Amazon's most profitable business isn't the store you shop at.",
+   "scene": {
+    "t": "hook",
+    "title": "It's [not] the store",
+    "prop": "box",
+    "label": "AWS 2025",
+    "value": "57%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, one division made 57% of Amazon's operating profit on just 18% of its sales.",
+   "say": "In twenty twenty-five, one division made fifty-seven percent of Amazon's operating profit on just eighteen percent of its sales.",
+   "scene": {
+    "t": "compare",
+    "title": "AWS share of Amazon, 2025",
+    "left": {
+     "label": "Sales",
+     "value": "18%",
+     "tone": "neutral",
+     "sub": "$128.7B of $716.9B"
+    },
+    "right": {
+     "label": "Op. profit",
+     "value": "57%",
+     "tone": "up",
+     "sub": "$45.6B of $80.0B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That division rents out computers. It's called Amazon Web Services, or AWS.",
+   "say": "That division doesn't sell you anything with a box. It rents out computers, and it's called Amazon Web Services, or A W S.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "AWS share of Amazon, 2025",
+    "left": {
+     "label": "Sales",
+     "value": "18%",
+     "tone": "neutral",
+     "sub": "$128.7B of $716.9B"
+    },
+    "right": {
+     "label": "Op. profit",
+     "value": "57%",
+     "tone": "up",
+     "sub": "$45.6B of $80.0B"
+    },
+    "winner": "right",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The famous store sold far more, but kept only a sliver of each dollar.",
+   "say": "The famous store sold far more, but it kept only a sliver of each dollar.",
+   "scene": {
+    "t": "stat",
+    "label": "Amazon total net sales, 2025",
+    "value": "$716.9B",
+    "tone": "up",
+    "sub": "Amazon 10-K, fiscal year 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in the April-June quarter of 2026, the cloud's share of profit climbed to about 60%.",
+   "say": "And in the April to June quarter of twenty twenty-six, the cloud's share of profit climbed to about sixty percent.",
+   "scene": {
+    "t": "stat",
+    "label": "AWS share of op. income, Q2 2026",
+    "value": "60%",
+    "tone": "up",
+    "sub": "$16.6B of $27.5B (Amazon)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how does a company known for cheap packages really make its money?",
+   "say": "So how does a company famous for cheap packages actually make its money?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Famous for packages.",
+     "Paid by... something else?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the map: the store, the toll booths, the cloud, and a very expensive bet.",
+   "say": "Here's the map. The store, the toll booths, the cloud, and one very expensive bet.",
+   "scene": {
+    "t": "list",
+    "title": "The map",
+    "items": [
+     "The store",
+     "Ads and Prime",
+     "The cloud",
+     "The big bet"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: From books to everything.",
+   "say": "Chapter one. From books to everything.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "From books to everything"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Jeff Bezos founded Amazon in July 1994, and it opened as an online bookstore in July 1995.",
+   "say": "Jeff Bezos founded Amazon in July nineteen ninety-four, and it opened as an online bookstore in July nineteen ninety-five.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1995",
+      "Online bookstore opens"
+     ],
+     [
+      "1997",
+      "IPO at $18 a share"
+     ],
+     [
+      "2005",
+      "Prime launches at $79"
+     ],
+     [
+      "2006",
+      "AWS launches"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In May 1997, it went public at $18 a share.",
+   "say": "In May nineteen ninety-seven, it went public at eighteen dollars a share.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "1995",
+      "Online bookstore opens"
+     ],
+     [
+      "1997",
+      "IPO at $18 a share"
+     ],
+     [
+      "2005",
+      "Prime launches at $79"
+     ],
+     [
+      "2006",
+      "AWS launches"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For years, the plan was simple: sell everything, cheaply, and worry about profit later.",
+   "say": "For years, the plan sounded simple. Sell everything, sell it cheaply, and worry about profit later.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "AMAZON",
+    "label": "Books first",
+    "caption": "Sell everything, cheaply"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, in 2005, came Prime: free two-day shipping for $79 a year.",
+   "say": "Then, in two thousand five, came Prime. Free two-day shipping for seventy-nine dollars a year.",
+   "scene": {
+    "t": "hook",
+    "title": "Then, in 2005, came Prime: free two-day shipping",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in March 2006, Amazon started renting its computer infrastructure to other companies.",
+   "say": "And in March two thousand six, Amazon started renting its computer infrastructure to other companies.",
+   "scene": {
+    "t": "hook",
+    "title": "And in March 2006, Amazon started renting its co",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It began with S3, a service for storing files, and computing power followed later that year.",
+   "say": "It began with S three, a service for storing files, and rented computing power followed later that year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2006: AWS opens",
+     "Rent storage",
+     "Rent computers"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sounds boring. It turned into the most important money machine in the company.",
+   "say": "It sounds boring. It turned into the most important money machine in the whole company.",
+   "scene": {
+    "t": "hook",
+    "title": "The [boring] giant",
+    "prop": "box",
+    "label": "AWS",
+    "value": "$45.6B",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Today, Amazon reports three segments: North America, International, and AWS.",
+   "say": "Today, Amazon reports its results in three segments: North America, International, and A W S.",
+   "scene": {
+    "t": "list",
+    "title": "Amazon's 3 segments",
+    "items": [
+     "North America",
+     "International",
+     "AWS"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The first two hold the stores, the seller fees, the ads and Prime. Let's call them the store side.",
+   "say": "The first two hold the stores, the seller fees, the ads and Prime. Let's just call them the store side.",
+   "scene": {
+    "t": "split",
+    "title": "Two sides of Amazon",
+    "left": {
+     "title": "Store side",
+     "items": [
+      "Stores",
+      "Seller fees",
+      "Ads, Prime"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Cloud",
+     "items": [
+      "AWS",
+      "Rented computers"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: The store.",
+   "say": "Chapter two. The store.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The store"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Amazon breaks its 2025 sales into groups. The biggest is its own online store, at $269.3 billion.",
+   "say": "Amazon breaks its twenty twenty-five sales into groups. The biggest is its own online store, at two hundred sixty-nine point three billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Online stores sales, 2025",
+    "value": "$269.3B",
+    "tone": "neutral",
+    "sub": "Amazon 10-K, fiscal 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's when Amazon buys the product itself and sells it to you.",
+   "say": "That's when Amazon buys the product itself, and then sells it to you.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Amazon buys",
+     "value": "product"
+    },
+    "to": {
+     "label": "sells to you",
+     "value": "price"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second is money from other sellers: $172.2 billion in third-party seller services.",
+   "say": "Second is money from other sellers: one hundred seventy-two point two billion dollars in third-party seller services.",
+   "scene": {
+    "t": "stat",
+    "label": "Third-party seller services, 2025",
+    "value": "$172.2B",
+    "tone": "up",
+    "sub": "commissions, fulfillment, shipping fees"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the commissions, storage, packing and shipping fees Amazon charges outside businesses.",
+   "say": "That's the commissions, plus the storage, packing and shipping fees, that Amazon charges outside businesses.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Seller pays Amazon:",
+     "commission + fulfillment",
+     "+ shipping fees"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And those outside sellers are most of what you buy: 61% of paid units in April-June 2026.",
+   "say": "And those outside sellers are most of what you buy. They made up sixty-one percent of paid units in the April to June quarter of twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "3rd-party share of units, Q2 2026",
+    "value": "61%",
+    "tone": "up",
+    "sub": "Amazon quarterly disclosure"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a simple example. Say a seller lists a $20 item in a category with a 15% referral fee.",
+   "say": "Here's a simple example. Say a seller lists a twenty dollar item in a category with a fifteen percent referral fee.",
+   "scene": {
+    "t": "hook",
+    "title": "Example: a [$20] item",
+    "prop": "tag",
+    "label": "$20",
+    "value": "15%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Amazon keeps $3 of that sale before any shipping or storage fees, without owning the item at all.",
+   "say": "Amazon keeps three dollars of that sale before any shipping or storage fees, and it never owned the item at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$20 x 15% = $3.00",
+     "to Amazon",
+     "(before other fees)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add physical stores, like Whole Foods, at $22.6 billion, and the store side is enormous.",
+   "say": "Add physical stores, like Whole Foods, at twenty-two point six billion dollars, and the store side is enormous.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "WHOLE FOODS",
+    "label": "$22.6B",
+    "caption": "Physical stores, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, North America and International sold $588.2 billion together.",
+   "say": "In twenty twenty-five, North America and International sold five hundred eighty-eight point two billion dollars together.",
+   "scene": {
+    "t": "stat",
+    "label": "Store side sales, 2025",
+    "value": "$588.2B",
+    "tone": "up",
+    "sub": "North America + International"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But they turned that into just $34.4 billion of operating profit.",
+   "say": "But they turned all that into just thirty-four point four billion dollars of operating profit.",
+   "scene": {
+    "t": "stat",
+    "label": "Store side op. income, 2025",
+    "value": "$34.4B",
+    "tone": "down",
+    "sub": "$29.6B NA + $4.7B Intl.",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Warehouses, trucks, workers and returns eat most of every dollar before it becomes profit.",
+   "say": "Warehouses, trucks, workers and returns eat most of every dollar before it ever becomes profit.",
+   "scene": {
+    "t": "list",
+    "title": "Where store money goes",
+    "items": [
+     "Warehouses",
+     "Trucks and planes",
+     "Workers",
+     "Returns"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Do the math: $34.4 billion divided by $588.2 billion is about 6%.",
+   "say": "Do the math. Thirty-four point four billion divided by five hundred eighty-eight point two billion is about six percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$34.4B / $588.2B",
+     "= 5.8%",
+     "about $6 per $100"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So for every $100 the store side sold, it kept about $6 as operating profit.",
+   "say": "So for every hundred dollars the store side sold, it kept about six dollars as operating profit.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Store sales",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Op. profit",
+     "value": "about $6"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that $6 already includes ads and Prime, which sit inside the store side. Let's look at those toll booths.",
+   "say": "And that six dollars already includes ads and Prime, which sit inside the store side. So let's look at those toll booths.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Inside the $6:",
+     "ads + Prime"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: The toll booths.",
+   "say": "Chapter three. The toll booths.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The toll booths"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When you search on Amazon, the first results are often ads. Sellers pay to be there.",
+   "say": "When you search on Amazon, the first results you see are often ads. Sellers pay to be there.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Search: 'phone case'",
+     "Result 1: Sponsored",
+     "Seller paid for this"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Amazon's ad revenue was $68.6 billion in 2025, up 22%.",
+   "say": "Amazon's ad revenue was sixty-eight point six billion dollars in twenty twenty-five, up twenty-two percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Amazon ad revenue ($B)",
+    "points": [
+     [
+      2021,
+      31.16
+     ],
+     [
+      2022,
+      37.74
+     ],
+     [
+      2023,
+      46.91
+     ],
+     [
+      2024,
+      56.21
+     ],
+     [
+      2025,
+      68.64
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$68.6B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It more than doubled from $31.2 billion in 2021.",
+   "say": "That's more than double the thirty-one point two billion dollars it made in twenty twenty-one.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Amazon ad revenue ($B)",
+    "points": [
+     [
+      2021,
+      31.16
+     ],
+     [
+      2022,
+      37.74
+     ],
+     [
+      2023,
+      46.91
+     ],
+     [
+      2024,
+      56.21
+     ],
+     [
+      2025,
+      68.64
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$68.6B",
+    "color": "up",
+    "note": {
+     "x": 2021,
+     "text": "$31.2B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it kept speeding up. In the April-June quarter of 2026, ads brought in $19.8 billion, up 26%.",
+   "say": "And it kept speeding up. In the April to June quarter of twenty twenty-six, ads brought in nineteen point eight billion dollars, up twenty-six percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Amazon Q2 2026 ad revenue: $19.8 billion, up 26%",
+    "source": "Amazon Q2 2026 results, July 30, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why is this clever? The shelf space is digital. An ad slot costs almost nothing extra to show.",
+   "say": "Why is this so clever? The shelf space is digital, and one more ad slot costs almost nothing extra to show.",
+   "scene": {
+    "t": "split",
+    "title": "Selling a product vs. an ad",
+    "left": {
+     "title": "Product",
+     "items": [
+      "Buy inventory",
+      "Store, pack, ship"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Ad slot",
+     "items": [
+      "Already on screen",
+      "Nothing to ship"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One catch: Amazon doesn't report ad profit separately, so we can't see the exact margin.",
+   "say": "One catch. Amazon doesn't report ad profit separately, so nobody outside can see the exact margin.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Ad profit?",
+     "Not reported separately"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ads also moved onto your TV. In January 2024, US Prime Video started showing ads by default.",
+   "say": "Ads also moved onto your TV. In January twenty twenty-four, Prime Video in the US started showing ads by default.",
+   "scene": {
+    "t": "news",
+    "headline": "Prime Video adds ads, offers $2.99 ad-free option",
+    "source": "Axios, Jan. 29, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Skipping them cost an extra $2.99 a month. Either way, Amazon earns: from advertisers, or from you.",
+   "say": "Skipping them cost an extra two ninety-nine a month. Either way, Amazon earns, from advertisers or from you.",
+   "scene": {
+    "t": "stat",
+    "label": "Prime Video ad-free add-on, 2024",
+    "value": "$2.99/mo",
+    "tone": "neutral",
+    "sub": "launch price, Jan. 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The second toll booth is subscriptions: $49.6 billion in 2025, including Prime.",
+   "say": "The second toll booth is subscriptions. They brought in forty-nine point six billion dollars in twenty twenty-five, including Prime fees.",
+   "scene": {
+    "t": "stat",
+    "label": "Subscription services sales, 2025",
+    "value": "$49.6B",
+    "tone": "up",
+    "sub": "Prime fees, video, music and more"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prime costs $139 a year, or $14.99 a month, as of September 2026.",
+   "say": "Prime costs one hundred thirty-nine dollars a year, or fourteen ninety-nine a month, as of September twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "US Prime price, Sept. 2026",
+    "left": {
+     "label": "Annual",
+     "value": "$139",
+     "tone": "neutral",
+     "sub": "paid once a year"
+    },
+    "right": {
+     "label": "Monthly",
+     "value": "$14.99",
+     "tone": "neutral",
+     "sub": "paid each month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying monthly for a full year costs $14.99 times 12, which is $179.88.",
+   "say": "Paying monthly for a full year costs fourteen ninety-nine times twelve, which comes to one hundred seventy-nine dollars and eighty-eight cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$14.99 x 12 = $179.88",
+     "vs. $139 annual"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $40.88 more a year than paying once. Amazon's happy either way.",
+   "say": "That's forty dollars and eighty-eight cents more a year than paying once. And Amazon's happy either way.",
+   "scene": {
+    "t": "hook",
+    "title": "That's $40.88 more a year than paying once. Amaz",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The real trick is behavior. Once shipping feels free, members tend to check Amazon first.",
+   "say": "But the real trick is behavior. Once shipping feels free, members tend to check Amazon first.",
+   "scene": {
+    "t": "hook",
+    "title": "Shipping feels [free]",
+    "prop": "box",
+    "label": "Prime",
+    "value": "$139",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "More shoppers bring more sellers, who buy more ads. Every loop feeds the next one.",
+   "say": "More shoppers bring in more sellers, and more sellers buy more ads. Every loop feeds the next one.",
+   "scene": {
+    "t": "list",
+    "title": "The flywheel",
+    "items": [
+     "More shoppers",
+     "More sellers",
+     "More ads",
+     "More fees"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still, all of that together earned less than one other business. Time for the cloud.",
+   "say": "Still, all of that together earned less than one other business. Time to look at the cloud.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Store + ads + Prime",
+     "< the cloud"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: The cloud.",
+   "say": "Chapter four. The cloud.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The cloud"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Almost every app you use needs servers somewhere. Many companies rent them instead of owning them.",
+   "say": "Almost every app you use needs servers somewhere, and lots of companies rent them instead of buying their own.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your apps run on",
+     "rented servers",
+     "billed by the hour"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AWS is that landlord. Companies pay for storage and computing time, like a utility bill.",
+   "say": "A W S is that landlord. Companies pay for storage and computing time, a bit like a utility bill.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Use more = pay more",
+     "Storage + compute",
+     "billed like a utility"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, AWS sold $128.7 billion and earned $45.6 billion in operating profit.",
+   "say": "In twenty twenty-five, A W S sold one hundred twenty-eight point seven billion dollars, and earned forty-five point six billion in operating profit.",
+   "scene": {
+    "t": "compare",
+    "title": "AWS, fiscal 2025",
+    "left": {
+     "label": "Sales",
+     "value": "$128.7B",
+     "tone": "neutral",
+     "sub": "Amazon 10-K"
+    },
+    "right": {
+     "label": "Op. profit",
+     "value": "$45.6B",
+     "tone": "up",
+     "sub": "Amazon 10-K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look at how that profit has grown: from $9.2 billion in 2019 to $45.6 billion in 2025.",
+   "say": "Look at how that profit has grown, from nine point two billion dollars in twenty nineteen to forty-five point six billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "AWS operating income ($B)",
+    "points": [
+     [
+      2019,
+      9.2
+     ],
+     [
+      2020,
+      13.5
+     ],
+     [
+      2021,
+      18.5
+     ],
+     [
+      2022,
+      22.8
+     ],
+     [
+      2023,
+      24.6
+     ],
+     [
+      2024,
+      39.8
+     ],
+     [
+      2025,
+      45.6
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$45.6B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the wild year: 2022. AWS earned $22.8 billion.",
+   "say": "Now look at the wild year, twenty twenty-two. A W S earned twenty-two point eight billion dollars.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "AWS operating income ($B)",
+    "points": [
+     [
+      2019,
+      9.2
+     ],
+     [
+      2020,
+      13.5
+     ],
+     [
+      2021,
+      18.5
+     ],
+     [
+      2022,
+      22.8
+     ],
+     [
+      2023,
+      24.6
+     ],
+     [
+      2024,
+      39.8
+     ],
+     [
+      2025,
+      45.6
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$45.6B",
+    "color": "up",
+    "note": {
+     "x": 2022,
+     "text": "Carried the company"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But North America lost $2.8 billion that year, and International lost $7.7 billion.",
+   "say": "But North America lost two point eight billion dollars that year, and International lost seven point seven billion.",
+   "scene": {
+    "t": "split",
+    "title": "Operating income, 2022",
+    "left": {
+     "title": "Store side",
+     "items": [
+      "N. America: -$2.8B",
+      "Intl.: -$7.7B"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Cloud",
+     "items": [
+      "AWS: +$22.8B"
+     ],
+     "tone": "up"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So Amazon's total operating profit was just $12.2 billion. The cloud earned more than the whole company.",
+   "say": "So Amazon's total operating profit was only twelve point two billion dollars. The cloud earned more than the entire company.",
+   "scene": {
+    "t": "compare",
+    "title": "Operating income, 2022",
+    "left": {
+     "label": "AWS",
+     "value": "$22.8B",
+     "tone": "up",
+     "sub": "cloud alone"
+    },
+    "right": {
+     "label": "All Amazon",
+     "value": "$12.2B",
+     "tone": "down",
+     "sub": "whole company"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the fact that surprises people the most. Now let's compare margins.",
+   "say": "That's the fact that surprises people the most. Now let's compare the margins.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Operating income, 2022",
+    "left": {
+     "label": "AWS",
+     "value": "$22.8B",
+     "tone": "up",
+     "sub": "cloud alone"
+    },
+    "right": {
+     "label": "All Amazon",
+     "value": "$12.2B",
+     "tone": "down",
+     "sub": "whole company"
+    },
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, AWS earned $45.6 billion on $128.7 billion of sales. That's about 35%.",
+   "say": "In twenty twenty-five, A W S earned forty-five point six billion on one hundred twenty-eight point seven billion of sales. That's about thirty-five percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$45.6B / $128.7B",
+     "= 35.4%",
+     "about $35 per $100"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So for every $100 of sales, AWS kept about $35. The store side kept about $6.",
+   "say": "So for every hundred dollars of sales, A W S kept about thirty-five dollars. The store side kept about six.",
+   "scene": {
+    "t": "compare",
+    "title": "Op. profit per $100 of sales, 2025",
+    "left": {
+     "label": "AWS",
+     "value": "$35",
+     "tone": "up",
+     "sub": "cloud"
+    },
+    "right": {
+     "label": "Store side",
+     "value": "$6",
+     "tone": "down",
+     "sub": "NA + International"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's roughly six times more profit from each dollar.",
+   "say": "That's roughly six times more profit squeezed from each dollar.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Op. profit per $100 of sales, 2025",
+    "left": {
+     "label": "AWS",
+     "value": "$35",
+     "tone": "up",
+     "sub": "cloud"
+    },
+    "right": {
+     "label": "Store side",
+     "value": "$6",
+     "tone": "down",
+     "sub": "NA + International"
+    },
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why so profitable? Once a data center is built, renting it to one more customer costs little.",
+   "say": "Why so profitable? Once a data center is built, renting it to one more customer costs very little.",
+   "scene": {
+    "t": "list",
+    "title": "Why the cloud pays",
+    "items": [
+     "Build once, rent often",
+     "Hard to switch away",
+     "Pay-as-you-go bills"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And moving a whole company's systems to a rival is slow and expensive, so customers tend to stay.",
+   "say": "And moving a whole company's systems to a rival is slow and expensive, so customers tend to stay put.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Why the cloud pays",
+    "items": [
+     "Build once, rent often",
+     "Hard to switch away",
+     "Pay-as-you-go bills"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their bills also grow as their apps grow, without a new sales pitch.",
+   "say": "And their bills grow as their apps grow, without anybody making a new sales pitch.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Why the cloud pays",
+    "items": [
+     "Build once, rent often",
+     "Hard to switch away",
+     "Pay-as-you-go bills"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AI made demand jump. In the April-June quarter of 2026, AWS sales rose 37% to $42.2 billion.",
+   "say": "Then A I made demand jump. In the April to June quarter of twenty twenty-six, A W S sales rose thirty-seven percent, to forty-two point two billion dollars.",
+   "scene": {
+    "t": "news",
+    "headline": "AWS Q2 2026 sales rise 37% to $42.2 billion",
+    "source": "Amazon Q2 2026 results, July 30, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its operating profit that quarter was $16.6 billion.",
+   "say": "Its operating profit that quarter was sixteen point six billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "AWS op. income, Q2 2026",
+    "value": "$16.6B",
+    "tone": "up",
+    "sub": "of $27.5B for all Amazon"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AWS is still the biggest cloud, with 28% of the market in that quarter.",
+   "say": "A W S is still the biggest cloud, with twenty-eight percent of the market in that quarter.",
+   "scene": {
+    "t": "list",
+    "title": "Cloud market share, Q2 2026",
+    "items": [
+     "AWS: 28%",
+     "Microsoft: 20%",
+     "Google: 15%"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But Microsoft had 20%, and Google hit a record 15%, according to Synergy Research.",
+   "say": "But Microsoft had twenty percent, and Google hit a record fifteen percent, according to Synergy Research.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Cloud market share, Q2 2026",
+    "items": [
+     "AWS: 28%",
+     "Microsoft: 20%",
+     "Google: 15%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: The big bet.",
+   "say": "Chapter five. The big bet.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The big bet"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To keep the cloud growing, Amazon has to build data centers, and they're very expensive.",
+   "say": "To keep the cloud growing, Amazon has to build data centers, and they are very, very expensive.",
+   "scene": {
+    "t": "list",
+    "title": "The risks",
+    "items": [
+     "$220B spending plan",
+     "Cloud rivals",
+     "Antitrust trial",
+     "Outages"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, Amazon spent $131.8 billion on property and equipment, much of it for AI.",
+   "say": "In twenty twenty-five, Amazon spent one hundred thirty-one point eight billion dollars on property and equipment, much of it for A I.",
+   "scene": {
+    "t": "stat",
+    "label": "Property & equipment spending, 2025",
+    "value": "$131.8B",
+    "tone": "down",
+    "sub": "cash purchases, Amazon 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In July 2026, Amazon raised its 2026 plan to about $220 billion.",
+   "say": "In July twenty twenty-six, Amazon raised its twenty twenty-six plan to about two hundred twenty billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Amazon capex",
+    "left": {
+     "label": "2025 actual",
+     "value": "$131.8B",
+     "tone": "neutral",
+     "sub": "spent"
+    },
+    "right": {
+     "label": "2026 plan",
+     "value": "~$220B",
+     "tone": "down",
+     "sub": "July 2026 estimate"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CEO Andy Jassy said even that won't be enough.",
+   "say": "C E O Andy Jassy said even that won't be enough.",
+   "scene": {
+    "t": "quote",
+    "text": "...we will still not have enough capacity to meet all the demand we have in 2026...",
+    "source": "Andy Jassy, Amazon CEO, Q2 2026 call, July 30, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the cost. In 2025, Amazon brought in $139.5 billion of operating cash.",
+   "say": "Here's the cost of that. In twenty twenty-five, Amazon brought in one hundred thirty-nine point five billion dollars of operating cash.",
+   "scene": {
+    "t": "stat",
+    "label": "Operating cash flow, 2025",
+    "value": "$139.5B",
+    "tone": "up",
+    "sub": "up 20% (Amazon)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After paying for all that building, free cash flow was only $11.2 billion, down from $38.2 billion in 2024.",
+   "say": "After paying for all that building, free cash flow was only eleven point two billion dollars, down from thirty-eight point two billion in twenty twenty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Amazon free cash flow",
+    "left": {
+     "label": "2024",
+     "value": "$38.2B",
+     "tone": "neutral",
+     "sub": "full year"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$11.2B",
+     "tone": "down",
+     "sub": "full year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for the 12 months through June 2026, free cash flow turned negative: minus $7.6 billion.",
+   "say": "And for the twelve months through June twenty twenty-six, free cash flow turned negative, at minus seven point six billion dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "Free cash: [negative]",
+    "prop": "chart-down",
+    "label": "Jun 2026",
+    "value": "-$7.6B",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If AI demand cools before those buildings pay off, that's a lot of expensive empty space.",
+   "say": "If A I demand cools before those buildings pay off, that's a lot of very expensive empty space.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Build first",
+     "Hope demand stays"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second risk: rivals. Microsoft and Google are chasing the same AI customers.",
+   "say": "The second risk is rivals. Microsoft and Google are chasing the very same A I customers.",
+   "scene": {
+    "t": "hook",
+    "title": "Second risk: rivals. Microsoft and Google are ch",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third: regulators. The FTC alleges Amazon illegally maintained monopoly power. Amazon denies it.",
+   "say": "Third, regulators. The F T C alleges that Amazon illegally maintained monopoly power, and Amazon denies it.",
+   "scene": {
+    "t": "hook",
+    "title": "Third: regulators. The FTC alleges Amazon illega",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That case is currently scheduled for trial on March 29, 2027.",
+   "say": "That case is currently scheduled for trial on March twenty-ninth, twenty twenty-seven.",
+   "scene": {
+    "t": "news",
+    "headline": "FTC v. Amazon antitrust trial set for March 29, 2027",
+    "source": "MLex; US District Court, W.D. Wash."
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Separately, in September 2025, Amazon agreed to pay $2.5 billion to settle FTC claims about Prime sign-ups, without admitting wrongdoing.",
+   "say": "Separately, in September twenty twenty-five, Amazon agreed to pay two point five billion dollars to settle F T C claims about Prime sign-ups, without admitting wrongdoing.",
+   "scene": {
+    "t": "stat",
+    "label": "Prime FTC settlement, Sept. 2025",
+    "value": "$2.5B",
+    "tone": "down",
+    "sub": "$1B penalty + $1.5B refunds (NPR)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fourth: outages. In October 2025, an AWS failure knocked many popular apps offline for hours.",
+   "say": "Fourth, outages. In October twenty twenty-five, an A W S failure knocked lots of popular apps offline for hours.",
+   "scene": {
+    "t": "hook",
+    "title": "Fourth: outages. In October 2025, an AWS failure",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When so much of the internet rents from one landlord, one bad day is felt everywhere.",
+   "say": "When so much of the internet rents from one landlord, one bad day gets felt everywhere.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "One landlord,",
+     "many tenants,",
+     "one bad day"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: What it means, and the recap.",
+   "say": "Chapter six. What it all means, and the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "What it means: recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, cheap shipping isn't charity. Thin store margins are backed by richer businesses.",
+   "say": "First, cheap shipping isn't charity. Those thin store margins are backed by much richer businesses.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Thin store margins",
+     "backed by ads,",
+     "Prime and the cloud"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, the top search results are often paid. A sponsored label means a seller bought that spot.",
+   "say": "Second, the top search results are often paid. A sponsored label means a seller bought that spot.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "'Sponsored' =",
+     "a seller paid",
+     "to be seen first"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And seller fees and ad costs are part of what sellers have to cover with their prices.",
+   "say": "And those seller fees and ad costs are part of what sellers have to cover with their prices.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Seller costs",
+     "value": "fees + ads"
+    },
+    "to": {
+     "label": "Shelf price",
+     "value": "covers it"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, Prime monthly versus yearly is simple math: $179.88 versus $139 over a full year.",
+   "say": "Third, Prime monthly versus yearly is simple math. It's one hundred seventy-nine dollars and eighty-eight cents versus one hundred thirty-nine over a full year.",
+   "scene": {
+    "t": "compare",
+    "title": "A year of Prime, Sept. 2026",
+    "left": {
+     "label": "Annual",
+     "value": "$139",
+     "tone": "up",
+     "sub": "one payment"
+    },
+    "right": {
+     "label": "Monthly",
+     "value": "$179.88",
+     "tone": "down",
+     "sub": "12 payments"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fourth, even if you never shop on Amazon, the apps you use may run on its servers.",
+   "say": "And fourth, even if you never shop on Amazon, the apps you use every day may be running on its servers.",
+   "scene": {
+    "t": "hook",
+    "title": "You use AWS [anyway]",
+    "prop": "box",
+    "label": "AWS",
+    "value": "28%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The recap. One: the store is huge, but in 2025 it kept only about $6 of every $100 as operating profit.",
+   "say": "So here's the recap. One, the store is huge, but in twenty twenty-five it kept only about six dollars of every hundred as operating profit.",
+   "scene": {
+    "t": "list",
+    "title": "How Amazon makes money",
+    "items": [
+     "Store: huge, thin",
+     "Ads and Prime: tolls",
+     "Cloud: the profit",
+     "Risk: the big bet"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: ads and Prime are toll booths, with $68.6 billion in ads and $49.6 billion in subscriptions.",
+   "say": "Two. Ads and Prime are the toll booths, with sixty-eight point six billion dollars in ads and forty-nine point six billion in subscriptions.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "How Amazon makes money",
+    "items": [
+     "Store: huge, thin",
+     "Ads and Prime: tolls",
+     "Cloud: the profit",
+     "Risk: the big bet"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: the cloud is the profit engine, with 57% of 2025 operating profit from 18% of sales.",
+   "say": "Three. The cloud is the profit engine, with fifty-seven percent of twenty twenty-five operating profit from eighteen percent of sales.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "How Amazon makes money",
+    "items": [
+     "Store: huge, thin",
+     "Ads and Prime: tolls",
+     "Cloud: the profit",
+     "Risk: the big bet"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: the risk is the bet, about $220 billion of 2026 spending on the idea that AI demand lasts.",
+   "say": "Four. The risk is the bet: about two hundred twenty billion dollars of twenty twenty-six spending on the idea that A I demand lasts.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "How Amazon makes money",
+    "items": [
+     "Store: huge, thin",
+     "Ads and Prime: tolls",
+     "Cloud: the profit",
+     "Risk: the big bet"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So next time a box lands on your porch, remember: the real money is in rented computers.",
+   "say": "So next time a box lands on your porch, remember that the real money is in rented computers.",
+   "scene": {
+    "t": "hook",
+    "title": "It's [not] the store",
+    "prop": "box",
+    "label": "AWS 2025",
+    "value": "57%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not financial advice. Subscribe to FinancePros TV to see how the next giant makes its money.",
+   "say": "This is education, not financial advice. Subscribe to FinancePros TV to see how the next giant makes its money.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained simply."
+   }
+  }
+ ],
+ "post": {
+  "title": "Amazon's most profitable business isn't the store (57% of profit, 18% of sales)",
+  "ig": "Amazon's most profitable business isn't the store you shop at. In 2025, AWS made 57% of its operating profit.",
+  "tiktok": "Amazon's most profitable business isn't the store. The cloud made 57% of its 2025 operating profit.",
+  "yt_desc": "Amazon's most profitable business isn't the store you shop at. In 2025, Amazon Web Services brought in just 18% of Amazon's $716.9 billion in sales but 57% of its operating profit, and in 2022 the cloud earned more than the entire company. This video walks through Amazon's history, the thin-margin store, the ad and Prime toll booths, the cloud profit engine, and the risks behind a roughly $220 billion 2026 spending plan, using numbers from Amazon's filings.\n\nCHAPTERS\n\nSources: Amazon.com Form 10-K for fiscal 2025 (Feb 2026); Amazon Q4 2025 earnings release (Feb 5, 2026); Amazon Q2 2026 earnings release and 10-Q (July 30, 2026); Amazon Form 10-K filings for fiscal 2019-2024; CNBC (July 30, 2026); Synergy Research Group via The Register (Aug 2026); Marketplace Pulse (third-party unit share, 2026); NPR (Sept 25, 2025); MLex (FTC v. Amazon trial schedule, 2026); Axios (Jan 29, 2024); DealNews (Prime pricing, Sept 2026).\n\nNews and education, not financial advice.\n\n#amazon #aws #howtheymakemoney",
+  "tags": [
+   "Amazon",
+   "AWS",
+   "how Amazon makes money",
+   "Amazon Web Services",
+   "cloud computing",
+   "Amazon advertising",
+   "Amazon Prime",
+   "business model",
+   "Amazon earnings"
+  ]
+ }
+}

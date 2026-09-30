@@ -227,8 +227,8 @@
   },
   {
    "who": "ticker",
-   "text": "And in March 2006, Amazon started renting its computing power to other companies.",
-   "say": "And in March two thousand six, Amazon started renting its computing power to other companies.",
+   "text": "And in March 2006, Amazon started renting its computer infrastructure to other companies.",
+   "say": "And in March two thousand six, Amazon started renting its computer infrastructure to other companies.",
    "scene": {
     "t": "timeline",
     "keep": true,
@@ -385,11 +385,11 @@
   },
   {
    "who": "ticker",
-   "text": "And those outside sellers are most of what you buy: 61% of paid units in late 2025.",
-   "say": "And those outside sellers are most of what you buy. They made up sixty-one percent of paid units in the last quarter of twenty twenty-five.",
+   "text": "And those outside sellers are most of what you buy: 61% of paid units in April-June 2026.",
+   "say": "And those outside sellers are most of what you buy. They made up sixty-one percent of paid units in the April to June quarter of twenty twenty-six.",
    "scene": {
     "t": "stat",
-    "label": "3rd-party share of units, Q4 2025",
+    "label": "3rd-party share of units, Q2 2026",
     "value": "61%",
     "tone": "up",
     "sub": "Amazon quarterly disclosure"
@@ -454,7 +454,7 @@
     "label": "Store side op. income, 2025",
     "value": "$34.4B",
     "tone": "down",
-    "sub": "$29.6B NA + $4.75B Intl.",
+    "sub": "$29.6B NA + $4.7B Intl.",
     "mood": "worried"
    }
   },
@@ -686,8 +686,8 @@
   },
   {
    "who": "ticker",
-   "text": "The second toll booth is subscriptions: $49.6 billion in 2025, mostly Prime.",
-   "say": "The second toll booth is subscriptions. They brought in forty-nine point six billion dollars in twenty twenty-five, mostly from Prime.",
+   "text": "The second toll booth is subscriptions: $49.6 billion in 2025, including Prime.",
+   "say": "The second toll booth is subscriptions. They brought in forty-nine point six billion dollars in twenty twenty-five, including Prime fees.",
    "scene": {
     "t": "stat",
     "label": "Subscription services sales, 2025",
@@ -809,11 +809,12 @@
    "text": "Almost every app you use needs servers somewhere. Many companies rent them instead of owning them.",
    "say": "Almost every app you use needs servers somewhere, and lots of companies rent them instead of buying their own.",
    "scene": {
-    "t": "building",
-    "kind": "store",
-    "name": "AWS DATA CENTER",
-    "label": "for rent",
-    "caption": "Computers by the hour"
+    "t": "board",
+    "lines": [
+     "Your apps run on",
+     "rented servers",
+     "billed by the hour"
+    ]
    }
   },
   {
@@ -1331,8 +1332,8 @@
   },
   {
    "who": "ticker",
-   "text": "That case is scheduled for trial on March 29, 2027.",
-   "say": "That case is scheduled for trial on March twenty-ninth, twenty twenty-seven.",
+   "text": "That case is currently scheduled for trial on March 29, 2027.",
+   "say": "That case is currently scheduled for trial on March twenty-ninth, twenty twenty-seven.",
    "scene": {
     "t": "news",
     "headline": "FTC v. Amazon antitrust trial set for March 29, 2027",
@@ -1373,11 +1374,12 @@
    "text": "When so much of the internet rents from one landlord, one bad day is felt everywhere.",
    "say": "When so much of the internet rents from one landlord, one bad day gets felt everywhere.",
    "scene": {
-    "t": "building",
-    "kind": "store",
-    "name": "AWS DATA CENTER",
-    "label": "outage",
-    "caption": "One landlord, many tenants",
+    "t": "board",
+    "lines": [
+     "One landlord,",
+     "many tenants,",
+     "one bad day"
+    ],
     "mood": "worried"
    }
   },

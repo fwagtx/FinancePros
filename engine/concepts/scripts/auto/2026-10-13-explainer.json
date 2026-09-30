@@ -1,0 +1,223 @@
+{
+ "id": "2026-10-13-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Social Security\ngets its raise",
+ "cover": {
+  "title": "3 Months Set Social Security's Raise",
+  "prop": "chart-up",
+  "label": "Jul-Sep",
+  "value": "3 mo"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Social Security's yearly raise comes from just 3 months of prices.",
+   "say": "Social Security's yearly raise comes from just three months of prices.",
+   "scene": {
+    "t": "hook",
+    "title": "Just [3] months decide",
+    "prop": "chart-up",
+    "label": "Jul-Sep",
+    "value": "3 mo",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "July, August and September. September's report is due October 14, 2026.",
+   "say": "That's July, August and September, and September's report is due October fourteenth, twenty twenty-six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Jul-Sep",
+      "prices get measured"
+     ],
+     [
+      "Oct 14",
+      "September CPI report"
+     ],
+     [
+      "Same day",
+      "SSA announces raise"
+     ],
+     [
+      "January",
+      "bigger checks arrive"
+     ]
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rule: average an index called CPI-W for those months, compare it with the last raise year, round to 0.1%.",
+   "say": "The rule? Average an index called C P I W for those months, compare it with the last raise year, and round to a tenth of a percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Avg CPI-W, Jul-Sep",
+     "vs. last raise year",
+     "round to 0.1%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025 that average was 317.265, up from 308.729.",
+   "say": "In twenty twenty-five that average was about three hundred seventeen, up from about three hundred nine.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg CPI-W, Jul-Sep",
+    "left": {
+     "label": "2024",
+     "value": "308.729",
+     "tone": "neutral",
+     "sub": "2024 (base year)"
+    },
+    "right": {
+     "label": "2025",
+     "value": "317.265",
+     "tone": "up",
+     "sub": "SSA"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a 2.8% rise, paid starting January 2026.",
+   "say": "That's a two point eight percent rise, paid starting January twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 Social Security raise",
+    "value": "2.8%",
+    "tone": "up",
+    "sub": "SSA, paid from Jan 2026",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average retired worker went from $2,015 a month to $2,071.",
+   "say": "The average retired worker went from two thousand fifteen dollars a month to two thousand seventy-one.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Before, avg retiree",
+     "value": "$2,015"
+    },
+    "to": {
+     "label": "After 2.8%",
+     "value": "$2,071"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It swings a lot: 0.3% for 2017, 8.7% for 2023.",
+   "say": "It swings a lot: zero point three percent for twenty seventeen, eight point seven percent for twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "title": "Raise by year paid",
+    "points": [
+     [
+      2017,
+      0.3
+     ],
+     [
+      2018,
+      2.0
+     ],
+     [
+      2019,
+      2.8
+     ],
+     [
+      2020,
+      1.6
+     ],
+     [
+      2021,
+      1.3
+     ],
+     [
+      2022,
+      5.9
+     ],
+     [
+      2023,
+      8.7
+     ],
+     [
+      2024,
+      3.2
+     ],
+     [
+      2025,
+      2.5
+     ],
+     [
+      2026,
+      2.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "2.8%",
+    "color": "up",
+    "note": {
+     "x": 2023,
+     "text": "8.7% for 2023"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The surprise: no price rise, no raise. That happened in 2010, 2011 and 2016.",
+   "say": "The surprise? No price rise means no raise, and that happened in twenty ten, twenty eleven and twenty sixteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Raise in 2010, 2011, 2016",
+    "value": "0%",
+    "tone": "down",
+    "sub": "SSA, CRS",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So each raise catches up to prices people already paid.",
+   "say": "So each raise catches up to prices people already paid.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The raise looks back",
+     "at last summer's prices"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Social Security's raise comes from just 3 months of prices",
+  "ig": "Social Security's yearly raise comes from just 3 months of prices.\n\nThe rule: average CPI-W for July, August and September, compare it with the last year there was a raise, round to 0.1%.\nIn 2025 that average was 317.265 vs 308.729 in 2024, a 2.8% raise paid from January 2026.\nThe average retired worker went from $2,015 to $2,071 a month.\nNo raise at all in 2010, 2011 and 2016. September 2026 CPI is scheduled for October 14, 2026.\n\nSources: SSA Office of the Chief Actuary, SSA 2026 COLA Fact Sheet, CRS, BLS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#socialsecurity #cola #inflation #retirement #financeprostv",
+  "tiktok": "Social Security's raise comes from just 3 months of prices. Not financial advice. #moneytok #personalfinance #socialsecurity #inflation #financeprostv",
+  "yt_desc": "Social Security's cost-of-living raise compares the July-September average of the CPI-W with the last year a raise was paid, rounded to 0.1%. That math produced a 2.8% raise from January 2026, lifting the average retired worker from $2,015 to $2,071 a month; there was no raise in 2010, 2011 or 2016. Sources: SSA Office of the Chief Actuary, SSA 2026 COLA Fact Sheet, CRS.\n\nNews and education, not financial advice.\n\n#Shorts #socialsecurity #inflation",
+  "tags": [
+   "social security COLA",
+   "cost of living adjustment",
+   "CPI-W explained",
+   "social security raise",
+   "inflation explained"
+  ]
+ }
+}
