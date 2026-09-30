@@ -1,50 +1,33 @@
-# Fact-check: 2026-10-08-explainer (Tax refund or owe? Withholding explained)
+# Fact-check (re-check after revision): 2026-10-08-explainer
 
-Checked: September 30, 2026. Posting date: October 08, 2026. Research brief not consulted. Math recomputed in python.
+Checked: September 30, 2026. Posting date: October 08, 2026. I re-read the whole revised script. The research brief was not consulted. Math was recomputed in python. No new searches were needed: every figure in the revision is covered by sources already verified in the first pass (IRS filing season statistics, IRS Q4 2026 interest-rate release, IRS guidance on 2025 withholding and OBBBA, and tax outlets on Form 2210 and safe harbor rules).
 
 ## Verified claims
 
 | Line | Claim | Result | Source |
 |---|---|---|---|
-| 4 | $12,000 withheld - $9,000 tax = $3,000 refund | Correct | python |
+| 1 | Average 2026 refund $3,275 | Correct. This is the figure through the week ending Apr 17, 2026, and line 6 gives the "by mid-April" date | IRS filing season stats, wk ending Apr 17, 2026; CNBC Apr 24, 2026 |
+| 4 | $12,000 - $9,000 = $3,000 refund | Correct | python |
 | 5 | $9,000 - $8,000 = $1,000 owed | Correct | python |
-| 6 / chart | 2026 avg refund by mid-April = $3,275 (week ending Apr 17, 2026) | Correct | IRS filing season stats wk ending Apr 17, 2026; CNBC Apr 24, 2026 (+11.3%) |
-| chart | 2025 = $2,942 (wk ending Apr 18, 2025) | Correct (IRS 2026 release also uses $2,942 as the comparison) | IRS stats wk ending Apr 18, 2025 |
-| chart | 2024 = $2,850 (wk ending Apr 19, 2024) | Correct | IRS stats wk ending Apr 19, 2024 |
-| chart | 2023 = $2,753 (comparable week, 2023) | Correct (the comparison figure in the IRS Apr 19, 2024 release) | IRS stats wk ending Apr 19, 2024 |
-| chart | Growth: +3.5%, +3.2%, +11.3% | Matches the IRS percentages | python |
-| 7 | IRS left 2025 withholding tables unchanged after the new law | Correct. The IRS said Form W-4, the withholding tables and payroll forms would stay the same for TY2025, and the new provisions would go into the 2026 tables | IRS "How to update withholding..." page; payroll.org; Thomson Reuters |
-| 8 | $3,275 / 12 = about $273 a month, interest-free | Correct ($272.92). The IRS pays interest on a refund only when it is issued more than 45 days late | python |
-| 9 | $1,000+ owed, so a penalty can apply | Correct as a "can" statement. The penalty does not apply when the tax due after withholding and credits is under $1,000, or when a safe harbor is met (90% of this year's tax, or 100%/110% of last year's) | IRS Form 2210 rules; multiple tax outlets |
-| 9 | 7% for Oct-Dec 2026 | Correct. The IRS announced that individual underpayment and overpayment rates stay at 7% for the quarter starting Oct 1, 2026 (federal short-term rate 4% + 3) | IRS newsroom "Interest rates remain the same for the fourth quarter of 2026"; CPA Practice Advisor Aug 24, 2026 |
-| post | Up from $2,942 in 2025 | Correct | IRS |
+| 6 / chart | 2026 $3,275, up from $2,942 a year earlier; 2024 $2,850; 2023 $2,753 | All match the IRS figures for comparable mid-April weeks (+11.3%, +3.2%, +3.5%) | IRS stats, Apr 17 2026 / Apr 18 2025 / Apr 19 2024 |
+| 7 | New tax breaks applied to 2025; withholding tables did not change until 2026 | Correct. The IRS kept the W-4 and withholding tables unchanged for tax year 2025 and built the new provisions into the 2026 tables | IRS "How to update withholding..." page; payroll.org |
+| 8 | $3,275 / 12 is about $273 a month, interest-free | Correct ($272.92) | python |
+| 9 | Owing $1,000+ at filing means a penalty can apply, figured like interest at 7% a year right now | Correct. 7% is the IRS individual underpayment rate for Q4 2026 (short-term rate 4% + 3), which is in effect on Oct 8. The Form 2210 penalty is computed as interest at this rate | IRS newsroom, "Interest rates remain the same for the fourth quarter of 2026" |
+| posts | Safe harbor: 90% of this year's tax, or 100% of last year's (110% for high earners) | Correct | Form 2210 rules |
 
-The on-screen text and spoken numbers match in every line. Cover value $3,275 matches lines 6 and 8. No price predictions. No personal advice. The law is not named ("new tax breaks"), so the wording is politically neutral.
+Other checks:
+- The on-screen and spoken values match in every line.
+- The cover ("Your Refund Was Your Money", $3,275) and the post titles are paid off by lines 1 and 6-8.
+- The time words ("2026 refund season", "right now" = Q4 2026, "Oct-Dec 2026") are all correct on October 8.
+- There is no advice and there are no price predictions. The "Not financial advice" line is present.
+- The law is referred to only as "new tax breaks", so the script stays politically neutral.
 
-## Issues
+## Remaining issues (all minor; none blocks)
 
-1. **Weak opening, line 1 (medium).** "Your tax refund isn't a gift. It's your own money." is true but generic, a cliche viewers have heard before. It has no number or specific fact and no open loop. It is about 10 words, roughly 3.8 s at normal pace, so it runs over the 3-second target.
-   Fix: open with the specific number, for example: "The average tax refund hit $3,275 this year. That's your money." This is about 9 words and can be read in under 3 s. Or: "$3,275. That's what the IRS held of your money, interest-free."
+1. **Line 1, hook length (nit).** The hook is now specific and grabs attention. Spoken, it is about 3-3.5 seconds, because "twenty twenty-six" takes time to say. It also says "Thirty-two seventy-five" without "dollars", which is fine because the $3,275 is on screen.
+   Optional trim: "Average refund this year? Thirty-two seventy-five. Your own money."
+2. **Lines 1 and 8, "your own money" / "lent to the IRS" (nit, nuance).** Part of the average refund comes from refundable credits such as the EITC and ACTC, not from overwithholding, so "your own money" is a slight simplification. This is acceptable for an explainer.
+3. **Line 9, on-screen label (nit).** The label reads "IRS penalty rate", with the sub "Q4 2026, figured as interest". It is accurate as written. "IRS underpayment rate" would be more precise.
+4. **Staleness (low).** The refund data is from April, but it is clearly dated, so this is acceptable.
 
-2. **Penalty vs interest rate wording, line 9 (medium, accuracy).** "a penalty can apply: 7% a year" conflates the underpayment penalty with the IRS interest rate. The 7% is the quarterly IRS underpayment interest rate. The estimated-tax penalty is computed like interest at that rate on the shortfall, per quarter, until paid. It is not a flat 7% fine. The line also leaves out the safe harbor, so it implies that owing $1,000 or more by itself triggers a penalty. The on-screen label ("IRS underpayment rate") is correct, but the spoken framing blurs the two ideas.
-   Fix: say "Owe a thousand or more at filing and an underpayment penalty can apply. It's figured like interest, at seven percent a year right now." Optionally add in the post text: "Generally avoided if withholding covered 90% of this year's tax or 100% of last year's."
-
-3. **Causal overreach, line 7 (low-medium).** "Why? The IRS left 2025 withholding tables unchanged..." presents this as the only reason. Refunds grew because the new deductions were retroactive to 2025 and were claimed at filing, while paychecks were still withheld under the old tables. The unchanged tables are the mechanism, not the whole cause. Outlets describe it as "partly." The yt_desc already says "partly because."
-   Fix: "Why? New tax breaks applied to 2025, but withholding tables didn't change until 2026, so many workers overpaid."
-
-4. **Long narration, line 9 (low, read-aloud).** At 26 words (about 10 s) it is by far the longest line, and the phrase "seven percent a year for October through December twenty twenty-six" is clunky to say. Shortening it as in fix 2 solves this.
-
-5. **Staleness and timing (low).** The refund data is from April, about 6 months before posting. It is labeled "By mid-April 2026," so it stays accurate. The video has no hook for why it is posting in October. The Q4 2026 rate is current for the whole posting window, so no time words will be wrong on Oct 8. Optional: use the later IRS figure (through May 8, 2026: $3,276, +11.5%) or frame it as "this year's refund season."
-
-6. **Minor (nit).** The chart_note "overpaid in 2025" sits on the x=2026 point, which is correct (2026 refunds are for 2025 overpayment) but may briefly confuse viewers. Consider "2025 overpayment". Line 4 says "got withheld" where the caption says "was withheld". This is fine.
-
-## Items with no problems
-
-- Cover and title ("Your Refund Isn't a Gift", $3,275): the video pays both off.
-- Worked-example math: correct.
-- The chart data points match IRS comparable-week figures for each year.
-- Time words on Oct 8, 2026: "Oct-Dec 2026" is current. "By mid-April 2026" is correctly dated.
-- Advice and predictions: none. "Not financial advice" is present in the post text.
-- Political neutrality: OK. The law is referred to only as "new tax breaks."
-
-VERDICT: FAIL
+VERDICT: PASS

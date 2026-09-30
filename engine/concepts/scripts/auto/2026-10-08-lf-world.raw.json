@@ -14,8 +14,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "America sells more oil than it buys. So why did gas hit $4.47?",
-   "say": "America sells more oil than it buys. So why did gas hit four forty-seven?",
+   "text": "America's a net oil seller. So why did gas hit $4.47?",
+   "say": "America's a net oil seller. So why did gas hit four forty-seven?",
    "scene": {
     "t": "hook",
     "title": "America sells oil. Why [$4.47] gas?",
@@ -139,6 +139,19 @@
   },
   {
    "who": "ticker",
+   "text": "Think of it as one giant auction. Whoever needs a barrel most, and pays most, gets it.",
+   "say": "Think of it as one giant auction. Whoever needs a barrel the most, and pays the most, gets it.",
+   "scene": {
+    "t": "hook",
+    "title": "One giant [auction]",
+    "prop": "tag",
+    "label": "1 barrel",
+    "value": "SOLD",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "The main benchmarks are Brent, the global one, and WTI, the US one. They usually move together.",
    "say": "The main price tags are called Brent, which is the global benchmark, and W T I, the American one. They usually move together.",
    "scene": {
@@ -245,6 +258,18 @@
   },
   {
    "who": "ticker",
+   "text": "It's a narrow strip of water between Iran and the Arabian Peninsula, and tankers have few other ways out of the Gulf.",
+   "say": "It's a narrow strip of water between Iran and the Arabian Peninsula, and tankers have very few other ways out of the Gulf.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Strait of Hormuz:",
+     "the Gulf's front door"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
    "text": "That's about a fifth of all the oil the world uses. And 84% of the crude going through it was headed to Asia.",
    "say": "That's about a fifth of all the oil the world uses, and eighty-four percent of the crude going through it was headed to Asia.",
    "scene": {
@@ -253,6 +278,27 @@
     "value": "84%",
     "tone": "neutral",
     "sub": "EIA chokepoint analysis"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So you'd think a blocked strait is mostly Asia's problem. It isn't.",
+   "say": "So you'd think a blocked strait would mostly be Asia's problem. It isn't.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "my tankers!"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "not my problem"
+     }
+    ],
+    "caption": "Or is it?"
    }
   },
   {
@@ -357,12 +403,51 @@
   },
   {
    "who": "ticker",
+   "text": "That spike squeezed drivers and airlines, and the crash showed how fast demand can vanish.",
+   "say": "That spike squeezed drivers and airlines, and the crash that followed showed how fast demand can vanish.",
+   "scene": {
+    "t": "chart",
+    "title": "WTI crude, 2008 (per barrel)",
+    "points": [
+     [
+      2008.0,
+      96
+     ],
+     [
+      2008.5,
+      147.27
+     ],
+     [
+      2008.95,
+      32
+     ]
+    ],
+    "prefix": "$",
+    "end": "~$32",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "In April 2020, with the world locked down, one oil contract actually settled at minus $37.63. Sellers paid buyers to take it.",
    "say": "In April twenty twenty, with the world locked down, one oil contract actually settled at minus thirty-seven dollars and sixty-three cents. Sellers paid buyers to take it.",
    "scene": {
     "t": "timeline",
     "keep": true,
     "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Storage tanks were nearly full, so holding a contract meant taking oil nobody had room for.",
+   "say": "Storage tanks were nearly full, so holding that contract meant taking delivery of oil nobody had room for.",
+   "scene": {
+    "t": "stat",
+    "label": "WTI May contract, Apr 20, 2020",
+    "value": "-$37.63",
+    "tone": "down",
+    "sub": "first negative settle (CFTC)",
+    "mood": "shock"
    }
   },
   {
@@ -515,6 +600,30 @@
   },
   {
    "who": "ticker",
+   "text": "Taxes are mostly a fixed amount per gallon: 18.4 cents federal, plus about 22 cents from states on average.",
+   "say": "Taxes are mostly a fixed amount per gallon, eighteen point four cents federal, plus about twenty-two cents from states on average.",
+   "scene": {
+    "t": "stat",
+    "label": "Gas taxes per gallon, 2025",
+    "value": "~40¢",
+    "tone": "neutral",
+    "sub": "18.4¢ federal + ~22¢ state avg (EIA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when crude jumps, taxes don't, and crude's slice of the gallon gets even bigger.",
+   "say": "So when crude jumps, taxes don't jump with it, and crude's slice of the gallon gets even bigger.",
+   "scene": {
+    "t": "hook",
+    "title": "Crude's slice [grows]",
+    "prop": "chart-up",
+    "label": "crude share",
+    "value": "51%+"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Crude is the biggest piece, and it's the piece that moves the most. There's a simple rule for it.",
    "say": "Crude is the biggest piece, and it's also the piece that moves the most. Luckily, there's a simple rule for it.",
    "scene": {
@@ -630,6 +739,16 @@
      "x": 5,
      "text": "$4.48 in May!"
     }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By September 24, AAA said the national average was the highest it has ever been for that time of year.",
+   "say": "By September twenty-fourth, triple A said the national average was the highest it has ever been for that time of year.",
+   "scene": {
+    "t": "news",
+    "headline": "Gas at $4.48, highest ever for the time of year",
+    "source": "AAA, Sept. 24, 2026"
    }
   },
   {
@@ -776,6 +895,18 @@
   },
   {
    "who": "ticker",
+   "text": "That's why the price of the thing you order online can stay flat while delivery quietly costs more.",
+   "say": "That's why the price of the thing you order online can stay flat while the delivery quietly costs more.",
+   "scene": {
+    "t": "hook",
+    "title": "Same box, pricier [ride]",
+    "prop": "box",
+    "label": "Delivery",
+    "value": "+fuel"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Planes are even more exposed. In 2025, fuel was about a quarter of airline operating costs.",
    "say": "Planes are even more exposed. In twenty twenty-five, fuel was about a quarter of an airline's operating costs.",
    "scene": {
@@ -909,6 +1040,18 @@
   },
   {
    "who": "ticker",
+   "text": "Polyethylene is the most common plastic there is, the stuff of grocery bags, milk jugs and shrink wrap.",
+   "say": "Polyethylene is the most common plastic there is. It's the stuff of grocery bags, milk jugs and shrink wrap.",
+   "scene": {
+    "t": "hook",
+    "title": "Oil in your [shopping bag]",
+    "prop": "bag",
+    "label": "plastic",
+    "value": "+oil"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "That's the stuff in bottles, bags and food wrap. Packaging makers pass that cost to brands, and brands pass it to shelves.",
    "say": "That's the stuff in bottles, bags and food wrap. Packaging makers pass that cost on to brands, and brands pass it on to store shelves.",
    "scene": {
@@ -954,6 +1097,17 @@
     "value": "$850+/t",
     "tone": "down",
     "sub": "up 80% since Feb (World Bank)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was the highest urea price since April 2022. Farmers buy it months before a harvest, so the cost shows up later.",
+   "say": "That was the highest urea price since April twenty twenty-two. Farmers buy it months before a harvest, so the cost shows up later.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "urea: $850+",
+    "caption": "Paid now, harvested later"
    }
   },
   {
