@@ -32,6 +32,14 @@ Post times come from Metricool's best-time-to-post data for these accounts: TikT
 If no confirmed news qualifies for a news slot, that slot posts an evergreen video instead, so every slot always posts.
 `concepts/scripts/auto/<date>.state.json` records every slot, so nothing is made or posted twice.
 
+## Content calendar
+Every evergreen slot is planned through September 2029 in `concepts/calendar.json` (readable copy: `concepts/calendar.csv`), built by
+`concepts/plan_calendar.py` from the topic banks in `concepts/topics.json` (about 2,500 edited topics) and the yearly money moments in
+`concepts/seasonal.json` (tax season, open enrollment, Black Friday, back to school...). News slots (10 AM, 4 PM, Friday long-form)
+always cover that day's news. Each video is researched and fact-checked the day it is made, so numbers are current; after a show's
+fresh topics run out (spring 2028 for shorts), its oldest topics re-run at least a year after they first aired.
+Re-plan after editing the banks: `python concepts/plan_calendar.py`.
+
 ## Who runs it
 Two scheduled Claude Code sessions (Routines) on the Claude plan, every day at 5:50 AM and 12:40 PM Central; no API keys needed.
 Claude researches, writes and fact-checks (with a separate subagent), `session.py` renders and hosts, and the posts are created

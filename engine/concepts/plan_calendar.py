@@ -2,7 +2,7 @@
 
 News slots (morning, bigstory, lf-big) are not planned: they cover whatever happened that day.
 Order of precedence for each day: a seasonal money moment (seasonal.json), then the next topic from the show's pool
-(topics.json), never repeating a topic that was already used. Every video is still researched and fact-checked on the day
+(topics.json), never repeating a topic that was already used; once a show's pool runs out, its oldest topics\nare re-run (at least a year after they first aired). Every video is still researched and fact-checked on the day
 it is made, so the numbers are always current.
 
   python concepts/plan_calendar.py [--start 2026-10-03] [--end 2028-09-30]
@@ -44,10 +44,16 @@ def build(start, end, short_start):
     q = {k: [t for t in v if t not in used] for k, v in queues(bank).items()}
     placed = set(); cal = {}
 
-    def take(show):
+    history = {k: [] for k in q}   # (date, topic) per show, for re-runs
+
+    def take(show, day):
         while q[show]:
             t = q[show].pop(0)
             if t not in placed: return t
+        # every fresh topic is used: re-run the oldest one that aired at least a year ago (researched again, new numbers)
+        for i, (d, t) in enumerate(history[show]):
+            if (day - d).days >= 365:
+                history[show].pop(i); return t
         return None
 
     day = start
@@ -65,8 +71,8 @@ def build(start, end, short_start):
             elif (day.month, day.day) != (m, d): continue
             todays[show] = topic; placed.add(topic)
         for show in todays:
-            if todays[show] is None: todays[show] = take(show)
-            if todays[show]: placed.add(todays[show])
+            if todays[show] is None: todays[show] = take(show, day)
+            if todays[show]: placed.add(todays[show]); history[show].append((day, todays[show]))
         todays = {k: v for k, v in todays.items() if v}
         if todays: cal[day.isoformat()] = todays
         day += dt.timedelta(days=1)
@@ -74,7 +80,7 @@ def build(start, end, short_start):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--start", default="2026-09-30"); ap.add_argument("--end", default="2028-09-30")
+    ap = argparse.ArgumentParser(); ap.add_argument("--start", default="2026-09-30"); ap.add_argument("--end", default="2029-09-30")
     ap.add_argument("--short-start", default="2026-10-03")
     a = ap.parse_args()
     cal, left = build(dt.date.fromisoformat(a.start), dt.date.fromisoformat(a.end), dt.date.fromisoformat(a.short_start))
