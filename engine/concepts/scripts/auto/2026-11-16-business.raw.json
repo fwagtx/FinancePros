@@ -15,7 +15,7 @@
     "t": "hook",
     "title": "Same seat, [$250] more?",
     "prop": "tag",
-    "label": "$150 vs $400",
+    "label": "$400",
     "mood": "shock"
    }
   },
@@ -131,33 +131,16 @@
    "text": "Meanwhile, the average domestic fare, adjusted for inflation, fell from $618 in 1995 to $387 in 2025.",
    "say": "Meanwhile, the average domestic fare, adjusted for inflation, fell from about six hundred twenty dollars in nineteen ninety-five to about three ninety in twenty twenty-five.",
    "scene": {
-    "t": "chart",
-    "title": "Avg US domestic fare (2025 $)",
-    "points": [
-     [
-      1995,
-      618
-     ],
-     [
-      2000,
-      634
-     ],
-     [
-      2022,
-      416
-     ],
-     [
-      2024,
-      394
-     ],
-     [
-      2025,
-      387
-     ]
-    ],
-    "prefix": "$",
-    "end": "$387",
-    "color": "down"
+    "t": "money",
+    "from": {
+     "label": "Avg fare, 1995",
+     "value": "$618"
+    },
+    "to": {
+     "label": "Avg fare, 2025",
+     "value": "$387"
+    },
+    "mood": "up"
    }
   },
   {
