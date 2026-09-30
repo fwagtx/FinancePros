@@ -1,0 +1,188 @@
+{
+ "id": "2026-11-15-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Every crypto swap\ncan be taxed",
+ "cover": {
+  "title": "Your Crypto Swap Is Taxed?",
+  "prop": "coins",
+  "value": "$500 gain"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Swapped one coin for another? The IRS calls that a sale.",
+   "say": "Swapped one coin for another? The IRS calls that a sale.",
+   "scene": {
+    "t": "hook",
+    "title": "Every swap is a [sale]",
+    "prop": "coins",
+    "value": "TAXED",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS treats crypto as property, not money, so a swap counts as selling.",
+   "say": "Why? The IRS treats crypto as property, not money, so a swap counts as selling.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Crypto = property",
+     "not money (IRS)",
+     "swap or spend = sell"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Selling, swapping, spending, or getting paid in crypto can all trigger tax.",
+   "say": "Selling, swapping, spending, or getting paid in crypto can all trigger tax.",
+   "scene": {
+    "t": "list",
+    "title": "Can trigger tax",
+    "items": [
+     "Selling for dollars",
+     "Swapping coins",
+     "Spending it",
+     "Getting paid in it"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you buy $1,000 of bitcoin and it grows to $1,500.",
+   "say": "Say you buy a thousand dollars of bitcoin, and it grows to fifteen hundred.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You buy",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Grows to",
+     "value": "$1,500"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Swap it for ether: that's a $500 gain, with no cash in your bank.",
+   "say": "Swap it for ether, and that's a five hundred dollar gain, with no cash in your bank.",
+   "scene": {
+    "t": "stat",
+    "label": "Taxable gain",
+    "value": "$500",
+    "tone": "down",
+    "sub": "$1,500 - $1,000 cost",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Held a year or less, in the 22% bracket: $110 of tax. Over a year at 15%: $75.",
+   "say": "Held a year or less, in the twenty-two percent bracket, that's a hundred and ten dollars. Over a year at fifteen percent, it's seventy-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Tax on a $500 gain",
+    "left": {
+     "label": "1 year or less",
+     "value": "$110",
+     "tone": "down",
+     "sub": "22% bracket"
+    },
+    "right": {
+     "label": "Over 1 year",
+     "value": "$75",
+     "tone": "up",
+     "sub": "15% rate"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, single filers with taxable income up to $49,450 pay 0% on long-term gains.",
+   "say": "In twenty twenty-six, single filers with taxable income up to about forty-nine thousand dollars pay zero percent on long-term gains.",
+   "scene": {
+    "t": "chart",
+    "title": "0% long-term gains limit, single",
+    "points": [
+     [
+      2022,
+      41675
+     ],
+     [
+      2023,
+      44625
+     ],
+     [
+      2024,
+      47025
+     ],
+     [
+      2025,
+      48350
+     ],
+     [
+      2026,
+      49450
+     ]
+    ],
+    "prefix": "$",
+    "end": "$49,450",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Losses help: they offset gains, plus up to $3,000 of other income a year.",
+   "say": "Losses help. They offset gains, plus up to three thousand dollars of other income a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Net losses can offset income",
+    "value": "$3,000",
+    "tone": "up",
+    "sub": "per year, IRS Topic 409",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since 2025, exchanges report your sales to the IRS on Form 1099-DA.",
+   "say": "Since twenty twenty-five, exchanges report your sales to the IRS on Form ten ninety-nine D A.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Form 1099-DA",
+     "exchanges report",
+     "your sales"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Swapping crypto? The IRS counts it as a sale",
+  "ig": "Swapped one coin for another? The IRS calls that a sale.\n\nThe IRS treats crypto as property, so selling, swapping, spending or getting paid in it can all be taxable.\nExample: $1,000 of bitcoin grows to $1,500, you swap it for ether: that's a $500 gain, about $110 of tax at a 22% short-term rate or $75 at the 15% long-term rate.\nIn 2026, single filers with taxable income up to $49,450 pay 0% on long-term gains.\nSince 2025, exchanges report crypto sales to the IRS on Form 1099-DA.\n\nSources: IRS digital asset FAQ, IRS Topic 409, IRS 2026 inflation adjustments.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#crypto #cryptotaxes #taxes #personalfinance #financeprostv",
+  "tiktok": "Every crypto swap can be a taxable sale. Here's the math. Not financial advice. #moneytok #personalfinance #cryptotaxes #crypto #financeprostv",
+  "yt_desc": "The IRS treats crypto as property, so swapping one coin for another, spending it, or selling it can be a taxable event. A $500 gain costs about $110 at a 22% short-term rate or $75 at the 15% long-term rate, and in 2026 single filers with taxable income up to $49,450 pay 0% on long-term gains. Sources: IRS digital asset FAQ, IRS Topic 409, IRS 2026 inflation adjustments, Form 1099-DA rules.\n\nNews and education, not financial advice.\n\n#Shorts #crypto #taxes",
+  "tags": [
+   "crypto taxes",
+   "is crypto taxable",
+   "form 1099-DA",
+   "capital gains tax",
+   "personal finance"
+  ]
+ }
+}
