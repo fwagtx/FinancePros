@@ -163,10 +163,18 @@ def layout_line(F, sc, st, step):
     if t == "hook":
         ti, yb = F.title(sc.get("title", ""), size=sc.get("size"))
         items += ti
-        cy = (yb + F.box[3]) / 2 + 20
-        if sc.get("prop") == "house" and sc.get("label"): cy += 70 if F.v else 60   # the house's sign stands above the roof: keep it clear of the title
-        items += [dict(i, at=0.4) for i in prop_items(sc.get("prop", "none"), F.cx, cy, 1.25 if F.v else 1.3, sc.get("label"))]
-        if sc.get("value"): items.append(dict(k="text", x=F.cx, y=min(F.box[3], cy + 330), text=sc["value"], size=130 if F.v else 150, font="marker", color=RED, at=1.4, maxW=F.w))
+        prop, value = sc.get("prop", "none"), sc.get("value")
+        vsize = fit(value, F.w, 1, 130 if F.v else 150, 70, 0.62)[1] if value else 0
+        # the value sits on its own row at the bottom; the prop gets the space between the title and that row, so they never overlap
+        vy = F.box[3] if value else None
+        bottom = (vy - vsize * 0.9) if value else F.box[3]
+        cy = (yb + bottom) / 2 + (0 if value else 20)
+        if prop == "house" and sc.get("label"): cy += 70 if F.v else 60   # the house's sign stands above the roof: keep it clear of the title
+        scale = 0.95 if value and prop != "none" else (1.25 if F.v else 1.3)
+        if value and prop in ("house", "fed", "store", "customs"):   # tall buildings are drawn below their anchor: shrink and lift them
+            scale *= 0.75; cy -= 110 * scale
+        items += [dict(i, at=0.4) for i in prop_items(prop, F.cx, cy, scale, sc.get("label"))]
+        if value: items.append(dict(k="text", x=F.cx, y=round(vy), text=value, size=vsize, font="marker", color=RED, at=1.4, maxW=F.w))
         items += F.host_item(mood or "shock", "pointleft")
     elif t == "board":
         bx, by = F.box[0] - 10, top + 40; bw = F.w + 10 - (0 if F.host else 0); bh = 440 if F.v else 560
