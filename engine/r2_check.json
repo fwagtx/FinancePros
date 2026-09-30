@@ -1,0 +1,14 @@
+{
+  "r2_ready": true,
+  "bucket": "financepros-media",
+  "urls": [
+    "https://pub-6fa1031fabba4c758b8205f317be35e5.r2.dev/healthcheck/fp-test.mp4",
+    "https://pub-6fa1031fabba4c758b8205f317be35e5.r2.dev/healthcheck/fp-test-cover.png"
+  ],
+  "public": [
+    false,
+    false
+  ],
+  "metricool": "available, brand found",
+  "note": "curl HEAD on the mp4 URL returns 200; Python urllib HEAD returns 403 (likely r2.dev rejecting the default Python-urllib User-Agent), so wait_public reports false"
+}
