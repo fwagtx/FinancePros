@@ -173,6 +173,7 @@ def layout_line(F, sc, st, step):
         scale = 0.95 if value and prop != "none" else (1.25 if F.v else 1.3)
         if value and prop in ("house", "fed", "store", "customs"):   # tall buildings are drawn below their anchor: shrink and lift them
             scale *= 0.75; cy -= 110 * scale
+        if value and prop == "card": scale *= 0.8; cy -= 25   # the tilted card is the widest, tallest flat prop
         items += [dict(i, at=0.4) for i in prop_items(prop, F.cx, cy, scale, sc.get("label"))]
         if value: items.append(dict(k="text", x=F.cx, y=round(vy), text=value, size=vsize, font="marker", color=RED, at=1.4, maxW=F.w))
         items += F.host_item(mood or "shock", "pointleft")
