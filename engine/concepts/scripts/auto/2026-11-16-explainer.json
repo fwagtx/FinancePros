@@ -1,0 +1,197 @@
+{
+ "id": "2026-11-16-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why banks pay such\ndifferent interest",
+ "cover": {
+  "title": "$1 or $400 on Savings?",
+  "prop": "pot",
+  "value": "x400"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Same $10,000. One bank pays $1. Another pays $400.",
+   "say": "Ten grand. One bank pays a dollar. Another pays four hundred.",
+   "scene": {
+    "t": "hook",
+    "title": "[$1] or $400?",
+    "prop": "pot",
+    "label": "$10,000",
+    "value": "x400",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of September 2026, some big banks paid 0.01% on savings. Top online banks paid about 4%.",
+   "say": "As of September twenty twenty-six, some big banks paid zero point zero one percent. Top online banks paid about four percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Savings APY, Sept 2026",
+    "left": {
+     "label": "Big bank",
+     "value": "0.01%",
+     "tone": "down",
+     "sub": "standard savings"
+    },
+    "right": {
+     "label": "Top online",
+     "value": "~4%",
+     "tone": "up",
+     "sub": "high-yield"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $10,000 for a year, that's $1 versus about $400.",
+   "say": "On ten thousand dollars for a year, that's one dollar versus about four hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "$10,000 for one year",
+    "left": {
+     "label": "At 0.01%",
+     "value": "$1",
+     "tone": "down"
+    },
+    "right": {
+     "label": "At 4%",
+     "value": "$400",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The national average sits in between: 0.39% in January 2026, per the FDIC.",
+   "say": "The national average sits in between, at zero point three nine percent in January twenty twenty-six, per the FDIC.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg savings rate (FDIC, Jan)",
+    "points": [
+     [
+      2022,
+      0.06
+     ],
+     [
+      2023,
+      0.33
+     ],
+     [
+      2024,
+      0.47
+     ],
+     [
+      2025,
+      0.41
+     ],
+     [
+      2026,
+      0.39
+     ]
+    ],
+    "suffix": "%",
+    "end": "0.39%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So why the gap? Branches, ATMs and staff cost money. Online banks skip most of that.",
+   "say": "So why the gap? Branches, ATMs and staff cost money. Online banks skip most of that.",
+   "scene": {
+    "t": "split",
+    "title": "Costs",
+    "left": {
+     "title": "Big bank",
+     "items": [
+      "branches",
+      "tellers",
+      "ATMs"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Online",
+     "items": [
+      "an app",
+      "a website"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Big banks also have plenty of deposits, and many customers never shop around.",
+   "say": "Big banks also have plenty of deposits, and many customers never shop around.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "BIG BANK",
+    "label": "rate: 0.01%",
+    "caption": "No need to compete",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Online banks use a high rate to win deposits. The rate is their product.",
+   "say": "Online banks use a high rate to win deposits. The rate is their product.",
+   "scene": {
+    "t": "hook",
+    "title": "The rate [is] the product",
+    "prop": "chart-up",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At any FDIC-insured bank, you're covered up to $250,000 per depositor, per bank, per category.",
+   "say": "At any FDIC-insured bank, you're covered up to two hundred fifty thousand dollars per depositor, per bank, per category.",
+   "scene": {
+    "t": "stat",
+    "label": "FDIC insurance limit",
+    "value": "$250,000",
+    "tone": "up",
+    "sub": "per depositor, per bank, per category"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Takeaway: where your savings sit matters as much as how much you save.",
+   "say": "The takeaway? Where your savings sit matters as much as how much you save.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same money",
+     "different bank",
+     "different interest"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why one bank pays $1 and another pays $400",
+  "ig": "Same $10,000. One bank pays you $1. Another pays $400.\n\nAs of September 2026, some big banks paid 0.01% APY on standard savings, while top online banks paid about 4%.\nThe FDIC national average was 0.39% in January 2026.\nThe gap: branch costs, plenty of deposits, and customers who don't shop around.\n\nSources: FDIC National Rates and Rate Caps, Bankrate, US News (Sept 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#savings #highyieldsavings #banking #personalfinance #financeprostv",
+  "tiktok": "Same $10,000: one bank pays $1, another $400. Here's why. Not financial advice. #moneytok #personalfinance #savings #banking #financeprostv",
+  "yt_desc": "As of September 2026, some of the biggest banks paid 0.01% APY on standard savings while top online banks paid about 4%, so $10,000 earns about $1 or $400 a year. The FDIC national average was 0.39% in January 2026. Sources: FDIC National Rates and Rate Caps, Bankrate, US News.\n\nNews and education, not financial advice.\n\n#Shorts #savings #banking",
+  "tags": [
+   "high yield savings",
+   "savings account interest",
+   "online banks",
+   "APY explained",
+   "personal finance"
+  ]
+ }
+}
