@@ -1,0 +1,213 @@
+{
+ "series": "ticker",
+ "header": "How movie theaters\nreally make money",
+ "cover": {
+  "title": "Your Ticket Isn't the Profit",
+  "prop": "bag",
+  "label": "$10 SNACKS",
+  "value": "$8.11"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your $10 movie ticket? The theater keeps about $4.",
+   "say": "Your ten-dollar movie ticket? The theater keeps about four.",
+   "scene": {
+    "t": "hook",
+    "title": "Your $10 ticket? It keeps [$4].",
+    "prop": "tag",
+    "label": "TICKET $10",
+    "value": "$4.20",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At Cinemark in 2025, 58% of US ticket sales went to film rent and advertising.",
+   "say": "At Cinemark in twenty twenty-five, fifty-eight percent of US ticket sales went to film rent and advertising.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cinemark US, 2025:",
+     "58% of ticket sales ->",
+     "film rent + advertising"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So $10 in tickets leaves $4.20 after film costs.",
+   "say": "So ten dollars in tickets leaves four dollars and twenty cents after film costs.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Tickets sold",
+     "value": "$10"
+    },
+    "to": {
+     "label": "Left after film costs",
+     "value": "$4.20"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$10 in snacks? Supplies cost $1.89, so the theater has $8.11 left.",
+   "say": "Ten dollars in snacks? Supplies cost a dollar eighty-nine, so the theater has eight eleven left.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Snacks sold",
+     "value": "$10"
+    },
+    "to": {
+     "label": "Left after supplies",
+     "value": "$8.11"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's nearly twice as much per dollar, before staff and rent.",
+   "say": "That's nearly twice as much per dollar, before staff and rent.",
+   "scene": {
+    "t": "compare",
+    "title": "Left per $10 sold (US, 2025)",
+    "left": {
+     "label": "Tickets",
+     "value": "$4.20",
+     "tone": "down",
+     "sub": "58% to film rent + ads"
+    },
+    "right": {
+     "label": "Snacks",
+     "value": "$8.11",
+     "tone": "up",
+     "sub": "18.9% for supplies"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Worldwide, concessions brought in $1.23 billion in 2025, 39% of revenue.",
+   "say": "Worldwide, concessions brought in one point two three billion dollars in twenty twenty-five, thirty-nine percent of revenue.",
+   "scene": {
+    "t": "stat",
+    "label": "Cinemark concessions, 2025 (worldwide)",
+    "value": "$1.23B",
+    "tone": "up",
+    "sub": "39% of $3.12B total revenue"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Snack spending per visitor went from $4.15 in 2019 to $6.36 in 2025.",
+   "say": "Snack spending per visitor went from four dollars fifteen in twenty nineteen to six thirty-six in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Snacks per visitor (worldwide)",
+    "points": [
+     [
+      2019,
+      4.15
+     ],
+     [
+      2022,
+      5.43
+     ],
+     [
+      2023,
+      5.68
+     ],
+     [
+      2024,
+      5.96
+     ],
+     [
+      2025,
+      6.36
+     ]
+    ],
+    "prefix": "$",
+    "end": "$6.36",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up 53%, while average ticket prices rose about 24%.",
+   "say": "That's up fifty-three percent, while average ticket prices rose about twenty-four percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Snacks per visitor (worldwide)",
+    "points": [
+     [
+      2019,
+      4.15
+     ],
+     [
+      2022,
+      5.43
+     ],
+     [
+      2023,
+      5.68
+     ],
+     [
+      2024,
+      5.96
+     ],
+     [
+      2025,
+      6.36
+     ]
+    ],
+    "prefix": "$",
+    "end": "$6.36",
+    "color": "up",
+    "chart_note": {
+     "x": 2025,
+     "text": "+53% since 2019"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The movie gets you in the door. The popcorn pays the bills.",
+   "say": "The movie gets you in the door. The popcorn pays the bills.",
+   "scene": {
+    "t": "hook",
+    "title": "The [popcorn] pays the bills.",
+    "prop": "bag",
+    "label": "POPCORN",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your $10 movie ticket? The theater keeps about $4",
+  "ig": "Your $10 movie ticket? The theater keeps about $4.\nAt Cinemark in 2025, 58.0% of US ticket sales went to film rent and advertising. Concession supplies were just 18.9% of US concession sales.\nSo $10 in tickets leaves $4.20 after film costs. $10 in snacks leaves $8.11 after supplies (before staff and rent).\nWorldwide, concessions brought in $1.23 billion, 39% of revenue, and snack spending per visitor rose from $4.15 (2019) to $6.36 (2025).\nSources: Cinemark 2025 annual report (10-K) and earnings releases.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#movietheater #popcorn #businessmodel #personalfinance #financeprostv",
+  "tiktok": "Your $10 movie ticket? The theater keeps about $4. The popcorn pays the bills. Not financial advice. #moneytok #personalfinance #movies #financeprostv",
+  "yt_desc": "At Cinemark in 2025, 58.0% of US ticket sales went to film rent and advertising, while concession supplies were 18.9% of US concession sales, so $10 in snacks leaves $8.11 versus $4.20 for $10 in tickets, before staff and rent. Worldwide, concessions were $1.23 billion, 39% of revenue, and spending per visitor rose from $4.15 in 2019 to $6.36 in 2025 (Cinemark 10-K and earnings releases). News and education, not financial advice. #Shorts #movies #business",
+  "tags": [
+   "how movie theaters make money",
+   "movie theater popcorn",
+   "cinemark",
+   "business model",
+   "concessions"
+  ]
+ }
+}
