@@ -1,0 +1,198 @@
+{
+ "series": "ticker",
+ "header": "Buying a home before\nyou're married",
+ "cover": {
+  "title": "Unmarried? The Deed Decides",
+  "prop": "house",
+  "label": "DEED",
+  "value": "$25K"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Buying a home unmarried? One line on the deed could cost you $25,000.",
+   "say": "Buying a home unmarried? One deed line could cost you twenty-five thousand.",
+   "scene": {
+    "t": "hook",
+    "title": "One deed line: [$25,000].",
+    "prop": "house",
+    "label": "DEED",
+    "mood": "shock",
+    "value": "$25K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Married couples have divorce law. Unmarried partners usually don't.",
+   "say": "Married couples have divorce law. Unmarried partners usually don't.",
+   "scene": {
+    "t": "split",
+    "title": "If you break up",
+    "left": {
+     "title": "Married",
+     "items": [
+      "Divorce court",
+      "State rules split it"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Unmarried",
+     "items": [
+      "No divorce law",
+      "Deed + agreement rule"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In NAR's 2025 survey, 11% of first-time buyers were unmarried couples.",
+   "say": "In the Realtors' twenty twenty-five survey, eleven percent of first-time buyers were unmarried couples.",
+   "scene": {
+    "t": "stat",
+    "label": "First-time buyers who were unmarried couples",
+    "value": "11%",
+    "tone": "neutral",
+    "sub": "NAR 2025 Profile (July 2024-June 2025)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Joint tenancy: equal shares, and if one dies, the other gets it all.",
+   "say": "Joint tenancy: equal shares, and if one dies, the other gets it all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Joint tenancy:",
+     "equal shares +",
+     "survivor gets it all"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tenants in common: shares can be unequal if the deed says so, and each share passes to that owner's heirs.",
+   "say": "Tenants in common: shares can be unequal if the deed says so, and each share passes to that owner's heirs.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tenants in common:",
+     "unequal shares if the",
+     "deed says so (75/25)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say Alex puts $60,000 into an $80,000 down payment. Sam puts in $20,000.",
+   "say": "Say Alex puts sixty thousand into an eighty thousand dollar down payment. Sam puts in twenty thousand.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Alex puts in",
+     "value": "$60,000"
+    },
+    "to": {
+     "label": "Share of down payment",
+     "value": "75%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sell with $100,000 in equity: equal shares pay Alex $50K. A 75/25 deed pays $75K.",
+   "say": "Sell with a hundred thousand in equity: equal shares pay Alex fifty thousand. A seventy-five, twenty-five deed pays seventy-five thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "$100,000 equity when you sell",
+    "left": {
+     "label": "Equal shares",
+     "value": "$50K",
+     "tone": "down",
+     "sub": "no split on deed"
+    },
+    "right": {
+     "label": "75/25 on the deed",
+     "value": "$75K",
+     "tone": "up",
+     "sub": "tenants in common"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $25,000, decided by what the deed says. Rules vary by state.",
+   "say": "That's twenty-five thousand, decided by what the deed says. Rules vary by state.",
+   "scene": {
+    "t": "compare",
+    "title": "$100,000 equity when you sell",
+    "left": {
+     "label": "Equal shares",
+     "value": "$50K",
+     "tone": "down",
+     "sub": "no split on deed"
+    },
+    "right": {
+     "label": "75/25 on the deed",
+     "value": "$75K",
+     "tone": "up",
+     "sub": "tenants in common"
+    },
+    "keep": true,
+    "winner": "right",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Both sign the mortgage? Each of you owes the whole loan, not half.",
+   "say": "Both sign the mortgage? Each of you owes the whole loan, not half.",
+   "scene": {
+    "t": "hook",
+    "title": "You each owe [all] of it.",
+    "prop": "paper",
+    "label": "MORTGAGE",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Takeaway: pick the title on purpose and put the split in writing.",
+   "say": "Takeaway: pick the title on purpose and put the split in writing.",
+   "scene": {
+    "t": "list",
+    "title": "Before you buy together",
+    "items": [
+     "Choose how you hold title",
+     "Write a co-ownership agreement"
+    ],
+    "reveal": 2,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Buying a home unmarried? One deed line could cost $25,000",
+  "ig": "Buying a home unmarried? One line on the deed could cost you $25,000.\nUnmarried partners usually can't rely on divorce law to split a home.\nJoint tenancy: equal shares, and the survivor gets it all. Tenants in common: shares can be unequal if the deed says so, and pass to each owner's heirs.\nExample: one partner puts $60,000 of an $80,000 down payment. On $100,000 of equity, equal shares pay them $50,000; a 75/25 split written on the deed pays $75,000.\nSources: NAR 2025 Profile of Home Buyers and Sellers (unmarried couples were 11% of first-time buyers); Nolo; FindLaw. Rules vary by state.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#homebuying #couplesandmoney #realestate #personalfinance #financeprostv",
+  "tiktok": "Buying a home unmarried? One line on the deed could cost you $25,000. Not financial advice. #moneytok #personalfinance #homebuying #financeprostv",
+  "yt_desc": "Unmarried couples buying a home can hold title as joint tenants (equal shares, survivor gets it all) or tenants in common (shares can be unequal if the deed says so, and pass to heirs). With $100,000 of equity, a partner who put in 75% of the down payment gets $50,000 under equal shares or $75,000 if a 75/25 split is written on the deed. Unmarried couples were 11% of first-time buyers in NAR's 2025 Profile. Rules vary by state. News and education, not financial advice. #Shorts #homebuying #couples",
+  "tags": [
+   "buying a house unmarried",
+   "joint tenancy vs tenants in common",
+   "buying a home with partner",
+   "home buying tips",
+   "real estate"
+  ]
+ }
+}
