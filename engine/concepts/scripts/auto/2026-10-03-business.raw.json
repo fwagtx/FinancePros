@@ -1,176 +1,176 @@
 {
-  "series": "ticker",
-  "header": "How Banks Make\nMoney on IPOs",
-  "cover": {
-    "title": "A Tenth of the Normal Fee?",
+ "series": "ticker",
+ "header": "How Banks Make\nMoney on IPOs",
+ "cover": {
+  "title": "A Tenth of the Normal Fee?",
+  "prop": "bag",
+  "label": "SpaceX",
+  "value": "0.7%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The biggest IPO ever paid bankers a tenth of the normal fee.",
+   "say": "The biggest IPO ever paid bankers a tenth of the normal fee.",
+   "scene": {
+    "t": "hook",
+    "title": "A [tenth] of the fee",
     "prop": "bag",
-    "label": "SpaceX IPO, June 2026",
-    "value": "0.7%"
+    "label": "SpaceX",
+    "value": "0.7%",
+    "mood": "shock"
+   }
   },
-  "lines": [
-    {
-      "who": "ticker",
-      "text": "The biggest IPO ever paid bankers a tenth of the normal fee.",
-      "say": "The biggest IPO ever paid bankers a tenth of the normal fee.",
-      "scene": {
-        "t": "hook",
-        "title": "A [tenth] of the fee",
-        "prop": "bag",
-        "label": "SpaceX, June 2026",
-        "value": "0.7%",
-        "mood": "shock"
-      }
+  {
+   "who": "ticker",
+   "text": "Most mid-size IPOs pay banks 7%. SpaceX paid 0.7%, so why say yes?",
+   "say": "Most mid-size IPOs pay banks seven percent. SpaceX paid zero point seven percent, so why say yes?",
+   "scene": {
+    "t": "compare",
+    "title": "Bank fee per IPO",
+    "left": {
+     "label": "Mid-size IPO",
+     "value": "7%",
+     "tone": "neutral",
+     "sub": "93% of $30-160M deals, 2001-25"
     },
-    {
-      "who": "ticker",
-      "text": "Most mid-size IPOs pay banks 7%. SpaceX paid 0.7%, so why say yes?",
-      "say": "Most mid-size IPOs pay banks seven percent. SpaceX paid zero point seven percent, so why say yes?",
-      "scene": {
-        "t": "compare",
-        "title": "Bank fee per IPO",
-        "left": {
-          "label": "Mid-size IPO",
-          "value": "7%",
-          "tone": "neutral",
-          "sub": "93% of $30-160M deals, 2001-25"
-        },
-        "right": {
-          "label": "SpaceX, June 2026",
-          "value": "0.7%",
-          "tone": "down",
-          "sub": "Bloomberg"
-        },
-        "mood": "think"
-      }
+    "right": {
+     "label": "SpaceX, June 2026",
+     "value": "0.7%",
+     "tone": "down",
+     "sub": "Bloomberg"
     },
-    {
-      "who": "ticker",
-      "text": "Banks buy the shares below the IPO price, then resell them at full price.",
-      "say": "Here's the job. Banks buy the shares below the IPO price, then resell them at full price.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "Gross spread =",
-          "IPO price - price paid",
-          "= the bank's fee"
-        ]
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "0.7% of the $75 billion base deal is still about $500 million.",
-      "say": "On the seventy-five billion dollar base deal, that still paid about five hundred million dollars.",
-      "scene": {
-        "t": "money",
-        "from": {
-          "label": "SpaceX base deal, June 2026",
-          "value": "$75B"
-        },
-        "to": {
-          "label": "bank fees",
-          "value": "~$500M"
-        }
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Day one: up 19%, from $135 to $160.95.",
-      "say": "Then on day one, the stock jumped nineteen percent, from a hundred thirty-five dollars to about a hundred sixty-one.",
-      "scene": {
-        "t": "stat",
-        "label": "SpaceX day-one pop",
-        "value": "+19%",
-        "tone": "up",
-        "sub": "$135 to $160.95, June 12, 2026",
-        "mood": "up"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "That handed the IPO buyers, mostly big funds banks picked, about $14.4 billion in one day.",
-      "say": "That handed the IPO buyers, mostly big funds the banks picked, about fourteen point four billion dollars in one day.",
-      "scene": {
-        "t": "hook",
-        "title": "Left on the [table]",
-        "prop": "coins",
-        "label": "$25.95 x 555.6M base shares",
-        "value": "$14.4B",
-        "mood": "shock"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Those big investors are also the banks' trading clients.",
-      "say": "And those big investors are also the banks' trading clients, paying fees on trades all year.",
-      "scene": {
-        "t": "split",
-        "title": "Who wins the IPO",
-        "left": {
-          "title": "Banks",
-          "items": [
-            "Fees",
-            "Trophy deal",
-            "Client loyalty"
-          ],
-          "tone": "up"
-        },
-        "right": {
-          "title": "Chosen investors",
-          "items": [
-            "Cheap shares",
-            "Day-one pop"
-          ],
-          "tone": "up"
-        }
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Goldman, 2025: equity underwriting was $1.78B of $58.3B revenue, about 3%.",
-      "say": "At Goldman Sachs in twenty twenty-five, all stock underwriting was about three percent of revenue.",
-      "scene": {
-        "t": "stat",
-        "label": "Goldman equity underwriting, 2025",
-        "value": "3%",
-        "tone": "neutral",
-        "sub": "$1.78B of $58.3B, FY2025 10-K",
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "The fee is the ticket in. The clients are the prize.",
-      "say": "So the fee is just the ticket in. The clients are the prize.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "IPO fee = ticket in",
-          "Clients = the prize"
-        ],
-        "mood": "happy"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "That's the money. Follow for more.",
-      "say": "That's the money. Follow for more.",
-      "scene": {
-        "t": "cta",
-        "tagline": "How They Make Money"
-      }
-    }
-  ],
-  "post": {
-    "title": "The biggest IPO ever paid bankers a tenth of the norm",
-    "ig": "The biggest IPO ever paid bankers a tenth of the normal fee.\nSpaceX raised $75 billion (base deal; $85.7B with the overallotment) and paid about 0.7%.\nMost mid-size IPOs pay banks exactly 7% (Jay Ritter data, 2001-2025).\nSpaceX fees: about $500 million on the $75B base deal (June 2026).\nDay one: $135 to $160.95, up 19%, about $14.4B left on the table (555.6M base shares).\nGoldman's equity underwriting was $1.78B of $58.3B in 2025 revenue, about 3%.\nSources: Bloomberg, CNBC, Jay Ritter (Univ. of Florida), Goldman Sachs FY2025 10-K.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#ipo #investmentbanking #spacex #howtheymakemoney #financeprostv",
-    "tiktok": "Biggest IPO ever, a tenth of the normal bank fee. How banks still win. Not financial advice. #moneytok #personalfinance #ipo #financeprostv",
-    "yt_desc": "The biggest IPO ever, SpaceX's $75 billion base deal in June 2026 ($85.7 billion with the overallotment), paid its banks about 0.7%, versus the 7% most mid-size IPOs pay. The stock rose 19% on day one, about $14.4 billion on the base shares for IPO buyers, mostly big funds the banks picked. Sources: Bloomberg, CNBC, Jay Ritter (University of Florida), Goldman Sachs FY2025 10-K. News and education, not financial advice. #Shorts #ipo #investmentbanking",
-    "tags": [
-      "how investment banks make money",
-      "IPO fees",
-      "SpaceX IPO",
-      "gross spread",
-      "investment banking explained"
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Banks buy the shares below the IPO price, then resell them at full price.",
+   "say": "Here's the job. Banks buy the shares below the IPO price, then resell them at full price.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Gross spread =",
+     "IPO price - price paid",
+     "= the bank's fee"
     ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "0.7% of the $75 billion base deal is still about $500 million.",
+   "say": "On the seventy-five billion dollar base deal, that still paid about five hundred million dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "SpaceX base deal, June 2026",
+     "value": "$75B"
+    },
+    "to": {
+     "label": "bank fees",
+     "value": "~$500M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Day one: up 19%, from $135 to $160.95.",
+   "say": "Then on day one, the stock jumped nineteen percent, from a hundred thirty-five dollars to about a hundred sixty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "SpaceX day-one pop",
+    "value": "+19%",
+    "tone": "up",
+    "sub": "$135 to $160.95, June 12, 2026",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That handed the IPO buyers, mostly big funds banks picked, about $14.4 billion in one day.",
+   "say": "That handed the IPO buyers, mostly big funds the banks picked, about fourteen point four billion dollars in one day.",
+   "scene": {
+    "t": "hook",
+    "title": "Left on the [table]",
+    "prop": "coins",
+    "label": "$25.95 x 555.6M base shares",
+    "value": "$14.4B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those big investors are also the banks' trading clients.",
+   "say": "And those big investors are also the banks' trading clients, paying fees on trades all year.",
+   "scene": {
+    "t": "split",
+    "title": "Who wins the IPO",
+    "left": {
+     "title": "Banks",
+     "items": [
+      "Fees",
+      "Trophy deal",
+      "Client loyalty"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Chosen investors",
+     "items": [
+      "Cheap shares",
+      "Day-one pop"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Goldman, 2025: equity underwriting was $1.78B of $58.3B revenue, about 3%.",
+   "say": "At Goldman Sachs in twenty twenty-five, all stock underwriting was about three percent of revenue.",
+   "scene": {
+    "t": "stat",
+    "label": "Goldman equity underwriting, 2025",
+    "value": "3%",
+    "tone": "neutral",
+    "sub": "$1.78B of $58.3B, FY2025 10-K",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fee is the ticket in. The clients are the prize.",
+   "say": "So the fee is just the ticket in. The clients are the prize.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "IPO fee = ticket in",
+     "Clients = the prize"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
   }
+ ],
+ "post": {
+  "title": "The biggest IPO ever paid bankers a tenth of the norm",
+  "ig": "The biggest IPO ever paid bankers a tenth of the normal fee.\nSpaceX raised $75 billion (base deal; $85.7B with the overallotment) and paid about 0.7%.\nMost mid-size IPOs pay banks exactly 7% (Jay Ritter data, 2001-2025).\nSpaceX fees: about $500 million on the $75B base deal (June 2026).\nDay one: $135 to $160.95, up 19%, about $14.4B left on the table (555.6M base shares).\nGoldman's equity underwriting was $1.78B of $58.3B in 2025 revenue, about 3%.\nSources: Bloomberg, CNBC, Jay Ritter (Univ. of Florida), Goldman Sachs FY2025 10-K.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#ipo #investmentbanking #spacex #howtheymakemoney #financeprostv",
+  "tiktok": "Biggest IPO ever, a tenth of the normal bank fee. How banks still win. Not financial advice. #moneytok #personalfinance #ipo #financeprostv",
+  "yt_desc": "The biggest IPO ever, SpaceX's $75 billion base deal in June 2026 ($85.7 billion with the overallotment), paid its banks about 0.7%, versus the 7% most mid-size IPOs pay. The stock rose 19% on day one, about $14.4 billion on the base shares for IPO buyers, mostly big funds the banks picked. Sources: Bloomberg, CNBC, Jay Ritter (University of Florida), Goldman Sachs FY2025 10-K. News and education, not financial advice. #Shorts #ipo #investmentbanking",
+  "tags": [
+   "how investment banks make money",
+   "IPO fees",
+   "SpaceX IPO",
+   "gross spread",
+   "investment banking explained"
+  ]
+ }
 }
