@@ -1,0 +1,223 @@
+{
+ "id": "2026-10-31-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "15-year vs 30-year\nmortgage face-off",
+ "cover": {
+  "title": "15 vs 30 Years: $337K Gap",
+  "prop": "house",
+  "value": "$337K"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "$798 more a month saves $337K in interest.",
+   "say": "About eight hundred more a month saves three hundred thirty-seven thousand in interest.",
+   "scene": {
+    "t": "hook",
+    "title": "$798 more saves [$337K].",
+    "prop": "house",
+    "label": "15 vs 30",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $400,000 loan at Freddie Mac's average rates from Sept. 24, 2026. Rates change weekly.",
+   "say": "Take a four hundred thousand dollar loan, at Freddie Mac's average rates from late September twenty twenty-six. Rates change weekly.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$400,000 loan",
+     "Rates as of Sept 24, 2026",
+     "(they change weekly)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 30-year averaged 7.03%. The 15-year, 6.42%.",
+   "say": "The thirty-year averaged seven point oh three percent. The fifteen-year, six point four two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Average rate, Sept 24, 2026",
+    "left": {
+     "label": "30-year",
+     "value": "7.03%",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "6.42%",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Monthly payment: about $2,670 versus $3,470, principal and interest.",
+   "say": "The payment is about twenty-six seventy a month, versus thirty-four seventy.",
+   "scene": {
+    "t": "compare",
+    "title": "Monthly payment (P&I)",
+    "left": {
+     "label": "30-year",
+     "value": "$2,670",
+     "tone": "up",
+     "sub": "lower payment"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "$3,470",
+     "tone": "down",
+     "sub": "about $800 more"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But total interest? About $561,000 versus $224,000.",
+   "say": "But total interest? About five hundred sixty-one thousand, versus two hundred twenty-four thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Total interest paid",
+    "left": {
+     "label": "30-year",
+     "value": "$561K",
+     "tone": "down",
+     "sub": "$560,939"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "$224K",
+     "tone": "up",
+     "sub": "$224,035"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 15-year saves about $337K in interest, and it's paid off 15 years sooner.",
+   "say": "The fifteen-year saves about three hundred thirty-seven thousand in interest, and it's paid off fifteen years sooner.",
+   "scene": {
+    "t": "compare",
+    "title": "Total interest paid",
+    "left": {
+     "label": "30-year",
+     "value": "$561K",
+     "tone": "down",
+     "sub": "$560,939"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "$224K",
+     "tone": "up",
+     "sub": "$224,035"
+    },
+    "keep": true,
+    "winner": "right",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trade-off: the 30-year's lower payment frees up cash you could save or invest. The 15-year costs far less overall.",
+   "say": "The trade-off: the thirty-year's lower payment frees up cash you could save or invest. The fifteen-year costs far less overall.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "30-year",
+     "items": [
+      "Lower payment",
+      "Cash free each month"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "15-year",
+     "items": [
+      "Far less interest",
+      "Done 15 years sooner"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And rates swing: the 30-year averaged 2.96% in 2021 and 6.60% in 2025.",
+   "say": "Rates swing, too: about three percent in twenty twenty-one, six point six in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "30-year rate, annual average",
+    "points": [
+     [
+      2019,
+      3.94
+     ],
+     [
+      2020,
+      3.11
+     ],
+     [
+      2021,
+      2.96
+     ],
+     [
+      2022,
+      5.34
+     ],
+     [
+      2023,
+      6.81
+     ],
+     [
+      2024,
+      6.72
+     ],
+     [
+      2025,
+      6.6
+     ]
+    ],
+    "suffix": "%",
+    "end": "6.60%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lower payment or lower total cost: that's the real face-off.",
+   "say": "Lower payment, or lower total cost: that's the real face-off.",
+   "scene": {
+    "t": "hook",
+    "title": "Payment vs. [total] cost",
+    "prop": "house",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "15-year vs 30-year mortgage: $337,000 less interest",
+  "ig": "$798 more a month saves $337K in interest.\nExample: a $400,000 loan at Freddie Mac's Sept 24, 2026 averages (30-year 7.03%, 15-year 6.42%). Rates change weekly.\n30-year: $2,669 a month, $560,939 total interest.\n15-year: $3,467 a month, $224,035 total interest, paid off 15 years sooner.\nThe trade-off: the 30-year's lower payment frees up monthly cash.\nSources: Freddie Mac Primary Mortgage Market Survey; standard amortization math (principal and interest only).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgage #homebuying #interestrates #personalfinance #financeprostv",
+  "tiktok": "$400K mortgage at Sept 24, 2026 rates: 15-year costs $798 more a month, saves $337K interest. Not financial advice. #moneytok #mortgage #financeprostv",
+  "yt_desc": "Example: a $400,000 loan at Freddie Mac's Sept 24, 2026 average rates (30-year 7.03%, 15-year 6.42%). The 30-year costs $2,669 a month and $560,939 in interest; the 15-year costs $3,467 a month and $224,035 in interest, but the 30-year's lower payment frees up monthly cash. Principal and interest only; rates change weekly. News and education, not financial advice. #Shorts #mortgage #homebuying",
+  "tags": [
+   "15 year vs 30 year mortgage",
+   "mortgage rates",
+   "mortgage interest",
+   "home buying",
+   "freddie mac"
+  ]
+ }
+}
