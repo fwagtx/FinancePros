@@ -1,0 +1,1447 @@
+{
+ "id": "2026-10-07-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "THE GUIDE",
+ "cover": {
+  "title": "The 19-Year Minimum.",
+  "prop": "card",
+  "label": "$5,000",
+  "value": "19 yrs"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Pay only the minimum on $5,000? It can take 19 years.",
+   "say": "Pay just the minimum on five grand? It can take nineteen years.",
+   "scene": {
+    "t": "hook",
+    "title": "Minimum payment = [19] years",
+    "prop": "card",
+    "label": "$5,000",
+    "value": "19 yrs",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And you'd pay about $8,100 in interest. That's more than the debt itself.",
+   "say": "And you'd pay about eight thousand one hundred dollars in interest. That's more than the debt itself.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Balance",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Interest at minimum",
+     "value": "$8,100"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That assumes a 22% APR, a minimum of 1% plus interest or $25, and no new charges.",
+   "say": "That assumes a twenty-two percent A P R, a minimum of one percent plus interest or twenty-five dollars, and no new charges.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$5,000 at 22% APR",
+     "Min = 1% + interest or $25",
+     "No new charges"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Americans owed $1.26 trillion on credit cards in the second quarter of 2026.",
+   "say": "Americans owed one point two six trillion dollars on credit cards in the second quarter of twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "US credit card balances, Q2 2026",
+    "value": "$1.26T",
+    "tone": "down",
+    "sub": "New York Fed, Aug 11, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And on September 16, 2026, the Fed raised rates to 3.75%-4%, its first hike since 2023.",
+   "say": "And on September sixteenth, twenty twenty-six, the Fed raised rates to a range of three point seven five to four percent, its first hike since twenty twenty-three.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed raises rates to 3.75%-4%, first hike since 2023",
+    "source": "Federal Reserve, Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the full plan: every step in order, the real rules, and the exact math.",
+   "say": "So here's the full plan: every step in order, the real rules, and the exact math.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "List every card",
+     "Set a fixed payment",
+     "Pick an order",
+     "Lower the rate"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. Why the minimum is a trap.",
+   "say": "Chapter one. Why the minimum is a trap.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Why the minimum is a trap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, how big is this? Card balances fell in 2020, then climbed every year after.",
+   "say": "First, how big is this? Card balances fell in twenty twenty, then climbed every year after.",
+   "scene": {
+    "t": "chart",
+    "title": "US credit card balances (Q4)",
+    "points": [
+     [
+      2019,
+      927
+     ],
+     [
+      2020,
+      820
+     ],
+     [
+      2021,
+      860
+     ],
+     [
+      2022,
+      986
+     ],
+     [
+      2023,
+      1130
+     ],
+     [
+      2024,
+      1210
+     ],
+     [
+      2025,
+      1280
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$1.28T",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They hit a record $1.28 trillion at the end of 2025.",
+   "say": "They hit a record one point two eight trillion dollars at the end of twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "Record: $1.28T"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the price of carrying a balance is steep. Accounts charged interest paid an average 22.15% APR in the second quarter of 2026.",
+   "say": "And the price of carrying a balance is steep. Accounts charged interest paid an average of about twenty-two percent A P R in the second quarter of twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg APR, accounts charged interest, Q2 2026",
+    "value": "22.15%",
+    "tone": "down",
+    "sub": "Federal Reserve G.19, Sept 8, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the minimum. Many issuers set it at 1% of the balance plus that month's interest.",
+   "say": "Now the minimum. Many issuers set it at one percent of the balance, plus that month's interest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Minimum payment =",
+     "1% of balance",
+     "+ this month's interest"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $5,000 at 22%, the first month's interest is $91.67. So the minimum is $141.67.",
+   "say": "On five thousand dollars at twenty-two percent, the first month's interest is ninety-one dollars and sixty-seven cents. So the minimum is a hundred forty-one dollars and sixty-seven cents.",
+   "scene": {
+    "t": "compare",
+    "title": "First minimum payment",
+    "left": {
+     "label": "Interest",
+     "value": "$91.67",
+     "tone": "down",
+     "sub": "gone"
+    },
+    "right": {
+     "label": "Principal",
+     "value": "$50",
+     "tone": "up",
+     "sub": "actually paid down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Only $50 of that actually shrinks the debt.",
+   "say": "Only fifty dollars of that actually shrinks the debt.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And here's the sneaky part. As the balance shrinks, the minimum shrinks too.",
+   "say": "And here's the sneaky part. As the balance shrinks, the minimum shrinks too.",
+   "scene": {
+    "t": "hook",
+    "title": "The minimum [shrinks] too",
+    "prop": "chart-down",
+    "label": "MINIMUM",
+    "value": "-$",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So you pay less and less each month, and the payoff drags on for 230 months.",
+   "say": "So you pay less and less each month, and the payoff drags on for two hundred thirty months.",
+   "scene": {
+    "t": "stat",
+    "label": "Months to pay $5,000 at the minimum",
+    "value": "230",
+    "tone": "down",
+    "sub": "22% APR, 1% + interest, $25 floor"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 19 years and two months, and about $8,100 in interest.",
+   "say": "That's nineteen years and two months, and about eight thousand one hundred dollars in interest.",
+   "scene": {
+    "t": "stat",
+    "label": "Total interest at the minimum",
+    "value": "$8,100",
+    "tone": "down",
+    "sub": "$8,099.70, FinancePros math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your card company has to show you this. It's the minimum payment warning box on your statement.",
+   "say": "Your card company has to show you this. It's the minimum payment warning box on your statement.",
+   "scene": {
+    "t": "hook",
+    "title": "Read the [warning] box",
+    "prop": "paper",
+    "label": "STATEMENT",
+    "value": "!",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you make only the minimum payment each period, you will pay more in interest and it will take you longer to pay off your balance.",
+   "say": "It says: if you make only the minimum payment each period, you will pay more in interest, and it will take you longer to pay off your balance.",
+   "scene": {
+    "t": "quote",
+    "text": "If you make only the minimum payment each period, you will pay more in interest and it will take you longer to pay off your balance.",
+    "source": "Minimum Payment Warning on card statements, Regulation Z"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That box also shows your payoff time, the total cost, and the monthly payment to finish in 36 months.",
+   "say": "That box also shows your payoff time, the total cost, and the monthly payment to finish in thirty-six months.",
+   "scene": {
+    "t": "list",
+    "title": "The warning box shows",
+    "items": [
+     "Payoff time at minimum",
+     "Total you'll pay",
+     "36-month payment",
+     "Counseling phone number"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plus a phone number for credit counseling. Hold that thought. We'll come back to it.",
+   "say": "Plus a phone number for credit counseling. Hold that thought. We'll come back to it.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. List it, and stop the bleeding.",
+   "say": "Chapter two. List it, and stop the bleeding.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "List it and stop the bleeding"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one is a list of every card, with four things for each one.",
+   "say": "Step one is a list of every card, with four things for each one.",
+   "scene": {
+    "t": "list",
+    "title": "Step 1: for each card",
+    "items": [
+     "Balance",
+     "APR",
+     "Minimum payment",
+     "Due date"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The balance, the APR, the minimum, and the due date. All of it is on your statement.",
+   "say": "The balance, the A P R, the minimum, and the due date. All of it is on your statement.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the example we'll use. Three cards, $8,000 in total.",
+   "say": "Here's the example we'll use. Three cards, eight thousand dollars in total.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: total card debt",
+    "value": "$8,000",
+    "tone": "neutral",
+    "sub": "three cards, made-up example"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Card A has $900 at 19%. Card B has $2,600 at 29%. Card C has $4,500 at 22%.",
+   "say": "Card A has nine hundred dollars at nineteen percent. Card B has twenty-six hundred at twenty-nine percent. Card C has forty-five hundred at twenty-two percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A: $900 at 19%",
+     "B: $2,600 at 29%",
+     "C: $4,500 at 22%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their minimums, held fixed, add up to $225 a month.",
+   "say": "Their minimums, held fixed, add up to two hundred twenty-five dollars a month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Minimums: $35 + $80 + $110",
+     "= $225 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two: stop the bleeding. That means two things.",
+   "say": "Step two: stop the bleeding. That means two things.",
+   "scene": {
+    "t": "split",
+    "title": "Step 2: stop the bleeding",
+    "left": {
+     "title": "Do",
+     "items": [
+      "Autopay the minimum",
+      "Pause new charges"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Why",
+     "items": [
+      "Late fees",
+      "Debt keeps growing"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, many people set autopay for at least the minimum on every card, so nothing is ever late.",
+   "say": "First, many people set autopay for at least the minimum on every card, so nothing is ever late.",
+   "scene": {
+    "t": "hook",
+    "title": "Never [late] again",
+    "prop": "card",
+    "label": "AUTOPAY",
+    "value": "ON",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 'late' has exact rules. Card companies can't set the cut-off earlier than 5 p.m. on the due date.",
+   "say": "And late has exact rules. Card companies can't set the cut-off earlier than five p m on the due date.",
+   "scene": {
+    "t": "timeline",
+    "title": "What late costs",
+    "events": [
+     [
+      "Day 1",
+      "Late fee"
+     ],
+     [
+      "Day 30",
+      "Can hit credit reports"
+     ],
+     [
+      "Day 60",
+      "Penalty APR on balance"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Once it's 30 days late, it can be reported to the credit bureaus, and it can stay up to seven years.",
+   "say": "Once it's thirty days late, it can be reported to the credit bureaus, and it can stay there for up to seven years.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 2,
+    "mood": "worried",
+    "events": []
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And at 60 days late, the issuer can switch your whole existing balance to a penalty rate.",
+   "say": "And at sixty days late, the issuer can switch your whole existing balance to a penalty rate.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 3,
+    "mood": "shock",
+    "events": []
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, the plan only works if the balance stops growing. So people often move daily spending to debit or cash while they pay down.",
+   "say": "Second, the plan only works if the balance stops growing. So people often move daily spending to debit or cash while they pay it down.",
+   "scene": {
+    "t": "hook",
+    "title": "Stop [adding] to it",
+    "prop": "bag",
+    "label": "NEW CHARGES",
+    "value": "$0"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can't bail out a boat while the hole is still open.",
+   "say": "You can't bail out a boat while the hole is still open.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Can't bail out a boat",
+     "with the hole still open"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. Pick one fixed payment.",
+   "say": "Chapter three. Pick one fixed payment.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Pick one fixed payment"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step three is the biggest lever in all of this math, and it's boring.",
+   "say": "Step three is the biggest lever in all of this math, and it's boring.",
+   "scene": {
+    "t": "hook",
+    "title": "Freeze the [payment]",
+    "prop": "coins",
+    "label": "SAME AMOUNT",
+    "value": "$",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Instead of letting the minimum shrink, this step uses one fixed dollar amount, paid every month.",
+   "say": "Instead of letting the minimum shrink, this step uses one fixed dollar amount, paid every month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Don't let it shrink.",
+     "Pick one number.",
+     "Pay it every month."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take our $5,000 card, and keep paying that first minimum, $141.67, every month.",
+   "say": "Take our five thousand dollar card, and keep paying that first minimum, a hundred forty-one dollars and sixty-seven cents, every month.",
+   "scene": {
+    "t": "stat",
+    "label": "Fixed payment on $5,000 at 22%",
+    "value": "$141.67",
+    "tone": "neutral",
+    "sub": "the first month's minimum, frozen"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now it's paid off in 58 months, with about $3,121 in interest.",
+   "say": "Now it's paid off in fifty-eight months, with about three thousand one hundred twenty-one dollars in interest.",
+   "scene": {
+    "t": "compare",
+    "title": "Same card, two habits",
+    "left": {
+     "label": "Shrinking min",
+     "value": "$8,100",
+     "tone": "down",
+     "sub": "230 months"
+    },
+    "right": {
+     "label": "Frozen at $141.67",
+     "value": "$3,121",
+     "tone": "up",
+     "sub": "58 months"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same card, same rate. You save almost $5,000 and about 14 years.",
+   "say": "Same card, same rate. You save almost five thousand dollars and about fourteen years.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay a bit more, and the clock speeds up. Here's what different fixed payments do.",
+   "say": "Pay a bit more, and the clock speeds up. Here's what different fixed payments do.",
+   "scene": {
+    "t": "chart",
+    "title": "Months to pay off $5,000 at 22%",
+    "points": [
+     [
+      142,
+      58
+     ],
+     [
+      150,
+      52
+     ],
+     [
+      191,
+      36
+     ],
+     [
+      200,
+      34
+     ],
+     [
+      250,
+      26
+     ],
+     [
+      300,
+      21
+     ]
+    ],
+    "prefix": "",
+    "suffix": " mo",
+    "end": "21 mo",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At $200 a month, it's gone in 34 months. At $300, it's 21 months.",
+   "say": "At two hundred dollars a month, it's gone in thirty-four months. At three hundred, it's twenty-one months.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 200,
+     "text": "$200/mo: 34 months"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And your statement already did one of these for you: the 36-month number.",
+   "say": "And your statement already did one of these for you: the thirty-six month number.",
+   "scene": {
+    "t": "stat",
+    "label": "36-month payment on $5,000 at 22%",
+    "value": "$190.95",
+    "tone": "up",
+    "sub": "total interest $1,874.28"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For this card, that's $190.95 a month, and about $1,874 in interest.",
+   "say": "For this card, that's about a hundred ninety-one dollars a month, and about eighteen hundred seventy-four dollars in interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "At the minimum",
+     "value": "$8,100"
+    },
+    "to": {
+     "label": "36-month plan",
+     "value": "$1,874"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Where does the extra money come from? Usually a mix: trimmed subscriptions, a side gig, a raise, or a tax refund.",
+   "say": "Where does the extra money come from? Usually a mix: trimmed subscriptions, a side gig, a raise, or a tax refund.",
+   "scene": {
+    "t": "list",
+    "title": "Common sources of extra cash",
+    "items": [
+     "Cut subscriptions",
+     "Side income",
+     "Raises",
+     "Tax refunds"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In our three-card example, the budget is $400 a month. That's $225 of minimums plus $175 extra.",
+   "say": "In our three-card example, the budget is four hundred dollars a month. That's two hundred twenty-five dollars of minimums, plus a hundred seventy-five extra.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Budget: $400 a month",
+     "$225 minimums",
+     "+ $175 extra"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. Avalanche, or snowball?",
+   "say": "Chapter four. Avalanche, or snowball?",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Avalanche or snowball?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step four is deciding which card gets the extra $175. There are two famous methods.",
+   "say": "Step four is deciding which card gets the extra hundred and seventy-five dollars. There are two famous methods.",
+   "scene": {
+    "t": "split",
+    "title": "Two ways to order your cards",
+    "left": {
+     "title": "Avalanche",
+     "items": [
+      "Highest APR first",
+      "Least interest"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Snowball",
+     "items": [
+      "Smallest balance first",
+      "Fastest first win"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The avalanche sends every extra dollar to the highest rate first. That's Card B, at 29%.",
+   "say": "The avalanche sends every extra dollar to the highest rate first. That's Card B, at twenty-nine percent.",
+   "scene": {
+    "t": "list",
+    "title": "Avalanche order",
+    "items": [
+     "B: 29%",
+     "C: 22%",
+     "A: 19%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The snowball goes after the smallest balance first. That's Card A, at $900.",
+   "say": "The snowball goes after the smallest balance first. That's Card A, at nine hundred dollars.",
+   "scene": {
+    "t": "list",
+    "title": "Snowball order",
+    "items": [
+     "A: $900",
+     "B: $2,600",
+     "C: $4,500"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When a card hits zero, its minimum rolls onto the next card. That's why it snowballs.",
+   "say": "When a card hits zero, its minimum rolls onto the next card. That's why it snowballs.",
+   "scene": {
+    "t": "hook",
+    "title": "Payments [roll] forward",
+    "prop": "coins",
+    "label": "FREED-UP MIN",
+    "value": "+$",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So which one wins? I ran both, month by month, with the same $400 budget.",
+   "say": "So which one wins? I ran both, month by month, with the same four hundred dollar budget.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same 3 cards",
+     "Same $400 a month",
+     "Two orders"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The avalanche costs $2,155.51 in interest. The snowball costs $2,263.62.",
+   "say": "The avalanche costs about twenty-one hundred and fifty-six dollars in interest. The snowball costs about twenty-two hundred and sixty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Total interest, $8,000 example",
+    "left": {
+     "label": "Avalanche",
+     "value": "$2,156",
+     "tone": "up",
+     "sub": "$2,155.51"
+    },
+    "right": {
+     "label": "Snowball",
+     "value": "$2,264",
+     "tone": "down",
+     "sub": "$2,263.62"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the avalanche saves $108.11. Both finish in month 26.",
+   "say": "So the avalanche saves about a hundred and eight dollars. Both finish in month twenty-six.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the surprise. The gap is real, but it's smaller than you might expect.",
+   "say": "That's the surprise. The gap is real, but it's smaller than you might expect.",
+   "scene": {
+    "t": "stat",
+    "label": "Avalanche savings in this example",
+    "value": "$108",
+    "tone": "neutral",
+    "sub": "$108.11 over 26 months"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What the snowball buys you is speed to the first win. Card A is gone in month five.",
+   "say": "What the snowball buys you is speed to the first win. Card A is gone in month five.",
+   "scene": {
+    "t": "timeline",
+    "title": "First card paid off",
+    "events": [
+     [
+      "Month 5",
+      "Snowball: Card A gone"
+     ],
+     [
+      "Month 12",
+      "Avalanche: Card B gone"
+     ],
+     [
+      "Month 26",
+      "Both debt-free"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With the avalanche, the first card doesn't disappear until month 12.",
+   "say": "With the avalanche, the first card doesn't disappear until month twelve.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 2,
+    "events": []
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And both of them land in the same place, debt-free in month 26.",
+   "say": "And both of them land in the same place, debt-free in month twenty-six.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 3,
+    "mood": "happy",
+    "events": []
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So it's a trade-off. The avalanche is cheaper on paper. The snowball gives you quicker wins, which some people need to keep going.",
+   "say": "So it's a trade-off. The avalanche is cheaper on paper. The snowball gives you quicker wins, which some people need to keep going.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "Avalanche",
+     "items": [
+      "Saves $108 here",
+      "Slower first win"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Snowball",
+     "items": [
+      "Costs $108 more",
+      "Win in month 5"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One rule helps if you have several balances on one card, like purchases and a cash advance.",
+   "say": "One rule helps if you have several balances on one card, like purchases and a cash advance.",
+   "scene": {
+    "t": "hook",
+    "title": "One card, two [rates]",
+    "prop": "card",
+    "label": "BUY + CASH",
+    "value": "2 APRs",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By law, anything you pay above the minimum goes to the highest-rate balance first.",
+   "say": "By law, anything you pay above the minimum goes to the highest-rate balance first.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Above the minimum?",
+     "Goes to the highest",
+     "APR balance first"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's section 1026.53 of Regulation Z, and it means extra payments work avalanche-style inside each card.",
+   "say": "That's section ten twenty-six point fifty-three of Regulation Z, and it means extra payments work avalanche-style inside each card.",
+   "scene": {
+    "t": "stat",
+    "label": "Payment allocation rule",
+    "value": "1026.53",
+    "tone": "up",
+    "sub": "Regulation Z, Credit CARD Act of 2009"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. Lower the rate.",
+   "say": "Chapter five. Lower the rate.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Lower the rate"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step five: make each dollar work harder by cutting the interest rate. There are four common tools.",
+   "say": "Step five: make each dollar work harder by cutting the interest rate. There are four common tools.",
+   "scene": {
+    "t": "list",
+    "title": "Ways to lower the rate",
+    "items": [
+     "Call your issuer",
+     "Balance transfer",
+     "Personal loan",
+     "Credit counseling plan"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool one is a phone call. People ask the issuer for a lower APR or a hardship program. Sometimes the answer is yes.",
+   "say": "Tool one is a phone call. People ask the issuer for a lower A P R or a hardship program. Sometimes the answer is yes.",
+   "scene": {
+    "t": "hook",
+    "title": "Just [ask]",
+    "prop": "card",
+    "label": "LOWER APR?",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool two is a balance transfer. You move the debt to a card with a 0% intro rate, for a fee.",
+   "say": "Tool two is a balance transfer. You move the debt to a card with a zero percent intro rate, for a fee.",
+   "scene": {
+    "t": "hook",
+    "title": "Tool two is a balance transfer. You move the deb",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That fee is usually 3% to 5% of the amount moved, and the CFPB says it can apply even on a 0% offer.",
+   "say": "That fee is usually three to five percent of the amount moved, and the C F P B says it can apply even on a zero percent offer.",
+   "scene": {
+    "t": "stat",
+    "label": "Typical balance transfer fee",
+    "value": "3%-5%",
+    "tone": "neutral",
+    "sub": "of the amount moved, per CFPB"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you move $5,000 with a 3% fee. That's $150, and the new balance is $5,150.",
+   "say": "Say you move five thousand dollars with a three percent fee. That's a hundred and fifty dollars, and the new balance is fifty-one hundred and fifty dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$5,000 x 3% = $150 fee",
+     "New balance: $5,150"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With 18 months at 0%, you'd need $286.11 a month to clear it before the promo ends.",
+   "say": "With eighteen months at zero percent, you'd need about two hundred eighty-six dollars a month to clear it before the promo ends.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$5,150 / 18 months",
+     "= $286.11 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay that same $286.11 at 22%, and it takes 22 months and costs $1,083.18 in interest.",
+   "say": "Pay that same amount at twenty-two percent, and it takes twenty-two months and costs about one thousand eighty-three dollars in interest.",
+   "scene": {
+    "t": "compare",
+    "title": "$5,000 at $286.11 a month",
+    "left": {
+     "label": "0% transfer",
+     "value": "$150",
+     "tone": "up",
+     "sub": "fee, 18 months"
+    },
+    "right": {
+     "label": "Stay at 22%",
+     "value": "$1,083",
+     "tone": "down",
+     "sub": "interest, 22 mo"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On paper, the transfer wins, but only if the balance is gone before the intro rate ends.",
+   "say": "On paper, the transfer wins, but only if the balance is gone before the intro rate ends.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whatever's left after the promo goes back to the regular APR, and paying 60 days late can cost you the promo rate.",
+   "say": "Whatever's left after the promo goes back to the regular A P R, and paying sixty days late can cost you the promo rate.",
+   "scene": {
+    "t": "split",
+    "title": "Balance transfer catches",
+    "left": {
+     "title": "Works when",
+     "items": [
+      "Paid off in time",
+      "No new charges"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Backfires when",
+     "items": [
+      "Promo ends first",
+      "60 days late"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool three is a personal loan. It's a fixed rate, a fixed payment, and a finish date.",
+   "say": "Tool three is a personal loan. It's a fixed rate, a fixed payment, and a finish date.",
+   "scene": {
+    "t": "hook",
+    "title": "Tool three is a personal loan. It's a fixed rate",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Banks charged an average of 11.86% on 24-month personal loans in the second quarter of 2026. Your rate depends on your credit.",
+   "say": "Banks charged an average of about twelve percent on two-year personal loans in the second quarter of twenty twenty-six. Your own rate depends on your credit.",
+   "scene": {
+    "t": "compare",
+    "title": "Average rates, Q2 2026",
+    "left": {
+     "label": "Personal loan",
+     "value": "11.86%",
+     "tone": "up",
+     "sub": "24-month, banks"
+    },
+    "right": {
+     "label": "Credit card",
+     "value": "22.15%",
+     "tone": "down",
+     "sub": "interest-bearing"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $5,000 over 24 months, that loan rate means $235.04 a month and $640.97 in interest.",
+   "say": "On five thousand dollars over two years, that loan rate means about two hundred thirty-five dollars a month, and about six hundred forty-one dollars in interest.",
+   "scene": {
+    "t": "compare",
+    "title": "$5,000 over 24 months",
+    "left": {
+     "label": "Loan at 11.86%",
+     "value": "$641",
+     "tone": "up",
+     "sub": "$235.04 a month"
+    },
+    "right": {
+     "label": "Card at 22%",
+     "value": "$1,225",
+     "tone": "down",
+     "sub": "$259.39 a month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same payoff on a 22% card is $259.39 a month and $1,225.38 in interest.",
+   "say": "The same payoff on a twenty-two percent card is about two hundred fifty-nine dollars a month, and about twelve hundred twenty-five dollars in interest.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: if the cards get used again, you now have the loan and new card debt.",
+   "say": "The catch: if the cards get used again, you now have the loan and new card debt.",
+   "scene": {
+    "t": "hook",
+    "title": "Loan + new card [debt]",
+    "prop": "card",
+    "label": "LOAN + CARDS",
+    "value": "x2",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool four is that phone number from your statement: nonprofit credit counseling.",
+   "say": "Tool four is that phone number from your statement: nonprofit credit counseling.",
+   "scene": {
+    "t": "hook",
+    "title": "Tool four is that phone number from your stateme",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A counselor can set up a debt management plan. You make one payment to the agency, and it pays your cards.",
+   "say": "A counselor can set up a debt management plan. You make one payment to the agency, and it pays your cards.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You -> agency (1 payment)",
+     "Agency -> each card"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Card companies in the plan may lower rates or waive fees. Setup fees are often $75 or less, and monthly fees around $25 to $50.",
+   "say": "Card companies in the plan may lower rates or waive fees. Setup fees are often seventy-five dollars or less, and monthly fees run around twenty-five to fifty dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Typical debt management plan fees",
+    "value": "$25-$50",
+    "tone": "neutral",
+    "sub": "per month; setup often $75 or less (NFCC, NCOA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Debt settlement is a different thing. You pay less than you owe, and it can badly damage your credit.",
+   "say": "Debt settlement is a different thing. You pay less than you owe, and it can badly damage your credit.",
+   "scene": {
+    "t": "split",
+    "title": "Not the same thing",
+    "left": {
+     "title": "Debt management plan",
+     "items": [
+      "Pay in full",
+      "Lower rates"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Debt settlement",
+     "items": [
+      "Pay less than owed",
+      "Credit damage"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One protection to know: since 2010, the FTC has banned debt relief companies that sell by phone from charging fees before they settle a debt.",
+   "say": "One protection to know: since twenty ten, the F T C has banned debt relief companies that sell by phone from charging fees before they settle a debt.",
+   "scene": {
+    "t": "stat",
+    "label": "Upfront debt settlement fees",
+    "value": "Banned",
+    "tone": "up",
+    "sub": "FTC Telemarketing Sales Rule, since Oct 2010"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. The mistakes, and the checklist.",
+   "say": "Chapter six. The mistakes, and the checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Mistakes and the checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, that Fed hike. Most card APRs are the prime rate plus a margin, and prime went to 7% after the hike.",
+   "say": "First, that Fed hike. Most card A P Rs are the prime rate plus a margin, and prime went to seven percent after the hike.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75%-4.00%",
+    "caption": "Hiked Sept 16, 2026",
+    "name": "FEDERAL RESERVE"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That means many card rates rise by a quarter point. On $5,000, that's $12.50 more a year.",
+   "say": "That means many card rates rise by a quarter point. On five thousand dollars, that's about twelve dollars and fifty cents more a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra yearly interest, $5,000, +0.25 pt",
+    "value": "$12.50",
+    "tone": "down",
+    "sub": "$5,000 x 0.25%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's annoying, but it's tiny next to the 22% you're already paying. The big lever is still your payment.",
+   "say": "That's annoying, but it's tiny next to the twenty-two percent you're already paying. The big lever is still your payment.",
+   "scene": {
+    "t": "compare",
+    "title": "What moves the needle",
+    "left": {
+     "label": "Fed hike",
+     "value": "+0.25 pt",
+     "tone": "neutral",
+     "sub": "$12.50 a year"
+    },
+    "right": {
+     "label": "Card APR",
+     "value": "22%",
+     "tone": "down",
+     "sub": "$1,100 a year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake one: paying only the minimum. We've seen what that does: 19 years.",
+   "say": "Mistake one: paying only the minimum. We've seen what that does: nineteen years.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Minimum only",
+     "Closing old cards",
+     "Missing the promo end",
+     "Upfront-fee 'relief'"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake two: closing cards the moment they hit zero.",
+   "say": "Mistake two: closing cards the moment they hit zero.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Amounts owed make up 30% of a FICO score. Close a card, and your total limit drops, so the share of credit you're using can jump.",
+   "say": "Amounts owed make up thirty percent of a FICO score. Close a card, and your total limit drops, so the share of credit you're using can jump.",
+   "scene": {
+    "t": "stat",
+    "label": "Share of FICO score from amounts owed",
+    "value": "30%",
+    "tone": "neutral",
+    "sub": "myFICO; utilization is a big part"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake three: letting a 0% promo run out with a balance still on it.",
+   "say": "Mistake three: letting a zero percent promo run out with a balance still on it.",
+   "scene": {
+    "t": "hook",
+    "title": "Mistake three: letting a 0% promo run out with a",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And mistake four: paying anyone who wants money upfront to make your debt disappear.",
+   "say": "And mistake four: paying anyone who wants money upfront to make your debt disappear.",
+   "scene": {
+    "t": "hook",
+    "title": "And mistake four: paying anyone who wants money ",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the whole guide on one screen.",
+   "say": "Here's the whole guide on one screen.",
+   "scene": {
+    "t": "list",
+    "title": "The checklist",
+    "items": [
+     "Balance, APR, due date",
+     "Autopay every minimum",
+     "One fixed payment",
+     "Avalanche or snowball"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The steps: every card listed, autopay so nothing is late, then one fixed payment.",
+   "say": "The steps: every card listed, autopay so nothing is late, then one fixed payment.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next comes an order, avalanche or snowball, with each paid-off minimum rolling into the next card.",
+   "say": "Next comes an order, avalanche or snowball, with each paid-off minimum rolling into the next card.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then comes the rate: a call, a transfer, a loan, or a counseling plan, each with its own math.",
+   "say": "Then comes the rate: a call, a transfer, a loan, or a counseling plan, each with its own math.",
+   "scene": {
+    "t": "list",
+    "title": "Then lower the rate",
+    "items": [
+     "Call the issuer",
+     "0% transfer (fee)",
+     "Personal loan",
+     "Nonprofit counseling"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the big number: the same $5,000 costs $8,100 at the shrinking minimum, and $3,121 with the payment frozen.",
+   "say": "And the big number: the same five thousand dollars costs about eight thousand one hundred at the shrinking minimum, and about thirty-one hundred with the payment frozen.",
+   "scene": {
+    "t": "compare",
+    "title": "$5,000 at 22%",
+    "left": {
+     "label": "Shrinking min",
+     "value": "$8,100",
+     "tone": "down",
+     "sub": "19 years"
+    },
+    "right": {
+     "label": "Frozen payment",
+     "value": "$3,121",
+     "tone": "up",
+     "sub": "under 5 years"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same debt, same rate. The only difference is one number you choose.",
+   "say": "Same debt, same rate. The only difference is one number you choose.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit card debt isn't a character flaw. It's math, and math has a finish line.",
+   "say": "Credit card debt isn't a character flaw. It's math, and math has a finish line.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "It's not a flaw.",
+     "It's math.",
+     "Math has a finish line."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not financial advice. Follow FinancePros TV for money, explained simply.",
+   "say": "This is education, not financial advice. Follow FinancePros TV for money, explained simply.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained simply."
+   }
+  }
+ ],
+ "post": {
+  "title": "How to Pay Off Credit Card Debt, Step by Step (why the minimum takes 19 years)",
+  "ig": "Paying the minimum on $5,000 can take 19 years. Here's the step-by-step way out.",
+  "tiktok": "The minimum payment trap, and the math that beats it.",
+  "yt_desc": "Paying only the minimum on a $5,000 credit card balance at 22% APR can take 19 years and cost about $8,100 in interest. This guide walks through paying off credit card debt step by step: listing every card, avoiding late-payment penalties, freezing one fixed payment, choosing between the avalanche and snowball methods, and the ways people lower their rate, from balance transfers and personal loans to nonprofit debt management plans. Worked examples show the exact math, plus what the September 2026 Fed rate hike means for card APRs and the most common mistakes.\n\nCHAPTERS\n\nSources: Federal Reserve Bank of New York Household Debt and Credit Report (Q2 2026, Aug 11, 2026; earlier Q4 reports 2019-2025); Federal Reserve G.19 Consumer Credit (Sept 8, 2026); Federal Reserve FOMC statement (Sept 16, 2026); Credit CARD Act of 2009 and Regulation Z (12 CFR 1026.53, 1026.55); CFPB on balance transfer fees and credit counseling; FTC Telemarketing Sales Rule (2010); NFCC and NCOA on debt management plans; myFICO.\n\nNews and education, not financial advice.\n\n#creditcarddebt #personalfinance #moneytips",
+  "tags": [
+   "credit card debt",
+   "pay off debt",
+   "debt avalanche",
+   "debt snowball",
+   "balance transfer",
+   "minimum payment",
+   "personal finance",
+   "debt management plan"
+  ]
+ }
+}
