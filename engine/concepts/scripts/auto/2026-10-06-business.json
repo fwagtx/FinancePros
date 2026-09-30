@@ -1,0 +1,192 @@
+{
+ "id": "2026-10-06-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Visa\nreally makes money",
+ "cover": {
+  "title": "Visa Lends $0, Profits $20B",
+  "prop": "card",
+  "label": "net income, FY2025",
+  "value": "$20B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Visa lends $0. It still made $20B profit.",
+   "say": "Visa lends zero dollars. It still made twenty billion in profit.",
+   "scene": {
+    "t": "hook",
+    "title": "Visa lends [$0]",
+    "prop": "card",
+    "label": "net income, FY2025",
+    "value": "$20B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's for the fiscal year ended September 2025, and the trick is that your card isn't really Visa's.",
+   "say": "That's for the fiscal year that ended in September twenty twenty-five, and the trick is that your card isn't really Visa's.",
+   "scene": {
+    "t": "split",
+    "title": "Whose card is it?",
+    "left": {
+     "title": "Your bank",
+     "items": [
+      "issues the card",
+      "lends the money",
+      "sets your rate"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Visa",
+     "items": [
+      "runs the network",
+      "moves the data"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your bank takes the risk and keeps your interest. Visa charges banks for using its network.",
+   "say": "Your bank takes the risk and keeps your interest. Visa charges banks for using its network.",
+   "scene": {
+    "t": "list",
+    "title": "How Visa bills banks",
+    "items": [
+     "Fees on card volume",
+     "Fees per transaction",
+     "Cross-border fees",
+     "Other services"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those fees totaled $55.75 billion, but Visa paid $15.75 billion back to banks as incentives.",
+   "say": "Those fees totaled fifty-five point seven five billion dollars, but Visa paid fifteen point seven five billion back to banks as incentives.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Gross fees, FY2025",
+     "value": "$55.75B"
+    },
+    "to": {
+     "label": "Net revenue, FY2025",
+     "value": "$40.0B"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That left $40.0 billion in net revenue, up from $24.1 billion in fiscal 2021.",
+   "say": "That left forty billion in net revenue, up from twenty-four point one billion in fiscal twenty twenty-one.",
+   "scene": {
+    "t": "chart",
+    "title": "Visa net revenue by fiscal year",
+    "points": [
+     [
+      2021,
+      24.1
+     ],
+     [
+      2022,
+      29.3
+     ],
+     [
+      2023,
+      32.7
+     ],
+     [
+      2024,
+      35.9
+     ],
+     [
+      2025,
+      40.0
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$40.0B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spread over $14.2 trillion in payments volume, that's Visa's cut: about 28¢ per $100 spent.",
+   "say": "Spread over fourteen point two trillion dollars in payments volume, that's Visa's cut: about twenty-eight cents for every hundred dollars spent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$40.0B / $14.2T volume",
+     "= 0.28%",
+     "Visa's cut: ~28¢ per $100"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tiny slices, but with no loans to go bad, about 50 cents of each revenue dollar became profit.",
+   "say": "Tiny slices. But with no loans to go bad, about fifty cents of each revenue dollar became profit.",
+   "scene": {
+    "t": "stat",
+    "label": "Profit per revenue dollar, FY2025",
+    "value": "50¢",
+    "tone": "up",
+    "sub": "$20.1B net income / $40.0B revenue (10-K)",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So your card interest goes to your bank. Visa earns on the swipe itself.",
+   "say": "So the interest on your card goes to your bank, while Visa earns on the swipe itself.",
+   "scene": {
+    "t": "compare",
+    "title": "Who gets what",
+    "left": {
+     "label": "Card interest",
+     "value": "Bank",
+     "tone": "neutral",
+     "sub": "issuer lends"
+    },
+    "right": {
+     "label": "Network fees",
+     "value": "Visa",
+     "tone": "up",
+     "sub": "per swipe"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
+  }
+ ],
+ "post": {
+  "title": "How Visa made $20B in profit without lending a dime",
+  "ig": "Visa lends $0. It still made $20.1 billion in net income in fiscal 2025.\nYour bank issues the card, lends the money and keeps your interest. Visa charges banks for using its network.\nFY2025 gross fees: $55.75B, minus $15.75B in bank incentives = $40.0B net revenue.\nVisa's cut: about 28 cents per $100 of its $14.2 trillion in payments volume, and about half became profit.\nSources: Visa FY2025 Form 10-K and full-year earnings release.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#visa #howtheymakemoney #creditcards #business #financeprostv",
+  "tiktok": "Visa lends $0 but made $20.1B profit in FY2025. Here's how. Not financial advice. #moneytok #personalfinance #visa #creditcards #financeprostv",
+  "yt_desc": "Visa never lends money, yet it earned $20.1 billion in net income on $40.0 billion of net revenue in fiscal 2025. Banks issue the cards and keep the interest; Visa charges banks for network services, about 28 cents per $100 of its $14.2 trillion payments volume. Source: Visa FY2025 Form 10-K and earnings release. News and education, not financial advice. #Shorts #visa #business",
+  "tags": [
+   "how visa makes money",
+   "visa business model",
+   "visa 10-k",
+   "credit card network",
+   "how they make money"
+  ]
+ }
+}

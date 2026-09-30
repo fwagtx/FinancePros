@@ -1,0 +1,213 @@
+{
+ "series": "ticker",
+ "header": "How Renters Insurance\nMakes Money",
+ "cover": {
+  "title": "Why Is Renters Insurance So Cheap?",
+  "prop": "house",
+  "label": "renters policy",
+  "value": "$14/mo"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Renters insurance costs about $14 a month. Insurers still profit.",
+   "say": "Renters insurance costs about fourteen dollars a month. Insurers still profit.",
+   "scene": {
+    "t": "hook",
+    "title": "Cheap Policy, Real [Profit]",
+    "prop": "house",
+    "label": "renters policy",
+    "value": "$14/mo",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trick: it covers your stuff and liability, not the building.",
+   "say": "The trick is what's missing. It covers your stuff and your liability, not the building.",
+   "scene": {
+    "t": "split",
+    "title": "A renters policy",
+    "left": {
+     "title": "Covered",
+     "items": [
+      "Your belongings",
+      "Liability",
+      "Costs if displaced"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Not covered",
+     "items": [
+      "The building",
+      "Landlord insures it"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Average renters premium: $173 a year (NAIC, 2023 data).",
+   "say": "State regulators put the average renters premium at a hundred seventy-three dollars a year in twenty twenty-three.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg renters premium, 2023",
+    "value": "$173/yr",
+    "tone": "neutral",
+    "sub": "NAIC, 2023 data",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$173 / 12 = $14.42 a month.",
+   "say": "Divide that by twelve and you get fourteen dollars and forty-two cents a month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$173 / 12 months",
+     "= $14.42 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2014 it was $190, so the average actually went down.",
+   "say": "Back in twenty fourteen it was a hundred ninety dollars, so it actually went down.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg renters premium per year",
+    "points": [
+     [
+      2014,
+      190
+     ],
+     [
+      2016,
+      185
+     ],
+     [
+      2017,
+      180
+     ],
+     [
+      2018,
+      179
+     ],
+     [
+      2019,
+      174
+     ],
+     [
+      2020,
+      173
+     ],
+     [
+      2021,
+      170
+     ],
+     [
+      2022,
+      171
+     ],
+     [
+      2023,
+      173
+     ]
+    ],
+    "prefix": "$",
+    "end": "$173",
+    "color": "down",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Allstate's other personal lines (with renters), 2025: 77.4¢ claims and 16.5¢ expenses per $1.",
+   "say": "Allstate reports renters alongside condo and landlord policies. In twenty twenty-five, each premium dollar there paid seventy-seven point four cents in claims and sixteen point five cents in expenses.",
+   "scene": {
+    "t": "compare",
+    "title": "Allstate, per $1 of premium, 2025",
+    "left": {
+     "label": "Claims",
+     "value": "77.4¢",
+     "tone": "down",
+     "sub": "loss ratio"
+    },
+    "right": {
+     "label": "Expenses",
+     "value": "16.5¢",
+     "tone": "neutral",
+     "sub": "expense ratio"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$1.00 - 77.4¢ - 16.5¢ = 6.1¢ of underwriting profit.",
+   "say": "That leaves six point one cents of underwriting profit on every dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1.00 - 77.4¢ - 16.5¢",
+     "= 6.1¢ profit",
+     "Allstate 10-K, FY2025"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two quiet extras: investing premiums before claims, and bundling with car insurance.",
+   "say": "Two quiet extras: insurers invest premiums before claims arrive, and renters policies help bundle in car insurance.",
+   "scene": {
+    "t": "list",
+    "title": "Two quiet extras",
+    "items": [
+     "Invest premiums first",
+     "Bundle with car insurance"
+    ],
+    "reveal": 2,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Small risk, small price, steady profit. That's the renters model.",
+   "say": "Small risk, small price, steady profit. That's the renters model.",
+   "scene": {
+    "t": "hook",
+    "title": "Small Risk, Steady [Profit]",
+    "prop": "coins",
+    "label": "per $1",
+    "value": "6.1¢",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How Renters Insurance Makes Money on $14 a Month",
+  "ig": "Renters insurance costs about $14 a month. Insurers still profit.\nThe average renters premium was $173 a year in 2023, down from $190 in 2014 (NAIC).\nIt covers your stuff and liability, not the building, so the risk per policy is small.\nAllstate's other personal lines, which include renters, paid 77.4 cents in claims and 16.5 cents in expenses per premium dollar in 2025: 6.1 cents of underwriting profit.\nSources: NAIC homeowners and renters reports; Allstate 10-K, fiscal 2025.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#rentersinsurance #insurance #personalfinance #howtheymakemoney #financeprostv",
+  "tiktok": "Renters insurance is $14/mo. How do insurers profit? Not financial advice. #moneytok #personalfinance #rentersinsurance #insurance #financeprostv",
+  "yt_desc": "The average renters premium was $173 a year in 2023, about $14.42 a month, down from $190 in 2014 (NAIC). In Allstate's other personal lines, which include renters, each 2025 premium dollar paid 77.4 cents in claims and 16.5 cents in expenses, leaving 6.1 cents of underwriting profit (Allstate 10-K, fiscal 2025). News and education, not financial advice. #Shorts #insurance #personalfinance",
+  "tags": [
+   "renters insurance",
+   "how renters insurance makes money",
+   "insurance business model",
+   "Allstate",
+   "personal finance"
+  ]
+ }
+}

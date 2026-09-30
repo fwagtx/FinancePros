@@ -1,0 +1,1432 @@
+{
+ "id": "2026-10-01-lf-world",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "WORLD MONEY",
+ "cover": {
+  "title": "Why the Dollar Swung.",
+  "countries": [
+   "us",
+   "germany",
+   "japan"
+  ],
+  "prop": "bill",
+  "label": "€2,000 trip",
+  "value": "+$280"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Same trip, same hotel, $280 more in one year.",
+   "say": "Same trip, same hotel, two hundred eighty dollars more in one year.",
+   "scene": {
+    "t": "hook",
+    "title": "Same trip, [$280] more",
+    "prop": "tag",
+    "label": "€2,000 trip",
+    "value": "+$280",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was 2025, and the hotel didn't raise a thing. The dollar slipped. Then in 2026, it started fighting back.",
+   "say": "That was twenty twenty-five, and the hotel didn't raise a thing. The dollar slipped. Then in twenty twenty-six, it started fighting back.",
+   "scene": {
+    "t": "compare",
+    "title": "A €2,000 trip in dollars",
+    "left": {
+     "label": "Jan 2025",
+     "value": "$2,060",
+     "tone": "up",
+     "sub": "€1 = $1.03"
+    },
+    "right": {
+     "label": "End of 2025",
+     "value": "$2,340",
+     "tone": "down",
+     "sub": "€1 = $1.17"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025 the dollar index fell about 9.4%, its worst year since 2017.",
+   "say": "In twenty twenty-five, the dollar index fell about nine point four percent. That was its worst year since twenty seventeen.",
+   "scene": {
+    "t": "stat",
+    "label": "Dollar index, 2025",
+    "value": "-9.4%",
+    "tone": "down",
+    "sub": "worst year since 2017 (Barchart, Bloomberg)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then September 2026 turned out to be its best month since June, up about 1.7%.",
+   "say": "Then September twenty twenty-six turned out to be its best month since June, up about one point seven percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Dollar posts best month since June",
+    "source": "Reuters, Sept. 29 / Bloomberg, Sept. 30, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the strange part: oil prices over $100 are part of the reason the dollar got stronger.",
+   "say": "And here's the strange part. Oil prices above a hundred dollars a barrel are part of the reason the dollar got stronger.",
+   "scene": {
+    "t": "stat",
+    "label": "Brent crude, Sept. 28, 2026",
+    "value": "$105",
+    "tone": "down",
+    "sub": "closed $105.28 (CNBC)",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A war, an oil shock, and a rate hike all pushed on the same currency.",
+   "say": "A war, an oil shock, and a rate hike were all pushing on the same currency at the same time.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "my $ is back!"
+     },
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "my euro..."
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "yen at 157"
+     }
+    ],
+    "caption": "Three forces, one dollar"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's untangle it: what a strong dollar means, how we got here, and what it does to your wallet.",
+   "say": "So let's untangle it: what a strong dollar actually means, how we got here, and what it does to your wallet.",
+   "scene": {
+    "t": "list",
+    "title": "Today's map",
+    "items": [
+     "What strong means",
+     "How we got here",
+     "Your wallet"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. What does a strong dollar even mean?",
+   "say": "Chapter one. What does a strong dollar even mean?",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What strong means"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A strong dollar means one dollar buys more of other currencies.",
+   "say": "A strong dollar simply means one dollar buys more of other countries' money.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Strong dollar =",
+     "$1 buys more foreign money"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A weak dollar means it buys less. That's it. Strong isn't good and weak isn't bad; they just pick different winners.",
+   "say": "A weak dollar means it buys less. That's it. Strong isn't good and weak isn't bad; they just pick different winners.",
+   "scene": {
+    "t": "split",
+    "title": "Strong vs weak",
+    "left": {
+     "title": "Strong $",
+     "items": [
+      "buys more abroad",
+      "imports cheaper"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Weak $",
+     "items": [
+      "buys less abroad",
+      "exports cheaper"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The most quoted scoreboard is the US Dollar Index, often called the DXY.",
+   "say": "The most quoted scoreboard is the US Dollar Index, which traders call the D X Y.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "US Dollar Index",
+     "(the DXY)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It started at 100 in March 1973. Above 100, the dollar is stronger than then. Below, weaker.",
+   "say": "It started at one hundred in March nineteen seventy-three. Above one hundred, the dollar is stronger than back then. Below, it's weaker.",
+   "scene": {
+    "t": "stat",
+    "label": "DXY starting point",
+    "value": "100",
+    "tone": "neutral",
+    "sub": "base = March 1973 (ICE)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It compares the dollar to six currencies, and the euro makes up 57.6% of the basket.",
+   "say": "It compares the dollar with six currencies, and the euro alone makes up almost fifty-eight percent of the basket.",
+   "scene": {
+    "t": "stat",
+    "label": "Euro's weight in the DXY",
+    "value": "57.6%",
+    "tone": "neutral",
+    "sub": "plus yen, pound, Canadian $, krona, franc"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The others are the yen, the British pound, the Canadian dollar, the Swedish krona and the Swiss franc.",
+   "say": "The others are the Japanese yen, the British pound, the Canadian dollar, the Swedish krona, and the Swiss franc.",
+   "scene": {
+    "t": "list",
+    "title": "The DXY basket",
+    "items": [
+     "Euro 57.6%",
+     "Yen",
+     "Pound, Canadian $",
+     "Krona, franc"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when you hear 'the dollar rose,' it mostly means 'the dollar rose against the euro.'",
+   "say": "So when you hear the dollar rose, it mostly means the dollar rose against the euro.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy"
+     },
+     {
+      "name": "germany",
+      "mood": "sad",
+      "says": "the euro is 57.6%"
+     }
+    ],
+    "caption": "Dollar news = mostly euro news"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the dollar isn't just America's money. It's on one side of 89% of all currency trades.",
+   "say": "And the dollar isn't just America's money. It's on one side of eighty-nine percent of all currency trades on Earth.",
+   "scene": {
+    "t": "stat",
+    "label": "FX trades that involve the $",
+    "value": "89%",
+    "tone": "up",
+    "sub": "BIS Triennial Survey, April 2025",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's out of $9.6 trillion traded every single day, as of April 2025.",
+   "say": "That's out of about nine point six trillion dollars traded every single day, as of April twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Currency trading per day",
+    "value": "$9.6T",
+    "tone": "neutral",
+    "sub": "April 2025, up 28% from 2022 (BIS)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Central banks also hold 57.13% of their foreign reserves in dollars, as of early 2026.",
+   "say": "Central banks around the world also keep about fifty-seven percent of their foreign reserves in dollars, as of early twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "World reserves held in $",
+    "value": "57.13%",
+    "tone": "neutral",
+    "sub": "IMF COFER, Q1 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a currency's price works like anything else's: it's supply and demand.",
+   "say": "So a currency's price works like the price of anything else. It's supply and demand.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More people want $",
+     "= stronger dollar"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the world wants more dollars, the dollar gets stronger. When it wants fewer, it weakens.",
+   "say": "When the world wants more dollars, the dollar gets stronger. When it wants fewer, the dollar weakens.",
+   "scene": {
+    "t": "hook",
+    "title": "Demand sets the [price]",
+    "prop": "bill",
+    "label": "$1",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three big things drive that demand: interest rates, fear, and trade.",
+   "say": "And three big things drive that demand: interest rates, fear, and trade.",
+   "scene": {
+    "t": "list",
+    "title": "What moves the dollar",
+    "items": [
+     "Interest rates",
+     "Fear (safe haven)",
+     "Trade and oil"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Higher US interest rates pull in savers from all over the world, because dollar deposits and bonds pay more.",
+   "say": "Higher US interest rates pull in savers from all over the world, because dollar deposits and bonds pay more.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fear sends money running into the dollar too. And trade, especially oil, decides who needs whose money.",
+   "say": "Fear sends money running into the dollar too. And trade, especially oil, decides who needs whose money.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. How the dollar became the world's money.",
+   "say": "Chapter two. How the dollar became the world's money.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "How the dollar got here"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1944, at Bretton Woods, countries pegged their currencies to the dollar, and the dollar to gold.",
+   "say": "In nineteen forty-four, at a meeting in Bretton Woods, New Hampshire, countries pegged their currencies to the dollar, and the dollar was tied to gold.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1944",
+      "Bretton Woods: $ tied to gold"
+     ],
+     [
+      "1971",
+      "Gold window closes"
+     ],
+     [
+      "1985",
+      "Record high, then Plaza"
+     ],
+     [
+      "2008",
+      "Record low"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On August 15, 1971, President Nixon closed the gold window. Dollars could no longer be swapped for gold.",
+   "say": "Then on August fifteenth, nineteen seventy-one, President Nixon closed the gold window. Foreign governments could no longer swap dollars for gold.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 2,
+    "events": []
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From then on, the dollar floated. Its price was set by markets every day.",
+   "say": "From then on, the dollar floated. Its price has been set by markets, every single trading day.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "label": "price: set daily",
+    "caption": "No more gold peg",
+    "name": "CURRENCY MARKET"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By February 1985 the dollar index hit its all-time high: 164.72.",
+   "say": "By February nineteen eighty-five, the dollar index hit its all-time high, about one hundred sixty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "DXY all-time high, Feb. 1985",
+    "value": "164.72",
+    "tone": "up",
+    "sub": "ICE US Dollar Index",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "American exporters were struggling, because anything they made cost a fortune overseas.",
+   "say": "American exporters were struggling, because anything they made cost a fortune overseas.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "nobody buys my stuff"
+     },
+     {
+      "name": "japan",
+      "mood": "happy"
+     },
+     {
+      "name": "germany",
+      "mood": "happy"
+     }
+    ],
+    "caption": "Too strong hurts, too"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So five countries met at New York's Plaza Hotel in September 1985 and agreed the dollar should come down.",
+   "say": "So on September twenty-second, nineteen eighty-five, five countries met at the Plaza Hotel in New York and agreed the dollar should come down.",
+   "scene": {
+    "t": "hook",
+    "title": "So five countries met at New York's Plaza Hotel ",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "\"Some further orderly appreciation of the main non-dollar currencies against the dollar is desirable.\"",
+   "say": "Their statement said, quote, some further orderly appreciation of the main non-dollar currencies against the dollar is desirable.",
+   "scene": {
+    "t": "quote",
+    "text": "Some further orderly appreciation of the main non-dollar currencies against the dollar is desirable.",
+    "source": "Plaza Accord statement, Sept. 22, 1985"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's central-bank speak for 'please get cheaper.' Over 1985 to 1987, the dollar fell about 40%.",
+   "say": "That's central bank talk for please get cheaper. And from nineteen eighty-five to eighty-seven, the dollar fell about forty percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Dollar's drop, 1985-87",
+    "value": "-40%",
+    "tone": "down",
+    "sub": "after the Plaza Accord"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then in March 2008, during the financial crisis, the index hit its record low of about 70.7.",
+   "say": "Then in March two thousand eight, heading into the financial crisis, the index hit its record low, about seventy-one.",
+   "scene": {
+    "t": "hook",
+    "title": "Then in March 2008, during the financial crisis,",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So in about 23 years the dollar swung from about 165 down to about 71. Big swings are normal.",
+   "say": "So in about twenty-three years the dollar swung from about one sixty-five down to about seventy-one. Big swings are normal.",
+   "scene": {
+    "t": "compare",
+    "title": "The dollar index's range",
+    "left": {
+     "label": "Feb 1985 high",
+     "value": "164.72",
+     "tone": "up",
+     "sub": "all-time high"
+    },
+    "right": {
+     "label": "Mar 2008 low",
+     "value": "70.70",
+     "tone": "down",
+     "sub": "all-time low"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the recent years. Here are the index's year-end levels since 2020.",
+   "say": "Now zoom in on recent years. Here's where the index ended each year since twenty twenty.",
+   "scene": {
+    "t": "chart",
+    "title": "Dollar Index, year-end (2026 = Sept.)",
+    "points": [
+     [
+      2020,
+      89.9
+     ],
+     [
+      2021,
+      95.7
+     ],
+     [
+      2022,
+      103.5
+     ],
+     [
+      2023,
+      101.3
+     ],
+     [
+      2024,
+      108.5
+     ],
+     [
+      2025,
+      98.3
+     ],
+     [
+      2026,
+      101.1
+     ]
+    ],
+    "end": "~101 (Sep '26)",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It climbed to about 108 at the end of 2024, after rising about 7% that year.",
+   "say": "It climbed to about one hundred eight at the end of twenty twenty-four, after rising about seven percent that year.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2024,
+     "text": "~108, up ~7%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 2025 knocked it back to about 98. That's the drop our hotel example felt.",
+   "say": "Then twenty twenty-five knocked it back down to about ninety-eight. That's the drop our hotel example felt.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "-9.4% in 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. Why the dollar got weak in 2025.",
+   "say": "Chapter three. Why the dollar got weak in twenty twenty-five.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The weak year: 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start with rates. The Fed cut three times in 2025: September, October and December.",
+   "say": "Start with interest rates. The Federal Reserve cut three times in twenty twenty-five: in September, October, and December.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3 cuts in 2025",
+    "caption": "Sept, Oct, Dec 2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That took its target range down to 3.50% to 3.75% by December 2025.",
+   "say": "That took its target range down to three and a half to three and three quarters percent by December.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed target range, Dec. 2025",
+    "value": "3.5-3.75%",
+    "tone": "down",
+    "sub": "after the third cut of 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lower US rates mean dollar savings pay less, so some global money goes looking elsewhere.",
+   "say": "Lower US rates mean dollar savings pay less, so some of the world's money goes looking somewhere else.",
+   "scene": {
+    "t": "hook",
+    "title": "Lower rates, [less] demand",
+    "prop": "coins",
+    "label": "yield",
+    "value": "less",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tariffs and policy uncertainty in 2025 also made some investors less eager to hold dollars.",
+   "say": "On top of that, tariffs and policy uncertainty in twenty twenty-five made some investors less eager to hold dollars.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "label": "tariffs",
+    "caption": "Uncertainty cools demand",
+    "name": "US CUSTOMS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The euro was the big winner. It rose about 13.4% against the dollar in 2025.",
+   "say": "The euro was the big winner. It rose about thirteen and a half percent against the dollar in twenty twenty-five.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "germany",
+      "mood": "happy",
+      "says": "euro +13.4%!"
+     },
+     {
+      "name": "us",
+      "mood": "sad"
+     }
+    ],
+    "caption": "The euro's big 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It went from about $1.03 in early January to about $1.17 at year-end.",
+   "say": "It went from about a dollar and three cents in early January to about a dollar seventeen at year-end.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "€1, Jan. 2025",
+     "value": "$1.03"
+    },
+    "to": {
+     "label": "€1, end of 2025",
+     "value": "$1.17"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the math on that 2,000-euro trip. In January: 2,000 times 1.03 is $2,060.",
+   "say": "Here's the math on that two-thousand-euro trip. In January, two thousand times one point zero three is two thousand sixty dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "€2,000 × 1.03",
+     "= $2,060"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At year-end: 2,000 times 1.17 is $2,340. That's $280 more.",
+   "say": "At year-end, two thousand times one point one seven is two thousand three hundred forty dollars. That's two hundred eighty more.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "€2,000 × 1.17",
+     "= $2,340",
+     "+$280, same trip"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same rooms, same trains, same pastries. The only thing that changed was the dollar.",
+   "say": "Same rooms, same trains, same pastries. The only thing that changed was the dollar.",
+   "scene": {
+    "t": "compare",
+    "title": "A €2,000 trip in dollars",
+    "left": {
+     "label": "Jan 2025",
+     "value": "$2,060",
+     "tone": "up",
+     "sub": "€1 = $1.03"
+    },
+    "right": {
+     "label": "End of 2025",
+     "value": "$2,340",
+     "tone": "down",
+     "sub": "€1 = $1.17"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Booked and paid in January, that trip was clearly cheaper. The exchange rate mattered more than the hotel.",
+   "say": "Booked and paid in January, that trip was clearly cheaper. The exchange rate mattered more than the hotel.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. Why the dollar bounced in 2026.",
+   "say": "Chapter four. Why the dollar bounced back in twenty twenty-six.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The bounce: 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Force one: fear. War with Iran began on February 28, 2026.",
+   "say": "Force number one is fear. War with Iran began on February twenty-eighth, twenty twenty-six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Feb 28",
+      "War with Iran begins"
+     ],
+     [
+      "Jun 11",
+      "ECB's first hike in 3 years"
+     ],
+     [
+      "Sep 16",
+      "Fed hikes to 3.75-4%"
+     ],
+     [
+      "Sep 29",
+      "DXY near 2-month high"
+     ]
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Soon after, the dollar rose about 3%, according to an analysis by the American Enterprise Institute.",
+   "say": "Soon after, the dollar rose about three percent, according to an analysis from the American Enterprise Institute.",
+   "scene": {
+    "t": "stat",
+    "label": "Dollar after war began",
+    "value": "+3%",
+    "tone": "up",
+    "sub": "AEI analysis, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the world gets scared, investors grab the most-used, easiest-to-sell money there is.",
+   "say": "When the world gets scared, investors tend to grab the most-used, easiest-to-sell money there is.",
+   "scene": {
+    "t": "hook",
+    "title": "Scared money runs to [$]",
+    "prop": "mattress",
+    "label": "SAFE HAVEN",
+    "value": "$"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's called a safe haven, and for decades the dollar has played that role.",
+   "say": "That's called a safe haven, and for decades, the dollar has played that role.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Safe haven:",
+     "where money hides",
+     "when the world is scary"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Force two: oil. Brent crude closed at $105.28 on September 28, 2026.",
+   "say": "Force number two is oil. Brent crude closed at about a hundred and five dollars a barrel on September twenty-eighth.",
+   "scene": {
+    "t": "stat",
+    "label": "Brent crude close, Sept. 28, 2026",
+    "value": "$105.28",
+    "tone": "down",
+    "sub": "high of $108.83 that day (CNBC)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And here's the surprise. Since 2020, the US has exported more petroleum than it imports.",
+   "say": "And here's the surprise. Since twenty twenty, the US has exported more petroleum than it imports, every year.",
+   "scene": {
+    "t": "stat",
+    "label": "US net petroleum exports, 2025",
+    "value": "2.8M b/d",
+    "tone": "up",
+    "sub": "net exporter since 2020 (EIA)",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, it exported about 2.8 million barrels a day more than it bought.",
+   "say": "In twenty twenty-five, it exported about two point eight million barrels a day more than it bought.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "I sell oil too"
+     },
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "I buy mine"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "me too"
+     }
+    ],
+    "caption": "Oil shocks hit importers hardest"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So expensive oil hurts big importers like Europe and Japan far more than it hurts the US.",
+   "say": "So expensive oil hurts big importers like Europe and Japan far more than it hurts the US.",
+   "scene": {
+    "t": "split",
+    "title": "When oil jumps",
+    "left": {
+     "title": "US",
+     "items": [
+      "net exporter",
+      "less exposed"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Europe, Japan",
+     "items": [
+      "big importers",
+      "bigger bills"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their currencies weaken, and the dollar looks stronger by comparison.",
+   "say": "Their currencies get weaker, and the dollar looks stronger just by comparison.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "sad",
+      "says": "yen near 157"
+     },
+     {
+      "name": "us",
+      "mood": "happy"
+     }
+    ],
+    "caption": "Strong, partly by comparison"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Force three: interest rates, and this is the big one lately.",
+   "say": "Force number three is interest rates, and lately it's been the big one.",
+   "scene": {
+    "t": "list",
+    "title": "2026's three forces",
+    "items": [
+     "Fear",
+     "Oil",
+     "Interest rates"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "US inflation was 3.4% for the 12 months ending August 2026, well above the Fed's 2% goal.",
+   "say": "US inflation was three point four percent for the twelve months ending in August twenty twenty-six, well above the Fed's two percent goal.",
+   "scene": {
+    "t": "compare",
+    "title": "Inflation vs the goal",
+    "left": {
+     "label": "CPI, year to Aug. 2026",
+     "value": "3.4%",
+     "tone": "down",
+     "sub": "BLS"
+    },
+    "right": {
+     "label": "Fed's goal",
+     "value": "2%",
+     "tone": "neutral",
+     "sub": "target"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So on September 16, 2026, the Fed raised rates for the first time since 2023.",
+   "say": "So on September sixteenth, twenty twenty-six, the Fed raised rates for the first time since twenty twenty-three.",
+   "scene": {
+    "t": "hook",
+    "title": "So on September 16, 2026, the Fed raised rates f",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The vote was unanimous, lifting the target range to 3.75% to 4%.",
+   "say": "The vote was unanimous, and it lifted the target range to three and three quarters to four percent.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "rate: 3.75-4%",
+    "caption": "First hike since 2023",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It was a big moment for Chair Kevin Warsh, who was sworn in on May 22, 2026.",
+   "say": "It was a big moment for Chair Kevin Warsh, who was sworn in on May twenty-second, twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed raises rates to 3.75%-4%, first hike since 2023",
+    "source": "Federal Reserve statement, Sept. 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Europe raised rates too. On September 10, 2026, the ECB lifted its deposit rate to 2.50%.",
+   "say": "Europe raised rates too. On September tenth, the European Central Bank lifted its deposit rate to two and a half percent.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "deposit: 2.50%",
+    "caption": "Hiked Sept. 2026",
+    "name": "EUROPEAN CENTRAL BANK"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But look at the gap: up to 4% in the US versus 2.5% in the euro area.",
+   "say": "But look at the gap. Up to four percent in the US, versus two and a half percent in the euro area.",
+   "scene": {
+    "t": "compare",
+    "title": "Where savings earn more",
+    "left": {
+     "label": "Fed (US)",
+     "value": "3.75-4%",
+     "tone": "up",
+     "sub": "Sept. 2026"
+    },
+    "right": {
+     "label": "ECB deposit",
+     "value": "2.50%",
+     "tone": "neutral",
+     "sub": "Sept. 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Money tends to flow toward the bigger yield, and that means toward the dollar.",
+   "say": "Money tends to flow toward the bigger yield, and that means toward the dollar.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Japan's central bank raised rates on September 18, to 1.25%, its highest since 1995. But the yen still sat near 157 per dollar.",
+   "say": "Japan's central bank raised rates on September eighteenth, to one and a quarter percent, its highest since nineteen ninety-five. But the yen still sat near a hundred fifty-seven per dollar.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "rate: 1.25%",
+    "caption": "Hiked, yen still near 157 per $",
+    "name": "BANK OF JAPAN"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put it together and the index rose from about 98.6 on September 9 to about 101 by late September.",
+   "say": "Put it all together, and the index rose from about ninety-eight point six on September ninth to about a hundred and one by late September.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "DXY, Sept. 9, 2026",
+     "value": "98.61"
+    },
+    "to": {
+     "label": "DXY, Sept. 29, 2026",
+     "value": "~101.2"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up almost 3% for 2026 through late September, after that rough 2025.",
+   "say": "That's up almost three percent for twenty twenty-six through late September, after that rough twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Dollar Index, year-end (2026 = Sept.)",
+    "points": [
+     [
+      2020,
+      89.9
+     ],
+     [
+      2021,
+      95.7
+     ],
+     [
+      2022,
+      103.5
+     ],
+     [
+      2023,
+      101.3
+     ],
+     [
+      2024,
+      108.5
+     ],
+     [
+      2025,
+      98.3
+     ],
+     [
+      2026,
+      101.1
+     ]
+    ],
+    "end": "~101 (Sep '26)",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still, notice where it sits: well below 2024's year-end level. Stronger, but nowhere near a record.",
+   "say": "Still, notice where it sits. It's well below where it ended twenty twenty-four. Stronger, but nowhere near a record.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2026,
+     "text": "below 2024 year-end"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the honest answer to 'strong or weak?' is: it depends on your starting point.",
+   "say": "So the honest answer to strong or weak is this: it depends on your starting point.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Strong or weak?",
+     "Depends on",
+     "the starting point"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. What this does to your wallet.",
+   "say": "Chapter five. What all of this does to your wallet.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Your wallet"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back to our trip. In late September 2026, the euro was about $1.13.",
+   "say": "Back to our trip. In late September twenty twenty-six, one euro cost about a dollar thirteen.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "€1, end of 2025",
+     "value": "$1.17"
+    },
+    "to": {
+     "label": "€1, late Sept. 2026",
+     "value": "$1.13"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2,000 times 1.13 is $2,260. That's $80 less than at the end of 2025.",
+   "say": "Two thousand times one point one three is two thousand two hundred sixty dollars. That's eighty dollars less than at the end of twenty twenty-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "€2,000 × 1.13",
+     "= $2,260",
+     "$80 less than end-2025"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still $200 more than January 2025. Currency swings can erase or add a whole dinner budget.",
+   "say": "But it's still two hundred dollars more than in January twenty twenty-five. Currency swings can add or erase a whole dinner budget.",
+   "scene": {
+    "t": "compare",
+    "title": "The same €2,000 trip",
+    "left": {
+     "label": "Jan 2025",
+     "value": "$2,060",
+     "tone": "up",
+     "sub": "€1 = $1.03"
+    },
+    "right": {
+     "label": "Late Sept. 2026",
+     "value": "$2,260",
+     "tone": "neutral",
+     "sub": "€1 = $1.13"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A stronger dollar helps anyone buying things priced in other currencies.",
+   "say": "In general, a stronger dollar helps anyone buying things priced in other currencies.",
+   "scene": {
+    "t": "split",
+    "title": "Stronger dollar: who wins?",
+    "left": {
+     "title": "Helps",
+     "items": [
+      "trips abroad",
+      "imported goods",
+      "foreign online shops"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Hurts",
+     "items": [
+      "US exporters",
+      "foreign profits",
+      "dollar borrowers abroad"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Imported goods can get a little cheaper for US stores, which can ease some prices.",
+   "say": "Imported goods can get a bit cheaper for US stores to buy, which can take a little pressure off some prices.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "imports: cheaper",
+    "caption": "A small tailwind on prices"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But US companies selling abroad take a hit. Their products cost more in euros or yen.",
+   "say": "But US companies selling abroad take a hit, because their products cost more in euros or yen.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "my tractors cost more"
+     },
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "too pricey"
+     }
+    ],
+    "caption": "Exporters feel it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Big US companies that earn abroad also bring home fewer dollars when they convert.",
+   "say": "And big US companies that earn money overseas bring home fewer dollars when they convert it back.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "€1M profit at $1.17",
+     "value": "$1.17M"
+    },
+    "to": {
+     "label": "€1M profit at $1.13",
+     "value": "$1.13M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's €1 million of profit shrinking from $1.17 million to $1.13 million. About $40,000, gone to the exchange rate.",
+   "say": "That's one million euros of profit shrinking from one point one seven million dollars to one point one three million. About forty thousand dollars, gone to the exchange rate.",
+   "scene": {
+    "t": "stat",
+    "label": "Lost in conversion",
+    "value": "-$40K",
+    "tone": "down",
+    "sub": "per €1M, $1.17 vs $1.13"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Countries and companies that borrowed in dollars feel it too, because their debt gets heavier in their own money.",
+   "say": "Countries and companies that borrowed in dollars feel it too, because their debt gets heavier in their own money.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "worried"
+     },
+     {
+      "name": "us",
+      "mood": "happy"
+     }
+    ],
+    "caption": "Dollar debt gets heavier"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And oil is priced in dollars, so a strong dollar plus pricey oil is a double hit for importers.",
+   "say": "And oil is priced in dollars, so a strong dollar plus expensive oil is a double hit for countries that import it.",
+   "scene": {
+    "t": "hook",
+    "title": "A [double] hit",
+    "prop": "fire",
+    "label": "OIL in $",
+    "value": "x2",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the key point: nobody can reliably call the next move. Currencies react to news that hasn't happened yet.",
+   "say": "Here's the key point: nobody can reliably call the next move. Currencies react to news that hasn't happened yet.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nobody reliably",
+     "predicts currencies"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What you can do is understand those three forces and notice when they shift: rates, fear, and oil.",
+   "say": "What you can do is understand those three forces and notice when they shift: rates, fear, and oil.",
+   "scene": {
+    "t": "list",
+    "title": "Watch the forces",
+    "items": [
+     "Fed vs other banks",
+     "Global fear",
+     "Oil prices"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you're planning a trip abroad, the exchange rate is part of the price. It's worth checking like you'd check airfare.",
+   "say": "If you're planning a trip abroad, the exchange rate is part of the price. It's worth checking like you'd check airfare.",
+   "scene": {
+    "t": "hook",
+    "title": "The rate is part of the [price]",
+    "prop": "tag",
+    "label": "€ to $",
+    "value": "$?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. The recap.",
+   "say": "Chapter six. Let's recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A strong dollar just means one dollar buys more foreign money. The DXY is mostly the euro.",
+   "say": "A strong dollar just means one dollar buys more foreign money, and the dollar index is mostly about the euro.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "$1 buys more = strong",
+     "DXY is 57.6% euro",
+     "2025: -9.4%",
+     "2026: rates, fear, oil"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2025 was weak, with three Fed cuts, tariff uncertainty, and a surging euro.",
+   "say": "Twenty twenty-five was weak, with three Fed cuts, tariff uncertainty, and a surging euro.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2026 brought part of it back: a war, expensive oil that hurts importers more, and the Fed's first hike since 2023.",
+   "say": "Twenty twenty-six brought part of it back: a war, expensive oil that hurts importers more, and the Fed's first hike since twenty twenty-three.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for your wallet, the same €2,000 trip swung by $280 in a single year.",
+   "say": "And for your wallet, that same two-thousand-euro trip swung by two hundred eighty dollars in a single year.",
+   "scene": {
+    "t": "stat",
+    "label": "Swing on a €2,000 trip, 2025",
+    "value": "$280",
+    "tone": "down",
+    "sub": "$2,060 to $2,340",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Strong or weak isn't a scorecard. It's a seesaw, and you're sitting on it every time you buy something from abroad.",
+   "say": "Strong or weak isn't a scorecard. It's a seesaw, and you're sitting on it every time you buy something from abroad.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy"
+     },
+     {
+      "name": "germany",
+      "mood": "happy"
+     },
+     {
+      "name": "japan",
+      "mood": "happy"
+     }
+    ],
+    "caption": "One big seesaw"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not financial advice. Follow FinancePros TV for the world's money, explained simply.",
+   "say": "This is education, not financial advice. Follow FinancePros TV for the world's money, explained simply.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained simply."
+   }
+  }
+ ],
+ "post": {
+  "title": "Why the Dollar Fell in 2025 and Bounced in 2026 (war, oil, and the Fed's hike)",
+  "ig": "Same Europe trip, same hotel: $280 more in one year. Here's why.",
+  "tiktok": "The dollar fell 9.4% in 2025, then won back part of it. Oil and the Fed explain it.",
+  "yt_desc": "The same 2,000-euro trip cost about $280 more at the end of 2025 than in January, and the hotel didn't change a thing. The US dollar index fell about 9.4% in 2025, its worst year since 2017, then bounced in 2026 as war with Iran, oil above $100 a barrel and the Fed's first rate hike since 2023 pushed money back toward the dollar. This video explains what a strong dollar means, the history from Bretton Woods to the Plaza Accord, and how exchange rates reach your wallet, with the real math.\n\nCHAPTERS\n\nSources: Federal Reserve FOMC statement (Sept 16, 2026); Federal Reserve (May 22, 2026); BLS CPI (August 2026); ECB monetary policy decisions (Sept 10, 2026); Bank of Japan policy decision (Sept 18, 2026); Reuters (Sept 29, 2026); Bloomberg (Sept 30, 2026); CNBC (Sept 28, 2026); AEI, The Dollar, Safe-Haven Demand, and the Iran War (2026); EIA petroleum trade data (2025); Bloomberg (Dec 31, 2025; Jan 2, 2025); Barchart (2025); BIS Triennial Survey (Sept 2025); IMF COFER (Q1 2026); Federal Reserve History (1944, 1971); Plaza Accord statement (Sept 22, 1985); ICE US Dollar Index.\n\nNews and education, not financial advice.\n\n#dollar #economy #personalfinance",
+  "tags": [
+   "us dollar",
+   "dollar index",
+   "DXY",
+   "strong dollar",
+   "exchange rates",
+   "Fed rate hike",
+   "oil prices",
+   "world economy"
+  ]
+ }
+}

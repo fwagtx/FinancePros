@@ -1,0 +1,205 @@
+{
+ "id": "2026-10-06-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Cheaper plan,\nbigger bill?",
+ "cover": {
+  "title": "Cheaper Plan, Bigger Bill?",
+  "prop": "paper",
+  "label": "HEALTH PLAN",
+  "value": "+$1,440"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The cheaper health plan can cost you $1,440 more.",
+   "say": "The cheaper health plan can cost you fourteen hundred forty dollars more.",
+   "scene": {
+    "t": "hook",
+    "title": "Cheaper plan, [bigger] bill",
+    "prop": "paper",
+    "label": "Cheaper plan",
+    "value": "+$1,440",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Past the premium, three numbers matter most: deductible, coinsurance, and the out-of-pocket max.",
+   "say": "Past the premium, three numbers matter most: deductible, coinsurance, and the out-of-pocket max.",
+   "scene": {
+    "t": "list",
+    "title": "Three numbers matter most",
+    "items": [
+     "Deductible: you pay first",
+     "Coinsurance: your % after",
+     "Out-of-pocket max: cap"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan A: $120 a month, $1,000 deductible, $4,000 max. Plan B: $40 a month, $3,000 deductible, $7,000 max.",
+   "say": "Plan A: a hundred twenty a month, a thousand-dollar deductible, four-thousand-dollar max. Plan B: forty a month, three-thousand deductible, seven-thousand max.",
+   "scene": {
+    "t": "compare",
+    "title": "Two plans (hypothetical)",
+    "left": {
+     "label": "Plan A",
+     "value": "$120/mo",
+     "tone": "neutral",
+     "sub": "$1,000 deductible, $4,000 max"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$40/mo",
+     "tone": "neutral",
+     "sub": "$3,000 deductible, $7,000 max"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a $500 year, Plan B costs $980, versus $1,940.",
+   "say": "In a five-hundred-dollar year, Plan B costs nine eighty, versus nineteen forty.",
+   "scene": {
+    "t": "compare",
+    "title": "Quiet year: $500 of care",
+    "left": {
+     "label": "Plan A",
+     "value": "$1,940",
+     "tone": "down",
+     "sub": "premiums + care"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$980",
+     "tone": "up",
+     "sub": "premiums + care"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After a $20,000 bill at 20% coinsurance, Plan A hits its $4,000 cap: $5,440 with premiums. Plan B: $6,880.",
+   "say": "After a twenty-thousand-dollar bill at twenty percent coinsurance, Plan A hits its four-thousand-dollar cap: fifty-four forty with premiums. Plan B: sixty-eight eighty.",
+   "scene": {
+    "t": "compare",
+    "title": "Big year: $20,000 bill",
+    "left": {
+     "label": "Plan A",
+     "value": "$5,440",
+     "tone": "up",
+     "sub": "hits its cap"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$6,880",
+     "tone": "down",
+     "sub": "stays under its cap"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the plan that's cheaper every month costs $1,440 more.",
+   "say": "So the plan that's cheaper every month costs fourteen hundred forty more.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Big year: $20,000 bill",
+    "left": {
+     "label": "Plan A",
+     "value": "$5,440",
+     "tone": "up",
+     "sub": "hits its cap"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$6,880",
+     "tone": "down",
+     "sub": "stays under its cap"
+    },
+    "winner": "left",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Premiums don't count toward the max. Real cost: premium x 12 + your share of care.",
+   "say": "Premiums don't count toward the max. Real cost: premium times twelve, plus your share of care.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Yearly cost =",
+     "premium x 12",
+     "+ your share of care"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, 34% of covered workers had a deductible of $2,000 or more for single coverage.",
+   "say": "In twenty twenty-five, thirty-four percent of covered workers had a deductible of two thousand dollars or more for single coverage.",
+   "scene": {
+    "t": "stat",
+    "label": "Workers with a $2,000+ deductible",
+    "value": "34%",
+    "tone": "down",
+    "sub": "Single coverage, 2025. Source: KFF"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The cheaper plan is the one that fits the year you actually have.",
+   "say": "The cheaper plan is the one that fits the year you actually have.",
+   "scene": {
+    "t": "split",
+    "title": "Which plan is cheaper?",
+    "left": {
+     "title": "Quiet year",
+     "items": [
+      "Low premium wins",
+      "Plan B: $980"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Big year",
+     "items": [
+      "Low max wins",
+      "Plan A: $5,440"
+     ],
+     "tone": "up"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why the cheaper health plan can cost $1,440 more",
+  "ig": "The health plan with the lower premium can cost you more.\nPremium x 12 + your share of care = what a plan really costs in a year.\nExample: a $40/month plan beats a $120/month plan in a $500 year ($980 vs $1,940), but loses by $1,440 in a $20,000 year ($6,880 vs $5,440).\nPremiums don't count toward the out-of-pocket max.\nIn 2025, 34% of covered workers had a single deductible of $2,000+ (average single deductible: $1,886).\nSources: KFF 2025 Employer Health Benefits Survey; HealthCare.gov. Plans in the example are hypothetical.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#openenrollment #healthinsurance #deductible #personalfinance #financeprostv",
+  "tiktok": "Cheaper premium, bigger bill: the health plan math. Not financial advice. #moneytok #personalfinance #openenrollment #healthinsurance #financeprostv",
+  "yt_desc": "A plan's real yearly cost is the premium times 12 plus your share of care. In a hypothetical example, a $40/month plan beats a $120/month plan in a quiet year but costs $1,440 more after a $20,000 bill. Per KFF's 2025 Employer Health Benefits Survey, 34% of covered workers had a single deductible of $2,000 or more. News and education, not financial advice. #Shorts #openenrollment #healthinsurance",
+  "tags": [
+   "open enrollment",
+   "health insurance deductible",
+   "out-of-pocket maximum",
+   "how to compare health plans",
+   "premium vs deductible"
+  ]
+ }
+}
