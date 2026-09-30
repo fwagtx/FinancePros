@@ -1,0 +1,207 @@
+{
+ "series": "ticker",
+ "header": "How scratch-offs\nare really priced",
+ "cover": {
+  "title": "This $20 Ticket Pays $15",
+  "prop": "tag",
+  "label": "$20",
+  "value": "-$5"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "This $20 scratch-off pays back about $15, on average.",
+   "say": "This twenty-dollar scratch-off pays back about fifteen dollars, on average.",
+   "scene": {
+    "t": "hook",
+    "title": "$20 ticket, [$15] back",
+    "prop": "tag",
+    "label": "$20",
+    "value": "-$5",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Texas prints the plan: this game has about 25.7 million tickets.",
+   "say": "Texas prints the plan: this game has about twenty-five point seven million tickets.",
+   "scene": {
+    "t": "stat",
+    "label": "Tickets in TX game #2764",
+    "value": "25.7M",
+    "tone": "neutral",
+    "sub": "Texas Lottery, $20 game",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $514 million in sales and $385 million in prizes. 75% comes back.",
+   "say": "That's five hundred fourteen million dollars in sales and three hundred eighty-five million in prizes. Seventy-five percent comes back.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "25.7M tickets x $20",
+     "= $514M in sales",
+     "$385M prizes = 75%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The ticket says the odds of winning anything are 1 in 3.29.",
+   "say": "The ticket says the odds of winning anything are one in three point two nine.",
+   "scene": {
+    "t": "compare",
+    "title": "Game #2764 odds",
+    "left": {
+     "label": "Any prize",
+     "value": "1:3.29",
+     "tone": "up",
+     "sub": "printed odds"
+    },
+    "right": {
+     "label": "More than $20",
+     "value": "1:5.43",
+     "tone": "down",
+     "sub": "from prize table"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But 39% of those wins just return your $20, so beating it is 1 in 5.43.",
+   "say": "But thirty-nine percent of those wins just return your twenty, so beating it is one in five point four three.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "Game #2764 odds",
+    "left": {
+     "label": "Any prize",
+     "value": "1:3.29",
+     "tone": "up",
+     "sub": "printed odds"
+    },
+    "right": {
+     "label": "More than $20",
+     "value": "1:5.43",
+     "tone": "down",
+     "sub": "from prize table"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pricier tickets pay more back, by design. In Minnesota, $1 games pay 63%, $50 games 74%.",
+   "say": "Pricier tickets pay more back, by design. In Minnesota, one-dollar games pay sixty-three percent, fifty-dollar games seventy-four.",
+   "scene": {
+    "t": "chart",
+    "title": "MN payout by ticket price",
+    "points": [
+     [
+      1,
+      63
+     ],
+     [
+      2,
+      65
+     ],
+     [
+      3,
+      66
+     ],
+     [
+      5,
+      68
+     ],
+     [
+      10,
+      70
+     ],
+     [
+      20,
+      72
+     ],
+     [
+      50,
+      74
+     ]
+    ],
+    "suffix": "%",
+    "end": "74%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2025, each Texas Lottery dollar paid about 68¢ in prizes and 23¢ to the state.",
+   "say": "In fiscal twenty twenty-five, each Texas Lottery dollar paid about sixty-eight cents in prizes and twenty-three cents to the state.",
+   "scene": {
+    "t": "compare",
+    "title": "TX Lottery $1, FY2025",
+    "left": {
+     "label": "Prizes",
+     "value": "68¢",
+     "tone": "neutral",
+     "sub": "all games"
+    },
+    "right": {
+     "label": "The state",
+     "value": "23¢",
+     "tone": "up",
+     "sub": "$1.8B total"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $1.8 billion, mostly for public schools.",
+   "say": "That's one point eight billion dollars, mostly for public schools.",
+   "scene": {
+    "t": "stat",
+    "label": "Sent to Texas, FY2025",
+    "value": "$1.8B",
+    "tone": "up",
+    "sub": "$1.77B to school fund",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a scratch-off is a fixed prize budget: lots of small wins, a few huge ones.",
+   "say": "So a scratch-off is a fixed prize budget: lots of small wins, a few huge ones.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fixed prize budget",
+     "lots of small wins",
+     "a few huge ones"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "This $20 scratch-off pays back about $15 on average",
+  "ig": "This $20 scratch-off pays back about $15, on average.\n\nTexas Lottery game #2764: about 25.7M tickets x $20 = $514M in sales, with $385M in prizes. That's 75% back.\nPrinted odds are 1 in 3.29, but 39% of wins just return your $20. Odds of winning more than $20: 1 in 5.43.\nMinnesota's lottery says $1 games pay 63% and $50 games pay 74%.\nIn FY2025 the Texas Lottery sent $1.8B to the state, about 23 cents of each dollar.\n\nSources: Texas Lottery game #2764 prize table; Texas Lottery FY2025 release (Oct 2025); Minnesota Lottery.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#lottery #scratchoffs #howtheymakemoney #moneyexplained #financeprostv",
+  "tiktok": "This $20 scratch-off pays back about $15 on average. Not financial advice. #moneytok #personalfinance #lottery #scratchoffs #financeprostv",
+  "yt_desc": "Texas Lottery game #2764 sells about 25.7 million $20 tickets ($514M) and holds $385M in prizes, so about 75% comes back; 39% of its wins just return your $20. In fiscal 2025 the Texas Lottery sent $1.8B to the state. Sources: Texas Lottery prize table and FY2025 release, Minnesota Lottery. News and education, not financial advice. #Shorts #lottery #personalfinance",
+  "tags": [
+   "scratch off odds",
+   "how lottery makes money",
+   "texas lottery",
+   "scratch ticket payout",
+   "lottery expected value"
+  ]
+ }
+}
