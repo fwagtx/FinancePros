@@ -169,12 +169,13 @@ def layout_line(F, sc, st, step):
         vy = F.box[3] if value else None
         bottom = (vy - vsize * 0.9) if value else F.box[3]
         cy = (yb + bottom) / 2 + (0 if value else 20)
-        if prop == "house" and sc.get("label"): cy += 70 if F.v else 60   # the house's sign stands above the roof: keep it clear of the title
+        if prop == "house" and sc.get("label") and not value: cy += 70 if F.v else 60   # the house's sign stands above the roof: keep it clear of the title
         scale = 0.95 if value and prop != "none" else (1.25 if F.v else 1.3)
         if value and prop in ("house", "fed", "store", "customs"):   # tall buildings are drawn below their anchor: shrink and lift them
-            scale *= 0.75; cy -= 110 * scale
+            scale *= 0.75; cy -= 80 * scale
         if value and prop == "card": scale *= 0.8; cy -= 25   # the tilted card is the widest, tallest flat prop
-        items += [dict(i, at=0.4) for i in prop_items(prop, F.cx, cy, scale, sc.get("label"))]
+        label = None if (value and prop in ("fed", "house")) else sc.get("label")   # their sign/tag floats above the roof; with a value row there is no room for it
+        items += [dict(i, at=0.4) for i in prop_items(prop, F.cx, cy, scale, label)]
         if value: items.append(dict(k="text", x=F.cx, y=round(vy), text=value, size=vsize, font="marker", color=RED, at=1.4, maxW=F.w))
         items += F.host_item(mood or "shock", "pointleft")
     elif t == "board":
