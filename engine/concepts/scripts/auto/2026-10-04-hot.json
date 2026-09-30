@@ -1,0 +1,203 @@
+{
+ "id": "2026-10-04-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Never Pay Into\nSocial Security?",
+ "cover": {
+  "title": "No Credits? Medicare Costs $565",
+  "prop": "tag",
+  "label": "Medicare Part A",
+  "value": "$565/mo"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "No Social Security credits? Medicare Part A can cost $565 a month.",
+   "say": "No Social Security credits? Medicare can cost five hundred sixty-five dollars monthly.",
+   "scene": {
+    "t": "hook",
+    "title": "No credits? Medicare costs [$565]",
+    "prop": "tag",
+    "label": "Medicare Part A",
+    "value": "$565/mo",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And your own retirement check? $0.",
+   "say": "And your own retirement check? Zero dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Social Security retirement check",
+    "value": "$0",
+    "tone": "down",
+    "sub": "with 0 work credits",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You need 40 work credits to qualify, and you earn at most 4 a year.",
+   "say": "You need forty work credits to qualify, and you earn at most four a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "40 credits = eligible",
+     "max 4 credits a year",
+     "= about 10 years of work"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One credit takes $1,890 of taxed pay in 2026, and that bar keeps rising.",
+   "say": "One credit takes eighteen hundred ninety dollars of taxed pay in twenty twenty-six, and that bar keeps rising.",
+   "scene": {
+    "t": "chart",
+    "title": "Pay needed for 1 credit",
+    "points": [
+     [
+      2020,
+      1410
+     ],
+     [
+      2021,
+      1470
+     ],
+     [
+      2022,
+      1510
+     ],
+     [
+      2023,
+      1640
+     ],
+     [
+      2024,
+      1730
+     ],
+     [
+      2025,
+      1810
+     ],
+     [
+      2026,
+      1890
+     ]
+    ],
+    "prefix": "$",
+    "end": "$1,890",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Miss the 40, and the fallback is SSI: max $994 a month in 2026, for people 65-plus, blind or disabled with very little income.",
+   "say": "Miss the forty, and the fallback is S S I, capped at nine hundred ninety-four dollars a month in twenty twenty-six, for people sixty-five-plus, blind or disabled with very little income.",
+   "scene": {
+    "t": "stat",
+    "label": "Max federal SSI, 2026",
+    "value": "$994/mo",
+    "tone": "down",
+    "sub": "65+, blind or disabled, very low income (SSA)",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With under 30 credits, Medicare Part A costs $565 a month in 2026.",
+   "say": "With under thirty credits, Medicare hospital coverage costs five hundred sixty-five dollars a month in twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Medicare Part A premium",
+    "value": "$565/mo",
+    "tone": "down",
+    "sub": "under 30 credits, 2026 (CMS)",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $6,780 a year ($565 x 12).",
+   "say": "That's six thousand seven hundred eighty dollars a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "per month",
+     "value": "$565"
+    },
+    "to": {
+     "label": "per year",
+     "value": "$6,780"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One exception: marriage to a worker can mean up to half their benefit and premium-free Part A.",
+   "say": "One exception: marriage to a worker can mean up to half their benefit, plus premium-free Part A.",
+   "scene": {
+    "t": "split",
+    "title": "Zero credits of your own",
+    "left": {
+     "title": "Alone",
+     "items": [
+      "$0 retirement check",
+      "Paid Medicare Part A"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Married to a worker",
+     "items": [
+      "Up to 50% spouse benefit",
+      "Premium-free Part A via spouse"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your credit count is in your free my Social Security account online.",
+   "say": "You can see your credit count in your free my Social Security account online.",
+   "scene": {
+    "t": "list",
+    "title": "Know your number",
+    "items": [
+     "Log in to my Social Security",
+     "Check your credit count",
+     "Goal: 40 credits"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "40 credits. Know yours."
+   }
+  }
+ ],
+ "post": {
+  "title": "No Social Security Credits? Medicare Can Cost $565/Month",
+  "ig": "No Social Security credits? Medicare Part A can cost $565 a month.\nWithout 40 work credits (max 4 a year), your own retirement check is $0. One credit takes $1,890 of taxed pay in 2026.\nThe fallback, SSI, is capped at $994 a month in 2026, for people 65-plus, blind or disabled with very little income.\nWith under 30 credits, Medicare Part A costs $565 a month in 2026. That's $6,780 a year.\nSources: SSA, CMS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#socialsecurity #medicare #retirement #personalfinance #financeprostv",
+  "tiktok": "No Social Security credits? $0 check, Medicare Part A $565/mo (2026). Not financial advice. #moneytok #personalfinance #socialsecurity #financeprostv",
+  "yt_desc": "Without 40 Social Security work credits, your own retirement check is $0; one credit takes $1,890 of taxed pay in 2026. With under 30 credits, Medicare Part A costs $565 a month in 2026, and SSI is capped at $994 a month for people 65-plus, blind or disabled with very little income (Sources: SSA, CMS). News and education, not financial advice. #Shorts #socialsecurity #medicare",
+  "tags": [
+   "social security",
+   "social security credits",
+   "medicare part a",
+   "retirement",
+   "personal finance"
+  ]
+ }
+}

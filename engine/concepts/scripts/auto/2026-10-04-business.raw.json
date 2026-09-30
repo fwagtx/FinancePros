@@ -1,73 +1,187 @@
 {
-  "series": "ticker",
-  "header": "How Adobe\nMakes Money",
-  "cover": {
-    "title": "Adobe Rents You Photoshop",
+ "series": "ticker",
+ "header": "How Adobe\nMakes Money",
+ "cover": {
+  "title": "Adobe Rents You Photoshop",
+  "prop": "box",
+  "label": "subscriptions",
+  "value": "96%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "You can't buy Photoshop anymore. You rent it.",
+   "say": "You can't buy Photoshop anymore. You rent it.",
+   "scene": {
+    "t": "hook",
+    "title": "You Can't [Buy] Photoshop",
     "prop": "box",
-    "label": "subscriptions",
-    "value": "96%"
+    "label": "Photoshop",
+    "value": "RENTED",
+    "mood": "shock"
+   }
   },
-  "lines": [
-    {
-      "who": "ticker",
-      "text": "96% of Adobe's revenue is basically rent.",
-      "say": "Ninety-six percent of Adobe's revenue is basically rent.",
-      "scene": {"t": "hook", "title": "Adobe's Money Is [Rent]", "prop": "box", "label": "Photoshop", "value": "96%", "mood": "shock"}
+  {
+   "who": "ticker",
+   "text": "96% of Adobe's fiscal 2025 revenue came from subscriptions.",
+   "say": "Ninety-six percent of Adobe's fiscal twenty twenty-five revenue came from subscriptions.",
+   "scene": {
+    "t": "stat",
+    "label": "Subscriptions, FY2025",
+    "value": "96%",
+    "tone": "up",
+    "sub": "$22.9B of $23.77B revenue, Adobe 10-K",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2013, Adobe stopped selling Photoshop and Creative Suite as software you own.",
+   "say": "In twenty thirteen, Adobe stopped selling Photoshop and the rest of Creative Suite as software you own.",
+   "scene": {
+    "t": "news",
+    "headline": "Adobe ends Creative Suite, goes subscription-only",
+    "source": "TechCrunch, May 6, 2013",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Top bundle, CS6 Master Collection: $2,599 once, vs. $49.99 a month.",
+   "say": "The top bundle, Creative Suite six Master Collection, was two thousand five hundred ninety-nine dollars once, versus about fifty dollars a month.",
+   "scene": {
+    "t": "compare",
+    "title": "2013 prices",
+    "left": {
+     "label": "Buy it",
+     "value": "$2,599",
+     "tone": "neutral",
+     "sub": "one time"
     },
-    {
-      "who": "ticker",
-      "text": "In 2013, Adobe stopped selling software you own. People were furious.",
-      "say": "Back in twenty thirteen, Adobe stopped selling software you own, and people were furious.",
-      "scene": {"t": "news", "headline": "Adobe ends Creative Suite, goes subscription-only", "source": "TechCrunch, May 6, 2013", "mood": "worried"}
+    "right": {
+     "label": "Rent it",
+     "value": "$49.99",
+     "tone": "up",
+     "sub": "per month"
     },
-    {
-      "who": "ticker",
-      "text": "Before: $2,599 once. After: $49.99 a month.",
-      "say": "Before, the full Creative Suite cost twenty-five ninety-nine, once. After, Creative Cloud cost about fifty dollars a month.",
-      "scene": {"t": "compare", "title": "2013 prices", "left": {"label": "Buy it", "value": "$2,599", "tone": "neutral", "sub": "one time"}, "right": {"label": "Rent it", "value": "$49.99", "tone": "up", "sub": "per month"}, "mood": "think"}
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 2013 prices: $2,599 / $49.99 = about 52 months.",
+   "say": "At those prices, renting passes the purchase price in about fifty-two months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2013: $2,599 / $49.99",
+     "= about 52 months",
+     "then it keeps going"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscription revenue: $11.6B (FY2020) to $22.9B (FY2025).",
+   "say": "From fiscal twenty twenty to twenty twenty-five, subscription revenue roughly doubled to about twenty-two point nine billion dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "Adobe subscription revenue",
+    "points": [
+     [
+      2020,
+      11.63
+     ],
+     [
+      2021,
+      14.57
+     ],
+     [
+      2022,
+      16.39
+     ],
+     [
+      2023,
+      18.28
+     ],
+     [
+      2024,
+      20.52
+     ],
+     [
+      2025,
+      22.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$22.9B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Signed but not yet counted: $22.52B at the end of fiscal 2025.",
+   "say": "By the end of fiscal twenty twenty-five, another twenty-two and a half billion was already signed but not yet counted.",
+   "scene": {
+    "t": "stat",
+    "label": "Contracted, not yet counted",
+    "value": "$22.52B",
+    "tone": "up",
+    "sub": "Adobe 10-K, as of Nov. 28, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gross margin in fiscal 2025: about 89%.",
+   "say": "One more copy costs almost nothing, so gross margin was about eighty-nine percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Adobe gross margin, FY2025",
+    "value": "89%",
+    "tone": "up",
+    "sub": "$21,218M gross profit / $23,769M revenue"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the 2013 price, $49.99 a month = about $600 a year.",
+   "say": "At twenty thirteen prices, that's about six hundred dollars a year, and monthly charges are easy to forget.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "per month (2013)",
+     "value": "$49.99"
     },
-    {
-      "who": "ticker",
-      "text": "$2,599 / $49.99 = about 52 months. Then it keeps going.",
-      "say": "Do the math, and the rent passes the old price in about fifty-two months, then just keeps going.",
-      "scene": {"t": "board", "lines": ["$2,599 / $49.99", "= about 52 months", "then it keeps going"]}
+    "to": {
+     "label": "per year",
+     "value": "$599.88"
     },
-    {
-      "who": "ticker",
-      "text": "Subscription revenue: $11.6B in fiscal 2020 to $22.9B in fiscal 2025.",
-      "say": "That's why Adobe's subscription revenue grew from about eleven point six billion dollars in fiscal twenty twenty to twenty-two point nine billion in fiscal twenty twenty-five.",
-      "scene": {"t": "chart", "title": "Adobe subscription revenue", "points": [[2020, 11.63], [2021, 14.57], [2022, 16.39], [2023, 18.28], [2024, 20.52], [2025, 22.9]], "prefix": "$", "suffix": "B", "end": "$22.9B", "color": "up", "mood": "up"}
-    },
-    {
-      "who": "ticker",
-      "text": "Signed but not yet counted: $22.52B, as of Nov. 28, 2025.",
-      "say": "On top of that, it had about twenty-two and a half billion dollars in signed contracts it hadn't counted yet.",
-      "scene": {"t": "stat", "label": "Contracted, not yet counted", "value": "$22.52B", "tone": "up", "sub": "Adobe 10-K, as of Nov. 28, 2025"}
-    },
-    {
-      "who": "ticker",
-      "text": "Gross margin in fiscal 2025: about 89%.",
-      "say": "And since sending you one more copy costs almost nothing, its gross margin was about eighty-nine percent.",
-      "scene": {"t": "stat", "label": "Adobe gross margin, FY2025", "value": "89%", "tone": "up", "sub": "$21,218M gross profit / $23,769M revenue"}
-    },
-    {
-      "who": "ticker",
-      "text": "$49.99 a month = about $600 a year.",
-      "say": "The lesson for you: fifty dollars a month is about six hundred a year, so know what you're renting.",
-      "scene": {"t": "money", "from": {"label": "per month", "value": "$49.99"}, "to": {"label": "per year", "value": "$599.88"}, "mood": "think"}
-    },
-    {
-      "who": "ticker",
-      "text": "That's the money. Follow for more.",
-      "say": "That's the money. Follow for more.",
-      "scene": {"t": "cta", "tagline": "How They Make Money"}
-    }
-  ],
-  "post": {
-    "title": "96% of Adobe's Revenue Is Subscriptions. Here's Why",
-    "ig": "96% of Adobe's revenue is basically rent.\nIn 2013, Adobe swapped the $2,599 Creative Suite for Creative Cloud at $49.99 a month.\nSubscription revenue grew from $11.6B in fiscal 2020 to $22.9B in fiscal 2025.\nIt also had $22.52B in signed contracts not yet counted as revenue (as of Nov. 28, 2025), and an 89% gross margin.\nSources: Adobe 10-K filings FY2021-FY2025, TechCrunch (May 2013).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#adobe #subscriptions #business #personalfinance #financeprostv",
-    "tiktok": "96% of Adobe's revenue is subscriptions. Here's how. Not financial advice. #moneytok #personalfinance #adobe #business #financeprostv",
-    "yt_desc": "Adobe switched from one-time $2,599 software to $49.99-a-month subscriptions in 2013. By fiscal 2025, subscriptions were 96% of its $23.77 billion revenue, per its 10-K. Sources: Adobe 10-K filings, TechCrunch. News and education, not financial advice. #Shorts #adobe #business",
-    "tags": ["how adobe makes money", "subscription business model", "adobe creative cloud", "saas explained", "how they make money"]
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
   }
+ ],
+ "post": {
+  "title": "96% of Adobe's Revenue Is Subscriptions. Here's Why",
+  "ig": "You can't buy Photoshop anymore. You rent it.\n96% of Adobe's fiscal 2025 revenue came from subscriptions.\nIn 2013, Adobe swapped its top $2,599 Creative Suite bundle for Creative Cloud at $49.99 a month.\nSubscription revenue grew from $11.6B in fiscal 2020 to $22.9B in fiscal 2025.\nIt also had $22.52B in signed contracts not yet counted as revenue (as of Nov. 28, 2025), and an 89% gross margin in fiscal 2025.\nSources: Adobe 10-K filings FY2020-FY2025, TechCrunch (May 2013).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#adobe #subscriptions #business #personalfinance #financeprostv",
+  "tiktok": "96% of Adobe's revenue is subscriptions. Here's how. Not financial advice. #moneytok #personalfinance #adobe #business #financeprostv",
+  "yt_desc": "Adobe switched from one-time software costing up to $2,599 to $49.99-a-month subscriptions in 2013. By fiscal 2025, subscriptions were 96% of its $23.77 billion revenue, per its 10-K. Sources: Adobe 10-K filings, TechCrunch. News and education, not financial advice. #Shorts #adobe #business",
+  "tags": [
+   "how adobe makes money",
+   "subscription business model",
+   "adobe creative cloud",
+   "saas explained",
+   "how they make money"
+  ]
+ }
 }
