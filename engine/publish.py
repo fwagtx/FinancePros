@@ -71,20 +71,22 @@ def brands():
 
 
 def threads_text(caption, limit=500):
-    """The Instagram caption fitted to Threads: no hashtag lines, whole paragraphs up to 500 characters, one topic tag."""
-    paras = [p.strip() for p in caption.split("\n\n") if p.strip()]
+    """The Instagram caption fitted to Threads: no hashtag lines, whole lines up to 500 characters, one topic tag."""
+    sep = "\n\n" if "\n\n" in caption else "\n"
+    paras = [p.strip() for p in caption.split("\n") if p.strip()]   # whole lines, so a caption written with single line breaks is never cut mid-word
     tags = [w for p in paras for w in p.split() if w.startswith("#") and w.lower() != "#financeprostv"]
     body = [p for p in paras if not all(w.startswith("#") for w in p.split())]
     note = next((p for p in body if "not financial" in p.lower()), None)
-    tag = ("\n\n" + tags[0]) if tags else ""
+    tag = (sep + tags[0]) if tags else ""
     out = []
     for p in body:
         if p is note: continue
-        room = limit - len(tag) - (len(note) + 2 if note else 0)
-        if len("\n\n".join(out + [p])) > room: break
+        room = limit - len(tag) - (len(note) + len(sep) if note else 0)
+        if len(sep.join(out + [p])) > room: break
         out.append(p)
     if note: out.append(note)
-    return ("\n\n".join(out) + tag)[:limit]
+    text = sep.join(out) + tag
+    return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0]
 
 
 def short_posts(video, cover, post, when, tz):
