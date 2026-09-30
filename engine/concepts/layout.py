@@ -197,8 +197,8 @@ def layout_line(F, sc, st, step):
             items.append(dict(k="rect", id="card_" + side, x=round(x - F.w * 0.22), y=round(cy - 230), w=round(F.w * 0.44), h=460, fill="#fff", at=a))
             ls, sz = fit(d.get("label", ""), F.w * 0.4, 2, 50, 34, 0.45)
             for i, ln in enumerate(ls): items.append(T(x, cy - 170 + i * sz * 1.1, ln, sz, at=a, maxW=round(F.w * 0.4)))
-            vs = fit(d.get("value", ""), F.w * 0.4, 1, 110, 50, 0.64)[1]
-            items.append(T(x, cy + 90, d.get("value", ""), vs, font="serif", weight=700, color=col(d.get("tone")), at=a + 0.2, maxW=round(F.w * 0.4)))
+            vs = fit(d.get("value", ""), F.w * 0.36, 1, 110, 50, 0.64)[1]
+            items.append(T(x, cy + 90, d.get("value", ""), vs, font="serif", weight=700, color=col(d.get("tone")), at=a + 0.2, maxW=round(F.w * 0.36)))
             if d.get("sub"): items.append(T(x, cy + 170, d["sub"], 38, color="#555", at=a + 0.3))
         items.append(dict(k="text", x=round(F.cx), y=round(cy - 250), text="vs", size=70, font="marker", color=RED, at=0.9))
         st["compare"] = (xl, xr, cy)
@@ -213,10 +213,10 @@ def layout_line(F, sc, st, step):
         if sc.get("label"):
             ls, sz = fit(sc["label"], F.w, 2, 76, 40, 0.48)
             for i, ln in enumerate(ls): items.append(T(F.cx, top + 90 + i * sz * 1.15, ln, sz))
-        vsz = fit(sc.get("value", ""), F.w, 1, 230 if F.v else 250, 90, 0.58)[1]
-        items.append(dict(k="text", x=round(F.cx), y=round(cy + vsz * 0.3), text=sc.get("value", ""), size=vsz, font="serif", weight=700, maxW=round(F.w - 40),
+        vsz = fit(sc.get("value", ""), F.w * 0.8, 1, 230 if F.v else 250, 80, 0.58)[1]
+        items.append(dict(k="text", x=round(F.cx), y=round(cy + vsz * 0.3), text=sc.get("value", ""), size=vsz, font="serif", weight=700, maxW=round(F.w * 0.8),
                           color=GREEN if sc.get("tone") == "up" else RED if sc.get("tone") == "down" else "#111", at=0.3))
-        items.append(dict(k="circle", x=round(F.cx), y=round(cy), rx=round(min(F.w * 0.48, len(sc.get("value", "")) * vsz * 0.33 + 40)), ry=round(vsz * 0.7), seed=6, at=1.1))
+        items.append(dict(k="circle", x=round(F.cx), y=round(cy), rx=round(min(F.w * 0.54, len(sc.get("value", "")) * vsz * 0.31 + 60)), ry=round(vsz * 0.7), seed=6, at=1.1))
         if sc.get("sub"): items.append(T(F.cx, cy + vsz * 0.95, sc["sub"], 46 if F.v else 50, color="#555", at=1.4))
         items += F.host_item(mood or "shock", "pointleft")
     elif t == "money":

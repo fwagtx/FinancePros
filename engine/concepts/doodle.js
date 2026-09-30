@@ -211,7 +211,7 @@ function box(x, y, w, label) {
   var h = w * 0.75;
   return '<g transform="translate(' + x + ',' + y + ')"><path d="M' + (-w / 2) + ',' + (-h / 2) + ' L' + (w / 2) + ',' + (-h / 2) + ' L' + (w / 2) + ',' + (h / 2) + ' L' + (-w / 2) + ',' + (h / 2) + ' Z" fill="#D9A86C" ' + K + '/>' +
     '<path d="M' + (-w * 0.1) + ',' + (-h / 2) + ' L' + (-w * 0.1) + ',' + (h * 0.05) + ' L' + (w * 0.1) + ',' + (h * 0.05) + ' L' + (w * 0.1) + ',' + (-h / 2) + '" fill="#E8C792" stroke="' + INK + '" stroke-width="5"/>' +
-    (label ? text(0, h * 0.36, label, { size: w * 0.24, font: 'marker' }) : '') + '</g>';
+    (label ? text(0, h * 0.36, label, { size: w * 0.24, font: 'marker', maxW: w * 0.82 }) : '') + '</g>';
 }
 function store(x, y, s, label) {
   var g = '<rect x="-190" y="-230" width="380" height="230" fill="#F3EFE6" ' + K + '/>';
@@ -233,7 +233,7 @@ function tag(x, y, s, label, rot) {
 }
 function bag(x, y, s, label) {
   return '<g transform="translate(' + x + ',' + y + ') scale(' + s + ')"><path d="M-40,-150 L40,-150 L20,-115 Q110,-60 95,20 Q80,70 0,70 Q-80,70 -95,20 Q-110,-60 -20,-115 Z" fill="#CDB38A" ' + K + '/>' +
-    '<path d="M-30,-118 L30,-118" ' + K + '/>' + text(0, 30, label || '$', { size: label && label.length > 2 ? 46 : 90, font: 'serif', weight: 700, color: '#3B6E2A' }) + '</g>';
+    '<path d="M-30,-118 L30,-118" ' + K + '/>' + text(0, 30, label || '$', { size: label && label.length > 2 ? 46 : 90, font: 'serif', weight: 700, color: '#3B6E2A', maxW: 150 }) + '</g>';
 }
 function mattress(x, y, s) {
   var g = '<rect x="-230" y="-80" width="460" height="80" rx="18" fill="#E9F0FA" ' + K + '/>';
