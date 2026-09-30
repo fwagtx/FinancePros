@@ -1,0 +1,227 @@
+{
+ "id": "2026-10-09-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How comedy clubs\nreally make money",
+ "cover": {
+  "title": "The Minimum Is the Real Show",
+  "prop": "tag",
+  "label": "2 items",
+  "value": "x2"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "That two-item minimum? It's the real show.",
+   "say": "That two-item minimum? It's the real show.",
+   "scene": {
+    "t": "hook",
+    "title": "The [minimum] is the show",
+    "prop": "tag",
+    "label": "2 items",
+    "value": "x2",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's a big part of how clubs pay the bills.",
+   "say": "It's a big part of how clubs pay the bills.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2-item minimum",
+     "per person",
+     "= how clubs pay bills"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Laugh Factory says it helps pay the comics and keep tickets cheap.",
+   "say": "The Laugh Factory says it helps pay the comics and keep tickets cheap.",
+   "scene": {
+    "t": "list",
+    "title": "Laugh Factory says",
+    "items": [
+     "Minimum helps pay comics",
+     "Keeps tickets cheap"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At Helium, ordering nothing still costs $10, or $5 per item.",
+   "say": "At Helium, ordering nothing still costs you ten dollars, five per item.",
+   "scene": {
+    "t": "stat",
+    "label": "Helium fee if no order",
+    "value": "$10",
+    "tone": "down",
+    "sub": "Helium Comedy FAQ",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a sold-out club, 200 seats at $20, is $4,000. If comics get half, the club keeps $2,000.",
+   "say": "Picture an example club, sold out: two hundred seats at twenty dollars is four thousand. If the comics get half, the club keeps two thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Example club, sold out",
+    "left": {
+     "label": "Tickets",
+     "value": "$2,000",
+     "tone": "neutral",
+     "sub": "kept after comics"
+    },
+    "right": {
+     "label": "Drinks",
+     "value": "?",
+     "tone": "up",
+     "sub": "kept after pour"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If everyone orders two $10 drinks, that's another $4,000. Bars pay about 20¢ per dollar for drinks, so the club keeps $3,200.",
+   "say": "If everyone orders two ten-dollar drinks, that's another four thousand. Bars pay about twenty cents per dollar for the drinks they pour, so the club keeps thirty-two hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Example club, sold out",
+    "left": {
+     "label": "Tickets",
+     "value": "$2,000",
+     "tone": "neutral",
+     "sub": "kept after comics"
+    },
+    "right": {
+     "label": "Drinks",
+     "value": "$3,200",
+     "tone": "up",
+     "sub": "kept after pour"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average US household spent $643 on alcohol in 2024.",
+   "say": "Meanwhile, the average US household spent six hundred forty-three dollars on alcohol in twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg US household alcohol spend",
+    "points": [
+     [
+      2019,
+      579
+     ],
+     [
+      2020,
+      478
+     ],
+     [
+      2021,
+      554
+     ],
+     [
+      2022,
+      583
+     ],
+     [
+      2023,
+      637
+     ],
+     [
+      2024,
+      643
+     ]
+    ],
+    "prefix": "$",
+    "end": "$643",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$374 of that was spent away from home.",
+   "say": "Three hundred seventy-four dollars of that was spent away from home.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg US household alcohol spend",
+    "points": [
+     [
+      2019,
+      579
+     ],
+     [
+      2020,
+      478
+     ],
+     [
+      2021,
+      554
+     ],
+     [
+      2022,
+      583
+     ],
+     [
+      2023,
+      637
+     ],
+     [
+      2024,
+      643
+     ]
+    ],
+    "prefix": "$",
+    "end": "$643",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2024,
+     "text": "$374 away from home"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The ticket gets you in. The drinks keep the club open.",
+   "say": "The ticket gets you in. The drinks keep the club open.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Ticket = gets you in",
+     "Drinks = keep club open"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How comedy clubs really make money: the two-item minimum",
+  "ig": "That two-item minimum? It's the real show.\n\nMany clubs require two food or drink items per person; the Laugh Factory says it helps pay comics and keep tickets cheap.\nHelium charges $10 ($5 per item) if you order nothing.\nExample sold-out club, 200 seats: if comics get half, the club keeps $2,000 from tickets and $3,200 from drinks (two $10 drinks each, about 20% pour cost).\nUS households spent $643 on alcohol in 2024, $374 of it away from home (BLS).\n\nSources: Laugh Factory and Helium FAQs, BLS Consumer Expenditure Survey, bar trade benchmarks.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#comedy #standup #business #howtheymakemoney #financeprostv",
+  "tiktok": "That two-item minimum? It's the real show. How comedy clubs pay the bills. Not financial advice. #moneytok #personalfinance #comedy #financeprostv",
+  "yt_desc": "Many comedy clubs require two food or drink items per person, and the Laugh Factory says it helps pay the comics and keep tickets cheap. In an example sold-out 200-seat club where comics get half the door, the club keeps $2,000 from tickets and $3,200 from drinks; US households spent $643 on alcohol in 2024, $374 of it away from home (BLS Consumer Expenditure Survey). News and education, not financial advice. #Shorts #comedy #business",
+  "tags": [
+   "comedy club",
+   "two item minimum",
+   "how they make money",
+   "stand up comedy",
+   "business model"
+  ]
+ }
+}

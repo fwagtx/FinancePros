@@ -78,6 +78,19 @@
   },
   {
    "who": "ticker",
+   "text": "Same country, same oil fields, same gas stations. Just a very different price.",
+   "say": "Same country, same oil fields, same gas stations. Just a very different price.",
+   "scene": {
+    "t": "hook",
+    "title": "Same pump, [+$1.35]",
+    "prop": "car",
+    "label": "1 year",
+    "value": "+$1.35",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "That's not a mistake. Oil trades on one world market, and every country pays roughly the same price for it.",
    "say": "That's not a mistake. Oil trades on one world market, and every country pays roughly the same price for it.",
    "scene": {
@@ -232,8 +245,8 @@
   },
   {
    "who": "ticker",
-   "text": "So why import at all? Many US refineries are built for heavier crude, like Canada's, and it's often cheaper to trade than to rebuild.",
-   "say": "So why does a net exporter import at all? Many US refineries are built to run heavier crude, like Canada's, and trading is often cheaper than rebuilding.",
+   "text": "So why import at all? Many US refineries are built to run heavier crude, like Canada's.",
+   "say": "So why import at all? Many US refineries are built to run heavier crude, like Canada's.",
    "scene": {
     "t": "board",
     "lines": [
@@ -258,8 +271,8 @@
   },
   {
    "who": "ticker",
-   "text": "It's a narrow strip of water between Iran and the Arabian Peninsula, and tankers have few other ways out of the Gulf.",
-   "say": "It's a narrow strip of water between Iran and the Arabian Peninsula, and tankers have very few other ways out of the Gulf.",
+   "text": "It's a narrow strip of water between Iran and the Arabian Peninsula, and it's the only sea route out of the Persian Gulf.",
+   "say": "It's a narrow strip of water between Iran and the Arabian Peninsula, and it's the only sea route out of the Persian Gulf.",
    "scene": {
     "t": "board",
     "lines": [
@@ -303,8 +316,8 @@
   },
   {
    "who": "ticker",
-   "text": "Here's the key. If Japan loses a tanker, it bids for oil from Texas instead. Everyone is shopping in the same store.",
-   "say": "Here's the key. If Japan loses a tanker from the Gulf, it bids for oil from Texas instead. Everyone is shopping in the same store.",
+   "text": "Here's the key. If Japan loses a Gulf tanker, it bids for Texas oil instead. Everyone is shopping in the same store.",
+   "say": "Here's the key. If Japan loses a Gulf tanker, it bids for Texas oil instead. Everyone is shopping in the same store.",
    "scene": {
     "t": "building",
     "kind": "store",
@@ -314,14 +327,14 @@
   },
   {
    "who": "ticker",
-   "text": "So when supply gets squeezed anywhere, the price rises everywhere, even in a country that exports oil.",
-   "say": "So when supply gets squeezed anywhere, the price rises everywhere, even in a country that exports oil.",
+   "text": "So when supply gets squeezed anywhere, the price rises everywhere, even in an oil exporter.",
+   "say": "So when supply gets squeezed anywhere, the price rises everywhere, even in an oil exporter.",
    "scene": {
     "t": "hook",
     "title": "Squeezed anywhere, [pricier] everywhere",
     "prop": "fire",
     "label": "Hormuz",
-    "value": "x1 price",
+    "value": "1 price",
     "mood": "worried"
    }
   },
@@ -406,25 +419,15 @@
    "text": "That spike squeezed drivers and airlines, and the crash showed how fast demand can vanish.",
    "say": "That spike squeezed drivers and airlines, and the crash that followed showed how fast demand can vanish.",
    "scene": {
-    "t": "chart",
-    "title": "WTI crude, 2008 (per barrel)",
-    "points": [
-     [
-      2008.0,
-      96
-     ],
-     [
-      2008.5,
-      147.27
-     ],
-     [
-      2008.95,
-      32
-     ]
-    ],
-    "prefix": "$",
-    "end": "~$32",
-    "color": "down"
+    "t": "money",
+    "from": {
+     "label": "WTI, July 11, 2008",
+     "value": "$147.27"
+    },
+    "to": {
+     "label": "WTI, Dec 2008",
+     "value": "~$32"
+    }
    }
   },
   {
@@ -564,8 +567,8 @@
   },
   {
    "who": "ticker",
-   "text": "The price of actual physical cargoes went even higher: Dated Brent hit $144.42 on April 7, a record since 1987.",
-   "say": "The price for actual physical cargoes went even higher. Dated Brent hit a hundred forty-four dollars and forty-two cents on April seventh, the highest since that measure began in nineteen eighty-seven.",
+   "text": "Physical cargoes went even higher: Dated Brent hit $144.42 on April 7, a record since 1987.",
+   "say": "Physical cargoes went even higher. Dated Brent hit a hundred forty-four forty-two on April seventh, a record since nineteen eighty-seven.",
    "scene": {
     "t": "news",
     "headline": "Dated Brent hits $144.42, highest on record",
@@ -619,7 +622,7 @@
     "title": "Crude's slice [grows]",
     "prop": "chart-up",
     "label": "crude share",
-    "value": "51%+"
+    "value": "bigger"
    }
   },
   {
@@ -800,6 +803,22 @@
   },
   {
    "who": "ticker",
+   "text": "That's real money, for the exact same gallons you'd have bought anyway.",
+   "say": "That's real money, for the exact same gallons you would have bought anyway.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "15 gal, Sept 2025",
+     "value": "$46.77"
+    },
+    "to": {
+     "label": "15 gal, Sept 28, 2026",
+     "value": "$66.98"
+    }
+   }
+  },
+  {
+   "who": "ticker",
    "text": "And gas is the ripple you see. The ones you don't see are bigger than you'd think.",
    "say": "And gas is the ripple you can see. The ones you don't see are bigger than you'd think.",
    "scene": {
@@ -826,13 +845,25 @@
   },
   {
    "who": "ticker",
-   "text": "Almost everything you buy rode on a diesel truck at some point. And diesel hit a record.",
-   "say": "Almost everything you buy rode on a diesel truck at some point, and diesel just hit a record.",
+   "text": "Almost everything you buy rode on a diesel truck at some point. In September 2026, diesel hit a record.",
+   "say": "Almost everything you buy rode on a diesel truck at some point, and in September twenty twenty-six, diesel hit a record.",
    "scene": {
     "t": "building",
     "kind": "store",
     "label": "diesel: $6.53",
     "caption": "Everything in here came by truck"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A record for diesel is a record for the cost of moving stuff.",
+   "say": "And a record for diesel is really a record for the cost of moving stuff around.",
+   "scene": {
+    "t": "hook",
+    "title": "Moving stuff costs [more]",
+    "prop": "box",
+    "label": "Freight",
+    "value": "$6.53"
    }
   },
   {
@@ -870,7 +901,7 @@
   },
   {
    "who": "ticker",
-   "text": "Diesel is also what turns into heating oil. The price of fuel oil in the August 2026 inflation report was up 52% in a year.",
+   "text": "Diesel's close cousin is heating oil, and in the August 2026 inflation report, fuel oil prices were up 52% in a year.",
    "say": "Diesel's close cousin is heating oil, and in the August twenty twenty-six inflation report, fuel oil prices were up fifty-two percent in a year.",
    "scene": {
     "t": "stat",
@@ -958,8 +989,8 @@
   },
   {
    "who": "ticker",
-   "text": "Oil-importing countries feel it even harder, because they buy oil with dollars they have to earn first.",
-   "say": "Oil-importing countries feel it even harder, because they have to buy that oil in dollars they earn first.",
+   "text": "Oil importers feel it even harder, since they buy that oil in dollars they earn first.",
+   "say": "Oil importers feel it even harder, since they buy that oil in dollars they earn first.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -1052,18 +1083,15 @@
   },
   {
    "who": "ticker",
-   "text": "That's the stuff in bottles, bags and food wrap. Packaging makers pass that cost to brands, and brands pass it to shelves.",
-   "say": "That's the stuff in bottles, bags and food wrap. Packaging makers pass that cost on to brands, and brands pass it on to store shelves.",
+   "text": "Packaging makers pass that cost on to brands, and brands pass it on to store shelves.",
+   "say": "Packaging makers pass that cost on to brands, and brands pass it on to store shelves.",
    "scene": {
-    "t": "money",
-    "from": {
-     "label": "Crude oil",
-     "value": "$$"
-    },
-    "to": {
-     "label": "Bottles, bags, wrap",
-     "value": "$$$"
-    }
+    "t": "board",
+    "lines": [
+     "Oil -> plastic",
+     "-> packaging -> brand",
+     "-> store shelf"
+    ]
    }
   },
   {
@@ -1123,6 +1151,18 @@
      "Packaging"
     ],
     "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each step adds a little, and a little, stacked three times, adds up.",
+   "say": "Each step adds a little, and a little, stacked three times, starts to add up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Farm + truck + wrap",
+     "= oil on your receipt"
+    ]
    }
   },
   {
@@ -1267,7 +1307,7 @@
   {
    "who": "ticker",
    "text": "So the next time a tanker makes the news, you'll know exactly how it finds its way to your receipt.",
-   "say": "So the next time a tanker makes the news halfway around the world, you'll know exactly how it finds its way onto your receipt.",
+   "say": "So the next time a tanker makes the news, you'll know exactly how it finds its way onto your receipt.",
    "scene": {
     "t": "countries",
     "cast": [

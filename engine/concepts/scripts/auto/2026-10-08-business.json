@@ -1,0 +1,207 @@
+{
+ "id": "2026-10-08-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How banks make money\nfrom your checking",
+ "cover": {
+  "title": "Your Bank Can Earn 55x Your Rate",
+  "prop": "bill",
+  "label": "CHECKING",
+  "value": "x55"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your bank can earn 55 times what your checking pays you.",
+   "say": "Your bank can earn fifty-five times what your checking pays you.",
+   "scene": {
+    "t": "hook",
+    "title": "Your bank can earn [55x]",
+    "prop": "bill",
+    "label": "CHECKING",
+    "value": "x55",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the quiet engine behind America's biggest bank.",
+   "say": "It's the quiet engine behind America's biggest bank.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You deposit cash",
+     "Bank pays you a little",
+     "Bank earns a lot more"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of September 2026, checking averages 0.07%. The Fed pays banks 3.9% to park cash overnight.",
+   "say": "As of September twenty twenty-six, checking averages zero point zero seven percent. The Fed pays banks three point nine percent to park cash overnight.",
+   "scene": {
+    "t": "compare",
+    "title": "Rates, September 2026",
+    "left": {
+     "label": "Your checking",
+     "value": "0.07%",
+     "tone": "down",
+     "sub": "FDIC avg, Sep 2026"
+    },
+    "right": {
+     "label": "Fed pays banks",
+     "value": "3.9%",
+     "tone": "up",
+     "sub": "since Sep 17, 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $5,000 for a year, you get $3.50. At the Fed, the bank could get $195, before its costs.",
+   "say": "On five thousand dollars for a year, you get three dollars and fifty cents. At the Fed, the bank could get a hundred ninety-five, before its costs.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You earn at 0.07%",
+     "value": "$3.50"
+    },
+    "to": {
+     "label": "Bank could get at 3.9%",
+     "value": "$195"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Or they can lend it out instead, and since 2020 there's no reserve requirement.",
+   "say": "Or they can lend it out instead, and since twenty twenty there's no reserve requirement.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reserve requirement:",
+     "0% since 2020"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of 2025, JPMorgan held $620.4 billion in deposits paying zero interest.",
+   "say": "At the end of twenty twenty-five, JPMorgan held six hundred twenty point four billion in deposits paying zero interest.",
+   "scene": {
+    "t": "stat",
+    "label": "JPMorgan zero-interest deposits, end of 2025",
+    "value": "$620.4B",
+    "tone": "neutral",
+    "sub": "2025 annual report (10-K)",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its net interest income hit $95.4 billion in 2025.",
+   "say": "Its net interest income hit ninety-five point four billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "JPMorgan net interest income",
+    "points": [
+     [
+      2022,
+      66.7
+     ],
+     [
+      2023,
+      89.3
+     ],
+     [
+      2024,
+      92.6
+     ],
+     [
+      2025,
+      95.4
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$95.4B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest jump came in 2023, up 34%.",
+   "say": "The biggest jump came in twenty twenty-three, up thirty-four percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "JPMorgan net interest income",
+    "points": [
+     [
+      2022,
+      66.7
+     ],
+     [
+      2023,
+      89.3
+     ],
+     [
+      2024,
+      92.6
+     ],
+     [
+      2025,
+      95.4
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$95.4B",
+    "color": "up",
+    "mood": "shock",
+    "note": {
+     "x": 2023,
+     "text": "+34% in 2023"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To a bank, your checking account is one of the cheapest loans it can get.",
+   "say": "To a bank, your checking account is one of the cheapest loans it can get.",
+   "scene": {
+    "t": "hook",
+    "title": "Your checking is a [loan]",
+    "prop": "bill",
+    "label": "CHEAP LOAN",
+    "value": "0.07%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your bank can earn 55x what your checking pays you",
+  "ig": "Your bank can earn 55 times what your checking account pays you.\nAs of September 2026, interest checking pays 0.07% on average (FDIC). Since September 17, 2026, the Fed pays banks 3.9% on reserves.\nOn $5,000 for a year: $3.50 to you, up to $195 for the bank at the Fed, before its costs.\nJPMorgan held $620.4 billion in no-interest deposits at the end of 2025, and its net interest income reached $95.4 billion in 2025.\nSources: FDIC national rates, Federal Reserve, JPMorgan Chase 2025 10-K.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#banking #checkingaccount #businessmodel #personalfinance #financeprostv",
+  "tiktok": "Your bank can earn 55x what your checking pays: 0.07% vs 3.9% from the Fed. Not financial advice. #moneytok #personalfinance #banking #financeprostv",
+  "yt_desc": "As of September 2026, interest checking pays 0.07% on average (FDIC), while the Fed pays banks 3.9% on reserves since September 17, 2026, so $5,000 earns you $3.50 a year versus up to $195 the bank could earn parked at the Fed, before its costs. JPMorgan held $620.4 billion in no-interest deposits at the end of 2025 and earned $95.4 billion in net interest income in 2025 (2025 10-K). News and education, not financial advice. #Shorts #banking #business",
+  "tags": [
+   "how banks make money",
+   "checking account interest",
+   "net interest income",
+   "jpmorgan",
+   "business model"
+  ]
+ }
+}

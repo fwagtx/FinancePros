@@ -1,30 +1,30 @@
 {
  "series": "ticker",
- "header": "Why are mattresses\nalways on sale?",
+ "header": "Where your mattress\nmoney goes",
  "cover": {
-  "title": "Always On Sale, Never Cheap?",
+  "title": "47¢ to Sell, 41¢ to Make",
   "prop": "mattress",
-  "label": "SALE",
-  "value": "47.1¢"
+  "label": "Sleep Number",
+  "value": "47¢>41¢"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "Why is a mattress always on sale, but never cheap?",
-   "say": "Why is a mattress always on sale, but never cheap?",
+   "text": "This mattress company spent more selling beds than making them.",
+   "say": "This mattress company spent more selling beds than making them.",
    "scene": {
     "t": "hook",
-    "title": "Always on sale, never [cheap]",
+    "title": "More to [sell] than make",
     "prop": "mattress",
-    "label": "SALE",
-    "value": "why?",
+    "label": "Sleep Number",
+    "value": "47¢>41¢",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "The answer's in one mattress maker's annual report, and it's not the foam.",
-   "say": "The answer's in one mattress maker's annual report, and it's not the foam.",
+   "text": "Sleep Number's annual report shows where the money went.",
+   "say": "Sleep Number's annual report shows where the money went.",
    "scene": {
     "t": "hook",
     "title": "Follow the [money]",
@@ -35,20 +35,8 @@
   },
   {
    "who": "ticker",
-   "text": "In 2025, making Sleep Number's beds cost 41.0¢ per sales dollar.",
-   "say": "In twenty twenty-five, making Sleep Number's beds cost about forty-one cents per sales dollar.",
-   "scene": {
-    "t": "stat",
-    "label": "Cost of sales per $1, 2025",
-    "value": "41.0¢",
-    "tone": "neutral",
-    "sub": "Sleep Number 10-K"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's a 59.0% gross margin, between 57% and 62% since 2020.",
-   "say": "That's a gross margin of about fifty-nine percent, between fifty-seven and sixty-two since twenty twenty.",
+   "text": "In 2025, making its beds cost 41.0¢ per sales dollar, a 59.0% gross margin.",
+   "say": "In twenty twenty-five, making its beds cost about forty-one cents per sales dollar, a fifty-nine percent gross margin.",
    "scene": {
     "t": "chart",
     "title": "Sleep Number gross margin",
@@ -85,8 +73,8 @@
   },
   {
    "who": "ticker",
-   "text": "But selling it cost more: 47.1¢ per dollar on stores, salespeople and ads.",
-   "say": "But selling it cost more, about forty-seven cents per dollar on stores, salespeople and ads.",
+   "text": "Selling them cost more: 47.1¢, on stores, salespeople and ads.",
+   "say": "Selling them cost more, about forty-seven cents, on stores, salespeople and ads.",
    "scene": {
     "t": "compare",
     "title": "Per $1 of sales, 2025",
@@ -121,8 +109,8 @@
   },
   {
    "who": "ticker",
-   "text": "After overhead, it posted a $47 million operating loss in 2025.",
-   "say": "After overhead, it posted a forty-seven million dollar operating loss in twenty twenty-five.",
+   "text": "After overhead, it lost $47 million on operations in 2025.",
+   "say": "After overhead, it lost forty-seven million dollars on operations in twenty twenty-five.",
    "scene": {
     "t": "stat",
     "label": "Operating loss, 2025",
@@ -134,8 +122,18 @@
   },
   {
    "who": "ticker",
-   "text": "And the crossed-out price? FTC guides say a 'was' price must be real.",
-   "say": "And the crossed-out price? F T C guides say a was price has to be real.",
+   "text": "It filed for Chapter 11 in June 2026 and was sold to Sleep Country Canada in July 2026.",
+   "say": "It filed for Chapter eleven in June twenty twenty-six and was sold to Sleep Country Canada that July.",
+   "scene": {
+    "t": "news",
+    "headline": "Sleep Number files Chapter 11, sold to Sleep Country",
+    "source": "Court filings, June-July 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FTC guides say the crossed-out price should be a real former price.",
+   "say": "F T C guides say the crossed-out price should be a real former price.",
    "scene": {
     "t": "quote",
     "text": "openly and actively offered for sale, for a reasonably substantial period of time",
@@ -144,34 +142,34 @@
   },
   {
    "who": "ticker",
-   "text": "In 2025, Mattress Firm settled a California suit over allegedly fake discounts, at $40 per online order.",
-   "say": "In twenty twenty-five, Mattress Firm settled a California suit over allegedly fake discounts, at forty dollars per online order.",
+   "text": "In 2025, Mattress Firm settled a California suit over allegedly fake discounts for $40 an order, denying wrongdoing.",
+   "say": "In twenty twenty-five, Mattress Firm settled a California suit over allegedly fake discounts for forty dollars an order, denying wrongdoing.",
    "scene": {
-    "t": "news",
-    "headline": "Mattress Firm settles suit over alleged fake discounts",
-    "source": "Hampton v. Mattress Firm, 2025"
+    "t": "stat",
+    "label": "Mattress Firm settlement",
+    "value": "$40",
+    "tone": "neutral",
+    "sub": "per order; denies wrongdoing"
    }
   },
   {
    "who": "ticker",
-   "text": "So the price mostly pays for the selling, not the sleeping.",
-   "say": "So the price mostly pays for the selling, not the sleeping.",
+   "text": "At Sleep Number, more of the price paid for selling than for making.",
+   "say": "At Sleep Number, more of the price paid for selling than for making.",
    "scene": {
     "t": "split",
-    "title": "What the tag pays for",
+    "title": "What the tag paid for",
     "left": {
      "title": "Making",
      "items": [
-      "the bed"
+      "41.0¢ per $1"
      ],
      "tone": "neutral"
     },
     "right": {
      "title": "Selling",
      "items": [
-      "stores",
-      "ads",
-      "salespeople"
+      "47.1¢ per $1"
      ],
      "tone": "down"
     },
@@ -188,10 +186,10 @@
   }
  ],
  "post": {
-  "title": "Why mattresses are always on sale but never cheap",
-  "ig": "Why is a mattress always on sale, but never cheap?\n\nIn 2025, Sleep Number's cost of sales was 41.0 cents of every sales dollar (a 59.0% gross margin).\nSelling it cost more: sales and marketing took 47.1 cents per dollar, and the company posted a $47 million operating loss.\nFTC pricing guides say a 'was' price must be one the item was really offered at. In 2025, Mattress Firm settled a California suit over allegedly fake discounts at $40 per online order.\n\nSources: Sleep Number 2025 Form 10-K, FTC Guides Against Deceptive Pricing (16 CFR 233), Hampton v. Mattress Firm settlement.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#mattress #pricing #moneymyths #personalfinance #financeprostv",
-  "tiktok": "Why is a mattress always on sale but never cheap? The 10-K explains. Not financial advice. #moneytok #personalfinance #mattress #pricing #financeprostv",
-  "yt_desc": "In 2025, Sleep Number's cost of sales was 41.0 cents per sales dollar, but sales and marketing took 47.1 cents, and it posted a $47 million operating loss (Sleep Number 2025 10-K). FTC pricing guides say a 'was' price must be real, and in 2025 Mattress Firm settled a California suit over allegedly fake discounts. News and education, not financial advice.\n\n#Shorts #mattress #pricing",
+  "title": "Where your mattress money goes: 47¢ to sell, 41¢ to make",
+  "ig": "This mattress company spent more selling beds than making them.\n\nIn 2025, Sleep Number's gross margin was 59.0%, so making its beds cost 41.0 cents per sales dollar.\nSales and marketing took 47.1 cents per dollar, and it posted a $47 million operating loss.\nIt filed for Chapter 11 in June 2026 and was bought by Sleep Country Canada in July 2026.\nFTC pricing guides say a crossed-out price should be a real former price. In 2025, Mattress Firm, which denies wrongdoing, settled a California suit over allegedly fake discounts at $40 per online order.\n\nSources: Sleep Number 2025 Form 10-K, US Bankruptcy Court SDNY filings, FTC Guides Against Deceptive Pricing (16 CFR 233), Hampton v. Mattress Firm settlement.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#mattress #pricing #businessexplained #personalfinance #financeprostv",
+  "tiktok": "One mattress maker spent 47¢ selling vs 41¢ making per $1. Not financial advice. #moneytok #personalfinance #mattress #pricing #financeprostv",
+  "yt_desc": "In 2025, Sleep Number's cost of sales was 41.0 cents per sales dollar, but sales and marketing took 47.1 cents, and it posted a $47 million operating loss (Sleep Number 2025 10-K). It filed for Chapter 11 in June 2026 and was bought by Sleep Country Canada in July 2026. FTC pricing guides say a crossed-out price should be a real former price; in 2025 Mattress Firm, which denies wrongdoing, settled a California suit over allegedly fake discounts. News and education, not financial advice.\n\n#Shorts #mattress #pricing",
   "tags": [
    "mattress prices",
    "why is it so expensive",
