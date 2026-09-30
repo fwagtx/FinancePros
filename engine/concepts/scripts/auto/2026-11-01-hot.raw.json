@@ -1,0 +1,180 @@
+{
+ "series": "ticker",
+ "header": "Wrong filing status?\nHere's what happens",
+ "cover": {
+  "title": "Head of Household by Mistake?",
+  "prop": "paper",
+  "label": "FORM 1040",
+  "value": "+20%?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Wrongly claim head of household? The IRS can bill it back, plus up to 20%.",
+   "say": "Wrongly claim head of household? The IRS can bill it back, plus twenty percent.",
+   "scene": {
+    "t": "hook",
+    "title": "Wrong status? Bill + [20%].",
+    "prop": "paper",
+    "label": "FORM 1040",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your filing status sets your standard deduction and your tax brackets.",
+   "say": "Your filing status sets your standard deduction and your tax brackets.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Filing status sets:",
+     "standard deduction",
+     "+ tax brackets"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2025 returns, single gets $15,750. Head of household gets $23,625.",
+   "say": "For twenty twenty-five returns, single filers get fifteen thousand seven fifty. Head of household gets twenty-three thousand six twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "2025 standard deduction",
+    "left": {
+     "label": "Single",
+     "value": "$15,750",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Head of household",
+     "value": "$23,625",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Head of household has rules: you're unmarried, you pay over half the home's costs, and a qualifying person lives with you.",
+   "say": "Head of household has rules: you're unmarried, you pay over half the home's costs, and a qualifying person lives with you.",
+   "scene": {
+    "t": "list",
+    "title": "Head of household needs",
+    "items": [
+     "Unmarried (or considered)",
+     "Pay over half of home costs",
+     "Qualifying person lives there"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Claim it when you don't qualify, and the extra $7,875 deduction leaves about $945 underpaid, at 12%.",
+   "say": "Claim it when you don't qualify, and the extra seven thousand eight seventy-five deduction leaves about nine hundred forty-five dollars underpaid, at twelve percent.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Extra deduction",
+     "value": "$7,875"
+    },
+    "to": {
+     "label": "Underpaid at 12%",
+     "value": "$945"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the IRS catches it, you repay that plus interest, and possibly a 20% penalty: $189 more.",
+   "say": "If the IRS catches it, you repay that plus interest, and possibly a twenty percent penalty: a hundred eighty-nine dollars more.",
+   "scene": {
+    "t": "stat",
+    "label": "Possible accuracy penalty",
+    "value": "$189",
+    "tone": "down",
+    "sub": "20% of a $945 underpayment"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That deduction keeps rising: $18,350 in 2019, $24,150 for 2026.",
+   "say": "That deduction keeps rising: eighteen thousand three fifty in twenty nineteen, twenty-four thousand one fifty for twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Head of household deduction",
+    "points": [
+     [
+      2019,
+      18350
+     ],
+     [
+      2020,
+      18650
+     ],
+     [
+      2021,
+      18800
+     ],
+     [
+      2022,
+      19400
+     ],
+     [
+      2023,
+      20800
+     ],
+     [
+      2024,
+      21900
+     ],
+     [
+      2025,
+      23625
+     ],
+     [
+      2026,
+      24150
+     ]
+    ],
+    "prefix": "$",
+    "end": "$24,150",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Made a mistake? You can generally fix it with Form 1040-X within three years.",
+   "say": "Made a mistake? You can generally fix it with Form ten-forty-X within three years.",
+   "scene": {
+    "t": "hook",
+    "title": "Fix it: Form [1040-X].",
+    "prop": "paper",
+    "label": "1040-X",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Head of household by mistake? What it can cost",
+  "ig": "Wrongly claim head of household? The IRS can bill it back, plus up to 20%.\nFor 2025 returns, the standard deduction is $15,750 for single filers and $23,625 for head of household.\nHead of household requires being unmarried (or considered unmarried), paying over half the home's costs, and a qualifying person living with you.\nClaiming it wrongly means at least about $945 underpaid in the 12% bracket (from the deduction alone), which the IRS can bill back with interest and a possible 20% penalty ($189).\nFix mistakes with Form 1040-X, generally within 3 years.\nSources: IRS Publication 501; IRS 2026 inflation adjustments; IRC sec. 6662.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#taxes #filingstatus #irs #personalfinance #financeprostv",
+  "tiktok": "Wrongly claim head of household? The IRS can bill it back, plus up to 20%. Not financial advice. #moneytok #personalfinance #taxes #financeprostv",
+  "yt_desc": "For 2025 returns, head of household gets a $23,625 standard deduction versus $15,750 for single filers. Claiming it without qualifying means at least about $945 underpaid in the 12% bracket (from the deduction alone; HOH brackets are also wider), which the IRS can bill back with interest and a possible 20% accuracy-related penalty. Fix mistakes with Form 1040-X, generally within three years (IRS Publication 501; IRC sec. 6662). News and education, not financial advice. #Shorts #taxes #irs",
+  "tags": [
+   "filing status",
+   "head of household",
+   "irs penalty",
+   "standard deduction 2025",
+   "form 1040-x"
+  ]
+ }
+}
