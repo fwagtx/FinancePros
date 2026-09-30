@@ -1,0 +1,202 @@
+{
+ "series": "ticker",
+ "header": "How Apple makes money\nfrom the App Store",
+ "cover": {
+  "title": "Apple's 30% App Store Cut",
+  "prop": "coins",
+  "value": "30%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Buy a 99-cent app in the US, and Apple keeps 30 cents.",
+   "say": "Buy a ninety-nine cent app in the US, and Apple keeps thirty cents.",
+   "scene": {
+    "t": "hook",
+    "title": "Apple's [30%] cut",
+    "prop": "coins",
+    "value": "30%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The standard US App Store cut is 30%, or 15% for developers under $1 million a year. Europe's is lower now.",
+   "say": "The standard US App Store cut is thirty percent, or fifteen percent for developers earning under a million a year. Europe's is lower now.",
+   "scene": {
+    "t": "compare",
+    "title": "App Store commission",
+    "left": {
+     "label": "Standard (US)",
+     "value": "30%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Small devs (<$1M)",
+     "value": "15%",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $9.99 purchase: 30% is $3.00, so the developer keeps $6.99.",
+   "say": "On a nine ninety-nine purchase, thirty percent is three dollars, so the developer keeps six ninety-nine.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$9.99 x 30% = $3.00",
+     "Developer keeps $6.99",
+     "(at 15%: keeps $8.49)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Apple's Services, which include the App Store plus iCloud, ads and more, made $109.2 billion in fiscal 2025.",
+   "say": "Apple's services, which include the App Store plus iCloud, ads and more, made a hundred nine point two billion dollars in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Apple Services net sales, FY2025",
+    "value": "$109.2B",
+    "tone": "up",
+    "sub": "App Store, ads, iCloud, AppleCare, payments, more"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up from $46.3 billion in fiscal 2019.",
+   "say": "That's up from forty-six point three billion in fiscal twenty nineteen.",
+   "scene": {
+    "t": "chart",
+    "title": "Apple Services sales ($B, fiscal years)",
+    "points": [
+     [
+      2019,
+      46.3
+     ],
+     [
+      2020,
+      53.8
+     ],
+     [
+      2021,
+      68.4
+     ],
+     [
+      2022,
+      78.1
+     ],
+     [
+      2023,
+      85.2
+     ],
+     [
+      2024,
+      96.2
+     ],
+     [
+      2025,
+      109.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$109.2B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Services are far more profitable: a 75.4% gross margin, vs 36.8% on devices.",
+   "say": "And services are far more profitable: a seventy-five point four percent gross margin, versus thirty-six point eight on devices.",
+   "scene": {
+    "t": "compare",
+    "title": "Gross margin, FY2025",
+    "left": {
+     "label": "Devices",
+     "value": "36.8%",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Services",
+     "value": "75.4%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So services were 26% of sales, but about 42% of gross profit.",
+   "say": "So services were just twenty-six percent of Apple's sales, but about forty-two percent of its gross profit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Services: $109.2B x 75.4%",
+     "= $82.3B gross profit",
+     "= 42% of Apple's total"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plot twist: an Apple-funded study says over 90% of money flowing through apps paid no commission.",
+   "say": "Plot twist: an Apple-funded study says over ninety percent of the money flowing through apps, like rides and groceries, paid Apple no commission.",
+   "scene": {
+    "t": "stat",
+    "label": "App ecosystem sales with no Apple commission, 2024",
+    "value": "90%+",
+    "tone": "neutral",
+    "sub": "Apple-funded Analysis Group study, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fee hits digital stuff: games, subscriptions, upgrades. And that's where the margin is.",
+   "say": "The fee hits digital stuff, like games, subscriptions and upgrades. And that's where the margin is.",
+   "scene": {
+    "t": "split",
+    "title": "What pays the App Store fee",
+    "left": {
+     "title": "Usually pays",
+     "items": [
+      "Game coins",
+      "Subscriptions",
+      "App upgrades"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Usually doesn't",
+     "items": [
+      "Rides",
+      "Groceries",
+      "Physical goods"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How Apple makes money from the App Store",
+  "ig": "Buy a 99-cent app in the US, and Apple keeps 30 cents.\nThe standard US App Store cut is 30%, or 15% for developers earning under $1 million a year (Europe's standard rate is lower as of Oct 2026).\nApple's Services, including the App Store, brought in $109.2 billion in fiscal 2025, with a 75.4% gross margin vs 36.8% on devices.\nServices were 26% of sales but about 42% of gross profit.\nSources: Apple FY2025 Form 10-K, Apple Developer.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#apple #appstore #business #howtheymakemoney #financeprostv",
+  "tiktok": "Apple keeps 30 cents of a 99-cent US app purchase. Here's the math. Not financial advice. #moneytok #personalfinance #apple #appstore #financeprostv",
+  "yt_desc": "How Apple makes money from the App Store. The standard US cut is 30% (15% for small developers). Apple's Services, which include the App Store, made $109.2 billion in fiscal 2025 with a 75.4% gross margin, about 42% of its gross profit (Apple FY2025 10-K). News and education, not financial advice.\n#Shorts #apple #appstore",
+  "tags": [
+   "apple app store",
+   "how apple makes money",
+   "app store commission",
+   "apple services revenue",
+   "business model"
+  ]
+ }
+}
