@@ -1,0 +1,197 @@
+{
+ "series": "ticker",
+ "header": "Shorted on pay?\nThe law says double",
+ "cover": {
+  "title": "Shorted On Pay? Boss Owes Double",
+  "prop": "bill",
+  "label": "Paycheck",
+  "value": "x2"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Shorted on pay? Your boss can owe you double.",
+   "say": "Shorted on pay? Your boss can owe you double.",
+   "scene": {
+    "t": "hook",
+    "title": "Your boss owes [double]",
+    "prop": "bill",
+    "label": "Paycheck",
+    "value": "x2",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But there's a clock: 2 years to claim it, or 3 if it was willful.",
+   "say": "But there's a clock. You get two years to claim it, or three if it was willful.",
+   "scene": {
+    "t": "compare",
+    "title": "Federal deadline",
+    "left": {
+     "label": "Standard",
+     "value": "2 yrs",
+     "tone": "neutral",
+     "sub": "to file a claim"
+    },
+    "right": {
+     "label": "Willful",
+     "value": "3 yrs",
+     "tone": "down",
+     "sub": "boss knew"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal wage law adds an equal amount on top of unpaid minimum wage or overtime.",
+   "say": "Federal wage law adds an equal amount on top of unpaid minimum wage or overtime.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Unpaid wages",
+     "+ an equal amount",
+     "= liquidated damages"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: at $20 an hour, overtime is $30. Miss 5 OT hours a week and that's $7,800 a year.",
+   "say": "Say you earn twenty dollars an hour, so overtime is thirty. Miss five overtime hours a week and that's seventy-eight hundred dollars a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example: overtime",
+     "value": "$30/hr"
+    },
+    "to": {
+     "label": "5 hrs/week, 1 year",
+     "value": "$7,800"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add the equal damages and it's $15,600, plus the employer pays your lawyer.",
+   "say": "Add the equal damages and it's fifteen thousand six hundred dollars, plus the employer pays your lawyer.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: wages + damages",
+    "value": "$15,600",
+    "tone": "up",
+    "sub": "$7,800 x 2",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The boss only escapes the doubling by proving good faith and a reasonable belief it was legal.",
+   "say": "The boss only escapes the doubling by proving good faith and a reasonable belief it was legal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No double if boss proves",
+     "good faith + a reasonable",
+     "belief it was legal"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It happens a lot: the Labor Department recovered $259 million in back wages in fiscal 2025.",
+   "say": "It happens a lot. The Labor Department recovered two hundred fifty-nine million dollars in back wages in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "DOL back wages recovered ($M)",
+    "points": [
+     [
+      2019,
+      322
+     ],
+     [
+      2020,
+      257.8
+     ],
+     [
+      2021,
+      234.3
+     ],
+     [
+      2022,
+      213.1
+     ],
+     [
+      2023,
+      212.3
+     ],
+     [
+      2024,
+      202
+     ],
+     [
+      2025,
+      259
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$259M",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That went to almost 177,000 workers.",
+   "say": "That went to almost a hundred seventy-seven thousand workers.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "176,957 workers"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And firing someone for complaining about pay is illegal retaliation.",
+   "say": "And firing someone for complaining about pay is illegal retaliation.",
+   "scene": {
+    "t": "list",
+    "title": "Federal wage rights",
+    "items": [
+     "Double damages",
+     "2 to 3 year deadline",
+     "Boss pays lawyer fees",
+     "No retaliation"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Shorted on pay? Federal law can make your boss pay double",
+  "ig": "Shorted on pay? Your boss can owe you double.\n\nUnder the federal Fair Labor Standards Act, unpaid minimum wage or overtime comes with an equal amount in liquidated damages, plus attorney's fees.\nThe deadline: 2 years, or 3 if the violation was willful.\nExample: 5 unpaid overtime hours a week at $20/hr is $7,800 a year, or $15,600 with damages.\nThe Labor Department recovered $259 million in back wages for 176,957 workers in fiscal 2025, the most since 2019.\n\nSources: Fair Labor Standards Act (29 U.S.C. 216, 255), US Department of Labor Wage and Hour Division, EPI.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#wagetheft #paycheck #workerrights #personalfinance #financeprostv",
+  "tiktok": "Shorted on pay? Federal law can make your boss owe you double. Not financial advice. #moneytok #personalfinance #wagetheft #paycheck #financeprostv",
+  "yt_desc": "Under the Fair Labor Standards Act, unpaid minimum wage or overtime can be doubled with liquidated damages, plus attorney's fees, and the deadline is 2 years (3 if willful). The Labor Department recovered $259 million in back wages for 176,957 workers in fiscal 2025, the most since 2019. Sources: 29 U.S.C. 216 and 255, US Department of Labor Wage and Hour Division, EPI.\n\nNews and education, not financial advice.\n\n#Shorts #wagetheft #paycheck",
+  "tags": [
+   "wage theft",
+   "unpaid overtime",
+   "paycheck",
+   "worker rights",
+   "personal finance"
+  ]
+ }
+}
