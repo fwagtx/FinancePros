@@ -122,25 +122,30 @@ def script_for(show, slot_id, tries):
     return None, None
 
 
-R2 = ("R2_ACCOUNT_ID", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY", "R2_BUCKET", "R2_PUBLIC_URL")
+# FinancePros has its own R2 bucket and keys (FP_R2_*). The generic R2_* / AWS_* variables in a shared environment may belong to
+# another brand, so they are never used here.
+def r2_cfg():
+    e = os.environ.get
+    return {"account": e("FP_R2_ACCOUNT_ID") or e("R2_ACCOUNT_ID"), "key": e("FP_R2_ACCESS_KEY_ID"), "secret": e("FP_R2_SECRET_ACCESS_KEY"),
+            "bucket": e("FP_R2_BUCKET") or "financepros-media", "public": (e("FP_R2_PUBLIC_URL") or "").rstrip("/")}
 
 
-def r2_ready(): return all(os.environ.get(k) for k in R2)
+def r2_ready():
+    c = r2_cfg(); return all(c.values()) and c["bucket"].startswith("financepros")
 
 
 def host_r2(files, date):
-    """Upload files to the Cloudflare R2 bucket and return their public URLs. The bucket's lifecycle rule deletes them
+    """Upload files to the FinancePros R2 bucket and return their public URLs. The bucket's lifecycle rule deletes them
     after 7 days; Metricool keeps its own copy once a post is scheduled."""
     import boto3, mimetypes
-    s3 = boto3.client("s3", endpoint_url=f"https://{os.environ['R2_ACCOUNT_ID']}.r2.cloudflarestorage.com",
-                      aws_access_key_id=os.environ["R2_ACCESS_KEY_ID"], aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"],
-                      region_name="auto")
+    c = r2_cfg()
+    s3 = boto3.client("s3", endpoint_url=f"https://{c['account']}.r2.cloudflarestorage.com", aws_access_key_id=c["key"],
+                      aws_secret_access_key=c["secret"], region_name="auto")
     urls = []
     for f in files:
         key = f"{date}/{os.path.basename(f)}"
-        s3.upload_file(f, os.environ["R2_BUCKET"], key,
-                       ExtraArgs={"ContentType": mimetypes.guess_type(f)[0] or "application/octet-stream"})
-        urls.append(f"{os.environ['R2_PUBLIC_URL'].rstrip('/')}/{key}")
+        s3.upload_file(f, c["bucket"], key, ExtraArgs={"ContentType": mimetypes.guess_type(f)[0] or "application/octet-stream"})
+        urls.append(f"{c['public']}/{key}")
     return urls
 
 

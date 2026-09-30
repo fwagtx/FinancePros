@@ -42,9 +42,9 @@ Re-plan after editing the banks: `python concepts/plan_calendar.py`.
 
 ## Video hosting
 Rendered videos are uploaded to the Cloudflare R2 bucket `financepros-media` (public r2.dev URL; a lifecycle rule deletes files
-after 7 days) and Metricool fetches them from there, keeping its own copy once the post is scheduled. It needs these
-environment variables in the Claude Code environment: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`,
-`R2_BUCKET`, `R2_PUBLIC_URL`. Without them it falls back to the repo's `media` branch (public raw.githubusercontent.com links),
+after 7 days) and Metricool fetches them from there, keeping its own copy once the post is scheduled. It needs its own
+environment variables (FinancePros-only names, so a shared environment never mixes brands): `FP_R2_ACCOUNT_ID` (or the shared
+`R2_ACCOUNT_ID`), `FP_R2_ACCESS_KEY_ID`, `FP_R2_SECRET_ACCESS_KEY`, `FP_R2_BUCKET` (default `financepros-media`), `FP_R2_PUBLIC_URL`. Without them it falls back to the repo's `media` branch (public raw.githubusercontent.com links),
 which only works while the GitHub repo is publicly visible; if neither works, `session.py next` stops before making anything.
 
 ## Who runs it
