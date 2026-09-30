@@ -1,0 +1,192 @@
+{
+ "id": "2026-11-15-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "The latte factor:\nmath or myth?",
+ "cover": {
+  "title": "Your Latte Costs $172,000?",
+  "prop": "pot",
+  "value": "$172K?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Is your $5 latte really worth $172,000?",
+   "say": "Is your five-dollar latte really worth a hundred seventy-two grand?",
+   "scene": {
+    "t": "hook",
+    "title": "The $172,000 [latte]?",
+    "prop": "pot",
+    "value": "$172K?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the latte factor, made famous by David Bach's 2004 bestseller.",
+   "say": "It's the latte factor, made famous by David Bach's twenty oh four bestseller.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The latte factor",
+     "small daily spending",
+     "adds up (Bach, 2004)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$5 a day is $1,825 a year.",
+   "say": "Five dollars a day is eighteen hundred twenty-five dollars a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per day",
+     "value": "$5"
+    },
+    "to": {
+     "label": "Per year",
+     "value": "$1,825"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Invest that at a hypothetical 7% for 30 years: about $172,000.",
+   "say": "Invest that at a hypothetical seven percent for thirty years, and it's about a hundred seventy-two thousand.",
+   "scene": {
+    "t": "stat",
+    "label": "30 years at 7% (example)",
+    "value": "$172,391",
+    "tone": "up",
+    "sub": "you put in $54,750",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the math is real. But it's small next to the big bills.",
+   "say": "So the math is real. But it's small next to the big bills.",
+   "scene": {
+    "t": "hook",
+    "title": "Real math, [small] lever",
+    "prop": "house",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2024 the average household spent $26,266 on housing, a third of its budget.",
+   "say": "In twenty twenty-four, the average household spent about twenty-six thousand dollars on housing, a third of its budget.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg household housing cost, 2024",
+    "value": "$26,266",
+    "tone": "down",
+    "sub": "33.4% of spending, BLS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trim that by 10% and you save $2,627 a year, more than the latte.",
+   "say": "Trim that by ten percent and you'd free up about twenty-six hundred a year, more than the latte.",
+   "scene": {
+    "t": "compare",
+    "title": "Yearly savings",
+    "left": {
+     "label": "Skip lattes",
+     "value": "$1,825",
+     "tone": "neutral",
+     "sub": "$5 a day"
+    },
+    "right": {
+     "label": "Housing -10%",
+     "value": "$2,627",
+     "tone": "up",
+     "sub": "avg household"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even home brewing got pricier: ground coffee more than doubled, from $4.59 a pound in January 2021 to $9.37 in January 2026.",
+   "say": "Even home brewing got pricier. Ground coffee more than doubled, from about four sixty a pound in January twenty twenty-one to about nine forty in January twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Ground coffee, per lb (January)",
+    "points": [
+     [
+      2021,
+      4.59
+     ],
+     [
+      2023,
+      6.36
+     ],
+     [
+      2024,
+      6.12
+     ],
+     [
+      2025,
+      7.02
+     ],
+     [
+      2026,
+      9.37
+     ]
+    ],
+    "prefix": "$",
+    "end": "$9.37",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Verdict: small habits add up, but big bills move the needle more.",
+   "say": "The verdict? Small habits add up, but big bills move the needle more.",
+   "scene": {
+    "t": "split",
+    "title": "Verdict",
+    "left": {
+     "title": "Small",
+     "items": [
+      "lattes",
+      "snacks"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Big",
+     "items": [
+      "rent",
+      "car"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Does a $5 latte really cost you $172,000?",
+  "ig": "Is your $5 latte really worth $172,000?\n\n$5 a day is $1,825 a year. At a hypothetical 7% for 30 years, that grows to about $172,000.\nBut the average household spent $26,266 on housing in 2024. A 10% trim there frees up $2,627 a year.\nGround coffee went from $4.59/lb in Jan 2021 to $9.37/lb in Jan 2026.\n\nSources: BLS Consumer Expenditure Survey 2024, BLS average price data, David Bach (2004).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#lattefactor #moneymyths #budgeting #personalfinance #financeprostv",
+  "tiktok": "Does a $5 latte really cost $172,000? We ran the math. Not financial advice. #moneytok #personalfinance #lattefactor #budgeting #financeprostv",
+  "yt_desc": "Five dollars a day is $1,825 a year, which could grow to about $172,000 in 30 years at a hypothetical 7% return. But the average household spent $26,266 on housing in 2024 (BLS), so big bills move the needle more. Sources: BLS Consumer Expenditure Survey 2024, BLS average price data, David Bach's The Automatic Millionaire.\n\nNews and education, not financial advice.\n\n#Shorts #budgeting #lattefactor",
+  "tags": [
+   "latte factor",
+   "money myths",
+   "budgeting",
+   "compound interest",
+   "personal finance"
+  ]
+ }
+}
