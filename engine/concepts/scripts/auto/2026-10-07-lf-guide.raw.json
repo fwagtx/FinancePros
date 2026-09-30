@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Pay the minimum on $5,000, and it takes 19 years.",
-   "say": "Pay the minimum on five thousand dollars, and it takes nineteen years.",
+   "text": "Pay only the minimum on $5,000? It can take 19 years.",
+   "say": "Pay just the minimum on five grand? It can take nineteen years.",
    "scene": {
     "t": "hook",
     "title": "Minimum payment = [19] years",
@@ -40,13 +40,13 @@
   },
   {
    "who": "ticker",
-   "text": "That assumes a 22% APR, a minimum of 1% plus interest, and no new charges.",
-   "say": "That assumes a twenty-two percent A P R, a minimum of one percent plus interest, and no new charges.",
+   "text": "That assumes a 22% APR, a minimum of 1% plus interest or $25, and no new charges.",
+   "say": "That assumes a twenty-two percent A P R, a minimum of one percent plus interest or twenty-five dollars, and no new charges.",
    "scene": {
     "t": "board",
     "lines": [
      "$5,000 at 22% APR",
-     "Min = 1% + interest",
+     "Min = 1% + interest or $25",
      "No new charges"
     ],
     "mood": "think"
@@ -248,7 +248,7 @@
     "label": "Total interest at the minimum",
     "value": "$8,100",
     "tone": "down",
-    "sub": "$8,099.77 exact, FinancePros math"
+    "sub": "$8,099.70, FinancePros math"
    }
   },
   {
@@ -312,8 +312,8 @@
   },
   {
    "who": "ticker",
-   "text": "Step one: write down every card. Four things for each one.",
-   "say": "Step one: write down every card. Four things for each one.",
+   "text": "Step one is a list of every card, with four things for each one.",
+   "say": "Step one is a list of every card, with four things for each one.",
    "scene": {
     "t": "list",
     "title": "Step 1: for each card",
@@ -363,8 +363,8 @@
   },
   {
    "who": "ticker",
-   "text": "Their minimums add up to $225 a month.",
-   "say": "Their minimums add up to two hundred twenty-five dollars a month.",
+   "text": "Their minimums, held fixed, add up to $225 a month.",
+   "say": "Their minimums, held fixed, add up to two hundred twenty-five dollars a month.",
    "scene": {
     "t": "board",
     "lines": [
@@ -413,8 +413,8 @@
   },
   {
    "who": "ticker",
-   "text": "And late has real rules. A payment is usually late if it arrives after 5 p.m. on the due date.",
-   "say": "And late has real rules. A payment is usually late if it arrives after five p m on the due date.",
+   "text": "And 'late' has exact rules. Card companies can't set the cut-off earlier than 5 p.m. on the due date.",
+   "say": "And late has exact rules. Card companies can't set the cut-off earlier than five p m on the due date.",
    "scene": {
     "t": "timeline",
     "title": "What late costs",
@@ -500,15 +500,15 @@
     "t": "hook",
     "title": "Freeze the [payment]",
     "prop": "coins",
-    "label": "SAME EVERY MONTH",
+    "label": "SAME AMOUNT",
     "value": "$",
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "Instead of letting the minimum shrink, you pick one fixed dollar amount and pay it every month.",
-   "say": "Instead of letting the minimum shrink, you pick one fixed dollar amount and pay it every month.",
+   "text": "Instead of letting the minimum shrink, this step uses one fixed dollar amount, paid every month.",
+   "say": "Instead of letting the minimum shrink, this step uses one fixed dollar amount, paid every month.",
    "scene": {
     "t": "board",
     "lines": [
@@ -520,8 +520,8 @@
   },
   {
    "who": "ticker",
-   "text": "Take our $5,000 card. Just keep paying that first minimum, $141.67, month after month.",
-   "say": "Take our five thousand dollar card. Just keep paying that first minimum, a hundred forty-one dollars and sixty-seven cents, month after month.",
+   "text": "Take our $5,000 card, and keep paying that first minimum, $141.67, every month.",
+   "say": "Take our five thousand dollar card, and keep paying that first minimum, a hundred forty-one dollars and sixty-seven cents, every month.",
    "scene": {
     "t": "stat",
     "label": "Fixed payment on $5,000 at 22%",
@@ -683,8 +683,8 @@
   },
   {
    "who": "ticker",
-   "text": "Step four: decide which card gets the extra $175. There are two famous methods.",
-   "say": "Step four: decide which card gets the extra hundred and seventy-five dollars. There are two famous methods.",
+   "text": "Step four is deciding which card gets the extra $175. There are two famous methods.",
+   "say": "Step four is deciding which card gets the extra hundred and seventy-five dollars. There are two famous methods.",
    "scene": {
     "t": "split",
     "title": "Two ways to order your cards",
@@ -796,8 +796,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's the surprise. The gap is real, but it's smaller than most people expect.",
-   "say": "That's the surprise. The gap is real, but it's smaller than most people expect.",
+   "text": "That's the surprise. The gap is real, but it's smaller than you might expect.",
+   "say": "That's the surprise. The gap is real, but it's smaller than you might expect.",
    "scene": {
     "t": "stat",
     "label": "Avalanche savings in this example",
@@ -884,7 +884,7 @@
     "t": "hook",
     "title": "One card, two [rates]",
     "prop": "card",
-    "label": "PURCHASES + CASH",
+    "label": "BUY + CASH",
     "value": "2 APRs",
     "mood": "think"
    }
@@ -1123,7 +1123,7 @@
    "say": "The catch: if the cards get used again, you now have the loan and new card debt.",
    "scene": {
     "t": "hook",
-    "title": "Don't [double] the debt",
+    "title": "Loan + new card [debt]",
     "prop": "card",
     "label": "LOAN + CARDS",
     "value": "x2",
@@ -1191,8 +1191,8 @@
   },
   {
    "who": "ticker",
-   "text": "One protection to know: since 2010, the FTC has banned debt relief companies from charging fees before they actually settle a debt.",
-   "say": "One protection to know: since twenty ten, the F T C has banned debt relief companies from charging fees before they actually settle a debt.",
+   "text": "One protection to know: since 2010, the FTC has banned debt relief companies that sell by phone from charging fees before they settle a debt.",
+   "say": "One protection to know: since twenty ten, the F T C has banned debt relief companies that sell by phone from charging fees before they settle a debt.",
    "scene": {
     "t": "stat",
     "label": "Upfront debt settlement fees",
@@ -1244,15 +1244,15 @@
     "title": "What moves the needle",
     "left": {
      "label": "Fed hike",
-     "value": "+0.25%",
+     "value": "+0.25 pt",
      "tone": "neutral",
-     "sub": "about $12.50 a year"
+     "sub": "$12.50 a year"
     },
     "right": {
      "label": "Card APR",
      "value": "22%",
      "tone": "down",
-     "sub": "about $1,100 a year"
+     "sub": "$1,100 a year"
     }
    }
   },
@@ -1323,18 +1323,18 @@
     "t": "list",
     "title": "The checklist",
     "items": [
-     "List balance, APR, due",
+     "Balance, APR, due date",
      "Autopay every minimum",
-     "Freeze one fixed payment",
-     "Pick avalanche or snowball"
+     "One fixed payment",
+     "Avalanche or snowball"
     ],
     "reveal": 2
    }
   },
   {
    "who": "ticker",
-   "text": "List every card. Set autopay so nothing is late. Then freeze one fixed payment.",
-   "say": "List every card. Set autopay so nothing is late. Then freeze one fixed payment.",
+   "text": "The steps: every card listed, autopay so nothing is late, then one fixed payment.",
+   "say": "The steps: every card listed, autopay so nothing is late, then one fixed payment.",
    "scene": {
     "t": "list",
     "keep": true,
@@ -1343,8 +1343,8 @@
   },
   {
    "who": "ticker",
-   "text": "Pick your order, avalanche or snowball, and roll each paid-off minimum into the next card.",
-   "say": "Pick your order, avalanche or snowball, and roll each paid-off minimum into the next card.",
+   "text": "Next comes an order, avalanche or snowball, with each paid-off minimum rolling into the next card.",
+   "say": "Next comes an order, avalanche or snowball, with each paid-off minimum rolling into the next card.",
    "scene": {
     "t": "list",
     "keep": true,
@@ -1353,8 +1353,8 @@
   },
   {
    "who": "ticker",
-   "text": "Then look at the rate: a call, a transfer, a loan, or a counseling plan, and do the math on each.",
-   "say": "Then look at the rate: a call, a transfer, a loan, or a counseling plan, and do the math on each.",
+   "text": "Then comes the rate: a call, a transfer, a loan, or a counseling plan, each with its own math.",
+   "say": "Then comes the rate: a call, a transfer, a loan, or a counseling plan, each with its own math.",
    "scene": {
     "t": "list",
     "title": "Then lower the rate",
@@ -1369,8 +1369,8 @@
   },
   {
    "who": "ticker",
-   "text": "Remember the big number: the same $5,000 costs $8,100 at the shrinking minimum, and $3,121 if you just freeze the payment.",
-   "say": "Remember the big number: the same five thousand dollars costs about eight thousand one hundred at the shrinking minimum, and about thirty-one hundred if you just freeze the payment.",
+   "text": "And the big number: the same $5,000 costs $8,100 at the shrinking minimum, and $3,121 with the payment frozen.",
+   "say": "And the big number: the same five thousand dollars costs about eight thousand one hundred at the shrinking minimum, and about thirty-one hundred with the payment frozen.",
    "scene": {
     "t": "compare",
     "title": "$5,000 at 22%",
