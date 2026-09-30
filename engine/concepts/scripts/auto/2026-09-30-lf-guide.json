@@ -238,6 +238,22 @@
   },
   {
    "who": "ticker",
+   "text": "A report holds four things: who you are, your accounts, who has checked your credit, and certain public records, like bankruptcies.",
+   "say": "A report holds four things: who you are, your accounts, who has checked your credit, and certain public records, like bankruptcies.",
+   "scene": {
+    "t": "list",
+    "title": "What's in a report",
+    "items": [
+     "Who you are",
+     "Your accounts",
+     "Who checked your credit",
+     "Public records"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Checking your own credit is a soft inquiry. It never hurts your score.",
    "say": "Checking your own credit is a soft inquiry. It never hurts your score.",
    "scene": {
@@ -274,6 +290,18 @@
      "Dispute errors"
     ],
     "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Once you dispute, the bureau gets a thirty-day window to investigate, and it has to fix or remove anything that's wrong or that it can't verify.",
+   "say": "Once you dispute, the bureau gets a thirty-day window to investigate, and it has to fix or remove anything that's wrong or that it can't verify.",
+   "scene": {
+    "t": "stat",
+    "label": "Bureau must investigate",
+    "value": "30 days",
+    "sub": "Sometimes up to 45 (Fair Credit Reporting Act)",
+    "tone": "up"
    }
   },
   {
@@ -499,6 +527,111 @@
   },
   {
    "who": "ticker",
+   "text": "Before you apply for a starter card, look for four things.",
+   "say": "Before you apply for a starter card, look for four things.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Before you apply:",
+     "check 4 things"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, the card reports to all three bureaus. If it doesn't, it can't build your file everywhere.",
+   "say": "First, the card reports to all three bureaus. If it doesn't, it can't build your file everywhere.",
+   "scene": {
+    "t": "list",
+    "title": "Starter card checklist",
+    "items": [
+     "Reports to all 3 bureaus",
+     "Low or no annual fee",
+     "A path to upgrade",
+     "Deposit comes back"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, a low or no annual fee. On a two hundred dollar limit, a fee eats a big piece of your credit line.",
+   "say": "Second, a low or no annual fee. On a two hundred dollar limit, a fee eats a big piece of your credit line.",
+   "scene": {
+    "t": "list",
+    "title": "Starter card checklist",
+    "items": [
+     "Reports to all 3 bureaus",
+     "Low or no annual fee",
+     "A path to upgrade",
+     "Deposit comes back"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, a clear path to upgrade to a regular card, so you're not stuck with it forever.",
+   "say": "Third, a clear path to upgrade to a regular card, so you're not stuck with it forever.",
+   "scene": {
+    "t": "list",
+    "title": "Starter card checklist",
+    "items": [
+     "Reports to all 3 bureaus",
+     "Low or no annual fee",
+     "A path to upgrade",
+     "Deposit comes back"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fourth, the deposit comes back, minus anything you still owe, when you upgrade or close the account in good standing.",
+   "say": "And fourth, the deposit comes back, minus anything you still owe, when you upgrade or close the account in good standing.",
+   "scene": {
+    "t": "list",
+    "title": "Starter card checklist",
+    "items": [
+     "Reports to all 3 bureaus",
+     "Low or no annual fee",
+     "A path to upgrade",
+     "Deposit comes back"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many issuers let you prequalify with a soft check first. It's not a guarantee, but you can see your odds without a hard inquiry.",
+   "say": "Many issuers let you prequalify with a soft check first. It's not a guarantee, but you can see your odds without a hard inquiry.",
+   "scene": {
+    "t": "split",
+    "title": "Prequalify first",
+    "left": {
+     "title": "Prequalify",
+     "items": [
+      "Soft check",
+      "No score effect"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Apply",
+     "items": [
+      "Hard inquiry",
+      "Can dip score"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Chapter four. Step three: use it the right way.",
    "say": "Chapter four. Step three: use it the right way.",
    "scene": {
@@ -630,6 +763,90 @@
      "statement closes"
     ],
     "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One more detail: scores look at each card and at your total across all cards. So one maxed-out card can hurt, even if your overall number looks fine.",
+   "say": "One more detail: scores look at each card and at your total across all cards. So one maxed-out card can hurt, even if your overall number looks fine.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Per card AND",
+     "across all cards"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what one good month looks like. Your phone bill lands on the card early in the cycle.",
+   "say": "Here's what one good month looks like. Your phone bill lands on the card early in the cycle.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Early in cycle",
+      "phone bill on card"
+     ],
+     [
+      "Statement closes",
+      "small balance reported"
+     ],
+     [
+      "Before due date",
+      "autopay pays in full"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The statement closes, and that small balance is usually what gets reported to the bureaus.",
+   "say": "The statement closes, and that small balance is usually what gets reported to the bureaus.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Early in cycle",
+      "phone bill on card"
+     ],
+     [
+      "Statement closes",
+      "small balance reported"
+     ],
+     [
+      "Before due date",
+      "autopay pays in full"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then autopay clears the full statement balance before the due date. No interest charged, and one more on-time payment on your record.",
+   "say": "Then autopay clears the full statement balance before the due date. No interest charged, and one more on-time payment on your record.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Early in cycle",
+      "phone bill on card"
+     ],
+     [
+      "Statement closes",
+      "small balance reported"
+     ],
+     [
+      "Before due date",
+      "autopay pays in full"
+     ]
+    ],
+    "reveal": 3
    }
   },
   {
@@ -1027,6 +1244,44 @@
   },
   {
    "who": "ticker",
+   "text": "Rebuilding after mistakes instead of starting from zero? The same steps work. You're adding new good history on top of the old.",
+   "say": "Rebuilding after mistakes instead of starting from zero? The same steps work. You're adding new good history on top of the old.",
+   "scene": {
+    "t": "hook",
+    "title": "Rebuilding? [Same steps]",
+    "prop": "paper",
+    "label": "FRESH START",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most negative items, like late payments and collections, can stay on your report for seven years. A Chapter 7 bankruptcy can stay for ten.",
+   "say": "Most negative items, like late payments and collections, can stay on your report for seven years. A Chapter seven bankruptcy can stay for ten.",
+   "scene": {
+    "t": "stat",
+    "label": "Chapter 7 bankruptcy",
+    "value": "10 years",
+    "sub": "Late payments, collections: 7 years",
+    "tone": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But their weight fades as they age, especially as new on-time payments pile up on top of them.",
+   "say": "But their weight fades as they age, especially as new on-time payments pile up on top of them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old mistakes fade.",
+     "New on-time payments add up."
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Chapter six. The mistakes that reset the clock.",
    "say": "Chapter six. The mistakes that reset the clock.",
    "scene": {
@@ -1306,7 +1561,7 @@
   "title": "How to Build Credit From Zero, Step by Step (the real rules and the math)",
   "ig": "No credit score? Here's the 6-month plan to build one from zero.",
   "tiktok": "Zero credit to a real score: the rules nobody explains.",
-  "yt_desc": "About 7 million U.S. adults have no credit record and 25 million more have no score. This guide walks through building credit from zero, step by step: checking your free reports, the four starter tools (secured cards, credit-builder loans, authorized user, student cards), using a card so it helps instead of hurts, and the real timeline to a FICO score. Worked examples show utilization and interest math, plus the mistakes that set you back.\n\nCHAPTERS\n\nSources: FICO Score Credit Insights report (Aug 25, 2026); FICO average score reports (2017-2025); CFPB credit invisibles update (June 2025); CFPB credit-builder loan research (2020); myFICO scoring criteria; FTC on free weekly credit reports (Oct 2023); Credit CARD Act of 2009; Federal Reserve G.19 (Q2 2026).\n\nNews and education, not financial advice.\n\n#creditscore #personalfinance #moneytips",
+  "yt_desc": "About 7 million U.S. adults have no credit record and 25 million more have no score. This guide walks through building credit from zero, step by step: checking your free reports, the four starter tools (secured cards, credit-builder loans, authorized user, student cards) and a starter-card checklist, using a card so it helps instead of hurts, and the real timeline to a FICO score, and how rebuilding works. Worked examples show utilization and interest math, plus the mistakes that set you back.\n\nCHAPTERS\n\nSources: FICO Score Credit Insights report (Aug 25, 2026); FICO average score reports (2017-2025); CFPB credit invisibles update (June 2025); CFPB credit-builder loan research (2020); myFICO scoring criteria; FTC on free weekly credit reports (Oct 2023); Fair Credit Reporting Act; Credit CARD Act of 2009; Federal Reserve G.19 (Q2 2026).\n\nNews and education, not financial advice.\n\n#creditscore #personalfinance #moneytips",
   "tags": [
    "build credit",
    "credit score",
