@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-11-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How car loans quietly\ncost thousands",
+ "cover": {
+  "title": "The $9,000 Car Loan Cost",
+  "prop": "car",
+  "value": "~$9,000"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "An average-size car loan can cost almost $9,000 in interest.",
+   "say": "An average-size car loan can cost almost nine thousand dollars in interest.",
+   "scene": {
+    "t": "hook",
+    "title": "The [hidden] car cost",
+    "prop": "car",
+    "label": "$43,610",
+    "value": "~$9,000",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the choice that makes it worse feels like a discount.",
+   "say": "And the choice that makes it worse feels like a discount.",
+   "scene": {
+    "t": "hook",
+    "title": "The [cheap] payment",
+    "prop": "tag",
+    "label": "LOWER!",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Q2 2026, the average new-car loan was $43,610 at 6.35% (Experian).",
+   "say": "In the second quarter of twenty twenty-six, the average new-car loan was forty-three thousand six hundred ten dollars at six point three five percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg new-car loan, Q2 2026",
+    "value": "$43,610",
+    "tone": "neutral",
+    "sub": "avg rate 6.35%, Experian"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: over 72 months, that's $730 a month and $8,948 in interest.",
+   "say": "For example, over seventy-two months, that's seven hundred thirty dollars a month, and eight thousand nine hundred forty-eight in interest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $43,610 at 6.35%",
+     "72 months = $730/month",
+     "Interest: $8,948"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 84 months: $644 a month, but $10,521 in interest.",
+   "say": "At eighty-four months: six hundred forty-four dollars a month, but ten thousand five hundred twenty-one in interest.",
+   "scene": {
+    "t": "compare",
+    "title": "Same loan, longer term",
+    "left": {
+     "label": "72 months",
+     "value": "$730",
+     "tone": "neutral",
+     "sub": "$8,948 interest"
+    },
+    "right": {
+     "label": "84 months",
+     "value": "$644",
+     "tone": "down",
+     "sub": "$10,521 interest"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About $1,570 more, same car.",
+   "say": "About fifteen hundred seventy dollars more, same car.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "title": "Same loan, longer term",
+    "left": {
+     "label": "72 months",
+     "value": "$730",
+     "tone": "neutral",
+     "sub": "$8,948 interest"
+    },
+    "right": {
+     "label": "84 months",
+     "value": "$644",
+     "tone": "down",
+     "sub": "$10,521 interest"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That quarter, over 35% of new-car loans ran past six years.",
+   "say": "That quarter, over thirty-five percent of new-car loans ran past six years.",
+   "scene": {
+    "t": "stat",
+    "label": "New-car loans over 6 years",
+    "value": ">35%",
+    "tone": "down",
+    "sub": "Experian, Q2 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit matters. Same loan, same term: 4.41% costs about $6,100 in interest; 13.52%, about $20,300.",
+   "say": "Credit matters. Same loan, same term: four point four one percent costs about sixty-one hundred in interest. Thirteen point five two percent? About twenty thousand three hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg new-car rate, Q2 2026",
+    "left": {
+     "label": "Score 781+",
+     "value": "4.41%",
+     "tone": "up",
+     "sub": "~$6,100 interest"
+    },
+    "right": {
+     "label": "Score 501-600",
+     "value": "13.52%",
+     "tone": "down",
+     "sub": "~$20,300 interest"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The payment is what you feel. Rate and term decide what you pay.",
+   "say": "The payment is what you feel. Rate and term decide what you pay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Payment = what you feel",
+     "Rate + term = what you pay"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How an average car loan costs almost $9,000 in interest",
+  "ig": "An average-size car loan can cost almost $9,000 in interest.\n\nIn Q2 2026, the average new-car loan was $43,610 at 6.35% (Experian).\nExample: over 72 months that's $730 a month and $8,948 in interest. At 84 months, $644 a month but $10,521 in interest.\nMore than 35% of new-car loans ran longer than six years in Q2 2026.\nSame loan at 4.41% vs 13.52%: about $6,100 vs $20,300 in interest.\n\nSources: Experian State of the Automotive Finance Market, Q2 2026. Example math: standard amortization, fixed rate, no fees.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#carloan #autoloan #interest #personalfinance #financeprostv",
+  "tiktok": "An average-size car loan can cost almost $9,000 in interest. Not financial advice. #moneytok #personalfinance #carloan #autoloan #financeprostv",
+  "yt_desc": "In Q2 2026, the average new-car loan was $43,610 at 6.35%, per Experian. In a 72-month example that's $730 a month and $8,948 in interest; stretching to 84 months cuts the payment to $644 but raises interest to $10,521. Source: Experian State of the Automotive Finance Market, Q2 2026.\n\nNews and education, not financial advice.\n\n#Shorts #carloan #personalfinance",
+  "tags": [
+   "car loan interest",
+   "auto loan explained",
+   "car loan term",
+   "credit score car loan",
+   "personal finance"
+  ]
+ }
+}

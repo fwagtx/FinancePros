@@ -5,7 +5,7 @@
   "title": "This $20 Ticket Pays $15",
   "prop": "tag",
   "label": "$20",
-  "value": "-$5"
+  "value": "$15"
  },
  "lines": [
   {
@@ -17,7 +17,7 @@
     "title": "$20 ticket, [$15] back",
     "prop": "tag",
     "label": "$20",
-    "value": "-$5",
+    "value": "$15",
     "mood": "shock"
    }
   },
@@ -37,7 +37,7 @@
   {
    "who": "ticker",
    "text": "That's $514 million in sales and $385 million in prizes. 75% comes back.",
-   "say": "That's five hundred fourteen million dollars in sales and three hundred eighty-five million in prizes. Seventy-five percent comes back.",
+   "say": "That's five hundred fourteen million in sales and three hundred eighty-five million in prizes. Seventy-five percent comes back.",
    "scene": {
     "t": "board",
     "lines": [
@@ -70,8 +70,8 @@
   },
   {
    "who": "ticker",
-   "text": "But 39% of those wins just return your $20, so beating it is 1 in 5.43.",
-   "say": "But thirty-nine percent of those wins just return your twenty, so beating it is one in five point four three.",
+   "text": "But 39% of those wins return your $20, so winning more than $20 is 1 in 5.43.",
+   "say": "But thirty-nine percent of those wins return your twenty, so winning more than twenty is one in five point four three.",
    "scene": {
     "t": "compare",
     "keep": true,
@@ -157,8 +157,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's $1.8 billion, mostly for public schools.",
-   "say": "That's one point eight billion dollars, mostly for public schools.",
+   "text": "The state's cut came to $1.8 billion, mostly for public schools.",
+   "say": "The state's cut came to one point eight billion dollars, mostly for public schools.",
    "scene": {
     "t": "stat",
     "label": "Sent to Texas, FY2025",
@@ -170,8 +170,8 @@
   },
   {
    "who": "ticker",
-   "text": "So a scratch-off is a fixed prize budget: lots of small wins, a few huge ones.",
-   "say": "So a scratch-off is a fixed prize budget: lots of small wins, a few huge ones.",
+   "text": "Each game is a fixed prize budget: lots of small wins, a few huge ones.",
+   "say": "Each game is a fixed prize budget: lots of small wins, a few huge ones.",
    "scene": {
     "t": "board",
     "lines": [
