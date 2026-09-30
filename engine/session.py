@@ -8,7 +8,8 @@ Evergreen videos are kept BUFFER days ahead: fully made and scheduled in Metrico
 News slots (morning, bigstory, lf-big) are only made on their own day.
 
   python engine/session.py setup                        # install ffmpeg, Python and Node packages, the voice model
-  python engine/session.py next [--until 14:00] [--ahead 14]   # claim the next slot to make; prints its task file (or DONE)
+  python engine/session.py next [--until 14:00] [--ahead 60] [--start 0]   # claim the next slot; prints its task file (or DONE)
+                                                        # --start/--ahead let parallel sessions fill separate day ranges
   python engine/session.py fallback <slot>              # a news slot had no confirmed story: switch it to its evergreen show
   python engine/session.py build <slot> <script.json>   # sanitize, render, quality report, host; prints the Metricool posts
   python engine/session.py record <slot> scheduled|skipped|failed [--note ...] [--ids ...]
@@ -157,7 +158,7 @@ def open_slot(rec, now):
     return rec.get("tries", 0) < daily.TRIES
 
 
-def nxt(until, ahead):
+def nxt(until, ahead, start=0):
     pull(); now = dt.datetime.now(TZ); today = now.date()
     if not hosting_ok():
         print("DONE: video hosting is down (no FinancePros R2 settings and the GitHub repo is not public), so Metricool cannot "
@@ -169,12 +170,12 @@ def nxt(until, ahead):
     if missed: save(date, st, f"{date}: missed {', '.join(missed)}")
     cut = dt.datetime.combine(today, dt.time.fromisoformat(until), TZ) if until else None
     candidates = []
-    for show, when in slots(today):
+    for show, when in (slots(today) if start == 0 else []):
         if now > when + daily.GRACE: continue
         if cut and when > cut and kind(show) != "long": continue
         candidates.append((date, show, when))
     # the buffer: evergreen slots on the coming days
-    for i in range(1, ahead + 1):
+    for i in range(max(1, start), ahead + 1):
         day = today + dt.timedelta(days=i)
         for show, when in slots(day):
             if show not in NEWS: candidates.append((day.isoformat(), show, when))
@@ -187,7 +188,7 @@ def nxt(until, ahead):
         topic = pick(show, when, rec.get("tries", 0))
         path = claim(d, show, show, topic, when, now)
         print(f"SLOT {slot_id(d, show)} posts {max(when, now + MIN_LEAD):%a %b %d %H:%M} CT\nTASK {path}"); return
-    print(f"DONE: nothing left to make; evergreen videos are made through {today + dt.timedelta(days=ahead)}.")
+    print(f"DONE: nothing left to make in days {start}-{ahead}; evergreen videos are made through {today + dt.timedelta(days=ahead)}.")
 
 
 def fallback(sid):
@@ -245,7 +246,6 @@ def build(sid, raw):
     posts = posts_for(urls, sc, at, longform)
     pp = os.path.join(AUTO, f"{sid}.posts.json"); json.dump(posts, open(pp, "w"), indent=1, ensure_ascii=False)
     rec.update(status="built", video=urls[0], post_at=at, title=sc["post"].get("title", ""), length=round(dur))
-    if rec.get("topic"): studio.mark_used(rec["topic"])
     save(date, st, f"{date} {show}: built")
     if not ok: print("NOT READY: the length is out of range. Fix the script and run build again; do not schedule this version.")
     print(f"Create these {len(posts)} Metricool posts (file: {pp}) after the quality check passes:")
@@ -257,8 +257,6 @@ def record(sid, status, note, ids):
     rec.update(status=status, finished=now.isoformat(timespec="minutes"))
     if note: rec["note"] = note
     if ids: rec["metricool"] = ids
-    if status == "failed" and rec.get("topic"):
-        import studio; studio.mark_failed(rec["topic"])
     save(date, st, f"{date} {show}: {status}")
     print("RECORDED", sid, status)
 
@@ -281,10 +279,11 @@ def status():
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("cmd"); ap.add_argument("args", nargs="*")
     ap.add_argument("--until"); ap.add_argument("--ahead", type=int, default=BUFFER)
+    ap.add_argument("--start", type=int, default=0, help="first day offset to fill (parallel sessions split the buffer by range)")
     ap.add_argument("--note", default=""); ap.add_argument("--ids", nargs="*", default=[])
     a = ap.parse_args()
     if a.cmd == "setup": setup()
-    elif a.cmd == "next": nxt(a.until, a.ahead)
+    elif a.cmd == "next": nxt(a.until, a.ahead, a.start)
     elif a.cmd == "fallback": fallback(a.args[0])
     elif a.cmd == "build": build(a.args[0], a.args[1])
     elif a.cmd == "record": record(a.args[0], a.args[1], a.note, a.ids)

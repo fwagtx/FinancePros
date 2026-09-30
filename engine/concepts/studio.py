@@ -155,8 +155,20 @@ post.ig and post.tiktok: a one-line teaser each (they are not posted for long-fo
 
 
 def load_state():
+    """topics_state.json plus every topic claimed in the per-day state files (auto/<date>.state.json), so parallel
+    sessions never pick the same topic and never write the same shared file."""
     st = json.load(open(TSTATE)) if os.path.exists(TSTATE) else {}
-    st.setdefault("used", []); st.setdefault("added", {}); st.setdefault("failed", []); return st
+    st.setdefault("used", []); st.setdefault("added", {}); st.setdefault("failed", [])
+    auto = os.path.join(HERE, "scripts", "auto")
+    if os.path.isdir(auto):
+        for f in os.listdir(auto):
+            if not f.endswith(".state.json"): continue
+            try: day = json.load(open(os.path.join(auto, f)))
+            except Exception: continue
+            for rec in day.values():
+                if not isinstance(rec, dict) or not rec.get("topic"): continue
+                (st["failed"] if rec.get("status") == "failed" else st["used"]).append(rec["topic"])
+    return st
 
 
 def pick_topic(show, now, attempt=0):
