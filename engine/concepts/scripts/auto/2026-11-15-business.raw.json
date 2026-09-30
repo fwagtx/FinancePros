@@ -4,7 +4,7 @@
  "cover": {
   "title": "The $10,000 Chick-fil-A Catch",
   "prop": "store",
-  "value": "$10K"
+  "label": "CHICK-FIL-A"
  },
  "lines": [
   {
@@ -16,7 +16,6 @@
     "title": "Run one for [$10,000]",
     "prop": "store",
     "label": "CHICK-FIL-A",
-    "value": "$10K",
     "mood": "shock"
    }
   },
@@ -135,24 +134,21 @@
    "text": "The takeaway: a cheap entry fee, but you're running the business, not owning it.",
    "say": "The takeaway? It's a cheap entry fee, but you're running the business, not owning it.",
    "scene": {
-    "t": "split",
+    "t": "compare",
     "title": "The trade-off",
     "left": {
-     "title": "Operator gets",
-     "items": [
-      "$10K entry",
-      "half the profit"
-     ],
-     "tone": "up"
+     "label": "Entry fee",
+     "value": "$10K",
+     "tone": "up",
+     "sub": "cheap to start"
     },
     "right": {
-     "title": "Operator gives up",
-     "items": [
-      "ownership",
-      "resale value"
-     ],
-     "tone": "down"
-    }
+     "label": "Ownership",
+     "value": "none",
+     "tone": "down",
+     "sub": "no equity"
+    },
+    "mood": "think"
    }
   },
   {
