@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "The real answer comes down to two numbers: the debt's rate and the match.",
-   "say": "The real answer comes down to two numbers: the debt's rate and the match.",
+   "text": "It comes down to two numbers: the debt's rate and the match.",
+   "say": "It comes down to two numbers: the debt's rate and the match.",
    "scene": {
     "t": "board",
     "lines": [
@@ -37,8 +37,8 @@
   },
   {
    "who": "ticker",
-   "text": "In Q2 2026, card accounts charged interest paid an average 22.15% APR.",
-   "say": "In the second quarter of twenty twenty-six, card accounts charged interest paid an average of twenty-two point one five percent A P R.",
+   "text": "In Q2 2026, credit cards that charged interest averaged 22.15% APR.",
+   "say": "In the second quarter, credit cards that charged interest averaged twenty-two point one five percent A P R.",
    "scene": {
     "t": "stat",
     "label": "Card APR, balances charged interest",
@@ -50,8 +50,8 @@
   },
   {
    "who": "ticker",
-   "text": "A new federal undergrad student loan for 2026-27 is fixed at 6.52%.",
-   "say": "A new federal undergrad student loan for twenty twenty-six to twenty-seven is fixed at six point five two percent.",
+   "text": "New federal undergrad loans for 2026-27 are fixed at 6.52%.",
+   "say": "New federal undergrad loans for twenty twenty-six to twenty-seven are fixed at six point five two percent.",
    "scene": {
     "t": "compare",
     "title": "Not all debt is equal",
@@ -71,8 +71,8 @@
   },
   {
    "who": "ticker",
-   "text": "Now the match. Vanguard's most common formula: 50 cents per dollar, up to 6% of pay.",
-   "say": "Now the match. Vanguard's most common formula is fifty cents per dollar, up to six percent of pay.",
+   "text": "The most common match in Vanguard-run plans is 50 cents per $1, up to 6% of pay.",
+   "say": "The most common match in Vanguard-run plans is fifty cents per dollar, up to six percent of pay.",
    "scene": {
     "t": "board",
     "lines": [
@@ -86,7 +86,7 @@
   {
    "who": "ticker",
    "text": "Example: on a $50,000 salary, 6% is $3,000, and the employer adds $1,500.",
-   "say": "For example, on a fifty-thousand-dollar salary, six percent is three thousand dollars, and the employer adds fifteen hundred dollars.",
+   "say": "Example: on a fifty-thousand-dollar salary, six percent is three thousand, and the employer adds fifteen hundred.",
    "scene": {
     "t": "money",
     "from": {
@@ -102,29 +102,21 @@
   },
   {
    "who": "ticker",
-   "text": "Put that $3,000 on a 22.15% card instead: about $665 of interest saved in a year.",
-   "say": "Put that three thousand on the card instead, and you'd save about six hundred sixty-five dollars of interest in a year.",
+   "text": "Example: if that $3,000 went to a 22.15% card, it would avoid about $665 to $740 a year in interest.",
+   "say": "If that three thousand went to a twenty-two point one five percent card, it would avoid about six hundred sixty-five to seven hundred forty dollars a year in interest.",
    "scene": {
-    "t": "compare",
-    "title": "Same $3,000, one year",
-    "left": {
-     "label": "Match",
-     "value": "+$1,500",
-     "tone": "up",
-     "sub": "if fully vested"
-    },
-    "right": {
-     "label": "Card payoff",
-     "value": "~$665",
-     "tone": "neutral",
-     "sub": "interest avoided"
-    }
+    "t": "stat",
+    "label": "Example: card interest avoided",
+    "value": "$665-740",
+    "tone": "neutral",
+    "sub": "$3,000 at 22.15%, 1 yr",
+    "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "The myth says all debt first. The math says rate versus match, and whether it's vested.",
-   "say": "So the myth says all debt first. The math says rate versus match, and whether that match is vested.",
+   "text": "Card balances keep costing until paid. At 6.52%, that $3,000 costs about $196 a year.",
+   "say": "Card balances keep costing until paid. At six point five two percent, that three thousand costs about a hundred ninety-six dollars a year.",
    "scene": {
     "t": "list",
     "title": "What the math compares",
@@ -134,7 +126,7 @@
      "Vesting rules"
     ],
     "reveal": 3,
-    "mood": "happy"
+    "mood": "think"
    }
   },
   {
@@ -148,9 +140,9 @@
  ],
  "post": {
   "title": "Pay off all debt before investing? Run the match math",
-  "ig": "Paying off all debt first can mean skipping free money.\n\nCard accounts charged interest paid an average 22.15% APR in Q2 2026 (Federal Reserve).\nNew federal undergrad student loans for 2026-27 are fixed at 6.52%.\nThe most common 401(k) match in Vanguard plans: 50 cents per $1, up to 6% of pay.\nExample: $50,000 salary, 6% = $3,000, employer adds $1,500. The same $3,000 on a 22.15% card saves about $665 in a year of interest.\n\nSources: Federal Reserve G.19 (Aug 2026), Federal Student Aid (June 2026), Vanguard How America Saves 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#moneymyths #401k #debt #personalfinance #financeprostv",
+  "ig": "Paying off all debt first can mean skipping free money.\n\nCredit cards that charged interest averaged 22.15% APR in Q2 2026 (Federal Reserve).\nNew federal undergrad student loans for 2026-27 are fixed at 6.52%.\nThe most common 401(k) match in Vanguard-run plans: 50 cents per $1, up to 6% of pay.\nExample: $50,000 salary, 6% = $3,000, employer adds $1,500. The same $3,000 on a 22.15% card would avoid about $665 to $740 a year in interest.\n\nSources: Federal Reserve G.19 (Aug 2026), Federal Student Aid (June 2026), Vanguard How America Saves 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#moneymyths #401k #debt #personalfinance #financeprostv",
   "tiktok": "Pay off all debt before investing? Rate vs match math. Not financial advice. #moneytok #personalfinance #401k #debt #financeprostv",
-  "yt_desc": "Paying off all debt before investing is a money myth: the math is the debt's rate versus the employer match. Card accounts charged interest averaged 22.15% APR in Q2 2026 (Federal Reserve G.19), new federal undergrad loans are 6.52% for 2026-27 (Federal Student Aid), and the most common 401(k) match is 50% up to 6% of pay (Vanguard How America Saves 2026). In a $50,000 salary example, $3,000 in gets a $1,500 match, versus about $665 of card interest avoided in a year.\n\nNews and education, not financial advice.\n\n#Shorts #401k #moneymyths",
+  "yt_desc": "Is paying off all debt before investing always the rule? The math compares each debt's rate with the employer match. Card accounts charged interest averaged 22.15% APR in Q2 2026 (Federal Reserve G.19), new federal undergrad loans are 6.52% for 2026-27 (Federal Student Aid), and the most common match in Vanguard-run plans is 50% up to 6% of pay (Vanguard How America Saves 2026). In a $50,000 salary example, $3,000 in gets a $1,500 match, while the same $3,000 on a 22.15% card would avoid about $665 to $740 a year in interest.\n\nNews and education, not financial advice.\n\n#Shorts #401k #moneymyths",
   "tags": [
    "401k match",
    "pay off debt or invest",
