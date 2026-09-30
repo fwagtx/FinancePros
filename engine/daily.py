@@ -122,11 +122,12 @@ def script_for(show, slot_id, tries):
     return None, None
 
 
+FP_R2_ACCOUNT = "231999c96851bc148ac14dfa00c54bae"   # the Cloudflare account that owns the financepros-media bucket (an identifier, not a secret)
 # FinancePros has its own R2 bucket and keys (FP_R2_*). The generic R2_* / AWS_* variables in a shared environment may belong to
 # another brand, so they are never used here.
 def r2_cfg():
     e = os.environ.get
-    return {"account": e("FP_R2_ACCOUNT_ID") or e("R2_ACCOUNT_ID"), "key": e("FP_R2_ACCESS_KEY_ID"), "secret": e("FP_R2_SECRET_ACCESS_KEY"),
+    return {"account": e("FP_R2_ACCOUNT_ID") or FP_R2_ACCOUNT, "key": e("FP_R2_ACCESS_KEY_ID"), "secret": e("FP_R2_SECRET_ACCESS_KEY"),
             "bucket": e("FP_R2_BUCKET") or "financepros-media", "public": (e("FP_R2_PUBLIC_URL") or "").rstrip("/")}
 
 
