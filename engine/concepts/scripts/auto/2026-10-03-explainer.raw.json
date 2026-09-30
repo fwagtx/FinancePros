@@ -1,0 +1,184 @@
+{
+  "series": "ticker",
+  "header": "Buy now, pay later\nhow it really works",
+  "cover": {
+    "title": "Zero Interest. Who Pays?",
+    "prop": "tag",
+    "label": "Pay in 4",
+    "value": "0%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Pay in 4 charges zero interest. So who's paying for it?",
+      "say": "Pay in four charges zero interest. So who's paying for it?",
+      "scene": {
+        "t": "hook",
+        "title": "Zero interest. Who [pays]?",
+        "prop": "tag",
+        "label": "Pay in 4",
+        "value": "0%",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "16% of US adults used it in 2025, so it's worth knowing.",
+      "say": "Sixteen percent of US adults used it in twenty twenty-five, so the answer matters.",
+      "scene": {
+        "t": "stat",
+        "label": "US adults who used BNPL",
+        "value": "16%",
+        "tone": "neutral",
+        "sub": "in 2025, Federal Reserve SHED",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's up from 10% in 2021, the first year the Fed asked.",
+      "say": "That's up from ten percent in twenty twenty-one, the first year the Fed asked.",
+      "scene": {
+        "t": "chart",
+        "title": "Adults using BNPL",
+        "points": [
+          [
+            2021,
+            10
+          ],
+          [
+            2022,
+            12
+          ],
+          [
+            2023,
+            14
+          ],
+          [
+            2024,
+            15
+          ],
+          [
+            2025,
+            16
+          ]
+        ],
+        "suffix": "%",
+        "end": "16%",
+        "color": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A $200 buy becomes $50 at checkout, then $50 every two weeks for six weeks.",
+      "say": "Here's the deal: a two hundred dollar buy becomes fifty dollars at checkout, then fifty every two weeks for six weeks.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$200 purchase",
+          "$50 now + 3 x $50",
+          "every 2 weeks, 0%"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Payer number one: the store, which pays the lender a fee on each sale.",
+      "say": "Payer number one is the store, which pays the lender a fee on every sale.",
+      "scene": {
+        "t": "building",
+        "kind": "store",
+        "name": "STORE",
+        "label": "fee on each sale",
+        "caption": "The store pays first"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Payer number two: anyone who slips. 26% of users paid late in 2025.",
+      "say": "Payer number two is anyone who slips, and twenty-six percent of users paid late in twenty twenty-five.",
+      "scene": {
+        "t": "stat",
+        "label": "BNPL users who paid late",
+        "value": "26%",
+        "tone": "down",
+        "sub": "in 2025, Federal Reserve SHED",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The average late fee was $9.99 in 2023, about 20% of one $50 payment.",
+      "say": "The average late fee in twenty twenty-three was about ten dollars, roughly twenty percent of one fifty dollar payment.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "one payment",
+          "value": "$50"
+        },
+        "to": {
+          "label": "with avg late fee",
+          "value": "$59.99"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "FICO has also built credit scores that count these loans, so paying late could follow you.",
+      "say": "FICO has also built credit scores that count these loans, so paying late could follow you.",
+      "scene": {
+        "t": "news",
+        "headline": "FICO unveils credit scores that include BNPL data",
+        "source": "FICO, June 23, 2025"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Zero interest is real, as long as every payment lands on time.",
+      "say": "So zero interest is real, as long as every payment lands on time.",
+      "scene": {
+        "t": "split",
+        "title": "Pay in 4",
+        "left": {
+          "title": "On time",
+          "items": [
+            "$0 interest",
+            "$200 total"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Late",
+          "items": [
+            "late fees",
+            "credit hit risk"
+          ],
+          "tone": "down"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Pay in 4 has zero interest. So who actually pays?",
+    "ig": "Pay in 4 charges zero interest. So who's paying for it?\n16% of US adults used buy now, pay later in 2025, up from 10% in 2021.\nA $200 buy = $50 at checkout, then $50 every two weeks for six weeks.\nStores pay the lender a fee on each sale, and 26% of users paid late in 2025. The average late fee was $9.99 in 2023.\nSources: Federal Reserve SHED (May 2026), CFPB (Dec 2025), FICO (June 2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#buynowpaylater #personalfinance #moneytips #credit #financeprostv",
+    "tiktok": "Pay in 4 is zero interest. So who pays? Not financial advice. #moneytok #personalfinance #buynowpaylater #credit #financeprostv",
+    "yt_desc": "Pay in 4 charges zero interest, so who pays? Stores pay the lender a fee on each sale, and 26% of BNPL users paid late in 2025 (Federal Reserve SHED); the average late fee was $9.99 in 2023 (CFPB). News and education, not financial advice. #Shorts #buynowpaylater #personalfinance",
+    "tags": [
+      "buy now pay later",
+      "pay in 4",
+      "how bnpl works",
+      "late fees",
+      "personal finance"
+    ]
+  }
+}
