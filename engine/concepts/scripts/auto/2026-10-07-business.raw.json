@@ -4,19 +4,19 @@
  "cover": {
   "title": "Why Is Renters Insurance So Cheap?",
   "prop": "house",
-  "label": "renters policy",
+  "label": "renters",
   "value": "$14/mo"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "Renters insurance costs about $14 a month. Insurers still profit.",
-   "say": "Renters insurance costs about fourteen dollars a month. Insurers still profit.",
+   "text": "Renters insurance averages $14 a month. So how do insurers profit?",
+   "say": "Renters insurance averages fourteen bucks a month. So how do insurers profit?",
    "scene": {
     "t": "hook",
-    "title": "Cheap Policy, Real [Profit]",
+    "title": "How Do Insurers [Profit]?",
     "prop": "house",
-    "label": "renters policy",
+    "label": "renters",
     "value": "$14/mo",
     "mood": "shock"
    }
@@ -24,7 +24,7 @@
   {
    "who": "ticker",
    "text": "The trick: it covers your stuff and liability, not the building.",
-   "say": "The trick is what's missing. It covers your stuff and your liability, not the building.",
+   "say": "The trick is what's missing. It covers your stuff and liability, not the building.",
    "scene": {
     "t": "split",
     "title": "A renters policy",
@@ -51,7 +51,7 @@
   {
    "who": "ticker",
    "text": "Average renters premium: $173 a year (NAIC, 2023 data).",
-   "say": "State regulators put the average renters premium at a hundred seventy-three dollars a year in twenty twenty-three.",
+   "say": "Regulators put the average renters premium at a hundred seventy-three dollars a year in twenty twenty-three.",
    "scene": {
     "t": "stat",
     "label": "Avg renters premium, 2023",
@@ -84,6 +84,10 @@
      [
       2014,
       190
+     ],
+     [
+      2015,
+      188
      ],
      [
       2016,
@@ -126,8 +130,8 @@
   },
   {
    "who": "ticker",
-   "text": "Allstate's other personal lines (with renters), 2025: 77.4¢ claims and 16.5¢ expenses per $1.",
-   "say": "Allstate reports renters alongside condo and landlord policies. In twenty twenty-five, each premium dollar there paid seventy-seven point four cents in claims and sixteen point five cents in expenses.",
+   "text": "Allstate's renters, condo, landlord and other lines, 2025: 77.4¢ claims, 16.5¢ expenses per $1.",
+   "say": "Allstate reports renters together with condo, landlord, umbrella and a few other policies. In twenty twenty-five, each premium dollar there paid seventy-seven point four cents in claims and sixteen point five cents in expenses.",
    "scene": {
     "t": "compare",
     "title": "Allstate, per $1 of premium, 2025",
@@ -148,8 +152,8 @@
   },
   {
    "who": "ticker",
-   "text": "$1.00 - 77.4¢ - 16.5¢ = 6.1¢ of underwriting profit.",
-   "say": "That leaves six point one cents of underwriting profit on every dollar.",
+   "text": "That leaves Allstate about 6.1¢ of underwriting profit per premium dollar in that line.",
+   "say": "That leaves Allstate about six point one cents of underwriting profit per premium dollar in that line.",
    "scene": {
     "t": "board",
     "lines": [
@@ -163,7 +167,7 @@
   {
    "who": "ticker",
    "text": "Two quiet extras: investing premiums before claims, and bundling with car insurance.",
-   "say": "Two quiet extras: insurers invest premiums before claims arrive, and renters policies help bundle in car insurance.",
+   "say": "Two quiet extras: insurers invest premiums before claims arrive, and renters policies help sell car insurance bundles.",
    "scene": {
     "t": "list",
     "title": "Two quiet extras",
@@ -177,13 +181,13 @@
   },
   {
    "who": "ticker",
-   "text": "Small risk, small price, steady profit. That's the renters model.",
-   "say": "Small risk, small price, steady profit. That's the renters model.",
+   "text": "Small risk, small price, thin but real profit. That's the renters model.",
+   "say": "Small risk, small price, and a thin but real profit. That's the renters model.",
    "scene": {
     "t": "hook",
-    "title": "Small Risk, Steady [Profit]",
+    "title": "Small Risk, Thin [Profit]",
     "prop": "coins",
-    "label": "per $1",
+    "label": "Allstate '25",
     "value": "6.1¢",
     "mood": "happy"
    }
