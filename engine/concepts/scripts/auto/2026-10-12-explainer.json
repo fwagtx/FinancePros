@@ -1,0 +1,240 @@
+{
+ "id": "2026-10-12-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How student loan\ninterest snowballs",
+ "cover": {
+  "title": "Interest on Your Interest?",
+  "prop": "bill",
+  "label": "$10,000",
+  "value": "+$170/yr"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your student loan can still charge interest on its own interest.",
+   "say": "Your student loan can still charge interest on its own interest.",
+   "scene": {
+    "t": "hook",
+    "title": "Interest on [interest]",
+    "prop": "bill",
+    "label": "$10,000",
+    "value": "+$170/yr",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's called capitalization: unpaid interest joins your balance, then earns interest too.",
+   "say": "It's called capitalization. Unpaid interest joins your balance, then earns interest too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Unpaid interest",
+     "+ principal",
+     "= bigger balance"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "New undergrad Direct Loans carry 6.52%, versus 2.75% in 2020.",
+   "say": "New undergrad Direct Loans carry six point five two percent, versus two point seven five percent in twenty twenty.",
+   "scene": {
+    "t": "chart",
+    "title": "Undergrad Direct Loan rate",
+    "points": [
+     [
+      2016,
+      3.76
+     ],
+     [
+      2017,
+      4.45
+     ],
+     [
+      2018,
+      5.05
+     ],
+     [
+      2019,
+      4.53
+     ],
+     [
+      2020,
+      2.75
+     ],
+     [
+      2021,
+      3.73
+     ],
+     [
+      2022,
+      4.99
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      6.53
+     ],
+     [
+      2025,
+      6.39
+     ],
+     [
+      2026,
+      6.52
+     ]
+    ],
+    "suffix": "%",
+    "end": "6.52%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: $10,000 at 6.52%, no payments for 4 years, simple interest. That adds $2,608.",
+   "say": "Hypothetically, take ten thousand dollars at six point five two percent and no payments for four years. Simple interest adds two thousand six hundred eight dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Hypothetical loan",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "After 4 yrs, no payments",
+     "value": "$12,608"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If that interest capitalizes, say when you consolidate, yearly interest goes from $652 to about $822.",
+   "say": "If that interest capitalizes, say when you consolidate, yearly interest goes from six hundred fifty-two dollars to about eight hundred twenty-two.",
+   "scene": {
+    "t": "compare",
+    "title": "Yearly interest, 6.52%",
+    "left": {
+     "label": "Before",
+     "value": "$652",
+     "tone": "neutral",
+     "sub": "on $10,000"
+    },
+    "right": {
+     "label": "If capitalized",
+     "value": "$822",
+     "tone": "down",
+     "sub": "on $12,608"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $170 more a year.",
+   "say": "That's about a hundred seventy dollars more a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra interest per year if capitalized",
+    "value": "+$170",
+    "tone": "down",
+    "sub": "hypothetical: $12,608 vs $10,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Good news: since July 2023, Direct Loans don't capitalize when you start repaying or leave forbearance.",
+   "say": "Good news, though. Since July twenty twenty-three, Direct Loans don't capitalize when you start repaying or leave forbearance.",
+   "scene": {
+    "t": "split",
+    "title": "Direct Loans since July 2023",
+    "left": {
+     "title": "No longer",
+     "items": [
+      "Starting repayment",
+      "Leaving forbearance",
+      "Leaving PAYE or ICR"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Still happens",
+     "items": [
+      "Consolidating",
+      "Some deferments end",
+      "Leaving IBR (older)"
+     ],
+     "tone": "down"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It still happens when you consolidate, end some deferments, or leave IBR on older loans.",
+   "say": "It still happens when you consolidate, end some deferments, or leave I B R on older loans.",
+   "scene": {
+    "t": "split",
+    "keep": true,
+    "title": "Direct Loans since July 2023",
+    "left": {
+     "title": "No longer",
+     "items": [
+      "Starting repayment",
+      "Leaving forbearance",
+      "Leaving PAYE or ICR"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Still happens",
+     "items": [
+      "Consolidating",
+      "Some deferments end",
+      "Leaving IBR (older)"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the math: interest paid before it capitalizes never earns interest.",
+   "say": "Here's the math. Interest paid before it capitalizes never earns interest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paid interest",
+     "can't earn interest"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How a student loan can charge interest on interest",
+  "ig": "Your student loan can still charge interest on its own interest.\n\nIt's called capitalization: unpaid interest is added to your principal.\nNew undergrad Direct Loans (July 2026 to June 2027) carry a fixed 6.52%.\nHypothetical: $10,000 at 6.52%, no payments for 4 years, simple interest adds $2,608. If that interest capitalizes, say at consolidation, yearly interest goes from $652 to about $822.\nSince July 2023, Direct Loans no longer capitalize when you enter repayment or leave forbearance; consolidation, some deferments ending and leaving IBR (older loans) still trigger it.\n\nSources: US Department of Education (Federal Register, Nov 2022; FSA, June 2026), studentaid.gov.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#studentloans #studentloandebt #interest #personalfinance #financeprostv",
+  "tiktok": "Your student loan can still charge interest on its own interest. Not financial advice. #moneytok #personalfinance #studentloans #financeprostv",
+  "yt_desc": "Capitalization adds unpaid interest to your student loan principal, so interest starts earning interest. New undergrad Direct Loans for July 2026 to June 2027 carry a fixed 6.52%; in a hypothetical $10,000 example with no payments for four years, capitalizing that interest (for example at consolidation) raises yearly interest from $652 to about $822. Since July 2023, Direct Loans no longer capitalize when you enter repayment or leave forbearance, but consolidation, some deferments ending and leaving IBR (older loans) still trigger it. Sources: US Department of Education (Federal Register, Nov 2022; FSA, June 2026), studentaid.gov.\n\nNews and education, not financial advice.\n\n#Shorts #studentloans #personalfinance",
+  "tags": [
+   "student loans",
+   "capitalized interest",
+   "student loan interest",
+   "interest capitalization",
+   "personal finance"
+  ]
+ }
+}
