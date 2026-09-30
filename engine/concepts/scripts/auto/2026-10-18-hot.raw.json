@@ -1,0 +1,173 @@
+{
+ "series": "ticker",
+ "header": "Why is a plumber\nso expensive?",
+ "cover": {
+  "title": "Why Is a Plumber So Expensive?",
+  "prop": "tag",
+  "value": "$120/hr"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "You pay $120. Your plumber gets $30.",
+   "say": "You pay a hundred twenty. Your plumber gets thirty.",
+   "scene": {
+    "t": "hook",
+    "title": "Where's the [other $90]?",
+    "prop": "tag",
+    "value": "$120/hr",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A master plumber bills about $120/hr (Angi). The typical plumber's wage: $30.67/hr (BLS, 2025).",
+   "say": "Cost guides put a master plumber at about a hundred twenty dollars an hour. The typical plumber's wage was about thirty-one dollars in twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "One hour of plumbing",
+    "left": {
+     "label": "You pay (avg.)",
+     "value": "$120",
+     "tone": "down",
+     "sub": "Angi cost guide"
+    },
+    "right": {
+     "label": "Plumber's wage",
+     "value": "$30.67",
+     "tone": "neutral",
+     "sub": "BLS median, all plumbers, 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, benefits. Wages are about 70% of what workers cost: $30.67 / 0.70 = about $44.",
+   "say": "First, benefits. Wages are only about seventy percent of what a worker costs. So a thirty-one dollar wage really costs about forty-four.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Wage $30.67",
+     "/ 0.70 (benefits)",
+     "= about $44 per hour"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then unbilled time: driving, estimates, parts runs. Say 6 of 8 hours get billed: about $58 per billed hour.",
+   "say": "Then unbilled time: driving, estimates, parts runs. Say six of eight hours get billed. That's about fifty-eight dollars per billed hour.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Say 6 of 8 hrs billed:",
+     "$43.81 x 8 / 6",
+     "= about $58"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other $62 covers the truck, tools, insurance, licenses, office and profit. Parts are usually billed separately.",
+   "say": "The other sixty-two dollars covers the truck, tools, insurance, licenses, the office, and some profit. Parts are usually extra.",
+   "scene": {
+    "t": "list",
+    "title": "The other $62",
+    "items": [
+     "Truck and fuel",
+     "Tools, equipment",
+     "Insurance, licenses",
+     "Office and profit"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the skill isn't quick: most plumbers train 4 to 5 years as apprentices.",
+   "say": "And the skill isn't quick. Most plumbers train four to five years as apprentices.",
+   "scene": {
+    "t": "stat",
+    "label": "Typical plumbing apprenticeship",
+    "value": "4-5 yrs",
+    "tone": "neutral",
+    "sub": "BLS Occupational Outlook Handbook"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wages have climbed too: from $26.52 in 2019 to $30.67 in 2025, before inflation.",
+   "say": "Wages have climbed too, from about twenty-six fifty an hour in twenty nineteen to over thirty dollars in twenty twenty-five, before inflation.",
+   "scene": {
+    "t": "chart",
+    "title": "Median plumber wage ($/hr, BLS)",
+    "points": [
+     [
+      2019,
+      26.52
+     ],
+     [
+      2020,
+      27.08
+     ],
+     [
+      2021,
+      28.79
+     ],
+     [
+      2022,
+      28.89
+     ],
+     [
+      2023,
+      29.59
+     ],
+     [
+      2024,
+      30.27
+     ],
+     [
+      2025,
+      30.67
+     ]
+    ],
+    "prefix": "$",
+    "end": "$30.67",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So that $120 isn't a paycheck. It's a whole business on wheels.",
+   "say": "So that hundred and twenty isn't a paycheck. It's a whole business on wheels.",
+   "scene": {
+    "t": "hook",
+    "title": "A business on [wheels]",
+    "prop": "car",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "You pay $120 an hour. Your plumber gets about $30. Why?",
+  "ig": "You pay about $120 an hour. Your plumber gets about $30.\nThe median wage for plumbers was $30.67/hr in May 2025 (BLS). Master plumbers bill about $120/hr on average (Angi).\nBenefits push the true labor cost to about $44/hr, and unbilled drive time makes it about $58 per billed hour.\nThe rest covers the truck, tools, insurance, licenses, office and profit. Parts are usually extra.\nSources: BLS, Angi.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#plumber #homeownership #costofliving #personalfinance #financeprostv",
+  "tiktok": "You pay $120/hr. Your plumber makes about $30. Here's where the rest goes. Not financial advice. #moneytok #personalfinance #plumber #financeprostv",
+  "yt_desc": "Why is a plumber so expensive? Master plumbers bill about $120 an hour on average (Angi), but the median plumber wage was $30.67 in May 2025 (BLS). Benefits, unbilled time, the truck, tools, insurance and licenses make up the gap. News and education, not financial advice.\n#Shorts #plumber #personalfinance",
+  "tags": [
+   "why are plumbers expensive",
+   "plumber cost per hour",
+   "plumber salary",
+   "home repair costs",
+   "trades"
+  ]
+ }
+}
