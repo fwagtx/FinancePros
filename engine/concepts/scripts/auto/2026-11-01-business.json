@@ -1,0 +1,155 @@
+{
+ "id": "2026-11-01-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How bail bond\ncompanies make money",
+ "cover": {
+  "title": "The $2,000 You Don't Get Back",
+  "prop": "bill",
+  "label": "BOND FEE",
+  "value": "10%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The bondsman keeps your $2,000 even when you show up.",
+   "say": "The bondsman keeps your two thousand dollars even when you show up.",
+   "scene": {
+    "t": "hook",
+    "title": "Show up. They [keep] $2,000.",
+    "prop": "bill",
+    "label": "BOND FEE",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say bail is $20,000. A bondsman often charges 10%, or $2,000, and you don't get it back.",
+   "say": "Say bail is twenty thousand dollars. A bondsman often charges ten percent, or two thousand, and you don't get it back.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Bail set",
+     "value": "$20,000"
+    },
+    "to": {
+     "label": "Fee to bondsman",
+     "value": "$2,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The insurer backing the bond typically takes about 10% of that fee. The agent keeps most of the rest, but covers losses.",
+   "say": "The insurer backing the bond typically takes about ten percent of that fee. The agent keeps most of the rest, but covers losses.",
+   "scene": {
+    "t": "compare",
+    "title": "Where a $2,000 fee goes (typical)",
+    "left": {
+     "label": "Insurer",
+     "value": "~$200",
+     "tone": "neutral",
+     "sub": "about 1% of the bond"
+    },
+    "right": {
+     "label": "Bail agent",
+     "value": "~$1,800",
+     "tone": "up",
+     "sub": "before costs and reserves"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch for the agent: if you skip court, they can owe the full $20,000.",
+   "say": "The catch for the agent: if you skip court, they can owe the full twenty thousand.",
+   "scene": {
+    "t": "hook",
+    "title": "Skip court? Agent owes [$20K].",
+    "prop": "paper",
+    "label": "BOND",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So agents ask for collateral and co-signers, and track down people who miss court.",
+   "say": "So agents ask for collateral and co-signers, and track down people who miss court.",
+   "scene": {
+    "t": "list",
+    "title": "How agents limit risk",
+    "items": [
+     "Collateral (car, house)",
+     "Co-signers",
+     "Finding no-shows"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In big US counties, surety bonds rose from 24% of felony releases in 1990-94 to 42% in 2002-04.",
+   "say": "In big US counties, surety bonds rose from twenty-four to forty-two percent of felony releases by the mid two-thousands.",
+   "scene": {
+    "t": "compare",
+    "title": "Felony releases on surety bond (BJS, 2007 report)",
+    "left": {
+     "label": "1990-94",
+     "value": "24%",
+     "tone": "neutral",
+     "sub": "75 largest counties"
+    },
+    "right": {
+     "label": "2002-04",
+     "value": "42%",
+     "tone": "up",
+     "sub": "75 largest counties"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The US and the Philippines are essentially the only countries with commercial bail.",
+   "say": "The US and the Philippines are essentially the only countries with commercial bail.",
+   "scene": {
+    "t": "stat",
+    "label": "Countries with commercial bail",
+    "value": "~2",
+    "tone": "neutral",
+    "sub": "essentially just US + Philippines (PolitiFact, 2018)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bail paid to the court can come back. The bondsman's fee is nonrefundable.",
+   "say": "Bail paid to the court can come back. The bondsman's fee is nonrefundable.",
+   "scene": {
+    "t": "hook",
+    "title": "Bail returns. [Fees] don't.",
+    "prop": "bill",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How bail bond companies make money: the 10% fee",
+  "ig": "The bondsman keeps your $2,000 even when you show up.\nOn $20,000 bail, agents often charge a nonrefundable 10% fee: $2,000.\nThe insurer backing the bond typically takes about 10% of the fee; the agent keeps most of the rest, but can owe the full $20,000 if you skip court.\nIn the 75 largest US counties, surety bonds went from 24% of felony releases (1990-94) to 42% (2002-04).\nSources: Bureau of Justice Statistics (2007 report); California Department of Insurance; PolitiFact (2018). Rules vary by state.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#bailbonds #howtheymakemoney #businessmodel #personalfinance #financeprostv",
+  "tiktok": "The bondsman keeps your $2,000 even when you show up. The business model. Not financial advice. #moneytok #personalfinance #business #financeprostv",
+  "yt_desc": "Bail bond agents often charge a nonrefundable fee of about 10% of bail, so $2,000 on $20,000 bail. The insurer backing the bond typically takes about 10% of that fee; the agent keeps most of the rest but can owe the full bail if the defendant skips court. In the 75 largest US counties, surety bonds rose from 24% of felony releases in 1990-94 to 42% in 2002-04 (Bureau of Justice Statistics, 2007 report). Rules vary by state. News and education, not financial advice. #Shorts #business #bailbonds",
+  "tags": [
+   "how bail bonds work",
+   "bail bondsman",
+   "bail bond business",
+   "how they make money",
+   "business model"
+  ]
+ }
+}
