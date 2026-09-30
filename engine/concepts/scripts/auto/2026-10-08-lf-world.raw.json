@@ -2,7 +2,7 @@
  "series": "ticker",
  "header": "WORLD MONEY",
  "cover": {
-  "title": "Why Is Gas $4.47?",
+  "title": "Why Did Gas Hit $4.47?",
   "countries": [
    "us",
    "japan"
@@ -14,8 +14,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "America's a net oil seller. So why did gas hit $4.47?",
-   "say": "America's a net oil seller. So why did gas hit four forty-seven?",
+   "text": "America sells oil. So why did gas hit $4.47?",
+   "say": "America sells oil. So why did gas hit four forty-seven?",
    "scene": {
     "t": "hook",
     "title": "America sells oil. Why [$4.47] gas?",
@@ -91,8 +91,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's not a mistake. Oil trades on one world market, and every country pays roughly the same price for it.",
-   "say": "That's not a mistake. Oil trades on one world market, and every country pays roughly the same price for it.",
+   "text": "That's not a mistake. Oil trades on one world market, and every country pays roughly the same price for crude.",
+   "say": "That's not a mistake. Oil trades on one world market, and every country pays roughly the same price for crude.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -104,7 +104,7 @@
      {
       "name": "japan",
       "mood": "worried",
-      "says": "same price here"
+      "says": "same crude price"
      },
      {
       "name": "china",
@@ -112,7 +112,7 @@
       "says": "me too"
      }
     ],
-    "caption": "One market, one price"
+    "caption": "One price for crude"
    }
   },
   {
@@ -283,8 +283,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's about a fifth of all the oil the world uses. And 84% of the crude going through it was headed to Asia.",
-   "say": "That's about a fifth of all the oil the world uses, and eighty-four percent of the crude going through it was headed to Asia.",
+   "text": "Those 20 million barrels are about a fifth of all the oil the world uses. And 84% of the crude going through it was headed to Asia.",
+   "say": "Those twenty million barrels are about a fifth of all the oil the world uses, and eighty-four percent of the crude going through it was headed to Asia.",
    "scene": {
     "t": "stat",
     "label": "Hormuz crude going to Asia, 2024",
@@ -361,7 +361,7 @@
      },
      {
       "when": "2008",
-      "what": "WTI hits $147.27"
+      "what": "WTI hits $147.27 intraday"
      },
      {
       "when": "2020",
@@ -377,8 +377,8 @@
   },
   {
    "who": "ticker",
-   "text": "Oil nearly quadrupled, from $2.90 a barrel to $11.65 by January 1974.",
-   "say": "Oil nearly quadrupled, from two dollars ninety a barrel to eleven sixty-five by January nineteen seventy-four.",
+   "text": "Oil roughly quadrupled, from $2.90 a barrel to $11.65 by January 1974.",
+   "say": "Oil roughly quadrupled, from two dollars ninety a barrel to eleven sixty-five by January nineteen seventy-four.",
    "scene": {
     "t": "money",
     "from": {
@@ -421,7 +421,7 @@
    "scene": {
     "t": "money",
     "from": {
-     "label": "WTI, July 11, 2008",
+     "label": "WTI intraday, July 11, 2008",
      "value": "$147.27"
     },
     "to": {
@@ -567,8 +567,8 @@
   },
   {
    "who": "ticker",
-   "text": "Physical cargoes went even higher: Dated Brent hit $144.42 on April 7, a record since 1987.",
-   "say": "Physical cargoes went even higher. Dated Brent hit a hundred forty-four forty-two on April seventh, a record since nineteen eighty-seven.",
+   "text": "Physical cargoes went even higher: Dated Brent hit $144.42 on April 7, the highest since Platts began publishing it in 1987.",
+   "say": "Physical cargoes went even higher. Dated Brent hit a hundred forty-four forty-two on April seventh, the highest since Platts began publishing it in nineteen eighty-seven.",
    "scene": {
     "t": "news",
     "headline": "Dated Brent hits $144.42, highest on record",
@@ -603,14 +603,14 @@
   },
   {
    "who": "ticker",
-   "text": "Taxes are mostly a fixed amount per gallon: 18.4 cents federal, plus about 22 cents from states on average.",
-   "say": "Taxes are mostly a fixed amount per gallon, eighteen point four cents federal, plus about twenty-two cents from states on average.",
+   "text": "Taxes are mostly a fixed amount per gallon: 18.4 cents federal, plus about 33 cents from states on average.",
+   "say": "Taxes are mostly a fixed amount per gallon, eighteen point four cents federal, plus about thirty-three cents from states on average.",
    "scene": {
     "t": "stat",
     "label": "Gas taxes per gallon, 2025",
-    "value": "~40¢",
+    "value": "~52¢",
     "tone": "neutral",
-    "sub": "18.4¢ federal + ~22¢ state avg (EIA)"
+    "sub": "18.4¢ federal + ~33¢ state avg (EIA)"
    }
   },
   {
@@ -770,7 +770,7 @@
   {
    "who": "ticker",
    "text": "At $4.465 on September 28, 2026, that's $66.98. A year earlier, at about $3.12, it was $46.77.",
-   "say": "At four forty-six and a half on September twenty-eighth, twenty twenty-six, that's sixty-six ninety-eight. A year earlier, at about three twelve, it was forty-six seventy-seven.",
+   "say": "At four dollars and forty-six and a half cents on September twenty-eighth, twenty twenty-six, that's sixty-six ninety-eight. A year earlier, at about three twelve, it was forty-six seventy-seven.",
    "scene": {
     "t": "compare",
     "title": "One 15-gallon fill-up",
@@ -804,7 +804,7 @@
   {
    "who": "ticker",
    "text": "That's real money, for the exact same gallons you'd have bought anyway.",
-   "say": "That's real money, for the exact same gallons you would have bought anyway.",
+   "say": "That's real money, for the same gallons you'd have bought anyway.",
    "scene": {
     "t": "money",
     "from": {
@@ -857,7 +857,7 @@
   {
    "who": "ticker",
    "text": "A record for diesel is a record for the cost of moving stuff.",
-   "say": "And a record for diesel is really a record for the cost of moving stuff around.",
+   "say": "A record for diesel is a record for the cost of moving stuff.",
    "scene": {
     "t": "hook",
     "title": "Moving stuff costs [more]",
@@ -989,8 +989,8 @@
   },
   {
    "who": "ticker",
-   "text": "Oil importers feel it even harder, since they buy that oil in dollars they earn first.",
-   "say": "Oil importers feel it even harder, since they buy that oil in dollars they earn first.",
+   "text": "Importers like Japan and Germany feel it more, because oil is priced in US dollars. A weaker yen or euro makes the same barrel cost extra.",
+   "say": "Oil importers like Japan and Germany feel it even more, because oil is priced in US dollars. When their own currency is weaker, the same barrel costs them extra.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -1005,7 +1005,7 @@
       "says": "me too"
      }
     ],
-    "caption": "Importers pay twice"
+    "caption": "Priced in dollars"
    }
   },
   {
@@ -1049,7 +1049,7 @@
   },
   {
    "who": "ticker",
-   "text": "The rest becomes things like asphalt, lubricants, and the raw materials for plastics. That's why the total comes out to about 45 gallons.",
+   "text": "The rest becomes asphalt, lubricants and plastic feedstocks. Processing makes it expand, so the total is about 45 gallons.",
    "say": "The rest becomes things like asphalt, lubricants, and raw materials for plastics. Processing makes it expand, so the total comes out to about forty-five gallons.",
    "scene": {
     "t": "list",
@@ -1059,14 +1059,14 @@
   },
   {
    "who": "ticker",
-   "text": "Plastic packaging is made from oil and gas. In Europe, polyethylene prices rose an estimated 70 to 80% from February to April 2026.",
-   "say": "Plastic packaging is made from oil and gas. In Europe, polyethylene prices rose an estimated seventy to eighty percent between February and April twenty twenty-six.",
+   "text": "Plastic packaging is made from oil and gas. In Europe, polyethylene spot prices roughly doubled at the low end from late February to April 2026.",
+   "say": "Plastic packaging is made from oil and gas. In Europe, polyethylene spot prices roughly doubled at the low end from late February to April twenty twenty-six.",
    "scene": {
     "t": "stat",
-    "label": "Europe polyethylene, Feb-Apr 2026",
-    "value": "+70-80%",
+    "label": "Europe PE spot (low end), Feb-Apr 2026",
+    "value": "~x2",
     "tone": "down",
-    "sub": "spot prices, est. (Plastics Today)"
+    "sub": "ICIS, Apr 14, 2026"
    }
   },
   {
@@ -1341,7 +1341,7 @@
   "title": "America Sells Oil, So Why Did Gas Hit $4.47? How Oil Ripples Into Everything You Buy",
   "ig": "America exports more oil than it imports. Gas still hit $4.47. Here's why.",
   "tiktok": "The US is a net oil exporter, and gas still hit $4.47 in Sept 2026. One world price explains it.",
-  "yt_desc": "The US has exported more petroleum than it imports every year since 2020, yet regular gas averaged about $4.47 a gallon on September 28, 2026. This video follows one barrel of oil from the Strait of Hormuz to your receipt: why oil has one world price, the history from the 1973 embargo to 2026, the simple rule that every $1 on a barrel adds about 2.4 cents to a gallon, and how the shock spreads into record diesel, airfares up 23.4%, plastic packaging and fertilizer. With real math on a 15-gallon fill-up.\n\nCHAPTERS\n\nSources: EIA weekly gasoline and diesel prices (Sept 21-28, 2026); EIA monthly and annual retail gasoline prices (2020-2026); EIA, What we pay for in a gallon of gasoline (2025); EIA Strait of Hormuz analysis (2024 data); EIA US petroleum trade (2025); BLS Consumer Price Index, August 2026 (released Sept 11, 2026); AAA (Sept 2026); CNBC (Apr 21 and Sept 29, 2026); Bloomberg and Forbes (Apr 7, 2026); IATA Global Outlook for Air Transport (June 2026); World Bank (Apr 2026); Plastics Today (2026); Canada Energy Regulator (2025); China customs data (2025); Argus/METI (2025); Federal Reserve History, Oil Shock of 1973-74; CFTC (Apr 2020).\n\nNews and education, not financial advice.\n\n#oilprices #gasprices #economy",
+  "yt_desc": "The US has exported more petroleum than it imports every year since 2020, yet regular gas averaged about $4.47 a gallon on September 28, 2026. This video follows one barrel of oil from the Strait of Hormuz to your receipt: why oil has one world price, the history from the 1973 embargo to 2026, the simple rule that every $1 on a barrel adds about 2.4 cents to a gallon, and how the shock spreads into record diesel, airfares up 23.4%, plastic packaging and fertilizer. With real math on a 15-gallon fill-up.\n\nCHAPTERS\n\nSources: EIA weekly gasoline and diesel prices (Sept 21-28, 2026); EIA monthly and annual retail gasoline prices (2020-2026); EIA, What we pay for in a gallon of gasoline (2025); EIA Strait of Hormuz analysis (2024 data); EIA US petroleum trade (2025); BLS Consumer Price Index, August 2026 (released Sept 11, 2026); AAA (Sept 2026); CNBC (Apr 21 and Sept 29, 2026); Bloomberg and Forbes (Apr 7, 2026); IATA Global Outlook for Air Transport (June 2026); World Bank (Apr 2026); ICIS (Apr 14, 2026); Canada Energy Regulator (2025); China customs data (2025); Argus/METI (2025); Federal Reserve History, Oil Shock of 1973-74; CFTC (Apr 2020).\n\nNews and education, not financial advice.\n\n#oilprices #gasprices #economy",
   "tags": [
    "oil prices",
    "gas prices",
