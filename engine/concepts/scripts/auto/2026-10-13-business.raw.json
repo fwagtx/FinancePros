@@ -54,8 +54,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's up 16% since 2023, and the answer is one multiplier.",
-   "say": "That's up sixteen percent since twenty twenty-three, and the answer is one multiplier.",
+   "text": "That's up 16% since 2023. The price comes down to one multiplier.",
+   "say": "That's up sixteen percent since twenty twenty-three. The price comes down to one multiplier.",
    "scene": {
     "t": "chart",
     "keep": true,
@@ -119,11 +119,11 @@
   },
   {
    "who": "ticker",
-   "text": "A $1 bump at wholesale adds $42 per dozen. The markup multiplies it.",
-   "say": "So a one-dollar bump at wholesale adds forty-two dollars per dozen. The markup multiplies it.",
+   "text": "In our example, a $1 bump at wholesale adds $42 in flowers alone.",
+   "say": "In our example, a one-dollar bump at wholesale adds forty-two dollars in flowers alone.",
    "scene": {
     "t": "stat",
-    "label": "Extra per dozen from +$1/stem",
+    "label": "Example: extra flower cost per dozen",
     "value": "+$42",
     "tone": "down",
     "sub": "Example: 12 x $1 x 3.5",
@@ -152,7 +152,7 @@
     "lines": [
      "Wholesale spike",
      "x 3.5 markup",
-     "= the $93 dozen"
+     "= a $90+ dozen"
     ],
     "mood": "happy"
    }

@@ -72,3 +72,9 @@ SOURCES:
 - FDIC Deposit Insurance FAQ; Library of Congress / History.com on FDIC 1933
 - Wikipedia/CNN/NPR on SVB collapse, March 2023
 - Wikipedia "Goldsmith banker"; Federal Reserve History "Federal Reserve Act Signed into Law"; IMF blog Aug 16, 2021 (Nixon, 1971)
+
+## Addenda
+- BoE 2014 Q1: the central bank can also affect the amount of money directly by purchasing assets ("quantitative easing"); QE initially increases bank deposits of the (mostly non-bank) sellers. So loans are the main but not the only source of deposits.
+- SVB was the second-largest US bank failure at the time (March 2023); First Republic (May 2023) was later larger, so script says "At the time".
+- Script avoids claiming a specific cause for the 2023 M2 decline; it explains only the mechanism (repayments outrunning new lending shrink money).
+- Additional source: Bank of England QB 2014 Q1 (QE section); UK Parliament QE note SN/EP/4997 (Oct 2014).
