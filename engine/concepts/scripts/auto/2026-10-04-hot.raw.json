@@ -2,29 +2,29 @@
   "series": "ticker",
   "header": "Never Pay Into\nSocial Security?",
   "cover": {
-    "title": "Never Paid Social Security?",
-    "prop": "bill",
-    "label": "retirement check",
-    "value": "$0"
+    "title": "No Credits? Medicare Costs $565",
+    "prop": "tag",
+    "label": "Medicare Part A",
+    "value": "$565/mo"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "Never pay into Social Security, and your retirement check is $0.",
-      "say": "Never pay into Social Security, and your retirement check is zero.",
+      "text": "No Social Security credits? Medicare Part A can cost $565 a month.",
+      "say": "No Social Security credits? Medicare can cost five hundred sixty-five dollars monthly.",
       "scene": {
         "t": "hook",
-        "title": "Your check: [zero]",
-        "prop": "bill",
-        "label": "retirement check",
-        "value": "$0",
+        "title": "No credits? Medicare costs [$565]",
+        "prop": "tag",
+        "label": "Medicare Part A",
+        "value": "$565/mo",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "Honestly, the zero isn't even the expensive part.",
-      "say": "Honestly, the zero isn't even the expensive part.",
+      "text": "And your own Social Security retirement check? $0.",
+      "say": "And your own Social Security retirement check? That's zero dollars.",
       "scene": {
         "t": "stat",
         "label": "Social Security retirement check",
@@ -50,8 +50,8 @@
     },
     {
       "who": "ticker",
-      "text": "One credit took $1,890 of taxed pay in 2026, and the bar rises every year.",
-      "say": "One credit took eighteen hundred ninety dollars of taxed pay in twenty twenty-six, and the bar rises every year.",
+      "text": "One credit takes $1,890 of taxed pay in 2026, and the bar rises every year.",
+      "say": "One credit takes eighteen hundred ninety dollars of taxed pay in twenty twenty-six, and the bar rises every year.",
       "scene": {
         "t": "chart",
         "title": "Pay needed for 1 credit",
@@ -92,21 +92,21 @@
     },
     {
       "who": "ticker",
-      "text": "Miss the 40, and the fallback is SSI, capped at $994 a month in 2026, for people with very little.",
-      "say": "Miss the forty, and the fallback is S S I, capped at nine hundred ninety-four dollars a month in twenty twenty-six, for people with very little.",
+      "text": "Miss the 40, and the fallback is SSI: max $994 a month in 2026, for people 65-plus, blind or disabled with very little income.",
+      "say": "Miss the forty, and the fallback is S S I, capped at nine hundred ninety-four dollars a month in twenty twenty-six, for people sixty-five-plus, blind or disabled with very little income.",
       "scene": {
         "t": "stat",
         "label": "Max federal SSI, 2026",
         "value": "$994/mo",
         "tone": "down",
-        "sub": "needs-based; avg retiree check: $2,071 (SSA)",
+        "sub": "65+, blind or disabled, very low income (SSA)",
         "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "The surprise: under 30 credits, Medicare Part A cost $565 a month that year.",
-      "say": "The surprise: under thirty credits, Medicare hospital coverage cost five hundred sixty-five dollars a month that year.",
+      "text": "With under 30 credits, Medicare Part A costs $565 a month in 2026.",
+      "say": "And with under thirty credits, Medicare hospital coverage costs five hundred sixty-five dollars a month in twenty twenty-six.",
       "scene": {
         "t": "stat",
         "label": "Medicare Part A premium",
@@ -135,8 +135,8 @@
     },
     {
       "who": "ticker",
-      "text": "One exception: a spouse can get up to half of a working spouse's benefit.",
-      "say": "One exception: a spouse can get up to half of a working spouse's benefit.",
+      "text": "One exception: marriage to a worker can mean up to half their benefit and premium-free Part A.",
+      "say": "One exception: marriage to a worker can mean up to half their benefit, plus premium-free Part A.",
       "scene": {
         "t": "split",
         "title": "Zero credits of your own",
@@ -151,7 +151,8 @@
         "right": {
           "title": "Married to a worker",
           "items": [
-            "Up to 50% spouse benefit"
+            "Up to 50% spouse benefit",
+            "Premium-free Part A via spouse"
           ],
           "tone": "up"
         },
@@ -160,8 +161,8 @@
     },
     {
       "who": "ticker",
-      "text": "Your credit count is free to check in your my Social Security account.",
-      "say": "Your credit count is free to check in your my Social Security account.",
+      "text": "Your credit count is in your free my Social Security account online.",
+      "say": "You can see your credit count in your free my Social Security account online.",
       "scene": {
         "t": "list",
         "title": "Know your number",
@@ -185,10 +186,10 @@
     }
   ],
   "post": {
-    "title": "What Happens If You Never Pay Into Social Security?",
-    "ig": "Never pay into Social Security, and your retirement check is $0.\nYou need 40 work credits (max 4 a year). One credit took $1,890 of taxed pay in 2026.\nThe fallback, SSI, maxed out at $994 a month in 2026 versus a $2,071 average retiree check.\nThe surprise: with under 30 credits, Medicare Part A cost $565 a month in 2026. That's $6,780 a year.\nSources: SSA, CMS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#socialsecurity #medicare #retirement #personalfinance #financeprostv",
-    "tiktok": "Never pay into Social Security? Your check is $0, and Medicare can cost $565/mo. Not financial advice. #moneytok #personalfinance #socialsecurity #financeprostv",
-    "yt_desc": "Without 40 Social Security work credits, your own retirement check is $0; one credit took $1,890 of taxed pay in 2026. The needs-based fallback, SSI, maxed out at $994 a month in 2026, and with under 30 credits Medicare Part A cost $565 a month (Sources: SSA, CMS). News and education, not financial advice. #Shorts #socialsecurity #medicare",
+    "title": "No Social Security Credits? Medicare Can Cost $565/Month",
+    "ig": "No Social Security credits? Medicare Part A can cost $565 a month.\nWithout 40 work credits (max 4 a year), your own retirement check is $0. One credit takes $1,890 of taxed pay in 2026.\nThe fallback, SSI, is capped at $994 a month in 2026, for people 65-plus, blind or disabled with very little income.\nWith under 30 credits, Medicare Part A costs $565 a month in 2026. That's $6,780 a year.\nSources: SSA, CMS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#socialsecurity #medicare #retirement #personalfinance #financeprostv",
+    "tiktok": "No Social Security credits? Your check is $0 and Medicare Part A costs $565/mo in 2026. Not financial advice. #moneytok #personalfinance #socialsecurity #financeprostv",
+    "yt_desc": "Without 40 Social Security work credits, your own retirement check is $0; one credit takes $1,890 of taxed pay in 2026. With under 30 credits, Medicare Part A costs $565 a month in 2026, and SSI is capped at $994 a month for people 65-plus, blind or disabled with very little income (Sources: SSA, CMS). News and education, not financial advice. #Shorts #socialsecurity #medicare",
     "tags": [
       "social security",
       "social security credits",
