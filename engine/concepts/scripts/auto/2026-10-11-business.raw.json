@@ -1,0 +1,201 @@
+{
+ "series": "ticker",
+ "header": "How probate lawyers\nget paid",
+ "cover": {
+  "title": "Probate Lawyer Pay, Set By Law",
+  "prop": "house",
+  "label": "$900K",
+  "value": "$21,000"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In California, a probate lawyer's pay is written into law.",
+   "say": "In California, a probate lawyer's pay is written into law.",
+   "scene": {
+    "t": "hook",
+    "title": "Lawyer pay, set by [law]",
+    "prop": "house",
+    "label": "$900K",
+    "value": "$21,000",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $900,000 house, that's $21,000, and a mortgage doesn't shrink it.",
+   "say": "On a nine hundred thousand dollar house, that's twenty-one thousand dollars, and a mortgage doesn't shrink it.",
+   "scene": {
+    "t": "stat",
+    "label": "CA lawyer fee, $900K estate",
+    "value": "$21,000",
+    "tone": "down",
+    "sub": "Probate Code 10810"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most states just require a 'reasonable' fee, often hourly. California sets a sliding percentage.",
+   "say": "Most states just require a reasonable fee, often hourly. California sets a sliding percentage.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Most states: 'reasonable'",
+     "California: % set by law"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "4% of the first $100,000, 3% of the next $100,000, 2% of the next $800,000, then 1%.",
+   "say": "It's four percent of the first hundred thousand, three percent of the next hundred thousand, two percent of the next eight hundred thousand, then one percent.",
+   "scene": {
+    "t": "list",
+    "title": "California fee schedule",
+    "items": [
+     "4% of first $100K",
+     "3% of next $100K",
+     "2% of next $800K",
+     "1% of next $9M"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So $900,000 is $4,000 plus $3,000 plus $14,000: $21,000.",
+   "say": "So nine hundred thousand is four thousand, plus three thousand, plus fourteen thousand: twenty-one thousand dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$4,000 + $3,000",
+     "+ 2% x $700K = $14,000",
+     "= $21,000"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fee rises with the estate, but the rate falls.",
+   "say": "The fee rises with the estate, but the rate falls.",
+   "scene": {
+    "t": "chart",
+    "title": "CA lawyer fee, estate in $K",
+    "points": [
+     [
+      100,
+      4000
+     ],
+     [
+      200,
+      7000
+     ],
+     [
+      300,
+      9000
+     ],
+     [
+      500,
+      13000
+     ],
+     [
+      700,
+      17000
+     ],
+     [
+      900,
+      21000
+     ],
+     [
+      1000,
+      23000
+     ]
+    ],
+    "prefix": "$",
+    "end": "$23,000",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The twist: it uses gross value. Owe $500,000 on it, and the fee still counts all $900,000.",
+   "say": "The twist: it uses gross value. Owe five hundred thousand on it, and the fee still counts all nine hundred thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $900K house",
+    "left": {
+     "label": "Heirs' equity",
+     "value": "$400K",
+     "tone": "down",
+     "sub": "after $500K loan"
+    },
+    "right": {
+     "label": "Fee is based on",
+     "value": "$900K",
+     "tone": "neutral",
+     "sub": "gross value"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The executor can claim the same schedule too: another $21,000.",
+   "say": "The executor can claim the same schedule too: another twenty-one thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Executor fee, same estate",
+    "value": "$21,000",
+    "tone": "down",
+    "sub": "Probate Code 10800",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Extra work, like a lawsuit, needs a judge's OK. Assets in a living trust skip probate entirely.",
+   "say": "Extra work, like a lawsuit, needs a judge's okay. Assets in a living trust skip probate entirely.",
+   "scene": {
+    "t": "split",
+    "title": "Beyond the schedule",
+    "left": {
+     "title": "Costs more",
+     "items": [
+      "Extra work",
+      "Judge must approve"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Skips probate",
+     "items": [
+      "Living trust assets",
+      "Some small estates"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "In California, a probate lawyer's pay is set by law",
+  "ig": "In California, a probate lawyer's pay is written into law.\n\nThe schedule: 4% of the first $100,000, 3% of the next $100,000, 2% of the next $800,000, then 1%.\nExample: a $900,000 house means a $21,000 attorney fee, and the executor can claim another $21,000.\nThe fee uses gross value, so a mortgage doesn't lower it.\n\nSources: California Probate Code sections 10800, 10810 and 10811.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#probate #estateplanning #california #howtheymakemoney #financeprostv",
+  "tiktok": "California sets probate lawyer pay by law: $21,000 on a $900K house. Not financial advice. #moneytok #personalfinance #probate #financeprostv",
+  "yt_desc": "California sets probate attorney fees by statute: 4% of the first $100,000, 3% of the next $100,000, 2% of the next $800,000, then 1% (Probate Code 10810), and the executor can claim the same (10800). On a $900,000 estate that's $21,000 each, based on gross value, so a mortgage doesn't lower it.\n\nNews and education, not financial advice.\n\n#Shorts #probate #estateplanning",
+  "tags": [
+   "probate fees",
+   "california probate",
+   "how probate lawyers get paid",
+   "executor fees",
+   "estate planning"
+  ]
+ }
+}

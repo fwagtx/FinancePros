@@ -1,0 +1,192 @@
+{
+ "series": "ticker",
+ "header": "Why mortgage rates\nfollow the 10-year",
+ "cover": {
+  "title": "Your Mortgage Follows This Number",
+  "prop": "house",
+  "label": "10-yr",
+  "value": "5.18%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your mortgage rate follows one number, and it's not the Fed's.",
+   "say": "Your mortgage rate follows one number, and it's not the Fed's.",
+   "scene": {
+    "t": "hook",
+    "title": "Not the [Fed's] rate",
+    "prop": "house",
+    "label": "30-yr",
+    "value": "7.03%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the 10-year Treasury yield: 5.18% on September 24, 2026, near a two-decade high.",
+   "say": "It's the ten-year Treasury yield: five point one eight percent on September twenty-fourth, twenty twenty-six, near a two-decade high.",
+   "scene": {
+    "t": "stat",
+    "label": "10-year Treasury yield",
+    "value": "5.18%",
+    "tone": "up",
+    "sub": "Sept 24, 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Freddie Mac's average 30-year mortgage rate that day? 7.03%.",
+   "say": "Freddie Mac's average thirty-year mortgage rate that day? Seven point oh three percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Sept 24, 2026",
+    "left": {
+     "label": "10-yr yield",
+     "value": "5.18%",
+     "tone": "neutral",
+     "sub": "US Treasury"
+    },
+    "right": {
+     "label": "30-yr mortgage",
+     "value": "7.03%",
+     "tone": "up",
+     "sub": "Freddie Mac avg"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why the 10-year? People move or refinance early, so most mortgages act like 10-year loans.",
+   "say": "Why the ten-year? People move or refinance early, so most mortgages act like ten-year loans.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "On paper: 30 years",
+     "Real life: move or refi",
+     "Priced like: 10 years"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And mortgages get bundled into bonds that must pay investors more than safe Treasurys.",
+   "say": "And mortgages get bundled into bonds that must pay investors more than safe Treasurys.",
+   "scene": {
+    "t": "split",
+    "title": "Investors choose",
+    "left": {
+     "title": "Treasury",
+     "items": [
+      "government-backed",
+      "fixed payoff date"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Mortgage bond",
+     "items": [
+      "borrowers can default",
+      "loans end early"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That extra is the spread: 2.85 points on average in 2023, 1.98 through September 2026.",
+   "say": "That extra is the spread: two point eight five points in twenty twenty-three, one point nine eight through September twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Mortgage minus 10-yr, avg",
+    "points": [
+     [
+      2021,
+      1.52
+     ],
+     [
+      2022,
+      2.43
+     ],
+     [
+      2023,
+      2.85
+     ],
+     [
+      2024,
+      2.53
+     ],
+     [
+      2025,
+      2.29
+     ],
+     [
+      2026,
+      1.98
+     ]
+    ],
+    "suffix": " pts",
+    "end": "1.98",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $300,000, 30-year loan at 7.03% costs about $2,002 a month. At 8.03%, one more point of spread, about $2,208.",
+   "say": "Say it's a three hundred thousand dollar, thirty-year loan. At seven point oh three percent, that's about two thousand two dollars a month. At eight point oh three, one more point of spread, it's about two thousand two hundred eight.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $300,000 loan",
+    "left": {
+     "label": "At 7.03%",
+     "value": "$2,002",
+     "tone": "neutral",
+     "sub": "per month, P&I"
+    },
+    "right": {
+     "label": "At 8.03%",
+     "value": "$2,208",
+     "tone": "down",
+     "sub": "per month, P&I"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a mortgage rate is roughly the 10-year yield plus the spread.",
+   "say": "So a mortgage rate is roughly the ten-year yield plus the spread.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mortgage rate =",
+     "10-yr yield + spread"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your mortgage rate follows this number, not the Fed",
+  "ig": "Your mortgage rate follows one number, and it's not the Fed's.\n\nOn September 24, 2026, the 10-year Treasury yield was 5.18% and Freddie Mac's average 30-year mortgage rate was 7.03%.\nThe gap between them is the spread: it averaged 2.85 points in 2023 and 1.98 in 2026 through September.\nExample: on a $300,000, 30-year loan, 7.03% is about $2,002 a month; 8.03% is about $2,208.\n\nSources: Freddie Mac PMMS, US Treasury, Fannie Mae, HousingWire spread data.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#mortgagerates #treasuryyields #homebuying #personalfinance #financeprostv",
+  "tiktok": "Your mortgage rate follows the 10-year Treasury, not the Fed. Not financial advice. #moneytok #personalfinance #mortgagerates #financeprostv",
+  "yt_desc": "Mortgage rates follow the 10-year Treasury yield plus a spread. On September 24, 2026, the 10-year was 5.18% and Freddie Mac's average 30-year rate was 7.03%, a gap of 1.85 points. Sources: Freddie Mac PMMS, US Treasury, Fannie Mae, HousingWire. News and education, not financial advice.\n#Shorts #mortgagerates #personalfinance",
+  "tags": [
+   "mortgage rates",
+   "10-year treasury",
+   "mortgage spread",
+   "treasury yields",
+   "home buying"
+  ]
+ }
+}

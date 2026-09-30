@@ -1,0 +1,162 @@
+{
+ "series": "ticker",
+ "header": "Pay off all debt\nbefore investing?",
+ "cover": {
+  "title": "Pay Off All Debt First?",
+  "prop": "bag",
+  "label": "401(k)",
+  "value": "+50%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Paying off all debt first can mean skipping free money.",
+   "say": "Paying off all debt first can mean skipping free money.",
+   "scene": {
+    "t": "hook",
+    "title": "All debt [first]?",
+    "prop": "bag",
+    "label": "401(k)",
+    "value": "+50%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The real answer comes down to two numbers: the debt's rate and the match.",
+   "say": "The real answer comes down to two numbers: the debt's rate and the match.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rate on the debt",
+     "versus",
+     "401(k) employer match"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Q2 2026, card accounts charged interest paid an average 22.15% APR.",
+   "say": "In the second quarter of twenty twenty-six, card accounts charged interest paid an average of twenty-two point one five percent A P R.",
+   "scene": {
+    "t": "stat",
+    "label": "Card APR, balances charged interest",
+    "value": "22.15%",
+    "tone": "down",
+    "sub": "Federal Reserve, Q2 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A new federal undergrad student loan for 2026-27 is fixed at 6.52%.",
+   "say": "A new federal undergrad student loan for twenty twenty-six to twenty-seven is fixed at six point five two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Not all debt is equal",
+    "left": {
+     "label": "Credit card",
+     "value": "22.15%",
+     "tone": "down",
+     "sub": "avg, Q2 2026"
+    },
+    "right": {
+     "label": "Student loan",
+     "value": "6.52%",
+     "tone": "neutral",
+     "sub": "new, 2026-27"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the match. Vanguard's most common formula: 50 cents per dollar, up to 6% of pay.",
+   "say": "Now the match. Vanguard's most common formula is fifty cents per dollar, up to six percent of pay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Most common match:",
+     "50 cents per $1",
+     "up to 6% of pay"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $50,000 salary, 6% is $3,000, and the employer adds $1,500.",
+   "say": "For example, on a fifty-thousand-dollar salary, six percent is three thousand dollars, and the employer adds fifteen hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You put in",
+     "value": "$3,000"
+    },
+    "to": {
+     "label": "Employer adds",
+     "value": "$1,500"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put that $3,000 on a 22.15% card instead: about $665 of interest saved in a year.",
+   "say": "Put that three thousand on the card instead, and you'd save about six hundred sixty-five dollars of interest in a year.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $3,000, one year",
+    "left": {
+     "label": "Match",
+     "value": "+$1,500",
+     "tone": "up",
+     "sub": "if fully vested"
+    },
+    "right": {
+     "label": "Card payoff",
+     "value": "~$665",
+     "tone": "neutral",
+     "sub": "interest avoided"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The myth says all debt first. The math says rate versus match, and whether it's vested.",
+   "say": "So the myth says all debt first. The math says rate versus match, and whether that match is vested.",
+   "scene": {
+    "t": "list",
+    "title": "What the math compares",
+    "items": [
+     "Each debt's rate",
+     "The employer match",
+     "Vesting rules"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Pay off all debt before investing? Run the match math",
+  "ig": "Paying off all debt first can mean skipping free money.\n\nCard accounts charged interest paid an average 22.15% APR in Q2 2026 (Federal Reserve).\nNew federal undergrad student loans for 2026-27 are fixed at 6.52%.\nThe most common 401(k) match in Vanguard plans: 50 cents per $1, up to 6% of pay.\nExample: $50,000 salary, 6% = $3,000, employer adds $1,500. The same $3,000 on a 22.15% card saves about $665 in a year of interest.\n\nSources: Federal Reserve G.19 (Aug 2026), Federal Student Aid (June 2026), Vanguard How America Saves 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#moneymyths #401k #debt #personalfinance #financeprostv",
+  "tiktok": "Pay off all debt before investing? Rate vs match math. Not financial advice. #moneytok #personalfinance #401k #debt #financeprostv",
+  "yt_desc": "Paying off all debt before investing is a money myth: the math is the debt's rate versus the employer match. Card accounts charged interest averaged 22.15% APR in Q2 2026 (Federal Reserve G.19), new federal undergrad loans are 6.52% for 2026-27 (Federal Student Aid), and the most common 401(k) match is 50% up to 6% of pay (Vanguard How America Saves 2026). In a $50,000 salary example, $3,000 in gets a $1,500 match, versus about $665 of card interest avoided in a year.\n\nNews and education, not financial advice.\n\n#Shorts #401k #moneymyths",
+  "tags": [
+   "401k match",
+   "pay off debt or invest",
+   "credit card interest",
+   "money myths",
+   "personal finance"
+  ]
+ }
+}

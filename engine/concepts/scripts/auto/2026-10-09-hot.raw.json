@@ -1,0 +1,207 @@
+{
+ "series": "ticker",
+ "header": "Why is furniture\nso expensive?",
+ "cover": {
+  "title": "Furniture Up Only 9% Since 1993?",
+  "prop": "tag",
+  "label": "1993",
+  "value": "+9.3%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Furniture prices are up only about 9% since 1993.",
+   "say": "Furniture prices are up only about nine percent since nineteen ninety-three.",
+   "scene": {
+    "t": "hook",
+    "title": "Only [9%] since 1993",
+    "prop": "tag",
+    "label": "1993",
+    "value": "+9.3%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Overall prices rose about 130%. So why does a couch feel pricey?",
+   "say": "Overall prices rose about a hundred thirty percent. So why does a couch feel pricey?",
+   "scene": {
+    "t": "compare",
+    "title": "Price rise, 1993 to 2026",
+    "left": {
+     "label": "Furniture",
+     "value": "+9.3%",
+     "tone": "neutral",
+     "sub": "furniture+bedding"
+    },
+    "right": {
+     "label": "All prices",
+     "value": "+130%",
+     "tone": "down",
+     "sub": "CPI-U, BLS"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So $1,000 of 1993 furniture costs about $1,093 in 2026.",
+   "say": "So a thousand dollars of nineteen ninety-three furniture costs about one thousand ninety-three dollars in twenty twenty-six.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "1993 furniture",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Same in 2026",
+     "value": "$1,093"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It even got cheaper, hitting $18.41 by 2020, then climbed to $21.86.",
+   "say": "It even got cheaper for years, hitting eighteen forty-one by twenty twenty, then climbed to twenty-one eighty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "$20 of 1993 furniture",
+    "points": [
+     [
+      1993,
+      20.0
+     ],
+     [
+      2000,
+      21.76
+     ],
+     [
+      2010,
+      19.39
+     ],
+     [
+      2020,
+      18.41
+     ],
+     [
+      2025,
+      21.51
+     ],
+     [
+      2026,
+      21.86
+     ]
+    ],
+    "prefix": "$",
+    "end": "$21.86",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2022 alone, furniture rose about 12%, versus 8% overall.",
+   "say": "In twenty twenty-two alone, furniture rose about twelve percent, versus eight percent overall.",
+   "scene": {
+    "t": "stat",
+    "label": "Furniture prices, 2022 vs 2021",
+    "value": "+12.19%",
+    "tone": "down",
+    "sub": "all items: +8.00%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since October 14, 2025, most imported sofas face a 25% tariff.",
+   "say": "And since October fourteenth, twenty twenty-five, most imported sofas face a twenty-five percent tariff.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "name": "US CUSTOMS",
+    "label": "sofas: 25%",
+    "caption": "since Oct 14, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hike to 30% is delayed to January 2027.",
+   "say": "A hike to thirty percent is now delayed to January twenty twenty-seven.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Oct 2025",
+      "what": "25% on upholstered"
+     },
+     {
+      "when": "Dec 2025",
+      "what": "30% hike delayed"
+     },
+     {
+      "when": "Jan 2027",
+      "what": "30% now planned"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $500 imported sofa adds $125 in tariff before any store pricing.",
+   "say": "For example, a sofa that costs a store five hundred dollars to import adds a hundred twenty-five in tariff.",
+   "scene": {
+    "t": "stat",
+    "label": "Tariff on a $500 import (example)",
+    "value": "$125",
+    "tone": "down",
+    "sub": "25% x $500"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Long run, furniture got cheaper. The pain is the recent jump plus tariffs.",
+   "say": "So long run, furniture got relatively cheaper. The pain is the recent jump plus tariffs.",
+   "scene": {
+    "t": "split",
+    "title": "Why it feels pricey",
+    "left": {
+     "title": "Long run",
+     "items": [
+      "+9.3% since 1993",
+      "cheaper than most"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Lately",
+     "items": [
+      "+12% in 2022",
+      "25% sofa tariff"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Furniture is up only 9% since 1993. So why does it feel pricey?",
+  "ig": "Furniture prices are up only about 9% since 1993.\n\nBLS furniture and bedding prices rose 9.3% from 1993 to 2026, while overall prices rose about 130%.\nThen in 2022 alone, furniture jumped 12.19% versus 8.00% for all items.\nSince Oct 14, 2025, imported upholstered furniture from most countries faces a 25% tariff; a hike to 30% is delayed to Jan 2027.\n\nSources: BLS CPI (via officialdata.org, in2013dollars.com), Sept 29 and Dec 31, 2025 presidential proclamations (ABC News, CNN).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#furniture #inflation #tariffs #personalfinance #financeprostv",
+  "tiktok": "Furniture is up only 9% since 1993. So why does a couch feel pricey? Not financial advice. #moneytok #personalfinance #furniture #tariffs #financeprostv",
+  "yt_desc": "Furniture and bedding prices rose only 9.3% from 1993 to 2026, while overall prices rose about 130% (BLS CPI data). What stings is the 12.19% jump in 2022 and the 25% tariff on imported upholstered furniture since October 14, 2025, with a hike to 30% delayed to January 2027. Sources: BLS CPI via officialdata.org, 2025 presidential proclamations reported by ABC News and CNN.\n\nNews and education, not financial advice.\n\n#Shorts #furniture #inflation",
+  "tags": [
+   "why is furniture so expensive",
+   "furniture prices",
+   "furniture tariffs",
+   "inflation",
+   "personal finance"
+  ]
+ }
+}

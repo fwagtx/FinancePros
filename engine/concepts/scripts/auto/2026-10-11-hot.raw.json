@@ -1,0 +1,172 @@
+{
+ "series": "ticker",
+ "header": "Scam alert:\nfake loan brokers",
+ "cover": {
+  "title": "Loan Broker Wants a Fee First?",
+  "prop": "bill",
+  "label": "FEE",
+  "value": "FRAUD?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A loan broker wants cash up front? The SBA says: suspect fraud.",
+   "say": "A loan broker wants cash up front? The SBA says suspect fraud.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay [before] the loan?",
+    "prop": "bill",
+    "label": "FEE",
+    "value": "FRAUD?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The SBA's wording: someone promises SBA loan approval but wants payment up front? Suspect fraud.",
+   "say": "That's the SBA's own wording. Someone promises SBA loan approval, wants payment up front? Suspect fraud.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Promises SBA approval",
+     "+ wants payment up front",
+     "= suspect fraud (SBA)"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, the FBI logged 7,762 advance-fee complaints and $155.9 million lost.",
+   "say": "In twenty twenty-five, the FBI logged seven thousand seven hundred sixty-two advance-fee complaints, and a hundred fifty-five point nine million dollars lost.",
+   "scene": {
+    "t": "stat",
+    "label": "Advance-fee losses, 2025",
+    "value": "$155.9M",
+    "tone": "down",
+    "sub": "7,762 complaints, FBI IC3"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up 53% from 2024 ($102.1 million).",
+   "say": "That's up fifty-three percent from twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "FBI advance-fee losses ($M)",
+    "points": [
+     [
+      2021,
+      98.7
+     ],
+     [
+      2022,
+      104.3
+     ],
+     [
+      2023,
+      134.5
+     ],
+     [
+      2024,
+      102.1
+     ],
+     [
+      2025,
+      155.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$155.9M",
+    "color": "down",
+    "chart_note": {
+     "x": 2025,
+     "text": "+53% vs 2024"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC and SBA flag the same patterns: a fee before any funding,",
+   "say": "The FTC and SBA flag the same patterns. A fee before any funding,",
+   "scene": {
+    "t": "list",
+    "title": "Red flags (FTC, SBA)",
+    "items": [
+     "Fee before funding",
+     "Guaranteed approval",
+     "Out-of-the-blue offer",
+     "Pressure to hurry"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "approval promised before you apply, an out-of-the-blue offer, and pressure to hurry.",
+   "say": "approval promised before you apply, an offer out of the blue, and pressure to hurry.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Red flags (FTC, SBA)",
+    "items": [
+     "Fee before funding",
+     "Guaranteed approval",
+     "Out-of-the-blue offer",
+     "Pressure to hurry"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In November 2025, Seek Capital settled FTC allegations and was banned from business financing, with a $48.3 million judgment.",
+   "say": "In November twenty twenty-five, Seek Capital settled FTC allegations and was banned from business financing, with a forty-eight point three million dollar judgment.",
+   "scene": {
+    "t": "news",
+    "headline": "Seek Capital banned from business financing",
+    "source": "FTC, November 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC alleged it sold 'business loans' but opened personal credit cards, charging 10% of the limits. Example: $50,000 in limits = a $5,000 fee.",
+   "say": "The FTC alleged it sold business loans but opened personal credit cards, charging ten percent of the limits. In an example with fifty thousand dollars in limits, that's a five thousand dollar fee.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Card limits (example)",
+     "value": "$50,000"
+    },
+    "to": {
+     "label": "10% fee",
+     "value": "$5,000"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Loan broker wants a fee first? What the SBA says",
+  "ig": "A loan broker wants cash up front? The SBA says: suspect fraud.\n\nFBI IC3: 7,762 advance-fee complaints and $155.9 million lost in 2025, up 53% from $102.1 million in 2024.\nFTC and SBA red flags: a fee before funding, guaranteed approval, out-of-the-blue offers, pressure to hurry.\nNov 2025: the FTC banned Seek Capital from business financing ($48.3M judgment, partly suspended) after alleging it opened personal credit cards and charged 10% of the limits.\n\nSources: SBA Office of Inspector General, FTC, FBI IC3 2024 and 2025 reports.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #smallbusiness #businessloans #fraud #financeprostv",
+  "tiktok": "Loan broker wants a fee first? The SBA says suspect fraud. Not financial advice. #moneytok #personalfinance #scamalert #smallbusiness #financeprostv",
+  "yt_desc": "The SBA says that if someone promises SBA loan approval but requires payment up front, suspect fraud. The FBI logged $155.9 million in advance-fee losses in 2025, and the FTC banned Seek Capital from business financing in November 2025 after alleging it opened personal credit cards and charged 10% of the limits. Sources: SBA OIG, FTC, FBI IC3.\n\nNews and education, not financial advice.\n\n#Shorts #scamalert #smallbusiness",
+  "tags": [
+   "small business loan scam",
+   "advance fee fraud",
+   "loan broker scam",
+   "SBA loan",
+   "scam alert"
+  ]
+ }
+}
