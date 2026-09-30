@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-13-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Unpaid overtime?\nThe law says twice",
+ "cover": {
+  "title": "Unpaid Overtime? Boss Pays Twice",
+  "prop": "bill",
+  "label": "Overtime",
+  "value": "x2"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Unpaid overtime? Federal law can make your boss pay it twice.",
+   "say": "Unpaid overtime? Federal law can make your boss pay it twice.",
+   "scene": {
+    "t": "hook",
+    "title": "Overtime, paid [twice]",
+    "prop": "bill",
+    "label": "Overtime",
+    "value": "x2",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But there's a clock: you can only recover the last 2 years, or 3 if it was willful.",
+   "say": "But there's a clock. You can only recover the last two years, or three if it was willful.",
+   "scene": {
+    "t": "compare",
+    "title": "Federal deadline",
+    "left": {
+     "label": "Standard",
+     "value": "2 yrs",
+     "tone": "neutral",
+     "sub": "of back pay"
+    },
+    "right": {
+     "label": "Willful",
+     "value": "3 yrs",
+     "tone": "down",
+     "sub": "knew or ignored it"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a lawsuit, federal wage law can add an equal amount on top of unpaid overtime.",
+   "say": "In a lawsuit, federal wage law can add an equal amount on top of unpaid overtime.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Unpaid wages",
+     "+ an equal amount",
+     "(in a lawsuit)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: hourly at $20, overtime is $30. If 5 OT hours a week go unpaid, that's $7,800 a year.",
+   "say": "Say you're hourly at twenty dollars, so overtime is thirty dollars. If five overtime hours a week go unpaid, that's seventy-eight hundred dollars a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example: overtime",
+     "value": "$30/hr"
+    },
+    "to": {
+     "label": "5 hrs/week, 1 year",
+     "value": "$7,800"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Doubled, it's $15,600, and if you win in court, the employer pays your lawyer too.",
+   "say": "Doubled, it's fifteen thousand six hundred dollars, and if you win in court, the employer pays your lawyer too.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: wages + damages",
+    "value": "$15,600",
+    "tone": "up",
+    "sub": "$7,800 x 2",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The boss can escape the doubling by proving good faith and a reasonable belief it was legal.",
+   "say": "The boss can escape the doubling by proving good faith and a reasonable belief it was legal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No double if boss proves",
+     "good faith + a reasonable",
+     "belief it was legal"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Labor Department recovered $259 million in back wages alone in fiscal 2025.",
+   "say": "The Labor Department recovered two hundred fifty-nine million dollars in back wages alone in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "DOL back wages recovered ($M)",
+    "points": [
+     [
+      2019,
+      322
+     ],
+     [
+      2020,
+      257.8
+     ],
+     [
+      2021,
+      234.3
+     ],
+     [
+      2022,
+      213.1
+     ],
+     [
+      2023,
+      212.3
+     ],
+     [
+      2024,
+      202
+     ],
+     [
+      2025,
+      259
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$259M",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That went to almost 177,000 workers.",
+   "say": "That went to almost a hundred seventy-seven thousand workers.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "176,957 workers"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And firing someone for complaining about pay is illegal retaliation.",
+   "say": "And firing someone for complaining about pay is illegal retaliation.",
+   "scene": {
+    "t": "list",
+    "title": "Federal wage rights",
+    "items": [
+     "Double, if you sue",
+     "2 to 3 year limit",
+     "Lawyer fees if you win",
+     "No retaliation"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Unpaid overtime? Federal law can make your boss pay twice",
+  "ig": "Unpaid overtime? Federal law can make your boss pay it twice.\n\nUnder the Fair Labor Standards Act, unpaid minimum wage or overtime can come with an equal amount in liquidated damages if you sue, plus attorney's fees if you win.\nYou can only recover the last 2 years, or 3 if the violation was willful.\nExample: 5 unpaid overtime hours a week at $20/hr is $7,800 a year, or $15,600 doubled.\nThe Labor Department recovered $259 million in back wages alone for 176,957 workers in fiscal 2025.\n\nSources: Fair Labor Standards Act (29 U.S.C. 216, 255, 260), US Department of Labor Wage and Hour Division, EPI.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#wagetheft #overtime #workerrights #personalfinance #financeprostv",
+  "tiktok": "Unpaid overtime? In a lawsuit, federal law can make your boss pay it twice. Not financial advice. #moneytok #personalfinance #wagetheft #financeprostv",
+  "yt_desc": "Under the Fair Labor Standards Act, unpaid minimum wage or overtime can be doubled with liquidated damages if you sue, plus attorney's fees if you win, and you can only recover the last 2 years (3 if willful). The Labor Department recovered $259 million in back wages alone for 176,957 workers in fiscal 2025. Sources: 29 U.S.C. 216 and 255, US Department of Labor Wage and Hour Division, EPI.\n\nNews and education, not financial advice.\n\n#Shorts #wagetheft #overtime",
+  "tags": [
+   "wage theft",
+   "unpaid overtime",
+   "overtime pay",
+   "worker rights",
+   "personal finance"
+  ]
+ }
+}
