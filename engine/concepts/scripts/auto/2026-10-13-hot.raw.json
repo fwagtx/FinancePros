@@ -1,30 +1,30 @@
 {
  "series": "ticker",
- "header": "Shorted on pay?\nThe law says double",
+ "header": "Unpaid overtime?\nThe law says twice",
  "cover": {
-  "title": "Shorted On Pay? Boss Owes Double",
+  "title": "Unpaid Overtime? Boss Pays Twice",
   "prop": "bill",
-  "label": "Paycheck",
+  "label": "Overtime",
   "value": "x2"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "Shorted on pay? Your boss can owe you double.",
-   "say": "Shorted on pay? Your boss can owe you double.",
+   "text": "Unpaid overtime? Federal law can make your boss pay it twice.",
+   "say": "Unpaid overtime? Federal law can make your boss pay it twice.",
    "scene": {
     "t": "hook",
-    "title": "Your boss owes [double]",
+    "title": "Overtime, paid [twice]",
     "prop": "bill",
-    "label": "Paycheck",
+    "label": "Overtime",
     "value": "x2",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "But there's a clock: 2 years to claim it, or 3 if it was willful.",
-   "say": "But there's a clock. You get two years to claim it, or three if it was willful.",
+   "text": "But there's a clock: you can only recover the last 2 years, or 3 if it was willful.",
+   "say": "But there's a clock. You can only recover the last two years, or three if it was willful.",
    "scene": {
     "t": "compare",
     "title": "Federal deadline",
@@ -32,7 +32,7 @@
      "label": "Standard",
      "value": "2 yrs",
      "tone": "neutral",
-     "sub": "to file a claim"
+     "sub": "of back pay"
     },
     "right": {
      "label": "Willful",
@@ -45,22 +45,22 @@
   },
   {
    "who": "ticker",
-   "text": "Federal wage law can add an equal amount on top of unpaid minimum wage or overtime.",
-   "say": "Federal wage law can add an equal amount on top of unpaid minimum wage or overtime.",
+   "text": "In a lawsuit, federal wage law can add an equal amount on top of unpaid overtime.",
+   "say": "In a lawsuit, federal wage law can add an equal amount on top of unpaid overtime.",
    "scene": {
     "t": "board",
     "lines": [
      "Unpaid wages",
      "+ an equal amount",
-     "= liquidated damages"
+     "(in a lawsuit)"
     ],
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "Example: at $20 an hour, overtime is $30. If 5 OT hours a week go unpaid, that's $7,800 a year.",
-   "say": "Say you earn twenty dollars an hour, so overtime is thirty dollars. If five overtime hours a week go unpaid, that's seventy-eight hundred dollars a year.",
+   "text": "Example: hourly at $20, overtime is $30. If 5 OT hours a week go unpaid, that's $7,800 a year.",
+   "say": "Say you're hourly at twenty dollars, so overtime is thirty dollars. If five overtime hours a week go unpaid, that's seventy-eight hundred dollars a year.",
    "scene": {
     "t": "money",
     "from": {
@@ -75,8 +75,8 @@
   },
   {
    "who": "ticker",
-   "text": "Add the equal damages and it's $15,600, plus the employer covers your lawyer's fees.",
-   "say": "Add the equal damages and it's fifteen thousand six hundred dollars, plus the employer covers your lawyer's fees.",
+   "text": "Doubled, it's $15,600, and if you win in court, the employer pays your lawyer too.",
+   "say": "Doubled, it's fifteen thousand six hundred dollars, and if you win in court, the employer pays your lawyer too.",
    "scene": {
     "t": "stat",
     "label": "Example: wages + damages",
@@ -88,8 +88,8 @@
   },
   {
    "who": "ticker",
-   "text": "The boss only escapes the doubling by proving good faith and a reasonable belief it was legal.",
-   "say": "The boss only escapes the doubling by proving good faith and a reasonable belief it was legal.",
+   "text": "The boss can escape the doubling by proving good faith and a reasonable belief it was legal.",
+   "say": "The boss can escape the doubling by proving good faith and a reasonable belief it was legal.",
    "scene": {
     "t": "board",
     "lines": [
@@ -101,8 +101,8 @@
   },
   {
    "who": "ticker",
-   "text": "It happens a lot: the Labor Department recovered $259 million in back wages in fiscal 2025.",
-   "say": "It happens a lot. The Labor Department recovered two hundred fifty-nine million dollars in back wages in fiscal twenty twenty-five.",
+   "text": "The Labor Department recovered $259 million in back wages alone in fiscal 2025.",
+   "say": "The Labor Department recovered two hundred fifty-nine million dollars in back wages alone in fiscal twenty twenty-five.",
    "scene": {
     "t": "chart",
     "title": "DOL back wages recovered ($M)",
@@ -163,9 +163,9 @@
     "t": "list",
     "title": "Federal wage rights",
     "items": [
-     "Double damages",
-     "2 to 3 year deadline",
-     "Boss pays lawyer fees",
+     "Double, if you sue",
+     "2 to 3 year limit",
+     "Lawyer fees if you win",
      "No retaliation"
     ],
     "reveal": 4,
@@ -182,14 +182,14 @@
   }
  ],
  "post": {
-  "title": "Shorted on pay? Federal law can make your boss pay double",
-  "ig": "Shorted on pay? Your boss can owe you double.\n\nUnder the federal Fair Labor Standards Act, unpaid minimum wage or overtime comes with an equal amount in liquidated damages, plus attorney's fees.\nThe deadline: 2 years, or 3 if the violation was willful.\nExample: 5 unpaid overtime hours a week at $20/hr is $7,800 a year, or $15,600 with damages.\nThe Labor Department recovered $259 million in back wages for 176,957 workers in fiscal 2025, the most since 2019.\n\nSources: Fair Labor Standards Act (29 U.S.C. 216, 255), US Department of Labor Wage and Hour Division, EPI.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#wagetheft #paycheck #workerrights #personalfinance #financeprostv",
-  "tiktok": "Shorted on pay? Federal law can make your boss owe you double. Not financial advice. #moneytok #personalfinance #wagetheft #paycheck #financeprostv",
-  "yt_desc": "Under the Fair Labor Standards Act, unpaid minimum wage or overtime can be doubled with liquidated damages, plus attorney's fees, and the deadline is 2 years (3 if willful). The Labor Department recovered $259 million in back wages for 176,957 workers in fiscal 2025, the most since 2019. Sources: 29 U.S.C. 216 and 255, US Department of Labor Wage and Hour Division, EPI.\n\nNews and education, not financial advice.\n\n#Shorts #wagetheft #paycheck",
+  "title": "Unpaid overtime? Federal law can make your boss pay twice",
+  "ig": "Unpaid overtime? Federal law can make your boss pay it twice.\n\nUnder the Fair Labor Standards Act, unpaid minimum wage or overtime can come with an equal amount in liquidated damages if you sue, plus attorney's fees if you win.\nYou can only recover the last 2 years, or 3 if the violation was willful.\nExample: 5 unpaid overtime hours a week at $20/hr is $7,800 a year, or $15,600 doubled.\nThe Labor Department recovered $259 million in back wages alone for 176,957 workers in fiscal 2025.\n\nSources: Fair Labor Standards Act (29 U.S.C. 216, 255, 260), US Department of Labor Wage and Hour Division, EPI.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#wagetheft #overtime #workerrights #personalfinance #financeprostv",
+  "tiktok": "Unpaid overtime? Sue, and federal law can make your boss pay it twice. Not financial advice. #moneytok #personalfinance #wagetheft #financeprostv",
+  "yt_desc": "Under the Fair Labor Standards Act, unpaid minimum wage or overtime can be doubled with liquidated damages if you sue, plus attorney's fees if you win, and you can only recover the last 2 years (3 if willful). The Labor Department recovered $259 million in back wages alone for 176,957 workers in fiscal 2025. Sources: 29 U.S.C. 216 and 255, US Department of Labor Wage and Hour Division, EPI.\n\nNews and education, not financial advice.\n\n#Shorts #wagetheft #overtime",
   "tags": [
    "wage theft",
    "unpaid overtime",
-   "paycheck",
+   "overtime pay",
    "worker rights",
    "personal finance"
   ]

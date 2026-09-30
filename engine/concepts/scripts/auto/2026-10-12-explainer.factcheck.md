@@ -26,3 +26,18 @@ Checked 2026-09-30 against the script JSON only (web search, 6 queries; math rec
 The current hook passes. If you change it, keep it true under current rules: "Your student loan can still charge interest on its own interest."
 
 VERDICT: FAIL
+
+## Round 2 (revised script, re-checked 2026-09-30)
+No new factual claims were added, so no new searches were needed. Math re-verified: $2,608, $652 to $822.04, +$170.04.
+
+Resolved:
+- Issue 1: line 5 now names consolidation as the trigger. The line 5 and 6 scenes say "If capitalized". Line 8 and the split screen limit IBR to older loans. The hook now says "can still", which is true.
+- Issue 2: line 4 is labeled "Hypothetical", and the caption, narration and scene state the assumptions (no payments, 4 years, simple interest).
+- Issue 3: the line 3 caption ("2.75% in 2020") now matches the narration, which says "percent".
+- Issue 4: "Direct Loans" is now used throughout.
+- The post, IG and YouTube text match the revised script.
+
+Remaining (minor, not blocking):
+- Cover and line 1 hook scene: "+$170/yr" still has no "if capitalized". The video pays it off right away as conditional, so this is a style nit. Suggested label: "+$170/yr if capitalized".
+
+VERDICT: PASS

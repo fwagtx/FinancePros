@@ -1,0 +1,1451 @@
+{
+ "series": "ticker",
+ "header": "HOW BANKS CREATE MONEY",
+ "cover": {
+  "title": "Where Money Really Comes From.",
+  "prop": "bill",
+  "label": "NOT CASH",
+  "value": "89%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "About 89% of America's money isn't cash.",
+   "say": "About eighty-nine percent of America's money isn't cash.",
+   "scene": {
+    "t": "hook",
+    "title": "89% isn't [cash]",
+    "prop": "bill",
+    "label": "NOT CASH",
+    "value": "89%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So where did it come from? Mostly from someone signing for a loan.",
+   "say": "So where did it come from? Mostly from someone signing for a loan.",
+   "scene": {
+    "t": "hook",
+    "title": "Made by a [loan]?",
+    "prop": "paper",
+    "label": "LOAN",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August 2026, the US money supply called M2 hit a record $23.3 trillion.",
+   "say": "In August twenty twenty-six, the US money supply, called M two, hit a record twenty-three point three trillion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "US M2 money supply, Aug 2026",
+    "value": "$23.3T",
+    "tone": "neutral",
+    "sub": "Federal Reserve H.6, Sept 22, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paper cash and coins were only $2.48 trillion of that. About 11 cents of every dollar.",
+   "say": "Paper cash and coins were only about two point four eight trillion dollars of that. About eleven cents of every dollar.",
+   "scene": {
+    "t": "compare",
+    "title": "US M2, August 2026",
+    "left": {
+     "label": "Cash + coins",
+     "value": "$2.48T",
+     "tone": "neutral",
+     "sub": "about 11%"
+    },
+    "right": {
+     "label": "Everything else",
+     "value": "$20.9T",
+     "tone": "up",
+     "sub": "about 89%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rest is mostly numbers in bank accounts. And here's the part nobody teaches in school.",
+   "say": "The rest is mostly numbers in bank accounts. And here's the part nobody teaches in school.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Bank of England says most money is created by ordinary banks when they make loans.",
+   "say": "The Bank of England says most money is created by ordinary banks when they make loans.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "BANK OF ENGLAND",
+    "label": "2014 report",
+    "caption": "Loans create money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not the government printing press. Your bank, typing a number into your account.",
+   "say": "Not the government printing press. Your bank, typing a number into your account.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not the printing press.",
+     "A bank typing a number",
+     "into your account."
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's take it apart: what money is, the myth, how a loan makes money, and what stops it.",
+   "say": "So let's take it apart: what money really is, the big myth, how a loan makes money, and what stops it.",
+   "scene": {
+    "t": "list",
+    "title": "Today",
+    "items": [
+     "What money is",
+     "The big myth",
+     "How loans make money",
+     "What stops it"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: what money actually is.",
+   "say": "Chapter one: what money actually is.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What money actually is"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start simple. Money is anything people accept to pay for stuff and settle debts.",
+   "say": "Start simple. Money is anything people accept to pay for stuff and settle debts.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Money =",
+     "what people accept",
+     "to pay and settle debts"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the US, the Fed counts it in a measure called M2.",
+   "say": "In the US, the Fed counts it in a measure called M two.",
+   "scene": {
+    "t": "list",
+    "title": "What's in M2",
+    "items": [
+     "Cash and coins",
+     "Checking accounts",
+     "Savings accounts",
+     "Money market funds"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "M2 counts the cash in people's wallets, and your checking account balance.",
+   "say": "M two counts the cash in people's wallets, and your checking account balance.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also counts savings accounts and small CDs.",
+   "say": "It also counts savings accounts and small C Ds.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And retail money market funds. Basically, money you could spend pretty quickly.",
+   "say": "And retail money market funds. Basically, money you could spend pretty quickly.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's M2 at the end of each year since 2020. Watch the shape.",
+   "say": "Here's M two at the end of each year since twenty twenty. Watch the shape.",
+   "scene": {
+    "t": "chart",
+    "title": "US M2, trillions (Dec; 2026 = Aug)",
+    "points": [
+     [
+      2020,
+      19.1
+     ],
+     [
+      2021,
+      21.5
+     ],
+     [
+      2022,
+      21.3
+     ],
+     [
+      2023,
+      20.7
+     ],
+     [
+      2024,
+      21.5
+     ],
+     [
+      2025,
+      22.4
+     ],
+     [
+      2026,
+      23.3
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$23.3T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In early 2020 it was about $15 trillion. By early 2022, it was up about 40%.",
+   "say": "In early twenty twenty it was about fifteen trillion dollars. By early twenty twenty-two, it was up about forty percent.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "M2, early 2020",
+     "value": "~$15T"
+    },
+    "to": {
+     "label": "M2, early 2022",
+     "value": "~$21.7T"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In February 2021, it was growing 26.9% a year, the fastest since records began in 1959.",
+   "say": "In February twenty twenty-one, it was growing about twenty-seven percent a year, the fastest since records began in nineteen fifty-nine.",
+   "scene": {
+    "t": "stat",
+    "label": "M2 growth, year over year, Feb 2021",
+    "value": "26.9%",
+    "tone": "up",
+    "sub": "St. Louis Fed, May 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then something weird happened. In 2023, the money supply actually shrank.",
+   "say": "Then something weird happened. In twenty twenty-three, the money supply actually shrank.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2023,
+     "text": "It shrank!"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It was the first year-over-year drop of at least 2% since the Great Depression.",
+   "say": "It was the first year-over-year drop of at least two percent since the Great Depression.",
+   "scene": {
+    "t": "stat",
+    "label": "M2 decline of 2%+ year over year",
+    "value": "1st",
+    "tone": "down",
+    "sub": "since the 1930s (2023)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How can money just disappear? Hold that thought. The answer is in chapter three.",
+   "say": "How can money just disappear? Hold that thought. The answer is in chapter three.",
+   "scene": {
+    "t": "hook",
+    "title": "Where did it [go]?",
+    "prop": "bill",
+    "label": "M2",
+    "value": "SHRANK",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since then it's climbed back, rising 5.7% in the year to August 2026 to that record $23.3 trillion.",
+   "say": "Since then it's climbed back, rising about five point seven percent in the year to August twenty twenty-six, to that record twenty-three point three trillion.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "Record $23.3T"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: the big myth.",
+   "say": "Chapter two: the big myth.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The big myth"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of us picture a bank like a warehouse. You drop off $1,000, and they lend it to someone else.",
+   "say": "Most of us picture a bank like a warehouse. You drop off a thousand dollars, and they lend it to someone else.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Your deposit",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Lent to a stranger",
+     "value": "$900"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Old textbooks took that idea further, with something called the money multiplier.",
+   "say": "Old textbooks took that idea further, with something called the money multiplier.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The money multiplier",
+     "(textbook version)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say the rule is that banks keep 10% of deposits in reserve. That's the textbook example.",
+   "say": "Say the rule is that banks keep ten percent of deposits in reserve. That's the textbook example.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: 10% reserve rule",
+     "Deposit: $1,000",
+     "Keep $100, lend $900"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The bank lends out $900. That lands in another bank, which keeps $90 and lends $810.",
+   "say": "The bank lends out nine hundred dollars. That lands in another bank, which keeps ninety and lends eight hundred ten.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,000 + $900 + $810",
+     "+ $729 + ...",
+     "= $1,000 / 0.10"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Keep going forever, and $1,000 becomes $10,000. One divided by 10% equals ten.",
+   "say": "Keep going forever, and one thousand dollars becomes ten thousand dollars. One divided by ten percent equals ten.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "First deposit",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Textbook total",
+     "value": "$10,000"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's neat. It's tidy. And in the US today, it doesn't describe what's happening.",
+   "say": "It's neat. It's tidy. And in the US right now, it doesn't describe what's happening.",
+   "scene": {
+    "t": "hook",
+    "title": "The textbook is [wrong]",
+    "prop": "paper",
+    "label": "MYTH",
+    "value": "x10?",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On March 26, 2020, the Fed cut the reserve requirement to zero percent, and it's still zero.",
+   "say": "On March twenty-sixth, twenty twenty, the Fed cut the reserve requirement to zero percent, and it's still zero.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed cuts reserve requirements to 0%",
+    "source": "Federal Reserve, effective March 26, 2020"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plug zero into the formula. One divided by zero is infinity.",
+   "say": "Plug zero into the formula. One divided by zero is infinity.",
+   "scene": {
+    "t": "stat",
+    "label": "Textbook multiplier at a 0% reserve rule",
+    "value": "infinity",
+    "tone": "down",
+    "sub": "1 / 0 does not compute"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But banks didn't lend out infinite money. So the reserve rule was never the real brake.",
+   "say": "But banks didn't lend out infinite money. So the reserve rule was never the real brake.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reserves: 0% required",
+     "Lending: not infinite",
+     "So what's the real brake?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Bank of England said it bluntly in 2014. The story runs the other way.",
+   "say": "The Bank of England said it bluntly in twenty fourteen. The story runs the other way.",
+   "scene": {
+    "t": "split",
+    "title": "Two stories",
+    "left": {
+     "title": "The myth",
+     "items": [
+      "You save first",
+      "Bank lends it out"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Reality",
+     "items": [
+      "Bank lends first",
+      "Deposit appears"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Banks don't wait for your savings. The loan comes first, and the deposit is created with it.",
+   "say": "Banks don't wait for your savings. The loan comes first, and the deposit is created with it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Loan first.",
+     "Deposit second.",
+     "Savings not required."
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: how a loan makes money.",
+   "say": "Chapter three: how a loan makes money.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "How a loan makes money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's watch it happen with an example. Meet Maya. She wants a $30,000 car loan.",
+   "say": "Let's watch it happen with an example. Meet Maya. She wants a thirty thousand dollar car loan.",
+   "scene": {
+    "t": "hook",
+    "title": "Maya's [car] loan",
+    "prop": "car",
+    "label": "$30,000",
+    "value": "EXAMPLE",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Assume 7% APR over five years. The bank checks her income and credit, and says yes.",
+   "say": "Assume a seven percent A P R over five years. The bank checks her income and credit, and says yes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $30,000 loan",
+     "7% APR, 60 months",
+     "Approved"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the magic trick. The bank writes two entries on its books, at the same moment.",
+   "say": "Now the magic trick. The bank writes two entries on its books, at the same moment.",
+   "scene": {
+    "t": "compare",
+    "title": "Maya's bank, after the loan",
+    "left": {
+     "label": "Asset: loan",
+     "value": "+$30K",
+     "tone": "up",
+     "sub": "Maya owes bank"
+    },
+    "right": {
+     "label": "Liability",
+     "value": "+$30K",
+     "tone": "neutral",
+     "sub": "Maya's deposit"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On one side, Maya owes the bank $30,000. That's the bank's asset.",
+   "say": "On one side, Maya owes the bank thirty thousand dollars. That's the bank's asset.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On the other side, Maya's checking account now shows $30,000. The bank owes her that.",
+   "say": "On the other side, Maya's checking account now shows thirty thousand dollars. The bank owes her that.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nobody else's balance went down. No vault was opened. That deposit is brand new money.",
+   "say": "Nobody else's balance went down. No vault was opened. That deposit is brand new money.",
+   "scene": {
+    "t": "stat",
+    "label": "New money in the economy (example)",
+    "value": "+$30,000",
+    "tone": "up",
+    "sub": "created by one loan"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's how the Bank of England put it, word for word.",
+   "say": "Here's how the Bank of England put it, word for word.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "BANK OF ENGLAND",
+    "label": "Q1 2014",
+    "caption": "Word for word:"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "\"Whenever a bank makes a loan, it simultaneously creates a matching deposit in the borrower's bank account, thereby creating new money.\"",
+   "say": "Whenever a bank makes a loan, it simultaneously creates a matching deposit in the borrower's bank account, thereby creating new money.",
+   "scene": {
+    "t": "quote",
+    "text": "Whenever a bank makes a loan, it simultaneously creates a matching deposit in the borrower's bank account, thereby creating new money.",
+    "source": "Bank of England, Quarterly Bulletin 2014 Q1"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, Maya buys the car. The dealer banks somewhere else.",
+   "say": "Next, Maya buys the car. The dealer banks somewhere else.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Maya's account",
+     "value": "$30,000"
+    },
+    "to": {
+     "label": "Dealer's bank",
+     "value": "$30,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So Maya's bank has to move $30,000 of reserves to the dealer's bank to settle up.",
+   "say": "So Maya's bank has to move thirty thousand dollars of reserves to the dealer's bank to settle up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reserves = bank money",
+     "held at the Fed",
+     "used to settle payments"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Reserves are the money banks keep at the Fed. US banks held about $2.9 trillion of them in September 2026.",
+   "say": "Reserves are the money banks keep at the Fed. US banks held about two point nine trillion dollars of them in September twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Bank reserve balances at the Fed, Sept 2026",
+    "value": "$2.9T",
+    "tone": "neutral",
+    "sub": "Federal Reserve H.4.1"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So reserves still matter. Not as a multiplier, but as the cash banks use to pay each other.",
+   "say": "So reserves still matter. Not as a multiplier, but as the cash banks use to pay each other.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reserves aren't a limit.",
+     "They're how banks",
+     "pay each other."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, the payments. At 7% over 60 months, Maya pays $594.04 a month.",
+   "say": "Now, the payments. At seven percent over sixty months, Maya pays five hundred ninety-four dollars and four cents a month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$30,000 x (0.07/12)",
+     "/ (1 - (1 + 0.07/12)^-60)",
+     "= $594.04 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In month one, $175 is interest. The other $419.04 pays down what she owes.",
+   "say": "In month one, a hundred seventy-five dollars is interest. The other four hundred nineteen dollars and four cents pays down what she owes.",
+   "scene": {
+    "t": "compare",
+    "title": "Maya's first payment",
+    "left": {
+     "label": "Interest",
+     "value": "$175",
+     "tone": "down",
+     "sub": "bank's income"
+    },
+    "right": {
+     "label": "Principal",
+     "value": "$419.04",
+     "tone": "up",
+     "sub": "money deleted"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And here's the answer from chapter one. That principal payment doesn't go anywhere. It's erased.",
+   "say": "And here's the answer from chapter one. That principal payment doesn't go anywhere. It's erased.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Maya's deposit shrinks, and her loan shrinks by the same amount. Money is destroyed.",
+   "say": "Maya's deposit shrinks, and her loan shrinks by the same amount. Money is destroyed.",
+   "scene": {
+    "t": "hook",
+    "title": "Repaying [deletes] money",
+    "prop": "fire",
+    "label": "$419.04",
+    "value": "POOF",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So new loans create money, and repayments destroy it. The supply is the running tug-of-war.",
+   "say": "So new loans create money, and repayments destroy it. The money supply is the running tug-of-war between the two.",
+   "scene": {
+    "t": "split",
+    "title": "The tug-of-war",
+    "left": {
+     "title": "Creates money",
+     "items": [
+      "New loans",
+      "More borrowing"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Destroys money",
+     "items": [
+      "Loan repayments",
+      "Paying debt down"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's part of why M2 fell in 2023. With rates up, people borrowed less and paid more down.",
+   "say": "That's part of why M two fell in twenty twenty-three. With rates higher, new borrowing slowed while repayments kept deleting money.",
+   "scene": {
+    "t": "chart",
+    "title": "US M2, trillions (Dec; 2026 = Aug)",
+    "points": [
+     [
+      2020,
+      19.1
+     ],
+     [
+      2021,
+      21.5
+     ],
+     [
+      2022,
+      21.3
+     ],
+     [
+      2023,
+      20.7
+     ],
+     [
+      2024,
+      21.5
+     ],
+     [
+      2025,
+      22.4
+     ],
+     [
+      2026,
+      23.3
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$23.3T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over five years, Maya pays $5,642.16 in interest. That's the bank's reward for creating her money.",
+   "say": "Over five years, Maya pays five thousand six hundred forty-two dollars and sixteen cents in interest. That's the bank's reward for creating her money.",
+   "scene": {
+    "t": "stat",
+    "label": "Total interest, example loan",
+    "value": "$5,642",
+    "tone": "down",
+    "sub": "$5,642.16: $30K, 7%, 60 months"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the end, the $30,000 is gone from the money supply. The car stays. The interest stays with the bank.",
+   "say": "By the end, the thirty thousand dollars is gone from the money supply. The car stays. The interest stays with the bank.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Created in year 1",
+     "value": "$30,000"
+    },
+    "to": {
+     "label": "Left after year 5",
+     "value": "$0"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: so what stops the banks?",
+   "say": "Chapter four: so what stops the banks?",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "What stops the banks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If a bank can type money into existence, why not lend a trillion dollars to everyone?",
+   "say": "If a bank can type money into existence, why not lend a trillion dollars to everyone?",
+   "scene": {
+    "t": "hook",
+    "title": "Why not print [forever]?",
+    "prop": "bag",
+    "label": "$1T?",
+    "value": "?!",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Bank of England lists three brakes. First, profit.",
+   "say": "The Bank of England lists three brakes. First, profit.",
+   "scene": {
+    "t": "list",
+    "title": "Three brakes",
+    "items": [
+     "Profit and risk",
+     "Capital rules",
+     "The central bank"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every loan is a bet the borrower pays it back. Bad loans turn into losses the bank eats.",
+   "say": "Every loan is a bet that the borrower pays it back. Bad loans turn into losses the bank eats.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Loan = a bet",
+     "Borrower pays: profit",
+     "Borrower doesn't: loss"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the new money rarely stays put. When it leaves, the bank has to find reserves to cover it.",
+   "say": "And the new money rarely stays put. When it leaves, the bank has to find reserves to cover it.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Deposit walks out",
+     "value": "-$30K"
+    },
+    "to": {
+     "label": "Reserves needed",
+     "value": "$30K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second brake: capital rules. Regulators make banks fund part of their loans with their own money.",
+   "say": "Second brake: capital rules. Regulators make banks fund part of their loans with their own money.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For large US banks, the core capital minimum is 4.5% of risk-weighted assets.",
+   "say": "For large US banks, the core capital minimum is four and a half percent of risk-weighted assets.",
+   "scene": {
+    "t": "stat",
+    "label": "Minimum CET1 capital ratio, large US banks",
+    "value": "4.5%",
+    "tone": "neutral",
+    "sub": "Federal Reserve, June 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On top of that sits a stress buffer of at least 2.5%. So at least 7% in total.",
+   "say": "On top of that sits a stress buffer of at least two and a half percent. So at least seven percent in total.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "4.5% minimum",
+     "+ 2.5% stress buffer (min)",
+     "= at least 7%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lend more, and you need more capital. That caps how fast a bank can grow its loans.",
+   "say": "Lend more, and you need more capital. That caps how fast a bank can grow its loans.",
+   "scene": {
+    "t": "compare",
+    "title": "Why capital matters",
+    "left": {
+     "label": "Loans",
+     "value": "$100",
+     "tone": "up",
+     "sub": "example"
+    },
+    "right": {
+     "label": "Capital, min",
+     "value": "$7",
+     "tone": "neutral",
+     "sub": "min, risk-weighted"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third brake, and the big one: the central bank.",
+   "say": "Third brake, and the big one: the central bank.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On September 16, 2026, the Fed raised its rate to a range of 3.75% to 4%, its first hike since 2023.",
+   "say": "On September sixteenth, twenty twenty-six, the Fed raised its rate to a range of three point seven five to four percent, its first hike since twenty twenty-three.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed raises rates to 3.75%-4%, first hike since 2023",
+    "source": "Federal Reserve, Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also raised the rate it pays banks on their reserves to 3.90%.",
+   "say": "It also raised the rate it pays banks on their reserves, to three point nine percent.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "IORB: 3.90%",
+    "caption": "Paid on bank reserves"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That matters because a bank can earn 3.90% just by parking reserves at the Fed, with no risk.",
+   "say": "That matters because a bank can earn three point nine percent just by parking reserves at the Fed, with basically no risk.",
+   "scene": {
+    "t": "compare",
+    "title": "Where a bank earns",
+    "left": {
+     "label": "Park at the Fed",
+     "value": "3.90%",
+     "tone": "neutral",
+     "sub": "almost no risk"
+    },
+    "right": {
+     "label": "Example loan",
+     "value": "7%",
+     "tone": "up",
+     "sub": "borrower risk"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So loans have to pay more than that to be worth the risk. Higher rates mean pricier loans.",
+   "say": "So loans have to pay more than that to be worth the risk. Higher rates mean pricier loans.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fed rate up",
+     "-> loan rates up",
+     "-> fewer loans, less money"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And pricier loans mean fewer people borrow. Fewer loans, less new money. That's the steering wheel.",
+   "say": "And pricier loans mean fewer people borrow. Fewer loans, less new money. That's the steering wheel.",
+   "scene": {
+    "t": "hook",
+    "title": "The Fed [steers] lending",
+    "prop": "fed",
+    "label": "3.75-4%",
+    "value": "STEER",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One more number for scale. US commercial banks had about $14 trillion in loans in mid-September 2026.",
+   "say": "One more number for scale. US commercial banks had about fourteen trillion dollars in loans in mid-September twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Loans and leases, US commercial banks",
+    "value": "$14.0T",
+    "tone": "neutral",
+    "sub": "Federal Reserve H.8, Sept 25, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: when trust breaks.",
+   "say": "Chapter five: when trust breaks.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "When trust breaks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the catch. Your deposit isn't a pile of cash in a vault. It's an IOU from your bank.",
+   "say": "Here's the catch. Your deposit isn't a pile of cash in a vault. It's an I O U from your bank.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your deposit =",
+     "the bank's promise",
+     "to pay you on demand"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And this idea is old. In 1600s London, merchants stored gold with goldsmiths.",
+   "say": "And this idea is old. In sixteen hundreds London, merchants stored gold with goldsmiths.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1600s",
+      "what": "Goldsmith receipts become notes"
+     },
+     {
+      "when": "1913",
+      "what": "Federal Reserve Act signed"
+     },
+     {
+      "when": "1933",
+      "what": "FDIC created"
+     },
+     {
+      "when": "1971",
+      "what": "Dollar gold link suspended"
+     },
+     {
+      "when": "2020",
+      "what": "Reserve rule set to 0%"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The goldsmiths handed out receipts, and people started paying each other with the receipts.",
+   "say": "The goldsmiths handed out receipts, and people started paying each other with the receipts.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then goldsmiths noticed not everyone came back for their gold at once. So they issued more receipts than gold.",
+   "say": "Then goldsmiths noticed not everyone came back for their gold at once. So they issued more receipts than they had gold.",
+   "scene": {
+    "t": "hook",
+    "title": "More receipts than [gold]",
+    "prop": "coins",
+    "label": "GOLD",
+    "value": "IOU",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the seed of modern banking. It works fine, until everyone shows up on the same day.",
+   "say": "That's the seed of modern banking. It works fine, until everyone shows up on the same day.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Works fine...",
+     "until everyone",
+     "asks at once."
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1913, Congress created the Fed, partly to be a lender of last resort in a panic.",
+   "say": "In nineteen thirteen, Congress created the Fed, partly to be a lender of last resort in a panic.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the Depression hit. About 9,000 US banks failed, so in 1933 Congress created the FDIC.",
+   "say": "Then the Depression hit. About nine thousand US banks failed, so in nineteen thirty-three Congress created the F D I C.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1971, the US suspended converting dollars into gold. Money was now backed by trust in the system.",
+   "say": "In nineteen seventy-one, the US suspended converting dollars into gold. From then on, the dollar rested on trust in the system, not on gold.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in 2020, the reserve requirement went to zero. The brakes are now capital, profit and the Fed.",
+   "say": "And in twenty twenty, the reserve requirement went to zero. The brakes are now capital, profit and the Fed.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trust still breaks sometimes. On March 9, 2023, Silicon Valley Bank customers pulled $42 billion in one day.",
+   "say": "Trust still breaks sometimes. On March ninth, twenty twenty-three, Silicon Valley Bank customers pulled forty-two billion dollars in one day.",
+   "scene": {
+    "t": "stat",
+    "label": "Withdrawn from Silicon Valley Bank, Mar 9, 2023",
+    "value": "$42B",
+    "tone": "down",
+    "sub": "in a single day"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The next morning, regulators shut it down. It was the second-largest bank failure in US history.",
+   "say": "The next morning, regulators shut it down. It was the second-largest bank failure in US history.",
+   "scene": {
+    "t": "news",
+    "headline": "Regulators close Silicon Valley Bank",
+    "source": "California DFPI and FDIC, March 10, 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why deposit insurance exists. The FDIC covers $250,000 per depositor, per bank, per ownership category.",
+   "say": "That's why deposit insurance exists. The F D I C covers two hundred fifty thousand dollars per depositor, per bank, per ownership category.",
+   "scene": {
+    "t": "stat",
+    "label": "FDIC standard insurance amount",
+    "value": "$250,000",
+    "tone": "up",
+    "sub": "per depositor, per bank, per category"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurance is what lets you treat a bank's IOU like real cash. Most people never think about it.",
+   "say": "Insurance is what lets people treat a bank's I O U like real cash. Most people never think about it.",
+   "scene": {
+    "t": "split",
+    "title": "Your bank balance",
+    "left": {
+     "title": "What it feels like",
+     "items": [
+      "Cash in a vault",
+      "Mine, sitting there"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "What it is",
+     "items": [
+      "Bank's promise",
+      "Backed by insurance"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: why this matters to you.",
+   "say": "Chapter six: why this matters to you.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Why it matters to you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the flip side. Every dollar in a bank account started life as somebody's debt.",
+   "say": "Here's the flip side. Most dollars in bank accounts started life as somebody's debt.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Most deposits started",
+     "as somebody's loan"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when you take a mortgage or a car loan, you're not borrowing someone's savings. You're minting new money.",
+   "say": "So when someone takes a mortgage or a car loan, they're not borrowing someone else's savings. They're minting new money.",
+   "scene": {
+    "t": "hook",
+    "title": "Borrowers [mint] money",
+    "prop": "house",
+    "label": "MORTGAGE",
+    "value": "NEW $",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And you pay interest for the privilege. In Maya's example, $5,642 on a $30,000 loan.",
+   "say": "And they pay interest for the privilege. In Maya's example, about fifty-six hundred forty-two dollars on a thirty thousand dollar loan.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Borrowed (example)",
+     "value": "$30,000"
+    },
+    "to": {
+     "label": "Interest paid",
+     "value": "$5,642"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also explains why interest rates hit everything. Rates change how much money gets created.",
+   "say": "It also explains why interest rates hit everything. Rates change how much new money gets created.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rates up: less borrowing",
+     "Rates down: more borrowing",
+     "Money supply follows"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it explains the M2 roller coaster. The 2020s surge, the 2023 dip, the 2026 record.",
+   "say": "And it explains the M two roller coaster. The surge after twenty twenty, the dip in twenty twenty-three, and the record in twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "US M2, trillions (Dec; 2026 = Aug)",
+    "points": [
+     [
+      2020,
+      19.1
+     ],
+     [
+      2021,
+      21.5
+     ],
+     [
+      2022,
+      21.3
+     ],
+     [
+      2023,
+      20.7
+     ],
+     [
+      2024,
+      21.5
+     ],
+     [
+      2025,
+      22.4
+     ],
+     [
+      2026,
+      23.3
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$23.3T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One honest caveat. Loans aren't the only source. When a central bank buys bonds, called quantitative easing, that adds deposits too.",
+   "say": "One honest caveat. Loans aren't the only source. When a central bank buys bonds, which is called quantitative easing, that adds deposits too.",
+   "scene": {
+    "t": "split",
+    "title": "Where deposits come from",
+    "left": {
+     "title": "Banks",
+     "items": [
+      "New loans"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Central bank",
+     "items": [
+      "Buying bonds (QE)"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But in normal times, the Bank of England says lending is the main way new money is born.",
+   "say": "But in normal times, the Bank of England says lending is the main way new money is born.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "BANK OF ENGLAND",
+    "label": "2014 report",
+    "caption": "Lending: the main source"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter seven: the recap.",
+   "say": "Chapter seven: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 89% of US money in August 2026 wasn't cash. It was mostly bank deposits.",
+   "say": "About eighty-nine percent of US money in August twenty twenty-six wasn't cash. It was mostly bank deposits.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "89% isn't cash",
+     "Loans create deposits",
+     "Repayment deletes money",
+     "Brakes: profit, capital, Fed"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When a bank makes a loan, it creates a brand new deposit at the same moment.",
+   "say": "When a bank makes a loan, it creates a brand new deposit at the same moment.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the loan is repaid, that money disappears again.",
+   "say": "When the loan is repaid, that money disappears again.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the limits aren't reserves. They're profit, capital rules, and the Fed's interest rate.",
+   "say": "And the limits aren't reserves. They're profit, capital rules, and the Fed's interest rate.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So next time you see your balance, remember: it's a promise, and it probably started as a loan.",
+   "say": "So the next time you see a bank balance, remember: it's a promise, and it probably started as a loan.",
+   "scene": {
+    "t": "hook",
+    "title": "Your balance is a [promise]",
+    "prop": "card",
+    "label": "BALANCE",
+    "value": "IOU",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not financial advice. Follow FinancePros TV for money, explained simply.",
+   "say": "This is education, not financial advice. Follow FinancePros TV for money, explained simply.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained simply."
+   }
+  }
+ ],
+ "post": {
+  "title": "89% of US money isn't cash. How banks create money out of a loan, explained",
+  "ig": "About 89% of America's money isn't cash. Here's where it actually comes from.",
+  "tiktok": "About 89% of US money isn't cash. Your bank made most of it with a loan.",
+  "yt_desc": "About 89% of the US money supply isn't paper cash: in August 2026, M2 hit a record $23.3 trillion, and cash and coins were only about $2.48 trillion of it. This video explains how banks actually create money: why the textbook money multiplier doesn't describe the system (US reserve requirements have been 0% since March 2020), how a single loan creates a brand new deposit, and why repaying a loan destroys money. A worked $30,000 car loan example shows the bank's books and the exact payment math, and we cover the real limits on lending: profit, capital rules, and the Fed's interest rate, plus the history from London goldsmiths to Silicon Valley Bank.\n\nCHAPTERS\n\nSources: Federal Reserve H.6 Money Stock Measures (Sept 22, 2026); Bank of England, \"Money creation in the modern economy,\" Quarterly Bulletin 2014 Q1; St. Louis Fed, \"The Rise and Fall of M2\" (May 2023); Federal Reserve, Reserve Requirements (March 2020); Federal Reserve FOMC statement and implementation note (Sept 16, 2026); Federal Reserve, Large Bank Capital Requirements (June 2026); Federal Reserve H.8 (Sept 25, 2026) and H.4.1 (Sept 2026); FDIC deposit insurance; FDIC and California DFPI on Silicon Valley Bank (March 2023).\n\nNews and education, not financial advice.\n\n#money #banking #economics",
+  "tags": [
+   "how banks create money",
+   "money supply",
+   "M2",
+   "fractional reserve banking",
+   "money multiplier",
+   "federal reserve",
+   "bank of england",
+   "economics explained"
+  ]
+ }
+}
