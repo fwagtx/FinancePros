@@ -23,7 +23,8 @@ import layout
 from news import call, WEB   # shared Claude helper (adaptive thinking, fallback, pause_turn handling)
 
 ET = ZoneInfo("America/New_York")
-TOPICS = os.path.join(HERE, "topics.json"); TSTATE = os.path.join(HERE, "topics_state.json")
+TOPICS = os.path.join(HERE, "topics.json"); TSTATE = os.path.join(HERE, "topics_state.json"); CAL = os.path.join(HERE, "calendar.json")
+EXTRA = {"business": "business_industry", "hot": "hot_scam"}   # second pools of the same show
 
 BRAND = """You write for FinancePros TV: hand-drawn doodle explainer videos about money for people aged 18-40.
 Look and voice: like a smart friend with a whiteboard. Plain words, short punchy sentences, a little dry humor, zero hype.
@@ -149,14 +150,18 @@ def load_state():
 
 def pick_topic(show, now, attempt=0):
     """Next unused bank topic for this slot. Rotates series for explainers; refills the bank with new researched topics when low.
-    Topics that failed a fact-check are skipped; attempt varies the pick when a slot is retried."""
+    Topics that failed a fact-check are skipped; attempt varies the pick when a slot is retried.
+    The planned topic for the day in calendar.json (plan_calendar.py) comes first; a retry falls back to the bank."""
     bank = json.load(open(TOPICS)); st = load_state()
+    bad = set(st["used"]) | set(st.get("failed", []))
+    if attempt == 0 and os.path.exists(CAL):
+        planned = json.load(open(CAL)).get(now.strftime("%Y-%m-%d"), {}).get(show)
+        if planned and planned not in bad: return "calendar", planned
     if show == "explainer":
         sec, key = "shorts", ("explainer_acorn" if now.weekday() in (0, 2, 4, 6) else "explainer_ticker")
     else:
         sec, key = BANK.get(show, ("longform", "explained"))
-    pool = bank[sec][key] + st["added"].get(key, [])
-    bad = set(st["used"]) | set(st.get("failed", []))
+    pool = bank[sec][key] + bank[sec].get(EXTRA.get(key, ""), []) + st["added"].get(key, [])
     left = [t for t in pool if t not in bad]
     if len(left) < 3:
         new = [t for t in refill(key, pool, now) if t not in pool]
