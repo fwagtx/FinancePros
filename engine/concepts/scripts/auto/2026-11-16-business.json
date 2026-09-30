@@ -1,0 +1,201 @@
+{
+ "id": "2026-11-16-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why the same flight\ncosts different amounts",
+ "cover": {
+  "title": "Why Your Seatmate Paid Less",
+  "prop": "tag",
+  "label": "$150 vs $400"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your seatmate paid $150. You paid $400. Same seat.",
+   "say": "Your seatmate paid a hundred fifty. You paid four hundred. Same seat.",
+   "scene": {
+    "t": "hook",
+    "title": "Same seat, [$250] more?",
+    "prop": "tag",
+    "label": "$150 vs $400",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Airlines split each cabin into fare buckets, with letter codes like Y, B and M.",
+   "say": "Airlines split each cabin into fare buckets, with letter codes like Y, B and M.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fare buckets",
+     "Y  B  M  H ...",
+     "same seat, many prices"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the cheapest bucket sells out, it closes and a pricier one opens.",
+   "say": "When the cheapest bucket sells out, it closes, and a pricier one opens.",
+   "scene": {
+    "t": "list",
+    "title": "How prices climb",
+    "items": [
+     "Cheap bucket sells out",
+     "It closes",
+     "Pricier bucket opens"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: 150 seats, fifty each at $150, $250 and $400, bring in $40,000.",
+   "say": "Say fifty seats sell at one fifty, fifty at two hundred fifty, and fifty at four hundred. That's forty thousand dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "150 seats (example)",
+    "left": {
+     "label": "All at $150",
+     "value": "$22.5K",
+     "tone": "down",
+     "sub": "one low price"
+    },
+    "right": {
+     "label": "Three buckets",
+     "value": "$40K",
+     "tone": "up",
+     "sub": "$150 / $250 / $400"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sell them all at $150 and it's just $22,500.",
+   "say": "Sell them all at a hundred fifty, and it's twenty-two thousand five hundred.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "150 seats (example)",
+    "left": {
+     "label": "All at $150",
+     "value": "$22.5K",
+     "tone": "down",
+     "sub": "one low price"
+    },
+    "right": {
+     "label": "Three buckets",
+     "value": "$40K",
+     "tone": "up",
+     "sub": "$150 / $250 / $400"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, Delta's premium tickets brought in $22.1 billion, close to main cabin's $23.4 billion.",
+   "say": "In twenty twenty-five, Delta's premium tickets brought in twenty-two point one billion dollars, close to main cabin's twenty-three point four billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Delta ticket revenue, 2025",
+    "left": {
+     "label": "Main cabin",
+     "value": "$23.4B",
+     "tone": "neutral",
+     "sub": "2025 10-K"
+    },
+    "right": {
+     "label": "Premium",
+     "value": "$22.1B",
+     "tone": "up",
+     "sub": "2025 10-K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And its American Express card deal paid Delta $8.2 billion in 2025.",
+   "say": "And its American Express card deal paid Delta eight point two billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Paid to Delta by Amex, 2025",
+    "value": "$8.2B",
+    "tone": "up",
+    "sub": "Delta 2025 10-K",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, the average domestic fare, adjusted for inflation, fell from $618 in 1995 to $387 in 2025.",
+   "say": "Meanwhile, the average domestic fare, adjusted for inflation, fell from about six hundred twenty dollars in nineteen ninety-five to about three ninety in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg US domestic fare (2025 $)",
+    "points": [
+     [
+      1995,
+      618
+     ],
+     [
+      2000,
+      634
+     ],
+     [
+      2022,
+      416
+     ],
+     [
+      2024,
+      394
+     ],
+     [
+      2025,
+      387
+     ]
+    ],
+    "prefix": "$",
+    "end": "$387",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Takeaway: you're paying for which bucket was open, not a better seat.",
+   "say": "The takeaway? You're paying for which bucket was open, not a better seat.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same seat",
+     "different bucket",
+     "different price"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why the same flight costs different amounts",
+  "ig": "Your seatmate paid $150. You paid $400. Same seat.\n\nAirlines split each cabin into fare buckets. When the cheap one sells out, a pricier one opens.\nIn 2025, Delta's premium tickets brought in $22.1B vs $23.4B for main cabin, and Amex paid Delta $8.2B.\nThe average US domestic fare, inflation-adjusted, fell from $618 in 1995 to $387 in 2025.\n\nSources: Delta 2025 Form 10-K, BTS (Apr 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#airlines #travel #business #howtheymakemoney #financeprostv",
+  "tiktok": "Your seatmate paid $150, you paid $400. Same seat. Here's why. Not financial advice. #moneytok #personalfinance #airlines #financeprostv",
+  "yt_desc": "Airlines split each cabin into fare buckets, and when the cheapest one sells out a pricier one opens, so the same seat can cost very different amounts. In 2025 Delta's premium tickets brought in $22.1 billion and American Express paid it $8.2 billion (Delta 2025 10-K); the average US domestic fare fell to $387 in 2025 (BTS, inflation-adjusted).\n\nNews and education, not financial advice.\n\n#Shorts #airlines #business",
+  "tags": [
+   "airline pricing",
+   "why flights cost different",
+   "fare classes",
+   "how airlines make money",
+   "delta air lines"
+  ]
+ }
+}
