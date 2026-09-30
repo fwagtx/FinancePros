@@ -1,0 +1,200 @@
+{
+  "series": "ticker",
+  "header": "Never Pay Into\nSocial Security?",
+  "cover": {
+    "title": "Never Paid Social Security?",
+    "prop": "bill",
+    "label": "retirement check",
+    "value": "$0"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Never pay into Social Security, and your retirement check is $0.",
+      "say": "Never pay into Social Security, and your retirement check is zero.",
+      "scene": {
+        "t": "hook",
+        "title": "Your check: [zero]",
+        "prop": "bill",
+        "label": "retirement check",
+        "value": "$0",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Honestly, the zero isn't even the expensive part.",
+      "say": "Honestly, the zero isn't even the expensive part.",
+      "scene": {
+        "t": "stat",
+        "label": "Social Security retirement check",
+        "value": "$0",
+        "tone": "down",
+        "sub": "with 0 work credits",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "You need 40 work credits to qualify, and you earn at most 4 a year.",
+      "say": "You need forty work credits to qualify, and you earn at most four a year.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "40 credits = eligible",
+          "max 4 credits a year",
+          "= about 10 years of work"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "One credit took $1,890 of taxed pay in 2026, and the bar rises every year.",
+      "say": "One credit took eighteen hundred ninety dollars of taxed pay in twenty twenty-six, and the bar rises every year.",
+      "scene": {
+        "t": "chart",
+        "title": "Pay needed for 1 credit",
+        "points": [
+          [
+            2020,
+            1410
+          ],
+          [
+            2021,
+            1470
+          ],
+          [
+            2022,
+            1510
+          ],
+          [
+            2023,
+            1640
+          ],
+          [
+            2024,
+            1730
+          ],
+          [
+            2025,
+            1810
+          ],
+          [
+            2026,
+            1890
+          ]
+        ],
+        "prefix": "$",
+        "end": "$1,890",
+        "color": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Miss the 40, and the fallback is SSI, capped at $994 a month in 2026, for people with very little.",
+      "say": "Miss the forty, and the fallback is S S I, capped at nine hundred ninety-four dollars a month in twenty twenty-six, for people with very little.",
+      "scene": {
+        "t": "stat",
+        "label": "Max federal SSI, 2026",
+        "value": "$994/mo",
+        "tone": "down",
+        "sub": "needs-based; avg retiree check: $2,071 (SSA)",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The surprise: under 30 credits, Medicare Part A cost $565 a month that year.",
+      "say": "The surprise: under thirty credits, Medicare hospital coverage cost five hundred sixty-five dollars a month that year.",
+      "scene": {
+        "t": "stat",
+        "label": "Medicare Part A premium",
+        "value": "$565/mo",
+        "tone": "down",
+        "sub": "under 30 credits, 2026 (CMS)",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's $6,780 a year ($565 x 12).",
+      "say": "That's six thousand seven hundred eighty dollars a year.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "per month",
+          "value": "$565"
+        },
+        "to": {
+          "label": "per year",
+          "value": "$6,780"
+        },
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "One exception: a spouse can get up to half of a working spouse's benefit.",
+      "say": "One exception: a spouse can get up to half of a working spouse's benefit.",
+      "scene": {
+        "t": "split",
+        "title": "Zero credits of your own",
+        "left": {
+          "title": "Alone",
+          "items": [
+            "$0 retirement check",
+            "Paid Medicare Part A"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Married to a worker",
+          "items": [
+            "Up to 50% spouse benefit"
+          ],
+          "tone": "up"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Your credit count is free to check in your my Social Security account.",
+      "say": "Your credit count is free to check in your my Social Security account.",
+      "scene": {
+        "t": "list",
+        "title": "Know your number",
+        "items": [
+          "Log in to my Social Security",
+          "Check your credit count",
+          "Goal: 40 credits"
+        ],
+        "reveal": 3,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "tagline": "40 credits. Know yours."
+      }
+    }
+  ],
+  "post": {
+    "title": "What Happens If You Never Pay Into Social Security?",
+    "ig": "Never pay into Social Security, and your retirement check is $0.\nYou need 40 work credits (max 4 a year). One credit took $1,890 of taxed pay in 2026.\nThe fallback, SSI, maxed out at $994 a month in 2026 versus a $2,071 average retiree check.\nThe surprise: with under 30 credits, Medicare Part A cost $565 a month in 2026. That's $6,780 a year.\nSources: SSA, CMS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#socialsecurity #medicare #retirement #personalfinance #financeprostv",
+    "tiktok": "Never pay into Social Security? Your check is $0, and Medicare can cost $565/mo. Not financial advice. #moneytok #personalfinance #socialsecurity #financeprostv",
+    "yt_desc": "Without 40 Social Security work credits, your own retirement check is $0; one credit took $1,890 of taxed pay in 2026. The needs-based fallback, SSI, maxed out at $994 a month in 2026, and with under 30 credits Medicare Part A cost $565 a month (Sources: SSA, CMS). News and education, not financial advice. #Shorts #socialsecurity #medicare",
+    "tags": [
+      "social security",
+      "social security credits",
+      "medicare part a",
+      "retirement",
+      "personal finance"
+    ]
+  }
+}

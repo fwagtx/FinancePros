@@ -1,0 +1,195 @@
+{
+ "series": "ticker",
+ "header": "Money Myth:\nBig Money to Invest?",
+ "cover": {
+  "title": "Invest With Just $1?",
+  "prop": "bill",
+  "label": "$1",
+  "value": "$1"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: you need thousands to start investing. Try $1.",
+   "say": "Myth: you need thousands to start investing. Try one dollar.",
+   "scene": {
+    "t": "hook",
+    "title": "Invest with just [$1]",
+    "prop": "bill",
+    "label": "$1",
+    "value": "$1",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Yet in 2025, 38% of Americans owned no stock at all.",
+   "say": "Yet in twenty twenty-five, thirty-eight percent of Americans owned no stock at all.",
+   "scene": {
+    "t": "stat",
+    "label": "Americans with no stock",
+    "value": "38%",
+    "tone": "down",
+    "sub": "Gallup, 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ownership rose from 52% in 2016 to 62% in 2025. Still, the myth sticks.",
+   "say": "Ownership has climbed, from fifty-two percent in twenty sixteen to sixty-two percent in twenty twenty-five, but the myth sticks.",
+   "scene": {
+    "t": "chart",
+    "title": "% of US adults who own stock",
+    "points": [
+     [
+      2016,
+      52
+     ],
+     [
+      2017,
+      54
+     ],
+     [
+      2018,
+      55
+     ],
+     [
+      2019,
+      55
+     ],
+     [
+      2020,
+      55
+     ],
+     [
+      2021,
+      56
+     ],
+     [
+      2022,
+      58
+     ],
+     [
+      2023,
+      61
+     ],
+     [
+      2024,
+      62
+     ],
+     [
+      2025,
+      62
+     ]
+    ],
+    "suffix": "%",
+    "end": "62%",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The workaround: fractional shares. You buy a slice of a share with dollars.",
+   "say": "The workaround is fractional shares, where you buy a slice of one share with dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fractional share =",
+     "a slice of 1 share,",
+     "bought in dollars"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fidelity's minimum is $1. Schwab's is $5 per S&P 500 stock.",
+   "say": "At Fidelity, a slice starts at one dollar, and at Schwab it's five dollars per S and P five hundred stock.",
+   "scene": {
+    "t": "compare",
+    "title": "Minimum per slice",
+    "left": {
+     "label": "Fidelity",
+     "value": "$1",
+     "tone": "up",
+     "sub": "7,000+ stocks and ETFs"
+    },
+    "right": {
+     "label": "Schwab",
+     "value": "$5",
+     "tone": "up",
+     "sub": "S&P 500 stocks"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$10 into a $250 share = 0.04 of a share, plus 4% of any dividend.",
+   "say": "So ten dollars into a two-hundred-fifty-dollar share buys four hundredths of it, plus four percent of any dividend it pays.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$10 / $250 = 0.04 share",
+     "dividend: 4% of it"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even the US Treasury sells I bonds from $25 and T-bills from $100.",
+   "say": "Even the US Treasury sells I bonds from twenty-five dollars and Treasury bills from one hundred.",
+   "scene": {
+    "t": "list",
+    "title": "TreasuryDirect minimums",
+    "items": [
+     "I bonds: $25",
+     "T-bills: $100"
+    ],
+    "reveal": 2,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$5 a week is $260 a year. The habit matters more than the amount.",
+   "say": "Five dollars a week adds up to two hundred sixty dollars a year, so the habit matters more than the starting amount.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "per week",
+     "value": "$5"
+    },
+    "to": {
+     "label": "per year",
+     "value": "$260"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "You don't need thousands to invest. Try $1.",
+  "ig": "Myth: you need thousands to start investing.\nFidelity's fractional shares start at $1; Schwab Stock Slices start at $5 per S&P 500 stock.\nTreasuryDirect sells I bonds from $25 and T-bills from $100.\nYet 38% of Americans owned no stock in 2025 (Gallup).\nSources: Fidelity, Schwab, TreasuryDirect, Gallup.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#investing #fractionalshares #moneymyths #personalfinance #financeprostv",
+  "tiktok": "Myth: you need thousands to invest. Slices start at $1. Not financial advice. #moneytok #personalfinance #investing #fractionalshares #financeprostv",
+  "yt_desc": "Myth: you need thousands to start investing. Fractional shares start at $1 at Fidelity and $5 per S&P 500 stock at Schwab, and TreasuryDirect sells I bonds from $25, yet 38% of Americans owned no stock in 2025 (Gallup). Sources: Fidelity, Schwab, TreasuryDirect, Gallup. News and education, not financial advice. #Shorts #investing #personalfinance",
+  "tags": [
+   "fractional shares",
+   "investing for beginners",
+   "money myths",
+   "how much money to start investing",
+   "stock ownership"
+  ]
+ }
+}

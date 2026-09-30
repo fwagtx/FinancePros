@@ -1,0 +1,281 @@
+{
+ "series": "ticker",
+ "header": "Mortgage interest\nin the early years",
+ "cover": {
+  "title": "Why Your Loan Barely Shrinks",
+  "prop": "house",
+  "label": "Payment #1",
+  "value": "88%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your first mortgage payment can be 88% interest.",
+   "say": "Your first mortgage payment can be eighty-eight percent interest.",
+   "scene": {
+    "t": "hook",
+    "title": "88% goes to [interest]",
+    "prop": "house",
+    "label": "Payment #1",
+    "value": "88%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in late September 2026, the average 30-year rate hit 7.03%.",
+   "say": "And in late September twenty twenty-six, the average thirty-year rate hit seven point oh three percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Average 30-year mortgage rate hits 7.03%",
+    "source": "Freddie Mac PMMS, Sept 24, 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Borrow $400,000 for 30 years at that rate, and the payment is $2,669 a month.",
+   "say": "Borrow four hundred thousand dollars for thirty years at that rate, and the payment is about twenty-six sixty-nine a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly payment, $400K at 7.03%",
+    "value": "$2,669",
+    "sub": "30-year fixed, principal + interest",
+    "tone": "neutral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? Interest is charged on what you still owe: $400,000 x 7.03% / 12 = $2,343.",
+   "say": "Why? Interest is charged on what you still owe: four hundred thousand times seven point oh three percent, over twelve. About twenty-three forty-three.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$400,000 x 7.03% / 12",
+     "= $2,343 interest"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So only about $326 actually pays down the loan.",
+   "say": "So only about three hundred twenty-six dollars actually pays down the loan.",
+   "scene": {
+    "t": "compare",
+    "title": "Payment #1 split",
+    "left": {
+     "label": "Interest",
+     "value": "$2,343",
+     "tone": "down",
+     "sub": "87.8%"
+    },
+    "right": {
+     "label": "Principal",
+     "value": "$326",
+     "tone": "up",
+     "sub": "12.2%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After a year, you've paid $32,031, and your balance dropped just $4,040.",
+   "say": "After a year, you've paid about thirty-two thousand dollars, and your balance dropped just four thousand and forty.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Paid in year 1",
+     "value": "$32,031"
+    },
+    "to": {
+     "label": "Loan paid down",
+     "value": "$4,040"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As the balance shrinks, interest shrinks too, but principal doesn't win until year 21.",
+   "say": "As the balance shrinks, interest shrinks too, but principal doesn't win until year twenty-one.",
+   "scene": {
+    "t": "chart",
+    "title": "Share of payment that's interest",
+    "points": [
+     [
+      1,
+      87.8
+     ],
+     [
+      2,
+      86.9
+     ],
+     [
+      3,
+      86.0
+     ],
+     [
+      4,
+      84.9
+     ],
+     [
+      5,
+      83.8
+     ],
+     [
+      6,
+      82.7
+     ],
+     [
+      7,
+      81.4
+     ],
+     [
+      8,
+      80.1
+     ],
+     [
+      9,
+      78.6
+     ],
+     [
+      10,
+      77.1
+     ],
+     [
+      11,
+      75.4
+     ],
+     [
+      12,
+      73.6
+     ],
+     [
+      13,
+      71.7
+     ],
+     [
+      14,
+      69.6
+     ],
+     [
+      15,
+      67.4
+     ],
+     [
+      16,
+      65.1
+     ],
+     [
+      17,
+      62.5
+     ],
+     [
+      18,
+      59.8
+     ],
+     [
+      19,
+      56.9
+     ],
+     [
+      20,
+      53.7
+     ],
+     [
+      21,
+      50.4
+     ],
+     [
+      22,
+      46.8
+     ],
+     [
+      23,
+      42.9
+     ],
+     [
+      24,
+      38.8
+     ],
+     [
+      25,
+      34.3
+     ],
+     [
+      26,
+      29.6
+     ],
+     [
+      27,
+      24.5
+     ],
+     [
+      28,
+      19.0
+     ],
+     [
+      29,
+      13.1
+     ],
+     [
+      30,
+      6.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "6.8%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why, early on, every extra dollar of principal shrinks the balance that interest is charged on.",
+   "say": "That's why, early on, every extra dollar of principal shrinks the balance that interest is charged on.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 21,
+     "text": "Principal wins: year 21"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In this example, an extra $100 a month saves about $73,000 in interest.",
+   "say": "In this example, an extra hundred a month saves about seventy-three thousand dollars in interest.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra $100/month, same loan",
+    "value": "-$73,421",
+    "sub": "interest saved; paid off 39 months sooner",
+    "tone": "up",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why your first mortgage payment is 88% interest",
+  "ig": "Your first mortgage payment can be 88% interest.\nOn a $400,000, 30-year loan at 7.03% (the Freddie Mac average on Sept 24, 2026), the payment is $2,669.\nMonth one: $2,343 is interest and only $326 pays down the loan.\nAfter a year of payments ($32,031), the balance drops just $4,040. Principal doesn't overtake interest until year 21.\nSources: Freddie Mac PMMS (Sept 24, 2026), CFPB; example math is standard amortization.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgage #homebuying #interestrates #personalfinance #financeprostv",
+  "tiktok": "Why your first mortgage payment is 88% interest. Not financial advice. #moneytok #personalfinance #mortgage #homebuying #financeprostv",
+  "yt_desc": "On a $400,000, 30-year loan at 7.03%, Freddie Mac's average rate on Sept 24, 2026, about 88% of the first $2,669 payment is interest. After a year, the balance drops only about $4,040, and principal doesn't overtake interest until year 21. Sources: Freddie Mac PMMS, CFPB; example uses standard amortization math. News and education, not financial advice.\n#Shorts #mortgage #personalfinance",
+  "tags": [
+   "mortgage interest",
+   "how amortization works",
+   "mortgage rates 2026",
+   "first time home buyer",
+   "personal finance"
+  ]
+ }
+}
