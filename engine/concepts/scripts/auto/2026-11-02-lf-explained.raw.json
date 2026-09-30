@@ -2,7 +2,7 @@
  "series": "ticker",
  "header": "THE NATIONAL DEBT",
  "cover": {
-  "title": "$40 Trillion. Owed To Who?",
+  "title": "Who Owns $40 Trillion?",
   "prop": "fed",
   "label": "US DEBT",
   "value": "$40T"
@@ -10,11 +10,11 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "The US owes more than $40 trillion. Here's who it owes.",
-   "say": "The US owes more than forty trillion dollars. Here's who it owes.",
+   "text": "The biggest foreign lender to the US isn't China.",
+   "say": "The biggest foreign lender to the US isn't China.",
    "scene": {
     "t": "hook",
-    "title": "$40 trillion. Owed to [who]?",
+    "title": "Top lender isn't [China]",
     "prop": "fed",
     "label": "US DEBT",
     "value": "$40T",
@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "And why the interest bill now costs more than the entire military.",
-   "say": "And why the interest bill now costs more than the entire military.",
+   "text": "And the interest on $40 trillion now costs more than the military.",
+   "say": "And the interest on forty trillion dollars now costs more than the military.",
    "scene": {
     "t": "hook",
     "title": "Interest [beats] defense",
@@ -45,8 +45,8 @@
   },
   {
    "who": "ticker",
-   "text": "As of September 25, 2026, the exact number was $40,097,178,119,751.",
-   "say": "As of September twenty-fifth, twenty twenty-six, the exact number was about forty point one trillion dollars.",
+   "text": "As of September 25, 2026, the total was $40,097,178,119,751.",
+   "say": "As of September twenty-fifth, twenty twenty-six, the total was about forty point one trillion dollars.",
    "scene": {
     "t": "stat",
     "label": "Total public debt, Sept 25, 2026",
@@ -651,8 +651,8 @@
   },
   {
    "who": "ticker",
-   "text": "But the debt also grows in good years, because spending has run above revenue almost every year since 2002.",
-   "say": "But the debt also grows in good years, because spending has run above revenue almost every year since two thousand two.",
+   "text": "But the debt also grows in good years, because there's been a deficit every year since 2002.",
+   "say": "But the debt also grows in good years, because there's been a deficit every year since two thousand two.",
    "scene": {
     "t": "hook",
     "title": "Deficits in [good] years too",
@@ -673,7 +673,7 @@
      },
      {
       "when": "Oct 2025",
-      "what": "$38 trillion, 73 days later"
+      "what": "$38 trillion, ~10 weeks later"
      },
      {
       "when": "Mar 2026",
@@ -689,8 +689,8 @@
   },
   {
    "who": "ticker",
-   "text": "The debt hit $37 trillion in August 2025, then $38 trillion just 73 days later.",
-   "say": "The debt hit thirty-seven trillion in August twenty twenty-five, then thirty-eight trillion just seventy-three days later.",
+   "text": "The debt hit $37 trillion in August 2025, then $38 trillion about ten weeks later.",
+   "say": "The debt hit thirty-seven trillion in August twenty twenty-five, then thirty-eight trillion about ten weeks later.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -700,7 +700,7 @@
      },
      {
       "when": "Oct 2025",
-      "what": "$38 trillion, 73 days later"
+      "what": "$38 trillion, ~10 weeks later"
      },
      {
       "when": "Mar 2026",
@@ -728,7 +728,7 @@
      },
      {
       "when": "Oct 2025",
-      "what": "$38 trillion, 73 days later"
+      "what": "$38 trillion, ~10 weeks later"
      },
      {
       "when": "Mar 2026",
@@ -804,12 +804,12 @@
   },
   {
    "who": "ticker",
-   "text": "Next is the Federal Reserve, which owned about $4.4 trillion of Treasuries in 2026.",
-   "say": "Next is the Federal Reserve, which owned about four point four trillion dollars of Treasuries in twenty twenty-six.",
+   "text": "Next is the Federal Reserve, which held about $4.5 trillion of Treasuries in September 2026.",
+   "say": "Next is the Federal Reserve, which held about four and a half trillion dollars of Treasuries in September twenty twenty-six.",
    "scene": {
     "t": "building",
     "kind": "fed",
-    "label": "Treasuries: ~$4.4T",
+    "label": "Treasuries: ~$4.5T",
     "caption": "The Fed holds a big slice"
    }
   },
@@ -826,31 +826,31 @@
   },
   {
    "who": "ticker",
-   "text": "Then there are foreign investors, who held about $9.35 trillion as of April 2026.",
-   "say": "Then there are foreign investors, who held about nine point three five trillion dollars as of April twenty twenty-six.",
+   "text": "Then there are foreign investors, who held more than $9 trillion in 2026.",
+   "say": "Then there are foreign investors, who held more than nine trillion dollars in twenty twenty-six.",
    "scene": {
     "t": "stat",
     "label": "Held by foreign investors",
-    "value": "$9.35T",
+    "value": "$9T+",
     "tone": "neutral",
-    "sub": "about 30% of public debt (Treasury TIC, Apr 2026)"
+    "sub": "about 29% of public debt (Treasury TIC)"
    }
   },
   {
    "who": "ticker",
-   "text": "That's roughly 30% of the debt held by the public.",
-   "say": "That's roughly thirty percent of the debt held by the public.",
+   "text": "That's almost 30% of the debt held by the public.",
+   "say": "That's almost thirty percent of the debt held by the public.",
    "scene": {
     "t": "compare",
     "title": "Debt held by the public",
     "left": {
      "label": "Foreign",
-     "value": "~30%",
+     "value": "~29%",
      "tone": "neutral"
     },
     "right": {
      "label": "Domestic",
-     "value": "~70%",
+     "value": "~71%",
      "tone": "neutral"
     }
    }
@@ -887,8 +887,8 @@
   },
   {
    "who": "ticker",
-   "text": "Next come the United Kingdom, about $938 billion, and China, about $651 billion.",
-   "say": "Next come the United Kingdom, at about nine hundred thirty-eight billion, and China, at about six hundred fifty-one billion.",
+   "text": "Next come the United Kingdom, about $937.5 billion, and China, about $651.1 billion, as of April 2026.",
+   "say": "Next come the United Kingdom, at about nine hundred thirty-eight billion, and China, at about six hundred fifty-one billion, as of April twenty twenty-six.",
    "scene": {
     "t": "list",
     "title": "Top foreign holders (Apr 2026)",
@@ -950,8 +950,8 @@
     "title": "Who we owe, in short",
     "items": [
      "Trust funds ~$7.7T",
-     "The Fed ~$4.4T",
-     "Foreign ~$9.35T",
+     "The Fed ~$4.5T",
+     "Foreign $9T+",
      "US investors: the rest"
     ],
     "reveal": 4
@@ -1021,23 +1021,24 @@
   },
   {
    "who": "ticker",
-   "text": "Only Social Security costs more. Interest has passed Medicare and defense.",
-   "say": "Only Social Security costs more. Interest has passed Medicare and defense.",
+   "text": "Only Social Security and Medicare cost more. Interest has passed defense.",
+   "say": "Only Social Security and Medicare cost more. Interest has passed defense.",
    "scene": {
     "t": "list",
     "title": "Biggest federal costs, FY2025",
     "items": [
      "1. Social Security",
-     "2. Net interest",
-     "Then Medicare, defense"
+     "2. Medicare",
+     "3. Net interest",
+     "Then defense"
     ],
-    "reveal": 3
+    "reveal": 4
    }
   },
   {
    "who": "ticker",
    "text": "Per person, that's about $2,838 a year of interest.",
-   "say": "Per person, that's about two thousand eight hundred thirty-eight dollars a year of interest.",
+   "say": "Per person, that's about twenty-eight hundred dollars a year of interest.",
    "scene": {
     "t": "money",
     "from": {
@@ -1064,7 +1065,19 @@
   },
   {
    "who": "ticker",
-   "text": "Why did it jump? Because the average rate the Treasury pays roughly doubled.",
+   "text": "And in the first 11 months of fiscal 2026, net interest already topped $1 trillion.",
+   "say": "And in the first eleven months of fiscal twenty twenty-six, net interest already topped one trillion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Net interest, Oct 2025-Aug 2026",
+    "value": "$1.05T",
+    "tone": "down",
+    "sub": "11 months of FY2026 (CBO)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why did it jump? Because the average rate the Treasury pays more than doubled.",
    "say": "Why did it jump? Because the average rate the Treasury pays more than doubled.",
    "scene": {
     "t": "compare",
@@ -1146,11 +1159,11 @@
    "scene": {
     "t": "money",
     "from": {
-     "label": "At 1.42%",
+     "label": "At 1.42% (hypothetical)",
      "value": "$460B"
     },
     "to": {
-     "label": "At 3.48%",
+     "label": "At 3.48% (hypothetical)",
      "value": "$1.13T"
     },
     "mood": "shock"
@@ -1208,8 +1221,8 @@
   },
   {
    "who": "ticker",
-   "text": "Its total card balance? About $324,000.",
-   "say": "Its total card balance? About three hundred twenty-four thousand dollars.",
+   "text": "Its total debt? About $324,000.",
+   "say": "Its total debt? About three hundred twenty-four thousand dollars.",
    "scene": {
     "t": "stat",
     "label": "Household-size debt (public part / 100M)",
@@ -1312,13 +1325,13 @@
     "label": "Debt limit after July 2025",
     "value": "$41.1T",
     "tone": "neutral",
-    "sub": "raised $5T (One Big Beautiful Bill Act)"
+    "sub": "raised $5T by the July 2025 law"
    }
   },
   {
    "who": "ticker",
-   "text": "With the debt already past $40 trillion, that leaves about $1 trillion of room.",
-   "say": "With the debt already past forty trillion, that leaves about one trillion dollars of room.",
+   "text": "With the debt at $40.1 trillion in September 2026, that left roughly $1 trillion of room.",
+   "say": "With the debt at forty point one trillion in September twenty twenty-six, that left roughly one trillion dollars of room.",
    "scene": {
     "t": "compare",
     "title": "Limit vs debt (Sept 2026)",
@@ -1374,8 +1387,8 @@
   },
   {
    "who": "ticker",
-   "text": "It expects about 101% of GDP at the end of fiscal 2026.",
-   "say": "It expects about one hundred one percent of G D P at the end of fiscal twenty twenty-six.",
+   "text": "It projected about 101% of GDP at the end of fiscal 2026.",
+   "say": "It projected about one hundred one percent of G D P at the end of fiscal twenty twenty-six.",
    "scene": {
     "t": "stat",
     "label": "Debt held by public, end FY2026 (proj.)",
@@ -1627,8 +1640,8 @@
   },
   {
    "who": "ticker",
-   "text": "All three cited rising debt and interest costs. A notch lower is still near the top of the scale.",
-   "say": "All three pointed to rising debt and interest costs. A notch lower is still near the top of the scale.",
+   "text": "All three pointed to rising debt. A notch lower is still near the top of the scale.",
+   "say": "All three pointed to rising debt. A notch lower is still near the top of the scale.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1751,8 +1764,8 @@
   },
   {
    "who": "ticker",
-   "text": "Interest cost $970 billion in fiscal 2025, more than defense, because rates more than doubled.",
-   "say": "Interest cost nine hundred seventy billion dollars in fiscal twenty twenty-five, more than defense, because rates more than doubled.",
+   "text": "Interest cost $970 billion in fiscal 2025, more than defense, as rates more than doubled.",
+   "say": "Interest cost nine hundred seventy billion dollars in fiscal twenty twenty-five, more than defense, as rates more than doubled.",
    "scene": {
     "t": "list",
     "keep": true,
@@ -1800,10 +1813,10 @@
   }
  ],
  "post": {
-  "title": "The $40 trillion national debt, explained: who we owe and why the interest matters",
-  "ig": "The US owes more than $40 trillion. Here's who it owes.",
-  "tiktok": "$40 trillion in debt, explained: who we owe and why interest now beats defense.",
-  "yt_desc": "The US national debt passed $40 trillion on Aug 18, 2026, about $117,000 per person. This video explains the difference between the deficit and the debt, how the debt grew from $5.67 trillion in 2000, who holds it (government trust funds, the Federal Reserve, and foreign investors led by Japan), and why net interest of $970 billion in fiscal 2025 cost more than national defense. We also cover the $41.1 trillion debt limit and CBO's projections, with worked examples.\n\nCHAPTERS\n\nSources: U.S. Treasury FiscalData (Debt to the Penny, Sept 25, 2026; Historical Debt Outstanding; Average Interest Rates, Aug 2026); CBO Monthly Budget Review FY2025 (Nov 2025); CBO Budget and Economic Outlook 2026-2036 (Feb 2026); Treasury TIC data (Apr 2026); Committee for a Responsible Federal Budget (2025-2026); U.S. Census Bureau (Vintage 2025).\n\nNews and education, not financial advice.\n\n#nationaldebt #economy #personalfinance",
+  "title": "Who owns the $40 trillion national debt? And why the interest now beats defense",
+  "ig": "The biggest foreign lender to the US isn't China. Here's who owns $40 trillion of debt.",
+  "tiktok": "The biggest foreign lender to the US isn't China. The $40 trillion debt, explained.",
+  "yt_desc": "The US national debt passed $40 trillion on Aug 18, 2026, about $117,000 per person. This video explains the difference between the deficit and the debt, how the debt grew from $5.67 trillion in 2000, who holds it (government trust funds, the Federal Reserve, and foreign investors led by Japan, not China), and why net interest of $970 billion in fiscal 2025 cost more than national defense. We also cover the $41.1 trillion debt limit and CBO's projections, with worked examples.\n\nCHAPTERS\n\nSources: U.S. Treasury FiscalData (Debt to the Penny, Sept 25, 2026; Historical Debt Outstanding; Average Interest Rates, Aug 2026); CBO Monthly Budget Review FY2025 (Nov 2025); CBO Budget and Economic Outlook 2026-2036 (Feb 2026); Treasury TIC data (Apr 2026); Federal Reserve H.4.1 (Sept 2026); CBO Monthly Budget Review (Aug 2026); Committee for a Responsible Federal Budget (2025-2026); U.S. Census Bureau (Vintage 2025).\n\nNews and education, not financial advice.\n\n#nationaldebt #economy #personalfinance",
   "tags": [
    "national debt explained",
    "us national debt",
