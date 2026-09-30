@@ -40,6 +40,11 @@ always cover that day's news. Each video is researched and fact-checked the day 
 fresh topics run out (spring 2028 for shorts), its oldest topics re-run at least a year after they first aired.
 Re-plan after editing the banks: `python concepts/plan_calendar.py`.
 
+## Video hosting
+Rendered videos go to the `media` branch and Metricool fetches them from public raw.githubusercontent.com links (it keeps its
+own copy once the post is scheduled). This only works while the GitHub repo is publicly visible. If it is not (private repo,
+or an account flagged by GitHub), `session.py next` stops before making anything.
+
 ## Who runs it
 Two scheduled Claude Code sessions (Routines) on the Claude plan, every day at 5:50 AM and 12:40 PM Central; no API keys needed.
 Claude researches, writes and fact-checks (with a separate subagent), `session.py` renders and hosts, and the posts are created
