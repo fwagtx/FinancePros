@@ -1,169 +1,169 @@
 {
-  "series": "ticker",
-  "header": "Carry a balance\nto build credit?",
-  "cover": {
-    "title": "The Credit Card Myth",
+ "series": "ticker",
+ "header": "Carry a balance\nto build credit?",
+ "cover": {
+  "title": "The Credit Card Myth",
+  "prop": "card",
+  "label": "Carry a balance?",
+  "value": "48%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "48% of people believed this credit card myth (2023 survey).",
+   "say": "Forty-eight percent of people believed this credit card myth.",
+   "scene": {
+    "t": "hook",
+    "title": "The credit card [myth]",
     "prop": "card",
-    "label": "Carry a balance?",
-    "value": "48%"
+    "label": "2023 survey",
+    "value": "48%",
+    "mood": "shock"
+   }
   },
-  "lines": [
-    {
-      "who": "ticker",
-      "text": "48% of people believed this credit card myth (2023 survey).",
-      "say": "Forty-eight percent of people believed this credit card myth.",
-      "scene": {
-        "t": "hook",
-        "title": "The credit card [myth]",
-        "prop": "card",
-        "label": "2023 survey",
-        "value": "48%",
-        "mood": "shock"
-      }
+  {
+   "who": "ticker",
+   "text": "The myth: carrying a balance builds your credit. It doesn't, and believing it gets expensive.",
+   "say": "The myth is that carrying a balance builds your credit. It doesn't, and believing it gets expensive.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "MYTH: carry a balance",
+     "to build credit",
+     "FACT: it doesn't"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FICO, the company behind the score, says so too.",
+   "say": "FICO, the company behind the score, says so too.",
+   "scene": {
+    "t": "news",
+    "headline": "FICO: No need to carry a balance for your score",
+    "source": "myFICO",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your card reports your statement balance anyway. Pay it in full, and it still shows usage, with $0 interest.",
+   "say": "Your card reports your statement balance anyway. Pay it in full, and it still shows usage, with zero interest.",
+   "scene": {
+    "t": "compare",
+    "title": "Both show card usage",
+    "left": {
+     "label": "Pay in full",
+     "value": "$0",
+     "tone": "up",
+     "sub": "interest"
     },
-    {
-      "who": "ticker",
-      "text": "The myth: carrying a balance builds your credit. It doesn't, and believing it gets expensive.",
-      "say": "The myth is that carrying a balance builds your credit. It doesn't, and believing it gets expensive.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "MYTH: carry a balance",
-          "to build credit",
-          "FACT: it doesn't"
-        ],
-        "mood": "worried"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "FICO, the company behind the score, says so too.",
-      "say": "FICO, the company behind the score, says so too.",
-      "scene": {
-        "t": "news",
-        "headline": "FICO: No need to carry a balance for your score",
-        "source": "myFICO / Business Wire, May 9, 2023",
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Your card reports your statement balance anyway. Pay it in full, and it still shows usage, with $0 interest.",
-      "say": "Your card reports your statement balance anyway. Pay it in full, and it still shows usage, with zero interest.",
-      "scene": {
-        "t": "compare",
-        "title": "Both show card usage",
-        "left": {
-          "label": "Pay in full",
-          "value": "$0",
-          "tone": "up",
-          "sub": "interest"
-        },
-        "right": {
-          "label": "Carry it",
-          "value": "Charged",
-          "tone": "down",
-          "sub": "interest"
-        }
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Carry it instead, and you pay up: cards charged interest averaged 22.15% in Q2 2026 (Fed).",
-      "say": "Carry it instead, and you pay up: cards charged interest averaged twenty-two point one five percent in the second quarter of twenty twenty-six.",
-      "scene": {
-        "t": "stat",
-        "label": "Avg rate, cards charged interest",
-        "value": "22.15%",
-        "tone": "down",
-        "sub": "Federal Reserve G.19, Q2 2026",
-        "mood": "worried"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "On a $2,000 balance, that's about $37 a month, and your score gains nothing.",
-      "say": "On a two thousand dollar balance, that's about thirty-seven dollars a month, and your score gains nothing.",
-      "scene": {
-        "t": "money",
-        "from": {
-          "label": "Balance carried",
-          "value": "$2,000"
-        },
-        "to": {
-          "label": "Interest, 1 month",
-          "value": "~$37"
-        },
-        "mood": "sad"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "In September 2026 the Fed raised rates a quarter point, and most card rates are variable.",
-      "say": "In September twenty twenty-six, the Fed raised rates a quarter point, and most card rates are variable.",
-      "scene": {
-        "t": "building",
-        "kind": "fed",
-        "label": "Sept 2026: +0.25 pt",
-        "caption": "Card rates tend to follow",
-        "mood": "worried"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "What counts: paying on time (35% of a FICO Score) and owing little (30%).",
-      "say": "What counts is paying on time, which is thirty-five percent of a FICO score, and owing little, which is thirty percent.",
-      "scene": {
-        "t": "list",
-        "title": "What builds a FICO Score",
-        "items": [
-          "On-time payments: 35%",
-          "Amounts owed: 30%",
-          "Interest paid: not a factor"
-        ],
-        "reveal": 2,
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Interest paid isn't on the list at all.",
-      "say": "Interest paid isn't on the list at all.",
-      "scene": {
-        "t": "list",
-        "keep": true,
-        "title": "What builds a FICO Score",
-        "items": [
-          "On-time payments: 35%",
-          "Amounts owed: 30%",
-          "Interest paid: not a factor"
-        ],
-        "reveal": 3,
-        "mood": "happy"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "That's the money. Follow for more.",
-      "say": "That's the money. Follow for more.",
-      "scene": {
-        "t": "cta",
-        "tagline": "Pay interest for zero points? Myth.",
-        "mood": "happy"
-      }
+    "right": {
+     "label": "Carry it",
+     "value": "Charged",
+     "tone": "down",
+     "sub": "interest"
     }
-  ],
-  "post": {
-    "title": "Does Carrying a Credit Card Balance Build Credit? No.",
-    "ig": "48% of people believed this credit card myth.\nThe myth: carrying a balance builds credit. In a February 2023 U.S. News survey, 48% believed it.\nFICO calls it a myth: your score doesn't track whether you carry a balance month to month.\nCards charged interest averaged a 22.15% rate in Q2 2026 (Fed G.19). On $2,000, that's about $37 a month.\nWhat counts: payment history (35% of a FICO Score) and amounts owed (30%).\nSources: Federal Reserve G.19, myFICO, CFPB, U.S. News & World Report.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #creditcards #moneymyths #personalfinance #financeprostv",
-    "tiktok": "A card balance doesn't build credit. Avg rate: 22.15% (Fed, Q2 2026). Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
-    "yt_desc": "Carrying a credit card balance does not raise your credit score; FICO calls it a myth, yet 48% of people believed it in a February 2023 U.S. News survey. Cards charged interest averaged a 22.15% rate in Q2 2026 per the Federal Reserve G.19, about $37 a month on a $2,000 balance. Sources: Federal Reserve, myFICO, CFPB. News and education, not financial advice.\n#Shorts #creditscore #personalfinance",
-    "tags": [
-      "credit score myth",
-      "carrying a credit card balance",
-      "credit card interest rate",
-      "FICO score",
-      "credit utilization"
-    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Carry it instead, and you pay up: cards charged interest averaged 22.15% in Q2 2026 (Fed).",
+   "say": "Carry it instead, and you pay up: cards charged interest averaged twenty-two point one five percent in the second quarter of twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg rate, cards charged interest",
+    "value": "22.15%",
+    "tone": "down",
+    "sub": "Federal Reserve G.19, Q2 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $2,000 balance, that's about $37 a month, and your score gains nothing.",
+   "say": "On a two thousand dollar balance, that's about thirty-seven dollars a month, and your score gains nothing.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Balance carried",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "Interest, 1 month",
+     "value": "~$37"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2026 the Fed raised rates a quarter point, and most card rates are variable.",
+   "say": "In September twenty twenty-six, the Fed raised rates a quarter point, and most card rates are variable.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Sept 2026: +0.25 pt",
+    "caption": "Card rates tend to follow",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What counts: paying on time (35% of a FICO Score) and owing little (30%).",
+   "say": "What counts is paying on time, which is thirty-five percent of a FICO score, and owing little, which is thirty percent.",
+   "scene": {
+    "t": "list",
+    "title": "What builds a FICO Score",
+    "items": [
+     "On-time payments: 35%",
+     "Amounts owed: 30%",
+     "Interest paid: not a factor"
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Interest paid isn't on the list at all.",
+   "say": "Interest paid isn't on the list at all.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "What builds a FICO Score",
+    "items": [
+     "On-time payments: 35%",
+     "Amounts owed: 30%",
+     "Interest paid: not a factor"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Pay interest for zero points? Myth.",
+    "mood": "happy"
+   }
   }
+ ],
+ "post": {
+  "title": "Does Carrying a Credit Card Balance Build Credit? No.",
+  "ig": "48% of people believed this credit card myth.\nThe myth: carrying a balance builds credit (U.S. News survey, February 2023).\nFICO calls it a myth: your score doesn't track whether you carry a balance month to month.\nCards charged interest averaged a 22.15% rate in Q2 2026 (Fed G.19). On $2,000, that's about $37 a month.\nWhat counts: payment history (35% of a FICO Score) and amounts owed (30%).\nSources: Federal Reserve G.19, myFICO, CFPB, U.S. News & World Report.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #creditcards #moneymyths #personalfinance #financeprostv",
+  "tiktok": "A card balance doesn't build credit. Avg rate: 22.15% (Fed, Q2 2026). Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
+  "yt_desc": "Carrying a credit card balance does not raise your credit score; FICO calls it a myth, yet 48% of people believed it in a February 2023 U.S. News survey. Cards charged interest averaged a 22.15% rate in Q2 2026 per the Federal Reserve G.19, about $37 a month on a $2,000 balance. Sources: Federal Reserve, myFICO, CFPB. News and education, not financial advice.\n#Shorts #creditscore #personalfinance",
+  "tags": [
+   "credit score myth",
+   "carrying a credit card balance",
+   "credit card interest rate",
+   "FICO score",
+   "credit utilization"
+  ]
+ }
 }
