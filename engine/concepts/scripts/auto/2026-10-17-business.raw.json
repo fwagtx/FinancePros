@@ -70,8 +70,8 @@
    "scene": {
     "t": "board",
     "lines": [
-     "5% x $300 repair = $15",
-     "13% x $300 = $39",
+     "5% x $300 repair",
+     "= $15 expected payout",
      "Plan price: $80"
     ]
    }
@@ -86,12 +86,14 @@
     "left": {
      "label": "Paid out",
      "value": "$15",
-     "tone": "neutral"
+     "tone": "neutral",
+     "sub": "even at 13%: $39"
     },
     "right": {
-     "label": "Kept",
+     "label": "Seller keeps",
      "value": "$65",
-     "tone": "up"
+     "tone": "up",
+     "sub": "before costs"
     }
    }
   },

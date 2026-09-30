@@ -1,0 +1,160 @@
+{
+ "id": "2026-10-17-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How extended warranties\nmake money",
+ "cover": {
+  "title": "The Extended Warranty Markup",
+  "prop": "box",
+  "value": "50%+"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Half your warranty money? The store keeps it.",
+   "say": "Half your warranty money? The store keeps it.",
+   "scene": {
+    "t": "hook",
+    "title": "The warranty [markup]",
+    "prop": "box",
+    "label": "PROTECTION PLAN",
+    "value": "50%+",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Consumer Reports: stores keep 50% or more of the warranty price, way more than on the product.",
+   "say": "Consumer Reports says stores keep half or more of the warranty price. That's way more than they make on the product.",
+   "scene": {
+    "t": "stat",
+    "label": "Share of warranty price stores keep",
+    "value": "50%+",
+    "tone": "down",
+    "sub": "Consumer Reports buying guide"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trick is the claim rate. In one study, products failed about 5% of the time.",
+   "say": "The trick is the claim rate. In one big study, the products failed only about five percent of the time.",
+   "scene": {
+    "t": "stat",
+    "label": "How often products failed",
+    "value": "5%",
+    "tone": "neutral",
+    "sub": "Abito & Salant, Review of Economic Studies, 2019"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But buyers acted like it was 13%.",
+   "say": "But buyers acted like it was thirteen percent, paying for risk that mostly wasn't there.",
+   "scene": {
+    "t": "compare",
+    "title": "Chance the product fails",
+    "left": {
+     "label": "Actual",
+     "value": "5%",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Buyers acted like",
+     "value": "13%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say an $80 plan covers a $300 repair. 5% x $300 = $15 expected payout.",
+   "say": "Here's the math. Say an eighty dollar plan covers a three hundred dollar repair. Five percent of three hundred is fifteen dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "5% x $300 repair",
+     "= $15 expected payout",
+     "Plan price: $80"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even at 13%, the payout is $39. On average, the seller keeps $65 of $80, before costs.",
+   "say": "Even at thirteen percent, it's only thirty-nine dollars. On average, the seller keeps sixty-five of the eighty, before costs.",
+   "scene": {
+    "t": "compare",
+    "title": "An $80 plan, on average",
+    "left": {
+     "label": "Paid out",
+     "value": "$15",
+     "tone": "neutral",
+     "sub": "even at 13%: $39"
+    },
+    "right": {
+     "label": "Seller keeps",
+     "value": "$65",
+     "tone": "up",
+     "sub": "before costs"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same with cars: 55% of extended car warranty buyers never used theirs (Consumer Reports, 2014).",
+   "say": "Same with cars. In a twenty fourteen Consumer Reports survey, fifty-five percent of extended car warranty buyers never used theirs.",
+   "scene": {
+    "t": "stat",
+    "label": "Car warranty buyers who never used it",
+    "value": "55%",
+    "tone": "down",
+    "sub": "Consumer Reports survey, 2014"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If buyers knew the real odds, the study estimated warranty profits would fall over 90%.",
+   "say": "And if buyers knew the real odds, the study estimated warranty profits would fall more than ninety percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Warranty profits if buyers knew the odds",
+    "value": "-90%+",
+    "tone": "down",
+    "sub": "Abito & Salant, Review of Economic Studies, 2019"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The business isn't fixing things. It's selling peace of mind, priced on your worry.",
+   "say": "So the business isn't really fixing things. It's selling peace of mind, priced on how much you worry.",
+   "scene": {
+    "t": "hook",
+    "title": "Priced on your [worry]",
+    "prop": "tag",
+    "label": "peace of mind",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How extended warranties really make money",
+  "ig": "Half your warranty money? The store keeps it.\nConsumer Reports says stores keep 50% or more of what they charge for extended warranties.\nIn one study, products failed about 5% of the time, but buyers acted like it was 13%.\nThe math: 5% x a $300 repair = $15 expected payout on an $80 plan. Even at 13%, it's $39.\nSources: Consumer Reports; Abito & Salant, Review of Economic Studies (2019).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#extendedwarranty #consumertips #business #personalfinance #financeprostv",
+  "tiktok": "Stores keep half or more of what you pay for extended warranties. Not financial advice. #moneytok #personalfinance #warranty #financeprostv",
+  "yt_desc": "How extended warranties make money. Consumer Reports says stores keep 50% or more of the warranty price, and a 2019 study found buyers acted like a 5% failure rate was 13%. Example: 5% x $300 repair = $15 expected payout on an $80 plan. News and education, not financial advice.\n#Shorts #warranty #personalfinance",
+  "tags": [
+   "extended warranty",
+   "how warranties make money",
+   "warranty markup",
+   "consumer tips",
+   "business model"
+  ]
+ }
+}
