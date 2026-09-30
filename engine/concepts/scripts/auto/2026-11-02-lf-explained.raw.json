@@ -13,18 +13,30 @@
    "text": "The biggest foreign lender to the US isn't China.",
    "say": "The biggest foreign lender to the US isn't China.",
    "scene": {
-    "t": "hook",
-    "title": "Top lender isn't [China]",
-    "prop": "fed",
-    "label": "US DEBT",
-    "value": "$40T",
-    "mood": "shock"
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "#1: $1.21T"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "Not #1"
+     }
+    ],
+    "prop": {
+     "kind": "bag",
+     "label": "US DEBT $40T"
+    },
+    "caption": "Top foreign lender: not China"
    }
   },
   {
    "who": "ticker",
-   "text": "And the interest on $40 trillion now costs more than the military.",
-   "say": "And the interest on forty trillion dollars now costs more than the military.",
+   "text": "And the interest bill now costs more than the military.",
+   "say": "And the interest bill now costs more than the military.",
    "scene": {
     "t": "hook",
     "title": "Interest [beats] defense",
@@ -833,7 +845,7 @@
     "label": "Held by foreign investors",
     "value": "$9T+",
     "tone": "neutral",
-    "sub": "about 29% of public debt (Treasury TIC)"
+    "sub": "about 29% of public debt (Treasury TIC, Apr 2026)"
    }
   },
   {
@@ -887,7 +899,7 @@
   },
   {
    "who": "ticker",
-   "text": "Next come the United Kingdom, about $937.5 billion, and China, about $651.1 billion, as of April 2026.",
+   "text": "Next come the United Kingdom, about $938 billion, and China, about $651 billion, as of April 2026.",
    "say": "Next come the United Kingdom, at about nine hundred thirty-eight billion, and China, at about six hundred fifty-one billion, as of April twenty twenty-six.",
    "scene": {
     "t": "list",
@@ -1037,7 +1049,7 @@
   },
   {
    "who": "ticker",
-   "text": "Per person, that's about $2,838 a year of interest.",
+   "text": "Per person, that's about $2,800 a year of interest.",
    "say": "Per person, that's about twenty-eight hundred dollars a year of interest.",
    "scene": {
     "t": "money",
@@ -1065,14 +1077,14 @@
   },
   {
    "who": "ticker",
-   "text": "And in the first 11 months of fiscal 2026, net interest already topped $1 trillion.",
-   "say": "And in the first eleven months of fiscal twenty twenty-six, net interest already topped one trillion dollars.",
+   "text": "And in the first 11 months of fiscal 2026, interest on the public debt was $1.05 trillion, up 12% from a year earlier.",
+   "say": "And in the first eleven months of fiscal twenty twenty-six, interest on the public debt was one point oh five trillion dollars, up twelve percent from a year earlier.",
    "scene": {
     "t": "stat",
-    "label": "Net interest, Oct 2025-Aug 2026",
+    "label": "Net interest on the public debt, Oct 2025-Aug 2026",
     "value": "$1.05T",
     "tone": "down",
-    "sub": "11 months of FY2026 (CBO)"
+    "sub": "+12% vs same months FY2025 (CBO)"
    }
   },
   {

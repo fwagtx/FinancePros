@@ -1,0 +1,1791 @@
+{
+ "id": "2026-11-02-lf-explained",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "THE NATIONAL DEBT",
+ "cover": {
+  "title": "Who Owns $40 Trillion?",
+  "prop": "fed",
+  "label": "US DEBT",
+  "value": "$40T"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The biggest foreign lender to the US isn't China.",
+   "say": "The biggest foreign lender to the US isn't China.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "#1: $1.21T"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "Not #1"
+     }
+    ],
+    "prop": {
+     "kind": "bag",
+     "label": "US DEBT $40T"
+    },
+    "caption": "Top foreign lender: not China"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the interest bill now costs more than the military.",
+   "say": "And the interest bill now costs more than the military.",
+   "scene": {
+    "t": "hook",
+    "title": "Interest [beats] defense",
+    "prop": "coins",
+    "value": "$970B",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The debt passed $40 trillion on August 18, 2026.",
+   "say": "The debt passed forty trillion dollars on August eighteenth, twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "Gross national debt passes $40 trillion",
+    "source": "U.S. Treasury data, Aug 18, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of September 25, 2026, the total was $40,097,178,119,751.",
+   "say": "As of September twenty-fifth, twenty twenty-six, the total was about forty point one trillion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Total public debt, Sept 25, 2026",
+    "value": "$40.1T",
+    "tone": "down",
+    "sub": "$40,097,178,119,751 (Treasury)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Split across everyone in the country, that's about $117,000 per person.",
+   "say": "Split across everyone in the country, that's about a hundred seventeen thousand dollars per person.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Total debt",
+     "value": "$40.1T"
+    },
+    "to": {
+     "label": "Per person",
+     "value": "$117,317"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Numbers that big stop meaning anything. So let's make this one mean something.",
+   "say": "Numbers that big stop meaning anything. So let's make this one mean something.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "What it is",
+     "Who we owe",
+     "What it costs you"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the end, you'll know what the debt is, who owns it, and why the interest matters to your money.",
+   "say": "By the end, you'll know what the debt is, who owns it, and why the interest matters to your money.",
+   "scene": {
+    "t": "list",
+    "title": "In this video",
+    "items": [
+     "What the debt is",
+     "How it got here",
+     "Who we owe",
+     "The interest bill",
+     "What's next"
+    ],
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: what the debt actually is.",
+   "say": "Chapter one. What the debt actually is.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What the debt is"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start with two words people mix up all the time: deficit and debt.",
+   "say": "Start with two words people mix up all the time: deficit and debt.",
+   "scene": {
+    "t": "compare",
+    "title": "Two words, two meanings",
+    "left": {
+     "label": "Deficit",
+     "value": "1 year",
+     "tone": "neutral",
+     "sub": "spend minus revenue"
+    },
+    "right": {
+     "label": "Debt",
+     "value": "total",
+     "tone": "neutral",
+     "sub": "all past deficits"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The deficit is one year's gap: what the government spends minus what it collects.",
+   "say": "The deficit is one year's gap: what the government spends, minus what it collects.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deficit =",
+     "spending - revenue",
+     "(one year)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2025, it collected $5.2 trillion and spent $7.0 trillion.",
+   "say": "In fiscal twenty twenty-five, it collected five point two trillion dollars and spent seven trillion.",
+   "scene": {
+    "t": "compare",
+    "title": "Fiscal 2025 (CBO)",
+    "left": {
+     "label": "Revenue",
+     "value": "$5.2T",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Spending",
+     "value": "$7.0T",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That left a deficit of $1.8 trillion for the year.",
+   "say": "That left a deficit of one point eight trillion dollars for the year.",
+   "scene": {
+    "t": "stat",
+    "label": "FY2025 deficit",
+    "value": "$1.8T",
+    "tone": "down",
+    "sub": "CBO, fiscal year ended Sept 30, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The debt is the running total: every deficit, minus the rare surplus, stacked up over time.",
+   "say": "The debt is the running total: every deficit, minus the rare surplus, stacked up over time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Debt =",
+     "all deficits",
+     "stacked up"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To cover the gap, the Treasury borrows by selling bills, notes and bonds.",
+   "say": "To cover the gap, the Treasury borrows by selling bills, notes, and bonds.",
+   "scene": {
+    "t": "list",
+    "title": "How the Treasury borrows",
+    "items": [
+     "Bills: up to 1 year",
+     "Notes: 2 to 10 years",
+     "Bonds: 20 to 30 years"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each one is an IOU: lend the government money now, and it pays you back with interest.",
+   "say": "Each one is an I O U: lend the government money now, and it pays you back with interest.",
+   "scene": {
+    "t": "hook",
+    "title": "Every bond is an [IOU]",
+    "prop": "paper",
+    "label": "IOU",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There are two big buckets of that debt.",
+   "say": "There are two big buckets of that debt.",
+   "scene": {
+    "t": "compare",
+    "title": "Who holds the $40.1T (Sept 2026)",
+    "left": {
+     "label": "Held by the public",
+     "value": "$32.4T",
+     "tone": "neutral",
+     "sub": "investors, Fed, foreign"
+    },
+    "right": {
+     "label": "Government accounts",
+     "value": "$7.7T",
+     "tone": "neutral",
+     "sub": "trust funds"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About $32.4 trillion is held by the public: investors, banks, the Federal Reserve and foreign buyers.",
+   "say": "About thirty-two point four trillion is held by the public: investors, banks, the Federal Reserve, and foreign buyers.",
+   "scene": {
+    "t": "compare",
+    "title": "Who holds the $40.1T (Sept 2026)",
+    "left": {
+     "label": "Held by the public",
+     "value": "$32.4T",
+     "tone": "neutral",
+     "sub": "investors, Fed, foreign"
+    },
+    "right": {
+     "label": "Government accounts",
+     "value": "$7.7T",
+     "tone": "neutral",
+     "sub": "trust funds"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other $7.7 trillion is money the government owes itself, mostly to trust funds like Social Security.",
+   "say": "The other seven point seven trillion is money the government owes itself, mostly to trust funds like Social Security.",
+   "scene": {
+    "t": "compare",
+    "title": "Who holds the $40.1T (Sept 2026)",
+    "left": {
+     "label": "Held by the public",
+     "value": "$32.4T",
+     "tone": "neutral",
+     "sub": "investors, Fed, foreign"
+    },
+    "right": {
+     "label": "Government accounts",
+     "value": "$7.7T",
+     "tone": "neutral",
+     "sub": "trust funds"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Economists watch the public part most closely, because that's what gets borrowed in the market.",
+   "say": "Economists watch the public part most closely, because that's what gets borrowed in the market.",
+   "scene": {
+    "t": "hook",
+    "title": "Watch the [public] part",
+    "prop": "chart-up",
+    "value": "$32.4T",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: how we got to $40 trillion.",
+   "say": "Chapter two. How we got to forty trillion.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "How we got here"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A trillion is a million millions. At $1 a second, counting to $1 trillion would take about 31,700 years.",
+   "say": "A trillion is a million millions. Counting one dollar a second, you'd need about thirty-one thousand seven hundred years to reach a trillion.",
+   "scene": {
+    "t": "stat",
+    "label": "Counting $1/second to $1 trillion",
+    "value": "31,700 yr",
+    "tone": "neutral",
+    "sub": "1,000,000,000,000 seconds"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For most of history, the debt was small. It first topped $1 trillion in 1981.",
+   "say": "For most of history, the debt was small. It first topped one trillion dollars in nineteen eighty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Debt first tops $1 trillion",
+    "value": "1981",
+    "tone": "neutral",
+    "sub": "Treasury historical data"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of fiscal 2000, it was $5.67 trillion.",
+   "say": "At the end of fiscal two thousand, it was five point six seven trillion.",
+   "scene": {
+    "t": "chart",
+    "title": "Total US debt, fiscal year end",
+    "points": [
+     [
+      2000,
+      5.67
+     ],
+     [
+      2008,
+      10.02
+     ],
+     [
+      2010,
+      13.56
+     ],
+     [
+      2015,
+      18.15
+     ],
+     [
+      2019,
+      22.72
+     ],
+     [
+      2020,
+      26.95
+     ],
+     [
+      2021,
+      28.43
+     ],
+     [
+      2022,
+      30.93
+     ],
+     [
+      2023,
+      33.17
+     ],
+     [
+      2024,
+      35.46
+     ],
+     [
+      2025,
+      37.64
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$37.64T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2010, it was $13.56 trillion, after the financial crisis and recession.",
+   "say": "By twenty ten, it was thirteen point five six trillion, after the financial crisis and recession.",
+   "scene": {
+    "t": "chart",
+    "title": "Total US debt, fiscal year end",
+    "points": [
+     [
+      2000,
+      5.67
+     ],
+     [
+      2008,
+      10.02
+     ],
+     [
+      2010,
+      13.56
+     ],
+     [
+      2015,
+      18.15
+     ],
+     [
+      2019,
+      22.72
+     ],
+     [
+      2020,
+      26.95
+     ],
+     [
+      2021,
+      28.43
+     ],
+     [
+      2022,
+      30.93
+     ],
+     [
+      2023,
+      33.17
+     ],
+     [
+      2024,
+      35.46
+     ],
+     [
+      2025,
+      37.64
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$37.64T",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2010,
+     "text": "after 2008 crisis"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 2020 added a huge jump: from $22.72 trillion to $26.95 trillion in one fiscal year.",
+   "say": "Then twenty twenty added a huge jump, from twenty-two point seven trillion to about twenty-seven trillion in one fiscal year.",
+   "scene": {
+    "t": "chart",
+    "title": "Total US debt, fiscal year end",
+    "points": [
+     [
+      2000,
+      5.67
+     ],
+     [
+      2008,
+      10.02
+     ],
+     [
+      2010,
+      13.56
+     ],
+     [
+      2015,
+      18.15
+     ],
+     [
+      2019,
+      22.72
+     ],
+     [
+      2020,
+      26.95
+     ],
+     [
+      2021,
+      28.43
+     ],
+     [
+      2022,
+      30.93
+     ],
+     [
+      2023,
+      33.17
+     ],
+     [
+      2024,
+      35.46
+     ],
+     [
+      2025,
+      37.64
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$37.64T",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2020,
+     "text": "+$4.2T in a year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That year brought pandemic relief programs at the same moment tax revenue fell with the shutdowns.",
+   "say": "That year brought pandemic relief programs at the same moment tax revenue fell with the shutdowns.",
+   "scene": {
+    "t": "split",
+    "title": "Fiscal 2020",
+    "left": {
+     "title": "Spending up",
+     "items": [
+      "Relief checks",
+      "Business loans"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Revenue down",
+     "items": [
+      "Shutdowns",
+      "Job losses"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the end of fiscal 2025, it reached $37.64 trillion.",
+   "say": "By the end of fiscal twenty twenty-five, it reached thirty-seven point six four trillion.",
+   "scene": {
+    "t": "hook",
+    "title": "By the end of fiscal 2025, it reached $37.64 tri",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From fiscal 2019 to fiscal 2025 alone, the debt grew by about $14.9 trillion.",
+   "say": "From fiscal twenty nineteen to fiscal twenty twenty-five alone, the debt grew by about fourteen point nine trillion dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "FY2019",
+     "value": "$22.72T"
+    },
+    "to": {
+     "label": "FY2025",
+     "value": "$37.64T"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Recessions add debt fast. Tax revenue falls, and spending on aid goes up at the same time.",
+   "say": "Recessions add debt fast. Tax revenue falls, and spending on aid goes up at the same time.",
+   "scene": {
+    "t": "split",
+    "title": "In a recession",
+    "left": {
+     "title": "Revenue",
+     "items": [
+      "Fewer paychecks",
+      "Less tax"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Spending",
+     "items": [
+      "Unemployment aid",
+      "Relief programs"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the debt also grows in good years, because there's been a deficit every year since 2002.",
+   "say": "But the debt also grows in good years, because there's been a deficit every year since two thousand two.",
+   "scene": {
+    "t": "hook",
+    "title": "Deficits in [good] years too",
+    "prop": "chart-up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And lately, the trillions come faster.",
+   "say": "And lately, the trillions come faster.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Aug 2025",
+      "$37 trillion"
+     ],
+     [
+      "Oct 2025",
+      "$38 trillion, ~10 weeks later"
+     ],
+     [
+      "Mar 2026",
+      "$39 trillion"
+     ],
+     [
+      "Aug 2026",
+      "$40 trillion"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The debt hit $37 trillion in August 2025, then $38 trillion about ten weeks later.",
+   "say": "The debt hit thirty-seven trillion in August twenty twenty-five, then thirty-eight trillion about ten weeks later.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Aug 2025",
+      "$37 trillion"
+     ],
+     [
+      "Oct 2025",
+      "$38 trillion, ~10 weeks later"
+     ],
+     [
+      "Mar 2026",
+      "$39 trillion"
+     ],
+     [
+      "Aug 2026",
+      "$40 trillion"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It passed $39 trillion in March 2026, and $40 trillion that August.",
+   "say": "It passed thirty-nine trillion in March twenty twenty-six, and forty trillion that August.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Aug 2025",
+      "$37 trillion"
+     ],
+     [
+      "Oct 2025",
+      "$38 trillion, ~10 weeks later"
+     ],
+     [
+      "Mar 2026",
+      "$39 trillion"
+     ],
+     [
+      "Aug 2026",
+      "$40 trillion"
+     ]
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's roughly $1 trillion every five months.",
+   "say": "That's roughly one trillion dollars every five months.",
+   "scene": {
+    "t": "stat",
+    "label": "Pace since January 2025",
+    "value": "~$1T/5mo",
+    "tone": "down",
+    "sub": "Committee for a Responsible Federal Budget"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: who we actually owe.",
+   "say": "Chapter three. Who we actually owe.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Who we owe"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the surprise: a big chunk is owed to ourselves.",
+   "say": "Here's the surprise: a big chunk is owed to ourselves.",
+   "scene": {
+    "t": "hook",
+    "title": "We owe [ourselves]",
+    "prop": "mattress",
+    "value": "$7.7T",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That $7.7 trillion in government accounts is mostly Social Security and other trust funds.",
+   "say": "That seven point seven trillion in government accounts is mostly Social Security and other trust funds.",
+   "scene": {
+    "t": "stat",
+    "label": "Intragovernmental holdings",
+    "value": "$7.7T",
+    "tone": "neutral",
+    "sub": "Treasury, Sept 25, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When those programs collected more than they paid out, the surplus was invested in special Treasury securities.",
+   "say": "When those programs collected more than they paid out, the surplus was invested in special Treasury securities.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Trust fund surplus",
+     "-> special Treasury",
+     "IOUs"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next is the Federal Reserve, which held about $4.5 trillion of Treasuries in September 2026.",
+   "say": "Next is the Federal Reserve, which held about four and a half trillion dollars of Treasuries in September twenty twenty-six.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Treasuries: ~$4.5T",
+    "caption": "The Fed holds a big slice"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed buys and sells them as part of steering interest rates.",
+   "say": "The Fed buys and sells them as part of steering interest rates.",
+   "scene": {
+    "t": "hook",
+    "title": "A tool for [rates]",
+    "prop": "fed",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there are foreign investors, who held more than $9 trillion in 2026.",
+   "say": "Then there are foreign investors, who held more than nine trillion dollars in twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Held by foreign investors",
+    "value": "$9T+",
+    "tone": "neutral",
+    "sub": "about 29% of public debt (Treasury TIC, Apr 2026)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's almost 30% of the debt held by the public.",
+   "say": "That's almost thirty percent of the debt held by the public.",
+   "scene": {
+    "t": "compare",
+    "title": "Debt held by the public",
+    "left": {
+     "label": "Foreign",
+     "value": "~29%",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Domestic",
+     "value": "~71%",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest foreign holder isn't China. It's Japan, with about $1.21 trillion.",
+   "say": "The biggest foreign holder isn't China. It's Japan, with about one point two one trillion dollars.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "$1.21T"
+     },
+     {
+      "name": "uk",
+      "mood": "happy",
+      "says": "$937.5B"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "$651.1B"
+     }
+    ],
+    "prop": {
+     "kind": "bag",
+     "label": "US Treasuries"
+    },
+    "caption": "Top foreign holders, April 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next come the United Kingdom, about $938 billion, and China, about $651 billion, as of April 2026.",
+   "say": "Next come the United Kingdom, at about nine hundred thirty-eight billion, and China, at about six hundred fifty-one billion, as of April twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "Top foreign holders (Apr 2026)",
+    "items": [
+     "Japan $1.21T",
+     "UK $937.5B",
+     "China $651.1B"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those country totals include securities held by custodians there, not just governments.",
+   "say": "Those country totals include securities held by custodians there, not just governments.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Country totals include",
+     "banks and custodians,",
+     "not only governments"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Everyone else is mostly American: pension funds, banks, mutual funds, insurers, and regular savers.",
+   "say": "Everyone else is mostly American: pension funds, banks, mutual funds, insurers, and regular savers.",
+   "scene": {
+    "t": "list",
+    "title": "Other big holders",
+    "items": [
+     "Pension funds",
+     "Banks",
+     "Mutual funds",
+     "Savers"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you own a money market fund or a savings bond, you might be one of the lenders.",
+   "say": "If you own a money market fund or a savings bond, you might be one of the lenders.",
+   "scene": {
+    "t": "hook",
+    "title": "You might be a [lender]",
+    "prop": "bag",
+    "label": "SAVINGS BOND",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the lenders are a mix of us, our own government, our central bank, and the rest of the world.",
+   "say": "So the lenders are a mix of us, our own government, our central bank, and the rest of the world.",
+   "scene": {
+    "t": "list",
+    "title": "Who we owe, in short",
+    "items": [
+     "Trust funds ~$7.7T",
+     "The Fed ~$4.5T",
+     "Foreign $9T+",
+     "US investors: the rest"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: the interest bill.",
+   "say": "Chapter four. The interest bill.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The interest bill"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Borrowing isn't free. The government pays interest on all those IOUs.",
+   "say": "Borrowing isn't free. The government pays interest on all those I O Us.",
+   "scene": {
+    "t": "hook",
+    "title": "Borrowing isn't [free]",
+    "prop": "coins",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2025, net interest cost $970 billion.",
+   "say": "In fiscal twenty twenty-five, net interest cost nine hundred seventy billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "FY2025 spending (CBO)",
+    "left": {
+     "label": "Net interest",
+     "value": "$970B",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Defense",
+     "value": "$917B",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more than the $917 billion spent on national defense.",
+   "say": "That's more than the nine hundred seventeen billion spent on national defense.",
+   "scene": {
+    "t": "compare",
+    "title": "FY2025 spending (CBO)",
+    "left": {
+     "label": "Net interest",
+     "value": "$970B",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Defense",
+     "value": "$917B",
+     "tone": "neutral"
+    },
+    "keep": true,
+    "winner": "left",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Only Social Security and Medicare cost more. Interest has passed defense.",
+   "say": "Only Social Security and Medicare cost more. Interest has passed defense.",
+   "scene": {
+    "t": "list",
+    "title": "Biggest federal costs, FY2025",
+    "items": [
+     "1. Social Security",
+     "2. Medicare",
+     "3. Net interest",
+     "Then defense"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Per person, that's about $2,800 a year of interest.",
+   "say": "Per person, that's about twenty-eight hundred dollars a year of interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Net interest",
+     "value": "$970B"
+    },
+    "to": {
+     "label": "Per person",
+     "value": "$2,838"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spread across the year, that's about $2.7 billion of interest every single day.",
+   "say": "Spread across the year, that's about two point seven billion dollars of interest, every single day.",
+   "scene": {
+    "t": "stat",
+    "label": "Net interest per day, FY2025",
+    "value": "$2.7B",
+    "tone": "down",
+    "sub": "$970B / 365 days"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in the first 11 months of fiscal 2026, interest on the public debt was $1.05 trillion, up 12% from a year earlier.",
+   "say": "And in the first eleven months of fiscal twenty twenty-six, interest on the public debt was one point oh five trillion dollars, up twelve percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Net interest on the public debt, Oct 2025-Aug 2026",
+    "value": "$1.05T",
+    "tone": "down",
+    "sub": "+12% vs same months FY2025 (CBO)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why did it jump? Because the average rate the Treasury pays more than doubled.",
+   "say": "Why did it jump? Because the average rate the Treasury pays more than doubled.",
+   "scene": {
+    "t": "compare",
+    "title": "Average rate on Treasury debt",
+    "left": {
+     "label": "Jan 2022",
+     "value": "1.42%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Aug 2026",
+     "value": "3.48%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In January 2022, the average rate on its marketable debt was 1.42%. By August 2026, it was 3.48%.",
+   "say": "In January twenty twenty-two, the average rate on its marketable debt was one point four two percent. By August twenty twenty-six, it was three point four eight percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Average rate on Treasury debt",
+    "left": {
+     "label": "Jan 2022",
+     "value": "1.42%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Aug 2026",
+     "value": "3.48%",
+     "tone": "down"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the math that makes economists nervous.",
+   "say": "Here's the math that makes economists nervous.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$32.4T x 1% =",
+     "$324B a year"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $32.4 trillion held by the public, each extra percentage point eventually costs about $324 billion a year.",
+   "say": "On thirty-two point four trillion held by the public, each extra percentage point eventually costs about three hundred twenty-four billion dollars a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Each +1 point on $32.4T",
+    "value": "$324B/yr",
+    "tone": "down",
+    "sub": "once the debt rolls over at the new rate"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's not instant, because old bonds only reprice when they come due and get refinanced.",
+   "say": "It's not instant, because old bonds only reprice when they come due and get refinanced.",
+   "scene": {
+    "t": "hook",
+    "title": "Old bonds [reprice] slowly",
+    "prop": "paper",
+    "label": "MATURES",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Apply the full jump from 1.42% to 3.48% to that debt, and it's about $667 billion more per year.",
+   "say": "Apply the full jump from one point four two to three point four eight percent to that debt, and it's about six hundred sixty-seven billion dollars more per year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "At 1.42% (hypothetical)",
+     "value": "$460B"
+    },
+    "to": {
+     "label": "At 3.48% (hypothetical)",
+     "value": "$1.13T"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now let's shrink the whole thing to a household by dividing by 100 million.",
+   "say": "Now let's shrink the whole thing to a household, by dividing by a hundred million.",
+   "scene": {
+    "t": "list",
+    "title": "The debt as a household (FY2025 / 100M)",
+    "items": [
+     "Earns $52,000",
+     "Spends $70,000",
+     "Borrows $18,000",
+     "Interest $9,700"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This household earns $52,000 a year, but it spends $70,000.",
+   "say": "This household earns fifty-two thousand dollars a year, but it spends seventy thousand.",
+   "scene": {
+    "t": "list",
+    "title": "The debt as a household (FY2025 / 100M)",
+    "items": [
+     "Earns $52,000",
+     "Spends $70,000",
+     "Borrows $18,000",
+     "Interest $9,700"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So it borrows $18,000, and it already pays $9,700 a year in interest.",
+   "say": "So it borrows eighteen thousand, and it already pays nine thousand seven hundred a year in interest.",
+   "scene": {
+    "t": "list",
+    "title": "The debt as a household (FY2025 / 100M)",
+    "items": [
+     "Earns $52,000",
+     "Spends $70,000",
+     "Borrows $18,000",
+     "Interest $9,700"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its total debt? About $324,000.",
+   "say": "Its total debt? About three hundred twenty-four thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Household-size debt (public part / 100M)",
+    "value": "$324K",
+    "tone": "down",
+    "sub": "$32.4T held by the public, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The analogy has limits. A country doesn't retire, its income grows with the economy, and it issues its own currency.",
+   "say": "The analogy has limits. A country doesn't retire, its income grows with the economy, and it issues its own currency.",
+   "scene": {
+    "t": "split",
+    "title": "Household vs country",
+    "left": {
+     "title": "Household",
+     "items": [
+      "Retires",
+      "Can't print money"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Country",
+     "items": [
+      "Never retires",
+      "Economy grows"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And unlike a card, the government rolls its debt over: when a bond comes due, it usually sells a new one to repay it.",
+   "say": "And unlike a card, the government rolls its debt over. When a bond comes due, it usually sells a new one to repay it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bond comes due",
+     "-> sell a new bond",
+     "-> repay the old"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why economists measure debt against the size of the economy, as a share of GDP.",
+   "say": "That's why economists measure debt against the size of the economy, as a share of G D P.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Debt / GDP",
+     "= debt vs the size",
+     "of the economy"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: the debt limit and the road ahead.",
+   "say": "Chapter five. The debt limit and the road ahead.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The road ahead"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Congress sets a cap on how much the Treasury can borrow. It's called the debt limit.",
+   "say": "Congress sets a cap on how much the Treasury can borrow. It's called the debt limit.",
+   "scene": {
+    "t": "hook",
+    "title": "The debt [limit]",
+    "prop": "tag",
+    "label": "LIMIT",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The limit doesn't approve new spending. It lets the Treasury pay for spending Congress already approved.",
+   "say": "The limit doesn't approve new spending. It lets the Treasury pay for spending Congress already approved.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Debt limit = paying",
+     "bills already approved"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In July 2025, Congress raised it by $5 trillion, to $41.1 trillion.",
+   "say": "In July twenty twenty-five, Congress raised it by five trillion dollars, to forty-one point one trillion.",
+   "scene": {
+    "t": "stat",
+    "label": "Debt limit after July 2025",
+    "value": "$41.1T",
+    "tone": "neutral",
+    "sub": "raised $5T by the July 2025 law"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With the debt at $40.1 trillion in September 2026, that left roughly $1 trillion of room.",
+   "say": "With the debt at forty point one trillion in September twenty twenty-six, that left roughly one trillion dollars of room.",
+   "scene": {
+    "t": "compare",
+    "title": "Limit vs debt (Sept 2026)",
+    "left": {
+     "label": "Limit",
+     "value": "$41.1T",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Debt",
+     "value": "$40.1T",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the room runs out, the Treasury uses accounting steps called extraordinary measures, and Congress has to act again.",
+   "say": "When the room runs out, the Treasury uses accounting steps called extraordinary measures, and Congress has to act again.",
+   "scene": {
+    "t": "list",
+    "title": "When the limit is hit",
+    "items": [
+     "Extraordinary measures",
+     "Congress raises or suspends"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If Congress never acted, the Treasury could run short of cash to pay every bill on time. That has never happened.",
+   "say": "If Congress never acted, the Treasury could run short of cash to pay every bill on time. That has never happened.",
+   "scene": {
+    "t": "hook",
+    "title": "The date to [watch]",
+    "prop": "tag",
+    "label": "X-DATE",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the long view. The Congressional Budget Office projects the debt held by the public as a share of GDP.",
+   "say": "Now the long view. The Congressional Budget Office projects the debt held by the public as a share of G D P.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "CONGRESSIONAL BUDGET OFFICE",
+    "label": "Feb 2026 outlook",
+    "caption": "Official projections"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It projected about 101% of GDP at the end of fiscal 2026.",
+   "say": "It projected about one hundred one percent of G D P at the end of fiscal twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Debt held by public, end FY2026 (proj.)",
+    "value": "101%",
+    "tone": "down",
+    "sub": "of GDP (CBO, Feb 2026)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The record is 106.1%, set in 1946 right after World War II.",
+   "say": "The record is one hundred six point one percent, set in nineteen forty-six, right after World War Two.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1946",
+      "Record: 106.1% of GDP"
+     ],
+     [
+      "2026",
+      "About 101% (projected)"
+     ],
+     [
+      "2030",
+      "107.7%: new record (proj.)"
+     ],
+     [
+      "2036",
+      "120% (projected)"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CBO projects that record falls in 2030, at 107.7%, and the ratio reaches 120% by 2036.",
+   "say": "C B O projects that record falls in twenty thirty, at one hundred seven point seven percent, and the ratio reaches one hundred twenty percent by twenty thirty-six.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "1946",
+      "Record: 106.1% of GDP"
+     ],
+     [
+      "2026",
+      "About 101% (projected)"
+     ],
+     [
+      "2030",
+      "107.7%: new record (proj.)"
+     ],
+     [
+      "2036",
+      "120% (projected)"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Projections can change with the economy and with new laws. They show the path if current law stays the same.",
+   "say": "Projections can change with the economy and with new laws. They show the path if current law stays the same.",
+   "scene": {
+    "t": "hook",
+    "title": "If current law [holds]",
+    "prop": "chart-up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After World War II, the ratio fell because the economy grew fast and budgets were close to balanced.",
+   "say": "After World War Two, the ratio fell because the economy grew fast and budgets were close to balanced.",
+   "scene": {
+    "t": "list",
+    "title": "How a debt ratio falls",
+    "items": [
+     "Faster growth",
+     "Smaller deficits",
+     "Lower rates"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Today, the choices on the table are the same three levers: taxes, spending, and growth.",
+   "say": "Today, the choices on the table are the same three levers: taxes, spending, and growth.",
+   "scene": {
+    "t": "split",
+    "title": "The levers",
+    "left": {
+     "title": "Budget",
+     "items": [
+      "Taxes",
+      "Spending"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Economy",
+     "items": [
+      "Growth",
+      "Interest rates"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Which mix is right is a political choice. We're just showing you the math.",
+   "say": "Which mix is right is a political choice. We're just showing you the math.",
+   "scene": {
+    "t": "hook",
+    "title": "We just show the [math]",
+    "prop": "paper",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: what it means for your money.",
+   "say": "Chapter six. What it means for your money.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, the government competes with everyone else for borrowed money.",
+   "say": "First, the government competes with everyone else for borrowed money.",
+   "scene": {
+    "t": "hook",
+    "title": "Competing for [loans]",
+    "prop": "bag",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When it borrows more, economists debate how much that pushes up rates on mortgages, car loans and business loans.",
+   "say": "When it borrows more, economists debate how much that pushes up rates on mortgages, car loans, and business loans.",
+   "scene": {
+    "t": "list",
+    "title": "Rates that can feel it",
+    "items": [
+     "Mortgages",
+     "Car loans",
+     "Business loans"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, every dollar spent on interest is a dollar not spent on roads, research or tax cuts.",
+   "say": "Second, every dollar spent on interest is a dollar not spent on roads, research, or tax cuts.",
+   "scene": {
+    "t": "split",
+    "title": "Interest vs everything else",
+    "left": {
+     "title": "Interest",
+     "items": [
+      "$970B in FY2025"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Other choices",
+     "items": [
+      "Roads",
+      "Research",
+      "Tax cuts"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, the flip side: higher rates on Treasuries also mean higher yields for savers who buy them.",
+   "say": "Third, the flip side: higher rates on Treasuries also mean higher yields for savers who buy them.",
+   "scene": {
+    "t": "hook",
+    "title": "Savers get the [yield]",
+    "prop": "pot",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One person's interest cost is another person's interest income.",
+   "say": "One person's interest cost is another person's interest income.",
+   "scene": {
+    "t": "compare",
+    "title": "Same interest, two sides",
+    "left": {
+     "label": "Government",
+     "value": "pays",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Lenders",
+     "value": "earn",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fourth, the headlines. When the debt limit gets close, markets watch Washington closely, and those deadlines can move rates.",
+   "say": "And fourth, the headlines. When the debt limit gets close, markets watch Washington closely, and those deadlines can move rates.",
+   "scene": {
+    "t": "news",
+    "headline": "Debt limit deadlines can rattle bond markets",
+    "source": "Past standoffs, 2011 and 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In May 2025, Moody's cut the US credit rating one notch, to Aa1, after S&P did in 2011 and Fitch in 2023.",
+   "say": "In May twenty twenty-five, Moody's cut the US credit rating one notch, to double-A-one, after S and P did in twenty eleven and Fitch in twenty twenty-three.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2011",
+      "S&P downgrade"
+     ],
+     [
+      "2023",
+      "Fitch downgrade"
+     ],
+     [
+      "May 2025",
+      "Moody's to Aa1"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "All three pointed to rising debt. A notch lower is still near the top of the scale.",
+   "say": "All three pointed to rising debt. A notch lower is still near the top of the scale.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Still a top-tier",
+     "rating, one notch",
+     "below the max"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The US has never defaulted on its debt, and Treasuries are still the benchmark safe asset.",
+   "say": "The US has never defaulted on its debt, and Treasuries are still the benchmark safe asset.",
+   "scene": {
+    "t": "stat",
+    "label": "Treasuries",
+    "value": "benchmark",
+    "tone": "up",
+    "sub": "the reference rate for global borrowing"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those downgrades haven't stopped investors from buying Treasuries at every auction so far.",
+   "say": "Those downgrades haven't stopped investors from buying Treasuries at every auction so far.",
+   "scene": {
+    "t": "hook",
+    "title": "Buyers still [show up]",
+    "prop": "bag",
+    "label": "AUCTION",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of this means panic. It means the interest line is worth watching.",
+   "say": "None of this means panic. It means the interest line is worth watching.",
+   "scene": {
+    "t": "hook",
+    "title": "Watch the [interest] line",
+    "prop": "chart-up",
+    "value": "$970B",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So watch three numbers: the deficit, the average interest rate, and debt as a share of GDP.",
+   "say": "So if you want to follow this story, watch three numbers: the deficit, the average interest rate, and debt as a share of G D P.",
+   "scene": {
+    "t": "list",
+    "title": "3 numbers to watch",
+    "items": [
+     "Yearly deficit",
+     "Average interest rate",
+     "Debt as % of GDP"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter seven: the recap.",
+   "say": "Chapter seven. The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The debt passed $40 trillion in August 2026, about $117,000 per person.",
+   "say": "The debt passed forty trillion dollars in August twenty twenty-six, about a hundred seventeen thousand per person.",
+   "scene": {
+    "t": "list",
+    "title": "The national debt in 5 lines",
+    "items": [
+     "$40.1T, ~$117K each",
+     "$32.4T public, $7.7T internal",
+     "Japan tops foreign",
+     "Interest $970B > defense"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About $32.4 trillion is held by the public, and $7.7 trillion is owed to government trust funds.",
+   "say": "About thirty-two point four trillion is held by the public, and seven point seven trillion is owed to government trust funds.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "The national debt in 5 lines",
+    "items": [
+     "$40.1T, ~$117K each",
+     "$32.4T public, $7.7T internal",
+     "Japan tops foreign",
+     "Interest $970B > defense"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Japan is the top foreign holder, not China.",
+   "say": "Japan is the top foreign holder, not China.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "The national debt in 5 lines",
+    "items": [
+     "$40.1T, ~$117K each",
+     "$32.4T public, $7.7T internal",
+     "Japan tops foreign",
+     "Interest $970B > defense"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Interest cost $970 billion in fiscal 2025, more than defense, as rates more than doubled.",
+   "say": "Interest cost nine hundred seventy billion dollars in fiscal twenty twenty-five, more than defense, as rates more than doubled.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "The national debt in 5 lines",
+    "items": [
+     "$40.1T, ~$117K each",
+     "$32.4T public, $7.7T internal",
+     "Japan tops foreign",
+     "Interest $970B > defense"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And CBO projects a new record share of GDP by 2030 if current law holds.",
+   "say": "And C B O projects a new record share of G D P by twenty thirty, if current law holds.",
+   "scene": {
+    "t": "stat",
+    "label": "Projected new record (CBO)",
+    "value": "107.7%",
+    "tone": "down",
+    "sub": "of GDP in FY2030"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The simple takeaway: the size is scary, but the interest bill is what really shapes the choices ahead.",
+   "say": "The simple takeaway: the size is scary, but the interest bill is what really shapes the choices ahead.",
+   "scene": {
+    "t": "hook",
+    "title": "It's the [interest]",
+    "prop": "coins",
+    "value": "$970B",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Who owns the $40 trillion national debt? And why the interest now beats defense",
+  "ig": "The biggest foreign lender to the US isn't China. Here's who owns $40 trillion of debt.",
+  "tiktok": "The biggest foreign lender to the US isn't China. The $40 trillion debt, explained.",
+  "yt_desc": "The US national debt passed $40 trillion on Aug 18, 2026, about $117,000 per person. This video explains the difference between the deficit and the debt, how the debt grew from $5.67 trillion in 2000, who holds it (government trust funds, the Federal Reserve, and foreign investors led by Japan, not China), and why net interest of $970 billion in fiscal 2025 cost more than national defense. We also cover the $41.1 trillion debt limit and CBO's projections, with worked examples.\n\nCHAPTERS\n\nSources: U.S. Treasury FiscalData (Debt to the Penny, Sept 25, 2026; Historical Debt Outstanding; Average Interest Rates, Aug 2026); CBO Monthly Budget Review FY2025 (Nov 2025); CBO Budget and Economic Outlook 2026-2036 (Feb 2026); Treasury TIC data (Apr 2026); Federal Reserve H.4.1 (Sept 2026); CBO Monthly Budget Review (Aug 2026); Committee for a Responsible Federal Budget (2025-2026); U.S. Census Bureau (Vintage 2025).\n\nNews and education, not financial advice.\n\n#nationaldebt #economy #personalfinance",
+  "tags": [
+   "national debt explained",
+   "us national debt",
+   "40 trillion debt",
+   "who owns us debt",
+   "interest on the national debt",
+   "debt ceiling",
+   "federal deficit",
+   "economics explained"
+  ]
+ }
+}
