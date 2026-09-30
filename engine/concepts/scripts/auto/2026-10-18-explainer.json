@@ -26,11 +26,12 @@
    "text": "In the US, a committee at the NBER makes the call.",
    "say": "In the US, a committee at the National Bureau of Economic Research makes the call.",
    "scene": {
-    "t": "building",
-    "kind": "store",
-    "name": "NBER",
-    "label": "Business Cycle Dating",
-    "caption": "They decide"
+    "t": "board",
+    "lines": [
+     "Who decides?",
+     "NBER Business Cycle",
+     "Dating Committee"
+    ]
    }
   },
   {
@@ -45,8 +46,8 @@
   },
   {
    "who": "ticker",
-   "text": "In 2022, GDP fell two quarters in a row, but no recession was called. They watch jobs, income and spending too.",
-   "say": "So in twenty twenty-two, G D P fell two quarters in a row, but no recession was called. They watch jobs, income and spending too.",
+   "text": "In 2022, GDP fell two quarters in a row, but no recession was called.",
+   "say": "So in twenty twenty-two, G D P fell two quarters in a row, but no recession was called.",
    "scene": {
     "t": "stat",
     "label": "Recessions called in 2022",
@@ -58,7 +59,7 @@
   {
    "who": "ticker",
    "text": "And the call comes late. The Great Recession began in Dec 2007. It was announced in Dec 2008.",
-   "say": "And the call comes late. The Great Recession began in December two thousand seven. It was announced a year later.",
+   "say": "And the call comes late. The Great Recession began in December two thousand seven, and was announced a year later.",
    "scene": {
     "t": "timeline",
     "events": [
