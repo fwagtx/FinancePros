@@ -1,0 +1,155 @@
+{
+ "series": "acorn",
+ "header": "Dividends,\nexplained with acorns",
+ "cover": {
+  "title": "Dividends, With Acorns",
+  "prop": "acorns",
+  "value": "4%?"
+ },
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "100 shares can pay you $200 a year. Here's the catch.",
+   "say": "A hundred shares can pay you two hundred dollars a year. Here's the catch.",
+   "scene": {
+    "t": "hook",
+    "title": "Paid for [owning]",
+    "prop": "acorns",
+    "value": "$200/yr",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel owns a piece of an oak. The oak shares acorns with its owners. That's a dividend.",
+   "say": "Squirrel owns a piece of an oak. The oak shares acorns with its owners. That's a dividend.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "tree",
+    "caption": "dividend = shared acorns"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "In money terms: a slice of company profit paid to shareholders, often every 3 months.",
+   "say": "In money terms, it's a slice of company profit paid to shareholders, often every three months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Dividend =",
+     "profit paid to owners",
+     "(often quarterly)"
+    ]
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "100 shares paying $0.50 a quarter = $50 a quarter, $200 a year.",
+   "say": "A hundred shares paying fifty cents a quarter? That's two hundred dollars a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "100 shares x $0.50",
+     "= $50 a quarter",
+     "x 4 = $200 a year"
+    ]
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "At $50 a share, the yield is $2 / $50 = 4%.",
+   "say": "At fifty dollars a share, that's a four percent yield.",
+   "scene": {
+    "t": "stat",
+    "label": "Dividend yield in the example",
+    "value": "4%",
+    "tone": "up",
+    "sub": "$2 a year / $50 share price"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Big US stocks pay less: the S&P 500 yielded about 1% in September 2026, near a record low.",
+   "say": "Big US stocks pay less. The S and P five hundred yielded about one percent in September twenty twenty-six, near a record low.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 dividend yield",
+    "value": "~1%",
+    "tone": "neutral",
+    "sub": "as of Sept 2026"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Payouts have grown: from $66.92 a share in 2022 to $78.92 in 2025.",
+   "say": "But payouts have grown, from about sixty-seven dollars a share in twenty twenty-two to seventy-nine in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 dividends per share",
+    "points": [
+     [
+      2022,
+      66.92
+     ],
+     [
+      2023,
+      70.3
+     ],
+     [
+      2024,
+      74.83
+     ],
+     [
+      2025,
+      78.92
+     ]
+    ],
+    "prefix": "$",
+    "end": "$78.92",
+    "color": "up"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Plot twist: on the ex-dividend date, the stock usually drops by about the dividend.",
+   "say": "Plot twist. On the ex-dividend date, the stock usually drops by about the dividend. The tree gets lighter.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "think",
+    "caption": "tree gets lighter",
+    "value": "-$0.50"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "So a dividend isn't free money. It's part of what you own, paid in cash, and it can be cut.",
+   "say": "So a dividend isn't free money. It's part of what you own, paid in cash. And it can be cut.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "basket",
+    "label": "NOT FREE MONEY"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained dividends. Squirrel would like one follow.",
+   "say": "Squirrel explained dividends. Squirrel would like one follow.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "What a dividend is, explained with acorns",
+  "ig": "100 shares can pay you $200 a year. Here's the catch.\nA dividend is a slice of profit paid to shareholders, often every quarter.\nExample: 100 shares x $0.50 a quarter = $200 a year. At $50 a share, that's a 4% yield.\nThe S&P 500 yielded about 1% in Sept 2026, and on the ex-dividend date a stock usually drops by about the dividend.\nSources: SEC Investor.gov, S&P Dow Jones Indices.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#dividends #investing101 #stocks #personalfinance #financeprostv",
+  "tiktok": "Dividends explained with acorns, and why they aren't free money. Not financial advice. #moneytok #personalfinance #dividends #investing #financeprostv",
+  "yt_desc": "What a dividend is, explained with acorns. A dividend is part of company profit paid to shareholders. Example: 100 shares x $0.50 a quarter = $200 a year. On the ex-dividend date the price usually drops by about the dividend (SEC Investor.gov). News and education, not financial advice.\n#Shorts #dividends #investing",
+  "tags": [
+   "what is a dividend",
+   "dividends explained",
+   "dividend yield",
+   "ex-dividend date",
+   "acorn economics"
+  ]
+ }
+}
