@@ -1,0 +1,1604 @@
+{
+ "id": "2026-11-16-lf-explained",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "EXPLAINED",
+ "cover": {
+  "title": "What Does the Fed Cost You?",
+  "prop": "fed",
+  "value": "+$975"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "12 people vote on the rate behind your credit card bill.",
+   "say": "Twelve people vote on the rate behind your credit card bill.",
+   "scene": {
+    "t": "hook",
+    "title": "[12] votes, your card rate",
+    "prop": "card",
+    "value": "12",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2026, they voted to raise rates for the first time since 2023.",
+   "say": "And in September twenty twenty-six, they voted to raise rates for the first time since twenty twenty-three.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed raises rates to 3.75%-4%, first hike since 2023",
+    "source": "Federal Reserve statement, Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When they took rates from near zero to 5.5%, mortgage rates went from about 3% to about 7%.",
+   "say": "When they took rates from near zero up to five and a half percent, average mortgage rates went from about three percent to about seven.",
+   "scene": {
+    "t": "compare",
+    "title": "30-year mortgage, yearly average",
+    "left": {
+     "label": "2021",
+     "value": "2.96%",
+     "tone": "up",
+     "sub": "Freddie Mac"
+    },
+    "right": {
+     "label": "2023",
+     "value": "6.81%",
+     "tone": "down",
+     "sub": "Freddie Mac"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $400,000 loan, that's about $975 more every month.",
+   "say": "On a four hundred thousand dollar loan, that's about nine hundred seventy-five dollars more, every single month.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra monthly payment, $400K loan",
+    "value": "+$975",
+    "tone": "down",
+    "sub": "3% vs 7%, 30-year fixed",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So who are these people, what do they actually control, and what don't they?",
+   "say": "So who are these people, what do they actually control, and what don't they?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who runs the Fed?",
+     "What does it control?",
+     "What doesn't it?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is the Federal Reserve, explained from zero.",
+   "say": "This is the Federal Reserve, explained from zero.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "est. 1913",
+    "caption": "Explained from zero",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What the Fed is",
+   "say": "Chapter one. What the Fed actually is.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What the Fed is"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Federal Reserve is America's central bank.",
+   "say": "The Federal Reserve is America's central bank.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Federal Reserve =",
+     "the US central bank"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the bank for banks and for the government, not for you and me.",
+   "say": "It's the bank for banks, and for the government. It's not a bank for you and me.",
+   "scene": {
+    "t": "split",
+    "title": "Who banks at the Fed",
+    "left": {
+     "title": "Yes",
+     "items": [
+      "banks",
+      "US Treasury"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No",
+     "items": [
+      "you",
+      "me"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Congress created it with the Federal Reserve Act, signed on December 23, 1913.",
+   "say": "Congress created it with the Federal Reserve Act, which President Woodrow Wilson signed on December twenty-third, nineteen thirteen.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1913",
+      "Federal Reserve Act signed"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before that, bank panics kept wiping out savers, and there was no lender of last resort.",
+   "say": "Before that, bank panics kept wiping people out, and there was nobody to lend to banks in an emergency.",
+   "scene": {
+    "t": "hook",
+    "title": "Bank [panics]",
+    "prop": "fire",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed isn't one building. It's 12 regional Federal Reserve Banks, plus a Board in Washington.",
+   "say": "The Fed isn't one building. It's twelve regional Federal Reserve Banks, plus a Board of Governors in Washington.",
+   "scene": {
+    "t": "stat",
+    "label": "Regional Federal Reserve Banks",
+    "value": "12",
+    "tone": "neutral",
+    "sub": "plus the Board of Governors in Washington, DC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's one in New York, Chicago, San Francisco, Atlanta, Dallas, and seven more cities.",
+   "say": "There's one in New York, Chicago, San Francisco, Atlanta, Dallas, and seven more cities.",
+   "scene": {
+    "t": "list",
+    "title": "Some of the 12 Fed banks",
+    "items": [
+     "New York",
+     "Chicago",
+     "San Francisco",
+     "Atlanta"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The regional banks also supervise banks, run payment systems, and handle the government's accounts.",
+   "say": "The regional banks also supervise banks, run payment systems, and handle the government's bank accounts.",
+   "scene": {
+    "t": "list",
+    "title": "What regional Fed banks do",
+    "items": [
+     "Supervise banks",
+     "Run payment systems",
+     "Government's accounts"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Member banks hold stock in their regional Fed, but that stock doesn't buy control, and dividends are capped by law.",
+   "say": "Member banks hold stock in their regional Fed, but that stock doesn't buy them control, and the dividends are capped by law.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Banks own the stock",
+     "but not the steering wheel"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Board has 7 governors, each appointed for a 14-year term.",
+   "say": "The Board has seven governors, and each one is appointed for a fourteen-year term.",
+   "scene": {
+    "t": "stat",
+    "label": "Board of Governors",
+    "value": "7",
+    "tone": "neutral",
+    "sub": "14-year terms"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The President nominates them, and the Senate has to confirm them.",
+   "say": "The President nominates them, and the Senate has to confirm them.",
+   "scene": {
+    "t": "list",
+    "title": "How governors get the job",
+    "items": [
+     "President nominates",
+     "Senate confirms"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those long terms are on purpose: they outlast any one President.",
+   "say": "Those long terms are on purpose. They outlast any one President.",
+   "scene": {
+    "t": "compare",
+    "title": "Term length",
+    "left": {
+     "label": "President",
+     "value": "4 yrs",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Fed governor",
+     "value": "14 yrs",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The idea is to keep day-to-day politics away from interest rates.",
+   "say": "The idea is to keep day-to-day politics at arm's length from interest rates.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Long terms =",
+     "some distance from",
+     "day-to-day politics"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The chair serves a 4-year term. Kevin Warsh took the job in May 2026, after Jerome Powell.",
+   "say": "The chair serves a four-year term. Kevin Warsh took the job in May twenty twenty-six, after Jerome Powell.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2018",
+      "Powell becomes chair"
+     ],
+     [
+      "May 2026",
+      "Warsh becomes chair"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, the 12 people from the opening: that's the FOMC, the Federal Open Market Committee.",
+   "say": "Now, those twelve people from the opening? That's the F O M C, the Federal Open Market Committee.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "FOMC =",
+     "Federal Open",
+     "Market Committee"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the 7 governors, plus the president of the New York Fed, plus 4 other regional presidents who rotate.",
+   "say": "It's the seven governors, plus the president of the New York Fed, plus four other regional presidents who take turns.",
+   "scene": {
+    "t": "list",
+    "title": "The 12 FOMC votes",
+    "items": [
+     "7 governors",
+     "New York Fed president",
+     "4 rotating presidents"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They meet 8 times a year, and every meeting ends with a decision on rates.",
+   "say": "They meet eight times a year, and every meeting ends with a decision on rates.",
+   "scene": {
+    "t": "stat",
+    "label": "Scheduled FOMC meetings a year",
+    "value": "8",
+    "tone": "neutral",
+    "sub": "statement at 2 PM Eastern"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The job",
+   "say": "Chapter two. The job.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The job"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Congress gave the Fed its job in 1977: maximum employment and stable prices.",
+   "say": "In nineteen seventy-seven, Congress spelled out the Fed's job: maximum employment and stable prices.",
+   "scene": {
+    "t": "split",
+    "title": "The dual mandate",
+    "left": {
+     "title": "Jobs",
+     "items": [
+      "maximum employment"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Prices",
+     "items": [
+      "stable prices"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People call it the dual mandate. The law also mentions moderate long-term interest rates.",
+   "say": "People call it the dual mandate. The law also mentions moderate long-term interest rates, but jobs and prices get the attention.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The dual mandate",
+     "jobs + stable prices"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stable prices doesn't mean zero inflation. Since 2012, the Fed's goal has been 2% a year.",
+   "say": "Stable prices doesn't mean zero inflation. Since twenty twelve, the Fed's official goal has been two percent a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed inflation goal (since 2012)",
+    "value": "2%",
+    "tone": "neutral",
+    "sub": "measured with the PCE price index"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's favorite inflation gauge isn't the CPI. It's the PCE price index from the Commerce Department.",
+   "say": "The Fed's favorite inflation gauge actually isn't the C P I. It's the P C E price index from the Commerce Department.",
+   "scene": {
+    "t": "compare",
+    "title": "Two inflation gauges",
+    "left": {
+     "label": "CPI",
+     "value": "BLS",
+     "tone": "neutral",
+     "sub": "headline news"
+    },
+    "right": {
+     "label": "PCE",
+     "value": "BEA",
+     "tone": "up",
+     "sub": "Fed's target"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why not zero? A little inflation gives the Fed room to cut rates when things go wrong.",
+   "say": "Why not zero? A little inflation gives the Fed room to cut rates when the economy gets into trouble.",
+   "scene": {
+    "t": "hook",
+    "title": "Why not [zero]?",
+    "prop": "chart-up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And outright falling prices can make people wait to buy, which can slow the whole economy.",
+   "say": "And falling prices can make people hold off on buying, which can slow the whole economy down.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Falling prices ->",
+     "people wait to buy ->",
+     "economy slows"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the catch: the two goals can pull in opposite directions.",
+   "say": "Here's the catch. Those two goals can pull in opposite directions.",
+   "scene": {
+    "t": "hook",
+    "title": "Two goals, one [lever]",
+    "prop": "fed",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Raise rates to fight inflation, and you risk slowing hiring. Cut rates to help jobs, and you risk more inflation.",
+   "say": "Raise rates to fight inflation, and you risk slowing hiring. Cut rates to help jobs, and you risk more inflation.",
+   "scene": {
+    "t": "compare",
+    "title": "The trade-off",
+    "left": {
+     "label": "Raise rates",
+     "value": "cool",
+     "tone": "neutral",
+     "sub": "prices, maybe jobs"
+    },
+    "right": {
+     "label": "Cut rates",
+     "value": "heat",
+     "tone": "neutral",
+     "sub": "jobs, maybe prices"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of August 2026, consumer prices were up 3.4% from a year earlier, above that 2% goal.",
+   "say": "As of August twenty twenty-six, consumer prices were up three point four percent from a year earlier. That's well above the two percent goal.",
+   "scene": {
+    "t": "stat",
+    "label": "CPI, 12 months to Aug 2026",
+    "value": "3.4%",
+    "tone": "down",
+    "sub": "BLS, released Sept 11, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A big driver: gasoline, up 27.4% in a year. Core inflation, without food and energy, was 2.4%.",
+   "say": "A big driver was gasoline, up twenty-seven point four percent in a year. Core inflation, which leaves out food and energy, was two point four percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Aug 2026, 12-month change",
+    "left": {
+     "label": "Gasoline",
+     "value": "+27.4%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Core CPI",
+     "value": "+2.4%",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the backdrop for the September 2026 hike.",
+   "say": "That's the backdrop for the September twenty twenty-six hike.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75%-4.00%",
+    "caption": "Sept 16, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: The main lever",
+   "say": "Chapter three. The main lever.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The main lever"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's headline tool is the federal funds rate.",
+   "say": "The Fed's headline tool is something called the federal funds rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Federal funds rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the rate banks charge each other for overnight loans.",
+   "say": "It's the interest rate banks charge each other for overnight loans.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Federal funds rate =",
+     "what banks charge",
+     "each other overnight"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed doesn't set one number. It sets a target range, like 3.75% to 4%.",
+   "say": "The Fed doesn't set one exact number. It sets a target range, like three and three quarters to four percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed funds target range",
+    "value": "3.75-4%",
+    "tone": "neutral",
+    "sub": "after the Sept 16, 2026 meeting"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it steers the market into that range with a few tools.",
+   "say": "Then it steers the market into that range with a few tools.",
+   "scene": {
+    "t": "list",
+    "title": "How the Fed steers",
+    "items": [
+     "Interest on reserves",
+     "Reverse repo rate",
+     "Discount window"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The big one: the Fed pays banks interest on money they park at the Fed.",
+   "say": "The big one is that the Fed pays banks interest on money they park at the Fed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Interest on reserves:",
+     "why lend for less",
+     "than the Fed pays?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No bank wants to lend to another bank for less than the Fed pays it to sit still.",
+   "say": "No bank wants to lend to another bank for less than the Fed pays it to just sit still.",
+   "scene": {
+    "t": "hook",
+    "title": "A [floor] under rates",
+    "prop": "bag",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Banks can also borrow straight from the Fed at the discount window, usually at a higher rate. It's the emergency backstop.",
+   "say": "Banks can also borrow straight from the Fed at the discount window, usually at a higher rate. Think of it as the emergency backstop.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "discount window",
+    "caption": "The emergency backstop"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's where the top of the range sat at the end of each year since 2015, and in September 2026.",
+   "say": "Here's where the top of that range sat at the end of each year since twenty fifteen, and in September twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Fed funds upper bound (year-end; 2026 = Sept)",
+    "points": [
+     [
+      2015,
+      0.5
+     ],
+     [
+      2016,
+      0.75
+     ],
+     [
+      2017,
+      1.5
+     ],
+     [
+      2018,
+      2.5
+     ],
+     [
+      2019,
+      1.75
+     ],
+     [
+      2020,
+      0.25
+     ],
+     [
+      2021,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      4.5
+     ],
+     [
+      2025,
+      3.75
+     ],
+     [
+      2026,
+      4.0
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.00%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Near zero in 2020 and 2021, then up to 5.5% by the end of 2023.",
+   "say": "Near zero in twenty twenty and twenty twenty-one, then all the way up to five and a half percent by the end of twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Fed funds upper bound (year-end; 2026 = Sept)",
+    "points": [
+     [
+      2015,
+      0.5
+     ],
+     [
+      2016,
+      0.75
+     ],
+     [
+      2017,
+      1.5
+     ],
+     [
+      2018,
+      2.5
+     ],
+     [
+      2019,
+      1.75
+     ],
+     [
+      2020,
+      0.25
+     ],
+     [
+      2021,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      4.5
+     ],
+     [
+      2025,
+      3.75
+     ],
+     [
+      2026,
+      4.0
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.00%",
+    "color": "up",
+    "note": {
+     "x": 2023,
+     "text": "5.5% peak"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three cuts late in 2025 brought it to 3.5% to 3.75%. Then September 2026 added a quarter point.",
+   "say": "Three cuts late in twenty twenty-five brought the top of the range down to three and three quarters. Then September twenty twenty-six added a quarter point back.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Sept 2025",
+      "cut to 4-4.25%"
+     ],
+     [
+      "Oct 2025",
+      "cut to 3.75-4%"
+     ],
+     [
+      "Dec 2025",
+      "cut to 3.5-3.75%"
+     ],
+     [
+      "Sept 2026",
+      "hike to 3.75-4%"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rates can change at any meeting. More decisions were scheduled for October 28 and December 9, 2026, so always check the latest one.",
+   "say": "And rates can change at any meeting. More decisions were scheduled for October twenty-eighth and December ninth, so always check the latest one.",
+   "scene": {
+    "t": "list",
+    "title": "Later 2026 decisions",
+    "items": [
+     "Oct 28",
+     "Dec 9"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how does a rate between banks reach your wallet? Through a chain.",
+   "say": "So how does a rate between banks reach your wallet? Through a chain.",
+   "scene": {
+    "t": "hook",
+    "title": "From the Fed to [you]",
+    "prop": "card",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit cards feel it fastest. Most card rates follow the prime rate.",
+   "say": "Credit cards feel it fastest, because most card rates follow the prime rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Card APR =",
+     "prime rate + margin"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By convention, prime is the top of the Fed's range plus 3 points. After September 2026, that's 7%.",
+   "say": "By convention, prime is the top of the Fed's range plus three points. After September twenty twenty-six, that's seven percent.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Fed range top",
+     "value": "4%"
+    },
+    "to": {
+     "label": "Prime rate",
+     "value": "7%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A quarter-point hike on a $5,000 card balance adds about $12.50 a year in interest.",
+   "say": "A quarter-point hike on a five thousand dollar card balance adds about twelve dollars and fifty cents a year in interest.",
+   "scene": {
+    "t": "stat",
+    "label": "+0.25 pt on a $5,000 balance",
+    "value": "+$12.50",
+    "tone": "down",
+    "sub": "per year: $5,000 x 0.25%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Small on its own. But hikes stack: from 2022 to 2023, the range rose 5.25 points.",
+   "say": "That's small on its own. But hikes stack up. From early twenty twenty-two to mid twenty twenty-three, the range rose five and a quarter points.",
+   "scene": {
+    "t": "stat",
+    "label": "Total hikes, 2022-2023",
+    "value": "+5.25 pts",
+    "tone": "down",
+    "sub": "0-0.25% to 5.25-5.5%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Savings accounts move too, just usually slower, and not always all the way.",
+   "say": "Savings rates move too, just usually slower, and not always all the way.",
+   "scene": {
+    "t": "split",
+    "title": "When the Fed hikes",
+    "left": {
+     "title": "Moves fast",
+     "items": [
+      "card APRs",
+      "HELOCs"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Moves slower",
+     "items": [
+      "savings rates",
+      "CDs"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even with the Fed's range near 4%, the FDIC's national average savings rate was just 0.37% in September 2026.",
+   "say": "Even with the Fed's range near four percent, the F D I C's national average savings rate was just zero point three seven percent in September twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg savings rate, Sept 2026",
+    "value": "0.37%",
+    "tone": "down",
+    "sub": "FDIC national rate"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgages are different. The Fed doesn't set them.",
+   "say": "Mortgages are different. The Fed doesn't set them at all.",
+   "scene": {
+    "t": "hook",
+    "title": "Mortgages: [not] set by the Fed",
+    "prop": "house",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "30-year mortgage rates follow long-term bond yields, which react to where investors expect rates and inflation to go.",
+   "say": "Thirty-year mortgage rates follow long-term bond yields, which react to where investors expect rates and inflation to go.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mortgage rates follow",
+     "10-year Treasury yields",
+     "+ a spread"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why mortgage rates can move before the Fed does, or even in the opposite direction.",
+   "say": "That's why mortgage rates can move before the Fed does, or even the opposite way.",
+   "scene": {
+    "t": "hook",
+    "title": "Can move [before] the Fed",
+    "prop": "chart-down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the big picture holds. Freddie Mac's average 30-year rate was 2.96% in 2021 and 6.81% in 2023.",
+   "say": "But the big picture holds. Freddie Mac's average thirty-year rate was two point nine six percent in twenty twenty-one, and six point eight one percent in twenty twenty-three.",
+   "scene": {
+    "t": "compare",
+    "title": "30-year mortgage, yearly average",
+    "left": {
+     "label": "2021",
+     "value": "2.96%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "2023",
+     "value": "6.81%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's do the math on a $400,000, 30-year loan at 3% versus 7%.",
+   "say": "Let's do the math on a four hundred thousand dollar, thirty-year loan at three percent, versus seven percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$400,000 loan",
+     "30 years, fixed",
+     "3% vs 7%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 3%, the payment is $1,686.42 a month. At 7%, it's $2,661.21.",
+   "say": "At three percent, the payment is about sixteen hundred eighty-six dollars a month. At seven percent, it's about twenty-six hundred sixty-one.",
+   "scene": {
+    "t": "compare",
+    "title": "Monthly payment, $400K",
+    "left": {
+     "label": "At 3%",
+     "value": "$1,686",
+     "tone": "up"
+    },
+    "right": {
+     "label": "At 7%",
+     "value": "$2,661",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $974.79 more every month, for the same house.",
+   "say": "That's about nine hundred seventy-five dollars more every month, for the exact same house.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "title": "Monthly payment, $400K",
+    "left": {
+     "label": "At 3%",
+     "value": "$1,686",
+     "tone": "up"
+    },
+    "right": {
+     "label": "At 7%",
+     "value": "$2,661",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 30 years, total interest goes from about $207,000 to about $558,000.",
+   "say": "Over thirty years, total interest goes from about two hundred seven thousand dollars to about five hundred fifty-eight thousand.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Interest at 3%",
+     "value": "$207K"
+    },
+    "to": {
+     "label": "Interest at 7%",
+     "value": "$558K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That gap, about $351,000, is why every Fed meeting makes headlines.",
+   "say": "That gap, about three hundred fifty-one thousand dollars, is why every Fed meeting makes headlines.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra interest over 30 years",
+    "value": "$351K",
+    "tone": "down",
+    "sub": "$558,036 - $207,110",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Fighting inflation",
+   "say": "Chapter four. Fighting inflation.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Fighting inflation"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why would raising rates lower prices? Because it makes borrowing and spending more expensive.",
+   "say": "So why would raising rates lower prices? Because it makes borrowing, and spending, more expensive.",
+   "scene": {
+    "t": "list",
+    "title": "How hikes cool prices",
+    "items": [
+     "Loans cost more",
+     "People borrow less",
+     "Spending slows",
+     "Price growth eases"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It works slowly. Economists often say policy acts with long and variable lags.",
+   "say": "It works slowly. Economists like to say policy acts with long and variable lags.",
+   "scene": {
+    "t": "hook",
+    "title": "Long, variable [lags]",
+    "prop": "box",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The most famous fight was around 1980. Inflation hit 14.8% in March 1980.",
+   "say": "The most famous fight happened around nineteen eighty, when inflation hit fourteen point eight percent in March of that year.",
+   "scene": {
+    "t": "stat",
+    "label": "CPI inflation, March 1980",
+    "value": "14.8%",
+    "tone": "down",
+    "sub": "12-month change, BLS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fed chair Paul Volcker pushed the fed funds rate to about 20%.",
+   "say": "Fed chair Paul Volcker pushed the federal funds rate to around twenty percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed funds rate, 1980-81 peak",
+    "value": "~20%",
+    "tone": "down",
+    "sub": "Volcker era"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It worked, but it came with deep recessions in 1980 and 1981-82.",
+   "say": "It worked, but it came with painful recessions in nineteen eighty, and again in nineteen eighty-one and eighty-two.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1980",
+      "inflation 14.8%"
+     ],
+     [
+      "1980-82",
+      "two recessions"
+     ],
+     [
+      "1983",
+      "inflation near 3%"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The next big test came in 2022, when inflation hit 9.1% in June, a 40-year high.",
+   "say": "The next big test came in twenty twenty-two, when inflation hit nine point one percent in June. That was a forty-year high.",
+   "scene": {
+    "t": "stat",
+    "label": "CPI inflation, June 2022",
+    "value": "9.1%",
+    "tone": "down",
+    "sub": "highest since 1981"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed responded with 7 hikes in 2022, including 4 in a row of three-quarters of a point.",
+   "say": "The Fed responded with seven hikes in twenty twenty-two, including four straight three-quarter-point hikes.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed rate hikes in 2022",
+    "value": "7",
+    "tone": "down",
+    "sub": "four straight 0.75-pt hikes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what inflation did at the end of each year since 2019.",
+   "say": "Here's what inflation did at the end of each year since twenty nineteen.",
+   "scene": {
+    "t": "chart",
+    "title": "CPI, 12-month change (December)",
+    "points": [
+     [
+      2019,
+      2.3
+     ],
+     [
+      2020,
+      1.4
+     ],
+     [
+      2021,
+      7.0
+     ],
+     [
+      2022,
+      6.5
+     ],
+     [
+      2023,
+      3.4
+     ],
+     [
+      2024,
+      2.9
+     ],
+     [
+      2025,
+      2.7
+     ]
+    ],
+    "suffix": "%",
+    "end": "2.7%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It fell from 7% at the end of 2021 to 2.7% at the end of 2025.",
+   "say": "It fell from seven percent at the end of twenty twenty-one to two point seven percent at the end of twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "CPI, 12-month change (December)",
+    "points": [
+     [
+      2019,
+      2.3
+     ],
+     [
+      2020,
+      1.4
+     ],
+     [
+      2021,
+      7.0
+     ],
+     [
+      2022,
+      6.5
+     ],
+     [
+      2023,
+      3.4
+     ],
+     [
+      2024,
+      2.9
+     ],
+     [
+      2025,
+      2.7
+     ]
+    ],
+    "suffix": "%",
+    "end": "2.7%",
+    "color": "down",
+    "note": {
+     "x": 2021,
+     "text": "7.0% in Dec 2021"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And unemployment didn't spike the way it did in the early 1980s. That was the soft-landing hope.",
+   "say": "And unemployment didn't spike the way it did in the early nineteen eighties. That was the soft-landing hope.",
+   "scene": {
+    "t": "hook",
+    "title": "The [soft] landing",
+    "prop": "chart-down",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But by August 2026, inflation was back up to 3.4%, and the Fed turned around and hiked.",
+   "say": "But by August twenty twenty-six, inflation was back up to three point four percent, and the Fed turned around and hiked again.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Dec 2025 CPI",
+     "value": "2.7%"
+    },
+    "to": {
+     "label": "Aug 2026 CPI",
+     "value": "3.4%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the whole job in one picture: read the data, make a call, and live with the lag.",
+   "say": "That's the whole job in one picture. Read the data, make a call, and live with the lag.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Read the data",
+     "make a call",
+     "live with the lag"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: The money printer?",
+   "say": "Chapter five. The money printer?",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The money printer?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You've heard people say the Fed prints money. It's more complicated than that.",
+   "say": "You've probably heard people say the Fed prints money. It's a bit more complicated than that.",
+   "scene": {
+    "t": "hook",
+    "title": "Does the Fed [print] money?",
+    "prop": "bill",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paper bills are printed by the Treasury's Bureau of Engraving and Printing.",
+   "say": "The paper bills themselves are printed by the Treasury's Bureau of Engraving and Printing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paper bills:",
+     "Bureau of Engraving",
+     "and Printing (Treasury)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What the Fed creates is electronic money, called reserves, when it buys bonds.",
+   "say": "What the Fed creates is electronic money, called reserves, when it buys bonds.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fed buys bonds ->",
+     "pays with new reserves"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Buying lots of bonds is called quantitative easing, or QE. Letting them shrink is QT.",
+   "say": "Buying lots of bonds is called quantitative easing, or Q E. Letting them roll off and shrink is called Q T.",
+   "scene": {
+    "t": "split",
+    "title": "The balance sheet",
+    "left": {
+     "title": "QE",
+     "items": [
+      "buy bonds",
+      "add reserves"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "QT",
+     "items": [
+      "let bonds mature",
+      "drain reserves"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2020, QE went into overdrive. Fed assets went from about $4.2 trillion in early 2020 to nearly $9 trillion in 2022.",
+   "say": "In twenty twenty, Q E went into overdrive. Fed assets went from about four point two trillion dollars in early twenty twenty to nearly nine trillion in twenty twenty-two.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Early 2020",
+     "value": "$4.2T"
+    },
+    "to": {
+     "label": "2022 peak",
+     "value": "~$9T"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of September 23, 2026, the Fed held about $6.7 trillion in assets.",
+   "say": "As of September twenty-third, twenty twenty-six, the Fed held about six point seven trillion dollars in assets.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed total assets, Sept 23, 2026",
+    "value": "$6.7T",
+    "tone": "neutral",
+    "sub": "Federal Reserve H.4.1"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mostly Treasury bonds, about $4.6 trillion, and mortgage-backed securities, about $1.9 trillion.",
+   "say": "That's mostly Treasury bonds, about four point six trillion, and mortgage-backed securities, about one point nine trillion.",
+   "scene": {
+    "t": "compare",
+    "title": "What the Fed holds (Sept 2026)",
+    "left": {
+     "label": "Treasuries",
+     "value": "$4.6T",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Mortgage bonds",
+     "value": "$1.9T",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a surprise: from late 2022 through 2025, the Fed lost money.",
+   "say": "Here's a surprise. From late twenty twenty-two through twenty twenty-five, the Fed actually lost money.",
+   "scene": {
+    "t": "hook",
+    "title": "The Fed [loses] money?",
+    "prop": "chart-down",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It paid banks more on reserves than it earned on older, low-rate bonds.",
+   "say": "It paid banks more interest on reserves than it earned on a lot of older, low-rate bonds.",
+   "scene": {
+    "t": "compare",
+    "title": "The Fed's squeeze (2022-2025)",
+    "left": {
+     "label": "Paid on reserves",
+     "value": "high",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Earned on old bonds",
+     "value": "low",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It booked those losses as a deferred asset: $243 billion at the end of September 2025. With profits back in 2026, it has started to shrink.",
+   "say": "It booked those losses as something called a deferred asset, which stood at two hundred forty-three billion dollars at the end of September twenty twenty-five. With profits back in twenty twenty-six, it's started to shrink.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed deferred asset, Q3 2025",
+    "value": "$243B",
+    "tone": "down",
+    "sub": "Federal Reserve"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Until it earns that back, the Fed doesn't send its usual profits to the Treasury.",
+   "say": "Until it earns that back, the Fed doesn't send its usual profits to the Treasury.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Before 2022: profits",
+     "sent to the Treasury",
+     "Now: paused"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed says these losses don't affect its ability to run policy. But skipped payments to the Treasury are a real cost to taxpayers.",
+   "say": "The Fed says these losses don't affect its ability to run policy. But skipped payments to the Treasury are a real cost to taxpayers.",
+   "scene": {
+    "t": "split",
+    "title": "The losses",
+    "left": {
+     "title": "Fed's view",
+     "items": [
+      "policy unaffected"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Real cost",
+     "items": [
+      "no payments",
+      "to the Treasury"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap",
+   "say": "Chapter six. The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed is America's central bank, created in 1913: 12 regional banks and a 7-member Board.",
+   "say": "The Fed is America's central bank, created in nineteen thirteen, with twelve regional banks and a seven-member Board.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Created 1913",
+     "12 banks, 7 governors",
+     "12 FOMC votes",
+     "2% inflation goal"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Twelve FOMC members vote on rates 8 times a year.",
+   "say": "Twelve F O M C members vote on rates eight times a year.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Created 1913",
+     "12 banks, 7 governors",
+     "12 FOMC votes",
+     "2% inflation goal"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its job is maximum employment and stable prices, with a 2% inflation goal.",
+   "say": "Its job is maximum employment and stable prices, with a two percent inflation goal.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Created 1913",
+     "12 banks, 7 governors",
+     "12 FOMC votes",
+     "2% inflation goal"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its main lever is the fed funds rate: 3.75% to 4% after the September 2026 meeting.",
+   "say": "Its main lever is the federal funds rate, which was three and three quarters to four percent after the September twenty twenty-six meeting.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed funds range, Sept 16, 2026",
+    "value": "3.75-4%",
+    "tone": "neutral",
+    "sub": "can change at any meeting"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That flows fast into credit cards through prime, and slower into savings.",
+   "say": "That flows quickly into credit cards through the prime rate, and more slowly into savings.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Fed range top (Sept 2026)",
+     "value": "4%"
+    },
+    "to": {
+     "label": "Prime (Sept 2026)",
+     "value": "7%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgages follow bond markets, but the Fed's path still shapes them.",
+   "say": "Mortgages follow the bond market, but the Fed's path still shapes them.",
+   "scene": {
+    "t": "hook",
+    "title": "Bonds lead, Fed [shapes]",
+    "prop": "house"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And on a $400,000 loan, 3% versus 7% is about $975 a month.",
+   "say": "And on a four hundred thousand dollar loan, three percent versus seven percent is about nine hundred seventy-five dollars a month.",
+   "scene": {
+    "t": "stat",
+    "label": "$400K, 30-year: 3% vs 7%",
+    "value": "+$975/mo",
+    "tone": "down",
+    "sub": "$2,661.21 - $1,686.42"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So next time you hear 'the Fed moved rates,' you'll know who decided, and how it reaches you.",
+   "say": "So next time you hear that the Fed moved rates, you'll know who decided it, and exactly how it reaches you.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who decides: FOMC",
+     "How it reaches you:",
+     "cards, savings, loans"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "The Federal Reserve, explained from zero: who sets rates and how they hit your wallet",
+  "ig": "Twelve people vote on the rate behind your credit card bill. Here's how the Fed works.",
+  "tiktok": "Twelve people vote on the rate behind your credit card bill. The Fed, explained from zero.",
+  "yt_desc": "The Federal Reserve is America's central bank: 12 regional banks, a 7-member Board, and a 12-member committee that sets interest rates 8 times a year. On September 16, 2026 it raised its target range to 3.75%-4%, its first hike since 2023, with inflation at 3.4% in August 2026. We walk through the dual mandate, how the fed funds rate reaches credit cards, savings and mortgages, the math on a $400,000 mortgage at 3% vs 7%, the 1980 and 2022 inflation fights, and the Fed's $6.7 trillion balance sheet.\n\nCHAPTERS\n\nSources: Federal Reserve FOMC statement (Sept 16, 2026); Federal Reserve H.4.1 (Sept 2026); BLS CPI (Sept 11, 2026; Jan 13, 2026); Freddie Mac PMMS; Federal Reserve Act (1913); Federal Reserve Reform Act (1977); Federal Reserve financial reports (2025).\n\nNews and education, not financial advice.\n\n#federalreserve #interestrates #economics",
+  "tags": [
+   "federal reserve explained",
+   "how the fed works",
+   "interest rates",
+   "fed funds rate",
+   "inflation",
+   "FOMC",
+   "mortgage rates",
+   "economics explained"
+  ]
+ }
+}
