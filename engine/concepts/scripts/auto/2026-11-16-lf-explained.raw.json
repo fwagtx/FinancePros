@@ -2,19 +2,19 @@
  "series": "ticker",
  "header": "EXPLAINED",
  "cover": {
-  "title": "Who Sets Your Rates?",
+  "title": "What the Fed Costs You?",
   "prop": "fed",
   "value": "+$975"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "12 people in one room decide what your loans cost.",
-   "say": "Twelve people in one room decide what your loans cost.",
+   "text": "12 people vote on the rate behind your credit card bill.",
+   "say": "Twelve people vote on the rate behind your credit card bill.",
    "scene": {
     "t": "hook",
-    "title": "[12] people set your rates",
-    "prop": "fed",
+    "title": "[12] votes, your card rate",
+    "prop": "card",
     "value": "12",
     "mood": "shock"
    }
@@ -31,8 +31,8 @@
   },
   {
    "who": "ticker",
-   "text": "When they moved rates from near zero to 5.5%, mortgage rates went from about 3% to about 7%.",
-   "say": "The last time they pushed rates from near zero up to five and a half percent, average mortgage rates went from about three percent to about seven.",
+   "text": "And when they took rates from near zero to 5.5%, mortgage rates went from about 3% to about 7%.",
+   "say": "And when they took rates from near zero up to five and a half percent, average mortgage rates went from about three percent to about seven.",
    "scene": {
     "t": "compare",
     "title": "30-year mortgage, yearly average",
@@ -176,8 +176,8 @@
   },
   {
    "who": "ticker",
-   "text": "There's one in New York, Chicago, San Francisco, Dallas, Atlanta, and seven more cities.",
-   "say": "There's one in New York, Chicago, San Francisco, Dallas, Atlanta, and seven more cities.",
+   "text": "There's one in New York, Chicago, San Francisco, Atlanta, Dallas, and seven more cities.",
+   "say": "There's one in New York, Chicago, San Francisco, Atlanta, Dallas, and seven more cities.",
    "scene": {
     "t": "list",
     "title": "Some of the 12 Fed banks",
@@ -185,7 +185,7 @@
      "New York",
      "Chicago",
      "San Francisco",
-     "Dallas"
+     "Atlanta"
     ],
     "reveal": 4
    }
@@ -615,7 +615,7 @@
    "say": "Here's where the top of that range sat at the end of each year since twenty fifteen.",
    "scene": {
     "t": "chart",
-    "title": "Fed funds target, upper bound (year-end)",
+    "title": "Fed funds upper bound (year-end; 2026 = Sept)",
     "points": [
      [
       2015,
@@ -682,7 +682,7 @@
      "x": 2023,
      "text": "5.5% peak"
     },
-    "title": "Fed funds target, upper bound (year-end)",
+    "title": "Fed funds upper bound (year-end; 2026 = Sept)",
     "points": [
      [
       2015,
@@ -741,7 +741,7 @@
   {
    "who": "ticker",
    "text": "Three cuts late in 2025 brought it to 3.5% to 3.75%. Then September 2026 added a quarter point.",
-   "say": "Three cuts late in twenty twenty-five brought the range to three and a half to three and three quarters. Then September twenty twenty-six added a quarter point back.",
+   "say": "Three cuts late in twenty twenty-five brought the top of the range down to three and three quarters. Then September twenty twenty-six added a quarter point back.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -767,14 +767,14 @@
   },
   {
    "who": "ticker",
-   "text": "Rates can change at any meeting. The next ones were set for October 27-28 and December 8-9, 2026.",
-   "say": "And rates can change at any meeting. The next ones were set for October twenty-seventh and twenty-eighth, and December eighth and ninth, twenty twenty-six.",
+   "text": "Rates can change at any meeting. The 2026 calendar also had meetings on October 28 and December 9, so always check the latest decision.",
+   "say": "And rates can change at any meeting. The twenty twenty-six calendar also had decisions on October twenty-eighth and December ninth, so always check the latest one.",
    "scene": {
     "t": "list",
-    "title": "Next FOMC meetings (2026)",
+    "title": "Later 2026 decisions",
     "items": [
-     "Oct 27-28",
-     "Dec 8-9"
+     "Oct 28",
+     "Dec 9"
     ],
     "reveal": 2
    }
@@ -869,8 +869,8 @@
   },
   {
    "who": "ticker",
-   "text": "Even after all those hikes, the FDIC's national average savings rate was just 0.37% in September 2026.",
-   "say": "Even after all those hikes, the F D I C's national average savings rate was just zero point three seven percent in September twenty twenty-six.",
+   "text": "Even with the Fed's range near 4%, the FDIC's national average savings rate was just 0.37% in September 2026.",
+   "say": "Even with the Fed's range near four percent, the F D I C's national average savings rate was just zero point three seven percent in September twenty twenty-six.",
    "scene": {
     "t": "stat",
     "label": "Avg savings rate, Sept 2026",
@@ -1114,7 +1114,7 @@
   {
    "who": "ticker",
    "text": "The Fed responded with 7 hikes in 2022, including 4 in a row of three-quarters of a point.",
-   "say": "The Fed responded with seven hikes in twenty twenty-two, including four in a row of three quarters of a point each.",
+   "say": "The Fed responded with seven hikes in twenty twenty-two, including four straight three-quarter-point hikes.",
    "scene": {
     "t": "stat",
     "label": "Fed rate hikes in 2022",
@@ -1373,8 +1373,8 @@
   },
   {
    "who": "ticker",
-   "text": "Here's a surprise: the Fed has been losing money since 2022.",
-   "say": "Here's a surprise. The Fed has actually been losing money since twenty twenty-two.",
+   "text": "Here's a surprise: from late 2022 through 2025, the Fed lost money.",
+   "say": "Here's a surprise. From late twenty twenty-two through twenty twenty-five, the Fed actually lost money.",
    "scene": {
     "t": "hook",
     "title": "The Fed [loses] money?",
@@ -1384,18 +1384,18 @@
   },
   {
    "who": "ticker",
-   "text": "It pays banks more on reserves than it earns on older, low-rate bonds.",
-   "say": "It pays banks more interest on reserves than it earns on a lot of older, low-rate bonds.",
+   "text": "It paid banks more on reserves than it earned on older, low-rate bonds.",
+   "say": "It paid banks more interest on reserves than it earned on a lot of older, low-rate bonds.",
    "scene": {
     "t": "compare",
-    "title": "The Fed's squeeze",
+    "title": "The Fed's squeeze (2022-2025)",
     "left": {
-     "label": "Pays on reserves",
+     "label": "Paid on reserves",
      "value": "high",
      "tone": "down"
     },
     "right": {
-     "label": "Earns on old bonds",
+     "label": "Earned on old bonds",
      "value": "low",
      "tone": "neutral"
     }
@@ -1403,8 +1403,8 @@
   },
   {
    "who": "ticker",
-   "text": "It books those losses as a deferred asset: $243 billion at the end of September 2025.",
-   "say": "It records those losses as something called a deferred asset, which stood at two hundred forty-three billion dollars at the end of September twenty twenty-five.",
+   "text": "It booked those losses as a deferred asset: $243 billion at the end of September 2025. With profits back in 2026, it has started to shrink.",
+   "say": "It booked those losses as something called a deferred asset, which stood at two hundred forty-three billion dollars at the end of September twenty twenty-five. With profits back in twenty twenty-six, it's started to shrink.",
    "scene": {
     "t": "stat",
     "label": "Fed deferred asset, Q3 2025",
@@ -1428,7 +1428,7 @@
   },
   {
    "who": "ticker",
-   "text": "The Fed says losses don't affect its ability to do its job. But it's a real cost to taxpayers.",
+   "text": "The Fed says these losses don't affect its ability to run policy. But skipped payments to the Treasury are a real cost to taxpayers.",
    "say": "The Fed says these losses don't affect its ability to run policy. But skipped payments to the Treasury are a real cost to taxpayers.",
    "scene": {
     "t": "split",
@@ -1529,11 +1529,11 @@
    "scene": {
     "t": "money",
     "from": {
-     "label": "Fed rate",
+     "label": "Fed range top (Sept 2026)",
      "value": "4%"
     },
     "to": {
-     "label": "Prime",
+     "label": "Prime (Sept 2026)",
      "value": "7%"
     }
    }
@@ -1585,9 +1585,9 @@
  ],
  "post": {
   "title": "The Federal Reserve, explained from zero: who sets rates and how they hit your wallet",
-  "ig": "12 people decide what your loans cost. Here's how the Fed actually works.",
-  "tiktok": "12 people decide what your loans cost. The Fed, explained from zero.",
-  "yt_desc": "The Federal Reserve is America's central bank: 12 regional banks, a 7-member Board, and a 12-member committee that sets interest rates 8 times a year. On September 16, 2026 it raised its target range to 3.75%-4%, the first hike since 2023, with inflation at 3.4% in August 2026. We walk through the dual mandate, how the fed funds rate reaches credit cards, savings and mortgages, the math on a $400,000 mortgage at 3% vs 7%, the 1980 and 2022 inflation fights, and the Fed's $6.7 trillion balance sheet.\n\nCHAPTERS\n\nSources: Federal Reserve FOMC statement (Sept 16, 2026); Federal Reserve H.4.1 (Sept 2026); BLS CPI (Sept 11, 2026; Jan 13, 2026); Freddie Mac PMMS; Federal Reserve Act (1913); Federal Reserve Reform Act (1977); Federal Reserve financial reports (2025).\n\nNews and education, not financial advice.\n\n#federalreserve #interestrates #economics",
+  "ig": "Twelve people vote on the rate behind your credit card bill. Here's how the Fed works.",
+  "tiktok": "Twelve people vote on the rate behind your credit card bill. The Fed, explained from zero.",
+  "yt_desc": "The Federal Reserve is America's central bank: 12 regional banks, a 7-member Board, and a 12-member committee that sets interest rates 8 times a year. On September 16, 2026 it raised its target range to 3.75%-4%, its first hike since 2023, with inflation at 3.4% in August 2026. We walk through the dual mandate, how the fed funds rate reaches credit cards, savings and mortgages, the math on a $400,000 mortgage at 3% vs 7%, the 1980 and 2022 inflation fights, and the Fed's $6.7 trillion balance sheet.\n\nCHAPTERS\n\nSources: Federal Reserve FOMC statement (Sept 16, 2026); Federal Reserve H.4.1 (Sept 2026); BLS CPI (Sept 11, 2026; Jan 13, 2026); Freddie Mac PMMS; Federal Reserve Act (1913); Federal Reserve Reform Act (1977); Federal Reserve financial reports (2025).\n\nNews and education, not financial advice.\n\n#federalreserve #interestrates #economics",
   "tags": [
    "federal reserve explained",
    "how the fed works",
