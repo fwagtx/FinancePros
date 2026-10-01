@@ -1,0 +1,159 @@
+{
+ "id": "2026-10-26-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Scam alert:\nAI voice clones",
+ "cover": {
+  "title": "Your Voice, Cloned in 3 Seconds",
+  "prop": "paper",
+  "label": "VOICE",
+  "value": "3 sec"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "That call from your crying grandkid? It might be an AI clone.",
+   "say": "That call from your crying grandkid? It might be an A I clone.",
+   "scene": {
+    "t": "hook",
+    "title": "Is that [really] them?",
+    "prop": "paper",
+    "label": "VOICE",
+    "value": "3 sec",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "McAfee found just 3 seconds of audio can make an 85% voice match.",
+   "say": "McAfee found just three seconds of audio can make an eighty-five percent voice match.",
+   "scene": {
+    "t": "stat",
+    "label": "Voice match from 3 seconds of audio",
+    "value": "85%",
+    "tone": "down",
+    "sub": "McAfee, Beware the Artificial Impostor (2023)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Scammers grab it from a video or voicemail, then call a parent or grandparent in a panicked voice.",
+   "say": "Scammers grab it from a video or a voicemail, then call a parent or grandparent in a panicked voice.",
+   "scene": {
+    "t": "list",
+    "title": "The script",
+    "items": [
+     "Crying voice",
+     "Accident or arrest",
+     "Keep it secret",
+     "Send money now"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In McAfee's survey, 1 in 4 adults had faced an AI voice scam or knew someone who had. 77% of victims lost money.",
+   "say": "In McAfee's survey, one in four adults had faced an AI voice scam, or knew someone who had. And seventy-seven percent of victims lost money.",
+   "scene": {
+    "t": "compare",
+    "title": "AI voice scams (McAfee, 2023)",
+    "left": {
+     "label": "Hit or knew someone",
+     "value": "1 in 4",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Victims who lost money",
+     "value": "77%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Imposter scams overall cost Americans a reported $3.5 billion in 2025, says the FTC.",
+   "say": "Imposter scams overall cost Americans a reported three point five billion dollars in twenty twenty-five, says the F T C.",
+   "scene": {
+    "t": "stat",
+    "label": "Reported imposter scam losses, 2025",
+    "value": "$3.5B",
+    "tone": "down",
+    "sub": "FTC, 1 million+ reports"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FBI's fix is low-tech: agree on a secret family code word.",
+   "say": "The F B I's fix is low-tech. Agree on a secret family code word.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Family code word",
+     "Ask for it on any",
+     "panic call"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No code word? Hang up and call them back on the number you already have.",
+   "say": "No code word? Hang up, and call them back on the number you already have.",
+   "scene": {
+    "t": "split",
+    "title": "Panic call?",
+    "left": {
+     "title": "Scammer wants",
+     "items": [
+      "Stay on the line",
+      "Pay now"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "You do",
+     "items": [
+      "Hang up",
+      "Call back"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And real family emergencies don't require gift cards, wires or crypto.",
+   "say": "And real family emergencies don't require gift cards, wires, or crypto.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay in gift cards? [No.]",
+    "prop": "card",
+    "label": "GIFT CARD",
+    "value": "SCAM",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "3 seconds of your voice can be enough to clone it",
+  "ig": "That call from your crying grandkid? It might be an AI clone.\n\nMcAfee: 3 seconds of audio can make an 85% voice match. 1 in 4 adults faced an AI voice scam or knew someone who had; 77% of victims lost money (2023).\nFTC: imposter scams cost a reported $3.5 billion in 2025.\nFBI: agree on a secret family code word. No code word? Hang up and call back.\n\nSources: McAfee (2023), FTC (2026), FBI PSA (Dec 2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #ai #voiceclone #personalfinance #financeprostv",
+  "tiktok": "3 seconds of audio can clone a voice. Set a family code word. Not financial advice. #moneytok #scamalert #ai #voiceclone #financeprostv",
+  "yt_desc": "McAfee found 3 seconds of audio can make an 85% voice match, and 77% of AI voice scam victims lost money. Imposter scams cost Americans a reported $3.5 billion in 2025 (FTC). The FBI suggests a secret family code word; or hang up and call back on a known number. Sources: McAfee (2023), FTC, FBI (Dec 2024).\n\nNews and education, not financial advice.\n\n#Shorts #scamalert #ai",
+  "tags": [
+   "ai voice scam",
+   "voice cloning scam",
+   "family emergency scam",
+   "scam alert",
+   "personal finance"
+  ]
+ }
+}
