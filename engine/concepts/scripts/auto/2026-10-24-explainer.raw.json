@@ -1,0 +1,158 @@
+{
+ "series": "ticker",
+ "header": "How banks create\nmoney when they lend",
+ "cover": {
+  "title": "Your Loan Is New Money",
+  "prop": "bill",
+  "label": "NOT CASH",
+  "value": "~90%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "About 90% of America's money was never printed.",
+   "say": "About ninety percent of America's money was never printed.",
+   "scene": {
+    "t": "hook",
+    "title": "Most money was never [printed]",
+    "prop": "bill",
+    "label": "NOT CASH",
+    "value": "~90%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August 2026, cash was $2.39 trillion. The money supply, M2, was $23.34 trillion. Cash is only about 10%.",
+   "say": "In August twenty twenty-six, cash was two point three nine trillion dollars. The money supply, called M two, was twenty-three point three four trillion. Cash is only about ten percent.",
+   "scene": {
+    "t": "compare",
+    "title": "US money, August 2026 (Fed)",
+    "left": {
+     "label": "Cash",
+     "value": "$2.39T",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "M2",
+     "value": "$23.34T",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of the rest is bank deposits. And banks create deposits when they lend.",
+   "say": "Most of the rest is bank deposits. And banks create deposits when they lend.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bank makes a loan",
+     "= new deposit appears",
+     "= new money"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not a conspiracy theory: the Bank of England spelled it out in 2014.",
+   "say": "This isn't a conspiracy theory. The Bank of England spelled it out in twenty fourteen.",
+   "scene": {
+    "t": "news",
+    "headline": "Money creation in the modern economy",
+    "source": "Bank of England Quarterly Bulletin, 2014 Q1"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say a bank lends you $20,000 for a car. It doesn't hand over someone's savings. It creates a new $20,000 deposit.",
+   "say": "Say a bank lends you twenty thousand dollars for a car. It doesn't hand over someone's savings. It creates a brand-new twenty thousand dollar deposit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You owe: $20,000",
+     "You get: $20,000 deposit",
+     "New money: $20,000"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And when you pay the loan back, that money disappears again.",
+   "say": "And when you pay the loan back, that money disappears again.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Loan made",
+     "value": "+$20,000"
+    },
+    "to": {
+     "label": "Loan repaid",
+     "value": "$0"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since March 2020, the Fed's reserve requirement has been zero.",
+   "say": "Since March twenty twenty, the Fed's reserve requirement has been zero.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed reserve requirement",
+    "value": "0%",
+    "tone": "neutral",
+    "sub": "since March 26, 2020 (Federal Reserve)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what stops banks? Capital rules, borrowers who can repay, and interest rates.",
+   "say": "So what stops banks? Capital rules, borrowers who can actually repay, and interest rates.",
+   "scene": {
+    "t": "list",
+    "title": "What limits banks",
+    "items": [
+     "Capital rules",
+     "Borrowers who repay",
+     "Interest rates"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your loan isn't just borrowed money. It's brand-new money.",
+   "say": "Your loan isn't just borrowed money. It's brand-new money.",
+   "scene": {
+    "t": "hook",
+    "title": "Your loan is [new] money",
+    "prop": "coins",
+    "label": "LOAN",
+    "value": "NEW",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "About 90% of US money was never printed. Banks made it",
+  "ig": "About 90% of America's money was never printed.\n\nAugust 2026: currency $2.39 trillion, M2 money supply $23.34 trillion (Fed).\nMost of the rest is bank deposits, and banks create deposits when they lend (Bank of England, 2014).\nA $20,000 loan creates a new $20,000 deposit. Repay it, and it disappears.\nThe Fed's reserve requirement has been 0% since March 2020.\n\nSources: Federal Reserve H.6 (Sept 2026), Bank of England Quarterly Bulletin 2014 Q1.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#banking #money #economics #personalfinance #financeprostv",
+  "tiktok": "About 90% of US money was never printed. Banks create deposits when they lend. Not financial advice. #moneytok #personalfinance #banking #financeprostv",
+  "yt_desc": "In August 2026, US currency was $2.39 trillion while the M2 money supply was $23.34 trillion, so only about 10% is cash. Most of the rest is bank deposits, and as the Bank of England explained in 2014, banks create new deposits when they lend; repaying a loan destroys that money. Sources: Federal Reserve H.6 (Sept 2026), Bank of England (2014).\n\nNews and education, not financial advice.\n\n#Shorts #banking #economics",
+  "tags": [
+   "how banks create money",
+   "money creation",
+   "m2 money supply",
+   "banking explained",
+   "personal finance"
+  ]
+ }
+}
