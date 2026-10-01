@@ -1,0 +1,1615 @@
+{
+ "series": "ticker",
+ "header": "Emerging markets:\nIndia, Brazil, Mexico",
+ "cover": {
+  "title": "3 Countries In Your Cart.",
+  "prop": "bag",
+  "label": "GROCERIES",
+  "value": "83%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your avocado, your coffee and your generic pills share a secret.",
+   "say": "Your avocado, your coffee and your generic pills share a secret.",
+   "scene": {
+    "t": "hook",
+    "title": "Three [countries] in your cart",
+    "prop": "bag",
+    "label": "GROCERIES",
+    "value": "3",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, Mexico supplied 83% of the fresh avocados the US imported.",
+   "say": "In twenty twenty-five, Mexico supplied eighty-three percent of the fresh avocados the US imported.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Guac is on me"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Gracias"
+     }
+    ],
+    "prop": {
+     "kind": "box",
+     "label": "AVOCADOS 83%"
+    },
+    "caption": "83% of US avocado imports, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brazil is the world's biggest coffee producer and exporter.",
+   "say": "Brazil is the world's biggest coffee producer and exporter.",
+   "scene": {
+    "t": "stat",
+    "label": "Brazil in world coffee",
+    "value": "No. 1",
+    "tone": "up",
+    "sub": "Producer and exporter (USDA FAS)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in 2022, Indian drugmakers filled 47% of generic prescriptions in the US.",
+   "say": "And in twenty twenty-two, Indian drugmakers supplied forty-seven percent of the generic prescriptions filled in the US.",
+   "scene": {
+    "t": "stat",
+    "label": "US generic prescriptions from Indian firms, 2022",
+    "value": "47%",
+    "tone": "up",
+    "sub": "IQVIA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "India, Brazil and Mexico are three of the world's big emerging markets. Here's how each one makes money, and how it reaches yours.",
+   "say": "India, Brazil and Mexico are three of the world's big emerging markets. Here's how each one makes its money, and how that reaches yours.",
+   "scene": {
+    "t": "list",
+    "title": "Today",
+    "items": [
+     "What 'emerging' means",
+     "India",
+     "Brazil",
+     "Mexico"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What 'emerging' means.",
+   "say": "Chapter one: what emerging actually means.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What 'emerging' means"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The phrase is younger than you'd think. A World Bank economist coined it in 1981.",
+   "say": "The phrase is younger than you'd think. A World Bank economist coined it in nineteen eighty-one.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1981",
+      "what": "'Emerging markets' coined"
+     },
+     {
+      "when": "Today",
+      "what": "24 countries in MSCI EM"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Antoine van Agtmael at the IFC wanted a better name than 'Third World' for a fund he was pitching.",
+   "say": "Antoine van Agtmael, at the World Bank's I F C, wanted a better name than Third World for a fund he was pitching.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "'Third World'",
+     "became",
+     "'emerging markets'"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "He wanted a name that sounded like growth, not poverty. It stuck.",
+   "say": "He wanted a name that sounded like growth, not poverty, and it stuck.",
+   "scene": {
+    "t": "hook",
+    "title": "A [rebrand] that stuck",
+    "prop": "tag",
+    "label": "1981",
+    "value": "EM",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Today, the best-known stock index of them, from MSCI, covers 24 countries.",
+   "say": "Today, the best-known stock index of them, from M S C I, covers twenty-four countries.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1981",
+      "what": "'Emerging markets' coined"
+     },
+     {
+      "when": "Today",
+      "what": "24 countries in MSCI EM"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's no single official rule, but emerging markets tend to share a few traits.",
+   "say": "There's no single official rule, but emerging markets tend to share a few traits.",
+   "scene": {
+    "t": "list",
+    "title": "Common traits",
+    "items": [
+     "Fast-growing",
+     "Lower income per person",
+     "Bigger swings",
+     "Markets still maturing"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They can grow fast, because they're catching up.",
+   "say": "They can grow fast, because they're catching up.",
+   "scene": {
+    "t": "list",
+    "title": "Common traits",
+    "items": [
+     "Fast-growing",
+     "Lower income per person",
+     "Bigger swings",
+     "Markets still maturing"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their currencies and markets tend to swing more.",
+   "say": "Their currencies and stock markets tend to swing more.",
+   "scene": {
+    "t": "list",
+    "title": "Common traits",
+    "items": [
+     "Fast-growing",
+     "Lower income per person",
+     "Bigger swings",
+     "Markets still maturing"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And their financial systems are still being built out.",
+   "say": "And their financial systems are still being built out.",
+   "scene": {
+    "t": "list",
+    "title": "Common traits",
+    "items": [
+     "Fast-growing",
+     "Lower income per person",
+     "Bigger swings",
+     "Markets still maturing"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The opposite label is 'developed markets': places like the US, Japan and Germany, with higher incomes and deeper markets.",
+   "say": "The opposite label is developed markets: places like the US, Japan, and Germany, with higher incomes and deeper financial markets.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Developed"
+     },
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "Developed"
+     },
+     {
+      "name": "germany",
+      "mood": "happy",
+      "says": "Developed"
+     }
+    ],
+    "prop": {
+     "kind": "tag",
+     "label": "DEVELOPED"
+    },
+    "caption": "The other side of the label"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our three are very different, though. Look at income per person in 2026, from the IMF.",
+   "say": "Our three are very different, though. Look at income per person in twenty twenty-six, from the I M F.",
+   "scene": {
+    "t": "list",
+    "title": "GDP per person, 2026 (IMF)",
+    "items": [
+     "India: $2,813",
+     "Brazil: $12,313",
+     "Mexico: $15,779"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A Mexican earns, on average, about 5.6 times what an Indian does, by this measure.",
+   "say": "By this measure, the average Mexican's share of output is about five point six times the average Indian's.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "India, per person",
+     "value": "$2,813"
+    },
+    "to": {
+     "label": "Mexico, per person",
+     "value": "$15,779"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And growth runs the other way. The IMF expects India to grow 6.5% in 2026, versus 1.9% for Brazil and 1.6% for Mexico.",
+   "say": "And growth runs the other way. The I M F expects India to grow six and a half percent in twenty twenty-six, versus one point nine for Brazil and one point six for Mexico.",
+   "scene": {
+    "t": "compare",
+    "title": "IMF 2026 growth forecast",
+    "left": {
+     "label": "India",
+     "value": "6.5%",
+     "tone": "up",
+     "sub": "real GDP"
+    },
+    "right": {
+     "label": "Mexico",
+     "value": "1.6%",
+     "tone": "neutral",
+     "sub": "Brazil 1.9%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Poorer and faster, or richer and slower. That's the emerging-market trade-off in one picture.",
+   "say": "Poorer and faster, or richer and slower. That's the emerging-market trade-off in one picture.",
+   "scene": {
+    "t": "compare",
+    "title": "IMF 2026 growth forecast",
+    "left": {
+     "label": "India",
+     "value": "6.5%",
+     "tone": "up",
+     "sub": "real GDP"
+    },
+    "right": {
+     "label": "Mexico",
+     "value": "1.6%",
+     "tone": "neutral",
+     "sub": "Brazil 1.9%"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Together, these three countries are home to about 1.81 billion people, roughly 22% of everyone on Earth.",
+   "say": "Together, these three countries are home to about one point eight billion people, roughly twenty-two percent of everyone on Earth.",
+   "scene": {
+    "t": "stat",
+    "label": "India + Brazil + Mexico, 2025",
+    "value": "1.81B",
+    "tone": "up",
+    "sub": "~22% of world population (UN)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why what happens there doesn't stay there.",
+   "say": "That's why what happens there doesn't stay there.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 in 5 people",
+     "on Earth live",
+     "in these three"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: India, the giant.",
+   "say": "Chapter two: India, the giant.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "India, the giant"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "India has the world's largest population: about 1.46 billion people in 2025, per the UN.",
+   "say": "India has the world's largest population: about one point four six billion people in twenty twenty-five, according to the U N.",
+   "scene": {
+    "t": "stat",
+    "label": "India population, 2025",
+    "value": "1.46B",
+    "tone": "up",
+    "sub": "UN World Population Prospects"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "India passed China as the most populous country in 2023.",
+   "say": "India passed China as the most populous country in twenty twenty-three.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Before 2023",
+      "what": "China most populous"
+     },
+     {
+      "when": "2023",
+      "what": "India passes China"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And they're young. The median age is about 29.",
+   "say": "And they're young. The median age is about twenty-nine.",
+   "scene": {
+    "t": "stat",
+    "label": "India median age",
+    "value": "29.2",
+    "tone": "up",
+    "sub": "UN World Population Prospects 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A young workforce is the engine economists talk about most when they talk about India.",
+   "say": "A young workforce is the engine economists talk about most when they talk about India.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Young workers",
+     "= more output",
+     "if there are jobs"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its economy is big: about $4.15 trillion in 2026, sixth in the world in the IMF's April ranking.",
+   "say": "Its economy is big: about four point one five trillion dollars in twenty twenty-six, sixth in the world in the I M F's April ranking.",
+   "scene": {
+    "t": "list",
+    "title": "Biggest economies, 2026 (IMF)",
+    "items": [
+     "US $32.38T",
+     "China $20.85T",
+     "Germany, Japan, UK",
+     "India $4.15T"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But split across 1.46 billion people, that's just $2,813 each.",
+   "say": "But split across one point four six billion people, that's just twenty-eight hundred thirteen dollars each.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "India GDP, 2026",
+     "value": "$4.15T"
+    },
+    "to": {
+     "label": "per person",
+     "value": "$2,813"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how does India earn? A big piece is services: software, call centers and back offices for companies worldwide.",
+   "say": "So how does India earn? A big piece is services: software, call centers, and back offices for companies around the world.",
+   "scene": {
+    "t": "list",
+    "title": "How India earns",
+    "items": [
+     "Services and software",
+     "Generic drugs",
+     "Money from workers abroad"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Another is medicine. Indian generics are a big reason many US prescriptions cost what they do.",
+   "say": "Another is medicine. Indian generics are a big part of why so many US prescriptions are cheap generics at all.",
+   "scene": {
+    "t": "list",
+    "title": "How India earns",
+    "items": [
+     "Services and software",
+     "Generic drugs",
+     "Money from workers abroad"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Indians working abroad send home more money than any other country's workers do.",
+   "say": "And Indians working abroad send home more money than any other country's workers.",
+   "scene": {
+    "t": "list",
+    "title": "How India earns",
+    "items": [
+     "Services and software",
+     "Generic drugs",
+     "Money from workers abroad"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "India took in $135.4 billion in remittances in the year ending March 2025, the most in the world.",
+   "say": "India took in a hundred thirty-five point four billion dollars in remittances in the year that ended March twenty twenty-five, the most in the world.",
+   "scene": {
+    "t": "stat",
+    "label": "Remittances to India, FY2024-25",
+    "value": "$135.4B",
+    "tone": "up",
+    "sub": "World's largest (Government of India)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spread across the whole country, that's about $92 per person a year.",
+   "say": "Spread across the whole country, that's about ninety-two dollars per person a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Remittances, FY25",
+     "value": "$135.4B"
+    },
+    "to": {
+     "label": "per person",
+     "value": "~$92"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But it's concentrated. For families with a worker abroad, it can be the biggest paycheck in the house.",
+   "say": "But it's concentrated. For families with a worker abroad, it can be the biggest paycheck in the house.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Small per person,",
+     "huge for families",
+     "that receive it"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the currency. In 2021, a dollar bought about 73.94 rupees on average.",
+   "say": "Now, the currency. In twenty twenty-one, a dollar bought about seventy-four rupees on average.",
+   "scene": {
+    "t": "chart",
+    "title": "Rupees per US dollar (Fed, annual avg)",
+    "points": [
+     [
+      2021,
+      73.94
+     ],
+     [
+      2022,
+      78.58
+     ],
+     [
+      2023,
+      82.57
+     ],
+     [
+      2024,
+      83.66
+     ],
+     [
+      2025,
+      87.15
+     ]
+    ],
+    "end": "87.15",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2025, it bought 87.15. The rupee got weaker against the dollar every year.",
+   "say": "By twenty twenty-five, it bought about eighty-seven. The rupee got weaker against the dollar every single year.",
+   "scene": {
+    "t": "chart",
+    "title": "Rupees per US dollar (Fed, annual avg)",
+    "points": [
+     [
+      2021,
+      73.94
+     ],
+     [
+      2022,
+      78.58
+     ],
+     [
+      2023,
+      82.57
+     ],
+     [
+      2024,
+      83.66
+     ],
+     [
+      2025,
+      87.15
+     ]
+    ],
+    "end": "87.15",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "+18% since 2021"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So $100 bought 7,394 rupees in 2021, and 8,715 in 2025. That's 1,321 more.",
+   "say": "So a hundred dollars bought about seventy-four hundred rupees in twenty twenty-one, and about eighty-seven hundred in twenty twenty-five. That's thirteen hundred more.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "$100 in 2021",
+     "value": "₹7,394"
+    },
+    "to": {
+     "label": "$100 in 2025",
+     "value": "₹8,715"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A weaker rupee helps India's exporters sell abroad, and makes imports like oil cost more at home.",
+   "say": "A weaker rupee helps India's exporters sell abroad, and makes imports like oil cost more at home.",
+   "scene": {
+    "t": "split",
+    "title": "Weaker rupee",
+    "left": {
+     "title": "Helps",
+     "items": [
+      "Exporters",
+      "Software firms"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Hurts",
+     "items": [
+      "Oil imports",
+      "Dollar debts"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's why. A $1,000 software contract paid in dollars brought in 73,940 rupees in 2021, and 87,150 in 2025.",
+   "say": "Here's why. A thousand-dollar software contract paid in dollars brought in about seventy-four thousand rupees in twenty twenty-one, and about eighty-seven thousand in twenty twenty-five.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "$1,000 in 2021",
+     "value": "₹73,940"
+    },
+    "to": {
+     "label": "$1,000 in 2025",
+     "value": "₹87,150"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same work, about 18% more rupees, without raising the price in dollars.",
+   "say": "Same work, about eighteen percent more rupees, without raising the price in dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra rupees per dollar, 2021 to 2025",
+    "value": "+17.9%",
+    "tone": "up",
+    "sub": "73.94 to 87.15 (Fed)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "India's central bank sets a key rate, the repo rate. As of September 2026, it was 5.25%.",
+   "say": "India's central bank sets a key rate called the repo rate. As of September twenty twenty-six, it was five and a quarter percent.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "RESERVE BANK OF INDIA",
+    "label": "repo: 5.25%",
+    "caption": "India's key rate, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the same tool the Fed uses here: lower rates make loans cheaper, higher rates cool prices down.",
+   "say": "It's the same tool the Fed uses here. Lower rates make loans cheaper, and higher rates help cool prices down.",
+   "scene": {
+    "t": "split",
+    "title": "A central bank's lever",
+    "left": {
+     "title": "Lower rate",
+     "items": [
+      "Cheaper loans",
+      "More spending"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Higher rate",
+     "items": [
+      "Pricier loans",
+      "Cooler prices"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Brazil, the farm.",
+   "say": "Chapter three: Brazil, the farm.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Brazil, the farm"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brazil has about 212.8 million people and an economy of about $2.64 trillion in 2026.",
+   "say": "Brazil has about two hundred thirteen million people, and an economy of about two point six four trillion dollars in twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Brazil, 2026",
+    "left": {
+     "label": "People (2025)",
+     "value": "212.8M",
+     "tone": "neutral",
+     "sub": "UN"
+    },
+    "right": {
+     "label": "GDP",
+     "value": "$2.64T",
+     "tone": "neutral",
+     "sub": "IMF"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That works out to about $12,313 per person, more than four times India's.",
+   "say": "That works out to about twelve thousand three hundred dollars per person, more than four times India's.",
+   "scene": {
+    "t": "list",
+    "title": "GDP per person, 2026 (IMF)",
+    "items": [
+     "India: $2,813",
+     "Brazil: $12,313",
+     "Mexico: $15,779"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brazil earns a lot from what grows and what's dug up: soybeans, coffee, beef, iron ore and oil.",
+   "say": "Brazil earns a lot from what grows and what gets dug up: soybeans, coffee, beef, iron ore, and oil.",
+   "scene": {
+    "t": "list",
+    "title": "What Brazil sells",
+    "items": [
+     "Soybeans",
+     "Coffee",
+     "Beef",
+     "Iron ore and oil"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its biggest customer isn't the US. It's China.",
+   "say": "Its biggest customer isn't the US. It's China.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "More soybeans!"
+     }
+    ],
+    "prop": {
+     "kind": "bag",
+     "label": "SOYBEANS"
+    },
+    "caption": "Brazil's top buyer"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From January to October 2025, about 80% of Brazil's soybean exports went to China.",
+   "say": "From January to October twenty twenty-five, about eighty percent of Brazil's soybean exports went to China.",
+   "scene": {
+    "t": "stat",
+    "label": "Brazil soybean exports to China, Jan-Oct 2025",
+    "value": "~80%",
+    "tone": "up",
+    "sub": "USDA / Purdue"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a strength and a risk. When one buyer takes most of the crop, its choices move your prices.",
+   "say": "That's a strength and a risk. When one buyer takes most of the crop, that buyer's choices move your prices.",
+   "scene": {
+    "t": "split",
+    "title": "One giant buyer",
+    "left": {
+     "title": "Strength",
+     "items": [
+      "Huge steady demand"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Risk",
+     "items": [
+      "One buyer's choices",
+      "move prices"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Commodity countries ride booms and busts. When crop and metal prices rise, money pours in. When they fall, it dries up.",
+   "say": "Commodity countries ride booms and busts. When crop and metal prices rise, money pours in. When they fall, it dries up.",
+   "scene": {
+    "t": "hook",
+    "title": "Boom, then [bust]",
+    "prop": "chart-down",
+    "label": "COMMODITIES",
+    "value": "±",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brazil's other famous number is its interest rate. The central bank's Selic rate is very high.",
+   "say": "Brazil's other famous number is its interest rate. The central bank's Selic rate is very high.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "BANCO CENTRAL DO BRASIL",
+    "label": "Selic: 13.75%",
+    "caption": "After a cut on Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On September 16, 2026, it cut the Selic to 13.75%, its fifth straight quarter-point cut, down from 15%.",
+   "say": "On September sixteenth, twenty twenty-six, it cut the Selic to thirteen point seven five percent, its fifth straight quarter-point cut, down from fifteen.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Before cuts",
+      "what": "Selic at 15%"
+     },
+     {
+      "when": "5 cuts",
+      "what": "0.25 point each"
+     },
+     {
+      "when": "Sept 16, 2026",
+      "what": "Selic at 13.75%"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "High rates are how Brazil fights inflation. They also make borrowing painful for Brazilian families and businesses.",
+   "say": "High rates are how Brazil fights inflation. They also make borrowing painful for Brazilian families and businesses.",
+   "scene": {
+    "t": "split",
+    "title": "Very high rates",
+    "left": {
+     "title": "Fight",
+     "items": [
+      "Inflation"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Cost",
+     "items": [
+      "Pricey loans",
+      "Slower growth"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "High rates also attract foreign savers chasing yield. Their risk: if Brazil's currency falls, the dollar value of that interest can shrink.",
+   "say": "High rates also attract foreign savers chasing yield. Their risk is that if Brazil's currency falls, the dollar value of that interest can shrink.",
+   "scene": {
+    "t": "split",
+    "title": "Brazil's high rates, for foreigners",
+    "left": {
+     "title": "Draw",
+     "items": [
+      "High interest"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Risk",
+     "items": [
+      "Currency can fall"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the emerging-market bargain in a nutshell: higher potential reward, with more ways for things to go wrong.",
+   "say": "That's the emerging-market bargain in a nutshell: higher potential reward, with more ways for things to go wrong.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More potential,",
+     "more ways",
+     "to go wrong"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For comparison, India's key rate was 5.25% and Mexico's was 6.5% in September 2026.",
+   "say": "For comparison, India's key rate was five and a quarter percent and Mexico's was six and a half in September twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "Key rates, Sept 2026",
+    "items": [
+     "Brazil 13.75%",
+     "Mexico 6.50%",
+     "India 5.25%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for you: Brazil's harvests are a big reason coffee costs what it does.",
+   "say": "And for you, Brazil's harvests are a big reason coffee costs what it does.",
+   "scene": {
+    "t": "hook",
+    "title": "Your coffee runs on [Brazil]",
+    "prop": "pot",
+    "label": "COFFEE",
+    "value": "No. 1",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A frost or drought in Brazil's coffee belt can ripple all the way to your morning cup.",
+   "say": "A frost or a drought in Brazil's coffee belt can ripple all the way to your morning cup.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "My latte!"
+     }
+    ],
+    "prop": {
+     "kind": "tag",
+     "label": "COFFEE"
+    },
+    "caption": "Brazil's weather, your price"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Mexico, the neighbor.",
+   "say": "Chapter four: Mexico, the neighbor.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Mexico, the neighbor"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mexico has about 132 million people and the highest income per person of our three: $15,779 in 2026.",
+   "say": "Mexico has about a hundred thirty-two million people, and the highest income per person of our three: about fifteen thousand eight hundred dollars in twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "GDP per person, 2026 (IMF)",
+    "items": [
+     "India: $2,813",
+     "Brazil: $12,313",
+     "Mexico: $15,779"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its big advantage is geography. It shares a 2,000-mile border with the world's biggest consumer market.",
+   "say": "Its big advantage is geography. It shares a border of nearly two thousand miles with the world's biggest consumer market.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Hola, neighbor"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Next door!"
+     }
+    ],
+    "prop": {
+     "kind": "box",
+     "label": "TRUCKS"
+    },
+    "caption": "Next door to the biggest market"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, Mexico was America's top trading partner in goods: $872.8 billion both ways.",
+   "say": "In twenty twenty-five, Mexico was America's top trading partner in goods, with eight hundred seventy-three billion dollars flowing both ways.",
+   "scene": {
+    "t": "stat",
+    "label": "US-Mexico goods trade, 2025",
+    "value": "$872.8B",
+    "tone": "up",
+    "sub": "No. 1 US goods partner (Census)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cars, auto parts, electronics and food cross that border every day, often more than once.",
+   "say": "Cars, auto parts, electronics, and food cross that border every day, often more than once.",
+   "scene": {
+    "t": "list",
+    "title": "Crosses the border",
+    "items": [
+     "Cars and parts",
+     "Electronics",
+     "Fresh food"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Companies also talk about 'nearshoring': moving factories closer to US customers, often from Asia to Mexico.",
+   "say": "Companies also talk about nearshoring, which means moving factories closer to US customers, often from Asia to Mexico.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nearshoring =",
+     "build closer",
+     "to the customer"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shorter trips mean less shipping time, and fewer things that can go wrong on the way.",
+   "say": "Shorter trips mean less shipping time, and fewer things that can go wrong along the way.",
+   "scene": {
+    "t": "compare",
+    "title": "Getting goods to the US",
+    "left": {
+     "label": "From Asia",
+     "value": "Ocean",
+     "tone": "down",
+     "sub": "weeks by ship"
+    },
+    "right": {
+     "label": "From Mexico",
+     "value": "Truck",
+     "tone": "up",
+     "sub": "days by road"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A part can be made in Michigan, finished in Mexico, then come back in a car.",
+   "say": "A part can be made in Michigan, finished in Mexico, then come back inside a finished car.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1",
+      "what": "Part made in the US"
+     },
+     {
+      "when": "2",
+      "what": "Assembled in Mexico"
+     },
+     {
+      "when": "3",
+      "what": "Car sold in the US"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trade gap has grown. The US went from a $1.7 billion goods surplus with Mexico in 1993 to a $171.5 billion deficit in 2025.",
+   "say": "The trade gap has grown. The US went from a one point seven billion dollar goods surplus with Mexico in nineteen ninety-three to a hundred seventy-one point five billion dollar deficit in twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "US goods balance with Mexico",
+    "left": {
+     "label": "1993",
+     "value": "+$1.7B",
+     "tone": "up",
+     "sub": "surplus"
+    },
+    "right": {
+     "label": "2025",
+     "value": "-$171.5B",
+     "tone": "down",
+     "sub": "deficit"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A deficit means Americans bought more from Mexico than they sold there. It doesn't mean money vanished.",
+   "say": "A deficit means Americans bought more from Mexico than they sold there. It doesn't mean money vanished.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deficit =",
+     "bought more",
+     "than we sold"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Food is part of it. The US imported 2.7 billion pounds of fresh avocados in 2025, and 83% came from Mexico.",
+   "say": "Food is part of it. The US imported two point seven billion pounds of fresh avocados in twenty twenty-five, and eighty-three percent came from Mexico.",
+   "scene": {
+    "t": "stat",
+    "label": "US fresh avocado imports, 2025",
+    "value": "2.7B lbs",
+    "tone": "up",
+    "sub": "83% from Mexico (USDA data)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 2.24 billion pounds from Mexico alone.",
+   "say": "That's about two and a quarter billion pounds from Mexico alone.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "All imports",
+     "value": "2.7B lbs"
+    },
+    "to": {
+     "label": "From Mexico (83%)",
+     "value": "2.24B lbs"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Money also flows the other way. Mexicans abroad, mostly in the US, sent home $61.8 billion in 2025.",
+   "say": "Money also flows the other way. Mexicans abroad, mostly in the US, sent home sixty-one point eight billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Remittances to Mexico, 2025",
+    "value": "$61.8B",
+    "tone": "down",
+    "sub": "Down 4.6%, biggest drop since 2009 (Banxico)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was down 4.6%, the biggest drop since 2009. Families in Mexico felt it.",
+   "say": "That was down four point six percent, the biggest drop since two thousand nine, and families in Mexico felt it.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "sad",
+      "says": "Less from home"
+     }
+    ],
+    "prop": {
+     "kind": "bag",
+     "label": "-4.6%"
+    },
+    "caption": "Remittances fell in 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Per person, that's about $468 a year in Mexico, versus about $92 in India.",
+   "say": "Per person, that's about four hundred sixty-eight dollars a year in Mexico, versus about ninety-two in India.",
+   "scene": {
+    "t": "compare",
+    "title": "Remittances per person",
+    "left": {
+     "label": "Mexico (2025)",
+     "value": "~$468",
+     "tone": "up",
+     "sub": "$61.8B / 132M"
+    },
+    "right": {
+     "label": "India (FY25)",
+     "value": "~$92",
+     "tone": "neutral",
+     "sub": "$135.4B / 1.46B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mexico's central bank held its rate at 6.5% on September 24, 2026, for a third straight meeting.",
+   "say": "Mexico's central bank held its rate at six and a half percent on September twenty-fourth, twenty twenty-six, for a third straight meeting.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "BANCO DE MEXICO",
+    "label": "rate: 6.50%",
+    "caption": "Held Sept 24, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch with being next door: when US demand or trade rules change, Mexico feels it first.",
+   "say": "The catch with being next door is that when US demand or trade rules change, Mexico feels it first.",
+   "scene": {
+    "t": "split",
+    "title": "Next door to the US",
+    "left": {
+     "title": "Upside",
+     "items": [
+      "Huge market",
+      "Short shipping"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Downside",
+     "items": [
+      "US slowdowns hit hard",
+      "Rule changes"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tariffs between the US and all three of these countries have swung a lot since 2025, and that shows up in prices.",
+   "say": "Tariffs between the US and all three of these countries have swung a lot since twenty twenty-five, and that shows up in prices.",
+   "scene": {
+    "t": "news",
+    "headline": "US tariffs on trading partners changed repeatedly in 2025-26",
+    "source": "Congressional Research Service, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: How it reaches your wallet.",
+   "say": "Chapter five: how it reaches your wallet.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "How it reaches your wallet"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Route one is the grocery store and the pharmacy.",
+   "say": "Route one is the grocery store and the pharmacy.",
+   "scene": {
+    "t": "list",
+    "title": "3 routes to your wallet",
+    "items": [
+     "Prices you pay",
+     "The dollar",
+     "Your retirement fund"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A bad Brazilian coffee harvest, a Mexican avocado slowdown or an Indian drug-plant problem can all show up in what you pay.",
+   "say": "A bad Brazilian coffee harvest, a Mexican avocado slowdown, or a problem at an Indian drug plant can all show up in what you pay.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "Why is this $$?"
+     }
+    ],
+    "prop": {
+     "kind": "tag",
+     "label": "PRICE"
+    },
+    "caption": "Supply shocks travel"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Route two is the dollar. When the dollar is strong, imports from these countries tend to get cheaper for you.",
+   "say": "Route two is the dollar. When the dollar is strong, imports from these countries tend to get cheaper for you.",
+   "scene": {
+    "t": "list",
+    "title": "3 routes to your wallet",
+    "items": [
+     "Prices you pay",
+     "The dollar",
+     "Your retirement fund"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A strong dollar can also hurt them, because many emerging-market companies and governments borrow in dollars.",
+   "say": "A strong dollar can also hurt them, because many emerging-market companies and governments borrow in dollars.",
+   "scene": {
+    "t": "split",
+    "title": "Strong dollar",
+    "left": {
+     "title": "For you",
+     "items": [
+      "Cheaper imports"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "For them",
+     "items": [
+      "Dollar debts cost more"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Route three might be in your retirement account already.",
+   "say": "Route three might already be in your retirement account.",
+   "scene": {
+    "t": "list",
+    "title": "3 routes to your wallet",
+    "items": [
+     "Prices you pay",
+     "The dollar",
+     "Your retirement fund"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many target-date and international funds hold emerging-market stocks, often by tracking an index like MSCI's.",
+   "say": "Many target-date and international funds hold emerging-market stocks, often by tracking an index like M S C I's.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Check your fund's",
+     "holdings for",
+     "'emerging markets'"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That means swings in Mumbai, São Paulo or Mexico City can show up on your statement, in either direction.",
+   "say": "That means swings in Mumbai, São Paulo, or Mexico City can show up on your statement, in either direction.",
+   "scene": {
+    "t": "hook",
+    "title": "Their swings, your [statement]",
+    "prop": "paper",
+    "label": "401(k)",
+    "value": "±",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's not a reason to buy or avoid anything. It's a reason to know what you already own.",
+   "say": "That's not a reason to buy or avoid anything. It's a reason to know what you already own.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not a tip.",
+     "Just know what",
+     "you own."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One more thing: a fast-growing economy doesn't guarantee fast-growing stocks. Prices can already reflect the growth.",
+   "say": "One more thing: a fast-growing economy doesn't guarantee fast-growing stocks, because prices can already reflect the growth.",
+   "scene": {
+    "t": "compare",
+    "title": "Not the same thing",
+    "left": {
+     "label": "GDP growth",
+     "value": "Economy",
+     "tone": "neutral",
+     "sub": "output"
+    },
+    "right": {
+     "label": "Stock returns",
+     "value": "Prices",
+     "tone": "neutral",
+     "sub": "can differ a lot"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap.",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "India: huge, young and the fastest-growing of the three, with about $2,813 of output per person.",
+   "say": "India is huge, young, and the fastest-growing of the three, with about twenty-eight hundred dollars of output per person.",
+   "scene": {
+    "t": "split",
+    "title": "The three, 2026",
+    "left": {
+     "title": "India",
+     "items": [
+      "6.5% growth",
+      "$2,813 per person"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Earns from",
+     "items": [
+      "Services",
+      "Generics",
+      "Remittances"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brazil: a farm and a mine for the world, selling most of its soybeans to China, with a 13.75% interest rate.",
+   "say": "Brazil is a farm and a mine for the world, selling most of its soybeans to China, with a thirteen point seven five percent interest rate.",
+   "scene": {
+    "t": "split",
+    "title": "The three, 2026",
+    "left": {
+     "title": "Brazil",
+     "items": [
+      "1.9% growth",
+      "$12,313 per person"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Earns from",
+     "items": [
+      "Soybeans",
+      "Coffee",
+      "Oil and iron"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mexico: the richest per person of the three, and America's top goods trading partner.",
+   "say": "Mexico is the richest per person of the three, and America's top goods trading partner.",
+   "scene": {
+    "t": "split",
+    "title": "The three, 2026",
+    "left": {
+     "title": "Mexico",
+     "items": [
+      "1.6% growth",
+      "$15,779 per person"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Earns from",
+     "items": [
+      "US trade",
+      "Factories",
+      "Remittances"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "'Emerging' sounds like one club. It's really three very different economies, all tied to your groceries, your prices and maybe your 401(k).",
+   "say": "Emerging sounds like one club. It's really three very different economies, all tied to your groceries, your prices, and maybe your four oh one K.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Avocados"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Got it"
+     }
+    ],
+    "prop": {
+     "kind": "box",
+     "label": "YOUR CART"
+    },
+    "caption": "Three economies, one cart"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next time you buy guacamole, coffee or a generic prescription, you'll know whose economy you're touching.",
+   "say": "Next time you buy guacamole, coffee, or a generic prescription, you'll know whose economy you're touching.",
+   "scene": {
+    "t": "list",
+    "title": "In your cart",
+    "items": [
+     "Avocados: Mexico",
+     "Coffee: Brazil",
+     "Generics: India"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Emerging markets explained: how India, Brazil and Mexico make money (and reach your wallet)",
+  "ig": "Your avocado, your coffee and your generic pills share a secret.",
+  "tiktok": "Your avocado, coffee and generic pills share a secret: India, Brazil, Mexico.",
+  "yt_desc": "India, Brazil and Mexico are three of the world's biggest emerging markets, and they work in very different ways. This video explains what 'emerging markets' means, how India earns from services, generic drugs and the world's largest remittances; how Brazil earns from soybeans, coffee and commodities while running a 13.75% interest rate; and how Mexico became America's top goods trading partner. It ends with three ways these economies reach an American's wallet.\n\nCHAPTERS\n\nSources: IMF World Economic Outlook (April 2026); UN World Population Prospects 2024; World Bank/IFC (1981); MSCI (2026); Federal Reserve G.5A via FRED; Reserve Bank of India; Banco Central do Brasil (Sept 16, 2026); Banxico (Sept 24, 2026); US Census Bureau via CRS (2026); USDA (2025-2026); Government of India Economic Survey (2025); IQVIA via CT Mirror (Oct 2025).\n\nNews and education, not financial advice.\n\n#emergingmarkets #economy #personalfinance",
+  "tags": [
+   "emerging markets explained",
+   "india economy",
+   "brazil economy",
+   "mexico economy",
+   "emerging markets",
+   "world economy",
+   "personal finance"
+  ]
+ }
+}
