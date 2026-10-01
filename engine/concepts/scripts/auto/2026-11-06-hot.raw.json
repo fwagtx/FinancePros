@@ -2,7 +2,7 @@
  "series": "ticker",
  "header": "Why are houses\nso expensive?",
  "cover": {
-  "title": "Homes Cost 5 Years Of Pay",
+  "title": "Homes Cost Nearly 5 Years Of Pay",
   "prop": "house",
   "label": "MEDIAN HOME",
   "value": "4.7x"
@@ -10,11 +10,11 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "A typical US home costs nearly five years of income.",
-   "say": "A typical US home costs nearly five years of income.",
+   "text": "The typical US home costs nearly five years of household income.",
+   "say": "The typical US home costs nearly five years of household income.",
    "scene": {
     "t": "hook",
-    "title": "Homes cost [5 years] of pay",
+    "title": "Homes cost [nearly 5 years] of pay",
     "prop": "house",
     "label": "MEDIAN HOME",
     "value": "4.7x",
@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "In the 1990s, it was closer to three. So what happened?",
-   "say": "In the nineteen nineties, it was closer to three. So what happened?",
+   "text": "In the 1990s, it was about three. So what happened?",
+   "say": "In the nineteen nineties, it was about three. So what happened?",
    "scene": {
     "t": "compare",
     "title": "Home price vs income (Harvard JCHS)",
@@ -44,43 +44,19 @@
   },
   {
    "who": "ticker",
-   "text": "The median existing home sold for $223,900 in 2015, and $414,400 in 2025.",
-   "say": "The median existing home sold for about two hundred twenty-four thousand dollars in twenty fifteen, and about four hundred fourteen thousand in twenty twenty-five.",
+   "text": "NAR's median existing-home price hit a record $414,400 in 2025, up from $346,900 in 2021.",
+   "say": "The median existing home hit a record four hundred fourteen thousand dollars in twenty twenty-five, up from about three forty-seven thousand in twenty twenty-one.",
    "scene": {
     "t": "chart",
-    "title": "Median existing-home price (NAR)",
+    "title": "Median existing-home price, all types (NAR)",
     "points": [
      [
-      2015,
-      223900
-     ],
-     [
-      2016,
-      235500
-     ],
-     [
-      2017,
-      248800
-     ],
-     [
-      2018,
-      261600
-     ],
-     [
-      2019,
-      274600
-     ],
-     [
-      2020,
-      300200
-     ],
-     [
       2021,
-      357100
+      346900
      ],
      [
       2022,
-      392800
+      386300
      ],
      [
       2023,
@@ -102,43 +78,19 @@
   },
   {
    "who": "ticker",
-   "text": "The biggest jump: 2021, up 19%.",
-   "say": "The biggest jump: twenty twenty-one, up nineteen percent.",
+   "text": "Harvard found existing-home prices up 54% since 2020.",
+   "say": "Harvard found existing-home prices up fifty-four percent since twenty twenty.",
    "scene": {
     "t": "chart",
-    "title": "Median existing-home price (NAR)",
+    "title": "Median existing-home price, all types (NAR)",
     "points": [
      [
-      2015,
-      223900
-     ],
-     [
-      2016,
-      235500
-     ],
-     [
-      2017,
-      248800
-     ],
-     [
-      2018,
-      261600
-     ],
-     [
-      2019,
-      274600
-     ],
-     [
-      2020,
-      300200
-     ],
-     [
       2021,
-      357100
+      346900
      ],
      [
       2022,
-      392800
+      386300
      ],
      [
       2023,
@@ -158,8 +110,8 @@
     "color": "up",
     "keep": true,
     "chart_note": {
-     "x": 2021,
-     "text": "+19% in 2021"
+     "x": 2025,
+     "text": "+54% since 2020 (JCHS)"
     }
    }
   },
@@ -177,8 +129,8 @@
   },
   {
    "who": "ticker",
-   "text": "Reason two: rates. The average 30-year mortgage rate hit 7.03% in late September 2026.",
-   "say": "Reason two: rates. The average thirty-year mortgage rate hit seven point oh three percent in late September twenty twenty-six.",
+   "text": "Reason two: rates, which raise the monthly cost. The average 30-year rate was 7.03% on Sept. 24, 2026.",
+   "say": "Reason two: rates, which raise the monthly cost. The average thirty-year rate was about seven percent in late September.",
    "scene": {
     "t": "stat",
     "label": "30-year mortgage rate, Sept 24, 2026",
@@ -189,13 +141,13 @@
   },
   {
    "who": "ticker",
-   "text": "With 10% down on August's $429,100 median, that's about $2,577 a month, versus $1,628 at 3%.",
-   "say": "With ten percent down on August's median, that's about twenty-five seventy-seven a month, versus sixteen twenty-eight at three percent.",
+   "text": "With 10% down on August 2026's $429,100 median, that's about $2,577 a month at 7.03%, versus about $1,628 at 3%.",
+   "say": "With ten percent down on August's median home, that's about twenty-five hundred seventy-seven dollars a month. At three percent, it'd be about sixteen hundred thirty.",
    "scene": {
     "t": "compare",
-    "title": "Monthly payment, $386,190 loan",
+    "title": "Monthly payment, 10% down on $429,100 (Aug 2026)",
     "left": {
-     "label": "At 3%",
+     "label": "At 3% (2021 rates)",
      "value": "$1,628",
      "tone": "up",
      "sub": "principal + interest"
@@ -210,8 +162,8 @@
   },
   {
    "who": "ticker",
-   "text": "Reason three: lock-in. Owners with cheap old mortgages stay put, so fewer homes get listed.",
-   "say": "Reason three: lock-in. Owners with cheap old mortgages stay put, so fewer homes get listed.",
+   "text": "Reason three: owners with cheap old mortgages stay put, so fewer homes get listed.",
+   "say": "Reason three: owners with cheap old mortgages stay put, so fewer homes get listed.",
    "scene": {
     "t": "board",
     "lines": [
@@ -224,8 +176,8 @@
   },
   {
    "who": "ticker",
-   "text": "Too few homes, high rates, and few sellers stack up. That's the wall buyers hit.",
-   "say": "Too few homes, high rates, and few sellers stack up. That's the wall buyers hit.",
+   "text": "Short supply, high rates, few sellers: that's the wall buyers hit.",
+   "say": "Short supply, high rates, few sellers: that's the wall buyers hit.",
    "scene": {
     "t": "list",
     "title": "Why homes cost so much",
@@ -248,10 +200,10 @@
   }
  ],
  "post": {
-  "title": "Why a typical home now costs nearly 5 years of income",
-  "ig": "A typical US home costs nearly five years of income.\nHarvard JCHS: price-to-income was 4.7 in 2025, vs about 3.2 in the 1990s.\nNAR median existing-home price: $223,900 in 2015, $414,400 in 2025, $429,100 in Aug 2026.\nWhy: a shortage Freddie Mac put at ~3.7M homes (2024), 30-year rates at 7.03% (Sept 24, 2026), and owners locked into cheap old mortgages.\nExample: $386,190 loan = ~$2,577/mo at 7.03% vs ~$1,628 at 3%.\nSources: Harvard JCHS 2026; NAR; Freddie Mac.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#housing #realestate #mortgage #personalfinance #financeprostv",
+  "title": "Why the typical home costs nearly 5 years of income",
+  "ig": "The typical US home costs nearly five years of household income.\nHarvard JCHS: price-to-income was 4.7 in 2025, vs about 3.2 in the 1990s; existing-home prices up 54% since 2020.\nNAR median existing-home price: $346,900 in 2021, a record $414,400 in 2025.\nWhy: a shortage Freddie Mac put at ~3.7M homes (2024), 30-year rates at 7.03% (Sept 24, 2026), and owners locked into cheap old mortgages.\nExample: 10% down on Aug 2026's $429,100 median = ~$2,577/mo at 7.03% vs ~$1,628 at 3%.\nSources: Harvard JCHS 2026; NAR; Freddie Mac.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#housing #realestate #mortgage #personalfinance #financeprostv",
   "tiktok": "A typical home costs nearly 5 years of income. Here's why. Not financial advice. #moneytok #personalfinance #housing #financeprostv",
-  "yt_desc": "The median US home costs about 4.7 times the median household income, versus about 3.2 in the 1990s (Harvard JCHS, 2026). NAR's median existing-home price rose from $223,900 in 2015 to $414,400 in 2025, driven by a housing shortage Freddie Mac estimated at about 3.7 million homes, mortgage rates near 7% (7.03% on Sept 24, 2026) and owners locked into low-rate mortgages. News and education, not financial advice. #Shorts #housing #personalfinance",
+  "yt_desc": "The median US home costs about 4.7 times the median household income, versus about 3.2 in the 1990s, and existing-home prices are up 54% since 2020 (Harvard JCHS, 2026). NAR's median existing-home price went from $346,900 in 2021 to a record $414,400 in 2025, driven by a housing shortage Freddie Mac estimated at about 3.7 million homes (2024), mortgage rates near 7% (7.03% on Sept 24, 2026) and owners locked into low-rate mortgages. News and education, not financial advice. #Shorts #housing #personalfinance",
   "tags": [
    "why are houses so expensive",
    "housing market",
