@@ -10,66 +10,158 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "In 2022, US nail salons spent 78¢ of every dollar they took in.",
+   "text": "In 2022, US nail salons spent 78¢ of every dollar.",
    "say": "In twenty twenty-two, US nail salons spent seventy-eight cents of every dollar.",
-   "scene": {"t": "hook", "title": "[78¢] of every dollar", "prop": "bill", "label": "$1", "value": "78¢", "mood": "shock"}
+   "scene": {
+    "t": "hook",
+    "title": "[78¢] of every dollar",
+    "prop": "bill",
+    "label": "$1",
+    "value": "78¢",
+    "mood": "shock"
+   }
   },
   {
    "who": "ticker",
    "text": "Census data for salons with employees: $12.9 billion in, $10.1 billion out.",
-   "say": "That's Census data for salons with employees: twelve point nine billion dollars in, and ten point one billion out.",
-   "scene": {"t": "compare", "title": "Nail salons, 2022",
-     "left": {"label": "Revenue", "value": "$12.9B", "tone": "up", "sub": "Census, 2022"},
-     "right": {"label": "Expenses", "value": "$10.1B", "tone": "down", "sub": "Census, 2022"}, "mood": "think"}
+   "say": "That's Census data for salons with employees: twelve point nine billion in, ten point one billion out.",
+   "scene": {
+    "t": "compare",
+    "title": "Nail salons, 2022",
+    "left": {
+     "label": "Revenue",
+     "value": "$12.9B",
+     "tone": "up",
+     "sub": "Census, 2022"
+    },
+    "right": {
+     "label": "Expenses",
+     "value": "$10.1B",
+     "tone": "down",
+     "sub": "Census, 2022"
+    },
+    "mood": "think"
+   }
   },
   {
    "who": "ticker",
-   "text": "Revenue fell to $6.4 billion in 2020, then hit $12.9 billion in 2022.",
-   "say": "And business is booming: revenue fell to six point four billion in twenty twenty, then hit twelve point nine billion by twenty twenty-two.",
-   "scene": {"t": "chart", "title": "Nail salon revenue ($B)", "points": [[2019, 8.2], [2020, 6.4], [2021, 10.9], [2022, 12.9]], "prefix": "$", "suffix": "B", "end": "$12.9B", "color": "up"}
+   "text": "Revenue dipped to $6.4 billion in 2020, then hit $12.9 billion in 2022.",
+   "say": "Revenue dipped to six point four billion in twenty twenty, then hit twelve point nine billion in twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "title": "Nail salon revenue ($B)",
+    "points": [
+     [
+      2019,
+      8.2
+     ],
+     [
+      2020,
+      6.4
+     ],
+     [
+      2021,
+      10.9
+     ],
+     [
+      2022,
+      12.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$12.9B",
+    "color": "up"
+   }
   },
   {
    "who": "ticker",
    "text": "Hypothetical $30 manicure: a 50% commission, a common rule of thumb, sends $15 to the tech.",
    "say": "So take a hypothetical thirty-dollar manicure. A fifty percent commission, a common rule of thumb, sends fifteen dollars to the tech.",
-   "scene": {"t": "board", "lines": ["Example: $30 manicure", "Tech, 50% commission: -$15"], "mood": "think"}
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $30 manicure",
+     "Tech, 50% commission: -$15"
+    ],
+    "mood": "think"
+   }
   },
   {
    "who": "ticker",
    "text": "Assume $3 for supplies and $8 for rent and bills. That leaves $4, about 13%.",
    "say": "Assume three dollars for supplies and eight for rent and bills. That leaves four dollars, about thirteen percent.",
-   "scene": {"t": "board", "lines": ["-$3 supplies (assumed)", "-$8 rent, bills (assumed)", "= $4 left (13%)"], "mood": "worried"}
+   "scene": {
+    "t": "board",
+    "lines": [
+     "-$3 supplies (assumed)",
+     "-$8 rent, bills (assumed)",
+     "= $4 left (13%)"
+    ],
+    "mood": "worried"
+   }
   },
   {
    "who": "ticker",
-   "text": "And techs aren't getting rich: median pay was $16.66 an hour in May 2024.",
-   "say": "And the techs aren't getting rich either. Their median pay was sixteen dollars and sixty-six cents an hour in May twenty twenty-four.",
-   "scene": {"t": "stat", "label": "Median manicurist pay", "value": "$16.66/hr", "tone": "neutral", "sub": "BLS, May 2024"}
+   "text": "And techs aren't getting rich either: median pay was $16.66 an hour in May 2024.",
+   "say": "And techs aren't getting rich either: median pay was sixteen dollars and sixty-six cents an hour in May twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Median manicurist pay",
+    "value": "$16.66/hr",
+    "tone": "neutral",
+    "sub": "BLS, May 2024"
+   }
   },
   {
    "who": "ticker",
-   "text": "So salons lean on more clients per chair, add-ons like gel, and renting chairs to techs.",
-   "say": "So salons lean on a few levers: more clients per chair, add-ons like gel, and renting chairs out to techs.",
-   "scene": {"t": "list", "title": "How salons make it work", "items": ["More clients per chair", "Add-ons like gel", "Renting chairs to techs"], "reveal": 3}
+   "text": "That's why salons lean on more clients per chair, add-ons like gel, and renting chairs to techs.",
+   "say": "That's why salons lean on more clients per chair, add-ons like gel, and renting chairs to techs.",
+   "scene": {
+    "t": "list",
+    "title": "How salons make it work",
+    "items": [
+     "More clients per chair",
+     "Add-ons like gel",
+     "Renting chairs to techs"
+    ],
+    "reveal": 3
+   }
   },
   {
    "who": "ticker",
-   "text": "In the example, rent is fixed, so one extra client adds $12: $30 minus $15 minus $3.",
-   "say": "In our example, rent is already paid, so one extra client adds twelve dollars. That's thirty, minus fifteen, minus three.",
-   "scene": {"t": "board", "lines": ["Rent is fixed", "Extra client: +$12", "$30 - $15 - $3"], "mood": "up"}
+   "text": "In the example, rent is already paid, so one extra client adds $12: $30 minus $15 minus $3.",
+   "say": "In our example, rent is already paid, so one extra client adds twelve dollars: thirty, minus fifteen, minus three.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rent is fixed",
+     "Extra client: +$12",
+     "$30 - $15 - $3"
+    ],
+    "mood": "up"
+   }
   },
   {
    "who": "ticker",
    "text": "That's the money. Follow for more.",
    "say": "That's the money. Follow for more.",
-   "scene": {"t": "cta"}
+   "scene": {
+    "t": "cta"
+   }
   }
  ],
  "post": {
   "title": "Nail salons spend 78 cents of every dollar. Here's where.",
   "ig": "In 2022, US nail salons spent 78 cents of every dollar they took in.\n\nCensus data for salons with employees: $12.9B in revenue, $10.1B in expenses (2022).\nRevenue dipped to $6.4B in 2020, then reached $12.9B in 2022.\nHypothetical $30 manicure: $15 to the tech at a 50% commission (a common rule of thumb), $3 supplies and $8 rent and bills (assumed) leave $4, about 13%.\nMedian manicurist pay was $16.66 an hour in May 2024 (BLS).\n\nSources: US Census Bureau Service Annual Survey (via FRED), BLS Occupational Outlook Handbook, Zenoti.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#nailsalon #smallbusiness #howtheymakemoney #businessmodel #financeprostv",
-  "tiktok": "Nail salons spent 78 cents of every dollar in 2022. Where it goes. Not financial advice. #moneytok #personalfinance #nailsalon #smallbusiness #financeprostv",
+  "tiktok": "Nail salons spent 78 cents of every dollar in 2022. Not financial advice. #moneytok #personalfinance #nailsalon #smallbusiness #financeprostv",
   "yt_desc": "In 2022, US nail salons with employees took in $12.9 billion and spent $10.1 billion, about 78 cents of every dollar, per the Census Bureau's Service Annual Survey. A hypothetical $30 manicure shows how commission, supplies and rent leave about $4, and median manicurist pay was $16.66 an hour in May 2024 (BLS). News and education, not financial advice.\n#Shorts #smallbusiness #nailsalon",
-  "tags": ["nail salon business", "how nail salons make money", "small business margins", "nail salon economics", "how they make money"]
+  "tags": [
+   "nail salon business",
+   "how nail salons make money",
+   "small business margins",
+   "nail salon economics",
+   "how they make money"
+  ]
  }
 }

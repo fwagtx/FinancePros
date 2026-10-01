@@ -1,23 +1,23 @@
 {
  "series": "ticker",
- "header": "Scam alert:\nthe job that charges you",
+ "header": "Scam alert:\njobs that charge you",
  "cover": {
   "title": "The Job That Charges You",
   "prop": "paper",
-  "label": "HIRED!",
-  "value": "$501M"
+  "label": "2020-24",
+  "value": "5x"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "Job scams cost people $501 million in 2024.",
-   "say": "Job scams cost people five hundred one million dollars in twenty twenty-four.",
+   "text": "Reported job scam losses grew fivefold from 2020 to 2024.",
+   "say": "Reported job scam losses grew fivefold from twenty twenty to twenty twenty-four.",
    "scene": {
     "t": "hook",
-    "title": "Fake [jobs] cost $501M",
+    "title": "Job scam [losses] 5x",
     "prop": "paper",
-    "label": "HIRED!",
-    "value": "$501M",
+    "label": "2020-24",
+    "value": "5x",
     "mood": "shock"
    }
   },
@@ -36,8 +36,8 @@
   },
   {
    "who": "ticker",
-   "text": "Reported job scam losses went from $90 million in 2020 to $501 million in 2024.",
-   "say": "Reported job scam losses went from ninety million dollars in twenty twenty to five hundred one million in twenty twenty-four.",
+   "text": "Reported losses went from $90 million in 2020 to $501 million in 2024.",
+   "say": "Reported losses went from ninety million dollars in twenty twenty to five hundred and one million in twenty twenty-four.",
    "scene": {
     "t": "chart",
     "title": "Job scam losses (FTC)",
@@ -72,43 +72,15 @@
   },
   {
    "who": "ticker",
-   "text": "That's more than five times bigger in four years.",
-   "say": "That's more than five times bigger in four years.",
+   "text": "And across all fraud, reported losses hit a record $15.9 billion in 2025.",
+   "say": "And across all fraud, reported losses hit a record fifteen point nine billion dollars in twenty twenty-five.",
    "scene": {
-    "t": "chart",
-    "title": "Job scam losses (FTC)",
-    "points": [
-     [
-      2020,
-      90
-     ],
-     [
-      2021,
-      131
-     ],
-     [
-      2022,
-      179
-     ],
-     [
-      2023,
-      286
-     ],
-     [
-      2024,
-      501
-     ]
-    ],
-    "prefix": "$",
-    "suffix": "M",
-    "end": "$501M",
-    "color": "down",
-    "keep": true,
-    "chart_note": {
-     "x": 2024,
-     "text": "5x since 2020"
-    },
-    "mood": "shock"
+    "t": "stat",
+    "label": "All reported fraud losses, 2025",
+    "value": "$15.9B",
+    "tone": "down",
+    "sub": "record high (FTC, March 2026)",
+    "mood": "worried"
    }
   },
   {
@@ -146,18 +118,18 @@
   },
   {
    "who": "ticker",
-   "text": "The FTC puts it plainly: \"Honest employers will never ask you to pay to get a job.\"",
-   "say": "The F T C puts it plainly: \"Honest employers will never ask you to pay to get a job.\"",
+   "text": "The FTC puts it plainly: \"Honest employers, including the federal government, will never ask you to pay to get a job.\"",
+   "say": "The F T C puts it plainly: \"Honest employers, including the federal government, will never ask you to pay to get a job.\"",
    "scene": {
     "t": "quote",
-    "text": "Honest employers will never ask you to pay to get a job.",
+    "text": "Honest employers, including the federal government, will never ask you to pay to get a job.",
     "source": "Federal Trade Commission, job scams guidance"
    }
   },
   {
    "who": "ticker",
-   "text": "People who spot it notice one thing: a request to pay before the first paycheck.",
-   "say": "People who spot it notice one thing: a request to pay before the first paycheck.",
+   "text": "The giveaway: they ask you to pay before your first paycheck.",
+   "say": "The giveaway: they ask you to pay before your first paycheck.",
    "scene": {
     "t": "split",
     "title": "Real vs scam",
@@ -177,7 +149,7 @@
      ],
      "tone": "down"
     },
-    "mood": "happy"
+    "mood": "think"
    }
   },
   {
@@ -190,10 +162,10 @@
   }
  ],
  "post": {
-  "title": "Job scams cost people $501 million in 2024",
-  "ig": "Job scams cost people $501 million in 2024.\n\nReported job scam losses grew from $90 million in 2020 to $501 million in 2024 (FTC).\nThe common asks: pay for equipment, pay for training, or deposit money to unlock earnings.\nThe FTC: \"Honest employers will never ask you to pay to get a job.\"\n\nSources: FTC Consumer Sentinel data (March 2025), FTC Data Spotlight (December 2024), FTC job scams guidance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #jobscam #jobsearch #personalfinance #financeprostv",
-  "tiktok": "Job scams cost people $501M in 2024. Real jobs pay you, not the other way. Not financial advice. #moneytok #personalfinance #jobscam #scamalert #financeprostv",
-  "yt_desc": "Job offer scams flip the money the wrong way: you pay for equipment, training, or a deposit to unlock earnings. FTC data show reported job scam losses grew from $90 million in 2020 to $501 million in 2024, and the FTC says honest employers will never ask you to pay to get a job. Sources: FTC (March 2025), FTC Data Spotlight (December 2024).\n\nNews and education, not financial advice.\n\n#Shorts #jobscam #scamalert",
+  "title": "Reported job scam losses grew 5x from 2020 to 2024",
+  "ig": "Reported job scam losses grew fivefold from 2020 to 2024.\n\nFTC: reported losses to job scams went from $90 million in 2020 to $501 million in 2024.\nAcross all fraud, reported losses hit a record $15.9 billion in 2025.\nThe common asks: pay for equipment, pay for training, or deposit money to unlock earnings.\nThe FTC: \"Honest employers, including the federal government, will never ask you to pay to get a job.\"\n\nSources: FTC Consumer Sentinel data (March 2025), FTC Data Spotlight (December 2024), FTC testimony (March 2026), FTC job scams guidance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #jobscam #jobsearch #personalfinance #financeprostv",
+  "tiktok": "Reported job scam losses grew 5x, 2020 to 2024. Real jobs pay you. Not financial advice. #moneytok #personalfinance #jobscam #scamalert #financeprostv",
+  "yt_desc": "Job offer scams flip the money the wrong way: you pay for equipment, training, or a deposit to unlock earnings. FTC data show reported job scam losses grew from $90 million in 2020 to $501 million in 2024, and reported losses to all fraud hit a record $15.9 billion in 2025. The FTC says honest employers, including the federal government, will never ask you to pay to get a job. Sources: FTC (December 2024, March 2025, March 2026).\n\nNews and education, not financial advice.\n\n#Shorts #jobscam #scamalert",
   "tags": [
    "job scam",
    "scam alert",

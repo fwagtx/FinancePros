@@ -1,0 +1,1433 @@
+{
+ "series": "ticker",
+ "header": "THE GUIDE",
+ "cover": {
+  "title": "The $50,000 Car.",
+  "prop": "car",
+  "label": "AUG 2026",
+  "value": "$50,089"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The average new car sold for over $50,000 in August.",
+   "say": "The average new car sold for over fifty thousand dollars in August.",
+   "scene": {
+    "t": "hook",
+    "title": "The [$50,000] car",
+    "prop": "car",
+    "label": "AUG 2026",
+    "value": "$50,089",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the sticker price is only one of four numbers that decide what a buyer really pays.",
+   "say": "And the sticker price is only one of four numbers that decide what a buyer really pays.",
+   "scene": {
+    "t": "list",
+    "title": "The four numbers",
+    "items": [
+     "The price",
+     "The loan rate",
+     "The trade-in",
+     "Fees and add-ons"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Kelley Blue Book says the average new vehicle went for $50,089 in August 2026, the first month this year above $50,000.",
+   "say": "Kelley Blue Book says the average new vehicle went for fifty thousand eighty-nine dollars in August twenty twenty-six, the first month of the year above fifty thousand.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg new-vehicle price paid, Aug 2026",
+    "value": "$50,089",
+    "tone": "down",
+    "sub": "Kelley Blue Book, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average sticker was $51,852. So buyers paid about $1,763 under sticker, on average.",
+   "say": "The average sticker was fifty-one thousand eight hundred fifty-two dollars. So buyers paid about seventeen hundred sixty-three dollars under sticker, on average.",
+   "scene": {
+    "t": "compare",
+    "title": "Average new vehicle, Aug 2026",
+    "left": {
+     "label": "Sticker (MSRP)",
+     "value": "$51,852",
+     "tone": "neutral",
+     "sub": "average"
+    },
+    "right": {
+     "label": "Price paid",
+     "value": "$50,089",
+     "tone": "up",
+     "sub": "average"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the surprise. In one example coming up, a two-point bump in the loan rate costs about $2,000.",
+   "say": "Here's the surprise. In one example coming up, a two-point bump in the loan rate costs about two thousand dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "Rate bump: [$2,000]",
+    "prop": "paper",
+    "label": "EXAMPLE",
+    "value": "+$2,000",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more than that whole average discount, and it never shows up on the window sticker.",
+   "say": "That's more than that whole average discount, and it never shows up on the window sticker.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,991 > $1,763",
+     "(rate bump vs discount)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So this guide walks through the whole purchase in order, with the real rules and the math at every step.",
+   "say": "So this guide walks through the whole purchase in order, with the real rules and the math at every step.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Step 1",
+      "what": "Budget on total cost"
+     },
+     {
+      "when": "Step 2",
+      "what": "Financing first"
+     },
+     {
+      "when": "Step 3",
+      "what": "Out-the-door price"
+     },
+     {
+      "when": "Step 4",
+      "what": "Fees, trade-in, signing"
+     }
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. The budget, built on total cost.",
+   "say": "Chapter one. The budget, built on total cost.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Budget on total cost"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most buyers walk in thinking about one number: the monthly payment.",
+   "say": "Most buyers walk in thinking about one number: the monthly payment.",
+   "scene": {
+    "t": "hook",
+    "title": "The [payment] trap",
+    "prop": "bill",
+    "label": "/MONTH",
+    "value": "$765",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the second quarter of 2026, the average new-car payment was $765 a month, according to Experian.",
+   "say": "In the second quarter of twenty twenty-six, the average new-car payment was seven hundred sixty-five dollars a month, according to Experian.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg new-car loan payment, Q2 2026",
+    "value": "$765/mo",
+    "tone": "down",
+    "sub": "Experian, Q2 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trouble is that a payment can be made to fit almost any budget, just by changing the length of the loan.",
+   "say": "The trouble is that a payment can be made to fit almost any budget, just by changing the length of the loan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Payment = price, rate,",
+     "and number of months"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A longer loan lowers the payment but adds interest. We covered that math in an earlier video, so here's the short version.",
+   "say": "A longer loan lowers the payment but adds interest. We covered that math in an earlier video, so here's the short version.",
+   "scene": {
+    "t": "split",
+    "title": "Stretching the loan",
+    "left": {
+     "title": "Goes down",
+     "items": [
+      "Monthly payment"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Goes up",
+     "items": [
+      "Total interest",
+      "Time owing money"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Careful buyers flip it around. They start from the total they're willing to spend, then work out the payment.",
+   "say": "Careful buyers flip it around. They start from the total they're willing to spend, then work out the payment.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Start here",
+     "value": "Total cost"
+    },
+    "to": {
+     "label": "Then",
+     "value": "Payment"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That total is called the out-the-door price: the car, the fees, the add-ons and the taxes, all in one number.",
+   "say": "That total is called the out-the-door price: the car, the fees, the add-ons and the taxes, all in one number.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Out-the-door price =",
+     "car + fees + add-ons",
+     "+ taxes"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's an example. Say the agreed price is $38,000.",
+   "say": "Here's an example. Say the agreed price is thirty-eight thousand dollars.",
+   "scene": {
+    "t": "list",
+    "title": "Example: out-the-door",
+    "items": [
+     "Price: $38,000",
+     "Add-ons: $1,500",
+     "Doc fee: $500",
+     "Tax 6%: $2,280"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add $1,500 in dealer add-ons, which is an example amount.",
+   "say": "Add fifteen hundred dollars in dealer add-ons, which is an example amount.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then a $500 documentation fee, also an example.",
+   "say": "Then a five hundred dollar documentation fee, also an example.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 6% sales tax on the $38,000 price, which comes to $2,280.",
+   "say": "And six percent sales tax on the thirty-eight thousand dollar price, which comes to two thousand two hundred eighty dollars.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plus $400 for title and registration in this example, and the real total is $42,680.",
+   "say": "Plus four hundred dollars for title and registration in this example, and the real total is forty-two thousand six hundred eighty dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Agreed price",
+     "value": "$38,000"
+    },
+    "to": {
+     "label": "Out-the-door",
+     "value": "$42,680"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $4,680 more than the price everyone shook hands on. The budget has to cover that number, not the first one.",
+   "say": "That's four thousand six hundred eighty dollars more than the price everyone shook hands on. The budget has to cover that number, not the first one.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: extra on top of agreed price",
+    "value": "+$4,680",
+    "tone": "down",
+    "sub": "add-ons, fee, tax, title"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. Why the financing comes first.",
+   "say": "Chapter two. Why the financing comes first.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Financing comes first"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When a dealer arranges your loan, the lender quotes the dealer a rate. The CFPB calls that the buy rate.",
+   "say": "When a dealer arranges your loan, the lender quotes the dealer a rate. The C F P B calls that the buy rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Buy rate = the rate the",
+     "lender quotes the dealer"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rate offered to the buyer can be higher than that, and the difference helps pay the dealer for arranging the loan.",
+   "say": "The rate offered to the buyer can be higher than that, and the difference helps pay the dealer for arranging the loan.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Buy rate",
+     "value": "6.35%"
+    },
+    "to": {
+     "label": "Rate offered",
+     "value": "8.35%"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those numbers are an example. Lenders often cap the markup, and the CFPB notes the rate is negotiable.",
+   "say": "Those numbers are an example. Lenders often cap the markup, and the C F P B notes the rate is negotiable.",
+   "scene": {
+    "t": "stat",
+    "label": "Who says the loan rate is negotiable",
+    "value": "CFPB",
+    "tone": "neutral",
+    "sub": "consumerfinance.gov"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the math. Take a $35,000 loan over 60 months at 6.35%. The payment is about $682.",
+   "say": "Now the math. Take a thirty-five thousand dollar loan over sixty months at six point three five percent. The payment is about six hundred eighty-two dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $35,000, 60 months",
+    "left": {
+     "label": "6.35% APR",
+     "value": "$682",
+     "tone": "up",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "8.35% APR",
+     "value": "$716",
+     "tone": "down",
+     "sub": "per month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 8.35%, it's about $716. Only about $33 more a month, which is easy to wave through.",
+   "say": "At eight point three five percent, it's about seven hundred sixteen. Only about thirty-three dollars more a month, which is easy to wave through.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But over five years, total interest goes from about $5,942 to $7,933.",
+   "say": "But over five years, total interest goes from about fifty-nine hundred forty-two dollars to seventy-nine hundred thirty-three.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: total interest, 60 months",
+    "left": {
+     "label": "6.35% APR",
+     "value": "$5,942",
+     "tone": "up",
+     "sub": "interest"
+    },
+    "right": {
+     "label": "8.35% APR",
+     "value": "$7,933",
+     "tone": "down",
+     "sub": "interest"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $1,991.53 more: the two thousand dollars from the start.",
+   "say": "That's nineteen hundred ninety-one dollars and fifty-three cents more: the two thousand dollars from the start.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: extra interest from +2 points",
+    "value": "$1,991.53",
+    "tone": "down",
+    "sub": "$35,000, 60 months"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a lot of buyers line up a loan offer from a bank or credit union before they ever visit the lot.",
+   "say": "So a lot of buyers line up a loan offer from a bank or credit union before they ever visit the lot.",
+   "scene": {
+    "t": "hook",
+    "title": "Loan [first]",
+    "prop": "paper",
+    "label": "APPROVED",
+    "value": "6.35%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the dealer's offer has something to beat, and the buyer can take whichever rate is lower.",
+   "say": "Then the dealer's offer has something to beat, and the buyer can take whichever rate is lower.",
+   "scene": {
+    "t": "split",
+    "title": "With a pre-approval",
+    "left": {
+     "title": "Buyer knows",
+     "items": [
+      "Their real rate",
+      "Their max budget"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Dealer must",
+     "items": [
+      "Match or beat it"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Worried about credit checks? The CFPB says auto-loan inquiries within a 14 to 45 day window generally count as one.",
+   "say": "Worried about credit checks? The C F P B says auto-loan inquiries within a fourteen to forty-five day window generally count as one.",
+   "scene": {
+    "t": "stat",
+    "label": "Auto-loan inquiries count as one within",
+    "value": "14-45 days",
+    "tone": "up",
+    "sub": "CFPB; depends on score model"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the credit score itself moves the rate a lot. In the second quarter of 2026, Experian's average new-car rate ran from 4.41% to 13.52%.",
+   "say": "And the credit score itself moves the rate a lot. In the second quarter of twenty twenty-six, Experian's average new-car rate ran from four point four one percent to thirteen point five two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg new-car rate, Q2 2026",
+    "left": {
+     "label": "Score 781+",
+     "value": "4.41%",
+     "tone": "up",
+     "sub": "super prime"
+    },
+    "right": {
+     "label": "Score 501-600",
+     "value": "13.52%",
+     "tone": "down",
+     "sub": "subprime"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. The price, out the door.",
+   "say": "Chapter three. The price, out the door.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The price: out-the-door"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, the backdrop. Here's the average price paid for a new vehicle each month of 2026, from Kelley Blue Book.",
+   "say": "First, the backdrop. Here's the average price paid for a new vehicle each month of twenty twenty-six, from Kelley Blue Book.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg new-vehicle price paid, 2026 (KBB)",
+    "points": [
+     [
+      1,
+      49191
+     ],
+     [
+      2,
+      49353
+     ],
+     [
+      3,
+      49275
+     ],
+     [
+      4,
+      49456
+     ],
+     [
+      5,
+      49220
+     ],
+     [
+      6,
+      49758
+     ],
+     [
+      7,
+      49855
+     ],
+     [
+      8,
+      50089
+     ]
+    ],
+    "prefix": "$",
+    "end": "$50,089",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It started January at $49,191 and crossed $50,000 in August. Prices haven't come down much this year.",
+   "say": "It started January at forty-nine thousand one hundred ninety-one dollars and crossed fifty thousand in August. Prices haven't come down much in twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 8,
+     "text": "Over $50K in Aug"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Used cars aren't a bargain bin either. Cox Automotive says the average used listing was $27,239 in August 2026, up 7% from a year earlier.",
+   "say": "Used cars aren't a bargain bin either. Cox Automotive says the average used listing was twenty-seven thousand two hundred thirty-nine dollars in August twenty twenty-six, up seven percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg used-vehicle listing price, Aug 2026",
+    "value": "$27,239",
+    "tone": "down",
+    "sub": "Cox Automotive, +7% in a year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Automakers do offer deals. In August 2026, incentives averaged 6.5% of the transaction price, down from 7.2% a year before.",
+   "say": "Automakers do offer deals. In August twenty twenty-six, incentives averaged six point five percent of the transaction price, down from seven point two percent a year before.",
+   "scene": {
+    "t": "compare",
+    "title": "Incentives, % of price paid (KBB)",
+    "left": {
+     "label": "Aug 2025",
+     "value": "7.2%",
+     "tone": "up",
+     "sub": "of avg price"
+    },
+    "right": {
+     "label": "Aug 2026",
+     "value": "6.5%",
+     "tone": "down",
+     "sub": "of avg price"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how do buyers find a fair price? Most start with what similar cars actually sell for, not the sticker.",
+   "say": "So how do buyers find a fair price? Most start with what similar cars actually sell for, not the sticker.",
+   "scene": {
+    "t": "hook",
+    "title": "Price paid, not [sticker]",
+    "prop": "tag",
+    "label": "MSRP",
+    "value": "-3.4%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On average in August, that gap was about 3.4% below sticker. On some models it's bigger; on hot ones it can flip to above.",
+   "say": "On average in August, that gap was about three point four percent below sticker. On some models it's bigger; on hot ones it can flip to above.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,763 / $51,852",
+     "= about 3.4% under"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then they ask several dealers for a written out-the-door quote, often by email, so the quotes can be compared side by side.",
+   "say": "Then they ask several dealers for a written out-the-door quote, often by email, so the quotes can be compared side by side.",
+   "scene": {
+    "t": "list",
+    "title": "Comparing dealer quotes",
+    "items": [
+     "Same model and trim",
+     "Written out-the-door",
+     "Every fee listed"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why out-the-door? Because a low price with high fees can end up costing more than a higher price with no extras.",
+   "say": "Why out-the-door? Because a low price with high fees can end up costing more than a higher price with no extras.",
+   "scene": {
+    "t": "split",
+    "title": "Two quotes, same car",
+    "left": {
+     "title": "Dealer A",
+     "items": [
+      "Lower price",
+      "Big fees, add-ons"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Dealer B",
+     "items": [
+      "Higher price",
+      "No extras"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And they keep the price talk separate from the loan and the trade-in, so one number can't quietly pay for another.",
+   "say": "And they keep the price talk separate from the loan and the trade-in, so one number can't quietly pay for another.",
+   "scene": {
+    "t": "list",
+    "title": "Negotiated one at a time",
+    "items": [
+     "Price",
+     "Loan rate",
+     "Trade-in"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. The fees and the add-ons.",
+   "say": "Chapter four. The fees and the add-ons.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Fees and add-ons"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, the documentation fee. That's what dealers charge to process the paperwork, and the rules depend on the state.",
+   "say": "First, the documentation fee. That's what dealers charge to process the paperwork, and the rules depend on the state.",
+   "scene": {
+    "t": "hook",
+    "title": "The [doc] fee",
+    "prop": "paper",
+    "label": "DOC FEE",
+    "value": "$85",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "California caps it at $85 for most dealers. A 2025 bill to raise the cap to as much as $260 was vetoed.",
+   "say": "California caps it at eighty-five dollars for most dealers. A twenty twenty-five bill to raise the cap to as much as two hundred sixty dollars was vetoed.",
+   "scene": {
+    "t": "compare",
+    "title": "Dealer doc fee rules",
+    "left": {
+     "label": "California",
+     "value": "$85",
+     "tone": "up",
+     "sub": "state cap"
+    },
+    "right": {
+     "label": "Florida",
+     "value": "No cap",
+     "tone": "down",
+     "sub": "set by dealer"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Florida has no cap, and CarEdge's 2026 survey puts the typical Florida fee near $1,000. Same paperwork, very different bill.",
+   "say": "Florida has no cap, and CarEdge's twenty twenty-six survey puts the typical Florida fee near a thousand dollars. Same paperwork, very different bill.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, add-ons: things like paint protection, nitrogen in the tires, or window etching that show up on the contract.",
+   "say": "Next, add-ons: things like paint protection, nitrogen in the tires, or window etching that show up on the contract.",
+   "scene": {
+    "t": "list",
+    "title": "Common dealer add-ons",
+    "items": [
+     "Paint protection",
+     "Nitrogen-filled tires",
+     "Window etching",
+     "Service contracts"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A federal rule meant to curb surprise add-ons, the FTC's CARS Rule, was struck down by a federal appeals court in January 2025.",
+   "say": "A federal rule meant to curb surprise add-ons, the F T C's CARS Rule, was struck down by a federal appeals court in January twenty twenty-five.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Jan 2024",
+      "what": "FTC finalizes CARS Rule"
+     },
+     {
+      "when": "Jan 2025",
+      "what": "Fifth Circuit vacates it"
+     },
+     {
+      "when": "Feb 2026",
+      "what": "FTC formally withdraws it"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC formally pulled it from the rulebook in February 2026. So add-on rules now come mostly from the states.",
+   "say": "The F T C formally pulled it from the rulebook in February twenty twenty-six. So add-on rules now come mostly from the states.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "California's own version, the CARS Act, took effect on October 1, 2026.",
+   "say": "California's own version, the CARS Act, took effect on October first, twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "California's CARS Act takes effect October 1",
+    "source": "Press Democrat, Sept 24, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It requires ads to show a total price, add-ons to be disclosed as optional, and it bans add-ons with no benefit, like an oil change on an electric car.",
+   "say": "It requires ads to show a total price, add-ons to be disclosed as optional, and it bans add-ons with no benefit, like an oil change on an electric car.",
+   "scene": {
+    "t": "list",
+    "title": "California CARS Act",
+    "items": [
+     "Total price in ads",
+     "Add-ons marked optional",
+     "No useless add-ons"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the math on financed add-ons. Say $1,500 of them get rolled into the loan at 6.35% for 72 months.",
+   "say": "Now the math on financed add-ons. Say fifteen hundred dollars of them get rolled into the loan at six point three five percent for seventy-two months.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example add-ons",
+     "value": "$1,500"
+    },
+    "to": {
+     "label": "Paid over 72 months",
+     "value": "$1,807.77"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The buyer pays $1,807.77 for them, including $307.77 in interest.",
+   "say": "The buyer pays eighteen hundred seven dollars and seventy-seven cents for them, including three hundred seven dollars and seventy-seven cents in interest.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: interest on financed add-ons",
+    "value": "$307.77",
+    "tone": "down",
+    "sub": "$1,500 at 6.35%, 72 months"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. The trade-in, and signing day.",
+   "say": "Chapter five. The trade-in, and signing day.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Trade-in and signing day"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trading in the old car can save money in a way people forget: sales tax.",
+   "say": "Trading in the old car can save money in a way people forget: sales tax.",
+   "scene": {
+    "t": "hook",
+    "title": "The trade-in [tax] break",
+    "prop": "car",
+    "label": "TRADE",
+    "value": "-$900",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most states tax only the difference between the new price and the trade-in. California is one exception that taxes the full price.",
+   "say": "Most states tax only the difference between the new price and the trade-in. California is one exception that taxes the full price.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Taxed amount =",
+     "price - trade-in",
+     "(in most states)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $38,000 car and a $15,000 trade, with 6% tax. Without the credit, tax is $2,280.",
+   "say": "For example, a thirty-eight thousand dollar car and a fifteen thousand dollar trade, with six percent tax. Without the credit, tax is two thousand two hundred eighty dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $38,000 car, $15,000 trade, 6%",
+    "left": {
+     "label": "Tax on full price",
+     "value": "$2,280",
+     "tone": "down",
+     "sub": "no trade credit"
+    },
+    "right": {
+     "label": "Tax on difference",
+     "value": "$1,380",
+     "tone": "up",
+     "sub": "trade credit"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With it, the tax is on $23,000, which is $1,380. That's $900 kept in the buyer's pocket.",
+   "say": "With it, the tax is on twenty-three thousand dollars, which is one thousand three hundred eighty dollars. That's nine hundred dollars kept in the buyer's pocket.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the dark side. Edmunds says 29.6% of trade-ins toward new cars had negative equity in the second quarter of 2026.",
+   "say": "Now the dark side. Edmunds says twenty-nine point six percent of trade-ins toward new cars had negative equity in the second quarter of twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "New-car trade-ins with negative equity",
+    "value": "29.6%",
+    "tone": "down",
+    "sub": "Edmunds, Q2 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Negative equity means the owner owes more on the old car than it's worth. The average gap was $6,884.",
+   "say": "Negative equity means the owner owes more on the old car than it's worth. The average gap was six thousand eight hundred eighty-four dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Still owed",
+     "value": "more"
+    },
+    "to": {
+     "label": "Avg gap, Q2 2026",
+     "value": "$6,884"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Usually that gap gets rolled into the new loan. Here's the math on that slice alone, at 6.35% for 72 months.",
+   "say": "Usually that gap gets rolled into the new loan. Here's the math on that slice alone, at six point three five percent for seventy-two months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$6,884 at 6.35%",
+     "72 months (example)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It adds $115.23 to every payment and about $1,412 in interest, for a car the buyer no longer owns.",
+   "say": "It adds a hundred fifteen dollars and twenty-three cents to every payment and about fourteen hundred twelve dollars in interest, for a car the buyer no longer owns.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: rolling in $6,884",
+    "left": {
+     "label": "Added payment",
+     "value": "$115.23",
+     "tone": "down",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Added interest",
+     "value": "$1,412",
+     "tone": "down",
+     "sub": "over 72 months"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Across Edmunds' data, buyers with negative equity paid $944 a month on average in the second quarter, versus $777 for all new-car loans.",
+   "say": "Across Edmunds' data, buyers with negative equity paid nine hundred forty-four dollars a month on average in the second quarter, versus seven hundred seventy-seven dollars for all new-car loans.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg new-car payment, Q2 2026 (Edmunds)",
+    "left": {
+     "label": "All new loans",
+     "value": "$777",
+     "tone": "neutral",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Negative equity",
+     "value": "$944",
+     "tone": "down",
+     "sub": "per month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And their projected interest averaged $16,270, compared with $9,811 for the typical new-car buyer.",
+   "say": "And their projected interest averaged sixteen thousand two hundred seventy dollars, compared with nine thousand eight hundred eleven dollars for the typical new-car buyer.",
+   "scene": {
+    "t": "compare",
+    "title": "Projected loan interest, Q2 2026",
+    "left": {
+     "label": "Typical buyer",
+     "value": "$9,811",
+     "tone": "neutral",
+     "sub": "Edmunds"
+    },
+    "right": {
+     "label": "Negative equity",
+     "value": "$16,270",
+     "tone": "down",
+     "sub": "Edmunds"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some owners in that spot keep the old car longer and pay it down first, so the gap shrinks before they trade.",
+   "say": "Some owners in that spot keep the old car longer and pay it down first, so the gap shrinks before they trade.",
+   "scene": {
+    "t": "hook",
+    "title": "Shrink the [gap] first",
+    "prop": "chart-down",
+    "label": "OWED",
+    "value": "-$6,884",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And now, signing day.",
+   "say": "And now, the rules on signing day.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Signing day rules"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a myth: that every car purchase comes with three days to change your mind.",
+   "say": "Here's a myth: that every car purchase comes with three days to change your mind.",
+   "scene": {
+    "t": "hook",
+    "title": "A 3-day [return]?",
+    "prop": "car",
+    "label": "MYTH",
+    "value": "No",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC says federal law doesn't require dealers to give buyers three days to cancel. Its Cooling-Off Rule doesn't cover cars.",
+   "say": "The F T C says federal law doesn't require dealers to give buyers three days to cancel. Its Cooling-Off Rule doesn't cover cars.",
+   "scene": {
+    "t": "stat",
+    "label": "Federal right to return a car",
+    "value": "None",
+    "tone": "down",
+    "sub": "FTC consumer guidance"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some states do have one. Under California's CARS Act, used cars priced at $50,000 or less can be returned within three days.",
+   "say": "Some states do have one. Under California's CARS Act, used cars priced at fifty thousand dollars or less can be returned within three days.",
+   "scene": {
+    "t": "list",
+    "title": "California 3-day return",
+    "items": [
+     "Used, $50,000 or less",
+     "Under 400 miles driven",
+     "Restocking fee capped"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That ends if the car's been driven more than 400 miles,",
+   "say": "That ends if the car's been driven more than four hundred miles,",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "and the dealer can charge a restocking fee, though the law caps it.",
+   "say": "and the dealer can charge a restocking fee, though the law caps it.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For used cars everywhere, the FTC requires a Buyers Guide sticker in the window. It says whether there's a warranty, or if the car's sold as is.",
+   "say": "For used cars everywhere, the F T C requires a Buyers Guide sticker in the window. It says whether there's a warranty, or if the car's sold as is.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Buyers Guide:",
+     "warranty, or",
+     "AS IS - NO WARRANTY"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As is means the dealer won't pay for problems after the sale. That's why many used-car buyers pay for an independent inspection first.",
+   "say": "As is means the dealer won't pay for problems after the sale. That's why many used-car buyers pay for an independent inspection first.",
+   "scene": {
+    "t": "split",
+    "title": "Used car, sold as is",
+    "left": {
+     "title": "Dealer covers",
+     "items": [
+      "Nothing after sale"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Buyers often get",
+     "items": [
+      "Independent inspection",
+      "Vehicle history"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One newer rule can help new-car buyers: a federal tax deduction for car loan interest, for tax years 2025 through 2028.",
+   "say": "One newer rule can help new-car buyers: a federal tax deduction for car loan interest, for tax years twenty twenty-five through twenty twenty-eight.",
+   "scene": {
+    "t": "stat",
+    "label": "Max car loan interest deduction per year",
+    "value": "$10,000",
+    "tone": "up",
+    "sub": "tax years 2025-2028"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS finalized the details in September 2026. The car has to be new, assembled in the US, for personal use, with the loan taken out after 2024.",
+   "say": "The IRS finalized the details in September twenty twenty-six. The car has to be new, assembled in the US, for personal use, with the loan taken out after twenty twenty-four.",
+   "scene": {
+    "t": "list",
+    "title": "Who qualifies",
+    "items": [
+     "New, not used",
+     "Final assembly in US",
+     "Personal use, loan",
+     "Loan after 2024"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Leases don't count. It phases out above $100K of modified adjusted gross income, $200K for joint filers, and it's gone at $150K and $250K.",
+   "say": "Leases don't count. It phases out above a hundred thousand dollars of modified adjusted gross income, two hundred thousand for joint filers, and it's gone at a hundred fifty thousand and two hundred fifty thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Deduction phase-out (MAGI)",
+    "left": {
+     "label": "Single",
+     "value": "$100K",
+     "tone": "neutral",
+     "sub": "gone at $150K"
+    },
+    "right": {
+     "label": "Joint",
+     "value": "$200K",
+     "tone": "neutral",
+     "sub": "gone at $250K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And interest on rolled-in negative equity isn't deductible. Only the part of the loan that bought the new car counts.",
+   "say": "And interest on rolled-in negative equity isn't deductible. Only the part of the loan that bought the new car counts.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Negative equity",
+     "interest: not deductible"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What's it worth? On our $35,000 example at 6.35%, first-year interest is $2,045.77.",
+   "say": "What's it worth? On our thirty-five thousand dollar example at six point three five percent, first-year interest is two thousand forty-five dollars and seventy-seven cents.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: first-year interest, $35,000 loan",
+    "value": "$2,045.77",
+    "tone": "neutral",
+    "sub": "6.35%, 60 months"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's a deduction, not a credit. In the 22% bracket, that's worth about $450 in tax; in the 12% bracket, about $245.",
+   "say": "It's a deduction, not a credit. In the twenty-two percent bracket, that's worth about four hundred fifty dollars in tax; in the twelve percent bracket, about two hundred forty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: tax value of $2,045.77",
+    "left": {
+     "label": "12% bracket",
+     "value": "~$245",
+     "tone": "neutral",
+     "sub": "tax saved"
+    },
+    "right": {
+     "label": "22% bracket",
+     "value": "~$450",
+     "tone": "up",
+     "sub": "tax saved"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Helpful, but notice it's smaller than the $1,991.53 a two-point rate markup cost in our earlier example.",
+   "say": "Helpful, but notice it's smaller than the one thousand nine hundred ninety-one dollars a two-point rate markup cost in our earlier example.",
+   "scene": {
+    "t": "compare",
+    "title": "Example comparison",
+    "left": {
+     "label": "Tax break, yr 1",
+     "value": "~$450",
+     "tone": "up",
+     "sub": "22% bracket"
+    },
+    "right": {
+     "label": "2-pt markup",
+     "value": "$1,992",
+     "tone": "down",
+     "sub": "over 5 years"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. The recap and the checklist.",
+   "say": "Chapter six. The recap and the checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap and checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here are the mistakes that cost buyers the most, in the examples we just ran.",
+   "say": "Here are the mistakes that cost buyers the most, in the examples we just ran.",
+   "scene": {
+    "t": "list",
+    "title": "Costly mistakes (examples)",
+    "items": [
+     "Payment-only shopping",
+     "Unchecked rate markup",
+     "Financed add-ons",
+     "Rolled-in negative equity"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shopping only by the monthly payment hides the total.",
+   "say": "Shopping only by the monthly payment hides the total.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A two-point rate markup cost $1,991.53 on a $35,000 loan.",
+   "say": "A two-point rate markup cost one thousand nine hundred ninety-one dollars on a thirty-five thousand dollar loan.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$1,500 of financed add-ons turned into $1,807.77.",
+   "say": "Fifteen hundred dollars of financed add-ons turned into one thousand eight hundred seven dollars.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And rolling in $6,884 of negative equity added $1,412.46 in interest.",
+   "say": "And rolling in six thousand eight hundred eighty-four dollars of negative equity added one thousand four hundred twelve dollars in interest.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the one-screen checklist, in the order buyers usually go.",
+   "say": "Now the one-screen checklist, in the order buyers usually go.",
+   "scene": {
+    "t": "list",
+    "title": "The checklist",
+    "items": [
+     "Out-the-door budget",
+     "Loan pre-approval",
+     "Written OTD quotes",
+     "Trade priced separately"
+    ],
+    "reveal": 1,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An out-the-door budget that includes fees and taxes.",
+   "say": "An out-the-door budget that includes fees and taxes.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A loan pre-approval, so the dealer's rate has a number to beat.",
+   "say": "A loan pre-approval, so the dealer's rate has a number to beat.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Written out-the-door quotes from more than one dealer.",
+   "say": "Written out-the-door quotes from more than one dealer.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a trade-in priced separately, with any negative equity known up front.",
+   "say": "And a trade-in priced separately, with any negative equity known up front.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On signing day, the last checks: every add-on optional and listed, the Buyers Guide on a used car, and the contract rate matching the quote.",
+   "say": "On signing day, the last checks: every add-on optional and listed, the Buyers Guide on a used car, and the contract rate matching the quote.",
+   "scene": {
+    "t": "list",
+    "title": "Signing day checks",
+    "items": [
+     "Add-ons listed, optional",
+     "Buyers Guide reviewed",
+     "Rate matches quote"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The sticker gets all the attention. But the deal is four numbers, and each one has its own math.",
+   "say": "The sticker gets all the attention. But the deal is four numbers, and each one has its own math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price + rate",
+     "+ trade-in + fees",
+     "= what you really pay"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average new car may cost $50,089. What a buyer pays depends on the other three.",
+   "say": "The average new car may have cost fifty thousand eighty-nine dollars in August. What a buyer pays depends on the other three.",
+   "scene": {
+    "t": "hook",
+    "title": "The [$50,000] car",
+    "prop": "car",
+    "label": "AUG 2026",
+    "value": "$50,089",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Subscribe for more guides like this one.",
+   "say": "That's the money. Subscribe for more guides like this one.",
+   "scene": {
+    "t": "cta",
+    "tagline": "News and education, not financial advice."
+   }
+  }
+ ],
+ "post": {
+  "title": "The average new car sold for over $50,000. How buyers avoid overpaying, step by step",
+  "ig": "The average new car sold for $50,089 in August 2026. Here's the math on the other three numbers in the deal.",
+  "tiktok": "A $50,089 average new car, and a 2-point rate bump that costs about $2,000. The full car-buying math.",
+  "yt_desc": "The average new vehicle sold for $50,089 in August 2026, but the sticker is only one of four numbers that decide what a buyer pays. This guide walks through buying a car in order: budgeting on the out-the-door price, how dealer-arranged loan rates work and what a 2-point markup costs, finding a fair price, doc fees and add-ons (including California's CARS Act, in effect October 1, 2026), trade-ins and negative equity, and the signing-day rules, including the new federal car loan interest deduction. All loan examples are labeled hypotheticals with fixed rates and no fees. It ends with the common mistakes and a one-screen checklist.\n\nCHAPTERS\n\nSources: Kelley Blue Book average transaction price reports (Jan-Sept 2026); Cox Automotive used-vehicle inventory report (Sept 2026); Experian State of the Automotive Finance Market Q2 2026; Edmunds negative equity report (July 2026); CFPB Ask CFPB on buy rates and auto-loan rate shopping; FTC guidance on buying a used car and the Cooling-Off Rule; Fifth Circuit, NADA v. FTC (Jan 27, 2025); California SB 766, CARS Act (effective Oct 1, 2026), via Press Democrat (Sept 24, 2026); California Vehicle Code 4456.5 and CalMatters (Oct 2025); CarEdge doc fee survey (2026); IRS and Federal Register, car loan interest deduction final regulations (Sept 2026).\n\nNews and education, not financial advice.\n\n#carbuying #personalfinance #autoloan",
+  "tags": [
+   "how to buy a car",
+   "car buying tips",
+   "out the door price",
+   "auto loan",
+   "dealer fees",
+   "negative equity",
+   "car loan interest deduction",
+   "personal finance"
+  ]
+ }
+}

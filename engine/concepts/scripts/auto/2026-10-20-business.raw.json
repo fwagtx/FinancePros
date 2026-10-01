@@ -35,38 +35,25 @@
   },
   {
    "who": "ticker",
-   "text": "The trick? You aren't the customer. Advertisers are.",
-   "say": "The trick? You aren't the customer. Advertisers are.",
+   "text": "Divided by 365 days, that's about $615 million a day, or $7,120 a second.",
+   "say": "Divided by three hundred sixty-five days, that's about six hundred fifteen million a day, or seven thousand one hundred twenty dollars a second.",
    "scene": {
-    "t": "board",
-    "lines": [
-     "You = the audience",
-     "Advertisers = customers",
-     "Your search = ad space"
-    ],
-    "mood": "think"
+    "t": "money",
+    "from": {
+     "label": "Google Search, 2025",
+     "value": "$224.5B"
+    },
+    "to": {
+     "label": "Per second",
+     "value": "$7,120"
+    },
+    "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "Advertisers bid to show ads next to your search, and often pay Google per click.",
-   "say": "Advertisers bid to show ads next to your search, and often pay Google per click.",
-   "scene": {
-    "t": "list",
-    "title": "How a search ad pays",
-    "items": [
-     "You type a search",
-     "Advertisers bid on it",
-     "Winning ads appear",
-     "A click pays Google"
-    ],
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's up from $149 billion in 2021.",
-   "say": "That's up from a hundred forty-nine billion in twenty twenty-one.",
+   "text": "In 2021, the yearly total was $149 billion.",
+   "say": "In twenty twenty-one, the yearly total was a hundred forty-nine billion.",
    "scene": {
     "t": "chart",
     "title": "Google Search & other ($B)",
@@ -100,19 +87,32 @@
   },
   {
    "who": "ticker",
-   "text": "Divided by 365 days, that's about $615 million a day, or $7,120 a second.",
-   "say": "Divided by three hundred sixty-five days, that's about six hundred fifteen million a day, or seven thousand one hundred twenty dollars a second.",
+   "text": "How? You aren't the customer. Advertisers are.",
+   "say": "How? You aren't the customer. Advertisers are.",
    "scene": {
-    "t": "money",
-    "from": {
-     "label": "Google Search, 2025",
-     "value": "$224.5B"
-    },
-    "to": {
-     "label": "Per second",
-     "value": "$7,120"
-    },
-    "mood": "shock"
+    "t": "board",
+    "lines": [
+     "You = the audience",
+     "Advertisers = customers",
+     "Your search = ad space"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Advertisers bid to show ads next to your search, and often pay Google per click.",
+   "say": "Advertisers bid to show ads next to your search, and often pay Google per click.",
+   "scene": {
+    "t": "list",
+    "title": "How a search ad pays",
+    "items": [
+     "You type a search",
+     "Advertisers bid on it",
+     "Winning ads appear",
+     "A click pays Google"
+    ],
+    "reveal": 4
    }
   },
   {
