@@ -2,7 +2,7 @@
  "series": "ticker",
  "header": "How hair salons\nmake money",
  "cover": {
-  "title": "Your Stylist's Real Boss",
+  "title": "Who Pays Who at the Salon?",
   "prop": "store",
   "label": "SALON",
   "value": "48%"
@@ -10,11 +10,11 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Nearly half of US hairstylists are self-employed.",
-   "say": "Nearly half of US hairstylists are self-employed.",
+   "text": "Your stylist might be paying the salon, not the other way around.",
+   "say": "Your stylist might be paying the salon, not the other way around.",
    "scene": {
     "t": "hook",
-    "title": "Your stylist's [boss]?",
+    "title": "Who pays [who]?",
     "prop": "store",
     "label": "SALON",
     "value": "48%",
@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "So for many stylists, the salon isn't their boss. It's their landlord.",
-   "say": "So for many stylists, the salon isn't their boss. It's their landlord.",
+   "text": "Nearly half of US hairstylists were self-employed in 2024. The salon is often their landlord.",
+   "say": "Nearly half of US hairstylists were self-employed in twenty twenty-four. The salon is often their landlord.",
    "scene": {
     "t": "board",
     "lines": [
@@ -37,8 +37,8 @@
   },
   {
    "who": "ticker",
-   "text": "Salons make money in two main ways: commission or booth rent.",
-   "say": "Salons make money in two main ways: commission or booth rent.",
+   "text": "Salons usually use one of two models: commission or booth rent.",
+   "say": "Salons usually use one of two models: commission or booth rent.",
    "scene": {
     "t": "split",
     "title": "Two salon models",
@@ -62,12 +62,12 @@
   },
   {
    "who": "ticker",
-   "text": "Say a stylist does $1,000 of haircuts in a week. At a 50% commission, they keep $500.",
-   "say": "Say a stylist does a thousand dollars of haircuts in a week. At a fifty percent commission, they keep five hundred.",
+   "text": "Say a stylist brings in $1,000 a week. At a 50% commission, they keep $500.",
+   "say": "Say a stylist brings in a thousand dollars a week. At a fifty percent commission, they keep five hundred.",
    "scene": {
     "t": "money",
     "from": {
-     "label": "Week of haircuts",
+     "label": "A week of services",
      "value": "$1,000"
     },
     "to": {
@@ -78,8 +78,8 @@
   },
   {
    "who": "ticker",
-   "text": "With a $300 booth rent instead, they keep $700, before supplies and taxes.",
-   "say": "With a three hundred dollar booth rent instead, they keep seven hundred, before supplies and taxes.",
+   "text": "With a $300 booth rent, they keep $700, before supplies and taxes.",
+   "say": "With a three hundred dollar booth rent, they keep seven hundred, before supplies and taxes.",
    "scene": {
     "t": "compare",
     "title": "Stylist's share of a $1,000 week",
@@ -99,8 +99,8 @@
   },
   {
    "who": "ticker",
-   "text": "Break-even: $300 divided by 50% is $600 a week. Below that, commission pays more.",
-   "say": "Break-even: three hundred divided by fifty percent is six hundred a week. Below that, commission pays more.",
+   "text": "Below $600 a week, commission pays more, even before a renter's other costs.",
+   "say": "Below six hundred a week, commission pays more, even before a renter's other costs.",
    "scene": {
     "t": "board",
     "lines": [
@@ -113,15 +113,15 @@
   },
   {
    "who": "ticker",
-   "text": "But renters pay for their own products, insurance, and 15.3% self-employment tax, with no paid time off.",
-   "say": "But renters pay for their own products, insurance, and fifteen point three percent self-employment tax, with no paid time off.",
+   "text": "Renters also cover products, insurance, and the full 15.3% self-employment tax, with no paid time off.",
+   "say": "Renters also cover products, insurance, and the full fifteen point three percent self-employment tax, with no paid time off.",
    "scene": {
     "t": "list",
     "title": "What booth renters cover",
     "items": [
      "Products",
      "Insurance",
-     "15.3% self-employment tax",
+     "Full 15.3% SE tax",
      "No paid time off"
     ],
     "reveal": 4,
@@ -130,8 +130,8 @@
   },
   {
    "who": "ticker",
-   "text": "In 2023, Census counted about 838,000 one-person beauty salon businesses, versus 84,000 salons with staff.",
-   "say": "In twenty twenty-three, Census counted about eight hundred thirty-eight thousand one-person beauty salon businesses, versus eighty-four thousand salons with staff.",
+   "text": "In 2023, Census counted about 838,000 beauty businesses with no employees, versus 84,000 with staff.",
+   "say": "In twenty twenty-three, Census counted about eight hundred thirty-eight thousand beauty businesses with no employees, versus eighty-four thousand with staff.",
    "scene": {
     "t": "compare",
     "title": "US beauty salon businesses, 2023",
@@ -151,11 +151,11 @@
   },
   {
    "who": "ticker",
-   "text": "Median stylist pay rose from $12.54 an hour in 2019 to $17.21 in 2025.",
-   "say": "Median stylist pay rose from twelve fifty-four an hour in twenty nineteen to seventeen twenty-one in twenty twenty-five.",
+   "text": "Payroll stylists' median pay rose from $12.54 an hour in 2019 to $17.21 in 2025.",
+   "say": "Payroll stylists' median pay rose from twelve fifty-four an hour in twenty nineteen to seventeen twenty-one in twenty twenty-five.",
    "scene": {
     "t": "chart",
-    "title": "Median hairstylist pay, per hour (BLS)",
+    "title": "Median pay, employed stylists (not inflation-adjusted)",
     "points": [
      [
       2019,
@@ -193,10 +193,10 @@
   }
  ],
  "post": {
-  "title": "How hair salons make money: booth rent vs commission",
-  "ig": "Nearly half of US hairstylists are self-employed.\nSalons earn either a commission (often 40% to 60% of what a stylist brings in) or booth rent.\nExample: a $1,000 week at 50% commission leaves the stylist $500; with $300 booth rent, $700 before supplies and taxes. Break-even: $600 a week.\nCensus counted about 838,000 one-person beauty salon businesses in 2023 vs about 84,000 salons with employees.\nSources: BLS Occupational Outlook Handbook and OEWS; Census (2023).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#salon #hairstylist #smallbusiness #businessmodel #financeprostv",
+  "title": "Your stylist might be paying the salon: booth rent vs commission",
+  "ig": "Your stylist might be paying the salon, not the other way around.\nNearly half of US hairstylists were self-employed in 2024 (BLS).\nSalons usually earn either a commission (often 40% to 60% of what a stylist brings in) or booth rent.\nExample: a $1,000 week at 50% commission leaves the stylist $500; with $300 booth rent, $700 before supplies and taxes. Break-even: $600 a week.\nCensus counted about 838,000 beauty businesses with no employees in 2023 vs about 84,000 salons with employees.\nSources: BLS Occupational Outlook Handbook and OEWS; Census (2023).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#salon #hairstylist #smallbusiness #businessmodel #financeprostv",
   "tiktok": "How hair salons make money: booth rent vs commission. Not financial advice. #moneytok #business #hairstylist #financeprostv",
-  "yt_desc": "About 48% of US hairdressers, hairstylists and cosmetologists were self-employed in 2024 (BLS). Salons earn either a commission on a stylist's sales, often 40% to 60%, or a fixed booth rent; on a $1,000 week, a 50% split leaves the stylist $500 while $300 booth rent leaves $700 before supplies and taxes. Census counted about 838,000 one-person beauty salon businesses versus about 84,000 employer salons in 2023. News and education, not financial advice. #Shorts #business #salon",
+  "yt_desc": "About 48% of US hairdressers, hairstylists and cosmetologists were self-employed in 2024 (BLS). Salons earn either a commission on a stylist's sales, often 40% to 60%, or a fixed booth rent; on a $1,000 week, a 50% split leaves the stylist $500 while $300 booth rent leaves $700 before supplies and taxes. Census counted about 838,000 beauty businesses with no employees versus about 84,000 employer salons in 2023. News and education, not financial advice. #Shorts #business #salon",
   "tags": [
    "how hair salons make money",
    "booth rent vs commission",
