@@ -1,0 +1,1451 @@
+{
+ "id": "2026-10-28-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "THE GUIDE",
+ "cover": {
+  "title": "Your First Home, Step by Step.",
+  "prop": "house",
+  "label": "FIRST HOME",
+  "value": "7 steps"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The typical first-time home buyer is now 40 years old.",
+   "say": "The typical first-time home buyer is now forty years old.",
+   "scene": {
+    "t": "hook",
+    "title": "First home at [40]",
+    "prop": "house",
+    "label": "FIRST HOME",
+    "value": "age 40",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a record, and first-time buyers made up just 21% of purchases, also a record low.",
+   "say": "That's a record. And first-time buyers made up just twenty-one percent of purchases, also a record low.",
+   "scene": {
+    "t": "compare",
+    "title": "NAR Profile of Home Buyers, 2025",
+    "left": {
+     "label": "Median age",
+     "value": "40",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Share of buyers",
+     "value": "21%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's that first-time buyer share over five years of NAR surveys.",
+   "say": "Here's that first-time buyer share, over five years of N A R surveys.",
+   "scene": {
+    "t": "chart",
+    "title": "First-time buyers' share of home purchases (NAR, %)",
+    "points": [
+     [
+      2021,
+      34
+     ],
+     [
+      2022,
+      26
+     ],
+     [
+      2023,
+      32
+     ],
+     [
+      2024,
+      24
+     ],
+     [
+      2025,
+      21
+     ]
+    ],
+    "suffix": "%",
+    "end": "21%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It fell from 34% in 2021 to 21% in 2025, the lowest NAR has ever recorded.",
+   "say": "It fell from thirty-four percent in twenty twenty-one, to twenty-one percent in twenty twenty-five. The lowest N A R has ever recorded.",
+   "scene": {
+    "t": "chart",
+    "title": "First-time buyers' share of home purchases (NAR, %)",
+    "points": [
+     [
+      2021,
+      34
+     ],
+     [
+      2022,
+      26
+     ],
+     [
+      2023,
+      32
+     ],
+     [
+      2024,
+      24
+     ],
+     [
+      2025,
+      21
+     ]
+    ],
+    "suffix": "%",
+    "end": "21%",
+    "color": "down",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "record low"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices are part of it. The median existing home sold for $429,100 in August 2026.",
+   "say": "Prices are part of it. The median existing home sold for about four hundred twenty-nine thousand dollars in August twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Median existing-home price, Aug 2026",
+    "value": "$429,100",
+    "tone": "down",
+    "sub": "up 1.6% in a year (NAR)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in late September 2026, the average 30-year mortgage rate topped 7% for the first time since January 2025.",
+   "say": "And in late September twenty twenty-six, the average thirty-year mortgage rate topped seven percent, for the first time since January twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "30-year fixed rate, Sept 24, 2026",
+    "value": "7.03%",
+    "tone": "down",
+    "sub": "Freddie Mac weekly survey"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But people still buy homes every day. The process is long, but it's the same seven steps for almost everyone.",
+   "say": "But people still buy homes every day. The process is long, but it's the same seven steps for almost everyone.",
+   "scene": {
+    "t": "list",
+    "title": "The 7 steps",
+    "items": [
+     "Money check",
+     "Preapproval",
+     "Offer to inspection",
+     "Closing"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll walk through each one, with the real rules, real math, and the mistakes to avoid.",
+   "say": "We'll walk through each one, with the real rules, the real math, and the mistakes to avoid.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "7 steps",
+     "real rules",
+     "real math"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of it is secret. Most of the rules are public, and the math fits on a napkin.",
+   "say": "None of it is secret. Most of the rules are public, and the math fits on a napkin.",
+   "scene": {
+    "t": "hook",
+    "title": "No [secrets] here",
+    "prop": "paper",
+    "label": "RULES",
+    "value": "PUBLIC",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: the money check.",
+   "say": "Chapter one. The money check.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The money check"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one is knowing three numbers: your credit score, your savings, and your monthly debts.",
+   "say": "Step one is knowing three numbers. Your credit score, your savings, and your monthly debts.",
+   "scene": {
+    "t": "list",
+    "title": "Step 1: your numbers",
+    "items": [
+     "Credit score",
+     "Savings",
+     "Monthly debts"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start with your credit reports. You can get them free every week at AnnualCreditReport.com.",
+   "say": "Start with your credit reports. You can get them free, every week, at annual credit report dot com.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Free credit reports:",
+     "AnnualCreditReport.com",
+     "every week"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look for errors, like accounts that aren't yours or late payments that weren't late, and dispute them early.",
+   "say": "Look for errors, like accounts that aren't yours, or late payments that weren't late, and dispute them early. Fixes can take weeks.",
+   "scene": {
+    "t": "list",
+    "title": "Check your report for",
+    "items": [
+     "Unknown accounts",
+     "Wrong late payments",
+     "Old debts"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your credit score shapes which loans you qualify for and the rate you're offered.",
+   "say": "Your credit score shapes which loans you qualify for, and the rate you're offered.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Higher score",
+     "= more loan options",
+     "= often a lower rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For example, an FHA loan allows 3.5% down with a score of 580 or higher.",
+   "say": "For example, an F H A loan allows three and a half percent down, with a credit score of five eighty or higher.",
+   "scene": {
+    "t": "stat",
+    "label": "FHA minimum down payment",
+    "value": "3.5%",
+    "tone": "up",
+    "sub": "with a 580+ credit score (500-579: 10% down)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Scores from 500 to 579 generally need 10% down for FHA.",
+   "say": "Scores from five hundred to five seventy-nine generally need ten percent down for F H A.",
+   "scene": {
+    "t": "compare",
+    "title": "FHA down payment by credit score",
+    "left": {
+     "label": "580 and up",
+     "value": "3.5%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "500 to 579",
+     "value": "10%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lenders also compare your monthly debts to your income. That's your debt-to-income ratio.",
+   "say": "Lenders also compare your monthly debts to your income. That's called your debt-to-income ratio.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Debt-to-income =",
+     "monthly debts",
+     "/ monthly gross income"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Car loans, student loans and card minimums all count. Paying some down before you apply can help.",
+   "say": "Car loans, student loans and credit card minimums all count. Paying some down before you apply can help your ratio.",
+   "scene": {
+    "t": "list",
+    "title": "Counts as debt",
+    "items": [
+     "Car loan",
+     "Student loans",
+     "Card minimums"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A common rule of thumb: keep housing costs under about 28% of your gross monthly income.",
+   "say": "A common rule of thumb is to keep housing costs under about twenty-eight percent of your gross monthly income.",
+   "scene": {
+    "t": "stat",
+    "label": "Common rule of thumb",
+    "value": "28%",
+    "tone": "neutral",
+    "sub": "housing cost / gross monthly income"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On an $80,000 salary, that's about $1,867 a month. Keep that number in mind for chapter three.",
+   "say": "On an eighty thousand dollar salary, that's about eighteen sixty-seven a month. Keep that number in mind for chapter three.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$80,000 / 12 = $6,667",
+     "x 28%",
+     "= about $1,867 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start gathering documents now: pay stubs, W-2s, tax returns and bank statements. Lenders will ask for all of them.",
+   "say": "Start gathering documents now. Pay stubs, W-twos, tax returns and bank statements. Lenders will ask for all of them.",
+   "scene": {
+    "t": "list",
+    "title": "Documents lenders ask for",
+    "items": [
+     "Pay stubs",
+     "W-2s",
+     "Tax returns",
+     "Bank statements"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: the down payment and the hidden costs.",
+   "say": "Chapter two. The down payment, and the hidden costs.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Down payment and costs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Myth: you need 20% down. You don't. Many loans allow much less.",
+   "say": "Here's a myth: you need twenty percent down. You don't. Many loans allow much less.",
+   "scene": {
+    "t": "hook",
+    "title": "20% down? [Myth]",
+    "prop": "house",
+    "label": "DOWN",
+    "value": "20%?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some conventional loans allow 3% down, FHA 3.5%, and VA and USDA loans can allow zero for eligible buyers.",
+   "say": "Some conventional loans allow three percent down, F H A three and a half, and V A and U S D A loans can allow zero, for eligible buyers.",
+   "scene": {
+    "t": "list",
+    "title": "Minimum down payments",
+    "items": [
+     "Conventional: 3%",
+     "FHA: 3.5%",
+     "VA, USDA: 0%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $429,100 home, here's what each minimum means in cash.",
+   "say": "On a four hundred twenty-nine thousand dollar home, here's what each of those means in cash.",
+   "scene": {
+    "t": "list",
+    "title": "Down payment on $429,100",
+    "items": [
+     "3%: $12,873",
+     "3.5%: $15,019",
+     "10%: $42,910",
+     "20%: $85,820"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a $73,000 gap between 3% and 20% down. A smaller down payment gets you in sooner, but borrows more.",
+   "say": "That's about a seventy-three thousand dollar gap between three and twenty percent down. A smaller down payment gets you in sooner, but you borrow more.",
+   "scene": {
+    "t": "split",
+    "title": "Down payment trade-off",
+    "left": {
+     "title": "Smaller",
+     "items": [
+      "Buy sooner",
+      "Bigger loan"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Larger",
+     "items": [
+      "Wait longer",
+      "Smaller loan"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In NAR's 2025 survey, first-time buyers put down a median of 10%.",
+   "say": "In N A R's twenty twenty-five survey, first-time buyers put down a median of ten percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Median first-time buyer down payment",
+    "value": "10%",
+    "tone": "neutral",
+    "sub": "NAR 2025 Profile; repeat buyers: 23%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of it came from personal savings. About a fifth got gifts or loans from family or friends.",
+   "say": "Most of it came from personal savings. About a fifth got gifts or loans from family or friends.",
+   "scene": {
+    "t": "list",
+    "title": "First-time down payment sources",
+    "items": [
+     "Savings: 59%",
+     "Investments: 26%",
+     "Family gift/loan: 22%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If family helps, lenders usually want a signed gift letter saying it's a gift, not a loan.",
+   "say": "If family helps, lenders usually want a signed gift letter, saying the money is a gift and not a loan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Family gift?",
+     "Lenders usually want",
+     "a gift letter"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put down less than 20% on a conventional loan, and you'll usually pay private mortgage insurance, or PMI.",
+   "say": "Put down less than twenty percent on a conventional loan, and you'll usually pay private mortgage insurance, or P M I.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Under 20% down",
+     "= usually PMI",
+     "(protects the lender)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal law lets you ask to cancel PMI at 80% loan-to-value, and it ends automatically at 78%.",
+   "say": "Federal law lets you ask to cancel P M I at eighty percent loan-to-value, and it ends automatically at seventy-eight.",
+   "scene": {
+    "t": "compare",
+    "title": "PMI on conventional loans (Homeowners Protection Act)",
+    "left": {
+     "label": "You can ask",
+     "value": "80%",
+     "tone": "neutral",
+     "sub": "loan-to-value"
+    },
+    "right": {
+     "label": "Ends automatically",
+     "value": "78%",
+     "tone": "up",
+     "sub": "of original value"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FHA loans have their own mortgage insurance: 1.75% upfront, plus an annual premium that's 0.55% for most borrowers.",
+   "say": "F H A loans have their own mortgage insurance. One point seven five percent upfront, plus an annual premium that's zero point five five percent for most borrowers.",
+   "scene": {
+    "t": "compare",
+    "title": "FHA mortgage insurance (most loans)",
+    "left": {
+     "label": "Upfront",
+     "value": "1.75%",
+     "tone": "neutral",
+     "sub": "of the loan"
+    },
+    "right": {
+     "label": "Yearly",
+     "value": "0.55%",
+     "tone": "neutral",
+     "sub": "of the loan"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there are closing costs: fees for the loan, title, appraisal and more. They often run 2% to 5% of the price.",
+   "say": "Then there are closing costs. Fees for the loan, the title, the appraisal and more. They often run two to five percent of the price.",
+   "scene": {
+    "t": "stat",
+    "label": "Typical closing costs",
+    "value": "2% to 5%",
+    "tone": "down",
+    "sub": "of the purchase price"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $429,100 home, that's roughly $8,600 to $21,500, on top of the down payment.",
+   "say": "On a four hundred twenty-nine thousand dollar home, that's roughly eighty-six hundred to twenty-one and a half thousand, on top of the down payment.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$429,100 x 2% = $8,582",
+     "$429,100 x 5% = $21,455",
+     "plus the down payment"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake number one: draining every dollar for the down payment and leaving nothing for repairs or emergencies.",
+   "say": "Mistake number one: draining every dollar for the down payment, and leaving nothing for repairs or emergencies.",
+   "scene": {
+    "t": "split",
+    "title": "Your cash",
+    "left": {
+     "title": "Mistake",
+     "items": [
+      "All into down payment"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Safer",
+     "items": [
+      "Keep a cushion"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many people aim to keep a few months of expenses in savings after closing, because homes break.",
+   "say": "Many people aim to keep a few months of expenses in savings after closing, because homes break, and the landlord is now you.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "After closing:",
+     "keep a cushion",
+     "homes break"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Also check your state's housing finance agency. Many offer down payment help for first-time buyers.",
+   "say": "Also check your state's housing finance agency. Many offer down payment help for first-time buyers.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "STATE HOUSING AGENCY",
+    "label": "down payment help",
+    "caption": "Worth a look first"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: the payment math.",
+   "say": "Chapter three. The payment math.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The payment math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's run a real example: the August 2026 median price, $429,100, with 10% down.",
+   "say": "Let's run a real example. The August twenty twenty-six median price, four twenty-nine one hundred, with ten percent down.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price: $429,100",
+     "Down 10%: $42,910",
+     "Loan: $386,190"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 7.03% for 30 years, principal and interest come to about $2,577 a month.",
+   "say": "At seven point oh three percent for thirty years, principal and interest come to about twenty-five seventy-seven a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly principal + interest (example)",
+    "value": "$2,577",
+    "tone": "down",
+    "sub": "$386,190 at 7.03%, 30 years"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a surprise. In the first month, about $2,262 of that payment is interest. Only about $315 pays down the loan.",
+   "say": "Here's a surprise. In the first month, about twenty-two sixty-two of that payment is interest. Only about three fifteen pays down the loan.",
+   "scene": {
+    "t": "compare",
+    "title": "Payment #1 of 360 (example)",
+    "left": {
+     "label": "Interest",
+     "value": "$2,262",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Principal",
+     "value": "$315",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's how amortization works: early payments are mostly interest, later ones mostly principal.",
+   "say": "That's how amortization works. Early payments are mostly interest, and later ones are mostly principal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Early years:",
+     "mostly interest",
+     "Later: mostly principal"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's before property taxes, homeowners insurance and any PMI, which can add hundreds more.",
+   "say": "And that's before property taxes, homeowners insurance, and any P M I, which can add hundreds more.",
+   "scene": {
+    "t": "list",
+    "title": "Your real monthly payment",
+    "items": [
+     "Principal + interest",
+     "Property taxes",
+     "Home insurance",
+     "PMI if any"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember the 28% rule? $2,577 alone is more than the $1,867 an $80,000 salary would allow.",
+   "say": "Remember the twenty-eight percent rule? Twenty-five seventy-seven alone is more than the eighteen sixty-seven that an eighty thousand dollar salary would allow.",
+   "scene": {
+    "t": "compare",
+    "title": "Rule of thumb vs this home",
+    "left": {
+     "label": "28% of $80K",
+     "value": "$1,867",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "P&I alone",
+     "value": "$2,577",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By that rule, you'd need roughly $110,000 of income just to cover principal and interest on the median home.",
+   "say": "By that rule, you'd need roughly a hundred ten thousand dollars of income, just to cover principal and interest on the median home.",
+   "scene": {
+    "t": "stat",
+    "label": "Income for $2,577 at 28% (example)",
+    "value": "$110,000",
+    "tone": "down",
+    "sub": "$2,577 / 0.28 x 12"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 30 years, those payments total about $927,800. About $541,600 of that is interest.",
+   "say": "Over thirty years, those payments total about nine hundred twenty-eight thousand dollars. About five hundred forty-two thousand of that is interest.",
+   "scene": {
+    "t": "compare",
+    "title": "Over 30 years (example)",
+    "left": {
+     "label": "Borrowed",
+     "value": "$386K",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Interest",
+     "value": "$542K",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 15-year loan cuts that sharply. At the same 7.03%, total interest would be about $240,000, but the payment jumps to about $3,478.",
+   "say": "A fifteen-year loan cuts that sharply. At the same rate, total interest would be about two hundred forty thousand dollars. But the payment jumps to about thirty-four seventy-eight.",
+   "scene": {
+    "t": "compare",
+    "title": "$386,190 at 7.03% (example)",
+    "left": {
+     "label": "30-year",
+     "value": "$2,577",
+     "tone": "neutral",
+     "sub": "$542K interest"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "$3,478",
+     "tone": "neutral",
+     "sub": "$240K interest"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In real life, 15-year rates are usually a bit lower than 30-year rates, which tilts the math further.",
+   "say": "In real life, fifteen-year rates are usually a bit lower than thirty-year rates, which tilts the math even further.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "15-year: higher payment",
+     "less interest",
+     "often a lower rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rate matters a lot. At 6%, the same loan's payment would be about $2,315, about $262 less a month.",
+   "say": "The rate matters a lot. At six percent, the same loan's payment would be about twenty-three fifteen. That's about two hundred sixty-two dollars less, every month.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $386,190 loan, 30 years",
+    "left": {
+     "label": "At 7.03%",
+     "value": "$2,577",
+     "tone": "down"
+    },
+    "right": {
+     "label": "At 6.00%",
+     "value": "$2,315",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why shopping lenders matters. Rates and fees can differ from one lender to the next.",
+   "say": "That's why shopping lenders matters. Rates and fees can differ from one lender to the next.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "Same $386,190 loan, 30 years",
+    "left": {
+     "label": "At 7.03%",
+     "value": "$2,577",
+     "tone": "down"
+    },
+    "right": {
+     "label": "At 6.00%",
+     "value": "$2,315",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ask several lenders for a Loan Estimate. The forms are standardized, so they're easy to compare line by line.",
+   "say": "Ask several lenders for a Loan Estimate. The forms are standardized, so they're easy to compare line by line.",
+   "scene": {
+    "t": "list",
+    "title": "Compare Loan Estimates",
+    "items": [
+     "Interest rate",
+     "APR",
+     "Lender fees",
+     "Points"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Points are prepaid interest. One point costs 1% of the loan and buys a lower rate.",
+   "say": "Points are prepaid interest. One point costs one percent of the loan, and buys you a lower rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 point = 1% of loan",
+     "paid upfront",
+     "= lower rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Once you're under contract, you can lock your rate, so it can't rise before closing for a set period.",
+   "say": "Once you're under contract, you can lock your rate, so it can't rise before closing for a set period.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rate lock:",
+     "your rate is held",
+     "for a set period"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Also know the conforming loan limit: $832,750 in most of the US for 2026. Bigger loans are jumbo loans with different rules.",
+   "say": "Also know the conforming loan limit: eight hundred thirty-two thousand seven hundred fifty dollars in most of the US for twenty twenty-six. Bigger loans are jumbo loans, with different rules.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 conforming loan limit (most areas)",
+    "value": "$832,750",
+    "tone": "neutral",
+    "sub": "one-unit homes (FHFA); higher in pricey areas"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: preapproval and shopping.",
+   "say": "Chapter four. Preapproval and shopping.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Preapproval and shopping"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two: get preapproved. A lender checks your credit, income and assets, and says how much it may lend.",
+   "say": "Step two: get preapproved. A lender checks your credit, income and assets, and tells you how much it may lend.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Preapproval =",
+     "lender checks you",
+     "before you shop"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Don't confuse it with prequalification, which is a quick estimate. Preapproval checks your documents.",
+   "say": "Don't confuse it with prequalification, which is just a quick estimate. Preapproval actually checks your documents.",
+   "scene": {
+    "t": "compare",
+    "title": "Not the same thing",
+    "left": {
+     "label": "Prequalified",
+     "value": "Guess",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Preapproved",
+     "value": "Checked",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sellers take preapproved buyers more seriously. It also tells you your real budget.",
+   "say": "Sellers take preapproved buyers more seriously. And it tells you your real budget.",
+   "scene": {
+    "t": "split",
+    "title": "Preapproval",
+    "left": {
+     "title": "For sellers",
+     "items": [
+      "Serious buyer"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "For you",
+     "items": [
+      "Real budget"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Preapproval letters usually expire after a few months, so time it close to when you'll really shop.",
+   "say": "Preapproval letters usually expire after a few months, so time it close to when you'll really shop.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Preapproval letters",
+     "expire, so time it",
+     "close to shopping"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake number two: assuming the amount you're approved for is the amount you should spend.",
+   "say": "Mistake number two: assuming the amount you're approved for is the amount you should spend.",
+   "scene": {
+    "t": "hook",
+    "title": "Approved isn't [affordable]",
+    "prop": "house",
+    "label": "MAX LOAN",
+    "value": "?",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lender's max doesn't know about your daycare bill or your savings goals. You do.",
+   "say": "The lender's maximum doesn't know about your daycare bill, or your savings goals. You do.",
+   "scene": {
+    "t": "compare",
+    "title": "Two different numbers",
+    "left": {
+     "label": "Lender's max",
+     "value": "Max",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Your comfort",
+     "value": "Real",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step three: shop for the home, often with a buyer's agent. Agent pay is negotiable, and it's spelled out in a written agreement.",
+   "say": "Step three: shop for the home, often with a buyer's agent. Agent pay is negotiable, and since twenty twenty-four, it's spelled out in a written agreement before touring.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Buyer's agent:",
+     "written agreement",
+     "pay is negotiable"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look past the photos: commute, school district, property taxes, HOA fees and flood zone all affect your real cost.",
+   "say": "Look past the photos. The commute, the school district, property taxes, H O A fees and flood zone all affect your real cost.",
+   "scene": {
+    "t": "list",
+    "title": "Check beyond the photos",
+    "items": [
+     "Property taxes",
+     "HOA fees",
+     "Flood zone",
+     "Commute"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: offer to closing.",
+   "say": "Chapter five. From offer to closing.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Offer to closing"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step four: make an offer. It includes the price, the earnest money deposit, and contingencies.",
+   "say": "Step four: make an offer. It includes the price, the earnest money deposit, and contingencies.",
+   "scene": {
+    "t": "list",
+    "title": "What's in an offer",
+    "items": [
+     "Price",
+     "Earnest money",
+     "Contingencies",
+     "Closing date"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From an accepted offer to closing often takes about a month, sometimes longer.",
+   "say": "From an accepted offer to closing often takes about a month, and sometimes longer.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Day 1",
+      "Offer accepted"
+     ],
+     [
+      "Week 1-2",
+      "Inspection, appraisal"
+     ],
+     [
+      "About a month",
+      "Closing"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Earnest money shows you're serious. It goes toward your costs at closing, but you can lose it if you back out without a contingency.",
+   "say": "Earnest money shows you're serious. It goes toward your costs at closing, but you can lose it if you back out without a contingency.",
+   "scene": {
+    "t": "split",
+    "title": "Earnest money",
+    "left": {
+     "title": "Deal closes",
+     "items": [
+      "Goes toward costs"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "You walk, no exit",
+     "items": [
+      "Can lose it"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Contingencies are your exits: for example, if the inspection, appraisal or financing falls through.",
+   "say": "Contingencies are your exits. For example, if the inspection, the appraisal, or the financing falls through.",
+   "scene": {
+    "t": "list",
+    "title": "Common contingencies",
+    "items": [
+     "Inspection",
+     "Appraisal",
+     "Financing"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step five: the inspection. A pro checks the roof, wiring, plumbing and more.",
+   "say": "Step five: the inspection. A professional checks the roof, the wiring, the plumbing and more.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "HOME INSPECTION",
+    "label": "roof, wiring, pipes",
+    "caption": "Find problems before you own them"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake number three: skipping the inspection to win a bidding war. Any problems you find later are yours.",
+   "say": "Mistake number three: skipping the inspection to win a bidding war. Any problems you find later are yours.",
+   "scene": {
+    "t": "split",
+    "title": "Skip the inspection?",
+    "left": {
+     "title": "Upside",
+     "items": [
+      "Stronger offer"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Downside",
+     "items": [
+      "Surprise repairs"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lender also orders an appraisal, to confirm the home is worth what you're paying.",
+   "say": "The lender also orders an appraisal, to confirm the home is worth what you're paying.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Appraisal:",
+     "is the home worth",
+     "the price?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the appraisal comes in low, the lender lends less. You may need more cash, a lower price, or the appraisal contingency to exit.",
+   "say": "If the appraisal comes in low, the lender lends less. You may need more cash, a lower price, or the appraisal contingency to walk away.",
+   "scene": {
+    "t": "list",
+    "title": "Low appraisal options",
+    "items": [
+     "Renegotiate price",
+     "Add more cash",
+     "Use the contingency"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You'll also buy title insurance, which protects against old ownership claims, and usually set up an escrow account for taxes and insurance.",
+   "say": "You'll also buy title insurance, which protects against old ownership claims, and usually set up an escrow account for taxes and insurance.",
+   "scene": {
+    "t": "list",
+    "title": "Also at closing",
+    "items": [
+     "Title insurance",
+     "Escrow account",
+     "Final walk-through"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step six: the paperwork. Within 3 business days of applying, the lender must send a Loan Estimate.",
+   "say": "Step six: the paperwork. Within three business days of applying, the lender must send you a Loan Estimate.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Apply",
+      "Loan Estimate in 3 days"
+     ],
+     [
+      "Before close",
+      "Closing Disclosure"
+     ],
+     [
+      "Close",
+      "Keys!"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And you must get the Closing Disclosure at least 3 business days before closing.",
+   "say": "And you must get the Closing Disclosure at least three business days before closing.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Apply",
+      "Loan Estimate in 3 days"
+     ],
+     [
+      "Before close",
+      "Closing Disclosure"
+     ],
+     [
+      "Close",
+      "Keys!"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare the two. If fees jumped, ask why before you sign.",
+   "say": "Compare the two forms. If the fees jumped, ask why before you sign.",
+   "scene": {
+    "t": "compare",
+    "title": "Check the paperwork",
+    "left": {
+     "label": "Loan Estimate",
+     "value": "Before",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Closing Disclosure",
+     "value": "After",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step seven: closing. You sign, pay the down payment and closing costs, and get the keys.",
+   "say": "Step seven: closing. You sign, pay the down payment and closing costs, and get the keys.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Apply",
+      "Loan Estimate in 3 days"
+     ],
+     [
+      "Before close",
+      "Closing Disclosure"
+     ],
+     [
+      "Close",
+      "Keys!"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Right before closing, do a final walk-through to make sure the home is in the condition you agreed to.",
+   "say": "Right before closing, do a final walk-through, to make sure the home is in the condition you agreed to.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Final walk-through:",
+     "same condition",
+     "as agreed?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And bring the funds the way your closing agent says, usually a wire or cashier's check, and call to confirm wire details by phone.",
+   "say": "And bring the funds the way your closing agent says, usually a wire or a cashier's check. And confirm any wire instructions by phone, because scammers fake those emails.",
+   "scene": {
+    "t": "hook",
+    "title": "Wire [fraud] alert",
+    "prop": "paper",
+    "label": "WIRE",
+    "value": "CALL",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake number four: opening new credit or changing jobs before closing. Lenders can recheck right before the end.",
+   "say": "Mistake number four: opening new credit, or changing jobs, before closing. Lenders can recheck right before the end.",
+   "scene": {
+    "t": "hook",
+    "title": "Don't [rock] the boat",
+    "prop": "card",
+    "label": "NEW CREDIT",
+    "value": "WAIT",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: the one-screen checklist.",
+   "say": "Chapter six. The one-screen checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: check your credit, savings and debts.",
+   "say": "One: check your credit, savings and debts.",
+   "scene": {
+    "t": "list",
+    "title": "First home checklist",
+    "items": [
+     "Check your numbers",
+     "Save down + closing",
+     "Get preapproved",
+     "Shop and offer"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: save for the down payment and closing costs, plus a cushion.",
+   "say": "Two: save for the down payment and closing costs, plus a cushion.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "First home checklist",
+    "items": [
+     "Check your numbers",
+     "Save down + closing",
+     "Get preapproved",
+     "Shop and offer"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: get preapproved, and compare lenders.",
+   "say": "Three: get preapproved, and compare lenders.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "First home checklist",
+    "items": [
+     "Check your numbers",
+     "Save down + closing",
+     "Get preapproved",
+     "Shop and offer"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: shop, and make an offer with contingencies.",
+   "say": "Four: shop, and make an offer with contingencies.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "First home checklist",
+    "items": [
+     "Check your numbers",
+     "Save down + closing",
+     "Get preapproved",
+     "Shop and offer"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Five through seven: inspection and appraisal, the paperwork, and closing.",
+   "say": "Five through seven: the inspection and appraisal, the paperwork, and closing.",
+   "scene": {
+    "t": "list",
+    "title": "First home checklist, part 2",
+    "items": [
+     "Inspect and appraise",
+     "Compare the forms",
+     "Close"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the four mistakes: no cushion, max budget, skipped inspection, new credit before closing.",
+   "say": "And the four mistakes: no cash cushion, spending the max, skipping the inspection, and new credit before closing.",
+   "scene": {
+    "t": "list",
+    "title": "Avoid these",
+    "items": [
+     "No cash cushion",
+     "Spending the max",
+     "Skipping inspection",
+     "New credit early"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the math to remember: median home, 10% down, 7.03%, about $2,577 a month before taxes and insurance.",
+   "say": "And the math to remember. The median home, ten percent down, at seven point oh three percent: about twenty-five seventy-seven a month, before taxes and insurance.",
+   "scene": {
+    "t": "stat",
+    "label": "The example to remember",
+    "value": "$2,577",
+    "tone": "neutral",
+    "sub": "$429,100, 10% down, 7.03%, 30 years"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Buying a home is a long checklist, not a mystery. Now you have it.",
+   "say": "Buying a home is a long checklist, not a mystery. And now you have it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A home =",
+     "a long checklist,",
+     "not a mystery"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this helped, subscribe for more of The Guide.",
+   "say": "If this helped, subscribe for more of The Guide.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained from zero.",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "How to buy your first home: all 7 steps, the real rules and the math",
+  "ig": "The typical first-time home buyer is now 40. Here's the whole process, step by step.",
+  "tiktok": "First-time buyers: median age 40, a record. The whole home-buying process in 7 steps.",
+  "yt_desc": "The typical first-time home buyer is now 40 years old and first-time buyers were a record-low 21% of purchases (NAR, 2025). We walk through all seven steps of buying a first home: the money check, down payments and closing costs, the payment math on the August 2026 median price, preapproval and shopping, offer to closing, and a one-screen checklist with the four most common mistakes.\n\nCHAPTERS\n\nSources:\n- NAR 2025 Profile of Home Buyers and Sellers (Nov 2025)\n- NAR Existing-Home Sales, August 2026\n- Freddie Mac Primary Mortgage Market Survey (Sept 24, 2026)\n- HUD/FHA loan requirements; FHFA 2026 conforming loan limits\n- CFPB Loan Estimate and Closing Disclosure rules\n- Homeowners Protection Act (PMI cancellation)\n\nNews and education, not financial advice.\n\n#FirstHome #HomeBuying #TheGuide",
+  "tags": [
+   "how to buy a house",
+   "first time home buyer",
+   "home buying process",
+   "down payment",
+   "closing costs",
+   "mortgage explained",
+   "the guide",
+   "FinanceProsTV"
+  ]
+ }
+}
