@@ -1,0 +1,172 @@
+{
+ "id": "2026-11-11-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Billionaires and\ntaxable income",
+ "cover": {
+  "title": "A $1B Gain, $0 Taxable?",
+  "prop": "chart-up",
+  "label": "$1B",
+  "value": "$0"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A billion-dollar gain can add $0 to your taxable income.",
+   "say": "A billion-dollar gain can add zero dollars to your taxable income.",
+   "scene": {
+    "t": "hook",
+    "title": "$1B gain, [$0] taxed",
+    "prop": "chart-up",
+    "label": "$1B",
+    "value": "$0",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not a loophole. The income tax generally taxes realized gains, not paper gains.",
+   "say": "Not a loophole. The income tax generally taxes realized gains, not paper gains.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Taxed: SOLD gains",
+     "Not taxed: PAPER gains"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A gain is generally realized when you sell. Until then, it's on paper.",
+   "say": "A gain is generally realized when you sell. Until then, it's on paper.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Realization rule:",
+     "no sale = no taxed gain"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a founder's shares rise $1 billion; she sells none. Only her $1 million salary is taxable income.",
+   "say": "Say a founder's shares rise one billion dollars, and she sells none. Only her one million dollar salary is taxable income.",
+   "scene": {
+    "t": "compare",
+    "title": "Example (hypothetical)",
+    "left": {
+     "label": "Wealth gain",
+     "value": "$1B",
+     "tone": "up",
+     "sub": "unsold shares"
+    },
+    "right": {
+     "label": "Taxable income",
+     "value": "$1M",
+     "tone": "neutral",
+     "sub": "salary only"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Forbes 400 is worth $8 trillion in 2026, up $1.4 trillion in a year.",
+   "say": "The Forbes four hundred is worth eight trillion dollars in twenty twenty-six, up one point four trillion in a year.",
+   "scene": {
+    "t": "chart",
+    "title": "Forbes 400 total worth ($T)",
+    "points": [
+     [
+      2021,
+      4.5
+     ],
+     [
+      2022,
+      4.0
+     ],
+     [
+      2023,
+      4.5
+     ],
+     [
+      2024,
+      5.4
+     ],
+     [
+      2025,
+      6.6
+     ],
+     [
+      2026,
+      8.0
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$8T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sept 2021: White House economists, counting paper gains as income, estimated the 400 wealthiest families' average federal income tax rate at 8.2%, 2010-2018.",
+   "say": "September twenty twenty-one: White House economists, counting paper gains as income, estimated the four hundred wealthiest families' average federal income tax rate at eight point two percent, twenty ten to twenty eighteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg federal income tax rate",
+    "value": "8.2%",
+    "tone": "down",
+    "sub": "CEA/OMB, Sept 2021; 2010-18",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cato says paper gains aren't income. The Tax Foundation says the estimate leaves out corporate taxes.",
+   "say": "Cato says paper gains aren't income, and the Tax Foundation says the estimate leaves out corporate taxes.",
+   "scene": {
+    "t": "list",
+    "title": "Critics' objections",
+    "items": [
+     "Paper gains aren't income",
+     "Skips corporate taxes",
+     "Official data: higher rates"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In June 2024, the Supreme Court left open whether gains must be realized to be taxed.",
+   "say": "In June twenty twenty-four, the Supreme Court left open whether gains must be realized to be taxed.",
+   "scene": {
+    "t": "news",
+    "headline": "Supreme Court leaves realization question open",
+    "source": "Moore v. United States, June 20, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How a $1B gain can add $0 to taxable income",
+  "ig": "A billion-dollar gain can add $0 to your taxable income.\n\nThe income tax generally taxes realized gains, not paper gains: a stock gain is generally taxed only when it's sold.\nThe Forbes 400 is worth a record $8 trillion in 2026, up $1.4 trillion in a year.\nA Sept 2021 White House (CEA/OMB) estimate that counted unrealized gains as income put the 400 wealthiest families' average federal income tax rate at 8.2% for 2010-2018. Cato says paper gains aren't income; the Tax Foundation says the estimate leaves out corporate taxes.\nIn Moore v. United States (June 2024), the Supreme Court left the realization question open.\n\nSources: IRS Topic 409; CEA/OMB (Sept 2021); Forbes (Sept 2026); Tax Foundation; Cato; Moore v. US (2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#taxes #billionaires #capitalgains #personalfinance #financeprostv",
+  "tiktok": "A $1B gain can add $0 to taxable income. The realization rule. Not financial advice. #moneytok #personalfinance #taxes #billionaires #financeprostv",
+  "yt_desc": "The income tax generally taxes realized gains, not paper gains: a stock gain is generally taxed only when it's sold. A September 2021 White House CEA/OMB estimate that counted unrealized gains as income put the 400 wealthiest families' average federal income tax rate at 8.2% for 2010-2018; Cato says paper gains aren't income, and the Tax Foundation says it leaves out corporate taxes. Sources: IRS Topic 409, CEA/OMB, Forbes 400 (Sept 2026), Moore v. United States (June 2024). News and education, not financial advice.\n#Shorts #taxes #billionaires",
+  "tags": [
+   "billionaire taxes",
+   "unrealized gains",
+   "realization rule",
+   "capital gains tax",
+   "paper gains"
+  ]
+ }
+}
