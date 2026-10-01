@@ -1,0 +1,1675 @@
+{
+ "id": "2026-10-15-lf-world",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "World Money",
+ "cover": {
+  "title": "Stocks Fell 89%. Then What?",
+  "prop": "chart-down",
+  "label": "Dow 1932",
+  "value": "-89%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Stocks once fell 89%. It took 25 years to recover.",
+   "say": "Stocks once fell eighty-nine percent. It took twenty-five years to recover.",
+   "scene": {
+    "t": "hook",
+    "title": "Stocks fell [89%]",
+    "prop": "chart-down",
+    "label": "Dow 1932",
+    "value": "-89%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the famous version. The real story is stranger, and it still reaches your bank account.",
+   "say": "That's the famous version. The real story is stranger, and it still reaches your bank account.",
+   "scene": {
+    "t": "hook",
+    "title": "The [real] story",
+    "prop": "paper",
+    "label": "1929",
+    "value": "25 yrs?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Dow closed at 381.17 on September 3, 1929. By July 8, 1932, it was at 41.22.",
+   "say": "The Dow closed at about three hundred eighty-one on September third, nineteen twenty-nine. By July eighth, nineteen thirty-two, it was at about forty-one.",
+   "scene": {
+    "t": "compare",
+    "title": "Dow Jones Industrial Average",
+    "left": {
+     "label": "Sept 3, 1929",
+     "value": "381.17",
+     "tone": "neutral",
+     "sub": "record close"
+    },
+    "right": {
+     "label": "July 8, 1932",
+     "value": "41.22",
+     "tone": "down",
+     "sub": "the bottom"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It didn't close above that 1929 high again until November 23, 1954.",
+   "say": "And it didn't close above that nineteen twenty-nine high again until November twenty-third, nineteen fifty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Dow back at its 1929 high",
+    "value": "Nov 1954",
+    "tone": "down",
+    "sub": "Federal Reserve History"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But that number hides two things, and by the end you'll know exactly what they are.",
+   "say": "But that number hides two things, and by the end of this video you'll know exactly what they are.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "25 years... or not?",
+     "Two hidden things"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Along the way: a panic, a one-day crash, a bubble, a currency collapse, and a bank run on a phone.",
+   "say": "Along the way, we'll hit a panic, a one-day crash, a bubble, a currency collapse, and a bank run done from a phone.",
+   "scene": {
+    "t": "timeline",
+    "title": "The crises",
+    "events": [
+     [
+      "1907",
+      "Panic, no central bank"
+     ],
+     [
+      "1929",
+      "Crash and Depression"
+     ],
+     [
+      "1987",
+      "Black Monday"
+     ],
+     [
+      "1989-97",
+      "Bubbles burst in Asia"
+     ],
+     [
+      "2008-23",
+      "Lehman, then SVB by app"
+     ]
+    ],
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every one of them changed a rule that still touches your money in 2026.",
+   "say": "And every one of them changed a rule that still touches your money in twenty twenty-six.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "rules from panics"
+     },
+     {
+      "name": "japan",
+      "mood": "sad",
+      "says": "I had a bubble"
+     },
+     {
+      "name": "uk",
+      "mood": "worried",
+      "says": "me too, 2008"
+     }
+    ],
+    "caption": "Crises leave rules behind"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. A panic with no Fed.",
+   "say": "Chapter one. A panic with no Fed.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "A panic with no Fed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Picture America in October 1907. There's no central bank. Nobody whose job is to stop a panic.",
+   "say": "Picture America in October nineteen-oh-seven. There's no central bank, and nobody whose job is to stop a panic.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "no central bank",
+    "caption": "America, 1907",
+    "name": "NEW YORK BANKS",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A failed attempt to corner the stock of United Copper sets off fear, and the Knickerbocker Trust collapses.",
+   "say": "A failed attempt to corner the stock of a company called United Copper sets off fear, and a big New York firm, the Knickerbocker Trust, collapses.",
+   "scene": {
+    "t": "news",
+    "headline": "Knickerbocker Trust collapses in New York panic",
+    "source": "NY Fed Liberty Street Economics, on Oct. 1907"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So people do the logical thing. They line up to pull their cash out of everything.",
+   "say": "So people do the logical thing. They line up to pull their cash out of everything.",
+   "scene": {
+    "t": "hook",
+    "title": "Everyone wants [cash]",
+    "prop": "bill",
+    "label": "1907",
+    "value": "RUN",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a bank run. A bank lends out most deposits, so it can't hand everyone their money at once.",
+   "say": "That's a bank run. A bank lends out most of its deposits, so it can't hand everyone their money at once.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bank run:",
+     "everyone withdraws at once",
+     "bank can't pay all"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Who stopped it? One banker, J.P. Morgan, who gathered the top bankers and pushed them to pledge cash.",
+   "say": "So who stopped it? One banker, J P Morgan, who gathered the country's top bankers in his library and pushed them to pledge cash.",
+   "scene": {
+    "t": "stat",
+    "label": "Lender of last resort in 1907",
+    "value": "1 banker",
+    "tone": "neutral",
+    "sub": "J.P. Morgan (NY Fed history)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Relying on one rich guy felt a little fragile. So Congress built a backup.",
+   "say": "Relying on one rich guy felt a little fragile. So Congress built a backup.",
+   "scene": {
+    "t": "hook",
+    "title": "Plan B: one [rich guy]",
+    "prop": "bag",
+    "label": "J.P.M.",
+    "value": "?!",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Federal Reserve Act was signed on December 23, 1913. The Fed can lend cash to banks in a panic.",
+   "say": "The Federal Reserve Act was signed on December twenty-third, nineteen thirteen. Now the Fed could lend cash to banks in a panic.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "since 1913",
+    "caption": "Lender of last resort"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Great. Problem solved. Except the very next big test went about as badly as possible.",
+   "say": "Great, problem solved. Except the very next big test went about as badly as possible.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fed created: 1913",
+     "Next test: 1929"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. The big one: 1929.",
+   "say": "Chapter two. The big one, nineteen twenty-nine.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The big one: 1929"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Through the 1920s, stocks climbed and climbed, and lots of people bought them with borrowed money.",
+   "say": "Through the nineteen twenties, stocks climbed and climbed, and plenty of people bought them with borrowed money.",
+   "scene": {
+    "t": "hook",
+    "title": "The [Roaring] Twenties",
+    "prop": "chart-up",
+    "label": "1920s",
+    "value": "UP",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In late October 1929, the crash came on days still called Black Monday and Black Tuesday.",
+   "say": "Then, in late October nineteen twenty-nine, the crash came, on days still known as Black Monday and Black Tuesday.",
+   "scene": {
+    "t": "hook",
+    "title": "Black [Tuesday]",
+    "prop": "chart-down",
+    "label": "Oct 1929",
+    "value": "CRASH",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the worked example. Say someone put $10,000 into the Dow at the 1929 high.",
+   "say": "Here's a worked example. Say someone put ten thousand dollars into the Dow at that nineteen twenty-nine high.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $10,000",
+     "in the Dow, Sept 3, 1929",
+     "price only, no dividends"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$10,000 times 41.22, divided by 381.17, leaves about $1,081 by July 1932.",
+   "say": "Ten thousand dollars, times forty-one point two two, divided by three eighty-one point one seven, leaves about one thousand eighty-one dollars by July nineteen thirty-two.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Sept 1929",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "July 1932",
+     "value": "$1,081"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And to climb back, that $1,081 has to grow about 825%. Losses are brutal that way.",
+   "say": "And to climb back, that one thousand eighty-one dollars has to grow about eight hundred twenty-five percent. Losses are brutal that way.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "381.17 / 41.22 = 9.25",
+     "need about +825%",
+     "to get back to even"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the stock market was only the start. The real damage happened in banks.",
+   "say": "But the stock market was only the start. The real damage happened in the banks.",
+   "scene": {
+    "t": "hook",
+    "title": "Then the [banks]",
+    "prop": "fed",
+    "label": "1930",
+    "value": "PANIC",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "More than 9,000 US banks failed from 1930 to 1933. That's about 30% of all banks.",
+   "say": "More than nine thousand US banks failed from nineteen thirty to nineteen thirty-three. That's about thirty percent of all the banks in the country.",
+   "scene": {
+    "t": "stat",
+    "label": "US bank failures, 1930-1933",
+    "value": "9,000+",
+    "tone": "down",
+    "sub": "about 30% of all banks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There was no deposit insurance. When a bank failed, depositors could simply lose their savings.",
+   "say": "There was no deposit insurance back then. When a bank failed, depositors could simply lose their savings.",
+   "scene": {
+    "t": "hook",
+    "title": "Savings [gone]",
+    "prop": "mattress",
+    "label": "1930s",
+    "value": "$0",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the Fed? It let the money supply shrink by nearly 30% from 1930 to 1933.",
+   "say": "And the Fed? It let the money supply shrink by nearly thirty percent from nineteen thirty to nineteen thirty-three.",
+   "scene": {
+    "t": "stat",
+    "label": "US money supply, 1930-1933",
+    "value": "~-30%",
+    "tone": "down",
+    "sub": "Federal Reserve History"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Less money chasing the same goods means prices fall. Overall prices dropped about a quarter.",
+   "say": "Less money chasing the same goods means prices fall. Overall prices dropped about a quarter.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Less money",
+     "= falling prices",
+     "= deflation"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Falling prices sound nice, until your wages fall too, and your debts don't.",
+   "say": "Falling prices sound nice, until your wages fall too, and your debts don't.",
+   "scene": {
+    "t": "split",
+    "title": "Deflation",
+    "left": {
+     "title": "Falls",
+     "items": [
+      "Prices",
+      "Wages",
+      "Profits"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Stays",
+     "items": [
+      "Your debts",
+      "Your rent deal"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what that did to jobs. US unemployment went from 3.2% in 1929 to 24.9% in 1933.",
+   "say": "Here's what that did to jobs. US unemployment went from three point two percent in nineteen twenty-nine to twenty-four point nine percent in nineteen thirty-three.",
+   "scene": {
+    "t": "chart",
+    "title": "US unemployment rate, 1929-1940",
+    "points": [
+     [
+      1929,
+      3.2
+     ],
+     [
+      1930,
+      8.7
+     ],
+     [
+      1931,
+      15.9
+     ],
+     [
+      1932,
+      23.6
+     ],
+     [
+      1933,
+      24.9
+     ],
+     [
+      1934,
+      21.7
+     ],
+     [
+      1935,
+      20.1
+     ],
+     [
+      1936,
+      16.9
+     ],
+     [
+      1937,
+      14.3
+     ],
+     [
+      1938,
+      19.0
+     ],
+     [
+      1939,
+      17.2
+     ],
+     [
+      1940,
+      14.6
+     ]
+    ],
+    "suffix": "%",
+    "end": "14.6%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Roughly one in four workers had no job. And in 1940, it was still 14.6%.",
+   "say": "That's roughly one in four workers without a job. And even in nineteen forty, it was still fourteen point six percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "US unemployment rate, 1929-1940",
+    "points": [
+     [
+      1929,
+      3.2
+     ],
+     [
+      1930,
+      8.7
+     ],
+     [
+      1931,
+      15.9
+     ],
+     [
+      1932,
+      23.6
+     ],
+     [
+      1933,
+      24.9
+     ],
+     [
+      1934,
+      21.7
+     ],
+     [
+      1935,
+      20.1
+     ],
+     [
+      1936,
+      16.9
+     ],
+     [
+      1937,
+      14.3
+     ],
+     [
+      1938,
+      19.0
+     ],
+     [
+      1939,
+      17.2
+     ],
+     [
+      1940,
+      14.6
+     ]
+    ],
+    "suffix": "%",
+    "end": "14.6%",
+    "color": "down",
+    "note": {
+     "x": 1933,
+     "text": "24.9%: 1 in 4"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Decades later, a future Fed chair admitted the Fed's role, at a conference honoring Milton Friedman's 90th birthday.",
+   "say": "Decades later, a future Fed chair admitted the Fed's role, at a conference honoring the economist Milton Friedman's ninetieth birthday.",
+   "scene": {
+    "t": "hook",
+    "title": "The [apology]",
+    "prop": "paper",
+    "label": "2002",
+    "value": "SORRY",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ben Bernanke, Nov. 8, 2002: \"Regarding the Great Depression. You're right, we did it. We're very sorry. But thanks to you, we won't do it again.\"",
+   "say": "In November two thousand two, Ben Bernanke said: Regarding the Great Depression. You're right, we did it. We're very sorry. But thanks to you, we won't do it again.",
+   "scene": {
+    "t": "quote",
+    "text": "Regarding the Great Depression. You're right, we did it. We're very sorry. But thanks to you, we won't do it again.",
+    "source": "Ben Bernanke, Fed governor, Nov. 8, 2002"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fix you still live with: the Banking Act of 1933 created the FDIC.",
+   "say": "The fix you still live with is the Banking Act of nineteen thirty-three, which created the F D I C.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "FDIC: 1933",
+    "caption": "Deposit insurance is born",
+    "name": "FDIC",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1934, deposits were insured up to $2,500, so running on an insured bank made a lot less sense.",
+   "say": "In nineteen thirty-four, deposits were insured up to two thousand five hundred dollars, so running on an insured bank made a lot less sense.",
+   "scene": {
+    "t": "stat",
+    "label": "FDIC limit per depositor, 1934",
+    "value": "$2,500",
+    "tone": "up",
+    "sub": "FDIC history"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, the twist I promised. That 25-year number hides two things: dividends and deflation.",
+   "say": "Now, the twist I promised. That twenty-five-year number hides two things: dividends and deflation.",
+   "scene": {
+    "t": "list",
+    "title": "What 25 years hides",
+    "items": [
+     "Dividends",
+     "Deflation"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the Dow bottomed in 1932, dividend yields were close to 14%.",
+   "say": "When the Dow bottomed in nineteen thirty-two, dividend yields were close to fourteen percent a year.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "What 25 years hides",
+    "items": [
+     "Dividends",
+     "Deflation"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And by late 1936, consumer prices were more than 18% lower than in fall 1929. Each dollar bought more.",
+   "say": "And by late nineteen thirty-six, consumer prices were more than eighteen percent lower than in the fall of nineteen twenty-nine, so each dollar bought more.",
+   "scene": {
+    "t": "stat",
+    "label": "US consumer prices, 1929 to late 1936",
+    "value": "-18%+",
+    "tone": "up",
+    "sub": "via Mark Hulbert"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Count both, and by market analyst Mark Hulbert's math, the average stock bought at the 1929 high was back to even by late 1936.",
+   "say": "Count both, and by market analyst Mark Hulbert's math, someone who bought the average stock at the nineteen twenty-nine high was back to even by late nineteen thirty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Back to even after 1929?",
+    "left": {
+     "label": "Dow price",
+     "value": "25 yrs",
+     "tone": "down",
+     "sub": "Nov 1954"
+    },
+    "right": {
+     "label": "Avg stock, div+defl",
+     "value": "~7 yrs",
+     "tone": "up",
+     "sub": "late 1936, Hulbert"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still a horrible ride. But not quite the 25-year wipeout most people picture.",
+   "say": "Still a horrible ride. But it's not quite the twenty-five-year wipeout most people picture.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Back to even after 1929?",
+    "left": {
+     "label": "Dow price",
+     "value": "25 yrs",
+     "tone": "down",
+     "sub": "Nov 1954"
+    },
+    "right": {
+     "label": "Avg stock, div+defl",
+     "value": "~7 yrs",
+     "tone": "up",
+     "sub": "late 1936, Hulbert"
+    },
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. The one-day crash.",
+   "say": "Chapter three. The one-day crash.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The one-day crash"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fast forward to Monday, October 19, 1987. No bank collapse to start it, no warning. Just one terrible day.",
+   "say": "Fast forward to Monday, October nineteenth, nineteen eighty-seven. No bank collapse to start it, no big warning. Just one terrible day.",
+   "scene": {
+    "t": "news",
+    "headline": "Dow plunges 508 points on Black Monday",
+    "source": "Library of Congress, on Oct. 19, 1987"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Dow lost 22.6% in a single session. It's still the Dow's biggest one-day percentage drop.",
+   "say": "The Dow lost twenty-two point six percent in a single session. It's still the Dow's biggest one-day percentage drop ever.",
+   "scene": {
+    "t": "stat",
+    "label": "Dow, Oct 19, 1987",
+    "value": "-22.6%",
+    "tone": "down",
+    "sub": "biggest 1-day % drop",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it went global. Markets from Hong Kong to Tokyo to Canada fell hard too.",
+   "say": "And it went global. Markets from Hong Kong to Tokyo to Canada fell hard too.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "sad",
+      "says": "-22.6% in a day"
+     },
+     {
+      "name": "canada",
+      "mood": "worried",
+      "says": "me too"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "uh oh"
+     }
+    ],
+    "caption": "Black Monday goes global"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the strange part. The economy didn't fall into a depression afterward.",
+   "say": "Here's the strange part. The economy didn't fall into a depression afterward.",
+   "scene": {
+    "t": "hook",
+    "title": "Then... [nothing]?",
+    "prop": "chart-up",
+    "label": "1988",
+    "value": "OK",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Dow first got back its Black Monday losses on January 24, 1989, about 15 months later.",
+   "say": "The Dow first won back its Black Monday losses on January twenty-fourth, nineteen eighty-nine, about fifteen months later.",
+   "scene": {
+    "t": "compare",
+    "title": "Time to win back the losses",
+    "left": {
+     "label": "After 1929",
+     "value": "25 yrs",
+     "tone": "down",
+     "sub": "Dow price only"
+    },
+    "right": {
+     "label": "After 1987",
+     "value": "15 mos",
+     "tone": "up",
+     "sub": "Jan 24, 1989"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One big difference: on October 20, 1987, before markets opened, the Fed said it was ready to supply cash.",
+   "say": "One big difference: on October twentieth, nineteen eighty-seven, before markets opened, the Fed said it was ready to supply cash to the system.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Oct 20, 1987",
+    "caption": "Fed: ready to supply cash"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "1987 also left a rule you can see on any wild trading day: circuit breakers.",
+   "say": "Nineteen eighty-seven also left a rule you can see on any wild trading day, called circuit breakers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Circuit breaker:",
+     "pause trading",
+     "when prices fall too fast"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the S&P 500 drops 7% or 13% in a day, trading pauses 15 minutes. At 20%, it stops for the day.",
+   "say": "If the S and P five hundred drops seven percent or thirteen percent in a day, trading pauses for fifteen minutes. At twenty percent, it stops for the rest of the day.",
+   "scene": {
+    "t": "list",
+    "title": "S&P 500 circuit breakers",
+    "items": [
+     "-7%: 15-min pause",
+     "-13%: 15-min pause",
+     "-20%: closed for day"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's a forced time-out, so the whole market can't panic in the same few minutes.",
+   "say": "It's basically a forced time-out, so the whole market can't panic in the same few minutes.",
+   "scene": {
+    "t": "hook",
+    "title": "Forced [time-out]",
+    "prop": "tag",
+    "label": "S&P 500",
+    "value": "PAUSE",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. Bubbles in Asia.",
+   "say": "Chapter four. Bubbles in Asia.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Bubbles in Asia"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now meet Japan in the late 1980s. Stock and land prices were soaring on cheap money.",
+   "say": "Now meet Japan in the late nineteen eighties. Stock prices and land prices were soaring on cheap money.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "everything is up!"
+     }
+    ],
+    "caption": "Japan, late 1980s"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Bank of Japan kept its discount rate at 2.5% from 1987 to May 1989.",
+   "say": "The Bank of Japan kept its main lending rate, the discount rate, at two point five percent from nineteen eighty-seven to May nineteen eighty-nine.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "rate: 2.5%",
+    "caption": "Cheap money, 1987-1989",
+    "name": "BANK OF JAPAN"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it hiked, fast. By August 1990, the rate was 6%.",
+   "say": "Then it raised rates, fast. By August nineteen ninety, that rate was six percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Bank of Japan discount rate",
+    "left": {
+     "label": "Feb 1987",
+     "value": "2.5%",
+     "tone": "neutral",
+     "sub": "post-war low"
+    },
+    "right": {
+     "label": "Aug 1990",
+     "value": "6%",
+     "tone": "down",
+     "sub": "after 5 hikes"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Nikkei 225 peaked at 38,915.87 on December 29, 1989.",
+   "say": "Japan's main stock index, the Nikkei two twenty-five, peaked at about thirty-eight thousand nine hundred sixteen on December twenty-ninth, nineteen eighty-nine.",
+   "scene": {
+    "t": "stat",
+    "label": "Nikkei 225 record, Dec 29, 1989",
+    "value": "38,915.87",
+    "tone": "neutral",
+    "sub": "Nikkei Indexes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On March 10, 2009, it closed at 7,054.98. That's about 82% below the peak.",
+   "say": "On March tenth, two thousand nine, it closed at about seven thousand fifty-five. That's about eighty-two percent below the peak.",
+   "scene": {
+    "t": "compare",
+    "title": "Nikkei 225",
+    "left": {
+     "label": "Dec 29, 1989",
+     "value": "38,916",
+     "tone": "neutral",
+     "sub": "record close"
+    },
+    "right": {
+     "label": "Mar 10, 2009",
+     "value": "7,055",
+     "tone": "down",
+     "sub": "about -82%"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It didn't close above the 1989 record until February 22, 2024. That's 34 years.",
+   "say": "It didn't close above the nineteen eighty-nine record until February twenty-second, twenty twenty-four. That's thirty-four years.",
+   "scene": {
+    "t": "news",
+    "headline": "Nikkei closes at 39,098.68, beating its 1989 record",
+    "source": "AP / Bloomberg, Feb. 22, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the end of 2025, it had closed the year at 50,339.48, a record year-end.",
+   "say": "And by the end of twenty twenty-five, it closed the year at about fifty thousand three hundred thirty-nine, a record year-end close.",
+   "scene": {
+    "t": "stat",
+    "label": "Nikkei 225 close, Dec 30, 2025",
+    "value": "50,339",
+    "tone": "up",
+    "sub": "record year-end (Jiji)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next stop: Thailand, 1997. Thailand held its currency, the baht, at about 25 per dollar.",
+   "say": "Next stop, Thailand in nineteen ninety-seven. Thailand held its currency, the baht, at about twenty-five per dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Thailand, 1997",
+     "about 25 baht = $1",
+     "held steady by the bank"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Traders bet it couldn't hold. Thailand spent its reserves defending it, and ran low.",
+   "say": "Traders bet that it couldn't hold. Thailand spent its reserves defending it, and started to run low.",
+   "scene": {
+    "t": "hook",
+    "title": "Betting on a [crash]",
+    "prop": "coins",
+    "label": "baht",
+    "value": "SELL",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On July 2, 1997, it gave up and let the baht float.",
+   "say": "On July second, nineteen ninety-seven, it gave up and let the baht float.",
+   "scene": {
+    "t": "news",
+    "headline": "Thailand floats the baht",
+    "source": "Bank of Thailand, on July 2, 1997"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By January 12, 1998, it took 56.50 baht to buy one dollar.",
+   "say": "By January twelfth, nineteen ninety-eight, it took fifty-six and a half baht to buy one dollar.",
+   "scene": {
+    "t": "compare",
+    "title": "Baht per US dollar",
+    "left": {
+     "label": "Before July '97",
+     "value": "~25",
+     "tone": "neutral",
+     "sub": "pegged"
+    },
+    "right": {
+     "label": "Jan 12, 1998",
+     "value": "56.50",
+     "tone": "down",
+     "sub": "record low"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's why that hurts. Companies that borrowed in dollars now owed more than twice as many baht.",
+   "say": "Here's why that hurts. Companies that borrowed in dollars suddenly owed more than twice as many baht.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "$1 of debt, mid-1997",
+     "value": "25 baht"
+    },
+    "to": {
+     "label": "$1 of debt, Jan 1998",
+     "value": "56.50 baht"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The panic spread across the region. The IMF stepped in with rescue packages.",
+   "say": "The panic spread across the region, and the I M F, the International Monetary Fund, stepped in with rescue packages.",
+   "scene": {
+    "t": "timeline",
+    "title": "IMF-led rescues, 1997",
+    "events": [
+     [
+      "Aug 1997",
+      "Thailand: $17.2B"
+     ],
+     [
+      "Nov 1997",
+      "Indonesia: about $40B"
+     ],
+     [
+      "Dec 1997",
+      "South Korea: $57B"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Thailand got $17.2 billion, and Indonesia about $40 billion.",
+   "say": "Thailand got seventeen point two billion dollars, and Indonesia about forty billion.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "title": "IMF-led rescues, 1997",
+    "events": [
+     [
+      "Aug 1997",
+      "Thailand: $17.2B"
+     ],
+     [
+      "Nov 1997",
+      "Indonesia: about $40B"
+     ],
+     [
+      "Dec 1997",
+      "South Korea: $57B"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And South Korea got $57 billion in December 1997, the biggest IMF bailout up to then.",
+   "say": "And South Korea got fifty-seven billion dollars in December nineteen ninety-seven, the biggest I M F bailout up to that point.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "title": "IMF-led rescues, 1997",
+    "events": [
+     [
+      "Aug 1997",
+      "Thailand: $17.2B"
+     ],
+     [
+      "Nov 1997",
+      "Indonesia: about $40B"
+     ],
+     [
+      "Dec 1997",
+      "South Korea: $57B"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lesson from Asia: borrowing in someone else's currency can turn a bad year into a crisis.",
+   "say": "The lesson from Asia is that borrowing in someone else's currency can turn a bad year into a full-blown crisis.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Debt in dollars",
+     "+ falling currency",
+     "= crisis"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. From 2008 to 2023.",
+   "say": "Chapter five. From two thousand eight to twenty twenty-three.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "From 2008 to 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the 2000s, the bubble was US housing, and Wall Street turned home loans into bonds.",
+   "say": "In the two thousands, the bubble was US housing, and Wall Street turned piles of home loans into bonds.",
+   "scene": {
+    "t": "hook",
+    "title": "The [housing] bubble",
+    "prop": "house",
+    "label": "2006",
+    "value": "PEAK",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When homeowners stopped paying, those bonds sank, and the banks holding them were in trouble.",
+   "say": "When homeowners stopped paying, those bonds sank, and the banks holding them were suddenly in trouble.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Home loans -> bonds",
+     "Loans go bad",
+     "Bonds sink, banks wobble"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On September 15, 2008, Lehman Brothers filed for bankruptcy with $639 billion in assets.",
+   "say": "On September fifteenth, two thousand eight, Lehman Brothers filed for bankruptcy with six hundred thirty-nine billion dollars in assets.",
+   "scene": {
+    "t": "news",
+    "headline": "Lehman Brothers files for bankruptcy",
+    "source": "Britannica / History.com, on Sept. 15, 2008"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's still the largest bankruptcy in US history.",
+   "say": "It's still the largest bankruptcy in US history.",
+   "scene": {
+    "t": "stat",
+    "label": "Lehman assets at bankruptcy, 2008",
+    "value": "$639B",
+    "tone": "down",
+    "sub": "largest US bankruptcy",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Panic jumped borders within weeks. In October 2008, Britain pledged £37 billion for big banks, and Germany led a €50 billion rescue of one lender.",
+   "say": "The panic jumped borders within weeks. In October two thousand eight, Britain pledged thirty-seven billion pounds for big banks, and Germany led a fifty billion euro rescue of one lender.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "sad",
+      "says": "Lehman is gone"
+     },
+     {
+      "name": "uk",
+      "mood": "worried",
+      "says": "£37B pledged"
+     },
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "€50B rescue"
+     }
+    ],
+    "caption": "2008 goes global"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's how it hit wallets. US home prices fell about 30% from mid-2006 to mid-2009.",
+   "say": "Here's how it hit wallets. US home prices fell about thirty percent, on average, from mid two thousand six to mid two thousand nine.",
+   "scene": {
+    "t": "stat",
+    "label": "US home prices, mid-2006 to mid-2009",
+    "value": "-30%",
+    "tone": "down",
+    "sub": "Federal Reserve History"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The S&P 500 fell 57% from October 2007 to March 2009.",
+   "say": "The S and P five hundred fell fifty-seven percent from October two thousand seven to March two thousand nine.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500, Oct 2007 to Mar 2009",
+    "value": "-57%",
+    "tone": "down",
+    "sub": "Federal Reserve History"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And US household net worth fell from about $69 trillion to about $55 trillion. That's about $14 trillion gone.",
+   "say": "And US household net worth fell from about sixty-nine trillion dollars to about fifty-five trillion. That's about fourteen trillion dollars gone.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2007 peak",
+     "value": "$69T"
+    },
+    "to": {
+     "label": "2009 low",
+     "value": "$55T"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Jobs took the hit next. Unemployment averaged 4.6% in 2007 and 9.6% in 2010.",
+   "say": "Jobs took the hit next. Unemployment averaged four point six percent in two thousand seven and nine point six percent in twenty ten.",
+   "scene": {
+    "t": "chart",
+    "title": "US unemployment rate, annual avg",
+    "points": [
+     [
+      2007,
+      4.6
+     ],
+     [
+      2008,
+      5.8
+     ],
+     [
+      2009,
+      9.3
+     ],
+     [
+      2010,
+      9.6
+     ],
+     [
+      2011,
+      8.9
+     ]
+    ],
+    "suffix": "%",
+    "end": "8.9%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Month by month, it peaked at 10% in October 2009.",
+   "say": "Month by month, it peaked at ten percent in October two thousand nine.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "US unemployment rate, annual avg",
+    "points": [
+     [
+      2007,
+      4.6
+     ],
+     [
+      2008,
+      5.8
+     ],
+     [
+      2009,
+      9.3
+     ],
+     [
+      2010,
+      9.6
+     ],
+     [
+      2011,
+      8.9
+     ]
+    ],
+    "suffix": "%",
+    "end": "8.9%",
+    "color": "down",
+    "note": {
+     "x": 2009,
+     "text": "Oct 2009: 10%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This time, the Fed remembered Bernanke's promise. He was now the Fed chair.",
+   "say": "This time, the Fed remembered that promise from Bernanke. By then, he was the Fed chair.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "chair: Bernanke",
+    "caption": "Don't repeat 1929"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On December 16, 2008, the Fed cut its key rate to a range of 0 to 0.25%, for the first time ever.",
+   "say": "On December sixteenth, two thousand eight, the Fed cut its key rate to a range of zero to a quarter percent, for the first time ever.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed funds target, Dec 16, 2008",
+    "value": "0-0.25%",
+    "tone": "neutral",
+    "sub": "first time at zero"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With rates near zero, savings accounts paid almost nothing for years. Cheap loans, tiny interest on savings.",
+   "say": "With rates near zero, savings accounts paid almost nothing for years afterward. Cheap loans, and tiny interest on savings.",
+   "scene": {
+    "t": "split",
+    "title": "Near-zero rates",
+    "left": {
+     "title": "Borrowers",
+     "items": [
+      "Cheaper mortgages",
+      "Cheaper loans"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Savers",
+     "items": [
+      "Tiny interest",
+      "Little yield"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the FDIC limit went from $100,000 to $250,000 on October 3, 2008.",
+   "say": "And the F D I C limit went from one hundred thousand dollars to two hundred fifty thousand dollars on October third, two thousand eight.",
+   "scene": {
+    "t": "compare",
+    "title": "FDIC insurance limit",
+    "left": {
+     "label": "Before Oct 2008",
+     "value": "$100K",
+     "tone": "neutral",
+     "sub": "per depositor"
+    },
+    "right": {
+     "label": "Since Oct 2008",
+     "value": "$250K",
+     "tone": "up",
+     "sub": "permanent in 2010"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, it's still $250,000 per depositor, per insured bank, per ownership category.",
+   "say": "In twenty twenty-six, it's still two hundred fifty thousand dollars per depositor, per insured bank, for each ownership category.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "FDIC limit, 2026: $250,000",
+     "per depositor, per bank,",
+     "per ownership category"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then March 2023 showed how fast a modern run can move.",
+   "say": "Then March twenty twenty-three showed just how fast a modern bank run can move.",
+   "scene": {
+    "t": "hook",
+    "title": "A run on your [phone]",
+    "prop": "card",
+    "label": "Mar 2023",
+    "value": "$42B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Customers pulled $42 billion out of Silicon Valley Bank in a single day, March 9, 2023.",
+   "say": "Customers pulled forty-two billion dollars out of Silicon Valley Bank in a single day, March ninth, twenty twenty-three.",
+   "scene": {
+    "t": "stat",
+    "label": "SVB withdrawals, Mar 9, 2023",
+    "value": "$42B",
+    "tone": "down",
+    "sub": "Federal Reserve review"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Regulators closed it the next day. At the time, it was the second-largest bank failure in US history.",
+   "say": "Regulators closed it the next day. At the time, it was the second-largest bank failure in US history.",
+   "scene": {
+    "t": "news",
+    "headline": "Silicon Valley Bank closed by California regulators",
+    "source": "FDIC, Mar. 10, 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1907, a run took days of people lining up. In 2023, it took taps on a screen.",
+   "say": "In nineteen-oh-seven, a run took days of people lining up outside. In twenty twenty-three, it took taps on a screen.",
+   "scene": {
+    "t": "compare",
+    "title": "Speed of a bank run",
+    "left": {
+     "label": "1907",
+     "value": "days",
+     "tone": "neutral",
+     "sub": "lines outside"
+    },
+    "right": {
+     "label": "2023",
+     "value": "1 day",
+     "tone": "down",
+     "sub": "$42B by app"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. The pattern.",
+   "say": "Chapter six. The pattern.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The pattern"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Line these crises up, and the same four steps show up again and again.",
+   "say": "Line all these crises up, and the same four steps show up again and again.",
+   "scene": {
+    "t": "list",
+    "title": "The crisis pattern",
+    "items": [
+     "Cheap, easy borrowing",
+     "Prices soar",
+     "Something breaks",
+     "Panic spreads"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, borrowing gets cheap and easy, and prices soar, whether it's stocks in 1929 or houses in 2006.",
+   "say": "First, borrowing gets cheap and easy, and prices soar, whether it's stocks in nineteen twenty-nine or houses in two thousand six.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "The crisis pattern",
+    "items": [
+     "Cheap, easy borrowing",
+     "Prices soar",
+     "Something breaks",
+     "Panic spreads"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then something breaks: a trust company, a currency peg, a big bank like Lehman.",
+   "say": "Then something breaks: a trust company, a currency peg, or a big firm like Lehman.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "The crisis pattern",
+    "items": [
+     "Cheap, easy borrowing",
+     "Prices soar",
+     "Something breaks",
+     "Panic spreads"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And panic spreads, across banks, and across borders.",
+   "say": "And then panic spreads, across banks, and across borders.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "The crisis pattern",
+    "items": [
+     "Cheap, easy borrowing",
+     "Prices soar",
+     "Something breaks",
+     "Panic spreads"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What changed over a century is the response. Each crisis left a tool behind.",
+   "say": "What changed over a century is the response. Each crisis left a tool behind.",
+   "scene": {
+    "t": "timeline",
+    "title": "Tools crises left behind",
+    "events": [
+     [
+      "1913",
+      "The Fed"
+     ],
+     [
+      "1933",
+      "FDIC insurance"
+     ],
+     [
+      "1987",
+      "Circuit breakers"
+     ],
+     [
+      "2008",
+      "$250K FDIC limit"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those tools don't stop crashes. In 1987 and 2008, prices still fell hard.",
+   "say": "Those tools don't stop crashes. In nineteen eighty-seven and two thousand eight, prices still fell hard.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tools don't stop crashes",
+     "They limit the damage"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But nothing since has come close to 1933's 24.9% unemployment.",
+   "say": "But no US crisis since has come close to nineteen thirty-three's twenty-four point nine percent unemployment.",
+   "scene": {
+    "t": "compare",
+    "title": "Peak US unemployment",
+    "left": {
+     "label": "1933 (annual)",
+     "value": "24.9%",
+     "tone": "down",
+     "sub": "no FDIC, Fed slow"
+    },
+    "right": {
+     "label": "Oct 2009",
+     "value": "10%",
+     "tone": "neutral",
+     "sub": "after Lehman"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So, the recap. On price alone, the Dow took 25 years to get back. Counting dividends and deflation, the average stock took about 7, by Hulbert's math.",
+   "say": "So, the recap. On price alone, the Dow took twenty-five years to get back. Counting dividends and deflation, the average stock took about seven, by Hulbert's math.",
+   "scene": {
+    "t": "compare",
+    "title": "Recap: after 1929",
+    "left": {
+     "label": "Dow price",
+     "value": "25 yrs",
+     "tone": "down",
+     "sub": "Nov 1954"
+    },
+    "right": {
+     "label": "Avg stock, div+defl",
+     "value": "~7 yrs",
+     "tone": "up",
+     "sub": "late 1936"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Japan's Nikkei took 34 years. The Dow took about 15 months after 1987.",
+   "say": "Japan's Nikkei took thirty-four years to get back to its record. The Dow took about fifteen months after nineteen eighty-seven.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "sad",
+      "says": "34 years"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "15 months in 1987"
+     }
+    ],
+    "caption": "Recovery times differ a lot"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the safety net under your checking account, $250,000 of FDIC insurance, exists because of these panics.",
+   "say": "And the safety net under your checking account, two hundred fifty thousand dollars of F D I C insurance, exists because of these panics.",
+   "scene": {
+    "t": "stat",
+    "label": "FDIC insurance limit, 2026",
+    "value": "$250,000",
+    "tone": "up",
+    "sub": "per depositor, per bank"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Crises are part of money's history. Knowing the pattern makes the next headline a lot less mysterious.",
+   "say": "Crises are part of money's history. Knowing the pattern makes the next scary headline a lot less mysterious.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Borrow, soar, break, panic",
+     "Then: new rules"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe to FinancePros TV for more world money stories, explained with a whiteboard.",
+   "say": "Subscribe to FinancePros TV for more world money stories, explained with a whiteboard.",
+   "scene": {
+    "t": "cta",
+    "tagline": "World money, explained."
+   }
+  }
+ ],
+ "post": {
+  "title": "Stocks Fell 89% and Took 25 Years to Recover? The Real History of Financial Crises",
+  "ig": "Stocks once fell 89% and took 25 years to recover. Or did they? The real history of financial crises.",
+  "tiktok": "Stocks fell 89% in 1932. The 25-year recovery story hides two things.",
+  "yt_desc": "Stocks once fell 89% and took 25 years to get back, or so the story goes. We walk through the world's biggest financial crises, from the Panic of 1907 and the 1929 crash to Black Monday, Japan's bubble, the 1997 Asian currency crisis, 2008 and the 2023 run on Silicon Valley Bank. With real data on unemployment, bank failures and recovery times, we show the pattern every crisis follows and the rules each one left behind, from the Fed to FDIC insurance and circuit breakers.\n\nCHAPTERS\n\nSources: Federal Reserve History (Stock Market Crash of 1929; The Great Depression; The Great Recession); Federal Reserve press release, Dec. 16, 2008; Ben Bernanke remarks, Nov. 8, 2002; Federal Reserve review of SVB, Apr. 28, 2023; BLS unemployment data (1929-1940 reconstruction; 2007-2011 annual averages); FDIC history and insured-deposits guide (2026); NY Fed Liberty Street Economics, Nov. 2016; Library of Congress (Black Monday 1987); NYSE market-wide circuit breaker FAQ; Bank of Japan IMES paper; Nikkei Indexes; AP, Feb. 22, 2024; Jiji/Nippon.com, Dec. 30, 2025; Bank of Thailand; Congressional Research Service report on the 1997-98 Asian crisis; Mark Hulbert via History News Network (2009).\n\nNews and education, not financial advice.\n\n#FinancialCrisis #EconomicHistory #WorldMoney",
+  "tags": [
+   "financial crisis",
+   "stock market crash",
+   "1929",
+   "Great Depression",
+   "Black Monday 1987",
+   "Japan bubble",
+   "Asian financial crisis",
+   "2008 financial crisis",
+   "FDIC",
+   "economic history"
+  ]
+ }
+}
