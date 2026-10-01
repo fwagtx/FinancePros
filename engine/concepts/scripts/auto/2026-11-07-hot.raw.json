@@ -2,7 +2,7 @@
  "series": "ticker",
  "header": "Scam alert:\nfake cashback apps",
  "cover": {
-  "title": "Pay To Cash Out? Scam.",
+  "title": "$480 Cashback? Really $0.",
   "prop": "coins",
   "label": "CASHBACK",
   "value": "$0"
@@ -10,11 +10,11 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "If a cashback app makes you pay to cash out, it's a scam.",
-   "say": "If a cashback app makes you pay to cash out, it's a scam.",
+   "text": "Your cashback app says $480. It's really $0.",
+   "say": "Your cashback app says four hundred eighty dollars. It's really zero.",
    "scene": {
     "t": "hook",
-    "title": "Pay to cash out? [Scam.]",
+    "title": "$480? [Really $0.]",
     "prop": "coins",
     "label": "CASHBACK",
     "value": "$0",
@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "Here's how the fake ones work.",
-   "say": "Here's how the fake ones work.",
+   "text": "If it makes you pay a fee or 'tax' to unlock your cashback, it's a scam.",
+   "say": "If it makes you pay a fee or tax to unlock your cashback, it's a scam.",
    "scene": {
     "t": "list",
     "title": "The fake cashback trap",
@@ -34,30 +34,13 @@
      "Pay a fee to withdraw",
      "Money never arrives"
     ],
-    "reveal": 1
+    "reveal": 2
    }
   },
   {
    "who": "ticker",
-   "text": "An ad or text promises huge rebates, and the app shows your balance climbing fast.",
-   "say": "An ad or text promises huge rebates, and the app shows your balance climbing fast.",
-   "scene": {
-    "t": "list",
-    "title": "The fake cashback trap",
-    "items": [
-     "Huge rewards promised",
-     "Balance grows fast",
-     "Pay a fee to withdraw",
-     "Money never arrives"
-    ],
-    "reveal": 2,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Say it shows $480 back on $500 of shopping. That's 96%. No real store pays that.",
-   "say": "Say it shows four hundred eighty dollars back on five hundred of shopping. That's ninety-six percent. No real store pays that.",
+   "text": "Say it shows $480 back on $500. That's 96%. No real cashback app pays that on everything.",
+   "say": "Say it shows four hundred eighty dollars back on five hundred. That's ninety-six percent. No real cashback app pays that on everything.",
    "scene": {
     "t": "compare",
     "title": "Cashback on $500 of shopping",
@@ -68,7 +51,7 @@
      "sub": "96% back"
     },
     "right": {
-     "label": "Typical 2% card",
+     "label": "2% cashback card",
      "value": "$10",
      "tone": "up",
      "sub": "2% back"
@@ -77,8 +60,8 @@
   },
   {
    "who": "ticker",
-   "text": "Then comes the catch: a $49.99 withdrawal fee, then a $99 tax. You pay $148.99 and get nothing.",
-   "say": "Then comes the catch: a forty-nine ninety-nine withdrawal fee, then a ninety-nine dollar tax. You pay one forty-eight ninety-nine and get nothing.",
+   "text": "Then the catch: a $49.99 'withdrawal fee', then a $99 'tax'. You're out $148.99, and get nothing.",
+   "say": "Then the catch: a forty-nine ninety-nine withdrawal fee, then a ninety-nine dollar tax. You're out a hundred forty-eight ninety-nine, and get nothing.",
    "scene": {
     "t": "money",
     "from": {
@@ -98,17 +81,16 @@
    "scene": {
     "t": "board",
     "lines": [
-     "Real rewards",
-     "never charge you",
-     "to cash out"
+     "A fee to get paid?",
+     "BBB: big red flag"
     ],
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "In 2025, websites and apps were the top contact method in FTC fraud reports with a loss.",
-   "say": "In twenty twenty-five, websites and apps were the top contact method in F T C fraud reports with a loss.",
+   "text": "In 2025, 31% of FTC fraud reports with a loss started on a website or app.",
+   "say": "In twenty twenty-five, thirty-one percent of F T C fraud reports with a loss started on a website or app.",
    "scene": {
     "t": "stat",
     "label": "Fraud reports with a loss, 2025",
@@ -123,7 +105,7 @@
    "say": "Reported fraud losses hit fifteen point nine billion dollars in twenty twenty-five.",
    "scene": {
     "t": "chart",
-    "title": "Reported fraud losses to the FTC",
+    "title": "Reported fraud losses (FTC, as reported each year)",
     "points": [
      [
       2022,
@@ -150,8 +132,8 @@
   },
   {
    "who": "ticker",
-   "text": "If you're hit, call your bank, and report it at ReportFraud.ftc.gov.",
-   "say": "If you're hit, call your bank, and report it at report fraud dot F T C dot gov.",
+   "text": "If you paid, contact your bank or payment app, and report it at ReportFraud.ftc.gov.",
+   "say": "If you paid, contact your bank or payment app, and report it at report fraud dot F T C dot gov.",
    "scene": {
     "t": "stat",
     "label": "Report it",
@@ -170,10 +152,10 @@
   }
  ],
  "post": {
-  "title": "If a cashback app makes you pay to cash out, it's a scam",
-  "ig": "If a cashback app makes you pay to cash out, it's a scam.\nThe trap: huge rebates promised, a balance that climbs fast, then a 'withdrawal fee' or 'tax' before you can collect.\nExample: $480 back on $500 of shopping (96%) is not real. Fees of $49.99 + $99 = $148.99 paid, $0 received.\nThe BBB says a real cashback app shouldn't charge a fee for your payout.\nFTC: websites and apps were the top contact method in fraud reports with a loss in 2025; reported losses hit $15.9B.\nSources: BBB; FTC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#scamalert #cashback #fraud #personalfinance #financeprostv",
-  "tiktok": "If a cashback app makes you pay to cash out, it's a scam. Not financial advice. #moneytok #personalfinance #scamalert #cashback #financeprostv",
-  "yt_desc": "Fake cashback and rebate apps show a fast-growing balance, then demand a withdrawal fee or tax before you can collect; the BBB says a real cashback app shouldn't charge a fee for your payout. In 2025, websites and apps were the top contact method in FTC fraud reports with a loss, and reported fraud losses reached $15.9 billion (FTC). News and education, not financial advice. #Shorts #scamalert #personalfinance",
+  "title": "Your cashback app says $480. It's really $0.",
+  "ig": "Your cashback app says $480. It's really $0.\nIf a cashback app makes you pay a fee or 'tax' to unlock your cashback, it's a scam.\nThe trap: huge rebates promised, a balance that climbs fast, then a 'withdrawal fee' or 'tax' before you can collect.\nExample: $480 back on $500 of shopping (96%) is not real. Fees of $49.99 + $99 = $148.99 paid, $0 received.\nThe BBB warns that an app asking for a fee to pay you could be a scam.\nFTC: websites and apps were the top contact method in fraud reports with a loss in 2025; reported losses hit $15.9B.\nSources: BBB; FTC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#scamalert #cashback #fraud #personalfinance #financeprostv",
+  "tiktok": "Your cashback app says $480. It's really $0. Not financial advice. #moneytok #personalfinance #scamalert #cashback #financeprostv",
+  "yt_desc": "Fake cashback and rebate apps show a fast-growing balance, then demand a withdrawal fee or 'tax' to unlock it; the BBB warns that an app asking for a fee to pay you could be a scam. In 2025, websites and apps were the top contact method (31%) in FTC fraud reports with a loss, and reported fraud losses reached $15.9 billion (FTC). News and education, not financial advice. #Shorts #scamalert #personalfinance",
   "tags": [
    "cashback app scam",
    "rebate scam",
