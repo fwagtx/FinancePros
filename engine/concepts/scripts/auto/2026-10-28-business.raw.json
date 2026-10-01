@@ -23,19 +23,19 @@
   },
   {
    "who": "ticker",
-   "text": "Its March 2024 alert: \"only a scammer will tell you they already have a buyer or can find one fast.\"",
-   "say": "Its March twenty twenty-four alert says only a scammer will tell you they already have a buyer.",
+   "text": "Its March 2024 alert on resale scams: \"Timeshares are hard to sell and only a scammer will tell you they already have a buyer or can find one fast.\"",
+   "say": "Its March twenty twenty-four scam alert says so, adding that only a scammer will tell you they already have a buyer.",
    "scene": {
     "t": "quote",
-    "text": "...only a scammer will tell you they already have a buyer or can find one fast.",
+    "text": "Timeshares are hard to sell and only a scammer will tell you they already have a buyer or can find one fast.",
     "source": "FTC consumer alert, March 2024",
     "mood": "worried"
    }
   },
   {
    "who": "ticker",
-   "text": "Buying new is easy. The average price was $24,740 in 2025, per ARDA, the industry group.",
-   "say": "Buying new is easy. The average price was twenty-four thousand seven hundred forty dollars in twenty twenty-five, per A R D A, the industry group.",
+   "text": "A new timeshare averaged $24,740 in 2025, per the trade group ARDA.",
+   "say": "A new timeshare averaged twenty-four thousand seven hundred forty dollars in twenty twenty-five, per trade group A R D A.",
    "scene": {
     "t": "stat",
     "label": "Average new timeshare price, 2025",
@@ -46,8 +46,8 @@
   },
   {
    "who": "ticker",
-   "text": "But at Marriott Vacations Worldwide, marketing and sales cost $943 million in 2025, against about $1.8 billion in contract sales.",
-   "say": "But at Marriott Vacations Worldwide, marketing and sales cost nine hundred forty-three million dollars in twenty twenty-five, against about one point eight billion dollars in contract sales.",
+   "text": "At Marriott Vacations Worldwide, marketing and sales cost $943 million in 2025, on about $1.8 billion in contract sales.",
+   "say": "At Marriott Vacations Worldwide, marketing and sales cost nine hundred forty-three million dollars in twenty twenty-five, on about one point eight billion dollars in contract sales.",
    "scene": {
     "t": "compare",
     "title": "Marriott Vacations, 2025",
@@ -55,7 +55,7 @@
      "label": "Contract sales",
      "value": "$1.8B",
      "tone": "neutral",
-     "sub": "FY2025 results"
+     "sub": "company-reported"
     },
     "right": {
      "label": "Marketing + sales",
@@ -68,22 +68,22 @@
   },
   {
    "who": "ticker",
-   "text": "That's about half, spent on selling. A resale buyer isn't paying for the pitch.",
-   "say": "That's about half, spent on selling. A resale buyer isn't paying for the pitch.",
+   "text": "That's more than half of Marriott's contract sales going to selling. A resale buyer skips that pitch.",
+   "say": "That's more than half of Marriott's contract sales going to selling. A resale buyer skips that pitch.",
    "scene": {
     "t": "board",
     "lines": [
-     "$943M / $1.8B = about half",
-     "spent on selling",
-     "not on the resort"
+     "$943M / $1.8B",
+     "more than half",
+     "spent on selling"
     ],
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "Then there's the bill that never stops: average maintenance fees hit $1,550 a year in 2025.",
-   "say": "Then there's the bill that never stops. Average maintenance fees hit fifteen hundred fifty dollars a year in twenty twenty-five.",
+   "text": "Then there's the bill that keeps coming: average maintenance fees hit $1,550 a year in 2025.",
+   "say": "Then there's the bill that keeps coming. Average maintenance fees hit fifteen hundred fifty dollars a year in twenty twenty-five.",
    "scene": {
     "t": "chart",
     "title": "Avg. yearly maintenance fee",
@@ -116,8 +116,8 @@
   },
   {
    "who": "ticker",
-   "text": "For example, 10 years at that rate is $15,500, before any increases.",
-   "say": "For example, ten years at that rate is fifteen thousand five hundred dollars, before any increases.",
+   "text": "For example, 10 years at that rate is $15,500, before increases.",
+   "say": "For example, ten years at that rate is fifteen thousand five hundred dollars, before increases.",
    "scene": {
     "t": "money",
     "from": {
@@ -139,16 +139,16 @@
     "t": "split",
     "title": "New vs. resale",
     "left": {
-     "title": "New buyer pays",
+     "title": "New, at Marriott",
      "items": [
       "the week",
-      "the sales pitch",
+      "~half: selling",
       "yearly fees"
      ],
      "tone": "neutral"
     },
     "right": {
-     "title": "Resale buyer gets",
+     "title": "Resale buyer",
      "items": [
       "the week",
       "yearly fees"
@@ -168,9 +168,9 @@
  ],
  "post": {
   "title": "Why timeshares are so hard to sell, in real numbers",
-  "ig": "Even the FTC says timeshares are hard to sell. Here's why.\n\nThe average new timeshare sold for $24,740 in 2025 (ARDA).\nMarriott Vacations Worldwide spent $943 million on marketing and sales in 2025, on about $1.8 billion in contract sales: about half.\nAverage yearly maintenance fees rose from $1,120 in 2021 to $1,550 in 2025 (ARDA), and resale buyers take those on too.\n\nSources: FTC consumer alert (March 2024), ARDA State of the Vacation Timeshare Industry (2022-2026 editions), Marriott Vacations Worldwide FY2025 results.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#timeshare #vacation #business #howtheymakemoney #financeprostv",
+  "ig": "Even the FTC says timeshares are hard to sell. Here's why.\n\nThe average new timeshare sold for $24,740 in 2025 (ARDA).\nMarriott Vacations Worldwide spent $943 million on marketing and sales in 2025, on about $1.8 billion in company-reported contract sales: more than half.\nAverage yearly maintenance fees rose from $1,120 in 2021 to $1,550 in 2025 (ARDA), and resale buyers take those on too.\n\nSources: FTC consumer alert (March 2024), ARDA State of the Vacation Timeshare Industry (2022-2026 editions), Marriott Vacations Worldwide FY2025 results.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#timeshare #vacation #business #howtheymakemoney #financeprostv",
   "tiktok": "Even the FTC says timeshares are hard to sell. Here's the math behind it. Not financial advice. #moneytok #personalfinance #timeshare #financeprostv",
-  "yt_desc": "The average new timeshare sold for $24,740 in 2025, and average yearly maintenance fees rose from $1,120 in 2021 to $1,550 in 2025 (ARDA). Marriott Vacations Worldwide spent $943 million on marketing and sales in fiscal 2025, on about $1.8 billion in contract sales. Sources: FTC consumer alert (March 2024), ARDA State of the Vacation Timeshare Industry, Marriott Vacations Worldwide FY2025 results.\n\nNews and education, not financial advice.\n\n#Shorts #timeshare #business",
+  "yt_desc": "The average new timeshare sold for $24,740 in 2025, and average yearly maintenance fees rose from $1,120 in 2021 to $1,550 in 2025 (ARDA). Marriott Vacations Worldwide spent $943 million on marketing and sales in fiscal 2025, on about $1.8 billion in company-reported contract sales. Sources: FTC consumer alert (March 2024), ARDA State of the Vacation Timeshare Industry, Marriott Vacations Worldwide FY2025 results.\n\nNews and education, not financial advice.\n\n#Shorts #timeshare #business",
   "tags": [
    "timeshare",
    "why timeshares are hard to sell",
