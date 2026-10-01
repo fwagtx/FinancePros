@@ -1,0 +1,1466 @@
+{
+ "series": "ticker",
+ "header": "Explained",
+ "cover": {
+  "title": "9,000 Deals in One Year.",
+  "prop": "bag",
+  "label": "2025",
+  "value": "25/DAY"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Private equity did over 9,000 US deals in 2025.",
+   "say": "Private equity did over nine thousand US deals in twenty twenty-five.",
+   "scene": {
+    "t": "hook",
+    "title": "[9,000] deals, 1 year",
+    "prop": "bag",
+    "label": "2025",
+    "value": "25/day",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 25 a day. Your vet, your dentist, even your plumber could be on the list.",
+   "say": "That's about twenty-five a day. Your vet, your dentist, even your plumber could be on the list.",
+   "scene": {
+    "t": "list",
+    "title": "Who's been bought?",
+    "items": [
+     "Vet clinics",
+     "Dentists",
+     "Plumbers",
+     "Hospitals"
+    ],
+    "reveal": 4,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Worldwide, Bain counted $904 billion of buyouts in 2025.",
+   "say": "Worldwide, the consulting firm Bain counted nine hundred four billion dollars of buyouts in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Global buyout value, 2025",
+    "value": "$904B",
+    "tone": "up",
+    "sub": "Bain Global PE Report 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was up 44% from 2024, and second only to the record year of 2021.",
+   "say": "That was up forty-four percent from twenty twenty-four, and second only to the record year of twenty twenty-one.",
+   "scene": {
+    "t": "compare",
+    "title": "Global buyout value",
+    "left": {
+     "label": "2024",
+     "value": "$628B",
+     "tone": "neutral",
+     "sub": "Bain"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$904B",
+     "tone": "up",
+     "sub": "up 44%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So who is buying all this, with whose money, and is it good or bad for the rest of us?",
+   "say": "So who is buying all this, with whose money, and is it good or bad for the rest of us?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who is buying?",
+     "With whose money?",
+     "Good or bad for us?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Researchers have studied it for decades, and the answer depends a lot on what got bought.",
+   "say": "Researchers have studied it for decades, and the answer depends a lot on what got bought.",
+   "scene": {
+    "t": "split",
+    "title": "What studies found",
+    "left": {
+     "title": "For",
+     "items": [
+      "Higher productivity",
+      "Cleaner restaurants"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Against",
+     "items": [
+      "Nursing home deaths",
+      "Hospital infections"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll cover how a fund works, a buyout with real math, where the money went, and what the studies found.",
+   "say": "We'll cover how a fund works, a buyout with real math, where the money went, and what the studies found.",
+   "scene": {
+    "t": "list",
+    "title": "Today",
+    "items": [
+     "How a fund works",
+     "The buyout math",
+     "Where money went",
+     "What studies say"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No cheering and no booing. Just how it works and what the evidence says.",
+   "say": "No cheering and no booing. Just how it works and what the evidence says.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No cheering.",
+     "No booing.",
+     "Just the evidence."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: How a private equity fund works.",
+   "say": "Chapter one: How a private equity fund works.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "How a PE fund works"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Private equity means owning companies that don't trade on the stock market, sometimes by taking public ones private.",
+   "say": "Private equity means owning companies that don't trade on the stock market, sometimes by taking public ones private.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "PRIVATE EQUITY:",
+     "owning companies",
+     "off the stock market"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It starts with a firm. In the business, that firm is called the general partner, or GP.",
+   "say": "It starts with a firm. In the business, that firm is called the general partner, or G P.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "GP = general partner",
+     "= the PE firm"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The GP raises money from limited partners, or LPs: pension funds, university endowments, insurers and wealthy families.",
+   "say": "The G P raises money from limited partners, or L Ps: pension funds, university endowments, insurers and wealthy families.",
+   "scene": {
+    "t": "split",
+    "title": "Who's who",
+    "left": {
+     "title": "GP",
+     "items": [
+      "The PE firm",
+      "Picks the deals",
+      "Runs the companies"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "LPs",
+     "items": [
+      "Pension funds",
+      "Endowments",
+      "Insurers",
+      "Wealthy families"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many public pension funds, including teachers' funds, put part of their money into PE funds.",
+   "say": "Many public pension funds, including teachers' funds, put part of their money into P E funds.",
+   "scene": {
+    "t": "hook",
+    "title": "Your [pension] is in",
+    "prop": "pot",
+    "label": "PENSION",
+    "value": "LP",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The money is usually locked up for about ten years. The GP buys companies, tries to improve them, then sells them for more.",
+   "say": "The money is usually locked up for about ten years. The G P buys companies, tries to improve them, then sells them for more.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Year 1",
+      "what": "Raise the fund"
+     },
+     {
+      "when": "Yrs 1-5",
+      "what": "Buy companies"
+     },
+     {
+      "when": "Yrs 3-10",
+      "what": "Sell them for more"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For that work, the GP usually charges what's called two and twenty.",
+   "say": "For that work, the G P usually charges what's called two and twenty.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "\"2 AND 20\"",
+     "2% a year in fees",
+     "20% of the profits"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2 is a yearly management fee, typically 1.5% to 2% of the money in the fund.",
+   "say": "The two is a yearly management fee, typically one and a half to two percent of the money in the fund.",
+   "scene": {
+    "t": "stat",
+    "label": "Typical management fee",
+    "value": "1.5%-2%",
+    "tone": "neutral",
+    "sub": "per year, of fund money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $1 billion fund, 2% is $20 million a year, whether the deals work or not.",
+   "say": "For example, on a one billion dollar fund, two percent is twenty million dollars a year, whether the deals work or not.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example fund",
+     "value": "$1B"
+    },
+    "to": {
+     "label": "2% fee, per year",
+     "value": "$20M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 20 is carried interest: the GP's cut of the profits, usually after investors earn a minimum return, often 8% a year.",
+   "say": "The twenty is carried interest: the G P's cut of the profits, usually after investors earn a minimum return, often eight percent a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "CARRIED INTEREST",
+     "20% of profits",
+     "after ~8% hurdle"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the GP gets paid steadily for running the fund, and paid big if the deals pay off.",
+   "say": "So the G P gets paid steadily for running the fund, and paid big if the deals pay off.",
+   "scene": {
+    "t": "compare",
+    "title": "How the GP gets paid",
+    "left": {
+     "label": "Fee",
+     "value": "2%",
+     "tone": "neutral",
+     "sub": "every year"
+    },
+    "right": {
+     "label": "Carry",
+     "value": "20%",
+     "tone": "up",
+     "sub": "of profits"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The leveraged buyout.",
+   "say": "Chapter two: The leveraged buyout.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The leveraged buyout"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the move that makes private equity different: buying with borrowed money.",
+   "say": "Here's the move that makes private equity different: buying with borrowed money.",
+   "scene": {
+    "t": "hook",
+    "title": "[Borrowed] money",
+    "prop": "bill",
+    "label": "LOAN",
+    "value": "LBO",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's called a leveraged buyout, or LBO. Think of buying a house with a mortgage.",
+   "say": "It's called a leveraged buyout, or L B O. Think of buying a house with a mortgage.",
+   "scene": {
+    "t": "hook",
+    "title": "Like a [mortgage]",
+    "prop": "house",
+    "label": "MORTGAGE",
+    "value": "LBO"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With one big twist: the loan goes on the company's books, not the fund's.",
+   "say": "With one big twist: the loan goes on the company's books, not the fund's.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The twist:",
+     "the loan sits on",
+     "the company's books"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That means the company's own profits have to pay the debt back.",
+   "say": "That means the company's own profits have to pay the debt back.",
+   "scene": {
+    "t": "list",
+    "title": "Company profits pay",
+    "items": [
+     "Interest",
+     "The loan itself",
+     "Then everything else"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's run a hypothetical example with round numbers. A fund buys a company for $100 million.",
+   "say": "Let's run a hypothetical example with round numbers. A fund buys a company for one hundred million dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: purchase price",
+    "value": "$100M",
+    "tone": "neutral",
+    "sub": "Hypothetical, round numbers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It puts in $40 million of its own money and borrows $60 million.",
+   "say": "It puts in forty million dollars of its own money and borrows sixty million dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: paying $100M",
+    "left": {
+     "label": "Fund equity",
+     "value": "$40M",
+     "tone": "neutral",
+     "sub": "fund's money"
+    },
+    "right": {
+     "label": "Debt",
+     "value": "$60M",
+     "tone": "down",
+     "sub": "on the company"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over five years, the company's profits pay the debt down to $40 million. Then the fund sells it for $150 million.",
+   "say": "Over five years, the company's profits pay the debt down to forty million dollars. Then the fund sells it for one hundred fifty million dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example: bought for",
+     "value": "$100M"
+    },
+    "to": {
+     "label": "Sold 5 years later",
+     "value": "$150M"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subtract the $40 million still owed, and the fund keeps $110 million.",
+   "say": "Subtract the forty million dollars still owed, and the fund keeps one hundred ten million dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$150M sale",
+     "- $40M debt left",
+     "= $110M to the fund"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It put in $40 million, so that's 2.75 times its money.",
+   "say": "It put in forty million dollars, so that's two point seven five times its money.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: fund's multiple",
+    "value": "2.75x",
+    "tone": "up",
+    "sub": "$110M / $40M"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A buyer who paid all cash would have made 1.5 times. Same company, same sale. The debt did the rest.",
+   "say": "A buyer who paid all cash would have made one and a half times. Same company, same sale. The debt did the rest.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: same $150M sale",
+    "left": {
+     "label": "All cash",
+     "value": "1.5x",
+     "tone": "neutral",
+     "sub": "$150M / $100M"
+    },
+    "right": {
+     "label": "With debt",
+     "value": "2.75x",
+     "tone": "up",
+     "sub": "$110M / $40M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the carry. The profit is $70 million. 20% of that, $14 million, goes to the GP, and the LPs keep $56 million.",
+   "say": "Now the carry. The profit is seventy million dollars. Twenty percent of that, fourteen million dollars, goes to the G P, and the L Ps keep fifty-six million dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$110M - $40M = $70M",
+     "20% carry = $14M",
+     "LPs keep $56M"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's simplified. Real deals also have fees, interest and that hurdle we mentioned.",
+   "say": "That's simplified. Real deals also have fees, interest and that hurdle we mentioned.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Simplified:",
+     "no fees, interest",
+     "or hurdle shown"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now flip it. Say profits stall, the debt stays at $60 million, and the company sells for just $80 million.",
+   "say": "Now flip it. Say profits stall, the debt stays at sixty million dollars, and the company sells for just eighty million dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example: bought for",
+     "value": "$100M"
+    },
+    "to": {
+     "label": "Sold for",
+     "value": "$80M"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fund gets $20 million back, so half its money is gone. The all-cash buyer would have lost 20%.",
+   "say": "The fund gets twenty million dollars back, so half its money is gone. The all-cash buyer would have lost twenty percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $80M sale",
+    "left": {
+     "label": "All cash",
+     "value": "-20%",
+     "tone": "down",
+     "sub": "$80M / $100M"
+    },
+    "right": {
+     "label": "With debt",
+     "value": "-50%",
+     "tone": "down",
+     "sub": "$20M / $40M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Debt makes wins bigger and losses bigger. And if profits can't cover the payments, the company itself can go under.",
+   "say": "Debt makes wins bigger and losses bigger. And if profits can't cover the payments, the company itself can go under.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Debt magnifies:",
+     "bigger wins,",
+     "bigger losses"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real deals use this math at huge scale. Electronic Arts agreed in September 2025 to be bought for about $55 billion.",
+   "say": "Real deals use this math at huge scale. Electronic Arts agreed in September twenty twenty-five to be bought for about fifty-five billion dollars.",
+   "scene": {
+    "t": "news",
+    "headline": "EA agrees to $55B take-private",
+    "source": "Electronic Arts, Sept 29, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The buyers, Saudi Arabia's Public Investment Fund, Silver Lake and Affinity Partners, lined up about $20 billion of that as debt.",
+   "say": "The buyers, Saudi Arabia's Public Investment Fund, Silver Lake and Affinity Partners, lined up about twenty billion dollars of that as debt.",
+   "scene": {
+    "t": "compare",
+    "title": "EA deal, Sept 2025",
+    "left": {
+     "label": "Deal value",
+     "value": "$55B",
+     "tone": "neutral",
+     "sub": "enterprise value"
+    },
+    "right": {
+     "label": "Debt",
+     "value": "$20B",
+     "tone": "down",
+     "sub": "JPMorgan loans"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bain counted it as the biggest buyout of 2025.",
+   "say": "Bain counted it as the biggest buyout of twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Biggest buyout of 2025",
+    "value": "EA",
+    "tone": "neutral",
+    "sub": "Bain Global PE Report 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Where the money went.",
+   "say": "Chapter three: Where the money went.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Where the money went"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bain's figures show global buyouts hit $975 billion in 2021, when borrowing was cheap.",
+   "say": "Bain's figures show global buyouts hit nine hundred seventy-five billion dollars in twenty twenty-one, when borrowing was cheap.",
+   "scene": {
+    "t": "chart",
+    "title": "Global buyout value ($B)",
+    "points": [
+     [
+      2021,
+      975
+     ],
+     [
+      2022,
+      719
+     ],
+     [
+      2023,
+      442
+     ],
+     [
+      2024,
+      628
+     ],
+     [
+      2025,
+      904
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$904B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When rates jumped, deals fell to $442 billion in 2023. Then they climbed back to $904 billion in 2025.",
+   "say": "When rates jumped, deals fell to four hundred forty-two billion dollars in twenty twenty-three. Then they climbed back to nine hundred four billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2023,
+     "text": "$442B low"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The giant deals get the headlines. But a lot of the buying is small, local businesses stitched together.",
+   "say": "The giant deals get the headlines. But a lot of the buying is small, local businesses stitched together.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Big deals: headlines",
+     "Small deals: everywhere"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's called a roll-up: buy one business, then keep adding similar ones nearby.",
+   "say": "That's called a roll-up: buy one business, then keep adding similar ones nearby.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "ROLL-UP:",
+     "buy one, then add",
+     "more just like it"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take the trades. PitchBook data showed nearly 800 HVAC, plumbing and electrical firms bought by PE from 2022 to late 2024.",
+   "say": "Take the trades. PitchBook data showed nearly eight hundred H V A C, plumbing and electrical firms bought by P E from twenty twenty-two to late twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Trade firms bought by PE",
+    "value": "~800",
+    "tone": "up",
+    "sub": "PitchBook via WSJ, Oct 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Dentists too. In 2024, 16.1% of US dentists were tied to a dental support organization, up from 7.2% in 2015.",
+   "say": "Dentists too. In twenty twenty-four, sixteen point one percent of US dentists were tied to a dental support organization, up from seven point two percent in twenty fifteen.",
+   "scene": {
+    "t": "compare",
+    "title": "Dentists tied to a DSO",
+    "left": {
+     "label": "2015",
+     "value": "7.2%",
+     "tone": "neutral",
+     "sub": "ADA HPI"
+    },
+    "right": {
+     "label": "2024",
+     "value": "16.1%",
+     "tone": "up",
+     "sub": "ADA HPI"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many of those groups are PE-backed. One study found PE-affiliated dentists rose from 6.6% in 2015 to 12.8% in 2021.",
+   "say": "Many of those groups are backed by private equity. One study found P E affiliated dentists rose from six point six percent in twenty fifteen to twelve point eight percent in twenty twenty-one.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "PE-tied dentists, 2015",
+     "value": "6.6%"
+    },
+    "to": {
+     "label": "PE-tied dentists, 2021",
+     "value": "12.8%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Vet clinics are another target. In 2022, the FTC made PE firm JAB Consumer Partners sell some clinics before buying two vet chains.",
+   "say": "Vet clinics are another target. In twenty twenty-two, the F T C made the P E firm JAB Consumer Partners sell some clinics before buying two vet chains.",
+   "scene": {
+    "t": "news",
+    "headline": "FTC orders JAB to sell vet clinics",
+    "source": "FTC, June 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those deals were worth $1.1 billion and $1.65 billion, and the FTC called it a roll-up.",
+   "say": "Those deals were worth one point one billion dollars and one point six five billion dollars, and the F T C called it a roll-up.",
+   "scene": {
+    "t": "compare",
+    "title": "JAB vet deals, 2022",
+    "left": {
+     "label": "SAGE",
+     "value": "$1.1B",
+     "tone": "neutral",
+     "sub": "FTC order"
+    },
+    "right": {
+     "label": "Ethos",
+     "value": "$1.65B",
+     "tone": "neutral",
+     "sub": "FTC order"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there's housing. A May 2024 GAO report said 32 large investors owned about 450,000 single-family homes as of 2022.",
+   "say": "Then there's housing. A May twenty twenty-four G A O report said thirty-two large investors owned about four hundred fifty thousand single-family homes as of twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Homes owned by 32 investors",
+    "value": "450,000",
+    "tone": "up",
+    "sub": "GAO, May 2024 (2022 data)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nationally, investors with over 1,000 homes owned about 3% of single-family rentals. In Atlanta, GAO estimated about 25%.",
+   "say": "Nationally, investors with over a thousand homes owned about three percent of single-family rentals. In Atlanta, the G A O estimated about twenty-five percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Share of 1-family rentals",
+    "left": {
+     "label": "US",
+     "value": "~3%",
+     "tone": "neutral",
+     "sub": "big investors"
+    },
+    "right": {
+     "label": "Atlanta",
+     "value": "~25%",
+     "tone": "up",
+     "sub": "GAO estimate"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hospitals are on the list too, and one case shows how debt and real estate deals can bite.",
+   "say": "Hospitals are on the list too, and one case shows how debt and real estate deals can bite.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hospitals:",
+     "the Steward case"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "PE firm Cerberus bought the hospitals that became Steward Health Care in 2010. In 2016, Steward sold hospital buildings and leased them back.",
+   "say": "P E firm Cerberus bought the hospitals that became Steward Health Care in twenty ten. In twenty sixteen, Steward sold hospital buildings and leased them back.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2010",
+      "what": "Cerberus buys the hospitals"
+     },
+     {
+      "when": "2016",
+      "what": "Sells buildings, leases back"
+     },
+     {
+      "when": "2020",
+      "what": "Cerberus sells its stake"
+     },
+     {
+      "when": "2024",
+      "what": "Steward files for bankruptcy"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cerberus sold its stake in 2020. Then in May 2024, Steward filed for bankruptcy with 31 hospitals in 10 states.",
+   "say": "Cerberus sold its stake in twenty twenty. Then in May twenty twenty-four, Steward filed for bankruptcy with thirty-one hospitals in ten states.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 4,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It reported over $9 billion in liabilities. About $6.6 billion were long-term lease obligations to its landlord, Medical Properties Trust.",
+   "say": "It reported over nine billion dollars in liabilities. About six point six billion dollars were long-term lease obligations to its landlord, Medical Properties Trust.",
+   "scene": {
+    "t": "stat",
+    "label": "Steward lease debt to MPT",
+    "value": "$6.6B",
+    "tone": "down",
+    "sub": "MPT SEC filings, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "PE also buys software companies, like EA. And it has moved into pro sports.",
+   "say": "P E also buys software companies, like E A. And it has moved into pro sports.",
+   "scene": {
+    "t": "list",
+    "title": "Also on the menu",
+    "items": [
+     "Software firms",
+     "Video games",
+     "Sports teams"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August 2024, NFL owners voted 31 to 1 to let approved PE funds buy up to 10% of a team.",
+   "say": "In August twenty twenty-four, N F L owners voted thirty-one to one to let approved P E funds buy up to ten percent of a team.",
+   "scene": {
+    "t": "news",
+    "headline": "NFL owners vote 31-1 to allow PE",
+    "source": "CNBC, Aug 27, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The NBA, NHL and MLS let PE funds own up to 30% of a team combined.",
+   "say": "The N B A, N H L and M L S let P E funds own up to thirty percent of a team combined.",
+   "scene": {
+    "t": "compare",
+    "title": "Max PE stake in a team",
+    "left": {
+     "label": "NFL",
+     "value": "10%",
+     "tone": "neutral",
+     "sub": "since Aug 2024"
+    },
+    "right": {
+     "label": "NBA, NHL, MLS",
+     "value": "30%",
+     "tone": "up",
+     "sub": "all PE funds"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bain says global healthcare PE deals hit a record $190 billion in 2025.",
+   "say": "Bain says global healthcare P E deals hit a record one hundred ninety billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Global healthcare PE deals",
+    "value": "$190B",
+    "tone": "up",
+    "sub": "Bain, record in 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So yes, it really is a bit of everything. The real question is what happens after the purchase.",
+   "say": "So yes, it really is a bit of everything. The real question is what happens after the purchase.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The real question:",
+     "what happens after?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: The case for private equity.",
+   "say": "Chapter four: The case for private equity.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The case for private equity"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Supporters say PE owners fix sleepy companies with sharper management, better systems, and owners with skin in the game.",
+   "say": "Supporters say P E owners fix sleepy companies with sharper management, better systems, and owners with skin in the game.",
+   "scene": {
+    "t": "list",
+    "title": "The pitch",
+    "items": [
+     "Sharper management",
+     "Better systems",
+     "Skin in the game"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One of the largest studies looked at thousands of US buyouts from 1980 to 2013.",
+   "say": "One of the largest studies looked at thousands of US buyouts from nineteen eighty to twenty thirteen.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Davis et al.",
+     "US buyouts 1980-2013",
+     "Management Science, 2025"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It found labor productivity rose 8% in two years at bought companies versus similar ones.",
+   "say": "It found labor productivity rose eight percent in two years at bought companies versus similar ones.",
+   "scene": {
+    "t": "stat",
+    "label": "Productivity after buyout",
+    "value": "+8%",
+    "tone": "up",
+    "sub": "2 years vs. similar firms"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Jobs were mixed: down 13% when a public company was taken private, up 13% when a private one was bought.",
+   "say": "Jobs were mixed: down thirteen percent when a public company was taken private, up thirteen percent when a private one was bought.",
+   "scene": {
+    "t": "compare",
+    "title": "Jobs, 2 years after buyout",
+    "left": {
+     "label": "Public firm",
+     "value": "-13%",
+     "tone": "down",
+     "sub": "taken private"
+    },
+    "right": {
+     "label": "Private firm",
+     "value": "+13%",
+     "tone": "up",
+     "sub": "bought by PE"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And average pay per worker slipped 1.7%.",
+   "say": "And average pay per worker slipped one point seven percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Pay per worker after buyout",
+    "value": "-1.7%",
+    "tone": "down",
+    "sub": "Davis et al."
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 2016 study of restaurant chains found that after PE buyouts, restaurants got cleaner and safer, with fewer health-code violations.",
+   "say": "A twenty sixteen study of restaurant chains found that after P E buyouts, restaurants got cleaner and safer, with fewer health-code violations.",
+   "scene": {
+    "t": "stat",
+    "label": "Restaurant health violations",
+    "value": "Fewer",
+    "tone": "up",
+    "sub": "Bernstein & Sheen, RFS 2016"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On returns, a 2014 study found US buyout funds beat the S&P 500 by 20% to 27% over a fund's life.",
+   "say": "On returns, a twenty fourteen study found US buyout funds beat the S and P five hundred by twenty to twenty-seven percent over a fund's life.",
+   "scene": {
+    "t": "stat",
+    "label": "Buyout funds vs. S&P 500",
+    "value": "+20-27%",
+    "tone": "up",
+    "sub": "Journal of Finance, 2014"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more than 3% a year, after fees.",
+   "say": "That's more than three percent a year, after fees.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More than 3% a year",
+     "after fees"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even in hospitals, a 2025 study found PE-bought hospitals got more profitable, with no sign of higher death or readmission rates.",
+   "say": "Even in hospitals, a twenty twenty-five study found P E bought hospitals got more profitable, with no sign of higher death or readmission rates.",
+   "scene": {
+    "t": "split",
+    "title": "Hospital study, JFE 2025",
+    "left": {
+     "title": "Found",
+     "items": [
+      "Higher profits",
+      "No mortality rise",
+      "Same inpatient prices"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "But",
+     "items": [
+      "Lower satisfaction",
+      "Admin job cuts"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the same study found patient satisfaction fell and administrative jobs were cut.",
+   "say": "But the same study found patient satisfaction fell and administrative jobs were cut.",
+   "scene": {
+    "t": "split",
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: The case against.",
+   "say": "Chapter five: The case against.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The case against"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Critics say debt and fees push owners to cut where it's hard to see, like staffing.",
+   "say": "Critics say debt and fees push owners to cut where it's hard to see, like staffing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The worry:",
+     "cuts you can't see,",
+     "like staffing"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A widely cited study is about nursing homes, published in 2024.",
+   "say": "A widely cited study is about nursing homes, published in twenty twenty-four.",
+   "scene": {
+    "t": "hook",
+    "title": "[Nursing] homes",
+    "prop": "paper",
+    "label": "STUDY",
+    "value": "RFS 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Researchers used Medicare data and found PE ownership raised patient deaths by about 11%.",
+   "say": "Researchers used Medicare data and found P E ownership raised patient deaths by about eleven percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Deaths at PE nursing homes",
+    "value": "+11%",
+    "tone": "down",
+    "sub": "Gupta et al., RFS 2024",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They tied it to fewer front-line staff hours and weaker care standards, while taxpayer spending per stay went up.",
+   "say": "They tied it to fewer front-line staff hours and weaker care standards, while taxpayer spending per stay went up.",
+   "scene": {
+    "t": "list",
+    "title": "What changed",
+    "items": [
+     "Fewer front-line staff hours",
+     "Weaker care compliance",
+     "Higher taxpayer cost"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In hospitals, a 2023 JAMA study found Medicare patients at PE-bought hospitals had 25.4% more hospital-acquired conditions.",
+   "say": "In hospitals, a twenty twenty-three JAMA study found Medicare patients at P E bought hospitals had twenty-five point four percent more hospital-acquired conditions.",
+   "scene": {
+    "t": "stat",
+    "label": "Hospital-acquired conditions",
+    "value": "+25.4%",
+    "tone": "down",
+    "sub": "Kannan et al., JAMA 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Think patient falls, and bloodstream infections from central lines.",
+   "say": "Think patient falls, and bloodstream infections from central lines.",
+   "scene": {
+    "t": "list",
+    "title": "Examples",
+    "items": [
+     "Patient falls",
+     "Central line infections"
+    ],
+    "reveal": 2,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 2025 study by the same team found PE-bought hospitals cut full-time staff by 11.6% and salary spending by 16.6% versus similar hospitals.",
+   "say": "A twenty twenty-five study by the same team found P E bought hospitals cut full-time staff by eleven point six percent and salary spending by sixteen point six percent versus similar hospitals.",
+   "scene": {
+    "t": "compare",
+    "title": "PE hospitals vs. similar",
+    "left": {
+     "label": "Full-time staff",
+     "value": "-11.6%",
+     "tone": "down",
+     "sub": "Annals, 2025"
+    },
+    "right": {
+     "label": "Salary spending",
+     "value": "-16.6%",
+     "tone": "down",
+     "sub": "Annals, 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And emergency room deaths for Medicare patients rose 13.4%, about 7 more per 10,000 visits.",
+   "say": "And emergency room deaths for Medicare patients rose thirteen point four percent, about seven more per ten thousand visits.",
+   "scene": {
+    "t": "stat",
+    "label": "ER deaths, PE hospitals",
+    "value": "+13.4%",
+    "tone": "down",
+    "sub": "7 more per 10,000 visits"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the hospital studies disagree. They use different data, different hospitals and different years.",
+   "say": "So the hospital studies disagree. They use different data, different hospitals and different years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hospital studies",
+     "disagree:",
+     "different data, years"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there are returns. A 2020 study found US PE funds roughly matched stock indexes since about 2006, around 11% a year.",
+   "say": "Then there are returns. A twenty twenty study found US P E funds roughly matched stock indexes since about two thousand six, around eleven percent a year.",
+   "scene": {
+    "t": "compare",
+    "title": "Since ~2006 (Phalippou)",
+    "left": {
+     "label": "PE funds",
+     "value": "~11%",
+     "tone": "neutral",
+     "sub": "per year"
+    },
+    "right": {
+     "label": "Stock index",
+     "value": "~11%",
+     "tone": "neutral",
+     "sub": "per year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also estimated about $230 billion in carried interest went to managers of funds raised from 2006 to 2015.",
+   "say": "It also estimated about two hundred thirty billion dollars in carried interest went to managers of funds raised from two thousand six to twenty fifteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Carry, 2006-2015 funds",
+    "value": "$230B",
+    "tone": "up",
+    "sub": "Phalippou, J. of Investing"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That clashes with the 2014 study. Which years and which index you compare against changes the answer.",
+   "say": "That clashes with the twenty fourteen study. Which years and which index you compare against changes the answer.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Returns debate:",
+     "depends on years",
+     "and benchmark"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And investors are waiting on cash. Bain's 2026 report counted 32,000 unsold PE-owned companies worth $3.8 trillion.",
+   "say": "And investors are waiting on cash. Bain's twenty twenty-six report counted thirty-two thousand unsold P E owned companies worth three point eight trillion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Unsold PE-owned companies",
+    "value": "32,000",
+    "tone": "down",
+    "sub": "Worth $3.8T, Bain 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same report said buyout fundraising fell 16% in 2025, to $395 billion.",
+   "say": "The same report said buyout fundraising fell sixteen percent in twenty twenty-five, to three hundred ninety-five billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Buyout fundraising, 2025",
+    "value": "$395B",
+    "tone": "down",
+    "sub": "Down 16%, Bain"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The recap.",
+   "say": "Chapter six: The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Private equity firms raise money from pensions and other big investors, then buy companies, often with lots of debt.",
+   "say": "Private equity firms raise money from pensions and other big investors, then buy companies, often with lots of debt.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "GP raises from LPs,",
+     "buys with debt,",
+     "sells later"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They charge yearly fees plus a share of the profits, the classic 2 and 20.",
+   "say": "They charge yearly fees plus a share of the profits, the classic two and twenty.",
+   "scene": {
+    "t": "compare",
+    "title": "2 and 20",
+    "left": {
+     "label": "Fee",
+     "value": "2%",
+     "tone": "neutral",
+     "sub": "per year"
+    },
+    "right": {
+     "label": "Carry",
+     "value": "20%",
+     "tone": "up",
+     "sub": "of profits"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Debt magnifies everything. In our example, the fund made 2.75 times its money on a good sale and lost half on a bad one.",
+   "say": "Debt magnifies everything. In our example, the fund made two point seven five times its money on a good sale and lost half on a bad one.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: with debt",
+    "left": {
+     "label": "Good sale",
+     "value": "2.75x",
+     "tone": "up",
+     "sub": "$150M sale"
+    },
+    "right": {
+     "label": "Bad sale",
+     "value": "-50%",
+     "tone": "down",
+     "sub": "$80M sale"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the buying reaches daily life: vets, dentists, plumbers, homes, hospitals, software and sports teams.",
+   "say": "And the buying reaches daily life: vets, dentists, plumbers, homes, hospitals, software and sports teams.",
+   "scene": {
+    "t": "list",
+    "title": "Where PE buys",
+    "items": [
+     "Vets and dentists",
+     "Plumbers and HVAC",
+     "Homes and hospitals",
+     "Software and sports"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The evidence cuts both ways. Productivity and cleaner restaurants on one side, nursing home deaths and hospital harms on the other.",
+   "say": "The evidence cuts both ways. Productivity and cleaner restaurants on one side, nursing home deaths and hospital harms on the other.",
+   "scene": {
+    "t": "split",
+    "title": "What studies found",
+    "left": {
+     "title": "Positive",
+     "items": [
+      "+8% productivity",
+      "Cleaner restaurants",
+      "Profitable hospitals"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Negative",
+     "items": [
+      "+11% nursing deaths",
+      "+25.4% hospital harms",
+      "Fewer hospital staff"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's also reaching retirement plans. In March 2026, the Labor Department proposed a rule to make it easier for 401(k)s to offer private assets.",
+   "say": "It's also reaching retirement plans. In March twenty twenty-six, the Labor Department proposed a rule to make it easier for four oh one k plans to offer private assets.",
+   "scene": {
+    "t": "news",
+    "headline": "Labor Dept. proposes 401(k) rule",
+    "source": "US Dept. of Labor, Mar 30, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That followed an August 2025 executive order. Supporters call it more choice. Critics point to higher fees and assets that are hard to sell.",
+   "say": "That followed an August twenty twenty-five executive order. Supporters call it more choice. Critics point to higher fees and assets that are hard to sell.",
+   "scene": {
+    "t": "split",
+    "title": "Private assets in 401(k)s",
+    "left": {
+     "title": "Supporters",
+     "items": [
+      "More choice",
+      "More diversification"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Critics",
+     "items": [
+      "Higher fees",
+      "Hard to sell"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when a local clinic or shop changes owners, there may be a fund behind it, and pension money behind the fund.",
+   "say": "So when a local clinic or shop changes owners, there may be a fund behind it, and pension money behind the fund.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Shop or clinic",
+     "-> PE fund",
+     "-> pension money"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Follow FinancePros TV for more money, explained from zero.",
+   "say": "Follow FinancePros TV for more money, explained from zero.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained from zero."
+   }
+  }
+ ],
+ "post": {
+  "title": "Private equity did 9,000+ US deals in 2025. How it works, and what studies found",
+  "ig": "Private equity did over 9,000 US deals in 2025. Here's how it works.",
+  "tiktok": "9,000 private equity deals in one year. Who's buying, and with whose money?",
+  "yt_desc": "Private equity did more than 9,000 US deals in 2025, about 25 a day, from vet clinics and dental offices to plumbers, homes, hospitals, software and sports teams. This video explains from zero how a PE fund works (GPs, LPs and 2 and 20), walks through a hypothetical leveraged buyout with the full math, and charts global buyout value from 2021 to 2025. Then it lays out what peer-reviewed research found on both sides: productivity gains and cleaner restaurants, but higher death rates in PE-owned nursing homes and more hospital-acquired conditions after hospital buyouts.\n\nCHAPTERS\n\nSources: PitchBook, 2025 Annual US PE Breakdown (Jan 2026); Bain & Company, Global Private Equity Report 2026 (Mar 2026); Electronic Arts release (Sept 29, 2025); Wall Street Journal with PitchBook data (Oct 12, 2024); ADA Health Policy Institute (2024); Health Affairs via ADA News (Aug 2024); FTC (June 2022); GAO-24-106643 (May 22, 2024); Medical Properties Trust SEC filings (2024); Boston Globe (Sept 26, 2016); CNBC (Aug 27, 2024); Davis et al., Management Science (2025); Bernstein and Sheen, Review of Financial Studies (2016); Harris, Jenkinson and Kaplan, Journal of Finance (2014); Gao, Kim and Sevilir, Journal of Financial Economics (2025); Gupta, Howell, Yannelis and Gupta, Review of Financial Studies (2024); Kannan, Bruch and Song, JAMA (Dec 2023); Kannan et al., Annals of Internal Medicine (Sept 2025); Phalippou, Journal of Investing (2020); US Department of Labor proposed rule (Mar 30, 2026).\n\nNews and education, not financial advice.\n\n#privateequity #money #personalfinance"
+ }
+}
