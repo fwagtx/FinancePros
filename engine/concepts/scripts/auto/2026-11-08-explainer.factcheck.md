@@ -19,3 +19,40 @@
 7. Opening: true, specific, under 3 seconds, and it makes a viewer want the answer. Fine, apart from the missing year in item 4.
 
 VERDICT: FAIL
+
+## Round 2 (Oct 1, 2026)
+
+### Schwab 2025 figures, checked independently
+- Charles Schwab 2025 Modern Wealth Survey (Logica Research, Apr 24-May 23, 2025, 2,000 Americans aged 21-75). Press release dated **July 9, 2025** (Business Wire). It reports $839,000 to be "financially comfortable" (up from $778K in 2024) and $2.3 million to be "wealthy". Both are correct.
+- Math: $2.3M - $839K = $1,461,000, so "$1.46M" is correct. $2.3M / $839K = 2.74x, so "nearly three times" is correct. The comparison is now worded correctly ("wealthy is nearly three times comfortable"). Screen and voice match.
+- The figures are labeled "2025" and "Schwab". The source is a single survey, and the script does not generalize it beyond that. Search found no 2026 Schwab release.
+
+### Round-1 fixes
+- Fix 1 (wrong source): done. L6, its subs, the ig line, yt_desc and both Sources lists now name Schwab. Northwestern Mutual is cited only for 2025.
+- Fix 2 (stale numbers): done. Switched to Schwab 2025.
+- Fix 3 (gap wording): done.
+- Fix 4 (timing risk): done. The hook, cover, tiktok, post title and ig are dated 2025 and in the past tense. Still re-check the Northwestern Mutual newsroom on Nov 5-7, 2026; a 2026 figure would not make the script false, only older news.
+- Fix 5 (wording): done. L2 now says "investable assets" and "called themselves wealthy".
+
+### Checks on the trimmed lines
+- L3 "It has a popular name, money dysmorphia, ...": "It" has no clear antecedent after L2. This is a minor read-aloud nit. Optional: "That gap has a popular name: money dysmorphia, though it's not a clinical diagnosis."
+- L1 hook: true and specific. Spoken, "In twenty twenty-five, sixty-four percent..." runs about 4 seconds, slightly over 3. Optional fix: drop the spoken year, because the on-screen label already shows "2025". Say "Sixty-four percent of US millionaires didn't call themselves wealthy." Style nit only.
+- No other errors were introduced. The Fed chart, the Credit Karma lines and the "not a clinical diagnosis" framing are unchanged and still correct. There is still no advice and no mental-health guidance.
+
+### Labels 28 characters or fewer
+- All subs pass (the longest is "Credit Karma/Qualtrics, 2023" at 28).
+- These stat labels are over 28:
+  - L2 label "Call themselves wealthy, $1M+" = **29**. This was introduced by the trim. Fix: "Call themselves wealthy" (23).
+  - L4 label "Adults reporting money dysmorphia" = **33**. Fix: "Report money dysmorphia" (23).
+  - L7 label "Gap: wealthy minus comfortable" = **30**. Fix: "Wealthy minus comfortable" (25).
+- Titles over 28, for reference in case titles share the limit:
+  - L6 "Net worth people say it takes" (29). Fix: "Net worth it takes" (18).
+  - L8 "Adults doing at least okay (Fed)" (32). Fix: "Doing at least okay (Fed)" (25).
+  - The cover title "2025: Millionaires Who Don't Feel Rich" is 38. It is a cover title, so a different limit probably applies.
+
+VERDICT: FAIL (all facts and math pass; the only blocker is the three stat labels over 28 characters. Apply the replacements above and the slot passes.)
+
+## Round 3 (orchestrator)
+- Three labels shortened (<=28), long titles shortened, hook title "$1M+, [not] wealthy?", L3 "That gap has a popular name".
+
+VERDICT: PASS
