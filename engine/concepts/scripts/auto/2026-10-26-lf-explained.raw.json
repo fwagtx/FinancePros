@@ -281,8 +281,8 @@
   },
   {
    "who": "ticker",
-   "text": "Insurers track this with a number called the combined ratio.",
-   "say": "Insurers track this with a number called the combined ratio.",
+   "text": "Insurers track all this with one number, the combined ratio: claims plus expenses, divided by premiums.",
+   "say": "Insurers track all this with one number, called the combined ratio. It's claims plus expenses, divided by premiums.",
    "scene": {
     "t": "board",
     "lines": [
@@ -761,46 +761,11 @@
    "text": "And by August 2026, car insurance prices were down 5.1% from a year earlier.",
    "say": "And by August twenty twenty-six, car insurance prices were down five point one percent from a year earlier.",
    "scene": {
-    "t": "chart",
-    "title": "Car insurance prices, yearly change (CPI, %)",
-    "points": [
-     [
-      2020,
-      -4.8
-     ],
-     [
-      2021,
-      4.1
-     ],
-     [
-      2022,
-      14.2
-     ],
-     [
-      2023,
-      20.3
-     ],
-     [
-      2024,
-      11.3
-     ],
-     [
-      2025,
-      2.8
-     ],
-     [
-      2026,
-      -5.1
-     ]
-    ],
-    "suffix": "%",
-    "end": "-5.1%",
-    "color": "up",
-    "keep": true,
-    "chart_note": {
-     "x": 2026,
-     "text": "-5.1% (Aug 2026)"
-    }
+    "t": "stat",
+    "label": "Car insurance prices, Aug 2026 vs a year earlier",
+    "value": "-5.1%",
+    "tone": "up",
+    "sub": "BLS Consumer Price Index"
    }
   },
   {
@@ -934,14 +899,9 @@
       "name": "japan",
       "mood": "think",
       "says": "less here"
-     },
-     {
-      "name": "germany",
-      "mood": "think",
-      "says": "me too"
      }
     ],
-    "caption": "Where 2025's insured losses landed"
+    "caption": "2025 insured losses"
    }
   },
   {
@@ -993,8 +953,8 @@
   },
   {
    "who": "ticker",
-   "text": "Now meet the insurer's insurer: reinsurance.",
-   "say": "Now meet the insurer's insurer. Reinsurance.",
+   "text": "Now meet the insurer's insurer: reinsurance. You pay your insurer, and your insurer pays a reinsurer to cover its biggest risks.",
+   "say": "Now meet the insurer's insurer. Reinsurance. You pay your insurer, and your insurer pays a reinsurer to cover its own biggest risks.",
    "scene": {
     "t": "board",
     "lines": [
