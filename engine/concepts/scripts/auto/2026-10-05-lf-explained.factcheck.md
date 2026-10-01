@@ -48,3 +48,25 @@ Checked Oct 1, 2026 for posting on Oct 5, 2026. I used 14 web searches and recom
 Issue 1 is a mismatch between an on-screen number and the spoken one. That is a one-line fix, and I recommend fixing issues 2-4 at the same time.
 
 VERDICT: FAIL
+
+## Round 2 (revised script, Oct 1, 2026)
+I re-checked the revised file by diffing it against round 1. I ran no new searches, because no new factual numbers were added. The one new claim (L89) is attributed to "supporters" and matches the Haig-Simons definition of income, which economists widely use.
+
+Status of round 1 issues:
+1. **Fixed.** L98 now shows "$5,167.50" on screen, which matches the narration.
+2. **Fixed.** L6 now says the studies "measure tax against gains nobody sold". The board says "count unsold gains", which is accurate for both studies.
+3. **Fixed.** L7 now says "That difference drives most of the gap."
+4. **Fixed.** The new L89 gives the studies' side ("Supporters of the studies say unsold gains are real economic income...") after the Tax Foundation critique. The chapter now gives both sides, and it states no opinion on fairness.
+5. **Fixed.** L44 adds "on the employee side" in caption, narration and sub-label. L95 in the recap still just says "39.35% on top wages". That is acceptable in a recap, but adding "employee side" there is an optional nit.
+6. **Fixed.** L17 narration now mentions salary.
+7. **Not changed (optional).** The L1 hook is the same. It is acceptable.
+
+Other changes:
+- L5, L50 and L76 were trimmed.
+- The recap lead-in was removed, and its list scene was moved onto L94, which works.
+
+The numbering shifted by one from L89 to L92 (the inserted line), then evens out again from L93 (the dropped lead-in), so later lines keep their round 1 numbers. All math and numbers are the same as in round 1 and still verified. On-screen and spoken values now match throughout.
+
+Remaining: only the optional nits in items 5 and 7.
+
+VERDICT: PASS
