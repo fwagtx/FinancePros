@@ -17,7 +17,7 @@ Slot: 2026-11-08-explainer. Researched October 1, 2026. Posts November 8, 2026. 
 Sources: creditkarma.com/about/commentary (Gen Z and millennials are obsessed...); CNBC 3/13/2024; Fortune 1/29/2024.
 
 ### Northwestern Mutual Planning & Progress Study (The Harris Poll)
-- 2024 study: 4,588 U.S. adults 18+, online Jan 3-17, 2024. Average net worth Americans say they need to feel "financially comfortable": $778,000 (down from $1 million peak the prior year). Net worth needed "to be considered wealthy": $2.5 million, up from $2.2 million two years earlier (2022). (No newer dollar figure for "wealthy" found in 2025 or 2026 releases; label as 2024.)
+- (CORRECTED) $778K comfortable / $2.5M wealthy (2024) are from Charles Schwab Modern Wealth Survey 2024, NOT Northwestern Mutual. Schwab Modern Wealth Survey 2025 (Apr 24-May 23, 2025, 2,000 adults): $839,000 comfortable, $2.3 million wealthy. Gap $2,300,000 - $839,000 = $1,461,000; ratio 2.74 ("nearly three times"). Source per fact-check.
 - 2025 study: 4,626 U.S. adults 18+, online Jan 2-19, 2025. Millionaire findings released Nov 4, 2025: only 36% of Americans with $1 million+ in investable assets consider themselves "wealthy" (so 64% don't). 49% of millionaires say their financial planning needs improvement.
 - 2024 comparison: 32% of millionaires considered themselves wealthy (Sept 4, 2024 release).
 - 2026 study (4,375 adults, Jan 5-21, 2026, released March 2026): "magic number" to retire comfortably $1.46 million (context only).
