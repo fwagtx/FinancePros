@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Same savings plan: $386 of interest, or 96 cents.",
-   "say": "Same savings plan: three hundred eighty-six dollars of interest, or ninety-six cents.",
+   "text": "Same savings: $386 in interest, or 96 cents.",
+   "say": "Same savings: three hundred eighty-six dollars in interest, or ninety-six cents.",
    "scene": {
     "t": "hook",
     "title": "$386 or [96¢]?",
@@ -27,18 +27,18 @@
    "say": "Same deposits, same two years, same ten thousand dollar goal. The only difference is where the money sits.",
    "scene": {
     "t": "compare",
-    "title": "$416.67 a month for 24 months",
+    "title": "Example: $416.67/mo, 24 months",
     "left": {
      "label": "4.00% APY",
      "value": "$385.68",
      "tone": "up",
-     "sub": "interest earned"
+     "sub": "rate held steady"
     },
     "right": {
      "label": "0.01% APY",
      "value": "$0.96",
      "tone": "down",
-     "sub": "interest earned"
+     "sub": "rate held steady"
     },
     "mood": "think"
    }
@@ -56,8 +56,8 @@
   },
   {
    "who": "ticker",
-   "text": "In a Fed survey from late 2025, 63% of adults said they'd cover a surprise $400 bill with cash.",
-   "say": "In a Fed survey from late twenty twenty-five, sixty-three percent of adults said they'd cover a surprise four hundred dollar bill with cash.",
+   "text": "In a Fed survey from late 2025, 63% of adults said they'd cover a surprise $400 bill with cash or its equivalent.",
+   "say": "In a Fed survey from late twenty twenty-five, sixty-three percent of adults said they'd cover a surprise four hundred dollar bill with cash or its equivalent.",
    "scene": {
     "t": "stat",
     "label": "Would cover $400 with cash or equivalent, 2025",
@@ -81,8 +81,8 @@
   },
   {
    "who": "ticker",
-   "text": "And the typical family's checking and savings added up to $8,000 in 2022. That's the median, from the Fed.",
-   "say": "And the typical family's checking and savings added up to eight thousand dollars in twenty twenty-two. That's the median, from the Fed.",
+   "text": "And the typical family's checking, savings and similar accounts added up to $8,000 in 2022. That's the median, from the Fed.",
+   "say": "And the typical family's checking, savings and similar accounts added up to eight thousand dollars in twenty twenty-two. That's the median, from the Fed.",
    "scene": {
     "t": "stat",
     "label": "Median transaction account balance, 2022",
@@ -93,8 +93,8 @@
   },
   {
    "who": "ticker",
-   "text": "So $10,000 puts a saver above the typical family. Here's how people get there, in order.",
-   "say": "So ten thousand dollars puts a saver above the typical family. Here's how people get there, in order.",
+   "text": "So $10,000 would put a saver above that 2022 typical balance. Here's how people get there, in order.",
+   "say": "So ten thousand dollars would put a saver above that twenty twenty-two typical balance. Here's how people get there, in order.",
    "scene": {
     "t": "list",
     "title": "The plan",
@@ -706,8 +706,8 @@
   },
   {
    "who": "ticker",
-   "text": "The SEC says money market funds aren't FDIC insured, and investors can lose money, even though it's rare.",
-   "say": "The SEC says money market funds aren't FDIC insured, and investors can lose money, even though it's rare.",
+   "text": "The SEC says money market funds aren't FDIC insured, and investors can lose money. Losses have been rare, but they can happen.",
+   "say": "The SEC says money market funds aren't FDIC insured, and investors can lose money. Losses have been rare, but they can happen.",
    "scene": {
     "t": "hook",
     "title": "Not [insured]",
@@ -731,18 +731,18 @@
   },
   {
    "who": "ticker",
-   "text": "In April 2024, Synapse, a middleman behind several fintech apps, filed for bankruptcy. Over $265 million in deposits were frozen.",
-   "say": "In April twenty twenty-four, Synapse, a middleman behind several fintech apps, filed for bankruptcy. Over two hundred sixty-five million dollars in deposits were frozen.",
+   "text": "In April 2024, Synapse, a middleman behind several fintech apps, filed for bankruptcy. About $265 million in deposits were frozen.",
+   "say": "In April twenty twenty-four, Synapse, a middleman behind several fintech apps, filed for bankruptcy. About two hundred sixty-five million dollars in deposits were frozen.",
    "scene": {
     "t": "news",
-    "headline": "Synapse bankruptcy freezes over $265M in app deposits",
+    "headline": "Synapse bankruptcy freezes about $265M in app deposits",
     "source": "Banking Dive, American Banker, 2024"
    }
   },
   {
    "who": "ticker",
-   "text": "The CFPB later set aside $46.2 million to repay affected customers. The CFPB sued Synapse over its records, and those claims are allegations.",
-   "say": "The CFPB later set aside forty-six point two million dollars to repay affected customers. The CFPB sued Synapse over its records, and those claims are allegations.",
+   "text": "The CFPB sued Synapse in 2025 over its record-keeping. Those claims are allegations, and Synapse settled. The CFPB then set aside $46.2 million to repay customers.",
+   "say": "The CFPB sued Synapse in twenty twenty-five over its record-keeping. Those claims are allegations, and Synapse settled. The CFPB then set aside forty-six point two million dollars to repay customers.",
    "scene": {
     "t": "stat",
     "label": "CFPB victims' relief for Synapse users",
@@ -1248,8 +1248,8 @@
   },
   {
    "who": "ticker",
-   "text": "Mistake five: assuming an app is a bank. The question to ask is which FDIC-insured bank actually holds the money.",
-   "say": "Mistake five: assuming an app is a bank. The question to ask is which FDIC insured bank actually holds the money.",
+   "text": "Mistake five: assuming an app is a bank. The key question is which FDIC-insured bank actually holds the money.",
+   "say": "Mistake five: assuming an app is a bank. The key question is which FDIC insured bank actually holds the money.",
    "scene": {
     "t": "hook",
     "title": "App is not a [bank]",
@@ -1265,7 +1265,7 @@
    "say": "And the last one is quitting after a bad month. One setback doesn't erase the balance already built.",
    "scene": {
     "t": "hook",
-    "title": "Don't [quit] at month 5",
+    "title": "Month 5: [$2,083] saved",
     "prop": "chart-up",
     "label": "$2,083",
     "value": "+",
@@ -1476,7 +1476,7 @@
  ],
  "post": {
   "title": "How to Save Your First $10,000, Step by Step ($386 of interest or 96 cents?)",
-  "ig": "Same savings plan: $386 of interest, or 96 cents. Here's the step-by-step math to your first $10,000.",
+  "ig": "Same savings: $386 in interest, or 96 cents. Here's the step-by-step math to your first $10,000.",
   "tiktok": "Same $10,000 plan, $386 or 96 cents in interest. Where the money sits matters.",
   "yt_desc": "Saving $416.67 a month for two years gets to $10,000, but the interest can be $385.68 or 96 cents depending only on the account. This guide walks through saving a first $10,000 step by step: setting a deadline and doing the paycheck math, finding the money with refunds and raises, the trade-off with high-interest card debt, where savings sits (FDIC insurance, money market accounts versus funds, fintech apps), automating deposits, and how interest, inflation and taxes change the result. It ends with the common mistakes and a one-screen checklist.\n\nCHAPTERS\n\nSources: Federal Reserve, Economic Well-Being of U.S. Households in 2025 (May 2026); Bankrate 2026 Emergency Savings Report (Jan 2026); Federal Reserve Survey of Consumer Finances (Oct 2023); BEA Personal Income and Outlays (Aug 2026); FDIC National Rates and Rate Caps (Jan 2022-Sept 2026); Federal Reserve FOMC statement (Sept 16, 2026); Federal Reserve G.19 (Sept 8, 2026); BLS CPI (Sept 11, 2026); IRS filing season statistics (Apr 2026); FDIC deposit insurance; SEC Investor.gov money market funds bulletin; Federal Reserve Regulation D (Apr 24, 2020); TreasuryDirect (May 1, 2026); CFPB and Banking Dive on Synapse (2024-2025).\n\nNews and education, not financial advice.\n\n#savingmoney #personalfinance #emergencyfund",
   "tags": [

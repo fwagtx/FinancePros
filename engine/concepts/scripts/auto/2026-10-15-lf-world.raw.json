@@ -105,8 +105,8 @@
       "what": "Bubbles burst in Asia"
      },
      {
-      "when": "2008",
-      "what": "Lehman and housing"
+      "when": "2008-23",
+      "what": "Lehman, then SVB by app"
      }
     ],
     "reveal": 5
@@ -365,20 +365,20 @@
   },
   {
    "who": "ticker",
-   "text": "And the Fed? It let the money supply shrink by about 30% from 1929 to 1933.",
-   "say": "And the Fed? It let the money supply shrink by about thirty percent from nineteen twenty-nine to nineteen thirty-three.",
+   "text": "And the Fed? It let the money supply shrink by nearly 30% from 1930 to 1933.",
+   "say": "And the Fed? It let the money supply shrink by nearly thirty percent from nineteen thirty to nineteen thirty-three.",
    "scene": {
     "t": "stat",
-    "label": "US money supply, 1929-1933",
-    "value": "-30%",
+    "label": "US money supply, 1930-1933",
+    "value": "~-30%",
     "tone": "down",
     "sub": "Federal Reserve History"
    }
   },
   {
    "who": "ticker",
-   "text": "Less money chasing the same goods means prices fall. Overall prices dropped more than 25%.",
-   "say": "Less money chasing the same goods means prices fall. Overall prices dropped more than twenty-five percent.",
+   "text": "Less money chasing the same goods means prices fall. Overall prices dropped about a quarter.",
+   "say": "Less money chasing the same goods means prices fall. Overall prices dropped about a quarter.",
    "scene": {
     "t": "board",
     "lines": [
@@ -545,8 +545,8 @@
   },
   {
    "who": "ticker",
-   "text": "Decades later, a future Fed chair admitted the Fed's role, at Milton Friedman's 90th birthday party.",
-   "say": "Decades later, a future Fed chair admitted the Fed's role, at the economist Milton Friedman's ninetieth birthday party.",
+   "text": "Decades later, a future Fed chair admitted the Fed's role, at a conference honoring Milton Friedman's 90th birthday.",
+   "say": "Decades later, a future Fed chair admitted the Fed's role, at a conference honoring the economist Milton Friedman's ninetieth birthday.",
    "scene": {
     "t": "hook",
     "title": "The [apology]",
@@ -608,8 +608,8 @@
   },
   {
    "who": "ticker",
-   "text": "At the 1932 bottom, stocks overall paid dividends of close to 14% a year on their price.",
-   "say": "At the nineteen thirty-two bottom, stocks overall paid dividends of close to fourteen percent a year on their price.",
+   "text": "When the Dow bottomed in 1932, dividend yields were close to 14%.",
+   "say": "When the Dow bottomed in nineteen thirty-two, dividend yields were close to fourteen percent a year.",
    "scene": {
     "t": "list",
     "keep": true,
@@ -635,8 +635,8 @@
   },
   {
    "who": "ticker",
-   "text": "Count both, and the average stock bought at the 1929 high was back to even by late 1936.",
-   "say": "Count both, and someone who bought the average stock at the nineteen twenty-nine high was back to even by late nineteen thirty-six.",
+   "text": "Count both, and by market analyst Mark Hulbert's math, the average stock bought at the 1929 high was back to even by late 1936.",
+   "say": "Count both, and by market analyst Mark Hulbert's math, someone who bought the average stock at the nineteen twenty-nine high was back to even by late nineteen thirty-six.",
    "scene": {
     "t": "compare",
     "title": "Back to even after 1929?",
@@ -647,7 +647,7 @@
      "sub": "Nov 1954"
     },
     "right": {
-     "label": "With div+defl",
+     "label": "Avg stock, div+defl",
      "value": "~7 yrs",
      "tone": "up",
      "sub": "late 1936, Hulbert"
@@ -669,7 +669,7 @@
      "sub": "Nov 1954"
     },
     "right": {
-     "label": "With div+defl",
+     "label": "Avg stock, div+defl",
      "value": "~7 yrs",
      "tone": "up",
      "sub": "late 1936, Hulbert"
@@ -712,8 +712,8 @@
   },
   {
    "who": "ticker",
-   "text": "And it went global. Markets from Hong Kong to Australia to Canada fell hard too.",
-   "say": "And it went global. Markets from Hong Kong to Australia to Canada fell hard too.",
+   "text": "And it went global. Markets from Hong Kong to Tokyo to Canada fell hard too.",
+   "say": "And it went global. Markets from Hong Kong to Tokyo to Canada fell hard too.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -939,7 +939,7 @@
   },
   {
    "who": "ticker",
-   "text": "Next stop: Thailand, 1997. Thailand pegged its currency, the baht, to the dollar at about 25 per dollar.",
+   "text": "Next stop: Thailand, 1997. Thailand held its currency, the baht, at about 25 per dollar.",
    "say": "Next stop, Thailand in nineteen ninety-seven. Thailand held its currency, the baht, at about twenty-five per dollar.",
    "scene": {
     "t": "board",
@@ -969,7 +969,7 @@
    "say": "On July second, nineteen ninety-seven, it gave up and let the baht float.",
    "scene": {
     "t": "news",
-    "headline": "Thailand floats the baht and asks the IMF for help",
+    "headline": "Thailand floats the baht",
     "source": "Bank of Thailand, on July 2, 1997"
    }
   },
@@ -1160,8 +1160,8 @@
   },
   {
    "who": "ticker",
-   "text": "Panic jumped borders within weeks. In October 2008, Britain put £37 billion into big banks, and Germany led a €50 billion rescue of one lender.",
-   "say": "The panic jumped borders within weeks. In October two thousand eight, Britain put thirty-seven billion pounds into big banks, and Germany led a fifty billion euro rescue of one lender.",
+   "text": "Panic jumped borders within weeks. In October 2008, Britain pledged £37 billion for big banks, and Germany led a €50 billion rescue of one lender.",
+   "say": "The panic jumped borders within weeks. In October two thousand eight, Britain pledged thirty-seven billion pounds for big banks, and Germany led a fifty billion euro rescue of one lender.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -1173,7 +1173,7 @@
      {
       "name": "uk",
       "mood": "worried",
-      "says": "£37B for banks"
+      "says": "£37B pledged"
      },
      {
       "name": "germany",
@@ -1407,8 +1407,8 @@
   },
   {
    "who": "ticker",
-   "text": "Regulators closed it the next day. It was the second-largest bank failure in US history.",
-   "say": "Regulators closed it the next day. It was the second-largest bank failure in US history.",
+   "text": "Regulators closed it the next day. At the time, it was the second-largest bank failure in US history.",
+   "say": "Regulators closed it the next day. At the time, it was the second-largest bank failure in US history.",
    "scene": {
     "t": "news",
     "headline": "Silicon Valley Bank closed by California regulators",
@@ -1577,8 +1577,8 @@
   },
   {
    "who": "ticker",
-   "text": "So, the recap. The Dow's 89% fall took 25 years to undo on price alone, but about 7 counting dividends and deflation.",
-   "say": "So, the recap. The Dow's eighty-nine percent fall took twenty-five years to undo on price alone, but about seven years counting dividends and deflation.",
+   "text": "So, the recap. On price alone, the Dow took 25 years to get back. Counting dividends and deflation, the average stock took about 7, by Hulbert's math.",
+   "say": "So, the recap. On price alone, the Dow took twenty-five years to get back. Counting dividends and deflation, the average stock took about seven, by Hulbert's math.",
    "scene": {
     "t": "compare",
     "title": "Recap: after 1929",
@@ -1589,7 +1589,7 @@
      "sub": "Nov 1954"
     },
     "right": {
-     "label": "With div+defl",
+     "label": "Avg stock, div+defl",
      "value": "~7 yrs",
      "tone": "up",
      "sub": "late 1936"
