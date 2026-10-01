@@ -1,0 +1,146 @@
+{
+ "series": "ticker",
+ "header": "Scam alert:\nATM card skimmers",
+ "cover": {
+  "title": "Skimmed? You Can Owe $0",
+  "prop": "card",
+  "label": "DEBIT",
+  "value": "$0"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Debit card skimmed? You can owe zero, if you act fast.",
+   "say": "Debit card skimmed? You can owe zero, if you act fast.",
+   "scene": {
+    "t": "hook",
+    "title": "Skimmed? Owe [$0]",
+    "prop": "card",
+    "label": "DEBIT",
+    "value": "$0",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Skimming costs banks and consumers over $1 billion a year, says the FBI.",
+   "say": "Skimming costs banks and consumers over a billion dollars a year, says the F B I.",
+   "scene": {
+    "t": "stat",
+    "label": "Yearly cost of skimming",
+    "value": "$1B+",
+    "tone": "down",
+    "sub": "FBI, banks and consumers combined"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FICO counted over 243,000 debit cards compromised in 2025, up 5%.",
+   "say": "FICO counted over two hundred forty-three thousand debit cards compromised in twenty twenty-five, up five percent.",
+   "scene": {
+    "t": "stat",
+    "label": "US debit cards compromised, 2025",
+    "value": "243,000+",
+    "tone": "down",
+    "sub": "FICO Card Alert Service, up 5%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A skimmer copies your card. A tiny camera or fake keypad grabs your PIN.",
+   "say": "A skimmer copies your card. A tiny camera, or a fake keypad, grabs your PIN.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Skimmer: copies card",
+     "Camera or keypad:",
+     "steals your PIN"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, the Secret Service pulled 411 skimmers off machines in its sweeps.",
+   "say": "In twenty twenty-five, the Secret Service pulled four hundred eleven skimmers off machines in its sweeps.",
+   "scene": {
+    "t": "news",
+    "headline": "Secret Service removes 411 skimming devices in 2025",
+    "source": "US Secret Service, January 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before you insert: tug the card slot, check the keypad, and cover your PIN.",
+   "say": "Before you insert your card: tug the card slot, check the keypad, and cover your PIN.",
+   "scene": {
+    "t": "list",
+    "title": "Before you insert",
+    "items": [
+     "Tug the card slot",
+     "Check the keypad",
+     "Cover your PIN"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your card was skimmed but you still have it, report the fraud within 60 days of your statement, and you owe nothing.",
+   "say": "If your card was skimmed but you still have it, report the fraud within sixty days of your statement, and you owe nothing.",
+   "scene": {
+    "t": "stat",
+    "label": "Skimmed debit card, reported within 60 days of statement",
+    "value": "$0",
+    "tone": "up",
+    "sub": "Regulation E, 12 CFR 1005.6(b)(3)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wait longer, and you can owe for later charges. If the card itself is stolen, report within 2 business days to cap it at $50.",
+   "say": "Wait longer, and you can owe for later charges. And if the card itself is stolen, report within two business days to cap it at fifty dollars.",
+   "scene": {
+    "t": "split",
+    "title": "Debit card rules (Reg E)",
+    "left": {
+     "title": "Card skimmed",
+     "items": [
+      "Report within 60 days",
+      "Owe $0"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Card stolen",
+     "items": [
+      "Report in 2 business days",
+      "Max $50"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Debit card skimmed? You can owe $0 if you act fast",
+  "ig": "Debit card skimmed? You can owe $0, if you act fast.\n\nSkimming costs banks and consumers over $1 billion a year (FBI).\nOver 243,000 US debit cards were compromised in 2025, up 5% (FICO). The Secret Service pulled 411 skimmers in 2025.\nRegulation E: if your card was skimmed but you still have it, report within 60 days of your statement and you owe $0. If the card is stolen, report within 2 business days to cap it at $50.\n\nSources: FBI, FICO, US Secret Service (Jan 2026), CFPB (12 CFR 1005.6).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #skimming #atm #personalfinance #financeprostv",
+  "tiktok": "Debit card skimmed? Report within 60 days of your statement and you can owe $0. Not financial advice. #moneytok #scamalert #skimming #financeprostv",
+  "yt_desc": "The FBI says card skimming costs banks and consumers more than $1 billion a year, and FICO counted over 243,000 compromised US debit cards in 2025. Under Regulation E, if your debit card was skimmed but not stolen, reporting within 60 days of your statement means you owe $0; if the card itself is stolen, reporting within 2 business days caps your loss at $50. Sources: FBI, FICO, US Secret Service, CFPB.\n\nNews and education, not financial advice.\n\n#Shorts #scamalert #skimming",
+  "tags": [
+   "card skimmer",
+   "atm skimming",
+   "debit card fraud",
+   "scam alert",
+   "personal finance"
+  ]
+ }
+}
