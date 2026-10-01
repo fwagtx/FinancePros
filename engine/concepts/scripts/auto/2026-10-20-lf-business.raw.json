@@ -1,0 +1,1536 @@
+{
+ "series": "ticker",
+ "header": "HOW THEY MAKE MONEY",
+ "cover": {
+  "title": "Costco's Real Product?",
+  "prop": "card",
+  "label": "MEMBER",
+  "value": "51%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "About half of Costco's profit comes from a $65 card.",
+   "say": "About half of Costco's profit comes from a sixty-five dollar card.",
+   "scene": {
+    "t": "hook",
+    "title": "Costco's real [product]",
+    "prop": "card",
+    "label": "MEMBER",
+    "value": "~50%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026, membership fees were $5.9 billion. Operating income was $11.7 billion.",
+   "say": "In fiscal twenty twenty-six, membership fees brought in five point nine billion dollars. Operating income was eleven point seven billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Costco, fiscal 2026",
+    "left": {
+     "label": "Membership fees",
+     "value": "$5.9B",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Operating income",
+     "value": "$11.7B",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 51 cents of every operating-profit dollar, from the card in your wallet.",
+   "say": "That's about fifty-one cents of every dollar of operating profit, coming from the card in your wallet.",
+   "scene": {
+    "t": "stat",
+    "label": "Fees as a share of operating income, FY2026",
+    "value": "51%",
+    "tone": "up",
+    "sub": "$5.907B / $11.69B, Costco FY2026 results"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, the giant warehouse full of TVs, tires and toilet paper makes about 2 cents per dollar of sales.",
+   "say": "Meanwhile, the giant warehouse full of TVs, tires and toilet paper makes about two cents on every dollar it sells.",
+   "scene": {
+    "t": "hook",
+    "title": "The store makes [2\u00a2]",
+    "prop": "store",
+    "label": "PER $1 SOLD",
+    "value": "2\u00a2",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So is Costco a store that sells memberships, or a membership that happens to run a store?",
+   "say": "So is Costco a store that sells memberships? Or a membership that happens to run a store?",
+   "scene": {
+    "t": "split",
+    "title": "What is Costco?",
+    "left": {
+     "title": "A store",
+     "items": [
+      "Sells goods",
+      "Thin margins"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "A membership",
+     "items": [
+      "Sells access",
+      "Fat margins"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's not a small club: 150.4 million cardholders, as of the end of fiscal 2026.",
+   "say": "And this isn't a small club. Costco counted a hundred fifty point four million cardholders at the end of fiscal twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Costco cardholders, end of FY2026",
+    "value": "150.4M",
+    "tone": "up",
+    "sub": "84.1M paid members"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's follow the money: the deal, the numbers, the history, the clever parts, and the risks.",
+   "say": "Let's follow the money. The deal, the numbers, the history, the clever parts, and the risks.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "The deal",
+     "The numbers",
+     "How it started",
+     "Clever parts and risks"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. The deal.",
+   "say": "Chapter one. The deal.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The deal"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the deal Costco offers. You pay a yearly fee just to walk in the door.",
+   "say": "Here's the deal Costco offers. You pay a yearly fee just to walk in the door.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay to [shop]",
+    "prop": "card",
+    "label": "GOLD STAR",
+    "value": "$65/yr"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A basic Gold Star membership costs $65 a year in the US. Executive costs $130.",
+   "say": "A basic Gold Star membership costs sixty-five dollars a year in the US. The Executive tier costs a hundred thirty.",
+   "scene": {
+    "t": "compare",
+    "title": "US membership fees (since Sept 2024)",
+    "left": {
+     "label": "Gold Star",
+     "value": "$65",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Executive",
+     "value": "$130",
+     "tone": "neutral",
+     "sub": "2% reward, up to $1,250"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In return, Costco promises prices so low that the fee pays for itself.",
+   "say": "In return, Costco promises prices so low that the fee pays for itself.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You pay: the fee",
+     "You get: low prices",
+     "Costco gets: loyalty"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To keep prices low, it sells far fewer things: about 4,000 items, versus about 30,000 at a typical supermarket.",
+   "say": "To keep prices low, it sells far fewer things. About four thousand items, versus around thirty thousand at a typical supermarket.",
+   "scene": {
+    "t": "compare",
+    "title": "Items on the shelves (approx.)",
+    "left": {
+     "label": "Costco",
+     "value": "~4,000",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Supermarket",
+     "value": "~30,000",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fewer items means each one sells in huge volume. That gives Costco serious muscle with suppliers.",
+   "say": "Fewer items means each one sells in huge volume. And that gives Costco serious muscle with suppliers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fewer items",
+     "= bigger orders",
+     "= better prices"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The warehouses are bare-bones too: concrete floors, steel racks, products on pallets.",
+   "say": "The warehouses are bare-bones too. Concrete floors, steel racks, and products sitting right on pallets.",
+   "scene": {
+    "t": "list",
+    "title": "Why warehouses are cheap to run",
+    "items": [
+     "Concrete floors",
+     "Goods on pallets",
+     "Few brands per item",
+     "Big pack sizes"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Often just one or two brands per item, in big pack sizes. Less choice, lower cost.",
+   "say": "Often there's just one or two brands per item, in big pack sizes. Less choice, but lower cost.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Why warehouses are cheap to run",
+    "items": [
+     "Concrete floors",
+     "Goods on pallets",
+     "Few brands per item",
+     "Big pack sizes"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And some items rotate in and out, so shoppers come back to see what's new.",
+   "say": "And some items rotate in and out, so shoppers keep coming back to see what's new. People call it the treasure hunt.",
+   "scene": {
+    "t": "hook",
+    "title": "The treasure [hunt]",
+    "prop": "box",
+    "label": "NEW THIS WEEK",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Co-founder Jim Sinegal described capping markups around 14%, or 15% on its Kirkland brand.",
+   "say": "Co-founder Jim Sinegal described capping markups at around fourteen percent, or fifteen on the house brand, Kirkland.",
+   "scene": {
+    "t": "stat",
+    "label": "Markup cap described by co-founder Jim Sinegal",
+    "value": "~14%",
+    "tone": "neutral",
+    "sub": "15% on Kirkland Signature"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many supermarket items carry much bigger markups. So the shelf price isn't where Costco wins.",
+   "say": "Lots of supermarket items carry much bigger markups. So the shelf price isn't where Costco really wins.",
+   "scene": {
+    "t": "hook",
+    "title": "Thin on [purpose]",
+    "prop": "tag",
+    "label": "MARKUP",
+    "value": "~14%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Kirkland Signature, its own brand, is about a third of sales, which helps it control costs.",
+   "say": "Kirkland Signature, its own brand, is about a third of sales. That helps it control costs even more.",
+   "scene": {
+    "t": "stat",
+    "label": "Kirkland Signature share of sales",
+    "value": "~1/3",
+    "tone": "up",
+    "sub": "CNBC, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And then there are the famous prices that never seem to move.",
+   "say": "And then there are the famous prices that never seem to move.",
+   "scene": {
+    "t": "list",
+    "title": "Prices frozen in time",
+    "items": [
+     "$1.50 hot dog + soda",
+     "$4.99 rotisserie chicken"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The hot dog and soda combo has been $1.50 since 1985.",
+   "say": "The hot dog and soda combo has cost a dollar fifty since nineteen eighty-five.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Hot dog + soda, 1985",
+     "value": "$1.50"
+    },
+    "to": {
+     "label": "Same combo, 2026",
+     "value": "$1.50"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rotisserie chicken has been $4.99 in the US since 2009.",
+   "say": "And the rotisserie chicken has been four ninety-nine in the US since two thousand nine.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Prices frozen in time",
+    "items": [
+     "$1.50 hot dog + soda",
+     "$4.99 rotisserie chicken"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those prices are a promise: come in, trust us, renew next year.",
+   "say": "Those prices work like a promise. Come in, trust us, and renew next year.",
+   "scene": {
+    "t": "hook",
+    "title": "The [renewal] promise",
+    "prop": "card",
+    "label": "RENEW",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. The numbers.",
+   "say": "Chapter two. The numbers.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The numbers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Costco's fiscal 2026 ended August 30, 2026. Net sales were $297.2 billion, up 10.1%.",
+   "say": "Costco's fiscal twenty twenty-six ended on August thirtieth. Net sales were two hundred ninety-seven point two billion dollars, up ten point one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Costco net sales, fiscal 2026",
+    "value": "$297.2B",
+    "tone": "up",
+    "sub": "52 weeks ended Aug 30, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add $5.9 billion in membership fees, and total revenue was $303.2 billion.",
+   "say": "Add five point nine billion in membership fees, and total revenue was three hundred three point two billion.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Net sales $297.2B",
+     "+ fees $5.9B",
+     "= revenue $303.2B"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fees grew 11% in fiscal 2026, a bit faster than sales, which grew 10.1%.",
+   "say": "Fees grew about eleven percent in fiscal twenty twenty-six, a bit faster than sales, which grew ten point one percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Growth in fiscal 2026",
+    "left": {
+     "label": "Net sales",
+     "value": "+10.1%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Membership fees",
+     "value": "+11%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Net income was $9.2 billion, or $20.76 a share.",
+   "say": "Net income came to nine point two billion dollars, or twenty dollars and seventy-six cents a share.",
+   "scene": {
+    "t": "stat",
+    "label": "Net income, fiscal 2026",
+    "value": "$9.2B",
+    "tone": "up",
+    "sub": "$20.76 per diluted share"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fourth quarter alone, 16 weeks, brought $93.9 billion in sales, up 11.2%.",
+   "say": "The fourth quarter alone, which was sixteen weeks long, brought in ninety-three point nine billion dollars in sales. That's up eleven point two percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Q4 FY2026 net sales (16 weeks)",
+    "value": "$93.9B",
+    "tone": "up",
+    "sub": "up 11.2% from $84.4B"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Q4 membership fees were $1.85 billion, up from $1.72 billion a year earlier.",
+   "say": "Fourth-quarter membership fees were one point eight five billion, up from one point seven two billion a year earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "Q4 membership fees",
+    "left": {
+     "label": "Q4 FY2025",
+     "value": "$1.72B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Q4 FY2026",
+     "value": "$1.85B",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now look at fees over time: $3.9 billion in fiscal 2021, $5.9 billion in fiscal 2026.",
+   "say": "Now look at the fees over time. Three point nine billion in fiscal twenty twenty-one. Five point nine billion in fiscal twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Costco membership fees ($B, fiscal years)",
+    "points": [
+     [
+      2021,
+      3.877
+     ],
+     [
+      2022,
+      4.224
+     ],
+     [
+      2023,
+      4.58
+     ],
+     [
+      2024,
+      4.828
+     ],
+     [
+      2025,
+      5.323
+     ],
+     [
+      2026,
+      5.907
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$5.9B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The jumps line up with the fee hike in September 2024, which raised fiscal 2025 and 2026.",
+   "say": "Notice the jumps. They line up with the fee hike in September twenty twenty-four, which lifted fiscal twenty twenty-five and twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Costco membership fees ($B, fiscal years)",
+    "points": [
+     [
+      2021,
+      3.877
+     ],
+     [
+      2022,
+      4.224
+     ],
+     [
+      2023,
+      4.58
+     ],
+     [
+      2024,
+      4.828
+     ],
+     [
+      2025,
+      5.323
+     ],
+     [
+      2026,
+      5.907
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$5.9B",
+    "color": "up",
+    "chart_note": {
+     "x": 2025,
+     "text": "Fee hike Sept 2024"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the key math. Operating income was $11.69 billion. Fees were $5.91 billion.",
+   "say": "Here's the key math. Operating income was eleven point six nine billion. Fees were five point nine one billion.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Operating income $11.69B",
+     "- fees $5.91B",
+     "= $5.78B from goods"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So selling the goods made about $5.78 billion in operating profit.",
+   "say": "So selling all the goods made about five point seven eight billion in operating profit.",
+   "scene": {
+    "t": "stat",
+    "label": "Operating profit from merchandise, FY2026",
+    "value": "$5.78B",
+    "tone": "neutral",
+    "sub": "$11.69B operating income - $5.91B fees"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $297.2 billion of sales, that's about 1.9%, or 2 cents a dollar.",
+   "say": "On two hundred ninety-seven billion dollars of sales, that's about one point nine percent. Roughly two cents a dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$5.78B / $297.2B",
+     "= 1.9%",
+     "~2 cents per $1"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even after everything, net income was $9.2 billion on $303.2 billion of revenue, about 3 cents a dollar.",
+   "say": "Even at the very bottom line, net income was nine point two billion on three hundred three billion of revenue. About three cents a dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$9.226B / $303.2B",
+     "= 3.0%",
+     "~3 cents per $1"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fee money is almost pure profit, because it costs little to collect.",
+   "say": "The fee money, on the other hand, is close to pure profit, because it costs very little to collect.",
+   "scene": {
+    "t": "compare",
+    "title": "Where the operating profit came from, FY2026",
+    "left": {
+     "label": "Selling goods",
+     "value": "$5.78B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Membership fees",
+     "value": "$5.91B",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fewer than 1 in 50 sales dollars is fees, yet fees are about half of operating profit.",
+   "say": "Fees are less than two percent of revenue, yet they're about half of operating profit.",
+   "scene": {
+    "t": "stat",
+    "label": "Fees as a share of total revenue, FY2026",
+    "value": "1.9%",
+    "tone": "neutral",
+    "sub": "$5.9B of $303.2B"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the whole model in one picture: the store breaks roughly even, the card pays.",
+   "say": "That's the whole model in one picture. The store runs on razor-thin margins, and the card pays the bills.",
+   "scene": {
+    "t": "hook",
+    "title": "The card [pays]",
+    "prop": "card",
+    "label": "MEMBER",
+    "value": "51%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. How it started.",
+   "say": "Chapter three. How it started.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "How it started"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The idea wasn't Costco's. It started with a man named Sol Price.",
+   "say": "The idea wasn't actually Costco's. It started with a man named Sol Price.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1976: Price Club",
+     "San Diego",
+     "founder: Sol Price"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Price Club opened in San Diego in 1976, selling to small businesses for a membership fee.",
+   "say": "Price Club opened in San Diego in nineteen seventy-six, selling to small businesses that paid a membership fee.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1976",
+      "what": "Price Club opens, San Diego"
+     },
+     {
+      "when": "1983",
+      "what": "First Costco, Seattle"
+     },
+     {
+      "when": "1993",
+      "what": "Costco and Price Club merge"
+     },
+     {
+      "when": "2026",
+      "what": "939 warehouses"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1983, Jim Sinegal and Jeffrey Brotman opened the first Costco in Seattle.",
+   "say": "In nineteen eighty-three, Jim Sinegal and Jeffrey Brotman opened the first Costco in Seattle.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "1976",
+      "what": "Price Club opens, San Diego"
+     },
+     {
+      "when": "1983",
+      "what": "First Costco, Seattle"
+     },
+     {
+      "when": "1993",
+      "what": "Costco and Price Club merge"
+     },
+     {
+      "when": "2026",
+      "what": "939 warehouses"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sinegal had worked for Sol Price, and brought the membership idea with him.",
+   "say": "Sinegal had actually worked for Sol Price, and he brought the membership idea with him.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sinegal learned",
+     "the model from",
+     "Sol Price"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ten years later, in 1993, the two companies merged.",
+   "say": "Ten years later, in nineteen ninety-three, the two companies merged.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "1976",
+      "what": "Price Club opens, San Diego"
+     },
+     {
+      "when": "1983",
+      "what": "First Costco, Seattle"
+     },
+     {
+      "when": "1993",
+      "what": "Costco and Price Club merge"
+     },
+     {
+      "when": "2026",
+      "what": "939 warehouses"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the end of fiscal 2026, Costco ran 939 warehouses worldwide.",
+   "say": "By the end of fiscal twenty twenty-six, Costco was running nine hundred thirty-nine warehouses around the world.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "1976",
+      "what": "Price Club opens, San Diego"
+     },
+     {
+      "when": "1983",
+      "what": "First Costco, Seattle"
+     },
+     {
+      "when": "1993",
+      "what": "Costco and Price Club merge"
+     },
+     {
+      "when": "2026",
+      "what": "939 warehouses"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026 alone, it opened 28 warehouses, for 25 net new ones.",
+   "say": "In fiscal twenty twenty-six alone, it opened twenty-eight warehouses, for twenty-five net new ones.",
+   "scene": {
+    "t": "stat",
+    "label": "Warehouse openings, FY2026",
+    "value": "28",
+    "tone": "up",
+    "sub": "25 net new; 914 to 939"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "More warehouses means more members, and more members means more fees.",
+   "say": "More warehouses means more members. And more members means more fees.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More warehouses",
+     "= more members",
+     "= more fees"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fee has crept up slowly. It was $25 when Costco opened in 1983.",
+   "say": "And the fee has crept up slowly. It was twenty-five dollars when Costco opened in nineteen eighty-three.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Membership, 1983",
+     "value": "$25"
+    },
+    "to": {
+     "label": "Gold Star, 2024",
+     "value": "$65"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It hit $45 in 2000, $50 in 2006, $55 in 2011, $60 in 2017 and $65 in 2024.",
+   "say": "It hit forty-five dollars in two thousand, fifty in two thousand six, fifty-five in twenty eleven, sixty in twenty seventeen, and sixty-five in twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Basic membership fee ($)",
+    "points": [
+     [
+      1983,
+      25
+     ],
+     [
+      2000,
+      45
+     ],
+     [
+      2006,
+      50
+     ],
+     [
+      2011,
+      55
+     ],
+     [
+      2017,
+      60
+     ],
+     [
+      2024,
+      65
+     ]
+    ],
+    "prefix": "$",
+    "end": "$65",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a raise roughly every five to seven years, and each one lands almost straight on the profit line.",
+   "say": "That's a raise roughly every five to seven years. And each one lands almost straight on the profit line.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hikes: 2006, 2011,",
+     "2017, 2024",
+     "~every 5-7 years"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2024, Executive also went from $120 to $130, and the reward cap rose to $1,250.",
+   "say": "In September twenty twenty-four, Executive also went from a hundred twenty to a hundred thirty, and the yearly reward cap rose to twelve hundred fifty dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Executive membership, Sept 2024",
+    "left": {
+     "label": "Fee",
+     "value": "$130",
+     "tone": "down",
+     "sub": "was $120"
+    },
+    "right": {
+     "label": "Reward cap",
+     "value": "$1,250",
+     "tone": "up",
+     "sub": "was $1,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. The clever parts.",
+   "say": "Chapter four. The clever parts.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The clever parts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Clever part one: people keep paying. In the US and Canada, 92.3% of members renewed.",
+   "say": "Clever part one. People keep paying. In the US and Canada, ninety-two point three percent of members renewed.",
+   "scene": {
+    "t": "stat",
+    "label": "Renewal rate, US and Canada, Q4 FY2026",
+    "value": "92.3%",
+    "tone": "up",
+    "sub": "Worldwide: 89.8%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Worldwide, the renewal rate was 89.8%. Most subscription businesses would love that.",
+   "say": "Worldwide, the renewal rate was eighty-nine point eight percent. Most subscription businesses would love numbers like that.",
+   "scene": {
+    "t": "compare",
+    "title": "Renewal rates, Q4 fiscal 2026",
+    "left": {
+     "label": "US and Canada",
+     "value": "92.3%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Worldwide",
+     "value": "89.8%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Clever part two: Costco had 84.1 million paid members at the end of fiscal 2026.",
+   "say": "Clever part two. Scale. Costco had eighty-four point one million paid members at the end of fiscal twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Paid members, end of FY2026",
+    "value": "84.1M",
+    "tone": "up",
+    "sub": "150.4M cardholders"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fees of $5.907 billion over 84.1 million members is about $70 a member, a year.",
+   "say": "Five point nine billion dollars in fees, spread over eighty-four point one million members, works out to about seventy dollars a member each year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$5.907B / 84.1M",
+     "= ~$70 a member",
+     "per year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare that with the $65 basic fee: Executive members pay double, which pulls the average up.",
+   "say": "Compare that with the sixty-five dollar basic fee. Executive members pay double, which pulls the average up.",
+   "scene": {
+    "t": "compare",
+    "title": "What members pay (US)",
+    "left": {
+     "label": "Gold Star",
+     "value": "$65",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Average per member",
+     "value": "~$70",
+     "tone": "neutral",
+     "sub": "all fees / paid members"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Clever part three: the upgrade. 42.3 million members now pay for Executive.",
+   "say": "Clever part three. The upgrade. Forty-two point three million members now pay for Executive.",
+   "scene": {
+    "t": "stat",
+    "label": "Executive members, end of FY2026",
+    "value": "42.3M",
+    "tone": "up",
+    "sub": "up 9.4% in a year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about half of all paid members, an all-time high share.",
+   "say": "That's about half of all paid members, and Costco says that share is at an all-time high.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "42.3M / 84.1M",
+     "= ~50% Executive",
+     "record share"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Executive costs $65 more and pays back 2% of eligible purchases. So when does it pay off?",
+   "say": "Executive costs sixty-five dollars more, and pays back two percent of eligible purchases. So when does that pay off?",
+   "scene": {
+    "t": "hook",
+    "title": "Worth the [upgrade]?",
+    "prop": "card",
+    "label": "EXECUTIVE",
+    "value": "2%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Divide the extra $65 by 2%. You break even at $3,250 of spending a year.",
+   "say": "Divide the extra sixty-five dollars by two percent. You break even at three thousand two hundred fifty dollars of spending a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$130 - $65 = $65 extra",
+     "$65 / 0.02 = $3,250",
+     "= ~$271 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $271 a month. Spend more, and the 2% back beats the extra fee.",
+   "say": "That's about two hundred seventy-one dollars a month. Spend more than that, and the two percent back beats the extra fee.",
+   "scene": {
+    "t": "compare",
+    "title": "Executive vs Gold Star, per year",
+    "left": {
+     "label": "Below $3,250",
+     "value": "Lose",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Above $3,250",
+     "value": "Gain",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To hit the $1,250 reward cap, you'd need $62,500 of eligible spending.",
+   "say": "To hit the twelve hundred fifty dollar reward cap, you'd need sixty-two thousand five hundred dollars of eligible spending.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,250 / 0.02",
+     "= $62,500 spent",
+     "to max the reward"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the clever bit for Costco: every Executive member also pays double the fee.",
+   "say": "Here's the clever bit for Costco. Every Executive member also pays double the fee.",
+   "scene": {
+    "t": "split",
+    "title": "The Executive trade",
+    "left": {
+     "title": "You get",
+     "items": [
+      "2% back",
+      "Bigger cap"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Costco gets",
+     "items": [
+      "2x the fee",
+      "More visits"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And members who get money back tend to shop more, so they come back more often.",
+   "say": "And members who get money back tend to shop more, so they keep coming back.",
+   "scene": {
+    "t": "hook",
+    "title": "The [loyalty] loop",
+    "prop": "bag",
+    "label": "MORE TRIPS",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each renewal also locks in another year of fee income before a single item is sold.",
+   "say": "Each renewal also locks in another year of fee income, before a single item is sold.",
+   "scene": {
+    "t": "stat",
+    "label": "Paid members renewing, worldwide",
+    "value": "89.8%",
+    "tone": "up",
+    "sub": "Q4 FY2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Clever part four: the fee is paid up front, before you buy a single thing.",
+   "say": "Clever part four. The fee is paid up front, before you buy a single thing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fee paid up front",
+     "Counted over 12 months",
+     "Steady, predictable"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Costco counts it as revenue over the 12 months, so the income is steady and predictable.",
+   "say": "Costco counts it as revenue over the next twelve months, so that income is steady and predictable.",
+   "scene": {
+    "t": "stat",
+    "label": "Membership fee revenue, FY2026",
+    "value": "$5.9B",
+    "tone": "up",
+    "sub": "recognized over each 12-month membership"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Clever part five: the cheap stuff brings you in. You come for gas or a chicken, and leave with a cart.",
+   "say": "Clever part five. The cheap stuff brings you in. You come for gas or a chicken, and you leave with a full cart.",
+   "scene": {
+    "t": "hook",
+    "title": "In for [one] thing",
+    "prop": "bag",
+    "label": "FULL CART",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Costco doesn't need big profit on each item. It needs you to keep your card.",
+   "say": "Costco doesn't need a big profit on each item. It needs you to keep your card.",
+   "scene": {
+    "t": "split",
+    "title": "Costco's real goal",
+    "left": {
+     "title": "Not this",
+     "items": [
+      "Big markups",
+      "Profit per item"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "This",
+     "items": [
+      "Renewals",
+      "More members"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. The risks.",
+   "say": "Chapter five. The risks.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The risks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Risk one: the hike wears off. The September 2024 increase has now worked through a full year.",
+   "say": "Risk one. The hike wears off. The September twenty twenty-four increase has now worked through a full year of renewals.",
+   "scene": {
+    "t": "news",
+    "headline": "Costco's membership fee boost is about to run out",
+    "source": "The Motley Fool, Sept 23, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Without a new hike, fee growth leans on new members and upgrades.",
+   "say": "Without a new hike, fee growth has to lean on new members and upgrades.",
+   "scene": {
+    "t": "list",
+    "title": "Where fee growth comes from",
+    "items": [
+     "Fee hikes",
+     "New members",
+     "Executive upgrades"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Costco has raised the fee about every five to seven years. Each hike is a test of how loyal members really are.",
+   "say": "Costco has raised the fee about every five to seven years. And each hike is a test of how loyal members really are.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fee hike = test",
+     "Do members",
+     "still renew?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Risk two: renewal rates. Worldwide, 89.8% is still high, but members who sign up online tend to renew less.",
+   "say": "Risk two. Renewal rates. Worldwide, eighty-nine point eight percent is still high, but Costco has said members who sign up online tend to renew less often.",
+   "scene": {
+    "t": "stat",
+    "label": "Worldwide renewal rate, Q4 FY2026",
+    "value": "89.8%",
+    "tone": "neutral",
+    "sub": "Costco Q4 FY2026 release"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every point of renewal on 84 million members is a lot of people.",
+   "say": "And one point of renewal, on eighty-four million members, is a lot of people.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1% of 84.1M members",
+     "= ~841,000 people"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Risk three: rivals. Sam's Club and BJ's run the same playbook for less.",
+   "say": "Risk three. Rivals. Sam's Club and BJ's run the same playbook.",
+   "scene": {
+    "t": "split",
+    "title": "Warehouse club rivals",
+    "left": {
+     "title": "Costco",
+     "items": [
+      "$65 basic",
+      "939 warehouses"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Rivals",
+     "items": [
+      "Sam's Club",
+      "BJ's Wholesale"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Online stores and big-box rivals also compete for the same weekly shopping trip.",
+   "say": "Online stores and big-box rivals are also fighting for that same weekly shopping trip.",
+   "scene": {
+    "t": "list",
+    "title": "Competing for the trip",
+    "items": [
+     "Warehouse clubs",
+     "Online retailers",
+     "Big-box stores"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Risk four: one-offs can flatter results. Q4 included a one-time $0.15 a share from tariff refunds.",
+   "say": "Risk four. One-offs can flatter results. The fourth quarter included a one-time boost of fifteen cents a share from tariff refunds.",
+   "scene": {
+    "t": "stat",
+    "label": "One-time tariff refund benefit, Q4 FY2026",
+    "value": "$0.15",
+    "tone": "neutral",
+    "sub": "per diluted share, Costco release"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And with only about 2 cents of profit on each sales dollar, small cost shocks matter.",
+   "say": "And with only about two cents of profit on each sales dollar, even small cost shocks can matter.",
+   "scene": {
+    "t": "hook",
+    "title": "Thin margins, [tight] room",
+    "prop": "chart-down",
+    "label": "MARGIN",
+    "value": "~2\u00a2"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. What it means for you.",
+   "say": "Chapter six. What it means for you.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you're a member, you're not just a shopper. You're the customer Costco really sells to.",
+   "say": "If you're a member, you're not just a shopper. You're the customer Costco is really selling to.",
+   "scene": {
+    "t": "hook",
+    "title": "You're the [product]",
+    "prop": "card",
+    "label": "MEMBER",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your fee is the reason the shelves can be priced so thin.",
+   "say": "Your fee is the reason the shelves can be priced so thin.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your fee",
+     "funds thin",
+     "shelf prices"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The membership only pays off if your savings beat the fee. That depends on what and how much you buy.",
+   "say": "The membership only pays off if your savings beat the fee. And that depends on what, and how much, you buy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Savings > fee?",
+     "Depends on what",
+     "and how much you buy"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: if Costco saves you 5% versus other stores, $65 / 5% = $1,300 a year to break even.",
+   "say": "Here's an example. If Costco saves you five percent versus other stores, divide sixty-five dollars by five percent. You'd break even at thirteen hundred dollars a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: 5% savings",
+     "$65 / 0.05",
+     "= $1,300 a year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $108 a month. Save less, or spend less, and the fee may not be worth it.",
+   "say": "That's about a hundred eight dollars a month. If you save less, or spend less, the fee may not be worth it.",
+   "scene": {
+    "t": "compare",
+    "title": "Gold Star at 5% savings (example)",
+    "left": {
+     "label": "Spend $1,000",
+     "value": "-$15",
+     "tone": "down",
+     "sub": "$50 saved - $65 fee"
+    },
+    "right": {
+     "label": "Spend $3,000",
+     "value": "+$85",
+     "tone": "up",
+     "sub": "$150 saved - $65 fee"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For Executive, the math is simple: $3,250 a year in eligible spending is the break-even line.",
+   "say": "For Executive, the math is simple. Three thousand two hundred fifty dollars a year in eligible spending is the break-even line.",
+   "scene": {
+    "t": "stat",
+    "label": "Executive break-even spending",
+    "value": "$3,250",
+    "tone": "neutral",
+    "sub": "$65 extra / 2% reward"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bulk only saves money if you use what you buy. A deal you throw away isn't a deal.",
+   "say": "And bulk only saves money if you actually use what you buy. A deal you throw away isn't a deal.",
+   "scene": {
+    "t": "split",
+    "title": "Bulk buying",
+    "left": {
+     "title": "Saves",
+     "items": [
+      "Used up",
+      "Lower unit price"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Wastes",
+     "items": [
+      "Spoils",
+      "Impulse buys"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter seven. The recap.",
+   "say": "Chapter seven. The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Costco sells $297 billion of goods a year and keeps about 2 cents on each dollar.",
+   "say": "Costco sells about two hundred ninety-seven billion dollars of goods a year, and keeps about two cents on each dollar.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "~2\u00a2 per $1 on goods",
+     "$5.9B in fees",
+     "~51% of operating profit",
+     "~90% renew"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It collected $5.9 billion in fees in fiscal 2026.",
+   "say": "It collected five point nine billion dollars in membership fees in fiscal twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "~2\u00a2 per $1 on goods",
+     "$5.9B in fees",
+     "~51% of operating profit",
+     "~90% renew"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those fees were about half of its operating profit.",
+   "say": "Those fees were about half of its operating profit.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "~2\u00a2 per $1 on goods",
+     "$5.9B in fees",
+     "~51% of operating profit",
+     "~90% renew"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And about 90% of members come back to pay again.",
+   "say": "And about ninety percent of members come back to pay again.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "~2\u00a2 per $1 on goods",
+     "$5.9B in fees",
+     "~51% of operating profit",
+     "~90% renew"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the hot dog stays $1.50, and the card keeps the lights on.",
+   "say": "So the hot dog stays a dollar fifty, and the card keeps the lights on.",
+   "scene": {
+    "t": "hook",
+    "title": "The [card] pays",
+    "prop": "card",
+    "label": "$65",
+    "value": "$1.50",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this made Costco's model click, subscribe for more. See you next time.",
+   "say": "If this made Costco's money machine click, subscribe for more. See you next time.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained from zero.",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "About half of Costco's profit comes from a $65 card. Here's the math.",
+  "ig": "About half of Costco's operating profit comes from membership fees.",
+  "tiktok": "Costco makes about 2 cents per dollar on goods. The card does the heavy lifting.",
+  "yt_desc": "Costco sold $297.2 billion of goods in fiscal 2026 but made about half of its $11.69 billion operating income from $5.9 billion in membership fees. We break down the deal, the numbers from Costco's filings, how Price Club and Costco built the model, the clever parts like 92.3% renewal rates and the Executive upgrade math, and the risks. No stock tips, just the business model.\n\nCHAPTERS\n\nSources:\n- Costco Q4 and fiscal 2026 results (Sept 24, 2026) and earnings call (Sept 2026)\n- Costco Form 10-K, fiscal 2021-2025\n- Kiplinger and Fox Business on the Sept 2024 fee increase\n- CNN and NPR (2024) on the $1.50 hot dog; CNN (2019) on the $4.99 chicken; CNBC (2025) on Kirkland Signature\n- The Motley Fool (Sept 23 and 25, 2026)\n\nNews and education, not financial advice.\n\n#Costco #HowTheyMakeMoney #Business",
+  "tags": [
+   "costco business model",
+   "how costco makes money",
+   "costco membership fees",
+   "costco executive membership worth it",
+   "warehouse club",
+   "how they make money",
+   "business explained",
+   "FinanceProsTV"
+  ]
+ }
+}
