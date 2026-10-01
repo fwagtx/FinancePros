@@ -2,126 +2,120 @@
  "id": "2026-10-21-lf-guide",
  "format": "landscape",
  "series": "ticker",
- "header": "THE GUIDE",
+ "header": "MONEY GUIDE",
  "cover": {
-  "title": "The $50,000 Car.",
-  "prop": "car",
-  "label": "AUG 2026",
-  "value": "$50,089"
+  "title": "Why Budgets Fail.",
+  "prop": "paper",
+  "label": "BUDGET",
+  "value": "4.1%"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "New cars averaged over $50,000 in August 2026.",
-   "say": "New cars averaged over fifty thousand dollars in August twenty twenty-six.",
+   "text": "Americans save 4 cents of every dollar. A common rule says 20.",
+   "say": "Americans save four cents of every dollar. A common rule says twenty.",
    "scene": {
     "t": "hook",
-    "title": "The [$50,000] car",
-    "prop": "car",
-    "label": "AUG 2026",
-    "value": "$50,089",
+    "title": "Saving just [4¢]",
+    "prop": "coins",
+    "label": "PER $1",
+    "value": "4.1%",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "And the sticker price is only one of four numbers that decide what a buyer really pays.",
-   "say": "And the sticker price is only one of four numbers that decide what a buyer really pays.",
-   "scene": {
-    "t": "list",
-    "title": "The four numbers",
-    "items": [
-     "The price",
-     "The loan rate",
-     "The trade-in",
-     "Fees and add-ons"
-    ],
-    "reveal": 4,
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Kelley Blue Book says the average new vehicle went for $50,089 in August 2026, the first month of 2026 above $50,000.",
-   "say": "Kelley Blue Book says the average new vehicle went for fifty thousand eighty-nine dollars in August twenty twenty-six, the first month of twenty twenty-six above fifty thousand.",
+   "text": "That's the personal saving rate for August 2026: 4.1% of disposable income, per the BEA.",
+   "say": "That's the personal saving rate for August twenty twenty-six. Four point one percent of disposable income, according to the B E A.",
    "scene": {
     "t": "stat",
-    "label": "Avg new-car price, Aug 2026",
-    "value": "$50,089",
+    "label": "US personal saving rate, Aug 2026",
+    "value": "4.1%",
     "tone": "down",
-    "sub": "Kelley Blue Book, Sept 2026"
+    "sub": "BEA, released Sept 30, 2026"
    }
   },
   {
    "who": "ticker",
-   "text": "The average sticker was $51,852. So buyers paid about $1,763 under sticker, on average.",
-   "say": "The average sticker was fifty-one thousand eight hundred fifty-two dollars. So buyers paid about seventeen hundred sixty-three dollars under sticker, on average.",
+   "text": "That rule is 50/30/20, and it says save 20%.",
+   "say": "That rule is fifty thirty twenty, and it says save twenty percent.",
    "scene": {
     "t": "compare",
-    "title": "Average new vehicle, Aug 2026",
+    "title": "Saving: actual vs a common rule",
     "left": {
-     "label": "Sticker (MSRP)",
-     "value": "$51,852",
-     "tone": "neutral",
-     "sub": "average"
+     "label": "US saving rate, Aug 2026",
+     "value": "4.1%",
+     "tone": "down"
     },
     "right": {
-     "label": "Price paid",
-     "value": "$50,089",
-     "tone": "up",
-     "sub": "average"
-    },
-    "mood": "think"
+     "label": "50/30/20 rule",
+     "value": "20%",
+     "tone": "up"
+    }
    }
   },
   {
    "who": "ticker",
-   "text": "Here's the surprise. In one example coming up, a two-point bump in the loan rate costs about $2,000.",
-   "say": "Here's the surprise. In one example coming up, a two-point bump in the loan rate costs about two thousand dollars.",
+   "text": "And the Fed found only 63% of adults would cover a surprise $400 bill with cash or its equivalent.",
+   "say": "And when the Federal Reserve asked, only sixty-three percent of adults said they'd cover a surprise four hundred dollar bill with cash or its equivalent.",
+   "scene": {
+    "t": "stat",
+    "label": "Adults who'd cover $400 with cash or equivalent",
+    "value": "63%",
+    "tone": "down",
+    "sub": "Federal Reserve SHED, 2025 data (May 2026)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves about 37% who'd borrow, sell something, or not pay at all.",
+   "say": "That leaves about thirty-seven percent who'd have to borrow, sell something, or not be able to pay at all.",
    "scene": {
     "t": "hook",
-    "title": "Rate bump: [$2,000]",
-    "prop": "paper",
-    "label": "EXAMPLE",
-    "value": "+$2,000",
-    "mood": "shock"
+    "title": "The [$400] test",
+    "prop": "bill",
+    "label": "SURPRISE BILL",
+    "value": "37%",
+    "mood": "worried"
    }
   },
   {
    "who": "ticker",
-   "text": "That's more than the whole $1,763 average discount, and it never shows up on the window sticker.",
-   "say": "That's more than the whole seventeen hundred sixty-three dollar average discount, and it never shows up on the window sticker.",
+   "text": "A budget is the fix everybody recommends. And plenty of budgets quietly fall apart within weeks.",
+   "say": "A budget is the fix everybody recommends. And plenty of budgets quietly fall apart within weeks.",
    "scene": {
     "t": "board",
     "lines": [
-     "Rate bump: about $2,000",
-     "Avg discount: $1,763"
+     "Budget = the fix",
+     "But many get",
+     "abandoned fast"
     ]
    }
   },
   {
    "who": "ticker",
-   "text": "So here's the whole purchase in order, with the real rules and the math at every step.",
-   "say": "So here's the whole purchase in order, with the real rules and the math at every step.",
+   "text": "Meanwhile, the average household spent $78,535 in 2024. A lot of us couldn't say where much of it went.",
+   "say": "Meanwhile, the average household spent more than seventy-eight thousand dollars in twenty twenty-four. A lot of us couldn't say where much of it went.",
    "scene": {
-    "t": "timeline",
-    "events": [
-     [
-      "Step 1",
-      "Budget on total cost"
-     ],
-     [
-      "Step 2",
-      "Financing first"
-     ],
-     [
-      "Step 3",
-      "Out-the-door price"
-     ],
-     [
-      "Step 4",
-      "Fees, trade-in, signing"
-     ]
+    "t": "stat",
+    "label": "Average household spending, 2024",
+    "value": "$78,535",
+    "tone": "neutral",
+    "sub": "BLS Consumer Expenditure Survey"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's how to build one that actually works, step by step, with real numbers.",
+   "say": "So let's build one that actually works. Step by step, with real numbers.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "Why budgets fail",
+     "Where money goes",
+     "Build it",
+     "Make it stick"
     ],
     "reveal": 4,
     "mood": "happy"
@@ -129,329 +123,439 @@
   },
   {
    "who": "ticker",
-   "text": "Chapter one. The budget, built on total cost.",
-   "say": "Chapter one. The budget, built on total cost.",
+   "text": "Chapter one. Why budgets fail.",
+   "say": "Chapter one. Why budgets fail.",
    "scene": {
     "t": "chapter",
     "n": 1,
-    "title": "Budget on total cost"
+    "title": "Why budgets fail"
    }
   },
   {
    "who": "ticker",
-   "text": "Most buyers walk in thinking about one number: the monthly payment.",
-   "say": "Most buyers walk in thinking about one number: the monthly payment.",
+   "text": "Most budgets don't fail because of math. They fail because of design.",
+   "say": "Most budgets don't fail because of the math. They fail because of the design.",
    "scene": {
     "t": "hook",
-    "title": "The [payment] trap",
-    "prop": "bill",
-    "label": "/MONTH",
-    "value": "$765",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In the second quarter of 2026, the average new-car payment was $765 a month, according to Experian.",
-   "say": "In the second quarter of twenty twenty-six, the average new-car payment was seven hundred sixty-five dollars a month, according to Experian.",
-   "scene": {
-    "t": "stat",
-    "label": "Avg new-car payment, Q2 2026",
-    "value": "$765/mo",
-    "tone": "down",
-    "sub": "Experian, Q2 2026"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The trouble is, a payment can be made to fit almost any budget, just by stretching the loan.",
-   "say": "The trouble is, a payment can be made to fit almost any budget, just by stretching the loan.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Payment = price, rate,",
-     "and number of months"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Stretching lowers the payment but adds interest. We ran that math in our October eleventh video.",
-   "say": "Stretching lowers the payment but adds interest. We ran that math in our October eleventh video.",
-   "scene": {
-    "t": "split",
-    "title": "Stretching the loan",
-    "left": {
-     "title": "Goes down",
-     "items": [
-      "Monthly payment"
-     ],
-     "tone": "up"
-    },
-    "right": {
-     "title": "Goes up",
-     "items": [
-      "Total interest",
-      "Time owing money"
-     ],
-     "tone": "down"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Careful buyers flip it around: the total first, then the payment.",
-   "say": "Careful buyers flip it around: the total first, then the payment.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "Start here",
-     "value": "Total cost"
-    },
-    "to": {
-     "label": "Then",
-     "value": "Payment"
-    },
+    "title": "A [design] problem",
+    "prop": "paper",
+    "label": "BUDGET",
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "That total is called the out-the-door price: the car, the fees, the add-ons and the taxes, all in one number.",
-   "say": "That total is called the out-the-door price: the car, the fees, the add-ons and the taxes, all in one number.",
+   "text": "A budget is just a plan for your money before the month starts, instead of a guess after it ends.",
+   "say": "A budget is just a plan for your money before the month starts, instead of a guess after it ends.",
    "scene": {
     "t": "board",
     "lines": [
-     "Out-the-door price =",
-     "car + fees + add-ons",
-     "+ taxes"
+     "Budget =",
+     "a plan before,",
+     "not a guess after"
     ]
    }
   },
   {
    "who": "ticker",
-   "text": "Here's an example. Say the agreed price is $38,000.",
-   "say": "Here's an example. Say the agreed price is thirty-eight thousand dollars.",
+   "text": "Failure one: they're too strict. Zero fun money means one splurge breaks the whole plan.",
+   "say": "Failure one. They're too strict. Zero fun money means one splurge breaks the whole plan.",
    "scene": {
     "t": "list",
-    "title": "Example: out-the-door",
+    "title": "Why budgets break",
     "items": [
-     "Price: $38,000",
-     "Add-ons: $1,500",
-     "Doc fee: $500",
-     "Tax 6%: $2,280"
+     "Too strict",
+     "Forgets yearly bills",
+     "Too much tracking",
+     "Never adjusted"
     ],
     "reveal": 1
    }
   },
   {
    "who": "ticker",
-   "text": "Add $1,500 in dealer add-ons, which is an example amount.",
-   "say": "Add fifteen hundred dollars in dealer add-ons, which is an example amount.",
+   "text": "Failure two: they forget the bills that don't come every month.",
+   "say": "Failure two. They forget the bills that don't show up every month.",
    "scene": {
     "t": "list",
     "keep": true,
+    "title": "Why budgets break",
+    "items": [
+     "Too strict",
+     "Forgets yearly bills",
+     "Too much tracking",
+     "Never adjusted"
+    ],
     "reveal": 2
    }
   },
   {
    "who": "ticker",
-   "text": "Then a $500 documentation fee, also an example.",
-   "say": "Then a five hundred dollar documentation fee, also an example.",
+   "text": "Car insurance, holidays, a new phone. They feel like surprises, but they're on the calendar.",
+   "say": "Car insurance. Holidays. A new phone. They feel like surprises, but they're really on the calendar.",
    "scene": {
-    "t": "list",
-    "keep": true,
+    "t": "timeline",
+    "events": [
+     [
+      "Mar",
+      "Car insurance due"
+     ],
+     [
+      "Aug",
+      "Back to school"
+     ],
+     [
+      "Dec",
+      "Holiday gifts"
+     ]
+    ],
     "reveal": 3
    }
   },
   {
    "who": "ticker",
-   "text": "And 6% sales tax on the $38,000 price, which comes to $2,280.",
-   "say": "And six percent sales tax on the thirty-eight thousand dollar price, which comes to two thousand two hundred eighty dollars.",
+   "text": "Miss them, and they land on a credit card, and the budget feels broken.",
+   "say": "Miss them, and they land on a credit card. And suddenly the whole budget feels broken.",
    "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Plus $400 for title and registration in this example, and the real total is $42,680.",
-   "say": "Plus four hundred dollars for title and registration in this example, and the real total is forty-two thousand six hundred eighty dollars.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "Agreed price",
-     "value": "$38,000"
-    },
-    "to": {
-     "label": "Out-the-door",
-     "value": "$42,680"
-    },
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's $4,680 more than the handshake price, and that's the number the budget has to cover.",
-   "say": "That's four thousand six hundred eighty dollars more than the handshake price, and that's the number the budget has to cover.",
-   "scene": {
-    "t": "stat",
-    "label": "Example: extra over price",
-    "value": "+$4,680",
-    "tone": "down",
-    "sub": "add-ons, fee, tax, title"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter two. Why the financing comes first.",
-   "say": "Chapter two. Why the financing comes first.",
-   "scene": {
-    "t": "chapter",
-    "n": 2,
-    "title": "Financing comes first"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "When a dealer arranges a buyer's loan, the lender quotes the dealer a rate. The CFPB calls that the buy rate.",
-   "say": "When a dealer arranges a buyer's loan, the lender quotes the dealer a rate. The C F P B calls that the buy rate.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Buy rate = the rate the",
-     "lender quotes the dealer"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The rate offered to the buyer can be higher, and the difference helps pay the dealer. Say a 6.35% buy rate is offered at 8.35%.",
-   "say": "The rate offered to the buyer can be higher, and the difference helps pay the dealer. Say a six point three five percent buy rate is offered at eight point three five.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "Buy rate",
-     "value": "6.35%"
-    },
-    "to": {
-     "label": "Rate offered",
-     "value": "8.35%"
-    },
+    "t": "hook",
+    "title": "Surprise? [Scheduled]",
+    "prop": "card",
+    "label": "CREDIT CARD",
     "mood": "worried"
    }
   },
   {
    "who": "ticker",
-   "text": "That's just an example. Lenders often cap the markup, and the CFPB notes the rate is negotiable.",
-   "say": "That's just an example. Lenders often cap the markup, and the C F P B notes the rate is negotiable.",
-   "scene": {
-    "t": "stat",
-    "label": "Says loan rate negotiable",
-    "value": "CFPB",
-    "tone": "neutral",
-    "sub": "consumerfinance.gov"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Now the math. Take a $35,000 loan over 60 months at 6.35%. The payment is about $682.",
-   "say": "Now the math. Take a thirty-five thousand dollar loan over sixty months at six point three five percent. The payment is about six hundred eighty-two dollars.",
-   "scene": {
-    "t": "compare",
-    "title": "Example: $35,000, 60 months",
-    "left": {
-     "label": "6.35% APR",
-     "value": "$682",
-     "tone": "up",
-     "sub": "per month"
-    },
-    "right": {
-     "label": "8.35% APR",
-     "value": "$716",
-     "tone": "down",
-     "sub": "per month"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "At 8.35%, it's about $716. Only about $33 more a month, which is easy to wave through.",
-   "say": "At eight point three five percent, it's about seven hundred sixteen. Only about thirty-three dollars more a month, which is easy to wave through.",
-   "scene": {
-    "t": "compare",
-    "keep": true,
-    "winner": "left",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "But over five years, total interest goes from about $5,942 to $7,933.",
-   "say": "But over five years, total interest goes from about fifty-nine hundred forty-two dollars to seventy-nine hundred thirty-three.",
-   "scene": {
-    "t": "compare",
-    "title": "Example: interest, 60 months",
-    "left": {
-     "label": "6.35% APR",
-     "value": "$5,942",
-     "tone": "up",
-     "sub": "interest"
-    },
-    "right": {
-     "label": "8.35% APR",
-     "value": "$7,933",
-     "tone": "down",
-     "sub": "interest"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's $1,991.53 more: the two thousand dollars from the start.",
-   "say": "That's nineteen hundred ninety-one dollars and fifty-three cents more: the two thousand dollars from the start.",
-   "scene": {
-    "t": "stat",
-    "label": "Example: +2 points interest",
-    "value": "$1,991.53",
-    "tone": "down",
-    "sub": "$35,000, 60 months"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So some buyers line up a loan offer from a bank or credit union before they ever visit the lot.",
-   "say": "So some buyers line up a loan offer from a bank or credit union before they ever visit the lot.",
+   "text": "Failure three: tracking every coffee by hand. It's exhausting, so people stop.",
+   "say": "Failure three. Tracking every single coffee by hand. It's exhausting, so people stop.",
    "scene": {
     "t": "hook",
-    "title": "Loan [first]",
-    "prop": "paper",
-    "label": "APPROVED",
-    "value": "6.35%",
-    "mood": "happy"
+    "title": "Failure three: tracking every coffee by hand. It",
+    "prop": "none"
    }
   },
   {
    "who": "ticker",
-   "text": "Then the dealer's offer has something to beat, and the buyer can take whichever rate is lower.",
-   "say": "Then the dealer's offer has something to beat, and the buyer can take whichever rate is lower.",
+   "text": "You don't need every receipt. You need to know your big categories and whether you stayed inside them.",
+   "say": "You don't need every receipt. You need to know your big categories, and whether you stayed inside them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Track categories,",
+     "not every coffee"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Failure four: the budget never changes, even when life does.",
+   "say": "And failure four. The budget never changes, even when life does.",
+   "scene": {
+    "t": "hook",
+    "title": "Failure four: the budget never changes, even whe",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A good budget fixes all four: some fun, yearly bills built in, light tracking, regular check-ins.",
+   "say": "A good budget fixes all four. Some fun money, the yearly bills built in, light tracking, and regular check-ins.",
    "scene": {
     "t": "split",
-    "title": "With a pre-approval",
+    "title": "Budget design",
     "left": {
-     "title": "Buyer knows",
+     "title": "Breaks",
      "items": [
-      "Their real rate",
-      "Their max budget"
+      "No fun money",
+      "Ignores yearly bills",
+      "Tracks everything"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Works",
+     "items": [
+      "Fun built in",
+      "Sinking funds",
+      "Weekly check-in"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. Where the money actually goes.",
+   "say": "Chapter two. Where the money actually goes.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Where money goes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before you plan, it helps to see how a typical household spends.",
+   "say": "Before you plan anything, it helps to see how a typical household actually spends.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Step zero:",
+     "see where money",
+     "really goes"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As we said, the average US household spent $78,535 in 2024, per the BLS Consumer Expenditure Survey, the latest full year.",
+   "say": "As we said, the average US household spent seventy-eight thousand, five hundred thirty-five dollars in twenty twenty-four. That's from the B L S Consumer Expenditure Survey, the latest full year.",
+   "scene": {
+    "t": "stat",
+    "label": "Average annual household spending, 2024",
+    "value": "$78,535",
+    "tone": "neutral",
+    "sub": "BLS Consumer Expenditure Survey, Dec 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was up from $63,036 in 2019.",
+   "say": "That was up from sixty-three thousand thirty-six dollars in twenty nineteen.",
+   "scene": {
+    "t": "chart",
+    "title": "Average household spending ($)",
+    "points": [
+     [
+      2019,
+      63036
+     ],
+     [
+      2020,
+      61332
+     ],
+     [
+      2021,
+      66928
+     ],
+     [
+      2022,
+      72967
+     ],
+     [
+      2023,
+      77280
+     ],
+     [
+      2024,
+      78535
+     ]
+    ],
+    "prefix": "$",
+    "end": "$78,535",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spending dipped in 2020, then jumped about 9% a year in 2021 and 2022.",
+   "say": "It dipped in twenty twenty, then jumped about nine percent a year in twenty twenty-one and twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Average household spending ($)",
+    "points": [
+     [
+      2019,
+      63036
+     ],
+     [
+      2020,
+      61332
+     ],
+     [
+      2021,
+      66928
+     ],
+     [
+      2022,
+      72967
+     ],
+     [
+      2023,
+      77280
+     ],
+     [
+      2024,
+      78535
+     ]
+    ],
+    "prefix": "$",
+    "end": "$78,535",
+    "color": "up",
+    "note": {
+     "x": 2022,
+     "text": "+9% in 2022"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices rose fast in those years, which helped push household spending up about 25% from 2019 to 2024.",
+   "say": "Prices rose fast in those years, which helped push household spending up about twenty-five percent from twenty nineteen to twenty twenty-four.",
+   "scene": {
+    "t": "hook",
+    "title": "Same life, [higher] cost",
+    "prop": "chart-up",
+    "label": "2019 -> 2024",
+    "value": "+25%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Average income before taxes was $104,207 in 2024.",
+   "say": "Average income before taxes was a hundred four thousand, two hundred seven dollars in twenty twenty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Average household, 2024",
+    "left": {
+     "label": "Income before taxes",
+     "value": "$104K",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Spending",
+     "value": "$78.5K",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the big one: housing was 33.4% of all spending. A third.",
+   "say": "Now here's the big one. Housing was thirty-three point four percent of all spending. A full third.",
+   "scene": {
+    "t": "stat",
+    "label": "Housing share of spending, 2024",
+    "value": "33.4%",
+    "tone": "down",
+    "sub": "about $26,266 a year (BLS)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Transportation was 17.0%, and food was 12.9%.",
+   "say": "Transportation was seventeen percent, and food was twelve point nine percent.",
+   "scene": {
+    "t": "list",
+    "title": "Biggest shares of spending, 2024",
+    "items": [
+     "Housing 33.4%",
+     "Transportation 17.0%",
+     "Food 12.9%",
+     "Insurance/pensions 12.5%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In dollars, that's $13,318 a year on getting around, and $10,169 on food.",
+   "say": "In dollars, that's about thirteen thousand three hundred a year on getting around, and about ten thousand two hundred on food.",
+   "scene": {
+    "t": "compare",
+    "title": "Average yearly spending, 2024",
+    "left": {
+     "label": "Transportation",
+     "value": "$13,318",
+     "tone": "neutral",
+     "sub": "BLS, 2024"
+    },
+    "right": {
+     "label": "Food",
+     "value": "$10,169",
+     "tone": "neutral",
+     "sub": "BLS, 2024"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurance and pensions took 12.5%. Healthcare 7.9%. Entertainment just 4.6%.",
+   "say": "Insurance and pensions took twelve point five percent. Healthcare took seven point nine. Entertainment, just four point six.",
+   "scene": {
+    "t": "hook",
+    "title": "Insurance and pensions took 12.5%. Healthcare 7.",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Notice what's small: entertainment, at 4.6%, is about a seventh of what goes to housing.",
+   "say": "Notice what's small. Entertainment, at four point six percent, is about a seventh of what goes to housing.",
+   "scene": {
+    "t": "compare",
+    "title": "Share of spending, 2024",
+    "left": {
+     "label": "Entertainment",
+     "value": "4.6%",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Housing",
+     "value": "33.4%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Housing, transportation and food together: 63.3% of spending.",
+   "say": "Add up housing, transportation and food, and you get sixty-three point three percent of spending.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "33.4% + 17.0% + 12.9%",
+     "= 63.3%",
+     "before anything else"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Everything else, from healthcare to fun, shares what's left.",
+   "say": "Everything else, from healthcare to fun, has to share what's left.",
+   "scene": {
+    "t": "stat",
+    "label": "Left for everything else, 2024",
+    "value": "36.7%",
+    "tone": "neutral",
+    "sub": "100% - 63.3%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the surprise. The big three decide most of your budget, not the lattes.",
+   "say": "That's the surprise. The big three decide most of your budget. Not the lattes.",
+   "scene": {
+    "t": "split",
+    "title": "Where to look first",
+    "left": {
+     "title": "Big levers",
+     "items": [
+      "Housing",
+      "Car costs",
+      "Groceries"
      ],
      "tone": "up"
     },
     "right": {
-     "title": "Dealer can",
+     "title": "Small levers",
      "items": [
-      "Try to beat it"
+      "Coffee",
+      "Apps",
+      "Snacks"
      ],
      "tone": "neutral"
     }
@@ -459,196 +563,96 @@
   },
   {
    "who": "ticker",
-   "text": "Worried about credit checks? The CFPB says auto-loan inquiries within a 14 to 45 day window generally count as one.",
-   "say": "Worried about credit checks? The C F P B says auto-loan inquiries within a fourteen to forty-five day window generally count as one.",
-   "scene": {
-    "t": "stat",
-    "label": "Days checks count as one",
-    "value": "14-45",
-    "tone": "up",
-    "sub": "CFPB; depends on score model"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Credit scores matter too. In the second quarter of 2026, Experian's average new-car rate ran from 4.41% to 13.52%.",
-   "say": "Credit scores matter too. In the second quarter of twenty twenty-six, Experian's average new-car rate ran from four point four one percent to thirteen point five two percent.",
+   "text": "Cutting a $5 coffee every workday saves about $1,300 a year. Cutting rent by $200 a month saves $2,400.",
+   "say": "Cutting a five dollar coffee every workday saves about thirteen hundred dollars a year. Cutting rent by two hundred a month saves twenty-four hundred.",
    "scene": {
     "t": "compare",
-    "title": "Avg new-car rate, Q2 2026",
+    "title": "One year of savings (example)",
     "left": {
-     "label": "Score 781+",
-     "value": "4.41%",
-     "tone": "up",
-     "sub": "super prime"
+     "label": "Skip $5 coffee x 260 days",
+     "value": "$1,300",
+     "tone": "neutral"
     },
     "right": {
-     "label": "Score 501-600",
-     "value": "13.52%",
-     "tone": "down",
-     "sub": "subprime"
+     "label": "Rent $200 less x 12",
+     "value": "$2,400",
+     "tone": "up"
     }
    }
   },
   {
    "who": "ticker",
-   "text": "Chapter three. The price, out the door.",
-   "say": "Chapter three. The price, out the door.",
+   "text": "Chapter three. Build it in four steps.",
+   "say": "Chapter three. Build it in four steps.",
    "scene": {
     "t": "chapter",
     "n": 3,
-    "title": "The price: out-the-door"
+    "title": "Build it in 4 steps"
    }
   },
   {
    "who": "ticker",
-   "text": "First, the backdrop. Here's the average price paid for a new vehicle in most months of 2026, from Kelley Blue Book.",
-   "say": "First, the backdrop. Here's the average price paid for a new vehicle in most months of twenty twenty-six, from Kelley Blue Book.",
-   "scene": {
-    "t": "chart",
-    "title": "Avg new-car price paid, 2026",
-    "points": [
-     [
-      1,
-      49191
-     ],
-     [
-      2,
-      49353
-     ],
-     [
-      3,
-      49275
-     ],
-     [
-      4,
-      49456
-     ],
-     [
-      6,
-      49758
-     ],
-     [
-      7,
-      49855
-     ],
-     [
-      8,
-      50089
-     ]
-    ],
-    "prefix": "$",
-    "end": "$50,089",
-    "color": "down"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It started January at $49,191 and crossed $50,000 in August.",
-   "say": "It started January at forty-nine thousand one hundred ninety-one dollars and crossed fifty thousand in August.",
-   "scene": {
-    "t": "chart",
-    "keep": true,
-    "note": {
-     "x": 8,
-     "text": "Over $50K in Aug"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Cox Automotive says the average used-car listing was $27,239 in August 2026, up 7% from a year earlier.",
-   "say": "Cox Automotive says the average used-car listing was twenty-seven thousand two hundred thirty-nine dollars in August twenty twenty-six, up seven percent from a year earlier.",
-   "scene": {
-    "t": "stat",
-    "label": "Avg used listing, Aug 2026",
-    "value": "$27,239",
-    "tone": "down",
-    "sub": "Cox Automotive, +7% YoY"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Automakers do offer deals. In August 2026, incentives averaged 6.5% of the transaction price, down from 7.2% a year before.",
-   "say": "Automakers do offer deals. In August twenty twenty-six, incentives averaged six point five percent of the transaction price, down from seven point two percent a year before.",
-   "scene": {
-    "t": "compare",
-    "title": "Incentives, % of price paid (KBB)",
-    "left": {
-     "label": "Aug 2025",
-     "value": "7.2%",
-     "tone": "up",
-     "sub": "of avg price"
-    },
-    "right": {
-     "label": "Aug 2026",
-     "value": "6.5%",
-     "tone": "down",
-     "sub": "of avg price"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So how do buyers find a fair price? Many start with what similar cars actually sell for, not the sticker.",
-   "say": "So how do buyers find a fair price? Many start with what similar cars actually sell for, not the sticker.",
-   "scene": {
-    "t": "hook",
-    "title": "Paid, not [sticker]",
-    "prop": "tag",
-    "label": "MSRP",
-    "value": "-3.4%",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In August 2026, that average gap was about 3.4% below sticker.",
-   "say": "In August twenty twenty-six, that average gap was about three point four percent below sticker.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "$1,763 / $51,852",
-     "= about 3.4% under"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Then they ask several dealers for written out-the-door quotes, often by email, to compare side by side.",
-   "say": "Then they ask several dealers for written out-the-door quotes, often by email, to compare side by side.",
+   "text": "Step one: start with your real take-home pay, not your salary.",
+   "say": "Step one. Start with your real take-home pay. Not your salary.",
    "scene": {
     "t": "list",
-    "title": "Comparing dealer quotes",
+    "title": "Build your budget",
     "items": [
-     "Same model and trim",
-     "Written out-the-door",
-     "Every fee listed"
+     "Take-home pay",
+     "Fixed bills",
+     "Yearly bills",
+     "Pick a method"
     ],
-    "reveal": 3,
-    "mood": "happy"
+    "reveal": 1
    }
   },
   {
    "who": "ticker",
-   "text": "Why out-the-door? Because a low price with big fees can cost more than a higher price with none.",
-   "say": "Why out-the-door? Because a low price with big fees can cost more than a higher price with none.",
+   "text": "Your salary has taxes, retirement and insurance taken out before it hits your account.",
+   "say": "Your salary has taxes, retirement and insurance taken out before it ever hits your account.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Salary (gross)",
+     "value": "$5,800/mo"
+    },
+    "to": {
+     "label": "Take-home (example)",
+     "value": "$4,500/mo"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For our example, say $4,500 a month lands in your account.",
+   "say": "For our example, let's say four thousand five hundred dollars a month lands in your account.",
+   "scene": {
+    "t": "stat",
+    "label": "Example take-home pay",
+    "value": "$4,500",
+    "tone": "neutral",
+    "sub": "per month, after taxes and deductions"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your pay changes month to month, budget from your lowest normal month, and treat extra as a bonus.",
+   "say": "If your pay changes from month to month, budget from your lowest normal month, and treat anything extra as a bonus.",
    "scene": {
     "t": "split",
-    "title": "Two quotes, same car",
+    "title": "Irregular income",
     "left": {
-     "title": "Dealer A",
+     "title": "Budget on",
      "items": [
-      "Lower price",
-      "Big fees, add-ons"
+      "Lowest normal month"
      ],
-     "tone": "down"
+     "tone": "neutral"
     },
     "right": {
-     "title": "Dealer B",
+     "title": "Extra goes to",
      "items": [
-      "Higher price",
-      "No extras"
+      "Savings first",
+      "Then wants"
      ],
      "tone": "up"
     }
@@ -656,466 +660,600 @@
   },
   {
    "who": "ticker",
-   "text": "And they keep the price talk separate from the loan and the trade-in, so one number can't quietly pay for another.",
-   "say": "And they keep the price talk separate from the loan and the trade-in, so one number can't quietly pay for another.",
+   "text": "Step two: list the fixed bills, the ones that are the same every month.",
+   "say": "Step two. List the fixed bills, the ones that are the same every month.",
    "scene": {
-    "t": "list",
-    "title": "Negotiated one at a time",
-    "items": [
-     "Price",
-     "Loan rate",
-     "Trade-in"
-    ],
-    "reveal": 3
+    "t": "hook",
+    "title": "Step two: list the fixed bills, the ones that ar",
+    "prop": "none"
    }
   },
   {
    "who": "ticker",
-   "text": "Chapter four. The fees and the add-ons.",
-   "say": "Chapter four. The fees and the add-ons.",
+   "text": "Rent, car payment, phone, insurance, minimum debt payments. These come first.",
+   "say": "Rent, car payment, phone, insurance, and minimum debt payments. These come first.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rent, car, phone,",
+     "insurance, minimum",
+     "debt payments"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In our example: rent $1,500, car $350, phone $60, insurance $200, debt minimums $140.",
+   "say": "In our example, say rent is fifteen hundred, the car is three fifty, the phone is sixty, insurance is two hundred, and debt minimums are a hundred forty.",
+   "scene": {
+    "t": "list",
+    "title": "Fixed bills (example)",
+    "items": [
+     "Rent $1,500",
+     "Car $350",
+     "Phone $60",
+     "Insurance + debt $340"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $2,250 a month, exactly half of the $4,500 take-home.",
+   "say": "That adds up to twenty-two fifty a month. Exactly half of the four thousand five hundred take-home.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1,500 + 350 + 60",
+     "+ 200 + 140",
+     "= $2,250 (50%)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step three: the yearly bills. Turn each one into a small monthly amount.",
+   "say": "Step three. The yearly bills. Turn each one into a small monthly amount.",
+   "scene": {
+    "t": "hook",
+    "title": "Step three: the yearly bills. Turn each one into",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Car insurance at $1,800 a year is $150 a month. Holidays at $900 is $75 a month.",
+   "say": "Car insurance at eighteen hundred a year is a hundred fifty a month. Holidays at nine hundred is seventy-five a month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,800 / 12 = $150",
+     "$900 / 12 = $75",
+     "= $225 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Set that $225 aside every month in its own pot. People call these sinking funds.",
+   "say": "Set that two hundred twenty-five dollars aside every month, in its own pot. People call these sinking funds.",
+   "scene": {
+    "t": "hook",
+    "title": "Sinking [funds]",
+    "prop": "pot",
+    "label": "YEARLY BILLS",
+    "value": "$225/mo",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the bill shows up in March or December, the money's already there. No surprise.",
+   "say": "When the bill shows up in March or December, the money's already there. No surprise.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Saved monthly",
+     "value": "$150 x 12"
+    },
+    "to": {
+     "label": "Insurance bill paid",
+     "value": "$1,800"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add groceries and gas, about $600 in our example, and the must-pay total is $3,075.",
+   "say": "Add groceries and gas, about six hundred dollars in our example, and the must-pay total is three thousand seventy-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$2,250 fixed",
+     "+ $225 yearly bills",
+     "+ $600 groceries/gas"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves $1,425 for savings, debt payoff and everything fun.",
+   "say": "That leaves fourteen hundred twenty-five dollars for savings, extra debt payoff, and everything fun.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Take-home",
+     "value": "$4,500"
+    },
+    "to": {
+     "label": "Left to plan",
+     "value": "$1,425"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step four: pick a method to split the rest. Let's look at three.",
+   "say": "Step four. Pick a method to split the rest. Let's look at three of them.",
+   "scene": {
+    "t": "hook",
+    "title": "Step four: pick a method to split the rest. Let'",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. Pick a method.",
+   "say": "Chapter four. Pick a method.",
    "scene": {
     "t": "chapter",
     "n": 4,
-    "title": "Fees and add-ons"
+    "title": "Pick a method"
    }
   },
   {
    "who": "ticker",
-   "text": "First, the documentation fee: what dealers charge for paperwork. The rules depend on the state.",
-   "say": "First, the documentation fee: what dealers charge for paperwork. The rules depend on the state.",
+   "text": "Method one is 50/30/20, from the 2005 book All Your Worth by Elizabeth Warren and Amelia Warren Tyagi.",
+   "say": "Method one is fifty thirty twenty. It comes from the two thousand five book All Your Worth, by Elizabeth Warren and Amelia Warren Tyagi.",
    "scene": {
-    "t": "hook",
-    "title": "The [doc] fee",
-    "prop": "paper",
-    "label": "DOC FEE",
-    "value": "$85",
-    "mood": "think"
+    "t": "quote",
+    "text": "50% needs, 30% wants, 20% savings",
+    "source": "All Your Worth, Warren & Warren Tyagi (2005), summarized"
    }
   },
   {
    "who": "ticker",
-   "text": "California caps it at $85 for most dealers. A 2025 bill to raise the cap to as much as $260 was vetoed.",
-   "say": "California caps it at eighty-five dollars for most dealers. A twenty twenty-five bill to raise the cap to as much as two hundred sixty dollars was vetoed.",
+   "text": "The appeal: a rule simple enough to remember without a spreadsheet.",
+   "say": "The appeal is that it's simple enough to remember without a spreadsheet.",
    "scene": {
-    "t": "compare",
-    "title": "Dealer doc fee rules",
-    "left": {
-     "label": "California",
-     "value": "$85",
-     "tone": "up",
-     "sub": "state cap"
-    },
-    "right": {
-     "label": "Florida",
-     "value": "No cap",
-     "tone": "down",
-     "sub": "set by dealer"
-    }
+    "t": "board",
+    "lines": [
+     "Simple enough",
+     "to remember,",
+     "no spreadsheet"
+    ]
    }
   },
   {
    "who": "ticker",
-   "text": "Florida has no cap, and CarEdge's 2026 survey puts the average Florida fee near $1,000. Same paperwork, very different bill.",
-   "say": "Florida has no cap, and CarEdge's twenty twenty-six survey puts the average Florida fee near a thousand dollars. Same paperwork, very different bill.",
-   "scene": {
-    "t": "compare",
-    "keep": true,
-    "winner": "left",
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Next, add-ons: things like paint protection, nitrogen in the tires, or window etching that show up on the contract.",
-   "say": "Next, add-ons: things like paint protection, nitrogen in the tires, or window etching that show up on the contract.",
+   "text": "Of take-home pay: 50% on needs, 30% on wants, 20% on savings or paying down debt.",
+   "say": "Of your take-home pay, fifty percent goes to needs, thirty percent to wants, and twenty percent to savings or paying down debt.",
    "scene": {
     "t": "list",
-    "title": "Common dealer add-ons",
+    "title": "50/30/20",
     "items": [
-     "Paint protection",
-     "Nitrogen-filled tires",
-     "Window etching",
-     "Service contracts"
-    ],
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The FTC's CARS Rule, meant to curb surprise add-ons, was struck down by a federal appeals court in January 2025.",
-   "say": "The F T C's CARS Rule, meant to curb surprise add-ons, was struck down by a federal appeals court in January twenty twenty-five.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     [
-      "Jan 2024",
-      "CARS Rule published"
-     ],
-     [
-      "Jan 2025",
-      "Fifth Circuit vacates it"
-     ],
-     [
-      "Feb 2026",
-      "FTC formally withdraws it"
-     ]
-    ],
-    "reveal": 2
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The FTC formally pulled it from the rulebook in February 2026. So add-on rules now come mostly from the states.",
-   "say": "The F T C formally pulled it from the rulebook in February twenty twenty-six. So add-on rules now come mostly from the states.",
-   "scene": {
-    "t": "timeline",
-    "keep": true,
-    "reveal": 3,
-    "events": []
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "California's own version, the CARS Act, took effect on October 1, 2026.",
-   "say": "California's own version, the CARS Act, took effect on October first, twenty twenty-six.",
-   "scene": {
-    "t": "news",
-    "headline": "California's CARS Act takes effect October 1",
-    "source": "Press Democrat, Sept 24, 2026"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It requires a total price in ads and add-ons labeled optional, and it bans add-ons with no benefit, like an oil change on an electric car.",
-   "say": "It requires a total price in ads and add-ons labeled optional, and it bans add-ons with no benefit, like an oil change on an electric car.",
-   "scene": {
-    "t": "list",
-    "title": "California CARS Act",
-    "items": [
-     "Total price in ads",
-     "Add-ons marked optional",
-     "No useless add-ons"
+     "50% needs",
+     "30% wants",
+     "20% savings/debt"
     ],
     "reveal": 3
    }
   },
   {
    "who": "ticker",
-   "text": "Now the math on financed add-ons. Say $1,500 of them get rolled into the loan at 6.35% for 72 months.",
-   "say": "Now the math on financed add-ons. Say fifteen hundred dollars of them get rolled into the loan at six point three five percent for seventy-two months.",
+   "text": "On $4,500: $2,250 for needs, $1,350 for wants, $900 for savings.",
+   "say": "On four thousand five hundred, that's twenty-two fifty for needs, thirteen fifty for wants, and nine hundred for savings.",
    "scene": {
-    "t": "money",
-    "from": {
-     "label": "Example add-ons",
-     "value": "$1,500"
+    "t": "board",
+    "lines": [
+     "$4,500 x 50% = $2,250",
+     "$4,500 x 30% = $1,350",
+     "$4,500 x 20% = $900"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our example already has $3,075 in needs, more than the $2,250 target, which is very common.",
+   "say": "Our example already has three thousand seventy-five dollars in needs, more than the twenty-two fifty target. That's very common.",
+   "scene": {
+    "t": "compare",
+    "title": "Example vs 50/30/20 needs target",
+    "left": {
+     "label": "Target (50%)",
+     "value": "$2,250",
+     "tone": "neutral"
     },
-    "to": {
-     "label": "Paid over 72 months",
-     "value": "$1,807.77"
+    "right": {
+     "label": "Example needs",
+     "value": "$3,075",
+     "tone": "down",
+     "sub": "68% of take-home"
     }
    }
   },
   {
    "who": "ticker",
-   "text": "The buyer pays $1,807.77 for them, including $307.77 in interest.",
-   "say": "The buyer pays eighteen hundred seven dollars and seventy-seven cents for them, including three hundred seven dollars and seventy-seven cents in interest.",
+   "text": "That's 68% for needs. So here, 50/30/20 might become 68/20/12 for now, with a plan to shift it over time.",
+   "say": "That's sixty-eight percent for needs. So here, fifty thirty twenty might become sixty-eight, twenty, twelve for now, with a plan to shift it over time.",
    "scene": {
-    "t": "stat",
-    "label": "Example: add-on interest",
-    "value": "$307.77",
-    "tone": "down",
-    "sub": "$1,500 at 6.35%, 72 months"
+    "t": "list",
+    "title": "Adjusted split (example)",
+    "items": [
+     "68% needs ($3,075)",
+     "20% wants ($900)",
+     "~12% savings ($525)"
+    ],
+    "reveal": 3
    }
   },
   {
    "who": "ticker",
-   "text": "Chapter five. The trade-in, and signing day.",
-   "say": "Chapter five. The trade-in, and signing day.",
+   "text": "It's simple and flexible. The catch: housing alone is a third of the average budget.",
+   "say": "It's simple and flexible. The catch is that housing alone is a third of the average budget.",
    "scene": {
-    "t": "chapter",
-    "n": 5,
-    "title": "Trade-in and signing day"
+    "t": "compare",
+    "title": "50/30/20 reality check",
+    "left": {
+     "label": "Needs target",
+     "value": "50%",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Avg housing alone",
+     "value": "33.4%",
+     "tone": "down",
+     "sub": "share of spending"
+    }
    }
   },
   {
    "who": "ticker",
-   "text": "Trading in the old car can save money in a way people forget: sales tax.",
-   "say": "Trading in the old car can save money in a way people forget: sales tax.",
+   "text": "In pricey cities, needs can blow past 50%. Then the rule is a starting point, not a law.",
+   "say": "In pricey cities, needs can blow right past fifty percent. Then the rule is a starting point, not a law.",
    "scene": {
     "t": "hook",
-    "title": "The trade-in [tax] break",
-    "prop": "car",
-    "label": "TRADE",
-    "value": "-$900",
+    "title": "Rule, not [law]",
+    "prop": "house",
+    "label": "NEEDS",
+    "value": ">50%?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Method two is the zero-based budget: give every dollar a job until nothing is left over.",
+   "say": "Method two is the zero-based budget. You give every dollar a job until nothing is left over.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Income",
+     "- every planned dollar",
+     "= $0 left"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Zero doesn't mean you spend everything. Savings is one of the jobs.",
+   "say": "Zero doesn't mean you spend everything. Savings is just one of the jobs.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Take-home",
+     "value": "$4,500"
+    },
+    "to": {
+     "label": "Unassigned",
+     "value": "$0"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It takes more time, but you always know where the money went.",
+   "say": "It takes more time, but you always know exactly where the money went.",
+   "scene": {
+    "t": "split",
+    "title": "Zero-based budget",
+    "left": {
+     "title": "Pros",
+     "items": [
+      "Total control",
+      "No leaks"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Cons",
+     "items": [
+      "More time",
+      "Monthly redo"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In our example, the last $1,425 might be $500 savings, $300 extra debt, $500 fun, $125 buffer.",
+   "say": "In our example, the last fourteen twenty-five might be five hundred to savings, three hundred extra to debt, five hundred for fun, and a hundred twenty-five as a buffer.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$500 savings + $300 debt",
+     "+ $500 fun + $125 buffer",
+     "= $1,425 -> $0 left"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Method three is pay yourself first: move savings out on payday, then spend the rest freely.",
+   "say": "Method three is pay yourself first. Move your savings out on payday, then spend the rest freely.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay yourself [first]",
+    "prop": "coins",
+    "label": "PAYDAY",
+    "value": "$900",
     "mood": "happy"
    }
   },
   {
    "who": "ticker",
-   "text": "Most states tax only the difference between the new price and the trade-in. California is one exception that taxes the full price.",
-   "say": "Most states tax only the difference between the new price and the trade-in. California is one exception that taxes the full price.",
+   "text": "It's the least tracking of the three, and it fixes the 4.1% problem directly.",
+   "say": "It's the least tracking of the three, and it goes straight at that four point one percent problem.",
+   "scene": {
+    "t": "compare",
+    "title": "Least effort vs most control",
+    "left": {
+     "label": "Pay yourself first",
+     "value": "Easy",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Zero-based",
+     "value": "Detail",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even $500 a month saved from $4,500 take-home is about 11%, close to triple the national rate.",
+   "say": "Even five hundred a month saved from forty-five hundred take-home is about eleven percent. That's close to triple the national rate.",
+   "scene": {
+    "t": "compare",
+    "title": "Savings rate",
+    "left": {
+     "label": "US, Aug 2026",
+     "value": "4.1%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Example: $500/$4,500",
+     "value": "11.1%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's no single best method. The best one is the one you'll still use in six months.",
+   "say": "There's no single best method. The best one is the one you'll still be using six months from now.",
    "scene": {
     "t": "board",
     "lines": [
-     "Taxed amount =",
-     "price - trade-in",
-     "(in most states)"
+     "Best method =",
+     "the one you",
+     "keep using"
     ]
    }
   },
   {
    "who": "ticker",
-   "text": "For example, a $38,000 car and a $15,000 trade, with 6% tax. Without the credit, tax is $2,280.",
-   "say": "For example, a thirty-eight thousand dollar car and a fifteen thousand dollar trade, with six percent tax. Without the credit, tax is two thousand two hundred eighty dollars.",
-   "scene": {
-    "t": "compare",
-    "title": "Example: $38K car, $15K trade",
-    "left": {
-     "label": "Tax on full price",
-     "value": "$2,280",
-     "tone": "down",
-     "sub": "no trade credit"
-    },
-    "right": {
-     "label": "Tax on difference",
-     "value": "$1,380",
-     "tone": "up",
-     "sub": "trade credit"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "With it, the tax is on $23,000, which is $1,380. That's $900 kept in the buyer's pocket.",
-   "say": "With it, the tax is on twenty-three thousand dollars, which is one thousand three hundred eighty dollars. That's nine hundred dollars kept in the buyer's pocket.",
-   "scene": {
-    "t": "compare",
-    "keep": true,
-    "winner": "right"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Edmunds says 29.6% of trade-ins toward new cars had negative equity in the second quarter of 2026.",
-   "say": "Edmunds says twenty-nine point six percent of trade-ins toward new cars had negative equity in the second quarter of twenty twenty-six.",
-   "scene": {
-    "t": "stat",
-    "label": "New-car trade-ins underwater",
-    "value": "29.6%",
-    "tone": "down",
-    "sub": "Edmunds, Q2 2026",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Negative equity means the owner owes more on the old car than it's worth. The average gap was $6,884.",
-   "say": "Negative equity means the owner owes more on the old car than it's worth. The average gap was six thousand eight hundred eighty-four dollars.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "Still owed",
-     "value": "more"
-    },
-    "to": {
-     "label": "Avg gap, Q2 2026",
-     "value": "$6,884"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That gap usually gets rolled into the new loan. Here's that slice alone, at 6.35% for 72 months.",
-   "say": "That gap usually gets rolled into the new loan. Here's that slice alone, at six point three five percent for seventy-two months.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "$6,884 at 6.35%",
-     "72 months (example)"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It adds $115.23 to every payment and about $1,412 in interest, for a car the buyer no longer owns.",
-   "say": "It adds a hundred fifteen dollars and twenty-three cents to every payment and about fourteen hundred twelve dollars in interest, for a car the buyer no longer owns.",
-   "scene": {
-    "t": "compare",
-    "title": "Example: rolling in $6,884",
-    "left": {
-     "label": "Added payment",
-     "value": "$115.23",
-     "tone": "down",
-     "sub": "per month"
-    },
-    "right": {
-     "label": "Added interest",
-     "value": "$1,412",
-     "tone": "down",
-     "sub": "over 72 months"
-    },
-    "mood": "sad"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In Edmunds' data, those buyers paid $944 a month on average in Q2 2026, versus $777 for all new-car loans.",
-   "say": "In Edmunds' data, those buyers paid nine hundred forty-four dollars a month on average in the second quarter of twenty twenty-six, versus seven hundred seventy-seven for all new-car loans.",
-   "scene": {
-    "t": "compare",
-    "title": "Avg new-car payment, Q2 2026",
-    "left": {
-     "label": "All new loans",
-     "value": "$777",
-     "tone": "neutral",
-     "sub": "per month"
-    },
-    "right": {
-     "label": "Negative equity",
-     "value": "$944",
-     "tone": "down",
-     "sub": "per month"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And their projected interest averaged $16,270, compared with $9,811 for the average new-car buyer.",
-   "say": "And their projected interest averaged sixteen thousand two hundred seventy dollars, compared with nine thousand eight hundred eleven dollars for the average new-car buyer.",
-   "scene": {
-    "t": "compare",
-    "title": "Projected loan interest, Q2 2026",
-    "left": {
-     "label": "Avg new-car buyer",
-     "value": "$9,811",
-     "tone": "neutral",
-     "sub": "Edmunds"
-    },
-    "right": {
-     "label": "Negative equity",
-     "value": "$16,270",
-     "tone": "down",
-     "sub": "Edmunds"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Some owners in that spot keep the old car longer and pay it down first, so the gap shrinks before they trade.",
-   "say": "Some owners in that spot keep the old car longer and pay it down first, so the gap shrinks before they trade.",
-   "scene": {
-    "t": "hook",
-    "title": "Shrink the [gap] first",
-    "prop": "chart-down",
-    "label": "OWED",
-    "value": "-$6,884",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And now, the rules on signing day.",
-   "say": "And now, the rules on signing day.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Signing day rules"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Here's a myth: that every car purchase comes with three days to change your mind.",
-   "say": "Here's a myth: that every car purchase comes with three days to change your mind.",
-   "scene": {
-    "t": "hook",
-    "title": "A 3-day [return]?",
-    "prop": "car",
-    "label": "MYTH",
-    "value": "No",
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The FTC says federal law doesn't require dealers to give buyers three days to cancel. Its Cooling-Off Rule doesn't cover cars.",
-   "say": "The F T C says federal law doesn't require dealers to give buyers three days to cancel. Its Cooling-Off Rule doesn't cover cars.",
-   "scene": {
-    "t": "stat",
-    "label": "Federal car return right",
-    "value": "None",
-    "tone": "down",
-    "sub": "FTC consumer guidance"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "California now does. Under its CARS Act, used cars priced at $50,000 or less can be returned within three days.",
-   "say": "California now does. Under its CARS Act, used cars priced at fifty thousand dollars or less can be returned within three days.",
+   "text": "Quick summary: 50/30/20 for simplicity, zero-based for control, pay-yourself-first for low effort.",
+   "say": "Quick summary. Fifty thirty twenty for simplicity, zero-based for control, and pay yourself first for low effort.",
    "scene": {
     "t": "list",
-    "title": "California 3-day return",
+    "title": "Which method fits?",
     "items": [
-     "Used, $50,000 or less",
-     "400 miles or less",
-     "Restocking fee capped"
+     "50/30/20: simple",
+     "Zero-based: control",
+     "Pay yourself first: easy"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can also mix them: pay yourself first, then use 50/30/20 for what's left.",
+   "say": "You can also mix them. Pay yourself first, then use fifty thirty twenty for whatever's left.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Save on payday,",
+     "then split",
+     "the rest"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. Make it stick.",
+   "say": "Chapter five. Make it stick.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Make it stick"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trick one: automate. Set savings and bills to move on payday, so willpower isn't needed.",
+   "say": "Trick one. Automate. Set savings and bills to move on payday, so willpower isn't needed.",
+   "scene": {
+    "t": "list",
+    "title": "Make it stick",
+    "items": [
+     "Automate payday",
+     "Weekly 10 minutes",
+     "Buffer category",
+     "Adjust monthly"
     ],
     "reveal": 1
    }
   },
   {
    "who": "ticker",
-   "text": "That ends if the car's been driven more than 400 miles,",
-   "say": "That ends if the car's been driven more than four hundred miles,",
+   "text": "Trick two: a 10-minute check-in once a week, instead of tracking every purchase.",
+   "say": "Trick two. A ten-minute check-in once a week, instead of tracking every single purchase.",
    "scene": {
     "t": "list",
     "keep": true,
+    "title": "Make it stick",
+    "items": [
+     "Automate payday",
+     "Weekly 10 minutes",
+     "Buffer category",
+     "Adjust monthly"
+    ],
     "reveal": 2
    }
   },
   {
    "who": "ticker",
-   "text": "and the dealer can charge a restocking fee, though the law caps it.",
-   "say": "and the dealer can charge a restocking fee, though the law caps it.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "On used cars, the FTC requires a Buyers Guide in the window, saying whether there's a warranty or the car's sold as is.",
-   "say": "On used cars, the F T C requires a Buyers Guide in the window, saying whether there's a warranty or the car's sold as is.",
+   "text": "Ten minutes: check the account, compare to the plan, move money between categories if needed.",
+   "say": "In those ten minutes, check your accounts, compare them to the plan, and move money between categories if you need to.",
    "scene": {
     "t": "board",
     "lines": [
-     "Buyers Guide:",
-     "warranty, or",
-     "AS IS - NO WARRANTY"
+     "1. Check accounts",
+     "2. Compare to plan",
+     "3. Move money"
     ]
    }
   },
   {
    "who": "ticker",
-   "text": "As is means the dealer won't pay for problems after the sale. That's why some used-car buyers pay for an independent inspection first.",
-   "say": "As is means the dealer won't pay for problems after the sale. That's why some used-car buyers pay for an independent inspection first.",
+   "text": "Trick three: a small buffer category for things you can't predict.",
+   "say": "Trick three. A small buffer category, for the things you really can't predict.",
    "scene": {
-    "t": "split",
-    "title": "Used car, sold as is",
+    "t": "hook",
+    "title": "Trick three: a small buffer category for things ",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you carry a credit card balance, the savings slice can go to it first.",
+   "say": "If you're carrying a credit card balance, the savings slice can go toward that first.",
+   "scene": {
+    "t": "hook",
+    "title": "Debt [first]?",
+    "prop": "card",
+    "label": "BALANCE",
+    "value": "22% APR?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $3,000 at a 22% APR costs about $55 a month in interest, before you pay down a dollar.",
+   "say": "Here's an example. Three thousand dollars at a twenty-two percent A P R costs about fifty-five dollars a month in interest, before you pay down a single dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$3,000 x 22%",
+     "= $660 a year",
+     "/ 12 = $55 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why paying off high-interest debt often counts as part of your 20%.",
+   "say": "That's why paying off high-interest debt often counts as part of your twenty percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Where the 20% can go",
     "left": {
-     "title": "Dealer covers",
-     "items": [
-      "Nothing after sale"
-     ],
-     "tone": "down"
+     "label": "Savings",
+     "value": "Cushion",
+     "tone": "up"
     },
     "right": {
-     "title": "Buyers often get",
+     "label": "High-rate debt",
+     "value": "Payoff",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trick four: adjust every month. A budget that bends doesn't break.",
+   "say": "Trick four. Adjust it every month. A budget that bends doesn't break.",
+   "scene": {
+    "t": "hook",
+    "title": "Trick four: adjust every month. A budget that be",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trick five: when you get a raise, decide where the extra goes before it hits your account.",
+   "say": "Trick five. When you get a raise, decide where the extra goes before it ever hits your account.",
+   "scene": {
+    "t": "hook",
+    "title": "Plan the [raise]",
+    "prop": "chart-up",
+    "label": "RAISE",
+    "value": "+$200",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $200-a-month raise, half to savings, is $1,200 more saved per year.",
+   "say": "For example, a two hundred dollar a month raise, with half going to savings, is twelve hundred dollars more saved per year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$200 raise / 2",
+     "= $100 a month",
+     "x 12 = $1,200 a year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You still feel the raise, and your savings grow without any new sacrifice.",
+   "say": "You still feel the raise. And your savings grow without any new sacrifice.",
+   "scene": {
+    "t": "split",
+    "title": "A $200 raise",
+    "left": {
+     "title": "You enjoy",
      "items": [
-      "Independent inspection",
-      "Vehicle history"
+      "$100 a month"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "You save",
+     "items": [
+      "$100 a month"
      ],
      "tone": "up"
     }
@@ -1123,310 +1261,214 @@
   },
   {
    "who": "ticker",
-   "text": "One newer rule can help new-car buyers: a federal tax deduction for car loan interest, for tax years 2025 through 2028.",
-   "say": "One newer rule can help new-car buyers: a federal tax deduction for car loan interest, for tax years twenty twenty-five through twenty twenty-eight.",
+   "text": "And remember that $400 test? A budget is how you pass it.",
+   "say": "And remember that four hundred dollar test? A budget is how you pass it.",
    "scene": {
-    "t": "stat",
-    "label": "Max deduction per year",
-    "value": "$10,000",
-    "tone": "up",
-    "sub": "tax years 2025-2028"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The IRS finalized the details in September 2026. The car has to be new, assembled in the US, for personal use, with the loan taken out after 2024.",
-   "say": "The IRS finalized the details in September twenty twenty-six. The car has to be new, assembled in the US, for personal use, with the loan taken out after twenty twenty-four.",
-   "scene": {
-    "t": "list",
-    "title": "Who qualifies",
-    "items": [
-     "New, not used",
-     "Final assembly in US",
-     "Personal use",
-     "Loan after 2024"
-    ],
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Leases don't count. It phases out between $100K and $150K of modified adjusted gross income, or $200K to $250K for joint filers.",
-   "say": "Leases don't count. It phases out between a hundred and a hundred fifty thousand dollars of modified adjusted gross income, or two hundred to two hundred fifty thousand for joint filers.",
-   "scene": {
-    "t": "compare",
-    "title": "Deduction phase-out (MAGI)",
-    "left": {
-     "label": "Single",
-     "value": "$100K",
-     "tone": "neutral",
-     "sub": "gone at $150K"
-    },
-    "right": {
-     "label": "Joint",
-     "value": "$200K",
-     "tone": "neutral",
-     "sub": "gone at $250K"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And interest on rolled-in negative equity isn't deductible. Only the part of the loan that bought the new car counts.",
-   "say": "And interest on rolled-in negative equity isn't deductible. Only the part of the loan that bought the new car counts.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Negative equity",
-     "interest: not deductible"
-    ],
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "What's it worth? On our $35,000 example at 6.35%, first-year interest is $2,045.77.",
-   "say": "What's it worth? On our thirty-five thousand dollar example at six point three five percent, first-year interest is two thousand forty-five dollars and seventy-seven cents.",
-   "scene": {
-    "t": "stat",
-    "label": "Example: year-1 interest",
-    "value": "$2,045.77",
-    "tone": "neutral",
-    "sub": "6.35%, 60 months"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It's a deduction, not a credit. In the 22% bracket, that's worth about $450 in tax; in the 12% bracket, about $245.",
-   "say": "It's a deduction, not a credit. In the twenty-two percent bracket, that's worth about four hundred fifty dollars in tax; in the twelve percent bracket, about two hundred forty-five.",
-   "scene": {
-    "t": "compare",
-    "title": "Example: tax value of $2,045.77",
-    "left": {
-     "label": "12% bracket",
-     "value": "~$245",
-     "tone": "neutral",
-     "sub": "tax saved"
-    },
-    "right": {
-     "label": "22% bracket",
-     "value": "~$450",
-     "tone": "up",
-     "sub": "tax saved"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Helpful, but a first-year value of about $450 is smaller than the roughly $1,992 a two-point markup cost over five years in our example.",
-   "say": "Helpful, but a first-year value of about four hundred fifty dollars is smaller than the roughly nineteen hundred ninety-two dollars a two-point markup cost over five years in our example.",
-   "scene": {
-    "t": "compare",
-    "title": "Example comparison",
-    "left": {
-     "label": "Tax value, yr 1",
-     "value": "~$450",
-     "tone": "up",
-     "sub": "22% bracket"
-    },
-    "right": {
-     "label": "2-pt markup",
-     "value": "$1,992",
-     "tone": "down",
-     "sub": "over 5 years"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter six. The recap and the checklist.",
-   "say": "Chapter six. The recap and the checklist.",
-   "scene": {
-    "t": "chapter",
-    "n": 6,
-    "title": "Recap and checklist"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "First, the costliest mistakes from our examples.",
-   "say": "First, the costliest mistakes from our examples.",
-   "scene": {
-    "t": "list",
-    "title": "Costly mistakes (examples)",
-    "items": [
-     "Payment-only shopping",
-     "Unchecked rate markup",
-     "Financed add-ons",
-     "Rolled-in negative equity"
-    ],
-    "reveal": 1,
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Shopping only by the monthly payment hides the total.",
-   "say": "Shopping only by the monthly payment hides the total.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "A two-point rate markup cost about $1,992 on a $35,000 loan.",
-   "say": "A two-point rate markup cost about nineteen hundred ninety-two dollars on a thirty-five thousand dollar loan.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 2
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "$1,500 of financed add-ons turned into about $1,808.",
-   "say": "Fifteen hundred dollars of financed add-ons turned into about eighteen hundred eight dollars.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And rolling in $6,884 of negative equity added about $1,412 in interest.",
-   "say": "And rolling in six thousand eight hundred eighty-four dollars of negative equity added about fourteen hundred twelve dollars in interest.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Now the one-screen checklist, in the order buyers usually go.",
-   "say": "Now the one-screen checklist, in the order buyers usually go.",
-   "scene": {
-    "t": "list",
-    "title": "The checklist",
-    "items": [
-     "Out-the-door budget",
-     "Loan pre-approval",
-     "Written OTD quotes",
-     "Trade priced separately"
-    ],
-    "reveal": 1,
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "An out-the-door budget that includes fees and taxes.",
-   "say": "An out-the-door budget that includes fees and taxes.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "A loan pre-approval, so the dealer's rate has a number to beat.",
-   "say": "A loan pre-approval, so the dealer's rate has a number to beat.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 2
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Written out-the-door quotes from more than one dealer.",
-   "say": "Written out-the-door quotes from more than one dealer.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And a trade-in priced separately, with any negative equity known up front.",
-   "say": "And a trade-in priced separately, with any negative equity known up front.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "On signing day, the last checks: every add-on optional and listed, the Buyers Guide on a used car, and the contract rate matching the quote.",
-   "say": "On signing day, the last checks: every add-on optional and listed, the Buyers Guide on a used car, and the contract rate matching the quote.",
-   "scene": {
-    "t": "list",
-    "title": "Signing day checks",
-    "items": [
-     "Add-ons listed, optional",
-     "Buyers Guide reviewed",
-     "Rate matches quote"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The sticker gets all the attention. But the deal is four numbers, and each one has its own math.",
-   "say": "The sticker gets all the attention. But the deal is four numbers, and each one has its own math.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Price + rate",
-     "+ trade-in + fees",
-     "= what a buyer pays"
-    ],
+    "t": "hook",
+    "title": "Pass the [$400] test",
+    "prop": "pot",
+    "label": "EMERGENCY",
+    "value": "$400",
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "The average new car went for $50,089 in August 2026. What a buyer pays depends on the other three numbers.",
-   "say": "The average new car went for fifty thousand eighty-nine dollars in August twenty twenty-six. What a buyer pays depends on the other three numbers.",
+   "text": "Saving $25 a week gets you to $400 in 16 weeks.",
+   "say": "Saving twenty-five dollars a week gets you to four hundred dollars in sixteen weeks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$25 a week",
+     "x 16 weeks",
+     "= $400"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $3.57 a day, about the price of one coffee.",
+   "say": "That's about three dollars and fifty-seven cents a day. Roughly the price of one coffee.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$25 / 7 days",
+     "= $3.57 a day"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Keep going, and that small cushion grows into a real emergency fund.",
+   "say": "Keep going, and that small cushion grows into a real emergency fund.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Week 16",
+     "value": "$400"
+    },
+    "to": {
+     "label": "Week 52",
+     "value": "$1,300"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After a full year, that's $1,300, enough to handle many common surprises without a credit card.",
+   "say": "After a full year, that's thirteen hundred dollars. Enough to handle a lot of common surprises without a credit card.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$25 x 52 weeks",
+     "= $1,300 a year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's how you move from the 37% to the 63%: not with a perfect plan, but a steady one.",
+   "say": "That's how you move from the thirty-seven percent to the sixty-three percent. Not with a perfect plan. With a steady one.",
+   "scene": {
+    "t": "compare",
+    "title": "Could cover $400, cash or equivalent",
+    "left": {
+     "label": "No",
+     "value": "37%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Yes",
+     "value": "63%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. Recap.",
+   "say": "Chapter six. Recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Americans saved about 4% of after-tax income in August 2026. Common rules aim for 20%.",
+   "say": "Americans saved about four percent of after-tax income in August twenty twenty-six. Common rules aim for twenty.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Saving rate: 4.1%",
+     "Big three: 63% of spending",
+     "Plan yearly bills",
+     "Pick, automate, adjust"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Housing, transportation and food are 63% of the average household's spending, so look there first.",
+   "say": "Housing, transportation and food are sixty-three percent of the average household's spending. So look there first.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Saving rate: 4.1%",
+     "Big three: 63% of spending",
+     "Plan yearly bills",
+     "Pick, automate, adjust"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan the big three first, then fit the small stuff around them.",
+   "say": "Plan the big three first, then fit the small stuff around them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Big three first,",
+     "small stuff after"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Turn yearly bills into monthly sinking funds, so they stop being surprises.",
+   "say": "Turn yearly bills into monthly sinking funds, so they stop being surprises.",
    "scene": {
     "t": "hook",
-    "title": "The [$50,000] car",
-    "prop": "car",
-    "label": "AUG 2026",
-    "value": "$50,089",
+    "title": "Turn yearly bills into monthly sinking funds, so",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pick a method you'll keep, automate it, and adjust it every month.",
+   "say": "And pick a method you'll keep, automate it, and adjust it every month.",
+   "scene": {
+    "t": "hook",
+    "title": "Pick a method you'll keep, automate it, and adju",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start small. Even one automatic transfer this payday beats a perfect plan you never start.",
+   "say": "Start small. Even one automatic transfer this payday beats a perfect plan you never start.",
+   "scene": {
+    "t": "hook",
+    "title": "Start [this] payday",
+    "prop": "coins",
+    "label": "AUTO-SAVE",
+    "value": "$25",
     "mood": "happy"
    }
   },
   {
    "who": "ticker",
-   "text": "That's the money. Subscribe for more guides like this one.",
-   "say": "That's the money. Subscribe for more guides like this one.",
+   "text": "A budget isn't a diet. It's a plan that lets you spend on what matters to you, on purpose.",
+   "say": "A budget isn't a diet. It's a plan that lets you spend on what matters to you, on purpose.",
+   "scene": {
+    "t": "hook",
+    "title": "Spend on [purpose]",
+    "prop": "paper",
+    "label": "BUDGET",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this made budgeting click, subscribe for more. See you next time.",
+   "say": "If this made budgeting finally click, subscribe for more. See you next time.",
    "scene": {
     "t": "cta",
-    "tagline": "News and education, not financial advice."
+    "tagline": "Money, explained from zero.",
+    "mood": "happy"
    }
   }
  ],
  "post": {
-  "title": "New cars averaged over $50,000 in August 2026. How buyers avoid overpaying, step by step",
-  "ig": "The average new car sold for $50,089 in August 2026. Here's the math on the other three numbers in the deal.",
-  "tiktok": "A $50,089 average new car in August 2026, and a 2-point rate bump that costs about $2,000. The full car-buying math.",
-  "yt_desc": "The average new vehicle sold for $50,089 in August 2026, but the sticker is only one of four numbers that decide what a buyer pays. This guide walks through buying a car in order: budgeting on the out-the-door price, how dealer-arranged loan rates work and what a 2-point markup costs, finding a fair price, doc fees and add-ons (including California's CARS Act, in effect October 1, 2026), trade-ins and negative equity, and the signing-day rules, including the new federal car loan interest deduction. All loan examples are labeled hypotheticals with fixed rates and no fees. It ends with the common mistakes and a one-screen checklist.\n\nCHAPTERS\n\nSources: Kelley Blue Book average transaction price reports (Jan–Aug 2026); Cox Automotive used-vehicle report (August 2026 data); Experian State of the Automotive Finance Market Q2 2026; Edmunds negative equity report (Q2 2026); CFPB Ask CFPB on buy rates and auto-loan rate shopping; FTC guidance on buying a used car and the Cooling-Off Rule; Fifth Circuit, NADA v. FTC (Jan 27, 2025); California SB 766, CARS Act (effective Oct 1, 2026), via Press Democrat (Sept 24, 2026); California Vehicle Code 4456.5 and CalMatters (Oct 2025); CarEdge doc fee survey (2026); IRS and Federal Register, car loan interest deduction final regulations (Sept 2026).\n\nNews and education, not financial advice.\n\n#carbuying #personalfinance #autoloan",
+  "title": "Americans save about 4 cents per dollar. How to build a budget that actually works",
+  "ig": "Americans saved just 4.1% of after-tax income in Aug 2026. Here's a budget that actually works.",
+  "tiktok": "Americans save about 4 cents per dollar. Here's how to build a budget that sticks.",
+  "yt_desc": "Americans saved just 4.1% of disposable income in August 2026, and only 63% of adults say they'd cover a $400 surprise with cash or its equivalent. We look at where the average household's $78,535 actually goes, why budgets fail, how to build one in four steps with sinking funds, and how 50/30/20, zero-based and pay-yourself-first budgets compare.\n\nCHAPTERS\n\nSources:\n- BEA, Personal Income and Outlays, August 2026 (Sept 30, 2026)\n- Federal Reserve, Economic Well-Being of U.S. Households in 2025 (May 2026)\n- BLS, Consumer Expenditures 2024 (Dec 19, 2025) and earlier releases\n- Elizabeth Warren and Amelia Warren Tyagi, All Your Worth (2005)\n\nNews and education, not financial advice.\n\n#Budgeting #PersonalFinance #MoneyTips",
   "tags": [
-   "how to buy a car",
-   "car buying tips",
-   "out the door price",
-   "auto loan",
-   "dealer fees",
-   "negative equity",
-   "car loan interest deduction",
-   "personal finance"
+   "how to make a budget",
+   "budgeting for beginners",
+   "50/30/20 rule",
+   "zero based budget",
+   "pay yourself first",
+   "sinking funds",
+   "personal finance",
+   "FinanceProsTV"
   ]
  }
 }
