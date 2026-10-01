@@ -1,155 +1,79 @@
 {
- "series": "acorn",
- "header": "Dividends,\nexplained with acorns",
- "cover": {
-  "title": "Dividends, With Acorns",
-  "prop": "acorns",
-  "value": "4%?"
- },
- "lines": [
-  {
-   "who": "nutty",
-   "text": "100 shares can pay you $200 a year. Here's the catch.",
-   "say": "A hundred shares can pay you two hundred dollars a year. Here's the catch.",
-   "scene": {
-    "t": "hook",
-    "title": "Paid for [owning]",
+  "series": "acorn",
+  "header": "Why Timing the Market\nIs So Hard",
+  "cover": {
+    "title": "Miss 10 Days, Lose 56%",
     "prop": "acorns",
-    "value": "$200/yr",
-    "mood": "shock"
-   }
+    "label": "20 YEARS",
+    "value": "-56%"
   },
-  {
-   "who": "nutty",
-   "text": "Squirrel owns a piece of an oak. The oak shares acorns with its owners. That's a dividend.",
-   "say": "Squirrel owns a piece of an oak. The oak shares acorns with its owners. That's a dividend.",
-   "scene": {
-    "t": "squirrel",
-    "kind": "tree",
-    "caption": "dividend = shared acorns"
-   }
-  },
-  {
-   "who": "nutty",
-   "text": "In money terms: a slice of company profit paid to shareholders, often every 3 months.",
-   "say": "In money terms, it's a slice of company profit paid to shareholders, often every three months.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Dividend =",
-     "profit paid to owners",
-     "(often quarterly)"
-    ]
-   }
-  },
-  {
-   "who": "nutty",
-   "text": "100 shares paying $0.50 a quarter = $50 a quarter, $200 a year.",
-   "say": "A hundred shares paying fifty cents a quarter? That's two hundred dollars a year.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "100 shares x $0.50",
-     "= $50 a quarter",
-     "x 4 = $200 a year"
-    ]
-   }
-  },
-  {
-   "who": "nutty",
-   "text": "At $50 a share, the yield is $2 / $50 = 4%.",
-   "say": "At fifty dollars a share, that's a four percent yield.",
-   "scene": {
-    "t": "stat",
-    "label": "Dividend yield in the example",
-    "value": "4%",
-    "tone": "up",
-    "sub": "$2 a year / $50 share price"
-   }
-  },
-  {
-   "who": "nutty",
-   "text": "Big US stocks pay less: the S&P 500 yielded about 1% in September 2026, near a record low.",
-   "say": "Big US stocks pay less. The S and P five hundred yielded about one percent in September twenty twenty-six, near a record low.",
-   "scene": {
-    "t": "stat",
-    "label": "S&P 500 dividend yield",
-    "value": "~1%",
-    "tone": "neutral",
-    "sub": "as of Sept 2026"
-   }
-  },
-  {
-   "who": "nutty",
-   "text": "Payouts have grown: from $66.92 a share in 2022 to $78.92 in 2025.",
-   "say": "But payouts have grown, from about sixty-seven dollars a share in twenty twenty-two to seventy-nine in twenty twenty-five.",
-   "scene": {
-    "t": "chart",
-    "title": "S&P 500 dividends per share",
-    "points": [
-     [
-      2022,
-      66.92
-     ],
-     [
-      2023,
-      70.3
-     ],
-     [
-      2024,
-      74.83
-     ],
-     [
-      2025,
-      78.92
-     ]
-    ],
-    "prefix": "$",
-    "end": "$78.92",
-    "color": "up"
-   }
-  },
-  {
-   "who": "nutty",
-   "text": "Plot twist: on the ex-dividend date, the stock usually drops by about the dividend.",
-   "say": "Plot twist. On the ex-dividend date, the stock usually drops by about the dividend. The tree gets lighter.",
-   "scene": {
-    "t": "squirrel",
-    "kind": "think",
-    "caption": "tree gets lighter",
-    "value": "-$0.50"
-   }
-  },
-  {
-   "who": "nutty",
-   "text": "So a dividend isn't free money. It's part of what you own, paid in cash, and it can be cut.",
-   "say": "So a dividend isn't free money. It's part of what you own, paid in cash. And it can be cut.",
-   "scene": {
-    "t": "squirrel",
-    "kind": "basket",
-    "label": "NOT FREE MONEY"
-   }
-  },
-  {
-   "who": "nutty",
-   "text": "Squirrel explained dividends. Squirrel would like one follow.",
-   "say": "Squirrel explained dividends. Squirrel would like one follow.",
-   "scene": {
-    "t": "cta"
-   }
+  "lines": [
+    {
+      "who": "nutty",
+      "text": "Missing 10 days in 20 years shrank this pile by 56%.",
+      "say": "Missing ten days in twenty years shrank this pile by fifty-six percent.",
+      "scene": {"t": "hook", "title": "10 Days. [56%] Gone.", "prop": "acorns", "label": "20 YEARS", "value": "-56%", "mood": "shock"}
+    },
+    {
+      "who": "nutty",
+      "text": "J.P. Morgan tracked $10,000 in the S&P 500 from 2006 to 2025. Left alone: $80,619.",
+      "say": "J.P. Morgan tracked ten thousand dollars in the S and P five hundred from two thousand six through twenty twenty-five. Left alone, it grew to eighty thousand, six hundred nineteen dollars.",
+      "scene": {"t": "compare", "title": "$10,000 in the S&P 500, 2006-2025", "left": {"label": "Stayed in", "value": "$80,619", "tone": "up", "sub": "11.0% a year"}, "right": {"label": "Missed 10 best days", "value": "$35,866", "tone": "down", "sub": "6.6% a year"}, "mood": "think"}
+    },
+    {
+      "who": "nutty",
+      "text": "Miss only the 10 best days and it's $35,866.",
+      "say": "Miss only the ten best days, and it's thirty-five thousand, eight hundred sixty-six.",
+      "scene": {"t": "compare", "keep": true, "winner": "left", "title": "$10,000 in the S&P 500, 2006-2025", "left": {"label": "Stayed in", "value": "$80,619", "tone": "up", "sub": "11.0% a year"}, "right": {"label": "Missed 10 best days", "value": "$35,866", "tone": "down", "sub": "6.6% a year"}, "mood": "shock"}
+    },
+    {
+      "who": "nutty",
+      "text": "That's 10 days out of about 5,000 trading days: 0.2%.",
+      "say": "That's ten days out of about five thousand trading days. Zero point two percent.",
+      "scene": {"t": "board", "lines": ["10 of ~5,000 trading days", "= 0.2% of the days"], "mood": "think"}
+    },
+    {
+      "who": "nutty",
+      "text": "Why not just skip the bad days? Squirrel tried. Squirrel can't tell them apart.",
+      "say": "Why not just skip the bad days? Squirrel tried. Squirrel can't tell them apart.",
+      "scene": {"t": "squirrel", "kind": "think", "caption": "Bad day or good day?", "value": "?", "mood": "think"}
+    },
+    {
+      "who": "nutty",
+      "text": "March 12, 2020: the S&P 500 fell 9.5%.",
+      "say": "On March twelfth, twenty twenty, the S and P five hundred fell nine point five percent.",
+      "scene": {"t": "chart", "title": "S&P 500 daily close, March 9-17, 2020", "points": [[9, 2746.56], [10, 2882.23], [11, 2741.38], [12, 2480.64], [13, 2711.02], [16, 2386.13], [17, 2529.19]], "end": "2,529", "color": "down", "mood": "worried"}
+    },
+    {
+      "who": "nutty",
+      "text": "The next day, it jumped 9.3%.",
+      "say": "The next day, it jumped nine point three percent.",
+      "scene": {"t": "chart", "keep": true, "chart_note": {"x": 13, "text": "+9.3% next day!"}, "title": "S&P 500 daily close, March 9-17, 2020", "points": [[9, 2746.56], [10, 2882.23], [11, 2741.38], [12, 2480.64], [13, 2711.02], [16, 2386.13], [17, 2529.19]], "end": "2,529", "color": "down", "mood": "shock"}
+    },
+    {
+      "who": "nutty",
+      "text": "Not a fluke: 6 of the 10 best days came within 2 weeks of the 10 worst.",
+      "say": "It's not a fluke. Six of the ten best days in those years came within two weeks of the ten worst.",
+      "scene": {"t": "stat", "label": "Best days within 2 weeks of the 10 worst days, 2006-2025", "value": "6 of 10", "tone": "neutral", "sub": "J.P. Morgan, Guide to Retirement 2026", "mood": "think"}
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel runs from the storm. The acorn rain comes right after.",
+      "say": "Squirrel runs from the storm. The acorn rain comes right after.",
+      "scene": {"t": "squirrel", "kind": "wait", "caption": "Good days hide next to bad ones", "mood": "sad"}
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel explained market timing. Squirrel would like one follow.",
+      "say": "Squirrel explained market timing. Squirrel would like one follow.",
+      "scene": {"t": "cta", "tagline": "Education, not financial advice.", "mood": "happy"}
+    }
+  ],
+  "post": {
+    "title": "Missing 10 Days in 20 Years Cost This Investor 56%",
+    "ig": "Missing 10 days in 20 years shrank this pile by 56%.\n$10,000 in the S&P 500 from 2006 to 2025 grew to $80,619 left alone (11.0% a year).\nMissing only the 10 best days: $35,866 (6.6% a year).\n6 of the 10 best days came within 2 weeks of the 10 worst. March 12, 2020: -9.5%. March 13: +9.3%.\nSources: J.P. Morgan Asset Management, Guide to Retirement 2026; S&P 500 daily closes, March 2020.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#markettiming #investing #stockmarket #personalfinance #financeprostv",
+    "tiktok": "Miss 10 days in 20 years, end with 56% less. Not financial advice. #moneytok #personalfinance #investing #markettiming #financeprostv",
+    "yt_desc": "J.P. Morgan tracked $10,000 in the S&P 500 from 2006 to 2025: left alone it grew to $80,619, but missing only the 10 best days left $35,866. Six of the 10 best days came within two weeks of the 10 worst, like March 12-13, 2020 (-9.5%, then +9.3%). Source: J.P. Morgan Asset Management, Guide to Retirement 2026. News and education, not financial advice. #Shorts #investing #personalfinance",
+    "tags": ["market timing", "time in the market", "missing best days", "S&P 500", "investing basics"]
   }
- ],
- "post": {
-  "title": "What a dividend is, explained with acorns",
-  "ig": "100 shares can pay you $200 a year. Here's the catch.\nA dividend is a slice of profit paid to shareholders, often every quarter.\nExample: 100 shares x $0.50 a quarter = $200 a year. At $50 a share, that's a 4% yield.\nThe S&P 500 yielded about 1% in Sept 2026, and on the ex-dividend date a stock usually drops by about the dividend.\nSources: SEC Investor.gov, S&P Dow Jones Indices.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#dividends #investing101 #stocks #personalfinance #financeprostv",
-  "tiktok": "Dividends explained with acorns, and why they aren't free money. Not financial advice. #moneytok #personalfinance #dividends #investing #financeprostv",
-  "yt_desc": "What a dividend is, explained with acorns. A dividend is part of company profit paid to shareholders. Example: 100 shares x $0.50 a quarter = $200 a year. On the ex-dividend date the price usually drops by about the dividend (SEC Investor.gov). News and education, not financial advice.\n#Shorts #dividends #investing",
-  "tags": [
-   "what is a dividend",
-   "dividends explained",
-   "dividend yield",
-   "ex-dividend date",
-   "acorn economics"
-  ]
- }
 }

@@ -1,0 +1,164 @@
+{
+ "series": "ticker",
+ "header": "Signing bonus,\nthen you quit?",
+ "cover": {
+  "title": "Repay Money You Never Got?",
+  "prop": "bill",
+  "label": "$5,000",
+  "value": "-$550"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Quit early, and you may repay bonus money you never got.",
+   "say": "Quit early, and you may repay bonus money you never got.",
+   "scene": {
+    "t": "hook",
+    "title": "The [clawback] trap",
+    "prop": "bill",
+    "label": "$5,000",
+    "value": "-$550",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many signing bonuses have a clawback: leave too soon, and you pay some back.",
+   "say": "Many signing bonuses have a clawback. Leave too soon, and you pay some back.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Clawback clause:",
+     "leave early,",
+     "pay some back"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $5,000 bonus, prorated over 12 months. Quit at month 6 and you owe $2,500.",
+   "say": "Say a five thousand dollar bonus is prorated over twelve months. Quit at month six, and you owe twenty-five hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Bonus (example)",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Owed at month 6",
+     "value": "$2,500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many agreements want that full $2,500, but after withholding you only got $1,758.75 of it.",
+   "say": "Many agreements want that full twenty-five hundred, but after withholding, you only got seventeen hundred fifty-eight dollars and seventy-five cents of it.",
+   "scene": {
+    "t": "stat",
+    "label": "What you got of the $2,500",
+    "value": "$1,758.75",
+    "tone": "down",
+    "sub": "after tax withholding",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Repay in the same calendar year, and payroll can reduce your wages. Repay the next year, and it's messier.",
+   "say": "Repay in the same calendar year, and payroll can reduce your wages. Repay the next year, and it's messier.",
+   "scene": {
+    "t": "split",
+    "title": "When you repay",
+    "left": {
+     "title": "Same year",
+     "items": [
+      "payroll adjusts wages",
+      "withholding fixed"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Next year",
+     "items": [
+      "FICA can be refunded",
+      "income tax stays paid"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Repay $3,000 or less in a later year, and the IRS allows no deduction. A 2025 law made that permanent.",
+   "say": "Repay three thousand dollars or less in a later year, and the IRS allows no deduction. A twenty twenty-five law made that permanent.",
+   "scene": {
+    "t": "stat",
+    "label": "Repaid in a later year",
+    "value": "$3,000",
+    "tone": "down",
+    "sub": "or less: no deduction",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a 22% tax bracket, that's $550 of tax on money you gave back.",
+   "say": "In a twenty-two percent tax bracket, that's five hundred fifty dollars of tax on money you gave back.",
+   "scene": {
+    "t": "compare",
+    "title": "Example, 22% bracket",
+    "left": {
+     "label": "You repay",
+     "value": "$2,500",
+     "tone": "neutral",
+     "sub": "gross amount"
+    },
+    "right": {
+     "label": "Tax lost",
+     "value": "$550",
+     "tone": "down",
+     "sub": "no deduction"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So people check the fine print: gross or net, prorated or not, and how many months.",
+   "say": "So people check the fine print: gross or net, prorated or not, and how many months.",
+   "scene": {
+    "t": "list",
+    "title": "Clawback fine print",
+    "items": [
+     "Gross or net?",
+     "Prorated or not?",
+     "How many months?"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Quit after a signing bonus? You may repay cash you never got",
+  "ig": "Quit early, and you may repay bonus money you never got.\n\nExample: a $5,000 bonus prorated over 12 months. Quit at month 6 and you owe $2,500.\nAfter 22% federal withholding and 7.65% Social Security and Medicare, you only received $1,758.75 of that $2,500.\nRepay $3,000 or less in a later year and the IRS allows no deduction, so in a 22% bracket that's $550 of tax on money you gave back.\nRepaying in the same calendar year lets payroll adjust your wages instead.\n\nSources: IRS Publication 525 (2025), IRS Publication 15 (2026), One Big Beautiful Bill Act (2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#signingbonus #taxes #careers #personalfinance #financeprostv",
+  "tiktok": "Quit after a signing bonus? You may repay money you never got. Not financial advice. #moneytok #personalfinance #signingbonus #taxes #financeprostv",
+  "yt_desc": "Many signing bonuses have a clawback, and many agreements ask for the gross amount back even though taxes were withheld. In this example, quitting halfway through a 12-month, $5,000 bonus means repaying $2,500, of which you only received $1,758.75; repaid in a later year, amounts of $3,000 or less can't be deducted (IRS Publication 525), a rule made permanent in 2025. Sources: IRS Publications 525 and 15.\n\nNews and education, not financial advice.\n\n#Shorts #signingbonus #taxes",
+  "tags": [
+   "signing bonus",
+   "bonus clawback",
+   "bonus taxes",
+   "quitting a job",
+   "personal finance"
+  ]
+ }
+}
