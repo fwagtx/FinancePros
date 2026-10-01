@@ -1,0 +1,1406 @@
+{
+ "id": "2026-10-19-lf-explained",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "EXPLAINED",
+ "cover": {
+  "title": "Will Social Security Run Out?",
+  "prop": "pot",
+  "label": "2032",
+  "value": "78%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Social Security's retirement fund is projected to run dry in 2032.",
+   "say": "Social Security's retirement fund is projected to run dry in twenty thirty-two.",
+   "scene": {
+    "t": "hook",
+    "title": "Empty by [2032]?",
+    "prop": "pot",
+    "label": "RESERVE",
+    "value": "2032",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But running dry doesn't mean the checks stop. The real number is 78%.",
+   "say": "But running dry doesn't mean the checks stop. The real number is seventy-eight percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Share of benefits payable after 2032",
+    "value": "78%",
+    "tone": "down",
+    "sub": "Trustees projection, June 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the projection from Social Security's own Trustees, in their report from June 2026.",
+   "say": "That's the projection from Social Security's own Trustees, in their report from June twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "Retirement trust fund projected depleted in late 2032",
+    "source": "Social Security Trustees Report, June 9, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 70 million people got a Social Security check in December 2025, so that number matters.",
+   "say": "About seventy million people got a Social Security check in December twenty twenty-five, so that number matters.",
+   "scene": {
+    "t": "stat",
+    "label": "People paid benefits, Dec 2025",
+    "value": "70M",
+    "tone": "neutral",
+    "sub": "2026 Trustees Report"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's follow the money from paycheck to mailbox, do the benefit math, and see what 'run out' really means.",
+   "say": "Let's follow the money from paycheck to mailbox, do the benefit math, and see what run out really means.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "Where money comes from",
+     "How benefits are set",
+     "How we got here",
+     "What 'run out' means"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. Where the money comes from.",
+   "say": "Chapter one. Where the money comes from.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Where the money comes from"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look at a pay stub and you'll see a line for Social Security. It's 6.2% of your pay.",
+   "say": "Look at a pay stub and you'll see a line for Social Security. It's six point two percent of your pay.",
+   "scene": {
+    "t": "hook",
+    "title": "The [6.2%] line",
+    "prop": "paper",
+    "label": "PAY STUB",
+    "value": "6.2%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your employer adds another 6.2%, for 12.4% in total. Self-employed people pay all of it.",
+   "say": "Your employer adds another six point two percent, for twelve point four percent in total. Self-employed people pay all of it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Worker: 6.2%",
+     "Employer: 6.2%",
+     "Total: 12.4%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $60,000 salary, the worker pays $3,720 a year, and the employer adds $3,720 more.",
+   "say": "Here's an example. On a sixty thousand dollar salary, the worker pays three thousand, seven hundred twenty dollars a year, and the employer adds three thousand, seven hundred twenty more.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $60,000 salary",
+    "left": {
+     "label": "Worker pays",
+     "value": "$3,720",
+     "tone": "neutral",
+     "sub": "6.2% of $60,000"
+    },
+    "right": {
+     "label": "Employer pays",
+     "value": "$3,720",
+     "tone": "neutral",
+     "sub": "6.2% of $60,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $7,440 a year going in for one worker earning $60,000.",
+   "say": "That's seven thousand, four hundred forty dollars a year going in for one worker earning sixty thousand.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example salary",
+     "value": "$60,000"
+    },
+    "to": {
+     "label": "Total tax, 12.4%",
+     "value": "$7,440"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's a ceiling, though. In 2026 the tax only applies to the first $184,500 of earnings.",
+   "say": "There's a ceiling, though. In twenty twenty-six the tax only applies to the first one hundred eighty-four thousand, five hundred dollars of earnings.",
+   "scene": {
+    "t": "stat",
+    "label": "Taxable maximum, 2026",
+    "value": "$184,500",
+    "tone": "neutral",
+    "sub": "Up from $176,100 in 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the most any worker pays in 2026 is $11,439, no matter how big the salary gets.",
+   "say": "So the most any worker pays in twenty twenty-six is eleven thousand, four hundred thirty-nine dollars, no matter how big the salary gets.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$184,500 x 6.2%",
+     "= $11,439 max per worker"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the twist most people miss. That money doesn't sit in an account with your name on it.",
+   "say": "Now the twist most people miss. That money doesn't sit in an account with your name on it.",
+   "scene": {
+    "t": "hook",
+    "title": "Not [your] account",
+    "prop": "box",
+    "label": "YOU",
+    "value": "?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Social Security is mostly pay-as-you-go. The taxes workers pay this month largely fund the checks retirees get this month.",
+   "say": "Social Security is mostly pay as you go. The taxes workers pay this month largely fund the checks retirees get this month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Workers pay in today",
+     "Retirees get paid today",
+     "Mostly pay-as-you-go"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, about 185 million people paid into the system, and about 70 million collected from it.",
+   "say": "In twenty twenty-five, about one hundred eighty-five million people paid into the system, and about seventy million collected from it.",
+   "scene": {
+    "t": "compare",
+    "title": "Social Security, 2025",
+    "left": {
+     "label": "Paid in",
+     "value": "185M",
+     "tone": "up",
+     "sub": "covered workers"
+    },
+    "right": {
+     "label": "Collected",
+     "value": "70M",
+     "tone": "neutral",
+     "sub": "Dec 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's not only retirees: 56 million retirees and families, 8 million disabled workers and families, and 6 million survivors.",
+   "say": "It's not only retirees: fifty-six million retirees and families, eight million disabled workers and families, and six million survivors.",
+   "scene": {
+    "t": "list",
+    "title": "Who got paid, Dec 2025",
+    "items": [
+     "Retirees and families: 56M",
+     "Disabled and families: 8M",
+     "Survivors: 6M"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When more comes in than goes out, the extra gets saved in trust funds.",
+   "say": "When more comes in than goes out, the extra gets saved in trust funds.",
+   "scene": {
+    "t": "hook",
+    "title": "The [trust funds]",
+    "prop": "pot",
+    "label": "SAVED",
+    "value": "+",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those reserves are held in special Treasury bonds that pay interest: $69 billion of it in 2025.",
+   "say": "Those reserves are held in special Treasury bonds that pay interest: sixty-nine billion dollars of it in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Interest earned by trust funds, 2025",
+    "value": "$69B",
+    "tone": "up",
+    "sub": "2026 Trustees Report"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There are two funds. One pays retirees and survivors, and a smaller one pays disability benefits. That split matters later.",
+   "say": "There are two funds. One pays retirees and survivors, and a smaller one pays disability benefits. That split matters later.",
+   "scene": {
+    "t": "split",
+    "title": "Two trust funds",
+    "left": {
+     "title": "OASI",
+     "items": [
+      "Retirees",
+      "Survivors"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "DI",
+     "items": [
+      "Disabled workers",
+      "Their families"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. How your benefit is set.",
+   "say": "Chapter two. How your benefit is set.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "How your benefit is set"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, you have to qualify. Retirement benefits generally take 40 work credits, which is about 10 years of work.",
+   "say": "First, you have to qualify. Retirement benefits generally take forty work credits, which is about ten years of work.",
+   "scene": {
+    "t": "stat",
+    "label": "Credits needed for retirement benefits",
+    "value": "40",
+    "tone": "neutral",
+    "sub": "About 10 years of work, SSA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then Social Security takes your 35 highest-earning years, adjusts older years for wage growth, and averages them per month.",
+   "say": "Then Social Security takes your thirty-five highest earning years, adjusts older years for wage growth, and averages them per month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Top 35 years of earnings",
+     "adjusted for wage growth",
+     "÷ 420 months = AIME"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That average has a name: A I M E, your average indexed monthly earnings.",
+   "say": "That average has a name: A I M E, your average indexed monthly earnings.",
+   "scene": {
+    "t": "hook",
+    "title": "Meet [AIME]",
+    "prop": "paper",
+    "label": "AVERAGE",
+    "value": "AIME",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The formula is tilted on purpose. For people first eligible in 2026, it's 90% of the first $1,286 of that average.",
+   "say": "The formula is tilted on purpose. For people first eligible in twenty twenty-six, it's ninety percent of the first one thousand, two hundred eighty-six dollars of that average.",
+   "scene": {
+    "t": "list",
+    "title": "2026 benefit formula",
+    "items": [
+     "90% of first $1,286",
+     "32% up to $7,749",
+     "15% above $7,749"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 32% of the part between $1,286 and $7,749.",
+   "say": "Then thirty-two percent of the part between one thousand, two hundred eighty-six and seven thousand, seven hundred forty-nine dollars.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And just 15% of anything above $7,749. Those two dollar amounts are called bend points.",
+   "say": "And just fifteen percent of anything above seven thousand, seven hundred forty-nine. Those two dollar amounts are called bend points.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's run it with an example worker whose AIME comes out to $5,000.",
+   "say": "Let's run it with an example worker whose A I M E comes out to five thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Example worker's AIME (hypothetical)",
+    "value": "$5,000",
+    "tone": "neutral",
+    "sub": "First eligible in 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one: 90% of $1,286 is $1,157.40.",
+   "say": "Step one: ninety percent of one thousand, two hundred eighty-six is one thousand, one hundred fifty-seven dollars and forty cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "90% x $1,286",
+     "= $1,157.40"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two: $5,000 minus $1,286 is $3,714. 32% of that is $1,188.48.",
+   "say": "Step two: five thousand minus one thousand, two hundred eighty-six is three thousand, seven hundred fourteen. Thirty-two percent of that is one thousand, one hundred eighty-eight dollars and forty-eight cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$5,000 - $1,286 = $3,714",
+     "32% x $3,714",
+     "= $1,188.48"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nothing's above $7,749, so step three is zero. Rounded down to the dime, that's $2,345.80 a month.",
+   "say": "Nothing's above seven thousand, seven hundred forty-nine, so step three is zero. Rounded down to the dime, that's two thousand, three hundred forty-five dollars and eighty cents a month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,157.40 + $1,188.48",
+     "= $2,345.88",
+     "Benefit: $2,345.80"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That replaces about 47% of the worker's average monthly earnings. A high earner gets a bigger check but a smaller share.",
+   "say": "That replaces about forty-seven percent of the worker's average monthly earnings. A high earner gets a bigger check but a smaller share.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example AIME",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Benefit at 67",
+     "value": "$2,345.80"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, that $2,345.80 is the amount at full retirement age, which is 67 for anyone born in 1960 or later.",
+   "say": "Now, that two thousand, three hundred forty-five dollars and eighty cents is the amount at full retirement age, which is sixty-seven for anyone born in nineteen sixty or later.",
+   "scene": {
+    "t": "hook",
+    "title": "Full age: [67]",
+    "prop": "tag",
+    "label": "1960+",
+    "value": "67"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Claiming changes it. At 62, the check is cut to 70%, roughly $1,642 in our example.",
+   "say": "Claiming changes it. At sixty-two, the check is cut to seventy percent, roughly one thousand, six hundred forty-two dollars in our example.",
+   "scene": {
+    "t": "list",
+    "title": "Example benefit by claiming age",
+    "items": [
+     "62: about $1,642",
+     "67: $2,345.80",
+     "70: about $2,908"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 67, it's the full $2,345.80.",
+   "say": "At sixty-seven, it's the full two thousand, three hundred forty-five dollars and eighty cents.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wait until 70, and delayed credits of 8% a year push it to 124%, roughly $2,908.",
+   "say": "Wait until seventy, and delayed credits of eight percent a year push it to a hundred twenty-four percent, roughly two thousand, nine hundred eight dollars.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Waiting from 62 to 70 adds roughly $1,266 a month in this example, before any cost-of-living raises.",
+   "say": "Waiting from sixty-two to seventy adds roughly one thousand, two hundred sixty-six dollars a month in this example, before any cost of living raises.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: claim at 70 vs 62",
+     "about $2,908 - $1,642",
+     "= about $1,266 more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Earlier means more checks, later means bigger ones. Which pays more overall depends on how long someone lives.",
+   "say": "Earlier means more checks, later means bigger ones. Which pays more overall depends on how long someone lives.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "Claim early",
+     "items": [
+      "More checks",
+      "Smaller checks"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Claim later",
+     "items": [
+      "Fewer checks",
+      "Bigger checks"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After that, checks rise with inflation each year. The raise was 2.8% for 2026, and the 2027 raise was set in mid-October.",
+   "say": "After that, checks rise with inflation each year. The raise was two point eight percent for twenty twenty-six, and the twenty twenty-seven raise was set in mid-October.",
+   "scene": {
+    "t": "stat",
+    "label": "Cost-of-living raise for 2026",
+    "value": "2.8%",
+    "tone": "up",
+    "sub": "2027 raise set mid-Oct"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With that raise, the average retired worker's check went from $2,015 to $2,071 a month.",
+   "say": "With that raise, the average retired worker's check went from two thousand, fifteen dollars to two thousand, seventy-one dollars a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Avg retiree, before",
+     "value": "$2,015"
+    },
+    "to": {
+     "label": "After 2.8% COLA",
+     "value": "$2,071"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. How we got here.",
+   "say": "Chapter three. How we got here.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "How we got here"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Social Security became law on August 14, 1935, in the middle of the Great Depression.",
+   "say": "Social Security became law on August fourteenth, nineteen thirty-five, in the middle of the Great Depression.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1935",
+      "Social Security Act signed"
+     ],
+     [
+      "1940",
+      "First monthly check"
+     ],
+     [
+      "1975",
+      "Automatic COLAs begin"
+     ],
+     [
+      "1983",
+      "Big rescue law"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When he signed it, President Franklin Roosevelt was upfront about its limits.",
+   "say": "When he signed it, President Franklin Roosevelt was upfront about its limits. He said, we can never insure one hundred percent of the population against one hundred percent of the hazards and vicissitudes of life.",
+   "scene": {
+    "t": "quote",
+    "text": "We can never insure one hundred percent of the population against one hundred percent of the hazards and vicissitudes of life",
+    "source": "Franklin D. Roosevelt, Aug 14, 1935"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The first monthly check went out in January 1940, for $22.54.",
+   "say": "The first monthly check went out in January nineteen forty, for twenty-two dollars and fifty-four cents.",
+   "scene": {
+    "t": "hook",
+    "title": "The first monthly check went out in January 1940",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It went to Ida May Fuller of Vermont, and her story is a perfect picture of pay-as-you-go.",
+   "say": "It went to Ida May Fuller of Vermont, and her story is a perfect picture of pay as you go.",
+   "scene": {
+    "t": "hook",
+    "title": "Check [#1]",
+    "prop": "bill",
+    "label": "1940",
+    "value": "$22.54",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "She paid $24.75 in Social Security taxes. She lived to 100 and collected $22,888.92.",
+   "say": "She paid twenty-four dollars and seventy-five cents in Social Security taxes. She lived to one hundred and collected twenty-two thousand, eight hundred eighty-eight dollars and ninety-two cents.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Ida May Fuller paid in",
+     "value": "$24.75"
+    },
+    "to": {
+     "label": "Collected, 1940-1975",
+     "value": "$22,888.92"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That only works because younger workers were paying in behind her.",
+   "say": "That only works because younger workers were paying in behind her.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paid in: $24.75",
+     "Collected: $22,888.92",
+     "Funded by younger workers"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 1975, checks started rising automatically with inflation.",
+   "say": "From nineteen seventy-five, checks started rising automatically with inflation.",
+   "scene": {
+    "t": "hook",
+    "title": "From 1975, checks started rising automatically w",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then came 1983. The retirement fund had been projected to run out in late 1982, and loans from the other funds kept checks going.",
+   "say": "Then came nineteen eighty-three. The retirement fund had been projected to run out in late nineteen eighty-two, and loans from the other funds kept checks going.",
+   "scene": {
+    "t": "hook",
+    "title": "Then came 1983. The retirement fund had been pro",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Congress passed a package based on a bipartisan commission, and it mixed tax increases with benefit changes.",
+   "say": "Congress passed a package based on a bipartisan commission, and it mixed tax increases with benefit changes.",
+   "scene": {
+    "t": "list",
+    "title": "The 1983 fix",
+    "items": [
+     "Payroll tax hikes sooner",
+     "Some benefits taxed",
+     "Retirement age to 67",
+     "New federal workers covered"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why full retirement age is 67 for anyone born in 1960 or later, instead of 65. And it's why some retirees pay income tax on their checks.",
+   "say": "That's why full retirement age is sixty-seven for anyone born in nineteen sixty or later, instead of sixty-five. And it's why some retirees pay income tax on their checks.",
+   "scene": {
+    "t": "compare",
+    "title": "Full retirement age",
+    "left": {
+     "label": "Before 1983 law",
+     "value": "65",
+     "tone": "neutral",
+     "sub": "original rule"
+    },
+    "right": {
+     "label": "Born 1960+",
+     "value": "67",
+     "tone": "neutral",
+     "sub": "phased in"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After that fix, the funds went from nearly empty to a cushion of about $2.9 trillion by 2020.",
+   "say": "After that fix, the funds went from nearly empty to a cushion of about two point nine trillion dollars by twenty twenty.",
+   "scene": {
+    "t": "hook",
+    "title": "Building a [cushion]",
+    "prop": "pot",
+    "label": "RESERVE",
+    "value": "+",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. The trust fund math.",
+   "say": "Chapter four. The trust fund math.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The trust fund math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the boomers are retiring, and the cushion is being spent. Here's 2025.",
+   "say": "Now the boomers are retiring, and the cushion is being spent. Here's twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Social Security, 2025",
+    "left": {
+     "label": "Income",
+     "value": "$1.449T",
+     "tone": "up",
+     "sub": "incl. interest"
+    },
+    "right": {
+     "label": "Cost",
+     "value": "$1.609T",
+     "tone": "down",
+     "sub": "mostly benefits"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025 the program took in $1.449 trillion, including interest, and spent $1.609 trillion.",
+   "say": "In twenty twenty-five the program took in one point four four nine trillion dollars, including interest, and spent one point six oh nine trillion.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most income was payroll tax, $1.323 trillion, plus $58 billion of tax on benefits and $69 billion of interest.",
+   "say": "Most income was payroll tax, one point three two three trillion dollars, plus fifty-eight billion of tax on benefits and sixty-nine billion of interest.",
+   "scene": {
+    "t": "list",
+    "title": "Income, 2025",
+    "items": [
+     "Payroll tax: $1,323B",
+     "Tax on benefits: $58B",
+     "Interest: $69B"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The gap was covered from savings. The trust funds shrank by $160 billion in one year.",
+   "say": "The gap was covered from savings. The trust funds shrank by a hundred sixty billion dollars in one year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Reserves, start of 2025",
+     "value": "$2,721B"
+    },
+    "to": {
+     "label": "End of 2025",
+     "value": "$2,561B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Zoom out: here are the combined reserves at each year's end since 2015, in billions.",
+   "say": "Zoom out: here are the combined reserves at each year's end since twenty fifteen, in billions.",
+   "scene": {
+    "t": "chart",
+    "title": "Trust fund reserves, year-end ($B)",
+    "points": [
+     [
+      2015,
+      2813
+     ],
+     [
+      2016,
+      2848
+     ],
+     [
+      2017,
+      2892
+     ],
+     [
+      2018,
+      2895
+     ],
+     [
+      2019,
+      2897
+     ],
+     [
+      2020,
+      2908
+     ],
+     [
+      2021,
+      2852
+     ],
+     [
+      2022,
+      2830
+     ],
+     [
+      2023,
+      2788
+     ],
+     [
+      2024,
+      2721
+     ],
+     [
+      2025,
+      2561
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$2,561B",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They peaked at $2,908 billion at the end of 2020. Every year since, they've gotten smaller.",
+   "say": "They peaked at two thousand, nine hundred eight billion dollars at the end of twenty twenty. Every year since, they've gotten smaller.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2020,
+     "text": "Peak: $2,908B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From that peak to the end of 2025, that's $347 billion drawn down.",
+   "say": "From that peak to the end of twenty twenty-five, that's three hundred forty-seven billion dollars drawn down.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$2,908B - $2,561B",
+     "= $347B drawn down"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? The simplest picture is the number of workers paying in for each person collecting.",
+   "say": "Why? The simplest picture is the number of workers paying in for each person collecting.",
+   "scene": {
+    "t": "hook",
+    "title": "Workers per [retiree]",
+    "prop": "bag",
+    "label": "PAY IN",
+    "value": "÷",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1960, there were about 5.1 workers for every beneficiary. In 2025, about 2.6.",
+   "say": "In nineteen sixty, there were about five point one workers for every beneficiary. In twenty twenty-five, about two point six.",
+   "scene": {
+    "t": "compare",
+    "title": "Workers per beneficiary",
+    "left": {
+     "label": "1960",
+     "value": "5.1",
+     "tone": "up",
+     "sub": "Trustees data"
+    },
+    "right": {
+     "label": "2025",
+     "value": "2.6",
+     "tone": "down",
+     "sub": "2026 Trustees"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the Trustees project it falls to about 1.9 by 2075.",
+   "say": "And the Trustees project it falls to about one point nine by twenty seventy-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Projected workers per beneficiary, 2075",
+    "value": "1.9",
+    "tone": "down",
+    "sub": "Trustees projection (CRS)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fact, the 2026 report lowered its long-run fertility assumption from 1.90 to 1.75 children per woman.",
+   "say": "In fact, the twenty twenty-six report lowered its long-run fertility assumption from one point nine oh to one point seven five children per woman.",
+   "scene": {
+    "t": "compare",
+    "title": "Assumed long-run fertility",
+    "left": {
+     "label": "2025 report",
+     "value": "1.90",
+     "tone": "neutral",
+     "sub": "kids per woman"
+    },
+    "right": {
+     "label": "2026 report",
+     "value": "1.75",
+     "tone": "down",
+     "sub": "kids per woman"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a 2025 tax law added a temporary extra deduction for people 65 and older, so less income tax on benefits flows back into the funds.",
+   "say": "And a twenty twenty-five tax law added a temporary extra deduction for people sixty-five and older, so less income tax on benefits flows back into the funds.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2025 tax law:",
+     "extra deduction, age 65+",
+     "= less tax on benefits"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. What run out really means.",
+   "say": "Chapter five. What run out really means.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What 'run out' really means"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The June 2026 report projects the retirement fund is depleted in the fourth quarter of 2032.",
+   "say": "The June twenty twenty-six report projects the retirement fund is depleted in the fourth quarter of twenty thirty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Retirement fund (OASI) projected depletion",
+    "value": "Q4 2032",
+    "tone": "down",
+    "sub": "2026 Trustees Report"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last year's report said 2033, so the date moved up by about one quarter.",
+   "say": "Last year's report said twenty thirty-three, so the date moved up by about one quarter.",
+   "scene": {
+    "t": "compare",
+    "title": "Projected OASI depletion",
+    "left": {
+     "label": "2025 report",
+     "value": "2033",
+     "tone": "neutral",
+     "sub": "77% payable"
+    },
+    "right": {
+     "label": "2026 report",
+     "value": "2032",
+     "tone": "down",
+     "sub": "78% payable"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But depleted means the savings are gone, not the taxes. Workers keep paying in every payday.",
+   "say": "But depleted means the savings are gone, not the taxes. Workers keep paying in every payday.",
+   "scene": {
+    "t": "hook",
+    "title": "[Taxes] keep coming",
+    "prop": "pot",
+    "label": "EMPTY",
+    "value": "78%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So after 2032, incoming money is projected to cover 78% of scheduled retirement and survivor benefits.",
+   "say": "So after twenty thirty-two, incoming money is projected to cover seventy-eight percent of scheduled retirement and survivor benefits.",
+   "scene": {
+    "t": "stat",
+    "label": "OASI benefits payable after depletion",
+    "value": "78%",
+    "tone": "down",
+    "sub": "Trustees projection, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember the disability fund? It's projected to pay full benefits through at least 2100.",
+   "say": "Remember the disability fund? It's projected to pay full benefits through at least twenty one hundred.",
+   "scene": {
+    "t": "split",
+    "title": "2026 Trustees projections",
+    "left": {
+     "title": "OASI",
+     "items": [
+      "Depleted Q4 2032",
+      "78% payable"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "DI",
+     "items": [
+      "Full benefits",
+      "Through 2100+"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If lawmakers combined the two funds, the Trustees project they'd last until the third quarter of 2034, then pay 83%.",
+   "say": "If lawmakers combined the two funds, the Trustees project they'd last until the third quarter of twenty thirty-four, then pay eighty-three percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Combined funds (OASDI), projected",
+    "value": "Q3 2034",
+    "tone": "down",
+    "sub": "Then 83% payable"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why a cut and not a loan? Under current law, the funds can't borrow, so benefits would be limited to what's coming in.",
+   "say": "Why a cut and not a loan? Under current law, the funds can't borrow, so benefits would be limited to what's coming in.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No borrowing authority",
+     "Can't pay more than",
+     "the funds take in"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Apply that to our example: 78% of $2,345.80 is roughly $1,829 a month.",
+   "say": "Apply that to our example: seventy-eight percent of two thousand, three hundred forty-five dollars and eighty cents is roughly one thousand, eight hundred twenty-nine dollars a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example scheduled",
+     "value": "$2,345.80"
+    },
+    "to": {
+     "label": "At 78%, roughly",
+     "value": "$1,829"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $516 less every month, or about 22%. That's the gap behind the scary headlines.",
+   "say": "That's about five hundred sixteen dollars less every month, or about twenty-two percent. That's the gap behind the scary headlines.",
+   "scene": {
+    "t": "stat",
+    "label": "Example monthly gap at 78%",
+    "value": "-$516",
+    "tone": "down",
+    "sub": "Hypothetical, before COLAs",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the projection isn't that Social Security disappears. It's a cut of about 22% if nothing changes.",
+   "say": "So the projection isn't that Social Security disappears. It's a cut of about twenty-two percent if nothing changes.",
+   "scene": {
+    "t": "split",
+    "title": "Myth vs projection",
+    "left": {
+     "title": "Myth",
+     "items": [
+      "Checks go to zero"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Projection",
+     "items": [
+      "About 78% paid",
+      "If no law change"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. The ways to close the gap.",
+   "say": "Chapter six. The ways to close the gap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The ways to close the gap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Trustees measure the long-run hole over 75 years. In the 2026 report it's 4.42% of taxable payroll.",
+   "say": "The Trustees measure the long-run hole over seventy-five years. In the twenty twenty-six report it's four point four two percent of taxable payroll.",
+   "scene": {
+    "t": "compare",
+    "title": "75-year shortfall, % of payroll",
+    "left": {
+     "label": "2025 report",
+     "value": "3.82%",
+     "tone": "neutral",
+     "sub": "2025-2099"
+    },
+    "right": {
+     "label": "2026 report",
+     "value": "4.42%",
+     "tone": "down",
+     "sub": "2026-2100"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To close it with taxes alone, starting in 2026, the payroll tax would go from 12.4% to 16.65%.",
+   "say": "To close it with taxes alone, starting in twenty twenty-six, the payroll tax would go from twelve point four percent to sixteen point six five percent.",
+   "scene": {
+    "t": "list",
+    "title": "Ways to close it (Trustees)",
+    "items": [
+     "Payroll tax to 16.65%",
+     "Cut all benefits 25.2%",
+     "Cut new retirees 30.3%"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To close it with benefit cuts alone, every current and future beneficiary would get 25.2% less.",
+   "say": "To close it with benefit cuts alone, every current and future beneficiary would get twenty-five point two percent less.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Or, if current retirees were protected, cuts for people newly eligible in 2026 and later would be 30.3%.",
+   "say": "Or, if current retirees were protected, cuts for people newly eligible in twenty twenty-six and later would be thirty point three percent.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For our $60,000 example worker, that's $9,990 a year in total payroll tax instead of $7,440.",
+   "say": "For our sixty thousand dollar example worker, that's nine thousand, nine hundred ninety dollars a year in total payroll tax instead of seven thousand, four hundred forty.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $60,000 salary",
+    "left": {
+     "label": "At 12.4%",
+     "value": "$7,440",
+     "tone": "neutral",
+     "sub": "current rate"
+    },
+    "right": {
+     "label": "At 16.65%",
+     "value": "$9,990",
+     "tone": "down",
+     "sub": "Trustees benchmark"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real proposals usually mix ideas: raising the wage cap, changing the retirement age, tweaking the formula, or adding revenue.",
+   "say": "Real proposals usually mix ideas: raising the wage cap, changing the retirement age, tweaking the formula, or adding revenue.",
+   "scene": {
+    "t": "list",
+    "title": "Common ideas in proposals",
+    "items": [
+     "Raise the wage cap",
+     "Change retirement age",
+     "Adjust benefit formula",
+     "Add new revenue"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each one moves the cost onto someone: workers, employers, higher earners, future retirees or taxpayers in general.",
+   "say": "Each one moves the cost onto someone: workers, employers, higher earners, future retirees or taxpayers in general.",
+   "scene": {
+    "t": "split",
+    "title": "Every fix has a payer",
+    "left": {
+     "title": "More revenue",
+     "items": [
+      "Workers",
+      "Employers",
+      "Higher earners"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Lower benefits",
+     "items": [
+      "Future retirees",
+      "Current retirees"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Which mix is fair is a political choice, and we don't pick sides. The Trustees note that acting sooner spreads the change thinner.",
+   "say": "Which mix is fair is a political choice, and we don't pick sides. The Trustees note that acting sooner spreads the change thinner.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fix early:",
+     "smaller changes,",
+     "spread over more years"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 1983 shows Congress has acted right up against a deadline before.",
+   "say": "And nineteen eighty-three shows Congress has acted right up against a deadline before.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1982",
+      "Fund projected to run out"
+     ],
+     [
+      "1983",
+      "Congress passes fix"
+     ],
+     [
+      "2032",
+      "Next projected depletion"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter seven. The recap.",
+   "say": "Chapter seven. The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Workers and employers each pay 6.2%, and most of it goes straight out as today's checks.",
+   "say": "Workers and employers each pay six point two percent, and most of it goes straight out as today's checks.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "6.2% + 6.2% payroll tax",
+     "Top 35 years set check",
+     "Reserves shrinking since 2020",
+     "78% payable after 2032"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your check comes from your top 35 years, a tilted formula, and the age you claim.",
+   "say": "Your check comes from your top thirty-five years, a tilted formula, and the age you claim.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trust funds peaked in 2020 and fell $160 billion in 2025 alone, as fewer workers support each beneficiary.",
+   "say": "The trust funds peaked in twenty twenty and fell a hundred sixty billion dollars in twenty twenty-five alone, as fewer workers support each beneficiary.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if Congress doesn't act, the Trustees project 78% of retirement benefits payable after late 2032, not zero.",
+   "say": "And if Congress doesn't act, the Trustees project seventy-eight percent of retirement benefits payable after late twenty thirty-two, not zero.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So will Social Security run out? The savings are projected to. But the payroll taxes that fund most of each check keep coming in under current law.",
+   "say": "So will Social Security run out? The savings are projected to. But the payroll taxes that fund most of each check keep coming in under current law.",
+   "scene": {
+    "t": "hook",
+    "title": "Run out? [Not] to zero",
+    "prop": "pot",
+    "label": "2032",
+    "value": "78%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A personal estimate, based on your actual earnings record, is in your my Social Security account at ssa.gov.",
+   "say": "A personal estimate, based on your actual earnings record, is in your my Social Security account at S S A dot gov.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your estimate:",
+     "my Social Security",
+     "at ssa.gov"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this made the money trail clearer, subscribe for more. See you next time.",
+   "say": "If this made the money trail clearer, subscribe for more. See you next time.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained from zero.",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Social Security's fund is projected to run dry in 2032. Here's what that really means.",
+  "ig": "Social Security's retirement fund is projected to run dry in 2032. But the checks don't go to zero.",
+  "tiktok": "Social Security 'running out' in 2032 doesn't mean what you think. The real number is 78%.",
+  "yt_desc": "Social Security's retirement trust fund is projected to be depleted in late 2032, according to the Trustees Report released June 9, 2026. But depleted doesn't mean zero: incoming payroll taxes are projected to cover about 78% of scheduled benefits after that. We follow the money from the 6.2% payroll tax to the monthly check, work through the 2026 benefit formula step by step, and look at 90 years of history and the trade-offs in the options to close the gap. No predictions, just the rules, the numbers and the official projections.\n\nCHAPTERS\n\nSources:\n- Social Security Board of Trustees, 2026 Annual Report (June 9, 2026)\n- SSA press release on the 2026 Trustees Report (June 9, 2026)\n- SSA Office of the Chief Actuary, trust fund data (Table 4a3) and 2026 benefit formula\n- SSA 2026 COLA Fact Sheet (Oct 2025)\n- Congressional Research Service: IF13256 (June 2026), R46658, R47040, RL33514\n- Committee for a Responsible Federal Budget, analysis of the 2026 Trustees Report (June 9, 2026)\n- SSA History: Ida May Fuller; FDR signing statement (Aug 14, 1935)\n\nNews and education, not financial advice.\n\n#SocialSecurity #Retirement #PersonalFinance",
+  "tags": [
+   "social security",
+   "social security trust fund",
+   "trustees report 2026",
+   "social security 2032",
+   "retirement",
+   "how social security works",
+   "full retirement age",
+   "personal finance"
+  ]
+ }
+}
