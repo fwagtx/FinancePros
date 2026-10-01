@@ -1,0 +1,285 @@
+{
+ "series": "ticker",
+ "header": "Refinancing federal\nstudent loans",
+ "cover": {
+  "title": "The One-Way Student Loan Move",
+  "prop": "bag",
+  "label": "FEDERAL",
+  "value": "$3,600"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "This loan move could save $3,600. But there's no going back.",
+   "say": "This loan move could save thirty-six hundred dollars. But there's no going back.",
+   "scene": {
+    "t": "hook",
+    "title": "The [one-way] loan move",
+    "prop": "bag",
+    "label": "FEDERAL",
+    "value": "$3,600",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Refinancing federal loans into private can cut your rate, but federal perks don't come along.",
+   "say": "Refinancing federal loans into private can cut your rate, but federal perks don't come along.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Federal loan",
+     "-> private loan",
+     "= new rate, no perks"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why do it? New federal undergrad loans jumped from 2.75% for 2020-21 to 6.53% for 2024-25.",
+   "say": "Why do it? New federal undergrad loans jumped from two point seven five percent in twenty twenty to six point five three percent by twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Federal undergrad rate (school year starting)",
+    "points": [
+     [
+      2016,
+      3.76
+     ],
+     [
+      2017,
+      4.45
+     ],
+     [
+      2018,
+      5.05
+     ],
+     [
+      2019,
+      4.53
+     ],
+     [
+      2020,
+      2.75
+     ],
+     [
+      2021,
+      3.73
+     ],
+     [
+      2022,
+      4.99
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      6.53
+     ],
+     [
+      2025,
+      6.39
+     ],
+     [
+      2026,
+      6.52
+     ]
+    ],
+    "suffix": "%",
+    "end": "6.52%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026-27, it's 6.52%.",
+   "say": "For twenty twenty-six to twenty-seven, it's six point five two percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Federal undergrad rate (school year starting)",
+    "points": [
+     [
+      2016,
+      3.76
+     ],
+     [
+      2017,
+      4.45
+     ],
+     [
+      2018,
+      5.05
+     ],
+     [
+      2019,
+      4.53
+     ],
+     [
+      2020,
+      2.75
+     ],
+     [
+      2021,
+      3.73
+     ],
+     [
+      2022,
+      4.99
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      6.53
+     ],
+     [
+      2025,
+      6.39
+     ],
+     [
+      2026,
+      6.52
+     ]
+    ],
+    "suffix": "%",
+    "end": "6.52%",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "6.52% in 2026-27"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say $40,000 over 10 years: about $455 a month at 6.52%, or $424 at an example 5% private rate.",
+   "say": "Say forty thousand over ten years: about four fifty-five a month at six point five two percent, or four twenty-four at an example five percent private rate.",
+   "scene": {
+    "t": "compare",
+    "title": "$40,000 over 10 years",
+    "left": {
+     "label": "Federal 6.52%",
+     "value": "$455",
+     "tone": "down",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Private 5% (example)",
+     "value": "$424",
+     "tone": "up",
+     "sub": "per month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $3,640 less interest.",
+   "say": "That's about thirty-six hundred dollars less interest.",
+   "scene": {
+    "t": "compare",
+    "title": "$40,000 over 10 years",
+    "left": {
+     "label": "Federal 6.52%",
+     "value": "$455",
+     "tone": "down",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Private 5% (example)",
+     "value": "$424",
+     "tone": "up",
+     "sub": "per month"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But you give up income-driven plans and Public Service Loan Forgiveness,",
+   "say": "But you give up income-driven plans and Public Service Loan Forgiveness,",
+   "scene": {
+    "t": "list",
+    "title": "What you give up",
+    "items": [
+     "Income-driven plans",
+     "PSLF",
+     "Federal deferment, forbearance",
+     "Federal disability discharge"
+    ],
+    "reveal": 2,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "plus federal deferment, forbearance, and disability discharge.",
+   "say": "plus federal deferment, forbearance, and disability discharge.",
+   "scene": {
+    "t": "list",
+    "title": "What you give up",
+    "items": [
+     "Income-driven plans",
+     "PSLF",
+     "Federal deferment, forbearance",
+     "Federal disability discharge"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of early 2026, PSLF borrowers had about $75,000 forgiven, on average.",
+   "say": "As of early twenty twenty-six, P S L F borrowers had about seventy-five thousand dollars forgiven, on average.",
+   "scene": {
+    "t": "stat",
+    "label": "Average PSLF forgiveness",
+    "value": "$75,000",
+    "tone": "up",
+    "sub": "$90.6B, 1.2M+ borrowers (early 2026)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Once you refinance, there's no way back to federal.",
+   "say": "Once you refinance, there's no way back to federal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Refinance = permanent",
+     "No way back",
+     "to federal"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Refinancing federal student loans: what you give up",
+  "ig": "This loan move could save $3,600. But there's no going back.\nExample: $40,000 over 10 years is about $455/mo at 6.52% (the 2026-27 federal undergrad rate) vs $424/mo at an example 5% private rate, about $3,640 less interest.\nRefinancing into a private loan ends income-driven plans, PSLF, federal deferment/forbearance and the federal disability discharge.\nAs of early 2026, PSLF borrowers had about $75,000 forgiven on average ($90.6B, 1.2M+ borrowers).\nSources: Federal Student Aid; CFPB; FSA PSLF data.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#studentloans #refinance #pslf #personalfinance #financeprostv",
+  "tiktok": "Refinancing federal student loans saves interest, but you can't go back. Not financial advice. #moneytok #personalfinance #studentloans #financeprostv",
+  "yt_desc": "Refinancing federal student loans into a private loan can lower your rate: $40,000 over 10 years costs about $455 a month at 6.52% (the 2026-27 federal undergrad rate) versus $424 at an example 5% rate, about $3,640 less interest. But it permanently ends access to income-driven repayment, Public Service Loan Forgiveness, federal deferment and forbearance, and the federal disability discharge (CFPB, Federal Student Aid). News and education, not financial advice. #Shorts #studentloans #personalfinance",
+  "tags": [
+   "refinance student loans",
+   "federal student loans",
+   "pslf",
+   "student loan refinancing",
+   "personal finance"
+  ]
+ }
+}
