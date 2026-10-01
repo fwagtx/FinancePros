@@ -1,0 +1,1693 @@
+{
+ "series": "ticker",
+ "header": "WORLD MONEY",
+ "cover": {
+  "title": "China Is in Your Cart.",
+  "countries": [
+   "china",
+   "us"
+  ],
+  "prop": "box",
+  "label": "PER HOUSEHOLD",
+  "value": "$2,290"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "About $2,290 of Chinese goods per US household.",
+   "say": "About twenty-three hundred dollars of Chinese goods per American household.",
+   "scene": {
+    "t": "hook",
+    "title": "Made in [China], paid by you",
+    "prop": "box",
+    "label": "2025",
+    "value": "$2,290",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that was in 2025, after imports from China fell by almost a third.",
+   "say": "And that was in twenty twenty-five, after imports from China fell by almost a third in a single year.",
+   "scene": {
+    "t": "stat",
+    "label": "US goods imports from China, 2025 vs 2024",
+    "value": "-29.9%",
+    "tone": "down",
+    "sub": "US Census Bureau"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the math: $308.7 billion of imports, divided by about 134.8 million households.",
+   "say": "Here's the math. Three hundred eight point seven billion dollars of imports, divided by about a hundred thirty-five million households.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$308.7B imports",
+     "/ 134.8M households",
+     "= about $2,290 each"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not all of that lands on a store shelf. Plenty of it is parts and machines that businesses buy.",
+   "say": "Now, not all of that lands on a store shelf. Plenty of it is parts and machines that American businesses buy.",
+   "scene": {
+    "t": "split",
+    "title": "Where the imports go",
+    "left": {
+     "title": "Shelves",
+     "items": [
+      "Toys",
+      "Phones",
+      "Kitchen stuff"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Factories",
+     "items": [
+      "Parts",
+      "Machines",
+      "Materials"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But one way or another, it ends up in the price of things you pay for.",
+   "say": "But one way or another, it ends up in the price of things you pay for.",
+   "scene": {
+    "t": "hook",
+    "title": "It shows up in [prices]",
+    "prop": "tag",
+    "label": "PRICE",
+    "value": "$$$",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And China doesn't just sell to you. It buys from your farmers and lends to your government.",
+   "say": "And China doesn't just sell to you. It also buys from American farmers and lends money to the American government.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "I do it all"
+     },
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "all three?"
+     }
+    ],
+    "caption": "Three jobs, one country"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when China's economy speeds up, slows down or gets into a trade fight, your wallet feels it.",
+   "say": "So when China's economy speeds up, slows down, or gets into a trade fight, your wallet feels it. Let's follow the money.",
+   "scene": {
+    "t": "list",
+    "title": "Today's map",
+    "items": [
+     "What you buy",
+     "Who pays tariffs",
+     "What China buys",
+     "What China lends"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: the stuff in your cart.",
+   "say": "Chapter one. The stuff in your cart.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The stuff in your cart"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For years, China was America's biggest source of imported goods.",
+   "say": "For years, China was America's biggest source of imported goods.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "ship it!"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "I'll take it"
+     }
+    ],
+    "caption": "The world's factory",
+    "prop": {
+     "kind": "box",
+     "label": "MADE IN CHINA"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what the US bought from China each year, in billions of dollars.",
+   "say": "Here's what the US bought from China each year, in billions of dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "US goods imports from China ($B)",
+    "points": [
+     [
+      2018,
+      539
+     ],
+     [
+      2019,
+      450
+     ],
+     [
+      2020,
+      433
+     ],
+     [
+      2021,
+      505
+     ],
+     [
+      2022,
+      536
+     ],
+     [
+      2023,
+      427
+     ],
+     [
+      2024,
+      440
+     ],
+     [
+      2025,
+      309
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$309B",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Imports peaked around $539 billion in 2018, the year the big tariff fight began.",
+   "say": "Imports peaked at around five hundred thirty-nine billion dollars in twenty eighteen, the year the big tariff fight began.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2018,
+     "text": "tariff fight begins"
+    },
+    "title": "US goods imports from China ($B)",
+    "points": [
+     [
+      2018,
+      539
+     ],
+     [
+      2019,
+      450
+     ],
+     [
+      2020,
+      433
+     ],
+     [
+      2021,
+      505
+     ],
+     [
+      2022,
+      536
+     ],
+     [
+      2023,
+      427
+     ],
+     [
+      2024,
+      440
+     ],
+     [
+      2025,
+      309
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$309B",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They bounced back in 2021 and 2022 as people bought stuff for home during the pandemic.",
+   "say": "Then they bounced back in twenty twenty-one and twenty twenty-two, while people bought stuff for home during the pandemic.",
+   "scene": {
+    "t": "stat",
+    "label": "US imports from China, 2022",
+    "value": "$536B",
+    "tone": "up",
+    "sub": "US Census Bureau"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then in 2025 they dropped to $308.7 billion as tariffs rose sharply.",
+   "say": "Then in twenty twenty-five, they dropped to about three hundred nine billion dollars, as tariffs rose sharply.",
+   "scene": {
+    "t": "compare",
+    "title": "US imports from China",
+    "left": {
+     "label": "2024",
+     "value": "$440B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$309B",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $132 billion less in a single year.",
+   "say": "That's about a hundred thirty-two billion dollars less, in a single year.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "US imports from China",
+    "left": {
+     "label": "2024",
+     "value": "$440B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$309B",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a bigger one-year drop than in 2019, the first full year of the tariff fight, when imports fell about $89 billion.",
+   "say": "That's a bigger one-year drop than in twenty nineteen, the first full year of the tariff fight, when imports fell by about eighty-nine billion.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2019 drop: about $89B",
+     "2025 drop: about $132B",
+     "Bigger, and faster"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "China's share of everything America imports shrank too.",
+   "say": "China's share of everything America imports shrank too.",
+   "scene": {
+    "t": "stat",
+    "label": "China's share of US imports, Sept 2024",
+    "value": "14.8%",
+    "tone": "neutral",
+    "sub": "US Census Bureau"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In May 2025, it fell to 7.1%, the lowest share since 2001.",
+   "say": "In May of twenty twenty-five, it fell to seven point one percent. That was the lowest share since two thousand one.",
+   "scene": {
+    "t": "stat",
+    "label": "China's share of US imports, May 2025",
+    "value": "7.1%",
+    "tone": "down",
+    "sub": "lowest since 2001"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over all of 2025, China supplied only about 9% of what America imported.",
+   "say": "Over all of twenty twenty-five, China supplied only about nine percent of what America imported.",
+   "scene": {
+    "t": "hook",
+    "title": "China's slice [shrank]",
+    "prop": "chart-down",
+    "label": "2025",
+    "value": "~9%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So did America stop buying Chinese stuff? Not exactly.",
+   "say": "So did America stop buying Chinese stuff? Not exactly.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "did I quit?"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "not really"
+     }
+    ],
+    "caption": "Not so fast"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A lot of factories moved final assembly to places like Vietnam and Mexico.",
+   "say": "A lot of companies moved the final assembly to places like Vietnam and Mexico.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "think",
+      "says": "parts"
+     },
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "assembly"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "finished goods"
+     }
+    ],
+    "caption": "The new route"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a Federal Reserve study found those countries were buying more Chinese parts to do it.",
+   "say": "And a Federal Reserve study found that those countries were buying more Chinese parts to do it.",
+   "scene": {
+    "t": "news",
+    "headline": "Other US suppliers rely more on Chinese imports",
+    "source": "Federal Reserve, FEDS Notes, Aug 2, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the label might say Mexico or Vietnam, while a good chunk of the inside still started in China.",
+   "say": "So the label might say Mexico or Vietnam, while a good chunk of what's inside still started in China.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Label: Made in Vietnam",
+     "Inside: Chinese parts",
+     "Wallet: still connected"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there were the tiny packages from shopping apps like Temu and Shein.",
+   "say": "Then there were the tiny packages from shopping apps like Temu and Shein.",
+   "scene": {
+    "t": "hook",
+    "title": "The [$800] loophole",
+    "prop": "box",
+    "label": "DUTY FREE",
+    "value": "$800",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Packages under $800 used to come in duty free, about 4 million a day.",
+   "say": "Packages worth under eight hundred dollars used to come in duty free. About four million of them a day.",
+   "scene": {
+    "t": "stat",
+    "label": "Packages entering under de minimis",
+    "value": "4M a day",
+    "tone": "neutral",
+    "sub": "before May 2, 2025 (Fortune, NBC News)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On May 2, 2025, that exemption ended for goods from China and Hong Kong.",
+   "say": "On May second, twenty twenty-five, that exemption ended for goods from China and Hong Kong.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "name": "US CUSTOMS",
+    "label": "May 2, 2025",
+    "caption": "Duty-free $800 rule ends"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a cheap phone case now pays duty at the border, just like a shipping container does.",
+   "say": "So that cheap phone case now owes duty at the border, just like a shipping container does.",
+   "scene": {
+    "t": "split",
+    "title": "Before vs after May 2025",
+    "left": {
+     "title": "Before",
+     "items": [
+      "Under $800",
+      "No duty"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "After",
+     "items": [
+      "Small parcels",
+      "Duty owed"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: who actually pays the tariff?",
+   "say": "Chapter two. Who actually pays the tariff?",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Who pays the tariff"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A tariff is a tax on imports, and it's paid to US Customs by the importer, usually the American company bringing the goods in.",
+   "say": "A tariff is a tax on imports. And it's paid to US Customs by the importer, usually the American company that brings the goods in.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tariff = tax on imports",
+     "Paid by: the importer",
+     "Paid to: US Customs"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not by China's government, and not by the Chinese factory directly.",
+   "say": "It isn't paid by China's government, and it isn't paid by the Chinese factory directly.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "not my bill"
+     },
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "wait, mine?"
+     }
+    ],
+    "caption": "The bill goes to the importer"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's do the math on one lamp.",
+   "say": "Let's do the math on one lamp.",
+   "scene": {
+    "t": "hook",
+    "title": "One [lamp], real math",
+    "prop": "tag",
+    "label": "LAMP",
+    "value": "$10",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A store imports a lamp for $10. A 25% tariff adds $2.50 at the border.",
+   "say": "Say a store imports a lamp for ten dollars. A twenty-five percent tariff adds two dollars and fifty cents at the border.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lamp cost: $10.00",
+     "Tariff 25%: + $2.50",
+     "Landed cost: $12.50"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the store prices everything at double its cost, the shelf price goes from $20 to $25.",
+   "say": "If the store prices everything at double its cost, the shelf price goes from twenty dollars to twenty-five.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Shelf price, no tariff",
+     "value": "$20"
+    },
+    "to": {
+     "label": "Shelf price, with tariff",
+     "value": "$25"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A $2.50 tax became a $5 price jump, because the markup sits on top of it.",
+   "say": "So a two dollar fifty tax turned into a five dollar price jump, because the markup sits right on top of it.",
+   "scene": {
+    "t": "compare",
+    "title": "One lamp",
+    "left": {
+     "label": "Tariff paid",
+     "value": "$2.50",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Price jump",
+     "value": "$5.00",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Of course, the store could swallow some of it, or the factory could cut its price.",
+   "say": "Of course, the store could swallow some of it, or the factory could cut its price.",
+   "scene": {
+    "t": "list",
+    "title": "Who can absorb it",
+    "items": [
+     "The factory",
+     "The importer",
+     "The store",
+     "You"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what really happened? Economists checked the 2018 tariffs.",
+   "say": "So what really happened? Economists went and checked the twenty eighteen tariffs.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Who can absorb it",
+    "items": [
+     "The factory",
+     "The importer",
+     "The store",
+     "You"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 2019 study found almost all of the cost was passed on to US importers and buyers.",
+   "say": "A twenty nineteen study found almost all of the cost was passed through to American importers and buyers.",
+   "scene": {
+    "t": "news",
+    "headline": "2018 tariffs: near-complete pass-through to US prices",
+    "source": "Amiti, Redding, Weinstein, J. of Economic Perspectives, 2019"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By December 2018, the tariffs were costing them about $3.2 billion a month.",
+   "say": "By December twenty eighteen, those tariffs were costing them about three point two billion dollars a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Added tariff costs, Dec 2018",
+    "value": "$3.2B/mo",
+    "tone": "down",
+    "sub": "Amiti, Redding, Weinstein (2019)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plus about $1.4 billion a month in what economists call deadweight loss: purchases that simply stopped happening.",
+   "say": "Plus about one point four billion dollars a month in what economists call deadweight loss. That's purchases that simply stopped happening.",
+   "scene": {
+    "t": "stat",
+    "label": "Deadweight loss, Dec 2018",
+    "value": "$1.4B/mo",
+    "tone": "down",
+    "sub": "Amiti, Redding, Weinstein (2019)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So with tariffs, the useful question isn't who writes the check. It's who ends up paying more.",
+   "say": "So with tariffs, the useful question isn't who writes the check. It's who ends up paying more.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who writes the check?",
+     "Who pays more in the end?",
+     "Not always the same"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That doesn't mean every tariff works the same way. It means the bill often lands closer to home than people expect.",
+   "say": "That doesn't mean every tariff works the same way. It means the bill often lands closer to home than people expect.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who pays depends",
+     "on who can say no",
+     "Often: the buyer"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Which brings us to a deal struck in late September 2026.",
+   "say": "Which brings us to a deal struck in late September of twenty twenty-six.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "let's deal"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "30 for 30"
+     }
+    ],
+    "caption": "Late September 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The US and China agreed to cut tariffs on about $60 billion of goods: about $30 billion each way.",
+   "say": "The US and China agreed to cut tariffs on about sixty billion dollars of goods. About thirty billion dollars each way.",
+   "scene": {
+    "t": "news",
+    "headline": "US and China agree to cut tariffs on $60B of goods",
+    "source": "CNN, Sept 28, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On the US side, the list includes toys, tableware, kitchen accessories, curtains and electric shavers.",
+   "say": "On the US side, the list includes toys, tableware, kitchen accessories, curtains and electric shavers.",
+   "scene": {
+    "t": "list",
+    "title": "US cuts on Chinese goods",
+    "items": [
+     "Toys",
+     "Tableware",
+     "Curtains",
+     "Electric shavers"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On China's side: US corn, wheat, sorghum, meat and dairy.",
+   "say": "On China's side, it covers US corn, wheat, sorghum, meat and dairy.",
+   "scene": {
+    "t": "split",
+    "title": "The 30-for-30 deal",
+    "left": {
+     "title": "US cuts tariffs on",
+     "items": [
+      "Toys",
+      "Tableware"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "China cuts tariffs on",
+     "items": [
+      "Corn, wheat",
+      "Meat, dairy"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the price of a toy in an American store can depend on a meeting in Washington.",
+   "say": "So the price of a toy in an American store can depend on a meeting in Washington.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "my toy aisle"
+     },
+     {
+      "name": "china",
+      "mood": "think",
+      "says": "my corn"
+     }
+    ],
+    "caption": "Policy hits the shelf"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: China, the customer.",
+   "say": "Chapter three. China, the customer.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "China the customer"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trade runs both ways. In 2025, America sold China $106 billion of goods.",
+   "say": "Trade runs both ways. In twenty twenty-five, America sold China about a hundred six billion dollars of goods.",
+   "scene": {
+    "t": "compare",
+    "title": "US-China goods trade, 2025",
+    "left": {
+     "label": "US sold China",
+     "value": "$106B",
+     "tone": "up"
+    },
+    "right": {
+     "label": "US bought",
+     "value": "$309B",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That left a goods trade deficit of $202.7 billion, $94.4 billion smaller than in 2024.",
+   "say": "That left a goods trade deficit of about two hundred three billion dollars. That's roughly ninety-four billion smaller than in twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "US goods deficit with China, 2025",
+    "value": "$202.7B",
+    "tone": "neutral",
+    "sub": "down $94.4B from 2024 (Census)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A deficit just means we bought more than we sold. It's not a bill anyone has to pay back.",
+   "say": "A trade deficit just means we bought more than we sold. It's not a bill anyone has to pay back.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deficit = bought more",
+     "than we sold",
+     "Not a loan, not a bill"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And one of the biggest things America sells China is grown in Iowa and Illinois.",
+   "say": "And one of the biggest things America sells China is grown in places like Iowa and Illinois.",
+   "scene": {
+    "t": "hook",
+    "title": "America's [bean] connection",
+    "prop": "bag",
+    "label": "SOYBEANS",
+    "value": "52%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2024, China bought $12.84 billion of US soybeans.",
+   "say": "In twenty twenty-four, China bought about twelve point eight billion dollars of US soybeans.",
+   "scene": {
+    "t": "stat",
+    "label": "US soybean exports to China, 2024",
+    "value": "$12.84B",
+    "tone": "up",
+    "sub": "USDA Foreign Agricultural Service"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was 52% of all US soybean exports: one customer buying half the crop sold abroad.",
+   "say": "That was about fifty-two percent of all US soybean exports. One customer, buying half of the crop that went abroad.",
+   "scene": {
+    "t": "compare",
+    "title": "US soybean exports, 2024",
+    "left": {
+     "label": "To China",
+     "value": "$12.8B",
+     "tone": "up"
+    },
+    "right": {
+     "label": "All countries",
+     "value": "$24.6B",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the trade fight heated up, China bought from Brazil instead.",
+   "say": "When the trade fight heated up, China turned to Brazil instead.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "think",
+      "says": "I'll try Brazil"
+     },
+     {
+      "name": "us",
+      "mood": "sad",
+      "says": "my soybeans!"
+     }
+    ],
+    "caption": "Customers can switch"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why was that so easy? A soybean is a soybean. A buyer can switch farms faster than a farmer can find a new buyer.",
+   "say": "Why was that so easy? Well, a soybean is a soybean. A buyer can switch farms a lot faster than a farmer can find a new buyer.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A soybean is a soybean",
+     "Buyers switch fast",
+     "Farmers can't"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By September 2025, US farmers started their harvest with no sign of Chinese buying.",
+   "say": "By September twenty twenty-five, US farmers started their harvest with no sign of Chinese buyers.",
+   "scene": {
+    "t": "news",
+    "headline": "US soybean harvest starts with no sign of Chinese buying",
+    "source": "farmdoc daily, Sept 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the September 2026 deal left soybeans out entirely.",
+   "say": "And the September twenty twenty-six deal left soybeans out entirely.",
+   "scene": {
+    "t": "stat",
+    "label": "Soybeans in the 30-for-30 deal",
+    "value": "left out",
+    "tone": "down",
+    "sub": "CNN, Time, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even if you've never seen a soybean field, this reaches you.",
+   "say": "Even if you've never seen a soybean field, this still reaches you.",
+   "scene": {
+    "t": "list",
+    "title": "How it reaches you",
+    "items": [
+     "Farm income",
+     "Rural jobs",
+     "Farm aid taxes",
+     "Food prices"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Farm income supports rural towns, banks and equipment dealers.",
+   "say": "Farm income supports rural towns, their banks, and the people who sell tractors.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "How it reaches you",
+    "items": [
+     "Farm income",
+     "Rural jobs",
+     "Farm aid taxes",
+     "Food prices"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And when Washington sends farmers aid to cover lost sales, taxpayers fund it.",
+   "say": "And when Washington sends farmers aid to cover lost sales, taxpayers fund it.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "How it reaches you",
+    "items": [
+     "Farm income",
+     "Rural jobs",
+     "Farm aid taxes",
+     "Food prices"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So China isn't just a factory. It's a customer America's farm economy leans on.",
+   "say": "So China isn't just a factory. It's also a customer that America's farm economy leans on.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "customer too"
+     },
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "noted"
+     }
+    ],
+    "caption": "A factory and a customer"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: China, the lender.",
+   "say": "Chapter four. China, the lender.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "China the lender"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the US government borrows, it sells Treasury bonds. Anyone can buy them, including other countries.",
+   "say": "When the US government borrows money, it sells Treasury bonds. Anyone can buy them, including other countries.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Treasury bond = an IOU",
+     "from the US government",
+     "Buyers: anyone"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For a while, China was the biggest foreign lender of all.",
+   "say": "For a while, China was the biggest foreign lender of all.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "I lend!"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "thanks!"
+     }
+    ],
+    "caption": "Biggest foreign holder",
+    "prop": {
+     "kind": "bag",
+     "label": "IOU"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "China earned a mountain of dollars by selling Americans goods, and those dollars had to be parked somewhere.",
+   "say": "China earned a mountain of dollars by selling goods to Americans, and those dollars had to be parked somewhere.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "so many dollars"
+     },
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "park them here?"
+     }
+    ],
+    "caption": "Where trade dollars go",
+    "prop": {
+     "kind": "bag",
+     "label": "$$$"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A safe, easy place to park them was US government debt.",
+   "say": "And a safe, easy place to park them was US government debt.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "US TREASURY",
+    "label": "IOUs for sale",
+    "caption": "A safe place for dollars"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In November 2013, China held about $1.32 trillion of US Treasuries.",
+   "say": "In November twenty thirteen, China held about one point three two trillion dollars of US Treasuries.",
+   "scene": {
+    "t": "stat",
+    "label": "China's Treasury holdings, Nov 2013",
+    "value": "$1.32T",
+    "tone": "up",
+    "sub": "peak, US Treasury TIC data"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By July 2026, that was down to $618 billion, the lowest since 2008.",
+   "say": "By July twenty twenty-six, that was down to about six hundred eighteen billion dollars. That's the lowest since two thousand eight.",
+   "scene": {
+    "t": "compare",
+    "title": "China's US Treasury holdings",
+    "left": {
+     "label": "Nov 2013",
+     "value": "$1.32T",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "July 2026",
+     "value": "$618B",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's less than half of its peak.",
+   "say": "That's less than half of the peak.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "China's US Treasury holdings",
+    "left": {
+     "label": "Nov 2013",
+     "value": "$1.32T",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "July 2026",
+     "value": "$618B",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of July 2026, Japan is number one, at about $1.1 trillion, and the UK is second, near $1 trillion.",
+   "say": "As of July twenty twenty-six, Japan is number one, at about one point one trillion dollars, and the UK is second, at close to a trillion.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "$1,103.9B"
+     },
+     {
+      "name": "uk",
+      "mood": "happy",
+      "says": "$998.3B"
+     },
+     {
+      "name": "china",
+      "mood": "think",
+      "says": "$618B"
+     }
+    ],
+    "caption": "Top foreign holders, July 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Foreigners held $9.248 trillion of Treasuries in July 2026, so China's slice is about 6.7%.",
+   "say": "In total, foreigners held about nine point two five trillion dollars of Treasuries in July twenty twenty-six. So China's slice is about six point seven percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$618B / $9,248B",
+     "= about 6.7%",
+     "of foreign holdings"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why would you care who holds US debt? Because someone has to buy it.",
+   "say": "So why would you care who holds US debt? Because someone has to buy it.",
+   "scene": {
+    "t": "hook",
+    "title": "Someone has to [buy] it",
+    "prop": "paper",
+    "label": "US IOU",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When one big buyer steps back, other buyers have to step in, and the price they demand is the interest rate.",
+   "say": "When one big buyer steps back, other buyers have to step in. And the price they ask for is the interest rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fewer buyers -> need",
+     "a better deal",
+     "Better deal = higher yield"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Treasury rates are a base for the rates on mortgages, car loans and savings accounts.",
+   "say": "Treasury rates act as a base for the rates on mortgages, car loans and savings accounts.",
+   "scene": {
+    "t": "list",
+    "title": "Rates tied to Treasuries",
+    "items": [
+     "Mortgages",
+     "Car loans",
+     "Savings yields"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "China is only one buyer among many, and lots of things move rates. Nobody can call the next move.",
+   "say": "To be clear, China is only one buyer among many, and lots of things move rates. Nobody can call the next move.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "many lenders"
+     },
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "me"
+     },
+     {
+      "name": "uk",
+      "mood": "happy",
+      "says": "me too"
+     }
+    ],
+    "caption": "One buyer among many"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But it's one more thread tying Beijing to your monthly payments.",
+   "say": "But it's one more thread tying Beijing to your monthly payments.",
+   "scene": {
+    "t": "hook",
+    "title": "A thread to your [payments]",
+    "prop": "house",
+    "label": "MORTGAGE",
+    "value": "rates",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: when China slows down.",
+   "say": "Chapter five. What happens when China slows down.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "When China slows down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "China is the world's second-biggest economy, and it's growing more slowly than it used to.",
+   "say": "China is the world's second-biggest economy, and it's growing more slowly than it used to.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "slower now"
+     }
+    ],
+    "caption": "The world's No. 2 economy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its economy grew 5.0% in 2025, but the pace slowed every quarter.",
+   "say": "Its economy grew five percent in twenty twenty-five, but the pace slowed every single quarter.",
+   "scene": {
+    "t": "chart",
+    "title": "China GDP growth by quarter, 2025 (%)",
+    "points": [
+     [
+      1,
+      5.4
+     ],
+     [
+      2,
+      5.2
+     ],
+     [
+      3,
+      4.8
+     ],
+     [
+      4,
+      4.5
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.5%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 5.4% in the first quarter to 4.5% in the fourth.",
+   "say": "It went from five point four percent in the first quarter to four point five percent in the fourth.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 4,
+     "text": "4.5% in Q4"
+    },
+    "title": "China GDP growth by quarter, 2025 (%)",
+    "points": [
+     [
+      1,
+      5.4
+     ],
+     [
+      2,
+      5.2
+     ],
+     [
+      3,
+      4.8
+     ],
+     [
+      4,
+      4.5
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.5%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for 2026, Beijing set a growth target of 4.5% to 5%, its lowest since 1991.",
+   "say": "And for twenty twenty-six, Beijing set a growth target of four and a half to five percent. That's its lowest target since nineteen ninety-one.",
+   "scene": {
+    "t": "stat",
+    "label": "China's 2026 growth target",
+    "value": "4.5-5%",
+    "tone": "down",
+    "sub": "lowest since 1991 (government work report)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A slower China also buys less from the world. Its imports grew just 0.5% in 2025, in yuan terms.",
+   "say": "A slower China also buys less from the rest of the world. Its imports grew just half a percent in twenty twenty-five, measured in yuan, while exports grew about six percent.",
+   "scene": {
+    "t": "compare",
+    "title": "China's trade growth, 2025 (yuan)",
+    "left": {
+     "label": "Exports",
+     "value": "+6.1%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Imports",
+     "value": "+0.5%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When people at home spend less, factories still want to sell, so they sell abroad.",
+   "say": "When people at home spend less, the factories still want to sell. So they sell abroad.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "sell abroad!"
+     },
+     {
+      "name": "mexico",
+      "mood": "think",
+      "says": "to me?"
+     },
+     {
+      "name": "germany",
+      "mood": "think",
+      "says": "me?"
+     }
+    ],
+    "caption": "Weak home demand"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, China ran a record goods trade surplus: $1.189 trillion.",
+   "say": "In twenty twenty-five, China ran a record goods trade surplus of about one point one nine trillion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "China's goods trade surplus, 2025",
+    "value": "$1.189T",
+    "tone": "up",
+    "sub": "record (China customs, Jan 2026)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Exports to America fell, but exports to Africa rose 26% and to Southeast Asia 13%.",
+   "say": "Exports to America fell, but exports to Africa rose twenty-six percent, and to Southeast Asia thirteen percent.",
+   "scene": {
+    "t": "list",
+    "title": "China's 2025 export growth",
+    "items": [
+     "Africa +26%",
+     "Southeast Asia +13%",
+     "EU +8%",
+     "Latin America +7%"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That flood of goods kept a lid on prices. China's own consumer inflation was just 0.8% in August 2026.",
+   "say": "That flood of goods kept a lid on prices. China's own consumer inflation was just zero point eight percent in August twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "China consumer inflation, Aug 2026",
+    "value": "0.8%",
+    "tone": "neutral",
+    "sub": "year over year, NBS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For years, China's factory prices were actually falling, which made its exports cheaper.",
+   "say": "For years, China's factory prices were actually falling, which made its exports cheaper around the world.",
+   "scene": {
+    "t": "hook",
+    "title": "Factory prices [fell]",
+    "prop": "chart-down",
+    "label": "PPI",
+    "value": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But in August 2026, factory prices were up 3.8% from a year earlier, driven by energy and chips.",
+   "say": "But in August twenty twenty-six, China's factory prices were up three point eight percent from a year earlier, pushed by energy costs and a memory-chip shortage.",
+   "scene": {
+    "t": "stat",
+    "label": "China producer prices, Aug 2026",
+    "value": "+3.8%",
+    "tone": "down",
+    "sub": "year over year (NBS, Sept 10, 2026)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rising factory costs in China can mean pricier parts for the companies that buy from China.",
+   "say": "Rising factory costs in China can mean pricier parts for the companies that buy from China, wherever they are.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "costs up"
+     },
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "my parts?"
+     }
+    ],
+    "caption": "Costs travel too",
+    "prop": {
+     "kind": "tag",
+     "label": "+3.8%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How much of that reaches US shelves depends on tariffs, the dollar and competition. Nobody knows for sure.",
+   "say": "How much of that reaches American shelves depends on tariffs, the dollar, and competition. Nobody knows that for sure.",
+   "scene": {
+    "t": "split",
+    "title": "What decides your price",
+    "left": {
+     "title": "Push up",
+     "items": [
+      "Tariffs",
+      "Factory costs"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Push down",
+     "items": [
+      "Competition",
+      "Other suppliers"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The point is: China's prices don't stay in China.",
+   "say": "The point is, China's prices don't stay in China.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "think",
+      "says": "my prices"
+     },
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "my prices too"
+     }
+    ],
+    "caption": "Prices travel"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: the recap.",
+   "say": "Chapter six. The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: America imported about $2,290 of Chinese goods per household in 2025, even after a big drop.",
+   "say": "One. America imported about two thousand three hundred dollars of Chinese goods per household in twenty twenty-five, even after a big drop.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "$2,290 per household",
+     "Tariffs: paid here",
+     "Half our soy exports",
+     "$618B of US debt"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: tariffs are paid by US importers, and research found most of the cost shows up in US prices.",
+   "say": "Two. Tariffs are paid by American importers, and research found most of the cost shows up in American prices.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "$2,290 per household",
+     "Tariffs: paid here",
+     "Half our soy exports",
+     "$618B of US debt"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: China bought about half of America's soybean exports in 2024, so trade fights hit farm towns.",
+   "say": "Three. China bought about half of America's soybean exports in twenty twenty-four, so trade fights hit farm towns.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "$2,290 per household",
+     "Tariffs: paid here",
+     "Half our soy exports",
+     "$618B of US debt"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: China held $618 billion of US debt in July 2026, a big lender, but a shrinking one.",
+   "say": "Four. China held about six hundred eighteen billion dollars of US debt in July twenty twenty-six. A big lender, but a shrinking one.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "$2,290 per household",
+     "Tariffs: paid here",
+     "Half our soy exports",
+     "$618B of US debt"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And five: when China's economy slows or its prices move, the ripples cross the Pacific.",
+   "say": "And five. When China's economy slows down, or its prices move, the ripples cross the Pacific.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "think",
+      "says": "I slow down"
+     },
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "I feel it"
+     }
+    ],
+    "caption": "Ripples cross the Pacific"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next time a toy costs more, or a mortgage rate moves, you'll know where to look.",
+   "say": "So next time a toy costs more, or a mortgage rate moves, you'll know where to look.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price tag",
+     "Farm towns",
+     "Interest rates"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this helped, subscribe for more World Money.",
+   "say": "If this helped, subscribe for more World Money.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained from zero.",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "America imported $2,290 of Chinese goods per household. Here's how China reaches your wallet.",
+  "ig": "America imported about $2,290 of Chinese goods per household in 2025. Here's where that money goes.",
+  "tiktok": "About $2,290 of Chinese goods per US household in 2025. And China is also a customer and a lender.",
+  "yt_desc": "In 2025 the US imported $308.7 billion of goods from China, about $2,290 per household, even after a drop of almost a third. We follow the money: what Americans buy, who really pays a tariff (with lamp math), why China buys half of US soybean exports, why China's $618 billion of Treasuries matters, and what China's slowdown and factory prices mean for prices here.\n\nCHAPTERS\n\nSources:\n- US Census Bureau, trade in goods with China (2018-2025)\n- US Treasury TIC data (July 2026)\n- China National Bureau of Statistics: 2025 GDP; CPI and PPI for August 2026\n- China customs 2025 trade data via NBC News (Jan 2026)\n- CNN (Sept 28, 2026) and Time (Sept 29, 2026) on the US-China tariff cuts\n- Amiti, Redding and Weinstein, Journal of Economic Perspectives (2019)\n- Federal Reserve FEDS Notes (Aug 2, 2024)\n- USDA Foreign Agricultural Service (2024); farmdoc daily (Sept 2025)\n- Fortune and NBC News (2025) on the de minimis rule\n\nNews and education, not financial advice.\n\n#China #Tariffs #WorldMoney",
+  "tags": [
+   "china economy",
+   "us china trade",
+   "tariffs explained",
+   "who pays tariffs",
+   "china treasury holdings",
+   "soybeans china",
+   "world money",
+   "FinanceProsTV"
+  ]
+ }
+}
