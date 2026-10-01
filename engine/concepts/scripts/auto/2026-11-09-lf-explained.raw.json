@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Private equity did over 9,000 US deals in 2025.",
-   "say": "Private equity did over nine thousand US deals in twenty twenty-five.",
+   "text": "Over 9,000 US private equity deals in one year.",
+   "say": "Over nine thousand US private equity deals in one year.",
    "scene": {
     "t": "hook",
     "title": "[9,000] deals, 1 year",
@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's about 25 a day. Your vet, your dentist, even your plumber could be on the list.",
-   "say": "That's about twenty-five a day. Your vet, your dentist, even your plumber could be on the list.",
+   "text": "That was 2025, counting add-ons: about 25 a day. Your vet, your dentist, even your plumber could be on the list.",
+   "say": "That was twenty twenty-five, counting add-on deals: about twenty-five a day. Your vet, your dentist, even your plumber could be on the list.",
    "scene": {
     "t": "list",
     "title": "Who's been bought?",
@@ -40,8 +40,8 @@
   },
   {
    "who": "ticker",
-   "text": "Worldwide, Bain counted $904 billion of buyouts in 2025.",
-   "say": "Worldwide, the consulting firm Bain counted nine hundred four billion dollars of buyouts in twenty twenty-five.",
+   "text": "Worldwide, Bain counted $904 billion of buyouts in 2025, not counting add-ons.",
+   "say": "Worldwide, the consulting firm Bain counted nine hundred four billion dollars of buyouts in twenty twenty-five, not counting add-ons.",
    "scene": {
     "t": "stat",
     "label": "Global buyout value, 2025",
@@ -73,8 +73,8 @@
   },
   {
    "who": "ticker",
-   "text": "So who is buying all this, with whose money, and is it good or bad for the rest of us?",
-   "say": "So who is buying all this, with whose money, and is it good or bad for the rest of us?",
+   "text": "So who's buying, with whose money, and is it good or bad for the rest of us?",
+   "say": "So who's buying, with whose money, and is it good or bad for the rest of us?",
    "scene": {
     "t": "board",
     "lines": [
@@ -129,19 +129,6 @@
   },
   {
    "who": "ticker",
-   "text": "No cheering and no booing. Just how it works and what the evidence says.",
-   "say": "No cheering and no booing. Just how it works and what the evidence says.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "No cheering.",
-     "No booing.",
-     "Just the evidence."
-    ]
-   }
-  },
-  {
-   "who": "ticker",
    "text": "Chapter 1: How a private equity fund works.",
    "say": "Chapter one: How a private equity fund works.",
    "scene": {
@@ -165,8 +152,8 @@
   },
   {
    "who": "ticker",
-   "text": "It starts with a firm. In the business, that firm is called the general partner, or GP.",
-   "say": "It starts with a firm. In the business, that firm is called the general partner, or G P.",
+   "text": "It starts with a firm, called the general partner, or GP.",
+   "say": "It starts with a firm, called the general partner, or G P.",
    "scene": {
     "t": "board",
     "lines": [
@@ -205,11 +192,11 @@
   },
   {
    "who": "ticker",
-   "text": "Many public pension funds, including teachers' funds, put part of their money into PE funds.",
-   "say": "Many public pension funds, including teachers' funds, put part of their money into P E funds.",
+   "text": "Big public pension funds, like CalSTRS, California's teachers' fund, put part of their money into PE funds.",
+   "say": "Big public pension funds, like Cal S T R S, California's teachers' fund, put part of their money into P E funds.",
    "scene": {
     "t": "hook",
-    "title": "Your [pension] is in",
+    "title": "[Pensions] are in",
     "prop": "pot",
     "label": "PENSION",
     "value": "LP",
@@ -365,21 +352,6 @@
   },
   {
    "who": "ticker",
-   "text": "That means the company's own profits have to pay the debt back.",
-   "say": "That means the company's own profits have to pay the debt back.",
-   "scene": {
-    "t": "list",
-    "title": "Company profits pay",
-    "items": [
-     "Interest",
-     "The loan itself",
-     "Then everything else"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
    "text": "Let's run a hypothetical example with round numbers. A fund buys a company for $100 million.",
    "say": "Let's run a hypothetical example with round numbers. A fund buys a company for one hundred million dollars.",
    "scene": {
@@ -443,8 +415,8 @@
   },
   {
    "who": "ticker",
-   "text": "It put in $40 million, so that's 2.75 times its money.",
-   "say": "It put in forty million dollars, so that's two point seven five times its money.",
+   "text": "It put in $40 million, so that's 2.75 times its money, before the GP's cut.",
+   "say": "It put in forty million dollars, so that's two point seven five times its money, before the G P's cut.",
    "scene": {
     "t": "stat",
     "label": "Example: fund's multiple",
@@ -476,14 +448,14 @@
   },
   {
    "who": "ticker",
-   "text": "Now the carry. The profit is $70 million. 20% of that, $14 million, goes to the GP, and the LPs keep $56 million.",
-   "say": "Now the carry. The profit is seventy million dollars. Twenty percent of that, fourteen million dollars, goes to the G P, and the L Ps keep fifty-six million dollars.",
+   "text": "Now the carry. The profit is $70 million, and 20% of that, $14 million, goes to the GP. The LPs get $96 million, about 2.4 times their money.",
+   "say": "Now the carry. The profit is seventy million dollars, and twenty percent of that, fourteen million dollars, goes to the G P. The L Ps get ninety-six million dollars, about two point four times their money.",
    "scene": {
     "t": "board",
     "lines": [
      "$110M - $40M = $70M",
      "20% carry = $14M",
-     "LPs keep $56M"
+     "LPs: $96M, about 2.4x"
     ]
    }
   },
@@ -554,12 +526,12 @@
   },
   {
    "who": "ticker",
-   "text": "Real deals use this math at huge scale. Electronic Arts agreed in September 2025 to be bought for about $55 billion.",
-   "say": "Real deals use this math at huge scale. Electronic Arts agreed in September twenty twenty-five to be bought for about fifty-five billion dollars.",
+   "text": "Electronic Arts agreed in September 2025 to be bought for about $55 billion.",
+   "say": "Electronic Arts agreed in September twenty twenty-five to be bought for about fifty-five billion dollars.",
    "scene": {
     "t": "news",
     "headline": "EA agrees to $55B take-private",
-    "source": "Electronic Arts, Sept 29, 2025"
+    "source": "EA release, Sept 29, 2025"
    }
   },
   {
@@ -585,14 +557,14 @@
   },
   {
    "who": "ticker",
-   "text": "Bain counted it as the biggest buyout of 2025.",
-   "say": "Bain counted it as the biggest buyout of twenty twenty-five.",
+   "text": "Bain recorded it at $56.6 billion, the biggest buyout on record.",
+   "say": "Bain recorded it at fifty-six point six billion dollars, the biggest buyout on record.",
    "scene": {
     "t": "stat",
-    "label": "Biggest buyout of 2025",
-    "value": "EA",
+    "label": "EA buyout, in Bain's count",
+    "value": "$56.6B",
     "tone": "neutral",
-    "sub": "Bain Global PE Report 2026"
+    "sub": "Largest buyout on record"
    }
   },
   {
@@ -607,62 +579,35 @@
   },
   {
    "who": "ticker",
-   "text": "Bain's figures show global buyouts hit $975 billion in 2021, when borrowing was cheap.",
-   "say": "Bain's figures show global buyouts hit nine hundred seventy-five billion dollars in twenty twenty-one, when borrowing was cheap.",
+   "text": "Giant deals did a lot of the lifting. Bain counted 13 buyouts over $10 billion in 2025, worth $274 billion combined.",
+   "say": "Giant deals did a lot of the lifting. Bain counted thirteen buyouts over ten billion dollars in twenty twenty-five, worth two hundred seventy-four billion dollars combined.",
    "scene": {
-    "t": "chart",
-    "title": "Global buyout value ($B)",
-    "points": [
-     [
-      2021,
-      975
-     ],
-     [
-      2022,
-      719
-     ],
-     [
-      2023,
-      442
-     ],
-     [
-      2024,
-      628
-     ],
-     [
-      2025,
-      904
-     ]
-    ],
-    "prefix": "$",
-    "suffix": "B",
-    "end": "$904B",
-    "color": "up"
+    "t": "stat",
+    "label": "Buyouts over $10B, 2025",
+    "value": "13",
+    "tone": "up",
+    "sub": "Worth $274B, Bain 2026"
    }
   },
   {
    "who": "ticker",
-   "text": "When rates jumped, deals fell to $442 billion in 2023. Then they climbed back to $904 billion in 2025.",
-   "say": "When rates jumped, deals fell to four hundred forty-two billion dollars in twenty twenty-three. Then they climbed back to nine hundred four billion dollars in twenty twenty-five.",
+   "text": "Meanwhile, the number of buyout deals actually fell 6%.",
+   "say": "Meanwhile, the number of buyout deals actually fell six percent.",
    "scene": {
-    "t": "chart",
-    "keep": true,
-    "chart_note": {
-     "x": 2023,
-     "text": "$442B low"
+    "t": "compare",
+    "title": "Global buyouts, 2025",
+    "left": {
+     "label": "Value",
+     "value": "+44%",
+     "tone": "up",
+     "sub": "to $904B"
+    },
+    "right": {
+     "label": "Deal count",
+     "value": "-6%",
+     "tone": "down",
+     "sub": "Bain 2026"
     }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The giant deals get the headlines. But a lot of the buying is small, local businesses stitched together.",
-   "say": "The giant deals get the headlines. But a lot of the buying is small, local businesses stitched together.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Big deals: headlines",
-     "Small deals: everywhere"
-    ]
    }
   },
   {
@@ -714,7 +659,7 @@
   {
    "who": "ticker",
    "text": "Many of those groups are PE-backed. One study found PE-affiliated dentists rose from 6.6% in 2015 to 12.8% in 2021.",
-   "say": "Many of those groups are backed by private equity. One study found P E affiliated dentists rose from six point six percent in twenty fifteen to twelve point eight percent in twenty twenty-one.",
+   "say": "Many of those groups are P E backed. One study found P E affiliated dentists rose from six point six percent in twenty fifteen to twelve point eight percent in twenty twenty-one.",
    "scene": {
     "t": "money",
     "from": {
@@ -729,8 +674,8 @@
   },
   {
    "who": "ticker",
-   "text": "Vet clinics are another target. In 2022, the FTC made PE firm JAB Consumer Partners sell some clinics before buying two vet chains.",
-   "say": "Vet clinics are another target. In twenty twenty-two, the F T C made the P E firm JAB Consumer Partners sell some clinics before buying two vet chains.",
+   "text": "Vet clinics are another target. In 2022, the FTC required PE firm JAB Consumer Partners to sell some clinics as a condition of buying two vet chains.",
+   "say": "Vet clinics are another target. In twenty twenty-two, the F T C required the P E firm JAB Consumer Partners to sell some clinics as a condition of buying two vet chains.",
    "scene": {
     "t": "news",
     "headline": "FTC orders JAB to sell vet clinics",
@@ -760,8 +705,8 @@
   },
   {
    "who": "ticker",
-   "text": "Then there's housing. A May 2024 GAO report said 32 large investors owned about 450,000 single-family homes as of 2022.",
-   "say": "Then there's housing. A May twenty twenty-four G A O report said thirty-two large investors owned about four hundred fifty thousand single-family homes as of twenty twenty-two.",
+   "text": "Then there's housing. A May 2024 GAO report said 32 large investors, some PE-backed, owned about 450,000 single-family homes as of 2022.",
+   "say": "Then there's housing. A May twenty twenty-four G A O report said thirty-two large investors, some backed by private equity, owned about four hundred fifty thousand single-family homes as of twenty twenty-two.",
    "scene": {
     "t": "stat",
     "label": "Homes owned by 32 investors",
@@ -793,8 +738,30 @@
   },
   {
    "who": "ticker",
-   "text": "Hospitals are on the list too, and one case shows how debt and real estate deals can bite.",
-   "say": "Hospitals are on the list too, and one case shows how debt and real estate deals can bite.",
+   "text": "In July 2026, the 21st Century ROAD to Housing Act became law, without the president's signature.",
+   "say": "In July twenty twenty-six, the twenty-first Century ROAD to Housing Act became law, without the president's signature.",
+   "scene": {
+    "t": "news",
+    "headline": "Housing law limits big investors",
+    "source": "Became law July 11, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Starting January 2027, it bars investors with 350 or more single-family homes from buying more, with some exceptions, like build-to-rent.",
+   "say": "Starting January twenty twenty-seven, it bars investors with three hundred fifty or more single-family homes from buying more, with some exceptions, like build-to-rent.",
+   "scene": {
+    "t": "stat",
+    "label": "Homes cap trigger, 2027",
+    "value": "350+",
+    "tone": "neutral",
+    "sub": "ROAD to Housing Act"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hospitals are on the list too. Take the Steward case.",
+   "say": "Hospitals are on the list too. Take the Steward case.",
    "scene": {
     "t": "board",
     "lines": [
@@ -833,8 +800,8 @@
   },
   {
    "who": "ticker",
-   "text": "Cerberus sold its stake in 2020. Then in May 2024, Steward filed for bankruptcy with 31 hospitals in 10 states.",
-   "say": "Cerberus sold its stake in twenty twenty. Then in May twenty twenty-four, Steward filed for bankruptcy with thirty-one hospitals in ten states.",
+   "text": "Cerberus sold its stake in 2020. Then in May 2024, Steward filed for bankruptcy with 31 hospitals in eight states.",
+   "say": "Cerberus sold its stake in twenty twenty. Then in May twenty twenty-four, Steward filed for bankruptcy with thirty-one hospitals in eight states.",
    "scene": {
     "t": "timeline",
     "keep": true,
@@ -914,19 +881,6 @@
   },
   {
    "who": "ticker",
-   "text": "So yes, it really is a bit of everything. The real question is what happens after the purchase.",
-   "say": "So yes, it really is a bit of everything. The real question is what happens after the purchase.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "The real question:",
-     "what happens after?"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
    "text": "Chapter 4: The case for private equity.",
    "say": "Chapter four: The case for private equity.",
    "scene": {
@@ -978,20 +932,20 @@
   },
   {
    "who": "ticker",
-   "text": "Jobs were mixed: down 13% when a public company was taken private, up 13% when a private one was bought.",
-   "say": "Jobs were mixed: down thirteen percent when a public company was taken private, up thirteen percent when a private one was bought.",
+   "text": "Jobs were mixed: down 12% when a public company was taken private, up 15% when a private one was bought.",
+   "say": "Jobs were mixed: down twelve percent when a public company was taken private, up fifteen percent when a private one was bought.",
    "scene": {
     "t": "compare",
     "title": "Jobs, 2 years after buyout",
     "left": {
      "label": "Public firm",
-     "value": "-13%",
+     "value": "-12%",
      "tone": "down",
      "sub": "taken private"
     },
     "right": {
      "label": "Private firm",
-     "value": "+13%",
+     "value": "+15%",
      "tone": "up",
      "sub": "bought by PE"
     }
@@ -1048,8 +1002,8 @@
   },
   {
    "who": "ticker",
-   "text": "Even in hospitals, a 2025 study found PE-bought hospitals got more profitable, with no sign of higher death or readmission rates.",
-   "say": "Even in hospitals, a twenty twenty-five study found P E bought hospitals got more profitable, with no sign of higher death or readmission rates.",
+   "text": "Even in hospitals, a 2025 study found PE-bought hospitals got more profitable, with no sign of higher death or readmission rates for heart attack, heart failure and pneumonia patients.",
+   "say": "Even in hospitals, a twenty twenty-five study found P E bought hospitals got more profitable, with no sign of higher death or readmission rates for heart attack, heart failure and pneumonia patients.",
    "scene": {
     "t": "split",
     "title": "Hospital study, JFE 2025",
@@ -1057,7 +1011,7 @@
      "title": "Found",
      "items": [
       "Higher profits",
-      "No mortality rise",
+      "Deaths flat, 3 illnesses",
       "Same inpatient prices"
      ],
      "tone": "up"
@@ -1336,8 +1290,8 @@
   },
   {
    "who": "ticker",
-   "text": "Debt magnifies everything. In our example, the fund made 2.75 times its money on a good sale and lost half on a bad one.",
-   "say": "Debt magnifies everything. In our example, the fund made two point seven five times its money on a good sale and lost half on a bad one.",
+   "text": "Debt magnifies everything. In our example, the deal made 2.75 times the money before carry on a good sale and lost half on a bad one.",
+   "say": "Debt magnifies everything. In our example, the deal made two point seven five times the money before carry on a good sale and lost half on a bad one.",
    "scene": {
     "t": "compare",
     "title": "Example: with debt",
@@ -1405,20 +1359,20 @@
    "scene": {
     "t": "news",
     "headline": "Labor Dept. proposes 401(k) rule",
-    "source": "US Dept. of Labor, Mar 30, 2026"
+    "source": "DOL, Mar 30, 2026"
    }
   },
   {
    "who": "ticker",
-   "text": "That followed an August 2025 executive order. Supporters call it more choice. Critics point to higher fees and assets that are hard to sell.",
-   "say": "That followed an August twenty twenty-five executive order. Supporters call it more choice. Critics point to higher fees and assets that are hard to sell.",
+   "text": "It followed an August 2025 executive order. The administration says it widens access and diversification. Critics, including some consumer advocates, point to higher fees and assets that are hard to sell. As of September 2026, the rule was still proposed.",
+   "say": "It followed an August twenty twenty-five executive order. The administration says it widens access and diversification. Critics, including some consumer advocates, point to higher fees and assets that are hard to sell. As of September twenty twenty-six, the rule was still proposed.",
    "scene": {
     "t": "split",
     "title": "Private assets in 401(k)s",
     "left": {
-     "title": "Supporters",
+     "title": "Administration",
      "items": [
-      "More choice",
+      "Wider access",
       "More diversification"
      ],
      "tone": "up"
@@ -1459,8 +1413,8 @@
  ],
  "post": {
   "title": "Private equity did 9,000+ US deals in 2025. How it works, and what studies found",
-  "ig": "Private equity did over 9,000 US deals in 2025. Here's how it works.",
+  "ig": "Over 9,000 US private equity deals in one year. Here's how it works.",
   "tiktok": "9,000 private equity deals in one year. Who's buying, and with whose money?",
-  "yt_desc": "Private equity did more than 9,000 US deals in 2025, about 25 a day, from vet clinics and dental offices to plumbers, homes, hospitals, software and sports teams. This video explains from zero how a PE fund works (GPs, LPs and 2 and 20), walks through a hypothetical leveraged buyout with the full math, and charts global buyout value from 2021 to 2025. Then it lays out what peer-reviewed research found on both sides: productivity gains and cleaner restaurants, but higher death rates in PE-owned nursing homes and more hospital-acquired conditions after hospital buyouts.\n\nCHAPTERS\n\nSources: PitchBook, 2025 Annual US PE Breakdown (Jan 2026); Bain & Company, Global Private Equity Report 2026 (Mar 2026); Electronic Arts release (Sept 29, 2025); Wall Street Journal with PitchBook data (Oct 12, 2024); ADA Health Policy Institute (2024); Health Affairs via ADA News (Aug 2024); FTC (June 2022); GAO-24-106643 (May 22, 2024); Medical Properties Trust SEC filings (2024); Boston Globe (Sept 26, 2016); CNBC (Aug 27, 2024); Davis et al., Management Science (2025); Bernstein and Sheen, Review of Financial Studies (2016); Harris, Jenkinson and Kaplan, Journal of Finance (2014); Gao, Kim and Sevilir, Journal of Financial Economics (2025); Gupta, Howell, Yannelis and Gupta, Review of Financial Studies (2024); Kannan, Bruch and Song, JAMA (Dec 2023); Kannan et al., Annals of Internal Medicine (Sept 2025); Phalippou, Journal of Investing (2020); US Department of Labor proposed rule (Mar 30, 2026).\n\nNews and education, not financial advice.\n\n#privateequity #money #personalfinance"
+  "yt_desc": "Private equity did more than 9,000 US deals in 2025 (PitchBook, including add-ons), about 25 a day, from vet clinics and dental offices to plumbers, homes, hospitals, software and sports teams. This video explains from zero how a PE fund works (GPs, LPs and 2 and 20), walks through a hypothetical leveraged buyout with the full math, and compares global buyout value in 2024 and 2025 (Bain, excluding add-ons). Then it lays out what peer-reviewed research found on both sides: productivity gains and cleaner restaurants, but higher death rates in PE-owned nursing homes and more hospital-acquired conditions after hospital buyouts.\n\nCHAPTERS\n\nSources: PitchBook, 2025 Annual US PE Breakdown (Jan 2026); Bain & Company, Global Private Equity Report 2026 (Mar 2026); Electronic Arts release (Sept 29, 2025); Wall Street Journal with PitchBook data (Oct 12, 2024); ADA Health Policy Institute (2024); Health Affairs via ADA News (Aug 2024); FTC (June 2022); GAO-24-106643 (May 22, 2024); Medical Properties Trust SEC filings (2024); Boston Globe (Sept 26, 2016); CNBC (Aug 27, 2024); Davis et al., Management Science (2025); Bernstein and Sheen, Review of Financial Studies (2016); Harris, Jenkinson and Kaplan, Journal of Finance (2014); Gao, Kim and Sevilir, Journal of Financial Economics (2025); Gupta, Howell, Yannelis and Gupta, Review of Financial Studies (2024); Kannan, Bruch and Song, JAMA (Dec 2023); Kannan et al., Annals of Internal Medicine (Sept 2025); Phalippou, Journal of Investing (2020); US Department of Labor proposed rule (Mar 30, 2026).\n\nNews and education, not financial advice.\n\n#privateequity #money #personalfinance"
  }
 }

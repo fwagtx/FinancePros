@@ -78,3 +78,13 @@ SOURCES:
 - Kannan et al., Annals of Internal Medicine (Sept 2025; correction 2026)
 - Phalippou, Journal of Investing (2020)
 - CNBC (Mar 30, 2026) DOL proposed rule
+
+## Corrections after fact-check (Oct 1, 2026)
+- Davis et al., published Management Science 2025: employment -12% (public-to-private), +15% (private-to-private); productivity +8%, earnings -1.7% unchanged.
+- Steward: 31 hospitals in eight states (not 10).
+- 21st Century ROAD to Housing Act became law July 11, 2026 without the president's signature (House 358-32, Senate 85-5). From Jan 7, 2027 it bars investors controlling 350+ single-family homes from buying more, with exceptions (e.g., build-to-rent, renovate-to-rent, rent-to-own programs). (CNBC Jul 11, 2026; Mayer Brown, Greenberg Traurig, Morgan Lewis, Jul 2026)
+- Chart of 2021-2023 Bain values dropped (unverified vintage). Kept 2024 $628B vs 2025 $904B (Bain 2026, excl. add-ons); 13 deals >$10B worth $274B; deal count -6%.
+- EA: Bain records $56.6B, largest buyout on record. LPs after 20% carry in example: $96M on $40M = 2.4x.
+- Gao-Kim-Sevilir mortality finding limited to heart attack, heart failure, pneumonia patients.
+- CalSTRS (California State Teachers' Retirement System) invests in private equity.
+- DOL 401(k) alternatives rule: proposed Mar 30, 2026; still proposed as of Sept 2026.
