@@ -1,0 +1,221 @@
+{
+ "id": "2026-11-08-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why groceries\nstay expensive",
+ "cover": {
+  "title": "Grocery Inflation Cooled. Prices Didn't.",
+  "prop": "bag",
+  "label": "GROCERIES",
+  "value": "+31%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Grocery inflation cooled. Your bill didn't.",
+   "say": "Grocery inflation cooled. Your bill didn't.",
+   "scene": {
+    "t": "hook",
+    "title": "Grocery inflation cooled. [Prices didn't.]",
+    "prop": "bag",
+    "label": "GROCERIES",
+    "value": "+31%",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the trick hiding in that word, inflation.",
+   "say": "Here's the trick hiding in that word, inflation.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Inflation =",
+     "how fast prices rise,",
+     "not the price"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Grocery prices jumped 11.8% in 2022, then rose just 1.3% in 2023.",
+   "say": "Grocery prices jumped eleven point eight percent in twenty twenty-two, then rose just one point three percent in twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "title": "Grocery prices, Dec-to-Dec change (BLS)",
+    "points": [
+     [
+      2020,
+      3.9
+     ],
+     [
+      2021,
+      6.5
+     ],
+     [
+      2022,
+      11.8
+     ],
+     [
+      2023,
+      1.3
+     ],
+     [
+      2024,
+      1.8
+     ],
+     [
+      2025,
+      2.4
+     ]
+    ],
+    "suffix": "%",
+    "end": "+2.4%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So grocery inflation cooled a lot. But 1.3% is still up, on top of the 2022 jump.",
+   "say": "So grocery inflation cooled a lot. But one point three percent is still up, on top of the twenty twenty-two jump.",
+   "scene": {
+    "t": "chart",
+    "title": "Grocery prices, Dec-to-Dec change (BLS)",
+    "points": [
+     [
+      2020,
+      3.9
+     ],
+     [
+      2021,
+      6.5
+     ],
+     [
+      2022,
+      11.8
+     ],
+     [
+      2023,
+      1.3
+     ],
+     [
+      2024,
+      1.8
+     ],
+     [
+      2025,
+      2.4
+     ]
+    ],
+    "suffix": "%",
+    "end": "+2.4%",
+    "color": "down",
+    "keep": true,
+    "note": {
+     "x": 2022,
+     "text": "+11.8% in 2022"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stack every year from 2020 to 2025, and groceries are up about 31%.",
+   "say": "Stack every year from twenty twenty to twenty twenty-five, and groceries are up about thirty-one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Grocery prices, Dec 2019 to Dec 2025",
+    "value": "+31%",
+    "tone": "down",
+    "sub": "BLS CPI, food at home"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A $100 cart from late 2019 cost about $131 by late 2025.",
+   "say": "A hundred dollar cart from late twenty nineteen cost about a hundred thirty-one dollars by late twenty twenty-five.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Grocery cart, Dec 2019",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Same cart, Dec 2025",
+     "value": "$131"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cooling inflation means prices rise more slowly. When prices actually fall, that's deflation, and it's rare for groceries.",
+   "say": "Cooling inflation means prices rise more slowly. When prices actually fall, that's deflation, and it's rare for groceries.",
+   "scene": {
+    "t": "split",
+    "title": "Two different things",
+    "left": {
+     "title": "Disinflation",
+     "items": [
+      "Prices rise slower",
+      "Common"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Deflation",
+     "items": [
+      "Prices fall",
+      "Rare"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the 12 months to August 2026, grocery prices were still up 2.2%.",
+   "say": "In the twelve months to August twenty twenty-six, grocery prices were still up two point two percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Grocery prices, 12 months to Aug 2026",
+    "value": "+2.2%",
+    "tone": "down",
+    "sub": "BLS CPI"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices rarely fall, so real relief comes when pay rises faster than prices.",
+   "say": "Prices rarely fall, so real relief comes when pay rises faster than prices.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Relief = pay rising",
+     "faster than prices"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Grocery inflation cooled. Your grocery bill didn't. Here's why.",
+  "ig": "Grocery inflation cooled. Your bill didn't.\nBLS food-at-home prices: +11.8% in 2022, then +1.3% in 2023 (December to December). Slower, but still up.\nFrom Dec 2019 to Dec 2025, groceries rose about 31%: a $100 cart became about $131.\nCooling inflation means prices rise more slowly; when prices actually fall, that's deflation, which is rare for groceries. Grocery prices were up 2.2% in the 12 months to Aug 2026.\nSource: BLS Consumer Price Index.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#groceries #inflation #prices #personalfinance #financeprostv",
+  "tiktok": "Grocery inflation cooled. Your grocery bill didn't. Here's why. Not financial advice. #moneytok #personalfinance #inflation #groceries #financeprostv",
+  "yt_desc": "Grocery prices (BLS CPI food at home) rose 11.8% in 2022 and just 1.3% in 2023, but slower inflation still means higher prices: from December 2019 to December 2025 groceries rose about 31%, so a $100 cart became about $131. Prices were still up 2.2% in the 12 months to August 2026 (BLS). News and education, not financial advice. #Shorts #inflation #personalfinance",
+  "tags": [
+   "grocery prices",
+   "inflation",
+   "disinflation vs deflation",
+   "cost of living",
+   "personal finance"
+  ]
+ }
+}
