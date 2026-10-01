@@ -1,212 +1,212 @@
 {
-  "series": "ticker",
-  "header": "Credit limit increase\nwhat it does to score",
-  "cover": {
-    "title": "Does a Higher Limit Hurt?",
+ "series": "ticker",
+ "header": "Credit limit increase\nwhat it does to score",
+ "cover": {
+  "title": "Does a Higher Limit Hurt?",
+  "prop": "card",
+  "label": "+$2,500",
+  "value": "Score?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Asking for a higher credit limit can cost points. Or add them.",
+   "say": "Asking for a higher credit limit can cost points. Or add them.",
+   "scene": {
+    "t": "hook",
+    "title": "Ask for more [credit]?",
     "prop": "card",
     "label": "+$2,500",
-    "value": "Score?"
+    "value": "Score?",
+    "mood": "think"
+   }
   },
-  "lines": [
-    {
-      "who": "ticker",
-      "text": "Asking for a higher credit limit can cost points. Or add them.",
-      "say": "Asking for a higher credit limit can cost points. Or add them.",
-      "scene": {
-        "t": "hook",
-        "title": "Ask for more [credit]?",
-        "prop": "card",
-        "label": "+$2,500",
-        "value": "Score?",
-        "mood": "think"
-      }
+  {
+   "who": "ticker",
+   "text": "It comes down to two things.",
+   "say": "It comes down to two things.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1. Hard or soft check?",
+     "2. Utilization math"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Soft inquiries don't affect scores, the CFPB says. Hard ones can, and issuers differ.",
+   "say": "Soft inquiries don't affect scores, the CFPB says. Hard ones can, and issuers differ.",
+   "scene": {
+    "t": "split",
+    "title": "Two kinds of checks",
+    "left": {
+     "title": "Soft",
+     "items": [
+      "No score effect",
+      "Existing accounts"
+     ],
+     "tone": "up"
     },
-    {
-      "who": "ticker",
-      "text": "It comes down to the check and the math.",
-      "say": "It comes down to the check and the math.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "1. Hard or soft check?",
-          "2. Utilization math"
-        ],
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Soft inquiries don't affect scores, the CFPB says. Hard ones can; issuers differ.",
-      "say": "Soft inquiries don't affect scores, the CFPB says. Hard ones can; issuers differ.",
-      "scene": {
-        "t": "split",
-        "title": "Two kinds of checks",
-        "left": {
-          "title": "Soft",
-          "items": [
-            "No score effect",
-            "Existing accounts"
-          ],
-          "tone": "up"
-        },
-        "right": {
-          "title": "Hard",
-          "items": [
-            "Can lower scores",
-            "Like applying"
-          ],
-          "tone": "down"
-        }
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Capital One, for one, says it uses a soft inquiry for limit increases, whether you ask or it offers.",
-      "say": "Capital One, for one, says it uses a soft inquiry for limit increases, whether you ask or it offers.",
-      "scene": {
-        "t": "stat",
-        "label": "Capital One limit-increase check",
-        "value": "Soft",
-        "tone": "up",
-        "sub": "per capitalone.com, 2026"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "A hard inquiry costs most people under 5 points, myFICO says, counted for 12 months.",
-      "say": "A hard inquiry costs most people under five points, myFICO says, counted for twelve months.",
-      "scene": {
-        "t": "stat",
-        "label": "One hard inquiry, most people",
-        "value": "<5 pts",
-        "tone": "down",
-        "sub": "myFICO; counted 12 months",
-        "mood": "worried"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Example: $1,500 owed on a $5,000 limit is 30%.",
-      "say": "Example: fifteen hundred dollars owed on a five thousand dollar limit is thirty percent.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "Hypothetical example",
-          "$1,500 / $5,000 = 30%"
-        ]
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "If the limit rises to $7,500 with the same balance, it's 20%.",
-      "say": "If the limit rises to seventy-five hundred dollars with the same balance, it's twenty percent.",
-      "scene": {
-        "t": "compare",
-        "title": "Same $1,500 balance",
-        "left": {
-          "label": "Before",
-          "value": "30%",
-          "tone": "down",
-          "sub": "$1,500 of $5,000"
-        },
-        "right": {
-          "label": "After",
-          "value": "20%",
-          "tone": "up",
-          "sub": "$1,500 of $7,500"
-        }
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "That matters: amounts owed are 30% of FICO, and utilization 20% of VantageScore 4.0.",
-      "say": "That matters: amounts owed are thirty percent of FICO, and utilization twenty percent of VantageScore four point oh.",
-      "scene": {
-        "t": "compare",
-        "keep": true,
-        "winner": "right",
-        "mood": "happy",
-        "title": "Same $1,500 balance",
-        "left": {
-          "label": "Before",
-          "value": "30%",
-          "tone": "down",
-          "sub": "$1,500 of $5,000"
-        },
-        "right": {
-          "label": "After",
-          "value": "20%",
-          "tone": "up",
-          "sub": "$1,500 of $7,500"
-        }
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "And US card limits hit $5.56 trillion in Q2 2026.",
-      "say": "And US card limits hit five point five six trillion dollars in the second quarter of twenty twenty-six.",
-      "scene": {
-        "t": "chart",
-        "title": "US card limits, Q2 (NY Fed)",
-        "points": [
-          [
-            2023,
-            4.6
-          ],
-          [
-            2024,
-            4.92
-          ],
-          [
-            2025,
-            5.23
-          ],
-          [
-            2026,
-            5.56
-          ]
-        ],
-        "prefix": "$",
-        "suffix": "T",
-        "end": "$5.56T",
-        "color": "up"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "So the effect hinges on the check and the balance after.",
-      "say": "So the effect hinges on the check and the balance after.",
-      "scene": {
-        "t": "list",
-        "title": "What decides it",
-        "items": [
-          "Hard or soft check",
-          "Balance after increase"
-        ],
-        "reveal": 2,
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "That's the money. Follow for more.",
-      "say": "That's the money. Follow for more.",
-      "scene": {
-        "t": "cta"
-      }
+    "right": {
+     "title": "Hard",
+     "items": [
+      "Can lower scores",
+      "Like applying"
+     ],
+     "tone": "down"
     }
-  ],
-  "post": {
-    "title": "Does asking for a higher credit limit hurt your score?",
-    "ig": "Asking for a higher credit limit can cost points. Or add them.\nSoft inquiries don't affect scores; hard inquiries can, and issuers differ. Capital One says it uses a soft inquiry for limit increases.\nWith a hard inquiry, myFICO says most people lose fewer than 5 points, counted for 12 months.\nHypothetical example: a $1,500 balance on a $5,000 limit is 30% utilization; on a $7,500 limit it's 20%.\nSources: CFPB, Experian, myFICO, VantageScore, Capital One, New York Fed (Q2 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #creditlimit #personalfinance #moneytips #financeprostv",
-    "tiktok": "A higher credit limit can cost points or add them. Here's the math. Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
-    "yt_desc": "Asking for a higher credit limit can cost points or add them. Soft inquiries don't affect scores (CFPB), a hard inquiry costs most people fewer than 5 FICO points (myFICO), and Capital One says it uses soft inquiries for limit increases. In a hypothetical example, the same $1,500 balance goes from 30% to 20% utilization when the limit rises from $5,000 to $7,500. News and education, not financial advice. #Shorts #creditscore #personalfinance",
-    "tags": [
-      "credit limit increase",
-      "credit score",
-      "hard inquiry vs soft inquiry",
-      "credit utilization",
-      "personal finance"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Capital One, for one, says it uses a soft inquiry for limit increases, whether you ask or it offers.",
+   "say": "Capital One, for one, says it uses a soft inquiry for limit increases, whether you ask or it offers.",
+   "scene": {
+    "t": "stat",
+    "label": "Capital One limit-increase check",
+    "value": "Soft",
+    "tone": "up",
+    "sub": "per capitalone.com, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hard inquiry costs most people under 5 points, myFICO says, counted for 12 months.",
+   "say": "A hard inquiry costs most people under five points, myFICO says, counted for twelve months.",
+   "scene": {
+    "t": "stat",
+    "label": "One hard inquiry, most people",
+    "value": "<5 pts",
+    "tone": "down",
+    "sub": "myFICO; counted 12 months",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $1,500 owed on a $5,000 limit is 30%.",
+   "say": "Example: fifteen hundred dollars owed on a five thousand dollar limit is thirty percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hypothetical example",
+     "$1,500 / $5,000 = 30%"
     ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the limit rises to $7,500 with the same balance, it's 20%.",
+   "say": "If the limit rises to seventy-five hundred dollars with the same balance, it's twenty percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $1,500 balance",
+    "left": {
+     "label": "Before",
+     "value": "30%",
+     "tone": "down",
+     "sub": "$1,500 of $5,000"
+    },
+    "right": {
+     "label": "After",
+     "value": "20%",
+     "tone": "up",
+     "sub": "$1,500 of $7,500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That matters: amounts owed are 30% of FICO, and utilization about 20% of VantageScore 4.0.",
+   "say": "That matters: amounts owed are thirty percent of FICO, and utilization about twenty percent of VantageScore four point oh.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "happy",
+    "title": "Same $1,500 balance",
+    "left": {
+     "label": "Before",
+     "value": "30%",
+     "tone": "down",
+     "sub": "$1,500 of $5,000"
+    },
+    "right": {
+     "label": "After",
+     "value": "20%",
+     "tone": "up",
+     "sub": "$1,500 of $7,500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "US card limits hit $5.56 trillion in Q2 2026.",
+   "say": "US card limits hit five point five six trillion dollars in the second quarter of twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "US card limits, Q2 (NY Fed)",
+    "points": [
+     [
+      2023,
+      4.6
+     ],
+     [
+      2024,
+      4.92
+     ],
+     [
+      2025,
+      5.23
+     ],
+     [
+      2026,
+      5.56
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$5.56T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the effect hinges on the check and the balance after.",
+   "say": "So the effect hinges on the check and the balance after.",
+   "scene": {
+    "t": "list",
+    "title": "What decides it",
+    "items": [
+     "Hard or soft check",
+     "Balance after increase"
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
   }
+ ],
+ "post": {
+  "title": "Does asking for a higher credit limit hurt your score?",
+  "ig": "Asking for a higher credit limit can cost points. Or add them.\nSoft inquiries don't affect scores; hard inquiries can, and issuers differ. Capital One says it uses a soft inquiry for limit increases.\nWith a hard inquiry, myFICO says most people lose fewer than 5 points, counted for 12 months.\nHypothetical example: a $1,500 balance on a $5,000 limit is 30% utilization; on a $7,500 limit it's 20%.\nSources: CFPB, Experian, myFICO, VantageScore, Capital One, New York Fed (Q2 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #creditlimit #personalfinance #moneytips #financeprostv",
+  "tiktok": "A higher credit limit can cost points or add them. Here's the math. Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
+  "yt_desc": "Asking for a higher credit limit can cost points or add them. Soft inquiries don't affect scores (CFPB), a hard inquiry costs most people fewer than 5 FICO points (myFICO), and Capital One says it uses soft inquiries for limit increases. In a hypothetical example, the same $1,500 balance goes from 30% to 20% utilization when the limit rises from $5,000 to $7,500. News and education, not financial advice. #Shorts #creditscore #personalfinance",
+  "tags": [
+   "credit limit increase",
+   "credit score",
+   "hard inquiry vs soft inquiry",
+   "credit utilization",
+   "personal finance"
+  ]
+ }
 }
