@@ -1,0 +1,183 @@
+{
+ "id": "2026-11-17-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Market vs limit:\nspeed or price?",
+ "cover": {
+  "title": "A $40 Stock Sold for 1¢",
+  "prop": "chart-down",
+  "value": "1¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2010, a $40 stock sold for one penny.",
+   "say": "In twenty ten, a forty dollar stock sold for one penny.",
+   "scene": {
+    "t": "hook",
+    "title": "$40 stock, [1¢] sale",
+    "prop": "chart-down",
+    "value": "1¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It was Accenture, in the May 6, 2010 flash crash. The order type mattered.",
+   "say": "It was Accenture, during the May sixth, twenty ten flash crash, and the type of order mattered.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Accenture, before",
+     "value": "~$40"
+    },
+    "to": {
+     "label": "Lowest trade",
+     "value": "$0.01"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A market order says: buy or sell now, at the best price available.",
+   "say": "A market order says, buy or sell right now, at the best price available.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Market order:",
+     "fills now",
+     "price not guaranteed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A limit order says: only at my price or better.",
+   "say": "A limit order says, only at my price, or better.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Limit order:",
+     "your price or better",
+     "might not fill"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say a stock is offered at $50.10 and you buy 100 shares. That's $5,010.",
+   "say": "Say a stock is offered at fifty dollars and ten cents, and you buy a hundred shares. That's five thousand and ten dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "100 shares at $50.10 (example)",
+    "value": "$5,010",
+    "tone": "neutral",
+    "sub": "100 x $50.10"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If it jumps to $51 before a market order fills, you pay $5,100. That's $90 more.",
+   "say": "If it jumps to fifty-one dollars before a market order fills, you pay fifty-one hundred. That's ninety dollars more.",
+   "scene": {
+    "t": "compare",
+    "title": "100 shares, fast market (example)",
+    "left": {
+     "label": "Market order",
+     "value": "$5,100",
+     "tone": "down",
+     "sub": "filled at $51"
+    },
+    "right": {
+     "label": "Limit $50.10",
+     "value": "$5,010",
+     "tone": "up",
+     "sub": "max, or no fill"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The limit order pays at most $5,010, but it might not fill at all.",
+   "say": "The limit order pays at most five thousand and ten, but it might not fill at all.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "100 shares, fast market (example)",
+    "left": {
+     "label": "Market order",
+     "value": "$5,100",
+     "tone": "down",
+     "sub": "filled at $51"
+    },
+    "right": {
+     "label": "Limit $50.10",
+     "value": "$5,010",
+     "tone": "up",
+     "sub": "max, or no fill"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2010, over 20,000 trades hit prices 60% or more off, and exchanges and FINRA canceled them.",
+   "say": "Back in twenty ten, over twenty thousand trades hit prices sixty percent or more off, and exchanges and FINRA canceled them.",
+   "scene": {
+    "t": "stat",
+    "label": "Trades canceled, May 6, 2010",
+    "value": "20,000+",
+    "tone": "down",
+    "sub": "60%+ away, 300+ securities (SEC-CFTC)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The takeaway: market orders buy speed. Limit orders buy control over price.",
+   "say": "The takeaway? Market orders buy speed. Limit orders buy control over price.",
+   "scene": {
+    "t": "split",
+    "title": "Speed vs price",
+    "left": {
+     "title": "Market",
+     "items": [
+      "fills fast",
+      "price can slip"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Limit",
+     "items": [
+      "your price",
+      "may not fill"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Market vs limit orders: the day a $40 stock traded for 1¢",
+  "ig": "In 2010, a $40 stock sold for one penny.\n\nIn the May 6, 2010 flash crash, Accenture traded as low as $0.01 before closing at $41.09.\nA market order fills now at the best available price, which isn't guaranteed. A limit order fills only at your price or better, but might not fill.\nOver 20,000 trades 60%+ off their 2:40 p.m. prices were canceled.\n\nSources: SEC investor bulletin on order types, SEC-CFTC report (Sept 2010).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#investing #stockmarket #limitorder #personalfinance #financeprostv",
+  "tiktok": "A $40 stock sold for 1 cent. Market vs limit orders, explained. Not financial advice. #moneytok #personalfinance #investing #stocks #financeprostv",
+  "yt_desc": "A market order fills right away at the best available price, which isn't guaranteed; a limit order fills only at your price or better, but might not fill. In the May 6, 2010 flash crash, Accenture traded as low as one cent, and over 20,000 trades 60% or more off were canceled. Sources: SEC investor bulletin on order types, SEC-CFTC report (Sept 30, 2010).\n\nNews and education, not financial advice.\n\n#Shorts #investing #stockmarket",
+  "tags": [
+   "market order vs limit order",
+   "limit order",
+   "flash crash 2010",
+   "how to buy stocks",
+   "investing basics"
+  ]
+ }
+}
