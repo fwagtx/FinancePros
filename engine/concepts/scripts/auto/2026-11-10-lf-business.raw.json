@@ -100,10 +100,10 @@
     "t": "list",
     "title": "Today's map",
     "items": [
-     "The device machine",
-     "The services engine",
+     "Devices and services",
      "The App Store toll",
-     "Google's check"
+     "Google's check",
+     "Where the cash goes"
     ],
     "reveal": 4,
     "mood": "happy"
@@ -125,14 +125,13 @@
   },
   {
    "who": "ticker",
-   "text": "Apple's fiscal 2026 results were due in late October 2026, after this video was made, so they aren't in here.",
-   "say": "Apple's fiscal twenty twenty-six results were due in late October twenty twenty-six, after this video was made, so they aren't in here.",
+   "text": "We made this video before Apple's fiscal 2026 results came out, so they aren't included here.",
+   "say": "We made this video before Apple's fiscal twenty twenty-six results came out, so they aren't included here.",
    "scene": {
     "t": "board",
     "lines": [
      "Fiscal 2026 results:",
-     "due late Oct 2026",
-     "(not in this video)"
+     "not included here"
     ]
    }
   },
@@ -175,8 +174,8 @@
   },
   {
    "who": "ticker",
-   "text": "For three decades, computers were the story. Then, in June 2007, the iPhone went on sale.",
-   "say": "For three decades, computers were the story. Then, in June two thousand seven, the iPhone went on sale.",
+   "text": "For most of three decades, computers were the core of the story. Then, in June 2007, the iPhone went on sale.",
+   "say": "For most of three decades, computers were the core of the story. Then, in June two thousand seven, the iPhone went on sale.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -418,8 +417,8 @@
   },
   {
    "who": "ticker",
-   "text": "Hardware is a huge business, $307 billion of sales in fiscal 2025, but it depends on people deciding to upgrade, and every phone has real parts and shipping costs.",
-   "say": "Hardware is a huge business, three hundred seven billion dollars of sales in fiscal twenty twenty-five, but it depends on people deciding to upgrade, and every phone comes with real parts and shipping costs.",
+   "text": "Hardware is a huge business: $307 billion of sales in fiscal 2025, about two-thirds of it from the iPhone.",
+   "say": "Hardware is a huge business: three hundred seven billion dollars of sales in fiscal twenty twenty-five, about two-thirds of it from the iPhone.",
    "scene": {
     "t": "split",
     "title": "The hardware business",
@@ -427,7 +426,7 @@
      "title": "Strengths",
      "items": [
       "$307B in FY2025",
-      "Half from iPhone"
+      "About 2/3 from iPhone"
      ],
      "tone": "up"
     },
@@ -439,6 +438,32 @@
      ],
      "tone": "down"
     }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But it depends on people deciding to upgrade, and every phone comes with real parts and shipping costs.",
+   "say": "But it depends on people deciding to upgrade, and every phone comes with real parts and shipping costs.",
+   "scene": {
+    "t": "split",
+    "title": "The hardware business",
+    "left": {
+     "title": "Strengths",
+     "items": [
+      "$307B in FY2025",
+      "About 2/3 from iPhone"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Weak spots",
+     "items": [
+      "Upgrade timing",
+      "Parts and shipping"
+     ],
+     "tone": "down"
+    },
+    "keep": true
    }
   },
   {
@@ -763,14 +788,27 @@
   },
   {
    "who": "ticker",
-   "text": "It drops to 15% for small developers who earned under $1 million the year before, and for subscriptions after their first year.",
-   "say": "It drops to fifteen percent for small developers who earned under a million dollars the year before, and for subscriptions after their first year.",
+   "text": "It drops to 15% for small developers in Apple's program, with up to $1 million in proceeds the year before.",
+   "say": "It drops to fifteen percent for small developers in Apple's program, with up to a million dollars in proceeds the year before.",
    "scene": {
     "t": "stat",
     "label": "Reduced App Store cut",
     "value": "15%",
     "tone": "neutral",
     "sub": "small devs; subs after yr 1"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscriptions also drop to 15% after their first year.",
+   "say": "Subscriptions also drop to fifteen percent after their first year.",
+   "scene": {
+    "t": "stat",
+    "label": "Reduced App Store cut",
+    "value": "15%",
+    "tone": "neutral",
+    "sub": "small devs; subs after yr 1",
+    "keep": true
    }
   },
   {
@@ -844,8 +882,21 @@
   },
   {
    "who": "ticker",
-   "text": "That toll is also being fought in court. On June 30, 2026, the Supreme Court agreed to hear Apple's appeal in its fight with Epic Games.",
-   "say": "That toll is also being fought in court. On June thirtieth, twenty twenty-six, the Supreme Court agreed to hear Apple's appeal in its fight with Epic Games.",
+   "text": "That toll is also being fought in court, in Apple's long fight with Epic Games.",
+   "say": "That toll is also being fought in court, in Apple's long fight with Epic Games.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Apple vs. Epic Games",
+     "fight over the fee"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On June 30, 2026, the Supreme Court agreed to hear Apple's appeal of a contempt ruling in that case.",
+   "say": "On June thirtieth, twenty twenty-six, the Supreme Court agreed to hear Apple's appeal of a contempt ruling in that case.",
    "scene": {
     "t": "news",
     "headline": "Supreme Court to hear Apple appeal",
@@ -854,8 +905,21 @@
   },
   {
    "who": "ticker",
-   "text": "Back in April 2025, a federal judge held Apple in contempt over its terms for purchases made outside the app, which included a 27% commission.",
-   "say": "Back in April twenty twenty-five, a federal judge held Apple in contempt over its terms for purchases made outside the app, which included a twenty-seven percent commission.",
+   "text": "Here's the backstory. In April 2025, a federal judge held Apple in contempt over its terms for purchases made outside the app.",
+   "say": "Here's the backstory. In April twenty twenty-five, a federal judge held Apple in contempt over its terms for purchases made outside the app.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "April 2025:",
+     "Apple held in contempt",
+     "over outside-app buys"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those terms included a 27% commission on purchases made through links outside the app.",
+   "say": "Those terms included a twenty-seven percent commission on purchases made through links outside the app.",
    "scene": {
     "t": "stat",
     "label": "Fee on linked-out buys",
@@ -867,8 +931,21 @@
   },
   {
    "who": "ticker",
-   "text": "An appeals court upheld the contempt finding, but said Apple may charge a fee tied to its genuine costs. Apple is still fighting it.",
-   "say": "An appeals court upheld the contempt finding, but said Apple may charge a fee tied to its genuine costs. Apple is still fighting it.",
+   "text": "In December 2025, an appeals court upheld the contempt finding, but said Apple may charge a commission based on its genuine costs.",
+   "say": "In December twenty twenty-five, an appeals court upheld the contempt finding, but said Apple may charge a commission based on its genuine costs.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Dec 2025: appeals court",
+     "upholds contempt",
+     "Fee for real costs: OK"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The exact amount is still being set by the lower court, and Apple is still fighting the ruling.",
+   "say": "The exact amount is still being set by the lower court, and Apple is still fighting the ruling.",
    "scene": {
     "t": "board",
     "lines": [
@@ -880,8 +957,8 @@
   },
   {
    "who": "ticker",
-   "text": "Apple says its fee pays for a safe, curated store. Epic says it's a toll that blocks competition. The courts are still sorting it out.",
-   "say": "Apple says its fee pays for a safe, curated store. Epic says it's a toll that blocks competition. The courts are still sorting it out.",
+   "text": "Apple says its fee pays for a safe, curated store. Epic says it's a toll that blocks competition.",
+   "say": "Apple says its fee pays for a safe, curated store. Epic says it's a toll that blocks competition.",
    "scene": {
     "t": "split",
     "title": "The App Store fight",
@@ -901,6 +978,32 @@
      ],
      "tone": "neutral"
     }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The courts are still sorting it out.",
+   "say": "The courts are still sorting it out.",
+   "scene": {
+    "t": "split",
+    "title": "The App Store fight",
+    "left": {
+     "title": "Apple says",
+     "items": [
+      "Safe, curated store",
+      "Fee pays for it"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Epic says",
+     "items": [
+      "A toll on apps",
+      "Blocks competition"
+     ],
+     "tone": "neutral"
+    },
+    "keep": true
    }
   },
   {
@@ -940,8 +1043,20 @@
   },
   {
    "who": "ticker",
-   "text": "That number comes from the August 5, 2024 ruling in US versus Google, where Judge Amit Mehta found Google illegally kept a search monopoly.",
-   "say": "That number comes from the August fifth, twenty twenty-four ruling in US versus Google, where Judge Amit Mehta found Google illegally kept a search monopoly.",
+   "text": "That number comes from the August 5, 2024 ruling in US versus Google.",
+   "say": "That number comes from the August fifth, twenty twenty-four ruling in US versus Google.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Source: US v. Google",
+     "ruling, Aug. 5, 2024"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In it, Judge Amit Mehta found that Google illegally kept a search monopoly.",
+   "say": "In it, Judge Amit Mehta found that Google illegally kept a search monopoly.",
    "scene": {
     "t": "news",
     "headline": "Judge: Google is a monopolist",
@@ -950,14 +1065,14 @@
   },
   {
    "who": "ticker",
-   "text": "Testimony at the trial in November 2023 put Apple's share at 36% of Google's search ad revenue from Safari.",
-   "say": "Testimony at the trial in November twenty twenty-three put Apple's share at thirty-six percent of Google's search ad revenue from Safari.",
+   "text": "Google's own expert witness testified in November 2023 that Apple gets 36% of Google's search ad revenue from Safari.",
+   "say": "Google's own expert witness testified in November twenty twenty-three that Apple gets thirty-six percent of Google's search ad revenue from Safari.",
    "scene": {
     "t": "stat",
     "label": "Apple's cut of Safari ads",
     "value": "36%",
     "tone": "up",
-    "sub": "trial testimony, Nov 2023"
+    "sub": "Google expert, Nov 2023"
    }
   },
   {
@@ -991,11 +1106,23 @@
   },
   {
    "who": "ticker",
-   "text": "On September 2, 2025, the judge set the remedies. First, Google can still pay Apple.",
-   "say": "On September second, twenty twenty-five, the judge set the remedies. First, Google can still pay Apple.",
+   "text": "In September 2025, the judge ruled on remedies, and a final judgment in December spelled them out.",
+   "say": "In September twenty twenty-five, the judge ruled on remedies, and a final judgment in December spelled them out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sept 2025: remedies",
+     "Dec 2025: final judgment"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, Google can still pay Apple.",
+   "say": "First, Google can still pay Apple.",
    "scene": {
     "t": "list",
-    "title": "Remedies, Sept. 2, 2025",
+    "title": "Google remedies, 2025",
     "items": [
      "Payments still allowed",
      "No exclusive deals",
@@ -1010,7 +1137,7 @@
    "say": "Second, those deals can't be exclusive anymore.",
    "scene": {
     "t": "list",
-    "title": "Remedies, Sept. 2, 2025",
+    "title": "Google remedies, 2025",
     "items": [
      "Payments still allowed",
      "No exclusive deals",
@@ -1026,7 +1153,7 @@
    "say": "And third, default deals are limited to one year at a time.",
    "scene": {
     "t": "list",
-    "title": "Remedies, Sept. 2, 2025",
+    "title": "Google remedies, 2025",
     "items": [
      "Payments still allowed",
      "No exclusive deals",
@@ -1038,8 +1165,21 @@
   },
   {
    "who": "ticker",
-   "text": "Apple's own 10-K warns that remedies like these \"could materially adversely affect\" its ability to earn that licensing revenue.",
-   "say": "Apple's own ten-K warns that remedies like these could materially adversely affect its ability to earn that licensing revenue.",
+   "text": "Apple's 10-K flags a bigger risk: an appeal could revive the government's tougher first proposals, like barring Google's payments.",
+   "say": "Apple's ten-K flags a bigger risk: an appeal could revive the government's tougher first proposals, like barring Google's payments.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Risk: tougher remedies",
+     "e.g. no Google payments"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If that happened, the 10-K says, those remedies \"could materially adversely affect\" that revenue.",
+   "say": "If that happened, the ten-K says, those remedies could materially adversely affect that revenue.",
    "scene": {
     "t": "quote",
     "text": "could materially adversely affect the Company's ability to earn revenue from such licensing arrangements",
@@ -1048,8 +1188,8 @@
   },
   {
    "who": "ticker",
-   "text": "And it isn't over. The ruling came in August 2024 and the remedies in September 2025.",
-   "say": "And it isn't over. The ruling came in August twenty twenty-four, and the remedies in September twenty twenty-five.",
+   "text": "Here's where the case stands. The ruling came in August 2024 and the final judgment in December 2025.",
+   "say": "Here's where the case stands. The ruling came in August twenty twenty-four, and the final judgment in December twenty twenty-five.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -1059,7 +1199,7 @@
      },
      {
       "when": "2025",
-      "what": "Remedies set (Sept)"
+      "what": "Final judgment (Dec)"
      },
      {
       "when": "2026",
@@ -1075,8 +1215,8 @@
   },
   {
    "who": "ticker",
-   "text": "Google appealed in January 2026, and the Justice Department cross-appealed in February, asking for tougher remedies.",
-   "say": "Google appealed in January twenty twenty-six, and the Justice Department cross-appealed in February, asking for tougher remedies.",
+   "text": "Google appealed that judgment in January 2026, and the Justice Department cross-appealed in February, asking for tougher remedies.",
+   "say": "Google appealed that judgment in January twenty twenty-six, and the Justice Department cross-appealed in February, asking for tougher remedies.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -1086,7 +1226,7 @@
      },
      {
       "when": "2025",
-      "what": "Remedies set (Sept)"
+      "what": "Final judgment (Dec)"
      },
      {
       "when": "2026",
@@ -1103,8 +1243,8 @@
   },
   {
    "who": "ticker",
-   "text": "As of August 2026, the appeal was still pending. So the Google money keeps flowing, but under a court order.",
-   "say": "As of August twenty twenty-six, the appeal was still pending. So the Google money keeps flowing, but under a court order.",
+   "text": "As of late September 2026, the appeal was still pending. So the Google money keeps flowing, but under a court order.",
+   "say": "As of late September twenty twenty-six, the appeal was still pending. So the Google money keeps flowing, but under a court order.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1293,8 +1433,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's the flywheel. A device is sold once at about a 37% margin, and services can keep billing at about 75%.",
-   "say": "That's the flywheel. A device is sold once at about a thirty-seven percent margin, and services can keep billing at about seventy-five percent.",
+   "text": "That's the flywheel. A device is sold once at about a 37% margin, and services can keep billing, at about a 75% margin.",
+   "say": "That's the flywheel. A device is sold once at about a thirty-seven percent margin, and services can keep billing, at about a seventy-five percent margin.",
    "scene": {
     "t": "split",
     "title": "The flywheel, FY2025",
@@ -1352,8 +1492,8 @@
   },
   {
    "who": "ticker",
-   "text": "Third, the App Store fights. The Supreme Court case could shape what Apple is allowed to charge.",
-   "say": "Third, the App Store fights. The Supreme Court case could shape what Apple is allowed to charge.",
+   "text": "Third, the App Store fights. The Supreme Court is reviewing the contempt ruling that limits Apple's fees on outside purchases.",
+   "say": "Third, the App Store fights. The Supreme Court is reviewing the contempt ruling that limits Apple's fees on outside purchases.",
    "scene": {
     "t": "list",
     "title": "The risks",
@@ -1516,7 +1656,7 @@
   {
    "who": "ticker",
    "text": "Subscribe for the next episode of How They Make Money.",
-   "say": "If this made Apple make more sense, subscribe for the next episode of How They Make Money.",
+   "say": "If Apple makes more sense now, subscribe for the next episode of How They Make Money.",
    "scene": {
     "t": "cta",
     "tagline": "How They Make Money"
@@ -1524,10 +1664,10 @@
   }
  ],
  "post": {
-  "title": "How Apple Really Makes Money: iPhone vs. Services, Google's $20B, and $104.7B in Buybacks",
+  "title": "How Apple Makes Money: iPhone, Services, Google's $20B, $104.7B Returned to Shareholders",
   "ig": "Apple keeps about 75 cents of every Services dollar. Here's how Apple really makes money.",
   "tiktok": "Apple keeps about 75 cents of every Services dollar. The iPhone isn't the whole story.",
-  "yt_desc": "Apple keeps about 75 cents of every Services dollar as gross profit, versus about 37 cents on its devices, according to its fiscal 2025 10-K. This video breaks down how Apple makes money: the iPhone's $209.6 billion (about half of sales), Services' $109.2 billion and 75.4% margin, the App Store commission, the roughly $20 billion Google paid Apple in 2022 to be Safari's default, and the $104.7 billion Apple returned through buybacks and dividends. All full-year figures are fiscal 2025 (year ended September 27, 2025); Apple's fiscal 2026 full-year results, due in late October 2026, are not included.\n\nCHAPTERS\n\nSources: Apple Form 10-K for fiscal 2025 (filed Oct. 31, 2025) and fiscal 2019-2024 10-Ks; Apple quarterly results (Jan. 29, Apr. 30 and July 30, 2026); US v. Google, memorandum opinion (Aug. 5, 2024) and remedies decision (Sept. 2, 2025), US District Court for D.C.; Analysis Group study for Apple (June 2026); Apple Developer, App Store Small Business Program; Reuters, MacRumors and Bloomberg (June 30, 2026); 9to5Mac (Jan. 29 and Feb. 3, 2026); CNBC (Sept. 2, 2025).\n\nNews and education, not financial advice.\n\n#apple #howtheymakemoney #personalfinance",
+  "yt_desc": "Apple keeps about 75 cents of every Services dollar as gross profit, versus about 37 cents on its devices, according to its fiscal 2025 10-K. This video breaks down how Apple makes money: the iPhone's $209.6 billion (about half of sales), Services' $109.2 billion and 75.4% margin, the App Store commission, the roughly $20 billion Google paid Apple in 2022 to be Safari's default, and the $104.7 billion Apple returned through buybacks and dividends. All full-year figures are fiscal 2025 (year ended September 27, 2025). This video was made before Apple reported its fiscal 2026 results, so those are not included.\n\nCHAPTERS\n\nSources: Apple Form 10-K for fiscal 2025 (filed Oct. 31, 2025) and fiscal 2019-2024 10-Ks; Apple quarterly results (Jan. 29, Apr. 30 and July 30, 2026); US v. Google, memorandum opinion (Aug. 5, 2024) and remedies decision (Sept. 2, 2025), US District Court for D.C.; Analysis Group study for Apple (June 2026); Apple Developer, App Store Small Business Program; Ninth Circuit decision (Dec. 11, 2025); US v. Google final judgment (Dec. 5, 2025); Reuters, MacRumors and Bloomberg (June 30, 2026); Bloomberg (Nov. 13, 2023); 9to5Mac (Jan. 29 and Feb. 3, 2026); CNBC (Sept. 2, 2025).\n\nNews and education, not financial advice.\n\n#apple #howtheymakemoney #personalfinance",
   "tags": [
    "Apple",
    "how Apple makes money",
