@@ -1,0 +1,180 @@
+{
+ "series": "ticker",
+ "header": "Who owns the\nUS national debt?",
+ "cover": {
+  "title": "Who Owns US Debt?",
+  "prop": "bag",
+  "label": "$40.1T",
+  "value": "1.5%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "China owns less than 2% of America's debt.",
+   "say": "China owns less than two percent of America's debt.",
+   "scene": {
+    "t": "hook",
+    "title": "China owns [1.5%]",
+    "prop": "bag",
+    "label": "US DEBT",
+    "value": "1.5%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The US owes about $40.1 trillion as of September 2026. So who holds the IOUs?",
+   "say": "The US owes about forty point one trillion dollars as of September twenty twenty-six. So who holds the IOUs?",
+   "scene": {
+    "t": "stat",
+    "label": "US national debt",
+    "value": "$40.1T",
+    "tone": "down",
+    "sub": "Treasury, Sept 29, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First surprise: about $7.7 trillion is owed to the government itself, mostly to trust funds like Social Security.",
+   "say": "First surprise: about seven point seven trillion is owed to the government itself, mostly to trust funds like Social Security.",
+   "scene": {
+    "t": "stat",
+    "label": "Owed to itself",
+    "value": "$7.72T",
+    "tone": "neutral",
+    "sub": "Trust funds, Sept 22, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Federal Reserve holds about $4.6 trillion in Treasuries.",
+   "say": "The Federal Reserve holds about four point six trillion in Treasuries.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "$4.56T",
+    "caption": "Fed, Sept 23, 2026",
+    "name": "FEDERAL RESERVE"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Foreign investors hold about $9.25 trillion. Japan is biggest at $1.1 trillion, then the UK at about $1 trillion.",
+   "say": "Foreign investors hold about nine and a quarter trillion. Japan is the biggest at one point one trillion, then the UK at about one trillion.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "mood": "happy",
+      "says": "$1.10T",
+      "name": "japan"
+     },
+     {
+      "mood": "happy",
+      "says": "$998B",
+      "name": "uk"
+     },
+     {
+      "mood": "worried",
+      "says": "$618B",
+      "name": "china"
+     }
+    ],
+    "prop": {
+     "kind": "tag",
+     "label": "$9.25T"
+    },
+    "caption": "Foreign, July 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "China is third, with $618 billion. That's down from about $1.32 trillion in 2013.",
+   "say": "China is third, with six hundred eighteen billion. That's down from about one point three two trillion in twenty thirteen.",
+   "scene": {
+    "t": "compare",
+    "title": "China's Treasuries",
+    "left": {
+     "label": "2013 peak",
+     "value": "$1.32T",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "July 2026",
+     "value": "$618B",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rest? Nearly half, about $18.6 trillion, sits with US investors like mutual funds, banks and insurers.",
+   "say": "The rest? Nearly half, about eighteen point six trillion, sits with US investors like mutual funds, banks and insurers.",
+   "scene": {
+    "t": "list",
+    "title": "The biggest group",
+    "items": [
+     "Mutual funds",
+     "Banks and insurers",
+     "Pension funds",
+     "Savings bond owners"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pension funds, state governments and people with savings bonds are in there too.",
+   "say": "Pension funds, state governments and people with savings bonds are in there too.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "The biggest group",
+    "items": [
+     "Mutual funds",
+     "Banks and insurers",
+     "Pension funds",
+     "Savings bond owners"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your retirement fund owns Treasuries, you're one of America's lenders.",
+   "say": "If your retirement fund owns Treasuries, you're one of America's lenders.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Own a bond fund?",
+     "You're a lender",
+     "to Uncle Sam"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "China owns only about 1.5% of US debt. Who owns the rest?",
+  "ig": "China owns less than 2% of America's debt.\n\nTotal US debt: about $40.1 trillion (Sept 29, 2026).\nOwed to itself (trust funds like Social Security): $7.72T.\nFederal Reserve: about $4.56T.\nForeign investors: about $9.25T (July 2026). Japan $1.10T, UK $998B, China $618B.\nThe rest, nearly half, sits with American investors: funds, banks, pensions, savers.\n\nSources: US Treasury (Debt to the Penny, TIC), Federal Reserve H.4.1.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#nationaldebt #economy #treasuries #personalfinance #financeprostv",
+  "tiktok": "China holds about 1.5% of US debt. Nearly half sits with American investors. Not financial advice. #moneytok #nationaldebt #financeprostv",
+  "yt_desc": "The US national debt passed $40 trillion in August 2026. About $7.7 trillion is owed to government trust funds, the Fed holds about $4.6 trillion, and foreign investors about $9.25 trillion, led by Japan and the UK. China holds $618 billion, about 1.5% of the total. Sources: US Treasury Debt to the Penny and TIC data, Federal Reserve H.4.1.\n\nNews and education, not financial advice.\n\n#Shorts #nationaldebt #economy",
+  "tags": [
+   "national debt",
+   "who owns us debt",
+   "china us debt",
+   "treasuries",
+   "federal reserve",
+   "economy explained"
+  ]
+ }
+}
