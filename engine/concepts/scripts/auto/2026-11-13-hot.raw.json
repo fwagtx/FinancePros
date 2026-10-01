@@ -1,0 +1,73 @@
+{
+ "series": "ticker",
+ "header": "How casinos are\nbuilt to win",
+ "cover": {
+  "title": "How Slots Keep 7 Cents",
+  "prop": "coins",
+  "label": "$1",
+  "value": "7.15¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2025, Nevada slots kept about 7 cents per dollar.",
+   "say": "In twenty twenty-five, Nevada slots kept about seven cents per dollar.",
+   "scene": {"t": "hook", "title": "Slots kept [7¢] a dollar", "prop": "coins", "label": "$1", "value": "7.15¢", "mood": "shock"}
+  },
+  {
+   "who": "ticker",
+   "text": "Sounds small. That's the whole business model.",
+   "say": "Sounds small. That's the whole business model.",
+   "scene": {"t": "stat", "label": "Nevada slot hold, 2025", "value": "7.15%", "tone": "down", "sub": "UNLV, NV Gaming Board data", "mood": "think"}
+  },
+  {
+   "who": "ticker",
+   "text": "It's called the house edge. American roulette has 38 pockets, but one number pays just 35 to 1.",
+   "say": "It's called the house edge. American roulette has thirty-eight pockets, but one number pays just thirty-five to one.",
+   "scene": {"t": "board", "lines": ["38 pockets: 1-36, 0, 00", "One number pays 35 to 1", "Edge: 2/38 = 5.26%"], "mood": "think"}
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $10 a spin for 100 spins is $1,000 wagered. Expected loss: $52.63.",
+   "say": "So picture ten dollars a spin for a hundred spins. That's one thousand dollars wagered, and the expected loss is fifty-two dollars and sixty-three cents.",
+   "scene": {"t": "money", "from": {"label": "Wagered (hypothetical)", "value": "$1,000"}, "to": {"label": "Expected loss at 5.26%", "value": "-$52.63"}, "mood": "worried"}
+  },
+  {
+   "who": "ticker",
+   "text": "Slots work the same way. Nevada requires at least 75% paid back in theory. In 2025, machines paid back 92.85%.",
+   "say": "Slots work the same way. Nevada requires at least seventy-five percent paid back in theory, and in twenty twenty-five, machines paid back about ninety-three percent.",
+   "scene": {"t": "compare", "title": "Slot payback, Nevada", "left": {"label": "Legal minimum", "value": "75%", "tone": "neutral", "sub": "NV Reg. 14.040"}, "right": {"label": "Actual, 2025", "value": "92.85%", "tone": "neutral", "sub": "UNLV statewide"}}
+  },
+  {
+   "who": "ticker",
+   "text": "Small edges add up. US commercial gaming took in a record $78.6 billion in 2025.",
+   "say": "Those small edges add up. US commercial gaming took in a record seventy-eight point six billion dollars in twenty twenty-five.",
+   "scene": {"t": "chart", "title": "US gaming revenue (AGA)", "points": [[2019, 43.6], [2020, 30.0], [2021, 53.0], [2022, 60.4], [2023, 66.5], [2024, 71.9], [2025, 78.6]], "prefix": "$", "suffix": "B", "end": "$78.6B", "color": "up", "mood": "shock"}
+  },
+  {
+   "who": "ticker",
+   "text": "Slot machines alone brought in over $37 billion of that.",
+   "say": "Slot machines alone brought in over thirty-seven billion dollars of that.",
+   "scene": {"t": "stat", "label": "US slot revenue, 2025", "value": "$37B+", "tone": "up", "sub": "AGA State of States 2026"}
+  },
+  {
+   "who": "ticker",
+   "text": "Any one night can go either way. Over millions of bets, the math tilts to the house.",
+   "say": "Any one night can go either way. But over millions of bets, the math tilts to the house.",
+   "scene": {"t": "split", "title": "Who wins?", "left": {"title": "One night", "items": ["Could win", "Could lose"], "tone": "neutral"}, "right": {"title": "Millions of bets", "items": ["Edge adds up", "House keeps it"], "tone": "down"}, "mood": "think"}
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {"t": "cta"}
+  }
+ ],
+ "post": {
+  "title": "In 2025, Nevada slots kept about 7 cents per dollar",
+  "ig": "In 2025, Nevada slots kept about 7 cents of every dollar played.\n\nThat's the house edge. American roulette has 38 pockets but pays 35 to 1, a 5.26% edge.\nExample (hypothetical): $10 a spin for 100 spins = $1,000 wagered, expected loss $52.63.\nNevada requires slots to pay back at least 75% in theory; in 2025 they paid back 92.85% statewide.\nUS commercial gaming took in a record $78.6 billion in 2025, with slots over $37 billion.\n\nSources: UNLV Center for Gaming Research (Nevada Gaming Control Board data, 2025); Nevada Regulation 14.040; American Gaming Association, State of the States 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#houseedge #casinos #moneyfacts #personalfinance #financeprostv",
+  "tiktok": "Nevada slots kept about 7 cents per dollar in 2025. The house edge, explained. Not financial advice. #moneytok #personalfinance #casinos #houseedge #financeprostv",
+  "yt_desc": "In 2025, Nevada slot machines held 7.15% statewide (UNLV Center for Gaming Research), and American roulette's 38-pocket wheel carries a 5.26% house edge: $1,000 wagered means an expected loss of $52.63. US commercial gaming took in a record $78.6 billion in 2025, with slots over $37 billion (American Gaming Association). Sources: UNLV, Nevada Regulation 14.040, AGA State of the States 2026. News and education, not financial advice.\n#Shorts #houseedge #casinos",
+  "tags": ["house edge", "how casinos make money", "slot machine payback", "roulette odds", "gambling math"]
+ }
+}
