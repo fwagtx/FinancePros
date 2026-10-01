@@ -1,0 +1,1634 @@
+{
+ "id": "2026-10-26-lf-explained",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "EXPLAINED",
+ "cover": {
+  "title": "Why Did Insurance Get Pricey?",
+  "prop": "car",
+  "label": "2020-2025",
+  "value": "+64%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Car insurance prices jumped about 64% in five years.",
+   "say": "Car insurance prices jumped about sixty-four percent in five years.",
+   "scene": {
+    "t": "hook",
+    "title": "Car insurance [+64%]",
+    "prop": "car",
+    "label": "2020-2025",
+    "value": "+64%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And then, in 2026, they started falling. Home insurance didn't.",
+   "say": "And then, in twenty twenty-six, they started falling. Home insurance didn't.",
+   "scene": {
+    "t": "split",
+    "title": "2026 so far",
+    "left": {
+     "title": "Car insurance",
+     "items": [
+      "Falling"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Home insurance",
+     "items": [
+      "Still climbing"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over those same five years, overall prices rose about 24%. Insurance ran way ahead.",
+   "say": "Over those same five years, overall prices rose about twenty-four percent. Insurance ran way ahead.",
+   "scene": {
+    "t": "compare",
+    "title": "Dec 2020 to Dec 2025 (CPI)",
+    "left": {
+     "label": "All prices",
+     "value": "+24%",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Car insurance",
+     "value": "+64%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what happened? Was it greed, disasters, fancy cars, or lawyers?",
+   "say": "So what happened? Was it greed? Disasters? Fancy cars? Lawyers?",
+   "scene": {
+    "t": "list",
+    "title": "The suspects",
+    "items": [
+     "Greed?",
+     "Disasters",
+     "Fancy cars",
+     "Lawyers"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The answer is a little bit of each, and it shows up in the math insurers use.",
+   "say": "The answer is a little bit of each, and it all shows up in the math insurers use.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Premium = expected claims",
+     "+ costs",
+     "+ profit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's open the black box, one bill at a time: car, home, health, and what you can actually control.",
+   "say": "Let's open the black box, one bill at a time. Car, home, health, and what you can actually control.",
+   "scene": {
+    "t": "list",
+    "title": "Today",
+    "items": [
+     "How pricing works",
+     "Car and home",
+     "Health",
+     "What you control"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: how insurance pricing works.",
+   "say": "Chapter one. How insurance pricing works.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "How pricing works"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurance is a pool. Lots of people pay in a little, so the few who crash or burn out get a lot.",
+   "say": "Insurance is a pool. Lots of people pay in a little, so the few who crash, or have a fire, get a lot.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Many pay a little",
+     "A few get a lot",
+     "That's the pool"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your premium is your share of the pool's expected bill, plus the cost of running the company.",
+   "say": "Your premium is your share of the pool's expected bill, plus the cost of running the company.",
+   "scene": {
+    "t": "split",
+    "title": "Your premium pays for",
+    "left": {
+     "title": "The pool",
+     "items": [
+      "Expected claims"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "The company",
+     "items": [
+      "Staff, agents",
+      "Profit"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a simple example. Picture 1,000 drivers in one pool.",
+   "say": "Here's a simple example. Picture a thousand drivers in one pool.",
+   "scene": {
+    "t": "hook",
+    "title": "One pool, [1,000] drivers",
+    "prop": "car",
+    "label": "POOL",
+    "value": "1,000",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each year, about 50 of them file a claim, and the average claim costs $10,000.",
+   "say": "Each year, about fifty of them file a claim, and the average claim costs ten thousand dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "50 claims x $10,000",
+     "= $500,000 a year",
+     "(example numbers)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $500,000 in claims, or $500 per driver, before the insurer pays a single salary.",
+   "say": "That's five hundred thousand dollars in claims. Or five hundred dollars per driver, before the insurer pays a single salary.",
+   "scene": {
+    "t": "stat",
+    "label": "Claims cost per driver (example)",
+    "value": "$500",
+    "tone": "neutral",
+    "sub": "$500,000 / 1,000 drivers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If costs and profit take 25% of the premium, the price has to be about $667.",
+   "say": "If costs and profit take twenty-five percent of the premium, the price has to be about six sixty-seven.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$500 / 0.75",
+     "= about $667 premium",
+     "(example numbers)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now make the average claim 30% pricier: $13,000 instead of $10,000.",
+   "say": "Now make the average claim thirty percent pricier. Thirteen thousand dollars, instead of ten.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Average claim, before",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "Average claim, after",
+     "value": "$13,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same drivers, same crashes, and the premium jumps from $667 to about $867.",
+   "say": "Same drivers, same number of crashes, and the premium jumps from six sixty-seven to about eight sixty-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Same pool, pricier claims",
+    "left": {
+     "label": "Before",
+     "value": "$667",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "After",
+     "value": "$867",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the key: you can drive perfectly and still pay more, because the pool costs more.",
+   "say": "That's the key. You can drive perfectly and still pay more, because the whole pool costs more.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "title": "Same pool, pricier claims",
+    "left": {
+     "label": "Before",
+     "value": "$667",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "After",
+     "value": "$867",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same logic runs home and health insurance. When the average claim rises, everyone's share rises.",
+   "say": "The same logic runs home and health insurance. When the average claim rises, everyone's share rises with it.",
+   "scene": {
+    "t": "list",
+    "title": "Same math, three bills",
+    "items": [
+     "Car",
+     "Home",
+     "Health"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurers track this with a number called the combined ratio.",
+   "say": "Insurers track this with a number called the combined ratio.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Combined ratio =",
+     "(claims + expenses)",
+     "/ premiums"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Under 100 means they made money on policies. Over 100 means they paid out more than they took in.",
+   "say": "Under a hundred means they made money on the policies. Over a hundred means they paid out more than they took in.",
+   "scene": {
+    "t": "split",
+    "title": "Combined ratio",
+    "left": {
+     "title": "Under 100",
+     "items": [
+      "Underwriting profit"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Over 100",
+     "items": [
+      "Underwriting loss"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurers also invest premiums until claims are paid, but the core test is still that ratio.",
+   "say": "Insurers also invest the premiums until claims are paid. But the core scorecard is still that ratio.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Premiums come in",
+     "Claims go out later",
+     "Ratio = the scorecard"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Keep that number in mind. It explains almost everything that happened next.",
+   "say": "Keep that number in mind. It explains almost everything that happened next.",
+   "scene": {
+    "t": "hook",
+    "title": "Watch [this] number",
+    "prop": "chart-up",
+    "label": "RATIO",
+    "value": "100",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: the car insurance spike.",
+   "say": "Chapter two. The car insurance spike.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The car insurance spike"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's how car insurance prices changed each year, from the Consumer Price Index.",
+   "say": "Here's how car insurance prices changed each year, according to the Consumer Price Index.",
+   "scene": {
+    "t": "chart",
+    "title": "Car insurance prices, yearly change (CPI, %)",
+    "points": [
+     [
+      2020,
+      -4.8
+     ],
+     [
+      2021,
+      4.1
+     ],
+     [
+      2022,
+      14.2
+     ],
+     [
+      2023,
+      20.3
+     ],
+     [
+      2024,
+      11.3
+     ],
+     [
+      2025,
+      2.8
+     ],
+     [
+      2026,
+      -5.1
+     ]
+    ],
+    "suffix": "%",
+    "end": "-5.1%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2020, people stayed home, crashes dropped, and prices fell 4.8%.",
+   "say": "In twenty twenty, people stayed home, crashes dropped, and prices fell four point eight percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Car insurance prices, yearly change (CPI, %)",
+    "points": [
+     [
+      2020,
+      -4.8
+     ],
+     [
+      2021,
+      4.1
+     ],
+     [
+      2022,
+      14.2
+     ],
+     [
+      2023,
+      20.3
+     ],
+     [
+      2024,
+      11.3
+     ],
+     [
+      2025,
+      2.8
+     ],
+     [
+      2026,
+      -5.1
+     ]
+    ],
+    "suffix": "%",
+    "end": "-5.1%",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2020,
+     "text": "-4.8% in 2020"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 2023 hit: up 20.3% in a year, the biggest jump since 1976.",
+   "say": "Then came twenty twenty-three. Up twenty point three percent in a year, the biggest jump since nineteen seventy-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Car insurance prices, yearly change (CPI, %)",
+    "points": [
+     [
+      2020,
+      -4.8
+     ],
+     [
+      2021,
+      4.1
+     ],
+     [
+      2022,
+      14.2
+     ],
+     [
+      2023,
+      20.3
+     ],
+     [
+      2024,
+      11.3
+     ],
+     [
+      2025,
+      2.8
+     ],
+     [
+      2026,
+      -5.1
+     ]
+    ],
+    "suffix": "%",
+    "end": "-5.1%",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2023,
+     "text": "+20.3%, most since 1976"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From December 2020 to December 2025, that stacks up to about 64%.",
+   "say": "From December twenty twenty to December twenty twenty-five, those years stack up to about sixty-four percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "+4.1%, +14.2%, +20.3%,",
+     "+11.3%, +2.8%",
+     "= about +64% compounded"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why so fast? First, cars got expensive to fix.",
+   "say": "Why so fast? First, cars got expensive to fix.",
+   "scene": {
+    "t": "hook",
+    "title": "Bumpers got [smart]",
+    "prop": "car",
+    "label": "SENSORS",
+    "value": "$$$",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A bumper isn't just plastic anymore. It hides cameras and sensors that need parts and calibration.",
+   "say": "A bumper isn't just plastic anymore. It hides cameras and sensors that need new parts and careful calibration.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old bumper: plastic",
+     "New bumper: cameras,",
+     "sensors, calibration"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average repair estimate went from about 11 replacement parts in 2020 to about 13.5 in 2024.",
+   "say": "The average repair estimate went from about eleven replacement parts in twenty twenty, to about thirteen and a half in twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Replacement parts per repair estimate, 2024",
+    "value": "13.5",
+    "tone": "down",
+    "sub": "up from about 11.2 in 2020 (CCC)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CCC found parts drove more than half of the rise in repair costs.",
+   "say": "And C C C found that parts drove more than half of the rise in repair costs.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Parts drove more than",
+     "half of the rise",
+     "in repair costs"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The price index for car repair and maintenance climbed 43.6% from January 2019 to January 2025.",
+   "say": "The price index for car repair and maintenance climbed about forty-four percent from January twenty nineteen to January twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "CPI: car maintenance and repair",
+    "value": "+43.6%",
+    "tone": "down",
+    "sub": "Jan 2019 to Jan 2025 (BLS)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Used car prices also soared in 2021 and 2022, so totaled cars cost more to replace.",
+   "say": "Used car prices also soared in twenty twenty-one and twenty twenty-two, so totaled cars cost more to replace.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Totaled car, before",
+     "value": "cheaper"
+    },
+    "to": {
+     "label": "Totaled car, 2022",
+     "value": "pricier"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And more crashes end with the car written off. Total losses hit a record 23% of claims, says CCC.",
+   "say": "And more crashes now end with the car written off. Total losses hit a record twenty-three percent of claims, according to C C C.",
+   "scene": {
+    "t": "stat",
+    "label": "Claims ending in a total loss",
+    "value": "23%",
+    "tone": "down",
+    "sub": "record share (CCC, 2026 report)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, injuries got pricier. The average bodily injury payout hit $27,373 in 2024.",
+   "say": "Second, injuries got pricier. The average bodily injury payout hit about twenty-seven thousand four hundred dollars in twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Average bodily injury payout, 2024",
+    "value": "$27,373",
+    "tone": "down",
+    "sub": "per injured person (CCC Intelligent Solutions)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And repairs take longer when parts are scarce, so rental-car bills on claims run longer too.",
+   "say": "And repairs take longer when parts are scarce, so the rental-car part of a claim runs longer too.",
+   "scene": {
+    "t": "list",
+    "title": "One crash, more bills",
+    "items": [
+     "Parts",
+     "Labor",
+     "Calibration",
+     "Rental car"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurers also point to bigger lawsuits and settlements, which they call legal system abuse.",
+   "say": "Insurers also point to bigger lawsuits and settlements, which the industry calls legal system abuse.",
+   "scene": {
+    "t": "quote",
+    "text": "legal system abuse",
+    "source": "Insurance Information Institute term for rising litigation costs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, insurers were losing money. Personal auto's combined ratio was 112.2 in 2022.",
+   "say": "Third, insurers were losing money. Personal auto's combined ratio was a hundred twelve point two in twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Personal auto combined ratio, 2022",
+    "value": "112.2",
+    "tone": "down",
+    "sub": "$112.20 out per $100 in (Triple-I / AM Best)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $112.20 out the door for every $100 of premium. The industry lost $33.1 billion on car policies that year.",
+   "say": "That's a hundred twelve dollars and twenty cents out the door for every hundred dollars of premium. The industry lost thirty-three billion dollars on car policies that year.",
+   "scene": {
+    "t": "stat",
+    "label": "Personal auto underwriting loss, 2022",
+    "value": "-$33.1B",
+    "tone": "down",
+    "sub": "Triple-I"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And price hikes need state approval, so increases arrived late and piled up.",
+   "say": "And in most states, price hikes need regulator approval, so the increases arrived late and piled up.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2022",
+      "Losses pile up"
+     ],
+     [
+      "2023",
+      "Rates filed and approved"
+     ],
+     [
+      "2024",
+      "Hikes hit renewals"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To catch up, the industry's written premiums grew 14.4% in 2023 and 12.8% in 2024.",
+   "say": "To catch up, the industry's written premiums grew fourteen point four percent in twenty twenty-three, and twelve point eight percent in twenty twenty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Personal auto premium growth (Triple-I)",
+    "left": {
+     "label": "2023",
+     "value": "+14.4%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "2024",
+     "value": "+12.8%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2024, the combined ratio fell to 95.3. In 2025, 91.8, the best since the pandemic.",
+   "say": "By twenty twenty-four, the combined ratio fell to ninety-five point three. In twenty twenty-five, ninety-one point eight, the best since the pandemic.",
+   "scene": {
+    "t": "compare",
+    "title": "Personal auto combined ratio",
+    "left": {
+     "label": "2022",
+     "value": "112.2",
+     "tone": "down"
+    },
+    "right": {
+     "label": "2025",
+     "value": "91.8",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Profitable again, insurers started competing for drivers. Price growth slowed to 2.8% in 2025.",
+   "say": "Profitable again, insurers started competing for drivers. Price growth slowed to two point eight percent in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Car insurance prices, yearly change (CPI, %)",
+    "points": [
+     [
+      2020,
+      -4.8
+     ],
+     [
+      2021,
+      4.1
+     ],
+     [
+      2022,
+      14.2
+     ],
+     [
+      2023,
+      20.3
+     ],
+     [
+      2024,
+      11.3
+     ],
+     [
+      2025,
+      2.8
+     ],
+     [
+      2026,
+      -5.1
+     ]
+    ],
+    "suffix": "%",
+    "end": "-5.1%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And by August 2026, car insurance prices were down 5.1% from a year earlier.",
+   "say": "And by August twenty twenty-six, car insurance prices were down five point one percent from a year earlier.",
+   "scene": {
+    "t": "chart",
+    "title": "Car insurance prices, yearly change (CPI, %)",
+    "points": [
+     [
+      2020,
+      -4.8
+     ],
+     [
+      2021,
+      4.1
+     ],
+     [
+      2022,
+      14.2
+     ],
+     [
+      2023,
+      20.3
+     ],
+     [
+      2024,
+      11.3
+     ],
+     [
+      2025,
+      2.8
+     ],
+     [
+      2026,
+      -5.1
+     ]
+    ],
+    "suffix": "%",
+    "end": "-5.1%",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2026,
+     "text": "-5.1% (Aug 2026)"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the car story: costs jumped, insurers lost money, prices caught up, and now they're easing.",
+   "say": "That's the car story. Costs jumped, insurers lost money, prices caught up, and now they're easing.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2020",
+      "Empty roads, cheaper"
+     ],
+     [
+      "2022",
+      "Big losses"
+     ],
+     [
+      "2023",
+      "+20.3% spike"
+     ],
+     [
+      "2026",
+      "Prices easing"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: why home insurance keeps climbing.",
+   "say": "Chapter three. Why home insurance keeps climbing.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Home insurance keeps climbing"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your home policy pays mostly for fire, wind, hail and storms. And those got expensive.",
+   "say": "Your home policy pays mostly for fire, wind, hail and storms. And those got expensive.",
+   "scene": {
+    "t": "list",
+    "title": "What home policies pay for",
+    "items": [
+     "Fire",
+     "Wind",
+     "Hail",
+     "Storms"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2024, the US had 27 weather disasters that each cost at least a billion dollars.",
+   "say": "In twenty twenty-four, the US had twenty-seven weather disasters that each cost at least a billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "US billion-dollar disasters, 2024",
+    "value": "27",
+    "tone": "down",
+    "sub": "total cost $182.7B (NOAA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Together they cost $182.7 billion. Only 2023, with 28, had more events.",
+   "say": "Together they cost a hundred eighty-two point seven billion dollars. Only twenty twenty-three, with twenty-eight, had more events.",
+   "scene": {
+    "t": "compare",
+    "title": "US billion-dollar disasters (NOAA)",
+    "left": {
+     "label": "2023",
+     "value": "28",
+     "tone": "down"
+    },
+    "right": {
+     "label": "2024",
+     "value": "27",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Globally, insured disaster losses topped $100 billion for the sixth straight year in 2025: $107 billion.",
+   "say": "Globally, insured disaster losses topped a hundred billion dollars for the sixth straight year in twenty twenty-five. A hundred seven billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Insured natural catastrophe losses, 2025",
+    "value": "$107B",
+    "tone": "down",
+    "sub": "sixth year over $100B; 83% in the US (Swiss Re)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was actually down 24% from 2024's $141 billion, and still one of the costliest years on record.",
+   "say": "That was actually down twenty-four percent from twenty twenty-four's hundred forty-one billion. And still one of the costliest years on record.",
+   "scene": {
+    "t": "compare",
+    "title": "Global insured disaster losses (Swiss Re)",
+    "left": {
+     "label": "2024",
+     "value": "$141B",
+     "tone": "down"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$107B",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 83% of those losses were in the United States.",
+   "say": "And eighty-three percent of those losses were in the United States.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "83% is mine"
+     },
+     {
+      "name": "japan",
+      "mood": "think",
+      "says": "less here"
+     },
+     {
+      "name": "germany",
+      "mood": "think",
+      "says": "me too"
+     }
+    ],
+    "caption": "Where 2025's insured losses landed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A record 92% of 2025's insured losses came from so-called secondary perils: wildfires, hail, floods and severe storms.",
+   "say": "A record ninety-two percent of twenty twenty-five's insured losses came from so-called secondary perils: wildfires, hail, floods and severe storms.",
+   "scene": {
+    "t": "stat",
+    "label": "Share of 2025 insured losses from secondary perils",
+    "value": "92%",
+    "tone": "down",
+    "sub": "wildfire, hail, flood, storms (Swiss Re)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those aren't once-a-century hurricanes. They're frequent, smaller disasters that add up every year.",
+   "say": "Those aren't once-a-century hurricanes. They're frequent, smaller disasters that add up every single year.",
+   "scene": {
+    "t": "split",
+    "title": "Two kinds of disaster",
+    "left": {
+     "title": "Peak perils",
+     "items": [
+      "Big hurricanes",
+      "Earthquakes"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Secondary perils",
+     "items": [
+      "Hail, wildfire",
+      "Floods, storms"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Los Angeles wildfires in January 2025 alone caused about $40 billion of insured losses.",
+   "say": "The Los Angeles wildfires in January twenty twenty-five alone caused about forty billion dollars of insured losses.",
+   "scene": {
+    "t": "news",
+    "headline": "LA wildfires: largest insured wildfire loss on record",
+    "source": "Swiss Re Institute, sigma 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now meet the insurer's insurer: reinsurance.",
+   "say": "Now meet the insurer's insurer. Reinsurance.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You -> your insurer",
+     "Your insurer ->",
+     "a reinsurer"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurers buy it so one huge storm doesn't wipe them out. And its price exploded.",
+   "say": "Insurers buy it so one huge storm doesn't wipe them out. And its price exploded.",
+   "scene": {
+    "t": "hook",
+    "title": "The insurer's [insurer]",
+    "prop": "house",
+    "label": "REINSURED",
+    "value": "+31%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the January 2023 renewals, US property catastrophe reinsurance rates jumped 31.3%, the biggest one-year rise since 2006.",
+   "say": "At the January twenty twenty-three renewals, US property catastrophe reinsurance rates jumped thirty-one point three percent. The biggest one-year rise since two thousand six.",
+   "scene": {
+    "t": "stat",
+    "label": "US property cat reinsurance rates, Jan 2023",
+    "value": "+31.3%",
+    "tone": "down",
+    "sub": "Guy Carpenter rate-on-line index"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over six straight years of increases, that index nearly doubled.",
+   "say": "Over six straight years of increases, that index nearly doubled.",
+   "scene": {
+    "t": "stat",
+    "label": "US property cat reinsurance rates, 2017 to 2023",
+    "value": "~2x",
+    "tone": "down",
+    "sub": "six straight annual increases (Guy Carpenter)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add pricier lumber and labor to rebuild, and your premium has three new costs baked in.",
+   "say": "Add pricier lumber and labor to rebuild, and your premium has three new costs baked in.",
+   "scene": {
+    "t": "list",
+    "title": "Baked into your premium",
+    "items": [
+     "More disasters",
+     "Pricier reinsurance",
+     "Pricier rebuilding"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some insurers simply stopped selling. In May 2023, State Farm stopped taking new home applications in California.",
+   "say": "Some insurers simply stopped selling. In May twenty twenty-three, State Farm stopped taking new home applications in California.",
+   "scene": {
+    "t": "news",
+    "headline": "State Farm stops new homeowners applications in California",
+    "source": "CNBC, May 27, 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It cited wildfire risk, construction costs and the reinsurance market.",
+   "say": "It cited wildfire risk, construction costs, and a challenging reinsurance market.",
+   "scene": {
+    "t": "list",
+    "title": "State Farm's reasons",
+    "items": [
+     "Wildfire risk",
+     "Construction costs",
+     "Reinsurance market"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2026, State Farm filed rules that could let it consider new California applications from fire-hardened homes.",
+   "say": "In September twenty twenty-six, State Farm filed rules that could let it consider new California applications again, from homes that meet wildfire-resilience standards.",
+   "scene": {
+    "t": "news",
+    "headline": "State Farm files to reopen some California home policies",
+    "source": "California Dept. of Insurance, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fewer sellers means less competition, and fewer cheap options for homeowners.",
+   "say": "Fewer sellers means less competition, and fewer cheap options for homeowners.",
+   "scene": {
+    "t": "split",
+    "title": "When insurers leave",
+    "left": {
+     "title": "Before",
+     "items": [
+      "Many offers"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "After",
+     "items": [
+      "Fewer offers",
+      "Higher prices"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One industry estimate puts the average home premium at $2,948 in 2025, up 12% in a year.",
+   "say": "One industry estimate puts the average home premium at about two thousand nine hundred fifty dollars in twenty twenty-five, up twelve percent in a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Average home insurance premium, 2025",
+    "value": "$2,948",
+    "tone": "down",
+    "sub": "up 12% (Insurify estimate)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same estimate says home insurance costs rose about 46% since 2021, roughly three times overall inflation.",
+   "say": "The same estimate says home insurance costs rose about forty-six percent since twenty twenty-one. Roughly three times overall inflation.",
+   "scene": {
+    "t": "compare",
+    "title": "Since 2021 (Insurify estimate)",
+    "left": {
+     "label": "Inflation",
+     "value": "+16%",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Home insurance",
+     "value": "+46%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it hits renters and buyers too, because landlords and mortgage lenders pass it along.",
+   "say": "And it hits renters and buyers too, because landlords and lenders build insurance into the monthly cost.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "YOUR HOME",
+    "label": "premium inside",
+    "caption": "Rent and mortgages carry it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: the bill you might not see.",
+   "say": "Chapter four. The bill you might not see.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The bill you might not see"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you get health insurance through work, the full price is mostly hidden from you.",
+   "say": "If you get health insurance through work, the full price is mostly hidden from you.",
+   "scene": {
+    "t": "hook",
+    "title": "The [hidden] premium",
+    "prop": "paper",
+    "label": "PAYSTUB",
+    "value": "$27K",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, the average family plan cost $26,993, up 6% in a year.",
+   "say": "In twenty twenty-five, the average family plan cost twenty-six thousand nine hundred ninety-three dollars, up six percent in a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Average family premium, job-based, 2025",
+    "value": "$26,993",
+    "tone": "down",
+    "sub": "up 6% (KFF Employer Health Benefits Survey)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Workers paid $6,850 of that directly. Employers paid the rest.",
+   "say": "Workers paid six thousand eight hundred fifty of that directly. Employers paid the rest.",
+   "scene": {
+    "t": "compare",
+    "title": "Who pays a family plan (2025)",
+    "left": {
+     "label": "Worker",
+     "value": "$6,850",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Employer",
+     "value": "$20,143",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That 6% jump outpaced both wage growth, at 4%, and inflation, at 2.7%, according to KFF.",
+   "say": "That six percent jump outpaced both wage growth, at four percent, and inflation, at two point seven, according to K F F.",
+   "scene": {
+    "t": "list",
+    "title": "2025 growth (KFF)",
+    "items": [
+     "Family premiums +6%",
+     "Wages +4%",
+     "Inflation +2.7%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But economists generally find that employer-paid premiums come partly out of what would have been wages.",
+   "say": "But economists generally find that employer-paid premiums come partly out of what could have been your raise.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Employer pays more",
+     "= less room",
+     "for raises"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So even the part you don't see can shape your paycheck.",
+   "say": "So even the part you don't see can shape your paycheck.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Total pay package",
+     "value": "same"
+    },
+    "to": {
+     "label": "Your cash wages",
+     "value": "less"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wait, so is it just greed? The numbers are messier than that.",
+   "say": "Wait, so is it just greed? The numbers are messier than that.",
+   "scene": {
+    "t": "hook",
+    "title": "Is it just [greed]?",
+    "prop": "bag",
+    "label": "PROFITS",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Car insurers lost $33.1 billion on policies in 2022. In 2025, a 91.8 ratio meant about 8 cents of underwriting profit per premium dollar.",
+   "say": "Car insurers lost thirty-three billion dollars on policies in twenty twenty-two. In twenty twenty-five, a ninety-one point eight ratio meant about eight cents of underwriting profit per premium dollar.",
+   "scene": {
+    "t": "compare",
+    "title": "Personal auto underwriting result",
+    "left": {
+     "label": "2022",
+     "value": "-11.2¢",
+     "tone": "down",
+     "sub": "per $1 of premium"
+    },
+    "right": {
+     "label": "2025",
+     "value": "+8.2¢",
+     "tone": "up",
+     "sub": "per $1 of premium"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in most states, regulators review rate increases before they take effect. Prices chase costs, with a lag.",
+   "say": "And in most states, regulators review rate increases before they take effect. Prices chase costs, with a lag.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "STATE REGULATOR",
+    "label": "rate filings",
+    "caption": "Hikes get reviewed first"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: what you can actually control.",
+   "say": "Chapter five. What you can actually control.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What you can control"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can't stop hailstorms. But a few levers do move your price.",
+   "say": "You can't stop hailstorms. But a few levers do move your price.",
+   "scene": {
+    "t": "list",
+    "title": "Your levers",
+    "items": [
+     "Shop around",
+     "Deductible",
+     "Bundling",
+     "Discounts"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lever one: prices for the same driver can differ a lot from one insurer to the next.",
+   "say": "Lever one. Prices for the same driver can differ a lot from one insurer to the next.",
+   "scene": {
+    "t": "split",
+    "title": "Same driver, two quotes",
+    "left": {
+     "title": "Insurer A",
+     "items": [
+      "Their risk model"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Insurer B",
+     "items": [
+      "Different model"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each company weighs your car, ZIP code and driving record differently, so comparing quotes is the classic first move.",
+   "say": "Each company weighs your car, ZIP code and driving record differently. So comparing quotes is the classic first move.",
+   "scene": {
+    "t": "list",
+    "title": "What insurers weigh",
+    "items": [
+     "Your car",
+     "Your ZIP code",
+     "Your record",
+     "Your coverage"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Just compare the same coverage. A cheaper quote can mean lower limits or a bigger deductible.",
+   "say": "Just compare the same coverage. A cheaper quote can hide lower limits, or a bigger deductible.",
+   "scene": {
+    "t": "split",
+    "title": "Compare apples to apples",
+    "left": {
+     "title": "Check",
+     "items": [
+      "Liability limits",
+      "Deductibles"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Not just",
+     "items": [
+      "The price"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lever two: the deductible, the part you pay before insurance kicks in.",
+   "say": "Lever two. The deductible, the part you pay before insurance kicks in.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deductible = the part",
+     "you pay first"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A higher deductible usually means a lower premium, because you're taking on more of the small claims.",
+   "say": "A higher deductible usually means a lower premium, because you're taking on more of the small claims yourself.",
+   "scene": {
+    "t": "compare",
+    "title": "The deductible trade-off",
+    "left": {
+     "label": "$500 deductible",
+     "value": "Higher",
+     "tone": "down",
+     "sub": "premium"
+    },
+    "right": {
+     "label": "$1,000 deductible",
+     "value": "Lower",
+     "tone": "up",
+     "sub": "premium"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: you need that deductible in cash if something happens. It's a trade-off, not free money.",
+   "say": "The catch: you need that deductible in cash if something happens. It's a trade-off, not free money.",
+   "scene": {
+    "t": "stat",
+    "label": "Cash you'd need after a claim",
+    "value": "$1,000",
+    "tone": "neutral",
+    "sub": "with a $1,000 deductible"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: say a higher deductible saves $200 a year. Three claim-free years saves $600, but one claim costs $500 more out of pocket.",
+   "say": "Here's an example. Say a higher deductible saves you two hundred dollars a year. Three claim-free years saves six hundred, but one claim costs you five hundred more out of pocket.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Save $200/yr x 3 = $600",
+     "One claim: pay $500 more",
+     "(example numbers)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lever three: bundling home and car with one company often earns a discount.",
+   "say": "Lever three. Bundling home and car with one company often earns a discount.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Home + car,",
+     "one company",
+     "= often a discount"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lever four: discounts for things like safe-driving apps, home security, or a new roof.",
+   "say": "Lever four. Discounts for things like safe-driving apps, home security, or a new roof.",
+   "scene": {
+    "t": "list",
+    "title": "Common discounts",
+    "items": [
+     "Safe-driving apps",
+     "Home security",
+     "New roof"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in most states, your credit-based insurance score affects car rates. A few states, like California, Hawaii and Massachusetts, don't allow it.",
+   "say": "And in most states, your credit-based insurance score affects car rates. A few states, like California, Hawaii and Massachusetts, don't allow that.",
+   "scene": {
+    "t": "split",
+    "title": "Credit-based insurance scores",
+    "left": {
+     "title": "Most states",
+     "items": [
+      "Allowed"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "CA, HI, MA",
+     "items": [
+      "Not for auto"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of these change the disasters. But they change how much of the pool's bill lands on you.",
+   "say": "None of these change the disasters. But they change how much of the pool's bill lands on you.",
+   "scene": {
+    "t": "hook",
+    "title": "Your share of the [pool]",
+    "prop": "coins",
+    "label": "YOUR SHARE",
+    "value": "less?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: the recap.",
+   "say": "Chapter six. The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: insurance prices follow the cost of claims. When claims get pricier, everyone in the pool pays.",
+   "say": "One. Insurance prices follow the cost of claims. When claims get pricier, everyone in the pool pays.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Claims drive prices",
+     "Cars got pricier to fix",
+     "Disasters hit homes",
+     "Levers you control"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: car insurance rose about 64% from 2020 to 2025, as repairs, injuries and losses piled up, and it's now easing.",
+   "say": "Two. Car insurance rose about sixty-four percent from twenty twenty to twenty twenty-five, as repairs, injuries and losses piled up. Now it's easing.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Claims drive prices",
+     "Cars got pricier to fix",
+     "Disasters hit homes",
+     "Levers you control"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: home insurance keeps rising with disasters, reinsurance and rebuilding costs.",
+   "say": "Three. Home insurance keeps rising with disasters, reinsurance and rebuilding costs.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Claims drive prices",
+     "Cars got pricier to fix",
+     "Disasters hit homes",
+     "Levers you control"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: you can't control the weather, but quotes, deductibles, bundles and discounts change your share.",
+   "say": "And four. You can't control the weather, but quotes, deductibles, bundles and discounts change your share.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Claims drive prices",
+     "Cars got pricier to fix",
+     "Disasters hit homes",
+     "Levers you control"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurance isn't magic. It's a giant shared bill, and now you know how it's split.",
+   "say": "Insurance isn't magic. It's a giant shared bill, and now you know how it gets split.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Insurance =",
+     "one giant shared bill"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this helped, subscribe for more Explained.",
+   "say": "If this helped, subscribe for more Explained.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained from zero.",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Car insurance jumped 64% in 5 years. Here's why insurance got so expensive",
+  "ig": "Car insurance prices rose about 64% from 2020 to 2025. Here's why, and why home insurance keeps climbing.",
+  "tiktok": "Car insurance +64% in five years, now easing. Home insurance still climbing. Here's the math.",
+  "yt_desc": "Car insurance prices rose about 64% from December 2020 to December 2025, including a 20.3% jump in 2023, the biggest since 1976, before falling 5.1% in the year to August 2026. We explain how insurance pricing works with simple pool math, why car repairs and injury claims got pricier, why disasters and reinsurance keep pushing home insurance up, what job-based health premiums really cost, and the levers people use to change their share.\n\nCHAPTERS\n\nSources:\n- US Bureau of Labor Statistics, CPI (Dec 2020-Aug 2026)\n- Triple-I and AM Best, personal auto results (2022-2025)\n- NOAA NCEI billion-dollar disasters (2024)\n- Swiss Re Institute sigma 1/2026, natural catastrophes 2025\n- Guy Carpenter rate-on-line index (Jan 2023)\n- CNBC (May 27, 2023) on State Farm in California\n- CCC Intelligent Solutions Crash Course (2025-2026)\n- KFF Employer Health Benefits Survey 2025\n- Insurify home insurance report (2026)\n- California Department of Insurance (Sept 2026)\n\nNews and education, not financial advice.\n\n#Insurance #CarInsurance #Explained",
+  "tags": [
+   "why is insurance so expensive",
+   "car insurance rates",
+   "home insurance rising",
+   "insurance explained",
+   "combined ratio",
+   "reinsurance",
+   "money explained",
+   "FinanceProsTV"
+  ]
+ }
+}
