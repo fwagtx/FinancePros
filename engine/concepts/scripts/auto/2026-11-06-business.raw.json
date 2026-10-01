@@ -1,0 +1,189 @@
+{
+ "series": "ticker",
+ "header": "How Ticketmaster\nmakes money",
+ "cover": {
+  "title": "Ticket Fees: Nearly Half the Profit?",
+  "prop": "tag",
+  "label": "FEES",
+  "value": "~half"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Ticketing is 12% of Live Nation's sales. Nearly half its profit.",
+   "say": "Ticketing is twelve percent of Live Nation's sales. Nearly half its profit.",
+   "scene": {
+    "t": "hook",
+    "title": "Tiny slice, [big] profit",
+    "prop": "tag",
+    "label": "12%",
+    "value": "~half",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, ticketing earned $1.1 billion in adjusted operating income on $3.1 billion of revenue.",
+   "say": "In twenty twenty-five, ticketing earned one point one billion dollars in adjusted operating income on three point one billion of revenue.",
+   "scene": {
+    "t": "stat",
+    "label": "Ticketing adj. operating income, 2025",
+    "value": "$1.1B",
+    "tone": "up",
+    "sub": "on $3.1B revenue, FY2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about a 37% margin. Concerts kept 3.3%.",
+   "say": "That's about a thirty-seven percent margin. Concerts kept three point three percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Margin, 2025 (adjusted)",
+    "left": {
+     "label": "Ticketing",
+     "value": "~37%",
+     "tone": "up",
+     "sub": "$1.13B / $3.08B"
+    },
+    "right": {
+     "label": "Concerts",
+     "value": "3.3%",
+     "tone": "down",
+     "sub": "company-reported"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ticketmaster says it typically keeps about $5 of a $100 all-in ticket. Venues get most of the fee.",
+   "say": "Ticketmaster says it typically keeps about five dollars of a one hundred dollar all-in ticket; venues get most of the fee.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "All-in ticket",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Ticketmaster says",
+     "value": "~$5"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trick is volume: 346 million fee-bearing tickets in 2025, roughly $3.28 of profit each.",
+   "say": "The trick is volume: three hundred forty-six million fee-bearing tickets in twenty twenty-five, roughly three dollars and twenty-eight cents of profit each.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,134.4M / 346M tickets",
+     "= about $3.28 each",
+     "rough 2025 average"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since May 12, 2025, an FTC rule requires all-in ticket prices, mandatory fees included.",
+   "say": "Since May twelfth, twenty twenty-five, an F T C rule requires all-in ticket prices, mandatory fees included.",
+   "scene": {
+    "t": "quote",
+    "text": "for any Business to offer, display, or advertise any price of a Covered Good or Service without Clearly and Conspicuously disclosing the Total Price.",
+    "source": "FTC fees rule, 16 CFR 464.2(a), effective May 12, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In April 2026, a jury in the states' antitrust case found Live Nation and Ticketmaster liable for monopolization.",
+   "say": "In April twenty twenty-six, a jury in the states' antitrust case found the companies liable for monopolization.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "May 2024",
+      "what": "DOJ and states sue"
+     },
+     {
+      "when": "Mar 2026",
+      "what": "DOJ settles, needs approval"
+     },
+     {
+      "when": "Apr 2026",
+      "what": "Jury: liable (states' case)"
+     },
+     {
+      "when": "Sep 2026",
+      "what": "Verdict challenged, no remedy"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They're challenging the verdict. As of September 2026, no remedy had been ordered.",
+   "say": "They're challenging the verdict, and as of September twenty twenty-six, no remedy had been ordered.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "May 2024",
+      "what": "DOJ and states sue"
+     },
+     {
+      "when": "Mar 2026",
+      "what": "DOJ settles, needs approval"
+     },
+     {
+      "when": "Apr 2026",
+      "what": "Jury: liable (states' case)"
+     },
+     {
+      "when": "Sep 2026",
+      "what": "Verdict challenged, no remedy"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Small cut, giant volume.",
+   "say": "Small cut, giant volume.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "small cut per ticket",
+     "x 346M tickets",
+     "= giant volume"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Ticketing: 12% of Live Nation's sales, ~half its profit",
+  "ig": "Ticketing is 12% of Live Nation's sales. Nearly half its profit.\n\nIn 2025, the Ticketing segment made $1.1B in adjusted operating income on $3.1B of revenue, a margin near 37% (concerts: 3.3%).\nTicketmaster says it typically keeps about $5 of a $100 all-in ticket; it sold 346M fee-bearing tickets in 2025.\nAn FTC rule requiring all-in ticket prices took effect May 12, 2025. In April 2026 a jury in the states' antitrust case found Live Nation liable; the companies are challenging the verdict (status as of Sept 2026).\n\nSources: Live Nation FY2025 10-K and results, FTC (16 CFR 464), court reporting (CNN, Music Business Worldwide).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#ticketmaster #livenation #howtheymakemoney #business #financeprostv",
+  "tiktok": "Ticketing is 12% of Live Nation's sales but nearly half its profit. Not financial advice. #moneytok #personalfinance #ticketmaster #financeprostv",
+  "yt_desc": "In 2025, Live Nation's Ticketing segment (Ticketmaster) made $1.1 billion in adjusted operating income on $3.1 billion of revenue, about 12% of company sales but nearly half its adjusted operating income, across 346 million fee-bearing tickets. The FTC's all-in pricing rule for live-event tickets took effect May 12, 2025, and as of September 2026 the companies were challenging an April 2026 jury verdict in the states' antitrust case. Sources: Live Nation FY2025 10-K, FTC 16 CFR 464, CNN.\n\nNews and education, not financial advice.\n\n#Shorts #ticketmaster #business",
+  "tags": [
+   "ticketmaster",
+   "ticketmaster fees",
+   "live nation",
+   "how ticketmaster makes money",
+   "junk fees rule"
+  ]
+ }
+}
