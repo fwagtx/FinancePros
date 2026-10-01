@@ -282,8 +282,7 @@
      "Fund it",
      "Invest it"
     ],
-    "reveal": 1,
-    "keep": true
+    "reveal": 1
    }
   },
   {
@@ -628,22 +627,19 @@
    "text": "Your 401(k) at work has its own separate limit, so it doesn't use up your IRA room.",
    "say": "Your four oh one K at work has its own separate limit, so it doesn't use up your IRA room.",
    "scene": {
-    "t": "split",
-    "title": "Separate buckets",
+    "t": "compare",
+    "title": "Separate limits",
     "left": {
-     "title": "Workplace 401(k)",
-     "items": [
-      "Own limit"
-     ],
-     "tone": "neutral"
+     "label": "Workplace 401(k)",
+     "value": "Own",
+     "tone": "neutral",
+     "sub": "separate limit"
     },
     "right": {
-     "title": "All your IRAs",
-     "items": [
-      "$7,500 total",
-      "in 2026"
-     ],
-     "tone": "neutral"
+     "label": "All your IRAs",
+     "value": "$7,500",
+     "tone": "neutral",
+     "sub": "total, 2026"
     }
    }
   },
@@ -836,8 +832,7 @@
      "Fund it",
      "Invest it"
     ],
-    "reveal": 2,
-    "keep": true
+    "reveal": 2
    }
   },
   {
@@ -993,8 +988,7 @@
      "Fund it",
      "Invest it"
     ],
-    "reveal": 3,
-    "keep": true
+    "reveal": 3
    }
   },
   {
@@ -1159,8 +1153,7 @@
      "Fund it",
      "Invest it"
     ],
-    "reveal": 4,
-    "keep": true
+    "reveal": 4
    }
   },
   {
