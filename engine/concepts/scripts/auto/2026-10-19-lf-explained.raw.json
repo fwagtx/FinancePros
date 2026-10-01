@@ -447,15 +447,15 @@
   },
   {
    "who": "ticker",
-   "text": "Claiming changes it. At 62, the check is cut to 70%, which is $1,642.06 in our example.",
-   "say": "Claiming changes it. At sixty-two, the check is cut to seventy percent, which is one thousand, six hundred forty-two dollars and six cents in our example.",
+   "text": "Claiming changes it. At 62, the check is cut to 70%, roughly $1,642 in our example.",
+   "say": "Claiming changes it. At sixty-two, the check is cut to seventy percent, roughly one thousand, six hundred forty-two dollars in our example.",
    "scene": {
     "t": "list",
     "title": "Example benefit by claiming age",
     "items": [
-     "62: $1,642.06",
+     "62: about $1,642",
      "67: $2,345.80",
-     "70: $2,908.79"
+     "70: about $2,908"
     ],
     "reveal": 1
    }
@@ -472,8 +472,8 @@
   },
   {
    "who": "ticker",
-   "text": "Wait until 70, and delayed credits of 8% a year push it to 124%, or $2,908.79.",
-   "say": "Wait until seventy, and delayed credits of eight percent a year push it to a hundred twenty-four percent, or two thousand, nine hundred eight dollars and seventy-nine cents.",
+   "text": "Wait until 70, and delayed credits of 8% a year push it to 124%, roughly $2,908.",
+   "say": "Wait until seventy, and delayed credits of eight percent a year push it to a hundred twenty-four percent, roughly two thousand, nine hundred eight dollars.",
    "scene": {
     "t": "list",
     "keep": true,
@@ -482,14 +482,14 @@
   },
   {
    "who": "ticker",
-   "text": "Waiting from 62 to 70 adds $1,266.73 a month in this example, before any cost-of-living raises.",
-   "say": "Waiting from sixty-two to seventy adds one thousand, two hundred sixty-six dollars and seventy-three cents a month in this example, before any cost of living raises.",
+   "text": "Waiting from 62 to 70 adds roughly $1,266 a month in this example, before any cost-of-living raises.",
+   "say": "Waiting from sixty-two to seventy adds roughly one thousand, two hundred sixty-six dollars a month in this example, before any cost of living raises.",
    "scene": {
     "t": "board",
     "lines": [
      "Example: claim at 70 vs 62",
-     "$2,908.79 - $1,642.06",
-     "= $1,266.73 more a month"
+     "about $2,908 - $1,642",
+     "= about $1,266 more"
     ]
    }
   },
@@ -521,14 +521,14 @@
   },
   {
    "who": "ticker",
-   "text": "After that, checks rise with inflation each year: 2.8% for 2026. Our October 13 video covers that formula.",
-   "say": "After that, checks rise with inflation each year: two point eight percent for twenty twenty-six. Our October thirteenth video covers that formula.",
+   "text": "After that, checks rise with inflation each year. The raise was 2.8% for 2026, and the 2027 raise was set in mid-October.",
+   "say": "After that, checks rise with inflation each year. The raise was two point eight percent for twenty twenty-six, and the twenty twenty-seven raise was set in mid-October.",
    "scene": {
     "t": "stat",
     "label": "Cost-of-living raise for 2026",
     "value": "2.8%",
     "tone": "up",
-    "sub": "SSA; formula in our Oct 13 video"
+    "sub": "2027 raise set mid-Oct"
    }
   },
   {
@@ -686,8 +686,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's why full retirement age is 67 today instead of 65. And it's why some retirees pay income tax on their checks.",
-   "say": "That's why full retirement age is sixty-seven today instead of sixty-five. And it's why some retirees pay income tax on their checks.",
+   "text": "That's why full retirement age is 67 for anyone born in 1960 or later, instead of 65. And it's why some retirees pay income tax on their checks.",
+   "say": "That's why full retirement age is sixty-seven for anyone born in nineteen sixty or later, instead of sixty-five. And it's why some retirees pay income tax on their checks.",
    "scene": {
     "t": "compare",
     "title": "Full retirement age",
@@ -1075,8 +1075,8 @@
   },
   {
    "who": "ticker",
-   "text": "Apply that to our example: 78% of $2,345.80 is $1,829.72 a month.",
-   "say": "Apply that to our example: seventy-eight percent of two thousand, three hundred forty-five dollars and eighty cents is one thousand, eight hundred twenty-nine dollars and seventy-two cents a month.",
+   "text": "Apply that to our example: 78% of $2,345.80 is roughly $1,829 a month.",
+   "say": "Apply that to our example: seventy-eight percent of two thousand, three hundred forty-five dollars and eighty cents is roughly one thousand, eight hundred twenty-nine dollars a month.",
    "scene": {
     "t": "money",
     "from": {
@@ -1084,19 +1084,19 @@
      "value": "$2,345.80"
     },
     "to": {
-     "label": "At 78%",
-     "value": "$1,829.72"
+     "label": "At 78%, roughly",
+     "value": "$1,829"
     }
    }
   },
   {
    "who": "ticker",
-   "text": "That's $516.08 less every month, or about 22%. That's the gap behind the scary headlines.",
-   "say": "That's five hundred sixteen dollars and eight cents less every month, or about twenty-two percent. That's the gap behind the scary headlines.",
+   "text": "That's about $516 less every month, or about 22%. That's the gap behind the scary headlines.",
+   "say": "That's about five hundred sixteen dollars less every month, or about twenty-two percent. That's the gap behind the scary headlines.",
    "scene": {
     "t": "stat",
     "label": "Example monthly gap at 78%",
-    "value": "-$516.08",
+    "value": "-$516",
     "tone": "down",
     "sub": "Hypothetical, before COLAs",
     "mood": "worried"
@@ -1258,8 +1258,8 @@
   },
   {
    "who": "ticker",
-   "text": "Which mix is fair is a political choice, and we don't pick sides. Starting sooner just spreads the change thinner.",
-   "say": "Which mix is fair is a political choice, and we don't pick sides. Starting sooner just spreads the change thinner.",
+   "text": "Which mix is fair is a political choice, and we don't pick sides. The Trustees note that acting sooner spreads the change thinner.",
+   "say": "Which mix is fair is a political choice, and we don't pick sides. The Trustees note that acting sooner spreads the change thinner.",
    "scene": {
     "t": "board",
     "lines": [
