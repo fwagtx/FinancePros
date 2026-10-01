@@ -1,0 +1,167 @@
+{
+ "series": "ticker",
+ "header": "How betting apps\nmake money",
+ "cover": {
+  "title": "The Book Keeps 10 Cents",
+  "prop": "coins",
+  "label": "PER $1 BET",
+  "value": "10¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2025, US sportsbooks kept about 10 cents of every dollar bet.",
+   "say": "In twenty twenty-five, US sportsbooks kept about ten cents of every dollar bet.",
+   "scene": {
+    "t": "hook",
+    "title": "The book keeps [10¢]",
+    "prop": "coins",
+    "label": "PER $1 BET",
+    "value": "10¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Americans bet $166.94 billion. Sportsbooks kept $16.96 billion.",
+   "say": "Americans bet about a hundred sixty-seven billion dollars. Sportsbooks kept almost seventeen billion.",
+   "scene": {
+    "t": "compare",
+    "title": "US sports betting, 2025 (AGA)",
+    "left": {
+     "label": "Bet",
+     "value": "$166.9B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Kept",
+     "value": "$16.96B",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The basic tool is the vig. A standard bet is priced at minus 110.",
+   "say": "The basic tool is the vig. A standard bet is priced at minus one ten.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "-110 means:",
+     "bet $110",
+     "to win $100"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say two people bet $110 each on opposite sides. The book takes in $220.",
+   "say": "Say two people bet a hundred ten dollars each, on opposite sides. The book takes in two hundred twenty.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Two bets: $110 + $110",
+     "= $220 taken in"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The winner gets $210 back. The book keeps $10, no matter who wins.",
+   "say": "The winner gets two hundred ten back. The book keeps ten dollars, no matter who wins.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Taken in",
+     "value": "$220"
+    },
+    "to": {
+     "label": "Paid to winner",
+     "value": "$210"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$10 out of $220 is about 4.5%. That's the vig.",
+   "say": "Ten out of two hundred twenty is about four and a half percent. That's the vig.",
+   "scene": {
+    "t": "stat",
+    "label": "Book's edge on a balanced -110 bet",
+    "value": "4.5%",
+    "tone": "up",
+    "sub": "$10 / $220 = 4.55%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Parlays stack several picks, and the edge stacks too, which helps push the overall take near 10%.",
+   "say": "Parlays stack several picks, and the edge stacks too. That helps push the overall take near ten percent.",
+   "scene": {
+    "t": "split",
+    "title": "Built-in edge",
+    "left": {
+     "title": "One -110 bet",
+     "items": [
+      "About 4.5%"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Many-leg parlay",
+     "items": [
+      "Often 20%+"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "DraftKings took $53.6 billion in sports bets in 2025 and kept 7.1% after promos.",
+   "say": "DraftKings took fifty-three point six billion dollars in sports bets in twenty twenty-five, and kept seven point one percent after promos.",
+   "scene": {
+    "t": "stat",
+    "label": "DraftKings sportsbook net revenue margin, 2025",
+    "value": "7.1%",
+    "tone": "up",
+    "sub": "on $53.6B handle (10-K)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bettors win some nights. The book wins on the math.",
+   "say": "Bettors win some nights. The book wins on the math.",
+   "scene": {
+    "t": "hook",
+    "title": "The math has a [side]",
+    "prop": "chart-up",
+    "label": "THE BOOK",
+    "value": "VIG",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Sportsbooks kept about 10 cents of every dollar bet in 2025",
+  "ig": "In 2025, US sportsbooks kept about 10 cents of every dollar bet.\n\n2025: $166.94 billion bet, $16.96 billion kept (American Gaming Association).\nAt -110, two $110 bets bring in $220; the winner gets $210; the book keeps $10, about 4.5%.\nParlays carry bigger edges. DraftKings kept 7.1% of $53.6 billion in 2025 after promos.\n\nSources: AGA (Feb 2026), DraftKings 10-K FY2025.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#sportsbetting #vig #business #personalfinance #financeprostv",
+  "tiktok": "Sportsbooks kept about 10 cents of every dollar bet in 2025. Here's the vig math. Not financial advice. #moneytok #sportsbetting #vig #financeprostv",
+  "yt_desc": "Americans bet $166.94 billion on sports in 2025 and sportsbooks kept $16.96 billion, about 10 cents per dollar (American Gaming Association). The vig explains the base: at -110, two opposite $110 bets bring in $220, the winner gets $210, and the book keeps $10, about 4.5%. Parlays carry bigger edges, and DraftKings kept 7.1% of $53.6 billion in 2025 after promos. Sources: AGA, DraftKings 10-K.\n\nNews and education, not financial advice.\n\n#Shorts #sportsbetting #business",
+  "tags": [
+   "sports betting vig",
+   "how sportsbooks make money",
+   "draftkings",
+   "parlay odds",
+   "how they make money"
+  ]
+ }
+}
