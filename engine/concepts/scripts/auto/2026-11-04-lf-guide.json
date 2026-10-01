@@ -1,0 +1,1818 @@
+{
+ "id": "2026-11-04-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "How to choose\na health plan",
+ "cover": {
+  "title": "The Wrong Number.",
+  "prop": "card",
+  "label": "PLAN",
+  "value": "$?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Comparing health plans by premium? That's the wrong number.",
+   "say": "Comparing health plans by premium? That's the wrong number.",
+   "scene": {
+    "t": "hook",
+    "title": "You picked the [wrong] number",
+    "prop": "card",
+    "label": "PLAN",
+    "value": "$?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The monthly premium is the number everyone looks at, and it hides most of the story.",
+   "say": "The monthly premium is the number everyone looks at, and it hides most of the story.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Premium = the price",
+     "of the ticket,",
+     "not the ride"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the stakes are big. In KFF's 2025 survey, the average employer family plan cost $26,993 a year.",
+   "say": "And the stakes are big. In K F F's twenty twenty-five survey, the average employer family plan cost almost twenty-seven thousand dollars a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg employer family premium, 2025",
+    "value": "$26,993",
+    "tone": "down",
+    "sub": "KFF Employer Health Benefits Survey"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Workers paid $6,850 of that, on average, before a single doctor visit.",
+   "say": "Workers paid six thousand eight hundred fifty dollars of that, on average, before a single doctor visit.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Family premium",
+     "value": "$26,993"
+    },
+    "to": {
+     "label": "Worker's share",
+     "value": "$6,850"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that bill keeps growing. The average family premium was $17,545 in 2015.",
+   "say": "And that bill keeps growing. The average family premium was about seventeen and a half thousand dollars in twenty fifteen.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg employer family premium (KFF)",
+    "points": [
+     [
+      2015,
+      17545
+     ],
+     [
+      2016,
+      18142
+     ],
+     [
+      2017,
+      18764
+     ],
+     [
+      2018,
+      19616
+     ],
+     [
+      2019,
+      20576
+     ],
+     [
+      2020,
+      21342
+     ],
+     [
+      2021,
+      22221
+     ],
+     [
+      2022,
+      22463
+     ],
+     [
+      2023,
+      23968
+     ],
+     [
+      2024,
+      25572
+     ],
+     [
+      2025,
+      26993
+     ]
+    ],
+    "prefix": "$",
+    "end": "$26,993",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2025 it was 54% higher, which is why one fall decision matters so much.",
+   "say": "By twenty twenty-five it was fifty-four percent higher, which is why one fall decision matters so much.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg employer family premium (KFF)",
+    "points": [
+     [
+      2015,
+      17545
+     ],
+     [
+      2016,
+      18142
+     ],
+     [
+      2017,
+      18764
+     ],
+     [
+      2018,
+      19616
+     ],
+     [
+      2019,
+      20576
+     ],
+     [
+      2020,
+      21342
+     ],
+     [
+      2021,
+      22221
+     ],
+     [
+      2022,
+      22463
+     ],
+     [
+      2023,
+      23968
+     ],
+     [
+      2024,
+      25572
+     ],
+     [
+      2025,
+      26993
+     ]
+    ],
+    "prefix": "$",
+    "end": "$26,993",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "+54% since 2015"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So in this guide, we'll pick a plan the way an actuary would, in four steps, with real math.",
+   "say": "So in this guide, we'll pick a plan the way an actuary would, in four steps, with real math.",
+   "scene": {
+    "t": "list",
+    "title": "The 4 steps",
+    "items": [
+     "Guess your year",
+     "Check doctors and drugs",
+     "Do the total-cost math",
+     "Use the tax accounts"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No jargon left unexplained, and no plan names. Just the method.",
+   "say": "No jargon left unexplained, and no plan names. Just the method.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The method,",
+     "not a product"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: the four words that decide your bill.",
+   "say": "Chapter one: the four words that decide your bill.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The four words"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every plan, from your job or from the marketplace, is built from the same four parts.",
+   "say": "Every plan, from your job or from the marketplace, is built from the same four parts.",
+   "scene": {
+    "t": "list",
+    "title": "The four words",
+    "items": [
+     "Premium",
+     "Deductible",
+     "Copay / coinsurance",
+     "Out-of-pocket max"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, the premium. That's what you pay every month just to have the plan, even if you never use it.",
+   "say": "First, the premium. That's what you pay every month just to have the plan, even if you never use it.",
+   "scene": {
+    "t": "list",
+    "title": "The four words",
+    "items": [
+     "Premium",
+     "Deductible",
+     "Copay / coinsurance",
+     "Out-of-pocket max"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, the deductible. That's how much of your care you pay yourself before the plan starts sharing the cost.",
+   "say": "Second, the deductible. That's how much of your care you pay yourself before the plan starts sharing the cost.",
+   "scene": {
+    "t": "list",
+    "title": "The four words",
+    "items": [
+     "Premium",
+     "Deductible",
+     "Copay / coinsurance",
+     "Out-of-pocket max"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For single coverage, the average deductible was $1,886 in 2025, among plans that have one.",
+   "say": "For single coverage, the average deductible was one thousand eight hundred eighty-six dollars in twenty twenty-five, among plans that have one.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg single deductible, 2025",
+    "value": "$1,886",
+    "tone": "neutral",
+    "sub": "KFF, plans with a general deductible"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, copays and coinsurance. A copay is a flat fee, like $30 for a visit. Coinsurance is a percentage, like 20% of the bill.",
+   "say": "Third, copays and coinsurance. A copay is a flat fee, like thirty dollars for a visit. Coinsurance is a percentage, like twenty percent of the bill.",
+   "scene": {
+    "t": "split",
+    "title": "Your share after the deductible",
+    "left": {
+     "title": "Copay",
+     "items": [
+      "Flat fee",
+      "e.g. $30 a visit"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Coinsurance",
+     "items": [
+      "A percentage",
+      "e.g. 20% of the bill"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fourth, and most important, the out-of-pocket maximum.",
+   "say": "Fourth, and most important, the out-of-pocket maximum.",
+   "scene": {
+    "t": "hook",
+    "title": "Fourth, and most important, the out-of-pocket ma",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the most you can pay for covered, in-network care in a year. After that, the plan pays 100%.",
+   "say": "It's the most you can pay for covered, in-network care in a year. After that, the plan pays a hundred percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Out-of-pocket max",
+     "= your worst year,",
+     "in-network"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Premiums don't count toward it. Deductibles, copays and coinsurance do.",
+   "say": "Premiums don't count toward it. Deductibles, copays and coinsurance do.",
+   "scene": {
+    "t": "split",
+    "title": "Counts toward the max?",
+    "left": {
+     "title": "Yes",
+     "items": [
+      "Deductible",
+      "Copays",
+      "Coinsurance"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No",
+     "items": [
+      "Premiums",
+      "Out-of-network extras"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the legal ceiling keeps climbing. For marketplace and most job plans, the cap is $12,000 for one person in 2027.",
+   "say": "And the legal ceiling keeps climbing. For marketplace and most job plans, the cap is twelve thousand dollars for one person in twenty twenty-seven.",
+   "scene": {
+    "t": "chart",
+    "title": "ACA out-of-pocket max, one person",
+    "points": [
+     [
+      2014,
+      6350
+     ],
+     [
+      2015,
+      6600
+     ],
+     [
+      2016,
+      6850
+     ],
+     [
+      2017,
+      7150
+     ],
+     [
+      2018,
+      7350
+     ],
+     [
+      2019,
+      7900
+     ],
+     [
+      2020,
+      8150
+     ],
+     [
+      2021,
+      8550
+     ],
+     [
+      2022,
+      8700
+     ],
+     [
+      2023,
+      9100
+     ],
+     [
+      2024,
+      9450
+     ],
+     [
+      2025,
+      9200
+     ],
+     [
+      2026,
+      10600
+     ],
+     [
+      2027,
+      12000
+     ]
+    ],
+    "prefix": "$",
+    "end": "$12,000",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up from $6,350 in 2014, and $24,000 for a family in 2027.",
+   "say": "That's up from six thousand three hundred fifty dollars in twenty fourteen, and twenty-four thousand for a family in twenty twenty-seven.",
+   "scene": {
+    "t": "chart",
+    "title": "ACA out-of-pocket max, one person",
+    "points": [
+     [
+      2014,
+      6350
+     ],
+     [
+      2015,
+      6600
+     ],
+     [
+      2016,
+      6850
+     ],
+     [
+      2017,
+      7150
+     ],
+     [
+      2018,
+      7350
+     ],
+     [
+      2019,
+      7900
+     ],
+     [
+      2020,
+      8150
+     ],
+     [
+      2021,
+      8550
+     ],
+     [
+      2022,
+      8700
+     ],
+     [
+      2023,
+      9100
+     ],
+     [
+      2024,
+      9450
+     ],
+     [
+      2025,
+      9200
+     ],
+     [
+      2026,
+      10600
+     ],
+     [
+      2027,
+      12000
+     ]
+    ],
+    "prefix": "$",
+    "end": "$12,000",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2027,
+     "text": "$12,000 in 2027"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your own plan's max is usually lower than the legal ceiling, so look for the real number on the plan summary.",
+   "say": "Your own plan's max is usually lower than the legal ceiling, so look for the real number on the plan summary.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Find it on the",
+     "Summary of Benefits",
+     "and Coverage"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every plan has to give you a standard Summary of Benefits and Coverage, so the numbers sit in the same places on each one.",
+   "say": "Every plan has to give you a standard Summary of Benefits and Coverage, so the numbers sit in the same places on each one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same form,",
+     "every plan:",
+     "easy to compare"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the key idea. Your true yearly cost is premiums plus whatever you pay for care.",
+   "say": "So here's the key idea. Your true yearly cost is premiums plus whatever you pay for care.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "True cost =",
+     "premiums",
+     "+ your share of care"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The premium is guaranteed. Everything else depends on how your year goes.",
+   "say": "The premium is guaranteed. Everything else depends on how your year goes.",
+   "scene": {
+    "t": "split",
+    "title": "Your yearly cost",
+    "left": {
+     "title": "Certain",
+     "items": [
+      "12 months of premiums"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Uncertain",
+     "items": [
+      "Deductible",
+      "Coinsurance",
+      "Up to the max"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: guess your year, then check your doctors.",
+   "say": "Chapter two: guess your year, then check your doctors.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Know your year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one is an honest guess about next year.",
+   "say": "Step one is an honest guess about next year.",
+   "scene": {
+    "t": "list",
+    "title": "The 4 steps",
+    "items": [
+     "Guess your year",
+     "Check doctors and drugs",
+     "Do the total-cost math",
+     "Use the tax accounts"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look at last year. How many doctor visits, prescriptions, or tests did you actually have?",
+   "say": "Look at last year. How many doctor visits, prescriptions, or tests did you actually have?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Last year:",
+     "visits, scripts,",
+     "tests, surprises"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then add what you already know is coming: a baby, a surgery, therapy, braces, a new prescription.",
+   "say": "Then add what you already know is coming: a baby, a surgery, therapy, braces, a new prescription.",
+   "scene": {
+    "t": "list",
+    "title": "Known costs coming?",
+    "items": [
+     "A baby",
+     "A planned surgery",
+     "Therapy",
+     "New prescriptions"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sort yourself into a light year, a medium year, or a heavy year. You'll use that in the math.",
+   "say": "Sort yourself into a light year, a medium year, or a heavy year. You'll use that in the math.",
+   "scene": {
+    "t": "split",
+    "title": "Your likely year",
+    "left": {
+     "title": "Light",
+     "items": [
+      "Checkups",
+      "A few scripts"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Heavy",
+     "items": [
+      "Surgery",
+      "Pregnancy",
+      "Ongoing care"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One bit of good news: most plans must cover in-network preventive care, like a yearly checkup and many vaccines, at no cost to you.",
+   "say": "One bit of good news: most plans must cover in-network preventive care, like a yearly checkup and many vaccines, at no cost to you.",
+   "scene": {
+    "t": "stat",
+    "label": "In-network preventive care",
+    "value": "$0",
+    "tone": "up",
+    "sub": "required for most plans under the ACA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a checkup alone doesn't make a year medium. Count the care beyond that.",
+   "say": "So a checkup alone doesn't make a year medium. Count the care beyond that.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Checkups are free.",
+     "Count everything",
+     "else."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two: check that your doctors and your drugs are covered.",
+   "say": "Step two: check that your doctors and your drugs are covered.",
+   "scene": {
+    "t": "list",
+    "title": "The 4 steps",
+    "items": [
+     "Guess your year",
+     "Check doctors and drugs",
+     "Do the total-cost math",
+     "Use the tax accounts"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is where the plan type matters. There are four common ones.",
+   "say": "This is where the plan type matters. There are four common ones.",
+   "scene": {
+    "t": "list",
+    "title": "Plan types",
+    "items": [
+     "HMO",
+     "PPO",
+     "EPO",
+     "HDHP"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An HMO covers only its network, and usually needs a referral to see a specialist.",
+   "say": "An HMO covers only its network, and usually needs a referral to see a specialist.",
+   "scene": {
+    "t": "list",
+    "title": "Plan types",
+    "items": [
+     "HMO",
+     "PPO",
+     "EPO",
+     "HDHP"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A PPO also pays something outside the network, at a higher cost to you, and usually needs no referral.",
+   "say": "A PPO also pays something outside the network, at a higher cost to you, and usually needs no referral.",
+   "scene": {
+    "t": "list",
+    "title": "Plan types",
+    "items": [
+     "HMO",
+     "PPO",
+     "EPO",
+     "HDHP"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An EPO is network-only like an HMO, but usually without referrals.",
+   "say": "An EPO is network-only like an HMO, but usually without referrals.",
+   "scene": {
+    "t": "list",
+    "title": "Plan types",
+    "items": [
+     "HMO",
+     "PPO",
+     "EPO",
+     "HDHP"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And an HDHP is a high-deductible plan that can come with a health savings account. More on that soon.",
+   "say": "And an HDHP is a high-deductible plan that can come with a health savings account. More on that soon.",
+   "scene": {
+    "t": "list",
+    "title": "Plan types",
+    "items": [
+     "HMO",
+     "PPO",
+     "EPO",
+     "HDHP"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whatever the type, search the plan's own directory for your doctors, and call the office to confirm.",
+   "say": "Whatever the type, search the plan's own directory for your doctors, and call the office to confirm.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Search the directory,",
+     "then call",
+     "the office"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then look up each prescription in the plan's drug list, called a formulary, and note its tier.",
+   "say": "Then look up each prescription in the plan's drug list, called a formulary, and note its tier.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Formulary =",
+     "the drug list",
+     "(check the tier)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Out-of-network care usually doesn't count toward the in-network max, so one wrong doctor can blow up the math.",
+   "say": "Out-of-network care usually doesn't count toward the in-network max, so one wrong doctor can blow up the math.",
+   "scene": {
+    "t": "stat",
+    "label": "Out of network",
+    "value": "Pricey",
+    "tone": "down",
+    "sub": "often outside your in-network max"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: the total-cost math.",
+   "say": "Chapter three: the total-cost math.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The total-cost math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step three is where most people skip ahead, and where the real money is.",
+   "say": "Step three is where most people skip ahead, and where the real money is.",
+   "scene": {
+    "t": "list",
+    "title": "The 4 steps",
+    "items": [
+     "Guess your year",
+     "Check doctors and drugs",
+     "Do the total-cost math",
+     "Use the tax accounts"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's compare two made-up job plans for one person. We'll keep it simple and skip copays.",
+   "say": "Let's compare two made-up job plans for one person. We'll keep it simple and skip copays.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example plans,",
+     "one person,",
+     "no copays"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan A costs $150 a month. It has a $1,000 deductible, 20% coinsurance, and a $4,000 max.",
+   "say": "Plan A costs a hundred fifty dollars a month. It has a one thousand dollar deductible, twenty percent coinsurance, and a four thousand dollar max.",
+   "scene": {
+    "t": "compare",
+    "title": "The two plans",
+    "left": {
+     "label": "Plan A",
+     "value": "$150/mo",
+     "tone": "neutral",
+     "sub": "$1,000 deductible"
+    },
+    "right": {
+     "label": "Plan B (HSA)",
+     "value": "$50/mo",
+     "tone": "neutral",
+     "sub": "$3,000 deductible"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan B costs $50 a month. It has a $3,000 deductible, 20% coinsurance, a $6,000 max, and the employer puts $500 in a health savings account.",
+   "say": "Plan B costs fifty dollars a month. It has a three thousand dollar deductible, twenty percent coinsurance, a six thousand dollar max, and the employer puts five hundred dollars in a health savings account.",
+   "scene": {
+    "t": "compare",
+    "title": "The two plans",
+    "left": {
+     "label": "Plan A",
+     "value": "$150/mo",
+     "tone": "neutral",
+     "sub": "$4,000 max"
+    },
+    "right": {
+     "label": "Plan B (HSA)",
+     "value": "$50/mo",
+     "tone": "neutral",
+     "sub": "$6,000 max, +$500 HSA"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A year of premiums is $1,800 for Plan A and $600 for Plan B.",
+   "say": "A year of premiums is eighteen hundred dollars for Plan A and six hundred for Plan B.",
+   "scene": {
+    "t": "compare",
+    "title": "A year of premiums",
+    "left": {
+     "label": "Plan A",
+     "value": "$1,800",
+     "tone": "neutral",
+     "sub": "$150 x 12"
+    },
+    "right": {
+     "label": "Plan B (HSA)",
+     "value": "$600",
+     "tone": "neutral",
+     "sub": "$50 x 12"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now run three years: light, medium, and heavy.",
+   "say": "Now run three years: light, medium, and heavy.",
+   "scene": {
+    "t": "list",
+    "title": "Three test years",
+    "items": [
+     "Light: $500 of care",
+     "Medium: $5,000",
+     "Heavy: $40,000"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Light year, $500 of care. Plan A: $1,800 plus $500 is $2,300.",
+   "say": "Light year, five hundred dollars of care. Plan A: eighteen hundred plus five hundred is twenty-three hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Plan A premiums",
+     "value": "$1,800"
+    },
+    "to": {
+     "label": "plus $500 of care",
+     "value": "$2,300"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan B: $600 plus $500, minus the $500 from the employer, is $600.",
+   "say": "Plan B: six hundred plus five hundred, minus the five hundred from the employer, is six hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Plan B premiums",
+     "value": "$600"
+    },
+    "to": {
+     "label": "+ $500 care - $500 HSA",
+     "value": "$600"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a light year, Plan B wins by $1,700.",
+   "say": "In a light year, Plan B wins by seventeen hundred dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Light year ($500 of care)",
+    "left": {
+     "label": "Plan A",
+     "value": "$2,300",
+     "tone": "down",
+     "sub": "total cost"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$600",
+     "tone": "up",
+     "sub": "total cost"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Medium year, $5,000 of care. Plan A: the $1,000 deductible, plus 20% of the other $4,000, is $1,800.",
+   "say": "Medium year, five thousand dollars of care. Plan A: the one thousand dollar deductible, plus twenty percent of the other four thousand, is eighteen hundred.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,000",
+     "+ 20% x $4,000",
+     "= $1,800"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add $1,800 of premiums and Plan A costs $3,600.",
+   "say": "Add eighteen hundred of premiums and Plan A costs thirty-six hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Plan A, medium year",
+    "value": "$3,600",
+    "tone": "neutral",
+    "sub": "$1,800 premiums + $1,800 care"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan B: the $3,000 deductible, plus 20% of $2,000, is $3,400.",
+   "say": "Plan B: the three thousand dollar deductible, plus twenty percent of two thousand, is thirty-four hundred.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$3,000",
+     "+ 20% x $2,000",
+     "= $3,400"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add $600 of premiums, subtract the $500 from the employer, and Plan B costs $3,500.",
+   "say": "Add six hundred of premiums, subtract the five hundred from the employer, and Plan B costs thirty-five hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Medium year ($5,000 of care)",
+    "left": {
+     "label": "Plan A",
+     "value": "$3,600",
+     "tone": "neutral",
+     "sub": "total cost"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$3,500",
+     "tone": "neutral",
+     "sub": "total cost"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's nearly a tie. Plan B is just $100 cheaper.",
+   "say": "That's nearly a tie. Plan B is just a hundred dollars cheaper.",
+   "scene": {
+    "t": "compare",
+    "title": "Medium year ($5,000 of care)",
+    "left": {
+     "label": "Plan A",
+     "value": "$3,600",
+     "tone": "neutral",
+     "sub": "total cost"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$3,500",
+     "tone": "neutral",
+     "sub": "total cost"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Heavy year, $40,000 of care, like a surgery. Both plans hit their out-of-pocket max.",
+   "say": "Heavy year, forty thousand dollars of care, like a surgery. Both plans hit their out-of-pocket max.",
+   "scene": {
+    "t": "hook",
+    "title": "The [heavy] year",
+    "prop": "card",
+    "label": "$40,000",
+    "value": "MAX",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan A: $1,800 of premiums plus the $4,000 max is $5,800.",
+   "say": "Plan A: eighteen hundred of premiums plus the four thousand dollar max is fifty-eight hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Plan A premiums",
+     "value": "$1,800"
+    },
+    "to": {
+     "label": "plus the $4,000 max",
+     "value": "$5,800"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan B: $600 plus the $6,000 max, minus $500, is $6,100.",
+   "say": "Plan B: six hundred plus the six thousand dollar max, minus five hundred, is sixty-one hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Plan B premiums",
+     "value": "$600"
+    },
+    "to": {
+     "label": "plus max, minus HSA",
+     "value": "$6,100"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So in a heavy year, Plan A wins, but only by $300.",
+   "say": "So in a heavy year, Plan A wins, but only by three hundred dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Heavy year ($40,000 of care)",
+    "left": {
+     "label": "Plan A",
+     "value": "$5,800",
+     "tone": "up",
+     "sub": "total cost"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$6,100",
+     "tone": "down",
+     "sub": "total cost"
+    },
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put the three years side by side and the picture is clear.",
+   "say": "Put the three years side by side and the picture is clear.",
+   "scene": {
+    "t": "split",
+    "title": "Total cost by year",
+    "left": {
+     "title": "Plan A",
+     "items": [
+      "Light: $2,300",
+      "Medium: $3,600",
+      "Heavy: $5,800"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Plan B",
+     "items": [
+      "Light: $600",
+      "Medium: $3,500",
+      "Heavy: $6,100"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In this example, the low-premium plan wins most years, and loses the worst year by a little.",
+   "say": "In this example, the low-premium plan wins most years, and loses the worst year by a little.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Low premium won",
+     "2 of 3 years"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But that flips with different numbers, so run your own plans through the same three years.",
+   "say": "But that flips with different numbers, so run your own plans through the same three years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your plans,",
+     "your three years,",
+     "same math"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's also a quick worst-case check: a year of premiums plus the out-of-pocket max.",
+   "say": "There's also a quick worst-case check: a year of premiums plus the out-of-pocket max.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Worst case =",
+     "premiums",
+     "+ out-of-pocket max"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For Plan A that's $5,800. For Plan B it's $6,100 after the employer's $500. That's your ceiling for covered in-network care.",
+   "say": "For Plan A that's fifty-eight hundred dollars. For Plan B it's sixty-one hundred after the employer's five hundred. That's your ceiling for covered in-network care.",
+   "scene": {
+    "t": "compare",
+    "title": "Worst-case year",
+    "left": {
+     "label": "Plan A",
+     "value": "$5,800",
+     "tone": "neutral",
+     "sub": "$1,800 + $4,000"
+    },
+    "right": {
+     "label": "Plan B",
+     "value": "$6,100",
+     "tone": "neutral",
+     "sub": "$600 + $6,000 - $500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The one question to ask: can you cover the higher deductible if the bad year happens in January?",
+   "say": "The one question to ask: can you cover the higher deductible if the bad year happens in January?",
+   "scene": {
+    "t": "stat",
+    "label": "Can you cover it?",
+    "value": "$3,000",
+    "tone": "neutral",
+    "sub": "Plan B's deductible, due before sharing starts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: the tax accounts.",
+   "say": "Chapter four: the tax accounts.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The tax accounts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step four: use the accounts that let you pay for care with untaxed money.",
+   "say": "Step four: use the accounts that let you pay for care with untaxed money.",
+   "scene": {
+    "t": "list",
+    "title": "The 4 steps",
+    "items": [
+     "Guess your year",
+     "Check doctors and drugs",
+     "Do the total-cost math",
+     "Use the tax accounts"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The big one is the health savings account, or HSA, which you can open when you're on an eligible high-deductible plan.",
+   "say": "The big one is the health savings account, or H S A, which you can open when you're on an eligible high-deductible plan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "HSA = needs an",
+     "eligible high-",
+     "deductible plan"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2027, you can put in up to $4,500 for yourself, or $9,000 for a family.",
+   "say": "For twenty twenty-seven, you can put in up to forty-five hundred dollars for yourself, or nine thousand for a family.",
+   "scene": {
+    "t": "compare",
+    "title": "HSA limits, 2027 (IRS)",
+    "left": {
+     "label": "Self-only",
+     "value": "$4,500",
+     "tone": "up",
+     "sub": "+$1,000 if 55+"
+    },
+    "right": {
+     "label": "Family",
+     "value": "$9,000",
+     "tone": "up",
+     "sub": "+$1,000 if 55+"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you're 55 or older, you can add another $1,000.",
+   "say": "If you're fifty-five or older, you can add another thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "HSA catch-up, age 55+",
+    "value": "+$1,000",
+    "tone": "up",
+    "sub": "IRS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To qualify in 2027, a job plan's deductible must be at least $1,750 for one person, or $3,500 for a family.",
+   "say": "To qualify in twenty twenty-seven, a job plan's deductible must be at least seventeen hundred fifty dollars for one person, or thirty-five hundred for a family.",
+   "scene": {
+    "t": "compare",
+    "title": "HSA plan minimum deductible, 2027",
+    "left": {
+     "label": "Self-only",
+     "value": "$1,750",
+     "tone": "neutral",
+     "sub": "IRS Rev. Proc. 2026-24"
+    },
+    "right": {
+     "label": "Family",
+     "value": "$3,500",
+     "tone": "neutral",
+     "sub": "IRS Rev. Proc. 2026-24"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Money goes in before income tax, grows tax-free, and comes out tax-free for qualified medical costs.",
+   "say": "Money goes in before income tax, grows tax-free, and comes out tax-free for qualified medical costs.",
+   "scene": {
+    "t": "list",
+    "title": "Why an HSA is special",
+    "items": [
+     "In: before tax",
+     "Grows: tax-free",
+     "Out: tax-free for care"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For example, putting in $1,000 in the 22% tax bracket cuts your federal income tax by $220.",
+   "say": "For example, putting in a thousand dollars in the twenty-two percent tax bracket cuts your federal income tax by two hundred twenty dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "HSA deposit",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Federal tax saved (22%)",
+     "value": "$220"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Through payroll, it usually skips Social Security and Medicare taxes too.",
+   "say": "Through payroll, it usually skips Social Security and Medicare taxes too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Via payroll:",
+     "also skips FICA",
+     "(usually)"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And unlike an FSA, the money is yours. It rolls over and stays with you if you change jobs.",
+   "say": "And unlike an FSA, the money is yours. It rolls over and stays with you if you change jobs.",
+   "scene": {
+    "t": "stat",
+    "label": "Your HSA",
+    "value": "Yours",
+    "tone": "up",
+    "sub": "it stays with you between jobs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's also a newer twist. Since 2026, bronze and catastrophic marketplace plans count as HSA-eligible.",
+   "say": "There's also a newer twist. Since twenty twenty-six, bronze and catastrophic marketplace plans count as H S A eligible.",
+   "scene": {
+    "t": "news",
+    "headline": "Marketplace bronze and catastrophic plans now HSA-eligible",
+    "source": "One Big Beautiful Bill Act; IRS Notice 2026-05"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you can't use an HSA, a job's flexible spending account, or FSA, also uses pre-tax money.",
+   "say": "If you can't use an H S A, a job's flexible spending account, or F S A, also uses pre-tax money.",
+   "scene": {
+    "t": "split",
+    "title": "HSA vs FSA",
+    "left": {
+     "title": "HSA",
+     "items": [
+      "Needs eligible plan",
+      "Rolls over",
+      "Yours to keep"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "FSA",
+     "items": [
+      "Through employer",
+      "$3,400 limit (2026)",
+      "Use it or lose it"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The limit was $3,400 for 2026 and usually rises a little each year, but most of it is use-it-or-lose-it, so only put in what you're sure to spend.",
+   "say": "The limit was thirty-four hundred dollars for twenty twenty-six and usually rises a little each year, but most of it is use-it-or-lose-it, so only put in what you're sure to spend.",
+   "scene": {
+    "t": "stat",
+    "label": "Health FSA limit, 2026",
+    "value": "$3,400",
+    "tone": "neutral",
+    "sub": "some plans allow a carryover or grace period"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Buying on the marketplace instead? Then the plans come in metal tiers.",
+   "say": "Buying on the marketplace instead? Then the plans come in metal tiers.",
+   "scene": {
+    "t": "list",
+    "title": "Marketplace metal tiers",
+    "items": [
+     "Bronze: ~60%",
+     "Silver: ~70%",
+     "Gold: ~80%",
+     "Platinum: ~90%"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The percent is roughly the share of typical costs the plan pays. Lower tiers mean lower premiums and higher costs when you use care.",
+   "say": "The percent is roughly the share of typical costs the plan pays. Lower tiers mean lower premiums and higher costs when you use care.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Higher tier =",
+     "higher premium,",
+     "lower bills"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your income qualifies for cost-sharing reductions, you only get them on a silver plan. They lower your deductible, copays and max.",
+   "say": "If your income qualifies for cost-sharing reductions, you only get them on a silver plan. They lower your deductible, copays and max.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cost-sharing",
+     "reductions: only",
+     "on silver plans"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And subsidies changed. The enhanced premium tax credits expired at the end of 2025.",
+   "say": "And subsidies changed. The enhanced premium tax credits expired at the end of twenty twenty-five.",
+   "scene": {
+    "t": "news",
+    "headline": "Enhanced ACA premium tax credits expired Dec 31, 2025",
+    "source": "KFF; CNBC, Jan 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That brought back the cliff: above 400% of the poverty level, there's no premium tax credit.",
+   "say": "That brought back the cliff: above four hundred percent of the poverty level, there's no premium tax credit.",
+   "scene": {
+    "t": "stat",
+    "label": "Subsidy cliff (since 2026)",
+    "value": "400%",
+    "tone": "down",
+    "sub": "of the federal poverty level"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When this video was made, in fall 2026, a House-passed bill to restore the enhanced credits had not become law, so check your own estimate on HealthCare.gov.",
+   "say": "When this video was made, in fall twenty twenty-six, a House-passed bill to restore the enhanced credits had not become law, so check your own estimate on HealthCare dot gov.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Estimate yours on",
+     "HealthCare.gov",
+     "or your state site"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: deadlines and common mistakes.",
+   "say": "Chapter five: deadlines and common mistakes.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Deadlines and mistakes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On HealthCare.gov, open enrollment for 2027 opened November 1, 2026 and runs through January 15, 2027.",
+   "say": "On HealthCare dot gov, open enrollment for twenty twenty-seven opened November first, twenty twenty-six and runs through January fifteenth, twenty twenty-seven.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Nov 1, 2026",
+      "Open enrollment starts"
+     ],
+     [
+      "Dec 15, 2026",
+      "Pick for Jan 1 coverage"
+     ],
+     [
+      "Jan 15, 2027",
+      "Enrollment ends"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pick by December 15 to be covered from January 1.",
+   "say": "Pick by December fifteenth to be covered from January first.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Nov 1, 2026",
+      "Open enrollment starts"
+     ],
+     [
+      "Dec 15, 2026",
+      "Pick for Jan 1 coverage"
+     ],
+     [
+      "Jan 15, 2027",
+      "Enrollment ends"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some state marketplaces use different dates, and job plans set their own window, often just a couple of weeks.",
+   "say": "Some state marketplaces use different dates, and job plans set their own window, often just a couple of weeks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "State sites and",
+     "employers set",
+     "their own dates"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Miss it, and you usually wait a year unless you have a qualifying life event, like a move, a birth, or losing other coverage.",
+   "say": "Miss it, and you usually wait a year unless you have a qualifying life event, like a move, a birth, or losing other coverage.",
+   "scene": {
+    "t": "list",
+    "title": "Qualifying life events",
+    "items": [
+     "Losing coverage",
+     "Marriage",
+     "A new baby",
+     "A move"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the mistakes. Mistake one: auto-renewing without looking. Premiums, networks, and drug lists change every year.",
+   "say": "Now the mistakes. Mistake one: auto-renewing without looking. Premiums, networks, and drug lists change every year.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Auto-renewing blind",
+     "Premium-only shopping",
+     "Skipping the network",
+     "Ignoring free money"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake two: comparing only premiums, which is the trap from the start of this video.",
+   "say": "Mistake two: comparing only premiums, which is the trap from the start of this video.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Auto-renewing blind",
+     "Premium-only shopping",
+     "Skipping the network",
+     "Ignoring free money"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake three: not checking that your doctors and your drugs are in network.",
+   "say": "Mistake three: not checking that your doctors and your drugs are in network.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Auto-renewing blind",
+     "Premium-only shopping",
+     "Skipping the network",
+     "Ignoring free money"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake four: ignoring the employer's HSA deposit, which can cover part of the deductible.",
+   "say": "Mistake four: ignoring the employer's HSA deposit, which can cover part of the deductible.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Auto-renewing blind",
+     "Premium-only shopping",
+     "Skipping the network",
+     "Ignoring free money"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And one more for couples: compare both employers' plans, including the cost of covering a spouse.",
+   "say": "And one more for couples: compare both employers' plans, including the cost of covering a spouse.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Two jobs?",
+     "Compare both",
+     "family options"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the whole thing on one screen.",
+   "say": "Here's the whole thing on one screen.",
+   "scene": {
+    "t": "list",
+    "title": "The checklist",
+    "items": [
+     "Guess your year",
+     "Check doctors, drugs",
+     "Total cost x 3 years",
+     "Fund the HSA or FSA"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: the recap.",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your real cost is premiums plus your share of care, capped by the out-of-pocket max.",
+   "say": "Your real cost is premiums plus your share of care, capped by the out-of-pocket max.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Premiums",
+     "+ your share",
+     "(up to the max)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In our example, the cheaper premium won the light and medium years, by $1,700 and $100.",
+   "say": "In our example, the cheaper premium won the light and medium years, by seventeen hundred dollars and by just a hundred.",
+   "scene": {
+    "t": "split",
+    "title": "Total cost by year",
+    "left": {
+     "title": "Plan A",
+     "items": [
+      "Light: $2,300",
+      "Medium: $3,600",
+      "Heavy: $5,800"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Plan B",
+     "items": [
+      "Light: $600",
+      "Medium: $3,500",
+      "Heavy: $6,100"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it lost the heavy year by just $300.",
+   "say": "And it lost the heavy year by just three hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Heavy-year gap",
+    "value": "$300",
+    "tone": "neutral",
+    "sub": "Plan A $5,800 vs Plan B $6,100"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your numbers will differ, but the method doesn't: three years, one total, and the deadline on your calendar.",
+   "say": "Your numbers will differ, but the method doesn't: three years, one total, and the deadline on your calendar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "3 test years,",
+     "1 total,",
+     "1 deadline"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How to choose a health insurance plan at open enrollment: the 4-step total-cost method",
+  "ig": "Comparing health plans by premium? That's the wrong number.",
+  "tiktok": "Comparing health plans by premium? That's the wrong number. The 4-step method.",
+  "yt_desc": "Most people compare health plans by the monthly premium, but your real yearly cost is premiums plus your share of care, capped by the out-of-pocket maximum. This guide explains premiums, deductibles, coinsurance and out-of-pocket maximums, then runs two example plans through a light, medium and heavy year with exact math. It also covers 2027 HSA limits, the 2026 FSA limit, marketplace metal tiers, the subsidy changes since 2026, and the 2027 open enrollment dates.\n\nCHAPTERS\n\nSources: KFF Employer Health Benefits Survey (Oct 2025); IRS Rev. Proc. 2026-24 (May 2026) and Notice 2026-05; CMS 2027 Notice of Benefit and Payment Parameters (May 2026); HealthCare.gov open enrollment dates (CMS, Aug 2026); KFF and CNBC on ACA premium tax credits (Jan 2026).\n\nNews and education, not financial advice.\n\n#healthinsurance #openenrollment #personalfinance",
+  "tags": [
+   "how to choose a health insurance plan",
+   "open enrollment",
+   "health insurance explained",
+   "deductible vs out of pocket max",
+   "hsa",
+   "hdhp vs ppo",
+   "health insurance 2027",
+   "personal finance"
+  ]
+ }
+}
