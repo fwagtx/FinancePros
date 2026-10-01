@@ -1,0 +1,184 @@
+{
+ "id": "2026-10-20-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Scam Alert:\nFake Medicare Calls",
+ "cover": {
+  "title": "Medicare Won't Call to Sell",
+  "prop": "paper",
+  "label": "Medicare",
+  "value": "SCAM"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "If 'Medicare' calls to sell you a plan, it's not Medicare.",
+   "say": "If Medicare calls to sell you a plan, it's not Medicare.",
+   "scene": {
+    "t": "hook",
+    "title": "That's not [Medicare]",
+    "prop": "paper",
+    "label": "Medicare",
+    "value": "SCAM",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Medicare.gov is blunt: \"Medicare will never call you to sell you anything or visit you at your home.\"",
+   "say": "Medicare's site is blunt: Medicare will never call you to sell you anything or visit you at your home.",
+   "scene": {
+    "t": "quote",
+    "text": "Medicare will never call you to sell you anything or visit you at your home.",
+    "source": "Medicare.gov, fraud guidance",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Open enrollment runs Oct 15 - Dec 7, 2026, and the FTC says scams pick up.",
+   "say": "Open enrollment runs October fifteenth to December seventh, and the FTC says scams pick up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Medicare open enrollment:",
+     "Oct 15 - Dec 7, 2026"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fake callers want your Medicare number, bank details, a fee for a \"new\" card, or to ship \"free\" genetic tests.",
+   "say": "Fake callers want your Medicare number, bank details, a fee for a new card, or to ship free genetic tests.",
+   "scene": {
+    "t": "list",
+    "title": "What fake callers ask for",
+    "items": [
+     "Your Medicare number",
+     "Bank or card numbers",
+     "Fee for a \"new\" card",
+     "\"Free\" genetic tests"
+    ],
+    "reveal": 4,
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With your number, scammers bill Medicare for tests you never needed, says the HHS inspector general.",
+   "say": "With your number, scammers bill Medicare for tests you never needed, says the HHS inspector general.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Stolen Medicare number",
+     "= bills for tests",
+     "you never needed"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC warns caller ID showing Medicare's name or number can be faked.",
+   "say": "The FTC warns caller ID showing Medicare's name or number can be faked.",
+   "scene": {
+    "t": "stat",
+    "label": "Caller ID says Medicare?",
+    "value": "Faked",
+    "tone": "down",
+    "sub": "FTC alert, Sept 2025",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People 60+ reported $7.75 billion in online crime losses to the FBI in 2025.",
+   "say": "People sixty and older reported seven point seven five billion dollars in online crime losses to the FBI in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Losses to FBI, age 60+",
+    "points": [
+     [
+      2020,
+      0.97
+     ],
+     [
+      2021,
+      1.7
+     ],
+     [
+      2022,
+      3.1
+     ],
+     [
+      2023,
+      3.4
+     ],
+     [
+      2024,
+      4.89
+     ],
+     [
+      2025,
+      7.75
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$7.75B",
+    "color": "down",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Up 59% in a year, across all online crime, not only Medicare.",
+   "say": "Up fifty-nine percent in a year, across all online crime, not only Medicare.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "mood": "worried",
+    "note": {
+     "x": 2025,
+     "text": "+59% in a year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC says hang up and call 1-800-MEDICARE to check.",
+   "say": "The FTC says hang up and call one eight hundred Medicare to check.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "FTC: hang up and call",
+     "1-800-MEDICARE",
+     "(1-800-633-4227)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "If 'Medicare' calls to sell you a plan, it's not Medicare",
+  "ig": "If 'Medicare' calls to sell you a plan, it's not Medicare.\nMedicare.gov: \"Medicare will never call you to sell you anything or visit you at your home.\"\nThe FTC warns caller ID showing Medicare's name or number can be faked.\nOpen enrollment runs Oct 15 - Dec 7, 2026. People 60+ reported $7.75 billion in online crime losses to the FBI in 2025, up 59% in a year.\nSources: Medicare.gov, FTC, HHS-OIG, FBI IC3.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#medicare #scamalert #openenrollment #personalfinance #financeprostv",
+  "tiktok": "If 'Medicare' calls to sell you a plan, it's not Medicare. Not financial advice. #moneytok #personalfinance #medicare #scamalert #financeprostv",
+  "yt_desc": "Medicare.gov says Medicare will never call you to sell you anything, and the FTC warns caller ID showing Medicare can be faked. During open enrollment (Oct 15 - Dec 7, 2026), fake callers ask for Medicare numbers, bank details or fees for 'new' cards, and people 60+ reported $7.75 billion in online crime losses to the FBI in 2025. Sources: Medicare.gov, FTC, HHS-OIG, FBI IC3. News and education, not financial advice. #Shorts #medicare #scamalert",
+  "tags": [
+   "medicare scam calls",
+   "medicare open enrollment 2026",
+   "medicare scams",
+   "elder fraud",
+   "scam alert"
+  ]
+ }
+}
