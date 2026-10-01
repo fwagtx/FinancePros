@@ -41,3 +41,45 @@ Source read: `2026-11-12-explainer.raw.json` only. federalreserve.gov and jpmorg
 8. **Style nits.** "That's the money." reads oddly when spoken. The post title "How people budget it" is awkward; "How people budget for it" reads better.
 
 VERDICT: FAIL
+
+## Round 2 (re-check of the revised raw.json, Oct 1, 2026)
+
+### Fixes confirmed
+
+| Round 1 issue | What the revision does | Status |
+|---|---|---|
+| 1. L8 summary was false | Now reads "All three are ways to keep a low month from breaking the budget." That is true of all three methods. | Fixed |
+| 2. Hook overstated | Caption keeps "had income that varied at least occasionally" and says "(30%)". Scene title is "[30%] had income vary". Cover is "Income Varies? 3 Ways People Budget". IG and YouTube text keep "at least occasionally". | Fixed |
+| 3. Hook was weak and slow | Spoken hook is now "nearly one in three US adults saw income swing", about 12 words, roughly 3 seconds. "Nearly 1 in 3" is a fair rounding of 30%, and the caption shows 30%, so the spoken and on-screen values agree. | Fixed |
+| 4. Chart title ambiguous | Now "Bills hard: income varied" (25 characters). The caption also says "11% of all adults", which states the denominator correctly. | Fixed |
+| 5. 2021 baseline soft | Now "up from about 9% in 2021", matching the source's "slightly less than 1 in 10." | Fixed |
+| 6. JPMC sample caveat | Narration now says "study of Chase data", the sub-label is "Chase data, 2013-18", and the post states the data range. "Typical family's income changed 36% month to month" fairly represents the median 36% figure. | Fixed |
+| 7. Buffer framing | Now "the $2,400 above baseline", with the label "Above baseline". $5,000 − $2,600 = $2,400 is correct. | Fixed |
+| 8. Style nit (post title) | Now "How people budget for it". | Fixed |
+
+### Does "saw income swing" fairly represent "varied at least occasionally"?
+
+Yes, with a caveat. "Swing" suggests somewhat bigger changes than "varied occasionally." It is spoken narration, though, and the on-screen caption at the same moment shows the exact Fed wording, "varied at least occasionally." I judge it acceptable, not misleading. If you want zero ambiguity, "saw their income vary" scans just as fast.
+
+### New errors
+
+None found. All values are unchanged and the math still holds:
+- $21,600 / 6 = $3,600
+- $5,000 − $2,600 = $2,400
+- 20% of $2,600 = $520 and 20% of $5,000 = $1,000
+
+### Remaining minor nits (no change needed)
+
+- The post title "30% saw income vary in 2025" leaves out "of US adults". The IG, YouTube and TikTok text all include it.
+- The list title "Uneven pay methods" and the header "your pay changes" still say "pay". These are topic labels, not stat claims, so they are fine.
+- "That's the money." still reads a little oddly out loud. It is a house-style sign-off.
+
+### Label lengths
+
+All 28 characters or fewer. The longest are "Median monthly income swing" (27), "Bills hard: income varied" (25), "Percent: scales with pay" (24) and "plan on the lowest month" (24).
+
+### Advice check
+
+No advice: the methods are still described, not instructed.
+
+VERDICT: PASS
