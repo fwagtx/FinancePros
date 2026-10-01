@@ -5,7 +5,7 @@
  "header": "MONEY GUIDE",
  "cover": {
   "title": "Why Budgets Fail.",
-  "prop": "paper",
+  "prop": "coins",
   "label": "BUDGET",
   "value": "4.1%"
  },
@@ -229,9 +229,15 @@
    "text": "Failure three: tracking every coffee by hand. It's exhausting, so people stop.",
    "say": "Failure three. Tracking every single coffee by hand. It's exhausting, so people stop.",
    "scene": {
-    "t": "hook",
-    "title": "Failure three: tracking every coffee by hand. It",
-    "prop": "none"
+    "t": "list",
+    "title": "Why budgets break",
+    "items": [
+     "Too strict",
+     "Forgets yearly bills",
+     "Too much tracking",
+     "Never adjusted"
+    ],
+    "reveal": 3
    }
   },
   {
@@ -251,9 +257,16 @@
    "text": "Failure four: the budget never changes, even when life does.",
    "say": "And failure four. The budget never changes, even when life does.",
    "scene": {
-    "t": "hook",
-    "title": "Failure four: the budget never changes, even whe",
-    "prop": "none"
+    "t": "list",
+    "title": "Why budgets break",
+    "items": [
+     "Too strict",
+     "Forgets yearly bills",
+     "Too much tracking",
+     "Never adjusted"
+    ],
+    "reveal": 4,
+    "mood": "worried"
    }
   },
   {
@@ -485,9 +498,15 @@
    "text": "Insurance and pensions took 12.5%. Healthcare 7.9%. Entertainment just 4.6%.",
    "say": "Insurance and pensions took twelve point five percent. Healthcare took seven point nine. Entertainment, just four point six.",
    "scene": {
-    "t": "hook",
-    "title": "Insurance and pensions took 12.5%. Healthcare 7.",
-    "prop": "none"
+    "t": "list",
+    "title": "Biggest shares of spending, 2024",
+    "items": [
+     "Housing 33.4%",
+     "Transportation 17.0%",
+     "Food 12.9%",
+     "Insurance/pensions 12.5%"
+    ],
+    "reveal": 4
    }
   },
   {
@@ -663,9 +682,15 @@
    "text": "Step two: list the fixed bills, the ones that are the same every month.",
    "say": "Step two. List the fixed bills, the ones that are the same every month.",
    "scene": {
-    "t": "hook",
-    "title": "Step two: list the fixed bills, the ones that ar",
-    "prop": "none"
+    "t": "list",
+    "title": "Build your budget",
+    "items": [
+     "Take-home pay",
+     "Fixed bills",
+     "Yearly bills",
+     "Pick a method"
+    ],
+    "reveal": 2
    }
   },
   {
@@ -715,9 +740,15 @@
    "text": "Step three: the yearly bills. Turn each one into a small monthly amount.",
    "say": "Step three. The yearly bills. Turn each one into a small monthly amount.",
    "scene": {
-    "t": "hook",
-    "title": "Step three: the yearly bills. Turn each one into",
-    "prop": "none"
+    "t": "list",
+    "title": "Build your budget",
+    "items": [
+     "Take-home pay",
+     "Fixed bills",
+     "Yearly bills",
+     "Pick a method"
+    ],
+    "reveal": 3
    }
   },
   {
@@ -796,9 +827,15 @@
    "text": "Step four: pick a method to split the rest. Let's look at three.",
    "say": "Step four. Pick a method to split the rest. Let's look at three of them.",
    "scene": {
-    "t": "hook",
-    "title": "Step four: pick a method to split the rest. Let'",
-    "prop": "none"
+    "t": "list",
+    "title": "Build your budget",
+    "items": [
+     "Take-home pay",
+     "Fixed bills",
+     "Yearly bills",
+     "Pick a method"
+    ],
+    "reveal": 4
    }
   },
   {
@@ -991,9 +1028,9 @@
    "scene": {
     "t": "board",
     "lines": [
-     "$500 savings + $300 debt",
+     "$500 save + $300 debt",
      "+ $500 fun + $125 buffer",
-     "= $1,425 -> $0 left"
+     "= $1,425. $0 left"
     ]
    }
   },
@@ -1150,9 +1187,15 @@
    "text": "Trick three: a small buffer category for things you can't predict.",
    "say": "Trick three. A small buffer category, for the things you really can't predict.",
    "scene": {
-    "t": "hook",
-    "title": "Trick three: a small buffer category for things ",
-    "prop": "none"
+    "t": "list",
+    "title": "Make it stick",
+    "items": [
+     "Automate payday",
+     "Weekly 10 minutes",
+     "Buffer category",
+     "Adjust monthly"
+    ],
+    "reveal": 3
    }
   },
   {
@@ -1205,9 +1248,16 @@
    "text": "Trick four: adjust every month. A budget that bends doesn't break.",
    "say": "Trick four. Adjust it every month. A budget that bends doesn't break.",
    "scene": {
-    "t": "hook",
-    "title": "Trick four: adjust every month. A budget that be",
-    "prop": "none"
+    "t": "list",
+    "title": "Make it stick",
+    "items": [
+     "Automate payday",
+     "Weekly 10 minutes",
+     "Buffer category",
+     "Adjust monthly"
+    ],
+    "reveal": 4,
+    "mood": "happy"
    }
   },
   {
@@ -1404,9 +1454,15 @@
    "text": "Turn yearly bills into monthly sinking funds, so they stop being surprises.",
    "say": "Turn yearly bills into monthly sinking funds, so they stop being surprises.",
    "scene": {
-    "t": "hook",
-    "title": "Turn yearly bills into monthly sinking funds, so",
-    "prop": "none"
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Saving rate: 4.1%",
+     "Big three: 63% of spending",
+     "Plan yearly bills",
+     "Pick, automate, adjust"
+    ],
+    "reveal": 3
    }
   },
   {
@@ -1414,9 +1470,17 @@
    "text": "Pick a method you'll keep, automate it, and adjust it every month.",
    "say": "And pick a method you'll keep, automate it, and adjust it every month.",
    "scene": {
-    "t": "hook",
-    "title": "Pick a method you'll keep, automate it, and adju",
-    "prop": "none"
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Saving rate: 4.1%",
+     "Big three: 63% of spending",
+     "Plan yearly bills",
+     "Pick, automate, adjust"
+    ],
+    "reveal": 4,
+    "mood": "happy"
    }
   },
   {
