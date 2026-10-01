@@ -1,0 +1,211 @@
+{
+ "id": "2026-10-20-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Google makes money\nfrom free search",
+ "cover": {
+  "title": "How Free Google Search Makes Billions",
+  "prop": "bag",
+  "label": "$224.5B",
+  "value": "$0"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Free Google Search brought in $224.5 billion.",
+   "say": "Free Google Search brought in two hundred twenty-four point five billion dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "Free search, [$224.5B]",
+    "prop": "bag",
+    "label": "$224.5B",
+    "value": "$0",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's Google's Search & other revenue in 2025, per Alphabet's annual report. You paid $0.",
+   "say": "That's Google's Search and other revenue in twenty twenty-five, per Alphabet's annual report. You paid zero.",
+   "scene": {
+    "t": "stat",
+    "label": "Google Search & other, 2025",
+    "value": "$224.5B",
+    "tone": "up",
+    "sub": "Alphabet 2025 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Divided by 365 days, that's about $615 million a day, or $7,120 a second.",
+   "say": "Divided by three hundred sixty-five days, that's about six hundred fifteen million a day, or seven thousand one hundred twenty dollars a second.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Search & other, 2025",
+     "value": "$224.5B"
+    },
+    "to": {
+     "label": "Per second",
+     "value": "$7,120"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2021, the yearly total was $149 billion.",
+   "say": "In twenty twenty-one, the yearly total was a hundred forty-nine billion.",
+   "scene": {
+    "t": "chart",
+    "title": "Google Search & other ($B)",
+    "points": [
+     [
+      2021,
+      148.95
+     ],
+     [
+      2022,
+      162.45
+     ],
+     [
+      2023,
+      175.03
+     ],
+     [
+      2024,
+      198.08
+     ],
+     [
+      2025,
+      224.53
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$224.5B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How? You aren't the customer. Advertisers are.",
+   "say": "How? You aren't the customer. Advertisers are.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You = the audience",
+     "Advertisers = customers",
+     "Your search = ad space"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Advertisers bid to show ads next to your search, and often pay Google per click.",
+   "say": "Advertisers bid to show ads next to your search, and often pay Google per click.",
+   "scene": {
+    "t": "list",
+    "title": "How a search ad pays",
+    "items": [
+     "You type a search",
+     "Advertisers bid on it",
+     "Winning ads appear",
+     "A click pays Google"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From April to June 2026, Search & other revenue rose 17% to $63.3 billion.",
+   "say": "From April to June twenty twenty-six, Search and other revenue rose seventeen percent to sixty-three point three billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Search & other, Apr-Jun",
+    "left": {
+     "label": "2025",
+     "value": "$54.2B",
+     "tone": "neutral",
+     "sub": "Q2 2025"
+    },
+    "right": {
+     "label": "2026",
+     "value": "$63.3B",
+     "tone": "up",
+     "sub": "Q2 2026, +17%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The surprise? Google paid Apple about $20 billion in 2022 to be Safari's default search.",
+   "say": "The surprise? Google paid Apple about twenty billion dollars in twenty twenty-two to be Safari's default search.",
+   "scene": {
+    "t": "stat",
+    "label": "Google paid Apple, 2022",
+    "value": "~$20B",
+    "tone": "down",
+    "sub": "US antitrust case",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2025, a judge barred exclusive deals but let payments continue.",
+   "say": "In September twenty twenty-five, a judge barred exclusive deals but let payments continue.",
+   "scene": {
+    "t": "news",
+    "headline": "Judge bars Google exclusive deals, allows payments",
+    "source": "US District Court (Judge Mehta), Sept 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your search is free because the ads beside it pay the bill.",
+   "say": "Your search is free because the ads beside it pay the bill.",
+   "scene": {
+    "t": "split",
+    "title": "Who pays for free?",
+    "left": {
+     "title": "You",
+     "items": [
+      "Search for $0",
+      "See the ads"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Advertisers",
+     "items": [
+      "Bid for spots",
+      "Pay per click"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Free Google Search brought in $224.5B in 2025. Here's how",
+  "ig": "Free Google Search brought in $224.5 billion in 2025.\n\nThat's Google's Search & other revenue in Alphabet's 2025 annual report, about $615 million a day.\nAdvertisers bid to show ads next to your search, often paying per click.\nApril to June 2026: Search & other rose 17% to $63.3 billion.\nGoogle paid Apple about $20 billion in 2022 to be Safari's default search engine.\nA September 2025 ruling barred exclusive deals. The ruling is under appeal.\n\nSources: Alphabet 2025 Form 10-K, Alphabet Q2 2026 results, US v. Google court records.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#google #howtheymakemoney #business #advertising #financeprostv",
+  "tiktok": "Free Google Search brought in $224.5B in 2025. Here's how. Not financial advice. #moneytok #personalfinance #google #howtheymakemoney #financeprostv",
+  "yt_desc": "Google Search is free to use, yet Google's Search & other revenue was $224.5 billion in 2025 (Alphabet 2025 Form 10-K), about $615 million a day, and it rose 17% to $63.3 billion from April to June 2026. Advertisers bid to show ads next to searches, and Google paid Apple about $20 billion in 2022 to be Safari's default search engine (US v. Google court records). A September 2025 ruling barred exclusive deals but let payments continue; the ruling is under appeal.\n\nNews and education, not financial advice.\n\n#Shorts #google #business",
+  "tags": [
+   "how google makes money",
+   "google search revenue",
+   "alphabet 10-k",
+   "google ads explained",
+   "google apple deal"
+  ]
+ }
+}

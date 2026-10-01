@@ -461,8 +461,8 @@
    "say": "Worried about credit checks? The C F P B says auto-loan inquiries within a fourteen to forty-five day window generally count as one.",
    "scene": {
     "t": "stat",
-    "label": "Auto-loan inquiries count as one within",
-    "value": "14-45 days",
+    "label": "Days auto-loan checks count as one",
+    "value": "14-45 d",
     "tone": "up",
     "sub": "CFPB; depends on score model"
    }
@@ -566,7 +566,7 @@
     "label": "Avg used-vehicle listing price, Aug 2026",
     "value": "$27,239",
     "tone": "down",
-    "sub": "Cox Automotive, +7% in a year"
+    "sub": "Cox Automotive, +7% YoY"
    }
   },
   {
@@ -596,7 +596,7 @@
    "say": "So how do buyers find a fair price? Most start with what similar cars actually sell for, not the sticker.",
    "scene": {
     "t": "hook",
-    "title": "Price paid, not [sticker]",
+    "title": "Paid, not [sticker]",
     "prop": "tag",
     "label": "MSRP",
     "value": "-3.4%",
@@ -617,8 +617,8 @@
   },
   {
    "who": "ticker",
-   "text": "Then they ask several dealers for a written out-the-door quote, often by email, so the quotes can be compared side by side.",
-   "say": "Then they ask several dealers for a written out-the-door quote, often by email, so the quotes can be compared side by side.",
+   "text": "Then they ask several dealers for written out-the-door quotes, often by email, to compare side by side.",
+   "say": "Then they ask several dealers for written out-the-door quotes, often by email, to compare side by side.",
    "scene": {
     "t": "list",
     "title": "Comparing dealer quotes",
@@ -683,8 +683,8 @@
   },
   {
    "who": "ticker",
-   "text": "First, the documentation fee. That's what dealers charge to process the paperwork, and the rules depend on the state.",
-   "say": "First, the documentation fee. That's what dealers charge to process the paperwork, and the rules depend on the state.",
+   "text": "First, the documentation fee: what dealers charge for paperwork. The rules depend on the state.",
+   "say": "First, the documentation fee: what dealers charge for paperwork. The rules depend on the state.",
    "scene": {
     "t": "hook",
     "title": "The [doc] fee",
@@ -744,8 +744,8 @@
   },
   {
    "who": "ticker",
-   "text": "A federal rule meant to curb surprise add-ons, the FTC's CARS Rule, was struck down by a federal appeals court in January 2025.",
-   "say": "A federal rule meant to curb surprise add-ons, the F T C's CARS Rule, was struck down by a federal appeals court in January twenty twenty-five.",
+   "text": "The FTC's CARS Rule, meant to curb surprise add-ons, was struck down by a federal appeals court in January 2025.",
+   "say": "The F T C's CARS Rule, meant to curb surprise add-ons, was struck down by a federal appeals court in January twenty twenty-five.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -787,8 +787,8 @@
   },
   {
    "who": "ticker",
-   "text": "It requires ads to show a total price, add-ons to be disclosed as optional, and it bans add-ons with no benefit, like an oil change on an electric car.",
-   "say": "It requires ads to show a total price, add-ons to be disclosed as optional, and it bans add-ons with no benefit, like an oil change on an electric car.",
+   "text": "It requires a total price in ads and add-ons labeled optional, and it bans add-ons with no benefit, like an oil change on an electric car.",
+   "say": "It requires a total price in ads and add-ons labeled optional, and it bans add-ons with no benefit, like an oil change on an electric car.",
    "scene": {
     "t": "list",
     "title": "California CARS Act",
@@ -897,8 +897,8 @@
   },
   {
    "who": "ticker",
-   "text": "Now the dark side. Edmunds says 29.6% of trade-ins toward new cars had negative equity in the second quarter of 2026.",
-   "say": "Now the dark side. Edmunds says twenty-nine point six percent of trade-ins toward new cars had negative equity in the second quarter of twenty twenty-six.",
+   "text": "Edmunds says 29.6% of trade-ins toward new cars had negative equity in the second quarter of 2026.",
+   "say": "Edmunds says twenty-nine point six percent of trade-ins toward new cars had negative equity in the second quarter of twenty twenty-six.",
    "scene": {
     "t": "stat",
     "label": "New-car trade-ins with negative equity",
@@ -1087,8 +1087,8 @@
   },
   {
    "who": "ticker",
-   "text": "For used cars everywhere, the FTC requires a Buyers Guide sticker in the window. It says whether there's a warranty, or if the car's sold as is.",
-   "say": "For used cars everywhere, the F T C requires a Buyers Guide sticker in the window. It says whether there's a warranty, or if the car's sold as is.",
+   "text": "On used cars, the FTC requires a Buyers Guide in the window, saying whether there's a warranty or the car's sold as is.",
+   "say": "On used cars, the F T C requires a Buyers Guide in the window, saying whether there's a warranty or the car's sold as is.",
    "scene": {
     "t": "board",
     "lines": [
