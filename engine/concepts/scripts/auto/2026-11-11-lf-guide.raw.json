@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Funding a Roth IRA doesn't invest a single dollar.",
-   "say": "Funding a Roth IRA doesn't invest a single dollar.",
+   "text": "Your Roth IRA deposit can sit in cash for years, uninvested.",
+   "say": "Your Roth IRA deposit can sit in cash for years, uninvested.",
    "scene": {
     "t": "hook",
     "title": "Your Roth isn't [invested]",
@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "Your deposit can just sit there in cash until you pick something. Most guides skip that step.",
-   "say": "Your deposit can just sit there in cash until you pick something, and most guides skip that step entirely.",
+   "text": "Your deposit can just sit there in cash until you pick something, and it's the step people miss.",
+   "say": "Your deposit can just sit there in cash until you pick something, and it's the step people miss.",
    "scene": {
     "t": "board",
     "lines": [
@@ -170,11 +170,11 @@
   },
   {
    "who": "ticker",
-   "text": "Qualified means two things: you're at least 59½, and it's been 5 years since your first Roth contribution year.",
-   "say": "Qualified means two things: you're at least fifty-nine and a half, and it's been five years since the first year you contributed to a Roth.",
+   "text": "Qualified usually means two things: you're at least 59½, and it's been 5 years since your first Roth tax year.",
+   "say": "Qualified usually means two things: you're at least fifty-nine and a half, and it's been five years since your first Roth tax year.",
    "scene": {
     "t": "list",
-    "title": "Qualified withdrawal",
+    "title": "Qualified withdrawal (usual case)",
     "items": [
      "Age 59½ or older",
      "5 years since first Roth year"
@@ -184,8 +184,8 @@
   },
   {
    "who": "ticker",
-   "text": "The 5-year clock starts January 1 of the first year you contribute, so starting early starts the clock.",
-   "say": "That five-year clock starts on January first of the first year you contribute, so starting early also starts the clock.",
+   "text": "The 5-year clock starts January 1 of the first tax year you contribute for. Even a 2026 contribution made in early 2027 counts as 2026.",
+   "say": "That five-year clock starts on January first of the first tax year you contribute for. Even a twenty twenty-six contribution made in early twenty twenty-seven counts as twenty twenty-six.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -376,8 +376,8 @@
   },
   {
    "who": "ticker",
-   "text": "That limit has crept up with inflation. It was $3,000 in 2002.",
-   "say": "That limit has crept up with inflation over the years. Back in two thousand two, it was three thousand dollars.",
+   "text": "That limit has risen over time, first by law, then with inflation. Back in 2002, it was $3,000.",
+   "say": "That limit has risen over time, first by law, then with inflation. Back in two thousand two, it was three thousand dollars.",
    "scene": {
     "t": "chart",
     "title": "IRA contribution limit (IRS)",
@@ -490,8 +490,8 @@
   },
   {
    "who": "ticker",
-   "text": "The limit is 2.5 times what it was in 2002.",
-   "say": "Today's limit is two and a half times what it was in two thousand two.",
+   "text": "The 2026 limit is 2.5 times what it was in 2002.",
+   "say": "The twenty twenty-six limit is two and a half times what it was in two thousand two.",
    "scene": {
     "t": "chart",
     "title": "IRA contribution limit (IRS)",
@@ -663,8 +663,8 @@
   },
   {
    "who": "ticker",
-   "text": "For 2026, single filers phase out between $153,000 and $168,000.",
-   "say": "For twenty twenty-six, single filers phase out between a hundred fifty-three thousand and a hundred sixty-eight thousand dollars.",
+   "text": "For 2026, single and head-of-household filers phase out between $153,000 and $168,000.",
+   "say": "For twenty twenty-six, single and head-of-household filers phase out between a hundred fifty-three thousand and a hundred sixty-eight thousand dollars.",
    "scene": {
     "t": "compare",
     "title": "2026 Roth phase-out (MAGI)",
@@ -730,7 +730,7 @@
   },
   {
    "who": "ticker",
-   "text": "Inside the range, you get a partial amount. Let's do the math for a single filer earning $160,500.",
+   "text": "Inside the range, you get a partial amount. Let's do the math for a single filer with a MAGI of $160,500.",
    "say": "Inside the range, you get a partial amount. Let's do the math for a single filer with a MAGI of a hundred sixty thousand five hundred.",
    "scene": {
     "t": "stat",
@@ -784,8 +784,8 @@
   },
   {
    "who": "ticker",
-   "text": "Over the limit? People use a backdoor Roth: a traditional IRA contribution, then a conversion.",
-   "say": "Over the limit? Some people use what's called a backdoor Roth: a traditional IRA contribution, then a conversion to Roth.",
+   "text": "Income too high? Some people use a backdoor Roth: a traditional IRA contribution, then a conversion.",
+   "say": "Income too high? Some people use what's called a backdoor Roth: a traditional IRA contribution, then a conversion to Roth.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -929,7 +929,7 @@
     "title": "Have these ready",
     "items": [
      "Social Security number",
-     "Photo ID",
+     "Photo ID and address",
      "Employer info",
      "Bank account"
     ],
@@ -1022,12 +1022,12 @@
   },
   {
    "who": "ticker",
-   "text": "Here's the math for maxing out 2026: $7,500 over 12 months is $625 a month.",
-   "say": "Here's the math for maxing out twenty twenty-six. Seventy-five hundred over twelve months is six hundred twenty-five dollars a month.",
+   "text": "Here's the math on a $7,500 limit: spread over 12 months, it's $625 a month.",
+   "say": "Here's the math on a seventy-five hundred dollar limit. Spread over twelve months, it's six hundred twenty-five dollars a month.",
    "scene": {
     "t": "money",
     "from": {
-     "label": "2026 limit",
+     "label": "Yearly limit",
      "value": "$7,500"
     },
     "to": {
@@ -1043,7 +1043,7 @@
    "scene": {
     "t": "money",
     "from": {
-     "label": "2026 limit",
+     "label": "Yearly limit",
      "value": "$7,500"
     },
     "to": {
@@ -1058,7 +1058,7 @@
    "say": "Or about a hundred forty-four dollars a week. Any amount counts, though. You don't have to max it out.",
    "scene": {
     "t": "list",
-    "title": "Maxing 2026",
+    "title": "Spreading $7,500",
     "items": [
      "$625 a month",
      "$288.46 per paycheck",
@@ -1082,8 +1082,8 @@
   },
   {
    "who": "ticker",
-   "text": "So 2026 contributions are allowed until April 15, 2027. Extensions don't count.",
-   "say": "So contributions for twenty twenty-six are allowed until April fifteenth, twenty twenty-seven. Filing extensions don't count.",
+   "text": "So 2026 contributions are allowed until April 15, 2027, which still leaves time to fund 2026. Extensions don't count.",
+   "say": "So contributions for twenty twenty-six are allowed until April fifteenth, twenty twenty-seven, which still leaves time to fund twenty twenty-six. Filing extensions don't count.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -1126,14 +1126,14 @@
   },
   {
    "who": "ticker",
-   "text": "The 2027 limits weren't announced yet when this was made. The IRS usually posts them in the fall, on IRS.gov.",
-   "say": "The twenty twenty-seven limits hadn't been announced when this was made. The I R S usually posts them in the fall, on I R S dot gov.",
+   "text": "The IRS announces next year's limits each fall. Check IRS.gov for the 2027 numbers.",
+   "say": "The I R S announces next year's limits each fall, so check I R S dot gov for the twenty twenty-seven numbers.",
    "scene": {
     "t": "stat",
-    "label": "Next year's limits",
+    "label": "2027 limits",
     "value": "IRS.gov",
     "tone": "neutral",
-    "sub": "Usually posted Oct or Nov"
+    "sub": "Announced each fall"
    }
   },
   {
@@ -1361,8 +1361,8 @@
   },
   {
    "who": "ticker",
-   "text": "The same $7,500 sitting in cash would grow far less, and the tax-free perk would have little to work with.",
-   "say": "That same seventy-five hundred sitting in cash would grow far less, and the tax-free perk would have very little to work with.",
+   "text": "The same contributions left in cash would likely have grown much less, though with less risk, leaving the tax-free perk little to work with.",
+   "say": "The same contributions left in cash would likely have grown much less, though with less risk, leaving the tax-free perk very little to work with.",
    "scene": {
     "t": "money",
     "from": {
@@ -1531,7 +1531,7 @@
     "title": "Roth IRA checklist",
     "items": [
      "Earned income",
-     "Under $7,500 (2026)",
+     "Up to $7,500 (2026)",
      "Check MAGI range",
      "Invest the cash"
     ],
@@ -1540,14 +1540,14 @@
   },
   {
    "who": "ticker",
-   "text": "Two: stay under $7,500 for 2026 across all your IRAs, or $8,600 at 50 and older.",
-   "say": "Two: stay under seventy-five hundred for twenty twenty-six across all your IRAs, or eighty-six hundred at fifty and older.",
+   "text": "Two: stay at or below $7,500 for 2026 across all your IRAs, or $8,600 at 50 and older.",
+   "say": "Two: stay at or below seventy-five hundred for twenty twenty-six across all your IRAs, or eighty-six hundred at fifty and older.",
    "scene": {
     "t": "list",
     "title": "Roth IRA checklist",
     "items": [
      "Earned income",
-     "Under $7,500 (2026)",
+     "Up to $7,500 (2026)",
      "Check MAGI range",
      "Invest the cash"
     ],
@@ -1564,7 +1564,7 @@
     "title": "Roth IRA checklist",
     "items": [
      "Earned income",
-     "Under $7,500 (2026)",
+     "Up to $7,500 (2026)",
      "Check MAGI range",
      "Invest the cash"
     ],
@@ -1581,7 +1581,7 @@
     "title": "Roth IRA checklist",
     "items": [
      "Earned income",
-     "Under $7,500 (2026)",
+     "Up to $7,500 (2026)",
      "Check MAGI range",
      "Invest the cash"
     ],
@@ -1626,8 +1626,8 @@
  ],
  "post": {
   "title": "How to open and fund a Roth IRA, step by step (2026 limits, income rules, mistakes)",
-  "ig": "Funding a Roth IRA doesn't invest a single dollar. The 4 steps, in order.",
-  "tiktok": "Funding a Roth IRA doesn't invest a single dollar. Here's every step, in order.",
+  "ig": "Your Roth IRA deposit can sit in cash for years, uninvested. The 4 steps, in order.",
+  "tiktok": "Your Roth IRA deposit can sit in cash for years, uninvested. Here's every step, in order.",
   "yt_desc": "A step-by-step guide to opening and funding a Roth IRA for tax year 2026: who qualifies (earned income, the $7,500 limit or $8,600 at 50+, and the $153,000-$168,000 single and $242,000-$252,000 joint income phase-outs), how to open an account, how to fund it by the April 15, 2027 deadline, and why your deposit isn't invested until you pick investments. It also walks through a partial-contribution example, the 6% excess-contribution tax, withdrawal rules, and a one-screen checklist.\n\nCHAPTERS\n\nSources: IRS Notice 2025-67 (2026 limits); IRS Publications 590-A and 590-B; IRS historical IRA limits; ICI, The Role of IRAs in US Households' Saving for Retirement, 2025 (2026).\n\nNews and education, not financial advice.\n\n#rothira #retirement #personalfinance",
   "tags": [
    "how to open a roth ira",
