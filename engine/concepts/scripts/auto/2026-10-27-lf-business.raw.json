@@ -10,15 +10,27 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Nvidia started in a Denny's booth. Now it's worth over $5 trillion.",
-   "say": "Nvidia started in a Denny's booth. Now it's worth over five trillion.",
+   "text": "Nvidia keeps 56 cents of every dollar it sells.",
+   "say": "Nvidia keeps fifty-six cents of every dollar it sells.",
    "scene": {
     "t": "hook",
-    "title": "Denny's to [$5 trillion]",
+    "title": "[56¢] of every dollar",
     "prop": "chart-up",
     "label": "NVIDIA",
-    "value": "$5T+",
+    "value": "56¢",
     "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It started in a Denny's booth in 1993. Now it's worth over $5 trillion.",
+   "say": "It started in a Denny's booth in nineteen ninety-three. Now it's worth over five trillion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Nvidia market value, Sept 2026",
+    "value": "$5T+",
+    "tone": "up",
+    "sub": "first company to hit $5T: Oct 29, 2025 (CNBC)"
    }
   },
   {
@@ -33,8 +45,8 @@
   },
   {
    "who": "ticker",
-   "text": "And in its last fiscal year, it kept about 56 cents of profit from every dollar of sales.",
-   "say": "And in its last fiscal year, it kept about fifty-six cents of profit from every dollar of sales.",
+   "text": "In fiscal 2026, its net income was $120.1 billion on $215.9 billion of sales.",
+   "say": "In fiscal twenty twenty-six, its net income was a hundred twenty point one billion dollars, on two hundred fifteen point nine billion of sales.",
    "scene": {
     "t": "stat",
     "label": "Net income per $1 of revenue, FY2026",
@@ -61,7 +73,7 @@
   },
   {
    "who": "ticker",
-   "text": "So how did a video game chip company end up running the AI economy?",
+   "text": "So how did a video game chip company end up powering the AI boom?",
    "say": "So how did a video game chip company end up powering the A I boom?",
    "scene": {
     "t": "hook",
@@ -116,8 +128,8 @@
   },
   {
    "who": "ticker",
-   "text": "In 1993, three engineers met at a Denny's near San Jose: Jensen Huang, Chris Malachowsky and Curtis Priem.",
-   "say": "In nineteen ninety-three, three engineers met at a Denny's near San Jose: Jensen Huang, Chris Malachowsky, and Curtis Priem.",
+   "text": "In 1993, three engineers met at a Denny's in San Jose: Jensen Huang, Chris Malachowsky and Curtis Priem.",
+   "say": "In nineteen ninety-three, three engineers met at a Denny's in San Jose: Jensen Huang, Chris Malachowsky, and Curtis Priem.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -131,7 +143,7 @@
      },
      {
       "when": "2006",
-      "what": "CUDA released"
+      "what": "CUDA introduced"
      },
      {
       "when": "2012",
@@ -214,7 +226,7 @@
      },
      {
       "when": "2006",
-      "what": "CUDA released"
+      "what": "CUDA introduced"
      },
      {
       "when": "2012",
@@ -268,8 +280,8 @@
   },
   {
    "who": "ticker",
-   "text": "In 2006, Nvidia released CUDA, software that let programmers use GPUs for general math, not just graphics.",
-   "say": "In two thousand six, Nvidia released CUDA. Software that let programmers use G P Us for general math, not just graphics.",
+   "text": "In 2006, Nvidia introduced CUDA, software that let programmers use GPUs for general math, not just graphics.",
+   "say": "In two thousand six, Nvidia introduced CUDA. Software that let programmers use G P Us for general math, not just graphics.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -283,7 +295,7 @@
      },
      {
       "when": "2006",
-      "what": "CUDA released"
+      "what": "CUDA introduced"
      },
      {
       "when": "2012",
@@ -295,19 +307,6 @@
      }
     ],
     "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "For years, that looked like a side project. Then came 2012.",
-   "say": "For years, that looked like a side project. Then came twenty twelve.",
-   "scene": {
-    "t": "hook",
-    "title": "The side [project]",
-    "prop": "paper",
-    "label": "CUDA",
-    "value": "2006",
-    "mood": "think"
    }
   },
   {
@@ -335,6 +334,19 @@
   },
   {
    "who": "ticker",
+   "text": "For years, that looked like a side project. Then came 2012.",
+   "say": "For years, that looked like a side project. Then came twenty twelve.",
+   "scene": {
+    "t": "hook",
+    "title": "The side [project]",
+    "prop": "paper",
+    "label": "CUDA",
+    "value": "2006",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "A neural network called AlexNet won a major image-recognition contest. It was trained on two Nvidia gaming cards.",
    "say": "A neural network called AlexNet won a major image-recognition contest. It was trained on two Nvidia gaming cards.",
    "scene": {
@@ -350,7 +362,7 @@
      },
      {
       "when": "2006",
-      "what": "CUDA released"
+      "what": "CUDA introduced"
      },
      {
       "when": "2012",
@@ -366,8 +378,8 @@
   },
   {
    "who": "ticker",
-   "text": "It cut the contest's top-5 error rate from 26.2% to 15.3%. AI researchers noticed what GPUs could do.",
-   "say": "It cut the contest's top-five error rate from twenty-six point two percent to fifteen point three. And A I researchers noticed what G P Us could do.",
+   "text": "It scored a 15.3% top-5 error rate. The runner-up scored 26.2%. AI researchers noticed what GPUs could do.",
+   "say": "It scored a fifteen point three percent top-five error rate. The runner-up scored twenty-six point two. And A I researchers noticed what G P Us could do.",
    "scene": {
     "t": "compare",
     "title": "ImageNet 2012 top-5 error",
@@ -426,7 +438,7 @@
      },
      {
       "when": "2006",
-      "what": "CUDA released"
+      "what": "CUDA introduced"
      },
      {
       "when": "2012",
@@ -503,7 +515,7 @@
   },
   {
    "who": "ticker",
-   "text": "That keeps Nvidia from spending tens of billions on factories, and lets it focus on design and software.",
+   "text": "That spares Nvidia from building multibillion-dollar factories, and lets it focus on design and software.",
    "say": "That spares Nvidia from building multibillion-dollar factories, and lets it focus on design and software.",
    "scene": {
     "t": "board",
@@ -580,19 +592,19 @@
   },
   {
    "who": "ticker",
-   "text": "In fiscal 2026, data center sales were $197.3 billion, out of $215.9 billion total.",
-   "say": "In fiscal twenty twenty-six, data center sales were a hundred ninety-seven point three billion dollars, out of two hundred fifteen point nine billion total.",
+   "text": "In fiscal 2026, data center sales were $193.7 billion, out of $215.9 billion total.",
+   "say": "In fiscal twenty twenty-six, data center sales were a hundred ninety-three point seven billion dollars, out of two hundred fifteen point nine billion total.",
    "scene": {
     "t": "compare",
     "title": "Nvidia revenue, fiscal 2026",
     "left": {
      "label": "Data center",
-     "value": "$197.3B",
+     "value": "$193.7B",
      "tone": "up"
     },
     "right": {
      "label": "Everything else",
-     "value": "$18.6B",
+     "value": "$22.2B",
      "tone": "neutral"
     }
    }
@@ -611,21 +623,21 @@
     },
     "right": {
      "label": "FY2026",
-     "value": "$197.3B",
+     "value": "$193.7B",
      "tone": "up"
     }
    }
   },
   {
    "who": "ticker",
-   "text": "That's about 91% of the business. Gaming, where it all started, was $16 billion.",
-   "say": "That's about ninety-one percent of the business. Gaming, where it all started, was sixteen billion.",
+   "text": "That's about 90% of the business. Gaming, where it all started, was $16 billion.",
+   "say": "That's about ninety percent of the business. Gaming, where it all started, was sixteen billion.",
    "scene": {
     "t": "stat",
     "label": "Data center share of revenue, FY2026",
-    "value": "91%",
+    "value": "90%",
     "tone": "up",
-    "sub": "$197.3B / $215.9B; gaming $16.0B"
+    "sub": "$193.7B / $215.9B; gaming $16.0B"
    }
   },
   {
@@ -661,7 +673,7 @@
     },
     "right": {
      "label": "Data center",
-     "value": "$197.3B",
+     "value": "$193.7B",
      "tone": "up"
     }
    }
@@ -865,18 +877,6 @@
   },
   {
    "who": "ticker",
-   "text": "In the July 2026 quarter alone, data center revenue was $89.0 billion.",
-   "say": "In the July twenty twenty-six quarter alone, data center revenue was eighty-nine billion dollars.",
-   "scene": {
-    "t": "stat",
-    "label": "Data center revenue, quarter ended July 26, 2026",
-    "value": "$89.0B",
-    "tone": "up",
-    "sub": "up 117% year over year (Nvidia)"
-   }
-  },
-  {
-   "who": "ticker",
    "text": "That's about 8 times fiscal 2023's revenue in three years.",
    "say": "That's about eight times fiscal twenty twenty-three's revenue, in just three years.",
    "scene": {
@@ -898,6 +898,18 @@
     "value": "$96.2B",
     "tone": "up",
     "sub": "up 106% year over year (Nvidia)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the July 2026 quarter alone, data center revenue was $89.0 billion.",
+   "say": "In the July twenty twenty-six quarter alone, data center revenue was eighty-nine billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Data center revenue, quarter ended July 26, 2026",
+    "value": "$89.0B",
+    "tone": "up",
+    "sub": "up 117% year over year (Nvidia)"
    }
   },
   {
@@ -988,6 +1000,19 @@
   },
   {
    "who": "ticker",
+   "text": "That's more profit than most companies ever make in revenue.",
+   "say": "That's more profit than most companies ever make in revenue.",
+   "scene": {
+    "t": "hook",
+    "title": "Profit [machine]",
+    "prop": "coins",
+    "label": "NET INCOME",
+    "value": "$120B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "For scale: Apple, famous for its profits, earned about $112 billion in its fiscal 2025.",
    "say": "For scale: Apple, famous for its profits, earned about a hundred twelve billion dollars in its fiscal twenty twenty-five.",
    "scene": {
@@ -1027,19 +1052,6 @@
      ],
      "tone": "down"
     }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's more profit than most companies ever make in revenue.",
-   "say": "That's more profit than almost any company ever makes in revenue.",
-   "scene": {
-    "t": "hook",
-    "title": "Profit [machine]",
-    "prop": "coins",
-    "label": "NET INCOME",
-    "value": "$120B",
-    "mood": "shock"
    }
   },
   {
@@ -1150,7 +1162,7 @@
     "items": [
      "Hopper",
      "Blackwell",
-     "Next: Rubin"
+     "Then Rubin"
     ],
     "reveal": 3
    }
@@ -1333,20 +1345,11 @@
    "text": "Risk four: one main factory partner. Most of its advanced chips come from TSMC in Taiwan.",
    "say": "Risk four: one main factory partner. Most of its advanced chips come from T S M C, in Taiwan.",
    "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "us",
-      "mood": "think",
-      "says": "we design"
-     },
-     {
-      "name": "china",
-      "mood": "worried",
-      "says": "export limits"
-     }
-    ],
-    "caption": "Chips cross borders"
+    "t": "building",
+    "kind": "store",
+    "name": "TSMC, TAIWAN",
+    "label": "most advanced chips",
+    "caption": "One key factory partner"
    }
   },
   {
@@ -1486,7 +1489,7 @@
     },
     "right": {
      "label": "Data center",
-     "value": "$197.3B",
+     "value": "$193.7B",
      "tone": "up"
     }
    }
@@ -1562,7 +1565,7 @@
     "items": [
      "Games to AI",
      "Designs, doesn't build",
-     "91% data center",
+     "90% data center",
      "Moats and risks"
     ],
     "reveal": 1
@@ -1579,7 +1582,7 @@
     "items": [
      "Games to AI",
      "Designs, doesn't build",
-     "91% data center",
+     "90% data center",
      "Moats and risks"
     ],
     "reveal": 2
@@ -1587,8 +1590,8 @@
   },
   {
    "who": "ticker",
-   "text": "Three: data centers were 91% of its $215.9 billion in fiscal 2026 revenue, with $120.1 billion of profit.",
-   "say": "Three. Data centers were ninety-one percent of its two hundred sixteen billion in fiscal twenty twenty-six revenue, with a hundred twenty billion of profit.",
+   "text": "Three: data centers were about 90% of its $215.9 billion in fiscal 2026 revenue, with $120.1 billion of profit.",
+   "say": "Three. Data centers were about ninety percent of its two hundred fifteen point nine billion in fiscal twenty twenty-six revenue, with a hundred twenty point one billion of profit.",
    "scene": {
     "t": "list",
     "keep": true,
@@ -1596,7 +1599,7 @@
     "items": [
      "Games to AI",
      "Designs, doesn't build",
-     "91% data center",
+     "90% data center",
      "Moats and risks"
     ],
     "reveal": 3
@@ -1613,7 +1616,7 @@
     "items": [
      "Games to AI",
      "Designs, doesn't build",
-     "91% data center",
+     "90% data center",
      "Moats and risks"
     ],
     "reveal": 4
@@ -1645,9 +1648,9 @@
  ],
  "post": {
   "title": "Nvidia keeps 56 cents of every dollar. How a game-chip maker took over AI",
-  "ig": "Nvidia kept about 56 cents of profit from every dollar of sales in fiscal 2026.",
+  "ig": "Nvidia keeps 56 cents of every dollar it sells: $120.1 billion of net income on $215.9 billion of revenue in fiscal 2026.",
   "tiktok": "From a Denny's booth to $5 trillion: how Nvidia makes money.",
-  "yt_desc": "Nvidia started at a Denny's in 1993 and became the first public company worth $5 trillion in October 2025. In fiscal 2026 it made $215.9 billion of revenue, 91% from data centers, and $120.1 billion of net income, about 56 cents per dollar. We cover the history from GeForce to CUDA to AlexNet, the fabless business model, the numbers from its filings, its CUDA moat, and the risks it lists. No stock tips, just the business model.\n\nCHAPTERS\n\nSources:\n- Nvidia fiscal 2026 results (Feb 25, 2026) and Form 10-K\n- Nvidia Q2 fiscal 2027 results (Aug 2026)\n- CNBC (Oct 29, 2025) on the $5 trillion valuation\n- Krizhevsky, Sutskever and Hinton, ImageNet 2012 (AlexNet)\n- Nvidia company history (founding 1993; GeForce 256, 1999; CUDA, 2006)\n- Costco and Apple fiscal 2025 annual reports (net margins)\n\nNews and education, not financial advice.\n\n#Nvidia #HowTheyMakeMoney #AI",
+  "yt_desc": "Nvidia started at a Denny's in 1993 and became the first public company worth $5 trillion in October 2025. In fiscal 2026 it made $215.9 billion of revenue, about 90% from data centers, and $120.1 billion of net income, about 56 cents per dollar. We cover the history from GeForce to CUDA to AlexNet, the fabless business model, the numbers from its filings, its CUDA moat, and the risks it lists. No stock tips, just the business model.\n\nCHAPTERS\n\nSources:\n- Nvidia fiscal 2026 results (Feb 25, 2026) and Form 10-K\n- Nvidia Q2 fiscal 2027 results (Aug 2026)\n- CNBC (Oct 29, 2025) on the $5 trillion valuation\n- Krizhevsky, Sutskever and Hinton, ImageNet 2012 (AlexNet)\n- Nvidia company history (founding 1993; GeForce 256, 1999; CUDA introduced, 2006)\n- Costco and Apple fiscal 2025 annual reports (net margins)\n\nNews and education, not financial advice.\n\n#Nvidia #HowTheyMakeMoney #AI",
   "tags": [
    "how nvidia makes money",
    "nvidia business model",
