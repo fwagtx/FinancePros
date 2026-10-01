@@ -1,0 +1,150 @@
+{
+ "series": "ticker",
+ "header": "FDIC insurance:\nwhat's covered",
+ "cover": {
+  "title": "Not FDIC Insured?",
+  "prop": "box",
+  "label": "SAFE BOX",
+  "value": "$0"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The cash in your safe deposit box? Not FDIC insured.",
+   "say": "The cash in your safe deposit box? Not F D I C insured.",
+   "scene": {
+    "t": "hook",
+    "title": "Not [insured]",
+    "prop": "box",
+    "label": "SAFE BOX",
+    "value": "$0",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FDIC insurance covers deposits: up to $250,000 per depositor, per bank, per ownership category.",
+   "say": "F D I C insurance covers deposits. Up to two hundred fifty thousand dollars per depositor, per bank, per ownership category.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$250,000 per depositor",
+     "per insured bank",
+     "per ownership category"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That means checking, savings, money market deposit accounts, and CDs.",
+   "say": "That means checking, savings, money market deposit accounts, and C Ds.",
+   "scene": {
+    "t": "list",
+    "title": "FDIC insured",
+    "items": [
+     "Checking",
+     "Savings",
+     "Money market deposits",
+     "CDs"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stocks, bonds, mutual funds, crypto and annuities are not, even if you bought them at a bank.",
+   "say": "Stocks, bonds, mutual funds, crypto and annuities are not. Even if you bought them at a bank.",
+   "scene": {
+    "t": "list",
+    "title": "Not FDIC insured",
+    "items": [
+     "Stocks and bonds",
+     "Mutual funds",
+     "Crypto",
+     "Annuities"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Neither is what's in your safe deposit box. It's storage, not a deposit.",
+   "say": "Neither is what's in your safe deposit box. It's storage, not a deposit.",
+   "scene": {
+    "t": "split",
+    "title": "At the bank",
+    "left": {
+     "title": "Insured",
+     "items": [
+      "Your deposits"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Not insured",
+     "items": [
+      "Box contents"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you have $300,000 at one bank, in one name. $50,000 of that is over the limit.",
+   "say": "Say you have three hundred thousand dollars at one bank, in one name. Fifty thousand of that is over the limit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$300,000, one owner",
+     "- $250,000 insured",
+     "= $50,000 not insured"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A joint account with two owners at one bank is covered up to $500,000.",
+   "say": "A joint account with two owners at one bank is covered up to five hundred thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Joint account, two owners",
+    "value": "$500,000",
+    "tone": "up",
+    "sub": "$250,000 per co-owner (FDIC)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And many apps aren't banks. When fintech firm Synapse collapsed in 2024, FDIC insurance didn't apply, because no bank failed.",
+   "say": "And many apps aren't banks. When fintech firm Synapse collapsed in twenty twenty-four, F D I C insurance didn't apply, because no bank failed.",
+   "scene": {
+    "t": "news",
+    "headline": "Synapse: Americans caught in fintech's false FDIC promise",
+    "source": "CNBC, July 2, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your safe deposit box isn't FDIC insured. Here's what is",
+  "ig": "The cash in your safe deposit box? Not FDIC insured.\n\nFDIC covers deposits up to $250,000 per depositor, per bank, per ownership category.\nNot covered: stocks, bonds, mutual funds, crypto, annuities, safe deposit box contents.\nExample: $300,000 in one name at one bank leaves $50,000 uninsured. A 2-owner joint account: up to $500,000.\nMany apps aren't banks: when Synapse collapsed in 2024, FDIC insurance didn't apply.\n\nSources: FDIC.gov, CNBC (2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#fdic #banking #savings #personalfinance #financeprostv",
+  "tiktok": "Your safe deposit box isn't FDIC insured. Deposits are, up to $250,000. Not financial advice. #moneytok #personalfinance #fdic #financeprostv",
+  "yt_desc": "FDIC insurance covers deposits like checking, savings, money market deposit accounts and CDs up to $250,000 per depositor, per bank, per ownership category. It does not cover stocks, bonds, mutual funds, crypto, annuities or safe deposit box contents, and it didn't apply when fintech firm Synapse collapsed in 2024. Sources: FDIC.gov, CNBC (2024).\n\nNews and education, not financial advice.\n\n#Shorts #fdic #banking",
+  "tags": [
+   "fdic insurance",
+   "fdic limit 250000",
+   "is my money safe",
+   "safe deposit box",
+   "personal finance"
+  ]
+ }
+}
