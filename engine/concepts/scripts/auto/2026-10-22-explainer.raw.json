@@ -1,0 +1,219 @@
+{
+ "series": "ticker",
+ "header": "What a stock split\nreally does",
+ "cover": {
+  "title": "1 Share Became 25. Richer?",
+  "prop": "paper",
+  "label": "$4,000+",
+  "value": "x25"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In April 2026, Booking turned one share worth over $4,000 into 25.",
+   "say": "Booking turned one share worth over four thousand dollars into twenty-five.",
+   "scene": {
+    "t": "hook",
+    "title": "1 Share Became [25]",
+    "prop": "paper",
+    "label": "$4,000+",
+    "value": "x25",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Owners got 24 extra shares each. Nobody got a dollar richer.",
+   "say": "Owners got twenty-four extra shares each, and nobody got a dollar richer.",
+   "scene": {
+    "t": "news",
+    "headline": "Booking Holdings completes 25-for-1 stock split",
+    "source": "Booking Holdings, April 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A split gives you more shares, but each one is worth less, so your total stays the same.",
+   "say": "A split gives you more shares, but each one is worth less, so your total stays the same.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More shares",
+     "Lower price each",
+     "Same total value"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For example, one $4,000 share becomes 25 shares at $160. Still $4,000.",
+   "say": "For example, one four-thousand-dollar share becomes twenty-five shares at a hundred sixty dollars. Still four thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: 25-for-1 split",
+    "left": {
+     "label": "Before",
+     "value": "$4,000",
+     "tone": "neutral",
+     "sub": "1 share x $4,000"
+    },
+    "right": {
+     "label": "After",
+     "value": "$4,000",
+     "tone": "neutral",
+     "sub": "25 shares x $160"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Booking had about 775 million shares as of April 20, 2026. Same pizza, more slices.",
+   "say": "Booking itself now has about seven hundred seventy-five million shares. Same pizza, more slices.",
+   "scene": {
+    "t": "stat",
+    "label": "Booking shares outstanding",
+    "value": "~775M",
+    "tone": "neutral",
+    "sub": "April 20, 2026 (10-Q)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So why bother? The SEC says companies often split to make shares more affordable.",
+   "say": "So why bother? The SEC says companies often split to make shares more affordable.",
+   "scene": {
+    "t": "list",
+    "title": "Why split?",
+    "items": [
+     "Lower price per share",
+     "Easier to buy whole"
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the surprise: Nvidia has split six times since 2000. One share from 1999 is now 480.",
+   "say": "Here's the surprise. Nvidia has split six times since two thousand, so one share from nineteen ninety-nine is now four hundred eighty.",
+   "scene": {
+    "t": "chart",
+    "title": "1 Nvidia share, after splits",
+    "points": [
+     [
+      1999,
+      1
+     ],
+     [
+      2000,
+      2
+     ],
+     [
+      2001,
+      4
+     ],
+     [
+      2006,
+      8
+     ],
+     [
+      2007,
+      12
+     ],
+     [
+      2021,
+      48
+     ],
+     [
+      2024,
+      480
+     ]
+    ],
+    "end": "480",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the splits added nothing. Each one cut the price by the same amount. The business growing did the work.",
+   "say": "But those splits added nothing, because each one cut the price by the same amount. The business growing did the work.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "1 Nvidia share, after splits",
+    "points": [
+     [
+      1999,
+      1
+     ],
+     [
+      2000,
+      2
+     ],
+     [
+      2001,
+      4
+     ],
+     [
+      2006,
+      8
+     ],
+     [
+      2007,
+      12
+     ],
+     [
+      2021,
+      48
+     ],
+     [
+      2024,
+      480
+     ]
+    ],
+    "end": "480",
+    "color": "up",
+    "chart_note": {
+     "x": 2024,
+     "text": "Splits added $0"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A split changes the price tag, not what you own.",
+   "say": "So a split changes the price tag, not what you own.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Split = new price tag",
+     "Not more money"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Booking turned 1 share into 25. Nobody got richer.",
+  "ig": "Booking turned one share worth over $4,000 into 25. Nobody got richer.\n\nA stock split gives you more shares, each worth less. Your total stays the same.\nExample: 1 share at $4,000 = 25 shares at $160 = still $4,000.\nBooking's 25-for-1 split took effect in April 2026.\nOne Nvidia share from 1999 is 480 shares after six splits, but the splits added $0. The business growth did the work.\n\nSources: SEC, Booking Holdings 8-K and 10-Q (2026), Nvidia 8-K (2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#stocksplit #stocks #investing101 #personalfinance #financeprostv",
+  "tiktok": "Booking turned 1 share into 25. Nobody got richer. Here's why. Not financial advice. #moneytok #personalfinance #stocksplit #investing #financeprostv",
+  "yt_desc": "Booking Holdings did a 25-for-1 stock split in April 2026, but a split only gives you more shares at a lower price each: one $4,000 share becomes 25 shares at $160, still $4,000. One Nvidia share from 1999 is now 480 shares after six splits, yet the splits themselves added nothing. Sources: SEC, Booking Holdings 8-K and 10-Q, Nvidia 8-K.\n\nNews and education, not financial advice.\n\n#Shorts #stocksplit #investing",
+  "tags": [
+   "stock split explained",
+   "what is a stock split",
+   "Booking Holdings stock split",
+   "Nvidia stock split",
+   "investing basics"
+  ]
+ }
+}

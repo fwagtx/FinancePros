@@ -1,0 +1,178 @@
+{
+ "series": "ticker",
+ "header": "Scam alert:\nthe job that charges you",
+ "cover": {
+  "title": "The Job That Charges You",
+  "prop": "paper",
+  "label": "HIRED!",
+  "value": "$501M"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Fake job offers cost people $501 million in 2024.",
+   "say": "Fake job offers cost people five hundred one million dollars in twenty twenty-four.",
+   "scene": {
+    "t": "hook",
+    "title": "Fake [jobs] cost $501M",
+    "prop": "paper",
+    "label": "HIRED!",
+    "value": "$501M",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the tell is simple: the money flows the wrong way.",
+   "say": "And the tell is simple: the money flows the wrong way.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real job: they pay you",
+     "Scam job: you pay them"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Reported job scam losses went from $90 million in 2020 to $501 million in 2024.",
+   "say": "Reported job scam losses went from ninety million dollars in twenty twenty to five hundred one million in twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Job scam losses (FTC)",
+    "points": [
+     [
+      2020,
+      90
+     ],
+     [
+      2021,
+      131
+     ],
+     [
+      2022,
+      179
+     ],
+     [
+      2023,
+      286
+     ],
+     [
+      2024,
+      501
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$501M",
+    "color": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more than five times bigger in four years.",
+   "say": "That's more than five times bigger in four years.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2024,
+     "text": "5x since 2020"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The asks: pay for equipment, pay for training, deposit money to unlock your earnings.",
+   "say": "The asks sound normal: pay for equipment, pay for training, or deposit money to unlock your earnings.",
+   "scene": {
+    "t": "list",
+    "title": "The pay-first asks",
+    "items": [
+     "Pay for equipment",
+     "Pay for training",
+     "Deposit to unlock pay"
+    ],
+    "reveal": 3,
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $2,000 check arrives, you send $1,500 to their \"vendor,\" the check bounces. You're out $1,500.",
+   "say": "For example, a two thousand dollar check arrives, you send fifteen hundred to their vendor, then the check bounces, and you're out fifteen hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Check (example)",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "You're out",
+     "value": "-$1,500"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC puts it plainly: \"Honest employers will never ask you to pay to get a job.\"",
+   "say": "The F T C puts it plainly: \"Honest employers will never ask you to pay to get a job.\"",
+   "scene": {
+    "t": "quote",
+    "text": "Honest employers will never ask you to pay to get a job.",
+    "source": "Federal Trade Commission, job scams guidance"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real employers pay you. Scammers want your money first.",
+   "say": "So a real employer pays you, and a scammer wants your money first.",
+   "scene": {
+    "t": "split",
+    "title": "Real vs scam",
+    "left": {
+     "title": "Real job",
+     "items": [
+      "pays you",
+      "no fees"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Scam job",
+     "items": [
+      "fees upfront",
+      "send money back"
+     ],
+     "tone": "down"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Fake job offers cost people $501 million in 2024",
+  "ig": "Fake job offers cost people $501 million in 2024.\n\nReported job scam losses grew from $90 million in 2020 to $501 million in 2024 (FTC).\nThe common asks: pay for equipment, pay for training, or deposit money to unlock earnings.\nThe FTC: \"Honest employers will never ask you to pay to get a job.\"\n\nSources: FTC Consumer Sentinel data (March 2025), FTC Data Spotlight (December 2024), FTC job scams guidance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #jobscam #jobsearch #personalfinance #financeprostv",
+  "tiktok": "Fake jobs cost people $501M in 2024. Real jobs pay you, not the other way. Not financial advice. #moneytok #personalfinance #jobscam #scamalert #financeprostv",
+  "yt_desc": "Job offer scams flip the money the wrong way: you pay for equipment, training, or a deposit to unlock earnings. FTC data show reported job scam losses grew from $90 million in 2020 to $501 million in 2024, and the FTC says honest employers will never ask you to pay to get a job. Sources: FTC (March 2025), FTC Data Spotlight (December 2024).\n\nNews and education, not financial advice.\n\n#Shorts #jobscam #scamalert",
+  "tags": [
+   "job scam",
+   "scam alert",
+   "fake job offer",
+   "task scam",
+   "personal finance"
+  ]
+ }
+}
