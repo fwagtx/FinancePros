@@ -1,0 +1,22 @@
+# Fact-check: 2026-11-06-explainer (posts Nov 6, 2026; checked Oct 1, 2026)
+
+## Verified OK
+- Indeed Hiring Lab US series (github.com/hiring-lab/pay-transparency, repo updated 2026-09-16), `pay_transparency_pct_3ma`, August values: 2020 19.84, 2021 25.84, 2022 27.99, 2023 39.70, 2024 45.68, 2025 48.62, 2026 51.07. These round to 19.8/25.8/28.0/39.7/45.7/48.6/51.1, so all chart points match. (The raw monthly August 2026 value is 51.8; the script correctly uses the 3-month average.) Series definition: share of job postings **on Indeed** with explicit pay.
+- Year-on-year changes: +6.0, +2.2, **+11.7** (2022 to 2023), +6.0, +2.9, +2.5. "Biggest yearly jump +11.7 by Aug 2023" is correct.
+- Effective dates: Colorado 1/1/2021; NYC 11/1/2022; CA and WA 1/1/2023; IL and MN 1/1/2025; NJ 6/1/2025; VT 7/1/2025; MA 10/29/2025 (five states in 2025, correct); VA 7/1/2026; ME 7/29/2026. "Colorado went first" holds for a statewide requirement to put pay in postings. Earlier CA, WA and MD laws only required pay on request.
+- Colorado remote-job episode: Axios, June 19, 2021, "Major companies ask Colorado residents not to apply for remote positions." CDLE guidance and compliance letters came on July 21, 2021, saying remote postings that exclude Colorado are still covered. "July 2021" is correct.
+- EU Directive 2023/970: the transposition deadline was June 7, 2026. Art. 5 requires the starting pay or its range in the vacancy notice **or before the interview**, and bans questions about pay history. Mayer Brown (July 2026) and other trackers list SK, IT, MT and LT as fully in force on the deadline. Greece followed on July 6, 2026.
+- Worked example: 75,000 - 60,000 = 15,000, and 15,000 / 60,000 = 25%. Correct and labeled as an example. No advice, no price predictions, no political opinion.
+
+## Issues
+1. **Hook, line 1 (text/say), cover, IG and TikTok:** "In 2020, only about 1 in 5 job posts showed pay" turns an Indeed-only series into all job posts. The 2020 figure also ranged from 13.6% to 22.3% (monthly), so "about 1 in 5" is only right for around August. Fix: "In August 2020, only about 1 in 5 US job posts on Indeed showed pay." (spoken: "...one in five Indeed job posts showed pay"). Stronger hook option: "In 2020, four in five Indeed job ads hid the pay. Now it's half." IG first line and TikTok: add "on Indeed".
+2. **Line 2:** "The reason? A wave of laws." overstates cause. Hiring Lab also points to a tight labor market and to employers in states without laws. Fix: "A big driver? A wave of laws." Also consider adding "of Indeed postings" to the spoken 51.1% line.
+3. **Lines 3 and 4 timeline:** the list leaves out New York State (Sep 17, 2023), Hawaii (Jan 2024), DC (Jun 2024) and Maryland (Oct 1, 2024). NY State also falls inside the 2023 jump. As written, it implies nothing happened in 2024. Fix: "...California, Washington and New York State in 2023, more in 2024 and 2025..." or add "among others".
+4. **Line 6 news card:** "Remote job ads tell Coloradans not to apply" is presented as an Axios headline, but it is not the real one. Fix: use the real headline "Major companies ask Colorado residents not to apply for remote positions" (Axios, June 19, 2021), or drop the quote styling and label it as a summary.
+5. **Line 8 (EU), and IG:** "Europe set a June 2026 deadline for pay before the interview. Only 4 of 27 countries made it" is misleading. Poland's pay-before-interview rules were already in force from Dec 24, 2025 (a partial transposition), so more than four countries had that specific rule. Also, the deadline applied to governments, not employers. Fix: "The EU gave countries until June 2026 to require pay info before the interview. Only 4 of 27 had fully done it by the deadline (Mayer Brown, July 2026)." Keep the dated source. More countries (e.g. Greece in July) will have transposed by Nov 6, so do not say "only 4 have".
+6. **Sub-label length:** the building caption "Remote jobs count (July 2021)" is 29 characters, over the 28 limit. Fix: "Remote jobs count (Jul 2021)" (28). The stat label "EU countries that met the June 2026 deadline" (44) may also overflow. Suggest "EU fully on time (Jun 2026)".
+7. **Staleness (minor):** Hiring Lab will probably publish September data in mid-October. "By August 2026, 51.1%" stays accurate because it is dated. No changes needed.
+
+Narration reads fine aloud. The CTA is fine, and the cover and title are paid off.
+
+VERDICT: FAIL
