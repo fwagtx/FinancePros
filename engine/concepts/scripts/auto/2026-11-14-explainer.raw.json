@@ -1,0 +1,158 @@
+{
+ "series": "ticker",
+ "header": "Who pays for\nunemployment?",
+ "cover": {
+  "title": "Who Pays If You're Laid Off?",
+  "prop": "paper",
+  "label": "UI TAX",
+  "value": "$0"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 47 states, workers pay nothing for unemployment insurance.",
+   "say": "In forty-seven states, workers pay nothing for unemployment insurance.",
+   "scene": {
+    "t": "hook",
+    "title": "Your share of the [bill]",
+    "prop": "paper",
+    "label": "UI TAX",
+    "value": "$0",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Employers pay instead, through two taxes: one federal, one state.",
+   "say": "Employers pay instead, through two taxes: one federal, one state.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Federal: FUTA",
+     "State: SUTA",
+     "Both paid by employer"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The federal tax is 6% on the first $7,000 of your pay. Pay the state tax on time, and a 5.4% credit cuts it to $42.",
+   "say": "The federal tax is six percent on the first seven thousand dollars of your pay. Pay the state tax on time, and a credit cuts it to forty-two dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "6.0% of $7,000",
+     "value": "$420"
+    },
+    "to": {
+     "label": "after 5.4% credit",
+     "value": "$42"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That $7,000 limit was set in 1983, and it hasn't changed since.",
+   "say": "That seven-thousand-dollar limit was set in nineteen eighty-three, and it hasn't changed since.",
+   "scene": {
+    "t": "stat",
+    "label": "Federal unemployment tax wage base",
+    "value": "$7,000",
+    "tone": "neutral",
+    "sub": "Unchanged since 1983"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The state tax pays most of the benefits. Only Alaska, New Jersey and Pennsylvania also take a slice from workers.",
+   "say": "The state tax pays most of the benefits. Only Alaska, New Jersey and Pennsylvania also take a slice from workers.",
+   "scene": {
+    "t": "list",
+    "title": "Workers also pay in",
+    "items": [
+     "Alaska",
+     "New Jersey",
+     "Pennsylvania"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lose your job through no fault of your own, and your state pays a weekly benefit. In 2026, top amounts range from $235 to $1,208.",
+   "say": "Lose your job through no fault of your own, and your state pays a weekly benefit. In twenty twenty-six, top amounts range from two hundred thirty-five dollars to twelve hundred eight.",
+   "scene": {
+    "t": "compare",
+    "title": "Max weekly benefit, 2026",
+    "left": {
+     "label": "Mississippi",
+     "value": "$235",
+     "tone": "down",
+     "sub": "lowest"
+    },
+    "right": {
+     "label": "Washington",
+     "value": "$1,208",
+     "tone": "up",
+     "sub": "highest"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most states pay for up to 26 weeks. Florida pays for as few as 12.",
+   "say": "Most states pay for up to twenty-six weeks. Florida pays for as few as twelve.",
+   "scene": {
+    "t": "split",
+    "title": "How long it lasts",
+    "left": {
+     "title": "Most states",
+     "items": [
+      "Up to 26 weeks"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Florida",
+     "items": [
+      "As few as 12"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's taxable income, though you can ask your state to withhold 10% for federal tax.",
+   "say": "And it's taxable income, though you can ask your state to withhold ten percent for federal tax.",
+   "scene": {
+    "t": "stat",
+    "label": "Optional federal withholding",
+    "value": "10%",
+    "tone": "neutral",
+    "sub": "Form W-4V (IRS)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "In 47 states, workers pay nothing for unemployment insurance",
+  "ig": "In 47 states, workers pay nothing for unemployment insurance. Employers do.\nThe federal tax is 6% on the first $7,000 of pay, cut to $42 per worker with a 5.4% credit. That $7,000 hasn't changed since 1983.\nOnly Alaska, New Jersey and Pennsylvania also take a slice from workers.\n2026 max weekly benefits range from $235 (Mississippi) to $1,208 (Washington). Most states pay up to 26 weeks; Florida as few as 12. Benefits are taxable.\nSources: IRS, US Department of Labor, state agencies.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#unemployment #taxes #jobs #personalfinance #financeprostv",
+  "tiktok": "In 47 states, workers pay nothing for unemployment insurance. Here's who does. Not financial advice. #moneytok #personalfinance #jobs #financeprostv",
+  "yt_desc": "Employers fund unemployment insurance through a federal tax (6% on the first $7,000 of pay, usually cut to $42 per worker by a 5.4% credit) and state taxes; only Alaska, New Jersey and Pennsylvania also tax workers (IRS, US Department of Labor). In 2026, max weekly benefits range from $235 in Mississippi to $1,208 in Washington, and benefits are taxable. News and education, not financial advice. #Shorts #unemployment #taxes",
+  "tags": [
+   "unemployment insurance explained",
+   "who pays unemployment",
+   "futa tax",
+   "unemployment benefits by state",
+   "unemployment taxes"
+  ]
+ }
+}
