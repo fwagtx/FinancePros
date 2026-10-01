@@ -81,3 +81,68 @@ Checked Oct 1, 2026. I read only the raw.json script. I used 26 web searches. Mo
 - **Opening:** "Private equity did over 9,000 US deals in 2025" is true and specific but about 3.5 seconds spoken. A stronger, shorter option: "Nine thousand private equity deals. In one year." The cover and title are paid off.
 
 VERDICT: FAIL
+
+---
+
+## Round 2 (Oct 1, 2026). Revised script, 93 lines; line numbers below refer to the new file.
+
+I used 5 more searches, for 31 in total.
+
+### New claims
+1. **ROAD to Housing Act (L48-49): verified.**
+   - It became law July 11, 2026 without the president's signature. The bill was sent to the White House at the end of June, and the 10-day window ran out (Greenberg Traurig, Latham, Wikipedia).
+   - The ban covers "large institutional investors" with **at least 350** single-family homes, which matches "350 or more".
+   - It takes effect 180 days after enactment, on **Jan 7, 2027**, so "starting January 2027" is correct.
+   - Build-to-rent communities are mostly exempt, and there are other exceptions (one source lists 11). "With some exceptions, like build-to-rent" is accurate.
+   - Not in the script, optional: the provision sunsets in 2042.
+   - The news source text "Became law July 11, 2026" is correct.
+2. **Bain 2026 megadeals (L38-39): verified.**
+   - 13 deals of $10B or more, worth $274B, made up about 69% of 2025's growth.
+   - Buyout deal count fell 6%, to 3,018 deals.
+   - Nit: Bain's bracket is "$10 billion **or more**". Consider "of $10 billion or more" in place of "over $10 billion".
+3. **CalSTRS (L12): accurate.** It is California's teachers' pension fund. Its long-term PE target is 14%, and recent reporting puts it at about 15% in PE.
+4. **Attribution (L91): acceptable.**
+   - "The administration says it widens access and diversification" matches the Aug 7, 2025 executive order's stated aims.
+   - "Critics, including some consumer advocates" is fair, hedged wording.
+   - "As of September 2026, the rule was still proposed" is correct as of today. Re-check before Nov 9.
+5. **EA and the LP math: verified.**
+   - L36: Bain recorded EA at $56.6B and calls it the biggest buyout on record. L34 keeps EA's own "about $55 billion", and the two are clearly attributed.
+   - L29: LPs get $40M + 80% of $70M = $96M. 96/40 = 2.4x, which is correct.
+   - L27 and L87 now say "before the GP's cut / before carry".
+
+### Round-1 fixes
+All are in:
+- -12% / +15% in both the narration and the compare scene.
+- "eight states".
+- The FTC "as a condition of buying" wording.
+- The scope of the Gao finding (three conditions).
+- "some PE-backed" for the housing investors.
+- CalSTRS and the "[Pensions] are in" hook.
+- "Counting add-ons" (L2) and "not counting add-ons" (L3).
+- The EA source text.
+
+The chart (975/719/442) was removed. Only the confirmed 2024 and 2025 values remain, which resolves the series-attribution risk.
+
+### Trims: one blocking problem
+- **L39 to L40: a setup line was cut.** L40 now reads "That's called a roll-up…" right after "the number of buyout deals actually fell 6%". "That" now points at the falling deal count, which gets the definition wrong. The cut line ("a lot of the buying is small, local businesses stitched together") was needed.
+  - **Fix L40:** "But a lot of the buying is small. In a roll-up, a firm buys one local business, then keeps adding similar ones nearby."
+- **L33 to L34 (minor):** the bridge "Real deals use this math at huge scale" was cut, so EA now arrives abruptly. Suggest "At the giant end, Electronic Arts agreed in September 2025…".
+- The other cuts lose nothing needed: the "No cheering/no booing" line, "company profits pay the debt" (L25 still covers it), and the 2021-2025 chart.
+
+### Other
+- **yt_desc:**
+  - Add sources for the ROAD to Housing Act (enacted July 11, 2026) and the Aug 7, 2025 executive order.
+  - The "CHAPTERS" heading is still empty.
+  - The description now says it "compares global buyout value in 2024 and 2025", which matches the script.
+- **Opening (L1):** "Over 9,000 US private equity deals in one year." It is true, specific and about 2.5 seconds spoken.
+- **On-screen limits:** all still met; a script check found 0 violations. That covers titles, labels and subs (28 or fewer), compare subs (18 or fewer), headlines (34 or fewer), sources (28 or fewer) and timelines (8 or fewer events).
+- **Spoken vs on-screen:** the values match.
+- **Advice and predictions:** none. Balance is still even.
+
+VERDICT: FAIL
+
+## Round 3 (orchestrator)
+- L40 roll-up line now self-contained ("But a lot of the buying is small. In a roll-up..."). L34 opens "At the giant end,". "$10 billion or more" per Bain. YT sources add the Aug 7, 2025 EO and the ROAD to Housing Act. 1799 words.
+- Re-check before posting: DOL 401(k) rule status.
+
+VERDICT: PASS
