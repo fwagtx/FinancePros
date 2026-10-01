@@ -3,8 +3,10 @@
  "header": "THE NATIONAL DEBT",
  "cover": {
   "title": "Who Owns $40 Trillion?",
-  "prop": "fed",
-  "label": "US DEBT",
+  "countries": [
+   "japan",
+   "china"
+  ],
   "value": "$40T"
  },
  "lines": [
@@ -26,10 +28,6 @@
       "says": "Not #1"
      }
     ],
-    "prop": {
-     "kind": "bag",
-     "label": "US DEBT $40T"
-    },
     "caption": "Top foreign lender: not China"
    }
   },
@@ -225,7 +223,7 @@
    "scene": {
     "t": "hook",
     "title": "Every bond is an [IOU]",
-    "prop": "paper",
+    "prop": "tag",
     "label": "IOU",
     "mood": "think"
    }
@@ -1159,7 +1157,7 @@
    "scene": {
     "t": "hook",
     "title": "Old bonds [reprice] slowly",
-    "prop": "paper",
+    "prop": "tag",
     "label": "MATURES",
     "mood": "think"
    }
@@ -1522,7 +1520,7 @@
    "scene": {
     "t": "hook",
     "title": "We just show the [math]",
-    "prop": "paper",
+    "prop": "tag",
     "mood": "happy"
    }
   },
