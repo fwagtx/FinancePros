@@ -4,27 +4,27 @@
  "cover": {
   "title": "3 Countries In Your Cart.",
   "prop": "bag",
-  "label": "GROCERIES",
+  "label": "AVOCADOS",
   "value": "83%"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "Your avocado, your coffee and your generic pills share a secret.",
-   "say": "Your avocado, your coffee and your generic pills share a secret.",
+   "text": "83% of America's imported avocados come from one country.",
+   "say": "Eighty-three percent of America's imported avocados come from one country.",
    "scene": {
     "t": "hook",
-    "title": "Three [countries] in your cart",
+    "title": "One country, your [avocados]",
     "prop": "bag",
-    "label": "GROCERIES",
-    "value": "3",
+    "label": "AVOCADOS",
+    "value": "83%",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "In 2025, Mexico supplied 83% of the fresh avocados the US imported.",
-   "say": "In twenty twenty-five, Mexico supplied eighty-three percent of the fresh avocados the US imported.",
+   "text": "It's Mexico. And your coffee and generic pills have their own answers.",
+   "say": "It's Mexico. And your coffee and your generic pills have their own answers.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -43,7 +43,7 @@
      "kind": "box",
      "label": "AVOCADOS 83%"
     },
-    "caption": "83% of US avocado imports, 2025"
+    "caption": "83% of US fresh avocado imports, 2025"
    }
   },
   {
@@ -262,11 +262,11 @@
   },
   {
    "who": "ticker",
-   "text": "Our three are very different, though. Look at income per person in 2026, from the IMF.",
-   "say": "Our three are very different, though. Look at income per person in twenty twenty-six, from the I M F.",
+   "text": "Our three are very different, though. Look at output per person in 2026, in the IMF's April estimates.",
+   "say": "Our three are very different, though. Look at output per person in twenty twenty-six, in the I M F's April estimates.",
    "scene": {
     "t": "list",
-    "title": "GDP per person, 2026 (IMF)",
+    "title": "GDP per person, 2026 (IMF, Apr)",
     "items": [
      "India: $2,813",
      "Brazil: $12,313",
@@ -277,8 +277,8 @@
   },
   {
    "who": "ticker",
-   "text": "A Mexican earns, on average, about 5.6 times what an Indian does, by this measure.",
-   "say": "By this measure, the average Mexican's share of output is about five point six times the average Indian's.",
+   "text": "By this measure, Mexico produces about 5.6 times as much per person as India.",
+   "say": "By this measure, Mexico produces about five point six times as much per person as India.",
    "scene": {
     "t": "money",
     "from": {
@@ -293,11 +293,11 @@
   },
   {
    "who": "ticker",
-   "text": "And growth runs the other way. The IMF expects India to grow 6.5% in 2026, versus 1.9% for Brazil and 1.6% for Mexico.",
-   "say": "And growth runs the other way. The I M F expects India to grow six and a half percent in twenty twenty-six, versus one point nine for Brazil and one point six for Mexico.",
+   "text": "In April, the IMF projected India would grow 6.5% in 2026, versus 1.9% for Brazil and 1.6% for Mexico.",
+   "say": "In April, the I M F projected India would grow six and a half percent in twenty twenty-six, versus one point nine for Brazil and one point six for Mexico.",
    "scene": {
     "t": "compare",
-    "title": "IMF 2026 growth forecast",
+    "title": "IMF 2026 growth forecast (Apr 2026)",
     "left": {
      "label": "India",
      "value": "6.5%",
@@ -318,7 +318,7 @@
    "say": "Poorer and faster, or richer and slower. That's the emerging-market trade-off in one picture.",
    "scene": {
     "t": "compare",
-    "title": "IMF 2026 growth forecast",
+    "title": "IMF 2026 growth forecast (Apr 2026)",
     "left": {
      "label": "India",
      "value": "6.5%",
@@ -354,9 +354,9 @@
    "scene": {
     "t": "board",
     "lines": [
-     "1 in 5 people",
-     "on Earth live",
-     "in these three"
+     "More than 1 in 5",
+     "people on Earth",
+     "live in these three"
     ],
     "mood": "think"
    }
@@ -408,7 +408,7 @@
    "say": "And they're young. The median age is about twenty-nine.",
    "scene": {
     "t": "stat",
-    "label": "India median age",
+    "label": "India median age, 2026 (UN)",
     "value": "29.2",
     "tone": "up",
     "sub": "UN World Population Prospects 2024"
@@ -430,8 +430,8 @@
   },
   {
    "who": "ticker",
-   "text": "Its economy is big: about $4.15 trillion in 2026, sixth in the world in the IMF's April ranking.",
-   "say": "Its economy is big: about four point one five trillion dollars in twenty twenty-six, sixth in the world in the I M F's April ranking.",
+   "text": "Its economy is big: about $4.15 trillion in 2026, sixth in the world in the IMF's April 2026 ranking.",
+   "say": "Its economy is big: about four point one five trillion dollars in twenty twenty-six, sixth in the world in the I M F's April twenty twenty-six ranking.",
    "scene": {
     "t": "list",
     "title": "Biggest economies, 2026 (IMF)",
@@ -446,8 +446,8 @@
   },
   {
    "who": "ticker",
-   "text": "But split across 1.46 billion people, that's just $2,813 each.",
-   "say": "But split across one point four six billion people, that's just twenty-eight hundred thirteen dollars each.",
+   "text": "But split across nearly 1.48 billion people, that's only about $2,800 each.",
+   "say": "But split across nearly one point four eight billion people, that's only about twenty-eight hundred dollars each.",
    "scene": {
     "t": "money",
     "from": {
@@ -477,8 +477,8 @@
   },
   {
    "who": "ticker",
-   "text": "Another is medicine. Indian generics are a big reason many US prescriptions cost what they do.",
-   "say": "Another is medicine. Indian generics are a big part of why so many US prescriptions are cheap generics at all.",
+   "text": "Another is medicine. Indian generics help keep many US prescription prices low.",
+   "say": "Another is medicine. Indian generics help keep many US prescription prices low.",
    "scene": {
     "t": "list",
     "title": "How India earns",
@@ -521,8 +521,8 @@
   },
   {
    "who": "ticker",
-   "text": "Spread across the whole country, that's about $92 per person a year.",
-   "say": "Spread across the whole country, that's about ninety-two dollars per person a year.",
+   "text": "Spread across the whole country, that's about $93 per person a year.",
+   "say": "Spread across the whole country, that's about ninety-three dollars per person a year.",
    "scene": {
     "t": "money",
     "from": {
@@ -531,7 +531,7 @@
     },
     "to": {
      "label": "per person",
-     "value": "~$92"
+     "value": "~$93"
     }
    }
   },
@@ -737,8 +737,8 @@
   },
   {
    "who": "ticker",
-   "text": "Brazil has about 212.8 million people and an economy of about $2.64 trillion in 2026.",
-   "say": "Brazil has about two hundred thirteen million people, and an economy of about two point six four trillion dollars in twenty twenty-six.",
+   "text": "Brazil has about 212.8 million people, and the IMF put its economy at about $2.64 trillion in 2026, as of April.",
+   "say": "Brazil has about two hundred thirteen million people, and the I M F put its economy at about two point six four trillion dollars in twenty twenty-six, as of April.",
    "scene": {
     "t": "compare",
     "title": "Brazil, 2026",
@@ -758,11 +758,11 @@
   },
   {
    "who": "ticker",
-   "text": "That works out to about $12,313 per person, more than four times India's.",
-   "say": "That works out to about twelve thousand three hundred dollars per person, more than four times India's.",
+   "text": "The IMF puts that at about $12,300 per person, more than four times India's.",
+   "say": "The I M F puts that at about twelve thousand three hundred dollars per person, more than four times India's.",
    "scene": {
     "t": "list",
-    "title": "GDP per person, 2026 (IMF)",
+    "title": "GDP per person, 2026 (IMF, Apr)",
     "items": [
      "India: $2,813",
      "Brazil: $12,313",
@@ -816,7 +816,7 @@
     "label": "Brazil soybean exports to China, Jan-Oct 2025",
     "value": "~80%",
     "tone": "up",
-    "sub": "USDA / Purdue"
+    "sub": "Secex via Purdue"
    }
   },
   {
@@ -1012,11 +1012,11 @@
   },
   {
    "who": "ticker",
-   "text": "Mexico has about 132 million people and the highest income per person of our three: $15,779 in 2026.",
-   "say": "Mexico has about a hundred thirty-two million people, and the highest income per person of our three: about fifteen thousand eight hundred dollars in twenty twenty-six.",
+   "text": "Mexico has about 132 million people and the highest output per person of our three: $15,779 in 2026.",
+   "say": "Mexico has about a hundred thirty-two million people, and the highest output per person of our three: about fifteen thousand eight hundred dollars in twenty twenty-six.",
    "scene": {
     "t": "list",
-    "title": "GDP per person, 2026 (IMF)",
+    "title": "GDP per person, 2026 (IMF, Apr)",
     "items": [
      "India: $2,813",
      "Brazil: $12,313",
@@ -1027,7 +1027,7 @@
   },
   {
    "who": "ticker",
-   "text": "Its big advantage is geography. It shares a 2,000-mile border with the world's biggest consumer market.",
+   "text": "Its big advantage is geography. It shares a border of nearly 2,000 miles with the world's biggest consumer market.",
    "say": "Its big advantage is geography. It shares a border of nearly two thousand miles with the world's biggest consumer market.",
    "scene": {
     "t": "countries",
@@ -1137,8 +1137,8 @@
   },
   {
    "who": "ticker",
-   "text": "The trade gap has grown. The US went from a $1.7 billion goods surplus with Mexico in 1993 to a $171.5 billion deficit in 2025.",
-   "say": "The trade gap has grown. The US went from a one point seven billion dollar goods surplus with Mexico in nineteen ninety-three to a hundred seventy-one point five billion dollar deficit in twenty twenty-five.",
+   "text": "The trade gap has grown. In 1993, the US ran a $1.7 billion goods surplus with Mexico. In 2025, it ran a $171.5 billion deficit.",
+   "say": "The trade gap has grown. In nineteen ninety-three, the US ran a one point seven billion dollar goods surplus with Mexico. In twenty twenty-five, it ran a hundred seventy-one point five billion dollar deficit.",
    "scene": {
     "t": "compare",
     "title": "US goods balance with Mexico",
@@ -1212,8 +1212,8 @@
   },
   {
    "who": "ticker",
-   "text": "That was down 4.6%, the biggest drop since 2009. Families in Mexico felt it.",
-   "say": "That was down four point six percent, the biggest drop since two thousand nine, and families in Mexico felt it.",
+   "text": "That was down 4.6%, the biggest drop since 2009. Families in Mexico felt it in 2025.",
+   "say": "That was down four point six percent, the biggest drop since two thousand nine, and families in Mexico felt it in twenty twenty-five.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -1232,8 +1232,8 @@
   },
   {
    "who": "ticker",
-   "text": "Per person, that's about $468 a year in Mexico, versus about $92 in India.",
-   "say": "Per person, that's about four hundred sixty-eight dollars a year in Mexico, versus about ninety-two in India.",
+   "text": "Per person, that's about $468 a year in Mexico, versus about $93 in India.",
+   "say": "Per person, that's about four hundred sixty-eight dollars a year in Mexico, versus about ninety-three in India.",
    "scene": {
     "t": "compare",
     "title": "Remittances per person",
@@ -1245,7 +1245,7 @@
     },
     "right": {
      "label": "India (FY25)",
-     "value": "~$92",
+     "value": "~$93",
      "tone": "neutral",
      "sub": "$135.4B / 1.46B"
     }
@@ -1295,7 +1295,7 @@
    "scene": {
     "t": "news",
     "headline": "US tariffs on trading partners changed repeatedly in 2025-26",
-    "source": "Congressional Research Service, 2026"
+    "source": "Source: CRS"
    }
   },
   {
@@ -1475,7 +1475,7 @@
    "say": "India is huge, young, and the fastest-growing of the three, with about twenty-eight hundred dollars of output per person.",
    "scene": {
     "t": "split",
-    "title": "The three, 2026",
+    "title": "The three, 2026 (IMF, Apr)",
     "left": {
      "title": "India",
      "items": [
@@ -1497,11 +1497,11 @@
   },
   {
    "who": "ticker",
-   "text": "Brazil: a farm and a mine for the world, selling most of its soybeans to China, with a 13.75% interest rate.",
-   "say": "Brazil is a farm and a mine for the world, selling most of its soybeans to China, with a thirteen point seven five percent interest rate.",
+   "text": "Brazil: a farm and a mine for the world, selling most of its soybeans to China, with a 13.75% interest rate as of September.",
+   "say": "Brazil is a farm and a mine for the world, selling most of its soybeans to China, with a thirteen point seven five percent interest rate as of September.",
    "scene": {
     "t": "split",
-    "title": "The three, 2026",
+    "title": "The three, 2026 (IMF, Apr)",
     "left": {
      "title": "Brazil",
      "items": [
@@ -1527,7 +1527,7 @@
    "say": "Mexico is the richest per person of the three, and America's top goods trading partner.",
    "scene": {
     "t": "split",
-    "title": "The three, 2026",
+    "title": "The three, 2026 (IMF, Apr)",
     "left": {
      "title": "Mexico",
      "items": [
@@ -1599,9 +1599,9 @@
  ],
  "post": {
   "title": "Emerging markets explained: how India, Brazil and Mexico make money (and reach your wallet)",
-  "ig": "Your avocado, your coffee and your generic pills share a secret.",
-  "tiktok": "Your avocado, coffee and generic pills share a secret: India, Brazil, Mexico.",
-  "yt_desc": "India, Brazil and Mexico are three of the world's biggest emerging markets, and they work in very different ways. This video explains what 'emerging markets' means, how India earns from services, generic drugs and the world's largest remittances; how Brazil earns from soybeans, coffee and commodities while running a 13.75% interest rate; and how Mexico became America's top goods trading partner. It ends with three ways these economies reach an American's wallet.\n\nCHAPTERS\n\nSources: IMF World Economic Outlook (April 2026); UN World Population Prospects 2024; World Bank/IFC (1981); MSCI (2026); Federal Reserve G.5A via FRED; Reserve Bank of India; Banco Central do Brasil (Sept 16, 2026); Banxico (Sept 24, 2026); US Census Bureau via CRS (2026); USDA (2025-2026); Government of India Economic Survey (2025); IQVIA via CT Mirror (Oct 2025).\n\nNews and education, not financial advice.\n\n#emergingmarkets #economy #personalfinance",
+  "ig": "83% of America's imported avocados come from one country. Coffee and generic pills have their own answers.",
+  "tiktok": "83% of US imported avocados come from one country. India, Brazil, Mexico explained.",
+  "yt_desc": "India, Brazil and Mexico are three of the world's biggest emerging markets, and they work in very different ways. This video explains what 'emerging markets' means, how India earns from services, generic drugs and the world's largest remittances; how Brazil earns from soybeans, coffee and commodities with a 13.75% interest rate as of September 2026; and how Mexico became America's top goods trading partner. It ends with three ways these economies reach an American's wallet.\n\nCHAPTERS\n\nSources: IMF World Economic Outlook (April 2026); UN World Population Prospects 2024; World Bank/IFC (1981); MSCI (2026); Federal Reserve G.5A via FRED; Reserve Bank of India; Banco Central do Brasil (Sept 16, 2026); Banxico (Sept 24, 2026); US Census Bureau via CRS (2026); USDA (2025-2026); Government of India Economic Survey (2025); IQVIA via CT Mirror (Oct 2025).\n\nNews and education, not financial advice.\n\n#emergingmarkets #economy #personalfinance",
   "tags": [
    "emerging markets explained",
    "india economy",
