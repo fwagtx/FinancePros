@@ -12,62 +12,160 @@
    "who": "ticker",
    "text": "Four companies made about 90% of America's baby formula.",
    "say": "Four companies made about ninety percent of America's baby formula.",
-   "scene": {"t": "hook", "title": "[4] firms, 90% of it", "prop": "box", "label": "Formula", "value": "90%", "mood": "shock"}
+   "scene": {
+    "t": "hook",
+    "title": "[4] firms made 90%",
+    "prop": "box",
+    "label": "Formula",
+    "value": "90%",
+    "mood": "shock"
+   }
   },
   {
    "who": "ticker",
-   "text": "That was 2022. The CPI for baby food and formula rose 31% from 2020 to 2025.",
-   "say": "That was in twenty twenty-two, and the price index for baby food and formula rose thirty-one percent from twenty twenty to twenty twenty-five.",
-   "scene": {"t": "chart", "title": "CPI: baby food & formula", "points": [[2020, 173.1], [2021, 177.6], [2022, 198.1], [2023, 214.7], [2024, 224.5], [2025, 226.7]], "end": "+31%", "color": "up", "mood": "worried"}
+   "text": "That was 2022. From 2020 to 2025, baby food and formula prices rose 31% (CPI).",
+   "say": "That was twenty twenty-two. From twenty twenty to twenty twenty-five, baby food and formula prices rose thirty-one percent.",
+   "scene": {
+    "t": "chart",
+    "title": "CPI: baby food & formula",
+    "points": [
+     [
+      2020,
+      173.1
+     ],
+     [
+      2021,
+      177.6
+     ],
+     [
+      2022,
+      198.1
+     ],
+     [
+      2023,
+      214.7
+     ],
+     [
+      2024,
+      224.5
+     ],
+     [
+      2025,
+      226.7
+     ]
+    ],
+    "end": "+31%",
+    "color": "up",
+    "mood": "worried"
+   }
   },
   {
    "who": "ticker",
-   "text": "The worst year: +11.6% in 2022, after a recall at Abbott's Michigan plant emptied shelves.",
-   "say": "The worst year was twenty twenty-two, up eleven point six percent, after a recall at Abbott's Michigan plant emptied shelves.",
-   "scene": {"t": "chart", "keep": true, "chart_note": {"x": 2022, "text": "+11.6% in 2022"}, "mood": "shock"}
+   "text": "The worst year, 2022, jumped 11.6% after an Abbott recall emptied shelves.",
+   "say": "The worst year, twenty twenty-two, jumped eleven point six percent after an Abbott recall emptied shelves.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2022,
+     "text": "+11.6% in 2022"
+    },
+    "mood": "shock"
+   }
   },
   {
    "who": "ticker",
-   "text": "Imports face US tariffs of up to 17.5%, and were only about 2% of US formula in 2022.",
-   "say": "Imports barely compete: they face US tariffs of up to seventeen and a half percent, and were only about two percent of US formula in twenty twenty-two.",
-   "scene": {"t": "building", "kind": "customs", "name": "US CUSTOMS", "label": "tariff: 17.5%", "caption": "Imports: ~2% in 2022", "mood": "think"}
+   "text": "Imports face tariffs up to 17.5%, and were about 2% of US formula in 2022.",
+   "say": "Imports face tariffs up to seventeen and a half percent, and were about two percent of US formula in twenty twenty-two.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "name": "US CUSTOMS",
+    "label": "tariff: 17.5%",
+    "caption": "Imports: ~2% in 2022",
+    "mood": "think"
+   }
   },
   {
    "who": "ticker",
-   "text": "WIC picks one brand per state. GAO found the winner's shelf price rose 1.7%, about 30¢ a 12-oz can.",
-   "say": "Then there's WIC, the biggest formula buyer, which picks one brand per state, and the GAO found that the winning brand's shelf price rose one point seven percent, about thirty cents a twelve-ounce can.",
-   "scene": {"t": "stat", "label": "WIC winner's price bump", "value": "+1.7%", "tone": "down", "sub": "GAO, 2018-2023 data", "mood": "think"}
+   "text": "WIC, the biggest buyer, picks one brand per state. GAO found that brand's shelf price rose 1.7%.",
+   "say": "WIC, the biggest buyer, picks one brand per state, and the GAO found that brand's shelf price rose one point seven percent.",
+   "scene": {
+    "t": "stat",
+    "label": "WIC winner's price bump",
+    "value": "+1.7%",
+    "tone": "down",
+    "sub": "GAO, 2018-2023 data",
+    "mood": "think"
+   }
   },
   {
    "who": "ticker",
-   "text": "The surprise: every infant formula sold in the US must meet the same FDA nutrient rules, store brands included.",
-   "say": "Here's the part that surprises people: every infant formula sold in the US must meet the same federal nutrient rules, store brands included.",
-   "scene": {"t": "board", "lines": ["Same FDA nutrient rules", "for every US formula,", "store brands included"], "mood": "up"}
+   "text": "The surprise: every US infant formula must meet the same FDA nutrient rules, store brands included.",
+   "say": "The surprise: every US infant formula must meet the same federal nutrient rules, store brands included.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same FDA nutrient rules",
+     "for every US formula,",
+     "store brands included"
+    ],
+    "mood": "up"
+   }
   },
   {
    "who": "ticker",
-   "text": "Example: a 12-lb baby drinks about 30 oz a day, or 900 oz a month. At 12¢ vs 25¢ an ounce: $108 vs $225.",
-   "say": "For example, a twelve-pound baby drinks about thirty ounces a day, or nine hundred a month, so at twelve cents versus twenty-five cents an ounce, that's one hundred eight dollars versus two hundred twenty-five.",
-   "scene": {"t": "compare", "title": "Example: 900 oz a month", "left": {"label": "12¢ per oz", "value": "$108", "tone": "up", "sub": "example price"}, "right": {"label": "25¢ per oz", "value": "$225", "tone": "down", "sub": "example price"}, "mood": "think"}
+   "text": "Example: a 12-lb baby drinks about 900 oz a month. At 12¢ vs 25¢ an ounce: $108 vs $225.",
+   "say": "Say a twelve-pound baby drinks about nine hundred ounces a month: at twelve versus twenty-five cents an ounce, that's one hundred eight versus two hundred twenty-five dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: 900 oz a month",
+    "left": {
+     "label": "12¢ per oz",
+     "value": "$108",
+     "tone": "up",
+     "sub": "example price"
+    },
+    "right": {
+     "label": "25¢ per oz",
+     "value": "$225",
+     "tone": "down",
+     "sub": "example price"
+    },
+    "mood": "think"
+   }
   },
   {
    "who": "ticker",
-   "text": "Same federal nutrient rules, $117 a month apart in this example.",
-   "say": "Same federal nutrient rules, one hundred seventeen dollars a month apart in this example.",
-   "scene": {"t": "compare", "keep": true, "winner": "left", "mood": "happy"}
+   "text": "Same nutrient rules, $117 a month apart in this example.",
+   "say": "Same nutrient rules, one hundred seventeen dollars a month apart in this example.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "happy"
+   }
   },
   {
    "who": "ticker",
    "text": "That's the money. Follow for more.",
    "say": "That's the money. Follow for more.",
-   "scene": {"t": "cta"}
+   "scene": {
+    "t": "cta"
+   }
   }
  ],
  "post": {
-  "title": "4 companies made 90% of US baby formula. Here's why it costs",
+  "title": "Why is baby formula so expensive? 4 firms made 90%",
   "ig": "Four companies made about 90% of America's baby formula in 2022.\nThe US price index for baby food and formula rose 31% from 2020 to 2025, including 11.6% in 2022 alone.\nImports face tariffs up to 17.5% and were about 2% of US formula in 2022. GAO found WIC contract winners' shelf prices rose 1.7%.\nEvery infant formula sold in the US must meet the same FDA nutrient rules, store brands included.\nSources: FTC, BLS, CRS, GAO, FDA, AAP.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#babyformula #parenting #inflation #personalfinance #financeprostv",
-  "tiktok": "4 companies made 90% of US baby formula in 2022. Not financial advice. #moneytok #personalfinance #babyformula #parenting #financeprostv",
+  "tiktok": "Why is baby formula so pricey? 4 firms made 90% of it in 2022. Not financial advice. #moneytok #personalfinance #babyformula #financeprostv",
   "yt_desc": "Four companies made about 90% of US baby formula in 2022, and the BLS price index for baby food and formula rose 31% from 2020 to 2025. Tariffs of up to 17.5% keep imports small, GAO found WIC contracts raise the winning brand's shelf price 1.7%, and every US infant formula must meet the same FDA nutrient rules. Sources: FTC, BLS, CRS, GAO, FDA, AAP. News and education, not financial advice. #Shorts #babyformula #personalfinance",
-  "tags": ["baby formula prices", "why is baby formula so expensive", "cost of a baby", "WIC formula", "store brand formula"]
+  "tags": [
+   "baby formula prices",
+   "why is baby formula so expensive",
+   "cost of a baby",
+   "WIC formula",
+   "store brand formula"
+  ]
  }
 }

@@ -1,0 +1,76 @@
+{
+ "series": "ticker",
+ "header": "How eye doctors\nmake money",
+ "cover": {
+  "title": "Glasses Out-Earn Eye Exams",
+  "prop": "tag",
+  "label": "FY2025",
+  "value": "5x"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Eye exams aren't the real money. Glasses are, 5 to 1.",
+   "say": "Eye exams aren't the real money. Glasses are, five to one.",
+   "scene": {"t": "hook", "title": "Glasses earn [5x]", "prop": "tag", "label": "FY2025", "value": "5x", "mood": "shock"}
+  },
+  {
+   "who": "ticker",
+   "text": "At National Vision, owner of America's Best, eye exams brought in $254.7M in fiscal 2025. Eyeglasses and sunglasses brought in $1.27B.",
+   "say": "At National Vision, the company behind America's Best, eye exams brought in two hundred fifty-four point seven million dollars in fiscal twenty twenty-five. Eyeglasses and sunglasses brought in one point two seven billion.",
+   "scene": {"t": "compare", "title": "National Vision, FY2025",
+     "left": {"label": "Eye exams", "value": "$254.7M", "tone": "neutral", "sub": "exam revenue"},
+     "right": {"label": "Glasses", "value": "$1.27B", "tone": "up", "sub": "eyeglasses + sun"},
+     "mood": "think"}
+  },
+  {
+   "who": "ticker",
+   "text": "Divide one by the other: about $5 of glasses for every $1 of exams.",
+   "say": "Divide one by the other, and that's about five dollars of glasses for every dollar of exams.",
+   "scene": {"t": "board", "lines": ["$1.27B / $254.7M = 4.98", "about $5 of glasses", "per $1 of exams"], "mood": "think"}
+  },
+  {
+   "who": "ticker",
+   "text": "Exams were just 12.8% of its $1.99B in revenue.",
+   "say": "Exams were just twelve point eight percent of its one point nine nine billion dollars in revenue.",
+   "scene": {"t": "stat", "label": "Eye exams' share of revenue, FY2025", "value": "12.8%", "tone": "neutral", "sub": "$254.7M / $1,987.5M (10-K)", "mood": "shock"}
+  },
+  {
+   "who": "ticker",
+   "text": "So the exam works like a front door: it writes the prescription, and the frames are in the same store.",
+   "say": "So the exam works like a front door. It writes the prescription, and the frames are in the same store.",
+   "scene": {"t": "list", "title": "The exam funnel", "items": ["Low-cost or free exam", "Prescription written", "Frames in same store"], "reveal": 3}
+  },
+  {
+   "who": "ticker",
+   "text": "Twist: in Dec 2024, 1,478 of its 2,393 optometrists worked for separate professional corporations, a setup tied to state laws.",
+   "say": "Here's the twist. In December twenty twenty-four, one thousand four hundred seventy-eight of its two thousand three hundred ninety-three optometrists worked for separate professional corporations, a setup tied to state laws.",
+   "scene": {"t": "stat", "label": "Optometrists employed by outside corporations", "value": "1,478", "tone": "neutral", "sub": "of 2,393, Dec 2024 (10-K)", "mood": "shock"}
+  },
+  {
+   "who": "ticker",
+   "text": "The glasses money goes all the way up: Ray-Ban and LensCrafters owner EssilorLuxottica had €28.5B in revenue in 2025.",
+   "say": "And the glasses money goes all the way up. EssilorLuxottica, which owns Ray-Ban and LensCrafters, had twenty-eight point five billion euros in revenue in twenty twenty-five.",
+   "scene": {"t": "chart", "title": "EssilorLuxottica revenue", "points": [[2021, 19.8], [2022, 24.5], [2023, 25.4], [2024, 26.5], [2025, 28.5]], "prefix": "€", "suffix": "B", "end": "€28.5B", "color": "up"}
+  },
+  {
+   "who": "ticker",
+   "text": "One federal rule splits the two: under the FTC Eyeglass Rule, eye doctors must give you a free copy of your prescription right after the exam.",
+   "say": "One federal rule splits the two. Under the F T C Eyeglass Rule, eye doctors must give you a free copy of your prescription right after the exam.",
+   "scene": {"t": "board", "lines": ["FTC Eyeglass Rule:", "free copy of your Rx", "right after the exam"], "mood": "happy"}
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {"t": "cta", "tagline": "How They Make Money"}
+  }
+ ],
+ "post": {
+  "title": "Why glasses, not eye exams, pay the eye care bills",
+  "ig": "Eye exams aren't the real money. Glasses are, 5 to 1.\nNational Vision (America's Best) took in $254.7M from eye exams in fiscal 2025, versus $1.27B from eyeglasses and sunglasses.\nExams were just 12.8% of its $1.99B revenue.\nAs of Dec 2024, 1,478 of its 2,393 optometrists worked for separate professional corporations.\nUnder the FTC Eyeglass Rule, eye doctors must give patients a free copy of their prescription right after the exam.\nSources: National Vision FY2025 and FY2024 Form 10-K, EssilorLuxottica FY2025 results, FTC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#eyecare #glasses #howtheymakemoney #business #financeprostv",
+  "tiktok": "Eye exams aren't the money. Glasses are, 5 to 1 at America's Best's owner in FY2025. Not financial advice. #moneytok #personalfinance #glasses #financeprostv",
+  "yt_desc": "At National Vision, owner of America's Best, eye exams brought in $254.7 million in fiscal 2025 while eyeglasses and sunglasses brought in $1.27 billion, about 5 to 1; exams were 12.8% of $1.99 billion in revenue. Ray-Ban and LensCrafters owner EssilorLuxottica had EUR 28.5 billion in 2025 revenue, and the FTC Eyeglass Rule requires eye doctors to hand patients a free copy of their prescription after the exam. Sources: National Vision Form 10-K, EssilorLuxottica FY2025 results, FTC. News and education, not financial advice. #Shorts #glasses #business",
+  "tags": ["how eye doctors make money", "eyeglasses business model", "national vision 10-k", "ftc eyeglass rule", "how they make money"]
+ }
+}
