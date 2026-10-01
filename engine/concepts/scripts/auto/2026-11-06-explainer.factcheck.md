@@ -20,3 +20,28 @@
 Narration reads fine aloud. The CTA is fine, and the cover and title are paid off.
 
 VERDICT: FAIL
+
+## Round 2 (Oct 1, 2026)
+
+### Fixes confirmed
+- Hook, line 1: "In August 2020, 4 in 5 Indeed job ads hid pay." The Aug 2020 3-month average was 19.84% with pay, so 80.2% had none and "4 in 5" is correct. It is scoped to Indeed and dated. The cover, post title, IG, TikTok and YT description match. The hook is specific and works.
+- Line 2: "A big driver? A wave of laws." is hedged correctly. The chart title "Indeed US posts w/ pay (Aug)" (28 chars) is accurate, and all points are unchanged and correct.
+- Timeline groupings are correct: 2023 = CA (1/1), WA (1/1), NY State (9/17/2023). 2024-25 = HI (1/1/2024), DC (6/30/2024), MD (10/1/2024), IL and MN (1/1/2025), "more" (NJ, VT, MA, plus cities such as Cleveland). Jul 2026 = VA (7/1) and ME (7/29). "More each year since" holds for 2024, 2025 and 2026.
+- Axios card: "Major companies ask Colorado residents not to apply" is a word-for-word truncation of the real June 19, 2021 headline, and it is labeled "(shortened)". Fine.
+- Line 7: the July 2021 date is correct, and the caption is now 28 chars.
+- EU line: it is now framed as a deadline for countries, attributed and dated (Mayer Brown, July 2026), and says "fully". The IG text correctly says "in the job ad or before the interview". This is accurate.
+- Example math unchanged: 15,000 / 60,000 = 25%. No advice, and no prices or predictions.
+
+### Remaining issues
+1. **Line 6 news `source` label "Axios, Jun 19, 2021 (shortened)" is 31 chars, over the 28 limit.** Fix: "Axios, Jun 2021 (shortened)" (27) or "Axios, 6/19/2021 (shortened)" (28).
+2. Minor, line 4: the on-screen text "...like Virginia and Maine, among others." is a bit clunky, and the spoken version leaves out "among others". Optional fix: use "...and more each year since, including Virginia and Maine in 2026." in both text and say.
+3. Minor, line 8 spoken: "Only four of twenty-seven fully did by then" reads awkwardly out loud. Optional fix: "Only four of twenty-seven had fully done it by then."
+
+No new factual errors came from the trims. Issue 1 is the only blocker, because it breaks the 28-character label limit. Once it is fixed, this script passes.
+
+VERDICT: FAIL
+
+## Round 3 (orchestrator)
+- Axios source label now "Axios, 6/19/2021 (shortened)" (28). L4 "including Virginia and Maine in 2026"; L8 spoken "had fully done it by then".
+
+VERDICT: PASS
