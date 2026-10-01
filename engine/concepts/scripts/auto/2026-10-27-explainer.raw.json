@@ -1,0 +1,164 @@
+{
+ "series": "ticker",
+ "header": "Pay yourself first,\non autopilot",
+ "cover": {
+  "title": "One Setting: 37% to 86%",
+  "prop": "chart-up",
+  "label": "SAVERS",
+  "value": "86%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "One setting took 401(k) sign-ups from 37% to 86%.",
+   "say": "One setting took four oh one k sign-ups from thirty-seven to eighty-six percent.",
+   "scene": {
+    "t": "hook",
+    "title": "One setting, [2x] savers",
+    "prop": "chart-up",
+    "label": "SAVERS",
+    "value": "86%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a famous 2001 study, 37% of workers joined the 401(k) when they had to sign up. With automatic enrollment, 86% did.",
+   "say": "In a famous twenty oh one study, thirty-seven percent of workers joined the four oh one k when they had to sign up. With automatic enrollment, eighty-six percent did.",
+   "scene": {
+    "t": "compare",
+    "title": "401(k) participation (Madrian & Shea, 2001)",
+    "left": {
+     "label": "Opt in",
+     "value": "37%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Automatic",
+     "value": "86%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same company, same plan. The only thing that changed was the default.",
+   "say": "Same company, same plan. The only thing that changed was the default.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "401(k) participation (Madrian & Shea, 2001)",
+    "left": {
+     "label": "Opt in",
+     "value": "37%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Automatic",
+     "value": "86%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the idea behind paying yourself first: savings leave on payday, before you get a chance to spend them.",
+   "say": "That's the idea behind paying yourself first. Savings leave on payday, before you get a chance to spend them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Payday",
+     "-> savings first",
+     "-> then spending"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it matters, because Americans saved just 4.1% of their disposable income in August 2026.",
+   "say": "And it matters, because Americans saved just four point one percent of their disposable income in August twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "US personal saving rate, Aug 2026",
+    "value": "4.1%",
+    "tone": "down",
+    "sub": "share of disposable income (BEA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the math on a small automatic transfer: $100 every two weeks is $2,600 a year.",
+   "say": "Here's the math on a small automatic transfer. A hundred dollars every two weeks is twenty-six hundred dollars a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$100 x 26 paydays",
+     "= $2,600 a year",
+     "(example)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Common ways people automate it: a split direct deposit, a payday transfer, a 401(k), or auto-increase.",
+   "say": "Common ways people automate it: a split direct deposit, a payday transfer, a four oh one k, or an automatic increase.",
+   "scene": {
+    "t": "list",
+    "title": "Ways to automate",
+    "items": [
+     "Split direct deposit",
+     "Payday transfer",
+     "401(k) contribution",
+     "Auto-increase"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inertia usually works against saving. Automation flips it so doing nothing means saving.",
+   "say": "Inertia usually works against saving. Automation flips it, so doing nothing means you save.",
+   "scene": {
+    "t": "split",
+    "title": "What doing nothing does",
+    "left": {
+     "title": "Manual saving",
+     "items": [
+      "Do nothing = save $0"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Automatic",
+     "items": [
+      "Do nothing = save"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "One setting took 401(k) sign-ups from 37% to 86%",
+  "ig": "One setting took 401(k) sign-ups from 37% to 86%.\n\nMadrian & Shea (2001): 401(k) participation was 37% when workers had to opt in, 86% with automatic enrollment.\nUS personal saving rate: 4.1% of disposable income in August 2026 (BEA).\nExample: $100 every two weeks = $2,600 a year.\n\nSources: Quarterly Journal of Economics (2001), BEA (Sept 30, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#savings #budgeting #payyourselffirst #personalfinance #financeprostv",
+  "tiktok": "Opt-in: 37% saved. Automatic: 86%. Pay yourself first, on autopilot. Not financial advice. #moneytok #personalfinance #savings #financeprostv",
+  "yt_desc": "In Madrian and Shea's 2001 study, 401(k) participation was 37% when workers had to opt in and 86% with automatic enrollment. Americans saved just 4.1% of disposable income in August 2026 (BEA). Paying yourself first means savings leave automatically on payday; $100 every two weeks is $2,600 a year. Sources: QJE (2001), BEA.\n\nNews and education, not financial advice.\n\n#Shorts #savings #budgeting",
+  "tags": [
+   "pay yourself first",
+   "automate savings",
+   "automatic enrollment",
+   "saving money",
+   "personal finance"
+  ]
+ }
+}
