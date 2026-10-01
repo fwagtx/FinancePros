@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "The average new car sold for over $50,000 in August.",
-   "say": "The average new car sold for over fifty thousand dollars in August.",
+   "text": "New cars averaged over $50,000 in August 2026.",
+   "say": "New cars averaged over fifty thousand dollars in August twenty twenty-six.",
    "scene": {
     "t": "hook",
     "title": "The [$50,000] car",
@@ -44,7 +44,7 @@
    "say": "Kelley Blue Book says the average new vehicle went for fifty thousand eighty-nine dollars in August twenty twenty-six, the first month of twenty twenty-six above fifty thousand.",
    "scene": {
     "t": "stat",
-    "label": "Avg new-vehicle price paid, Aug 2026",
+    "label": "Avg new-car price, Aug 2026",
     "value": "$50,089",
     "tone": "down",
     "sub": "Kelley Blue Book, Sept 2026"
@@ -154,7 +154,7 @@
    "say": "In the second quarter of twenty twenty-six, the average new-car payment was seven hundred sixty-five dollars a month, according to Experian.",
    "scene": {
     "t": "stat",
-    "label": "Avg new-car loan payment, Q2 2026",
+    "label": "Avg new-car payment, Q2 2026",
     "value": "$765/mo",
     "tone": "down",
     "sub": "Experian, Q2 2026"
@@ -174,8 +174,8 @@
   },
   {
    "who": "ticker",
-   "text": "Stretching lowers the payment but adds interest. We ran that math in an earlier video.",
-   "say": "Stretching lowers the payment but adds interest. We ran that math in an earlier video.",
+   "text": "Stretching lowers the payment but adds interest. We ran that math in our October 11 video.",
+   "say": "Stretching lowers the payment but adds interest. We ran that math in our October 11 video.",
    "scene": {
     "t": "split",
     "title": "Stretching the loan",
@@ -295,7 +295,7 @@
    "say": "That's four thousand six hundred eighty dollars more than the handshake price, and that's the number the budget has to cover.",
    "scene": {
     "t": "stat",
-    "label": "Example: extra on top of agreed price",
+    "label": "Example: extra over price",
     "value": "+$4,680",
     "tone": "down",
     "sub": "add-ons, fee, tax, title"
@@ -347,7 +347,7 @@
    "say": "That's just an example. Lenders often cap the markup, and the C F P B notes the rate is negotiable.",
    "scene": {
     "t": "stat",
-    "label": "Who says the loan rate is negotiable",
+    "label": "Says loan rate negotiable",
     "value": "CFPB",
     "tone": "neutral",
     "sub": "consumerfinance.gov"
@@ -412,7 +412,7 @@
    "say": "That's nineteen hundred ninety-one dollars and fifty-three cents more: the two thousand dollars from the start.",
    "scene": {
     "t": "stat",
-    "label": "Example: extra interest from +2 points",
+    "label": "Example: +2 points interest",
     "value": "$1,991.53",
     "tone": "down",
     "sub": "$35,000, 60 months"
@@ -447,9 +447,9 @@
      "tone": "up"
     },
     "right": {
-     "title": "Dealer must",
+     "title": "Dealer can",
      "items": [
-      "Match or beat it"
+      "Try to beat it"
      ],
      "tone": "neutral"
     }
@@ -461,7 +461,7 @@
    "say": "Worried about credit checks? The C F P B says auto-loan inquiries within a fourteen to forty-five day window generally count as one.",
    "scene": {
     "t": "stat",
-    "label": "Days auto-loan checks count as one",
+    "label": "Days checks count as one",
     "value": "14-45",
     "tone": "up",
     "sub": "CFPB; depends on score model"
@@ -523,10 +523,6 @@
       49456
      ],
      [
-      5,
-      49220
-     ],
-     [
       6,
       49758
      ],
@@ -563,7 +559,7 @@
    "say": "Cox Automotive says the average used-car listing was twenty-seven thousand two hundred thirty-nine dollars in August twenty twenty-six, up seven percent from a year earlier.",
    "scene": {
     "t": "stat",
-    "label": "Avg used-vehicle listing price, Aug 2026",
+    "label": "Avg used listing, Aug 2026",
     "value": "$27,239",
     "tone": "down",
     "sub": "Cox Automotive, +7% YoY"
@@ -605,8 +601,8 @@
   },
   {
    "who": "ticker",
-   "text": "On average in August, that gap was about 3.4% below sticker.",
-   "say": "On average in August, that gap was about three point four percent below sticker.",
+   "text": "In August 2026, that average gap was about 3.4% below sticker.",
+   "say": "In August twenty twenty-six, that average gap was about three point four percent below sticker.",
    "scene": {
     "t": "board",
     "lines": [
@@ -751,7 +747,7 @@
     "events": [
      {
       "when": "Jan 2024",
-      "what": "FTC finalizes CARS Rule"
+      "what": "CARS Rule published"
      },
      {
       "when": "Jan 2025",
@@ -822,7 +818,7 @@
    "say": "The buyer pays eighteen hundred seven dollars and seventy-seven cents for them, including three hundred seven dollars and seventy-seven cents in interest.",
    "scene": {
     "t": "stat",
-    "label": "Example: interest on financed add-ons",
+    "label": "Example: add-on interest",
     "value": "$307.77",
     "tone": "down",
     "sub": "$1,500 at 6.35%, 72 months"
@@ -866,7 +862,7 @@
   },
   {
    "who": "ticker",
-   "text": "Example: a $38,000 car and a $15,000 trade, with 6% tax. Without the credit, tax is $2,280.",
+   "text": "For example, a $38,000 car and a $15,000 trade, with 6% tax. Without the credit, tax is $2,280.",
    "say": "For example, a thirty-eight thousand dollar car and a fifteen thousand dollar trade, with six percent tax. Without the credit, tax is two thousand two hundred eighty dollars.",
    "scene": {
     "t": "compare",
@@ -901,7 +897,7 @@
    "say": "Edmunds says twenty-nine point six percent of trade-ins toward new cars had negative equity in the second quarter of twenty twenty-six.",
    "scene": {
     "t": "stat",
-    "label": "New-car trade-ins with negative equity",
+    "label": "New-car trade-ins underwater",
     "value": "29.6%",
     "tone": "down",
     "sub": "Edmunds, Q2 2026",
@@ -960,8 +956,8 @@
   },
   {
    "who": "ticker",
-   "text": "In Edmunds' data, those buyers paid $944 a month on average in the second quarter, versus $777 for all new-car loans.",
-   "say": "In Edmunds' data, those buyers paid nine hundred forty-four dollars a month on average in the second quarter, versus seven hundred seventy-seven for all new-car loans.",
+   "text": "In Edmunds' data, those buyers paid $944 a month on average in Q2 2026, versus $777 for all new-car loans.",
+   "say": "In Edmunds' data, those buyers paid nine hundred forty-four dollars a month on average in the second quarter of twenty twenty-six, versus seven hundred seventy-seven for all new-car loans.",
    "scene": {
     "t": "compare",
     "title": "Avg new-car payment, Q2 2026",
@@ -981,13 +977,13 @@
   },
   {
    "who": "ticker",
-   "text": "And their projected interest averaged $16,270, compared with $9,811 for the typical new-car buyer.",
-   "say": "And their projected interest averaged sixteen thousand two hundred seventy dollars, compared with nine thousand eight hundred eleven dollars for the typical new-car buyer.",
+   "text": "And their projected interest averaged $16,270, compared with $9,811 for the average new-car buyer.",
+   "say": "And their projected interest averaged sixteen thousand two hundred seventy dollars, compared with nine thousand eight hundred eleven dollars for the average new-car buyer.",
    "scene": {
     "t": "compare",
     "title": "Projected loan interest, Q2 2026",
     "left": {
-     "label": "Typical buyer",
+     "label": "Avg new-car buyer",
      "value": "$9,811",
      "tone": "neutral",
      "sub": "Edmunds"
@@ -1044,7 +1040,7 @@
    "say": "The F T C says federal law doesn't require dealers to give buyers three days to cancel. Its Cooling-Off Rule doesn't cover cars.",
    "scene": {
     "t": "stat",
-    "label": "Federal right to return a car",
+    "label": "Federal car return right",
     "value": "None",
     "tone": "down",
     "sub": "FTC consumer guidance"
@@ -1052,14 +1048,14 @@
   },
   {
    "who": "ticker",
-   "text": "Some states do have one. Under California's CARS Act, used cars priced at $50,000 or less can be returned within three days.",
-   "say": "Some states do have one. Under California's CARS Act, used cars priced at fifty thousand dollars or less can be returned within three days.",
+   "text": "California now does. Under its CARS Act, used cars priced at $50,000 or less can be returned within three days.",
+   "say": "California now does. Under its CARS Act, used cars priced at fifty thousand dollars or less can be returned within three days.",
    "scene": {
     "t": "list",
     "title": "California 3-day return",
     "items": [
      "Used, $50,000 or less",
-     "Under 400 miles driven",
+     "400 miles or less",
      "Restocking fee capped"
     ],
     "reveal": 1
@@ -1128,7 +1124,7 @@
    "say": "One newer rule can help new-car buyers: a federal tax deduction for car loan interest, for tax years twenty twenty-five through twenty twenty-eight.",
    "scene": {
     "t": "stat",
-    "label": "Max car loan interest deduction per year",
+    "label": "Max deduction per year",
     "value": "$10,000",
     "tone": "up",
     "sub": "tax years 2025-2028"
@@ -1144,7 +1140,7 @@
     "items": [
      "New, not used",
      "Final assembly in US",
-     "Personal use, loan",
+     "Personal use",
      "Loan after 2024"
     ],
     "reveal": 4
@@ -1190,7 +1186,7 @@
    "say": "What's it worth? On our thirty-five thousand dollar example at six point three five percent, first-year interest is two thousand forty-five dollars and seventy-seven cents.",
    "scene": {
     "t": "stat",
-    "label": "Example: first-year interest, $35,000 loan",
+    "label": "Example: year-1 interest",
     "value": "$2,045.77",
     "tone": "neutral",
     "sub": "6.35%, 60 months"
@@ -1219,13 +1215,13 @@
   },
   {
    "who": "ticker",
-   "text": "Helpful, but it's smaller than the roughly $1,992 that a two-point rate markup cost in our earlier example.",
-   "say": "Helpful, but it's smaller than the roughly nineteen hundred ninety-two dollars that a two-point rate markup cost in our earlier example.",
+   "text": "Helpful, but a first-year value of about $450 is smaller than the roughly $1,992 a two-point markup cost over five years in our example.",
+   "say": "Helpful, but a first-year value of about four hundred fifty dollars is smaller than the roughly nineteen hundred ninety-two dollars a two-point markup cost over five years in our example.",
    "scene": {
     "t": "compare",
     "title": "Example comparison",
     "left": {
-     "label": "Tax break, yr 1",
+     "label": "Tax value, yr 1",
      "value": "~$450",
      "tone": "up",
      "sub": "22% bracket"
@@ -1386,15 +1382,15 @@
     "lines": [
      "Price + rate",
      "+ trade-in + fees",
-     "= what you really pay"
+     "= what a buyer pays"
     ],
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "The average new car went for $50,089 in August. What a buyer pays depends on the other three numbers.",
-   "say": "The average new car went for fifty thousand eighty-nine dollars in August. What a buyer pays depends on the other three numbers.",
+   "text": "The average new car went for $50,089 in August 2026. What a buyer pays depends on the other three numbers.",
+   "say": "The average new car went for fifty thousand eighty-nine dollars in August twenty twenty-six. What a buyer pays depends on the other three numbers.",
    "scene": {
     "t": "hook",
     "title": "The [$50,000] car",
@@ -1418,7 +1414,7 @@
   "title": "The average new car sold for over $50,000. How buyers avoid overpaying, step by step",
   "ig": "The average new car sold for $50,089 in August 2026. Here's the math on the other three numbers in the deal.",
   "tiktok": "A $50,089 average new car, and a 2-point rate bump that costs about $2,000. The full car-buying math.",
-  "yt_desc": "The average new vehicle sold for $50,089 in August 2026, but the sticker is only one of four numbers that decide what a buyer pays. This guide walks through buying a car in order: budgeting on the out-the-door price, how dealer-arranged loan rates work and what a 2-point markup costs, finding a fair price, doc fees and add-ons (including California's CARS Act, in effect October 1, 2026), trade-ins and negative equity, and the signing-day rules, including the new federal car loan interest deduction. All loan examples are labeled hypotheticals with fixed rates and no fees. It ends with the common mistakes and a one-screen checklist.\n\nCHAPTERS\n\nSources: Kelley Blue Book average transaction price reports (Jan-Sept 2026); Cox Automotive used-vehicle inventory report (Sept 2026); Experian State of the Automotive Finance Market Q2 2026; Edmunds negative equity report (July 2026); CFPB Ask CFPB on buy rates and auto-loan rate shopping; FTC guidance on buying a used car and the Cooling-Off Rule; Fifth Circuit, NADA v. FTC (Jan 27, 2025); California SB 766, CARS Act (effective Oct 1, 2026), via Press Democrat (Sept 24, 2026); California Vehicle Code 4456.5 and CalMatters (Oct 2025); CarEdge doc fee survey (2026); IRS and Federal Register, car loan interest deduction final regulations (Sept 2026).\n\nNews and education, not financial advice.\n\n#carbuying #personalfinance #autoloan",
+  "yt_desc": "The average new vehicle sold for $50,089 in August 2026, but the sticker is only one of four numbers that decide what a buyer pays. This guide walks through buying a car in order: budgeting on the out-the-door price, how dealer-arranged loan rates work and what a 2-point markup costs, finding a fair price, doc fees and add-ons (including California's CARS Act, in effect October 1, 2026), trade-ins and negative equity, and the signing-day rules, including the new federal car loan interest deduction. All loan examples are labeled hypotheticals with fixed rates and no fees. It ends with the common mistakes and a one-screen checklist.\n\nCHAPTERS\n\nSources: Kelley Blue Book average transaction price reports (Jan–Aug 2026); Cox Automotive used-vehicle report (August 2026 data); Experian State of the Automotive Finance Market Q2 2026; Edmunds negative equity report (Q2 2026); CFPB Ask CFPB on buy rates and auto-loan rate shopping; FTC guidance on buying a used car and the Cooling-Off Rule; Fifth Circuit, NADA v. FTC (Jan 27, 2025); California SB 766, CARS Act (effective Oct 1, 2026), via Press Democrat (Sept 24, 2026); California Vehicle Code 4456.5 and CalMatters (Oct 2025); CarEdge doc fee survey (2026); IRS and Federal Register, car loan interest deduction final regulations (Sept 2026).\n\nNews and education, not financial advice.\n\n#carbuying #personalfinance #autoloan",
   "tags": [
    "how to buy a car",
    "car buying tips",

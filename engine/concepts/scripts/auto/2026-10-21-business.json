@@ -1,0 +1,169 @@
+{
+ "id": "2026-10-21-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How nail salons\nmake money",
+ "cover": {
+  "title": "Nail Salons Keep 22¢ Per Dollar",
+  "prop": "bill",
+  "label": "$1",
+  "value": "22¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Nail salons kept about 22¢ of every $1 (employer salons, 2022).",
+   "say": "Nail salons keep about twenty-two cents of every dollar.",
+   "scene": {
+    "t": "hook",
+    "title": "Keep [22¢] per dollar",
+    "prop": "bill",
+    "label": "$1",
+    "value": "22¢",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Census, salons with employees, 2022: $12.9 billion in, $10.1 billion out, before income taxes.",
+   "say": "Census data for salons with employees: twelve point nine billion in, ten point one billion out, before income taxes.",
+   "scene": {
+    "t": "compare",
+    "title": "Employer salons, 2022",
+    "left": {
+     "label": "Revenue",
+     "value": "$12.9B",
+     "tone": "up",
+     "sub": "Census SAS, 2022"
+    },
+    "right": {
+     "label": "Expenses",
+     "value": "$10.1B",
+     "tone": "down",
+     "sub": "Census SAS, 2022"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Latest in the Census Service Annual Survey: revenue dipped to $6.4 billion in 2020, then hit $12.9 billion in 2022.",
+   "say": "The survey's latest data shows revenue dipped to six point four billion in twenty twenty, then hit twelve point nine billion in twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "title": "Revenue, $B (Census SAS)",
+    "points": [
+     [
+      2019,
+      8.2
+     ],
+     [
+      2020,
+      6.4
+     ],
+     [
+      2021,
+      10.9
+     ],
+     [
+      2022,
+      12.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$12.9B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A single salon can run tighter. Hypothetical $30 manicure: a 50% commission, a common rule of thumb, sends $15 to the tech.",
+   "say": "A single salon can run tighter. Take a hypothetical thirty-dollar manicure: a fifty percent commission, a common rule of thumb, sends fifteen dollars to the tech.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $30 manicure",
+     "Tech, 50% commission: -$15"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Assume $3 for supplies and $8 for rent and bills. That leaves $4, about 13%.",
+   "say": "Assume three dollars for supplies and eight for rent and bills. That leaves four dollars, about thirteen percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "-$3 supplies (assumed)",
+     "-$8 rent, bills (assumed)",
+     "= $4 left (13%)"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for techs, median pay was $17.19 an hour in May 2025.",
+   "say": "And for techs, median pay was seventeen dollars and nineteen cents an hour in May twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Median manicurist pay",
+    "value": "$17.19/hr",
+    "tone": "neutral",
+    "sub": "BLS, May 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ways salons boost that margin: more clients per chair, add-ons like gel, and renting chairs to techs.",
+   "say": "Ways salons boost that margin: more clients per chair, add-ons like gel, and renting chairs to techs.",
+   "scene": {
+    "t": "list",
+    "title": "Ways salons boost margin",
+    "items": [
+     "More clients per chair",
+     "Add-ons like gel",
+     "Renting chairs to techs"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the example, rent is fixed, so one extra client adds $12.",
+   "say": "In our example, rent is fixed, so one extra client adds twelve dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rent is fixed",
+     "Extra client: +$12",
+     "$30 - $15 - $3"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Nail salons keep about 22 cents of every dollar",
+  "ig": "Nail salons keep about 22 cents of every dollar.\n\nCensus data for salons with employees, 2022: $12.9B in revenue, $10.1B in expenses, before income taxes (latest in the Census Service Annual Survey).\nRevenue dipped to $6.4B in 2020, then reached $12.9B in 2022.\nA single salon can run tighter. Hypothetical $30 manicure: $15 to the tech at a 50% commission (a common rule of thumb), $3 supplies and $8 rent and bills (assumed) leave $4, about 13%.\nMedian manicurist pay was $17.19 an hour in May 2025 (BLS).\n\nSources: US Census Bureau Service Annual Survey (via FRED), BLS OEWS May 2025, Zenoti.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#nailsalon #smallbusiness #howtheymakemoney #businessmodel #financeprostv",
+  "tiktok": "Nail salons keep about 22 cents of every dollar. Not financial advice. #moneytok #personalfinance #nailsalon #smallbusiness #financeprostv",
+  "yt_desc": "In 2022, US nail salons with employees took in $12.9 billion and spent $10.1 billion, keeping about 22 cents of every dollar before income taxes, per the latest Census Service Annual Survey. A hypothetical $30 manicure shows how a single salon can run tighter, and median manicurist pay was $17.19 an hour in May 2025 (BLS). News and education, not financial advice.\n#Shorts #smallbusiness #nailsalon",
+  "tags": [
+   "nail salon business",
+   "how nail salons make money",
+   "small business margins",
+   "nail salon economics",
+   "how they make money"
+  ]
+ }
+}
