@@ -1,0 +1,188 @@
+{
+ "series": "ticker",
+ "header": "How buy now, pay\nlater makes money",
+ "cover": {
+  "title": "Pay Later, Pay Interest?",
+  "prop": "card",
+  "label": "FY2026",
+  "value": "48%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026, Affirm made 48% of its revenue from interest.",
+   "say": "Affirm made nearly half its fiscal twenty twenty-six revenue from interest.",
+   "scene": {
+    "t": "hook",
+    "title": "The [interest] engine",
+    "prop": "card",
+    "label": "FY2026",
+    "value": "48%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Isn't pay later supposed to be interest-free? Here's Affirm's $4.26B.",
+   "say": "Isn't pay later supposed to be interest-free? Here's Affirm's four point two six billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Affirm revenue, FY2026",
+    "value": "$4.26B",
+    "tone": "up",
+    "sub": "Year to June 30, 2026, 10-K",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Interest from borrowers brought in about $2.05B.",
+   "say": "Interest from borrowers brought in about two point zero five billion.",
+   "scene": {
+    "t": "list",
+    "title": "Affirm FY2026 revenue",
+    "items": [
+     "Interest: $2.05B",
+     "Merchant fees: $1.15B",
+     "Other: $1.06B"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Store fees were about $1.15B, roughly a quarter.",
+   "say": "Store fees were about one point one five billion, roughly a quarter.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Affirm FY2026 revenue",
+    "items": [
+     "Interest: $2.05B",
+     "Merchant fees: $1.15B",
+     "Other: $1.06B"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The last $1.06B: its card, loan sales and servicing.",
+   "say": "The last one point zero six billion: its card, loan sales and servicing.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Affirm FY2026 revenue",
+    "items": [
+     "Interest: $2.05B",
+     "Merchant fees: $1.15B",
+     "Other: $1.06B"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Affirm says stores pay more for 0% deals, but 70% of its FY2026 volume carried interest, up to 36% APR.",
+   "say": "Affirm says stores pay more for zero percent deals, but seventy percent of its volume carried interest, up to thirty-six percent A P R.",
+   "scene": {
+    "t": "compare",
+    "title": "Affirm FY2026 volume",
+    "left": {
+     "label": "0% plans",
+     "value": "30%",
+     "tone": "neutral",
+     "sub": "Pay-in-X + 0% APR"
+    },
+    "right": {
+     "label": "With interest",
+     "value": "70%",
+     "tone": "up",
+     "sub": "APR up to 36%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hypothetical $1,000 over 12 months at 15% APR is $90.26 a month: $83.12 of interest.",
+   "say": "A hypothetical thousand dollars over twelve months at fifteen percent A P R is ninety dollars and twenty-six cents a month: eighty-three dollars and twelve cents of interest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hypothetical: $1,000",
+     "12 mo at 15% = $90.26/mo",
+     "Interest: $83.12"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Klarna, public since September 2025, got only about 27% of its 2025 revenue from interest.",
+   "say": "Klarna, public since September twenty twenty-five, got only about twenty-seven percent of its twenty twenty-five revenue from interest.",
+   "scene": {
+    "t": "compare",
+    "title": "Revenue from interest",
+    "left": {
+     "label": "Affirm",
+     "value": "48%",
+     "tone": "up",
+     "sub": "FY to June 2026"
+    },
+    "right": {
+     "label": "Klarna",
+     "value": "27%",
+     "tone": "neutral",
+     "sub": "Calendar 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So pay later runs on two engines: store fees and borrower interest.",
+   "say": "So pay later runs on two engines: store fees and borrower interest.",
+   "scene": {
+    "t": "split",
+    "title": "Who pays BNPL",
+    "left": {
+     "title": "Stores pay",
+     "items": [
+      "Merchant fees",
+      "Bigger on 0% deals"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Borrowers pay",
+     "items": [
+      "Interest",
+      "APR up to 36%"
+     ],
+     "tone": "up"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Affirm made 48% of FY2026 revenue from interest",
+  "ig": "Affirm made nearly half its fiscal 2026 revenue from interest, not merchant fees.\n\nFY2026 (year to June 30, 2026): $4.26B revenue. Interest $2.05B (48%), merchant fees $1.15B (27%), other $1.06B (card, loan sales, servicing).\n70% of Affirm's FY2026 volume was interest-bearing loans; APRs run 0% to 36%.\nKlarna (public since Sept 2025): interest was about 27% of its $3.51B revenue in 2025.\nHypothetical: $1,000 over 12 months at 15% APR = $90.26 a month, $83.12 interest.\n\nSources: Affirm Form 10-K FY2026, Klarna Form 20-F FY2025.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#buynowpaylater #affirm #klarna #howtheymakemoney #financeprostv",
+  "tiktok": "Affirm made 48% of its FY2026 revenue from interest, not store fees. Not financial advice. #moneytok #personalfinance #buynowpaylater #financeprostv",
+  "yt_desc": "Affirm's fiscal 2026 10-K (year to June 30, 2026) shows $4.26B in revenue: $2.05B interest (48%), $1.15B merchant fees (27%) and $1.06B other. Klarna's 2025 Form 20-F shows interest was about 27% of its $3.51B revenue. Sources: Affirm 10-K FY2026, Klarna 20-F FY2025.\n\nNews and education, not financial advice.\n\n#Shorts #buynowpaylater #affirm",
+  "tags": [
+   "how buy now pay later makes money",
+   "affirm revenue",
+   "klarna revenue",
+   "bnpl business model",
+   "affirm interest income"
+  ]
+ }
+}
