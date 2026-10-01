@@ -13,6 +13,7 @@ News slots (morning, bigstory, lf-big) are only made on their own day.
   python engine/session.py fallback <slot>              # a news slot had no confirmed story: switch it to its evergreen show
   python engine/session.py build <slot> <script.json>   # sanitize, render, quality report, host; prints the Metricool posts
   python engine/session.py record <slot> scheduled|skipped|failed [--note ...] [--ids ...]
+  python engine/session.py rehost <slot>                # re-upload a slot's files under new names (Metricool "Failed to normalize media")
   python engine/session.py status                       # today's slots and the buffer
 A <slot> is "YYYY-MM-DD-show", e.g. 2026-10-05-explainer.
 
@@ -122,6 +123,8 @@ Create each printed post with the Metricool createScheduledPost tool (blogId 709
 (info as a JSON string). Then:
   python engine/session.py record {sid} scheduled --ids <uuid of each created post>
 If a post marked optional (Threads) fails, still record scheduled and mention it in --note.
+If a post fails with "Failed to normalize media", run  python engine/session.py rehost {sid}  and create that post again
+from the rewritten posts file (Metricool sometimes refuses a URL but accepts the same file under a new name).
 """
 
 
@@ -252,6 +255,27 @@ def build(sid, raw):
     print(json.dumps(posts, indent=1, ensure_ascii=False))
 
 
+def rehost(sid):
+    """Metricool sometimes rejects a URL for good ("Failed to normalize media") but takes the same file under a new name:
+    re-upload this slot's video, cover and TikTok copy with a fresh suffix and point its posts file at them."""
+    import publish, urllib.request
+    date, show = split_slot(sid); pp = os.path.join(AUTO, f"{sid}.posts.json"); posts = json.load(open(pp))
+    tag = dt.datetime.now(TZ).strftime("r%H%M%S"); new = {}
+    for p in posts:
+        for url in p["info"]["media"] + [p["info"].get("videoThumbnailUrl")]:
+            if not url or url in new: continue
+            base, ext = os.path.splitext(url.rsplit("/", 1)[1]); local = os.path.join(AUTO, f"{base}-{tag}{ext}")
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=120) as r:
+                open(local, "wb").write(r.read())
+            new[url] = host([local], date)[0]; os.remove(local)
+            if not publish.wait_public(new[url], 30): raise SystemExit(f"not reachable yet: {new[url]}")
+    for p in posts:
+        p["info"]["media"] = [new[u] for u in p["info"]["media"]]
+        if p["info"].get("videoThumbnailUrl"): p["info"]["videoThumbnailUrl"] = new[p["info"]["videoThumbnailUrl"]]
+    json.dump(posts, open(pp, "w"), indent=1, ensure_ascii=False)
+    print(f"REHOSTED {sid}: {pp} now uses fresh URLs; create (or update) the posts that failed with them.")
+
+
 def record(sid, status, note, ids):
     pull(); now = dt.datetime.now(TZ); date, show = split_slot(sid); st = load_state(date); rec = st.setdefault(show, {})
     rec.update(status=status, finished=now.isoformat(timespec="minutes"))
@@ -286,6 +310,7 @@ def main():
     elif a.cmd == "next": nxt(a.until, a.ahead, a.start)
     elif a.cmd == "fallback": fallback(a.args[0])
     elif a.cmd == "build": build(a.args[0], a.args[1])
+    elif a.cmd == "rehost": rehost(a.args[0])
     elif a.cmd == "record": record(a.args[0], a.args[1], a.note, a.ids)
     elif a.cmd == "status": status()
     else: ap.error("unknown command")
