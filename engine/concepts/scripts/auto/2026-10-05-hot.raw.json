@@ -83,7 +83,7 @@
      "title": "Next year",
      "items": [
       "FICA can be refunded",
-      "\u2264$3,000: no deduction"
+      "≤$3,000: no deduction"
      ],
      "tone": "down"
     }
@@ -91,12 +91,12 @@
   },
   {
    "who": "ticker",
-   "text": "Repay $3,000 or less in a later year, and the IRS allows no deduction, a rule made permanent in 2025. Over $3,000, Section 1341 can help.",
-   "say": "Repay three thousand dollars or less in a later year, and the IRS allows no deduction, a rule made permanent in twenty twenty-five. Over three thousand, Section thirteen forty-one can help.",
+   "text": "Repay $3,000 or less in a later year, and there's no deduction, a rule made permanent in 2025. Over $3,000, Section 1341 can help.",
+   "say": "Repay three thousand dollars or less in a later year, and there's no deduction, a rule made permanent in twenty twenty-five. Over three thousand, Section thirteen forty-one can help.",
    "scene": {
     "t": "stat",
     "label": "Repaid later: no deduction",
-    "value": "\u2264$3,000",
+    "value": "≤$3,000",
     "tone": "down",
     "sub": "over $3,000: Section 1341",
     "mood": "angry"
@@ -104,8 +104,8 @@
   },
   {
    "who": "ticker",
-   "text": "In a 22% bracket, that's $550 of federal tax on money you gave back.",
-   "say": "In a twenty-two percent bracket, that's five hundred fifty dollars of federal tax on money you gave back.",
+   "text": "On that example, a 22% bracket means $550 of federal tax on money given back.",
+   "say": "On that example, a twenty-two percent bracket means five hundred fifty dollars of federal tax on money given back.",
    "scene": {
     "t": "compare",
     "title": "Example, 22% bracket",

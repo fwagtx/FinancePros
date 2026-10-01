@@ -58,8 +58,8 @@
   },
   {
    "who": "ticker",
-   "text": "Today we'll follow the money from your paycheck to a retiree's mailbox, do the benefit math, and see what 'run out' really means.",
-   "say": "Today we'll follow the money from your paycheck to a retiree's mailbox, do the benefit math, and see what run out really means.",
+   "text": "Today we'll follow the money from paycheck to mailbox, do the benefit math, and see what 'run out' really means. No predictions, just official numbers.",
+   "say": "Today we'll follow the money from paycheck to mailbox, do the benefit math, and see what run out really means. No predictions, just official numbers.",
    "scene": {
     "t": "list",
     "title": "The plan",
@@ -71,20 +71,6 @@
     ],
     "reveal": 4,
     "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "No predictions here. Just the rules, the numbers and the official projections.",
-   "say": "No predictions here. Just the rules, the numbers and the official projections.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Rules",
-     "Numbers",
-     "Official projections"
-    ],
-    "mood": "happy"
    }
   },
   {
@@ -346,8 +332,8 @@
   },
   {
    "who": "ticker",
-   "text": "Then comes the formula, and it's tilted on purpose. The first dollars count the most.",
-   "say": "Then comes the formula, and it's tilted on purpose. The first dollars count the most.",
+   "text": "The formula is tilted on purpose. For people first eligible in 2026, it's 90% of the first $1,286 of that average.",
+   "say": "The formula is tilted on purpose. For people first eligible in twenty twenty-six, it's ninety percent of the first one thousand, two hundred eighty-six dollars of that average.",
    "scene": {
     "t": "list",
     "title": "2026 benefit formula",
@@ -356,16 +342,6 @@
      "32% up to $7,749",
      "15% above $7,749"
     ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "For people first eligible in 2026, you get 90% of the first $1,286 of that monthly average.",
-   "say": "For people first eligible in twenty twenty-six, you get ninety percent of the first one thousand, two hundred eighty-six dollars of that monthly average.",
-   "scene": {
-    "t": "list",
-    "keep": true,
     "reveal": 1
    }
   },
@@ -477,7 +453,7 @@
     "t": "hook",
     "title": "Full age: [67]",
     "prop": "tag",
-    "label": "BORN 1960+",
+    "label": "1960+",
     "value": "67"
    }
   },
@@ -539,8 +515,8 @@
   },
   {
    "who": "ticker",
-   "text": "Earlier means more checks, later means bigger checks. Which one pays more overall depends on how long someone lives.",
-   "say": "Earlier means more checks, later means bigger checks. Which one pays more overall depends on how long someone lives.",
+   "text": "Earlier means more checks, later means bigger ones. Which pays more overall depends on how long someone lives.",
+   "say": "Earlier means more checks, later means bigger ones. Which pays more overall depends on how long someone lives.",
    "scene": {
     "t": "split",
     "title": "The trade-off",
@@ -753,8 +729,8 @@
   },
   {
    "who": "ticker",
-   "text": "The 1983 law also helped the trust funds build a big cushion, because the baby boomers were still working and paying in.",
-   "say": "The nineteen eighty-three law also helped the trust funds build a big cushion, because the baby boomers were still working and paying in.",
+   "text": "After that fix, the funds went from nearly empty to a cushion of about $2.9 trillion by 2020.",
+   "say": "After that fix, the funds went from nearly empty to a cushion of about two point nine trillion dollars by twenty twenty.",
    "scene": {
     "t": "hook",
     "title": "Building a [cushion]",
@@ -990,8 +966,8 @@
   },
   {
    "who": "ticker",
-   "text": "Another change came from the 2025 tax law. It added a temporary extra deduction for people 65 and older.",
-   "say": "Another change came from the twenty twenty-five tax law. It added a temporary extra deduction for people sixty-five and older.",
+   "text": "And a 2025 tax law added a temporary extra deduction for people 65 and older, so less income tax on benefits flows back into the funds.",
+   "say": "And a twenty twenty-five tax law added a temporary extra deduction for people sixty-five and older, so less income tax on benefits flows back into the funds.",
    "scene": {
     "t": "board",
     "lines": [
@@ -999,19 +975,6 @@
      "extra deduction, age 65+",
      "= less tax on benefits"
     ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Less income tax on benefits means less money flowing back into the trust funds, and the Trustees counted that too.",
-   "say": "Less income tax on benefits means less money flowing back into the trust funds, and the Trustees counted that too.",
-   "scene": {
-    "t": "hook",
-    "title": "Less tax [in]",
-    "prop": "pot",
-    "label": "TRUST",
-    "value": "-$",
-    "mood": "worried"
    }
   },
   {
@@ -1063,7 +1026,7 @@
    "say": "But depleted means the savings are gone, not the taxes. Workers keep paying in every payday.",
    "scene": {
     "t": "hook",
-    "title": "Savings gone, [taxes] stay",
+    "title": "[Taxes] keep coming",
     "prop": "pot",
     "label": "EMPTY",
     "value": "78%",
@@ -1121,8 +1084,8 @@
   },
   {
    "who": "ticker",
-   "text": "Why a cut and not a loan? Under current law, the trust funds have no authority to borrow.",
-   "say": "Why a cut and not a loan? Under current law, the trust funds have no authority to borrow.",
+   "text": "Why a cut and not a loan? Under current law, the funds can't borrow, so benefits would be limited to what's coming in.",
+   "say": "Why a cut and not a loan? Under current law, the funds can't borrow, so benefits would be limited to what's coming in.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1130,18 +1093,6 @@
      "Can't pay more than",
      "the funds take in"
     ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So unless Congress changes the law first, benefits would be limited to what's coming in.",
-   "say": "So unless Congress changes the law first, benefits would be limited to what's coming in.",
-   "scene": {
-    "t": "building",
-    "kind": "store",
-    "name": "US CONGRESS",
-    "label": "Law change?",
-    "caption": "Current law limits payments"
    }
   },
   {
@@ -1286,8 +1237,8 @@
   },
   {
    "who": "ticker",
-   "text": "Real proposals usually mix things: raising the $184,500 cap, changing the retirement age, adjusting the formula, or new revenue.",
-   "say": "Real proposals usually mix things: raising the one hundred eighty-four thousand, five hundred dollar cap, changing the retirement age, adjusting the formula, or new revenue.",
+   "text": "Real proposals usually mix ideas: raising the wage cap, changing the retirement age, tweaking the formula, or adding revenue.",
+   "say": "Real proposals usually mix ideas: raising the wage cap, changing the retirement age, tweaking the formula, or adding revenue.",
    "scene": {
     "t": "list",
     "title": "Common ideas in proposals",
@@ -1329,8 +1280,8 @@
   },
   {
    "who": "ticker",
-   "text": "Which mix is fair is a political choice, and we're not picking sides. The math just says the sooner a fix starts, the smaller each piece can be.",
-   "say": "Which mix is fair is a political choice, and we're not picking sides. The math just says the sooner a fix starts, the smaller each piece can be.",
+   "text": "Which mix is fair is a political choice, and we're not picking sides. The math just says a fix that starts sooner can be spread thinner.",
+   "say": "Which mix is fair is a political choice, and we're not picking sides. The math just says a fix that starts sooner can be spread thinner.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1375,8 +1326,8 @@
   },
   {
    "who": "ticker",
-   "text": "Workers and employers each pay 6.2%, up to $184,500 in 2026, and most of it goes straight out as today's checks.",
-   "say": "Workers and employers each pay six point two percent, up to one hundred eighty-four thousand, five hundred dollars in twenty twenty-six, and most of it goes straight out as today's checks.",
+   "text": "Workers and employers each pay 6.2%, and most of it goes straight out as today's checks.",
+   "say": "Workers and employers each pay six point two percent, and most of it goes straight out as today's checks.",
    "scene": {
     "t": "list",
     "title": "Recap",
@@ -1448,8 +1399,8 @@
   },
   {
    "who": "ticker",
-   "text": "If this made the money trail clearer, subscribe for more from-zero explainers. See you next time.",
-   "say": "If this made the money trail clearer, subscribe for more from zero explainers. See you next time.",
+   "text": "If this made the money trail clearer, subscribe for more. See you next time.",
+   "say": "If this made the money trail clearer, subscribe for more. See you next time.",
    "scene": {
     "t": "cta",
     "tagline": "Money, explained from zero.",

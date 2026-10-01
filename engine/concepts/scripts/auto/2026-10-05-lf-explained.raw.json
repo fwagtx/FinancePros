@@ -1,0 +1,1557 @@
+{
+ "series": "ticker",
+ "header": "HOW THE RICH PAY LESS TAX",
+ "cover": {
+  "title": "Zero Tax For Decades?",
+  "prop": "chart-up",
+  "label": "STOCK",
+  "value": "$0 TAX"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A stock fortune can grow for decades with zero income tax.",
+   "say": "A stock fortune can grow for decades with zero income tax.",
+   "scene": {
+    "t": "hook",
+    "title": "[Zero] tax for decades",
+    "prop": "chart-up",
+    "label": "STOCK",
+    "value": "$0 TAX",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if it's never sold, the gain can vanish at death. All of it legal.",
+   "say": "And if it's never sold, the gain can vanish at death. All of it legal.",
+   "scene": {
+    "t": "hook",
+    "title": "Gain [vanishes] at death",
+    "prop": "paper",
+    "label": "WILL",
+    "value": "$0",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Forbes says the 400 richest Americans were worth $8 trillion in September 2026.",
+   "say": "Forbes says the four hundred richest Americans were worth eight trillion dollars in September twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Forbes 400 combined net worth",
+    "value": "$8T",
+    "tone": "up",
+    "sub": "Forbes, Sept 15, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up from $6.6 trillion in 2025. Just to make the list, you needed $4.4 billion.",
+   "say": "That's up from six point six trillion dollars in twenty twenty-five. Just to make the list, you needed four point four billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Forbes 400",
+    "left": {
+     "label": "2025 total",
+     "value": "$6.6T",
+     "tone": "neutral",
+     "sub": "combined worth"
+    },
+    "right": {
+     "label": "2026 total",
+     "value": "$8T",
+     "tone": "up",
+     "sub": "cutoff: $4.4B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how much income tax is paid on fortunes like that? Two famous studies gave two shocking numbers.",
+   "say": "So how much income tax is paid on fortunes like that? Two famous studies gave two shocking numbers.",
+   "scene": {
+    "t": "compare",
+    "title": "Two studies, two numbers",
+    "left": {
+     "label": "White House",
+     "value": "8.2%",
+     "tone": "down",
+     "sub": "top 400, 2010-18"
+    },
+    "right": {
+     "label": "ProPublica",
+     "value": "3.4%",
+     "tone": "down",
+     "sub": "top 25, 2014-18"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But both count gains nobody sold as income. Under the normal rules, those gains aren't income yet.",
+   "say": "But both count gains nobody sold as income. Under the normal rules, those gains aren't income yet.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Both studies count",
+     "unsold gains as income.",
+     "The tax code doesn't."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That one difference is the whole story. So here's how the rules work, with real 2026 numbers.",
+   "say": "That one difference is the whole story. So here's how the rules work, with real twenty twenty-six numbers.",
+   "scene": {
+    "t": "list",
+    "title": "Today",
+    "items": [
+     "Income vs. wealth",
+     "Two tax rates",
+     "Buy, borrow, die",
+     "More legal tools"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No opinions on whether it's fair. Just the rules and the math.",
+   "say": "No opinions on whether it's fair. Just the rules and the math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No opinions.",
+     "Just the rules",
+     "and the math."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Income versus wealth.",
+   "say": "Chapter one: Income versus wealth.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Income versus wealth"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start with two words people mix up all the time: income and wealth.",
+   "say": "Start with two words people mix up all the time: income and wealth.",
+   "scene": {
+    "t": "split",
+    "title": "Two different things",
+    "left": {
+     "title": "Income",
+     "items": [
+      "Paycheck",
+      "Interest",
+      "Sold stock gains"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Wealth",
+     "items": [
+      "Stock you own",
+      "Your house",
+      "A business"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Income is money coming in during the year. Wealth is the pile of stuff you own.",
+   "say": "Income is money coming in during the year. Wealth is the pile of stuff you own.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Income = money in",
+     "Wealth = what you own"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The US income tax mostly taxes income. It doesn't tax a pile just for getting bigger.",
+   "say": "The US income tax mostly taxes income. It doesn't tax a pile just for getting bigger.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Income tax: yes",
+     "Pile grows: no tax"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tax people call this the realization rule. A gain counts only when you sell.",
+   "say": "Tax people call this the realization rule. A gain counts only when you sell.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "REALIZATION RULE",
+     "A gain is taxed",
+     "when you sell."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: Ticker buys one share for $100. Ten years later it's worth $1,000.",
+   "say": "Here's an example. Ticker buys one share for a hundred dollars. Ten years later it's worth a thousand dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Bought for",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Worth later",
+     "value": "$1,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a $900 gain on paper. Income tax owed while he keeps it? Zero.",
+   "say": "That's a nine hundred dollar gain on paper. Income tax owed while he keeps it? Zero.",
+   "scene": {
+    "t": "stat",
+    "label": "Tax on unsold $900 gain",
+    "value": "$0",
+    "tone": "neutral",
+    "sub": "Example: gain not realized"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now scale that up. Founders often own huge stakes in the companies they built.",
+   "say": "Now scale that up. Founders often own huge stakes in the companies they built.",
+   "scene": {
+    "t": "hook",
+    "title": "Same rule, bigger [pile]",
+    "prop": "bag",
+    "label": "SHARES",
+    "value": "0 sold",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the company doesn't pay a dividend and they don't sell, there's no income to tax.",
+   "say": "If the company doesn't pay a dividend and they don't sell, there's no income to tax.",
+   "scene": {
+    "t": "list",
+    "title": "No taxable income if",
+    "items": [
+     "No salary to speak of",
+     "No dividend paid",
+     "No shares sold"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their wealth can climb by billions while their taxable income stays small.",
+   "say": "Their wealth can climb by billions while their taxable income stays small.",
+   "scene": {
+    "t": "compare",
+    "title": "One founder (example)",
+    "left": {
+     "label": "Wealth",
+     "value": "Up",
+     "tone": "up",
+     "sub": "stock price rises"
+    },
+    "right": {
+     "label": "Taxable",
+     "value": "Small",
+     "tone": "neutral",
+     "sub": "nothing sold"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This isn't new. It goes back over a hundred years.",
+   "say": "This isn't new. It goes back over a hundred years.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1913",
+      "what": "Modern income tax begins"
+     },
+     {
+      "when": "1921",
+      "what": "Lower rate for gains"
+     },
+     {
+      "when": "2024",
+      "what": "Moore v. United States"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The modern income tax started in 1913. In 1921, Congress passed a lower 12.5% rate for gains on assets held over two years.",
+   "say": "The modern income tax started in nineteen thirteen. In nineteen twenty-one, Congress passed a lower twelve and a half percent rate for gains on assets held over two years.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same 1921 law wrote down a rule that matters a lot later: the step-up at death.",
+   "say": "The same nineteen twenty-one law wrote down a rule that matters a lot later: the step-up at death.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Revenue Act of 1921:",
+     "basis steps up",
+     "at death"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in June 2024, the Supreme Court decided a case called Moore without settling whether gains must be sold to be taxed.",
+   "say": "And in June twenty twenty-four, the Supreme Court decided a case called Moore without settling whether gains must be sold to be taxed.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So for now, the realization rule is the foundation. Everything else builds on it.",
+   "say": "So for now, the realization rule is the foundation. Everything else builds on it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Realization rule",
+     "= the foundation"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Two price tags on a dollar.",
+   "say": "Chapter two: Two price tags on a dollar.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Two price tags on a dollar"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, not all income is taxed the same. A dollar from work and a dollar from investing have different price tags.",
+   "say": "Next, not all income is taxed the same. A dollar from work and a dollar from investing have different price tags.",
+   "scene": {
+    "t": "split",
+    "title": "Same dollar, two tags",
+    "left": {
+     "title": "From work",
+     "items": [
+      "Income tax brackets",
+      "Payroll taxes"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "From investing",
+     "items": [
+      "Lower gains rates",
+      "No payroll tax"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wages go through the regular brackets. In 2026 they run from 10% up to 37%.",
+   "say": "Wages go through the regular brackets. In twenty twenty-six they run from ten percent up to thirty-seven percent.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 federal income tax brackets",
+    "value": "10%-37%",
+    "tone": "neutral",
+    "sub": "IRS Rev. Proc. 2025-32"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For a single filer, 37% starts above $640,600 of taxable income.",
+   "say": "For a single filer, thirty-seven percent starts above six hundred forty thousand six hundred dollars of taxable income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2026, single filer:",
+     "37% above $640,600"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Long-term capital gains, on things held over a year, get their own lower rates: 0%, 15%, or 20%.",
+   "say": "Long-term capital gains, on things held over a year, get their own lower rates: zero, fifteen, or twenty percent.",
+   "scene": {
+    "t": "list",
+    "title": "2026 long-term gains",
+    "items": [
+     "0% up to $49,450",
+     "15% up to $545,500",
+     "20% above that"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For a single filer in 2026, the 0% rate covers taxable income up to $49,450.",
+   "say": "For a single filer in twenty twenty-six, the zero percent rate covers taxable income up to forty-nine thousand four hundred fifty dollars.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it's 15% up to $545,500.",
+   "say": "Then it's fifteen percent up to five hundred forty-five thousand five hundred dollars.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 20% above that. Higher earners also owe a 3.8% net investment income tax.",
+   "say": "And twenty percent above that. Higher earners also owe a three point eight percent net investment income tax.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That 3.8% kicks in above $200,000 for singles, and the line hasn't moved with inflation since it started in 2013.",
+   "say": "That three point eight percent kicks in above two hundred thousand dollars for singles, and the line hasn't moved with inflation since it started in twenty thirteen.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "NIIT: 3.8%",
+     "above $200,000 single",
+     "not inflation-adjusted"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there are payroll taxes, which hit wages only. Social Security takes 6.2%, Medicare takes 1.45%.",
+   "say": "Then there are payroll taxes, which hit wages only. Social Security takes six point two percent, and Medicare takes one point four five percent.",
+   "scene": {
+    "t": "list",
+    "title": "Payroll taxes, 2026",
+    "items": [
+     "Social Security 6.2%",
+     "Medicare 1.45%",
+     "Extra 0.9% over $200K"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Earn over $200,000 as a single filer and Medicare adds another 0.9%.",
+   "say": "Earn over two hundred thousand dollars as a single filer and Medicare adds another zero point nine percent.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But Social Security stops at $184,500 of wages in 2026. Past that, it's zero.",
+   "say": "But Social Security stops at one hundred eighty-four thousand five hundred dollars of wages in twenty twenty-six. Past that, it's zero.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 Social Security wage cap",
+    "value": "$184,500",
+    "tone": "neutral",
+    "sub": "Social Security Administration"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the worked example. Two single people each get $100,000 in 2026. Standard deduction only.",
+   "say": "Now the worked example. Two single people each get a hundred thousand dollars in twenty twenty-six, with the standard deduction only.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $100,000 each",
+    "left": {
+     "label": "Worker",
+     "value": "Wages",
+     "tone": "neutral",
+     "sub": "$100,000 salary"
+    },
+    "right": {
+     "label": "Investor",
+     "value": "Gains",
+     "tone": "neutral",
+     "sub": "$100,000 LT gains"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Both subtract the $16,100 standard deduction, leaving $83,900 of taxable income.",
+   "say": "Both subtract the sixteen thousand one hundred dollar standard deduction, leaving eighty-three thousand nine hundred dollars of taxable income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$100,000",
+     "- $16,100 deduction",
+     "= $83,900 taxable"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The worker pays 10%, then 12%, then 22% on each slice. That's $13,170 in income tax.",
+   "say": "The worker pays ten percent, then twelve percent, then twenty-two percent on each slice. That's thirteen thousand one hundred seventy dollars in income tax.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "10% x 12,400 = 1,240",
+     "12% x 38,000 = 4,560",
+     "22% x 33,500 = 7,370"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add the worker's $7,650 share of payroll taxes, and the federal bill is $20,820.",
+   "say": "Add the worker's seven thousand six hundred fifty dollar share of payroll taxes, and the federal bill is twenty thousand eight hundred twenty dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Worker's federal tax (example)",
+    "value": "$20,820",
+    "tone": "down",
+    "sub": "$13,170 income + $7,650 payroll"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The investor pays 0% on the first $49,450, then 15% on the other $34,450.",
+   "say": "The investor pays zero percent on the first forty-nine thousand four hundred fifty dollars, then fifteen percent on the other thirty-four thousand four hundred fifty.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "0% x 49,450 = 0",
+     "15% x 34,450 = 5,167.50",
+     "No payroll tax"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Total: $5,167.50. And no payroll tax, because gains aren't wages.",
+   "say": "Total: five thousand one hundred sixty-seven dollars and fifty cents. And no payroll tax, because gains aren't wages.",
+   "scene": {
+    "t": "stat",
+    "label": "Investor's federal tax (example)",
+    "value": "$5,167.50",
+    "tone": "up",
+    "sub": "15% on $34,450, no payroll tax"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the worker pays about 20.8% of income. The investor pays about 5.2%.",
+   "say": "So the worker pays about twenty point eight percent of income. The investor pays about five point two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $100,000, 2026",
+    "left": {
+     "label": "Worker",
+     "value": "20.8%",
+     "tone": "down",
+     "sub": "$20,820"
+    },
+    "right": {
+     "label": "Investor",
+     "value": "5.2%",
+     "tone": "up",
+     "sub": "$5,167.50"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same income, about a quarter of the tax.",
+   "say": "Same income, about a quarter of the tax.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Run the same math at $1 million, and the worker owes about $353,139.",
+   "say": "Run the same math at a million dollars, and the worker owes about three hundred fifty-three thousand one hundred thirty-nine dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Worker, $1M wages (example)",
+    "value": "$353,139",
+    "tone": "down",
+    "sub": "income tax + payroll, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The investor with $1 million in long-term gains owes $192,487.50, including the 3.8%. That's 19.2% versus 35.3%.",
+   "say": "The investor with a million dollars in long-term gains owes one hundred ninety-two thousand four hundred eighty-seven dollars and fifty cents, including the three point eight percent. That's about nineteen point two percent, versus thirty-five point three percent for the worker.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $1,000,000, 2026",
+    "left": {
+     "label": "Worker",
+     "value": "35.3%",
+     "tone": "down",
+     "sub": "$353,139"
+    },
+    "right": {
+     "label": "Investor",
+     "value": "19.2%",
+     "tone": "up",
+     "sub": "$192,487.50"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the very top, the last dollar of wages faces 39.35%. The last dollar of long-term gains faces 23.8%.",
+   "say": "At the very top, the last dollar of wages faces thirty-nine point three five percent. The last dollar of long-term gains faces twenty-three point eight percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Top rate on the last $1",
+    "left": {
+     "label": "Wages",
+     "value": "39.35%",
+     "tone": "down",
+     "sub": "37 + 1.45 + 0.9"
+    },
+    "right": {
+     "label": "LT gains",
+     "value": "23.8%",
+     "tone": "up",
+     "sub": "20 + 3.8"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the top wage rate has moved a lot. It was 70% in 1980.",
+   "say": "And the top wage rate has moved a lot. It was seventy percent in nineteen eighty.",
+   "scene": {
+    "t": "chart",
+    "title": "Top federal income tax rate",
+    "points": [
+     [
+      1980,
+      70
+     ],
+     [
+      1982,
+      50
+     ],
+     [
+      1986,
+      50
+     ],
+     [
+      1987,
+      38.5
+     ],
+     [
+      1988,
+      28
+     ],
+     [
+      1990,
+      28
+     ],
+     [
+      1991,
+      31
+     ],
+     [
+      1992,
+      31
+     ],
+     [
+      1993,
+      39.6
+     ],
+     [
+      2000,
+      39.6
+     ],
+     [
+      2001,
+      39.1
+     ],
+     [
+      2002,
+      38.6
+     ],
+     [
+      2003,
+      35
+     ],
+     [
+      2012,
+      35
+     ],
+     [
+      2013,
+      39.6
+     ],
+     [
+      2017,
+      39.6
+     ],
+     [
+      2018,
+      37
+     ],
+     [
+      2026,
+      37
+     ]
+    ],
+    "suffix": "%",
+    "end": "37%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It fell to 28% in 1988, the same as the top gains rate for those years.",
+   "say": "It fell to twenty-eight percent in nineteen eighty-eight, the same as the top gains rate for those years.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 1988,
+     "text": "28% in 1988"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since 2018 it's been 37%, and a law signed July 4, 2025 made that rate permanent.",
+   "say": "Since twenty eighteen it's been thirty-seven percent, and a law signed July fourth, twenty twenty-five made that rate permanent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "37%, permanent"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So if most of your money comes from selling investments, your rate can be lower than someone on a salary.",
+   "say": "So if most of your money comes from selling investments, your rate can be lower than someone on a salary.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More from gains",
+     "= lower rate",
+     "than a salary"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Buy, borrow, die.",
+   "say": "Chapter three: Buy, borrow, die.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Buy, borrow, die"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the famous one. Tax lawyers have a nickname for it: buy, borrow, die.",
+   "say": "Now the famous one. Tax lawyers have a nickname for it: buy, borrow, die.",
+   "scene": {
+    "t": "list",
+    "title": "Buy, borrow, die",
+    "items": [
+     "Buy assets that grow",
+     "Borrow against them",
+     "Hold until death"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one: buy assets that grow, and don't sell them. No sale, no taxable gain.",
+   "say": "Step one: buy assets that grow, and don't sell them. No sale, no taxable gain.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two: need cash? Borrow against them. A loan isn't income, because you have to pay it back.",
+   "say": "Step two: need cash? Borrow against them. A loan isn't income, because you have to pay it back.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step three: hold the assets until death. That's where the 1921 rule comes in.",
+   "say": "Step three: hold the assets until death. That's where the nineteen twenty-one rule comes in.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a made-up example. Someone bought stock for $1 million. Today it's worth $10 million.",
+   "say": "Here's a made-up example. Someone bought stock for one million dollars. Today it's worth ten million dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Bought for",
+     "value": "$1M"
+    },
+    "to": {
+     "label": "Worth now",
+     "value": "$10M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If they sell it all at top rates, the $9 million gain times 23.8% is a $2,142,000 tax bill.",
+   "say": "If they sell it all at top rates, the nine million dollar gain times twenty-three point eight percent is a two million one hundred forty-two thousand dollar tax bill.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$9,000,000 gain",
+     "x 23.8%",
+     "= $2,142,000 tax"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Instead, say they borrow $1 million against the stock. Income tax on that loan: zero.",
+   "say": "Instead, say they borrow one million dollars against the stock. Income tax on that loan: zero.",
+   "scene": {
+    "t": "stat",
+    "label": "Tax on a $1M loan (example)",
+    "value": "$0",
+    "tone": "up",
+    "sub": "loans aren't income"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The loan isn't free. At an assumed 6% rate, interest is $60,000 a year.",
+   "say": "The loan isn't free. At an assumed six percent rate, interest is sixty thousand dollars a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: 6% interest",
+     "$1,000,000 x 6%",
+     "= $60,000 a year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare that with selling $1 million of this stock, where 90% of each dollar is gain.",
+   "say": "Compare that with selling one million dollars of this stock, where ninety percent of each dollar is gain.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sell $1M: $900,000 gain",
+     "$900,000 x 23.8%",
+     "= $214,200 tax"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Selling costs $214,200 in tax up front. Borrowing costs $60,000 a year in interest.",
+   "say": "Selling costs two hundred fourteen thousand two hundred dollars in tax up front. Borrowing costs sixty thousand dollars a year in interest.",
+   "scene": {
+    "t": "split",
+    "title": "Need $1M cash (example)",
+    "left": {
+     "title": "Sell $1M",
+     "items": [
+      "$214,200 tax",
+      "Paid once"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Borrow $1M",
+     "items": [
+      "$60,000 a year",
+      "Interest, not tax"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the stock grows faster than the loan rate, the borrower's pile can keep growing. If it falls, the lender can demand repayment.",
+   "say": "If the stock grows faster than the loan rate, the borrower's pile can keep growing. If it falls, the lender can demand repayment.",
+   "scene": {
+    "t": "split",
+    "title": "The catch",
+    "left": {
+     "title": "Stock rises",
+     "items": [
+      "Pile outgrows loan"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Stock falls",
+     "items": [
+      "Lender wants cash",
+      "Forced sales"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then comes step three. When the owner dies, the heirs' cost basis resets to the value at death.",
+   "say": "Then comes step three. When the owner dies, the heirs' cost basis resets to the value at death.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Owner's basis",
+     "value": "$1M"
+    },
+    "to": {
+     "label": "Heirs' basis",
+     "value": "$10M"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the step-up in basis. The $9 million gain is never hit by income tax. Not for the owner, not for the heirs.",
+   "say": "That's the step-up in basis. The nine million dollar gain is never hit by income tax. Not for the owner, and not for the heirs.",
+   "scene": {
+    "t": "stat",
+    "label": "Income tax on the $9M gain",
+    "value": "$0",
+    "tone": "up",
+    "sub": "Example: step-up at death"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The heirs can sell at $10 million, pay off the loan, and owe little or no capital gains tax.",
+   "say": "The heirs can sell at ten million dollars, pay off the loan, and owe little or no capital gains tax.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sell at $10M",
+     "Repay the loan",
+     "Gain about $0"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Congress's own tax scorekeepers put a price on this rule.",
+   "say": "Congress's own tax scorekeepers put a price on this rule.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Joint Committee",
+     "on Taxation:",
+     "Congress's scorekeeper"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Joint Committee on Taxation estimates the step-up costs about $72.5 billion of revenue in fiscal 2026.",
+   "say": "The Joint Committee on Taxation estimates the step-up costs about seventy-two and a half billion dollars of revenue in fiscal twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Step-up at death, forgone revenue",
+    "value": "$72.5B",
+    "tone": "down",
+    "sub": "JCT, fiscal year 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it isn't only for billionaires. A family home or a small stock account gets the same step-up.",
+   "say": "And it isn't only for billionaires. A family home or a small stock account gets the same step-up.",
+   "scene": {
+    "t": "hook",
+    "title": "Not just [billionaires]",
+    "prop": "house",
+    "label": "HOME",
+    "value": "Step-up",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: More legal tools.",
+   "say": "Chapter four: More legal tools.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "More legal tools"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But wait, isn't there an estate tax at death? Yes, but it has a big exemption.",
+   "say": "But wait, isn't there an estate tax at death? Yes, but it has a big exemption.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Estate tax?",
+     "Yes, but with",
+     "a big exemption"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, each person can pass on $15 million before federal estate tax applies.",
+   "say": "In twenty twenty-six, each person can pass on fifteen million dollars before federal estate tax applies.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 estate tax exemption, per person",
+    "value": "$15M",
+    "tone": "neutral",
+    "sub": "IRS; indexed from 2027"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For a married couple, that's $30 million. The 2025 law made it permanent and tied it to inflation.",
+   "say": "For a married couple, that's thirty million dollars. The twenty twenty-five law made it permanent and tied it to inflation.",
+   "scene": {
+    "t": "compare",
+    "title": "Estate exemption, 2026",
+    "left": {
+     "label": "Single",
+     "value": "$15M",
+     "tone": "neutral",
+     "sub": "per person"
+    },
+    "right": {
+     "label": "Couple",
+     "value": "$30M",
+     "tone": "neutral",
+     "sub": "with portability"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Above that, families use gifts. In 2026, anyone can give $19,000 per person per year without touching the exemption.",
+   "say": "Above that, families use gifts. In twenty twenty-six, anyone can give nineteen thousand dollars per person per year without touching the exemption.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 annual gift exclusion",
+    "value": "$19,000",
+    "tone": "neutral",
+    "sub": "per recipient, IRS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A couple with three kids can move $114,000 a year that way. That's 2 parents times 3 kids times $19,000.",
+   "say": "A couple with three kids can move one hundred fourteen thousand dollars a year that way. That's two parents times three kids times nineteen thousand dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2 parents x 3 kids",
+     "x $19,000",
+     "= $114,000 a year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there are tax-free bonds. Interest on most municipal bonds is exempt from federal income tax.",
+   "say": "Then there are tax-free bonds. Interest on most municipal bonds is exempt from federal income tax.",
+   "scene": {
+    "t": "hook",
+    "title": "[Tax-free] interest",
+    "prop": "paper",
+    "label": "MUNI",
+    "value": "0% fed",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's worth more in the 37% bracket. Each dollar of tax-free interest saves 37 cents, versus 12 cents in the 12% bracket.",
+   "say": "That's worth more in the thirty-seven percent bracket. Each dollar of tax-free interest saves thirty-seven cents, versus twelve cents in the twelve percent bracket.",
+   "scene": {
+    "t": "compare",
+    "title": "Value of tax-free interest",
+    "left": {
+     "label": "37% bracket",
+     "value": "Big",
+     "tone": "up",
+     "sub": "saves 37 cents/$1"
+    },
+    "right": {
+     "label": "12% bracket",
+     "value": "Small",
+     "tone": "neutral",
+     "sub": "saves 12 cents/$1"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Founders have another one. For qualifying startup stock bought after July 4, 2025, up to $15 million of gain, or 10x the investment if larger, can be tax-free.",
+   "say": "Founders have another one. For qualifying startup stock bought after July fourth, twenty twenty-five, up to fifteen million dollars of gain, or ten times the investment if that's larger, can be tax-free.",
+   "scene": {
+    "t": "stat",
+    "label": "Startup stock (QSBS) gain exclusion",
+    "value": "$15M",
+    "tone": "up",
+    "sub": "or 10x basis, if larger; Sec. 1202"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's called qualified small business stock, and it comes with holding periods and a long list of conditions.",
+   "say": "It's called qualified small business stock, and it comes with holding periods and a long list of conditions.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "QSBS: Section 1202",
+     "holding periods",
+     "lots of conditions"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the twist. Regular people get versions of these same tools.",
+   "say": "Here's the twist. Regular people get versions of these same tools.",
+   "scene": {
+    "t": "list",
+    "title": "Tools for everyone",
+    "items": [
+     "401(k): $24,500",
+     "IRA: $7,500",
+     "0% gains bracket",
+     "Step-up on a home"
+    ],
+    "reveal": 1,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, a worker can put $24,500 into a 401(k), and $7,500 into an IRA.",
+   "say": "In twenty twenty-six, a worker can put twenty-four thousand five hundred dollars into a four oh one k, and seven thousand five hundred dollars into an I R A.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 0% gains rate we saw covers single filers with taxable income up to $49,450.",
+   "say": "The zero percent gains rate we saw covers single filers with taxable income up to forty-nine thousand four hundred fifty dollars.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the step-up works the same on a $300,000 house as on a $3 billion stake.",
+   "say": "And the step-up works the same on a three hundred thousand dollar house as on a three billion dollar stake.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The difference is scale. The bigger the pile of unsold gains, the more these rules are worth.",
+   "say": "The difference is scale. The bigger the pile of unsold gains, the more these rules are worth.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same rules.",
+     "Bigger pile,",
+     "bigger effect."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Why the rate is disputed.",
+   "say": "Chapter five: Why the rate is disputed.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Why the rate is disputed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So back to those shocking numbers from the start. Why do people argue about them?",
+   "say": "So back to those shocking numbers from the start. Why do people argue about them?",
+   "scene": {
+    "t": "compare",
+    "title": "Two studies, two numbers",
+    "left": {
+     "label": "White House",
+     "value": "8.2%",
+     "tone": "down",
+     "sub": "top 400, 2010-18"
+    },
+    "right": {
+     "label": "ProPublica",
+     "value": "3.4%",
+     "tone": "down",
+     "sub": "top 25, 2014-18"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2021, White House economists estimated the 400 wealthiest families paid an average federal income tax rate of 8.2% from 2010 to 2018.",
+   "say": "In twenty twenty-one, White House economists estimated the four hundred wealthiest families paid an average federal income tax rate of eight point two percent from twenty ten to twenty eighteen.",
+   "scene": {
+    "t": "news",
+    "headline": "Top 400 families paid 8.2% federal income tax rate",
+    "source": "White House CEA and OMB, Sept 23, 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But that 8.2% treats unsold gains as income. Using normal income, the rate would be higher.",
+   "say": "But that eight point two percent treats unsold gains as income. Using normal income, the rate would be higher.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "8.2% = tax divided by",
+     "income + unsold gains"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "ProPublica did something similar. It said the 25 richest Americans' wealth grew $401 billion from 2014 to 2018.",
+   "say": "ProPublica did something similar. It said the twenty-five richest Americans' wealth grew four hundred one billion dollars from twenty fourteen to twenty eighteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Wealth growth, 25 richest, 2014-18",
+    "value": "$401B",
+    "tone": "up",
+    "sub": "ProPublica, June 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their federal income taxes equaled 3.4% of that growth. ProPublica called it a true tax rate.",
+   "say": "Their federal income taxes equaled three point four percent of that growth. ProPublica called it a true tax rate.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Wealth growth",
+     "value": "$401B"
+    },
+    "to": {
+     "label": "Income tax, as share",
+     "value": "3.4%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Critics, like the Tax Foundation, said the White House study created a new definition of income and used it only for the top 400.",
+   "say": "Critics, like the Tax Foundation, said the White House study created a new definition of income and used it only for the top four hundred.",
+   "scene": {
+    "t": "split",
+    "title": "The debate",
+    "left": {
+     "title": "Studies say",
+     "items": [
+      "Count unsold gains",
+      "Rates look tiny"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Critics say",
+     "items": [
+      "Not income yet",
+      "Leaves out corp. tax"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They also said the math leaves out corporate income tax, which companies pay before profits reach shareholders.",
+   "say": "They also said the math leaves out corporate income tax, which companies pay before profits reach shareholders.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Company pays tax",
+     "on profits first.",
+     "Studies left it out."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And remember, under today's normal definition, the rich pay most of their tax when they finally sell.",
+   "say": "And remember, under today's normal definition, the rich pay most of their tax when they finally sell.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sell = taxed",
+     "Hold = not yet"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some lawmakers have proposed taxing unsold gains of the very richest. Others say that's unworkable or unconstitutional.",
+   "say": "Some lawmakers have proposed taxing unsold gains of the very richest. Others say that's unworkable or unconstitutional.",
+   "scene": {
+    "t": "split",
+    "title": "Proposals",
+    "left": {
+     "title": "Supporters",
+     "items": [
+      "Tax gains yearly",
+      "Close the gap"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Opponents",
+     "items": [
+      "Hard to value",
+      "Legal questions"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Supreme Court's 2024 Moore decision left that big constitutional question open.",
+   "say": "The Supreme Court's twenty twenty-four Moore decision left that big constitutional question open.",
+   "scene": {
+    "t": "news",
+    "headline": "Supreme Court rules narrowly in Moore v. United States",
+    "source": "US Supreme Court, June 20, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the honest answer to how much the rich pay depends on one choice: do unsold gains count as income?",
+   "say": "So the honest answer to how much the rich pay depends on one choice: do unsold gains count as income?",
+   "scene": {
+    "t": "hook",
+    "title": "Do unsold gains [count]?",
+    "prop": "chart-up",
+    "label": "GAINS",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The recap.",
+   "say": "Chapter six: The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's put it all together.",
+   "say": "Let's put it all together.",
+   "scene": {
+    "t": "list",
+    "title": "How it works",
+    "items": [
+     "Unsold gains: untaxed",
+     "Gains: lower rates",
+     "Borrow, don't sell",
+     "Step-up at death"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: the income tax waits until you sell, so a growing pile of stock isn't taxed along the way.",
+   "say": "One: the income tax waits until you sell, so a growing pile of stock isn't taxed along the way.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: when gains are sold, the top rate is 23.8%, versus 39.35% on the last dollar of top wages.",
+   "say": "Two: when gains are sold, the top rate is twenty-three point eight percent, versus thirty-nine point three five percent on the last dollar of top wages.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: borrowing against assets gives cash without a sale, so there's no income tax on it.",
+   "say": "Three: borrowing against assets gives cash without a sale, so there's no income tax on it.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: at death, the step-up erases the gain for income tax, and $15 million per person passes free of estate tax in 2026.",
+   "say": "Four: at death, the step-up erases the gain for income tax, and fifteen million dollars per person passes free of estate tax in twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same $100,000: $20,820 in tax as wages, $5,167.50 as long-term gains. That's the whole idea in one example.",
+   "say": "Same hundred thousand dollars: twenty thousand eight hundred twenty dollars in tax as wages, and five thousand one hundred sixty-seven dollars and fifty cents as long-term gains. That's the whole idea in one example.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $100,000, 2026",
+    "left": {
+     "label": "Wages",
+     "value": "$20,820",
+     "tone": "down",
+     "sub": "worker example"
+    },
+    "right": {
+     "label": "LT gains",
+     "value": "$5,168",
+     "tone": "up",
+     "sub": "investor example"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of it is a secret loophole. It's the written rules, used at a very large scale.",
+   "say": "None of it is a secret loophole. It's the written rules, used at a very large scale.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not a secret.",
+     "Written rules,",
+     "huge scale."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whether those rules should change is a debate for voters. Now you know how the math works.",
+   "say": "Whether those rules should change is a debate for voters. Now you know how the math works.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained simply."
+   }
+  }
+ ],
+ "post": {
+  "title": "A stock fortune can grow for decades with zero income tax. Here's how, legally.",
+  "ig": "A stock fortune can grow for decades with zero income tax. The rules, explained.",
+  "tiktok": "Zero income tax for decades, legally. Here's the math.",
+  "yt_desc": "A stock fortune can grow for decades with zero income tax, and the gain can disappear at death. This video explains, with 2026 numbers, how the realization rule, lower long-term capital gains rates, borrowing against assets, and the step-up in basis work together, all under current law. A worked example shows two people with the same $100,000 paying $20,820 versus $5,167.50 in federal tax, plus a hypothetical $10 million buy, borrow, die example. We also explain why studies put the richest Americans' tax rate at 8.2% or 3.4%, and why critics dispute those numbers.\n\nCHAPTERS\n\nSources: IRS Rev. Proc. 2025-32 (Oct 2025); Social Security Administration 2026 wage base (Oct 2025); IRS net investment income tax and Additional Medicare Tax; IRS 2026 retirement limits (Nov 13, 2025); IRS 2026 estate and gift amounts (Oct 2025); One Big Beautiful Bill Act (July 4, 2025); Joint Committee on Taxation JCX-45-25 tax expenditures FY2025-2029; White House CEA and OMB (Sept 23, 2021); ProPublica, The Secret IRS Files (June 8, 2021); Tax Foundation (2021); Forbes 400 (Sept 15, 2026); Tax Policy Center historical top tax rates; Moore v. United States (June 20, 2024); Revenue Act of 1921 (CRS).\n\nNews and education, not financial advice.\n\n#taxes #money #personalfinance"
+ }
+}
