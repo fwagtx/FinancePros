@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Fake job offers cost people $501 million in 2024.",
-   "say": "Fake job offers cost people five hundred one million dollars in twenty twenty-four.",
+   "text": "Job scams cost people $501 million in 2024.",
+   "say": "Job scams cost people five hundred one million dollars in twenty twenty-four.",
    "scene": {
     "t": "hook",
     "title": "Fake [jobs] cost $501M",
@@ -76,6 +76,33 @@
    "say": "That's more than five times bigger in four years.",
    "scene": {
     "t": "chart",
+    "title": "Job scam losses (FTC)",
+    "points": [
+     [
+      2020,
+      90
+     ],
+     [
+      2021,
+      131
+     ],
+     [
+      2022,
+      179
+     ],
+     [
+      2023,
+      286
+     ],
+     [
+      2024,
+      501
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$501M",
+    "color": "down",
     "keep": true,
     "chart_note": {
      "x": 2024,
@@ -86,7 +113,7 @@
   },
   {
    "who": "ticker",
-   "text": "The asks: pay for equipment, pay for training, deposit money to unlock your earnings.",
+   "text": "The asks sound normal: pay for equipment, pay for training, or deposit money to unlock your earnings.",
    "say": "The asks sound normal: pay for equipment, pay for training, or deposit money to unlock your earnings.",
    "scene": {
     "t": "list",
@@ -102,8 +129,8 @@
   },
   {
    "who": "ticker",
-   "text": "Example: a $2,000 check arrives, you send $1,500 to their \"vendor,\" the check bounces. You're out $1,500.",
-   "say": "For example, a two thousand dollar check arrives, you send fifteen hundred to their vendor, then the check bounces, and you're out fifteen hundred dollars.",
+   "text": "For example, a $2,000 check arrives, you send $1,500 to their \"vendor,\" then the check bounces, and you're out $1,500.",
+   "say": "For example, a two thousand dollar check arrives, you send fifteen hundred dollars to their \"vendor,\" then the check bounces, and you're out fifteen hundred dollars.",
    "scene": {
     "t": "money",
     "from": {
@@ -129,8 +156,8 @@
   },
   {
    "who": "ticker",
-   "text": "Real employers pay you. Scammers want your money first.",
-   "say": "So a real employer pays you, and a scammer wants your money first.",
+   "text": "People who spot it notice one thing: a request to pay before the first paycheck.",
+   "say": "People who spot it notice one thing: a request to pay before the first paycheck.",
    "scene": {
     "t": "split",
     "title": "Real vs scam",
@@ -163,9 +190,9 @@
   }
  ],
  "post": {
-  "title": "Fake job offers cost people $501 million in 2024",
-  "ig": "Fake job offers cost people $501 million in 2024.\n\nReported job scam losses grew from $90 million in 2020 to $501 million in 2024 (FTC).\nThe common asks: pay for equipment, pay for training, or deposit money to unlock earnings.\nThe FTC: \"Honest employers will never ask you to pay to get a job.\"\n\nSources: FTC Consumer Sentinel data (March 2025), FTC Data Spotlight (December 2024), FTC job scams guidance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #jobscam #jobsearch #personalfinance #financeprostv",
-  "tiktok": "Fake jobs cost people $501M in 2024. Real jobs pay you, not the other way. Not financial advice. #moneytok #personalfinance #jobscam #scamalert #financeprostv",
+  "title": "Job scams cost people $501 million in 2024",
+  "ig": "Job scams cost people $501 million in 2024.\n\nReported job scam losses grew from $90 million in 2020 to $501 million in 2024 (FTC).\nThe common asks: pay for equipment, pay for training, or deposit money to unlock earnings.\nThe FTC: \"Honest employers will never ask you to pay to get a job.\"\n\nSources: FTC Consumer Sentinel data (March 2025), FTC Data Spotlight (December 2024), FTC job scams guidance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #jobscam #jobsearch #personalfinance #financeprostv",
+  "tiktok": "Job scams cost people $501M in 2024. Real jobs pay you, not the other way. Not financial advice. #moneytok #personalfinance #jobscam #scamalert #financeprostv",
   "yt_desc": "Job offer scams flip the money the wrong way: you pay for equipment, training, or a deposit to unlock earnings. FTC data show reported job scam losses grew from $90 million in 2020 to $501 million in 2024, and the FTC says honest employers will never ask you to pay to get a job. Sources: FTC (March 2025), FTC Data Spotlight (December 2024).\n\nNews and education, not financial advice.\n\n#Shorts #jobscam #scamalert",
   "tags": [
    "job scam",

@@ -1,54 +1,175 @@
 {
  "series": "ticker",
  "header": "What inflation\nactually measures",
- "cover": {"title": "Inflation's Hidden Rent", "prop": "house", "label": "CPI", "value": "1/4"},
+ "cover": {
+  "title": "Inflation's Hidden Rent",
+  "prop": "house",
+  "label": "CPI",
+  "value": "1/4"
+ },
  "lines": [
-  {"who": "ticker",
+  {
+   "who": "ticker",
    "text": "Inflation counts a rent that homeowners never actually pay.",
    "say": "Inflation counts a rent that homeowners never actually pay.",
-   "scene": {"t": "hook", "title": "A rent [nobody] pays", "prop": "house", "label": "CPI", "value": "1/4", "mood": "shock"}},
-  {"who": "ticker",
-   "text": "And it's about a quarter of the whole Consumer Price Index.",
-   "say": "And it's about a quarter of the whole Consumer Price Index.",
-   "scene": {"t": "stat", "label": "Owners' equivalent rent", "value": "~1/4", "tone": "neutral", "sub": "share of CPI weight, BLS"}},
-  {"who": "ticker",
-   "text": "The CPI is a giant shopping basket. Each month, the BLS checks about 80,000 prices in 75 US cities.",
-   "say": "First, the CPI is a giant shopping basket. Each month, the Bureau of Labor Statistics checks about eighty thousand prices in seventy-five US cities.",
-   "scene": {"t": "stat", "label": "Prices checked each month", "value": "80,000", "tone": "neutral", "sub": "75 urban areas, BLS"}},
-  {"who": "ticker",
-   "text": "Items count by how much people spend on them. Shelter alone is about a third of the basket.",
-   "say": "Items count by how much people spend on them, so shelter alone is about a third of the basket.",
-   "scene": {"t": "board", "lines": ["Bigger spending", "= bigger weight", "Shelter: about 1/3"], "mood": "think"}},
-  {"who": "ticker",
-   "text": "Homeowners get asked what their home would rent for. That sets the weight. Real rents nearby set the price change.",
-   "say": "Homeowners get asked what their home would rent for. That sets the weight, and real rents nearby set the price change.",
-   "scene": {"t": "quote", "text": "If someone were to rent your home today, how much do you think it would rent for monthly, unfurnished and without utilities?", "source": "BLS Consumer Expenditure Survey question"}},
-  {"who": "ticker",
-   "text": "Then the math: new index minus old index, divided by the old one. August 2025 to August 2026: 3.4%.",
-   "say": "Then the math is simple: new index minus old index, divided by the old one. From August twenty twenty-five to August twenty twenty-six, that's three point four percent.",
-   "scene": {"t": "board", "lines": ["(334.980 - 323.976)", "/ 323.976", "= 3.4% (Aug 2026)"]}},
-  {"who": "ticker",
-   "text": "Example: a basket that cost $100 in August 2025 cost about $103.40 a year later.",
-   "say": "For example, a basket that cost one hundred dollars in August twenty twenty-five cost about one hundred three dollars and forty cents a year later.",
-   "scene": {"t": "money", "from": {"label": "Aug 2025 basket", "value": "$100"}, "to": {"label": "Aug 2026", "value": "$103.40"}}},
-  {"who": "ticker",
-   "text": "Yearly averages swing a lot: 8.0% in 2022, 2.6% in 2025.",
-   "say": "And yearly averages swing a lot, from eight percent in twenty twenty-two to two point six percent in twenty twenty-five.",
-   "scene": {"t": "chart", "title": "CPI inflation, annual avg", "points": [[2020, 1.2], [2021, 4.7], [2022, 8.0], [2023, 4.1], [2024, 2.9], [2025, 2.6]], "suffix": "%", "end": "2.6%", "color": "up"}},
-  {"who": "ticker",
-   "text": "So inflation is one average basket. Your own basket can run hotter or cooler.",
-   "say": "So inflation is one average basket, and your own basket can run hotter or cooler.",
-   "scene": {"t": "chart", "keep": true, "chart_note": {"x": 2022, "text": "8.0% in 2022"}, "mood": "think"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "hook",
+    "title": "A rent [nobody] pays",
+    "prop": "house",
+    "label": "CPI",
+    "value": "1/4",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's about a quarter of the Consumer Price Index.",
+   "say": "And it's about a quarter of the Consumer Price Index.",
+   "scene": {
+    "t": "stat",
+    "label": "Owners' equivalent rent",
+    "value": "~1/4",
+    "tone": "neutral",
+    "sub": "share of CPI weight, BLS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CPI is a shopping basket. Each month, the BLS checks about 80,000 prices.",
+   "say": "The CPI is a shopping basket. Each month, the Bureau of Labor Statistics checks about eighty thousand prices.",
+   "scene": {
+    "t": "stat",
+    "label": "Prices checked each month",
+    "value": "80,000",
+    "tone": "neutral",
+    "sub": "75 urban areas, BLS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Items count by how much we spend. Shelter alone is about a third.",
+   "say": "Items count by how much we spend. Shelter alone is about a third.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bigger spending",
+     "= bigger weight",
+     "Shelter: about 1/3"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Homeowners say what their home would rent for. That sets the weight. Real rents set the price changes.",
+   "say": "Homeowners say what their home would rent for. That sets the weight. Real rents set the price changes.",
+   "scene": {
+    "t": "quote",
+    "text": "If someone were to rent your home today, how much do you think it would rent for monthly, unfurnished and without utilities?",
+    "source": "BLS Consumer Expenditure Survey question"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The math: new index minus old index, divided by the old one. August 2025 to August 2026 gives 3.4%.",
+   "say": "The math: new index minus old index, divided by the old one. August twenty twenty-five to August twenty twenty-six gives three point four percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "(new - old) / old",
+     "Aug 2025 -> Aug 2026",
+     "= 3.4%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $100 basket in August 2025 cost about $103.40 a year later.",
+   "say": "So a one-hundred-dollar basket in August twenty twenty-five cost about one hundred three dollars and forty cents a year later.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Aug 2025 basket",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Aug 2026",
+     "value": "$103.40"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Yearly averages swing a lot, from 8.0% in 2022 to 2.6% in 2025.",
+   "say": "Yearly averages swing a lot, from eight percent in twenty twenty-two to two point six percent in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "CPI inflation, annual avg",
+    "points": [
+     [
+      2020,
+      1.2
+     ],
+     [
+      2021,
+      4.7
+     ],
+     [
+      2022,
+      8.0
+     ],
+     [
+      2023,
+      4.1
+     ],
+     [
+      2024,
+      2.9
+     ],
+     [
+      2025,
+      2.6
+     ]
+    ],
+    "suffix": "%",
+    "end": "2.6%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bottom line: inflation is one average basket. Yours can run hotter or cooler.",
+   "say": "Bottom line: inflation is one average basket. Yours can run hotter or cooler.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2022,
+     "text": "8.0% in 2022"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "That's the money. Follow for more.",
    "say": "That's the money. Follow for more.",
-   "scene": {"t": "cta"}}
+   "scene": {
+    "t": "cta"
+   }
+  }
  ],
  "post": {
   "title": "Inflation counts a rent homeowners never pay",
   "ig": "Inflation counts a rent that homeowners never actually pay.\n\nAbout a quarter of the CPI is \"owners' equivalent rent\": what homes would rent for.\nEach month the BLS checks about 80,000 prices in 75 US cities.\nThe math: (new index - old index) / old index. August 2025 to August 2026: (334.980 - 323.976) / 323.976 = 3.4%.\nAnnual average CPI inflation: 8.0% in 2022, 2.6% in 2025.\n\nSources: BLS CPI release (August 2026), BLS CPI overview and rent/OER factsheet.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#inflation #cpi #economics #personalfinance #financeprostv",
   "tiktok": "Inflation counts a rent homeowners never pay. How CPI works. Not financial advice. #moneytok #personalfinance #inflation #cpi #financeprostv",
   "yt_desc": "About a quarter of the Consumer Price Index is owners' equivalent rent, a rent homeowners never pay. The BLS checks about 80,000 prices a month, and CPI inflation was 3.4% for the 12 months ending August 2026 (334.980 vs 323.976). Sources: BLS CPI release and CPI factsheets.\n\nNews and education, not financial advice.\n\n#Shorts #inflation #cpi",
-  "tags": ["what is CPI", "how inflation is calculated", "consumer price index", "owners equivalent rent", "inflation explained"]
+  "tags": [
+   "what is CPI",
+   "how inflation is calculated",
+   "consumer price index",
+   "owners equivalent rent",
+   "inflation explained"
+  ]
  }
 }
