@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Americans are saving about 4 cents of every dollar they take home.",
-   "say": "Americans are saving about four cents of every dollar they take home.",
+   "text": "Americans save 4 cents of every dollar. A common rule says 20.",
+   "say": "Americans save four cents of every dollar. A common rule says twenty.",
    "scene": {
     "t": "hook",
     "title": "Saving just [4\u00a2]",
@@ -54,8 +54,8 @@
   },
   {
    "who": "ticker",
-   "text": "And the Fed found only 63% of adults would cover a surprise $400 bill with cash.",
-   "say": "And when the Federal Reserve asked, only sixty-three percent of adults said they'd cover a surprise four hundred dollar bill with cash.",
+   "text": "And the Fed found only 63% of adults would cover a surprise $400 bill with cash or its equivalent.",
+   "say": "And when the Federal Reserve asked, only sixty-three percent of adults said they'd cover a surprise four hundred dollar bill with cash or its equivalent.",
    "scene": {
     "t": "stat",
     "label": "Adults who'd cover a $400 expense with cash",
@@ -79,21 +79,21 @@
   },
   {
    "who": "ticker",
-   "text": "A budget is the fix everybody recommends. And most budgets quietly fail within weeks.",
+   "text": "A budget is the fix everybody recommends. And plenty of budgets quietly fall apart within weeks.",
    "say": "A budget is the fix everybody recommends. And plenty of budgets quietly fall apart within weeks.",
    "scene": {
     "t": "board",
     "lines": [
      "Budget = the fix",
-     "But most get",
+     "But many get",
      "abandoned fast"
     ]
    }
   },
   {
    "who": "ticker",
-   "text": "Meanwhile, the average household spent $78,535 in 2024. Most of us couldn't say where half of it went.",
-   "say": "Meanwhile, the average household spent more than seventy-eight thousand dollars in twenty twenty-four. Most of us couldn't say where half of it went.",
+   "text": "Meanwhile, the average household spent $78,535 in 2024. A lot of us couldn't say where much of it went.",
+   "say": "Meanwhile, the average household spent more than seventy-eight thousand dollars in twenty twenty-four. A lot of us couldn't say where much of it went.",
    "scene": {
     "t": "stat",
     "label": "Average household spending, 2024",
@@ -321,8 +321,8 @@
   },
   {
    "who": "ticker",
-   "text": "In 2024, the average US household spent $78,535, per the BLS Consumer Expenditure Survey.",
-   "say": "In twenty twenty-four, the average US household spent seventy-eight thousand, five hundred thirty-five dollars, according to the B L S Consumer Expenditure Survey.",
+   "text": "As we said, the average US household spent $78,535 in 2024, per the BLS Consumer Expenditure Survey, the latest full year.",
+   "say": "As we said, the average US household spent seventy-eight thousand, five hundred thirty-five dollars in twenty twenty-four. That's from the B L S Consumer Expenditure Survey, the latest full year.",
    "scene": {
     "t": "stat",
     "label": "Average annual household spending, 2024",
@@ -414,7 +414,7 @@
   },
   {
    "who": "ticker",
-   "text": "Prices rose fast in those years, which pushed household spending up about 25% from 2019 to 2024.",
+   "text": "Prices rose fast in those years, which helped push household spending up about 25% from 2019 to 2024.",
    "say": "Prices rose fast in those years, which helped push household spending up about twenty-five percent from twenty nineteen to twenty twenty-four.",
    "scene": {
     "t": "hook",
@@ -453,7 +453,7 @@
     "label": "Housing share of spending, 2024",
     "value": "33.4%",
     "tone": "down",
-    "sub": "about $26,231 a year"
+    "sub": "about $26,266 a year (BLS)"
    }
   },
   {
@@ -474,22 +474,22 @@
   },
   {
    "who": "ticker",
-   "text": "In dollars, that's roughly $13,351 a year on getting around, and $10,131 on food.",
-   "say": "In dollars, that's roughly thirteen thousand three hundred fifty a year on getting around, and about ten thousand one hundred on food.",
+   "text": "In dollars, that's $13,318 a year on getting around, and $10,169 on food.",
+   "say": "In dollars, that's about thirteen thousand three hundred a year on getting around, and about ten thousand two hundred on food.",
    "scene": {
     "t": "compare",
-    "title": "Average yearly spending, 2024 (approx.)",
+    "title": "Average yearly spending, 2024",
     "left": {
      "label": "Transportation",
-     "value": "$13,351",
+     "value": "$13,318",
      "tone": "neutral",
-     "sub": "17.0% x $78,535"
+     "sub": "BLS, 2024"
     },
     "right": {
      "label": "Food",
-     "value": "$10,131",
+     "value": "$10,169",
      "tone": "neutral",
-     "sub": "12.9% x $78,535"
+     "sub": "BLS, 2024"
     }
    }
   },
@@ -933,7 +933,7 @@
     "items": [
      "68% needs ($3,075)",
      "20% wants ($900)",
-     "12% savings ($525)"
+     "~12% savings ($525)"
     ],
     "reveal": 3
    }
@@ -953,7 +953,8 @@
     "right": {
      "label": "Avg housing alone",
      "value": "33.4%",
-     "tone": "down"
+     "tone": "down",
+     "sub": "share of spending"
     }
    }
   },
@@ -1231,7 +1232,7 @@
   {
    "who": "ticker",
    "text": "That's why paying off high-interest debt often counts as part of your 20%.",
-   "say": "That's why paying off high-interest debt usually counts as part of your twenty percent.",
+   "say": "That's why paying off high-interest debt often counts as part of your twenty percent.",
    "scene": {
     "t": "compare",
     "title": "Where the 20% can go",
@@ -1370,8 +1371,8 @@
   },
   {
    "who": "ticker",
-   "text": "Keep that up for a year and it's $1,300, enough to handle many common surprises without a credit card.",
-   "say": "Keep it up for a whole year, and it's thirteen hundred dollars. Enough to handle a lot of common surprises without a credit card.",
+   "text": "After a full year, that's $1,300, enough to handle many common surprises without a credit card.",
+   "say": "After a full year, that's thirteen hundred dollars. Enough to handle a lot of common surprises without a credit card.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1411,8 +1412,8 @@
   },
   {
    "who": "ticker",
-   "text": "Americans saved about 4% of take-home pay in August 2026. Common rules aim for 20%.",
-   "say": "Americans saved about four percent of take-home pay in August twenty twenty-six. Common rules aim for twenty.",
+   "text": "Americans saved about 4% of after-tax income in August 2026. Common rules aim for 20%.",
+   "say": "Americans saved about four percent of after-tax income in August twenty twenty-six. Common rules aim for twenty.",
    "scene": {
     "t": "list",
     "title": "Recap",
@@ -1527,7 +1528,7 @@
  ],
  "post": {
   "title": "Americans save about 4 cents per dollar. How to build a budget that actually works",
-  "ig": "Americans saved just 4.1% of take-home pay in Aug 2026. Here's a budget that actually works.",
+  "ig": "Americans saved just 4.1% of after-tax income in Aug 2026. Here's a budget that actually works.",
   "tiktok": "Americans save about 4 cents per dollar. Here's how to build a budget that sticks.",
   "yt_desc": "Americans saved just 4.1% of disposable income in August 2026, and only 63% of adults say they'd cover a $400 surprise with cash. We look at where the average household's $78,535 actually goes, why most budgets fail, how to build one in four steps with sinking funds, and how 50/30/20, zero-based and pay-yourself-first budgets compare.\n\nCHAPTERS\n\nSources:\n- BEA, Personal Income and Outlays, August 2026 (Sept 30, 2026)\n- Federal Reserve, Economic Well-Being of U.S. Households in 2025 (May 2026)\n- BLS, Consumer Expenditures 2024 (Dec 19, 2025) and earlier releases\n- Elizabeth Warren and Amelia Warren Tyagi, All Your Worth (2005)\n\nNews and education, not financial advice.\n\n#Budgeting #PersonalFinance #MoneyTips",
   "tags": [
