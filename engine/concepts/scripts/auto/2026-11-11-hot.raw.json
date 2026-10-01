@@ -23,21 +23,21 @@
   },
   {
    "who": "ticker",
-   "text": "Not a loophole. The income tax taxes income, not wealth.",
-   "say": "Not a loophole. The income tax taxes income, not wealth.",
+   "text": "Not a loophole. The income tax generally taxes realized gains, not paper gains.",
+   "say": "Not a loophole. The income tax generally taxes realized gains, not paper gains.",
    "scene": {
     "t": "board",
     "lines": [
-     "Taxed: INCOME",
-     "Not taxed: WEALTH"
+     "Taxed: SOLD gains",
+     "Not taxed: PAPER gains"
     ],
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "A stock gain is generally taxed only once it's sold, or realized. Until then, it's a paper gain.",
-   "say": "A stock gain is generally taxed only once it's sold, or realized. Until then, it's a paper gain.",
+   "text": "A gain is realized when you sell. Until then, it's on paper.",
+   "say": "A gain is realized when you sell. Until then, it's on paper.",
    "scene": {
     "t": "board",
     "lines": [
@@ -48,8 +48,8 @@
   },
   {
    "who": "ticker",
-   "text": "Example: a founder's shares rise $1 billion, and she sells none. Only her $1 million salary is income.",
-   "say": "Say a founder's shares rise one billion dollars, and she sells none. Only her one million dollar salary is income.",
+   "text": "Example: a founder's shares rise $1 billion; she sells none. Only her $1 million salary is taxable income.",
+   "say": "Say a founder's shares rise one billion dollars, and she sells none. Only her one million dollar salary is taxable income.",
    "scene": {
     "t": "compare",
     "title": "Example (hypothetical)",
@@ -108,11 +108,11 @@
   },
   {
    "who": "ticker",
-   "text": "Sept 2021: White House economists counted paper gains as income. Top 400 families' rate: 8.2%, for 2010-2018.",
-   "say": "September twenty twenty-one: White House economists counted paper gains as income. The top four hundred families' tax rate? Eight point two percent, for twenty ten to twenty eighteen.",
+   "text": "Sept 2021: White House economists, counting paper gains as income, estimated the 400 wealthiest families' average federal income tax rate at 8.2%, 2010-2018.",
+   "say": "September twenty twenty-one: White House economists, counting paper gains as income, estimated the four hundred wealthiest families' average federal income tax rate at eight point two percent, twenty ten to twenty eighteen.",
    "scene": {
     "t": "stat",
-    "label": "Top 400 income tax rate",
+    "label": "Avg federal income tax rate",
     "value": "8.2%",
     "tone": "down",
     "sub": "CEA/OMB, Sept 2021; 2010-18",
@@ -121,15 +121,15 @@
   },
   {
    "who": "ticker",
-   "text": "Critics like Cato and the Tax Foundation say wealth growth isn't income.",
-   "say": "Critics like Cato and the Tax Foundation say wealth growth isn't income.",
+   "text": "Cato says paper gains aren't income. The Tax Foundation says the estimate leaves out corporate taxes.",
+   "say": "Cato says paper gains aren't income, and the Tax Foundation says the estimate leaves out corporate taxes.",
    "scene": {
     "t": "list",
     "title": "Critics' objections",
     "items": [
-     "Wealth growth isn't income",
+     "Paper gains aren't income",
      "Skips corporate taxes",
-     "Standard rates: higher"
+     "Official data: higher rates"
     ],
     "reveal": 3,
     "mood": "think"
@@ -137,8 +137,8 @@
   },
   {
    "who": "ticker",
-   "text": "So it comes down to one rule: tax gains as they grow, or when sold? In June 2024, the Supreme Court left that open.",
-   "say": "So it comes down to one rule. Tax gains as they grow, or when sold? In June twenty twenty-four, the Supreme Court left that open.",
+   "text": "In June 2024, the Supreme Court left open whether gains must be sold to be taxed.",
+   "say": "In June twenty twenty-four, the Supreme Court left open whether gains must be sold to be taxed.",
    "scene": {
     "t": "news",
     "headline": "Supreme Court leaves realization question open",
@@ -156,9 +156,9 @@
  ],
  "post": {
   "title": "How a $1B gain can add $0 to taxable income",
-  "ig": "A billion-dollar gain can add $0 to your taxable income.\n\nThe income tax taxes income, not wealth: a stock gain is generally taxed only when it's sold (realized).\nThe Forbes 400 is worth a record $8 trillion in 2026, up $1.4 trillion in a year.\nA Sept 2021 White House (CEA/OMB) estimate that counted unrealized gains as income put the top 400 families' federal income tax rate at 8.2% for 2010-2018. Critics like the Tax Foundation and Cato say wealth growth isn't income.\nIn Moore v. United States (June 2024), the Supreme Court left the realization question open.\n\nSources: IRS Topic 409; CEA/OMB (Sept 2021); Forbes (Sept 2026); Tax Foundation; Cato; Moore v. US (2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#taxes #billionaires #capitalgains #personalfinance #financeprostv",
+  "ig": "A billion-dollar gain can add $0 to your taxable income.\n\nThe income tax generally taxes realized gains, not paper gains: a stock gain is generally taxed only when it's sold.\nThe Forbes 400 is worth a record $8 trillion in 2026, up $1.4 trillion in a year.\nA Sept 2021 White House (CEA/OMB) estimate that counted unrealized gains as income estimated the 400 wealthiest families' average federal income tax rate at 8.2% for 2010-2018. Cato says paper gains aren't income; the Tax Foundation says the estimate leaves out corporate taxes.\nIn Moore v. United States (June 2024), the Supreme Court left the realization question open.\n\nSources: IRS Topic 409; CEA/OMB (Sept 2021); Forbes (Sept 2026); Tax Foundation; Cato; Moore v. US (2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#taxes #billionaires #capitalgains #personalfinance #financeprostv",
   "tiktok": "A $1B gain can add $0 to taxable income. The realization rule. Not financial advice. #moneytok #personalfinance #taxes #billionaires #financeprostv",
-  "yt_desc": "The income tax taxes income, not wealth, and a stock gain is generally taxed only when it's sold. A September 2021 White House CEA/OMB estimate that counted unrealized gains as income put the 400 wealthiest families' federal income tax rate at 8.2% for 2010-2018; critics such as the Tax Foundation and Cato say wealth growth isn't income. Sources: IRS Topic 409, CEA/OMB, Forbes 400 (Sept 2026), Moore v. United States (June 2024). News and education, not financial advice.\n#Shorts #taxes #billionaires",
+  "yt_desc": "The income tax generally taxes realized gains, not paper gains: a stock gain is generally taxed only when it's sold. A September 2021 White House CEA/OMB estimate that counted unrealized gains as income estimated the 400 wealthiest families' average federal income tax rate at 8.2% for 2010-2018; Cato says paper gains aren't income, and the Tax Foundation says it leaves out corporate taxes. Sources: IRS Topic 409, CEA/OMB, Forbes 400 (Sept 2026), Moore v. United States (June 2024). News and education, not financial advice.\n#Shorts #taxes #billionaires",
   "tags": [
    "billionaire taxes",
    "unrealized gains",
