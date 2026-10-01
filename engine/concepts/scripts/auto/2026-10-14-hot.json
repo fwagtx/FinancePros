@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-14-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Landlord sold\nthe building?",
+ "cover": {
+  "title": "Landlord Sold? Your Lease Stays",
+  "prop": "house",
+  "label": "SOLD",
+  "value": "LEASE OK"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Landlord sold your building? Your lease didn't end.",
+   "say": "Landlord sold your building? Your lease didn't end.",
+   "scene": {
+    "t": "hook",
+    "title": "Sold? Lease [stays].",
+    "prop": "house",
+    "label": "SOLD",
+    "value": "LEASE OK",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Myth: new owner, new rules. In most states, your lease comes with the building.",
+   "say": "Myth: new owner, new rules. In most states, your lease comes with the building.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "MYTH: new owner, new rules",
+     "FACT: the lease comes",
+     "with the building"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About one in three US households rents: 35% (Census, Q2 2026).",
+   "say": "And about one in three US households rents.",
+   "scene": {
+    "t": "stat",
+    "label": "US households that rent",
+    "value": "35%",
+    "tone": "neutral",
+    "sub": "Census, Q2 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $1,800 rent, 8 months left. After the sale: same rent, same end date.",
+   "say": "Example: eighteen hundred dollars rent, eight months left. After the sale, same rent, same end date.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: rent",
+    "left": {
+     "label": "Before sale",
+     "value": "$1,800",
+     "tone": "neutral",
+     "sub": "8 months left"
+    },
+    "right": {
+     "label": "After sale",
+     "value": "$1,800",
+     "tone": "neutral",
+     "sub": "same end date"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say your deposit is $2,000. In California, the old owner must transfer what's left after lawful deductions, or refund you.",
+   "say": "Say your deposit is two thousand dollars. In California, the old owner must transfer what's left after lawful deductions, or refund you.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Old owner (example)",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "New owner (example, no deductions)",
+     "value": "$2,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The surprise: if the old owner skips that, the new owner can be on the hook for your deposit too.",
+   "say": "The surprise: if the old owner skips that, the new owner can be on the hook for your deposit too.",
+   "scene": {
+    "t": "stat",
+    "label": "New owner can share liability",
+    "value": "Deposit",
+    "tone": "up",
+    "sub": "Calif. Civ. Code 1950.5(j)",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a foreclosure, federal law generally lets you finish your lease, or gives at least 90 days' notice.",
+   "say": "In a foreclosure, federal law generally lets you finish your lease, or gives at least ninety days' notice.",
+   "scene": {
+    "t": "stat",
+    "label": "Minimum notice after foreclosure",
+    "value": "90 days",
+    "tone": "neutral",
+    "sub": "federal PTFA (2009, permanent 2018)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: month-to-month renters have less protection. Many states allow notice, but some places require a legal reason.",
+   "say": "The catch: month-to-month renters have less protection. Many states allow notice, but some places require a legal reason.",
+   "scene": {
+    "t": "split",
+    "title": "Who's protected?",
+    "left": {
+     "title": "Fixed lease",
+     "items": [
+      "Same rent",
+      "Same end date"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Month-to-month",
+     "items": [
+      "Notice in many states",
+      "Some need just cause"
+     ],
+     "tone": "down"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A sale letter usually names three things: the new owner, where rent goes, and who holds the deposit.",
+   "say": "A sale letter usually names three things: the new owner, where rent goes, and who holds the deposit.",
+   "scene": {
+    "t": "list",
+    "title": "In the sale letter",
+    "items": [
+     "New owner's name",
+     "Where rent goes",
+     "Who holds deposit"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Landlord sold your building? Your lease didn't end.",
+  "ig": "Landlord sold your building? Your lease didn't end.\nIn most states, a fixed-term lease transfers with the building: same rent, same end date.\nIn California, the old owner must transfer the deposit (minus lawful deductions) or refund it; if not, the new owner can in many cases be on the hook too.\nAfter a foreclosure, federal law (PTFA) generally lets tenants finish the lease or gives at least 90 days' notice.\nMonth-to-month renters have less protection, though some states and cities require just cause.\nAbout one in three US households rents (Census, Q2 2026).\nSources: Cal. Civil Code 1950.5, Protecting Tenants at Foreclosure Act, US Census Bureau.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#renting #tenantrights #landlord #personalfinance #financeprostv",
+  "tiktok": "Landlord sold your building? Your lease didn't end. Not financial advice. #moneytok #personalfinance #renting #tenantrights #financeprostv",
+  "yt_desc": "When a landlord sells, a fixed-term lease generally transfers to the new owner with the same rent and end date. In California, the deposit (minus lawful deductions) must be transferred or refunded under Civil Code 1950.5, and after a foreclosure the federal PTFA generally lets tenants finish the lease or gives at least 90 days' notice. About one in three US households rents (Census, Q2 2026). News and education, not financial advice. #Shorts #renting #tenantrights",
+  "tags": [
+   "landlord sells building",
+   "tenant rights",
+   "renting",
+   "security deposit",
+   "lease"
+  ]
+ }
+}
