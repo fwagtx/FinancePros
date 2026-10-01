@@ -40,8 +40,8 @@
   },
   {
    "who": "ticker",
-   "text": "Kelley Blue Book says the average new vehicle went for $50,089 in August 2026, the first month this year above $50,000.",
-   "say": "Kelley Blue Book says the average new vehicle went for fifty thousand eighty-nine dollars in August twenty twenty-six, the first month of the year above fifty thousand.",
+   "text": "Kelley Blue Book says the average new vehicle went for $50,089 in August 2026, the first month of 2026 above $50,000.",
+   "say": "Kelley Blue Book says the average new vehicle went for fifty thousand eighty-nine dollars in August twenty twenty-six, the first month of twenty twenty-six above fifty thousand.",
    "scene": {
     "t": "stat",
     "label": "Avg new-vehicle price paid, Aug 2026",
@@ -313,8 +313,8 @@
   },
   {
    "who": "ticker",
-   "text": "When a dealer arranges your loan, the lender quotes the dealer a rate. The CFPB calls that the buy rate.",
-   "say": "When a dealer arranges your loan, the lender quotes the dealer a rate. The C F P B calls that the buy rate.",
+   "text": "When a dealer arranges a buyer's loan, the lender quotes the dealer a rate. The CFPB calls that the buy rate.",
+   "say": "When a dealer arranges a buyer's loan, the lender quotes the dealer a rate. The C F P B calls that the buy rate.",
    "scene": {
     "t": "board",
     "lines": [
@@ -391,7 +391,7 @@
    "say": "But over five years, total interest goes from about fifty-nine hundred forty-two dollars to seventy-nine hundred thirty-three.",
    "scene": {
     "t": "compare",
-    "title": "Example: total interest, 60 months",
+    "title": "Example: interest, 60 months",
     "left": {
      "label": "6.35% APR",
      "value": "$5,942",
@@ -420,8 +420,8 @@
   },
   {
    "who": "ticker",
-   "text": "So a lot of buyers line up a loan offer from a bank or credit union before they ever visit the lot.",
-   "say": "So a lot of buyers line up a loan offer from a bank or credit union before they ever visit the lot.",
+   "text": "So some buyers line up a loan offer from a bank or credit union before they ever visit the lot.",
+   "say": "So some buyers line up a loan offer from a bank or credit union before they ever visit the lot.",
    "scene": {
     "t": "hook",
     "title": "Loan [first]",
@@ -462,7 +462,7 @@
    "scene": {
     "t": "stat",
     "label": "Days auto-loan checks count as one",
-    "value": "14-45 d",
+    "value": "14-45",
     "tone": "up",
     "sub": "CFPB; depends on score model"
    }
@@ -504,7 +504,7 @@
    "say": "First, the backdrop. Here's the average price paid for a new vehicle each month of twenty twenty-six, from Kelley Blue Book.",
    "scene": {
     "t": "chart",
-    "title": "Avg new-vehicle price paid, 2026 (KBB)",
+    "title": "Avg new-car price paid, 2026",
     "points": [
      [
       1,
@@ -559,8 +559,8 @@
   },
   {
    "who": "ticker",
-   "text": "For used cars, Cox Automotive says the average used listing was $27,239 in August 2026, up 7% from a year earlier.",
-   "say": "For used cars, Cox Automotive says the average used listing was twenty-seven thousand two hundred thirty-nine dollars in August twenty twenty-six, up seven percent from a year earlier.",
+   "text": "Cox Automotive says the average used-car listing was $27,239 in August 2026, up 7% from a year earlier.",
+   "say": "Cox Automotive says the average used-car listing was twenty-seven thousand two hundred thirty-nine dollars in August twenty twenty-six, up seven percent from a year earlier.",
    "scene": {
     "t": "stat",
     "label": "Avg used-vehicle listing price, Aug 2026",
@@ -592,8 +592,8 @@
   },
   {
    "who": "ticker",
-   "text": "So how do buyers find a fair price? Most start with what similar cars actually sell for, not the sticker.",
-   "say": "So how do buyers find a fair price? Most start with what similar cars actually sell for, not the sticker.",
+   "text": "So how do buyers find a fair price? Many start with what similar cars actually sell for, not the sticker.",
+   "say": "So how do buyers find a fair price? Many start with what similar cars actually sell for, not the sticker.",
    "scene": {
     "t": "hook",
     "title": "Paid, not [sticker]",
@@ -717,8 +717,8 @@
   },
   {
    "who": "ticker",
-   "text": "Florida has no cap, and CarEdge's 2026 survey puts the typical Florida fee near $1,000. Same paperwork, very different bill.",
-   "say": "Florida has no cap, and CarEdge's twenty twenty-six survey puts the typical Florida fee near a thousand dollars. Same paperwork, very different bill.",
+   "text": "Florida has no cap, and CarEdge's 2026 survey puts the average Florida fee near $1,000. Same paperwork, very different bill.",
+   "say": "Florida has no cap, and CarEdge's twenty twenty-six survey puts the average Florida fee near a thousand dollars. Same paperwork, very different bill.",
    "scene": {
     "t": "compare",
     "keep": true,
@@ -870,7 +870,7 @@
    "say": "For example, a thirty-eight thousand dollar car and a fifteen thousand dollar trade, with six percent tax. Without the credit, tax is two thousand two hundred eighty dollars.",
    "scene": {
     "t": "compare",
-    "title": "Example: $38,000 car, $15,000 trade, 6%",
+    "title": "Example: $38K car, $15K trade",
     "left": {
      "label": "Tax on full price",
      "value": "$2,280",
@@ -964,7 +964,7 @@
    "say": "In Edmunds' data, those buyers paid nine hundred forty-four dollars a month on average in the second quarter, versus seven hundred seventy-seven for all new-car loans.",
    "scene": {
     "t": "compare",
-    "title": "Avg new-car payment, Q2 2026 (Edmunds)",
+    "title": "Avg new-car payment, Q2 2026",
     "left": {
      "label": "All new loans",
      "value": "$777",
@@ -1100,8 +1100,8 @@
   },
   {
    "who": "ticker",
-   "text": "As is means the dealer won't pay for problems after the sale. That's why many used-car buyers pay for an independent inspection first.",
-   "say": "As is means the dealer won't pay for problems after the sale. That's why many used-car buyers pay for an independent inspection first.",
+   "text": "As is means the dealer won't pay for problems after the sale. That's why some used-car buyers pay for an independent inspection first.",
+   "say": "As is means the dealer won't pay for problems after the sale. That's why some used-car buyers pay for an independent inspection first.",
    "scene": {
     "t": "split",
     "title": "Used car, sold as is",

@@ -35,7 +35,7 @@
   {
    "who": "ticker",
    "text": "Open enrollment runs Oct 15 - Dec 7, 2026, and the FTC says scams pick up.",
-   "say": "Open enrollment runs October fifteenth to December seventh, and scams pick up.",
+   "say": "Open enrollment runs October fifteenth to December seventh, and the FTC says scams pick up.",
    "scene": {
     "t": "board",
     "lines": [
@@ -78,12 +78,14 @@
   },
   {
    "who": "ticker",
-   "text": "The FTC adds: \"Your caller ID might show Medicare's name or phone number. But caller ID can be faked.\"",
-   "say": "The FTC adds: your caller ID might show Medicare's name or phone number. But caller ID can be faked.",
+   "text": "The FTC warns caller ID showing Medicare's name or number can be faked.",
+   "say": "The FTC warns caller ID showing Medicare's name or number can be faked.",
    "scene": {
-    "t": "quote",
-    "text": "Your caller ID might show Medicare's name or phone number. But caller ID can be faked.",
-    "source": "FTC consumer alert, Sept 2025",
+    "t": "stat",
+    "label": "Caller ID says Medicare?",
+    "value": "Can fake",
+    "tone": "down",
+    "sub": "FTC alert, Sept 2025",
     "mood": "shock"
    }
   },
@@ -93,7 +95,7 @@
    "say": "People sixty and older reported seven point seven five billion dollars in online crime losses to the FBI in twenty twenty-five.",
    "scene": {
     "t": "chart",
-    "title": "Losses reported to FBI, age 60+",
+    "title": "Losses to FBI, age 60+",
     "points": [
      [
       2020,
@@ -129,8 +131,8 @@
   },
   {
    "who": "ticker",
-   "text": "Up 59% in a year, across all scams, not only Medicare.",
-   "say": "Up fifty-nine percent in a year, across all scams, not only Medicare.",
+   "text": "Up 59% in a year, across all online crime, not only Medicare.",
+   "say": "Up fifty-nine percent in a year, across all online crime, not only Medicare.",
    "scene": {
     "t": "chart",
     "keep": true,
@@ -157,8 +159,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
+   "text": "Share this with someone on Medicare. Follow for more.",
+   "say": "Share this with someone on Medicare. Follow for more.",
    "scene": {
     "t": "cta"
    }
