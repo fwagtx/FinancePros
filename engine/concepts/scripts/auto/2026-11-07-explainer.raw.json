@@ -14,7 +14,7 @@
    "say": "Your salary isn't in your credit score. At all.",
    "scene": {
     "t": "hook",
-    "title": "Your salary: [0%]",
+    "title": "Your salary [doesn't count]",
     "prop": "card",
     "label": "INCOME",
     "value": "0%",
@@ -107,8 +107,8 @@
    "scene": {
     "t": "money",
     "from": {
-     "label": "Balance / limit",
-     "value": "$5,000 / $10,000"
+     "label": "owed on a $10,000 limit",
+     "value": "$5,000"
     },
     "to": {
      "label": "Utilization",
@@ -142,36 +142,20 @@
    "text": "The average FICO score peaked at 718 in 2023. By spring 2026, it was 714.",
    "say": "The average FICO score peaked at seven eighteen in twenty twenty-three. By spring twenty twenty-six, it was seven fourteen.",
    "scene": {
-    "t": "chart",
-    "title": "Average US FICO Score (April snapshots)",
-    "points": [
-     [
-      2019,
-      706
-     ],
-     [
-      2021,
-      716
-     ],
-     [
-      2023,
-      718
-     ],
-     [
-      2024,
-      717
-     ],
-     [
-      2025,
-      715
-     ],
-     [
-      2026,
-      714
-     ]
-    ],
-    "end": "714",
-    "color": "down"
+    "t": "compare",
+    "title": "Average US FICO Score (FICO)",
+    "left": {
+     "label": "April 2023",
+     "value": "718",
+     "tone": "up",
+     "sub": "record high"
+    },
+    "right": {
+     "label": "Spring 2026",
+     "value": "714",
+     "tone": "down",
+     "sub": "down 4 points"
+    }
    }
   },
   {
