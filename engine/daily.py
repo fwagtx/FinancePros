@@ -203,11 +203,13 @@ def make_slot(show, when, date, st, key=None):
         import run
         video, cover = run.make(path)
         if longform: sc["post"]["yt_desc"] = sc["post"]["yt_desc"].replace("CHAPTERS", chapters(sc, os.path.dirname(video)))
-        urls = host([video, cover], date)
+        import publish
+        urls = host([video, cover] + ([] if longform else [publish.tiktok_video(video, cover)]), date)
         now = dt.datetime.now(TZ)
         at = max(when, now + dt.timedelta(minutes=10))
         import publish
-        results = publish.schedule(urls[0], urls[1], sc["post"], at.strftime("%Y-%m-%dT%H:%M:00"), "America/Chicago", longform=longform)
+        results = publish.schedule(urls[0], urls[1], sc["post"], at.strftime("%Y-%m-%dT%H:%M:00"), "America/Chicago", longform=longform,
+                                   tt_video=urls[2] if len(urls) > 2 else None)
         rec.update(status="posted", made_as=made_as, title=sc["post"].get("title", ""), post_at=at.isoformat(timespec="minutes"),
                    video=urls[0], networks=results)
         if any(not r["ok"] for r in results): rec["note"] = "some networks failed; see networks"

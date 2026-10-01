@@ -89,14 +89,31 @@ def threads_text(caption, limit=500):
     return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0]
 
 
-def short_posts(video, cover, post, when, tz):
-    """The three per-platform posts for one vertical short."""
+def tiktok_video(video, cover, hold=0.2):
+    """A copy of the short whose first frames are the cover. TikTok only takes a cover chosen from the video's own frames
+    (a custom image works only for Business accounts), so without this its grid shows the blank opening frame."""
+    import subprocess
+    out = video[:-4] + "-tiktok.mp4"
+    probe = lambda e: subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", f"stream={e}", "-of", "csv=p=0", video],
+                                     capture_output=True, text=True).stdout.strip()
+    w, h = probe("width,height").split(","); fps = probe("r_frame_rate") or "30"
+    ms = int(hold * 1000)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-framerate", fps, "-t", str(hold), "-i", cover, "-i", video, "-filter_complex",
+                    f"[0:v]scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:white,setsar=1,format=yuv420p[c];"
+                    f"[1:v]setsar=1,format=yuv420p[v];[c][v]concat=n=2:v=1:a=0[vo];[1:a]adelay={ms}:all=1[ao]",
+                    "-map", "[vo]", "-map", "[ao]", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-c:a", "aac", "-b:a", "192k",
+                    "-movflags", "+faststart", out], check=True)
+    return out
+
+
+def short_posts(video, cover, post, when, tz, tt_video=None):
+    """The per-platform posts for one vertical short. tt_video: the TikTok copy that opens on the cover (tiktok_video)."""
     title = post["title"].strip()
     common = dict(BASE, publicationDate={"dateTime": when, "timezone": tz}, media=[video], draft=_draft())
     ig = dict(common, text=post["ig"], providers=[{"network": "instagram"}, {"network": "facebook"}],
               instagramData={"type": "REEL", "showReelOnFeed": True, "isAiGenerated": False},
               facebookData={"type": "REEL", "title": title[:100]})
-    tt = dict(common, text=post["tiktok"][:2200], providers=[{"network": "tiktok"}],
+    tt = dict(common, media=[tt_video or video], text=post["tiktok"][:2200], providers=[{"network": "tiktok"}],
               tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE", "title": title[:90], "isAigc": False, "disableComment": False,
                           "disableDuet": False, "disableStitch": False, "autoAddMusic": False})
     yt_title = (title if "#shorts" in title.lower() else f"{title} #Shorts")[:100]
@@ -147,12 +164,12 @@ def _send(b):
     return {"network": _networks(b), "ok": False, "error": detail[:300], "optional": optional}
 
 
-def schedule(video, cover, post, when, tz="America/Chicago", longform=False):
+def schedule(video, cover, post, when, tz="America/Chicago", longform=False, tt_video=None):
     """Schedule every platform post for one video. Returns [{network, ok, id|error, optional}]."""
     if not wait_public(video):
         raise RuntimeError(f"Video is not publicly reachable yet: {video}")
     if cover and not wait_public(cover, 6): cover = None
-    bodies = long_post(video, cover, post, when, tz) if longform else short_posts(video, cover, post, when, tz)
+    bodies = long_post(video, cover, post, when, tz) if longform else short_posts(video, cover, post, when, tz, tt_video)
     return [_send(b) for b in bodies]
 
 

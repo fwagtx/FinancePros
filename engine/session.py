@@ -205,7 +205,7 @@ def fallback(sid):
 def posts_for(urls, sc, at, longform):
     import publish
     bodies = publish.long_post(urls[0], urls[1], sc["post"], at, "America/Chicago") if longform else \
-        publish.short_posts(urls[0], urls[1], sc["post"], at, "America/Chicago")
+        publish.short_posts(urls[0], urls[1], sc["post"], at, "America/Chicago", urls[2] if len(urls) > 2 else None)
     off = dt.datetime.fromisoformat(at).replace(tzinfo=TZ).strftime("%z"); off = off[:3] + ":" + off[3:]
     out = []
     for b in bodies:
@@ -239,7 +239,7 @@ def build(sid, raw):
     longform = kind(show) == "long"
     dur, ok = quality(video, cover, sid, "long" if longform else "short")
     if longform: sc["post"]["yt_desc"] = sc["post"]["yt_desc"].replace("CHAPTERS", chapters(sc, os.path.dirname(video)))
-    urls = host([video, cover], date)
+    urls = host([video, cover] + ([] if longform else [publish.tiktok_video(video, cover)]), date)
     for u in urls:
         if not publish.wait_public(u, 30): raise SystemExit(f"not reachable yet: {u}")
     at = max(slot_time(date, show), dt.datetime.now(TZ) + MIN_LEAD).strftime("%Y-%m-%dT%H:%M:00")
