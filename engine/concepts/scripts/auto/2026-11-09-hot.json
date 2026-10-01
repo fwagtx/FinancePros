@@ -1,0 +1,179 @@
+{
+ "id": "2026-11-09-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Car repossessed?\nWhat happens next",
+ "cover": {
+  "title": "No Car. Still Owe $11K?",
+  "prop": "car",
+  "label": "REPO",
+  "value": "$11,340"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "They took your car. You still owe $11K?",
+   "say": "They took your car. You still owe eleven grand?",
+   "scene": {
+    "t": "hook",
+    "title": "No car. [Still owe.]",
+    "prop": "car",
+    "label": "REPO",
+    "value": "$11,340",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's how a repo works.",
+   "say": "Here's how a repo works.",
+   "scene": {
+    "t": "list",
+    "title": "How a repo works",
+    "items": [
+     "Payments missed",
+     "Car taken",
+     "Sold at auction",
+     "You owe the gap"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After a default, many states let the lender take the car without a court order, often with no warning.",
+   "say": "After a default, many states let the lender take the car without a court order, often with no warning.",
+   "scene": {
+    "t": "list",
+    "title": "How a repo works",
+    "items": [
+     "Payments missed",
+     "Car taken",
+     "Sold at auction",
+     "You owe the gap"
+    ],
+    "reveal": 2,
+    "keep": true,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's usually sold at auction, often for less than you owe.",
+   "say": "It's usually sold at auction, often for less than you owe.",
+   "scene": {
+    "t": "list",
+    "title": "How a repo works",
+    "items": [
+     "Payments missed",
+     "Car taken",
+     "Sold at auction",
+     "You owe the gap"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you owe $20,000. It sells for $12,000, and repo and sale fees add $1,500.",
+   "say": "Say you owe twenty thousand dollars. It sells for twelve thousand, and repo and sale fees add fifteen hundred.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$20,000 owed",
+     "- $12,000 sale",
+     "+ $1,500 fees"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now you owe $9,500, with no car. That's a deficiency balance.",
+   "say": "Now you owe ninety-five hundred dollars, with no car. That's a deficiency balance.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Car",
+     "value": "Gone"
+    },
+    "to": {
+     "label": "Deficiency balance",
+     "value": "$9,500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB found the average leftover balance was $11,340 in December 2022.",
+   "say": "The C F P B found the average leftover balance was eleven thousand three hundred forty dollars in December twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Average deficiency balance, Dec 2022",
+    "value": "$11,340",
+    "tone": "down",
+    "sub": "CFPB"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A repo can stay on your credit report up to 7 years.",
+   "say": "A repo can stay on your credit report up to seven years.",
+   "scene": {
+    "t": "stat",
+    "label": "Repo on your credit report",
+    "value": "7 years",
+    "tone": "down",
+    "sub": "up to, under federal law"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cox Automotive estimated about 1.73 million repos in 2024.",
+   "say": "Cox Automotive estimated about one point seven three million repos in twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Cars repossessed, 2024",
+    "value": "1.73M",
+    "tone": "down",
+    "sub": "Cox Automotive"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB says to contact your lender early if you can't pay.",
+   "say": "The C F P B says to contact your lender early if you can't pay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Behind on payments?",
+     "Talk to the lender",
+     "before the repo"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your car gets repossessed. You can still owe thousands.",
+  "ig": "Your car gets repossessed. You can still owe thousands. The average was $11,340.\nAfter a default, in many states a lender can take the car without a court order. It's usually sold at auction, often for less than you owe.\nExample: owe $20,000, car sells for $12,000, $1,500 in fees = $9,500 deficiency balance, and no car.\nCFPB: the average deficiency balance was $11,340 in Dec 2022. A repo can stay on your credit report up to 7 years. Cox Automotive estimated about 1.73M repos in 2024.\nSources: CFPB; Cox Automotive.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#carloan #repossession #debt #personalfinance #financeprostv",
+  "tiktok": "Your car gets repossessed. You can still owe thousands. Not financial advice. #moneytok #personalfinance #carloan #debt #financeprostv",
+  "yt_desc": "After a car loan default, in many states the lender can repossess without a court order; the car is usually sold at auction, and if the sale doesn't cover the loan plus fees you owe a deficiency balance. The CFPB found the average deficiency balance was $11,340 in December 2022, and Cox Automotive estimated about 1.73 million repossessions in 2024. News and education, not financial advice. #Shorts #carloan #personalfinance",
+  "tags": [
+   "car repossession",
+   "deficiency balance",
+   "auto loan",
+   "debt",
+   "personal finance"
+  ]
+ }
+}
