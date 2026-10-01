@@ -1,0 +1,181 @@
+{
+ "id": "2026-10-28-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "The 30-day rule\nfor big purchases",
+ "cover": {
+  "title": "The $3,000 Impulse Tax",
+  "prop": "bag",
+  "label": "UNPLANNED",
+  "value": "$3,045"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "You lose about $3,000 a year to impulse buys.",
+   "say": "You lose about three thousand dollars a year to impulse buys.",
+   "scene": {
+    "t": "hook",
+    "title": "The [impulse] tax",
+    "prop": "bag",
+    "label": "UNPLANNED",
+    "value": "$3,045",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Slickdeals' 2025 survey found about $254 a month on things people never planned to buy.",
+   "say": "Slickdeals' twenty twenty-five survey found about two hundred fifty-four dollars a month, on things people never planned to buy.",
+   "scene": {
+    "t": "stat",
+    "label": "Average impulse spending per month, 2025",
+    "value": "$254",
+    "tone": "down",
+    "sub": "about 10 buys a month (Slickdeals survey)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It moves with the mood. It peaked at $314 a month in 2022, dropped, then bounced back.",
+   "say": "It moves with the mood. It peaked at three hundred fourteen dollars a month in twenty twenty-two, dropped, then bounced back.",
+   "scene": {
+    "t": "chart",
+    "title": "Monthly impulse spending (Slickdeals surveys)",
+    "points": [
+     [
+      2020,
+      183
+     ],
+     [
+      2021,
+      276
+     ],
+     [
+      2022,
+      314
+     ],
+     [
+      2023,
+      151
+     ],
+     [
+      2024,
+      282
+     ],
+     [
+      2025,
+      254
+     ]
+    ],
+    "prefix": "$",
+    "end": "$254",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fix is almost too simple: the 30-day rule.",
+   "say": "The fix is almost too simple. It's called the thirty-day rule.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Want it?",
+     "Write it down.",
+     "Wait 30 days."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still want it after a month? Buy it with a clear head, and maybe a better price.",
+   "say": "Still want it after a month? Buy it with a clear head, and maybe a better price.",
+   "scene": {
+    "t": "split",
+    "title": "After 30 days",
+    "left": {
+     "title": "Still want it",
+     "items": [
+      "Buy it, calmly",
+      "Compare prices"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Forgot about it",
+     "items": [
+      "Money stays put"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even the government builds in a wait. The FTC's Cooling-Off Rule gives you 3 business days to cancel some sales.",
+   "say": "Even the government builds in a wait. The F T C's Cooling-Off Rule gives you three business days to cancel some sales.",
+   "scene": {
+    "t": "stat",
+    "label": "FTC Cooling-Off Rule",
+    "value": "3 days",
+    "tone": "up",
+    "sub": "business days, to cancel certain in-person sales"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It covers sales of $25 or more at your home, and $130 or more at places like hotels or fairs.",
+   "say": "It covers sales of twenty-five dollars or more at your home, and a hundred thirty or more at places like hotels or fairs.",
+   "scene": {
+    "t": "compare",
+    "title": "Cooling-Off Rule covers sales of...",
+    "left": {
+     "label": "At your home",
+     "value": "$25+",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Hotel, fair, etc.",
+     "value": "$130+",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A popular twist: 24 hours for small stuff, 30 days for big stuff. Waiting is free.",
+   "say": "A popular twist: twenty-four hours for small stuff, thirty days for the big stuff. And waiting is free.",
+   "scene": {
+    "t": "list",
+    "title": "Pick your wait",
+    "items": [
+     "Small buy: 24 hours",
+     "Big buy: 30 days"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Impulse buys cost about $3,000 a year. Try the 30-day rule",
+  "ig": "You lose about $3,000 a year to impulse buys.\n\nSlickdeals' 2025 survey: about $254 a month on unplanned purchases, roughly 10 buys a month.\nThe 30-day rule: write it down, wait 30 days, then decide.\nThe FTC's Cooling-Off Rule gives you 3 business days to cancel certain in-person sales ($25+ at home, $130+ at temporary locations).\n\nSources: Slickdeals surveys (2020-2025), FTC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#budgeting #impulsebuying #savings #personalfinance #financeprostv",
+  "tiktok": "Impulse buys: about $254 a month. The 30-day rule: write it down, wait, decide. Not financial advice. #moneytok #budgeting #financeprostv",
+  "yt_desc": "A 2025 Slickdeals survey found the average American spent about $254 a month on impulse buys, about $3,045 a year. The 30-day rule: write the item down, wait 30 days, then decide. Even the FTC's Cooling-Off Rule gives you 3 business days to cancel certain in-person sales. Sources: Slickdeals surveys, FTC.\n\nNews and education, not financial advice.\n\n#Shorts #budgeting #savings",
+  "tags": [
+   "30 day rule",
+   "impulse buying",
+   "stop impulse spending",
+   "budgeting tips",
+   "personal finance"
+  ]
+ }
+}
