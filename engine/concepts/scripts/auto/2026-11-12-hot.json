@@ -1,0 +1,180 @@
+{
+ "id": "2026-11-12-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Die without a will?\nThe state decides",
+ "cover": {
+  "title": "No Will? The State Decides",
+  "prop": "paper",
+  "label": "Will",
+  "value": "24%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2025, only 24% of surveyed Americans had a will.",
+   "say": "In twenty twenty-five, only twenty-four percent of surveyed Americans had a will.",
+   "scene": {
+    "t": "hook",
+    "title": "Only [24%] had a will",
+    "prop": "paper",
+    "label": "Will",
+    "value": "24%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Without one, state law has a default plan.",
+   "say": "Without one, state law has a default plan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No will = intestacy",
+     "State law picks heirs"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That 24% is down from 33% in 2022, per Caring.com's yearly surveys.",
+   "say": "That twenty-four percent is down from thirty-three percent in twenty twenty-two, according to Caring dot com's yearly surveys.",
+   "scene": {
+    "t": "chart",
+    "title": "Have a will (Caring.com)",
+    "points": [
+     [
+      2022,
+      33
+     ],
+     [
+      2023,
+      34
+     ],
+     [
+      2024,
+      32
+     ],
+     [
+      2025,
+      24
+     ]
+    ],
+    "suffix": "%",
+    "end": "24%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rules vary by state. In New York, a spouse with kids gets the first $50,000 plus half the rest.",
+   "say": "The rules vary by state. In New York, a spouse with kids gets the first fifty thousand dollars, plus half of the rest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New York: spouse + kids",
+     "$50,000 + half the rest"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $250,000 estate, the spouse gets $150,000 and the kids share $100,000.",
+   "say": "So on a two hundred fifty thousand dollar estate, the spouse gets one hundred fifty thousand dollars, and the kids share one hundred thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "NY example (hypothetical)",
+    "left": {
+     "label": "Spouse",
+     "value": "$150K",
+     "tone": "neutral",
+     "sub": "$50K + half $200K"
+    },
+    "right": {
+     "label": "Kids",
+     "value": "$100K",
+     "tone": "neutral",
+     "sub": "other half"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An unmarried partner, even after 20 years? Under New York's intestacy law, $0.",
+   "say": "And an unmarried partner, even after twenty years together? Under New York's intestacy law, zero dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Unmarried partner (NY)",
+    "value": "$0",
+    "tone": "down",
+    "sub": "NY EPTL 4-1.1",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No relatives at all? Under the Uniform Probate Code, a model many states use, the estate goes to the state.",
+   "say": "No relatives at all? Under the Uniform Probate Code, a model many states use, the estate goes to the state.",
+   "scene": {
+    "t": "list",
+    "title": "Who's in line (UPC)",
+    "items": [
+     "Spouse (often all)",
+     "Kids and grandkids",
+     "Parents, siblings, others",
+     "The state"
+    ],
+    "reveal": 4,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Accounts with a named beneficiary skip all this. The rest follows the state's list unless a will says otherwise.",
+   "say": "Accounts with a named beneficiary usually skip all of this. The rest follows the state's list, unless a will says otherwise.",
+   "scene": {
+    "t": "split",
+    "title": "Who decides?",
+    "left": {
+     "title": "Skips intestacy",
+     "items": [
+      "Named beneficiaries",
+      "Joint with survivor"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "State's list",
+     "items": [
+      "Solo-owned property",
+      "No-beneficiary accounts"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Only 24% had a will in 2025. Here's the default plan",
+  "ig": "Only 24% of surveyed Americans had a will in 2025. Without one, state law has a default plan.\n\nDying without a will is called intestacy, and the rules vary by state.\nIn New York, a spouse with kids gets the first $50,000 plus half the rest. On a $250,000 estate (hypothetical), that's $150,000 to the spouse and $100,000 to the kids.\nUnmarried partners get $0 under New York's intestacy law. Under the Uniform Probate Code, with no relatives, the estate goes to the state.\n\nSources: Caring.com Wills and Estate Planning Study (2022-2025); NY EPTL 4-1.1; Uniform Probate Code 2-102, 2-105.\nNews and education, not financial advice. Not legal advice.\nFollow @financeprostv for money explained simply.\n\n#estateplanning #wills #inheritance #personalfinance #financeprostv",
+  "tiktok": "Only 24% had a will in 2025. Here's who inherits without one. Not financial advice. #moneytok #personalfinance #wills #estateplanning #financeprostv",
+  "yt_desc": "Only 24% of surveyed Americans had a will in 2025 (Caring.com), down from 33% in 2022. Without one, state intestacy law decides: in New York, a spouse with kids gets $50,000 plus half the rest, unmarried partners get nothing, and under the Uniform Probate Code an estate with no relatives goes to the state. Sources: Caring.com, NY EPTL 4-1.1, Uniform Probate Code. News and education, not financial advice.\n#Shorts #estateplanning #wills",
+  "tags": [
+   "die without a will",
+   "intestacy",
+   "estate planning",
+   "inheritance law",
+   "who inherits"
+  ]
+ }
+}
