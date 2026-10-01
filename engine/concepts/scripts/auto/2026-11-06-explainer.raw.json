@@ -1,0 +1,256 @@
+{
+ "series": "ticker",
+ "header": "Why job posts\nshow the salary",
+ "cover": {
+  "title": "Why Job Posts Show Pay",
+  "prop": "tag",
+  "label": "Aug 2020",
+  "value": "~1 in 5"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2020, only about 1 in 5 job posts showed pay.",
+   "say": "In twenty twenty, only about one in five job posts showed pay.",
+   "scene": {
+    "t": "hook",
+    "title": "Job posts hid the [pay]",
+    "prop": "tag",
+    "label": "Aug 2020",
+    "value": "~1 in 5",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By August 2026, it was 51.1% (Indeed Hiring Lab). The reason? A wave of laws.",
+   "say": "By August twenty twenty-six, it was fifty-one point one percent. The reason? A wave of laws.",
+   "scene": {
+    "t": "chart",
+    "title": "US Indeed posts with pay (Aug)",
+    "points": [
+     [
+      2020,
+      19.8
+     ],
+     [
+      2021,
+      25.8
+     ],
+     [
+      2022,
+      28.0
+     ],
+     [
+      2023,
+      39.7
+     ],
+     [
+      2024,
+      45.7
+     ],
+     [
+      2025,
+      48.6
+     ],
+     [
+      2026,
+      51.1
+     ]
+    ],
+    "suffix": "%",
+    "end": "51.1%",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Colorado went first, in January 2021, then New York City in November 2022.",
+   "say": "Colorado went first, in January twenty twenty-one, then New York City in November twenty twenty-two.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Jan 2021",
+      "what": "Colorado"
+     },
+     {
+      "when": "Nov 2022",
+      "what": "New York City"
+     },
+     {
+      "when": "Jan 2023",
+      "what": "California, Washington"
+     },
+     {
+      "when": "2025",
+      "what": "IL, MN, NJ, VT, MA"
+     },
+     {
+      "when": "Jul 2026",
+      "what": "Virginia, Maine"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "California and Washington joined in 2023, five states in 2025, and Virginia and Maine in July 2026.",
+   "say": "California and Washington joined in twenty twenty-three, five states in twenty twenty-five, and Virginia and Maine in July twenty twenty-six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Jan 2021",
+      "what": "Colorado"
+     },
+     {
+      "when": "Nov 2022",
+      "what": "New York City"
+     },
+     {
+      "when": "Jan 2023",
+      "what": "California, Washington"
+     },
+     {
+      "when": "2025",
+      "what": "IL, MN, NJ, VT, MA"
+     },
+     {
+      "when": "Jul 2026",
+      "what": "Virginia, Maine"
+     }
+    ],
+    "reveal": 5,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest yearly jump, +11.7 points, hit by August 2023.",
+   "say": "The biggest yearly jump, eleven point seven points, hit by August twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "title": "US Indeed posts with pay (Aug)",
+    "points": [
+     [
+      2020,
+      19.8
+     ],
+     [
+      2021,
+      25.8
+     ],
+     [
+      2022,
+      28.0
+     ],
+     [
+      2023,
+      39.7
+     ],
+     [
+      2024,
+      45.7
+     ],
+     [
+      2025,
+      48.6
+     ],
+     [
+      2026,
+      51.1
+     ]
+    ],
+    "suffix": "%",
+    "end": "51.1%",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2023,
+     "text": "+11.7 pts"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The twist? In 2021, some big employers posted remote jobs that left out Colorado.",
+   "say": "The twist? In twenty twenty-one, some big employers posted remote jobs that left out Colorado.",
+   "scene": {
+    "t": "news",
+    "headline": "Remote job ads tell Coloradans not to apply",
+    "source": "Axios, June 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In July 2021, the state said those remote posts still had to show pay.",
+   "say": "In July twenty twenty-one, the state said those remote posts still had to show pay.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "Pay range?",
+    "name": "COLORADO LABOR DEPT",
+    "caption": "Remote jobs count (July 2021)",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Europe set a June 2026 deadline for pay before the interview. Only 4 of 27 countries made it.",
+   "say": "Europe set a June twenty twenty-six deadline for pay before the interview. Only four of twenty-seven countries made it.",
+   "scene": {
+    "t": "stat",
+    "label": "EU countries that met the June 2026 deadline",
+    "value": "4 of 27",
+    "tone": "down",
+    "sub": "Mayer Brown, July 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $60,000 to $75,000 range is a $15,000 spread, or 25%.",
+   "say": "Example: a sixty to seventy-five thousand dollar range is a fifteen thousand dollar spread, or twenty-five percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Posted range (example)",
+    "left": {
+     "label": "Bottom",
+     "value": "$60,000",
+     "tone": "neutral",
+     "sub": "low end"
+    },
+    "right": {
+     "label": "Top",
+     "value": "$75,000",
+     "tone": "up",
+     "sub": "+$15,000 (25%)"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why job posts show pay: 1 in 5 in 2020, 51.1% by Aug 2026",
+  "ig": "In 2020, only about 1 in 5 US job posts showed pay.\n\nBy August 2026, 51.1% of US postings on Indeed listed pay (Indeed Hiring Lab, 3-month average).\nColorado required pay in postings from January 2021, NYC from November 2022, California and Washington from January 2023, five more states in 2025, and Virginia and Maine in July 2026.\nThe EU set a June 7, 2026 deadline for pay info before the interview; only 4 of 27 countries met it.\n\nSources: Indeed Hiring Lab pay-transparency data (Aug 2026), state labor laws, Axios (June 2021), Mayer Brown (July 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#paytransparency #salary #jobsearch #personalfinance #financeprostv",
+  "tiktok": "1 in 5 job posts showed pay in 2020. By Aug 2026: 51.1%. Not financial advice. #moneytok #personalfinance #paytransparency #jobsearch #financeprostv",
+  "yt_desc": "In August 2020, about 1 in 5 US job posts on Indeed showed pay; by August 2026 it was 51.1% (Indeed Hiring Lab). State laws drove it, starting with Colorado in January 2021, then NYC, California, Washington and more, while the EU set a June 2026 deadline of its own. News and education, not financial advice. #Shorts #paytransparency #salary",
+  "tags": [
+   "pay transparency",
+   "salary range",
+   "job postings",
+   "pay transparency laws",
+   "Indeed Hiring Lab"
+  ]
+ }
+}
