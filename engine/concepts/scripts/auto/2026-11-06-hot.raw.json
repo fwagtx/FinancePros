@@ -45,10 +45,10 @@
   {
    "who": "ticker",
    "text": "NAR's median existing-home price hit a record $414,400 in 2025, up from $346,900 in 2021.",
-   "say": "The median existing home hit a record four hundred fourteen thousand dollars in twenty twenty-five, up from about three forty-seven thousand in twenty twenty-one.",
+   "say": "The median existing home hit a record four hundred fourteen thousand dollars in twenty twenty-five, up from about three hundred forty-seven thousand dollars in twenty twenty-one.",
    "scene": {
     "t": "chart",
-    "title": "Median existing-home price, all types (NAR)",
+    "title": "Median existing-home price, all types (NAR, as first reported)",
     "points": [
      [
       2021,
@@ -81,38 +81,11 @@
    "text": "Harvard found existing-home prices up 54% since 2020.",
    "say": "Harvard found existing-home prices up fifty-four percent since twenty twenty.",
    "scene": {
-    "t": "chart",
-    "title": "Median existing-home price, all types (NAR)",
-    "points": [
-     [
-      2021,
-      346900
-     ],
-     [
-      2022,
-      386300
-     ],
-     [
-      2023,
-      389800
-     ],
-     [
-      2024,
-      407500
-     ],
-     [
-      2025,
-      414400
-     ]
-    ],
-    "prefix": "$",
-    "end": "$414,400",
-    "color": "up",
-    "keep": true,
-    "chart_note": {
-     "x": 2025,
-     "text": "+54% since 2020 (JCHS)"
-    }
+    "t": "stat",
+    "label": "Existing-home prices since 2020 (Harvard JCHS)",
+    "value": "+54%",
+    "tone": "down",
+    "sub": "nationwide"
    }
   },
   {
