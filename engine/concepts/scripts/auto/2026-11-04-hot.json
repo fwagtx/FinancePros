@@ -1,0 +1,204 @@
+{
+ "id": "2026-11-04-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why is car insurance\nso expensive?",
+ "cover": {
+  "title": "Why Car Insurance Jumped 57%",
+  "prop": "car",
+  "label": "PREMIUM",
+  "value": "+57%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Car insurance jumped 57% in four years. Why?",
+   "say": "Car insurance jumped fifty-seven percent in four years. Why?",
+   "scene": {
+    "t": "hook",
+    "title": "Car insurance: [+57%]",
+    "prop": "car",
+    "label": "PREMIUM",
+    "value": "+57%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hint: it's not your driving.",
+   "say": "Hint: it's not your driving.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not your driving.",
+     "Their math."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Price data shows car insurance up 14.2% in 2022, then 20.3% in 2023.",
+   "say": "Price data shows car insurance up fourteen point two percent in twenty twenty-two, then twenty point three in twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "title": "Car insurance prices, Dec-to-Dec change",
+    "points": [
+     [
+      2022,
+      14.2
+     ],
+     [
+      2023,
+      20.3
+     ],
+     [
+      2024,
+      11.3
+     ],
+     [
+      2025,
+      2.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "+2.8%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 11.3% in 2024 and 2.8% in 2025. Compounded, that's about 57%.",
+   "say": "Then eleven point three in twenty twenty-four and two point eight in twenty twenty-five. Compounded, that's about fifty-seven percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Car insurance prices, Dec-to-Dec change",
+    "points": [
+     [
+      2022,
+      14.2
+     ],
+     [
+      2023,
+      20.3
+     ],
+     [
+      2024,
+      11.3
+     ],
+     [
+      2025,
+      2.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "+2.8%",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2023,
+     "text": "+20.3% in 2023"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurers were losing money on policies. In 2022, they spent about $112 on claims and costs for every $100 of premium.",
+   "say": "Insurers were losing money on policies. In twenty twenty-two, they spent about a hundred twelve dollars on claims and costs for every hundred dollars of premium.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Premium collected",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Claims + costs, 2022",
+     "value": "$112"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Repairs got pricier, cars got packed with sensors, and injury claims got bigger.",
+   "say": "Repairs got pricier, cars got packed with sensors, and injury claims got bigger.",
+   "scene": {
+    "t": "list",
+    "title": "What drove claims up",
+    "items": [
+     "Pricier repairs",
+     "Sensors and cameras",
+     "Bigger injury claims"
+    ],
+    "reveal": 3,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So insurers raised rates. By 2025, they spent about $92 per $100.",
+   "say": "So insurers raised rates. By twenty twenty-five, they spent about ninety-two dollars per hundred dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Claims + costs per $100 of premium",
+    "left": {
+     "label": "2022",
+     "value": "$112",
+     "tone": "down",
+     "sub": "loss"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$92",
+     "tone": "up",
+     "sub": "profit"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lately, prices have eased: down 5.1% in the year to August 2026.",
+   "say": "Lately, prices have eased: down five point one percent in the year to August twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Car insurance prices, 12 months to Aug 2026",
+    "value": "-5.1%",
+    "tone": "up",
+    "sub": "BLS Consumer Price Index"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a small dip after a giant climb. Rates vary by insurer, so it can pay to compare quotes at renewal.",
+   "say": "That's a small dip after a giant climb. Rates vary by insurer, so it can pay to compare quotes at renewal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Renewal time =",
+     "compare quotes"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Car insurance jumped 57% in four years. Why?",
+  "ig": "Car insurance jumped 57% in four years. Why?\nBLS price data: +14.2% in 2022, +20.3% in 2023, +11.3% in 2024, +2.8% in 2025 (December to December).\nWhy: insurers spent about $112 on claims and costs per $100 of premium in 2022 as repairs and claims got pricier, then raised rates. By 2025 it was about $92.\nPrices eased 5.1% in the year to August 2026, a small dip after a big climb.\nSources: BLS Consumer Price Index; Triple-I personal auto results.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#carinsurance #insurance #inflation #personalfinance #financeprostv",
+  "tiktok": "Car insurance jumped about 57% in four years. Here's why. Not financial advice. #moneytok #personalfinance #carinsurance #financeprostv",
+  "yt_desc": "Car insurance prices rose 14.2% in 2022, 20.3% in 2023, 11.3% in 2024 and 2.8% in 2025 (BLS CPI, December to December), about 57% compounded. Insurers spent about $112 on claims and costs per $100 of premium in 2022 and raised rates until that fell to about $92 in 2025 (Triple-I); prices then eased 5.1% in the year to August 2026. News and education, not financial advice. #Shorts #carinsurance #personalfinance",
+  "tags": [
+   "why is car insurance so expensive",
+   "car insurance",
+   "insurance rates",
+   "inflation",
+   "personal finance"
+  ]
+ }
+}
