@@ -9,8 +9,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Netflix keeps about 30 cents of every dollar you pay it.",
-   "say": "Netflix keeps about thirty cents of every dollar you pay it.",
+   "text": "Of every dollar you pay Netflix, about 30 cents is operating profit.",
+   "say": "Of every dollar you pay Netflix, about thirty cents is operating profit.",
    "scene": {
     "t": "hook",
     "title": "30 cents of every [dollar]",
@@ -41,8 +41,33 @@
   },
   {
    "who": "ticker",
-   "text": "Four years earlier, it was losing subscribers and its stock was crashing.",
-   "say": "Four years earlier, it was losing subscribers and its stock was crashing.",
+   "text": "Operating profit is what's left after content, staff, marketing and tech, but before interest and taxes.",
+   "say": "Operating profit is what's left after content, staff, marketing, and tech, but before interest and taxes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Revenue",
+     "- content, staff, ads, tech",
+     "= operating profit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it turned about $9.5 billion of that into free cash flow, money left after paying for content and everything else.",
+   "say": "And it turned about nine and a half billion of that into free cash flow, money left after paying for content and everything else.",
+   "scene": {
+    "t": "stat",
+    "label": "Free cash flow, 2025",
+    "value": "~$9.5B",
+    "tone": "up",
+    "sub": "Netflix FY2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back in 2022, it was losing subscribers and its stock was crashing.",
+   "say": "Back in twenty twenty-two, it was losing subscribers, and its stock was crashing.",
    "scene": {
     "t": "news",
     "headline": "Netflix loses subscribers for the first time in a decade",
@@ -80,31 +105,6 @@
   },
   {
    "who": "ticker",
-   "text": "And it turned about $9.5 billion of that into free cash flow, money left after paying for content and everything else.",
-   "say": "And it turned about nine and a half billion of that into free cash flow, money left after paying for content and everything else.",
-   "scene": {
-    "t": "stat",
-    "label": "Free cash flow, 2025",
-    "value": "~$9.5B",
-    "tone": "up",
-    "sub": "Netflix FY2025"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Operating profit is what's left after content, staff, marketing and tech, but before interest and taxes.",
-   "say": "Operating profit is what's left after content, staff, marketing, and tech, but before interest and taxes.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Revenue",
-     "- content, staff, ads, tech",
-     "= operating profit"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
    "text": "Chapter one: from mailbox to streaming giant.",
    "say": "Chapter one. From mailbox to streaming giant.",
    "scene": {
@@ -115,8 +115,8 @@
   },
   {
    "who": "ticker",
-   "text": "Netflix started in 1997, renting DVDs by mail.",
-   "say": "Netflix started in nineteen ninety-seven, renting D V Ds by mail.",
+   "text": "Netflix was founded in 1997 to rent DVDs by mail.",
+   "say": "Netflix was founded in nineteen ninety-seven to rent D V Ds by mail.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -329,7 +329,7 @@
   {
    "who": "ticker",
    "text": "It went from $20.16 billion in 2019 to $45.2 billion in 2025, more than double.",
-   "say": "It went from about twenty billion dollars in twenty nineteen to forty-five point two billion in twenty twenty-five, more than double.",
+   "say": "It went from twenty point one six billion dollars in twenty nineteen to forty-five point two billion in twenty twenty-five, more than double.",
    "scene": {
     "t": "chart",
     "title": "Netflix revenue",
@@ -522,8 +522,8 @@
   },
   {
    "who": "ticker",
-   "text": "In the US, prices are much higher than that average.",
-   "say": "In the US, prices are much higher than that average.",
+   "text": "In the US, the ad-free plans cost much more than that average.",
+   "say": "In the US, the ad-free plans cost much more than that average.",
    "scene": {
     "t": "list",
     "title": "US plans (from Mar 2026)",
@@ -616,7 +616,7 @@
   {
    "who": "ticker",
    "text": "A full year of Standard now costs $239.88.",
-   "say": "A full year of Standard now costs about two hundred forty dollars.",
+   "say": "A full year of Standard now costs two hundred thirty-nine dollars and eighty-eight cents.",
    "scene": {
     "t": "money",
     "from": {
@@ -810,8 +810,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's why the operating margin keeps climbing as Netflix grows.",
-   "say": "That's why the operating margin keeps climbing as Netflix grows.",
+   "text": "Because revenue has grown faster than the content bill, the operating margin has mostly climbed.",
+   "say": "Because revenue has grown faster than the content bill, the operating margin has mostly climbed.",
    "scene": {
     "t": "chart",
     "title": "Netflix operating margin",
@@ -853,7 +853,7 @@
   {
    "who": "ticker",
    "text": "It was 12.9% in 2019 and 29.5% in 2025.",
-   "say": "It was about thirteen percent in twenty nineteen, and twenty-nine and a half percent in twenty twenty-five.",
+   "say": "It was twelve point nine percent in twenty nineteen, and twenty-nine point five percent in twenty twenty-five.",
    "scene": {
     "t": "chart",
     "title": "Netflix operating margin",
@@ -970,8 +970,8 @@
   },
   {
    "who": "ticker",
-   "text": "After that 2022 scare, Netflix added four new ways to grow.",
-   "say": "After that twenty twenty-two scare, Netflix added four new ways to grow.",
+   "text": "After that 2022 scare, Netflix leaned on four ways to grow.",
+   "say": "After that twenty twenty-two scare, Netflix leaned on four ways to grow.",
    "scene": {
     "t": "list",
     "title": "Netflix's newer money",
@@ -1098,8 +1098,8 @@
   },
   {
    "who": "ticker",
-   "text": "Netflix doesn't report how many extra members it gained, but revenue grew from $33.7 billion in 2023 to $39.0 billion in 2024.",
-   "say": "Netflix doesn't report how many extra members it gained, but revenue grew from about thirty-four billion in twenty twenty-three to thirty-nine billion in twenty twenty-four.",
+   "text": "Netflix doesn't report how many extra members it gained, but alongside price increases, revenue grew from $33.7 billion in 2023 to $39.0 billion in 2024.",
+   "say": "Netflix doesn't report how many extra members it gained, but alongside price increases, revenue grew from thirty-three point seven billion in twenty twenty-three to thirty-nine billion in twenty twenty-four.",
    "scene": {
     "t": "compare",
     "title": "Netflix revenue",
@@ -1257,8 +1257,8 @@
   },
   {
    "who": "ticker",
-   "text": "Every hour you spend somewhere else is an hour Netflix can't show you a show, or an ad.",
-   "say": "Every hour you spend somewhere else is an hour Netflix can't show you a show, or an ad.",
+   "text": "Every hour you spend somewhere else is an hour Netflix can't fill with a show or an ad.",
+   "say": "Every hour you spend somewhere else is an hour Netflix can't fill with a show or an ad.",
    "scene": {
     "t": "hook",
     "title": "Fighting for your [time]",
@@ -1385,8 +1385,8 @@
   },
   {
    "who": "ticker",
-   "text": "None of that is guaranteed. It's just the set of risks any big media company has to manage.",
-   "say": "None of that is guaranteed. It's just the set of risks any big media company has to manage.",
+   "text": "None of these risks is unique to Netflix. Every big media company manages them.",
+   "say": "None of these risks is unique to Netflix. Every big media company manages them.",
    "scene": {
     "t": "hook",
     "title": "Risks to [manage]",
@@ -1438,7 +1438,7 @@
   {
    "who": "ticker",
    "text": "For example, a year with ads costs $107.88, versus $239.88 for Standard.",
-   "say": "For example, a year with ads costs about a hundred eight dollars, versus about two hundred forty for Standard.",
+   "say": "For example, a year with ads costs a hundred seven dollars and eighty-eight cents, versus two hundred thirty-nine eighty-eight for Standard.",
    "scene": {
     "t": "compare",
     "title": "One year of Netflix (US, 2026 prices)",
@@ -1456,8 +1456,8 @@
   },
   {
    "who": "ticker",
-   "text": "At 2026 US prices, switching from Standard to the ad plan saves $132 a year.",
-   "say": "At twenty twenty-six US prices, switching from Standard to the ad plan saves a hundred thirty-two dollars a year.",
+   "text": "At 2026 US prices, the gap between Standard and the ad plan is $132 a year.",
+   "say": "At twenty twenty-six US prices, the gap between Standard and the ad plan is a hundred thirty-two dollars a year.",
    "scene": {
     "t": "money",
     "from": {
@@ -1485,11 +1485,11 @@
   },
   {
    "who": "ticker",
-   "text": "And fourth, streaming is a monthly bill, so you can cancel and come back when there's something you want to watch.",
-   "say": "And fourth, streaming is a monthly bill, so you can cancel and come back when there's something you want to watch.",
+   "text": "And fourth, streaming is a monthly bill, and some viewers cancel and come back around the shows they want.",
+   "say": "And fourth, streaming is a monthly bill, and some viewers cancel and come back around the shows they want.",
    "scene": {
     "t": "split",
-    "title": "Monthly means flexible",
+    "title": "How people use it",
     "left": {
      "title": "Stay",
      "items": [
@@ -1500,27 +1500,27 @@
     "right": {
      "title": "Rotate",
      "items": [
-      "Pay when you watch"
+      "Join for a show"
      ],
-     "tone": "up"
+     "tone": "neutral"
     }
    }
   },
   {
    "who": "ticker",
-   "text": "Rotating services is common. It's the one move that puts pricing power back on your side.",
-   "say": "Rotating services is common. It's the one move that puts pricing power back on your side.",
+   "text": "Netflix's bet is that most members won't bother leaving.",
+   "say": "Netflix's bet is that most members won't bother leaving.",
    "scene": {
     "t": "hook",
-    "title": "Rotate to keep [power]",
+    "title": "Betting you [stay]",
     "prop": "card",
-    "mood": "happy"
+    "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "So far, most members have stayed through the increases. Revenue still grew 16% in 2025.",
-   "say": "So far, most members have stayed through the increases. Revenue still grew sixteen percent in twenty twenty-five.",
+   "text": "Revenue still grew 16% in 2025, so the increases haven't driven members away in large numbers.",
+   "say": "Revenue still grew sixteen percent in twenty twenty-five, so the increases haven't driven members away in large numbers.",
    "scene": {
     "t": "stat",
     "label": "Revenue growth, 2025",
@@ -1565,8 +1565,8 @@
   },
   {
    "who": "ticker",
-   "text": "Netflix made $45.2 billion in 2025 and kept about 30 cents of every dollar as operating profit.",
-   "say": "Netflix made forty-five point two billion dollars in twenty twenty-five, and kept about thirty cents of every dollar as operating profit.",
+   "text": "Netflix brought in $45.2 billion of revenue in 2025 and kept about 30 cents of every dollar as operating profit.",
+   "say": "Netflix brought in forty-five point two billion dollars of revenue in twenty twenty-five, and kept about thirty cents of every dollar as operating profit.",
    "scene": {
     "t": "list",
     "title": "Netflix in 5 lines",
@@ -1595,7 +1595,7 @@
      "Ads ~$3B in 2026",
      "Prices up 54%"
     ],
-    "reveal": 3
+    "reveal": 2
    }
   },
   {
@@ -1613,7 +1613,7 @@
      "Ads ~$3B in 2026",
      "Prices up 54%"
     ],
-    "reveal": 4
+    "reveal": 3
    }
   },
   {
