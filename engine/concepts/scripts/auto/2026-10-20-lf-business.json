@@ -325,9 +325,13 @@
    "text": "The rotisserie chicken has been $4.99 in the US since 2009.",
    "say": "And the rotisserie chicken has been four ninety-nine in the US since two thousand nine.",
    "scene": {
-    "t": "hook",
-    "title": "The rotisserie chicken has been $4.99 in the US ",
-    "prop": "none"
+    "t": "list",
+    "title": "Prices frozen in time",
+    "items": [
+     "$1.50 hot dog + soda",
+     "$4.99 rotisserie chicken"
+    ],
+    "reveal": 2
    }
   },
   {
@@ -712,9 +716,26 @@
    "text": "Ten years later, in 1993, the two companies merged.",
    "say": "Ten years later, in nineteen ninety-three, the two companies merged.",
    "scene": {
-    "t": "hook",
-    "title": "Ten years later, in 1993, the two companies merg",
-    "prop": "none"
+    "t": "timeline",
+    "events": [
+     [
+      "1976",
+      "Price Club opens, San Diego"
+     ],
+     [
+      "1983",
+      "First Costco, Seattle"
+     ],
+     [
+      "1993",
+      "Costco and Price Club merge"
+     ],
+     [
+      "2026",
+      "939 warehouses"
+     ]
+    ],
+    "reveal": 3
    }
   },
   {
@@ -722,9 +743,27 @@
    "text": "By the end of fiscal 2026, Costco ran 939 warehouses worldwide.",
    "say": "By the end of fiscal twenty twenty-six, Costco was running nine hundred thirty-nine warehouses around the world.",
    "scene": {
-    "t": "hook",
-    "title": "By the end of fiscal 2026, Costco ran 939 wareho",
-    "prop": "none"
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "1976",
+      "Price Club opens, San Diego"
+     ],
+     [
+      "1983",
+      "First Costco, Seattle"
+     ],
+     [
+      "1993",
+      "Costco and Price Club merge"
+     ],
+     [
+      "2026",
+      "939 warehouses"
+     ]
+    ],
+    "reveal": 4
    }
   },
   {
