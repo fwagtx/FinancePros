@@ -82,7 +82,7 @@
      "label": "Credit card",
      "value": "$50",
      "tone": "up",
-     "sub": "$0 if just the number"
+     "sub": "max, even if late"
     },
     "right": {
      "label": "Debit card",
@@ -94,8 +94,8 @@
   },
   {
    "who": "ticker",
-   "text": "Wait more than 60 days after your statement, and new withdrawals may not be covered at all.",
-   "say": "Wait more than sixty days after your statement, and new withdrawals may not be covered at all.",
+   "text": "Don't report within 60 days of your statement, and new withdrawals may not be covered at all.",
+   "say": "Don't report within sixty days of your statement, and new withdrawals may not be covered at all.",
    "scene": {
     "t": "stat",
     "label": "Debit: new withdrawals after 60+ days",
