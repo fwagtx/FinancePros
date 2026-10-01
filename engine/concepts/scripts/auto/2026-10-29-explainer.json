@@ -16,7 +16,7 @@
    "say": "China owns about one point five percent of America's debt.",
    "scene": {
     "t": "hook",
-    "title": "China owns [1.5%]",
+    "title": "China's share of US [debt]",
     "prop": "bag",
     "label": "US DEBT",
     "value": "1.5%",
@@ -62,8 +62,20 @@
   },
   {
    "who": "ticker",
-   "text": "Foreign investors hold about $9.25 trillion. Japan leads with $1.1 trillion, then the UK at about $1 trillion.",
-   "say": "Foreign investors hold about nine and a quarter trillion. Japan leads with one point one trillion, then the UK at about one trillion.",
+   "text": "Foreign investors hold about $9.25 trillion.",
+   "say": "Foreign investors hold about nine and a quarter trillion.",
+   "scene": {
+    "t": "stat",
+    "label": "Held by foreign investors",
+    "value": "$9.25T",
+    "tone": "neutral",
+    "sub": "Treasury TIC data, July 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Japan leads with $1.1 trillion, then the UK at about $1 trillion.",
+   "say": "Japan leads with one point one trillion, then the UK at about one trillion.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -82,12 +94,7 @@
       "says": "$618B",
       "name": "china"
      }
-    ],
-    "prop": {
-     "kind": "tag",
-     "label": "$9.25T"
-    },
-    "caption": "Foreign, July 2026"
+    ]
    }
   },
   {
