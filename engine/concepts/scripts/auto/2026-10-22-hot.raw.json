@@ -1,0 +1,181 @@
+{
+ "series": "ticker",
+ "header": "Scam alert:\nthe free package",
+ "cover": {
+  "title": "The Free Package Trap",
+  "prop": "box",
+  "label": "NOT ORDERED",
+  "value": "FREE"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A package you never ordered? It's free. That's the problem.",
+   "say": "A package you never ordered? It's free. That's the problem.",
+   "scene": {
+    "t": "hook",
+    "title": "The [free] package trap",
+    "prop": "box",
+    "label": "NOT ORDERED",
+    "value": "FREE",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's called brushing. The item is cheap. Your name is the product.",
+   "say": "It's called brushing. The item is cheap. Your name is the product.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Brushing:",
+     "fake orders in your name",
+     "for fake reviews"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say a $2 gadget plus $4 shipping buys one fake verified review.",
+   "say": "Say a two dollar gadget plus four dollars shipping buys one fake verified review.",
+   "scene": {
+    "t": "stat",
+    "label": "One fake verified review (example)",
+    "value": "$6",
+    "tone": "down",
+    "sub": "$2 item + $4 shipping"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hundred of those is $600, cheap for a seller chasing top search spots.",
+   "say": "A hundred of those is six hundred dollars. Cheap, for a seller chasing top search spots.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$6 x 100 reviews",
+     "= $600",
+     "to climb the rankings"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A newer twist: a card with a QR code. Scan to see who sent your gift.",
+   "say": "A newer twist: a card with a Q R code. Scan to see who sent your gift.",
+   "scene": {
+    "t": "news",
+    "headline": "FBI warns of QR codes in unsolicited packages",
+    "source": "FBI IC3 public service announcement, July 31, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FBI says those codes can grab your personal and financial info, or install malware.",
+   "say": "The F B I says those codes can grab your personal and financial info, or install malware.",
+   "scene": {
+    "t": "split",
+    "title": "The QR card",
+    "left": {
+     "title": "What it says",
+     "items": [
+      "Register your gift",
+      "See who sent it"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "What it can do",
+     "items": [
+      "Steal your info",
+      "Install malware"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Scams overall cost Americans $15.9 billion in 2025, says the FTC.",
+   "say": "And scams overall cost Americans fifteen point nine billion dollars in twenty twenty-five, says the F T C.",
+   "scene": {
+    "t": "chart",
+    "title": "All reported fraud losses (FTC)",
+    "points": [
+     [
+      2022,
+      8.8
+     ],
+     [
+      2023,
+      10.0
+     ],
+     [
+      2024,
+      12.5
+     ],
+     [
+      2025,
+      15.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$15.9B",
+    "color": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Good news: under federal law, unordered merchandise is yours to keep. You owe nothing.",
+   "say": "The good news? Under federal law, unordered merchandise is yours to keep. You owe nothing.",
+   "scene": {
+    "t": "stat",
+    "label": "Unordered merchandise by mail",
+    "value": "It's yours",
+    "tone": "up",
+    "sub": "FTC; 39 U.S.C. 3009: no payment owed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Just don't scan the code. Check your accounts, change passwords, and report it to the FTC.",
+   "say": "Just don't scan the code. Check your accounts, change passwords, and report it to the F T C.",
+   "scene": {
+    "t": "list",
+    "title": "Got a mystery box?",
+    "items": [
+     "Don't scan the QR",
+     "Check your accounts",
+     "Change passwords",
+     "Report it to the FTC"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "A package you never ordered? Here's the brushing scam",
+  "ig": "A package you never ordered is free. That's the problem.\n\nBrushing: sellers ship cheap items to real addresses to post fake \"verified\" reviews in your name.\nThe FBI warned in July 2025 that some packages now include QR codes that steal personal and financial info.\nReported fraud losses hit $15.9 billion in 2025 (FTC).\nUnder federal law, unordered merchandise sent by mail is yours to keep. Just don't scan the code.\n\nSources: FBI IC3 (July 31, 2025), USPIS, FTC (March 2026), 39 U.S.C. 3009.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #brushingscam #qrcode #personalfinance #financeprostv",
+  "tiktok": "A free package you never ordered can hide a QR code trap. Not financial advice. #moneytok #personalfinance #scamalert #brushingscam #financeprostv",
+  "yt_desc": "Brushing scams send cheap items you never ordered so sellers can post fake verified reviews, and the FBI warned in July 2025 that some now include QR codes that steal personal and financial info. Under federal law you can keep unordered merchandise as a gift; FTC data show reported fraud losses hit $15.9 billion in 2025. Sources: FBI IC3 (July 31, 2025), USPIS, FTC (March 2026).\n\nNews and education, not financial advice.\n\n#Shorts #scamalert #brushingscam",
+  "tags": [
+   "brushing scam",
+   "package i didn't order",
+   "qr code scam",
+   "scam alert",
+   "personal finance"
+  ]
+ }
+}
