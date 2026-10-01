@@ -35,3 +35,21 @@ Access note: am.jpmorgan.com, FRED and StatMuse are blocked by the egress proxy 
 6. **post.title (minor).** "Cost This Investor" suggests a real person. JPM's figure is a hypothetical backtest, so use the title in issue 1.
 
 VERDICT: FAIL
+
+## Round 2 (re-check of revised raw.json, 2026-10-01)
+No new searches were needed. All revised values were already verified in Round 1.
+
+| Round 1 issue | Status |
+|---|---|
+| 1. "shrank / Lose 56%", missing "best" | FIXED. The hook, cover ("Miss 10 Best Days: 56% Less"), post.title, ig and tiktok all now say "best" and "less" |
+| 2. Hook length | FIXED. "Ten best days missed. Fifty-six percent less money." is 8 words, about 2.5 s spoken, specific and true |
+| 3. Total-return basis | FIXED. "(dividends reinvested)" is now in the line 2 text, say, the compare titles, the ig and the yt_desc |
+| 4. Missing "dollars" | FIXED (line 3 say) |
+| 5. Mar 16 on chart | FIXED. The chart now covers Mar 9-13, 2020. All five closes match the verified values. The end label "2,711" is right (2,711.02). The "down" color is fine, since the last close is below Mar 9's 2,746.56 |
+| 6. "Cost This Investor" | FIXED. The new title is accurate |
+
+Re-verified: every on-screen value matches the spoken one. Math is unchanged and correct (56% = 1 - 35,866/80,619 = 55.5%; 11.0% and 6.6% CAGR; 0.2%; -9.51% / +9.29%). Mar 12 and Mar 13, 2020 are among the 10 worst and 10 best days of 2006-2025, so the yt_desc example fits. There is no advice, prediction, politics or stale time wording.
+
+Remaining (minor, does not block): the spoken hook does not say what the 56% is compared to ("than staying in") or the 20-year span. The on-screen "20 YEARS" label and line 2 cover this. Optional: "Ten best days missed. Fifty-six percent less money than staying in."
+
+VERDICT: PASS
