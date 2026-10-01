@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-20-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How the jobs report\nmoves markets",
+ "cover": {
+  "title": "Bad Jobs News, Record Stocks?",
+  "prop": "chart-up",
+  "label": "-23,000",
+  "value": "Record"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A bad jobs report helped push stocks to a record.",
+   "say": "A bad jobs report helped push stocks to a record.",
+   "scene": {
+    "t": "hook",
+    "title": "Jobs [down], stocks up",
+    "prop": "chart-up",
+    "label": "-23,000",
+    "value": "Record",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was August 7, 2026, the day the July report showed 23,000 jobs lost.",
+   "say": "That was August seventh, twenty twenty-six, the day the July report showed twenty-three thousand jobs lost.",
+   "scene": {
+    "t": "news",
+    "headline": "US lost 23,000 jobs in July; S&P 500 closes at record",
+    "source": "CNBC, Reuters, Aug 7, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The jobs report comes from the Bureau of Labor Statistics, usually on the first Friday of the month.",
+   "say": "The jobs report comes from the Bureau of Labor Statistics, usually on the first Friday of the month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Jobs report = BLS",
+     "Usually the 1st Friday",
+     "Payrolls + jobless rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For July 2026, economists expected 83,000 jobs. The first count showed a loss of 23,000.",
+   "say": "For July, economists expected eighty-three thousand jobs. The first count showed a loss of twenty-three thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "July 2026 payrolls",
+    "left": {
+     "label": "Expected",
+     "value": "+83K",
+     "tone": "neutral",
+     "sub": "consensus"
+    },
+    "right": {
+     "label": "First count",
+     "value": "-23K",
+     "tone": "down",
+     "sub": "BLS, Aug 7"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fewer jobs meant less pressure on the Fed to raise rates. Yields fell, stocks rose.",
+   "say": "Fewer jobs meant less pressure on the Fed to raise rates. Yields fell, stocks rose.",
+   "scene": {
+    "t": "list",
+    "title": "Weak report",
+    "items": [
+     "Jobs miss",
+     "Hike odds fall",
+     "Yields fall",
+     "Stocks rise"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then August 2026 flipped it: 162,000 jobs, versus about 55,000 expected.",
+   "say": "Then August flipped it: a hundred sixty-two thousand jobs, versus about fifty-five thousand expected.",
+   "scene": {
+    "t": "compare",
+    "title": "August 2026 payrolls",
+    "left": {
+     "label": "Expected",
+     "value": "~55K",
+     "tone": "neutral",
+     "sub": "consensus"
+    },
+    "right": {
+     "label": "First count",
+     "value": "+162K",
+     "tone": "up",
+     "sub": "BLS, Sept 4"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rate hike bets jumped, and the S&P 500 fell 0.38% that day.",
+   "say": "Rate hike bets jumped, and the S and P five hundred fell zero point three eight percent that day.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 on Sept 4, 2026",
+    "value": "-0.38%",
+    "tone": "down",
+    "sub": "strong jobs, hike fears",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The twist: the first number isn't final. A month later, July's -23,000 was revised to +21,000.",
+   "say": "The twist: the first number isn't final. A month later, July's minus twenty-three thousand was revised to plus twenty-one thousand.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "July, first count",
+     "value": "-23,000"
+    },
+    "to": {
+     "label": "a month later",
+     "value": "+21,000"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So markets don't trade the jobs number. They trade the gap between expected and actual.",
+   "say": "So markets don't trade the jobs number. They trade the gap between expected and actual.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Actual - expected",
+     "= the surprise",
+     "The surprise moves prices"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why a bad jobs report sent stocks to a record",
+  "ig": "A bad jobs report helped push stocks to a record. Here's why.\n\nJuly 2026: economists expected +83,000 jobs, the first count showed -23,000. Yields fell and the S&P 500 closed at a record on Aug 7, 2026.\nAugust 2026: +162,000 jobs vs about 55,000 expected. Rate hike bets jumped and the S&P 500 fell 0.38% on Sept 4, 2026.\nThe first number isn't final: July's first revision took it to +21,000.\n\nSources: BLS Employment Situation, CNBC, Reuters, Yahoo Finance (Aug-Sept 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#jobsreport #stockmarket #federalreserve #economy #financeprostv",
+  "tiktok": "A bad jobs report helped push stocks to a record. Here's why. Not financial advice. #moneytok #personalfinance #jobsreport #stockmarket #financeprostv",
+  "yt_desc": "The July 2026 jobs report showed -23,000 jobs vs 83,000 expected, and the S&P 500 closed at a record on Aug 7, 2026 as rate hike bets faded. The August 2026 report showed +162,000 vs about 55,000 expected, and the S&P 500 fell 0.38% on Sept 4. July's first revision took it to +21,000. Sources: BLS, CNBC, Reuters, Yahoo Finance.\n\nNews and education, not financial advice.\n\n#Shorts #jobsreport #stockmarket",
+  "tags": [
+   "jobs report",
+   "nonfarm payrolls",
+   "stock market",
+   "federal reserve",
+   "interest rates"
+  ]
+ }
+}

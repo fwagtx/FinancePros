@@ -1,33 +1,189 @@
 {
  "series": "ticker",
  "header": "Why restaurants love\nselling you drinks",
- "cover": {"title": "Why McDonald's Bets on Drinks", "prop": "bag", "label": "DRINKS", "value": "$9.60"},
+ "cover": {
+  "title": "Why McDonald's Bets on Drinks",
+  "prop": "bag",
+  "label": "DRINKS",
+  "value": "$9.60"
+ },
  "lines": [
-  {"who": "ticker", "text": "Why is McDonald's betting big on drinks?", "say": "Why is McDonald's betting big on drinks?",
-   "scene": {"t": "hook", "title": "Why bet on [drinks]?", "prop": "bag", "label": "DRINKS", "value": "$$$", "mood": "think"}},
-  {"who": "ticker", "text": "In September 2026, McDonald's told investors its specialty drinks are high margin. Here's the math.", "say": "In September twenty twenty-six, McDonald's told investors its specialty drinks are high margin. Here's the math.",
-   "scene": {"t": "news", "headline": "McDonald's calls specialty drinks high margin", "source": "McDonald's Investor Day, Sept 23, 2026"}},
-  {"who": "ticker", "text": "Restaurants track pour cost: what a drink's ingredients cost, divided by its price.", "say": "Restaurants track something called pour cost: what a drink's ingredients cost, divided by its price.",
-   "scene": {"t": "board", "lines": ["Pour cost =", "drink ingredients / price"]}},
-  {"who": "ticker", "text": "Industry guides say bars typically aim for 18-24%. Kitchens aim for 28-35%.", "say": "Industry guides say bars typically aim for eighteen to twenty-four percent. Kitchens aim for twenty-eight to thirty-five.",
-   "scene": {"t": "compare", "title": "Typical cost targets", "left": {"label": "Drinks", "value": "18-24%", "tone": "up", "sub": "bar pour cost"}, "right": {"label": "Food", "value": "28-35%", "tone": "down", "sub": "kitchen food cost"}}},
-  {"who": "ticker", "text": "Example: a $12 drink at 20% leaves $9.60. A $12 burger at 30% leaves $8.40.", "say": "Say a drink and a burger are both twelve dollars. At twenty percent, the drink leaves nine dollars and sixty cents. At thirty percent, the burger leaves eight dollars and forty cents.",
-   "scene": {"t": "compare", "title": "Example: both priced $12", "left": {"label": "Drink", "value": "$9.60", "tone": "up", "sub": "left at 20% cost"}, "right": {"label": "Burger", "value": "$8.40", "tone": "neutral", "sub": "left at 30% cost"}}},
-  {"who": "ticker", "text": "That's $1.20 more from the drink, before staff or rent.", "say": "That's one dollar and twenty cents more from the drink, before staff or rent.",
-   "scene": {"t": "compare", "keep": true, "winner": "left", "mood": "up"}},
-  {"who": "ticker", "text": "Meanwhile, ground beef averaged $6.92 a pound in August 2026, up from $4.94 in August 2022.", "say": "Meanwhile, ground beef averaged six dollars and ninety-two cents a pound in August twenty twenty-six, up from four dollars and ninety-four cents in twenty twenty-two.",
-   "scene": {"t": "chart", "title": "Ground beef, avg price per lb", "points": [[2022, 4.937], [2023, 5.076], [2024, 5.577], [2025, 6.318], [2026, 6.923]], "prefix": "$", "end": "$6.92", "color": "up", "mood": "worried"}},
-  {"who": "ticker", "text": "Flanigan's, a Florida chain, sells alcohol two ways. In fiscal 2025, its liquor stores kept 25.1% after product costs. Its restaurants, food and bar together, kept 66.6%.", "say": "Flanigan's, a Florida chain, sells alcohol two ways. In fiscal twenty twenty-five, its liquor stores kept about twenty-five percent after product costs. Its restaurants, food and bar together, kept about sixty-seven.",
-   "scene": {"t": "compare", "title": "Flanigan's gross margin, FY2025", "left": {"label": "Liquor stores", "value": "25.1%", "tone": "down", "sub": "bottles to go"}, "right": {"label": "Restaurants", "value": "66.6%", "tone": "up", "sub": "food and bar"}}},
-  {"who": "ticker", "text": "So the drink often does the heavy lifting on profit. That's why menus push it.", "say": "So the drink often does the heavy lifting on profit. That's why menus push it so hard.",
-   "scene": {"t": "hook", "title": "Drinks [carry] the menu", "prop": "tag", "label": "DRINKS", "mood": "think"}},
-  {"who": "ticker", "text": "That's the money. Follow for more.", "say": "That's the money. Follow for more.", "scene": {"t": "cta"}}
+  {
+   "who": "ticker",
+   "text": "Why is McDonald's betting big on drinks?",
+   "say": "Why is McDonald's betting big on drinks?",
+   "scene": {
+    "t": "hook",
+    "title": "Why bet on [drinks]?",
+    "prop": "bag",
+    "label": "DRINKS",
+    "value": "$$$",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2026, McDonald's called its specialty drinks high margin.",
+   "say": "In September twenty twenty-six, McDonald's called its specialty drinks high margin.",
+   "scene": {
+    "t": "news",
+    "headline": "McDonald's calls specialty drinks high margin",
+    "source": "McDonald's Investor Day, Sept 23, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Restaurants track pour cost: ingredient cost divided by the drink's price.",
+   "say": "Restaurants track pour cost: ingredient cost divided by the drink's price.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pour cost =",
+     "drink ingredients / price"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Industry guides say bars aim for 18-24%. Kitchens, 28-35%.",
+   "say": "Industry guides say bars aim for eighteen to twenty-four percent. Kitchens, twenty-eight to thirty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Typical cost targets",
+    "left": {
+     "label": "Drinks",
+     "value": "18-24%",
+     "tone": "up",
+     "sub": "bar pour cost"
+    },
+    "right": {
+     "label": "Food",
+     "value": "28-35%",
+     "tone": "down",
+     "sub": "kitchen food cost"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a drink and a burger both cost $12. At 20%, the drink leaves $9.60. At 30%, the burger leaves $8.40.",
+   "say": "Say a drink and a burger both cost twelve dollars. At twenty percent, the drink leaves nine dollars and sixty cents. At thirty percent, the burger leaves eight dollars and forty cents.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: both priced $12",
+    "left": {
+     "label": "Drink",
+     "value": "$9.60",
+     "tone": "up",
+     "sub": "left at 20% cost"
+    },
+    "right": {
+     "label": "Burger",
+     "value": "$8.40",
+     "tone": "neutral",
+     "sub": "left at 30% cost"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $1.20 more, before staff or rent.",
+   "say": "That's one dollar and twenty cents more, before staff or rent.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Food keeps climbing, too: ground beef averaged $6.92 a pound in August 2026.",
+   "say": "Food keeps climbing, too: ground beef averaged six dollars and ninety-two cents a pound in August twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Ground beef, avg price per lb",
+    "points": [
+     [
+      2022,
+      4.937
+     ],
+     [
+      2023,
+      5.076
+     ],
+     [
+      2024,
+      5.577
+     ],
+     [
+      2025,
+      6.318
+     ],
+     [
+      2026,
+      6.923
+     ]
+    ],
+    "prefix": "$",
+    "end": "$6.92",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Flanigan's, a Florida chain, sells alcohol two ways. In fiscal 2025, its liquor stores kept 25.1% after product costs, its restaurants (food and bar) 66.6%.",
+   "say": "Flanigan's, a Florida chain, sells alcohol two ways. In fiscal twenty twenty-five, its liquor stores kept about twenty-five percent after product costs, its restaurants, food and bar, about sixty-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Flanigan's gross margin, FY2025",
+    "left": {
+     "label": "Liquor stores",
+     "value": "25.1%",
+     "tone": "down",
+     "sub": "bottles to go"
+    },
+    "right": {
+     "label": "Restaurants",
+     "value": "66.6%",
+     "tone": "up",
+     "sub": "food and bar"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So drinks often carry the profit. That's why menus push them.",
+   "say": "So drinks often carry the profit, which is why menus push them.",
+   "scene": {
+    "t": "hook",
+    "title": "Drinks [carry] the menu",
+    "prop": "tag",
+    "label": "DRINKS",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
  ],
  "post": {
   "title": "Why McDonald's is betting big on drinks",
   "ig": "Why is McDonald's betting big on drinks?\nIn Sept 2026, McDonald's told investors its specialty drinks are high margin.\nIndustry guides say bars aim for an 18-24% pour cost; kitchens aim for 28-35% food cost. Example: a $12 drink at 20% leaves $9.60, a $12 burger at 30% leaves $8.40.\nGround beef averaged $6.92/lb in Aug 2026 (BLS). Flanigan's FY2025 10-K: liquor stores 25.1% gross margin, restaurants (food and bar) 66.6%.\nSources: McDonald's Investor Day 2026; BLS average prices; Flanigan's FY2025 10-K; industry pour-cost guides.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#restaurants #mcdonalds #businessmodel #drinks #financeprostv",
   "tiktok": "Why McDonald's is betting big on drinks: the pour cost math. Not financial advice. #moneytok #personalfinance #restaurants #business #financeprostv",
   "yt_desc": "In September 2026, McDonald's told investors its specialty drinks are high margin. Industry guides say bars aim for an 18-24% pour cost versus 28-35% food cost for kitchens, and ground beef averaged $6.92 a pound in August 2026 (BLS). Flanigan's FY2025 10-K shows 25.1% gross margin at its liquor stores versus 66.6% at its restaurants (food and bar). News and education, not financial advice. #Shorts #restaurants #business",
-  "tags": ["why restaurants make money on drinks", "pour cost", "mcdonalds drinks", "restaurant business model", "food cost"]
+  "tags": [
+   "why restaurants make money on drinks",
+   "pour cost",
+   "mcdonalds drinks",
+   "restaurant business model",
+   "food cost"
+  ]
  }
 }
