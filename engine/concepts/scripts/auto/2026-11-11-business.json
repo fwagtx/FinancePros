@@ -1,0 +1,192 @@
+{
+ "id": "2026-11-11-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Nvidia\nmakes money",
+ "cover": {
+  "title": "How Nvidia Keeps 56¢ Per Dollar",
+  "prop": "chart-up",
+  "label": "profit",
+  "value": "56¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Nvidia keeps 56 cents of every sales dollar. Guess who's paying.",
+   "say": "Nvidia keeps 56 cents of every sales dollar. Guess who's paying.",
+   "scene": {
+    "t": "hook",
+    "title": "Profit per $1 at [Nvidia]",
+    "prop": "bill",
+    "label": "$1",
+    "value": "56¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fiscal 2026: $215.9 billion in sales, $120.1 billion in net income.",
+   "say": "In fiscal twenty twenty-six, it brought in about two hundred sixteen billion dollars in sales and kept about a hundred twenty billion as profit.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia, fiscal 2026",
+    "left": {
+     "label": "Revenue",
+     "value": "$215.9B",
+     "tone": "neutral",
+     "sub": "sales"
+    },
+    "right": {
+     "label": "Net income",
+     "value": "$120.1B",
+     "tone": "up",
+     "sub": "profit"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So who's paying? Not mostly gamers. About 90% came from data centers.",
+   "say": "So who's paying? Not mostly gamers. About ninety percent came from data centers.",
+   "scene": {
+    "t": "stat",
+    "label": "Data Center share of revenue, FY2026",
+    "value": "90%",
+    "tone": "up",
+    "sub": "$193.7B of $215.9B (Nvidia 10-K)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those are AI chips, plus the networking that links thousands of them together.",
+   "say": "Those are A I chips, plus the networking gear that links thousands of them together.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AI chips (GPUs)",
+     "+ networking",
+     "= AI data centers"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Revenue went from $10.92 billion in fiscal 2020 to $215.9 billion in fiscal 2026.",
+   "say": "Revenue went from about eleven billion in fiscal twenty twenty to about two hundred sixteen billion in fiscal twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Nvidia revenue ($B, fiscal years)",
+    "points": [
+     [
+      2020,
+      10.92
+     ],
+     [
+      2021,
+      16.68
+     ],
+     [
+      2022,
+      26.91
+     ],
+     [
+      2023,
+      26.97
+     ],
+     [
+      2024,
+      60.92
+     ],
+     [
+      2025,
+      130.5
+     ],
+     [
+      2026,
+      215.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$215.9B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cloud giants: $48.7B of $89B data center sales (quarter ended July 2026).",
+   "say": "The biggest buyers? Cloud giants. In the three months through July, they spent about forty-nine billion of its eighty-nine billion in data center sales.",
+   "scene": {
+    "t": "stat",
+    "label": "Cloud giants' sales, Q2 FY2027",
+    "value": "$48.7B",
+    "tone": "up",
+    "sub": "of $89.0B Data Center revenue"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its gross margin that quarter was 75%: each $1 of sales cost about 25 cents to make, before research, salaries and taxes.",
+   "say": "Its gross margin that quarter was seventy-five percent: each dollar of sales cost about twenty-five cents to make, before research, salaries and taxes.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "1 dollar of sales",
+     "value": "$1.00"
+    },
+    "to": {
+     "label": "cost to make it",
+     "value": "25¢"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The business model: sell the picks and shovels of the AI boom.",
+   "say": "The business model? Sell the picks and shovels of the A I boom.",
+   "scene": {
+    "t": "split",
+    "title": "How Nvidia makes money",
+    "left": {
+     "title": "Small slice",
+     "items": [
+      "Gaming GPUs",
+      "Workstations",
+      "Cars"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Most of it",
+     "items": [
+      "AI chips",
+      "Networking",
+      "Data centers"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Nvidia keeps 56 cents of every dollar as profit",
+  "ig": "Nvidia keeps 56 cents of every dollar as profit.\nFiscal 2026 (ended Jan 2026): $215.9 billion in revenue, $120.1 billion in net income.\nAbout 90% of revenue ($193.7B) came from data centers: AI chips plus networking.\nRevenue was $10.92 billion in fiscal 2020. In the quarter ended July 2026, gross margin was 75%.\nSources: Nvidia 10-K and earnings releases.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#nvidia #ai #business #howtheymakemoney #financeprostv",
+  "tiktok": "Nvidia keeps 56 cents of every dollar as profit. Here's who pays. Not financial advice. #moneytok #business #nvidia #ai #financeprostv",
+  "yt_desc": "Nvidia earned $120.1 billion in net income on $215.9 billion of revenue in fiscal 2026 (ended January 2026), and about 90% of revenue came from data centers (Nvidia 10-K). In the quarter ended July 2026, its gross margin was 75%. News and education, not financial advice. #Shorts #nvidia #business",
+  "tags": [
+   "how nvidia makes money",
+   "nvidia revenue",
+   "nvidia data center",
+   "ai chips",
+   "nvidia business model"
+  ]
+ }
+}
