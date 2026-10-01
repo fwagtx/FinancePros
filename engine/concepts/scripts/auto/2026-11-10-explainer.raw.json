@@ -1,0 +1,248 @@
+{
+ "series": "ticker",
+ "header": "How IRS limits\nchange each year",
+ "cover": {
+  "title": "401(k) Limit Up $6,500",
+  "prop": "coins",
+  "label": "401(k)",
+  "value": "+$6,500"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The 401(k) limit is up $6,500 in ten years.",
+   "say": "The four oh one K limit is up sixty-five hundred dollars in ten years.",
+   "scene": {
+    "t": "hook",
+    "title": "401(k) limit: [+$6,500]",
+    "prop": "coins",
+    "label": "401(k)",
+    "value": "+$6,500",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From $18,000 in 2016 to $24,500 in 2026. That's inflation math.",
+   "say": "From eighteen thousand in twenty sixteen to twenty-four five hundred in twenty twenty-six. That's inflation math.",
+   "scene": {
+    "t": "chart",
+    "title": "401(k) contribution limit (IRS)",
+    "points": [
+     [
+      2016,
+      18000
+     ],
+     [
+      2017,
+      18000
+     ],
+     [
+      2018,
+      18500
+     ],
+     [
+      2019,
+      19000
+     ],
+     [
+      2020,
+      19500
+     ],
+     [
+      2021,
+      19500
+     ],
+     [
+      2022,
+      20500
+     ],
+     [
+      2023,
+      22500
+     ],
+     [
+      2024,
+      23000
+     ],
+     [
+      2025,
+      23500
+     ],
+     [
+      2026,
+      24500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$24,500",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each fall, the IRS adjusts limits and tax brackets for inflation.",
+   "say": "Each fall, the I R S adjusts limits and tax brackets for inflation.",
+   "scene": {
+    "t": "chart",
+    "title": "401(k) contribution limit (IRS)",
+    "points": [
+     [
+      2016,
+      18000
+     ],
+     [
+      2017,
+      18000
+     ],
+     [
+      2018,
+      18500
+     ],
+     [
+      2019,
+      19000
+     ],
+     [
+      2020,
+      19500
+     ],
+     [
+      2021,
+      19500
+     ],
+     [
+      2022,
+      20500
+     ],
+     [
+      2023,
+      22500
+     ],
+     [
+      2024,
+      23000
+     ],
+     [
+      2025,
+      23500
+     ],
+     [
+      2026,
+      24500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$24,500",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "$24,500 in 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 401(k) limit rounds down to $500 steps, so some years it doesn't move.",
+   "say": "The four oh one K limit rounds down to five hundred dollar steps, so some years it doesn't move.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rounds down",
+     "to $500 steps"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026: $24,500, plus $8,000 at 50-plus, or $11,250 at ages 60 to 63.",
+   "say": "For twenty twenty-six: twenty-four five hundred, plus eight thousand at fifty-plus, or eleven two fifty at ages sixty to sixty-three.",
+   "scene": {
+    "t": "list",
+    "title": "401(k) limits, 2026",
+    "items": [
+     "Base: $24,500",
+     "Age 50+: +$8,000",
+     "Ages 60-63: +$11,250 instead"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRA limit is $7,500 in 2026.",
+   "say": "The I R A limit is seventy-five hundred dollars in twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "IRA limit, 2026",
+    "value": "$7,500",
+    "tone": "up",
+    "sub": "+$1,100 catch-up at 50+"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Maxing the 401(k) over 26 paychecks takes about $942 each.",
+   "say": "Maxing the four oh one K over twenty-six paychecks takes about nine hundred forty-two dollars each.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2026 limit / 26 paychecks",
+     "value": "$24,500"
+    },
+    "to": {
+     "label": "Per paycheck",
+     "value": "$942"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tax brackets rise too, so a raise that just matches inflation doesn't bump your bracket.",
+   "say": "Tax brackets rise too, so a raise that just matches inflation doesn't bump your bracket.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Brackets rise",
+     "with inflation"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next year's numbers usually come out in October or November, on IRS.gov.",
+   "say": "Next year's numbers usually come out in October or November, on I R S dot gov.",
+   "scene": {
+    "t": "stat",
+    "label": "2027 limits",
+    "value": "IRS.gov",
+    "tone": "neutral",
+    "sub": "usually announced Oct-Nov"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "The 401(k) limit is up $6,500 in 10 years. Here's how IRS limits change.",
+  "ig": "The 401(k) limit is up $6,500 in ten years: $18,000 in 2016 to $24,500 in 2026.\nEvery fall the IRS adjusts retirement limits and tax brackets for inflation. The 401(k) limit rounds down to $500 steps, so some years it doesn't move.\n2026: 401(k) $24,500 (+$8,000 at 50+, +$11,250 at ages 60-63); IRA $7,500 (+$1,100 at 50+). Maxing a 401(k) over 26 paychecks is about $942 each.\nThe IRS usually posts the next year's numbers in October or November: check IRS.gov for 2027.\nSource: IRS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#401k #ira #taxes #personalfinance #financeprostv",
+  "tiktok": "The 401(k) limit is up $6,500 in 10 years. How IRS limits change. Not financial advice. #moneytok #personalfinance #401k #taxes #financeprostv",
+  "yt_desc": "The 401(k) contribution limit rose from $18,000 in 2016 to $24,500 in 2026 because the IRS adjusts retirement limits and tax brackets for inflation each fall, rounding the 401(k) limit down to $500 steps. For 2026: 401(k) $24,500 (+$8,000 catch-up at 50+, +$11,250 at 60-63) and IRA $7,500; the IRS usually announces the next year's figures in October or November (IRS). News and education, not financial advice. #Shorts #401k #personalfinance",
+  "tags": [
+   "401k limit",
+   "ira limit",
+   "irs inflation adjustments",
+   "tax brackets",
+   "personal finance"
+  ]
+ }
+}
