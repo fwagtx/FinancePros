@@ -1,0 +1,179 @@
+{
+ "id": "2026-11-02-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Leasing vs buying\na car: face-off",
+ "cover": {
+  "title": "Lease vs Buy: The Catch",
+  "prop": "car",
+  "value": "$148/mo"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Leases average $148 less a month. So what's the catch?",
+   "say": "Leases average a hundred forty-eight dollars less a month. So what's the catch?",
+   "scene": {
+    "t": "hook",
+    "title": "$148 less. The [catch]?",
+    "prop": "car",
+    "value": "$148/mo",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Q2 2026 average new payments: $617 to lease, $765 on a loan. Different cars, but a useful benchmark.",
+   "say": "Average new payments in the second quarter of twenty twenty-six: six hundred seventeen dollars to lease, seven hundred sixty-five dollars on a loan. Different cars, but a useful benchmark.",
+   "scene": {
+    "t": "compare",
+    "title": "Average new-car payment, Q2 2026",
+    "left": {
+     "label": "Lease",
+     "value": "$617",
+     "tone": "up",
+     "sub": "avg ~36 months"
+    },
+    "right": {
+     "label": "Loan",
+     "value": "$765",
+     "tone": "down",
+     "sub": "avg 69.5 months"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A lease is renting: you pay for the car's lost value, then hand it back.",
+   "say": "A lease is renting: you pay for the car's lost value, then hand it back.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lease = rent the",
+     "car's lost value,",
+     "then return it"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But leases run about 3 years. Loans average 69.5 months.",
+   "say": "But leases run about three years. Loans average sixty-nine and a half months.",
+   "scene": {
+    "t": "hook",
+    "title": "But leases run about 3 years. Loans average 69.5",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over about 6 years, two leases cost $44,424. You own nothing.",
+   "say": "Over about six years, two leases cost about forty-four thousand four hundred. You own nothing.",
+   "scene": {
+    "t": "compare",
+    "title": "About 6 years of payments (payments only)",
+    "left": {
+     "label": "2 leases, 72 mo",
+     "value": "$44,424",
+     "tone": "neutral",
+     "sub": "own nothing"
+    },
+    "right": {
+     "label": "Loan, 69.5 mo",
+     "value": "$53,168",
+     "tone": "neutral",
+     "sub": "car is paid off"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay off the loan: about $53,168, and the car is yours.",
+   "say": "Pay off the loan: about fifty-three thousand two hundred, and the car is yours.",
+   "scene": {
+    "t": "compare",
+    "title": "About 6 years of payments (payments only)",
+    "left": {
+     "label": "2 leases, 72 mo",
+     "value": "$44,424",
+     "tone": "neutral",
+     "sub": "own nothing"
+    },
+    "right": {
+     "label": "Loan, 69.5 mo",
+     "value": "$53,168",
+     "tone": "neutral",
+     "sub": "car is paid off"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Leases also cap mileage, often 10,000 to 15,000 a year.",
+   "say": "Leases also cap mileage, often ten to fifteen thousand a year.",
+   "scene": {
+    "t": "list",
+    "title": "Lease fine print",
+    "items": [
+     "Mileage caps",
+     "Excess-mile fees",
+     "Turn-in fee"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "3,000 miles over, at a common 25 cents a mile? $750.",
+   "say": "Three thousand miles over, at a common twenty-five cents a mile? Seven hundred fifty dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "3,000 extra miles",
+     "value": "x $0.25"
+    },
+    "to": {
+     "label": "Owed at turn-in",
+     "value": "$750"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Takeaway: compare total cost over the years you'll drive, not the monthly payment.",
+   "say": "Takeaway: compare total cost over the years you'll drive, not the monthly payment.",
+   "scene": {
+    "t": "hook",
+    "title": "Total cost, not [monthly]",
+    "prop": "tag",
+    "label": "TOTAL",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Leases average $148 less a month. So what's the catch?",
+  "ig": "Leases average $148 less a month. So what's the catch?\nQ2 2026 averages (Experian): $617 lease vs $765 new-car loan. Not the same cars, but a useful benchmark.\nAbout six years: two 36-month leases = $44,424 and you own nothing; paying off a 69.5-month loan = about $53,168 and the car is yours.\nGo 3,000 miles over a lease at $0.25 a mile and that's $750.\nSources: Experian State of the Automotive Finance Market Q2 2026; typical lease terms (CarsDirect, Federal Reserve leasing guide).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#carlease #carbuying #autoloan #personalfinance #financeprostv",
+  "tiktok": "Leases average $148 less a month. So what's the catch? Not financial advice. #moneytok #personalfinance #carbuying #financeprostv",
+  "yt_desc": "In Q2 2026 the average new lease payment was $617 versus $765 for a new-car loan (Experian), though leases and loans cover different cars. Over about six years, two 36-month leases cost $44,424 with nothing to show, while paying off the average 69.5-month loan costs about $53,168 and leaves you with a car. Leases also cap mileage (3,000 extra miles at $0.25 = $750). News and education, not financial advice. #Shorts #cars #personalfinance",
+  "tags": [
+   "lease vs buy car",
+   "car lease",
+   "auto loan",
+   "car payment",
+   "car buying tips"
+  ]
+ }
+}
