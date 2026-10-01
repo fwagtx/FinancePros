@@ -37,3 +37,50 @@
 - Morningstar Target-Date Landscape 2023, 2024 and 2026 (morningstar.com; plansponsor.com; nasdaq.com press release)
 
 VERDICT: FAIL
+
+## Round 2 (re-check of revised raw.json, Oct 1, 2026)
+
+### Round 1 issues
+1. **Hook mislabel: resolved in the narration.** The new L1 says "new ... dollars bought one fund type". L2 adds "In 2025" and the label "New 401(k) dollars into TDFs". Together they match HAS 2026: "nearly 2 of every 3 dollars contributed" in 2025.
+   - **Still overclaims in two places, which drop the word "type":**
+     - `post.title`: "Nearly 2 in 3 new Vanguard 401(k) dollars bought one fund". Readers will take this as a single fund, which is false. Fix: "...bought one fund type".
+     - L1 `scene.title`: "One fund, [2 in 3]". Fix: "One fund type, [2 in 3]" or "[2 in 3] new dollars".
+2. **Hook length: not fully resolved, but minor.** It is still 12 spoken words, about 3.5 s. "Two in three new Vanguard 401(k) dollars bought one fund type" (11 words) is slightly tighter. This alone does not fail the script.
+3. **Retire-at-65 assumption: resolved.** The chart title "% stocks by age (retire at 65)" has 30 characters and the IG post says "assuming retirement at 65".
+   - Nit: the L5 caption ends "(retire at 65)" but the narration does not say it. Either drop it from the caption, since the chart title carries it, or add "if you retire at 65" to the narration.
+4. **Fee wording: resolved in L8 and IG.** The yt_desc still says "the 0.27% average fee in 2025 (Morningstar)". Fix: "the 0.27% average target-date mutual fund fee in 2025 (Morningstar)".
+5. **"Vanguard 401(k)s": acceptable.** HAS covers all Vanguard-recordkept defined contribution plans, which are mostly 401(k)s. That makes "401(k)s" a mild simplification, not an error.
+
+### Trims
+- **L6** "Landing after the date makes it a 'through' fund." It is correct, but "the date" now has no clear antecedent. Fix: "after the target date" (10 words).
+- **L10** "Same year, different ride inside." It is correct, and the list title and items still match.
+- **L2, L3:** the facts are unchanged and correct. QDIA: 98% target-date, 2% balanced, from HAS 2026.
+
+### Posts and cover
+- **Cover "How the 401(k) Autopilot Works":** this is not an overclaim. The video explains the default fund (QDIA) and the automatic glide path. However, the word "autopilot" no longer appears anywhere in the narration. An optional fix is "In 2025, that was the target-date fund, the 401(k) autopilot, per Vanguard."
+- **IG and TikTok:** these are accurate, include "fund type" and "in 2025", and have no advice framing.
+- **yt_desc:** see item 4. **post.title:** see item 1.
+
+### Sub-labels
+- Both are within the limit: L2 "Vanguard HAS 2026, 2025 data" (28) and L3 "QDIAs, Vanguard 401(k), 2025" (28).
+
+### Other checks
+- Math is unchanged: $10,000 × 0.27% = $27.
+- On-screen and spoken values match.
+- The script contains no advice.
+
+### Required to pass
+- Restore "type" in `post.title`.
+- Restore "type" in the L1 `scene.title`.
+
+### Recommended
+- Add "target-date mutual fund" to yt_desc.
+- Change L6 to "after the target date".
+
+VERDICT: FAIL
+
+## Round 3 (orchestrator)
+- post.title now "...one fund type"; L1 scene title "[2 in 3] new dollars".
+- yt_desc says "average target-date mutual fund fee"; L6 "after the target date"; L5 caption retire-at-65 note left on chart title only.
+
+VERDICT: PASS
