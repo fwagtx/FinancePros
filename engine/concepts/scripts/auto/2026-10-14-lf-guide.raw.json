@@ -1,0 +1,1493 @@
+{
+ "series": "ticker",
+ "header": "THE GUIDE",
+ "cover": {
+  "title": "$386 or 96 Cents?",
+  "prop": "coins",
+  "label": "$10,000",
+  "value": "$386"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Same savings plan: $386 of interest, or 96 cents.",
+   "say": "Same savings plan: three hundred eighty-six dollars of interest, or ninety-six cents.",
+   "scene": {
+    "t": "hook",
+    "title": "$386 or [96¢]?",
+    "prop": "coins",
+    "label": "$10,000",
+    "value": "96¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same deposits, same two years, same $10,000 goal. The only difference is where the money sits.",
+   "say": "Same deposits, same two years, same ten thousand dollar goal. The only difference is where the money sits.",
+   "scene": {
+    "t": "compare",
+    "title": "$416.67 a month for 24 months",
+    "left": {
+     "label": "4.00% APY",
+     "value": "$385.68",
+     "tone": "up",
+     "sub": "interest earned"
+    },
+    "right": {
+     "label": "0.01% APY",
+     "value": "$0.96",
+     "tone": "down",
+     "sub": "interest earned"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll do that math step by step. But first, why $10,000 is such a big milestone.",
+   "say": "We'll do that math step by step. But first, why ten thousand dollars is such a big milestone.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a Fed survey from late 2025, 63% of adults said they'd cover a surprise $400 bill with cash.",
+   "say": "In a Fed survey from late twenty twenty-five, sixty-three percent of adults said they'd cover a surprise four hundred dollar bill with cash.",
+   "scene": {
+    "t": "stat",
+    "label": "Would cover $400 with cash or equivalent, 2025",
+    "value": "63%",
+    "tone": "neutral",
+    "sub": "Federal Reserve SHED, May 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bump it to $1,000, and a Bankrate survey found just 30% would pay it from savings.",
+   "say": "Bump it to a thousand dollars, and a Bankrate survey found just thirty percent would pay it from savings.",
+   "scene": {
+    "t": "stat",
+    "label": "Would pay a $1,000 emergency from savings",
+    "value": "30%",
+    "tone": "down",
+    "sub": "Bankrate, survey Dec 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the typical family's checking and savings added up to $8,000 in 2022. That's the median, from the Fed.",
+   "say": "And the typical family's checking and savings added up to eight thousand dollars in twenty twenty-two. That's the median, from the Fed.",
+   "scene": {
+    "t": "stat",
+    "label": "Median transaction account balance, 2022",
+    "value": "$8,000",
+    "tone": "neutral",
+    "sub": "Fed Survey of Consumer Finances"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So $10,000 puts a saver above the typical family. Here's how people get there, in order.",
+   "say": "So ten thousand dollars puts a saver above the typical family. Here's how people get there, in order.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "Set number and clock",
+     "Find the money",
+     "Pick where it sits",
+     "Automate it"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. Set the number and the clock.",
+   "say": "Chapter one. Set the number and the clock.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Set the number and clock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A goal with no deadline is just a wish. So the first step savers take is picking a timeline.",
+   "say": "A goal with no deadline is just a wish. So the first step savers take is picking a timeline.",
+   "scene": {
+    "t": "hook",
+    "title": "Pick a [deadline]",
+    "prop": "paper",
+    "label": "GOAL",
+    "value": "$10K",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Divide $10,000 by the number of months, and you get the monthly number.",
+   "say": "Divide ten thousand dollars by the number of months, and you get the monthly number.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$10,000 ÷ months",
+     "= monthly deposit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In one year, that's $833.33 a month.",
+   "say": "In one year, that's eight hundred thirty-three dollars and thirty-three cents a month.",
+   "scene": {
+    "t": "list",
+    "title": "$10,000 by month count",
+    "items": [
+     "12 months: $833.33",
+     "24 months: $416.67",
+     "36 months: $277.78"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stretch it to two years, and it's $416.67 a month.",
+   "say": "Stretch it to two years, and it's four hundred sixteen dollars and sixty-seven cents a month.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And over three years, it drops to $277.78.",
+   "say": "And over three years, it drops to two hundred seventy-seven dollars and seventy-eight cents.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of these is the right answer. A faster clock means a bigger bite out of every paycheck.",
+   "say": "None of these is the right answer. A faster clock means a bigger bite out of every paycheck.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "12 months",
+     "items": [
+      "$833.33 a month",
+      "Done fast",
+      "Tight budget"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "36 months",
+     "items": [
+      "$277.78 a month",
+      "Easier to keep",
+      "Takes longer"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many people find it easier to think in paychecks instead of months.",
+   "say": "Many people find it easier to think in paychecks instead of months.",
+   "scene": {
+    "t": "hook",
+    "title": "Think in [paychecks]",
+    "prop": "bill",
+    "label": "PAYDAY",
+    "value": "÷",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over two years, someone paid every two weeks gets 52 paychecks. $10,000 divided by 52 is $192.31.",
+   "say": "Over two years, someone paid every two weeks gets fifty-two paychecks. Ten thousand divided by fifty-two is a hundred ninety-two dollars and thirty-one cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2 years = 52 paychecks",
+     "$10,000 ÷ 52",
+     "= $192.31 per paycheck"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Or think in weeks. Two years is 104 weeks, so that's $96.15 a week.",
+   "say": "Or think in weeks. Two years is a hundred four weeks, so that's ninety-six dollars and fifteen cents a week.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Goal over 104 weeks",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "Per week",
+     "value": "$96.15"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same goal, three ways to say it. The smaller the slice, the less scary it looks.",
+   "say": "Same goal, three ways to say it. The smaller the slice, the less scary it looks.",
+   "scene": {
+    "t": "list",
+    "title": "Two years, three ways",
+    "items": [
+     "$416.67 a month",
+     "$192.31 a paycheck",
+     "$96.15 a week"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. Find the money.",
+   "say": "Chapter two. Find the money.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Find the money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The monthly number has to come from somewhere. Savers usually look at it as a share of take-home pay.",
+   "say": "The monthly number has to come from somewhere. Savers usually look at it as a share of take-home pay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Savings rate =",
+     "savings ÷ take-home pay"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: someone takes home $4,000 a month. $416.67 of that is about 10.4%.",
+   "say": "Here's an example. Someone takes home four thousand dollars a month. Four hundred sixteen dollars and sixty-seven cents of that is about ten point four percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example take-home: $4,000",
+     "$416.67 ÷ $4,000",
+     "= 10.4% savings rate"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For comparison, Americans as a whole saved 4.1% of their disposable income in August 2026.",
+   "say": "For comparison, Americans as a whole saved four point one percent of their disposable income in August twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "US personal saving rate, Aug 2026",
+    "value": "4.1%",
+    "tone": "neutral",
+    "sub": "BEA, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So 10% is well above the national number, and that's why many people look beyond the budget.",
+   "say": "So ten percent is well above the national number, and that's why many people look beyond the budget.",
+   "scene": {
+    "t": "compare",
+    "title": "Share of income saved",
+    "left": {
+     "label": "Example saver",
+     "value": "10.4%",
+     "tone": "up",
+     "sub": "$416.67 of $4,000"
+    },
+    "right": {
+     "label": "US, Aug 2026",
+     "value": "4.1%",
+     "tone": "neutral",
+     "sub": "BEA"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The first place savers look is the bank statement. Recurring charges are the easiest ones to cut.",
+   "say": "The first place savers look is the bank statement. Recurring charges are the easiest ones to cut.",
+   "scene": {
+    "t": "hook",
+    "title": "Read the [statement]",
+    "prop": "paper",
+    "label": "MONTHLY",
+    "value": "-$",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscriptions, delivery fees, a phone plan nobody has compared in years. It adds up.",
+   "say": "Subscriptions, delivery fees, a phone plan nobody has compared in years. It adds up.",
+   "scene": {
+    "t": "list",
+    "title": "Where savers look first",
+    "items": [
+     "Subscriptions",
+     "Delivery fees",
+     "Phone and insurance",
+     "Bank fees"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The second place is lump sums. Tax refunds are the big one.",
+   "say": "The second place is lump sums. Tax refunds are the big one.",
+   "scene": {
+    "t": "hook",
+    "title": "The [refund] shortcut",
+    "prop": "bag",
+    "label": "REFUND",
+    "value": "$$$",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of April 17, 2026, the average federal refund was $3,275, according to the IRS.",
+   "say": "As of April seventeenth, twenty twenty-six, the average federal refund was three thousand two hundred seventy-five dollars, according to the IRS.",
+   "scene": {
+    "t": "stat",
+    "label": "Average federal tax refund, as of Apr 17, 2026",
+    "value": "$3,275",
+    "tone": "up",
+    "sub": "IRS filing season statistics"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Drop a refund that size into savings, and almost a third of the goal is done on day one.",
+   "say": "Drop a refund that size into savings, and almost a third of the goal is done on day one.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Refund",
+     "value": "$3,275"
+    },
+    "to": {
+     "label": "Share of $10,000",
+     "value": "32.75%"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves $6,725. Spread over two years, that's $280.21 a month.",
+   "say": "That leaves six thousand seven hundred twenty-five dollars. Spread over two years, that's two hundred eighty dollars and twenty-one cents a month.",
+   "scene": {
+    "t": "compare",
+    "title": "Monthly deposit, 24 months",
+    "left": {
+     "label": "No refund",
+     "value": "$416.67",
+     "tone": "neutral",
+     "sub": "$10,000 ÷ 24"
+    },
+    "right": {
+     "label": "With refund",
+     "value": "$280.21",
+     "tone": "up",
+     "sub": "$6,725 ÷ 24"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Raises work the same way. Some savers send part of every raise to savings before they get used to spending it.",
+   "say": "Raises work the same way. Some savers send part of every raise to savings before they get used to spending it.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the hard question. What if there's credit card debt?",
+   "say": "Now the hard question. What if there's credit card debt?",
+   "scene": {
+    "t": "hook",
+    "title": "Debt [or] savings?",
+    "prop": "card",
+    "label": "22.15%",
+    "value": "?",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Accounts charged interest paid an average 22.15% APR in the second quarter of 2026.",
+   "say": "Accounts charged interest paid an average twenty-two point one five percent A P R in the second quarter of twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg card APR, accounts charged interest, Q2 2026",
+    "value": "22.15%",
+    "tone": "down",
+    "sub": "Federal Reserve G.19, Sept 8, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's far more than any savings account pays. So a dollar paying down that balance usually goes further than a dollar in savings.",
+   "say": "That's far more than any savings account pays. So a dollar paying down that balance usually goes further than a dollar in savings.",
+   "scene": {
+    "t": "compare",
+    "title": "Rate on each dollar",
+    "left": {
+     "label": "Card debt",
+     "value": "22.15%",
+     "tone": "down",
+     "sub": "avg APR, Q2 2026"
+    },
+    "right": {
+     "label": "Savings",
+     "value": "4.00%",
+     "tone": "up",
+     "sub": "example APY"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But with zero savings, the next surprise bill lands right back on the card. That's the trap.",
+   "say": "But with zero savings, the next surprise bill lands right back on the card. That's the trap.",
+   "scene": {
+    "t": "hook",
+    "title": "The [loop]",
+    "prop": "fire",
+    "label": "CARD",
+    "value": "↺",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So many people split it: a small starter cushion first, then extra payments on the card, then the bigger savings goal.",
+   "say": "So many people split it: a small starter cushion first, then extra payments on the card, then the bigger savings goal.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "First",
+      "what": "Small starter cushion"
+     },
+     {
+      "when": "Then",
+      "what": "Extra card payments"
+     },
+     {
+      "when": "After",
+      "what": "Build to $10,000"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And they're not alone. Bankrate found 29% of Americans have more card debt than emergency savings.",
+   "say": "And they're not alone. Bankrate found twenty-nine percent of Americans have more card debt than emergency savings.",
+   "scene": {
+    "t": "stat",
+    "label": "More card debt than emergency savings",
+    "value": "29%",
+    "tone": "down",
+    "sub": "Bankrate, Jan 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. Pick where the money sits.",
+   "say": "Chapter three. Pick where the money sits.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Pick where it sits"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is the step that decides between $386 and 96 cents.",
+   "say": "This is the step that decides between three hundred eighty-six dollars and ninety-six cents.",
+   "scene": {
+    "t": "hook",
+    "title": "Where it [sits]",
+    "prop": "pot",
+    "label": "$10,000",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FDIC's national average savings rate was 0.37% APY as of September 21, 2026.",
+   "say": "The FDIC's national average savings rate was zero point three seven percent A P Y as of September twenty-first, twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "National average savings rate, Sept 21, 2026",
+    "value": "0.37%",
+    "tone": "down",
+    "sub": "FDIC National Rates"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's been stuck under half a percent for years. Here's the FDIC average every January.",
+   "say": "And it's been stuck under half a percent for years. Here's the FDIC average every January.",
+   "scene": {
+    "t": "chart",
+    "title": "FDIC national savings rate (Jan, % APY)",
+    "points": [
+     [
+      2022,
+      0.06
+     ],
+     [
+      2023,
+      0.33
+     ],
+     [
+      2024,
+      0.47
+     ],
+     [
+      2025,
+      0.41
+     ],
+     [
+      2026,
+      0.39
+     ]
+    ],
+    "suffix": "%",
+    "end": "0.39%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even at its 2024 peak, it was 0.47%.",
+   "say": "Even at its twenty twenty-four peak, it was zero point four seven percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2024,
+     "text": "Peak: 0.47%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some big banks pay even less: Chase and Wells Fargo's standard savings paid 0.01% in September 2026.",
+   "say": "Some big banks pay even less: Chase and Wells Fargo's standard savings paid zero point zero one percent in September twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Chase Savings and Wells Fargo Way2Save APY",
+    "value": "0.01%",
+    "tone": "down",
+    "sub": "US News, CNBC Select, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, top high-yield savings accounts advertised up to 4.5% APY in late September 2026.",
+   "say": "Meanwhile, top high-yield savings accounts advertised up to four and a half percent A P Y in late September twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Savings APY, Sept 2026",
+    "left": {
+     "label": "Top high-yield",
+     "value": "4.50%",
+     "tone": "up",
+     "sub": "top advertised"
+    },
+    "right": {
+     "label": "Big-bank basic",
+     "value": "0.01%",
+     "tone": "down",
+     "sub": "Chase, Wells Fargo"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those rates are variable and tend to follow the Fed, which raised its target range to 3.75%-4% on September 16, 2026.",
+   "say": "Those rates are variable and tend to follow the Fed, which raised its target range to three point seven five to four percent on September sixteenth, twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed raises rates to 3.75%-4%, first hike since 2023",
+    "source": "Federal Reserve, Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, is an online bank safe? If it's FDIC insured, deposits are covered up to $250,000.",
+   "say": "Now, is an online bank safe? If it's FDIC insured, deposits are covered up to two hundred fifty thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "FDIC insurance limit",
+    "value": "$250,000",
+    "tone": "up",
+    "sub": "per depositor, per bank, per category"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's per depositor, per insured bank, per ownership category. Online or not, the rule is the same.",
+   "say": "That's per depositor, per insured bank, per ownership category. Online or not, the rule is the same.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$250,000 per depositor",
+     "per insured bank",
+     "per ownership category"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Watch the names, though. A money market account and a money market fund sound alike, but they're different.",
+   "say": "Watch the names, though. A money market account and a money market fund sound alike, but they're different.",
+   "scene": {
+    "t": "split",
+    "title": "Same name, different rules",
+    "left": {
+     "title": "MM account",
+     "items": [
+      "Bank deposit",
+      "FDIC insured"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "MM fund",
+     "items": [
+      "Investment fund",
+      "Not FDIC insured"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The SEC says money market funds aren't FDIC insured, and investors can lose money, even though it's rare.",
+   "say": "The SEC says money market funds aren't FDIC insured, and investors can lose money, even though it's rare.",
+   "scene": {
+    "t": "hook",
+    "title": "Not [insured]",
+    "prop": "box",
+    "label": "MM FUND",
+    "value": "≠ FDIC",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Apps are another catch. FDIC insurance covers a bank failing, not the app in the middle failing.",
+   "say": "Apps are another catch. FDIC insurance covers a bank failing, not the app in the middle failing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "FDIC covers: bank fails",
+     "Not covered: app fails"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In April 2024, Synapse, a middleman behind several fintech apps, filed for bankruptcy. Over $265 million in deposits were frozen.",
+   "say": "In April twenty twenty-four, Synapse, a middleman behind several fintech apps, filed for bankruptcy. Over two hundred sixty-five million dollars in deposits were frozen.",
+   "scene": {
+    "t": "news",
+    "headline": "Synapse bankruptcy freezes over $265M in app deposits",
+    "source": "Banking Dive, American Banker, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB later set aside $46.2 million to repay affected customers. The CFPB sued Synapse over its records, and those claims are allegations.",
+   "say": "The CFPB later set aside forty-six point two million dollars to repay affected customers. The CFPB sued Synapse over its records, and those claims are allegations.",
+   "scene": {
+    "t": "stat",
+    "label": "CFPB victims' relief for Synapse users",
+    "value": "$46.2M",
+    "tone": "neutral",
+    "sub": "CFPB, approved Nov 28, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last rule: in April 2020, the Fed dropped the old limit of six savings withdrawals a month. Banks can still set their own.",
+   "say": "Last rule: in April twenty twenty, the Fed dropped the old limit of six savings withdrawals a month. Banks can still set their own.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Before 2020",
+      "what": "Six withdrawals a month"
+     },
+     {
+      "when": "Apr 2020",
+      "what": "Fed drops the limit"
+     },
+     {
+      "when": "Now",
+      "what": "Banks may set limits"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. Automate it.",
+   "say": "Chapter four. Automate it.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Automate it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Consistent savers don't rely on willpower. They move the money before they see it.",
+   "say": "Consistent savers don't rely on willpower. They move the money before they see it.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay yourself [first]",
+    "prop": "bill",
+    "label": "PAYDAY",
+    "value": "1st",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's called paying yourself first. Savings comes out on payday, and spending gets whatever's left.",
+   "say": "It's called paying yourself first. Savings comes out on payday, and spending gets whatever's left.",
+   "scene": {
+    "t": "split",
+    "title": "Two orders",
+    "left": {
+     "title": "Save first",
+     "items": [
+      "Payday",
+      "Savings moves",
+      "Spend the rest"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Save last",
+     "items": [
+      "Payday",
+      "Spend",
+      "Save leftovers"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There are two common ways to do it. One is an automatic transfer scheduled for the day after payday.",
+   "say": "There are two common ways to do it. One is an automatic transfer scheduled for the day after payday.",
+   "scene": {
+    "t": "list",
+    "title": "Two ways to automate",
+    "items": [
+     "Scheduled transfer",
+     "Split direct deposit"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other is a split direct deposit. Many employers let workers send a fixed amount to a second account.",
+   "say": "The other is a split direct deposit. Many employers let workers send a fixed amount to a second account.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With the split, the $192.31 never even lands in checking.",
+   "say": "With the split, the hundred ninety-two dollars and thirty-one cents never even lands in checking.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Paycheck",
+     "value": "100%"
+    },
+    "to": {
+     "label": "To savings first",
+     "value": "$192.31"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some keep savings at a different bank than checking. It adds a day of friction, which is the point.",
+   "say": "Some keep savings at a different bank than checking. It adds a day of friction, which is the point.",
+   "scene": {
+    "t": "hook",
+    "title": "Add some [friction]",
+    "prop": "house",
+    "label": "BANK 2",
+    "value": "+1 day",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Others name the account after the goal. \"First $10K\" is harder to raid than \"Savings 2.\"",
+   "say": "Others name the account after the goal. First ten K is harder to raid than Savings two.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Account nickname:",
+     "\"First $10K\""
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The plan bends instead of breaking. In a tight month, savers often shrink the transfer instead of stopping it.",
+   "say": "The plan bends instead of breaking. In a tight month, savers often shrink the transfer instead of stopping it.",
+   "scene": {
+    "t": "compare",
+    "title": "A tight month",
+    "left": {
+     "label": "Pause",
+     "value": "$0",
+     "tone": "down",
+     "sub": "habit breaks"
+    },
+    "right": {
+     "label": "Shrink",
+     "value": "$50",
+     "tone": "up",
+     "sub": "habit stays"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fifty dollars keeps the habit alive. Zero dollars has a way of turning into zero for six months.",
+   "say": "Fifty dollars keeps the habit alive. Zero dollars has a way of turning into zero for six months.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. The interest math.",
+   "say": "Chapter five. The interest math.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The interest math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's pay off the opening. Our example saver deposits $416.67 at the end of every month for 24 months.",
+   "say": "Let's pay off the opening. Our example saver deposits four hundred sixteen dollars and sixty-seven cents at the end of every month for twenty-four months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $416.67 a month",
+     "24 deposits, month end",
+     "Rate held steady"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $10,000.08 of their own money. Now we compare three rates, held steady the whole time.",
+   "say": "That's ten thousand dollars and eight cents of their own money. Now we compare three rates, held steady the whole time.",
+   "scene": {
+    "t": "list",
+    "title": "Same deposits, 3 rates",
+    "items": [
+     "4.00%: $385.68",
+     "0.37%: $35.48",
+     "0.01%: $0.96"
+    ],
+    "reveal": 0
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At a 4% APY, interest adds $385.68.",
+   "say": "At a four percent A P Y, interest adds three hundred eighty-five dollars and sixty-eight cents.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 1,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the 0.37% national average, it's $35.48.",
+   "say": "At the zero point three seven percent national average, it's thirty-five dollars and forty-eight cents.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And at 0.01%, two years of interest comes to 96 cents.",
+   "say": "And at zero point zero one percent, two years of interest comes to ninety-six cents.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same habit, same deposits. Roughly 400 times the interest, just from the account choice.",
+   "say": "Same habit, same deposits. Roughly four hundred times the interest, just from the account choice.",
+   "scene": {
+    "t": "compare",
+    "title": "Interest over 24 months",
+    "left": {
+     "label": "4.00% APY",
+     "value": "$385.68",
+     "tone": "up",
+     "sub": "example rate"
+    },
+    "right": {
+     "label": "0.01% APY",
+     "value": "$0.96",
+     "tone": "down",
+     "sub": "big-bank basic"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To be fair, rates move. If that 4% fell along the way, the result would be lower. It's an example, not a promise.",
+   "say": "To be fair, rates move. If that four percent fell along the way, the result would be lower. It's an example, not a promise.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Once the $10,000 is saved, one year at 4% pays $400. At 0.37%, it's $37.",
+   "say": "Once the ten thousand is saved, one year at four percent pays four hundred dollars. At zero point three seven percent, it's thirty-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "$10,000 for one year",
+    "left": {
+     "label": "At 4.00%",
+     "value": "$400",
+     "tone": "up",
+     "sub": "example APY"
+    },
+    "right": {
+     "label": "At 0.37%",
+     "value": "$37",
+     "tone": "down",
+     "sub": "national avg"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now add inflation. Prices rose 3.4% in the 12 months through August 2026.",
+   "say": "Now add inflation. Prices rose three point four percent in the twelve months through August twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "CPI, 12 months through Aug 2026",
+    "value": "3.4%",
+    "tone": "down",
+    "sub": "BLS, Sept 11, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $10,000, prices rising 3.4% cost $340 of buying power, versus $37 of interest at 0.37%, or $400 at 4%.",
+   "say": "On ten thousand dollars, prices rising three point four percent cost three hundred forty dollars of buying power, versus thirty-seven dollars of interest at zero point three seven percent, or four hundred at four percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Inflation cost: $340",
+     "At 0.37%: +$37",
+     "At 4.00%: +$400"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And yes, the IRS wants its cut. Savings interest counts as taxable income.",
+   "say": "And yes, the IRS wants its cut. Savings interest counts as taxable income.",
+   "scene": {
+    "t": "hook",
+    "title": "Interest is [taxed]",
+    "prop": "paper",
+    "label": "1099-INT",
+    "value": "$10+",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Banks send a Form 1099-INT once interest hits $10 in a year, but all interest is reportable, even under $10.",
+   "say": "Banks send a Form ten ninety-nine I N T once interest hits ten dollars in a year, but all interest is reportable, even under ten dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$10+ interest: 1099-INT",
+     "Under $10: still taxable"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For example, in a 12% bracket, tax on $385.68 of interest is $46.28.",
+   "say": "For example, in a twelve percent bracket, tax on three hundred eighty-five dollars and sixty-eight cents of interest is forty-six dollars and twenty-eight cents.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Interest",
+     "value": "$385.68"
+    },
+    "to": {
+     "label": "Federal tax at 12%",
+     "value": "$46.28"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There are other places savers park cash, each with a catch.",
+   "say": "There are other places savers park cash, each with a catch.",
+   "scene": {
+    "t": "list",
+    "title": "Other cash spots",
+    "items": [
+     "CDs",
+     "Treasury bills",
+     "I bonds"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CDs lock the rate for a set term but usually charge a penalty for early withdrawal. Treasury bills skip state and local income tax.",
+   "say": "C Ds lock the rate for a set term but usually charge a penalty for early withdrawal. Treasury bills skip state and local income tax.",
+   "scene": {
+    "t": "split",
+    "title": "Trade-offs",
+    "left": {
+     "title": "CD",
+     "items": [
+      "Rate locked",
+      "Early exit penalty"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "T-bill",
+     "items": [
+      "1 year or less",
+      "No state income tax"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "I bonds paid 4.26% for bonds issued May through October 2026. But they're locked for 12 months, and cashing out before five years costs three months of interest.",
+   "say": "I bonds paid four point two six percent for bonds issued May through October twenty twenty-six. But they're locked for twelve months, and cashing out before five years costs three months of interest.",
+   "scene": {
+    "t": "stat",
+    "label": "I bond rate, issued May-Oct 2026",
+    "value": "4.26%",
+    "tone": "neutral",
+    "sub": "TreasuryDirect; 12-month lock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fun fact: the yearly limit on electronic I bonds is exactly $10,000 per person. But money locked for a year can't cover an emergency.",
+   "say": "Fun fact: the yearly limit on electronic I bonds is exactly ten thousand dollars per person. But money locked for a year can't cover an emergency.",
+   "scene": {
+    "t": "hook",
+    "title": "Locked for a [year]",
+    "prop": "box",
+    "label": "I BOND",
+    "value": "12 mo",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. The common mistakes, and the checklist.",
+   "say": "Chapter six. The common mistakes, and the checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Mistakes and checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake one: leaving savings in checking, or in a basic account paying 0.01%.",
+   "say": "Mistake one: leaving savings in checking, or in a basic account paying zero point zero one percent.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Parked at 0.01%",
+     "No real deadline",
+     "Raiding it",
+     "Chasing teaser rates"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake two: no deadline. \"Someday\" doesn't come with a monthly number.",
+   "say": "Mistake two: no deadline. Someday doesn't come with a monthly number.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake three: raiding the fund for things that aren't emergencies. A sale is not an emergency.",
+   "say": "Mistake three: raiding the fund for things that aren't emergencies. A sale is not an emergency.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake four: chasing the highest teaser rate without reading the fine print.",
+   "say": "Mistake four: chasing the highest teaser rate without reading the fine print.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some top rates require direct deposits, monthly deposits, or a minimum balance. Some are promos that drop later.",
+   "say": "Some top rates require direct deposits, monthly deposits, or a minimum balance. Some are promos that drop later.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Read the fine print:",
+     "direct deposit? minimum?",
+     "promo end date?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake five: assuming an app is a bank. The question to ask is which FDIC-insured bank actually holds the money.",
+   "say": "Mistake five: assuming an app is a bank. The question to ask is which FDIC insured bank actually holds the money.",
+   "scene": {
+    "t": "hook",
+    "title": "App is not a [bank]",
+    "prop": "card",
+    "label": "APP",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the last one is quitting after a bad month. One setback doesn't erase the balance already built.",
+   "say": "And the last one is quitting after a bad month. One setback doesn't erase the balance already built.",
+   "scene": {
+    "t": "hook",
+    "title": "Don't [quit] at month 5",
+    "prop": "chart-up",
+    "label": "$2,083",
+    "value": "+",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Five months in at that pace, a saver already has $2,083.35. That's real money, not a failure.",
+   "say": "Five months in at that pace, a saver already has two thousand eighty-three dollars and thirty-five cents. That's real money, not a failure.",
+   "scene": {
+    "t": "stat",
+    "label": "Saved after 5 months at $416.67",
+    "value": "$2,083.35",
+    "tone": "up",
+    "sub": "deposits only, before interest"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the whole plan on one screen.",
+   "say": "So here's the whole plan on one screen.",
+   "scene": {
+    "t": "list",
+    "title": "First $10K checklist",
+    "items": [
+     "Pick a deadline",
+     "Do the paycheck math",
+     "Insured high-yield account",
+     "Automate on payday"
+    ],
+    "reveal": 1,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Savers pick a deadline, and divide $10,000 by the months or paychecks.",
+   "say": "Savers pick a deadline, and divide ten thousand dollars by the months or paychecks.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They check the APY and the FDIC insurance before the first deposit.",
+   "say": "They check the A P Y and the FDIC insurance before the first deposit.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And they automate it, so the money moves on payday without a decision.",
+   "say": "And they automate it, so the money moves on payday without a decision.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then they add the extras: refunds and raises go in, and high-interest card debt gets attention too.",
+   "say": "Then they add the extras: refunds and raises go in, and high-interest card debt gets attention too.",
+   "scene": {
+    "t": "list",
+    "title": "The extras",
+    "items": [
+     "Refunds and raises",
+     "Card debt plan",
+     "Read fine print",
+     "Tax on interest"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember why it matters. In 2025, 63% of adults would cover a $400 surprise with cash. The other 37% would need another way.",
+   "say": "Remember why it matters. In twenty twenty-five, sixty-three percent of adults would cover a four hundred dollar surprise with cash. The other thirty-seven percent would need another way.",
+   "scene": {
+    "t": "chart",
+    "title": "Could cover $400 with cash (%)",
+    "points": [
+     [
+      2013,
+      50
+     ],
+     [
+      2014,
+      53
+     ],
+     [
+      2015,
+      54
+     ],
+     [
+      2016,
+      56
+     ],
+     [
+      2017,
+      59
+     ],
+     [
+      2018,
+      61
+     ],
+     [
+      2019,
+      63
+     ],
+     [
+      2020,
+      64
+     ],
+     [
+      2021,
+      68
+     ],
+     [
+      2022,
+      63
+     ],
+     [
+      2023,
+      63
+     ],
+     [
+      2024,
+      63
+     ],
+     [
+      2025,
+      63
+     ]
+    ],
+    "suffix": "%",
+    "end": "63%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That share peaked at 68% in 2021, and it's been flat at 63% for four straight years.",
+   "say": "That share peaked at sixty-eight percent in twenty twenty-one, and it's been flat at sixty-three percent for four straight years.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2021,
+     "text": "Peak: 68%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$10,000 covers that $400 bill 25 times over. That's the point: a surprise becomes an inconvenience, not a crisis.",
+   "say": "Ten thousand dollars covers that four hundred dollar bill twenty-five times over. That's the point: a surprise becomes an inconvenience, not a crisis.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Savings",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "$400 surprises covered",
+     "value": "25"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the math from the start still holds: same plan, $386 of interest or 96 cents. The account choice makes the difference.",
+   "say": "And the math from the start still holds: same plan, three hundred eighty-six dollars of interest, or ninety-six cents. The account choice makes the difference.",
+   "scene": {
+    "t": "compare",
+    "title": "Same plan, two accounts",
+    "left": {
+     "label": "4.00% APY",
+     "value": "$386",
+     "tone": "up",
+     "sub": "24-month example"
+    },
+    "right": {
+     "label": "0.01% APY",
+     "value": "96¢",
+     "tone": "down",
+     "sub": "24-month example"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not financial advice. Follow FinancePros TV for money, explained simply.",
+   "say": "This is education, not financial advice. Follow FinancePros TV for money, explained simply.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained simply."
+   }
+  }
+ ],
+ "post": {
+  "title": "How to Save Your First $10,000, Step by Step ($386 of interest or 96 cents?)",
+  "ig": "Same savings plan: $386 of interest, or 96 cents. Here's the step-by-step math to your first $10,000.",
+  "tiktok": "Same $10,000 plan, $386 or 96 cents in interest. Where the money sits matters.",
+  "yt_desc": "Saving $416.67 a month for two years gets to $10,000, but the interest can be $385.68 or 96 cents depending only on the account. This guide walks through saving a first $10,000 step by step: setting a deadline and doing the paycheck math, finding the money with refunds and raises, the trade-off with high-interest card debt, where savings sits (FDIC insurance, money market accounts versus funds, fintech apps), automating deposits, and how interest, inflation and taxes change the result. It ends with the common mistakes and a one-screen checklist.\n\nCHAPTERS\n\nSources: Federal Reserve, Economic Well-Being of U.S. Households in 2025 (May 2026); Bankrate 2026 Emergency Savings Report (Jan 2026); Federal Reserve Survey of Consumer Finances (Oct 2023); BEA Personal Income and Outlays (Aug 2026); FDIC National Rates and Rate Caps (Jan 2022-Sept 2026); Federal Reserve FOMC statement (Sept 16, 2026); Federal Reserve G.19 (Sept 8, 2026); BLS CPI (Sept 11, 2026); IRS filing season statistics (Apr 2026); FDIC deposit insurance; SEC Investor.gov money market funds bulletin; Federal Reserve Regulation D (Apr 24, 2020); TreasuryDirect (May 1, 2026); CFPB and Banking Dive on Synapse (2024-2025).\n\nNews and education, not financial advice.\n\n#savingmoney #personalfinance #emergencyfund",
+  "tags": [
+   "save 10000",
+   "how to save money",
+   "emergency fund",
+   "high yield savings",
+   "savings account",
+   "FDIC insurance",
+   "personal finance",
+   "savings plan"
+  ]
+ }
+}

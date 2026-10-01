@@ -42,3 +42,24 @@ Checked Sept 30, 2026. Script JSON only; 12 searches; math recomputed in python.
 - No advice, price predictions or political opinion. The worked example is clearly labeled ("Assume", "example"). The cover and title are paid off. The quote is exact. The BoE's UK statement is attributed to the BoE, and the QE caveat is included.
 
 VERDICT: FAIL
+
+---
+
+## Round 2 (re-check of the revised file, Oct 1, 2026)
+
+Reviewed the full revised JSON and the git diff. 0 new searches were needed: all changed values were already verified in Round 1.
+
+**All Round 1 issues are resolved:**
+1. Hook and currency share. L1, L4, L94, the cover, title, ig, tiktok and yt_desc now say 90% and $2.39T. M2 currency component $2,389.7B / M2 $23,342.8B = 10.2%. The rest is 23,342.8 - 2,389.7 = $20,953B, which rounds to $21.0T. On-screen and spoken values match. No stray "89", "2.48" or "eleven cents" remains.
+2. L57 now reads "Economists point to three big brakes." The misattribution to the Bank of England is gone.
+3. L53 and L88 now say "about $5,642" in the text, the spoken line and the scene. This is consistent with both $5,642.16 (unrounded payment) and roughly $5,642.12–$5,642.40 (rounded payment).
+4. L30 now says "the formula breaks; the multiplier would be infinite." This is accurate.
+5. L81 now says "tried to pull about $42 billion." This is accurate.
+6. L67: text and spoken line both say "almost no risk." L49 and L51 are fixed. The L63 label is now "Risk-wtd loans."
+
+The rest of the script is unchanged: dates, Fed decision, quote, chart and loan math are all verified in Round 1.
+
+**Remaining issue (minor, optional):**
+- L81 scene label "Withdrawn from Silicon Valley Bank, Mar 9, 2023" is slightly stronger than the corrected narration ("tried to pull"). Optional fix: "Withdrawal requests, Silicon Valley Bank, Mar 9, 2023". This is a style nit and does not block the slot.
+
+VERDICT: PASS

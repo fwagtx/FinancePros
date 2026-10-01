@@ -1,0 +1,202 @@
+{
+ "series": "ticker",
+ "header": "How charity galas\nraise millions",
+ "cover": {
+  "title": "$42 Million in One Night",
+  "prop": "bag",
+  "label": "Met Gala",
+  "value": "$42M"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The Met Gala raised $42 million in one night. Here's how.",
+   "say": "The Met Gala raised forty-two million dollars in one night. Here's how.",
+   "scene": {
+    "t": "hook",
+    "title": "$42M in [one] night",
+    "prop": "bag",
+    "label": "Met Gala",
+    "value": "$42M",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It funds the Costume Institute, the only Met curatorial department that funds itself.",
+   "say": "It funds the Costume Institute, the only Met curatorial department that funds itself.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Costume Institute",
+     "only Met curatorial dept",
+     "that funds itself"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The haul has more than doubled, from $16.4 million in 2021 to $42 million in 2026.",
+   "say": "The haul has more than doubled, from sixteen point four million dollars in twenty twenty-one to forty-two million in twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Met Gala raised ($M)",
+    "points": [
+     [
+      2021,
+      16.4
+     ],
+     [
+      2022,
+      17.4
+     ],
+     [
+      2023,
+      22
+     ],
+     [
+      2024,
+      26
+     ],
+     [
+      2025,
+      31
+     ],
+     [
+      2026,
+      42
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$42M",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, tickets went from $75,000 in 2025 to $100,000 in 2026.",
+   "say": "Meanwhile, tickets went from seventy-five thousand dollars in twenty twenty-five to a hundred thousand in twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Met Gala ticket",
+    "left": {
+     "label": "2025",
+     "value": "$75K",
+     "tone": "neutral",
+     "sub": "per ticket"
+    },
+    "right": {
+     "label": "2026",
+     "value": "$100K",
+     "tone": "up",
+     "sub": "tables from $350K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Smaller galas copy it: tickets, sponsors, and auctions of donated items.",
+   "say": "Smaller galas copy it: tickets, sponsors, and auctions of donated items.",
+   "scene": {
+    "t": "list",
+    "title": "The gala playbook",
+    "items": [
+     "Tickets and tables",
+     "Sponsors",
+     "Auction donated items"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: the IRS only counts what you pay above fair market value as a donation.",
+   "say": "The catch? The I R S only counts what you pay above fair market value as a donation.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Donation =",
+     "price paid",
+     "minus fair market value"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a donated trip worth $500 sells for $2,000. $1,500 is deductible.",
+   "say": "Say a donated trip worth five hundred dollars sells for two thousand. Fifteen hundred is deductible.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Winning bid (example)",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "Deductible part",
+     "value": "$1,500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay over $75 for something you get back, and the charity must tell you in writing what's deductible.",
+   "say": "Pay over seventy-five dollars for something you get back, and the charity must tell you in writing what's deductible.",
+   "scene": {
+    "t": "stat",
+    "label": "Written notice required over",
+    "value": "$75",
+    "tone": "neutral",
+    "sub": "IRS Publication 1771"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the charity keeps the full price, but your real gift is price minus value.",
+   "say": "So the charity keeps the full price, but your real gift is price minus value.",
+   "scene": {
+    "t": "split",
+    "title": "Where the money goes",
+    "left": {
+     "title": "Charity keeps",
+     "items": [
+      "Full price paid"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Tax-deductible gift",
+     "items": [
+      "Price minus value"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How the Met Gala raised $42 million in one night",
+  "ig": "The Met Gala raised $42 million in one night.\n\nIt funds the Costume Institute, the only curatorial department at the Met that must fund itself.\nThe gala raised $16.4M in 2021 and a record $42M in 2026. Tickets went from $75,000 (2025) to $100,000 (2026).\nIRS rule: only what you pay above an item's fair market value counts as a donation, and for payments over $75 where you get something back, charities must tell you in writing what's deductible.\n\nSources: WWD, Fortune, CBS News (May 2026); AP; IRS Publication 1771.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#metgala #charity #nonprofit #taxes #financeprostv",
+  "tiktok": "The Met Gala raised $42M in one night. Here's how galas make money. Not financial advice. #moneytok #personalfinance #metgala #charity #financeprostv",
+  "yt_desc": "The 2026 Met Gala raised a record $42 million for the Met's Costume Institute, up from $16.4 million in 2021, with tickets at $100,000. Under IRS Publication 1771, only what you pay above an item's fair market value is deductible, and for payments over $75 where you get something back, charities must say in writing what's deductible. Sources: WWD, Fortune, CBS News, AP, IRS. News and education, not financial advice. #Shorts #metgala #charity",
+  "tags": [
+   "met gala",
+   "charity auction",
+   "how they make money",
+   "charitable deduction",
+   "nonprofit fundraising"
+  ]
+ }
+}

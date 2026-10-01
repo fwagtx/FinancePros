@@ -5,19 +5,19 @@
   "title": "Where Money Really Comes From.",
   "prop": "bill",
   "label": "NOT CASH",
-  "value": "89%"
+  "value": "90%"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "About 89% of America's money isn't cash.",
-   "say": "About eighty-nine percent of America's money isn't cash.",
+   "text": "About 90% of America's money isn't cash.",
+   "say": "About ninety percent of America's money isn't cash.",
    "scene": {
     "t": "hook",
-    "title": "89% isn't [cash]",
+    "title": "90% isn't [cash]",
     "prop": "bill",
     "label": "NOT CASH",
-    "value": "89%",
+    "value": "90%",
     "mood": "shock"
    }
   },
@@ -48,22 +48,22 @@
   },
   {
    "who": "ticker",
-   "text": "Paper cash and coins were only $2.48 trillion of that. About 11 cents of every dollar.",
-   "say": "Paper cash and coins were only about two point four eight trillion dollars of that. About eleven cents of every dollar.",
+   "text": "Paper cash and coins were only about $2.39 trillion of that. About 10 cents of every dollar.",
+   "say": "Paper cash and coins were only about two point three nine trillion dollars of that. About ten cents of every dollar.",
    "scene": {
     "t": "compare",
     "title": "US M2, August 2026",
     "left": {
      "label": "Cash + coins",
-     "value": "$2.48T",
+     "value": "$2.39T",
      "tone": "neutral",
-     "sub": "about 11%"
+     "sub": "about 10%"
     },
     "right": {
      "label": "Everything else",
-     "value": "$20.9T",
+     "value": "$21.0T",
      "tone": "up",
-     "sub": "about 89%"
+     "sub": "about 90%"
     }
    }
   },
@@ -420,14 +420,14 @@
   },
   {
    "who": "ticker",
-   "text": "Plug zero into the formula. One divided by zero is infinity.",
-   "say": "Plug zero into the formula. One divided by zero is infinity.",
+   "text": "Plug zero into the formula and it breaks. The multiplier would be infinite.",
+   "say": "Plug zero into the formula and it breaks. The multiplier would be infinite.",
    "scene": {
     "t": "stat",
     "label": "Textbook multiplier at a 0% reserve rule",
-    "value": "infinity",
+    "value": "infinite",
     "tone": "down",
-    "sub": "1 / 0 does not compute"
+    "sub": "the formula breaks"
    }
   },
   {
@@ -684,8 +684,8 @@
   },
   {
    "who": "ticker",
-   "text": "And here's the answer from chapter one. That principal payment doesn't go anywhere. It's erased.",
-   "say": "And here's the answer from chapter one. That principal payment doesn't go anywhere. It's erased.",
+   "text": "And here's the answer to chapter one's question. That principal payment doesn't go anywhere. It's erased.",
+   "say": "And here's the answer to chapter one's question. That principal payment doesn't go anywhere. It's erased.",
    "scene": {
     "t": "compare",
     "keep": true,
@@ -708,7 +708,7 @@
   },
   {
    "who": "ticker",
-   "text": "So new loans create money, and repayments destroy it. The supply is the running tug-of-war.",
+   "text": "So new loans create money, and repayments destroy it. The money supply is the running tug-of-war between the two.",
    "say": "So new loans create money, and repayments destroy it. The money supply is the running tug-of-war between the two.",
    "scene": {
     "t": "split",
@@ -776,14 +776,14 @@
   },
   {
    "who": "ticker",
-   "text": "Over five years, Maya pays $5,642.16 in interest. That's the bank's reward for creating her money.",
-   "say": "Over five years, Maya pays five thousand six hundred forty-two dollars and sixteen cents in interest. That's the bank's reward for creating her money.",
+   "text": "Over five years, Maya pays about $5,642 in interest. That's the bank's reward for creating her money.",
+   "say": "Over five years, Maya pays about five thousand six hundred forty-two dollars in interest. That's the bank's reward for creating her money.",
    "scene": {
     "t": "stat",
     "label": "Total interest, example loan",
     "value": "$5,642",
     "tone": "down",
-    "sub": "$5,642.16: $30K, 7%, 60 months"
+    "sub": "about $5,642: $30K, 7%, 60 mo"
    }
   },
   {
@@ -828,8 +828,8 @@
   },
   {
    "who": "ticker",
-   "text": "The Bank of England lists three brakes. First, profit.",
-   "say": "The Bank of England lists three brakes. First, profit.",
+   "text": "Economists point to three big brakes. First, profit.",
+   "say": "Economists point to three big brakes. First, profit.",
    "scene": {
     "t": "list",
     "title": "Three brakes",
@@ -914,7 +914,7 @@
     "t": "compare",
     "title": "Why capital matters",
     "left": {
-     "label": "Loans",
+     "label": "Risk-wtd loans",
      "value": "$100",
      "tone": "up",
      "sub": "example"
@@ -961,7 +961,7 @@
   {
    "who": "ticker",
    "text": "That matters because a bank can earn 3.90% just by parking reserves at the Fed, with almost no risk.",
-   "say": "That matters because a bank can earn three point nine percent just by parking reserves at the Fed, with basically no risk.",
+   "say": "That matters because a bank can earn three point nine percent just by parking reserves at the Fed, with almost no risk.",
    "scene": {
     "t": "compare",
     "title": "Where a bank earns",
@@ -1152,8 +1152,8 @@
   },
   {
    "who": "ticker",
-   "text": "Trust still breaks sometimes. On March 9, 2023, Silicon Valley Bank customers pulled $42 billion in one day.",
-   "say": "Trust still breaks sometimes. On March ninth, twenty twenty-three, Silicon Valley Bank customers pulled forty-two billion dollars in one day.",
+   "text": "Trust still breaks sometimes. On March 9, 2023, Silicon Valley Bank customers tried to pull about $42 billion in a single day.",
+   "say": "Trust still breaks sometimes. On March ninth, twenty twenty-three, Silicon Valley Bank customers tried to pull about forty-two billion dollars in a single day.",
    "scene": {
     "t": "stat",
     "label": "Withdrawn from Silicon Valley Bank, Mar 9, 2023",
@@ -1247,7 +1247,7 @@
   },
   {
    "who": "ticker",
-   "text": "And they pay interest for the privilege. In Maya's example, $5,642 on a $30,000 loan.",
+   "text": "And they pay interest for the privilege. In Maya's example, about $5,642 on a $30,000 loan.",
    "say": "And they pay interest for the privilege. In Maya's example, about five thousand six hundred forty-two dollars on a thirty thousand dollar loan.",
    "scene": {
     "t": "money",
@@ -1365,13 +1365,13 @@
   },
   {
    "who": "ticker",
-   "text": "About 89% of US money in August 2026 wasn't cash. It was mostly bank deposits.",
-   "say": "About eighty-nine percent of US money in August twenty twenty-six wasn't cash. It was mostly bank deposits.",
+   "text": "About 90% of US money in August 2026 wasn't cash. It was mostly bank deposits.",
+   "say": "About ninety percent of US money in August twenty twenty-six wasn't cash. It was mostly bank deposits.",
    "scene": {
     "t": "list",
     "title": "Recap",
     "items": [
-     "89% isn't cash",
+     "90% isn't cash",
      "Loans create deposits",
      "Repayment deletes money",
      "Brakes: profit, capital, Fed"
@@ -1433,10 +1433,10 @@
   }
  ],
  "post": {
-  "title": "89% of US money isn't cash. How banks create money out of a loan, explained",
-  "ig": "About 89% of America's money isn't cash. Here's where it actually comes from.",
-  "tiktok": "About 89% of US money isn't cash. Your bank made most of it with a loan.",
-  "yt_desc": "About 89% of the US money supply isn't paper cash: in August 2026, M2 hit a record $23.3 trillion, and cash and coins were only about $2.48 trillion of it. This video explains how banks actually create money: why the textbook money multiplier doesn't describe the system (US reserve requirements have been 0% since March 2020), how a single loan creates a brand new deposit, and why repaying a loan destroys money. A worked $30,000 car loan example shows the bank's books and the exact payment math, and we cover the real limits on lending: profit, capital rules, and the Fed's interest rate, plus the history from London goldsmiths to Silicon Valley Bank.\n\nCHAPTERS\n\nSources: Federal Reserve H.6 Money Stock Measures (Sept 22, 2026); Bank of England, \"Money creation in the modern economy,\" Quarterly Bulletin 2014 Q1; St. Louis Fed, \"The Rise and Fall of M2\" (May 2023); Federal Reserve, Reserve Requirements (March 2020); Federal Reserve FOMC statement and implementation note (Sept 16, 2026); Federal Reserve, Large Bank Capital Requirements (June 2026); Federal Reserve H.8 (Sept 25, 2026) and H.4.1 (Sept 2026); FDIC deposit insurance; FDIC and California DFPI on Silicon Valley Bank (March 2023).\n\nNews and education, not financial advice.\n\n#money #banking #economics",
+  "title": "90% of US money isn't cash. How banks create money out of a loan, explained",
+  "ig": "About 90% of America's money isn't cash. Here's where it actually comes from.",
+  "tiktok": "About 90% of US money isn't cash. Your bank made most of it with a loan.",
+  "yt_desc": "About 90% of the US money supply isn't paper cash: in August 2026, M2 hit a record $23.3 trillion, and cash and coins were only about $2.39 trillion of it. This video explains how banks actually create money: why the textbook money multiplier doesn't describe the system (US reserve requirements have been 0% since March 2020), how a single loan creates a brand new deposit, and why repaying a loan destroys money. A worked $30,000 car loan example shows the bank's books and the exact payment math, and we cover the real limits on lending: profit, capital rules, and the Fed's interest rate, plus the history from London goldsmiths to Silicon Valley Bank.\n\nCHAPTERS\n\nSources: Federal Reserve H.6 Money Stock Measures (Sept 22, 2026); Bank of England, \"Money creation in the modern economy,\" Quarterly Bulletin 2014 Q1; St. Louis Fed, \"The Rise and Fall of M2\" (May 2023); Federal Reserve, Reserve Requirements (March 2020); Federal Reserve FOMC statement and implementation note (Sept 16, 2026); Federal Reserve, Large Bank Capital Requirements (June 2026); Federal Reserve H.8 (Sept 25, 2026) and H.4.1 (Sept 2026); FDIC deposit insurance; FDIC and California DFPI on Silicon Valley Bank (March 2023).\n\nNews and education, not financial advice.\n\n#money #banking #economics",
   "tags": [
    "how banks create money",
    "money supply",

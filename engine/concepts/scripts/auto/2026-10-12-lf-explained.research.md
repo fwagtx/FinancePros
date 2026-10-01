@@ -78,3 +78,5 @@ SOURCES:
 - SVB was the second-largest US bank failure at the time (March 2023); First Republic (May 2023) was later larger, so script says "At the time".
 - Script avoids claiming a specific cause for the 2023 M2 decline; it explains only the mechanism (repayments outrunning new lending shrink money).
 - Additional source: Bank of England QB 2014 Q1 (QE section); UK Parliament QE note SN/EP/4997 (Oct 2014).
+- CORRECTION (fact-check): M2 currency component, Aug 2026 = $2,389.7B (H.6), i.e. 10.2% of M2; about 90% is not cash; non-cash about $21.0T. ($2,475.6B was currency in circulation incl. vault cash; not the M2 component.)
+- Total interest in example stated as "about $5,642" (payment rounding).

@@ -1,0 +1,191 @@
+{
+ "series": "ticker",
+ "header": "Scam alert:\nfake bank fraud calls",
+ "cover": {
+  "title": "Your Bank Never Asks This",
+  "prop": "card",
+  "label": "FRAUD?",
+  "value": "SCAM"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your bank's fraud department will never ask you this.",
+   "say": "Your bank's fraud department will never ask you this.",
+   "scene": {
+    "t": "hook",
+    "title": "Bank never [asks] this",
+    "prop": "card",
+    "label": "FRAUD?",
+    "value": "SCAM",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "\"Move your money to a safe account.\" That request is the scam.",
+   "say": "\"Move your money to a safe account.\" That request is the scam.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "\"Move your money to",
+     "a safe account.\"",
+     "= the scam"
+    ],
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, people reported losing nearly $1 billion to scammers posing as businesses, and fake banks caused the biggest losses.",
+   "say": "In twenty twenty-five, people reported losing nearly one billion dollars to scammers posing as businesses, and fake banks caused the biggest losses.",
+   "scene": {
+    "t": "stat",
+    "label": "Business impersonator losses, 2025",
+    "value": "~$1B",
+    "tone": "down",
+    "sub": "top category: fake banks (FTC)",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "All imposter scams hit $3.5 billion in 2025, up from $1.2 billion in 2020.",
+   "say": "All imposter scams hit three and a half billion dollars in twenty twenty-five, up from one point two billion in twenty twenty.",
+   "scene": {
+    "t": "chart",
+    "title": "Imposter scam losses (FTC)",
+    "points": [
+     [
+      2020,
+      1.2
+     ],
+     [
+      2021,
+      2.4
+     ],
+     [
+      2022,
+      2.6
+     ],
+     [
+      2023,
+      2.7
+     ],
+     [
+      2024,
+      2.95
+     ],
+     [
+      2025,
+      3.5
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$3.5B",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The script: there's fraud on your account, read me a code, now move your money to protect it.",
+   "say": "The script: there's fraud on your account, read me a code, now move your money to protect it.",
+   "scene": {
+    "t": "list",
+    "title": "The fake call",
+    "items": [
+     "\"Fraud on your account\"",
+     "\"Read me the code\"",
+     "\"Move your money\""
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the caller ID showing your bank's name proves nothing. It can be spoofed.",
+   "say": "And the caller ID showing your bank's name? It proves nothing. It can be spoofed.",
+   "scene": {
+    "t": "compare",
+    "title": "Caller ID",
+    "left": {
+     "label": "Shows",
+     "value": "BANK",
+     "tone": "neutral",
+     "sub": "on your screen"
+    },
+    "right": {
+     "label": "Really",
+     "value": "SCAMMER",
+     "tone": "down",
+     "sub": "spoofed number"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $5,000 checking plus $3,000 savings sent to a \"safe account\" is $8,000 gone, likely for good, says the FTC.",
+   "say": "For example, five thousand in checking plus three thousand in savings sent to a \"safe account\" is eight thousand dollars gone, likely for good, says the F T C.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Moved (example)",
+     "value": "$8,000"
+    },
+    "to": {
+     "label": "Protected",
+     "value": "$0"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People who dodge it hang up and call the number on the back of their card.",
+   "say": "People who dodge it hang up and call the number on the back of their card.",
+   "scene": {
+    "t": "split",
+    "title": "Fake vs real",
+    "left": {
+     "title": "Scam call",
+     "items": [
+      "urgent",
+      "move money"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Real bank",
+     "items": [
+      "hang up",
+      "call card number"
+     ],
+     "tone": "up"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "The one thing your bank's fraud team never asks",
+  "ig": "Your bank's fraud department will never ask you this.\n\n\"Move your money to a safe account\" is the scam. The FCC: \"Banks will never call or text and ask you to move your money to protect it.\"\nIn 2025, people reported losing nearly $1 billion to business impersonators, with bank impersonators causing the highest losses.\nImposter scams overall: $3.5 billion in 2025, up from $1.2 billion in 2020.\nCaller ID showing your bank's name can be spoofed.\n\nSources: FTC Consumer Sentinel data (June 2026), FTC consumer alerts, FCC bank impersonation alert (July 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #bankscam #fraudprevention #personalfinance #financeprostv",
+  "tiktok": "Your bank's fraud team will never ask you to move money to a safe account. Not financial advice. #moneytok #personalfinance #scamalert #bankscam #financeprostv",
+  "yt_desc": "Fake bank fraud department calls ask you to move money to a \"safe account\", and that request is the scam. FTC data show people reported losing nearly $1 billion to business impersonators in 2025, with bank impersonators causing the highest losses, and $3.5 billion to all imposter scams. Sources: FTC Consumer Sentinel (June 2026), FTC consumer alerts, FCC (July 2026).\n\nNews and education, not financial advice.\n\n#Shorts #scamalert #bankscam",
+  "tags": [
+   "bank scam",
+   "scam alert",
+   "fraud department call",
+   "imposter scams",
+   "personal finance"
+  ]
+ }
+}

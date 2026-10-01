@@ -1,0 +1,1357 @@
+{
+ "id": "2026-10-08-lf-world",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "WORLD MONEY",
+ "cover": {
+  "title": "Why Did Gas Hit $4.47?",
+  "countries": [
+   "us",
+   "japan"
+  ],
+  "prop": "car",
+  "label": "Sept 28 '26",
+  "value": "$4.47"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "America sells oil. So why did gas hit $4.47?",
+   "say": "America sells oil. So why did gas hit four forty-seven?",
+   "scene": {
+    "t": "hook",
+    "title": "America sells oil. Why [$4.47] gas?",
+    "prop": "car",
+    "label": "Sept 28 '26",
+    "value": "$4.47",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The answer is one global price, and it ripples into your flights, your packages, and your groceries.",
+   "say": "The answer is one global price, and it ripples into your flights, your packages, and eventually your groceries.",
+   "scene": {
+    "t": "list",
+    "title": "One price, many ripples",
+    "items": [
+     "Gas pump",
+     "Trucks and planes",
+     "Plastics",
+     "Food"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since 2020, the US has exported more petroleum than it imports. In 2025, about 2.8 million barrels a day more.",
+   "say": "Since twenty twenty, the US has exported more petroleum than it imports. In twenty twenty-five, it was about two point eight million barrels a day more.",
+   "scene": {
+    "t": "stat",
+    "label": "US net petroleum exports, 2025",
+    "value": "2.8M b/d",
+    "tone": "up",
+    "sub": "net exporter every year since 2020 (EIA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And still, on September 28, 2026, regular gas averaged about $4.47 a gallon, $1.35 more than a year earlier.",
+   "say": "And still, on September twenty-eighth, twenty twenty-six, regular gas averaged about four forty-seven a gallon. That's a dollar thirty-five more than a year earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "US regular gas, per gallon",
+    "left": {
+     "label": "Sept 2025",
+     "value": "$3.12",
+     "tone": "neutral",
+     "sub": "a year earlier"
+    },
+    "right": {
+     "label": "Sept 28, 2026",
+     "value": "$4.47",
+     "tone": "down",
+     "sub": "EIA weekly"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same country, same oil fields, same gas stations. Just a very different price.",
+   "say": "Same country, same oil fields, same gas stations. Just a very different price.",
+   "scene": {
+    "t": "hook",
+    "title": "Same pump, [+$1.35]",
+    "prop": "car",
+    "label": "1 year",
+    "value": "+$1.35",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's not a mistake. Oil trades on one world market, and every country pays roughly the same price for crude.",
+   "say": "That's not a mistake. Oil trades on one world market, and every country pays roughly the same price for crude.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "I pump my own!"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "same crude price"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "me too"
+     }
+    ],
+    "caption": "One price for crude"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's follow a barrel from a tanker to your checkout line, with real numbers at every step.",
+   "say": "So let's follow one barrel, from a tanker all the way to your checkout line, with real numbers at every step.",
+   "scene": {
+    "t": "hook",
+    "title": "Follow the [barrel]",
+    "prop": "box",
+    "label": "42 gallons",
+    "value": "$103",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one. One world price.",
+   "say": "Chapter one. One world price.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "One world price"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A barrel is 42 gallons. Its price is set by traders all over the world, around the clock.",
+   "say": "A barrel of oil is forty-two gallons, and its price is set by traders all over the world, around the clock.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 barrel = 42 gallons",
+     "Priced on a world market"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Think of it as one giant auction. Whoever needs a barrel most, and pays most, gets it.",
+   "say": "Think of it as one giant auction. Whoever needs a barrel the most, and pays the most, gets it.",
+   "scene": {
+    "t": "hook",
+    "title": "One giant [auction]",
+    "prop": "tag",
+    "label": "1 barrel",
+    "value": "SOLD",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The main benchmarks are Brent, the global one, and WTI, the US one. They usually move together.",
+   "say": "The main price tags are called Brent, which is the global benchmark, and W T I, the American one. They usually move together.",
+   "scene": {
+    "t": "compare",
+    "title": "Oil benchmarks, Sept 29, 2026",
+    "left": {
+     "label": "Brent",
+     "value": "$102.59",
+     "tone": "down",
+     "sub": "global benchmark"
+    },
+    "right": {
+     "label": "WTI",
+     "value": "$89.38",
+     "tone": "down",
+     "sub": "US benchmark"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On September 29, 2026, Brent settled at about $103 a barrel and WTI at about $89.",
+   "say": "On September twenty-ninth, twenty twenty-six, Brent settled at about a hundred and three dollars a barrel, and W T I at about eighty-nine.",
+   "scene": {
+    "t": "news",
+    "headline": "Brent settles at $102.59 as Gulf exports recover",
+    "source": "CNBC / Rio Times, Sept. 29-30, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now meet the players. China is the biggest buyer: a record 11.55 million barrels a day of crude imports in 2025.",
+   "say": "Now meet the players. China is the biggest buyer on Earth, importing a record eleven point five five million barrels of crude a day in twenty twenty-five.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "11.55M a day"
+     }
+    ],
+    "caption": "World's biggest crude importer"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Japan has almost no oil of its own. In 2025, 94% of its crude imports came from the Middle East.",
+   "say": "Japan has almost no oil of its own. In twenty twenty-five, ninety-four percent of its crude imports came from the Middle East.",
+   "scene": {
+    "t": "stat",
+    "label": "Japan crude from Middle East, 2025",
+    "value": "94%",
+    "tone": "down",
+    "sub": "Japan's trade ministry, via Argus"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Canada is America's main supplier. It sent 63.4% of the crude the US imported in 2025.",
+   "say": "Canada is America's main supplier. It sent sixty-three point four percent of the crude the US imported in twenty twenty-five.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "canada",
+      "mood": "happy",
+      "says": "63.4% is mine"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "thanks, neighbor"
+     }
+    ],
+    "caption": "Top source of US crude imports"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So why import at all? Many US refineries are built to run heavier crude, like Canada's.",
+   "say": "So why import at all? Many US refineries are built to run heavier crude, like Canada's.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "US sells light crude",
+     "US buys heavy crude",
+     "Refineries fit the mix"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there's the chokepoint. In 2024, about 20 million barrels a day moved through the Strait of Hormuz.",
+   "say": "Then there's the chokepoint. In twenty twenty-four, about twenty million barrels a day moved through the Strait of Hormuz.",
+   "scene": {
+    "t": "stat",
+    "label": "Oil through Hormuz, 2024",
+    "value": "20M b/d",
+    "tone": "neutral",
+    "sub": "about 20% of world use (EIA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's a narrow strip of water between Iran and the Arabian Peninsula, and it's the only sea route out of the Persian Gulf.",
+   "say": "It's a narrow strip of water between Iran and the Arabian Peninsula, and it's the only sea route out of the Persian Gulf.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Strait of Hormuz:",
+     "the Gulf's front door"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those 20 million barrels are about a fifth of all the oil the world uses. And 84% of the crude going through it was headed to Asia.",
+   "say": "Those twenty million barrels are about a fifth of all the oil the world uses, and eighty-four percent of the crude going through it was headed to Asia.",
+   "scene": {
+    "t": "stat",
+    "label": "Hormuz crude going to Asia, 2024",
+    "value": "84%",
+    "tone": "neutral",
+    "sub": "EIA chokepoint analysis"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So you'd think a blocked strait is mostly Asia's problem. It isn't.",
+   "say": "So you'd think a blocked strait would mostly be Asia's problem. It isn't.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "my tankers!"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "not my problem"
+     }
+    ],
+    "caption": "Or is it?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the key. If Japan loses a Gulf tanker, it bids for Texas oil instead. Everyone is shopping in the same store.",
+   "say": "Here's the key. If Japan loses a Gulf tanker, it bids for Texas oil instead. Everyone is shopping in the same store.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "OIL: $103",
+    "caption": "One store for the whole world"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when supply gets squeezed anywhere, the price rises everywhere, even in an oil exporter.",
+   "say": "So when supply gets squeezed anywhere, the price rises everywhere, even in an oil exporter.",
+   "scene": {
+    "t": "hook",
+    "title": "Squeezed anywhere, [pricier] everywhere",
+    "prop": "fire",
+    "label": "Hormuz",
+    "value": "1 price",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two. We've been here before.",
+   "say": "Chapter two. We've been here before.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "We've been here before"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In October 1973, Arab oil producers put an embargo on the United States.",
+   "say": "In October nineteen seventy-three, Arab oil producers put an embargo on the United States.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1973",
+      "Arab oil embargo"
+     ],
+     [
+      "2008",
+      "WTI hits $147.27 intraday"
+     ],
+     [
+      "2020",
+      "WTI goes negative"
+     ],
+     [
+      "2026",
+      "Hormuz shock"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oil roughly quadrupled, from $2.90 a barrel to $11.65 by January 1974.",
+   "say": "Oil roughly quadrupled, from two dollars ninety a barrel to eleven sixty-five by January nineteen seventy-four.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Before embargo, 1973",
+     "value": "$2.90"
+    },
+    "to": {
+     "label": "January 1974",
+     "value": "$11.65"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Americans waited in gas lines, and prices for almost everything climbed with it.",
+   "say": "Americans waited in long gas lines, and prices for almost everything climbed along with it.",
+   "scene": {
+    "t": "hook",
+    "title": "The [gas line] era",
+    "prop": "car",
+    "label": "1973-74",
+    "value": "x4",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In July 2008, US crude hit a record $147.27 a barrel, then crashed to around $32 by December as the financial crisis hit.",
+   "say": "In July two thousand eight, US crude hit a record of a hundred forty-seven dollars and twenty-seven cents a barrel, then crashed to around thirty-two dollars by December as the financial crisis hit.",
+   "scene": {
+    "t": "hook",
+    "title": "In July 2008, US crude hit a record $147.27 a ba",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That spike squeezed drivers and airlines, and the crash showed how fast demand can vanish.",
+   "say": "That spike squeezed drivers and airlines, and the crash that followed showed how fast demand can vanish.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "WTI intraday, July 11, 2008",
+     "value": "$147.27"
+    },
+    "to": {
+     "label": "WTI, Dec 2008",
+     "value": "~$32"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In April 2020, with the world locked down, one oil contract actually settled at minus $37.63. Sellers paid buyers to take it.",
+   "say": "In April twenty twenty, with the world locked down, one oil contract actually settled at minus thirty-seven dollars and sixty-three cents. Sellers paid buyers to take it.",
+   "scene": {
+    "t": "hook",
+    "title": "In April 2020, with the world locked down, one o",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Storage tanks were nearly full, so holding a contract meant taking oil nobody had room for.",
+   "say": "Storage tanks were nearly full, so holding that contract meant taking delivery of oil nobody had room for.",
+   "scene": {
+    "t": "stat",
+    "label": "WTI May contract, Apr 20, 2020",
+    "value": "-$37.63",
+    "tone": "down",
+    "sub": "first negative settle (CFTC)",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then gas rebounded hard. Here's the US yearly average for regular gas, 2020 to 2025.",
+   "say": "Then gas rebounded hard. Here's the US yearly average for a gallon of regular, from twenty twenty to twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "US regular gas, yearly avg",
+    "points": [
+     [
+      2020,
+      2.17
+     ],
+     [
+      2021,
+      3.01
+     ],
+     [
+      2022,
+      3.95
+     ],
+     [
+      2023,
+      3.52
+     ],
+     [
+      2024,
+      3.3
+     ],
+     [
+      2025,
+      3.1
+     ]
+    ],
+    "prefix": "$",
+    "end": "$3.10",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It went from $2.17 in 2020 to $3.95 in 2022, the peak year, after Russia invaded Ukraine.",
+   "say": "It went from two seventeen in twenty twenty to three ninety-five in twenty twenty-two, the peak year, after Russia invaded Ukraine.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 2022,
+     "text": "$3.95 avg in 2022"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2025 it had eased to $3.10. Late that year, gas even dipped under $3 for the first time since 2021.",
+   "say": "By twenty twenty-five it had eased to three ten, and late that year, gas even dipped under three dollars for the first time since twenty twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "US regular gas, 2025 average",
+    "value": "$3.10",
+    "tone": "up",
+    "sub": "dipped below $3 in Dec 2025 (EIA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And then came 2026.",
+   "say": "And then came twenty twenty-six.",
+   "scene": {
+    "t": "hook",
+    "title": "And then came 2026.",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three. Ripple one: the pump.",
+   "say": "Chapter three. Ripple one, the gas pump.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Ripple one: the pump"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On February 27, 2026, the day before the Iran war began, Brent was around $72 a barrel.",
+   "say": "On February twenty-seventh, twenty twenty-six, the day before the Iran war began, Brent was around seventy-two dollars a barrel.",
+   "scene": {
+    "t": "stat",
+    "label": "Brent, Feb 27, 2026",
+    "value": "$72",
+    "tone": "neutral",
+    "sub": "day before the war began (CNBC)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By March 31, it had peaked at $118.35, as shipping through the Strait of Hormuz was disrupted.",
+   "say": "By March thirty-first, it had peaked at a hundred eighteen dollars and thirty-five cents, as shipping through the Strait of Hormuz was disrupted.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Brent, Feb 27, 2026",
+     "value": "$72"
+    },
+    "to": {
+     "label": "Brent peak, Mar 31",
+     "value": "$118.35"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Physical cargoes went even higher: Dated Brent hit $144.42 on April 7, the highest since Platts began publishing it in 1987.",
+   "say": "Physical cargoes went even higher. Dated Brent hit a hundred forty-four forty-two on April seventh, the highest since Platts began publishing it in nineteen eighty-seven.",
+   "scene": {
+    "t": "news",
+    "headline": "Dated Brent hits $144.42, highest on record",
+    "source": "Bloomberg / Forbes, Apr. 7, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what's actually inside a gallon of gas? In 2025, crude oil was 51% of the price.",
+   "say": "So what's actually inside the price of a gallon of gas? In twenty twenty-five, crude oil was fifty-one percent of it.",
+   "scene": {
+    "t": "list",
+    "title": "A gallon of gas, 2025",
+    "items": [
+     "Crude oil: 51%",
+     "Distribution: 18%",
+     "Taxes: 17%",
+     "Refining: 14%"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Getting it to the station and selling it was 18%. Taxes were 17%. Refining was 14%.",
+   "say": "Getting it to the station and selling it was eighteen percent, taxes were seventeen, and refining was fourteen.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Taxes are mostly a fixed amount per gallon: 18.4 cents federal, plus about 33 cents from states on average.",
+   "say": "Taxes are mostly a fixed amount per gallon, eighteen point four cents federal, plus about thirty-three cents from states on average.",
+   "scene": {
+    "t": "stat",
+    "label": "Gas taxes per gallon, 2025",
+    "value": "~52¢",
+    "tone": "neutral",
+    "sub": "18.4¢ federal + ~33¢ state avg (EIA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when crude jumps, taxes don't, and crude's slice of the gallon gets even bigger.",
+   "say": "So when crude jumps, taxes don't jump with it, and crude's slice of the gallon gets even bigger.",
+   "scene": {
+    "t": "hook",
+    "title": "Crude's slice [grows]",
+    "prop": "chart-up",
+    "label": "crude share",
+    "value": "bigger"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Crude is the biggest piece, and it's the piece that moves the most. There's a simple rule for it.",
+   "say": "Crude is the biggest piece, and it's also the piece that moves the most. Luckily, there's a simple rule for it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1 per barrel",
+     "÷ 42 gallons",
+     "≈ 2.4¢ per gallon"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every $1 rise in a barrel adds about 2.4 cents to a gallon, because one dollar spread over 42 gallons is 2.4 cents.",
+   "say": "Every one-dollar rise in a barrel adds about two point four cents to a gallon, because one dollar spread over forty-two gallons is two point four cents.",
+   "scene": {
+    "t": "stat",
+    "label": "Crude cost per $1/barrel",
+    "value": "2.4¢",
+    "tone": "neutral",
+    "sub": "$1 ÷ 42 gallons (EIA)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brent went from about $72 on February 27 to about $103 on September 29. Call it $30 more.",
+   "say": "Brent went from about seventy-two dollars on February twenty-seventh to about a hundred and three on September twenty-ninth. Call it thirty dollars more.",
+   "scene": {
+    "t": "compare",
+    "title": "Brent per barrel, 2026",
+    "left": {
+     "label": "Feb 27",
+     "value": "$72",
+     "tone": "neutral",
+     "sub": "pre-war"
+    },
+    "right": {
+     "label": "Sept 29",
+     "value": "$102.59",
+     "tone": "down",
+     "sub": "settle"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Thirty times 2.4 cents is 72 cents a gallon, and that's just the crude, before refining, trucks and taxes.",
+   "say": "Thirty times two point four cents is seventy-two cents a gallon, and that's just the crude, before refining, trucking and taxes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$30 x 2.4¢ = 72¢",
+     "per gallon",
+     "crude cost alone"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what that looked like at the pump in 2026, month by month, from January to August.",
+   "say": "Here's what that looked like at the pump in twenty twenty-six, month by month, from January through August.",
+   "scene": {
+    "t": "chart",
+    "title": "US gas by month, 2026 (1=Jan)",
+    "points": [
+     [
+      1,
+      2.81
+     ],
+     [
+      2,
+      2.91
+     ],
+     [
+      3,
+      3.64
+     ],
+     [
+      4,
+      4.1
+     ],
+     [
+      5,
+      4.48
+     ],
+     [
+      6,
+      4.05
+     ],
+     [
+      7,
+      3.93
+     ],
+     [
+      8,
+      4.06
+     ]
+    ],
+    "prefix": "$",
+    "end": "$4.06",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From $2.81 in January to $4.48 in May. That was the third-highest monthly average on record, behind only June and July 2022.",
+   "say": "It went from two eighty-one in January to four forty-eight in May. That was the third-highest monthly average on record, behind only June and July of twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "note": {
+     "x": 5,
+     "text": "$4.48 in May!"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By September 24, AAA said the national average was the highest it has ever been for that time of year.",
+   "say": "By September twenty-fourth, triple A said the national average was the highest it has ever been for that time of year.",
+   "scene": {
+    "t": "news",
+    "headline": "Gas at $4.48, highest ever for the time of year",
+    "source": "AAA, Sept. 24, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now make it personal. Take a 15-gallon tank.",
+   "say": "Now let's make it personal. Take a fifteen-gallon tank.",
+   "scene": {
+    "t": "hook",
+    "title": "Fill up a [15-gallon] tank",
+    "prop": "car",
+    "label": "15 gal",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At $4.465 on September 28, 2026, that's $66.98. A year earlier, at about $3.12, it was $46.77.",
+   "say": "At four dollars and forty-six and a half cents on September twenty-eighth, twenty twenty-six, that's sixty-six ninety-eight. A year earlier, at about three twelve, it was forty-six seventy-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "One 15-gallon fill-up",
+    "left": {
+     "label": "Sept 2025",
+     "value": "$46.77",
+     "tone": "neutral",
+     "sub": "15 x $3.118"
+    },
+    "right": {
+     "label": "Sept 28, 2026",
+     "value": "$66.98",
+     "tone": "down",
+     "sub": "15 x $4.465"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $20.21 more per fill-up. Once a week for a year at that gap, it's about $1,050.",
+   "say": "That's twenty dollars and twenty-one cents more per fill-up. Once a week for a year at that same gap, it adds up to about one thousand fifty dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra per year, weekly fill-ups",
+    "value": "$1,050",
+    "tone": "down",
+    "sub": "$20.21 x 52 weeks, at the Sept 2026 gap",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's real money, for the exact same gallons you'd have bought anyway.",
+   "say": "That's real money, for the same gallons you'd have bought anyway.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "15 gal, Sept 2025",
+     "value": "$46.77"
+    },
+    "to": {
+     "label": "15 gal, Sept 28, 2026",
+     "value": "$66.98"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And gas is the ripple you see. The ones you don't see are bigger than you'd think.",
+   "say": "And gas is the ripple you can see. The ones you don't see are bigger than you'd think.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "there's more?"
+     }
+    ],
+    "caption": "The hidden ripples"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four. Ripple two: trucks and planes.",
+   "say": "Chapter four. Ripple two, trucks and planes.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Ripple two: trucks and planes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Almost everything you buy rode on a diesel truck at some point. In September 2026, diesel hit a record.",
+   "say": "Almost everything you buy rode on a diesel truck at some point, and in September twenty twenty-six, diesel hit a record.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "diesel: $6.53",
+    "caption": "Everything in here came by truck"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A record for diesel is a record for the cost of moving stuff.",
+   "say": "A record for diesel is a record for the cost of moving stuff.",
+   "scene": {
+    "t": "hook",
+    "title": "Moving stuff costs [more]",
+    "prop": "box",
+    "label": "Freight",
+    "value": "$6.53"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the week of September 21, 2026, US diesel averaged $6.529 a gallon, the highest in EIA records going back to 1994.",
+   "say": "In the week of September twenty-first, twenty twenty-six, US diesel averaged six dollars and fifty-three cents a gallon, the highest in E I A records going back to nineteen ninety-four.",
+   "scene": {
+    "t": "stat",
+    "label": "US diesel, week of Sept 21, 2026",
+    "value": "$6.529",
+    "tone": "down",
+    "sub": "record in EIA data since 1994"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A week later it was $6.382, still $2.63 more than a year earlier.",
+   "say": "A week later it was six thirty-eight, still two dollars and sixty-three cents more than a year earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "US diesel, per gallon",
+    "left": {
+     "label": "Sept 2025",
+     "value": "$3.75",
+     "tone": "neutral",
+     "sub": "a year earlier"
+    },
+    "right": {
+     "label": "Sept 28, 2026",
+     "value": "$6.38",
+     "tone": "down",
+     "sub": "+$2.63 (EIA)"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Diesel's close cousin is heating oil, and in the August 2026 inflation report, fuel oil prices were up 52% in a year.",
+   "say": "Diesel's close cousin is heating oil, and in the August twenty twenty-six inflation report, fuel oil prices were up fifty-two percent in a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Fuel oil prices, Aug 2026 vs year ago",
+    "value": "+52%",
+    "tone": "down",
+    "sub": "BLS CPI, released Sept 11, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trucking companies pass fuel costs along through surcharges, so a shipping bill can rise without the product changing at all.",
+   "say": "Trucking companies pass fuel costs along through fuel surcharges, so a shipping bill can rise without the product itself changing at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same box",
+     "Same distance",
+     "Bigger fuel surcharge"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why the price of the thing you order online can stay flat while delivery quietly costs more.",
+   "say": "That's why the price of the thing you order online can stay flat while the delivery quietly costs more.",
+   "scene": {
+    "t": "hook",
+    "title": "Same box, pricier [ride]",
+    "prop": "box",
+    "label": "Delivery",
+    "value": "+fuel"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Planes are even more exposed. In 2025, fuel was about a quarter of airline operating costs.",
+   "say": "Planes are even more exposed. In twenty twenty-five, fuel was about a quarter of an airline's operating costs.",
+   "scene": {
+    "t": "stat",
+    "label": "Fuel share of airline costs, 2025",
+    "value": "25.4%",
+    "tone": "neutral",
+    "sub": "IATA, June 2026 outlook"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when jet fuel jumps, fares follow. In August 2026, airline fares were up 23.4% from a year earlier.",
+   "say": "So when jet fuel jumps, fares follow. In August twenty twenty-six, airline fares were up twenty-three point four percent from a year earlier.",
+   "scene": {
+    "t": "hook",
+    "title": "Your [flight] felt it",
+    "prop": "tag",
+    "label": "Airfare",
+    "value": "+23.4%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare that with overall inflation that month: 3.4%. Energy as a whole was up 16.3%.",
+   "say": "Compare that with overall inflation that month, which was three point four percent. Energy as a whole was up sixteen point three.",
+   "scene": {
+    "t": "list",
+    "title": "Prices vs a year ago, Aug 2026",
+    "items": [
+     "Gasoline: +27.4%",
+     "Airfares: +23.4%",
+     "Energy: +16.3%",
+     "All items: +3.4%"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gasoline itself was up 27.4%. So oil wasn't the whole inflation story, but it was the loudest part.",
+   "say": "Gasoline itself was up twenty-seven point four percent. So oil wasn't the whole inflation story, but it was the loudest part of it.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Importers like Japan and Germany feel it more, because oil is priced in US dollars. A weaker yen or euro makes the same barrel cost extra.",
+   "say": "Oil importers like Japan and Germany feel it even more, because oil is priced in US dollars. When their own currency is weaker, the same barrel costs them extra.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "sad",
+      "says": "94% imported"
+     },
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "me too"
+     }
+    ],
+    "caption": "Priced in dollars"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five. Ripple three: plastics and food.",
+   "say": "Chapter five. Ripple three, plastics and food.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Ripple three: plastics, food"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A barrel doesn't just become gasoline. Refineries split it into lots of products.",
+   "say": "A barrel doesn't just become gasoline. Refineries split it into a whole bunch of products.",
+   "scene": {
+    "t": "hook",
+    "title": "What's in a [barrel]?",
+    "prop": "box",
+    "label": "42 gallons",
+    "value": "45 gal",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 42 gallons of crude, US refineries made about 19.6 gallons of gasoline, 12.5 of diesel and heating oil, and 4.4 of jet fuel.",
+   "say": "From forty-two gallons of crude, US refineries made about nineteen point six gallons of gasoline, twelve point five of diesel and heating oil, and four point four of jet fuel.",
+   "scene": {
+    "t": "list",
+    "title": "One barrel, 2023 (EIA)",
+    "items": [
+     "Gasoline: 19.6 gal",
+     "Diesel/heating: 12.5",
+     "Jet fuel: 4.4 gal",
+     "Plus the rest"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rest becomes asphalt, lubricants and plastic feedstocks. Processing makes it expand, so the total is about 45 gallons.",
+   "say": "The rest becomes things like asphalt, lubricants, and raw materials for plastics. Processing makes it expand, so the total comes out to about forty-five gallons.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plastic packaging is made from oil and gas. In Europe, polyethylene spot prices roughly doubled at the low end from late February to April 2026.",
+   "say": "Plastic packaging is made from oil and gas. In Europe, polyethylene spot prices roughly doubled at the low end from late February to April twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Europe PE spot (low end), Feb-Apr 2026",
+    "value": "~x2",
+    "tone": "down",
+    "sub": "ICIS, Apr 14, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Polyethylene is the most common plastic there is, the stuff of grocery bags, milk jugs and shrink wrap.",
+   "say": "Polyethylene is the most common plastic there is. It's the stuff of grocery bags, milk jugs and shrink wrap.",
+   "scene": {
+    "t": "hook",
+    "title": "Oil in your [shopping bag]",
+    "prop": "bag",
+    "label": "plastic",
+    "value": "+oil"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Packaging makers pass that cost on to brands, and brands pass it on to store shelves.",
+   "say": "Packaging makers pass that cost on to brands, and brands pass it on to store shelves.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Oil -> plastic",
+     "-> packaging -> brand",
+     "-> store shelf"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Food gets hit too, through fertilizer. Nitrogen fertilizer is made with natural gas, and much of it ships from the Gulf.",
+   "say": "Food gets hit too, through fertilizer. Nitrogen fertilizer is made with natural gas, and a lot of it ships out of the Gulf.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "my farms"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "mine too"
+     }
+    ],
+    "caption": "Fertilizer rides the same route"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Middle East is nearly a quarter of world urea exports. By April 2026, urea topped $850 a ton, up 80% since February.",
+   "say": "The Middle East makes nearly a quarter of the world's urea exports. By April twenty twenty-six, urea topped eight hundred fifty dollars a ton, up eighty percent since February.",
+   "scene": {
+    "t": "stat",
+    "label": "Urea fertilizer, April 2026",
+    "value": "$850+/t",
+    "tone": "down",
+    "sub": "up 80% since Feb (World Bank)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was the highest urea price since April 2022. Farmers buy it months before a harvest, so the cost shows up later.",
+   "say": "That was the highest urea price since April twenty twenty-two. Farmers buy it months before a harvest, so the cost shows up later.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "urea: $850+",
+    "caption": "Paid now, harvested later"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add diesel for tractors and trucks, plus plastic for packaging, and food has three oil ripples stacked up.",
+   "say": "Add diesel for tractors and trucks, plus plastic for packaging, and food ends up with three oil ripples stacked on top of each other.",
+   "scene": {
+    "t": "list",
+    "title": "Oil inside your groceries",
+    "items": [
+     "Fertilizer",
+     "Diesel",
+     "Packaging"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each step adds a little, and a little, stacked three times, adds up.",
+   "say": "Each step adds a little, and a little, stacked three times, starts to add up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Farm + truck + wrap",
+     "= oil on your receipt"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But here's the surprise. In August 2026, grocery prices were up just 2.2% from a year earlier.",
+   "say": "But here's the surprise. In August twenty twenty-six, grocery prices were up just two point two percent from a year earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "Price change vs year ago, Aug 2026",
+    "left": {
+     "label": "Gasoline",
+     "value": "+27.4%",
+     "tone": "down",
+     "sub": "fast ripple"
+    },
+    "right": {
+     "label": "Groceries",
+     "value": "+2.2%",
+     "tone": "up",
+     "sub": "food at home"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gas moves in days. Food moves slowly, because farm costs, contracts and competition all sit in between.",
+   "say": "Gas moves in days. Food moves slowly, because farm costs, contracts and competition all sit in between.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the real shape of an oil shock: fast at the pump, then a slower wave through everything else.",
+   "say": "That's the real shape of an oil shock. It's fast at the pump, and then it's a slower wave through everything else.",
+   "scene": {
+    "t": "split",
+    "title": "How the ripple travels",
+    "left": {
+     "title": "Fast",
+     "items": [
+      "Gasoline",
+      "Diesel",
+      "Airfares"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Slow",
+     "items": [
+      "Packaging",
+      "Fertilizer",
+      "Groceries"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And nobody can reliably say where oil goes next. It swings on wars, weather, and what one tanker does in one strait.",
+   "say": "And nobody can reliably say where oil goes next. It swings on wars, on weather, and on what one tanker does in one narrow strait.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nobody reliably",
+     "predicts oil"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What you can do is understand the chain, so the next price jump isn't a mystery.",
+   "say": "What you can do is understand the chain, so the next price jump isn't a mystery.",
+   "scene": {
+    "t": "hook",
+    "title": "Know the [chain]",
+    "prop": "tag",
+    "label": "Oil to you",
+    "value": "4 steps"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six. The recap.",
+   "say": "Chapter six. Let's recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oil has one world price. Even a net exporter like the US pays it.",
+   "say": "Oil has one world price, and even a net exporter like the US pays it.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "One world price",
+     "$1 a barrel = 2.4¢",
+     "Diesel, jets, plastic",
+     "Food moves slowest"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every $1 on a barrel is about 2.4 cents on a gallon. In 2026, that turned into gas above $4.",
+   "say": "Every dollar on a barrel is about two point four cents on a gallon, and in twenty twenty-six, that turned into gas above four dollars.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it spreads: record diesel, airfares up 23.4%, and pricier plastic and fertilizer.",
+   "say": "Then it spreads, with record diesel, airfares up twenty-three point four percent, and pricier plastic and fertilizer.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And food is the slowest ripple: up 2.2% in a year while gas was up 27.4%.",
+   "say": "And food is the slowest ripple, up two point two percent in a year while gas was up twenty-seven point four.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the next time a tanker makes the news, you'll know exactly how it finds its way to your receipt.",
+   "say": "So the next time a tanker makes the news, you'll know exactly how it finds its way onto your receipt.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy"
+     },
+     {
+      "name": "japan",
+      "mood": "happy"
+     },
+     {
+      "name": "canada",
+      "mood": "happy"
+     }
+    ],
+    "caption": "One barrel, one world"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not financial advice. Follow FinancePros TV for the world's money, explained simply.",
+   "say": "This is education, not financial advice. Follow FinancePros TV for the world's money, explained simply.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained simply."
+   }
+  }
+ ],
+ "post": {
+  "title": "America Sells Oil, So Why Did Gas Hit $4.47? How Oil Ripples Into Everything You Buy",
+  "ig": "America exports more oil than it imports. Gas still hit $4.47. Here's why.",
+  "tiktok": "The US is a net oil exporter, and gas still hit $4.47 in Sept 2026. One world price explains it.",
+  "yt_desc": "The US has exported more petroleum than it imports every year since 2020, yet regular gas averaged about $4.47 a gallon on September 28, 2026. This video follows one barrel of oil from the Strait of Hormuz to your receipt: why oil has one world price, the history from the 1973 embargo to 2026, the simple rule that every $1 on a barrel adds about 2.4 cents to a gallon, and how the shock spreads into record diesel, airfares up 23.4%, plastic packaging and fertilizer. With real math on a 15-gallon fill-up.\n\nCHAPTERS\n\nSources: EIA weekly gasoline and diesel prices (Sept 21-28, 2026); EIA monthly and annual retail gasoline prices (2020-2026); EIA, What we pay for in a gallon of gasoline (2025); EIA Strait of Hormuz analysis (2024 data); EIA US petroleum trade (2025); BLS Consumer Price Index, August 2026 (released Sept 11, 2026); AAA (Sept 2026); CNBC (Apr 21 and Sept 29, 2026); Bloomberg and Forbes (Apr 7, 2026); IATA Global Outlook for Air Transport (June 2026); World Bank (Apr 2026); ICIS (Apr 14, 2026); Canada Energy Regulator (2025); China customs data (2025); Argus/METI (2025); Federal Reserve History, Oil Shock of 1973-74; CFTC (Apr 2020).\n\nNews and education, not financial advice.\n\n#oilprices #gasprices #economy",
+  "tags": [
+   "oil prices",
+   "gas prices",
+   "Brent crude",
+   "Strait of Hormuz",
+   "diesel prices",
+   "inflation",
+   "world economy",
+   "airfare"
+  ]
+ }
+}
