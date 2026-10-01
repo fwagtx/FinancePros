@@ -1,0 +1,228 @@
+{
+  "series": "ticker",
+  "header": "Target-date funds\nhow autopilot works",
+  "cover": {
+    "title": "How the 401(k) Autopilot Works",
+    "prop": "coins",
+    "label": "401(k)",
+    "value": "2 in 3"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Nearly 2 in 3 dollars saved in Vanguard plans ride on autopilot.",
+      "say": "Nearly two in three dollars saved in Vanguard plans ride on autopilot.",
+      "scene": {
+        "t": "hook",
+        "title": "The 401(k) [autopilot]",
+        "prop": "coins",
+        "label": "401(k)",
+        "value": "2 in 3",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the target-date fund, per Vanguard's How America Saves 2026.",
+      "say": "That's the target-date fund, per Vanguard's How America Saves twenty twenty-six.",
+      "scene": {
+        "t": "stat",
+        "label": "Contributions into target-date funds",
+        "value": "2 in 3",
+        "tone": "neutral",
+        "sub": "Vanguard HAS 2026, 2025 data",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Why? 98% of Vanguard plans' default funds, called QDIAs, were target-date funds in 2025.",
+      "say": "Why? Ninety-eight percent of Vanguard plans' default funds, called Q D I As, were target-date funds in twenty twenty-five.",
+      "scene": {
+        "t": "stat",
+        "label": "Default funds that were target-date",
+        "value": "98%",
+        "tone": "neutral",
+        "sub": "QDIAs, Vanguard plans, 2025",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The year in the name is about when you'd retire, and the slow stock-to-bond shift is the glide path.",
+      "say": "The year in the name is about when you'd retire, and the slow stock-to-bond shift is the glide path.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Year in name = retire year",
+          "Stocks slowly become bonds",
+          "Schedule = glide path"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Vanguard's goes from about 90% stocks at 25 to 50% at 65, then 30% by 72.",
+      "say": "Vanguard's goes from about ninety percent stocks at twenty-five to fifty at sixty-five, then thirty by seventy-two.",
+      "scene": {
+        "t": "chart",
+        "title": "Vanguard glide path: % stocks by age",
+        "points": [
+          [
+            25,
+            90
+          ],
+          [
+            40,
+            90
+          ],
+          [
+            65,
+            50
+          ],
+          [
+            72,
+            30
+          ]
+        ],
+        "suffix": "%",
+        "end": "30%",
+        "color": "down"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Landing after the target date makes it a \"through\" fund.",
+      "say": "Landing after the target date makes it a \"through\" fund.",
+      "scene": {
+        "t": "chart",
+        "keep": true,
+        "title": "Vanguard glide path: % stocks by age",
+        "points": [
+          [
+            25,
+            90
+          ],
+          [
+            40,
+            90
+          ],
+          [
+            65,
+            50
+          ],
+          [
+            72,
+            30
+          ]
+        ],
+        "suffix": "%",
+        "end": "30%",
+        "color": "down",
+        "chart_note": {
+          "x": 72,
+          "text": "lands after target"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "FINRA: \"A 'to retirement' target-date fund will reach its most conservative asset allocation on the date of the fund's name.\"",
+      "say": "FINRA says a \"to retirement\" target-date fund will reach its most conservative asset allocation on the date of the fund's name.",
+      "scene": {
+        "t": "quote",
+        "text": "A \"to retirement\" target-date fund will reach its most conservative asset allocation on the date of the fund's name.",
+        "source": "FINRA, Save the Date: Target-Date Funds Explained"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Fees too: Morningstar's average target-date fee was 0.27% in 2025.",
+      "say": "Fees too: Morningstar's average target-date fee was zero point two seven percent in twenty twenty-five.",
+      "scene": {
+        "t": "chart",
+        "title": "Avg TDF mutual fund fee",
+        "points": [
+          [
+            2021,
+            0.34
+          ],
+          [
+            2022,
+            0.32
+          ],
+          [
+            2023,
+            0.3
+          ],
+          [
+            2024,
+            0.29
+          ],
+          [
+            2025,
+            0.27
+          ]
+        ],
+        "suffix": "%",
+        "end": "0.27%",
+        "color": "down",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "On a $10,000 example, that's $27 a year.",
+      "say": "On a ten thousand dollar example, that's twenty-seven dollars a year.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Example balance",
+          "value": "$10,000"
+        },
+        "to": {
+          "label": "Yearly fee at 0.27%",
+          "value": "$27"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Same year on the label, different ride inside.",
+      "say": "Same year on the label, different ride inside.",
+      "scene": {
+        "t": "list",
+        "title": "Same year, can differ on",
+        "items": [
+          "Glide path",
+          "To or through",
+          "Fees"
+        ],
+        "reveal": 3,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Nearly 2 in 3 dollars saved in Vanguard plans ride autopilot",
+    "ig": "Nearly 2 in 3 dollars saved in Vanguard plans ride on autopilot.\nThat autopilot is a target-date fund: nearly 2 of every 3 contributed dollars went into one in 2025, and 98% of default funds (QDIAs) were target-date funds.\nThe glide path shifts stocks to bonds. Vanguard's goes from about 90% stocks at 25 to 50% at 65 and 30% by 72.\nThe average target-date mutual fund fee was 0.27% in 2025 (Morningstar), or $27 a year on a $10,000 example balance.\nSources: Vanguard How America Saves 2026, Morningstar 2026 Target-Date Landscape, FINRA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#targetdatefunds #401k #retirement #personalfinance #financeprostv",
+    "tiktok": "Nearly 2 in 3 dollars saved in Vanguard plans ride on autopilot. Not financial advice. #moneytok #personalfinance #401k #retirement #financeprostv",
+    "yt_desc": "Nearly 2 in 3 dollars contributed to Vanguard plans in 2025 went into target-date funds, and 98% of default funds were target-date funds (Vanguard How America Saves 2026). Here's how the glide path works, what \"to\" versus \"through\" means (FINRA), and what the 0.27% average fee in 2025 (Morningstar) costs. News and education, not financial advice. #Shorts #401k #retirement",
+    "tags": [
+      "target date funds",
+      "glide path",
+      "401k default investment",
+      "qdia",
+      "retirement investing"
+    ]
+  }
+}
