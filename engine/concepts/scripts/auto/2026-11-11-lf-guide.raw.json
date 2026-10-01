@@ -1,0 +1,1642 @@
+{
+ "series": "ticker",
+ "header": "How to open and\nfund a Roth IRA",
+ "cover": {
+  "title": "Your Roth Isn't Invested?",
+  "prop": "pot",
+  "label": "ROTH IRA",
+  "value": "CASH"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Funding a Roth IRA doesn't invest a single dollar.",
+   "say": "Funding a Roth IRA doesn't invest a single dollar.",
+   "scene": {
+    "t": "hook",
+    "title": "Your Roth isn't [invested]",
+    "prop": "pot",
+    "label": "ROTH IRA",
+    "value": "CASH",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your deposit can just sit there in cash until you pick something. Most guides skip that step.",
+   "say": "Your deposit can just sit there in cash until you pick something, and most guides skip that step entirely.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deposit ≠ invested",
+     "Money waits in cash",
+     "until you choose"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And plenty of people never get that far. In mid-2025, about 28% of US households owned a Roth IRA.",
+   "say": "And plenty of people never even get that far. In mid twenty twenty-five, only about twenty-eight percent of US households owned a Roth IRA.",
+   "scene": {
+    "t": "stat",
+    "label": "US households with a Roth IRA, mid-2025",
+    "value": "27.8%",
+    "tone": "neutral",
+    "sub": "ICI, Role of IRAs in US Households, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And only 17% of all households put money into any IRA for 2024.",
+   "say": "And only seventeen percent of all households put money into any IRA for twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Households that contributed to an IRA, tax year 2024",
+    "value": "17%",
+    "tone": "down",
+    "sub": "Traditional or Roth (ICI)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the whole thing, in order: check you qualify, open the account, fund it, and invest it.",
+   "say": "So here's the whole thing, in order: check that you qualify, open the account, fund it, and actually invest it.",
+   "scene": {
+    "t": "list",
+    "title": "4 steps",
+    "items": [
+     "Check you qualify",
+     "Open the account",
+     "Fund it",
+     "Invest it"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every rule and limit here is for tax year 2026, with exact math, and the mistakes that cost people money.",
+   "say": "Every rule and limit here is for tax year twenty twenty-six, with the exact math, plus the mistakes that quietly cost people money.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2026 rules",
+     "exact math",
+     "common mistakes"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What a Roth IRA is.",
+   "say": "Chapter one: what a Roth IRA actually is.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What a Roth IRA is"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "IRA stands for individual retirement arrangement. It's an account with tax rules, not an investment by itself.",
+   "say": "I R A stands for individual retirement arrangement. It's an account with special tax rules, not an investment by itself.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "IRA = a container",
+     "with tax rules,",
+     "not an investment"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Think of it as a box. What you put inside the box is a separate choice.",
+   "say": "Think of it as a box. What you put inside the box is a completely separate choice.",
+   "scene": {
+    "t": "hook",
+    "title": "The account is a [box]",
+    "prop": "box",
+    "label": "ROTH IRA",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With a Roth, you pay tax now: contributions go in with money that's already been taxed. No deduction.",
+   "say": "With a Roth, you pay the tax now. Contributions go in with money that's already been taxed, and there's no deduction.",
+   "scene": {
+    "t": "split",
+    "title": "When you pay tax",
+    "left": {
+     "title": "Roth IRA",
+     "items": [
+      "Taxed now",
+      "No deduction",
+      "Tax-free later"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Traditional IRA",
+     "items": [
+      "Maybe deductible now",
+      "Taxed later"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The payoff comes later. Qualified withdrawals, growth included, come out tax-free.",
+   "say": "The payoff comes later. Qualified withdrawals, growth included, come out completely tax-free.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Pay tax",
+     "value": "now"
+    },
+    "to": {
+     "label": "Qualified withdrawals",
+     "value": "$0 tax"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Qualified means two things: you're at least 59½, and it's been 5 years since your first Roth contribution year.",
+   "say": "Qualified means two things: you're at least fifty-nine and a half, and it's been five years since the first year you contributed to a Roth.",
+   "scene": {
+    "t": "list",
+    "title": "Qualified withdrawal",
+    "items": [
+     "Age 59½ or older",
+     "5 years since first Roth year"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 5-year clock starts January 1 of the first year you contribute, so starting early starts the clock.",
+   "say": "That five-year clock starts on January first of the first year you contribute, so starting early also starts the clock.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Jan 1, 2026",
+      "what": "Clock starts"
+     },
+     {
+      "when": "Jan 1, 2031",
+      "what": "5 years done"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's also a flexible part: your own contributions can come back out any time, with no tax and no penalty.",
+   "say": "There's also a flexible part. Your own contributions can come back out any time, with no tax and no penalty.",
+   "scene": {
+    "t": "stat",
+    "label": "Tax on withdrawing your contributions",
+    "value": "$0",
+    "tone": "up",
+    "sub": "Any time, any age (IRS Pub. 590-B)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the earnings that have rules. Pull them early, and they can face income tax plus a 10% additional tax.",
+   "say": "It's the earnings that have rules. Pull those out early, and they can face income tax plus a ten percent additional tax.",
+   "scene": {
+    "t": "compare",
+    "title": "Early withdrawal",
+    "left": {
+     "label": "Contributions",
+     "value": "$0 tax",
+     "tone": "up",
+     "sub": "any time"
+    },
+    "right": {
+     "label": "Earnings",
+     "value": "tax +10%",
+     "tone": "down",
+     "sub": "before 59½ / 5 yrs"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Withdrawals count your contributions first, so your earnings are the last money out.",
+   "say": "Withdrawals count your contributions first, so your earnings are the last money to come out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Out first:",
+     "your contributions",
+     "Out last: earnings"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And there are no required withdrawals for the original owner. The money can keep growing as long as you live.",
+   "say": "And there are no required withdrawals for the original owner, so the money can keep growing for as long as you live.",
+   "scene": {
+    "t": "stat",
+    "label": "Required minimum distributions (owner)",
+    "value": "None",
+    "tone": "up",
+    "sub": "Roth IRA, IRS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Can you contribute?",
+   "say": "Chapter two: can you contribute?",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Can you contribute?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one is checking you qualify.",
+   "say": "Step one is checking that you qualify.",
+   "scene": {
+    "t": "list",
+    "title": "4 steps",
+    "items": [
+     "Check you qualify",
+     "Open the account",
+     "Fund it",
+     "Invest it"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rule one: you need earned income, like wages or self-employment income. Investment income doesn't count.",
+   "say": "Rule one: you need earned income, like wages or self-employment income. Investment income doesn't count.",
+   "scene": {
+    "t": "split",
+    "title": "Counts as earned income?",
+    "left": {
+     "title": "Yes",
+     "items": [
+      "Wages, tips",
+      "Self-employment"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No",
+     "items": [
+      "Interest",
+      "Dividends",
+      "Rental income"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can't put in more than you earned. Earn $4,000 in a year, and $4,000 is your cap.",
+   "say": "And you can't put in more than you earned. Earn four thousand dollars in a year, and four thousand is your cap.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Earned this year",
+     "value": "$4,000"
+    },
+    "to": {
+     "label": "Your max",
+     "value": "$4,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One exception: a working spouse can fund an IRA for a spouse with no income, if you file jointly.",
+   "say": "One exception: a working spouse can fund an IRA for a spouse with no income, as long as you file jointly.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Spousal IRA:",
+     "one income can fund",
+     "two IRAs (joint return)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rule two: the dollar limit. For 2026, it's $7,500.",
+   "say": "Rule two is the dollar limit. For twenty twenty-six, it's seventy-five hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "IRA contribution limit, 2026",
+    "value": "$7,500",
+    "tone": "up",
+    "sub": "IRS Notice 2025-67"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Age 50 or older? Add a $1,100 catch-up, for $8,600.",
+   "say": "If you're fifty or older, you can add an eleven hundred dollar catch-up, for eighty-six hundred total.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 IRA limit",
+    "left": {
+     "label": "Under 50",
+     "value": "$7,500",
+     "tone": "neutral",
+     "sub": "per year"
+    },
+    "right": {
+     "label": "50 and older",
+     "value": "$8,600",
+     "tone": "up",
+     "sub": "+$1,100 catch-up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That limit has crept up with inflation. It was $3,000 in 2002.",
+   "say": "That limit has crept up with inflation over the years. Back in two thousand two, it was three thousand dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "IRA contribution limit (IRS)",
+    "points": [
+     [
+      2002,
+      3000
+     ],
+     [
+      2003,
+      3000
+     ],
+     [
+      2004,
+      3000
+     ],
+     [
+      2005,
+      4000
+     ],
+     [
+      2006,
+      4000
+     ],
+     [
+      2007,
+      4000
+     ],
+     [
+      2008,
+      5000
+     ],
+     [
+      2009,
+      5000
+     ],
+     [
+      2010,
+      5000
+     ],
+     [
+      2011,
+      5000
+     ],
+     [
+      2012,
+      5000
+     ],
+     [
+      2013,
+      5500
+     ],
+     [
+      2014,
+      5500
+     ],
+     [
+      2015,
+      5500
+     ],
+     [
+      2016,
+      5500
+     ],
+     [
+      2017,
+      5500
+     ],
+     [
+      2018,
+      5500
+     ],
+     [
+      2019,
+      6000
+     ],
+     [
+      2020,
+      6000
+     ],
+     [
+      2021,
+      6000
+     ],
+     [
+      2022,
+      6000
+     ],
+     [
+      2023,
+      6500
+     ],
+     [
+      2024,
+      7000
+     ],
+     [
+      2025,
+      7000
+     ],
+     [
+      2026,
+      7500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$7,500",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The limit is 2.5 times what it was in 2002.",
+   "say": "Today's limit is two and a half times what it was in two thousand two.",
+   "scene": {
+    "t": "chart",
+    "title": "IRA contribution limit (IRS)",
+    "points": [
+     [
+      2002,
+      3000
+     ],
+     [
+      2003,
+      3000
+     ],
+     [
+      2004,
+      3000
+     ],
+     [
+      2005,
+      4000
+     ],
+     [
+      2006,
+      4000
+     ],
+     [
+      2007,
+      4000
+     ],
+     [
+      2008,
+      5000
+     ],
+     [
+      2009,
+      5000
+     ],
+     [
+      2010,
+      5000
+     ],
+     [
+      2011,
+      5000
+     ],
+     [
+      2012,
+      5000
+     ],
+     [
+      2013,
+      5500
+     ],
+     [
+      2014,
+      5500
+     ],
+     [
+      2015,
+      5500
+     ],
+     [
+      2016,
+      5500
+     ],
+     [
+      2017,
+      5500
+     ],
+     [
+      2018,
+      5500
+     ],
+     [
+      2019,
+      6000
+     ],
+     [
+      2020,
+      6000
+     ],
+     [
+      2021,
+      6000
+     ],
+     [
+      2022,
+      6000
+     ],
+     [
+      2023,
+      6500
+     ],
+     [
+      2024,
+      7000
+     ],
+     [
+      2025,
+      7000
+     ],
+     [
+      2026,
+      7500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$7,500",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "2.5x since 2002"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Important: the limit is shared. Traditional and Roth IRAs together can't go over $7,500.",
+   "say": "Here's the important part: the limit is shared. Your traditional and Roth IRAs together can't go over seventy-five hundred.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Traditional IRA",
+     "value": "$2,500"
+    },
+    "to": {
+     "label": "Roth room left",
+     "value": "$5,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your 401(k) at work has its own separate limit, so it doesn't use up your IRA room.",
+   "say": "Your four oh one K at work has its own separate limit, so it doesn't use up your IRA room.",
+   "scene": {
+    "t": "split",
+    "title": "Separate buckets",
+    "left": {
+     "title": "Workplace 401(k)",
+     "items": [
+      "Own limit"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "All your IRAs",
+     "items": [
+      "$7,500 total",
+      "in 2026"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rule three is income. Roth IRAs phase out for higher earners, based on modified adjusted gross income.",
+   "say": "Rule three is income. Roth IRAs phase out for higher earners, based on something called modified adjusted gross income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Roth income limit",
+     "uses MAGI:",
+     "modified AGI"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026, single filers phase out between $153,000 and $168,000.",
+   "say": "For twenty twenty-six, single filers phase out between a hundred fifty-three thousand and a hundred sixty-eight thousand dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 Roth phase-out (MAGI)",
+    "left": {
+     "label": "Single",
+     "value": "$153K",
+     "tone": "neutral",
+     "sub": "to $168K"
+    },
+    "right": {
+     "label": "Married, joint",
+     "value": "$242K",
+     "tone": "neutral",
+     "sub": "to $252K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Married couples filing jointly phase out between $242,000 and $252,000.",
+   "say": "Married couples filing jointly phase out between two hundred forty-two thousand and two hundred fifty-two thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 Roth phase-out (MAGI)",
+    "left": {
+     "label": "Single",
+     "value": "$153K",
+     "tone": "neutral",
+     "sub": "to $168K"
+    },
+    "right": {
+     "label": "Married, joint",
+     "value": "$242K",
+     "tone": "up",
+     "sub": "to $252K"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Below the range, you get the full amount. Above it, you can't contribute directly at all.",
+   "say": "Below the range, you get the full amount. Above it, you can't contribute directly at all.",
+   "scene": {
+    "t": "split",
+    "title": "Where's your MAGI?",
+    "left": {
+     "title": "Below range",
+     "items": [
+      "Full $7,500"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Above range",
+     "items": [
+      "No direct Roth"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inside the range, you get a partial amount. Let's do the math for a single filer earning $160,500.",
+   "say": "Inside the range, you get a partial amount. Let's do the math for a single filer with a MAGI of a hundred sixty thousand five hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: single filer, under 50",
+    "value": "$160,500",
+    "tone": "neutral",
+    "sub": "MAGI, inside the 2026 range"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They're $7,500 into a $15,000-wide range. That's halfway, so the limit is cut in half.",
+   "say": "They're seventy-five hundred dollars into a fifteen-thousand-dollar range. That's exactly halfway, so the limit gets cut in half.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "(160,500 - 153,000)",
+     "÷ 15,000 = 0.5",
+     "cut by 50%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Half of $7,500 is $3,750. That's their Roth limit for 2026.",
+   "say": "Half of seventy-five hundred is thirty-seven fifty. That's their Roth limit for twenty twenty-six.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Normal limit",
+     "value": "$7,500"
+    },
+    "to": {
+     "label": "Their limit",
+     "value": "$3,750"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS rounds the result up to the next $10, and if it's above zero, you can always put in at least $200.",
+   "say": "The I R S rounds the result up to the next ten dollars, and if it's above zero, you can always put in at least two hundred.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Round up to next $10",
+     "Minimum $200",
+     "if above $0"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over the limit? People use a backdoor Roth: a traditional IRA contribution, then a conversion.",
+   "say": "Over the limit? Some people use what's called a backdoor Roth: a traditional IRA contribution, then a conversion to Roth.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Step 1",
+      "what": "Nondeductible traditional IRA"
+     },
+     {
+      "when": "Step 2",
+      "what": "Convert to Roth"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Careful, though: if you hold other pre-tax IRA money, the pro-rata rule can make part of a conversion taxable.",
+   "say": "Careful, though. If you already hold other pre-tax IRA money, the pro-rata rule can make part of that conversion taxable.",
+   "scene": {
+    "t": "stat",
+    "label": "Backdoor Roth catch",
+    "value": "Pro-rata",
+    "tone": "down",
+    "sub": "Other pre-tax IRA money counts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Open the account.",
+   "say": "Chapter three: open the account.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Open the account"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two is opening it, which usually takes a few minutes online.",
+   "say": "Step two is opening it, which usually takes just a few minutes online.",
+   "scene": {
+    "t": "list",
+    "title": "4 steps",
+    "items": [
+     "Check you qualify",
+     "Open the account",
+     "Fund it",
+     "Invest it"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You open a Roth IRA with a provider. The common types are brokerages, robo-advisors, banks and credit unions.",
+   "say": "You open a Roth IRA with a provider. The common types are brokerages, robo-advisors, and banks or credit unions.",
+   "scene": {
+    "t": "list",
+    "title": "Where to open one",
+    "items": [
+     "Brokerage",
+     "Robo-advisor",
+     "Bank or credit union"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A brokerage lets you pick your own funds and stocks.",
+   "say": "A brokerage lets you pick your own funds and stocks.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "you choose",
+    "caption": "Brokerage: pick your own investments",
+    "name": "BROKERAGE"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A robo-advisor picks a mix for you based on a questionnaire, usually for an annual fee.",
+   "say": "A robo-advisor picks a mix for you based on a short questionnaire, usually for an annual fee.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "auto mix",
+    "caption": "Robo-advisor: invests for you, for a fee",
+    "name": "ROBO-ADVISOR"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A bank IRA often holds savings or CDs: steady, but with a narrower menu.",
+   "say": "A bank I R A often holds savings or C Ds, which is steady, but comes with a much narrower menu.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "CDs",
+    "caption": "Bank: savings and CDs",
+    "name": "BANK"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whichever you look at, compare the same things: fees, the investment menu, and any account minimums.",
+   "say": "Whichever type you look at, compare the same three things: fees, the investment menu, and any account minimums.",
+   "scene": {
+    "t": "list",
+    "title": "Compare providers on",
+    "items": [
+     "Fees",
+     "Investment menu",
+     "Account minimums"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fees matter because they come out every year, whether your investments go up or down.",
+   "say": "Fees matter because they come out every year, whether your investments go up or down.",
+   "scene": {
+    "t": "hook",
+    "title": "Fees hit every [year]",
+    "prop": "tag",
+    "label": "FEE",
+    "value": "%/yr",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To apply, have your Social Security number, ID, address, employer info and a bank account for transfers.",
+   "say": "To apply, have your Social Security number, an ID, your address, your employer's info, and a bank account for transfers.",
+   "scene": {
+    "t": "list",
+    "title": "Have these ready",
+    "items": [
+     "Social Security number",
+     "Photo ID",
+     "Employer info",
+     "Bank account"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Make sure you pick Roth IRA on the form, not traditional. It's one click, and it matters.",
+   "say": "Make sure you pick Roth I R A on the form, not traditional. It's one click, and it really matters.",
+   "scene": {
+    "t": "compare",
+    "title": "Choose the account type",
+    "left": {
+     "label": "Roth IRA",
+     "value": "✓",
+     "tone": "up",
+     "sub": "taxed now"
+    },
+    "right": {
+     "label": "Traditional",
+     "value": "✗",
+     "tone": "down",
+     "sub": "different rules"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then name a beneficiary, the person who inherits the account. It's easy to skip and painful to miss.",
+   "say": "Then name a beneficiary, the person who inherits the account. It's easy to skip, and painful to miss.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Name a beneficiary",
+     "(who inherits it)",
+     "Don't skip this"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Fund it.",
+   "say": "Chapter four: fund it.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Fund it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step three is getting money in.",
+   "say": "Step three is getting money in.",
+   "scene": {
+    "t": "list",
+    "title": "4 steps",
+    "items": [
+     "Check you qualify",
+     "Open the account",
+     "Fund it",
+     "Invest it"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Link your bank account, then make a one-time transfer, set up automatic deposits, or both.",
+   "say": "Link your bank account, then make a one-time transfer, set up automatic deposits, or do both.",
+   "scene": {
+    "t": "split",
+    "title": "Two ways to fund",
+    "left": {
+     "title": "Lump sum",
+     "items": [
+      "One transfer"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Automatic",
+     "items": [
+      "Monthly or per paycheck"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the math for maxing out 2026: $7,500 over 12 months is $625 a month.",
+   "say": "Here's the math for maxing out twenty twenty-six. Seventy-five hundred over twelve months is six hundred twenty-five dollars a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2026 limit",
+     "value": "$7,500"
+    },
+    "to": {
+     "label": "per month",
+     "value": "$625"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paid every two weeks? Over 26 paychecks, it's $288.46 each.",
+   "say": "If you're paid every two weeks, that's twenty-six paychecks, or about two hundred eighty-eight dollars each.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2026 limit",
+     "value": "$7,500"
+    },
+    "to": {
+     "label": "per paycheck (26)",
+     "value": "$288.46"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Or $144.23 a week. Any amount counts, though. You don't have to max it out.",
+   "say": "Or about a hundred forty-four dollars a week. Any amount counts, though. You don't have to max it out.",
+   "scene": {
+    "t": "list",
+    "title": "Maxing 2026",
+    "items": [
+     "$625 a month",
+     "$288.46 per paycheck",
+     "$144.23 a week"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the deadline. You can contribute for a tax year until that year's tax filing deadline.",
+   "say": "Now, the deadline. You can contribute for a tax year right up until that year's tax filing deadline.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deadline =",
+     "tax filing day,",
+     "no extensions"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So 2026 contributions are allowed until April 15, 2027. Extensions don't count.",
+   "say": "So contributions for twenty twenty-six are allowed until April fifteenth, twenty twenty-seven. Filing extensions don't count.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Jan 1, 2026",
+      "what": "2026 window opens"
+     },
+     {
+      "when": "Dec 31, 2026",
+      "what": "Year ends"
+     },
+     {
+      "when": "Apr 15, 2027",
+      "what": "Last day for 2026"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Between January and April, tell your provider which year a deposit is for. Otherwise it may count for the current year.",
+   "say": "Between January and April, tell your provider which year a deposit is for, or it may count toward the current year.",
+   "scene": {
+    "t": "compare",
+    "title": "Deposit in March 2027",
+    "left": {
+     "label": "Counts for",
+     "value": "2026",
+     "tone": "neutral",
+     "sub": "if you say so"
+    },
+    "right": {
+     "label": "Or for",
+     "value": "2027",
+     "tone": "neutral",
+     "sub": "default may apply"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2027 limits weren't announced yet when this was made. The IRS usually posts them in the fall, on IRS.gov.",
+   "say": "The twenty twenty-seven limits hadn't been announced when this was made. The I R S usually posts them in the fall, on I R S dot gov.",
+   "scene": {
+    "t": "stat",
+    "label": "Next year's limits",
+    "value": "IRS.gov",
+    "tone": "neutral",
+    "sub": "Usually posted Oct or Nov"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Invest it.",
+   "say": "Chapter five: invest it.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Invest it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step four is the one people miss.",
+   "say": "Step four is the one people miss.",
+   "scene": {
+    "t": "list",
+    "title": "4 steps",
+    "items": [
+     "Check you qualify",
+     "Open the account",
+     "Fund it",
+     "Invest it"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When money lands in your IRA, it usually sits in a cash or money market position first.",
+   "say": "When money lands in your I R A, it usually sits in a cash or money market position first.",
+   "scene": {
+    "t": "hook",
+    "title": "Money lands in [cash]",
+    "prop": "pot",
+    "label": "SETTLEMENT",
+    "value": "CASH",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It may earn a little interest, but it isn't in the investments you had in mind until you place an order.",
+   "say": "It may earn a little interest, but it isn't in the investments you had in mind until you actually place an order.",
+   "scene": {
+    "t": "split",
+    "title": "After you deposit",
+    "left": {
+     "title": "If you stop here",
+     "items": [
+      "Sits in cash"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "If you invest",
+     "items": [
+      "In your chosen funds"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Robo-advisors usually invest automatically. At a brokerage, you choose.",
+   "say": "Robo-advisors usually invest automatically. At a brokerage, you're the one who chooses.",
+   "scene": {
+    "t": "compare",
+    "title": "Who invests the cash?",
+    "left": {
+     "label": "Robo-advisor",
+     "value": "Auto",
+     "tone": "up",
+     "sub": "usually"
+    },
+    "right": {
+     "label": "Brokerage",
+     "value": "You",
+     "tone": "neutral",
+     "sub": "place an order"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Common choices include target-date funds, broad index funds, bond funds, and CDs.",
+   "say": "Common choices include target-date funds, broad index funds, bond funds, and C Ds.",
+   "scene": {
+    "t": "list",
+    "title": "Common choices",
+    "items": [
+     "Target-date funds",
+     "Broad index funds",
+     "Bond funds",
+     "CDs"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A target-date fund holds a mix that gets more conservative as its target year gets closer.",
+   "say": "A target-date fund holds a mix that gets more conservative as its target year gets closer.",
+   "scene": {
+    "t": "list",
+    "title": "Common choices",
+    "items": [
+     "Target-date funds",
+     "Broad index funds",
+     "Bond funds",
+     "CDs"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Broad index funds hold many companies at once, and many have low fees.",
+   "say": "Broad index funds hold lots of companies at once, and many of them have low fees.",
+   "scene": {
+    "t": "list",
+    "title": "Common choices",
+    "items": [
+     "Target-date funds",
+     "Broad index funds",
+     "Bond funds",
+     "CDs"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bonds and CDs swing less, and usually grow less over long periods. Every option is a trade-off between risk and growth.",
+   "say": "Bonds and C Ds swing less, and usually grow less over long periods. Every option trades risk against growth.",
+   "scene": {
+    "t": "list",
+    "title": "Common choices",
+    "items": [
+     "Target-date funds",
+     "Broad index funds",
+     "Bond funds",
+     "CDs"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before you pick, check each fund's expense ratio, the yearly fee as a percent of what you hold.",
+   "say": "Before you pick, check each fund's expense ratio, which is the yearly fee as a percent of what you hold.",
+   "scene": {
+    "t": "stat",
+    "label": "Expense ratio: $10,000 at 0.5%",
+    "value": "$50/yr",
+    "tone": "down",
+    "sub": "0.005 x $10,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why does investing matter so much here? Because the tax-free part is the growth.",
+   "say": "Why does investing matter so much here? Because the tax-free part is the growth.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tax-free =",
+     "the growth",
+     "No growth, no perk"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hypothetical, not a prediction: $7,500 a year for 30 years, at a steady 7% a year.",
+   "say": "Here's a hypothetical, not a prediction: seventy-five hundred a year for thirty years, at a steady seven percent a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Hypothetical: $7,500/yr, 30 yrs, 7%",
+    "value": "$708,456",
+    "tone": "up",
+    "sub": "Not a prediction; returns vary"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You'd put in $225,000. The other $483,456 would be growth, tax-free if withdrawals are qualified.",
+   "say": "You'd put in two hundred twenty-five thousand. The other four hundred eighty-three thousand would be growth, tax-free if your withdrawals are qualified.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical, 30 years at 7%",
+    "left": {
+     "label": "You put in",
+     "value": "$225K",
+     "tone": "neutral",
+     "sub": "$7,500 x 30"
+    },
+    "right": {
+     "label": "Growth",
+     "value": "$483K",
+     "tone": "up",
+     "sub": "tax-free if qualified"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real returns go up and down, and can be negative. The point is the tax rule, not the number.",
+   "say": "Real returns go up and down, and they can be negative. The point is the tax rule, not the number.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real returns vary,",
+     "even negative.",
+     "The rule is the point."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same $7,500 sitting in cash would grow far less, and the tax-free perk would have little to work with.",
+   "say": "That same seventy-five hundred sitting in cash would grow far less, and the tax-free perk would have very little to work with.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Invested",
+     "value": "growth"
+    },
+    "to": {
+     "label": "Left in cash",
+     "value": "little"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Mistakes that cost money.",
+   "say": "Chapter six: mistakes that cost money.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Mistakes that cost money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake one: putting in too much. Go over the limit, and the excess is taxed 6% for every year it stays.",
+   "say": "Mistake one is putting in too much. Go over the limit, and the excess is taxed six percent for every year it stays in.",
+   "scene": {
+    "t": "stat",
+    "label": "Tax on excess contributions",
+    "value": "6%/yr",
+    "tone": "down",
+    "sub": "IRS excise tax, each year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $1,000 too much, left in for 2 years, costs $120 in excise tax.",
+   "say": "For example, a thousand dollars too much, left in for two years, costs a hundred twenty dollars in excise tax.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Excess, 2 years",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Excise tax",
+     "value": "$120"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fix: take out the excess plus what it earned, by your tax filing deadline including extensions.",
+   "say": "The fix is to take out the excess, plus whatever it earned, by your tax filing deadline, including extensions.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fix: withdraw excess",
+     "+ its earnings",
+     "by your due date"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake two: forgetting that a raise can push you into the phase-out. Check your MAGI before you contribute.",
+   "say": "Mistake two is forgetting that a raise can push you into the phase-out. Check your MAGI before you contribute.",
+   "scene": {
+    "t": "hook",
+    "title": "A raise can cap your [Roth]",
+    "prop": "chart-up",
+    "label": "MAGI",
+    "value": "$153K+",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake three: depositing and never investing. Check that the cash actually got invested.",
+   "say": "Mistake three is depositing and never investing. Log in and check that the cash actually got invested.",
+   "scene": {
+    "t": "hook",
+    "title": "Still sitting in [cash]?",
+    "prop": "pot",
+    "label": "IRA",
+    "value": "CHECK",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake four: pulling out earnings early. Contributions are flexible. Earnings before 59½ and 5 years usually aren't.",
+   "say": "Mistake four is pulling out earnings early. Contributions are flexible, but earnings before fifty-nine and a half and five years usually aren't.",
+   "scene": {
+    "t": "compare",
+    "title": "Taking money out early",
+    "left": {
+     "label": "Contributions",
+     "value": "OK",
+     "tone": "up",
+     "sub": "no tax, no penalty"
+    },
+    "right": {
+     "label": "Earnings",
+     "value": "Costly",
+     "tone": "down",
+     "sub": "tax + 10%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A few exceptions exist, like up to $10,000 of earnings for a first home once the 5 years are met.",
+   "say": "A few exceptions do exist, like up to ten thousand dollars of earnings for a first home, once the five years are met.",
+   "scene": {
+    "t": "stat",
+    "label": "First-home exception (lifetime)",
+    "value": "$10,000",
+    "tone": "neutral",
+    "sub": "Earnings, after 5-year rule (IRS)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake five: missing the April deadline. A year you don't use is room you never get back.",
+   "say": "Mistake five is missing the April deadline. A year you don't use is room you never get back.",
+   "scene": {
+    "t": "stat",
+    "label": "Unused IRA room",
+    "value": "Gone",
+    "tone": "down",
+    "sub": "It doesn't carry over"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And mistake six: picking traditional by accident, or forgetting the beneficiary. Both take a minute to check.",
+   "say": "And mistake six is picking traditional by accident, or forgetting the beneficiary. Both take about a minute to check.",
+   "scene": {
+    "t": "list",
+    "title": "One-minute checks",
+    "items": [
+     "Account says Roth",
+     "Beneficiary named"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Recap: the one-screen checklist.",
+   "say": "Recap: the one-screen checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "Recap checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: you need earned income, and you can't put in more than you earned.",
+   "say": "One: you need earned income, and you can't put in more than you earned.",
+   "scene": {
+    "t": "list",
+    "title": "Roth IRA checklist",
+    "items": [
+     "Earned income",
+     "Under $7,500 (2026)",
+     "Check MAGI range",
+     "Invest the cash"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: stay under $7,500 for 2026 across all your IRAs, or $8,600 at 50 and older.",
+   "say": "Two: stay under seventy-five hundred for twenty twenty-six across all your IRAs, or eighty-six hundred at fifty and older.",
+   "scene": {
+    "t": "list",
+    "title": "Roth IRA checklist",
+    "items": [
+     "Earned income",
+     "Under $7,500 (2026)",
+     "Check MAGI range",
+     "Invest the cash"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: check your MAGI against $153,000 to $168,000 single, or $242,000 to $252,000 joint.",
+   "say": "Three: check your MAGI against a hundred fifty-three to a hundred sixty-eight thousand if you're single, or two forty-two to two fifty-two if you file jointly.",
+   "scene": {
+    "t": "list",
+    "title": "Roth IRA checklist",
+    "items": [
+     "Earned income",
+     "Under $7,500 (2026)",
+     "Check MAGI range",
+     "Invest the cash"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: after you deposit, actually invest it, and name a beneficiary.",
+   "say": "Four: after you deposit, actually invest it, and name a beneficiary.",
+   "scene": {
+    "t": "list",
+    "title": "Roth IRA checklist",
+    "items": [
+     "Earned income",
+     "Under $7,500 (2026)",
+     "Check MAGI range",
+     "Invest the cash"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for 2026, the last day to contribute is April 15, 2027.",
+   "say": "And for twenty twenty-six, the last day to contribute is April fifteenth, twenty twenty-seven.",
+   "scene": {
+    "t": "stat",
+    "label": "Last day for 2026 contributions",
+    "value": "Apr 15",
+    "tone": "neutral",
+    "sub": "2027 tax filing deadline"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A Roth IRA is a box with a great tax rule. Opening it is easy. Filling it, and investing what's inside, is the part that counts.",
+   "say": "A Roth IRA is a box with a great tax rule. Opening it is easy. Filling it, and investing what's inside, is the part that counts.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Open it.",
+     "Fund it.",
+     "Invest it."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How to open and fund a Roth IRA, step by step (2026 limits, income rules, mistakes)",
+  "ig": "Funding a Roth IRA doesn't invest a single dollar. The 4 steps, in order.",
+  "tiktok": "Funding a Roth IRA doesn't invest a single dollar. Here's every step, in order.",
+  "yt_desc": "A step-by-step guide to opening and funding a Roth IRA for tax year 2026: who qualifies (earned income, the $7,500 limit or $8,600 at 50+, and the $153,000-$168,000 single and $242,000-$252,000 joint income phase-outs), how to open an account, how to fund it by the April 15, 2027 deadline, and why your deposit isn't invested until you pick investments. It also walks through a partial-contribution example, the 6% excess-contribution tax, withdrawal rules, and a one-screen checklist.\n\nCHAPTERS\n\nSources: IRS Notice 2025-67 (2026 limits); IRS Publications 590-A and 590-B; IRS historical IRA limits; ICI, The Role of IRAs in US Households' Saving for Retirement, 2025 (2026).\n\nNews and education, not financial advice.\n\n#rothira #retirement #personalfinance",
+  "tags": [
+   "how to open a roth ira",
+   "roth ira for beginners",
+   "roth ira 2026",
+   "roth ira income limits",
+   "roth ira contribution limit",
+   "how to invest in a roth ira",
+   "personal finance"
+  ]
+ }
+}
