@@ -90,19 +90,18 @@ def threads_text(caption, limit=500):
 
 
 def tiktok_video(video, cover, hold=0.2):
-    """A copy of the short whose first frames are the cover. TikTok only takes a cover chosen from the video's own frames
-    (a custom image works only for Business accounts), so without this its grid shows the blank opening frame."""
+    """A copy of the short whose first frames show the cover. TikTok only takes a cover chosen from the video's own frames
+    (a custom image works only for Business accounts), so without this its grid shows the blank opening frame.
+    The cover is laid over the first `hold` seconds (the blank paper before the drawing starts); the audio is copied as is."""
     import subprocess
     out = video[:-4] + "-tiktok.mp4"
-    probe = lambda e: subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", f"stream={e}", "-of", "csv=p=0", video],
-                                     capture_output=True, text=True).stdout.strip()
-    w, h = probe("width,height").split(","); fps = probe("r_frame_rate") or "30"
-    ms = int(hold * 1000)
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-framerate", fps, "-t", str(hold), "-i", cover, "-i", video, "-filter_complex",
-                    f"[0:v]scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:white,setsar=1,format=yuv420p[c];"
-                    f"[1:v]setsar=1,format=yuv420p[v];[c][v]concat=n=2:v=1:a=0[vo];[1:a]adelay={ms}:all=1[ao]",
-                    "-map", "[vo]", "-map", "[ao]", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-c:a", "aac", "-b:a", "192k",
-                    "-movflags", "+faststart", out], check=True)
+    w, h = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", video],
+                          capture_output=True, text=True).stdout.strip().split(",")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", video, "-i", cover, "-filter_complex",
+                    f"[1:v]scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:white[c];"
+                    f"[0:v][c]overlay=0:0:enable='lt(t,{hold})'[vo]",
+                    "-map", "[vo]", "-map", "0:a", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
+                    "-c:a", "copy", "-movflags", "+faststart", out], check=True)
     return out
 
 
