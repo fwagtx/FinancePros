@@ -16,8 +16,8 @@ Rules that never change:
 - The attention grabber in the first 3 seconds must stop the scroll and earn the click, and the video must pay it off. No clickbait.
 - No emojis in scripts.
 
-Today is Wednesday, September 30, 2026. Show: Explainer (posts noon Central). One evergreen money idea explained so well people save it and share it.
-Topic: Why gold goes up when people get scared
+Today is Thursday, October 01, 2026. Show: Explainer (posts noon Central). One evergreen money idea explained so well people save it and share it.
+Topic: Bull vs bear markets, explained with acorns
 
 Research this topic. If there is a timely news angle this week, use it as the hook. Use web search to confirm every number, rule, limit and definition that can change, and give the source for each. Find at least one REAL data series that can be charted (with the actual values and the source), one worked example with exact math (show the calculation), and the one fact that surprises people. Finish with 'SOURCES:' and the list.
 
@@ -26,9 +26,9 @@ Use web search. Save the brief (facts, numbers with dates, a chartable data seri
 
 
 ## 2. Script
-Date: Wednesday, September 30, 2026. Show: Explainer (posts noon Central). One evergreen money idea explained so well people save it and share it.
-Topic: Why gold goes up when people get scared
-Series 'ticker': who 'ticker' on every line. 
+Date: Thursday, October 01, 2026. Show: Explainer (posts noon Central). One evergreen money idea explained so well people save it and share it.
+Topic: Bull vs bear markets, explained with acorns
+This is an Acorn Economics episode: series 'acorn', who 'nutty' on every line, use squirrel scenes plus charts/compare/lists. 
 Research brief (the ONLY facts you may use):
 (the brief you saved in step 1)
 
