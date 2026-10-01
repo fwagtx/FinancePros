@@ -1,0 +1,196 @@
+{
+ "id": "2026-11-10-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How grocers sell\nshelf space",
+ "cover": {
+  "title": "Brands Pay Grocers For Shelves",
+  "prop": "store",
+  "label": "FTC 2003",
+  "value": "$21,768"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Brands gave this grocer more than its profit.",
+   "say": "Brands gave this grocer more than its profit.",
+   "scene": {
+    "t": "hook",
+    "title": "Brands gave more than [profit]",
+    "prop": "store",
+    "label": "Ingles",
+    "value": "1.8x",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ingles Markets, fiscal 2025: $151.9 million in vendor allowances. Profit: $83.6 million.",
+   "say": "In fiscal twenty twenty-five, Ingles Markets booked about a hundred fifty-two million in vendor allowances. Profit? About eighty-four million.",
+   "scene": {
+    "t": "compare",
+    "title": "Ingles Markets, fiscal 2025",
+    "left": {
+     "label": "Vendor allowances",
+     "value": "$151.9M",
+     "tone": "up",
+     "sub": "from brands"
+    },
+    "right": {
+     "label": "Net income",
+     "value": "$83.6M",
+     "tone": "neutral",
+     "sub": "profit"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A mix of volume rebates, promo deals, ad money and slotting fees.",
+   "say": "A mix of volume rebates, promo deals, ad money and slotting fees.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Volume rebates",
+     "Promo + ad money",
+     "Slotting fees"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A slotting fee buys a new product its spot on the shelf.",
+   "say": "A slotting fee buys a new product its spot on the shelf.",
+   "scene": {
+    "t": "hook",
+    "title": "Rent for a [shelf]",
+    "prop": "box",
+    "label": "NEW",
+    "value": "$$$",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back in 2003, the FTC found averages up to $21,768 per item, per chain, per city.",
+   "say": "Back in two thousand three, the F T C found averages up to about twenty-two thousand dollars per item, per chain, per city.",
+   "scene": {
+    "t": "stat",
+    "label": "Slotting fee, per item, per chain, per city",
+    "value": "$21,768",
+    "tone": "down",
+    "sub": "Highest chain/city average, FTC report (2003)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At that top rate, 10 cities: $217,680 for one new item, at one chain.",
+   "say": "At that top rate, ten cities would be about two hundred eighteen thousand dollars for one item, at one chain.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "1 city",
+     "value": "$21,768"
+    },
+    "to": {
+     "label": "10 cities",
+     "value": "$217,680"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Grocers want it because profit is thin: $83.6 million in fiscal 2025, a year hit by Hurricane Helene.",
+   "say": "Grocers want it because profit is thin: about eighty-four million in fiscal twenty twenty-five, a year hit by Hurricane Helene.",
+   "scene": {
+    "t": "chart",
+    "title": "Ingles net income ($M, fiscal years)",
+    "points": [
+     [
+      2021,
+      249.7
+     ],
+     [
+      2022,
+      272.8
+     ],
+     [
+      2023,
+      210.8
+     ],
+     [
+      2024,
+      105.5
+     ],
+     [
+      2025,
+      83.6
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$83.6M",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 1.6 cents per dollar of sales.",
+   "say": "That's about one point six cents per dollar of sales.",
+   "scene": {
+    "t": "stat",
+    "label": "Ingles profit per $1 of sales, FY2025",
+    "value": "1.6¢",
+    "tone": "down",
+    "sub": "$83.6M / $5.33B (Ingles 10-K)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the shelf has two customers. You buy the food. Brands pay for the space.",
+   "say": "So the shelf has two customers. You buy the food. Brands pay for the space.",
+   "scene": {
+    "t": "split",
+    "title": "Who pays the grocer",
+    "left": {
+     "title": "You pay for",
+     "items": [
+      "Groceries"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Brands pay for",
+     "items": [
+      "Shelf space",
+      "Promotions",
+      "Ads",
+      "Volume deals"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Brands gave this grocer more than its profit",
+  "ig": "Brands gave this grocer more than its profit.\nIngles Markets, fiscal 2025: $151.9 million in vendor allowances (volume rebates, promo deals, ad money and slotting fees) versus $83.6 million in net income. Ingles doesn't disclose how much is slotting fees.\nSlotting fees pay for shelf space for new products. The FTC found average slotting fees of $2,313 to $21,768 per item, per retailer, per metro area, depending on retailer and city (2003 report).\nIngles' profit: about 1.6 cents per dollar of sales ($83.6M on $5.33B).\nSources: Ingles Markets 10-K (fiscal 2025), FTC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#grocery #business #howtheymakemoney #personalfinance #financeprostv",
+  "tiktok": "Brands gave this grocer more than its profit. How shelf space gets sold. Not financial advice. #moneytok #personalfinance #grocery #financeprostv",
+  "yt_desc": "In fiscal 2025, Ingles Markets recorded $151.9 million in vendor allowances (volume rebates, promo deals, ad money and slotting fees) versus $83.6 million in net income (Ingles 10-K). Back in 2003, the FTC found average slotting fees of $2,313 to $21,768 per item, per retailer, per metro area, depending on retailer and city. News and education, not financial advice. #Shorts #grocery #business",
+  "tags": [
+   "slotting fees",
+   "grocery store business model",
+   "how grocery stores make money",
+   "vendor allowances",
+   "ingles markets"
+  ]
+ }
+}
