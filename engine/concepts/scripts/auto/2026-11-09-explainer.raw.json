@@ -1,0 +1,218 @@
+{
+ "series": "acorn",
+ "header": "What happens in a\nstock market crash",
+ "cover": {
+  "title": "34% Gone in 33 Days",
+  "prop": "chart-down",
+  "label": "S&P 500",
+  "value": "-34%"
+ },
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "In 2020, stocks fell 34% in 33 days.",
+   "say": "In twenty twenty, stocks fell thirty-four percent in thirty-three days.",
+   "scene": {
+    "t": "hook",
+    "title": "[34%] gone in 33 days",
+    "prop": "chart-down",
+    "label": "S&P 500",
+    "value": "-34%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "So what actually happens? Squirrel brought acorns.",
+   "say": "So what actually happens? Squirrel brought acorns.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "think",
+    "caption": "a crash?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "In a crash, sellers pile up, buyers vanish, and prices drop until someone bites.",
+   "say": "In a crash, sellers pile up, buyers vanish, and prices drop until someone bites.",
+   "scene": {
+    "t": "split",
+    "title": "In a crash",
+    "left": {
+     "title": "Sellers",
+     "items": [
+      "Lots of them",
+      "Want out now"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Buyers",
+     "items": [
+      "Very few",
+      "Want lower prices"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "A 7% or 13% drop can pause US trading for 15 minutes. 20% ends the day.",
+   "say": "A seven or thirteen percent drop can pause US trading for fifteen minutes. Twenty percent ends the day.",
+   "scene": {
+    "t": "list",
+    "title": "Circuit breakers (S&P 500)",
+    "items": [
+     "7%: 15-minute pause",
+     "13%: 15-minute pause",
+     "20%: closed for day"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "That pause kicked in 4 times in March 2020.",
+   "say": "That pause kicked in four times in March twenty twenty.",
+   "scene": {
+    "t": "stat",
+    "label": "Market-wide halts, March 2020",
+    "value": "4",
+    "tone": "down",
+    "sub": "NYSE, SEC Investor.gov"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Borrowed acorns hurt more. Example: squirrel buys $10,000 of stock, $5,000 borrowed. A 34% drop leaves $6,600.",
+   "say": "Borrowed acorns hurt more. Say squirrel buys ten thousand dollars of stock, five thousand borrowed. A thirty-four percent drop leaves six thousand six hundred.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Stock bought (example)",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "After a 34% drop",
+     "value": "$6,600"
+    }
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Minus the loan, squirrel owns $1,600, about 24%. Under 25%, that's a margin call, and the broker can sell.",
+   "say": "Minus the loan, squirrel owns sixteen hundred dollars, about twenty-four percent. Under twenty-five percent, that's a margin call, and the broker can sell.",
+   "scene": {
+    "t": "stat",
+    "label": "Squirrel's share (example)",
+    "value": "24.2%",
+    "tone": "down",
+    "sub": "FINRA minimum: 25%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Then buyers returned. On August 18, 2020, it closed at a record again.",
+   "say": "Then buyers returned. On August eighteenth, twenty twenty, it closed at a record again.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 close, days after Feb 19, 2020",
+    "points": [
+     [
+      0,
+      3386.15
+     ],
+     [
+      26,
+      2386.13
+     ],
+     [
+      33,
+      2237.4
+     ],
+     [
+      41,
+      2584.59
+     ],
+     [
+      71,
+      2912.43
+     ],
+     [
+      181,
+      3389.78
+     ]
+    ],
+    "end": "record",
+    "color": "up"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "The catch: a 34% fall took a 51% climb just to get even.",
+   "say": "The catch: a thirty-four percent fall took a fifty-one percent climb just to get even.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "S&P 500 close, days after Feb 19, 2020",
+    "points": [
+     [
+      0,
+      3386.15
+     ],
+     [
+      26,
+      2386.13
+     ],
+     [
+      33,
+      2237.4
+     ],
+     [
+      41,
+      2584.59
+     ],
+     [
+      71,
+      2912.43
+     ],
+     [
+      181,
+      3389.78
+     ]
+    ],
+    "end": "record",
+    "color": "up",
+    "chart_note": {
+     "x": 33,
+     "text": "+51% to get back"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained stock market crashes. Squirrel would like one follow.",
+   "say": "Squirrel explained stock market crashes. Squirrel would like one follow.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "What happens in a stock market crash, explained with acorns",
+  "ig": "In 2020, stocks fell 34% in 33 days. Here's what happens in a crash.\nThe S&P 500 fell from 3,386.15 (Feb 19, 2020) to 2,237.40 (Mar 23, 2020), then closed at a record 3,389.78 on Aug 18, 2020. Getting back took a 51% climb.\nCircuit breakers: a 7% or 13% S&P 500 drop before 3:25 p.m. ET pauses US stock trading for 15 minutes; 20% closes it for the day. They triggered 4 times in March 2020.\nMargin example: $10,000 of stock with $5,000 borrowed drops 34% to $6,600, leaving $1,600 of equity (24.2%), under FINRA's 25% minimum, so a margin call.\nSources: NYSE; SEC Investor.gov; FINRA Rule 4210; NPR, CNN (Aug 18, 2020). Past recoveries don't predict future ones.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stockmarket #marketcrash #investing #acorneconomics #financeprostv",
+  "tiktok": "Stocks fell 34% in 33 days in 2020. A crash, explained with acorns. Not financial advice. #moneytok #personalfinance #stockmarket #financeprostv",
+  "yt_desc": "In 2020 the S&P 500 fell 34% in 33 days (Feb 19 to Mar 23), triggered market-wide circuit breakers 4 times in March, and closed at a record on Aug 18, 2020 after a 51% climb. Circuit breakers pause trading at 7% and 13% drops and close it at 20% (NYSE, SEC); FINRA's 25% maintenance minimum drives margin calls. Past recoveries don't predict future ones. News and education, not financial advice. #Shorts #stockmarket #investing",
+  "tags": [
+   "stock market crash",
+   "circuit breakers",
+   "margin call",
+   "acorn economics",
+   "S&P 500 2020"
+  ]
+ }
+}
