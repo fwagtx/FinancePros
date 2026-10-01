@@ -485,20 +485,12 @@
    "text": "Waiting from 62 to 70 adds $1,266.73 a month in this example, before any cost-of-living raises.",
    "say": "Waiting from sixty-two to seventy adds one thousand, two hundred sixty-six dollars and seventy-three cents a month in this example, before any cost of living raises.",
    "scene": {
-    "t": "compare",
-    "title": "Example: same record",
-    "left": {
-     "label": "Claim at 62",
-     "value": "$1,642",
-     "tone": "down",
-     "sub": "70% of benefit"
-    },
-    "right": {
-     "label": "Claim at 70",
-     "value": "$2,909",
-     "tone": "up",
-     "sub": "124% of benefit"
-    }
+    "t": "board",
+    "lines": [
+     "Example: claim at 70 vs 62",
+     "$2,908.79 - $1,642.06",
+     "= $1,266.73 more a month"
+    ]
    }
   },
   {
@@ -630,19 +622,14 @@
    "text": "She paid $24.75 in Social Security taxes. She lived to 100 and collected $22,888.92.",
    "say": "She paid twenty-four dollars and seventy-five cents in Social Security taxes. She lived to one hundred and collected twenty-two thousand, eight hundred eighty-eight dollars and ninety-two cents.",
    "scene": {
-    "t": "compare",
-    "title": "Ida May Fuller",
-    "left": {
-     "label": "Paid in",
-     "value": "$24.75",
-     "tone": "neutral",
-     "sub": "about 3 years"
+    "t": "money",
+    "from": {
+     "label": "Ida May Fuller paid in",
+     "value": "$24.75"
     },
-    "right": {
-     "label": "Collected",
-     "value": "$22,889",
-     "tone": "up",
-     "sub": "1940 to 1975"
+    "to": {
+     "label": "Collected, 1940-1975",
+     "value": "$22,888.92"
     }
    }
   },
@@ -651,9 +638,12 @@
    "text": "That only works because younger workers were paying in behind her.",
    "say": "That only works because younger workers were paying in behind her.",
    "scene": {
-    "t": "compare",
-    "keep": true,
-    "winner": "right",
+    "t": "board",
+    "lines": [
+     "Paid in: $24.75",
+     "Collected: $22,888.92",
+     "Funded by younger workers"
+    ],
     "mood": "think"
    }
   },
@@ -807,7 +797,7 @@
    "say": "Zoom out: here are the combined reserves at each year's end since twenty fifteen, in billions.",
    "scene": {
     "t": "chart",
-    "title": "Social Security trust fund reserves ($B, year-end)",
+    "title": "Trust fund reserves, year-end ($B)",
     "points": [
      [
       2015,
