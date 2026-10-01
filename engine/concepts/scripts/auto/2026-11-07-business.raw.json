@@ -1,8 +1,8 @@
 {
  "series": "ticker",
- "header": "Why parking lots\nare land bets",
+ "header": "Why parking can be\na land bet",
  "cover": {
-  "title": "Why Pay $53K Per Parking Spot?",
+  "title": "Why Pay $53K Per Parking Space?",
   "prop": "car",
   "label": "$53,571",
   "value": "~2%"
@@ -10,34 +10,34 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Why pay over $53,000 for one parking spot?",
-   "say": "Why pay over fifty-three thousand dollars for one parking spot?",
+   "text": "Why pay over $53,000 per parking space?",
+   "say": "Why pay over fifty-three thousand dollars per parking space?",
    "scene": {
     "t": "hook",
-    "title": "$53K for one [spot]?",
+    "title": "$53K per [space]?",
     "prop": "car",
     "label": "$53,571",
-    "value": "1 spot",
+    "value": "/space",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "In April 2026, Mobile Infrastructure sold a 308-space Honolulu garage for $16.5 million.",
-   "say": "In April twenty twenty-six, Mobile Infrastructure sold a three hundred eight space Honolulu garage for sixteen and a half million.",
+   "text": "In April 2026, Mobile Infrastructure announced it sold a 308-space Honolulu garage for $16.5 million. The buyer kept it for parking.",
+   "say": "In April twenty twenty-six, Mobile Infrastructure announced it sold a three hundred eight space Honolulu garage for sixteen point five million dollars. The buyer kept it for parking.",
    "scene": {
     "t": "news",
-    "headline": "308-space Honolulu garage sells for $16.5 million",
+    "headline": "308-space Honolulu garage sold for $16.5 million",
     "source": "Mobile Infrastructure release, Apr 24, 2026"
    }
   },
   {
    "who": "ticker",
-   "text": "The company says its sales priced at about a 2% cap rate on parking profit.",
-   "say": "The company says its sales priced at about a two percent cap rate on parking profit.",
+   "text": "In 2026, the company said its sales so far averaged about a 2% cap rate: $2 of yearly parking profit per $100 paid.",
+   "say": "In twenty twenty-six, the company said its sales so far averaged about a two percent cap rate: two dollars of yearly parking profit per hundred paid.",
    "scene": {
     "t": "stat",
-    "label": "Implied cap rate on its sales",
+    "label": "Avg. cap rate, its sales so far",
     "value": "~2%",
     "tone": "down",
     "sub": "Mobile Infrastructure, 2026",
@@ -46,24 +46,11 @@
   },
   {
    "who": "ticker",
-   "text": "That's $2 a year of parking profit per $100 paid.",
-   "say": "That's two dollars a year of parking profit per hundred dollars paid.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "2% cap rate =",
-     "$2 parking profit a year",
-     "per $100 of price"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So what are buyers buying? Development sites, corporate campuses and strategic land, the company says.",
-   "say": "So what are buyers buying? Development sites, corporate campuses and strategic land, the company says.",
+   "text": "It said buyers valued sites for development, campuses and strategic land.",
+   "say": "It said buyers valued sites for development, campuses and strategic land.",
    "scene": {
     "t": "list",
-    "title": "What buyers wanted",
+    "title": "Uses buyers valued (co. says)",
     "items": [
      "Development sites",
      "Corporate campuses",
@@ -74,24 +61,24 @@
   },
   {
    "who": "ticker",
-   "text": "Real estate calls this a \"taxpayer\": a cheap use that covers the tax while the land waits.",
-   "say": "Real estate calls this a taxpayer: a cheap use that covers the tax while the land waits.",
+   "text": "Real estate once called cheap placeholders \"taxpayers\": they cover the tax while the land waits.",
+   "say": "Real estate once called cheap placeholders taxpayers: they cover the tax while the land waits.",
    "scene": {
     "t": "board",
     "lines": [
-     "\"Taxpayer\" =",
-     "a cheap use that pays",
-     "the tax while land waits"
+     "Old slang: \"taxpayer\"",
+     "cheap placeholder that",
+     "pays tax while land waits"
     ]
    }
   },
   {
    "who": "ticker",
-   "text": "Example: $2M of land at a 2% tax rate costs $40,000 a year. Add a $20M building: $440,000.",
-   "say": "Example: two million dollars of land taxed at two percent costs forty thousand dollars a year. Add a twenty million dollar building, and it's four hundred forty thousand.",
+   "text": "Example, at a 2% tax on full value: $2M of land costs $40,000 a year. Add a $20M building: $440,000.",
+   "say": "Example: at a two percent tax on full value, two million dollars of land costs forty thousand a year. Add a twenty million dollar building: four hundred forty thousand.",
    "scene": {
     "t": "compare",
-    "title": "Example: 2% property tax",
+    "title": "Example: 2% tax, full value",
     "left": {
      "label": "Lot only",
      "value": "$40K",
@@ -108,8 +95,8 @@
   },
   {
    "who": "ticker",
-   "text": "Most US property taxes hit buildings too, so a lot is a cheap way to wait. And about 22% of big-metro downtown land is parking.",
-   "say": "Most US property taxes hit buildings too, so a lot is a cheap way to wait. And about twenty-two percent of big-metro downtown land is parking.",
+   "text": "Surface lots can play that role, since most US property taxes hit buildings too. On average, 22% of big-metro downtown land is parking.",
+   "say": "Surface lots can play that role, since most US property taxes hit buildings too. On average, twenty-two percent of big-metro downtown land is parking.",
    "scene": {
     "t": "stat",
     "label": "Big-metro downtown land used for parking",
@@ -129,9 +116,9 @@
  ],
  "post": {
   "title": "Why a Honolulu garage sold for $53,571 per space",
-  "ig": "Why pay over $53,000 for one parking spot?\nIn April 2026, Mobile Infrastructure sold a 308-space Honolulu garage for $16.5 million.\nThe company says its sales priced at about a 2% cap rate on parking profit; buyers wanted development sites and land.\nExample: $2M of land at a 2% tax costs $40,000 a year; add a $20M building and it's $440,000.\nSources: Mobile Infrastructure releases (Apr 2026), Parking Reform Network (2023), Lincoln Institute of Land Policy.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#realestate #parking #propertytax #howtheymakemoney #financeprostv",
-  "tiktok": "Why pay $53K for one parking spot? The land is the bet. Not financial advice. #moneytok #personalfinance #realestate #propertytax #financeprostv",
-  "yt_desc": "In April 2026, Mobile Infrastructure sold a 308-space Honolulu garage for $16.5 million, and the company says its sales priced at about a 2% cap rate on parking profit because buyers wanted the land. Here's why surface lots are often a cheap way to hold land, with a labeled property tax example and Parking Reform Network data (2023). News and education, not financial advice.\n#Shorts #realestate #propertytax",
+  "ig": "Why pay over $53,000 per parking space?\nIn April 2026, Mobile Infrastructure announced it sold a 308-space Honolulu garage for $16.5 million; the buyer kept it for parking.\nIn 2026, the company said its sales so far averaged about a 2% cap rate on parking profit, with buyers valuing sites for development, campuses and land.\nExample, at a 2% tax on full value: $2M of land costs $40,000 a year; add a $20M building and it's $440,000.\nSources: Mobile Infrastructure releases (Apr 2026), Parking Reform Network (2023), Lincoln Institute of Land Policy.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#realestate #parking #propertytax #howtheymakemoney #financeprostv",
+  "tiktok": "Why pay $53K per parking space? Parking can be a land bet. Not financial advice. #moneytok #personalfinance #realestate #propertytax #financeprostv",
+  "yt_desc": "In April 2026, Mobile Infrastructure announced it sold a 308-space Honolulu garage for $16.5 million, and in 2026 the company said its sales so far averaged about a 2% cap rate on parking profit. Here's why surface lots can be a cheap way to hold land, with a labeled property tax example and Parking Reform Network data (2023). News and education, not financial advice.\n#Shorts #realestate #propertytax",
   "tags": [
    "parking lots",
    "land banking",
