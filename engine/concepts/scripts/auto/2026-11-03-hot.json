@@ -1,0 +1,236 @@
+{
+ "id": "2026-11-03-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Scam alert:\nthe refund trick",
+ "cover": {
+  "title": "They Refunded You Too Much?",
+  "prop": "bill",
+  "label": "REFUND",
+  "value": "$4,950"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Refunded way too much? That's your own money.",
+   "say": "Refunded way too much? That's your own money.",
+   "scene": {
+    "t": "hook",
+    "title": "The [refund] is a trap",
+    "prop": "bill",
+    "label": "REFUND",
+    "value": "$4,950",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's how the scam works.",
+   "say": "Here's how the scam works.",
+   "scene": {
+    "t": "list",
+    "title": "The refund scam",
+    "items": [
+     "A fake support call",
+     "Remote access",
+     "The too-big refund",
+     "Pay it back"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A fake support agent offers you a $50 refund, then asks to connect to your computer.",
+   "say": "A fake support agent offers you a fifty dollar refund, then asks to connect to your computer.",
+   "scene": {
+    "t": "list",
+    "title": "The refund scam",
+    "items": [
+     "A fake support call",
+     "Remote access",
+     "The too-big refund",
+     "Pay it back"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You log into your bank. Suddenly, $5,000 shows up instead of $50.",
+   "say": "You log into your bank. Suddenly, five thousand dollars shows up instead of fifty.",
+   "scene": {
+    "t": "list",
+    "title": "The refund scam",
+    "items": [
+     "A fake support call",
+     "Remote access",
+     "The too-big refund",
+     "Pay it back"
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They fake panic and beg for the extra $4,950 back, often in gift cards.",
+   "say": "They fake panic and beg for the extra four thousand nine hundred fifty dollars back, often in gift cards.",
+   "scene": {
+    "t": "list",
+    "title": "The refund scam",
+    "items": [
+     "A fake support call",
+     "Remote access",
+     "The too-big refund",
+     "Pay it back"
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC says they just moved your own money, like savings to checking, or edited what's on your screen.",
+   "say": "The F T C says they just moved your own money, like savings to checking, or edited what's on your screen.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Your savings",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Your checking",
+     "value": "$5,000"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FBI data: tech support scam losses hit $2.1 billion in 2025.",
+   "say": "F B I data: tech support scam losses hit about two point one billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Tech support scam losses (FBI IC3)",
+    "points": [
+     [
+      2021,
+      0.347
+     ],
+     [
+      2022,
+      0.807
+     ],
+     [
+      2023,
+      0.925
+     ],
+     [
+      2024,
+      1.46
+     ],
+     [
+      2025,
+      2.1
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$2.1B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about six times the 2021 total.",
+   "say": "That's about six times the twenty twenty-one total.",
+   "scene": {
+    "t": "chart",
+    "title": "Tech support scam losses (FBI IC3)",
+    "points": [
+     [
+      2021,
+      0.347
+     ],
+     [
+      2022,
+      0.807
+     ],
+     [
+      2023,
+      0.925
+     ],
+     [
+      2024,
+      1.46
+     ],
+     [
+      2025,
+      2.1
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$2.1B",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "about 6x 2021"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A real company won't ask you to pay back a refund in gift cards.",
+   "say": "A real company won't ask you to pay back a refund in gift cards.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Refund + remote access",
+     "+ pay it back",
+     "= scam"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hang up, and report it at ReportFraud.ftc.gov.",
+   "say": "Hang up, and report it at report fraud dot F T C dot gov.",
+   "scene": {
+    "t": "stat",
+    "label": "Report it",
+    "value": "Hang up",
+    "tone": "neutral",
+    "sub": "ReportFraud.ftc.gov"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Refunded way too much? That's your own money.",
+  "ig": "Refunded $4,950 too much? That's your own money.\nThe scam: a fake support agent offers a $50 refund and asks for remote access to your computer.\nYour bank suddenly shows $5,000. They beg for $4,950 back, often in gift cards.\nPer the FTC, they just moved your own money (say, savings to checking) or faked the screen.\nTech support scam losses reported to the FBI hit $2.1B in 2025, about 6x 2021.\nSources: FTC consumer alerts; FBI IC3 Internet Crime Reports 2021-2025.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#scamalert #refundscam #techsupportscam #personalfinance #financeprostv",
+  "tiktok": "The 'we refunded you too much' scam, explained. Not financial advice. #moneytok #personalfinance #scamalert #refundscam #financeprostv",
+  "yt_desc": "In the refund scam, a fake support agent offers a small refund, gets remote access to your computer, makes it look like they sent you thousands too much, then demands the difference back, often in gift cards. The FTC says they either move your own money between your accounts or just edit what's on your screen. Tech support scam losses reported to the FBI hit $2.1 billion in 2025 (FBI IC3). News and education, not financial advice. #Shorts #scamalert #personalfinance",
+  "tags": [
+   "refund scam",
+   "tech support scam",
+   "scam alert",
+   "overpayment scam",
+   "personal finance"
+  ]
+ }
+}
