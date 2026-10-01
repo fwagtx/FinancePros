@@ -74,3 +74,66 @@ Checked Oct 1, 2026, for posting Nov 10, 2026. I used about 14 web searches. SEC
 L1 is true, specific, about 10 words and under 3 seconds. It is a solid hook. It could be stronger with the contrast in the same breath: "Apple keeps about 75 cents of every Services dollar, double what it keeps on its devices." Do not say "iPhone", because iPhone-only margin isn't public. Consider folding L7 and L8 into a single line so the housekeeping doesn't slow the cold open.
 
 VERDICT: FAIL
+
+## Round 2 (revised script: 102 lines, 1,782 spoken words; checked Oct 1, 2026)
+
+I used 2 more web searches. On-screen limits were checked with a python validator against the slot's task.md template rules.
+
+### Must-fixes from round 1
+1. **10-K framing: confirmed.**
+   - L71 now says an appeal could revive the government's tougher first proposals, "like barring Google's payments".
+   - L72 quotes "could materially adversely affect" for "those remedies".
+   - Both match the 10-K: "A reversal of the order on appeal could result in imposition of certain remedies initially proposed by the DOJ, such as those prohibiting Google from offering the Company commercial terms for search distribution. If implemented, these remedies could materially adversely affect the Company's ability to earn revenue from such licensing arrangements."
+   - The quote card text is word-for-word.
+2. **Remedies vs final judgment: confirmed.**
+   - L67 now reads "Sept 2025 remedies / Dec 2025 final judgment", and the list is retitled "Google remedies, 2025".
+   - The one-year term comes from the Dec 5, 2025 final judgment (CNBC, Dec 5, 2025).
+   - The timeline at L73–74 now reads "Final judgment (Dec)" and "Google appeals (Jan)". That is correct: Google filed its notice of appeal from the final judgment on Jan 16, 2026.
+3. **L25/L26: confirmed.** The script now says "about two-thirds of it from the iPhone" and the on-screen item is "About 2/3 from iPhone" ($209.6B / $307.0B = 68%).
+4. **Post title: confirmed.** It is now "...$104.7B Returned to Shareholders" (88 characters, within the 90 limit).
+5. **Supreme Court scope: confirmed.**
+   - L52: "agreed to hear Apple's appeal of a contempt ruling".
+   - L91: "reviewing the contempt ruling that limits Apple's fees on outside purchases".
+   - Both are accurate to a grant limited to the contempt question.
+6. **L8 and yt_desc: confirmed.** Both now say the video was made before the FY2026 results came out. That reads naturally and stays true on Nov 10 whenever Apple reports.
+
+### Should-fixes from round 1
+- **Ninth Circuit (L55–56): confirmed.**
+  - The Dec 11, 2025 decision upheld the contempt finding.
+  - It allowed a commission "based on the costs that are genuinely and reasonably necessary for its coordination of external links ... but no more".
+  - It sent the rate back to Judge Gonzalez Rogers, who has not yet set it (Courthouse News; MacObserver reports Apple proposed up to 15%).
+- **36% attribution (L64): confirmed.** "Google's own expert witness" is correct: Kevin Murphy, Nov 13, 2023. Bloomberg's Nov 13, 2023 story is correctly listed in the sources.
+- **Other round-1 items: confirmed.**
+  - L44–45: small business program, "up to $1 million in proceeds", now split from the subscriptions line.
+  - L75: "As of late September 2026" is accurate. Briefing in the D.C. Circuit was still underway in late August, with no argument date set. The DOJ and states cross-appealed Feb 3, 2026.
+  - L88: "at about a 75% margin".
+  - L11: "For most of three decades".
+  - L102: "If Apple makes more sense now".
+- **L6 (partly fixed, acceptable).** The list is now "Devices and services / App Store toll / Google's check / Where the cash goes". That covers all five spoken chapters within the 4-item limit.
+
+### New lines and splits
+- L51–58 (Epic sequence), L62–63 (Mehta) and L67–75 (Google) are accurate, in the right order and neutral. Each spoken line matches its on-screen line.
+- No new number errors. Every number from round 1 is unchanged and still correct.
+- **Optional:** L56 "The exact amount is still being set by the lower court" is true now. The judge could rule before Nov 10, so consider "As of late September 2026, the exact amount was still being set by the lower court."
+- **Nit:** L56's board repeats "Fee for real costs: OK" from L55. It is fine, but "Supreme Court: next" alone would change the picture.
+
+### On-screen limits: all met
+- Hook: title within 7 words with one bracketed word; value "75.4%" and "$20B" within 8 characters.
+- Board lines within 26 characters; compare values within 7 characters; stat values within 9 characters.
+- Lists have 2–4 items of up to 5 words; timeline events have up to 6 words.
+- News headlines within 10 words; the quote is 13 words, within 30; chapter titles within 6 words.
+- The chart has 7 points; the countries "says" is 14 characters, within 18.
+- First line is 9 words, under 12.
+- 102 lines and 1,782 words are within the 90–120 lines and 1,550–1,800 words required. There are 6 chapter lines including the recap, and the cta is the last line.
+- Cover title is 4 words and ends with a period.
+
+### Remaining non-blocking notes
+- The hook (L1) is true and specific. It would be optionally stronger as "...Services dollar, double what it keeps on its devices."
+- L7 and L8 could be merged to tighten the cold open.
+
+VERDICT: PASS
+
+## Round 3 (orchestrator)
+- L56 dated "As of late September 2026".
+
+VERDICT: PASS
