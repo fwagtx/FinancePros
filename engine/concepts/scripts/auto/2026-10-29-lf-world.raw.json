@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Saudi Arabia pumped 40% less oil than OPEC+ allowed.",
-   "say": "Saudi Arabia pumped forty percent less oil than OPEC plus allowed.",
+   "text": "August 2026: Saudi Arabia says it pumped 40% under its OPEC+ quota.",
+   "say": "Saudi Arabia says it pumped forty percent under its OPEC plus quota.",
    "scene": {
     "t": "hook",
     "title": "40% [under] its quota",
@@ -45,8 +45,20 @@
   },
   {
    "who": "ticker",
-   "text": "That was its lowest output since 1990, and no OPEC meeting ordered it.",
-   "say": "That was the kingdom's lowest output since nineteen ninety, and no OPEC meeting ordered it.",
+   "text": "Outside estimates used by OPEC put it at 7.276 million, still 30% short.",
+   "say": "Outside estimates used by OPEC put it at about seven point three million, still about thirty percent short.",
+   "scene": {
+    "t": "stat",
+    "label": "Outside estimate, Aug 2026",
+    "value": "7.276M",
+    "tone": "down",
+    "sub": "OPEC secondary sources"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By Saudi Arabia's own count, that was its lowest output since 1990, and no OPEC meeting ordered it.",
+   "say": "By its own count, that was the kingdom's lowest output since nineteen ninety, and no OPEC meeting ordered it.",
    "scene": {
     "t": "news",
     "headline": "Saudis tell OPEC output slumped to lowest since 1990",
@@ -55,13 +67,13 @@
   },
   {
    "who": "ticker",
-   "text": "The cause was war: after fighting with Iran began in late February 2026, tanker traffic through the Strait of Hormuz was badly disrupted.",
-   "say": "The cause was war. After fighting with Iran began in late February twenty twenty-six, tanker traffic through the Strait of Hormuz was badly disrupted.",
+   "text": "The cause was war. After US and Israeli strikes on Iran began in late February 2026, shipping through the Strait of Hormuz was badly disrupted, and later attacks hit Red Sea export routes too.",
+   "say": "The cause was war. After US and Israeli strikes on Iran began in late February twenty twenty-six, shipping through the Strait of Hormuz was badly disrupted, and later attacks hit Red Sea export routes too.",
    "scene": {
     "t": "board",
     "lines": [
-     "Strait of Hormuz",
-     "tanker traffic disrupted",
+     "Hormuz + Red Sea",
+     "routes disrupted",
      "from March 2026"
     ],
     "mood": "think"
@@ -70,7 +82,7 @@
   {
    "who": "ticker",
    "text": "So if OPEC's biggest producer can't hit its own number, who actually controls the price of oil?",
-   "say": "So if OPEC's biggest producer can't even hit its own number, who actually controls the price of oil?",
+   "say": "So if OPEC's biggest producer can't hit its own number, who controls the price of oil?",
    "scene": {
     "t": "countries",
     "cast": [
@@ -92,8 +104,8 @@
   },
   {
    "who": "ticker",
-   "text": "The answer is messier than a cartel in Vienna, and it says a lot about what you pay to fill up.",
-   "say": "The answer is messier than a cartel in Vienna, and it says a lot about what you pay to fill up.",
+   "text": "The answer is messier than a cartel in Vienna.",
+   "say": "The answer is messier than a cartel in Vienna.",
    "scene": {
     "t": "board",
     "lines": [
@@ -106,7 +118,7 @@
   {
    "who": "ticker",
    "text": "We'll cover how OPEC started, how quotas work, the big shocks and price wars, and who really sets the price.",
-   "say": "We'll cover how OPEC started, how its quotas work, the big shocks and price wars, and who really sets the price.",
+   "say": "We'll cover how OPEC started, how quotas work, the shocks and price wars, and who really sets the price.",
    "scene": {
     "t": "list",
     "title": "The map",
@@ -198,8 +210,8 @@
   },
   {
    "who": "ticker",
-   "text": "As of October 2026, OPEC has 11 members. The United Arab Emirates left on May 1, 2026.",
-   "say": "As of October twenty twenty-six, OPEC has eleven members. The United Arab Emirates left on May first, twenty twenty-six.",
+   "text": "As of October 2026, OPEC has 11 members. The United Arab Emirates left OPEC and OPEC+ on May 1, 2026.",
+   "say": "As of October twenty twenty-six, OPEC has eleven members. The United Arab Emirates left OPEC and OPEC plus on May first, twenty twenty-six.",
    "scene": {
     "t": "stat",
     "label": "OPEC members, Oct. 2026",
@@ -210,14 +222,14 @@
   },
   {
    "who": "ticker",
-   "text": "The UAE had been OPEC's third-biggest producer, after Saudi Arabia and Iraq, at 3.4 million barrels a day in 2025.",
-   "say": "The UAE had been OPEC's third-biggest producer, after Saudi Arabia and Iraq, at about three point four million barrels a day in twenty twenty-five.",
+   "text": "The UAE had OPEC's third-largest production capacity, after Saudi Arabia and Iraq, and pumped about 3.4 million barrels a day in 2025.",
+   "say": "The UAE had OPEC's third-largest production capacity, after Saudi Arabia and Iraq, and pumped about three point four million barrels a day in twenty twenty-five.",
    "scene": {
     "t": "stat",
     "label": "UAE crude output, 2025",
     "value": "3.4M b/d",
     "tone": "down",
-    "sub": "No. 3 in OPEC (EIA)"
+    "sub": "No. 3 capacity in OPEC (EIA)"
    }
   },
   {
@@ -226,7 +238,7 @@
    "say": "The E I A estimates OPEC produced thirty-five percent of the world's crude oil in twenty twenty-five. Without the UAE, that share would have been thirty-one percent.",
    "scene": {
     "t": "compare",
-    "title": "OPEC share of world crude, 2025",
+    "title": "OPEC share of crude, 2025",
     "left": {
      "label": "With UAE",
      "value": "35%",
@@ -256,7 +268,7 @@
   {
    "who": "ticker",
    "text": "OPEC+ began on December 10, 2016, when 13 OPEC members and 11 other producers led by Russia signed a Declaration of Cooperation.",
-   "say": "OPEC plus began on December tenth, twenty sixteen, when thirteen OPEC members and eleven other producers led by Russia signed what they called a Declaration of Cooperation.",
+   "say": "OPEC plus began on December tenth, twenty sixteen, when thirteen OPEC members and eleven other producers led by Russia signed a Declaration of Cooperation.",
    "scene": {
     "t": "stat",
     "label": "Declaration of Cooperation",
@@ -271,7 +283,7 @@
    "say": "In twenty twenty-five, OPEC plus made about forty-six percent of the world's crude. Without the UAE, it would have been about forty-two percent.",
    "scene": {
     "t": "compare",
-    "title": "OPEC+ share of world crude, 2025",
+    "title": "OPEC+ share of crude, 2025",
     "left": {
      "label": "With UAE",
      "value": "46%",
@@ -289,7 +301,7 @@
   {
    "who": "ticker",
    "text": "That's a big slice, but more than half the world's crude comes from outside the club, including the US and Canada.",
-   "say": "That's a big slice, but it also means more than half of the world's crude comes from outside the club, including the US and Canada.",
+   "say": "That's a big slice, but more than half of the world's crude comes from outside the club, including the US and Canada.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -320,7 +332,7 @@
   {
    "who": "ticker",
    "text": "OPEC+ doesn't set a price. It sets production targets: how many barrels each country is supposed to pump per day.",
-   "say": "First surprise. OPEC plus doesn't set a price. It sets production targets: how many barrels each country is supposed to pump per day.",
+   "say": "OPEC plus doesn't set a price. It sets production targets: how many barrels each country is supposed to pump per day.",
    "scene": {
     "t": "board",
     "lines": [
@@ -361,8 +373,8 @@
   },
   {
    "who": "ticker",
-   "text": "Afterward, outside firms called secondary sources estimate how much each member really pumped.",
-   "say": "Afterward, outside firms called secondary sources estimate how much each member really pumped, so nobody grades their own homework.",
+   "text": "Afterward, outside sources like energy agencies and price reporters estimate how much each member really pumped.",
+   "say": "Afterward, outside sources, like energy agencies and price reporters, estimate how much each member really pumped.",
    "scene": {
     "t": "list",
     "title": "How a target is set",
@@ -378,13 +390,13 @@
   },
   {
    "who": "ticker",
-   "text": "These meetings happen often, so targets can change month to month. Every number in this video has a date on it.",
-   "say": "These meetings happen often, so targets can change from month to month. That's why every number in this video comes with a date.",
+   "text": "Targets can change from month to month, so every number in this video comes with a date.",
+   "say": "Targets can change from month to month, so every number in this video comes with a date.",
    "scene": {
     "t": "board",
     "lines": [
      "Targets change often.",
-     "Check the date."
+     "Every figure is dated."
     ]
    }
   },
@@ -466,7 +478,7 @@
   {
    "who": "ticker",
    "text": "Then they reversed course. The 2.2 million cut was unwound from April to September 2025.",
-   "say": "Then they reversed course. The two point two million cut was unwound, step by step, from April to September twenty twenty-five.",
+   "say": "Then they reversed course. The two point two million cut was unwound from April to September twenty twenty-five.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -634,8 +646,8 @@
   },
   {
    "who": "ticker",
-   "text": "4.178 divided by 10.416 is 40.1%. That's where the 40% comes from.",
-   "say": "Divide four point one seven eight by ten point four one six, and you get forty point one percent. That's where our forty percent comes from.",
+   "text": "4.178 divided by 10.416 is 40.1%. That's our 40%, using Saudi Arabia's own figure.",
+   "say": "Divide four point one seven eight by ten point four one six, and you get forty point one percent. That's our forty percent, using Saudi Arabia's own figure.",
    "scene": {
     "t": "board",
     "lines": [
@@ -692,7 +704,7 @@
   {
    "who": "ticker",
    "text": "A detail people miss: it was the Arab producers, organized as OAPEC, not every OPEC country.",
-   "say": "And here's a detail people often miss. It was the Arab producers, organized as a group called O A P E C, not every OPEC country.",
+   "say": "A detail people miss: it was the Arab producers, organized as a group called O A P E C, not every OPEC country.",
    "scene": {
     "t": "board",
     "lines": [
@@ -762,7 +774,7 @@
    "say": "About a decade later, in March nineteen eighty-three, OPEC adopted a formal quota system, with a group ceiling of seventeen point five million barrels a day.",
    "scene": {
     "t": "stat",
-    "label": "OPEC's formal ceiling, March 1983",
+    "label": "OPEC ceiling, March 1983",
     "value": "17.5M b/d",
     "tone": "neutral",
     "sub": "first formal quota system"
@@ -805,14 +817,14 @@
   },
   {
    "who": "ticker",
-   "text": "Its output fell from more than 10 million barrels a day in 1980 to about 2.4 million by August 1985.",
-   "say": "Its output fell from more than ten million barrels a day in nineteen eighty to about two point four million by August nineteen eighty-five.",
+   "text": "Its output fell from about 10 million barrels a day in 1980 to about 2.4 million by August 1985.",
+   "say": "Its output fell from about ten million barrels a day in nineteen eighty to about two point four million by August nineteen eighty-five.",
    "scene": {
     "t": "compare",
     "title": "Saudi crude output",
     "left": {
      "label": "1980",
-     "value": ">10M",
+     "value": "~10M",
      "tone": "up",
      "sub": "barrels a day"
     },
@@ -1082,8 +1094,8 @@
   },
   {
    "who": "ticker",
-   "text": "Brent fell from about $115 in June 2014 to as low as about $27 in January 2016.",
-   "say": "Brent fell from about a hundred fifteen dollars in June twenty fourteen to as low as about twenty-seven dollars in January twenty sixteen.",
+   "text": "Brent futures fell from about $115 in June 2014 to as low as about $27 in January 2016.",
+   "say": "Brent futures fell from about a hundred fifteen dollars in June twenty fourteen to as low as about twenty-seven dollars in January twenty sixteen.",
    "scene": {
     "t": "money",
     "from": {
@@ -1186,7 +1198,7 @@
    "say": "For a moment, sellers were paying buyers to take oil off their hands, because storage was filling up.",
    "scene": {
     "t": "stat",
-    "label": "WTI May futures, Apr. 20, 2020",
+    "label": "WTI May futures, 4/20/2020",
     "value": "-$37.63",
     "tone": "down",
     "sub": "first negative ever (CFTC)",
@@ -1219,7 +1231,7 @@
   {
    "who": "ticker",
    "text": "Oil's price comes from trading on futures exchanges, where buyers and sellers agree on a price for oil delivered later.",
-   "say": "Oil's price comes from trading on futures exchanges, where buyers and sellers agree today on a price for oil delivered later.",
+   "say": "Oil's price comes from futures trading, where buyers and sellers agree today on a price for oil delivered later.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1230,8 +1242,8 @@
   },
   {
    "who": "ticker",
-   "text": "Two benchmarks dominate. Brent is a North Sea blend traded on ICE in London.",
-   "say": "Two benchmarks dominate. Brent is a North Sea blend, traded on ICE in London.",
+   "text": "Two benchmarks dominate. Brent, built mostly on North Sea crudes, trades on ICE in London.",
+   "say": "Two benchmarks dominate. Brent, a benchmark built mostly on North Sea crudes, trades on ICE in London.",
    "scene": {
     "t": "compare",
     "title": "The two big benchmarks",
@@ -1287,7 +1299,7 @@
   {
    "who": "ticker",
    "text": "Even big producers like Saudi Arabia usually sell cargoes at a premium or discount to benchmark prices.",
-   "say": "Even big producers like Saudi Arabia usually sell their cargoes at a premium or a discount to those benchmark prices.",
+   "say": "Even Saudi Arabia usually sells its cargoes at a premium or a discount to those benchmarks.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1377,7 +1389,7 @@
    "say": "In August twenty twenty-six, the I E A counted more than ten million barrels a day of Gulf output shut in.",
    "scene": {
     "t": "stat",
-    "label": "Gulf output shut in, Aug 2026",
+    "label": "Gulf shut-ins, Aug 2026",
     "value": ">10M b/d",
     "tone": "down",
     "sub": "IEA OMR, Sept 2026",
@@ -1387,7 +1399,7 @@
   {
    "who": "ticker",
    "text": "World oil production that month was 100.1 million barrels a day, according to the IEA.",
-   "say": "That's out of about one hundred million barrels a day of world oil production that month, according to the I E A.",
+   "say": "That's out of one hundred point one million barrels a day of world oil production that month, according to the I E A.",
    "scene": {
     "t": "stat",
     "label": "World oil output, Aug 2026",
@@ -1432,7 +1444,7 @@
    "say": "The E I A says that was about forty percent more than either Russia or Saudi Arabia, and the US has been number one every year since twenty eighteen.",
    "scene": {
     "t": "stat",
-    "label": "US crude vs Russia, Saudi, 2025",
+    "label": "US vs Russia/Saudi, 2025",
     "value": "~40%",
     "tone": "up",
     "sub": "more crude (EIA)"
@@ -1480,7 +1492,7 @@
   {
    "who": "ticker",
    "text": "Refining, taxes and delivery sit on top, so pump prices don't move one for one with crude.",
-   "say": "Refining, taxes, and delivery sit on top of that, so pump prices don't move one for one with crude.",
+   "say": "Refining, taxes, and delivery sit on top, so pump prices don't move one for one with crude.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1569,8 +1581,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's how Saudi Arabia ended up 40% under its own target in August 2026. No vote did that. The war's hit to shipping did.",
-   "say": "That's how Saudi Arabia ended up forty percent under its own target in August twenty twenty-six. No vote did that. The war's hit to shipping did.",
+   "text": "That's how Saudi Arabia ended up 40% under its own target in August 2026, by its own count. No vote did that. The war's hit to shipping did.",
+   "say": "That's how Saudi Arabia ended up forty percent under its own target in August twenty twenty-six, by its own count. No vote did that. The war's hit to shipping did.",
    "scene": {
     "t": "hook",
     "title": "40% [under] its quota",
@@ -1603,10 +1615,10 @@
   }
  ],
  "post": {
-  "title": "Saudi Arabia pumped 40% under its OPEC+ quota. So who really controls oil prices?",
-  "ig": "Saudi Arabia pumped 40% less oil than OPEC+ allowed in August 2026. Who controls oil?",
-  "tiktok": "OPEC+ sets targets, not prices. In August 2026 Saudi Arabia pumped 40% under its target.",
-  "yt_desc": "In August 2026, Saudi Arabia reported pumping 6.238 million barrels of oil a day against an OPEC+ target of 10.416 million, about 40% under its quota and its lowest output since 1990. This video explains what OPEC and OPEC+ really are, from the 1960 founding in Baghdad and the 1973 embargo to the 1986, 2014-16 and 2020 price wars and the UAE's exit in May 2026. You'll see how quotas are set, why spare capacity matters, how US shale changed the game, and why the price itself is set in Brent and WTI futures markets. Every figure is dated, because OPEC+ targets can change from one monthly meeting to the next.\n\nCHAPTERS\n\nSources: OPEC press releases (Aug. 2 and Sept. 6, 2026); OPEC Monthly Oil Market Report (Sept. 2026); Bloomberg (Sept. 10, 2026); Worldoil (July 5, 2026); TASS (Sept. 2026); IEA Oil Market Report (Sept. 2026); EIA Short-Term Energy Outlook (Sept. 2026); EIA Today in Energy (2026); EIA Brent spot price data (2010-2025); CNBC (Apr. 28, 2026; Aug. 2, 2026; Apr. 12, 2020); OPEC Brief History (1960, 1965); OPEC Declaration of Cooperation (Dec. 10, 2016); US State Department Office of the Historian (1973-74); Federal Reserve Bank of San Francisco (June 6, 1986); Washington Post (Nov. 27, 2014); MEES (Dec. 2014); CFTC (Apr. 20, 2020); ICE.\n\nNews and education, not financial advice.\n\n#OPEC #oilprices #economy",
+  "title": "Saudi Arabia reported pumping 40% under its OPEC+ quota. Who really controls oil prices?",
+  "ig": "Saudi Arabia reported pumping 40% under its OPEC+ quota in August 2026. Who controls oil?",
+  "tiktok": "OPEC+ sets targets, not prices. In August 2026 Saudi Arabia reported pumping 40% under its quota.",
+  "yt_desc": "In August 2026, Saudi Arabia reported pumping 6.238 million barrels of oil a day against an OPEC+ target of 10.416 million, about 40% under its quota and its lowest output since 1990 by its own count (outside estimates used by OPEC put it at 7.276 million, about 30% short). This video explains what OPEC and OPEC+ really are, from the 1960 founding in Baghdad and the 1973 embargo to the 1986, 2014-16 and 2020 price wars and the UAE's exit in May 2026. You'll see how quotas are set, why spare capacity matters, how US shale changed the game, and why the price itself is set in Brent and WTI futures markets. Every figure is dated, because OPEC+ targets can change from one monthly meeting to the next.\n\nCHAPTERS\n\nSources: OPEC press releases (Aug. 2 and Sept. 6, 2026); OPEC Monthly Oil Market Report (Sept. 2026); Bloomberg (Sept. 10, 2026); Worldoil (July 5, 2026); TASS (Sept. 2026); IEA Oil Market Report (Sept. 2026); EIA Short-Term Energy Outlook (Sept. 2026); EIA Today in Energy (2026); EIA Brent spot price data (2010-2025); CNBC (Apr. 28, 2026; Aug. 2, 2026; Apr. 12, 2020); OPEC Brief History (1960, 1965); OPEC Declaration of Cooperation (Dec. 10, 2016); US State Department Office of the Historian (1973-74); Federal Reserve Bank of San Francisco (June 6, 1986); Washington Post (Nov. 27, 2014); MEES (Dec. 2014); CFTC (Apr. 20, 2020); ICE.\n\nNews and education, not financial advice.\n\n#OPEC #oilprices #economy",
   "tags": [
    "OPEC",
    "OPEC+",
