@@ -1,0 +1,156 @@
+{
+ "series": "ticker",
+ "header": "Stolen card number?\nHere's what you owe",
+ "cover": {
+  "title": "Card Number Stolen? You Owe $0",
+  "prop": "card",
+  "label": "stolen #",
+  "value": "$0"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Someone stole your credit card number. You owe $0.",
+   "say": "Someone stole your credit card number. You owe zero dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "Card number [stolen]?",
+    "prop": "card",
+    "label": "stolen #",
+    "value": "$0",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal law: if only the number is stolen, not the card, you're not liable.",
+   "say": "Under federal law, if only the number is stolen, not the card itself, you're not on the hook.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Number stolen: $0",
+     "Card stolen: max $50",
+     "Reported before use: $0"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's common: 449,032 credit card fraud reports to the FTC in 2024.",
+   "say": "And it's common. People filed about four hundred fifty thousand credit card fraud reports with the F T C in twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Credit card ID theft reports (FTC)",
+    "points": [
+     [
+      2020,
+      393446
+     ],
+     [
+      2021,
+      389790
+     ],
+     [
+      2022,
+      440675
+     ],
+     [
+      2023,
+      416579
+     ],
+     [
+      2024,
+      449032
+     ]
+    ],
+    "end": "449,032",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say a thief spends $1,200 on your number. Your share on a credit card: $0.",
+   "say": "Say a thief spends twelve hundred dollars on your number. Your share on a credit card is zero.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Thief spends",
+     "value": "$1,200"
+    },
+    "to": {
+     "label": "You owe",
+     "value": "$0"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Debit cards are different. Report a lost card after 2 business days, and you could lose up to $500.",
+   "say": "Debit cards are different. Report a lost card after two business days, and you could lose up to five hundred dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Max loss under federal law",
+    "left": {
+     "label": "Credit card",
+     "value": "$50",
+     "tone": "up",
+     "sub": "$0 if just the number"
+    },
+    "right": {
+     "label": "Debit card",
+     "value": "$500",
+     "tone": "down",
+     "sub": "reported after 2 days"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wait more than 60 days after the statement, and the loss can be unlimited.",
+   "say": "Wait more than sixty days after the statement, and the loss can be unlimited.",
+   "scene": {
+    "t": "stat",
+    "label": "Debit, reported 60+ days after statement",
+    "value": "No limit",
+    "tone": "down",
+    "sub": "Electronic Fund Transfer Act (FTC)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So call your card issuer fast, then dispute the charge in writing within 60 days of the statement.",
+   "say": "So call your card issuer fast, then dispute the charge in writing within sixty days of the statement.",
+   "scene": {
+    "t": "list",
+    "title": "If your number is stolen",
+    "items": [
+     "Call the issuer",
+     "Dispute in writing",
+     "Within 60 days"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Someone stole your credit card number. Here's what you owe.",
+  "ig": "Someone stole your credit card number. You owe $0.\nUnder federal law, your max liability for unauthorized credit card use is $50, and $0 if only the number was stolen, not the card.\nDebit is different: report a lost card after 2 business days and you could lose up to $500; wait 60+ days after the statement and the loss can be unlimited.\nThe FTC got 449,032 credit card fraud reports in 2024.\nSources: FTC, CFPB (Regulation Z).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditcard #fraud #scamalert #personalfinance #financeprostv",
+  "tiktok": "Someone stole your credit card number. You owe $0. Debit is different. Not financial advice. #moneytok #personalfinance #creditcard #financeprostv",
+  "yt_desc": "Under federal law, your liability for unauthorized credit card use is capped at $50, and it's $0 if only your card number was stolen (FTC). Debit cards reported late can cost up to $500, or more after 60 days. The FTC received 449,032 credit card fraud reports in 2024. News and education, not financial advice. #Shorts #creditcard #fraud",
+  "tags": [
+   "credit card fraud",
+   "stolen credit card number",
+   "fair credit billing act",
+   "debit card fraud",
+   "personal finance"
+  ]
+ }
+}
