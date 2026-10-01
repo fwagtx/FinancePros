@@ -1,0 +1,140 @@
+{
+ "series": "ticker",
+ "header": "Bankrupt employer?\nYour pension",
+ "cover": {
+  "title": "Company Broke. Pension?",
+  "prop": "paper",
+  "label": "BANKRUPT",
+  "value": "$7,790"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your employer goes broke. Your pension has a $7,790 ceiling.",
+   "say": "Your employer goes broke. Your pension has a seventy-seven-ninety ceiling.",
+   "scene": {
+    "t": "hook",
+    "title": "Employer broke? [Pension] cap",
+    "prop": "paper",
+    "label": "BANKRUPT",
+    "value": "$7,790",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If an underfunded private pension ends, a federal agency steps in: the PBGC.",
+   "say": "If an underfunded private pension plan ends, a federal agency steps in. The P B G C.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "PBGC",
+    "label": "since 1974",
+    "caption": "Federal pension insurance"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It protects about 30 million workers and retirees, and paid over $6.4 billion in benefits in fiscal 2025.",
+   "say": "It protects about thirty million workers and retirees, and paid over six point four billion dollars in benefits in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "PBGC benefits paid, FY2025",
+    "value": "$6.4B+",
+    "tone": "up",
+    "sub": "to nearly 926,000 retirees (PBGC)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But there's a cap. For single-employer plans ending in 2026, it's $7,789.77 a month at age 65.",
+   "say": "But there's a cap. For single-employer plans ending in twenty twenty-six, it's about seven thousand seven hundred ninety dollars a month at age sixty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "PBGC max guarantee, age 65 (2026)",
+    "value": "$7,790",
+    "tone": "neutral",
+    "sub": "$7,789.77/month, single-life annuity"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say your pension promised $9,000 a month. About $1,210 of that isn't guaranteed.",
+   "say": "Say your pension promised nine thousand dollars a month. About twelve hundred ten of that isn't guaranteed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Promised: $9,000/mo",
+     "Cap: $7,789.77",
+     "Not covered: $1,210.23"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most retirees get less than the cap, so their earned benefit is generally paid in full.",
+   "say": "Most retirees get less than the cap, so their earned benefit is generally paid in full.",
+   "scene": {
+    "t": "split",
+    "title": "Who loses what",
+    "left": {
+     "title": "Under the cap",
+     "items": [
+      "Paid in full"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Over the cap",
+     "items": [
+      "Paid up to cap"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And your 401(k)? By law, it's held in a trust, separate from company assets. Creditors can't take it.",
+   "say": "And your four oh one k? By law, it's held in a trust, separate from company assets. Creditors can't take it.",
+   "scene": {
+    "t": "compare",
+    "title": "If your employer goes bankrupt",
+    "left": {
+     "label": "Pension",
+     "value": "PBGC",
+     "tone": "neutral",
+     "sub": "insured up to a cap"
+    },
+    "right": {
+     "label": "401(k)",
+     "value": "Yours",
+     "tone": "up",
+     "sub": "held in trust"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your employer goes bankrupt. What happens to your pension?",
+  "ig": "Your employer goes broke. Your pension has a $7,790 ceiling.\n\nThe PBGC insures most private pensions: about 30 million people, $6.4B+ paid in FY2025.\nThe 2026 single-employer cap: $7,789.77 a month at age 65. Most retirees fall under it and are paid in full.\nYour 401(k) is held in trust, separate from company assets.\n\nSources: PBGC FY2025 Annual Report, PBGC 2026 guarantee tables, US Dept. of Labor.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#pension #retirement #401k #personalfinance #financeprostv",
+  "tiktok": "Employer bankrupt? The PBGC insures pensions up to $7,789.77 a month at 65 in 2026. Not financial advice. #moneytok #pension #financeprostv",
+  "yt_desc": "If a private employer with a pension goes bankrupt, the federal PBGC steps in. It protects about 30 million people and paid over $6.4 billion in FY2025. For plans ending in 2026, the guarantee caps at $7,789.77 a month at age 65; most retirees are under the cap and paid in full. 401(k)s are held in trust, separate from company assets. Sources: PBGC, US Dept. of Labor.\n\nNews and education, not financial advice.\n\n#Shorts #pension #retirement",
+  "tags": [
+   "pbgc",
+   "pension bankruptcy",
+   "what happens to my pension",
+   "401k bankruptcy",
+   "retirement"
+  ]
+ }
+}
