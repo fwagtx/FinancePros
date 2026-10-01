@@ -10,40 +10,40 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "About half of Costco's profit comes from a $65 card.",
-   "say": "About half of Costco's profit comes from a sixty-five dollar card.",
+   "text": "Costco's membership fees out-earn its entire store.",
+   "say": "Costco's membership fees out-earn its entire store.",
    "scene": {
     "t": "hook",
-    "title": "Costco's real [product]",
+    "title": "The card beats the [store]",
     "prop": "card",
     "label": "MEMBER",
-    "value": "~50%",
+    "value": "$5.9B",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "In fiscal 2026, membership fees were $5.9 billion. Operating income was $11.7 billion.",
-   "say": "In fiscal twenty twenty-six, membership fees brought in five point nine billion dollars. Operating income was eleven point seven billion.",
+   "text": "In fiscal 2026, fees brought in $5.91 billion. Selling goods made $5.78 billion in operating profit.",
+   "say": "In fiscal twenty twenty-six, fees brought in five point nine one billion dollars. Selling all the goods made five point seven eight billion in operating profit.",
    "scene": {
     "t": "compare",
-    "title": "Costco, fiscal 2026",
+    "title": "Costco operating profit, fiscal 2026",
     "left": {
-     "label": "Membership fees",
-     "value": "$5.9B",
-     "tone": "up"
+     "label": "Selling goods",
+     "value": "$5.78B",
+     "tone": "neutral"
     },
     "right": {
-     "label": "Operating income",
-     "value": "$11.7B",
-     "tone": "neutral"
+     "label": "Membership fees",
+     "value": "$5.91B",
+     "tone": "up"
     }
    }
   },
   {
    "who": "ticker",
-   "text": "That's about 51 cents of every operating-profit dollar, from the card in your wallet.",
-   "say": "That's about fifty-one cents of every dollar of operating profit, coming from the card in your wallet.",
+   "text": "Together that's $11.69 billion, so fees are about 51 cents of every operating-profit dollar.",
+   "say": "Together that's eleven point six nine billion, so fees are about fifty-one cents of every dollar of operating profit.",
    "scene": {
     "t": "stat",
     "label": "Fees as a share of operating income, FY2026",
@@ -92,8 +92,8 @@
   },
   {
    "who": "ticker",
-   "text": "And it's not a small club: 150.4 million cardholders, as of the end of fiscal 2026.",
-   "say": "And this isn't a small club. Costco counted a hundred fifty point four million cardholders at the end of fiscal twenty twenty-six.",
+   "text": "And it's not a small club: 150.4 million cardholders at the end of fiscal 2026.",
+   "say": "And this isn't a small club. Costco counted about a hundred fifty million cardholders at the end of fiscal twenty twenty-six.",
    "scene": {
     "t": "stat",
     "label": "Costco cardholders, end of FY2026",
@@ -483,8 +483,8 @@
   },
   {
    "who": "ticker",
-   "text": "The jumps line up with the fee hike in September 2024, which raised fiscal 2025 and 2026.",
-   "say": "Notice the jumps. They line up with the fee hike in September twenty twenty-four, which lifted fiscal twenty twenty-five and twenty twenty-six.",
+   "text": "The biggest jumps line up with the fee hike in September 2024, which lifted fiscal 2025 and 2026.",
+   "say": "Notice the biggest jumps. They line up with the fee hike in September twenty twenty-four, which lifted fiscal twenty twenty-five and twenty twenty-six.",
    "scene": {
     "t": "chart",
     "keep": true,
@@ -597,7 +597,7 @@
   },
   {
    "who": "ticker",
-   "text": "Fewer than 1 in 50 sales dollars is fees, yet fees are about half of operating profit.",
+   "text": "Fees are less than 2% of revenue, yet they're about half of operating profit.",
    "say": "Fees are less than two percent of revenue, yet they're about half of operating profit.",
    "scene": {
     "t": "stat",
@@ -609,7 +609,7 @@
   },
   {
    "who": "ticker",
-   "text": "That's the whole model in one picture: the store breaks roughly even, the card pays.",
+   "text": "That's the whole model in one picture: the store runs on razor-thin margins, the card pays the bills.",
    "say": "That's the whole model in one picture. The store runs on razor-thin margins, and the card pays the bills.",
    "scene": {
     "t": "hook",
@@ -809,8 +809,8 @@
   },
   {
    "who": "ticker",
-   "text": "It hit $45 in 2000, $50 in 2006, $55 in 2011, $60 in 2017 and $65 in 2024.",
-   "say": "It hit forty-five dollars in two thousand, fifty in two thousand six, fifty-five in twenty eleven, sixty in twenty seventeen, and sixty-five in twenty twenty-four.",
+   "text": "It rose in small steps through the 1990s, hit $45 in 2000, then $50 in 2006, $55 in 2011, $60 in 2017 and $65 in 2024.",
+   "say": "It rose in small steps through the nineties, hit forty-five dollars in two thousand, then fifty in two thousand six, fifty-five in twenty eleven, sixty in twenty seventeen, and sixty-five in twenty twenty-four.",
    "scene": {
     "t": "chart",
     "title": "Basic membership fee ($)",
@@ -818,6 +818,18 @@
      [
       1983,
       25
+     ],
+     [
+      1992,
+      30
+     ],
+     [
+      1995,
+      35
+     ],
+     [
+      1998,
+      40
      ],
      [
       2000,
@@ -847,8 +859,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's a raise roughly every five to seven years, and each one lands almost straight on the profit line.",
-   "say": "That's a raise roughly every five to seven years. And each one lands almost straight on the profit line.",
+   "text": "Since 2000, that's a raise roughly every five to seven years, and each one lands almost straight on the profit line.",
+   "say": "Since two thousand, that's a raise roughly every five to seven years. And each one lands almost straight on the profit line.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1197,8 +1209,8 @@
   },
   {
    "who": "ticker",
-   "text": "Costco has raised the fee about every five to seven years. Each hike is a test of how loyal members really are.",
-   "say": "Costco has raised the fee about every five to seven years. And each hike is a test of how loyal members really are.",
+   "text": "Since 2000, Costco has raised the fee about every five to seven years. Each hike is a test of how loyal members really are.",
+   "say": "Since two thousand, Costco has raised the fee about every five to seven years. And each hike is a test of how loyal members really are.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1234,7 +1246,7 @@
   },
   {
    "who": "ticker",
-   "text": "Risk three: rivals. Sam's Club and BJ's run the same playbook for less.",
+   "text": "Risk three: rivals. Sam's Club and BJ's run the same playbook.",
    "say": "Risk three. Rivals. Sam's Club and BJ's run the same playbook.",
    "scene": {
     "t": "split",
@@ -1518,8 +1530,8 @@
   }
  ],
  "post": {
-  "title": "About half of Costco's profit comes from a $65 card. Here's the math.",
-  "ig": "About half of Costco's operating profit comes from membership fees.",
+  "title": "Costco's membership fees out-earn its entire store. Here's the math.",
+  "ig": "Costco's membership fees out-earn its entire store: $5.91B vs $5.78B in fiscal 2026.",
   "tiktok": "Costco makes about 2 cents per dollar on goods. The card does the heavy lifting.",
   "yt_desc": "Costco sold $297.2 billion of goods in fiscal 2026 but made about half of its $11.69 billion operating income from $5.9 billion in membership fees. We break down the deal, the numbers from Costco's filings, how Price Club and Costco built the model, the clever parts like 92.3% renewal rates and the Executive upgrade math, and the risks. No stock tips, just the business model.\n\nCHAPTERS\n\nSources:\n- Costco Q4 and fiscal 2026 results (Sept 24, 2026) and earnings call (Sept 2026)\n- Costco Form 10-K, fiscal 2021-2025\n- Kiplinger and Fox Business on the Sept 2024 fee increase\n- CNN and NPR (2024) on the $1.50 hot dog; CNN (2019) on the $4.99 chicken; CNBC (2025) on Kirkland Signature\n- The Motley Fool (Sept 23 and 25, 2026)\n\nNews and education, not financial advice.\n\n#Costco #HowTheyMakeMoney #Business",
   "tags": [
