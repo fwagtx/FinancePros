@@ -16,8 +16,8 @@ Rules that never change:
 - The attention grabber in the first 3 seconds must stop the scroll and earn the click, and the video must pay it off. No clickbait.
 - No emojis in scripts.
 
-Today is Wednesday, September 30, 2026. Show: How They Make Money (YouTube, 16:9, 8-10 minutes). How a famous company or a whole industry really makes its money: the history, the business model with numbers from its filings, the clever parts, the risks, and what it means for the customer. Curious and neutral: never a stock tip.
-Topic: How Google makes money from free
+Today is Thursday, October 01, 2026. Show: How They Make Money (YouTube, 16:9, 8-10 minutes). How a famous company or a whole industry really makes its money: the history, the business model with numbers from its filings, the clever parts, the risks, and what it means for the customer. Curious and neutral: never a stock tip.
+Topic: How Costco became a membership-fee machine
 
 Research this topic. If there is a timely news angle this week, use it as the hook. Use web search to confirm every number, rule, limit and definition that can change, and give the source for each. Find at least one REAL data series that can be charted (with the actual values and the source), one worked example with exact math (show the calculation), and the one fact that surprises people. Take every company number from its most recent annual report (10-K) or official investor materials and name the fiscal year. Plan 5-7 chapters with the key points for each. Finish with 'SOURCES:' and the list.
 
@@ -26,8 +26,8 @@ Use web search. Save the brief (facts, numbers with dates, a chartable data seri
 
 
 ## 2. Script
-Date: Wednesday, September 30, 2026. Show: How They Make Money (YouTube, 16:9, 8-10 minutes). How a famous company or a whole industry really makes its money: the history, the business model with numbers from its filings, the clever parts, the risks, and what it means for the customer. Curious and neutral: never a stock tip.
-Topic: How Google makes money from free
+Date: Thursday, October 01, 2026. Show: How They Make Money (YouTube, 16:9, 8-10 minutes). How a famous company or a whole industry really makes its money: the history, the business model with numbers from its filings, the clever parts, the risks, and what it means for the customer. Curious and neutral: never a stock tip.
+Topic: How Costco became a membership-fee machine
 Series 'ticker': who 'ticker' on every line. 
 Research brief (the ONLY facts you may use):
 (the brief you saved in step 1)
