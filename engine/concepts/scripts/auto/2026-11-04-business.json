@@ -1,0 +1,190 @@
+{
+ "id": "2026-11-04-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Walmart\nmakes money",
+ "cover": {
+  "title": "Walmart Keeps 4 Cents",
+  "prop": "store",
+  "label": "$1",
+  "value": "4¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Walmart keeps just 4 cents per dollar you spend.",
+   "say": "Walmart keeps just four cents per dollar you spend.",
+   "scene": {
+    "t": "hook",
+    "title": "Walmart keeps [4 cents]",
+    "prop": "store",
+    "label": "$1",
+    "value": "4¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how do 4 cents add up to billions? Here's the math.",
+   "say": "So how do four cents add up to billions? Here's the math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "4 cents a dollar",
+     "= billions?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026, Walmart brought in $713.2 billion, nearly $2 billion a day.",
+   "say": "In fiscal twenty twenty-six, Walmart brought in seven hundred thirteen point two billion dollars, nearly two billion a day.",
+   "scene": {
+    "t": "stat",
+    "label": "Walmart revenue, fiscal 2026",
+    "value": "$713.2B",
+    "tone": "up",
+    "sub": "year ended Jan 31, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Operating profit was $29.8 billion. On a $100 cart, that's about $4.18.",
+   "say": "Operating profit was twenty-nine point eight billion dollars. On a hundred-dollar cart, that's about four dollars and eighteen cents.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Your cart",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Operating profit",
+     "value": "$4.18"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That thin margin barely moves: between about 3.3% and 4.5% for seven years.",
+   "say": "That thin margin barely moves: between about three point three and four point five percent for seven years.",
+   "scene": {
+    "t": "chart",
+    "title": "Walmart operating margin (fiscal year)",
+    "points": [
+     [
+      2020,
+      3.93
+     ],
+     [
+      2021,
+      4.03
+     ],
+     [
+      2022,
+      4.53
+     ],
+     [
+      2023,
+      3.34
+     ],
+     [
+      2024,
+      4.17
+     ],
+     [
+      2025,
+      4.31
+     ],
+     [
+      2026,
+      4.18
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.18%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare Netflix: about 29.5% operating margin in 2025.",
+   "say": "Compare Netflix: about a twenty-nine and a half percent operating margin in twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Operating profit per $100",
+    "left": {
+     "label": "Walmart FY26",
+     "value": "$4.18",
+     "tone": "down",
+     "sub": "4.18% margin"
+    },
+    "right": {
+     "label": "Netflix 2025",
+     "value": "$29.50",
+     "tone": "up",
+     "sub": "29.5% margin"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Walmart's trick is volume: tiny margin, times enormous sales.",
+   "say": "Walmart's trick is volume: a tiny margin, times enormous sales.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tiny margin",
+     "times enormous sales",
+     "= $29.8B"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The newer money: global advertising grew 46% to nearly $6.4 billion in fiscal 2026.",
+   "say": "The newer money: global advertising grew forty-six percent to nearly six point four billion dollars in fiscal twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Walmart global advertising, FY26",
+    "value": "$6.4B",
+    "tone": "up",
+    "sub": "+46%, includes VIZIO"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in the quarter reported in August 2026, membership fee revenue rose 17%.",
+   "say": "And in the quarter reported in August twenty twenty-six, membership fee revenue rose seventeen percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Membership fee revenue, Q2 FY27",
+    "value": "+17%",
+    "tone": "up",
+    "sub": "reported Aug 20, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Walmart keeps just 4 cents per dollar. Here's how.",
+  "ig": "Walmart keeps just 4 cents per dollar you spend.\nFiscal 2026: $713.2B of revenue, $29.8B of operating profit (a 4.18% margin), about $4.18 per $100 cart.\nIts margin has stayed between about 3.3% and 4.5% for seven years. The trick is volume.\nNewer money: global ads grew 46% to nearly $6.4B; membership fee revenue rose 17% in the quarter reported Aug 2026.\nSources: Walmart FY2026 10-K; Q2 FY27 earnings release; Netflix FY2025 10-K.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#walmart #businessmodel #retail #personalfinance #financeprostv",
+  "tiktok": "Walmart keeps just 4 cents per dollar. The thin-margin model. Not financial advice. #moneytok #business #walmart #financeprostv",
+  "yt_desc": "Walmart had $713.2 billion of revenue and $29.8 billion of operating profit in fiscal 2026, a 4.18% margin, about $4.18 per $100 of sales, versus about 29.5% for Netflix in 2025. Its margin has stayed between about 3.3% and 4.5% for seven years; growth in advertising (up 46% to nearly $6.4 billion) and memberships adds newer income (Walmart 10-K and earnings releases). News and education, not financial advice. #Shorts #walmart #business",
+  "tags": [
+   "how walmart makes money",
+   "walmart",
+   "business model",
+   "retail",
+   "personal finance"
+  ]
+ }
+}
