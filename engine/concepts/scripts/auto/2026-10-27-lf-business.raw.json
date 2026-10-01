@@ -1,0 +1,1662 @@
+{
+ "series": "ticker",
+ "header": "HOW THEY MAKE MONEY",
+ "cover": {
+  "title": "56 Cents of Every Dollar?",
+  "prop": "chart-up",
+  "label": "NVIDIA",
+  "value": "56¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Nvidia started in a Denny's booth. Now it's worth over $5 trillion.",
+   "say": "Nvidia started in a Denny's booth. Now it's worth over five trillion.",
+   "scene": {
+    "t": "hook",
+    "title": "Denny's to [$5 trillion]",
+    "prop": "chart-up",
+    "label": "NVIDIA",
+    "value": "$5T+",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In October 2025, it became the first public company ever valued at $5 trillion.",
+   "say": "In October twenty twenty-five, it became the first public company ever valued at five trillion dollars.",
+   "scene": {
+    "t": "news",
+    "headline": "Nvidia becomes first public company worth $5 trillion",
+    "source": "CNBC, Oct 29, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in its last fiscal year, it kept about 56 cents of profit from every dollar of sales.",
+   "say": "And in its last fiscal year, it kept about fifty-six cents of profit from every dollar of sales.",
+   "scene": {
+    "t": "stat",
+    "label": "Net income per $1 of revenue, FY2026",
+    "value": "56¢",
+    "tone": "up",
+    "sub": "$120.1B / $215.9B (Nvidia)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For comparison, Costco keeps about 3 cents. Even Apple keeps about 27.",
+   "say": "For comparison, Costco keeps about three cents. Even Apple keeps about twenty-seven.",
+   "scene": {
+    "t": "list",
+    "title": "Profit per $1 of sales",
+    "items": [
+     "Nvidia: about 56¢",
+     "Apple: about 27¢",
+     "Costco: about 3¢"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how did a video game chip company end up running the AI economy?",
+   "say": "So how did a video game chip company end up powering the A I boom?",
+   "scene": {
+    "t": "hook",
+    "title": "From games to [AI]",
+    "prop": "box",
+    "label": "GPU",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The answer runs through a diner, a video game card, and a piece of software almost nobody wanted.",
+   "say": "The answer runs through a diner, a video game card, and a piece of software almost nobody wanted at first.",
+   "scene": {
+    "t": "list",
+    "title": "The ingredients",
+    "items": [
+     "A diner",
+     "A game chip",
+     "Unloved software"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll cover the history, the business model, the numbers, the clever parts, and the risks.",
+   "say": "We'll cover the history, the business model, the numbers, the clever parts, and the risks.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "How it started",
+     "How it sells",
+     "The numbers",
+     "Moats and risks"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: a diner booth in 1993.",
+   "say": "Chapter one. A diner booth in nineteen ninety-three.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "A diner booth in 1993"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1993, three engineers met at a Denny's near San Jose: Jensen Huang, Chris Malachowsky and Curtis Priem.",
+   "say": "In nineteen ninety-three, three engineers met at a Denny's near San Jose: Jensen Huang, Chris Malachowsky, and Curtis Priem.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1993",
+      "what": "Founded at a Denny's"
+     },
+     {
+      "when": "1999",
+      "what": "GeForce 256 launches"
+     },
+     {
+      "when": "2006",
+      "what": "CUDA released"
+     },
+     {
+      "when": "2012",
+      "what": "AlexNet wins"
+     },
+     {
+      "when": "2025",
+      "what": "First $5T company"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their bet: computers would need special chips just for drawing 3D graphics, starting with video games.",
+   "say": "Their bet: computers would need special chips just for drawing 3D graphics, starting with video games.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The bet:",
+     "3D graphics need",
+     "their own chip"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The early years were rough. Its first chip, the NV1 in 1995, didn't sell well.",
+   "say": "The early years were rough. Its first chip, the N V one in nineteen ninety-five, didn't sell well.",
+   "scene": {
+    "t": "hook",
+    "title": "A rough [start]",
+    "prop": "chart-down",
+    "label": "NV1",
+    "value": "1995",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Huang has said the company was once about 30 days from going out of business.",
+   "say": "Jensen Huang has said the company was once about thirty days from going out of business.",
+   "scene": {
+    "t": "stat",
+    "label": "How close Nvidia came to failing",
+    "value": "30 days",
+    "tone": "down",
+    "sub": "Jensen Huang's own account of the 1990s"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The RIVA 128 chip in 1997 saved it, and Nvidia went public in January 1999.",
+   "say": "The RIVA one twenty-eight chip in nineteen ninety-seven saved it, and Nvidia went public in January nineteen ninety-nine.",
+   "scene": {
+    "t": "list",
+    "title": "The comeback",
+    "items": [
+     "1997: RIVA 128 hits",
+     "1999: Nvidia goes public"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1999, Nvidia launched the GeForce 256 and marketed it as the world's first GPU.",
+   "say": "In nineteen ninety-nine, Nvidia launched the GeForce two fifty-six, and marketed it as the world's first G P U.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1993",
+      "what": "Founded at a Denny's"
+     },
+     {
+      "when": "1999",
+      "what": "GeForce 256 launches"
+     },
+     {
+      "when": "2006",
+      "what": "CUDA released"
+     },
+     {
+      "when": "2012",
+      "what": "AlexNet wins"
+     },
+     {
+      "when": "2025",
+      "what": "First $5T company"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A GPU is a graphics processing unit: thousands of small math engines working at the same time.",
+   "say": "A G P U is a graphics processing unit. Thousands of small math engines, all working at the same time.",
+   "scene": {
+    "t": "split",
+    "title": "Two kinds of chip",
+    "left": {
+     "title": "CPU",
+     "items": [
+      "A few strong cores",
+      "One task at a time"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "GPU",
+     "items": [
+      "Thousands of cores",
+      "Many tasks at once"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To draw a game, it calculates millions of pixels at once. That turns out to be useful for a lot more than games.",
+   "say": "To draw a game, it calculates millions of pixels at once. And that turns out to be useful for a lot more than games.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Millions of pixels",
+     "= millions of tiny",
+     "math problems at once"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2006, Nvidia released CUDA, software that let programmers use GPUs for general math, not just graphics.",
+   "say": "In two thousand six, Nvidia released CUDA. Software that let programmers use G P Us for general math, not just graphics.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1993",
+      "what": "Founded at a Denny's"
+     },
+     {
+      "when": "1999",
+      "what": "GeForce 256 launches"
+     },
+     {
+      "when": "2006",
+      "what": "CUDA released"
+     },
+     {
+      "when": "2012",
+      "what": "AlexNet wins"
+     },
+     {
+      "when": "2025",
+      "what": "First $5T company"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For years, that looked like a side project. Then came 2012.",
+   "say": "For years, that looked like a side project. Then came twenty twelve.",
+   "scene": {
+    "t": "hook",
+    "title": "The side [project]",
+    "prop": "paper",
+    "label": "CUDA",
+    "value": "2006",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wall Street didn't love it. Spending on general GPU computing looked like money for a tiny market.",
+   "say": "Wall Street didn't love it. Spending on general G P U computing looked like money thrown at a tiny market.",
+   "scene": {
+    "t": "split",
+    "title": "CUDA in the 2000s",
+    "left": {
+     "title": "Critics saw",
+     "items": [
+      "Costly side bet"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Nvidia saw",
+     "items": [
+      "New market"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A neural network called AlexNet won a major image-recognition contest. It was trained on two Nvidia gaming cards.",
+   "say": "A neural network called AlexNet won a major image-recognition contest. It was trained on two Nvidia gaming cards.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1993",
+      "what": "Founded at a Denny's"
+     },
+     {
+      "when": "1999",
+      "what": "GeForce 256 launches"
+     },
+     {
+      "when": "2006",
+      "what": "CUDA released"
+     },
+     {
+      "when": "2012",
+      "what": "AlexNet wins"
+     },
+     {
+      "when": "2025",
+      "what": "First $5T company"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It cut the contest's top-5 error rate from 26.2% to 15.3%. AI researchers noticed what GPUs could do.",
+   "say": "It cut the contest's top-five error rate from twenty-six point two percent to fifteen point three. And A I researchers noticed what G P Us could do.",
+   "scene": {
+    "t": "compare",
+    "title": "ImageNet 2012 top-5 error",
+    "left": {
+     "label": "Runner-up",
+     "value": "26.2%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "AlexNet",
+     "value": "15.3%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Training AI is mostly giant piles of multiplication, exactly what GPUs were built for.",
+   "say": "Training A I is mostly giant piles of multiplication. Exactly what G P Us were built for.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AI training =",
+     "huge piles of",
+     "multiplication"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Researchers started buying Nvidia cards by the stack, and writing their code in CUDA.",
+   "say": "Researchers started buying Nvidia cards by the stack, and writing their code in CUDA.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More researchers",
+     "-> more CUDA code",
+     "-> more Nvidia cards"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the chatbot boom hit in late 2022, every big tech company wanted as many Nvidia chips as it could get.",
+   "say": "When the chatbot boom hit in late twenty twenty-two, every big tech company wanted as many Nvidia chips as it could get.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1993",
+      "what": "Founded at a Denny's"
+     },
+     {
+      "when": "1999",
+      "what": "GeForce 256 launches"
+     },
+     {
+      "when": "2006",
+      "what": "CUDA released"
+     },
+     {
+      "when": "2012",
+      "what": "AlexNet wins"
+     },
+     {
+      "when": "2025",
+      "what": "First $5T company"
+     }
+    ],
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Almost overnight, the company that made cards for gamers became the main supplier of the AI race.",
+   "say": "Almost overnight, the company that made cards for gamers became the main supplier of the whole A I race.",
+   "scene": {
+    "t": "hook",
+    "title": "Game cards to [AI]",
+    "prop": "box",
+    "label": "GPU",
+    "value": "AI",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: how Nvidia actually makes money.",
+   "say": "Chapter two. How Nvidia actually makes money.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "How it makes money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First surprise: Nvidia doesn't own the factories that make its chips.",
+   "say": "First surprise: Nvidia doesn't own the factories that make its chips.",
+   "scene": {
+    "t": "hook",
+    "title": "No [factories]",
+    "prop": "store",
+    "label": "FABLESS",
+    "value": "0",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's fabless. Nvidia designs the chips, and Taiwan's TSMC manufactures most of them.",
+   "say": "It's fabless. Nvidia designs the chips, and Taiwan's T S M C manufactures most of them.",
+   "scene": {
+    "t": "split",
+    "title": "Who does what",
+    "left": {
+     "title": "Nvidia",
+     "items": [
+      "Designs chips",
+      "Writes software"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "TSMC",
+     "items": [
+      "Builds the chips",
+      "Runs the factories"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That keeps Nvidia from spending tens of billions on factories, and lets it focus on design and software.",
+   "say": "That spares Nvidia from building multibillion-dollar factories, and lets it focus on design and software.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No factories to build",
+     "= more money for",
+     "design and software"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second: it no longer just sells chips. It sells whole systems: racks of GPUs, networking and software.",
+   "say": "Second: it no longer just sells chips. It sells whole systems. Racks of G P Us, networking gear, and software.",
+   "scene": {
+    "t": "list",
+    "title": "What Nvidia sells",
+    "items": [
+     "GPUs",
+     "Full server racks",
+     "Networking",
+     "Software"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Networking came from a big purchase: Nvidia bought Mellanox for about $7 billion, closing in April 2020.",
+   "say": "The networking piece came from a big purchase. Nvidia bought Mellanox for about seven billion dollars, closing in April twenty twenty.",
+   "scene": {
+    "t": "news",
+    "headline": "Nvidia completes acquisition of Mellanox",
+    "source": "Nvidia SEC filing, April 27, 2020"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That matters because AI needs thousands of GPUs talking to each other fast, not one chip working alone.",
+   "say": "That matters, because A I needs thousands of G P Us talking to each other fast, not one chip working alone.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "One GPU: fast",
+     "Thousands linked:",
+     "an AI factory"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its biggest customers are cloud giants and AI companies building data centers.",
+   "say": "Its biggest customers are cloud giants and A I companies building data centers.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "DATA CENTER",
+    "label": "Nvidia inside",
+    "caption": "Where the money comes from"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those customers rent the computing power out, or use it to build their own AI products.",
+   "say": "Those customers rent that computing power out, or use it to build their own A I products. Which eventually reach you.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nvidia -> cloud giant",
+     "cloud -> AI apps",
+     "apps -> you"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026, data center sales were $197.3 billion, out of $215.9 billion total.",
+   "say": "In fiscal twenty twenty-six, data center sales were a hundred ninety-seven point three billion dollars, out of two hundred fifteen point nine billion total.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia revenue, fiscal 2026",
+    "left": {
+     "label": "Data center",
+     "value": "$197.3B",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Everything else",
+     "value": "$18.6B",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Data center sales grew 68% in one year, from $115.2 billion in fiscal 2025.",
+   "say": "Data center sales grew sixty-eight percent in one year, up from a hundred fifteen point two billion in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia data center revenue",
+    "left": {
+     "label": "FY2025",
+     "value": "$115.2B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "FY2026",
+     "value": "$197.3B",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 91% of the business. Gaming, where it all started, was $16 billion.",
+   "say": "That's about ninety-one percent of the business. Gaming, where it all started, was sixteen billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Data center share of revenue, FY2026",
+    "value": "91%",
+    "tone": "up",
+    "sub": "$197.3B / $215.9B; gaming $16.0B"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back in fiscal 2021, gaming was still bigger than data center: $7.76 billion versus $6.7 billion.",
+   "say": "Back in fiscal twenty twenty-one, gaming was still the bigger business: seven point seven six billion dollars, versus six point seven for data center.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia segments, fiscal 2021",
+    "left": {
+     "label": "Gaming",
+     "value": "$7.76B",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Data center",
+     "value": "$6.7B",
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Five years later, data center was more than 12 times gaming.",
+   "say": "Five years later, data center was more than twelve times the size of gaming.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia segments, fiscal 2026",
+    "left": {
+     "label": "Gaming",
+     "value": "$16.0B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Data center",
+     "value": "$197.3B",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: the numbers.",
+   "say": "Chapter three. The numbers.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The numbers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's Nvidia's yearly revenue. Its fiscal year ends in late January.",
+   "say": "Here's Nvidia's yearly revenue. Note that its fiscal year ends in late January.",
+   "scene": {
+    "t": "chart",
+    "title": "Nvidia revenue by fiscal year ($B)",
+    "points": [
+     [
+      2020,
+      10.92
+     ],
+     [
+      2021,
+      16.68
+     ],
+     [
+      2022,
+      26.91
+     ],
+     [
+      2023,
+      26.97
+     ],
+     [
+      2024,
+      60.92
+     ],
+     [
+      2025,
+      130.5
+     ],
+     [
+      2026,
+      215.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$215.9B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For years it grew steadily, then stalled. Fiscal 2023 barely beat 2022.",
+   "say": "For years it grew steadily, then stalled. Fiscal twenty twenty-three barely beat the year before.",
+   "scene": {
+    "t": "chart",
+    "title": "Nvidia revenue by fiscal year ($B)",
+    "points": [
+     [
+      2020,
+      10.92
+     ],
+     [
+      2021,
+      16.68
+     ],
+     [
+      2022,
+      26.91
+     ],
+     [
+      2023,
+      26.97
+     ],
+     [
+      2024,
+      60.92
+     ],
+     [
+      2025,
+      130.5
+     ],
+     [
+      2026,
+      215.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$215.9B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2023,
+     "text": "flat: $26.97B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the AI boom hit. Revenue went from about $27 billion to $60.9 billion in a single year.",
+   "say": "Then the A I boom hit. Revenue went from about twenty-seven billion dollars to almost sixty-one billion, in a single year.",
+   "scene": {
+    "t": "chart",
+    "title": "Nvidia revenue by fiscal year ($B)",
+    "points": [
+     [
+      2020,
+      10.92
+     ],
+     [
+      2021,
+      16.68
+     ],
+     [
+      2022,
+      26.91
+     ],
+     [
+      2023,
+      26.97
+     ],
+     [
+      2024,
+      60.92
+     ],
+     [
+      2025,
+      130.5
+     ],
+     [
+      2026,
+      215.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$215.9B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2024,
+     "text": "$60.9B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then $130.5 billion. Then $215.9 billion in fiscal 2026, up 65%.",
+   "say": "Then a hundred thirty and a half billion. Then two hundred fifteen point nine billion in fiscal twenty twenty-six, up sixty-five percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Nvidia revenue by fiscal year ($B)",
+    "points": [
+     [
+      2020,
+      10.92
+     ],
+     [
+      2021,
+      16.68
+     ],
+     [
+      2022,
+      26.91
+     ],
+     [
+      2023,
+      26.97
+     ],
+     [
+      2024,
+      60.92
+     ],
+     [
+      2025,
+      130.5
+     ],
+     [
+      2026,
+      215.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$215.9B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "$215.9B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the July 2026 quarter alone, data center revenue was $89.0 billion.",
+   "say": "In the July twenty twenty-six quarter alone, data center revenue was eighty-nine billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Data center revenue, quarter ended July 26, 2026",
+    "value": "$89.0B",
+    "tone": "up",
+    "sub": "up 117% year over year (Nvidia)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 8 times fiscal 2023's revenue in three years.",
+   "say": "That's about eight times fiscal twenty twenty-three's revenue, in just three years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$215.9B / $26.97B",
+     "= about 8x",
+     "in three years"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it kept going. In the quarter ending July 2026, revenue hit $96.2 billion, up 106% from a year earlier.",
+   "say": "And it kept going. In the quarter ending July twenty twenty-six, revenue hit ninety-six point two billion dollars, up a hundred six percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Revenue, quarter ended July 26, 2026",
+    "value": "$96.2B",
+    "tone": "up",
+    "sub": "up 106% year over year (Nvidia)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the profit. Gross margin is what's left after the cost of making the product.",
+   "say": "Now, the profit. Gross margin is what's left after paying the cost of making the product.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Gross margin =",
+     "(sales - cost to make)",
+     "/ sales"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nvidia's was 71.1% in fiscal 2026, and 75% in the July 2026 quarter.",
+   "say": "Nvidia's was seventy-one point one percent in fiscal twenty twenty-six, and seventy-five percent in the July twenty twenty-six quarter.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia gross margin",
+    "left": {
+     "label": "FY2026",
+     "value": "71.1%",
+     "tone": "up"
+    },
+    "right": {
+     "label": "Q2 FY2027",
+     "value": "75.0%",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's do the math on $100 of sales.",
+   "say": "Let's do the math on a hundred dollars of sales.",
+   "scene": {
+    "t": "hook",
+    "title": "Follow [$100]",
+    "prop": "bill",
+    "label": "$100",
+    "value": "$100",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026, about $29 went to making the product. About $71 was gross profit.",
+   "say": "In fiscal twenty twenty-six, about twenty-nine dollars went to making the product. About seventy-one was gross profit.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Sales",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Gross profit",
+     "value": "$71"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After research, salaries and taxes, about $56 was left as net income.",
+   "say": "After research, salaries and taxes, about fifty-six dollars was left as net income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$120.1B net income",
+     "/ $215.9B revenue",
+     "= about $56 per $100"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Net income for the year: $120.1 billion.",
+   "say": "Net income for the year: a hundred twenty point one billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Nvidia net income, FY2026",
+    "value": "$120.1B",
+    "tone": "up",
+    "sub": "fiscal year ended Jan 25, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For scale: Apple, famous for its profits, earned about $112 billion in its fiscal 2025.",
+   "say": "For scale: Apple, famous for its profits, earned about a hundred twelve billion dollars in its fiscal twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Net income",
+    "left": {
+     "label": "Apple FY2025",
+     "value": "$112B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Nvidia FY2026",
+     "value": "$120.1B",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why so high? When demand far outruns supply, the seller sets the price.",
+   "say": "Why so high? When demand far outruns supply, the seller gets to set the price.",
+   "scene": {
+    "t": "split",
+    "title": "Pricing power",
+    "left": {
+     "title": "Demand",
+     "items": [
+      "Every AI lab",
+      "Every cloud"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Supply",
+     "items": [
+      "Limited chips"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more profit than most companies ever make in revenue.",
+   "say": "That's more profit than almost any company ever makes in revenue.",
+   "scene": {
+    "t": "hook",
+    "title": "Profit [machine]",
+    "prop": "coins",
+    "label": "NET INCOME",
+    "value": "$120B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: the clever parts.",
+   "say": "Chapter four. The clever parts.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The clever parts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Clever part one: CUDA. Nearly two decades of software, tools and code built around Nvidia chips.",
+   "say": "Clever part one: CUDA. Nearly two decades of software, tools and code, all built around Nvidia chips.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "CUDA since 2006",
+     "= years of code",
+     "built for Nvidia"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your AI code is written for CUDA, switching to another chip means rewriting and retesting.",
+   "say": "If your A I code is written for CUDA, switching to another chip means rewriting and retesting it.",
+   "scene": {
+    "t": "split",
+    "title": "Switching chips",
+    "left": {
+     "title": "Stay",
+     "items": [
+      "Code just works"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Switch",
+     "items": [
+      "Rewrite",
+      "Retest"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Economists call that a switching cost. It's a moat around the business.",
+   "say": "Economists call that a switching cost. It's a moat around the business.",
+   "scene": {
+    "t": "hook",
+    "title": "The software [moat]",
+    "prop": "box",
+    "label": "CUDA",
+    "value": "MOAT",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rivals can build fast chips. Rebuilding years of software habits is the hard part.",
+   "say": "Rivals can build fast chips. Rebuilding years of software habits is the hard part.",
+   "scene": {
+    "t": "compare",
+    "title": "What's hard to copy",
+    "left": {
+     "label": "The chip",
+     "value": "Hard",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "The software",
+     "value": "Harder",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Clever part two: selling the whole rack, not just the chip. More of each data center dollar goes to Nvidia.",
+   "say": "Clever part two: selling the whole rack, not just the chip. That way, more of each data center dollar goes to Nvidia.",
+   "scene": {
+    "t": "compare",
+    "title": "What a customer buys",
+    "left": {
+     "label": "Just chips",
+     "value": "Part",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Full system",
+     "value": "More",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Clever part three: a new chip family roughly every year, so customers keep upgrading.",
+   "say": "Clever part three: a new chip family roughly every year, so customers keep upgrading.",
+   "scene": {
+    "t": "list",
+    "title": "Nvidia data center generations",
+    "items": [
+     "Hopper",
+     "Blackwell",
+     "Next: Rubin"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And clever part four: being early. It spent years on GPU computing before AI made it pay off.",
+   "say": "And clever part four: being early. It spent years on G P U computing before A I made it pay off.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2006",
+      "what": "CUDA launched"
+     },
+     {
+      "when": "2012",
+      "what": "AI finds GPUs"
+     },
+     {
+      "when": "2022",
+      "what": "Chatbot boom"
+     },
+     {
+      "when": "2025",
+      "what": "$5T valuation"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put together, it's a full stack: chips, networking, systems and software, sold as one package.",
+   "say": "Put it all together and you get a full stack: chips, networking, systems and software, sold as one package.",
+   "scene": {
+    "t": "list",
+    "title": "The full stack",
+    "items": [
+     "Chips",
+     "Networking",
+     "Systems",
+     "Software"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: the risks.",
+   "say": "Chapter five. The risks.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The risks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Risk one: a few customers buy a huge share. In fiscal 2026, one direct customer was 22% of revenue, and another 14%.",
+   "say": "Risk one: a few customers buy a huge share. In fiscal twenty twenty-six, one direct customer was twenty-two percent of revenue, and another was fourteen.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia's two largest direct customers, FY2026",
+    "left": {
+     "label": "Customer A",
+     "value": "22%",
+     "tone": "down"
+    },
+    "right": {
+     "label": "Customer B",
+     "value": "14%",
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 36% from just two buyers. If they slow down, Nvidia feels it.",
+   "say": "That's thirty-six percent from just two buyers. If they slow down, Nvidia feels it.",
+   "scene": {
+    "t": "stat",
+    "label": "Revenue from top two direct customers, FY2026",
+    "value": "36%",
+    "tone": "down",
+    "sub": "Nvidia 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Risk two: many of those customers are designing their own AI chips, like Google's TPUs.",
+   "say": "Risk two: many of those customers are designing their own A I chips, like Google's T P Us.",
+   "scene": {
+    "t": "split",
+    "title": "Customers or competitors?",
+    "left": {
+     "title": "Buy from Nvidia",
+     "items": [
+      "Today"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Build their own",
+     "items": [
+      "Custom AI chips"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every dollar a cloud giant spends on its own chip is a dollar it might not spend on Nvidia.",
+   "say": "Every dollar a cloud giant spends on its own chip is a dollar it might not spend on Nvidia.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Cloud AI budget",
+     "value": "$1"
+    },
+    "to": {
+     "label": "Maybe not Nvidia",
+     "value": "?"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plus rivals like AMD, all chasing the same data center money.",
+   "say": "Plus rivals like A M D, all chasing the same data center money.",
+   "scene": {
+    "t": "list",
+    "title": "The competition",
+    "items": [
+     "AMD",
+     "Custom cloud chips",
+     "Startups"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And AI spending itself could cool. If cloud companies pause new data centers, orders shrink.",
+   "say": "And A I spending itself could cool. If cloud companies pause building new data centers, orders would shrink.",
+   "scene": {
+    "t": "split",
+    "title": "If AI spending...",
+    "left": {
+     "title": "Keeps growing",
+     "items": [
+      "Orders grow"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Pauses",
+     "items": [
+      "Orders shrink"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Risk three: export rules. Restrictions on selling to China led to a $4.5 billion charge in fiscal 2026.",
+   "say": "Risk three: export rules. Restrictions on selling advanced chips to China led to a four and a half billion dollar charge in fiscal twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "H20 inventory and purchase charge, FY2026",
+    "value": "$4.5B",
+    "tone": "down",
+    "sub": "tied to China export rules (Nvidia)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Risk four: one main factory partner. Most of its advanced chips come from TSMC in Taiwan.",
+   "say": "Risk four: one main factory partner. Most of its advanced chips come from T S M C, in Taiwan.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "think",
+      "says": "we design"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "export limits"
+     }
+    ],
+    "caption": "Chips cross borders"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Anything that disrupts Taiwan's chip factories would ripple straight into Nvidia's supply.",
+   "say": "Anything that disrupts Taiwan's chip factories would ripple straight into Nvidia's supply.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "One key supplier",
+     "= one key",
+     "point of risk"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "TSMC has started making some Nvidia Blackwell chips in Arizona, which spreads that risk a bit.",
+   "say": "T S M C has started making some Nvidia Blackwell chips in Arizona, which spreads that risk a little.",
+   "scene": {
+    "t": "news",
+    "headline": "First Nvidia Blackwell wafer produced at TSMC Arizona",
+    "source": "Nvidia blog, Oct 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And risk five: history. Chip demand comes in waves. Fiscal 2023 showed how fast growth can stall.",
+   "say": "And risk five: history. Chip demand comes in waves, and fiscal twenty twenty-three showed how fast growth can stall.",
+   "scene": {
+    "t": "chart",
+    "title": "Nvidia revenue by fiscal year ($B)",
+    "points": [
+     [
+      2020,
+      10.92
+     ],
+     [
+      2021,
+      16.68
+     ],
+     [
+      2022,
+      26.91
+     ],
+     [
+      2023,
+      26.97
+     ],
+     [
+      2024,
+      60.92
+     ],
+     [
+      2025,
+      130.5
+     ],
+     [
+      2026,
+      215.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$215.9B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of that predicts what happens next. It's what the company itself lists as the things to watch.",
+   "say": "None of that predicts what happens next. It's what the company itself lists as things to watch.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Risks = what to watch",
+     "Not a prediction"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A business can be great while its stock is risky. Those are two different questions.",
+   "say": "A business can be great while its stock is still risky. Those are two different questions, and this video is only about the first.",
+   "scene": {
+    "t": "split",
+    "title": "Two questions",
+    "left": {
+     "title": "The business",
+     "items": [
+      "How it earns"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "The stock",
+     "items": [
+      "What it's priced at"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: what it means for you.",
+   "say": "Chapter six. What it means for you.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every AI chatbot answer runs on chips like these, and that cost shows up in the price of AI tools.",
+   "say": "Every A I chatbot answer runs on chips like these, and that cost shows up in the price of A I tools.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "AI APP",
+    "label": "chips inside",
+    "caption": "Your chatbot's hidden bill"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gamers feel it too: the same company now earns over 12 times more from data centers than from games.",
+   "say": "Gamers feel it too. The same company now earns over twelve times more from data centers than from games.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia, fiscal 2026",
+    "left": {
+     "label": "Gaming",
+     "value": "$16.0B",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Data center",
+     "value": "$197.3B",
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if you own an S&P 500 index fund, you already own a slice of Nvidia, because it's in the index.",
+   "say": "And if you own an S and P five hundred index fund, you already own a slice of Nvidia, because it's in the index.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "S&P 500 fund",
+     "= a slice of",
+     "every member"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's not a tip. It's just how index funds work: you own a little of everything inside.",
+   "say": "That's not a tip. It's just how index funds work. You own a little of everything inside.",
+   "scene": {
+    "t": "hook",
+    "title": "A little of [everything]",
+    "prop": "pot",
+    "label": "INDEX",
+    "value": "500",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And because Nvidia is so big, its swings now move the whole index more than they used to.",
+   "say": "And because Nvidia is so big, its swings now move the whole index more than they used to.",
+   "scene": {
+    "t": "stat",
+    "label": "Nvidia market value, Sept 2026",
+    "value": "$5T+",
+    "tone": "neutral",
+    "sub": "world's most valuable company"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when people talk about AI stocks, a big chunk of that story is this one company.",
+   "say": "So when people talk about A I stocks, a big chunk of that story is really about this one company.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AI boom",
+     "= a big chunk",
+     "is Nvidia"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter seven: the recap.",
+   "say": "Chapter seven. The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: Nvidia started in 1993 making graphics chips for games.",
+   "say": "One. Nvidia started in nineteen ninety-three, making graphics chips for games.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Games to AI",
+     "Designs, doesn't build",
+     "91% data center",
+     "Moats and risks"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: it designs chips and software, and TSMC builds most of them.",
+   "say": "Two. It designs the chips and software, and T S M C builds most of them.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Games to AI",
+     "Designs, doesn't build",
+     "91% data center",
+     "Moats and risks"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: data centers were 91% of its $215.9 billion in fiscal 2026 revenue, with $120.1 billion of profit.",
+   "say": "Three. Data centers were ninety-one percent of its two hundred sixteen billion in fiscal twenty twenty-six revenue, with a hundred twenty billion of profit.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Games to AI",
+     "Designs, doesn't build",
+     "91% data center",
+     "Moats and risks"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: CUDA is the moat. Customer concentration, competition, export rules and Taiwan are the risks.",
+   "say": "And four. CUDA is the moat. Customer concentration, competition, export rules, and Taiwan are the risks.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Games to AI",
+     "Designs, doesn't build",
+     "91% data center",
+     "Moats and risks"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From a Denny's booth to the world's most valuable company. That's how Nvidia makes money.",
+   "say": "From a Denny's booth to the world's most valuable company. That's how Nvidia makes money.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Denny's booth",
+     "->",
+     "$5 trillion"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this helped, subscribe for more How They Make Money.",
+   "say": "If this helped, subscribe for more How They Make Money.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained from zero.",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Nvidia keeps 56 cents of every dollar. How a game-chip maker took over AI",
+  "ig": "Nvidia kept about 56 cents of profit from every dollar of sales in fiscal 2026.",
+  "tiktok": "From a Denny's booth to $5 trillion: how Nvidia makes money.",
+  "yt_desc": "Nvidia started at a Denny's in 1993 and became the first public company worth $5 trillion in October 2025. In fiscal 2026 it made $215.9 billion of revenue, 91% from data centers, and $120.1 billion of net income, about 56 cents per dollar. We cover the history from GeForce to CUDA to AlexNet, the fabless business model, the numbers from its filings, its CUDA moat, and the risks it lists. No stock tips, just the business model.\n\nCHAPTERS\n\nSources:\n- Nvidia fiscal 2026 results (Feb 25, 2026) and Form 10-K\n- Nvidia Q2 fiscal 2027 results (Aug 2026)\n- CNBC (Oct 29, 2025) on the $5 trillion valuation\n- Krizhevsky, Sutskever and Hinton, ImageNet 2012 (AlexNet)\n- Nvidia company history (founding 1993; GeForce 256, 1999; CUDA, 2006)\n- Costco and Apple fiscal 2025 annual reports (net margins)\n\nNews and education, not financial advice.\n\n#Nvidia #HowTheyMakeMoney #AI",
+  "tags": [
+   "how nvidia makes money",
+   "nvidia business model",
+   "nvidia revenue",
+   "cuda",
+   "ai chips",
+   "gpu explained",
+   "how they make money",
+   "FinanceProsTV"
+  ]
+ }
+}
