@@ -10,11 +10,11 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "In 47 states, workers pay nothing for unemployment insurance.",
-   "say": "In forty-seven states, workers pay nothing for unemployment insurance.",
+   "text": "Most workers pay $0 for unemployment insurance. So who does?",
+   "say": "Most workers pay zero for unemployment insurance. So who does?",
    "scene": {
     "t": "hook",
-    "title": "Your share of the [bill]",
+    "title": "Who pays for [unemployment]?",
     "prop": "paper",
     "label": "UI TAX",
     "value": "$0",
@@ -36,8 +36,8 @@
   },
   {
    "who": "ticker",
-   "text": "The federal tax is 6% on the first $7,000 of your pay. Pay the state tax on time, and a 5.4% credit cuts it to $42.",
-   "say": "The federal tax is six percent on the first seven thousand dollars of your pay. Pay the state tax on time, and a credit cuts it to forty-two dollars.",
+   "text": "The federal tax is 6% on the first $7,000 of your pay. In most states, a credit cuts that to $42 a year.",
+   "say": "The federal tax is six percent on the first seven thousand dollars of your pay. In most states, a credit cuts that to forty-two dollars a year.",
    "scene": {
     "t": "money",
     "from": {
@@ -45,7 +45,7 @@
      "value": "$420"
     },
     "to": {
-     "label": "after 5.4% credit",
+     "label": "after 5.4% credit (most states)",
      "value": "$42"
     }
    }
@@ -79,11 +79,11 @@
   },
   {
    "who": "ticker",
-   "text": "Lose your job through no fault of your own, and your state pays a weekly benefit. In 2026, top amounts range from $235 to $1,208.",
-   "say": "Lose your job through no fault of your own, and your state pays a weekly benefit. In twenty twenty-six, top amounts range from two hundred thirty-five dollars to twelve hundred eight.",
+   "text": "Laid off and eligible? Your state pays a weekly benefit. In 2026, the base maximum runs from $235 to $1,208.",
+   "say": "Laid off and eligible? Your state pays a weekly benefit. In twenty twenty-six, the base maximum runs from two hundred thirty-five dollars to twelve hundred and eight dollars.",
    "scene": {
     "t": "compare",
-    "title": "Max weekly benefit, 2026",
+    "title": "Max weekly benefit, 2026 (base)",
     "left": {
      "label": "Mississippi",
      "value": "$235",
@@ -94,7 +94,7 @@
      "label": "Washington",
      "value": "$1,208",
      "tone": "up",
-     "sub": "highest"
+     "sub": "highest base max"
     }
    }
   },
@@ -123,8 +123,8 @@
   },
   {
    "who": "ticker",
-   "text": "And it's taxable income, though you can ask your state to withhold 10% for federal tax.",
-   "say": "And it's taxable income, though you can ask your state to withhold ten percent for federal tax.",
+   "text": "And it's taxable federal income, though you can ask your state to withhold 10%.",
+   "say": "And it's taxable federal income, though you can ask your state to withhold ten percent.",
    "scene": {
     "t": "stat",
     "label": "Optional federal withholding",
@@ -143,10 +143,10 @@
   }
  ],
  "post": {
-  "title": "In 47 states, workers pay nothing for unemployment insurance",
-  "ig": "In 47 states, workers pay nothing for unemployment insurance. Employers do.\nThe federal tax is 6% on the first $7,000 of pay, cut to $42 per worker with a 5.4% credit. That $7,000 hasn't changed since 1983.\nOnly Alaska, New Jersey and Pennsylvania also take a slice from workers.\n2026 max weekly benefits range from $235 (Mississippi) to $1,208 (Washington). Most states pay up to 26 weeks; Florida as few as 12. Benefits are taxable.\nSources: IRS, US Department of Labor, state agencies.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#unemployment #taxes #jobs #personalfinance #financeprostv",
-  "tiktok": "In 47 states, workers pay nothing for unemployment insurance. Here's who does. Not financial advice. #moneytok #personalfinance #jobs #financeprostv",
-  "yt_desc": "Employers fund unemployment insurance through a federal tax (6% on the first $7,000 of pay, usually cut to $42 per worker by a 5.4% credit) and state taxes; only Alaska, New Jersey and Pennsylvania also tax workers (IRS, US Department of Labor). In 2026, max weekly benefits range from $235 in Mississippi to $1,208 in Washington, and benefits are taxable. News and education, not financial advice. #Shorts #unemployment #taxes",
+  "title": "Most workers pay $0 for unemployment insurance. So who does?",
+  "ig": "Most workers pay $0 for unemployment insurance. So who does?\nEmployers. The federal tax is 6% on the first $7,000 of pay, cut to $42 per worker in most states by a 5.4% credit. That $7,000 hasn't changed since 1983.\nOnly Alaska, New Jersey and Pennsylvania also take a slice from workers.\n2026 max weekly benefits (before dependent add-ons) range from $235 (Mississippi) to $1,208 (Washington). Most states pay up to 26 weeks; Florida as few as 12. Benefits are federally taxable.\nSources: IRS, US Department of Labor, state agencies.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#unemployment #taxes #jobs #personalfinance #financeprostv",
+  "tiktok": "Most workers pay $0 for unemployment insurance. So who does? Not financial advice. #moneytok #personalfinance #jobs #financeprostv",
+  "yt_desc": "Employers fund unemployment insurance through a federal tax (6% on the first $7,000 of pay, usually cut to $42 per worker by a 5.4% credit) and state taxes; only Alaska, New Jersey and Pennsylvania also tax workers (IRS, US Department of Labor). In 2026, max weekly benefits before dependent add-ons range from $235 in Mississippi to $1,208 in Washington, and benefits are federally taxable. News and education, not financial advice. #Shorts #unemployment #taxes",
   "tags": [
    "unemployment insurance explained",
    "who pays unemployment",
