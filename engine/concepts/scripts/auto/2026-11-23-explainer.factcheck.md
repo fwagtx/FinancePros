@@ -58,3 +58,24 @@ No quotes, allegations or hypothetical examples appear in the script.
 The verdict is FAIL because issues 1 (a wrong rounded figure, with spoken and on-screen values that disagree) and 2 (forward-looking, advice-like framing) must be fixed. After those edits the script should pass.
 
 VERDICT: FAIL
+
+## Round 2
+
+I re-read the revised raw.json. Spoken words now total 127, within the 100-150 target. The compare values "$1.16M" and "~$2,600" are 6 and 7 characters, within the limit. The keep:true on line 5 still follows a chart scene, which is OK. I found no new facts, time words, advice or political content.
+
+### Fixes confirmed
+- **Fix 1 (T-bill rate):** Line 8 now reads 3.4% in the text, the say ("three point four percent") and on screen ("~3.4% a year"). The post says "T-bills about 3.4%". 3.37% rounds to 3.4%, so this is correct. Line 8 is now also in the past tense ("barely swayed").
+- **Fix 2 (past tense):** Line 3 is in the past tense, and the board reads "More growth / came with / bigger drops". This is descriptive and no longer reads as advice or a prediction.
+- **Fix 3 (hook):** Per your house rule, the hook keeps the date: "Since nineteen twenty-eight, stocks turned a hundred dollars into a million." That is 11 words, about 3.3-3.5 seconds. It is true, specific and front-loads the payoff. I accept it under the house rule.
+- **Fix 4 (card value):** Line 2's card now shows "~$2,600", which matches the spoken "about twenty-six hundred".
+- **Fix 5 (label):** Line 6's label is now "US stocks, 1931".
+- **Fix 6 (inflation note):** "(before inflation)" was added to the post.
+
+### Remaining minor nits (none blocks the post)
+1. **Line 1: spoken and on-screen wording differ slightly.** The text says "over $1 million" but the say says "into a million". The real value is $1.16M, so the say understates a little. Suggested say: `Since nineteen twenty-eight, stocks turned a hundred dollars into over a million.` (12 words)
+2. **Line 6: text and say were not updated in fix 5.** They still begin "Its worst year". "Its" refers back to the S&P 500 named in lines 4-5, which conflicts mildly with the new "US stocks" label. Suggested text: `The worst year was 1931: a 43.8% loss.` Suggested say: `The worst year was nineteen thirty-one: a forty-three point eight percent loss.`
+3. **post.ig: two parenthetical asides in a row.** "by the end of 2025 (before inflation) (Damodaran, NYU Stern)." reads awkwardly. Suggested text: `grew to about $2,578 by the end of 2025, before inflation (Damodaran, NYU Stern).`
+
+All numbers match the independently verified data. Spoken and on-screen values agree apart from nit 1, which is a matter of rounding wording.
+
+VERDICT: PASS
