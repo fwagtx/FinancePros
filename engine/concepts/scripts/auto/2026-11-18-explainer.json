@@ -1,0 +1,198 @@
+{
+ "id": "2026-11-18-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why prices rise\nand we still buy",
+ "cover": {
+  "title": "Why Didn't We Buy Less Gas?",
+  "prop": "car",
+  "label": "2022",
+  "value": "+31%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2022, gas jumped 31%. Americans barely bought less.",
+   "say": "In twenty twenty-two, gas jumped thirty-one percent. Americans barely bought less.",
+   "scene": {
+    "t": "hook",
+    "title": "Gas [+31%] in 2022",
+    "prop": "car",
+    "label": "2022",
+    "value": "+31%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gas averaged $3.01 a gallon in 2021, then $3.95 in 2022.",
+   "say": "Gas averaged three dollars and one cent a gallon in twenty twenty-one, then three dollars and ninety-five cents in twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "title": "Regular gas yearly avg (EIA)",
+    "points": [
+     [
+      2021,
+      3.01
+     ],
+     [
+      2022,
+      3.95
+     ],
+     [
+      2023,
+      3.52
+     ],
+     [
+      2024,
+      3.3
+     ],
+     [
+      2025,
+      3.1
+     ]
+    ],
+    "prefix": "$",
+    "end": "$3.10",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Yet US gasoline use fell less than 1%. Why?",
+   "say": "Yet US gasoline use fell less than one percent. Why?",
+   "scene": {
+    "t": "compare",
+    "title": "2021 to 2022 (EIA)",
+    "left": {
+     "label": "Gas price",
+     "value": "+31%",
+     "tone": "up",
+     "sub": "$3.01 to $3.95"
+    },
+    "right": {
+     "label": "Gallons used",
+     "value": "-0.5%",
+     "tone": "down",
+     "sub": "8.82M to 8.78M b/d"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Part of the answer is price elasticity: % change in amount bought ÷ % change in price.",
+   "say": "Part of the answer is price elasticity: percent change in amount bought, divided by percent change in price.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price elasticity =",
+     "% change in amount bought",
+     "÷ % change in price"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: gas goes from $4.00 to $4.40, up 10%. Weekly gallons drop from 10 to 9.9, down 1%.",
+   "say": "Say gas goes from four dollars to four dollars and forty cents, up ten percent. Weekly gallons drop from ten to nine point nine, down one percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical example",
+    "left": {
+     "label": "Price",
+     "value": "+10%",
+     "tone": "up",
+     "sub": "$4.00 to $4.40"
+    },
+    "right": {
+     "label": "Gallons",
+     "value": "-1%",
+     "tone": "down",
+     "sub": "10 to 9.9 a week"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "-1% ÷ 10% = -0.1. That's inelastic: buyers barely react.",
+   "say": "Minus one divided by ten is minus zero point one. That's inelastic: buyers barely react.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "-1% ÷ 10% = -0.1",
+     "Under 1 in size:",
+     "inelastic"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the weekly bill rises from $40.00 to $43.56, and sellers collect more.",
+   "say": "So the weekly bill rises from forty dollars to forty-three dollars and fifty-six cents, and sellers collect more.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "10 gal x $4.00",
+     "value": "$40.00"
+    },
+    "to": {
+     "label": "9.9 gal x $4.40",
+     "value": "$43.56"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cigarettes too: a 10% price rise cuts cigarettes smoked only about 3 to 5%.",
+   "say": "Cigarettes too: a ten percent price rise cuts cigarettes smoked only about three to five percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Fewer cigarettes smoked",
+    "value": "3-5%",
+    "tone": "down",
+    "sub": "Per 10% price rise; NCI, CDC",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No quick substitute, so people keep buying as prices climb.",
+   "say": "No quick substitute, so people keep buying as prices climb.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No quick substitute",
+     "= people keep buying"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Gas jumped 31% in 2022. Why we barely bought less",
+  "ig": "In 2022, US gas prices jumped 31%. Americans barely bought less.\nRegular gas averaged $3.01/gal in 2021 and $3.95 in 2022, while US gasoline use fell less than 1% (EIA).\nThat's price elasticity: % change in amount bought divided by % change in price. Hypothetical: price +10%, gallons -1% = -0.1, inelastic, and the weekly bill rises from $40.00 to $43.56.\nCigarettes too: a 10% price rise cuts cigarettes smoked about 3-5%.\nSources: EIA retail gasoline prices and consumption data; National Cancer Institute Monograph 14; CDC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#priceelasticity #economics #gasprices #personalfinance #financeprostv",
+  "tiktok": "Gas jumped 31% in 2022 and we barely bought less. That's price elasticity. Not financial advice. #moneytok #personalfinance #economics #gasprices #financeprostv",
+  "yt_desc": "US regular gas averaged $3.01 a gallon in 2021 and $3.95 in 2022, up 31%, yet gasoline use fell less than 1% (EIA). That's inelastic demand: price elasticity is the % change in amount bought divided by the % change in price, and cigarettes show it too, with a 10% price rise cutting cigarettes smoked about 3-5% (National Cancer Institute, CDC). News and education, not financial advice.\n#Shorts #economics #personalfinance",
+  "tags": [
+   "price elasticity",
+   "inelastic demand",
+   "gas prices 2022",
+   "price elasticity of demand explained",
+   "economics explained"
+  ]
+ }
+}
