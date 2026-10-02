@@ -1,0 +1,1570 @@
+{
+ "series": "ticker",
+ "header": "How the stock market\nactually works",
+ "cover": {
+  "title": "Where Do Stock Trades Go?",
+  "prop": "tag",
+  "label": "Jan 2025",
+  "value": "51.8%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In January 2025, most U.S. stock trading happened off the exchanges.",
+   "say": "In January twenty twenty-five, most US stock trading happened off the exchanges.",
+   "scene": {
+    "t": "hook",
+    "title": "Off the [exchange]",
+    "prop": "tag",
+    "label": "Jan 2025",
+    "value": "51.8%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 51.8% of volume, traded away from places like the NYSE and Nasdaq, per Bloomberg data.",
+   "say": "That's fifty-one point eight percent of volume, traded away from places like the N Y S E and Nasdaq, per Bloomberg data.",
+   "scene": {
+    "t": "stat",
+    "label": "Off-exchange share of volume",
+    "value": "51.8%",
+    "tone": "neutral",
+    "sub": "Jan 2025, Bloomberg data"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So where does it go? And who decides the price you pay?",
+   "say": "So where does it go? And who decides the price you pay?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not on the exchange?",
+     "Then where?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that matters. In 2022, 58% of U.S. families owned stock, directly or through funds or retirement plans.",
+   "say": "And that matters. In twenty twenty-two, fifty-eight percent of US families owned stock, directly or through funds or retirement plans.",
+   "scene": {
+    "t": "chart",
+    "title": "US families owning stock",
+    "points": [
+     [
+      2007,
+      53.2
+     ],
+     [
+      2013,
+      48.8
+     ],
+     [
+      2016,
+      51.9
+     ],
+     [
+      2019,
+      52.6
+     ],
+     [
+      2022,
+      58.0
+     ]
+    ],
+    "suffix": "%",
+    "end": "58%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A record in the Fed's survey, up from 52.6% in 2019.",
+   "say": "A record in the Fed's survey, up from fifty-two point six percent in twenty nineteen.",
+   "scene": {
+    "t": "chart",
+    "title": "US families owning stock",
+    "points": [
+     [
+      2007,
+      53.2
+     ],
+     [
+      2013,
+      48.8
+     ],
+     [
+      2016,
+      51.9
+     ],
+     [
+      2019,
+      52.6
+     ],
+     [
+      2022,
+      58.0
+     ]
+    ],
+    "suffix": "%",
+    "end": "58%",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2022,
+     "text": "Record: 58%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what actually happens after you tap buy? By the end of this video, you'll know.",
+   "say": "So what actually happens after you tap buy? By the end of this video, you'll know.",
+   "scene": {
+    "t": "hook",
+    "title": "What happens [after]?",
+    "prop": "card",
+    "label": "BUY",
+    "value": "?",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The plan: what you own, where trades go, how prices form, and the scoreboard and rules.",
+   "say": "The plan: what you own, where trades go, how prices form, and the scoreboard and rules.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "What you own",
+     "Where trades go",
+     "How prices form",
+     "Scores and rules"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Education, not advice: no stock picks, no predictions. Just how the machine works.",
+   "say": "Education, not advice: no stock picks, no predictions. Just how the machine works.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education, not advice",
+     "How the machine works"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What you actually own.",
+   "say": "Chapter one: what you actually own.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What you actually own"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A share is a tiny slice of ownership in a company. Own one, and you own a sliver of the business.",
+   "say": "A share is a tiny slice of ownership in a company. Own one, and you own a sliver of the whole business.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 share =",
+     "a slice of a company"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Multiply the share price by the number of shares, and you get the company's total value, called market cap.",
+   "say": "Multiply the share price by the number of shares, and you get the company's total value. That's called its market cap.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Market cap =",
+     "price x shares"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a made-up company has 1,000,000 shares at $50 each. That's a $50,000,000 market cap.",
+   "say": "Here's an example. A made-up company has one million shares at fifty dollars each. That's a fifty million dollar market cap.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "1,000,000 shares at",
+     "value": "$50"
+    },
+    "to": {
+     "label": "Market cap",
+     "value": "$50M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the price ticks up to $51, the market cap becomes $51,000,000. That's $1,000,000 more, on paper.",
+   "say": "If the price ticks up to fifty-one dollars, the market cap becomes fifty-one million. That's one million dollars more, on paper.",
+   "scene": {
+    "t": "compare",
+    "title": "Same company, new price",
+    "left": {
+     "label": "At $50",
+     "value": "$50M",
+     "tone": "neutral",
+     "sub": "1,000,000 shares"
+    },
+    "right": {
+     "label": "At $51",
+     "value": "$51M",
+     "tone": "up",
+     "sub": "+$1M on paper"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the twist: the company didn't get a cent of that extra million. Investors just traded with each other.",
+   "say": "Here's the twist. The company didn't get a cent of that extra million. Investors just traded with each other.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Company gets: $0",
+     "Investors swap shares"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the big split. In an IPO, the company sells new shares and keeps the cash. After that, investors trade with each other.",
+   "say": "That's the big split. In an initial public offering, or I P O, the company sells new shares and keeps the cash. After that, investors trade with each other.",
+   "scene": {
+    "t": "split",
+    "title": "Two markets",
+    "left": {
+     "title": "IPO (primary)",
+     "items": [
+      "Company sells",
+      "Company gets cash"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "After (secondary)",
+     "items": [
+      "Investors trade",
+      "Company gets $0"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, 202 U.S. IPOs raised $44.0 billion combined, a four-year high, per Renaissance Capital.",
+   "say": "In twenty twenty-five, two hundred two US I P Os raised forty-four billion dollars combined, a four-year high, according to Renaissance Capital.",
+   "scene": {
+    "t": "stat",
+    "label": "US IPOs in 2025",
+    "value": "202",
+    "tone": "up",
+    "sub": "Raised $44.0B, Renaissance"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest was Medline, which raised $6.3 billion, the largest U.S. IPO since 2021.",
+   "say": "The biggest was Medline, which raised six point three billion dollars, the largest US I P O since twenty twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Largest 2025 US IPO: Medline",
+    "value": "$6.3B",
+    "tone": "neutral",
+    "sub": "Biggest since 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The share count can change, too. In June 2024, Nvidia split each share into 10. More slices, same pizza.",
+   "say": "The share count can change, too. In June twenty twenty-four, Nvidia split each share into ten. More slices, same pizza.",
+   "scene": {
+    "t": "hook",
+    "title": "More [slices]",
+    "prop": "paper",
+    "label": "Nvidia",
+    "value": "x10",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a stock price alone tells you very little. $50 a share means nothing until you know how many shares exist.",
+   "say": "So a stock price on its own tells you very little. Fifty dollars a share means nothing until you know how many shares exist.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price alone?",
+     "Check the share count"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add up every company, and the U.S. stock market was worth $68.9 trillion in 2025, 43.7% of the world's total, per SIFMA.",
+   "say": "Add up every company, and the US stock market was worth sixty-eight point nine trillion dollars in twenty twenty-five. That's forty-three point seven percent of the world's total, according to SIFMA.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "43.7% of world"
+     }
+    ],
+    "prop": "bag",
+    "label": "$68.9T",
+    "caption": "US stock market, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That made it 4.4 times the size of China's, the next biggest stock market.",
+   "say": "That made it four point four times the size of China's, the next biggest stock market.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "x4.4"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "Next biggest"
+     }
+    ],
+    "prop": "bag",
+    "label": "$68.9T",
+    "caption": "SIFMA, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Where trades happen.",
+   "say": "Chapter two: where trades happen.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Where trades happen"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It started, more or less, under a tree. On May 17, 1792, 24 brokers signed the Buttonwood Agreement in New York.",
+   "say": "It started, more or less, under a tree. On May seventeenth, seventeen ninety-two, twenty-four brokers signed the Buttonwood Agreement in New York.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1792",
+      "what": "Buttonwood Agreement"
+     },
+     {
+      "when": "1971",
+      "what": "Nasdaq opens"
+     },
+     {
+      "when": "2026",
+      "what": "23-hour trading plan"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That deal grew into the New York Stock Exchange. Then on Feb. 8, 1971, Nasdaq opened as the world's first electronic stock market.",
+   "say": "That deal grew into the New York Stock Exchange. Then, on February eighth, nineteen seventy-one, Nasdaq opened as the world's first electronic stock market.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1792",
+      "what": "Buttonwood Agreement"
+     },
+     {
+      "when": "1971",
+      "what": "Nasdaq opens"
+     },
+     {
+      "when": "2026",
+      "what": "23-hour trading plan"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An exchange is basically a giant matching engine: buy orders on one side, sell orders on the other, paired up by computer.",
+   "say": "An exchange is basically a giant matching engine. Buy orders on one side, sell orders on the other, paired up by computer.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Exchange =",
+     "a matching engine"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The regular session runs 9:30 a.m. to 4 p.m. Eastern, Monday through Friday, minus holidays.",
+   "say": "The regular session runs from nine thirty A M to four P M Eastern, Monday through Friday, minus holidays.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "STOCK EXCHANGE",
+    "label": "9:30-4:00",
+    "caption": "Eastern Time, weekdays"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, for example, markets close for Thanksgiving on Nov. 26, then close early, at 1 p.m., the day after.",
+   "say": "In twenty twenty-six, for example, markets close for Thanksgiving on November twenty-sixth, then close early, at one P M, the day after.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nov 26, 2026: closed",
+     "Nov 27: 1 p.m. close"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And those hours are set to stretch. On April 10, 2026, the SEC approved Nasdaq's plan to trade 23 hours a day, five days a week.",
+   "say": "And those hours are set to stretch. On April tenth, twenty twenty-six, the S E C approved Nasdaq's plan to trade twenty-three hours a day, five days a week.",
+   "scene": {
+    "t": "news",
+    "headline": "SEC approves Nasdaq plan for 23-hour trading",
+    "source": "SEC approval, April 10, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of September 2026, Nasdaq and NYSE Arca planned a new overnight session, 9 p.m. to 4 a.m. Eastern, starting Dec. 6, 2026.",
+   "say": "As of September twenty twenty-six, Nasdaq and N Y S E Arca planned a new overnight session, from nine P M to four A M Eastern, starting December sixth, twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Planned hours (Eastern)",
+    "left": {
+     "label": "Core session",
+     "value": "9:30-4",
+     "tone": "neutral",
+     "sub": "Benchmark session"
+    },
+    "right": {
+     "label": "Overnight",
+     "value": "9p-4a",
+     "tone": "up",
+     "sub": "Plan: Dec 6, 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? Demand for U.S. stocks from overseas, and competition from crypto platforms that never close.",
+   "say": "Why? Demand for US stocks from overseas, and competition from crypto platforms that never close.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Open late?"
+     },
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "Our daytime!"
+     }
+    ],
+    "prop": "tag",
+    "label": "23 hours",
+    "caption": "Planned overnight session"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That plan still depended on final sign-offs and on the price-reporting systems being ready.",
+   "say": "That plan still depended on final sign-offs and on the price-reporting systems being ready.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Overnight: still subject",
+     "to final approvals"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, back to that opening mystery. If most volume skips the exchanges, where does it go?",
+   "say": "Now, back to the opening mystery. If most volume skips the exchanges, where does it go?",
+   "scene": {
+    "t": "hook",
+    "title": "Where does it [go]?",
+    "prop": "box",
+    "label": "Jan 2025",
+    "value": "51.8%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two main places. First, wholesalers: big trading firms that fill orders sent by everyday investors' brokers. They handle most of it.",
+   "say": "Two main places. First, wholesalers: big trading firms that fill orders sent over by everyday investors' brokers. They handle most of it.",
+   "scene": {
+    "t": "list",
+    "title": "Off-exchange venues",
+    "items": [
+     "Wholesalers",
+     "Dark pools"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, dark pools: private trading systems where big investors can trade without showing their orders to the public first.",
+   "say": "Second, dark pools. Those are private trading systems where big investors can trade without showing their orders to the public first.",
+   "scene": {
+    "t": "list",
+    "title": "Off-exchange venues",
+    "items": [
+     "Wholesalers",
+     "Dark pools"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when you tap buy in a brokerage app, your order may never reach the NYSE. A wholesaler may fill it instead.",
+   "say": "So when you tap buy in a brokerage app, your order may never reach the N Y S E at all. A wholesaler may fill it instead.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your 'buy' tap",
+     "may go to a wholesaler"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those trades still get reported, and brokers must seek the best execution reasonably available for your order.",
+   "say": "Those trades still get reported, and brokers must seek the best execution reasonably available for your order.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Still reported",
+     "Best-execution duty"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: How a price gets set.",
+   "say": "Chapter three: how a price gets set.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "How a price gets set"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every stock has two prices at once. The bid is the most a buyer will pay. The ask is the least a seller will take.",
+   "say": "Every stock has two prices at once. The bid is the most a buyer will pay. The ask is the least a seller will take.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bid = best buyer price",
+     "Ask = best seller price"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's an example quote: a bid of $49.98, and an ask of $50.02.",
+   "say": "Here's an example quote: a bid of forty-nine dollars and ninety-eight cents, and an ask of fifty dollars and two cents.",
+   "scene": {
+    "t": "compare",
+    "title": "Example quote",
+    "left": {
+     "label": "Bid",
+     "value": "$49.98",
+     "tone": "neutral",
+     "sub": "Best buyer"
+    },
+    "right": {
+     "label": "Ask",
+     "value": "$50.02",
+     "tone": "neutral",
+     "sub": "Best seller"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The gap between them is called the spread. In this example, it's 4 cents.",
+   "say": "The gap between them is called the spread. In this example, it's four cents.",
+   "scene": {
+    "t": "stat",
+    "label": "Spread (example)",
+    "value": "$0.04",
+    "tone": "neutral",
+    "sub": "$50.02 minus $49.98"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Market makers live on that gap. They post both prices all day, earn the spread, and risk the price moving against them.",
+   "say": "Market makers live on that gap. They post both prices all day, earn the spread, and risk the price moving against them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Market makers",
+     "quote both sides"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the orders. A market order says: fill me right now, at whatever the going price is.",
+   "say": "Now, the orders. A market order says: fill me right now, at whatever the going price is.",
+   "scene": {
+    "t": "list",
+    "title": "Order types",
+    "items": [
+     "Market order",
+     "Limit order",
+     "Stop order"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A limit order says: fill me only at this price or better. If nobody agrees, it may not fill at all.",
+   "say": "A limit order says: fill me only at this price or better. If nobody agrees to that price, it may not fill at all.",
+   "scene": {
+    "t": "list",
+    "title": "Order types",
+    "items": [
+     "Market order",
+     "Limit order",
+     "Stop order"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a stop order waits for a trigger price, then turns into a market order.",
+   "say": "And a stop order waits quietly for a trigger price, then turns into a market order.",
+   "scene": {
+    "t": "list",
+    "title": "Order types",
+    "items": [
+     "Market order",
+     "Limit order",
+     "Stop order"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back to our example. A market order for 100 shares fills near the ask: 100 x $50.02 = $5,002.",
+   "say": "Back to our example. A market order for a hundred shares fills near the ask. A hundred times fifty dollars and two cents is five thousand and two dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "100 shares at ask",
+     "value": "$50.02"
+    },
+    "to": {
+     "label": "Total paid",
+     "value": "$5,002"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sell them right back at the bid: 100 x $49.98 = $4,998.",
+   "say": "Sell them right back at the bid, and a hundred times forty-nine dollars and ninety-eight cents is four thousand, nine hundred ninety-eight dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "100 shares at bid",
+     "value": "$49.98"
+    },
+    "to": {
+     "label": "Total received",
+     "value": "$4,998"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That round trip cost $4, or 0.08% of $5,000, before any fees, and nothing even happened.",
+   "say": "That round trip cost four dollars, or zero point zero eight percent of five thousand, before any fees, and nothing even happened.",
+   "scene": {
+    "t": "stat",
+    "label": "Round-trip spread cost",
+    "value": "$4",
+    "tone": "down",
+    "sub": "0.08% of $5,000 (example)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A limit buy at $50.00 caps the cost at $5,000. But it only fills if a seller agrees to $50 or less.",
+   "say": "A limit buy at fifty dollars caps the cost at five thousand dollars. But it only fills if some seller agrees to fifty dollars or less.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Limit buy at $50.00",
+     "Max cost: $5,000",
+     "Fill not guaranteed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So it's a trade-off. A market order buys speed. A limit order buys control over the price.",
+   "say": "So it's a trade-off. A market order buys you speed. A limit order buys you control over the price.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "Market order",
+     "items": [
+      "Fills fast",
+      "Price can slip"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Limit order",
+     "items": [
+      "Price capped",
+      "May not fill"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So why do prices move at all? When buyers keep taking the ask, sellers raise the ask, and the price climbs.",
+   "say": "So why do prices move at all? When buyers keep taking the ask, sellers raise the ask, and the price climbs.",
+   "scene": {
+    "t": "hook",
+    "title": "Why prices [rise]",
+    "prop": "chart-up",
+    "label": "Ask",
+    "value": "UP",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When sellers keep hitting the bid, buyers lower their bids, and the price falls.",
+   "say": "And when sellers keep hitting the bid, buyers lower their bids, and the price falls.",
+   "scene": {
+    "t": "hook",
+    "title": "Why prices [fall]",
+    "prop": "chart-down",
+    "label": "Bid",
+    "value": "DOWN",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A stock price is just the last deal two sides agreed on. News, earnings, interest rates and mood all change what people will agree to.",
+   "say": "A stock price is just the last deal two sides agreed on. News, earnings, interest rates and mood all change what people will agree to.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price =",
+     "the last agreed deal"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's also why nobody can promise where a price goes next. It depends on decisions that haven't been made yet.",
+   "say": "That's also why nobody can promise where a price goes next. It depends on decisions that haven't been made yet.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Next price =",
+     "decisions not made yet"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: The scoreboard.",
+   "say": "Chapter four: the scoreboard.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The scoreboard"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the news says the market was up, it usually means an index: a scoreboard built from many stocks.",
+   "say": "When the news says the market was up, it usually means an index. That's a scoreboard built from many stocks at once.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "'The market' =",
+     "usually an index"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The most watched one is the S&P 500: about 500 large U.S. companies, picked by a committee, since 1957.",
+   "say": "The most watched one is the S and P five hundred: about five hundred large US companies, picked by a committee, since nineteen fifty-seven.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 launched",
+    "value": "1957",
+    "tone": "neutral",
+    "sub": "~500 large US companies"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To be added, a company needs a market cap of at least $22.7 billion, under rules updated in July 2025.",
+   "say": "To be added, a company needs a market cap of at least twenty-two point seven billion dollars, under rules updated in July twenty twenty-five.",
+   "scene": {
+    "t": "list",
+    "title": "S&P 500 entry rules",
+    "items": [
+     "$22.7B+ market cap",
+     "Based in the US",
+     "Listed in the US",
+     "Positive earnings"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also has to be based in the U.S., listed on a U.S. exchange, and profitable in its latest quarter and its last four quarters combined.",
+   "say": "It also has to be based in the US, listed on a US exchange, and profitable, in its latest quarter and its last four quarters combined.",
+   "scene": {
+    "t": "list",
+    "title": "S&P 500 entry rules",
+    "items": [
+     "$22.7B+ market cap",
+     "Based in the US",
+     "Listed in the US",
+     "Positive earnings"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the part most people miss: the index is weighted by market cap. Bigger companies count more.",
+   "say": "Now here's the part most people miss. The index is weighted by market cap, so bigger companies count for more.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bigger company =",
+     "bigger weight"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $4 trillion company counts 200 times as much as a $20 billion one ($4,000B / $20B = 200).",
+   "say": "For example, a company worth four trillion dollars counts two hundred times as much as one worth twenty billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Weight (example)",
+    "left": {
+     "label": "Small member",
+     "value": "$20B",
+     "tone": "neutral",
+     "sub": "Weight: 1x"
+    },
+    "right": {
+     "label": "Giant member",
+     "value": "$4T",
+     "tone": "up",
+     "sub": "Weight: 200x"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By mid-2026, the 10 largest companies made up about 40% of the S&P 500.",
+   "say": "By mid twenty twenty-six, the ten largest companies made up about forty percent of the S and P five hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "Top 10 share of S&P 500",
+    "value": "~40%",
+    "tone": "neutral",
+    "sub": "Mid-2026, approx."
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare that with the dot-com peak in 2000, when the top 10 were about 26%.",
+   "say": "Compare that with the dot-com peak in two thousand, when the top ten were about twenty-six percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Top 10 weight",
+    "left": {
+     "label": "2000 peak",
+     "value": "~26%",
+     "tone": "neutral",
+     "sub": "Dot-com era"
+    },
+    "right": {
+     "label": "Mid-2026",
+     "value": "~40%",
+     "tone": "up",
+     "sub": "Record high"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the scoreboard was more concentrated in 2026 than at any point on record.",
+   "say": "So in twenty twenty-six, the scoreboard was more concentrated than at any point on record.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "Top 10 weight",
+    "left": {
+     "label": "2000 peak",
+     "value": "~26%",
+     "tone": "neutral",
+     "sub": "Dot-com era"
+    },
+    "right": {
+     "label": "Mid-2026",
+     "value": "~40%",
+     "tone": "up",
+     "sub": "Record high"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In plain dollars: roughly $40 of every $100 in an S&P 500 index fund sat in just 10 companies.",
+   "say": "In plain dollars, roughly forty of every hundred dollars in an S and P five hundred index fund sat in just ten companies.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "S&P 500 fund",
+     "value": "$100"
+    },
+    "to": {
+     "label": "In top 10 stocks",
+     "value": "~$40"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The scoreboard at each year's end: 2,043.94 in 2015, and 6,845.50 in 2025.",
+   "say": "Here's the scoreboard at each year's end: about two thousand forty-four in twenty fifteen, and about six thousand eight hundred forty-six in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500, year-end close",
+    "points": [
+     [
+      2015,
+      2043.94
+     ],
+     [
+      2016,
+      2238.83
+     ],
+     [
+      2017,
+      2673.61
+     ],
+     [
+      2018,
+      2506.85
+     ],
+     [
+      2019,
+      3230.78
+     ],
+     [
+      2020,
+      3756.07
+     ],
+     [
+      2021,
+      4766.18
+     ],
+     [
+      2022,
+      3839.5
+     ],
+     [
+      2023,
+      4769.83
+     ],
+     [
+      2024,
+      5881.63
+     ],
+     [
+      2025,
+      6845.5
+     ]
+    ],
+    "end": "6,845.50",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But look at 2022. The index fell about 19% that year.",
+   "say": "But look at twenty twenty-two. The index fell about nineteen percent that year.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2022,
+     "text": "About -19% in 2022"
+    },
+    "title": "S&P 500, year-end close",
+    "points": [
+     [
+      2015,
+      2043.94
+     ],
+     [
+      2016,
+      2238.83
+     ],
+     [
+      2017,
+      2673.61
+     ],
+     [
+      2018,
+      2506.85
+     ],
+     [
+      2019,
+      3230.78
+     ],
+     [
+      2020,
+      3756.07
+     ],
+     [
+      2021,
+      4766.18
+     ],
+     [
+      2022,
+      3839.5
+     ],
+     [
+      2023,
+      4769.83
+     ],
+     [
+      2024,
+      5881.63
+     ],
+     [
+      2025,
+      6845.5
+     ]
+    ],
+    "end": "6,845.50",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then in 2025, it gained about 16.4%, even after a rough spring.",
+   "say": "Then in twenty twenty-five, it gained about sixteen point four percent, even after a rough spring.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "About +16.4% in 2025"
+    },
+    "title": "S&P 500, year-end close",
+    "points": [
+     [
+      2015,
+      2043.94
+     ],
+     [
+      2016,
+      2238.83
+     ],
+     [
+      2017,
+      2673.61
+     ],
+     [
+      2018,
+      2506.85
+     ],
+     [
+      2019,
+      3230.78
+     ],
+     [
+      2020,
+      3756.07
+     ],
+     [
+      2021,
+      4766.18
+     ],
+     [
+      2022,
+      3839.5
+     ],
+     [
+      2023,
+      4769.83
+     ],
+     [
+      2024,
+      5881.63
+     ],
+     [
+      2025,
+      6845.5
+     ]
+    ],
+    "end": "6,845.50",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over the long run, the S&P 500 has averaged about 10% a year since 1957, with dividends reinvested, before inflation.",
+   "say": "Over the long run, the S and P five hundred has averaged about ten percent a year since nineteen fifty-seven, with dividends reinvested, before inflation.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg yearly return since 1957",
+    "value": "~10%",
+    "tone": "up",
+    "sub": "Incl. dividends, nominal"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the average hides a lot. The index rarely returns anything close to 10% in a single year. It's booms and busts, averaged.",
+   "say": "But the average hides a lot. The index rarely returns anything close to ten percent in a single year. It's booms and busts, averaged out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Average is not",
+     "a typical year"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And past returns are history. They don't promise anything about the next decade.",
+   "say": "And past returns are just history. They don't promise anything about the next decade.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Past returns:",
+     "history, not a promise"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Referees and safety nets.",
+   "say": "Chapter five: referees and safety nets.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Referees and safety nets"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The top referee is the Securities and Exchange Commission, created by the Securities Exchange Act of 1934.",
+   "say": "The top referee is the Securities and Exchange Commission, created by the Securities Exchange Act of nineteen thirty-four.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "SEC",
+    "label": "Est. 1934",
+    "caption": "The federal market regulator"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its job, in its own words: \"to protect investors; maintain fair, orderly, and efficient markets; and facilitate capital formation.\"",
+   "say": "Its job, in its own words, is to protect investors, maintain fair, orderly, and efficient markets, and facilitate capital formation.",
+   "scene": {
+    "t": "quote",
+    "text": "to protect investors; maintain fair, orderly, and efficient markets; and facilitate capital formation",
+    "source": "SEC mission statement, sec.gov"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Below the SEC sits FINRA, a nonprofit formed in 2007 to police brokerage firms. The SEC oversees FINRA, too.",
+   "say": "Below the S E C sits FINRA, a nonprofit formed in two thousand seven to police brokerage firms. And the S E C oversees FINRA, too.",
+   "scene": {
+    "t": "split",
+    "title": "Who referees what",
+    "left": {
+     "title": "SEC",
+     "items": [
+      "Federal agency",
+      "Oversees exchanges",
+      "Oversees FINRA"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "FINRA",
+     "items": [
+      "Nonprofit, 2007",
+      "Polices brokers"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, settlement. Your trade happens in a blink, but the cash and the shares officially swap later.",
+   "say": "Next up, settlement. Your trade happens in a blink, but the cash and the shares officially swap hands later.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Trade: instant",
+     "Settlement: later"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since May 28, 2024, most U.S. stock trades settle in one business day, called T+1. Before that, it took two.",
+   "say": "Since May twenty-eighth, twenty twenty-four, most US stock trades settle in one business day, called T plus one. Before that, it took two.",
+   "scene": {
+    "t": "compare",
+    "title": "Settlement cycle",
+    "left": {
+     "label": "Before",
+     "value": "T+2",
+     "tone": "neutral",
+     "sub": "2 business days"
+    },
+    "right": {
+     "label": "Since May 28, 2024",
+     "value": "T+1",
+     "tone": "up",
+     "sub": "1 business day"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One less day means one less day for something to go wrong between buyer and seller.",
+   "say": "One less day means one less day for something to go wrong between the buyer and the seller.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "Settlement cycle",
+    "left": {
+     "label": "Before",
+     "value": "T+2",
+     "tone": "neutral",
+     "sub": "2 business days"
+    },
+    "right": {
+     "label": "Since May 28, 2024",
+     "value": "T+1",
+     "tone": "up",
+     "sub": "1 business day"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there are the emergency brakes, called circuit breakers.",
+   "say": "And then there are the emergency brakes, called circuit breakers.",
+   "scene": {
+    "t": "hook",
+    "title": "Emergency [brakes]",
+    "prop": "fire",
+    "label": "S&P 500",
+    "value": "-7%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the S&P 500 falls 7% from the prior day's close, trading across the whole market stops for 15 minutes.",
+   "say": "If the S and P five hundred falls seven percent from the prior day's close, trading across the whole market stops for fifteen minutes.",
+   "scene": {
+    "t": "list",
+    "title": "Circuit breakers",
+    "items": [
+     "-7%: 15-min halt",
+     "-13%: 15-min halt",
+     "-20%: done for day"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 13%, there's another 15-minute halt. Those two only kick in before 3:25 p.m. Eastern.",
+   "say": "At thirteen percent, there's another fifteen-minute halt. Those two only kick in before three twenty-five P M Eastern.",
+   "scene": {
+    "t": "list",
+    "title": "Circuit breakers",
+    "items": [
+     "-7%: 15-min halt",
+     "-13%: 15-min halt",
+     "-20%: done for day"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And at 20%, trading stops for the rest of the day, no matter the time.",
+   "say": "And at twenty percent, trading stops for the rest of the day, no matter the time.",
+   "scene": {
+    "t": "list",
+    "title": "Circuit breakers",
+    "items": [
+     "-7%: 15-min halt",
+     "-13%: 15-min halt",
+     "-20%: done for day"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Have they ever fired? Yes. In March 2020, the 7% breaker tripped four times: on the 9th, 12th, 16th and 18th.",
+   "say": "Have they ever fired? Yes. In March twenty twenty, the seven percent breaker tripped four times: on the ninth, twelfth, sixteenth and eighteenth.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Mar 9, 2020",
+      "what": "7% halt"
+     },
+     {
+      "when": "Mar 12",
+      "what": "7% halt"
+     },
+     {
+      "when": "Mar 16",
+      "what": "7% halt"
+     },
+     {
+      "when": "Mar 18",
+      "what": "7% halt"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before that, the last market-wide halt came in October 1997, under older rules tied to the Dow.",
+   "say": "Before that, the last market-wide halt came in October nineteen ninety-seven, under older rules tied to the Dow.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Before 2020:",
+     "Oct 1997, old rules"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap.",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: a share is a slice of a company. After the IPO, the company gets nothing from the trading.",
+   "say": "One. A share is a slice of a company, and after the I P O, the company gets nothing from the trading.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Shares = ownership",
+     "Many trade venues",
+     "Bid vs. ask",
+     "Index = scoreboard"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: trades happen in many places. In January 2025, 51.8% of volume ran off the exchanges, mostly through wholesalers.",
+   "say": "Two. Trades happen in many places. In January twenty twenty-five, fifty-one point eight percent of volume ran off the exchanges, mostly through wholesalers.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Shares = ownership",
+     "Many trade venues",
+     "Bid vs. ask",
+     "Index = scoreboard"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: every price is a bid and an ask. Market orders buy speed, limit orders buy control, and the spread is the toll.",
+   "say": "Three. Every price is a bid and an ask. Market orders buy speed, limit orders buy control, and the spread is the toll.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Shares = ownership",
+     "Many trade venues",
+     "Bid vs. ask",
+     "Index = scoreboard"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: the S&P 500 is a scoreboard weighted by size, with about 40% in 10 companies by mid-2026.",
+   "say": "Four. The S and P five hundred is a scoreboard weighted by size, with about forty percent in ten companies by mid twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Shares = ownership",
+     "Many trade venues",
+     "Bid vs. ask",
+     "Index = scoreboard"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the referees: the SEC and FINRA, one-day settlement, and circuit breakers at 7%, 13% and 20%.",
+   "say": "And the referees: the S E C and FINRA, one-day settlement, and circuit breakers at seven, thirteen and twenty percent.",
+   "scene": {
+    "t": "list",
+    "title": "Safety nets",
+    "items": [
+     "SEC + FINRA",
+     "T+1 settlement",
+     "Breakers: 7/13/20%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the stock market isn't one building on Wall Street. It's buyers and sellers, matched by machines in many places, under one set of rules.",
+   "say": "So the stock market isn't one building on Wall Street. It's buyers and sellers, matched by machines in many places, under one set of rules.",
+   "scene": {
+    "t": "hook",
+    "title": "Not one [place]",
+    "prop": "box",
+    "label": "Jan 2025",
+    "value": "51.8%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "51.8% of US stock trading skipped the exchanges (Jan 2025). How the market really works",
+  "ig": "In January 2025, 51.8% of US stock trading happened off the exchanges. Here's where it went, and how prices really get set.",
+  "tiktok": "In January 2025, most US stock trading skipped the exchanges. Here's how the stock market actually works.",
+  "yt_desc": "How the stock market actually works, from zero: what a share is and why the company gets nothing after its IPO, where trades really happen (in January 2025, 51.8% of US stock volume ran off the exchanges, through wholesalers and dark pools), and the planned 23-hour trading day. It walks through a hypothetical bid-ask example ($49.98 bid, $50.02 ask, a $4 round trip on 100 shares), market versus limit orders, how the S&P 500 is built and weighted (about 40% in its top 10 by mid-2026), and the year-end S&P 500 record from 2015 to 2025. It ends with the referees and safety nets: the SEC, FINRA, T+1 settlement since May 28, 2024, and the 7%, 13% and 20% circuit breakers.\n\nCHAPTERS\n\nSources: Bloomberg data on off-exchange volume (January 2025); MEMX (February 2025); Federal Reserve, Survey of Consumer Finances 2022 (October 2023); SIFMA 2026 Capital Markets Fact Book; Renaissance Capital, US IPO Market 2025 Annual Review; NYSE history (Buttonwood Agreement, 1792); Nasdaq (1971); NYSE Group 2026 holiday calendar; SEC approval of Nasdaq 23x5 trading (April 10, 2026) and law-firm alerts (September 2026); SEC Investor.gov (order types, T+1, circuit breakers); FINRA; S&P Dow Jones Indices (July 1, 2025 market cap guidelines); Visual Capitalist (2026 S&P 500 weights); CNBC (December 31, 2025); NYSE market-wide circuit breaker FAQ.\n\nNews and education, not financial advice.\n\n#stockmarket #investing #personalfinance",
+  "tags": [
+   "how the stock market works",
+   "stock market for beginners",
+   "bid ask spread",
+   "limit order vs market order",
+   "S&P 500 explained",
+   "circuit breakers",
+   "personal finance"
+  ]
+ }
+}
