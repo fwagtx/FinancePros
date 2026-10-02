@@ -1,0 +1,165 @@
+{
+ "id": "2026-11-21-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Twitch pays\nstreamers",
+ "cover": {
+  "title": "Who Gets Your $5.99 Sub?",
+  "prop": "tag",
+  "label": "Twitch sub",
+  "value": "50%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2026, Twitch keeps about half of your $5.99 sub.",
+   "say": "In twenty twenty-six, Twitch keeps about half your five ninety-nine sub.",
+   "scene": {
+    "t": "hook",
+    "title": "Twitch keeps [half]",
+    "prop": "tag",
+    "label": "2026: $5.99",
+    "value": "50%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Twitch's default split is 50/50 of net sub revenue, after taxes and some fees.",
+   "say": "By default, Twitch splits sub revenue fifty-fifty, after taxes and some fees.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Default sub split:",
+     "50% streamer, 50% Twitch",
+     "of net revenue"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: 100 paid Tier 1 subs is $599 a month. At 50/50, the streamer gets $299.50 before taxes and fees.",
+   "say": "Take a hundred tier one subs. That's five hundred ninety-nine dollars a month, and at fifty-fifty, the streamer gets two ninety-nine fifty.",
+   "scene": {
+    "t": "compare",
+    "title": "100 subs (hypothetical)",
+    "left": {
+     "label": "Viewers pay",
+     "value": "$599",
+     "tone": "neutral",
+     "sub": "100 x $5.99"
+    },
+    "right": {
+     "label": "Streamer",
+     "value": "$299.50",
+     "tone": "down",
+     "sub": "at 50/50"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Twitch's Plus Program raises the cut: 60/40 at 100 Plus Points, 70/30 at 300, held three months.",
+   "say": "Twitch's Plus Program raises that: sixty-forty at a hundred Plus Points, seventy-thirty at three hundred, held three months.",
+   "scene": {
+    "t": "list",
+    "title": "Twitch sub splits",
+    "items": [
+     "50/50: default",
+     "60/40: 100 points",
+     "70/30: 300 points"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those 100 paid subs are 100 Plus Points, so 60/40: $359.40. Gifted subs don't count.",
+   "say": "Those hundred paid subs are a hundred Plus Points, so sixty-forty: three hundred fifty-nine dollars and forty cents. Gifted subs don't count.",
+   "scene": {
+    "t": "stat",
+    "label": "100 subs at 60/40",
+    "value": "$359.40",
+    "tone": "up",
+    "sub": "gross, before taxes and fees",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bits differ: viewers pay about $1.40 for 100 Bits; the streamer gets $1.",
+   "say": "Bits differ. Viewers pay about a dollar forty for a hundred Bits; the streamer gets a dollar.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Viewer pays",
+     "value": "$1.40"
+    },
+    "to": {
+     "label": "Streamer gets",
+     "value": "$1.00"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rivals pitch bigger cuts: YouTube memberships pay creators 70%, and Kick says creators keep 95% of subs.",
+   "say": "Rivals pitch bigger cuts: YouTube memberships pay seventy percent, and Kick says creators keep ninety-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Creator's cut of a sub",
+    "left": {
+     "label": "YouTube",
+     "value": "70%",
+     "tone": "neutral",
+     "sub": "memberships"
+    },
+    "right": {
+     "label": "Kick",
+     "value": "95%",
+     "tone": "up",
+     "sub": "subs, per Kick"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Twitch still led live streaming, with 19.2 billion hours watched in 2025 (Stream Hatchet).",
+   "say": "Twitch still led live streaming, with nineteen point two billion hours watched in twenty twenty-five, according to Stream Hatchet.",
+   "scene": {
+    "t": "stat",
+    "label": "Twitch hours watched, 2025",
+    "value": "19.2B",
+    "tone": "neutral",
+    "sub": "Stream Hatchet",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your $5.99 Twitch sub: how much the streamer gets",
+  "ig": "In 2026, Twitch keeps about half of most streamers' $5.99 subs.\n\nTwitch's default split is 50/50 of net sub revenue. Its Plus Program pays 60/40 at 100 Plus Points and 70/30 at 300, held for 3 months (gifted subs don't count).\nHypothetical: 100 Tier 1 subs = $599 a month: $299.50 at 50/50, $359.40 at 60/40 (100 Plus Points), before taxes and fees.\nBits: viewers pay about $1.40 for 100 Bits; the streamer gets $1. Ads pay 55% with 3+ ad minutes an hour.\nYouTube memberships pay creators 70%; Kick says creators keep 95% of subs.\n\nSources: Twitch Help and Twitch Blog (2023-2024); YouTube Help; Kick; Stream Hatchet 2025 report.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#twitch #streaming #creatoreconomy #howtheymakemoney #financeprostv",
+  "tiktok": "Your $5.99 Twitch sub: the streamer usually gets about half. Not financial advice. #moneytok #personalfinance #twitch #streaming #financeprostv",
+  "yt_desc": "Twitch's default subscription split is 50/50 of net revenue; its Plus Program raises that to 60/40 at 100 Plus Points and 70/30 at 300. On a hypothetical 100 Tier 1 subs at $5.99, that's $299.50 at 50/50 versus $359.40 at 60/40 a month before taxes and fees, while viewers pay about $1.40 for 100 Bits that pay the streamer $1. Sources: Twitch Help and Blog, YouTube Help, Kick, Stream Hatchet.\n\nNews and education, not financial advice.\n\n#Shorts #twitch #streaming",
+  "tags": [
+   "how twitch pays streamers",
+   "twitch revenue split",
+   "twitch plus program",
+   "twitch bits value",
+   "how they make money"
+  ]
+ }
+}
