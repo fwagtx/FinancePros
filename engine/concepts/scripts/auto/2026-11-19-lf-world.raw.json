@@ -1,0 +1,1598 @@
+{
+ "series": "ticker",
+ "header": "How supply chains work\nand why they break",
+ "cover": {
+  "title": "The $10,377 Box.",
+  "prop": "box",
+  "label": "40FT",
+  "value": "$10,377"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In Sept 2021, shipping one container cost $10,377.",
+   "say": "In September twenty twenty-one, shipping one container cost over ten thousand dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "The $10,377 [box]",
+    "prop": "box",
+    "label": "40FT",
+    "value": "$10,377",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2019, the same trip averaged $1,420. That's more than 7 times as much.",
+   "say": "In twenty nineteen, the same trip averaged about fourteen hundred dollars. That's more than seven times as much.",
+   "scene": {
+    "t": "compare",
+    "title": "Drewry WCI, per 40ft box",
+    "left": {
+     "label": "2019 average",
+     "value": "$1,420",
+     "tone": "neutral",
+     "sub": "pre-pandemic"
+    },
+    "right": {
+     "label": "Sept 2021",
+     "value": "$10,377",
+     "tone": "down",
+     "sub": "record peak"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nobody changed the boxes, the ships or the ocean. Something in the chain between them broke.",
+   "say": "Nobody changed the boxes, the ships, or the ocean. Something in the chain between them broke.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "Ships are full!"
+     },
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "Where's my stuff?"
+     }
+    ],
+    "caption": "Sept 2021: a record jam"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A supply chain is every step between a raw material and your doorstep.",
+   "say": "A supply chain is every step between a raw material and your doorstep.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Raw material",
+     "-> factory -> port",
+     "-> ship -> your door"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it can still snap. In April 2026, a New York Fed stress gauge hit its highest level since 2022.",
+   "say": "And it can still snap. In April twenty twenty-six, a New York Fed stress gauge hit its highest level since twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "NY Fed GSCPI, April 2026",
+    "value": "1.82",
+    "tone": "down",
+    "sub": "Highest since 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That came after shipping through the Strait of Hormuz was largely halted from late February 2026.",
+   "say": "That came after shipping through the Strait of Hormuz was largely halted from late February twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "Hormuz shipping largely halted",
+    "source": "Reuters, Feb-July 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's follow one box from a factory to your door, see how the chain breaks, and do the math on what it adds to your stuff.",
+   "say": "So let's follow one box from a factory to your door, see how the chain breaks, and do the math on what it adds to your stuff.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Box is ready"
+     },
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Me too"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Send it"
+     }
+    ],
+    "caption": "One box, many borders"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: How the chain works.",
+   "say": "Chapter one: how the chain works.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "How the chain works"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start with the ocean. About 80% of world goods trade, by volume, moves by sea.",
+   "say": "Start with the ocean. About eighty percent of world goods trade, by volume, moves by sea.",
+   "scene": {
+    "t": "stat",
+    "label": "World goods trade by sea",
+    "value": "~80%",
+    "tone": "neutral",
+    "sub": "By volume, UNCTAD"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most finished goods ride in one standard steel box: the shipping container, usually 20 or 40 feet long.",
+   "say": "Most finished goods ride in one standard steel box: the shipping container, usually twenty or forty feet long.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "One standard steel box",
+     "20 ft or 40 ft long",
+     "ship -> crane -> truck"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Because every box is the same size, a crane can swing it off a ship and onto a truck or train without anyone unpacking it.",
+   "say": "Because every box is the same size, a crane can swing it off a ship and onto a truck or a train without anyone unpacking it.",
+   "scene": {
+    "t": "hook",
+    "title": "Same size, any [ship]",
+    "prop": "box",
+    "label": "40FT",
+    "value": "1 box",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why a phone, a sneaker or a car part can cross several borders before it's even finished.",
+   "say": "That's why a phone, a sneaker, or a car part can cross several borders before it's even finished.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "Chips from me"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "I assemble"
+     },
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "I add parts"
+     }
+    ],
+    "caption": "Parts cross borders"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a simple chain for a pair of sneakers. It starts at a factory in Asia.",
+   "say": "Here's a simple chain for a pair of sneakers. It starts at a factory in Asia.",
+   "scene": {
+    "t": "list",
+    "title": "One sneaker's trip",
+    "items": [
+     "Factory in Asia",
+     "Port, then ship",
+     "US port, then truck",
+     "Store or doorstep"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The shoes get packed into a container, trucked to a port and loaded onto a ship for a few weeks at sea.",
+   "say": "The shoes get packed into a container, trucked to a port, and loaded onto a ship for a few weeks at sea.",
+   "scene": {
+    "t": "list",
+    "title": "One sneaker's trip",
+    "items": [
+     "Factory in Asia",
+     "Port, then ship",
+     "US port, then truck",
+     "Store or doorstep"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At a US port, cranes unload the box onto a truck or a train headed for a warehouse.",
+   "say": "At a US port, cranes unload the box onto a truck or a train headed for a warehouse.",
+   "scene": {
+    "t": "list",
+    "title": "One sneaker's trip",
+    "items": [
+     "Factory in Asia",
+     "Port, then ship",
+     "US port, then truck",
+     "Store or doorstep"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the shoes land on a store shelf or your doorstep. Every handoff is a place where things can stall.",
+   "say": "Then the shoes land on a store shelf or your doorstep. Every handoff is a place where things can stall.",
+   "scene": {
+    "t": "list",
+    "title": "One sneaker's trip",
+    "items": [
+     "Factory in Asia",
+     "Port, then ship",
+     "US port, then truck",
+     "Store or doorstep"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For decades, many companies ran chains like this on a rule called just in time.",
+   "say": "For decades, many companies ran chains like this on a rule called just in time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Just in time:",
+     "parts arrive right",
+     "when they're needed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Toyota made it famous. Parts arrive at the factory close to when they're used, so very little sits in a warehouse.",
+   "say": "Toyota made it famous. Parts arrive at the factory close to when they're used, so very little sits in a warehouse.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "No warehouse!"
+     }
+    ],
+    "caption": "Toyota's famous system"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That saves money on storage, and less cash gets tied up in parts waiting around.",
+   "say": "That saves money on storage, and less cash gets tied up in parts just waiting around.",
+   "scene": {
+    "t": "split",
+    "title": "Just in time",
+    "left": {
+     "title": "Upside",
+     "items": [
+      "Low storage cost",
+      "Less cash tied up"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Downside",
+     "items": [
+      "No cushion",
+      "One gap stops all"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch is there's no cushion. If one part is late, the whole line can stop.",
+   "say": "The catch is that there's no cushion. If one part is late, the whole line can stop.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "Where's part 7?"
+     }
+    ],
+    "caption": "One late part stops a line"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The opposite approach is called just in case: you keep extra stock on hand and pay to store it.",
+   "say": "The opposite approach is called just in case: you keep extra stock on hand and pay to store it.",
+   "scene": {
+    "t": "compare",
+    "title": "Two ways to run a chain",
+    "left": {
+     "label": "Just in time",
+     "value": "Lean",
+     "tone": "neutral",
+     "sub": "cheap, fragile"
+    },
+    "right": {
+     "label": "Just in case",
+     "value": "Buffer",
+     "tone": "neutral",
+     "sub": "costly, sturdy"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Which one wins depends on how often the world goes wrong. Starting in 2020, it went wrong a lot.",
+   "say": "Which one wins depends on how often the world goes wrong. And starting in twenty twenty, it went wrong a lot.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Calm world: lean wins",
+     "Shaky world: buffer wins"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The 2021 pileup.",
+   "say": "Chapter two: the twenty twenty-one pileup.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The 2021 pileup"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2020, factories paused, then people stuck at home spent more on stuff and less on services.",
+   "say": "In twenty twenty, factories paused, and then people stuck at home spent more on stuff and less on services.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "New desk, please"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "Factories paused"
+     }
+    ],
+    "caption": "2020: demand flips to goods"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Orders surged just as ports, ships and trucks ran short of workers, space and empty containers.",
+   "say": "Orders surged just as ports, ships, and trucks ran short of workers, space, and empty containers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Demand for goods: up",
+     "Ships, crews, boxes:",
+     "not enough"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You could see it in the price of moving one 40-foot container.",
+   "say": "You could see it in the price of moving one forty-foot container.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2019 average",
+     "value": "$1,420"
+    },
+    "to": {
+     "label": "Sept 2021 peak",
+     "value": "$10,377"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Drewry's World Container Index averaged $1,420 in 2019, then hit a record $10,377 in September 2021.",
+   "say": "Drewry's World Container Index averaged about fourteen hundred dollars in twenty nineteen, then hit a record of over ten thousand dollars in September twenty twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Sept 2021 peak vs 2019",
+    "value": "x7.3",
+    "tone": "down",
+    "sub": "Drewry WCI, per 40ft"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The New York Fed built a gauge for exactly this mess: the Global Supply Chain Pressure Index.",
+   "say": "The New York Fed built a gauge for exactly this mess: the Global Supply Chain Pressure Index.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "NEW YORK FED",
+    "label": "GSCPI",
+    "caption": "A gauge of supply strain"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It blends shipping costs and factory surveys. Zero means normal; each point is one standard deviation above it.",
+   "say": "It blends shipping costs and factory surveys. Zero means normal, and each point is one standard deviation, a typical-size step, above normal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "0 = normal",
+     "+1 = one step above",
+     "higher = more strain"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here it is each December since 2021.",
+   "say": "Here it is, each December since twenty twenty-one.",
+   "scene": {
+    "t": "chart",
+    "title": "NY Fed GSCPI, each December",
+    "points": [
+     [
+      2021,
+      4.49
+     ],
+     [
+      2022,
+      1.34
+     ],
+     [
+      2023,
+      -0.16
+     ],
+     [
+      2024,
+      -0.27
+     ],
+     [
+      2025,
+      0.55
+     ]
+    ],
+    "end": "0.55",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In December 2021, it hit 4.49, the highest on record in data going back to 1997.",
+   "say": "In December twenty twenty-one, it hit four point four nine, the highest on record in data going back to nineteen ninety-seven.",
+   "scene": {
+    "t": "chart",
+    "title": "NY Fed GSCPI, each December",
+    "points": [
+     [
+      2021,
+      4.49
+     ],
+     [
+      2022,
+      1.34
+     ],
+     [
+      2023,
+      -0.16
+     ],
+     [
+      2024,
+      -0.27
+     ],
+     [
+      2025,
+      0.55
+     ]
+    ],
+    "end": "0.55",
+    "color": "down",
+    "keep": true,
+    "chart_note": {
+     "x": 2021,
+     "text": "Record: 4.49"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By December 2024, it had slid just below normal, to minus 0.27.",
+   "say": "By December twenty twenty-four, it had slid just below normal, to minus zero point two seven.",
+   "scene": {
+    "t": "chart",
+    "title": "NY Fed GSCPI, each December",
+    "points": [
+     [
+      2021,
+      4.49
+     ],
+     [
+      2022,
+      1.34
+     ],
+     [
+      2023,
+      -0.16
+     ],
+     [
+      2024,
+      -0.27
+     ],
+     [
+      2025,
+      0.55
+     ]
+    ],
+    "end": "0.55",
+    "color": "down",
+    "keep": true,
+    "chart_note": {
+     "x": 2024,
+     "text": "-0.27: calm"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The pileup hit one industry especially hard: cars.",
+   "say": "The pileup hit one industry especially hard: cars.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "No chips"
+     },
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "Same here"
+     },
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "Lots are empty"
+     }
+    ],
+    "caption": "2021: the chip shortage"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Carmakers had cut chip orders when sales collapsed in early 2020. When demand came back, they had to wait in line behind laptop and phone makers.",
+   "say": "Carmakers had cut chip orders when sales collapsed in early twenty twenty. When demand came back, they had to wait in line behind laptop and phone makers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Early 2020: orders cut",
+     "Late 2020: demand back",
+     "Chips: sold elsewhere"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AutoForecast Solutions estimated automakers cut about 10.5 million vehicles from 2021 production.",
+   "say": "AutoForecast Solutions estimated that automakers cut about ten and a half million vehicles from twenty twenty-one production.",
+   "scene": {
+    "t": "stat",
+    "label": "Vehicles cut from 2021 output",
+    "value": "10.5M",
+    "tone": "down",
+    "sub": "AutoForecast Solutions est."
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AlixPartners estimated the shortage would cost the auto industry $210 billion in revenue in 2021.",
+   "say": "The consulting firm AlixPartners estimated the shortage would cost the auto industry two hundred ten billion dollars in revenue in twenty twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "2021 auto revenue lost",
+    "value": "$210B",
+    "tone": "down",
+    "sub": "AlixPartners est., Sept 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fewer new cars sent buyers to used lots. US used car and truck prices rose 37.3% in 2021.",
+   "say": "Fewer new cars sent buyers to used lots. US used car and truck prices rose thirty-seven point three percent in twenty twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "US used car prices, 2021",
+    "value": "+37.3%",
+    "tone": "down",
+    "sub": "BLS CPI, Dec to Dec"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One carmaker coped better than most: Toyota, the company that made just in time famous.",
+   "say": "One carmaker coped better than most: Toyota, the very company that made just in time famous.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "We stocked up"
+     }
+    ],
+    "caption": "Toyota's chip cushion"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After the 2011 earthquake in Japan cut its supply lines, Toyota had suppliers stockpile 2 to 6 months of chips, Reuters reported in March 2021.",
+   "say": "After the twenty eleven earthquake in Japan cut its supply lines, Toyota had suppliers stockpile two to six months of chips, Reuters reported in March twenty twenty-one.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2011",
+      "what": "Quake cuts Toyota's supply"
+     },
+     {
+      "when": "After",
+      "what": "Suppliers stockpile chips"
+     },
+     {
+      "when": "2021",
+      "what": "Shortage hits rivals harder"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the king of just in time was quietly running just in case for the one part that was hardest to replace.",
+   "say": "So the king of just in time was quietly running just in case for the one part that was hardest to replace.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lean almost everywhere,",
+     "buffer where it hurts"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Chokepoints.",
+   "say": "Chapter three: chokepoints.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Chokepoints"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chains also break at narrow spots on the map called chokepoints. Four of them made headlines from 2021 to 2026.",
+   "say": "Chains also break at narrow spots on the map called chokepoints. Four of them made headlines from twenty twenty-one to twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "Four chokepoints",
+    "items": [
+     "Suez Canal",
+     "Red Sea",
+     "Panama Canal",
+     "Strait of Hormuz"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Suez Canal links Asia and Europe. It normally carries about 15% of global maritime trade volume, according to the IMF.",
+   "say": "The Suez Canal links Asia and Europe. It normally carries about fifteen percent of global maritime trade volume, according to the I M F.",
+   "scene": {
+    "t": "stat",
+    "label": "Suez share of sea trade",
+    "value": "~15%",
+    "tone": "neutral",
+    "sub": "Normal volume, IMF 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On March 23, 2021, a giant container ship called the Ever Given got stuck sideways across it.",
+   "say": "On March twenty-third, twenty twenty-one, a giant container ship called the Ever Given got stuck sideways across it.",
+   "scene": {
+    "t": "news",
+    "headline": "Ever Given blocks the Suez Canal",
+    "source": "March 23, 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lloyd's List estimated about $9.6 billion of trade was held up each day, roughly $400 million an hour.",
+   "say": "Lloyd's List estimated that about nine point six billion dollars of trade was held up each day, roughly four hundred million dollars an hour.",
+   "scene": {
+    "t": "stat",
+    "label": "Trade held up per day",
+    "value": "$9.6B",
+    "tone": "down",
+    "sub": "Lloyd's List est., 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's goods delayed, not destroyed, and Lloyd's List called it a rough calculation. The ship was freed on March 29.",
+   "say": "That's goods delayed, not destroyed, and Lloyd's List called it a rough calculation. The ship was freed on March twenty-ninth.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Stuck: March 23",
+     "Freed: March 29",
+     "Six days, $9.6B a day"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Six days was enough to scramble schedules. Two years later, the Red Sea showed what a long disruption looks like.",
+   "say": "Six days was enough to scramble schedules. Two years later, the Red Sea showed what a much longer disruption looks like.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "Which way now?"
+     },
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "Long way round"
+     }
+    ],
+    "caption": "Red Sea, from late 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From late 2023, Houthi forces in Yemen attacked ships near the Red Sea, the main route to Suez.",
+   "say": "From late twenty twenty-three, Houthi forces in Yemen attacked ships near the Red Sea, the main route to Suez.",
+   "scene": {
+    "t": "news",
+    "headline": "Ships detour after Red Sea attacks",
+    "source": "IMF and UNCTAD, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many carriers sailed around Africa's Cape of Good Hope instead, which adds 10 days or more to a trip, by UNCTAD's estimate.",
+   "say": "Many carriers sailed around Africa's Cape of Good Hope instead, which adds ten days or more to a trip, by UNCTAD's estimate.",
+   "scene": {
+    "t": "stat",
+    "label": "Detour around Africa",
+    "value": "+10 days",
+    "tone": "down",
+    "sub": "UNCTAD, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Suez Canal Authority counted 13,213 ships in 2024, down from more than 26,000 in 2023. That's about half.",
+   "say": "The Suez Canal Authority counted thirteen thousand two hundred thirteen ships in twenty twenty-four, down from more than twenty-six thousand in twenty twenty-three. That's about half.",
+   "scene": {
+    "t": "compare",
+    "title": "Ships through Suez",
+    "left": {
+     "label": "2023",
+     "value": "26,000+",
+     "tone": "neutral",
+     "sub": "Suez Canal Auth."
+    },
+    "right": {
+     "label": "2024",
+     "value": "13,213",
+     "tone": "down",
+     "sub": "about half"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Longer trips tie up ships for longer. Drewry's index averaged $1,756 through September 2023 and $4,113 through September 2024.",
+   "say": "Longer trips tie up ships for longer. Drewry's index averaged seventeen hundred fifty-six dollars through September twenty twenty-three, and four thousand one hundred thirteen dollars through September twenty twenty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Drewry WCI, avg to Sept",
+    "left": {
+     "label": "2023",
+     "value": "$1,756",
+     "tone": "neutral",
+     "sub": "per 40ft"
+    },
+    "right": {
+     "label": "2024",
+     "value": "$4,113",
+     "tone": "down",
+     "sub": "per 40ft"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By mid-2026, Maersk and Hapag-Lloyd had moved several services back through Suez, saying it depends on Red Sea stability.",
+   "say": "By mid twenty twenty-six, Maersk and Hapag-Lloyd had moved several services back through Suez, saying that depends on stability in the Red Sea.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "germany",
+      "mood": "happy",
+      "says": "Trying Suez again"
+     }
+    ],
+    "caption": "Some carriers back, mid-2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other big canal had a different problem: not enough rain. Panama normally handles about 5% of global maritime trade.",
+   "say": "The other big canal had a different problem: not enough rain. Panama normally handles about five percent of global maritime trade.",
+   "scene": {
+    "t": "stat",
+    "label": "Panama share of sea trade",
+    "value": "~5%",
+    "tone": "neutral",
+    "sub": "IMF, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its locks run on fresh water from Gatun Lake. In 2023, a drought pushed the lake to record lows.",
+   "say": "Its locks run on fresh water from Gatun Lake. In twenty twenty-three, a drought pushed the lake to record lows.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Locks use lake water",
+     "2023: severe drought",
+     "Lake at record lows"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the canal cut daily transits from a normal of about 36 ships to as few as 22 by late 2023.",
+   "say": "So the canal cut daily transits from a normal of about thirty-six ships to as few as twenty-two by late twenty twenty-three.",
+   "scene": {
+    "t": "compare",
+    "title": "Panama Canal ships per day",
+    "left": {
+     "label": "Normal",
+     "value": "36",
+     "tone": "neutral",
+     "sub": "before drought"
+    },
+    "right": {
+     "label": "Late 2023",
+     "value": "22",
+     "tone": "down",
+     "sub": "drought limit"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Transits through the canal fell 29% in its 2024 fiscal year, which ended in September 2024.",
+   "say": "Transits through the canal fell twenty-nine percent in its twenty twenty-four fiscal year, which ended in September twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Panama transits, FY2024",
+    "value": "-29%",
+    "tone": "down",
+    "sub": "Seatrade Maritime"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then came 2026. About 20% of the world's oil normally passes through the Strait of Hormuz, by the EIA's estimate.",
+   "say": "Then came twenty twenty-six. About twenty percent of the world's oil normally passes through the Strait of Hormuz, by the E I A's estimate.",
+   "scene": {
+    "t": "stat",
+    "label": "World oil through Hormuz",
+    "value": "~20%",
+    "tone": "neutral",
+    "sub": "EIA estimate"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After the US and Israel struck Iran in late February 2026, traffic there was largely halted, and big container lines suspended Gulf services.",
+   "say": "After the US and Israel struck Iran in late February twenty twenty-six, traffic there was largely halted, and big container lines suspended Gulf services.",
+   "scene": {
+    "t": "news",
+    "headline": "Big carriers suspend Gulf services",
+    "source": "Maersk, MSC, CMA CGM, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As fuel and shipping costs climbed, the New York Fed's index jumped to 1.82 in April 2026, then eased to 1.25 in June.",
+   "say": "As fuel and shipping costs climbed, the New York Fed's index jumped to one point eight two in April twenty twenty-six, then eased to one point two five in June.",
+   "scene": {
+    "t": "compare",
+    "title": "NY Fed GSCPI, 2026",
+    "left": {
+     "label": "April",
+     "value": "1.82",
+     "tone": "down",
+     "sub": "highest since 2022"
+    },
+    "right": {
+     "label": "June",
+     "value": "1.25",
+     "tone": "neutral",
+     "sub": "eased"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: The sneaker math.",
+   "say": "Chapter four: the sneaker math.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The sneaker math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what does a $10,377 box add to the stuff you buy? Let's do the math with a made-up example.",
+   "say": "So what does a ten-thousand-dollar box add to the stuff you buy? Let's do the math with a made-up example.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hypothetical example",
+     "1 container (40 ft)",
+     "= 5,000 pairs of shoes"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say one 40-foot container holds 5,000 pairs of sneakers. That number is an assumption, just to keep the math round.",
+   "say": "Say one forty-foot container holds five thousand pairs of sneakers. That number is an assumption, just to keep the math round.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "5,000 pairs"
+     }
+    ],
+    "caption": "Example: 5,000 pairs a box"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the 2019 average of $1,420, freight is $1,420 divided by 5,000: about 28 cents a pair.",
+   "say": "At the twenty nineteen average of about fourteen hundred dollars, freight is that cost divided by five thousand: about twenty-eight cents a pair.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2019 avg box",
+     "value": "$1,420"
+    },
+    "to": {
+     "label": "per pair (÷5,000)",
+     "value": "28¢"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the September 2021 peak of $10,377, it's about $2.08 a pair.",
+   "say": "At the September twenty twenty-one peak of over ten thousand dollars, it's about two dollars and eight cents a pair.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Sept 2021 peak",
+     "value": "$10,377"
+    },
+    "to": {
+     "label": "per pair (÷5,000)",
+     "value": "$2.08"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And at $4,468, Drewry's reading on September 24, 2026, it's about 89 cents a pair.",
+   "say": "And at four thousand four hundred sixty-eight dollars, Drewry's reading on September twenty-fourth, twenty twenty-six, it's about eighty-nine cents a pair.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Sept 24, 2026",
+     "value": "$4,468"
+    },
+    "to": {
+     "label": "per pair (÷5,000)",
+     "value": "89¢"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So in this example, even the record peak added only about $2 of ocean freight to each pair.",
+   "say": "So in this example, even the record peak added only about two dollars of ocean freight to each pair.",
+   "scene": {
+    "t": "compare",
+    "title": "Freight per pair (example)",
+    "left": {
+     "label": "2019",
+     "value": "28¢",
+     "tone": "neutral",
+     "sub": "avg box"
+    },
+    "right": {
+     "label": "Sept 2021",
+     "value": "$2.08",
+     "tone": "down",
+     "sub": "record box"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That cost doesn't stop at the dock. The importer pays it first, then it can ride along through the wholesaler and the store.",
+   "say": "That cost doesn't stop at the dock. The importer pays it first, and then it can ride along through the wholesaler and the store.",
+   "scene": {
+    "t": "list",
+    "title": "Who pays the freight",
+    "items": [
+     "Importer pays first",
+     "Wholesaler buys in",
+     "Store sets the price"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the bigger cost of a broken chain usually isn't freight per item. It's the item that never shows up.",
+   "say": "But the bigger cost of a broken chain usually isn't freight per item. It's the item that never shows up.",
+   "scene": {
+    "t": "hook",
+    "title": "The missing [part]",
+    "prop": "box",
+    "label": "1 CHIP",
+    "value": "0 cars",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A car missing one chip can't be finished. That's how 2021 ended with millions of cars never built.",
+   "say": "A car missing one chip can't be finished. That's how twenty twenty-one ended with millions of cars never built.",
+   "scene": {
+    "t": "split",
+    "title": "Two kinds of cost",
+    "left": {
+     "title": "Higher prices",
+     "items": [
+      "Freight per item",
+      "Fuel surcharges"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Shortages",
+     "items": [
+      "Missing parts",
+      "Empty shelves",
+      "Long waits"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When many goods get scarce at once, prices rise across the board. A June 2023 San Francisco Fed study linked supply-chain pressure to higher US inflation.",
+   "say": "When many goods get scarce at once, prices rise across the board. A June twenty twenty-three San Francisco Fed study linked supply chain pressure to higher US inflation.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "SAN FRANCISCO FED",
+    "label": "June 2023",
+    "caption": "Supply strain, higher prices"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Rewiring the chain.",
+   "say": "Chapter five: rewiring the chain.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Rewiring the chain"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After all these shocks, companies started asking a different question: not just what's cheapest, but what's least likely to break.",
+   "say": "After all these shocks, companies started asking a different question: not just what's cheapest, but what's least likely to break.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old: what's cheapest?",
+     "New: cheapest that",
+     "won't break?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One answer is nearshoring: making things closer to where they're sold.",
+   "say": "One answer is nearshoring, which means making things closer to where they're sold.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Right next door"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Short drive"
+     }
+    ],
+    "caption": "Nearshoring"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For the US, that often means Mexico. Goods from Asia spend weeks at sea; a truck from northern Mexico can reach Texas in hours.",
+   "say": "For the US, that often means Mexico. Goods from Asia spend weeks at sea, while a truck from northern Mexico can reach Texas in hours.",
+   "scene": {
+    "t": "compare",
+    "title": "Getting goods to the US",
+    "left": {
+     "label": "From Asia",
+     "value": "Weeks",
+     "tone": "down",
+     "sub": "by ship"
+    },
+    "right": {
+     "label": "From Mexico",
+     "value": "Hours",
+     "tone": "up",
+     "sub": "truck to Texas"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2023, Mexico passed China to become America's top goods trading partner, with about $798 billion in two-way trade.",
+   "say": "In twenty twenty-three, Mexico passed China to become America's top goods trading partner, with about seven hundred ninety-eight billion dollars in two-way trade.",
+   "scene": {
+    "t": "stat",
+    "label": "US-Mexico goods trade, 2023",
+    "value": "$798B",
+    "tone": "up",
+    "sub": "US Census Bureau"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On imports alone, the US bought about $475 billion of goods from Mexico in 2023, versus $427 billion from China.",
+   "say": "On imports alone, the US bought about four hundred seventy-five billion dollars of goods from Mexico in twenty twenty-three, versus four hundred twenty-seven billion from China.",
+   "scene": {
+    "t": "compare",
+    "title": "US goods imports, 2023",
+    "left": {
+     "label": "Mexico",
+     "value": "$475B",
+     "tone": "up",
+     "sub": "Census"
+    },
+    "right": {
+     "label": "China",
+     "value": "$427B",
+     "tone": "neutral",
+     "sub": "Census"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That flipped a ranking China had held for years.",
+   "say": "That flipped a ranking China had held for years.",
+   "scene": {
+    "t": "compare",
+    "title": "US goods imports, 2023",
+    "left": {
+     "label": "Mexico",
+     "value": "$475B",
+     "tone": "up",
+     "sub": "Census"
+    },
+    "right": {
+     "label": "China",
+     "value": "$427B",
+     "tone": "neutral",
+     "sub": "Census"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tariffs are another force here. A tariff is a tax on imported goods, and it changes the math on where companies make things.",
+   "say": "Tariffs are another force here. A tariff is a tax on imported goods, and it changes the math on where companies make things.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tariff = a tax",
+     "on imported goods",
+     "paid by the importer"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People argue about whether tariffs help or hurt. The mechanics are simpler: the importer pays first, and the cost can show up in prices, profits or where things get made.",
+   "say": "People argue about whether tariffs help or hurt. The mechanics are simpler: the importer pays first, and the cost can show up in prices, in profits, or in where things get made.",
+   "scene": {
+    "t": "split",
+    "title": "Where a tariff can land",
+    "left": {
+     "title": "Inside the US",
+     "items": [
+      "Higher prices",
+      "Lower profits"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "In the chain",
+     "items": [
+      "New suppliers",
+      "New factories"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Companies also added slack. Here are the common moves.",
+   "say": "Companies also added slack. Here are the common moves.",
+   "scene": {
+    "t": "list",
+    "title": "Ways to add slack",
+    "items": [
+     "Extra inventory",
+     "A second supplier",
+     "Closer factories",
+     "Backup routes"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some keep more stock on hand, the just-in-case idea. Some line up a second supplier, so one fire or flood can't stop everything.",
+   "say": "Some keep more stock on hand, the just in case idea. Some line up a second supplier, so one fire or one flood can't stop everything.",
+   "scene": {
+    "t": "list",
+    "title": "Ways to add slack",
+    "items": [
+     "Extra inventory",
+     "A second supplier",
+     "Closer factories",
+     "Backup routes"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trade-off: every buffer costs money, through warehouse space and cash sitting in boxes that don't move.",
+   "say": "The trade-off is that every buffer costs money, through warehouse space and cash sitting in boxes that don't move.",
+   "scene": {
+    "t": "hook",
+    "title": "Safety isn't [free]",
+    "prop": "box",
+    "label": "STOCK",
+    "value": "$$$",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a shorter chain can still cross an ocean. Factories in Mexico still use plenty of parts shipped from Asia.",
+   "say": "And a shorter chain can still cross an ocean. Factories in Mexico still use plenty of parts shipped from Asia.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Parts for you"
+     },
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Thanks"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Final product"
+     }
+    ],
+    "caption": "Short chain, long roots"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No route is risk-free. Look at just the last few years.",
+   "say": "No route is risk-free. Look at just the last few years.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2021",
+      "what": "Ever Given blocks Suez"
+     },
+     {
+      "when": "2023",
+      "what": "Drought limits Panama"
+     },
+     {
+      "when": "2024",
+      "what": "Red Sea detours peak"
+     },
+     {
+      "when": "2026",
+      "what": "Hormuz traffic halted"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A stuck ship, a drought, attacks at sea and a war near the Gulf. Each one hit a different link in the chain.",
+   "say": "A stuck ship, a drought, attacks at sea, and a war near the Gulf. Each one hit a different link in the chain.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2021",
+      "what": "Ever Given blocks Suez"
+     },
+     {
+      "when": "2023",
+      "what": "Drought limits Panama"
+     },
+     {
+      "when": "2024",
+      "what": "Red Sea detours peak"
+     },
+     {
+      "when": "2026",
+      "what": "Hormuz traffic halted"
+     }
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap.",
+   "say": "Chapter six: recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the whole story in under a minute.",
+   "say": "Here's the whole story in under a minute.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "I make it"
+     },
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "I make it too"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "I buy it"
+     }
+    ],
+    "caption": "The chain in one picture"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most goods cross oceans in standard boxes, and many companies ran lean, just in time, to save money.",
+   "say": "Most goods cross oceans in standard boxes, and many companies ran lean, just in time, to save money.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Boxes run lean",
+     "Shocks spread fast",
+     "Chokepoints matter",
+     "Buffers cost money"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lean is cheap when things flow and fragile when they don't. In 2021 that meant a record $10,377 box and about 10.5 million cars cut.",
+   "say": "Lean is cheap when things flow and fragile when they don't. In twenty twenty-one, that meant a record box price of over ten thousand dollars and about ten and a half million cars cut.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Boxes run lean",
+     "Shocks spread fast",
+     "Chokepoints matter",
+     "Buffers cost money"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Narrow spots like Suez, Panama and Hormuz can slow a big slice of world trade all at once.",
+   "say": "Narrow spots like Suez, Panama, and Hormuz can slow a big slice of world trade all at once.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Boxes run lean",
+     "Shocks spread fast",
+     "Chokepoints matter",
+     "Buffers cost money"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the fixes, from nearshoring to bigger stockpiles, trade lower risk for higher costs.",
+   "say": "And the fixes, from nearshoring to bigger stockpiles, trade lower risk for higher costs.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Boxes run lean",
+     "Shocks spread fast",
+     "Chokepoints matter",
+     "Buffers cost money"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In our sneaker example, freight went from about 28 cents a pair in 2019 to about 89 cents in September 2026.",
+   "say": "In our sneaker example, freight went from about twenty-eight cents a pair in twenty nineteen to about eighty-nine cents in September twenty twenty-six.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2019, per pair",
+     "value": "28¢"
+    },
+    "to": {
+     "label": "Sept 2026, per pair",
+     "value": "89¢"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The price tag rarely shows the chain behind it, until one link snaps.",
+   "say": "The price tag rarely shows the chain behind it, until one link snaps.",
+   "scene": {
+    "t": "hook",
+    "title": "Follow the [box]",
+    "prop": "tag",
+    "label": "PRICE",
+    "value": "1 link",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "In 2021 one shipping container cost $10,377. How global supply chains work and why they break",
+  "ig": "In September 2021, shipping one container cost $10,377. Here's how supply chains work and why they break.",
+  "tiktok": "One shipping box cost $10,377 in Sept 2021. Why supply chains break.",
+  "yt_desc": "In September 2021, moving one 40-foot container cost a record $10,377 on Drewry's World Container Index, more than seven times the 2019 average. This video follows a box from factory to doorstep, explains just-in-time versus just-in-case, and charts the New York Fed's Global Supply Chain Pressure Index. It covers the 2021 chip shortage, the Ever Given, Red Sea detours, the 2023 Panama Canal drought and the 2026 Strait of Hormuz disruption, then works through a hypothetical example of freight cost per pair of sneakers and how nearshoring made Mexico the top US goods trading partner in 2023.\n\nCHAPTERS\n\nSources: Drewry World Container Index (2019-Sept 24, 2026); Federal Reserve Bank of New York GSCPI (through June 2026); UNCTAD Review of Maritime Transport and Red Sea brief (2024); IMF PortWatch and IMF blog (Mar 2024); Lloyd's List (Mar 2021); Suez Canal Authority via Reuters (2025); Panama Canal Authority (2023) and Seatrade Maritime (FY2024); AutoForecast Solutions (2021); AlixPartners (Sept 2021); BLS CPI (2021); Reuters (Mar 2021); US Census Bureau (2023 trade); EIA; Federal Reserve Bank of San Francisco (June 2023).\n\nNews and education, not financial advice.\n\n#supplychain #economy #shipping",
+  "tags": [
+   "supply chain explained",
+   "global supply chain",
+   "shipping costs",
+   "container shipping",
+   "just in time",
+   "nearshoring",
+   "world economy"
+  ]
+ }
+}
