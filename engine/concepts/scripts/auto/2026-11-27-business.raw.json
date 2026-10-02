@@ -114,38 +114,11 @@
       "text": "It bottomed in 2021, when costs outran prices.",
       "say": "It bottomed in twenty twenty-one, when costs outran prices.",
       "scene": {
-        "t": "chart",
-        "keep": true,
-        "title": "C.H. Robinson NAST spread",
-        "points": [
-          [
-            2021,
-            12.4
-          ],
-          [
-            2022,
-            13.9
-          ],
-          [
-            2023,
-            12.8
-          ],
-          [
-            2024,
-            14.0
-          ],
-          [
-            2025,
-            14.8
-          ]
-        ],
-        "suffix": "%",
-        "end": "14.8%",
-        "color": "up",
-        "chart_note": {
-          "x": 2021,
-          "text": "12.4%: costs spiked"
-        },
+        "t": "stat",
+        "label": "NAST spread, 2021",
+        "value": "12.4%",
+        "tone": "down",
+        "sub": "Costs beat prices",
         "mood": "worried"
       }
     },
