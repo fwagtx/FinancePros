@@ -1,136 +1,220 @@
 {
  "series": "ticker",
- "header": "Who pays for\nunemployment?",
+ "header": "Why gold rises\nwhen people panic",
  "cover": {
-  "title": "Who Pays If You're Laid Off?",
-  "prop": "paper",
-  "label": "UI TAX",
-  "value": "$0"
+  "title": "Why Does Fear Lift Gold?",
+  "prop": "chart-up",
+  "label": "2025",
+  "value": "53 highs"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "Most workers pay $0 for unemployment insurance. So who does?",
-   "say": "Most workers pay zero for unemployment insurance. So who does?",
+   "text": "In 2025, gold hit 53 record highs. Fear did that.",
+   "say": "In twenty twenty-five, gold hit fifty-three record highs. Fear did that.",
    "scene": {
     "t": "hook",
-    "title": "Who pays for [unemployment]?",
-    "prop": "paper",
-    "label": "UI TAX",
-    "value": "$0",
+    "title": "[53] record highs",
+    "prop": "chart-up",
+    "label": "2025",
+    "value": "53",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "Employers pay instead, through two taxes: one federal, one state.",
-   "say": "Employers pay instead, through two taxes: one federal, one state.",
+   "text": "Odd, since gold pays zero interest. So why does scared money run to it?",
+   "say": "Odd, since gold pays zero interest. So why does scared money run to it?",
    "scene": {
     "t": "board",
     "lines": [
-     "Federal: FUTA",
-     "State: SUTA",
-     "Both paid by employer"
-    ]
+     "Gold pays:",
+     "$0 interest",
+     "$0 dividends"
+    ],
+    "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "The federal tax is 6% on the first $7,000 of your pay. In most states, a credit cuts that to $42 a year.",
-   "say": "The federal tax is six percent on the first seven thousand dollars of your pay. In most states, a credit cuts that to forty-two dollars a year.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "6.0% of $7,000",
-     "value": "$420"
-    },
-    "to": {
-     "label": "after 5.4% credit (most states)",
-     "value": "$42"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That $7,000 limit was set in 1983, and it hasn't changed since.",
-   "say": "That seven-thousand-dollar limit was set in nineteen eighty-three, and it hasn't changed since.",
-   "scene": {
-    "t": "stat",
-    "label": "Federal unemployment tax wage base",
-    "value": "$7,000",
-    "tone": "neutral",
-    "sub": "Unchanged since 1983"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The state tax pays most of the benefits. Only Alaska, New Jersey and Pennsylvania also take a slice from workers.",
-   "say": "The state tax pays most of the benefits. Only Alaska, New Jersey and Pennsylvania also take a slice from workers.",
+   "text": "First, it's a safe haven. Nobody issues it, so nobody can default on it.",
+   "say": "First, it's a safe haven. Nobody issues it, so nobody can default on it.",
    "scene": {
     "t": "list",
-    "title": "Workers also pay in",
+    "title": "Why fear lifts gold",
     "items": [
-     "Alaska",
-     "New Jersey",
-     "Pennsylvania"
+     "Safe haven",
+     "Falling rates",
+     "Weaker dollar"
     ],
-    "reveal": 3
+    "reveal": 1,
+    "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "Laid off and eligible? Your state pays a weekly benefit. In 2026, the base maximum runs from $235 to $1,208.",
-   "say": "Laid off and eligible? Your state pays a weekly benefit. In twenty twenty-six, the base maximum runs from two hundred thirty-five dollars to twelve hundred and eight dollars.",
+   "text": "In the 2008 crisis, its yearly average rose about 25%.",
+   "say": "In the twenty oh-eight crisis, its yearly average rose about twenty-five percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Gold, yearly avg $/oz (LBMA)",
+    "points": [
+     [
+      2007,
+      695
+     ],
+     [
+      2008,
+      872
+     ],
+     [
+      2009,
+      972
+     ],
+     [
+      2010,
+      1225
+     ],
+     [
+      2011,
+      1572
+     ],
+     [
+      2012,
+      1669
+     ],
+     [
+      2013,
+      1411
+     ],
+     [
+      2014,
+      1266
+     ],
+     [
+      2015,
+      1160
+     ],
+     [
+      2016,
+      1251
+     ],
+     [
+      2017,
+      1257
+     ],
+     [
+      2018,
+      1269
+     ],
+     [
+      2019,
+      1393
+     ],
+     [
+      2020,
+      1770
+     ],
+     [
+      2021,
+      1799
+     ],
+     [
+      2022,
+      1800
+     ],
+     [
+      2023,
+      1941
+     ],
+     [
+      2024,
+      2386
+     ],
+     [
+      2025,
+      3431
+     ]
+    ],
+    "prefix": "$",
+    "end": "$3,431",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, it rose 44%, to $3,431 an ounce.",
+   "say": "In twenty twenty-five, it rose forty-four percent, to three thousand four hundred thirty-one dollars an ounce.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "+44% in 2025"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, scary times often bring rate cuts. Example: $10,000 at 4% earns $400 a year; at 2%, $200. Gold's $0 looks less costly.",
+   "say": "Second, scary times often bring rate cuts. Say ten thousand dollars at four percent earns four hundred a year. At two percent, two hundred. Gold's zero looks less costly.",
    "scene": {
     "t": "compare",
-    "title": "Max weekly benefit, 2026 (base)",
+    "title": "Example: $10,000, 1 year",
     "left": {
-     "label": "Mississippi",
-     "value": "$235",
-     "tone": "down",
-     "sub": "lowest"
-    },
-    "right": {
-     "label": "Washington",
-     "value": "$1,208",
+     "label": "At 4%",
+     "value": "$400",
      "tone": "up",
-     "sub": "highest base max"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Most states pay for up to 26 weeks. Florida pays for as few as 12.",
-   "say": "Most states pay for up to twenty-six weeks. Florida pays for as few as twelve.",
-   "scene": {
-    "t": "split",
-    "title": "How long it lasts",
-    "left": {
-     "title": "Most states",
-     "items": [
-      "Up to 26 weeks"
-     ],
-     "tone": "up"
+     "sub": "$10,000 x 4%"
     },
     "right": {
-     "title": "Florida",
-     "items": [
-      "As few as 12"
-     ],
-     "tone": "down"
-    }
+     "label": "At 2%",
+     "value": "$200",
+     "tone": "down",
+     "sub": "$10,000 x 2%"
+    },
+    "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "And it's taxable federal income, though you can ask your state to withhold 10%.",
-   "say": "And it's taxable federal income, though you can ask your state to withhold ten percent.",
+   "text": "Third, gold is priced in dollars, and the dollar index fell 9.4% in 2025.",
+   "say": "Third, gold is priced in dollars, and the dollar index fell nine point four percent in twenty twenty-five.",
    "scene": {
     "t": "stat",
-    "label": "Optional federal withholding",
-    "value": "10%",
-    "tone": "neutral",
-    "sub": "Form W-4V (IRS)"
+    "label": "US dollar index, 2025",
+    "value": "-9.4%",
+    "tone": "down",
+    "sub": "Worst year since 2017",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even central banks bought 863 tonnes in 2025.",
+   "say": "Even central banks bought eight hundred sixty-three tonnes in twenty twenty-five.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "CENTRAL BANKS",
+    "label": "+863 t",
+    "caption": "Gold bought in 2025 (WGC)",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gold pays nothing. When fear rises, that matters less.",
+   "say": "Gold pays nothing. When fear rises, that matters less.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No yield, no default",
+     "Fear = demand"
+    ],
+    "mood": "happy"
    }
   },
   {
@@ -143,16 +227,16 @@
   }
  ],
  "post": {
-  "title": "Most workers pay $0 for unemployment insurance. So who does?",
-  "ig": "Most workers pay $0 for unemployment insurance. So who does?\nEmployers. The federal tax is 6% on the first $7,000 of pay, cut to $42 per worker in most states by a 5.4% credit. That $7,000 hasn't changed since 1983.\nOnly Alaska, New Jersey and Pennsylvania also take a slice from workers.\n2026 max weekly benefits (before dependent add-ons) range from $235 (Mississippi) to $1,208 (Washington). Most states pay up to 26 weeks; Florida as few as 12. Benefits are federally taxable.\nSources: IRS, US Department of Labor, state agencies.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#unemployment #taxes #jobs #personalfinance #financeprostv",
-  "tiktok": "Most workers pay $0 for unemployment insurance. So who does? Not financial advice. #moneytok #personalfinance #jobs #financeprostv",
-  "yt_desc": "Employers fund unemployment insurance through a federal tax (6% on the first $7,000 of pay, usually cut to $42 per worker by a 5.4% credit) and state taxes; only Alaska, New Jersey and Pennsylvania also tax workers (IRS, US Department of Labor). In 2026, max weekly benefits before dependent add-ons range from $235 in Mississippi to $1,208 in Washington, and benefits are federally taxable. News and education, not financial advice. #Shorts #unemployment #taxes",
+  "title": "Gold hit 53 record highs in 2025. Why fear lifts gold",
+  "ig": "In 2025, gold hit 53 record highs. Fear did that.\nGold's yearly average rose 44% to $3,431/oz in 2025; in 2008 it rose about 25% ($695 to $872).\nWhy: it's a safe haven nobody can default on, falling rates shrink the interest you give up, and it's priced in dollars (the dollar index fell 9.4% in 2025).\nCentral banks bought 863 tonnes of gold in 2025.\nSources: World Gold Council Gold Demand Trends FY2025; LBMA yearly averages; Bloomberg/NPR on the dollar index.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gold #safehaven #interestrates #personalfinance #financeprostv",
+  "tiktok": "Gold hit 53 record highs in 2025. Here's why fear lifts gold. Not financial advice. #moneytok #personalfinance #gold #economy #financeprostv",
+  "yt_desc": "Gold set 53 record highs in 2025 and its yearly average rose 44% to $3,431 an ounce (World Gold Council). It's a safe haven with no default risk, lower rates cut the interest you give up to hold it, and it's priced in dollars, which fell 9.4% on the dollar index in 2025. Central banks bought 863 tonnes in 2025 (WGC). News and education, not financial advice.\n#Shorts #gold #personalfinance",
   "tags": [
-   "unemployment insurance explained",
-   "who pays unemployment",
-   "futa tax",
-   "unemployment benefits by state",
-   "unemployment taxes"
+   "why gold goes up",
+   "gold safe haven",
+   "gold and interest rates",
+   "central bank gold buying",
+   "gold price 2025"
   ]
  }
 }
