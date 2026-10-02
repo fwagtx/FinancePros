@@ -3,7 +3,8 @@ Slot: 2026-11-23-lf-explained (Explained, YouTube 16:9, posts Mon Nov 23, 2026, 
 
 ## Timely angle
 - 23-hour trading: On April 10, 2026 the SEC approved Nasdaq's proposal to trade 23 hours a day, 5 days a week. Nasdaq and NYSE Arca both target Sunday, Dec 6, 2026 for a new overnight session, 9 p.m. to 4 a.m. ET, subject to final approvals and readiness of the securities information processor (SIP). The core 9:30 a.m.-4 p.m. ET session stays the benchmark. (Simpson Thacher memo Apr 29, 2026; WilmerHale alert Sep 29, 2026; Jones Day Sep 2026; Investing.com/Reuters.) Note: launch comes AFTER the Nov 23 post date, so phrase as "planned for December 6, 2026, as of September 2026".
-- Surprise fact (hook): In January 2025, off-exchange venues (wholesalers/internalizers and dark pools, i.e. ATSs) handled a record 51.8% of US stock trading volume, per Bloomberg data; November 2024 was the first month ever with more volume off-exchange than on. Pure dark-pool (ATS) volume is roughly 15-18%; the rest is mostly wholesale market makers filling retail orders. (Bloomberg via multiple outlets; MEMX Jan 2025 note: TRF share 50.6% of consolidated volume; Nasdaq "Off-Exchange Trading Increases Across All Types of Stocks"; OFR blog Jun 5, 2025.)
+- Surprise fact (hook), UPDATED after fact-check: Cboe '2025 U.S. Equities Year in Review' - off-exchange (TRF) share was 50.6% of total consolidated volume for full-year 2025, the first full year above half. Use 50.6% (2025) in the script. Earlier/superseded figures below:
+- (superseded) In January 2025, off-exchange venues (wholesalers/internalizers and dark pools, i.e. ATSs) handled a record 51.8% of US stock trading volume, per Bloomberg data; November 2024 was the first month ever with more volume off-exchange than on. Pure dark-pool (ATS) volume is roughly 15-18%; the rest is mostly wholesale market makers filling retail orders. (Bloomberg via multiple outlets; MEMX Jan 2025 note: TRF share 50.6% of consolidated volume; Nasdaq "Off-Exchange Trading Increases Across All Types of Stocks"; OFR blog Jun 5, 2025.)
 
 ## Core facts (with dates)
 ### What a share is / primary vs secondary market
@@ -82,6 +83,7 @@ Source: S&P Dow Jones Indices via multpl.com/Wikipedia closing data; CNBC Dec 31
 6. Recap.
 
 SOURCES:
+- Cboe, 2025 U.S. Equities Year in Review (off-exchange/TRF share 50.6% of volume, 2025).
 - Bloomberg data via Barchart/Medium/MEMX: off-exchange 51.8% of US equity volume, Jan 2025; MEMX "Strong volume in January" (Feb 2025): TRF 50.6% of consolidated volume.
 - Nasdaq, "Off-Exchange Trading Increases Across All Types of Stocks"; Office of Financial Research blog, Jun 5, 2025.
 - Simpson Thacher, "SEC Approves Nasdaq's 23/5 Trading Proposal" (Apr 29, 2026); WilmerHale, "23x5 Trading Comes to US Exchanges" (Sep 29, 2026); Jones Day (Sep 2026); Investing.com "Nasdaq plans nearly 23-hour trading day from December"; NYSE extended-hours FAQ.
