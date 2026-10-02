@@ -72,3 +72,38 @@ Every fact and number checks out against current sources. The script fails on on
 - line 6 should say eligibility is limited (income caps, FLSA-required overtime only)
 
 VERDICT: FAIL
+
+## Round 2
+
+I re-read the updated raw.json. No new web searches were needed because no new factual claims were added.
+
+**Fixes 1-4 are applied and correct:**
+- **Line 1 (hook):**
+  - Text and narration now match.
+  - "Usually owed overtime" is fair framing. The salary-test exceptions are now stated in the IG and YT captions.
+  - At 10 spoken words, it runs about 3 seconds.
+- **Line 2:**
+  - The text, narration and board now all say $35,568, which is 684 x 52.
+  - The board's "$684 a week" matches the hook.
+- **Line 6:**
+  - The text and narration now say "eligible workers", "federal income tax" and "From 2025 through 2028", and they match each other.
+  - The stat value $12,500 and the sub "$25,000 joint, 2025-2028" match the narration.
+  - Leaving "income limits" out of the sub is acceptable because the caption covers it.
+- **Post captions:**
+  - IG and YT carry the eligibility caveat and the exemptions/state caveat.
+  - All figures in the captions are correct.
+  - The TikTok caption is 134 characters, within 150. It matches the hook and includes the 40-hour condition.
+
+**Re-checks:**
+- Spoken words: 149, within 100-150.
+- Compare values: "$1,000" and "$1,100", 6 characters each.
+- keep:true: none present.
+- Math, dates and the cover payoff are unchanged and correct.
+- No advice and no political opinion.
+- Nothing becomes stale by November 24, 2026.
+
+**Optional nit (not blocking):** in line 6, "that overtime premium" has no direct antecedent, because line 5 is about the timeline. To fix it, change "that" to "the" in both text and say:
+- text: `From 2025 through 2028, eligible workers can deduct the overtime premium from federal income tax, up to $12,500, or $25,000 filing jointly.`
+- say: `From twenty twenty-five through twenty twenty-eight, eligible workers can deduct the overtime premium from federal income tax, up to twelve thousand five hundred, or twenty-five thousand filing jointly.`
+
+VERDICT: PASS
