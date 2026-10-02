@@ -1,0 +1,182 @@
+{
+ "id": "2026-12-01-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How trash companies\nmake money",
+ "cover": {
+  "title": "Why WM Owns the Dump",
+  "prop": "bag",
+  "label": "End 2025",
+  "value": "253"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Every garbage truck pays to dump. WM owns or runs 253 landfills (end of 2025).",
+   "say": "Every garbage truck pays to dump. WM owns the dumps.",
+   "scene": {
+    "t": "hook",
+    "title": "Trucks pay to [dump].",
+    "prop": "bag",
+    "label": "End 2025",
+    "value": "253",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, collection was WM's biggest line at $17.6 billion; landfills $5.3 billion, before internal sales.",
+   "say": "Collection is WM's biggest business: seventeen point six billion in twenty twenty-five. Landfills: five point three.",
+   "scene": {
+    "t": "list",
+    "title": "WM revenue, 2025 (gross)",
+    "items": [
+     "Pickup $17.6B",
+     "Landfills $5.3B"
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But every truck must dump somewhere, and dumps charge a tipping fee per ton.",
+   "say": "But every truck must dump somewhere, and dumps charge a tipping fee.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tipping fee =",
+     "the price per ton",
+     "to unload at a dump"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average US landfill tipping fee was $63.48 a ton in 2025 (EREF).",
+   "say": "In twenty twenty-five, the US average was sixty-three dollars and forty-eight cents a ton.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg US tipping fee, 2025",
+    "value": "$63.48",
+    "tone": "up",
+    "sub": "per ton, EREF",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a 10-ton load x $63.48 = $634.80, just to unload.",
+   "say": "So a ten-ton load pays six hundred thirty-four dollars and eighty cents.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example load",
+     "value": "10 tons"
+    },
+    "to": {
+     "label": "Fee at $63.48/ton",
+     "value": "$634.80"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trick: haul it to your own dump and the fee stays in-house. That's internalization.",
+   "say": "The trick: haul it to your own dump, and the fee stays in-house. That's internalization.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Own truck -> own dump",
+     "= fee stays in-house",
+     "(internalization)"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, WM internalized 69.4% (by disposal cost); Republic Services about 67% (by volume).",
+   "say": "In twenty twenty-five, WM internalized sixty-nine point four percent, by cost; Republic, about sixty-seven, by volume.",
+   "scene": {
+    "t": "compare",
+    "title": "Trash sent to own dump, 2025",
+    "left": {
+     "label": "WM",
+     "value": "69.4%",
+     "tone": "up",
+     "sub": "by disposal cost"
+    },
+    "right": {
+     "label": "Republic",
+     "value": "67%",
+     "tone": "up",
+     "sub": "by volume, approx."
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of 2025, WM ran 253 landfills with about 38 years of permitted space left.",
+   "say": "WM ran two hundred fifty-three landfills at the end of twenty twenty-five, with about thirty-eight years of space left.",
+   "scene": {
+    "t": "stat",
+    "label": "WM landfills, end of 2025",
+    "value": "253",
+    "tone": "neutral",
+    "sub": "~38 yrs space left",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Anyone can buy a truck, but new landfill permits often take years, and neighbors often fight them.",
+   "say": "Anyone can buy a truck, but new landfill permits often take years.",
+   "scene": {
+    "t": "split",
+    "title": "Why dumps are a moat",
+    "left": {
+     "title": "A truck",
+     "items": [
+      "Buy one fast",
+      "Many rivals"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "A landfill",
+     "items": [
+      "Permits: years",
+      "Neighbors fight"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Every garbage truck pays to dump. WM owns 253 dumps.",
+  "ig": "Every garbage truck pays to dump. WM owns the dumps.\n\nIn 2025, WM's landfills brought in $5.3B (gross, before internal sales), next to $17.6B from collection.\nEvery truck pays a tipping fee to unload: the US average was $63.48 a ton in 2025 (EREF). Example: 10 tons x $63.48 = $634.80.\nHaul to your own landfill and that fee stays in-house: WM did it with 69.4% of its waste in 2025 (by disposal cost), Republic Services about 67% (by volume).\nWM ran 253 landfills at the end of 2025, with about 38 years of permitted space; new permits often take years.\n\nSources: WM FY2025 10-K and Q4 2025 results; Republic Services FY2025 10-K; EREF 2025 tipping fee analysis.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#trash #landfill #howtheymakemoney #business #financeprostv",
+  "tiktok": "Every garbage truck pays to dump, and WM runs 253 landfills. Why that fee is the moat. Not financial advice. #landfill #business #financeprostv",
+  "yt_desc": "WM's landfills brought in $5.3 billion in 2025 (gross), and every garbage truck pays a tipping fee to unload, a US average of $63.48 a ton in 2025 per EREF. When the truck and the dump share an owner, that fee stays in-house: WM internalized 69.4% in 2025 (by disposal cost) and Republic Services about 67%, and WM ran 253 landfills with about 38 years of permitted space. Sources: WM and Republic Services FY2025 10-K filings, WM Q4 2025 results, EREF.\n\nNews and education, not financial advice.\n\n#Shorts #landfill #business",
+  "tags": [
+   "how trash companies make money",
+   "landfill tipping fee",
+   "waste management wm",
+   "internalization",
+   "how they make money"
+  ]
+ }
+}
