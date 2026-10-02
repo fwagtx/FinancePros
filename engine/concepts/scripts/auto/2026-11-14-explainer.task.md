@@ -17,7 +17,7 @@ Rules that never change:
 - No emojis in scripts.
 
 Today is Thursday, October 01, 2026. Show: Explainer (posts noon Central). One evergreen money idea explained so well people save it and share it.
-Topic: Unemployment insurance: how it works and who pays for it
+Topic: Why gold goes up when people get scared
 
 Research this topic. If there is a timely news angle this week, use it as the hook. Use web search to confirm every number, rule, limit and definition that can change, and give the source for each. Find at least one REAL data series that can be charted (with the actual values and the source), one worked example with exact math (show the calculation), and the one fact that surprises people. Finish with 'SOURCES:' and the list.
 
@@ -27,7 +27,7 @@ Use web search. Save the brief (facts, numbers with dates, a chartable data seri
 
 ## 2. Script
 Date: Thursday, October 01, 2026. Show: Explainer (posts noon Central). One evergreen money idea explained so well people save it and share it.
-Topic: Unemployment insurance: how it works and who pays for it
+Topic: Why gold goes up when people get scared
 Series 'ticker': who 'ticker' on every line. 
 Research brief (the ONLY facts you may use):
 (the brief you saved in step 1)
