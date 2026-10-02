@@ -295,7 +295,9 @@ def sanitize(sc, show, date):
     for ln in sc["lines"]:
         s = dict(ln["scene"])
         if s.get("keep") and s.get("t") != prev_t:   # a "keep" line must continue the same template (e.g. not follow a chapter card)
-            s = {"t": "hook", "title": ln["text"][:48], "prop": "none"}
+            full = {"list": "items", "timeline": "events", "chart": "points", "compare": "left", "countries": "cast"}.get(s.get("t"))
+            if full and s.get(full): s.pop("keep")   # it carries the whole picture: draw it fresh
+            else: s = {"t": "hook", "title": ln["text"][:48], "prop": "none"}
         if s["t"] == "squirrel" and not acorn: s = {"t": "hook", "title": ln["text"][:50], "prop": "acorns"}
         if s["t"] == "chapter" and kind != "long": continue
         if s.get("chart_note"): s["note"] = s.pop("chart_note")
