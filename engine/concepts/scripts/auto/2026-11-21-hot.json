@@ -1,0 +1,183 @@
+{
+ "id": "2026-11-21-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "The subscription\nmyth",
+ "cover": {
+  "title": "They Guessed $86. It Was $219",
+  "prop": "tag",
+  "label": "subscriptions",
+  "value": "$219"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Subscriptions: people guessed $86 a month. It was $219.",
+   "say": "Subscriptions: people guessed eighty-six bucks a month. It was two nineteen.",
+   "scene": {
+    "t": "hook",
+    "title": "Real bill: [$219]",
+    "prop": "tag",
+    "label": "2022 survey",
+    "value": "$219",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's from a 2022 C+R Research survey: once people listed every charge, the total was 2.5 times their guess.",
+   "say": "That's from a twenty twenty-two C R Research survey. Once people listed every charge, the total was two and a half times their guess.",
+   "scene": {
+    "t": "compare",
+    "title": "Monthly subscriptions",
+    "left": {
+     "label": "Guess",
+     "value": "$86",
+     "tone": "neutral",
+     "sub": "estimated"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "$219",
+     "tone": "down",
+     "sub": "itemized"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The gap: $133 a month, or $1,596 a year.",
+   "say": "The gap is a hundred thirty-three dollars a month, or fifteen ninety-six a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Yearly gap",
+    "value": "$1,596",
+    "tone": "down",
+    "sub": "$133 x 12, C+R 2022",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices creep, too: Netflix's Standard plan went from $8.99 in 2014 to $19.99 in March 2026.",
+   "say": "Prices creep, too. Netflix's Standard plan went from eight ninety-nine in twenty fourteen to nineteen ninety-nine in March twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Netflix Standard, US",
+    "points": [
+     [
+      2014,
+      8.99
+     ],
+     [
+      2015,
+      9.99
+     ],
+     [
+      2017,
+      10.99
+     ],
+     [
+      2019,
+      12.99
+     ],
+     [
+      2020,
+      13.99
+     ],
+     [
+      2022,
+      15.49
+     ],
+     [
+      2025,
+      17.99
+     ],
+     [
+      2026,
+      19.99
+     ]
+    ],
+    "prefix": "$",
+    "end": "$19.99",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up about 122%.",
+   "say": "That's up about a hundred twenty-two percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "mood": "shock",
+    "note": {
+     "x": 2026,
+     "text": "+122% since 2014"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They slip by in three ways: free trials that turn paid, yearly renewals, and price hikes on autopay.",
+   "say": "They slip by in three ways: free trials that turn paid, yearly renewals, and price hikes on autopay.",
+   "scene": {
+    "t": "list",
+    "title": "How they slip by",
+    "items": [
+     "Trials turn paid",
+     "Yearly renewals",
+     "Autopay hikes"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cancelling can be hard: in Sept. 2025, Amazon agreed to pay $2.5 billion to settle FTC claims over Prime sign-ups and cancellations.",
+   "say": "And cancelling can be hard. In September twenty twenty-five, Amazon agreed to pay two and a half billion dollars to settle F T C claims over Prime sign-ups and cancellations.",
+   "scene": {
+    "t": "news",
+    "headline": "Amazon: $2.5B FTC Prime deal",
+    "source": "CNBC, Sept. 25, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Added up, $219 a month is $2,628 a year.",
+   "say": "Added up, two hundred nineteen dollars a month is twenty-six twenty-eight a year.",
+   "scene": {
+    "t": "stat",
+    "label": "$219 a month, for a year",
+    "value": "$2,628",
+    "tone": "down",
+    "sub": "C+R Research, 2022",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "People guessed $86 a month on subscriptions. It was $219",
+  "ig": "People guessed $86 a month on subscriptions. Itemized, it was $219.\n\nIn a 2022 C+R Research survey, the itemized total was 2.5x the guess: a $133 monthly gap, $1,596 a year.\nNetflix's US Standard plan went from $8.99 (2014) to $19.99 (March 2026), up about 122%.\nIn Sept. 2025, Amazon agreed to pay $2.5B to settle FTC claims over Prime sign-ups and cancellations.\n\nSources: C+R Research (2022); Netflix via CNBC (Mar 2026); FTC/Amazon via CNBC (Sept 2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#subscriptions #budgeting #moneymyths #personalfinance #financeprostv",
+  "tiktok": "People guessed $86 a month on subscriptions. Itemized: $219. Not financial advice. #moneytok #personalfinance #subscriptions #budgeting #financeprostv",
+  "yt_desc": "In a 2022 C+R Research survey, people guessed they spent $86 a month on subscriptions; itemized, it was $219, a $1,596 yearly gap. Netflix's US Standard plan rose from $8.99 in 2014 to $19.99 in March 2026, and in September 2025 Amazon agreed to pay $2.5 billion to settle FTC claims over Prime sign-ups and cancellations. Sources: C+R Research, CNBC.\n\nNews and education, not financial advice.\n\n#Shorts #subscriptions #budgeting",
+  "tags": [
+   "subscription spending",
+   "subscription creep",
+   "netflix price history",
+   "amazon prime ftc settlement",
+   "money myths"
+  ]
+ }
+}
