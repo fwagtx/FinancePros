@@ -1,0 +1,204 @@
+{
+ "series": "ticker",
+ "header": "ACH vs wire vs instant:\nspeed and cost",
+ "cover": {
+  "title": "Same $1,000: Free or $30?",
+  "prop": "bill",
+  "label": "$1,000",
+  "value": "$0-$30"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Same $1,000. One transfer is free. Another costs $30.",
+   "say": "Same thousand dollars. One transfer is free. Another costs thirty dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "Free or [$30]?",
+    "prop": "bill",
+    "label": "$1,000",
+    "value": "$0-$30",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The difference is the pipe: ACH, wire, or instant.",
+   "say": "The difference is the pipe: A C H, wire, or instant.",
+   "scene": {
+    "t": "list",
+    "title": "Three money pipes",
+    "items": [
+     "ACH",
+     "Wire",
+     "Instant"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "ACH is the cheap, slower workhorse, usually 1-2 business days. It moved 35.2 billion payments in 2025.",
+   "say": "A C H is the cheap, slower workhorse, usually one to two business days. It moved thirty-five point two billion payments in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "ACH payments per year",
+    "points": [
+     [
+      2020,
+      26.8
+     ],
+     [
+      2021,
+      29.1
+     ],
+     [
+      2022,
+      30.0
+     ],
+     [
+      2023,
+      31.5
+     ],
+     [
+      2024,
+      33.6
+     ],
+     [
+      2025,
+      35.2
+     ]
+    ],
+    "suffix": "B",
+    "end": "35.2B",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wires usually land the same business day, but Bank of America charges $30 for an outgoing domestic one, as of August 2026.",
+   "say": "Wires usually land the same business day, but Bank of America charges thirty dollars for an outgoing domestic one, as of August twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "BofA outgoing domestic wire",
+    "value": "$30",
+    "tone": "down",
+    "sub": "Fee schedule, Aug 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Instant rails, RTP and FedNow, never close, and both now take up to $10 million per payment.",
+   "say": "Instant rails, R T P and FedNow, never close, and both now take up to ten million dollars per payment.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2017",
+      "what": "RTP launches"
+     },
+     {
+      "when": "Jul 2023",
+      "what": "FedNow launches"
+     },
+     {
+      "when": "Feb 2025",
+      "what": "RTP limit: $10M"
+     },
+     {
+      "when": "Nov 2025",
+      "what": "FedNow limit: $10M"
+     }
+    ],
+    "reveal": 4,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on Venmo, instant cash-out costs 1.75%: $17.50 on $1,000. Standard is free but takes 1-3 business days.",
+   "say": "On Venmo, instant cash-out costs one point seven five percent: seventeen dollars and fifty cents on a thousand. Standard is free but takes one to three business days.",
+   "scene": {
+    "t": "compare",
+    "title": "Venmo cash-out, $1,000",
+    "left": {
+     "label": "Standard",
+     "value": "$0",
+     "tone": "up",
+     "sub": "1-3 business days"
+    },
+    "right": {
+     "label": "Instant",
+     "value": "$17.50",
+     "tone": "down",
+     "sub": "1.75% x $1,000"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fee caps at $25, so $2,000 costs $25, not $35.",
+   "say": "The fee caps at twenty-five dollars, so two thousand costs twenty-five, not thirty-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1.75% x $2,000 = $35",
+     "Venmo cap: $25",
+     "Fee paid: $25"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every transfer trades time for money: slow and free, or fast and paid.",
+   "say": "Every transfer trades time for money: slow and free, or fast and paid.",
+   "scene": {
+    "t": "split",
+    "title": "Time vs money",
+    "left": {
+     "title": "Slow",
+     "items": [
+      "Standard ACH",
+      "Often free"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Fast",
+     "items": [
+      "Wire or instant",
+      "Often a fee"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "ACH vs wire vs instant: why the same $1,000 costs $0 or $30",
+  "ig": "Same $1,000. One transfer is free. Another costs $30.\n\nACH moved 35.2 billion payments in 2025 (Nacha); standard transfers usually take 1-2 business days.\nBank of America lists $30 for an outgoing domestic wire (fee schedule effective Aug 2026); wires run on business days.\nRTP (since 2017) and FedNow (since July 2023) settle in seconds, 24/7, with limits up to $10M per payment.\nExample: Venmo instant cash-out is 1.75% (min $0.25, max $25): $17.50 on $1,000. Standard is free, 1-3 business days.\n\nSources: Nacha; Federal Reserve; The Clearing House; Bank of America; Venmo.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#banking #ach #wiretransfer #personalfinance #financeprostv",
+  "tiktok": "Same $1,000: free by ACH, $30 by wire, $17.50 instant. Not financial advice. #moneytok #personalfinance #banking #ach #financeprostv",
+  "yt_desc": "ACH moved 35.2 billion payments in 2025 and is usually free but slow (1-2 business days); Bank of America lists $30 for an outgoing domestic wire (Aug 2026 schedule); RTP and FedNow settle instantly 24/7 with limits up to $10 million. Venmo's instant cash-out fee is 1.75% (max $25), or $17.50 on $1,000. Sources: Nacha, Federal Reserve, The Clearing House, Bank of America, Venmo.\n\nNews and education, not financial advice.\n\n#Shorts #banking #personalfinance",
+  "tags": [
+   "ach vs wire transfer",
+   "instant transfer fee",
+   "fednow explained",
+   "wire transfer fees",
+   "same day ach"
+  ]
+ }
+}
