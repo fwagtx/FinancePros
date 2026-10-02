@@ -2,16 +2,16 @@
  "series": "ticker",
  "header": "How robo-advisors\nmake money",
  "cover": {
-  "title": "The Robo-Advisor's Cash Secret",
+  "title": "The Robo-Advisor That Earns on Cash",
   "prop": "box",
-  "label": "Wealthfront",
+  "label": "Wealthfront FY26",
   "value": "74%"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "Wealthfront is a robo-advisor, but in fiscal 2026, 74% of its revenue came from cash.",
-   "say": "Wealthfront's a robo-advisor, but seventy-four percent of its revenue came from cash.",
+   "text": "Wealthfront's biggest earner isn't investing. It's cash: 74% of fiscal 2026 revenue.",
+   "say": "Wealthfront's biggest earner isn't investing. It's cash.",
    "scene": {
     "t": "hook",
     "title": "Robo money: [cash]",
@@ -23,21 +23,21 @@
   },
   {
    "who": "ticker",
-   "text": "In the year ended January 2026, its cash accounts brought in $271.7 million of $365 million.",
-   "say": "In the year ended January twenty twenty-six, cash brought in about two hundred seventy-two million of three sixty-five.",
+   "text": "In the year ended Jan. 31, 2026, cash management brought in $271.7 million of $365.0 million, or 74%.",
+   "say": "In the year ended January twenty twenty-six, cash brought in about two hundred seventy-two million, seventy-four percent of revenue.",
    "scene": {
     "t": "stat",
     "label": "Cash revenue, FY2026",
     "value": "$271.7M",
     "tone": "up",
-    "sub": "of $365.0M, Wealthfront",
+    "sub": "74% of $365.0M, Wealthfront",
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "Investment advisory fees, the robo part, brought in $91.9 million.",
-   "say": "Investment advisory fees, the robo part, brought in about ninety-two million.",
+   "text": "Investment advisory fees, the robo part, brought in $91.9 million, and that side is growing faster.",
+   "say": "Investment advisory fees, the robo part, brought in about ninety-two million, and that side is growing faster.",
    "scene": {
     "t": "compare",
     "title": "Wealthfront revenue, FY2026",
@@ -65,31 +65,31 @@
     "lines": [
      "Banks pay interest",
      "Wealthfront keeps a fee",
-     "savers get the rest"
+     "Savers get the rest"
     ],
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "Its IPO filing put that cash fee at about 0.6% a year, as of July 2025.",
-   "say": "Its I P O filing put that cash fee at about zero point six percent a year, as of July twenty twenty-five.",
+   "text": "By the quarter ended July 2026, that cash fee was about 0.55% a year, down as rates fell.",
+   "say": "By July twenty twenty-six, that cash fee was about zero point five five percent a year, down as rates fell.",
    "scene": {
     "t": "stat",
-    "label": "Cash fee, July 2025",
-    "value": "~0.60%",
-    "tone": "neutral",
-    "sub": "Wealthfront S-1",
+    "label": "Cash fee, Q2 FY2027",
+    "value": "~0.55%",
+    "tone": "down",
+    "sub": "down from ~0.61% in 2025",
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "Hypothetical $10,000: a 0.25% investing fee is $25 a year; a 0.6% cash fee is $60.",
-   "say": "On a hypothetical ten thousand dollars, the investing fee is twenty-five dollars a year. The cash fee is sixty.",
+   "text": "Hypothetical $10,000: a 0.25% investing fee is $25 a year; on cash, Wealthfront keeps about $55.",
+   "say": "On a hypothetical ten thousand dollars, investing costs twenty-five dollars a year. On cash, Wealthfront keeps about fifty-five.",
    "scene": {
     "t": "compare",
-    "title": "On $10,000, per year",
+    "title": "Hypothetical $10,000/yr",
     "left": {
      "label": "Investing",
      "value": "$25",
@@ -98,31 +98,31 @@
     },
     "right": {
      "label": "Cash",
-     "value": "$60",
+     "value": "$55",
      "tone": "up",
-     "sub": "~0.60% fee"
+     "sub": "~0.55% kept"
     },
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "Cash has caused trouble too: in 2022, Schwab paid $187 million to settle SEC charges over cash in its no-fee robo.",
-   "say": "Cash has caused trouble too. In twenty twenty-two, Schwab paid a hundred eighty-seven million to settle S E C charges over cash in its no-fee robo.",
+   "text": "Regulators watch robo cash: in 2022, Schwab paid $187 million to settle SEC charges it misled clients about cash in its no-fee robo.",
+   "say": "Regulators watch robo cash. In twenty twenty-two, Schwab paid a hundred eighty-seven million to settle S E C charges it misled clients about cash in its no-fee robo.",
    "scene": {
     "t": "news",
-    "headline": "Schwab pays $187M over robo cash",
+    "headline": "Schwab pays $187M in SEC robo case",
     "source": "SEC, June 13, 2022"
    }
   },
   {
    "who": "ticker",
-   "text": "So the fee on the screen isn't always the main way the app gets paid.",
-   "say": "So the fee on the screen isn't always the main way the app gets paid.",
+   "text": "So at Wealthfront, the fee you see isn't the main way it gets paid.",
+   "say": "So at Wealthfront, the fee you see isn't the main way it gets paid.",
    "scene": {
     "t": "board",
     "lines": [
-     "Fee on screen: 0.25%",
+     "Wealthfront fee: 0.25%",
      "Main earner: cash"
     ],
     "mood": "think"
@@ -138,10 +138,10 @@
   }
  ],
  "post": {
-  "title": "Wealthfront is a robo-advisor. 74% of revenue is cash",
-  "ig": "Wealthfront is a robo-advisor, but in fiscal 2026, 74% of its revenue came from cash.\n\nYear ended Jan 31, 2026: $271.7M from cash management vs $91.9M from investment advisory, of $365.0M total.\nIts S-1 put the cash management fee at about 0.60% a year as of July 2025; the advisory fee is 0.25%. On a hypothetical $10,000: about $60 vs $25 a year.\nIn 2022, Schwab paid $187M to settle SEC charges over cash in its no-fee robo (no admission).\n\nSources: Wealthfront FY2026 results (Mar 2026) and S-1 (2025); SEC (June 2022).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#roboadvisor #investing #fintech #howtheymakemoney #financeprostv",
+  "title": "Wealthfront is a robo-advisor. 74% of FY2026 revenue was cash",
+  "ig": "Wealthfront is a robo-advisor, but in fiscal 2026, 74% of its revenue came from cash.\n\nYear ended Jan 31, 2026: $271.7M from cash management vs $91.9M from investment advisory, of $365.0M total. In the quarter ended July 31, 2026, cash was about 67% of revenue, and Wealthfront's cash fee rate was about 0.55% a year (down from about 0.60% in July 2025); the advisory fee is 0.25%. On a hypothetical $10,000: about $55 kept on cash vs $25 for investing, per year.\nIn 2022, Schwab paid $187M to settle SEC charges over cash in its no-fee robo (no admission).\n\nSources: Wealthfront FY2026 results (Mar 2026), Q2 FY2027 results (Sep 2026), S-1 (2025); SEC (June 2022).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#roboadvisor #investing #fintech #howtheymakemoney #financeprostv",
   "tiktok": "Wealthfront is a robo-advisor, but 74% of its FY2026 revenue came from cash. Not financial advice. #moneytok #personalfinance #roboadvisor #financeprostv",
-  "yt_desc": "In the fiscal year ended January 31, 2026, Wealthfront earned $271.7 million from cash management and $91.9 million from investment advisory fees, of $365.0 million in revenue. Its S-1 put the cash management fee at about 0.60% a year as of July 2025, versus a 0.25% advisory fee. In 2022 Schwab paid $187 million to settle SEC charges over cash in its no-fee robo. Sources: Wealthfront filings, SEC.\n\nNews and education, not financial advice.\n\n#Shorts #roboadvisor #investing",
+  "yt_desc": "In the fiscal year ended January 31, 2026, Wealthfront earned $271.7 million from cash management and $91.9 million from investment advisory fees, of $365.0 million in revenue. Its cash management fee rate was about 0.55% a year in the quarter ended July 31, 2026 (about 0.60% in July 2025, per its S-1), versus a 0.25% advisory fee. In 2022 Schwab paid $187 million to settle SEC charges over cash in its no-fee robo. Sources: Wealthfront filings, SEC.\n\nNews and education, not financial advice.\n\n#Shorts #roboadvisor #investing",
   "tags": [
    "how robo advisors make money",
    "wealthfront revenue",
