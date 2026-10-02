@@ -1,0 +1,1662 @@
+{
+ "id": "2026-10-02-lf-big",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "Why mortgage rates hit 7.28%\nand the bond yield behind it",
+ "cover": {
+  "title": "Mortgages Hit 7.28%.",
+  "prop": "house",
+  "label": "Oct 1",
+  "value": "7.28%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "On Oct 1, 2026, mortgage rates hit 7.28%.",
+   "say": "On October first, mortgage rates hit seven point two eight percent.",
+   "scene": {
+    "t": "hook",
+    "title": "Mortgages hit [7.28%]",
+    "prop": "house",
+    "label": "Oct 1 2026",
+    "value": "7.28%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Feb 26, 2026, they were 5.98%. On a $400,000 loan, that gap is about $344 a month.",
+   "say": "Back on February twenty-sixth, they were five point nine eight percent. On a four hundred thousand dollar loan, that gap is about three hundred forty-four dollars a month.",
+   "scene": {
+    "t": "compare",
+    "title": "Freddie Mac 30-yr fixed",
+    "left": {
+     "label": "Feb 26, 2026",
+     "value": "5.98%",
+     "tone": "neutral",
+     "sub": "under 6%"
+    },
+    "right": {
+     "label": "Oct 1, 2026",
+     "value": "7.28%",
+     "tone": "down",
+     "sub": "since Nov 2023"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The reason sits underneath: the 10-year Treasury yield touched 5.34% on Oct 1, its highest since 2002 (Reuters).",
+   "say": "The reason sits underneath your mortgage. On October first, the ten-year Treasury yield touched five point three four percent, its highest level since twenty oh two, Reuters reported.",
+   "scene": {
+    "t": "stat",
+    "label": "10-yr Treasury yield, Oct 1",
+    "value": "5.34%",
+    "tone": "down",
+    "sub": "Highest since 2002, Reuters",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's not only America. Bond yields in Japan, Britain and Germany hit multi-year highs in September 2026.",
+   "say": "And it isn't only America. Bond yields in Japan, Britain and Germany also hit multi-year highs in September.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "Highest since 2002"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "Over 3% here"
+     },
+     {
+      "name": "uk",
+      "mood": "worried",
+      "says": "Us too"
+     }
+    ],
+    "caption": "A global bond selloff"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That yield is basically the price of borrowing money, and it leaks into almost every loan you can take.",
+   "say": "That yield is basically the price of borrowing money, and it leaks into almost every loan a person can take.",
+   "scene": {
+    "t": "hook",
+    "title": "The price of [money]",
+    "prop": "bill",
+    "label": "LOANS",
+    "value": "pricier",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the plan: what a yield is, why it jumped, who wins, who loses, and what to watch next.",
+   "say": "So here's the plan. What a yield actually is, why it jumped, who wins, who loses, and which dates to watch next.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "What's a yield?",
+     "Why did it jump?",
+     "Who wins? Who loses?"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What happened.",
+   "say": "Let's start with what happened.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What happened"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Thursday, Oct 1, 2026, the 10-year Treasury yield hit its highest level since 2002, Reuters reported.",
+   "say": "On Thursday, October first, Reuters reported that the ten-year Treasury yield had climbed to its highest level since twenty oh two.",
+   "scene": {
+    "t": "news",
+    "headline": "10-yr yield: highest since 2002",
+    "source": "Reuters, Oct 1, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It touched about 5.34% that morning, then buyers stepped in and it eased to about 5.24% later in the day.",
+   "say": "It touched about five point three four percent that morning. Then buyers stepped in, and it eased to about five point two four percent later in the day.",
+   "scene": {
+    "t": "compare",
+    "title": "10-yr Treasury, Oct 1, 2026",
+    "left": {
+     "label": "Morning high",
+     "value": "5.34%",
+     "tone": "down",
+     "sub": "since 2002"
+    },
+    "right": {
+     "label": "Later Oct 1",
+     "value": "5.24%",
+     "tone": "neutral",
+     "sub": "eased back"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 30-year Treasury went even higher: about 5.68% on Oct 1, per Tradeweb data cited by The Wall Street Journal.",
+   "say": "The thirty-year Treasury went even higher, to about five point six eight percent on October first, according to Tradeweb data cited by The Wall Street Journal.",
+   "scene": {
+    "t": "stat",
+    "label": "30-yr Treasury yield, Oct 1",
+    "value": "5.68%",
+    "tone": "down",
+    "sub": "Tradeweb, via WSJ"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This didn't happen overnight. On Sept 15, 2026, the 10-year rose as high as 5.04%, then its highest since 2007, CNBC reported.",
+   "say": "This didn't happen overnight. On September fifteenth, the ten-year rose as high as five point oh four percent, which was then its highest since twenty oh seven, CNBC reported.",
+   "scene": {
+    "t": "news",
+    "headline": "10-yr tops 5%, first since 2007",
+    "source": "CNBC, Sept 15, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Oct 1, Freddie Mac's weekly survey put the average 30-year fixed mortgage at 7.28%, up from 7.03% a week earlier.",
+   "say": "Back to October first. Freddie Mac's weekly survey put the average thirty-year fixed mortgage at seven point two eight percent, up from seven point oh three percent a week earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "Freddie Mac 30-yr fixed",
+    "left": {
+     "label": "Sept 24, 2026",
+     "value": "7.03%",
+     "tone": "neutral",
+     "sub": "first 7%+ in 2026"
+    },
+    "right": {
+     "label": "Oct 1, 2026",
+     "value": "7.28%",
+     "tone": "down",
+     "sub": "+0.25 in a week"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the highest average since November 2023. A year earlier, it was 6.34%.",
+   "say": "That's the highest average since November twenty twenty-three. A year earlier, it was six point three four percent.",
+   "scene": {
+    "t": "stat",
+    "label": "30-yr mortgage, Oct 1, 2026",
+    "value": "7.28%",
+    "tone": "down",
+    "sub": "Year ago: 6.34%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shorter loans moved too: the 15-year fixed averaged 6.60%, up from 6.42% a week earlier.",
+   "say": "Shorter loans moved too. The fifteen-year fixed averaged six point six oh percent, up from six point four two percent a week earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "Freddie Mac 15-yr fixed",
+    "left": {
+     "label": "Sept 24, 2026",
+     "value": "6.42%",
+     "tone": "neutral",
+     "sub": "week before"
+    },
+    "right": {
+     "label": "Oct 1, 2026",
+     "value": "6.60%",
+     "tone": "down",
+     "sub": "Freddie Mac"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's 2026 so far, using Freddie Mac's last survey of each month, plus Oct 1.",
+   "say": "Here's twenty twenty-six so far, using Freddie Mac's last survey of each month, plus October first.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr mortgage, 2026",
+    "points": [
+     [
+      2,
+      5.98
+     ],
+     [
+      3,
+      6.38
+     ],
+     [
+      4,
+      6.3
+     ],
+     [
+      5,
+      6.53
+     ],
+     [
+      6,
+      6.49
+     ],
+     [
+      7,
+      6.66
+     ],
+     [
+      8,
+      6.66
+     ],
+     [
+      9,
+      7.03
+     ],
+     [
+      10,
+      7.28
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.28%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Feb 26, the rate dipped to 5.98%, under 6% for the first time in about three and a half years.",
+   "say": "On February twenty-sixth, the rate dipped to five point nine eight percent. That was under six percent for the first time in about three and a half years.",
+   "scene": {
+    "keep": true,
+    "t": "chart",
+    "title": "30-yr mortgage, 2026",
+    "points": [
+     [
+      2,
+      5.98
+     ],
+     [
+      3,
+      6.38
+     ],
+     [
+      4,
+      6.3
+     ],
+     [
+      5,
+      6.53
+     ],
+     [
+      6,
+      6.49
+     ],
+     [
+      7,
+      6.66
+     ],
+     [
+      8,
+      6.66
+     ],
+     [
+      9,
+      7.03
+     ],
+     [
+      10,
+      7.28
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.28%",
+    "color": "down",
+    "note": {
+     "x": 2,
+     "text": "5.98%: Feb 26"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it climbed, crossed 7% on Sept 24, and jumped again to 7.28% one week later.",
+   "say": "Then it climbed, crossed seven percent on September twenty-fourth, and jumped again to seven point two eight percent one week later.",
+   "scene": {
+    "keep": true,
+    "t": "chart",
+    "title": "30-yr mortgage, 2026",
+    "points": [
+     [
+      2,
+      5.98
+     ],
+     [
+      3,
+      6.38
+     ],
+     [
+      4,
+      6.3
+     ],
+     [
+      5,
+      6.53
+     ],
+     [
+      6,
+      6.49
+     ],
+     [
+      7,
+      6.66
+     ],
+     [
+      8,
+      6.66
+     ],
+     [
+      9,
+      7.03
+     ],
+     [
+      10,
+      7.28
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.28%",
+    "color": "down",
+    "note": {
+     "x": 10,
+     "text": "7.28% on Oct 1"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage rates tend to follow the 10-year Treasury yield plus a cushion for lenders. On Oct 1, the gap was about 2 points.",
+   "say": "Mortgage rates tend to follow the ten-year Treasury yield, plus a cushion for lenders. On October first, that gap was about two points.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mortgage rate is about",
+     "10-yr yield + a cushion",
+     "Oct 1: 7.28% vs ~5.3%"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two weeks earlier, on Sept 16, 2026, the Fed raised its key rate to 3.75%-4.00%, its first hike since July 2023.",
+   "say": "All this came two weeks after the Federal Reserve raised its key rate to a range of three point seven five to four percent on September sixteenth. That was its first hike since July twenty twenty-three.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "FEDERAL RESERVE",
+    "label": "3.75-4.00%",
+    "caption": "First hike since 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's statement was short: \"Inflation remains elevated.\"",
+   "say": "The Fed's statement was short and blunt. Quote, inflation remains elevated.",
+   "scene": {
+    "t": "quote",
+    "text": "Inflation remains elevated.",
+    "source": "FOMC statement, Sept 16"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And people feel it. The Conference Board's consumer confidence index fell to 81.9 in September, its lowest since 2014.",
+   "say": "And people feel it. The Conference Board's consumer confidence index fell to eighty-one point nine in September, its lowest reading since twenty fourteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Consumer confidence, Sept",
+    "value": "81.9",
+    "tone": "down",
+    "sub": "Lowest since 2014",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In that same survey, people expected prices to rise 6.1% over the next 12 months, on average.",
+   "say": "In that same survey, people expected prices to rise six point one percent over the next twelve months, on average.",
+   "scene": {
+    "t": "stat",
+    "label": "Expected inflation, 12 mo.",
+    "value": "6.1%",
+    "tone": "down",
+    "sub": "Conference Board, Sept 29"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: How bonds work.",
+   "say": "So what is this yield everyone's watching?",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "How bonds work"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A Treasury is an IOU from the US government. You lend it money, and it pays you interest.",
+   "say": "A Treasury is basically an IOU from the US government. You lend it money, and it pays you interest until it pays you back.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Treasury = an IOU",
+     "You lend to the US",
+     "It pays you interest"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The yield is the yearly return a buyer gets for lending at today's price.",
+   "say": "The yield is the yearly return a buyer gets for lending at today's price.",
+   "scene": {
+    "t": "hook",
+    "title": "Yield = your [return]",
+    "prop": "paper",
+    "label": "IOU",
+    "value": "5.34%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the twist: when new bonds pay more, old bonds that pay less lose value.",
+   "say": "Here's the twist. When new bonds start paying more, the old bonds that pay less lose value.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Yields up = prices down",
+     "Yields down = prices up"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Think of it like a seesaw. When lenders demand more to lend, the price of the IOU has to drop.",
+   "say": "Think of it like a seesaw. When lenders demand more to lend, the price of the IOU has to drop.",
+   "scene": {
+    "t": "hook",
+    "title": "The bond [seesaw]",
+    "prop": "paper",
+    "label": "PRICE",
+    "value": "Down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: you own a $1,000, 10-year bond paying 4%. New ones now pay about 5.3%.",
+   "say": "Here's a made-up example. Say you own a one thousand dollar, ten-year bond paying four percent. New ones now pay about five point three percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical 10-yr bonds",
+    "left": {
+     "label": "Your old bond",
+     "value": "4%",
+     "tone": "neutral",
+     "sub": "example"
+    },
+    "right": {
+     "label": "A new bond",
+     "value": "5.3%",
+     "tone": "up",
+     "sub": "Oct 2026 level"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Any buyer would pick the new one, so yours only sells at a discount.",
+   "say": "Any buyer would pick the new one, so yours only sells at a discount.",
+   "scene": {
+    "keep": true,
+    "winner": "right",
+    "t": "compare",
+    "title": "Hypothetical 10-yr bonds",
+    "left": {
+     "label": "Your old bond",
+     "value": "4%",
+     "tone": "neutral",
+     "sub": "example"
+    },
+    "right": {
+     "label": "A new bond",
+     "value": "5.3%",
+     "tone": "up",
+     "sub": "Oct 2026 level"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In this example, its price falls to about $900, so the buyer's return matches about 5.3%.",
+   "say": "In this example, its price falls to about nine hundred dollars, so the buyer's return works out to about five point three percent.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example bond, at 4%",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "If new ones pay 5.3%",
+     "value": "~$900"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why a bond selloff and rising yields are the same story, told from two sides.",
+   "say": "That's why a bond selloff and rising yields are really the same story, told from two sides.",
+   "scene": {
+    "t": "split",
+    "title": "One move, two sides",
+    "left": {
+     "title": "Bond buyers",
+     "items": [
+      "Sell old bonds",
+      "Prices fall"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Yields",
+     "items": [
+      "Go up",
+      "Loans cost more"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 10-year matters most because lenders use it as a base for long loans like mortgages.",
+   "say": "The ten-year matters most because lenders use it as a base for long loans, especially mortgages.",
+   "scene": {
+    "t": "list",
+    "title": "Priced off Treasuries",
+    "items": [
+     "Mortgages",
+     "Car loans",
+     "Business loans",
+     "US debt itself"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also shapes what companies pay to borrow, and what the government pays on its own debt.",
+   "say": "It also shapes what companies pay to borrow, and what the government pays on its own debt.",
+   "scene": {
+    "t": "list",
+    "title": "Priced off Treasuries",
+    "items": [
+     "Mortgages",
+     "Car loans",
+     "Business loans",
+     "US debt itself"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that bill is already huge: the CBO says net interest hit $1,052 billion in the first 11 months of fiscal 2026.",
+   "say": "And that bill is already huge. The Congressional Budget Office says net interest hit one trillion, fifty-two billion dollars in the first eleven months of fiscal twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "US net interest, 11 months",
+    "value": "$1,052B",
+    "tone": "down",
+    "sub": "CBO, FY2026, Sept 9 report"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up $111 billion, or 12%, from the same stretch a year earlier.",
+   "say": "That's up one hundred eleven billion dollars, or twelve percent, from the same stretch a year earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "Net interest, 11 months",
+    "left": {
+     "label": "FY2025",
+     "value": "$941B",
+     "tone": "neutral",
+     "sub": "CBO"
+    },
+    "right": {
+     "label": "FY2026",
+     "value": "$1,052B",
+     "tone": "down",
+     "sub": "+12%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Higher yields mean every new dollar the US borrows costs more too.",
+   "say": "Higher yields mean every new dollar the government borrows costs more too.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "Pricier IOUs"
+     }
+    ],
+    "caption": "New debt, higher rates"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: How we got here.",
+   "say": "So how did we get here?",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "How we got here"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In late February 2026, when the Iran war began, the 10-year yield was under 4%, CNBC reported.",
+   "say": "In late February, when the Iran war began, the ten-year yield was under four percent, CNBC reported.",
+   "scene": {
+    "reveal": 1,
+    "t": "timeline",
+    "events": [
+     [
+      "Late Feb",
+      "Iran war; under 4%"
+     ],
+     [
+      "Sept 1",
+      "Japan tops 3%"
+     ],
+     [
+      "Sept 16",
+      "Fed raises rates"
+     ],
+     [
+      "Oct 1",
+      "US 10-yr: 5.34%"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Sept 1, Japan's 10-year yield hit 3% for the first time since 1996.",
+   "say": "On September first, Japan's ten-year yield hit three percent for the first time since nineteen ninety-six.",
+   "scene": {
+    "reveal": 2,
+    "keep": true,
+    "t": "timeline",
+    "events": [
+     [
+      "Late Feb",
+      "Iran war; under 4%"
+     ],
+     [
+      "Sept 1",
+      "Japan tops 3%"
+     ],
+     [
+      "Sept 16",
+      "Fed raises rates"
+     ],
+     [
+      "Oct 1",
+      "US 10-yr: 5.34%"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Sept 16, the Fed raised rates. And on Oct 1, the US 10-year touched 5.34%.",
+   "say": "On September sixteenth, the Fed raised rates. And on October first, the US ten-year touched five point three four percent.",
+   "scene": {
+    "reveal": 4,
+    "keep": true,
+    "t": "timeline",
+    "events": [
+     [
+      "Late Feb",
+      "Iran war; under 4%"
+     ],
+     [
+      "Sept 1",
+      "Japan tops 3%"
+     ],
+     [
+      "Sept 16",
+      "Fed raises rates"
+     ],
+     [
+      "Oct 1",
+      "US 10-yr: 5.34%"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what pushed it? Reporting by CNBC, Reuters and Fortune points to four forces.",
+   "say": "So what pushed it? Reporting by CNBC, Reuters and Fortune points to four main forces.",
+   "scene": {
+    "reveal": 1,
+    "t": "list",
+    "title": "Why yields climbed",
+    "items": [
+     "Pricey oil",
+     "More Fed hikes",
+     "Heavy borrowing",
+     "Strong growth"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, oil. With the Strait of Hormuz largely shut, energy prices have kept inflation high.",
+   "say": "First, oil. With the Strait of Hormuz largely shut, energy prices have kept inflation high.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "Fuel costs more"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "Same here"
+     }
+    ],
+    "caption": "Hormuz still mostly shut"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brent crude topped $108 on Sept 28, after the US rejected an Iranian plan to reopen the strait. It settled at $102.59 on Sept 29.",
+   "say": "Brent crude topped one hundred eight dollars a barrel on September twenty-eighth, after the US rejected an Iranian plan to reopen the strait. It settled at one hundred two dollars and fifty-nine cents the next day.",
+   "scene": {
+    "t": "stat",
+    "label": "Brent crude, Sept 29 close",
+    "value": "$102.59",
+    "tone": "down",
+    "sub": "Per barrel, Rio Times"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's favorite inflation gauge, PCE, was up 3.4% over the year to August, the BEA said on Sept 30.",
+   "say": "The Fed's favorite inflation gauge, the P C E price index, was up three point four percent over the year to August, the Commerce Department said on September thirtieth.",
+   "scene": {
+    "t": "stat",
+    "label": "PCE inflation, Aug 2026",
+    "value": "3.4%",
+    "tone": "down",
+    "sub": "Year over year, BEA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's well above the Fed's 2% goal. Even without food and energy, it was 3.0%.",
+   "say": "That's well above the Fed's two percent goal. Even without food and energy, it was three point oh percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Inflation vs the Fed's goal",
+    "left": {
+     "label": "Fed target",
+     "value": "2%",
+     "tone": "neutral",
+     "sub": "long-run goal"
+    },
+    "right": {
+     "label": "Core PCE, Aug",
+     "value": "3.0%",
+     "tone": "down",
+     "sub": "BEA, Sept 30"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, more Fed hikes. Bond traders started betting the Sept 16 hike won't be the last.",
+   "say": "Second, more Fed hikes. Bond traders started betting the September sixteenth hike won't be the last one.",
+   "scene": {
+    "reveal": 2,
+    "t": "list",
+    "title": "Why yields climbed",
+    "items": [
+     "Pricey oil",
+     "More Fed hikes",
+     "Heavy borrowing",
+     "Strong growth"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's own median projection in September put its key rate at 4.1% by the end of 2026, which implies one more hike.",
+   "say": "The Fed's own median projection in September put its key rate at four point one percent by the end of twenty twenty-six, which implies one more hike.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed median, end of 2026",
+    "value": "4.1%",
+    "tone": "down",
+    "sub": "Fed projections, Sept 16"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fed Chair Kevin Warsh said: \"The plain fact is that inflation is too high, and has been for too long.\"",
+   "say": "At his press conference, Fed Chair Kevin Warsh said, quote, the plain fact is that inflation is too high, and has been for too long.",
+   "scene": {
+    "t": "quote",
+    "text": "The plain fact is that inflation is too high, and has been for too long.",
+    "source": "Fed Chair Warsh, Sept 16"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, heavy borrowing. Governments are selling lots of bonds, and buyers want a higher yield to soak them up.",
+   "say": "Third, heavy borrowing. Governments are selling a lot of bonds, and buyers want a higher yield to soak them all up.",
+   "scene": {
+    "reveal": 3,
+    "t": "list",
+    "title": "Why yields climbed",
+    "items": [
+     "Pricey oil",
+     "More Fed hikes",
+     "Heavy borrowing",
+     "Strong growth"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fourth, strong growth, including an AI-fueled investment boom, which keeps demand for money high.",
+   "say": "Fourth, strong growth, including an A I fueled investment boom, which keeps the demand for borrowed money high.",
+   "scene": {
+    "reveal": 4,
+    "keep": true,
+    "t": "list",
+    "title": "Why yields climbed",
+    "items": [
+     "Pricey oil",
+     "More Fed hikes",
+     "Heavy borrowing",
+     "Strong growth"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The long end felt it first. On Sept 24, the 30-year Treasury yield hit 5.48%, its highest since 2004, Bloomberg reported.",
+   "say": "The long end felt it first. On September twenty-fourth, the thirty-year Treasury yield hit five point four eight percent, its highest since two thousand four, Bloomberg reported.",
+   "scene": {
+    "t": "stat",
+    "label": "30-yr Treasury, Sept 24",
+    "value": "5.48%",
+    "tone": "down",
+    "sub": "Since 2004, Bloomberg"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's global. On Oct 1, Germany's 10-year topped 3.6%, the highest since 2008 (Reuters). Britain's topped 5.4%; Japan's hit 3.1%.",
+   "say": "And it's global. On October first, Germany's ten-year yield topped three point six percent, the highest since two thousand eight, Reuters reported. Britain's topped five point four percent, and Japan's hit about three point one percent.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "uk",
+      "mood": "worried",
+      "says": "Over 5.4%"
+     },
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "3.6%, since 2008"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "About 3.1%"
+     }
+    ],
+    "caption": "Yields up worldwide"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, some history. The last time the US 10-year was this high was 2002.",
+   "say": "Now, a little history. The last time the US ten-year was this high was twenty oh two.",
+   "scene": {
+    "reveal": 1,
+    "t": "timeline",
+    "events": [
+     [
+      "2002",
+      "Last this high"
+     ],
+     [
+      "2007",
+      "Pre-crisis high"
+     ],
+     [
+      "Oct 2023",
+      "Briefly tops 5%"
+     ],
+     [
+      "Oct 2026",
+      "Touches 5.34%"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 1 also beat the 2007 high, set just before the financial crisis.",
+   "say": "October first also beat the twenty oh seven high, set just before the financial crisis.",
+   "scene": {
+    "reveal": 2,
+    "keep": true,
+    "t": "timeline",
+    "events": [
+     [
+      "2002",
+      "Last this high"
+     ],
+     [
+      "2007",
+      "Pre-crisis high"
+     ],
+     [
+      "Oct 2023",
+      "Briefly tops 5%"
+     ],
+     [
+      "Oct 2026",
+      "Touches 5.34%"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Oct 2023, it briefly topped 5% and then fell back. In 2026, it pushed past that.",
+   "say": "In October twenty twenty-three, it briefly topped five percent and then fell back. In twenty twenty-six, it pushed right past that.",
+   "scene": {
+    "reveal": 4,
+    "keep": true,
+    "t": "timeline",
+    "events": [
+     [
+      "2002",
+      "Last this high"
+     ],
+     [
+      "2007",
+      "Pre-crisis high"
+     ],
+     [
+      "Oct 2023",
+      "Briefly tops 5%"
+     ],
+     [
+      "Oct 2026",
+      "Touches 5.34%"
+     ]
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgages aren't at the 2023 peak yet: Freddie Mac's average hit 7.79% on Oct 26, 2023.",
+   "say": "Mortgages aren't back at their twenty twenty-three peak, though. Freddie Mac's average hit seven point seven nine percent on October twenty-sixth, twenty twenty-three.",
+   "scene": {
+    "t": "compare",
+    "title": "Freddie Mac 30-yr fixed",
+    "left": {
+     "label": "Oct 26, 2023",
+     "value": "7.79%",
+     "tone": "down",
+     "sub": "highest since 2000"
+    },
+    "right": {
+     "label": "Oct 1, 2026",
+     "value": "7.28%",
+     "tone": "down",
+     "sub": "highest since 2023"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Winners and losers.",
+   "say": "So who wins, and who loses?",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Winners and losers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rising yields split people into two groups: those who borrow, and those who lend or save.",
+   "say": "Rising yields split people into two groups. Those who borrow, and those who lend or save.",
+   "scene": {
+    "t": "split",
+    "title": "Higher yields: who's hit",
+    "left": {
+     "title": "Pay more",
+     "items": [
+      "Home buyers",
+      "Card balances",
+      "The US budget"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Earn more",
+     "items": [
+      "Savers",
+      "New bond buyers"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start with home buyers. Here's a hypothetical $400,000, 30-year fixed loan, principal and interest only.",
+   "say": "Start with home buyers. Here's a hypothetical four hundred thousand dollar, thirty-year fixed loan, counting principal and interest only.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $400,000 loan",
+     "30-year fixed",
+     "Principal + interest only"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At February's 5.98%, the monthly payment is about $2,393.",
+   "say": "At February's five point nine eight percent, the monthly payment is about two thousand three hundred ninety-three dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Loan, example",
+     "value": "$400,000"
+    },
+    "to": {
+     "label": "Per month at 5.98%",
+     "value": "$2,393"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At Oct 1's 7.28%, the same loan costs about $2,737 a month.",
+   "say": "At October first's seven point two eight percent, the same loan costs about two thousand seven hundred thirty-seven dollars a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Loan, example",
+     "value": "$400,000"
+    },
+    "to": {
+     "label": "Per month at 7.28%",
+     "value": "$2,737"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $344 more every month, or roughly $4,125 a year.",
+   "say": "That's about three hundred forty-four dollars more every month, or roughly four thousand one hundred twenty-five dollars a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra per month, example",
+    "value": "+$344",
+    "tone": "down",
+    "sub": "About $4,125 a year",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 30 years, total interest goes from about $462,000 to about $585,000.",
+   "say": "Over thirty years, total interest goes from about four hundred sixty-two thousand dollars to about five hundred eighty-five thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Interest over 30 yrs (ex.)",
+    "left": {
+     "label": "At 5.98%",
+     "value": "$462K",
+     "tone": "neutral",
+     "sub": "total interest"
+    },
+    "right": {
+     "label": "At 7.28%",
+     "value": "$585K",
+     "tone": "down",
+     "sub": "total interest"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lower rate wins by a mile over the life of the loan.",
+   "say": "Over the life of the loan, the lower rate wins by a mile.",
+   "scene": {
+    "keep": true,
+    "winner": "left",
+    "t": "compare",
+    "title": "Interest over 30 yrs (ex.)",
+    "left": {
+     "label": "At 5.98%",
+     "value": "$462K",
+     "tone": "neutral",
+     "sub": "total interest"
+    },
+    "right": {
+     "label": "At 7.28%",
+     "value": "$585K",
+     "tone": "down",
+     "sub": "total interest"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $124,000 more, on the same house, for the same loan.",
+   "say": "That's about one hundred twenty-four thousand dollars more, for the same house and the same loan.",
+   "scene": {
+    "t": "hook",
+    "title": "Same house, [more] cost",
+    "prop": "house",
+    "label": "Example",
+    "value": "+$124K",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People who already own with an old fixed rate don't pay a cent more. Fixed means fixed.",
+   "say": "People who already own a home with an old fixed rate don't pay a cent more. Fixed means fixed.",
+   "scene": {
+    "t": "hook",
+    "title": "Fixed means [fixed]",
+    "prop": "house",
+    "label": "Old rate",
+    "value": "No change",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: moving means swapping a cheap old rate for a pricier new one, so many owners stay put.",
+   "say": "The catch is that moving means swapping a cheap old rate for a pricier new one, which is why many owners stay put.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old rate: cheap",
+     "Move = new 7%+ rate",
+     "So many stay put"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves first-time buyers carrying the full weight of 7.28%, with no old cheap loan to fall back on.",
+   "say": "That leaves first-time buyers carrying the full weight of seven point two eight percent, with no old cheap loan to fall back on.",
+   "scene": {
+    "t": "split",
+    "title": "Same market, two buyers",
+    "left": {
+     "title": "Owner, old loan",
+     "items": [
+      "Rate unchanged",
+      "Moving costs more"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "First-time buyer",
+     "items": [
+      "Pays 7.28% avg",
+      "No cushion"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit cards and home equity lines usually have variable rates tied to the prime rate, which typically moves with the Fed's rate.",
+   "say": "Credit cards and home equity lines usually have variable rates tied to the prime rate, which typically moves with the Fed's rate.",
+   "scene": {
+    "t": "hook",
+    "title": "Rates that [move]",
+    "prop": "card",
+    "label": "APR",
+    "value": "Moves",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the other side. Savers earn more: on Sept 28, a 4-week Treasury bill yielded 3.96% and a 52-week bill 4.54%.",
+   "say": "Now the other side. Savers earn more. On September twenty-eighth, a four-week Treasury bill yielded three point nine six percent, and a fifty-two week bill yielded four point five four percent.",
+   "scene": {
+    "t": "compare",
+    "title": "T-bill yields, Sept 28",
+    "left": {
+     "label": "4-week bill",
+     "value": "3.96%",
+     "tone": "up",
+     "sub": "Treasury data"
+    },
+    "right": {
+     "label": "52-week bill",
+     "value": "4.54%",
+     "tone": "up",
+     "sub": "Treasury data"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Locking money up for a year paid more than a month did.",
+   "say": "Locking money up for a year paid more than a single month did.",
+   "scene": {
+    "keep": true,
+    "winner": "right",
+    "t": "compare",
+    "title": "T-bill yields, Sept 28",
+    "left": {
+     "label": "4-week bill",
+     "value": "3.96%",
+     "tone": "up",
+     "sub": "Treasury data"
+    },
+    "right": {
+     "label": "52-week bill",
+     "value": "4.54%",
+     "tone": "up",
+     "sub": "Treasury data"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After the Sept 16 hike, NerdWallet reported savings and CD yields edging up as banks compete for deposits.",
+   "say": "After the September sixteenth hike, NerdWallet reported savings and C D yields edging up as banks compete for deposits.",
+   "scene": {
+    "t": "hook",
+    "title": "Savers get [paid]",
+    "prop": "pot",
+    "label": "SAVINGS",
+    "value": "Up",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $10,000 in a 52-week bill at 4.54% earns about $454 over the year, before taxes.",
+   "say": "Here's an example. Ten thousand dollars in a fifty-two week bill at four point five four percent earns about four hundred fifty-four dollars over the year, before taxes.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example, 52-wk bill",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "Interest at 4.54%",
+     "value": "~$454"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People buying new bonds also lock in higher yields than they could get in February.",
+   "say": "People buying new bonds also lock in higher yields than they could get back in February.",
+   "scene": {
+    "t": "compare",
+    "title": "10-yr Treasury yield",
+    "left": {
+     "label": "Late Feb 2026",
+     "value": "<4%",
+     "tone": "neutral",
+     "sub": "CNBC"
+    },
+    "right": {
+     "label": "Oct 1 high",
+     "value": "5.34%",
+     "tone": "up",
+     "sub": "Reuters"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But people already holding bonds or bond funds saw prices fall as yields rose, the same math as our $900 example.",
+   "say": "But people already holding bonds or bond funds saw prices fall as yields rose. It's the same math as our nine hundred dollar example.",
+   "scene": {
+    "t": "stat",
+    "label": "Old bonds when yields rise",
+    "value": "Down",
+    "tone": "down",
+    "sub": "Same math as the example"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the government's bill grows: more debt plus higher rates means more of the budget goes to interest.",
+   "say": "And the government's bill keeps growing. More debt plus higher rates means more of the budget goes to interest.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "name": "US TREASURY",
+    "label": "Interest",
+    "caption": "Bigger interest bill"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of this says what rates do next. It's the math of where they were on Oct 1, 2026.",
+   "say": "None of this says what rates will do next. It's simply the math of where they were on October first.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not a forecast",
+     "Just the math",
+     "as of Oct 1, 2026"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: What to watch.",
+   "say": "So what's on the calendar?",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What to watch"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 8: Freddie Mac's next weekly mortgage survey. It comes out every Thursday.",
+   "say": "October eighth brings Freddie Mac's next weekly mortgage survey. It comes out every Thursday.",
+   "scene": {
+    "reveal": 1,
+    "t": "list",
+    "title": "Dates to watch",
+    "items": [
+     "Oct 8: rate survey",
+     "Oct 14: CPI",
+     "Oct 28: Fed call",
+     "Dec 11: US funding"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 14: the BLS releases September's consumer price index at 8:30 a.m. Eastern.",
+   "say": "On October fourteenth, the Bureau of Labor Statistics releases September's consumer price index at eight thirty in the morning, Eastern.",
+   "scene": {
+    "reveal": 2,
+    "keep": true,
+    "t": "list",
+    "title": "Dates to watch",
+    "items": [
+     "Oct 8: rate survey",
+     "Oct 14: CPI",
+     "Oct 28: Fed call",
+     "Dec 11: US funding"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 28: the Fed announces its next rate decision at 2 p.m. Eastern, after a two-day meeting.",
+   "say": "On October twenty-eighth, the Fed announces its next rate decision at two in the afternoon, Eastern, after a two-day meeting.",
+   "scene": {
+    "reveal": 3,
+    "keep": true,
+    "t": "list",
+    "title": "Dates to watch",
+    "items": [
+     "Oct 8: rate survey",
+     "Oct 14: CPI",
+     "Oct 28: Fed call",
+     "Dec 11: US funding"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That October meeting won't include new Fed projections; the next set comes in December.",
+   "say": "That October meeting won't include a new set of Fed projections. Those come with the December meeting.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "FEDERAL RESERVE",
+    "label": "Oct 27-28",
+    "caption": "No new projections"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Dec 11: the current stopgap that funds the federal government runs out.",
+   "say": "And on December eleventh, the current stopgap bill that funds the federal government runs out.",
+   "scene": {
+    "reveal": 4,
+    "t": "list",
+    "title": "Dates to watch",
+    "items": [
+     "Oct 8: rate survey",
+     "Oct 14: CPI",
+     "Oct 28: Fed call",
+     "Dec 11: US funding"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Around all of that: oil and the Strait of Hormuz, which have moved yields all year.",
+   "say": "Around all of that, there's oil and the Strait of Hormuz, which have moved yields all year long.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "Watching oil"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "Watching too"
+     }
+    ],
+    "caption": "The wildcard: oil"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The number to keep an eye on is the 10-year yield, because mortgages follow it.",
+   "say": "The number to keep an eye on is the ten-year yield, because mortgages tend to follow it.",
+   "scene": {
+    "t": "hook",
+    "title": "Watch the [10-year]",
+    "prop": "tag",
+    "label": "10-yr",
+    "value": "5.34%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap.",
+   "say": "Let's recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Oct 1, 2026, the 10-year Treasury yield touched 5.34%, the highest since 2002.",
+   "say": "On October first, the ten-year Treasury yield touched five point three four percent, the highest since twenty oh two.",
+   "scene": {
+    "reveal": 1,
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "10-yr: 5.34% high",
+     "Mortgages: 7.28%",
+     "Savers earn more",
+     "Borrowers pay more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average 30-year mortgage hit 7.28%, up from 5.98% in late February.",
+   "say": "The average thirty-year mortgage hit seven point two eight percent, up from five point nine eight percent in late February.",
+   "scene": {
+    "reveal": 2,
+    "keep": true,
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "10-yr: 5.34% high",
+     "Mortgages: 7.28%",
+     "Savers earn more",
+     "Borrowers pay more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Savers and new bond buyers earn more than they did early in 2026.",
+   "say": "Savers and new bond buyers earn more than they did early in the year.",
+   "scene": {
+    "reveal": 3,
+    "keep": true,
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "10-yr: 5.34% high",
+     "Mortgages: 7.28%",
+     "Savers earn more",
+     "Borrowers pay more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Borrowers, bondholders and the federal budget pay more.",
+   "say": "Borrowers, existing bondholders and the federal budget all pay more.",
+   "scene": {
+    "reveal": 4,
+    "keep": true,
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "10-yr: 5.34% high",
+     "Mortgages: 7.28%",
+     "Savers earn more",
+     "Borrowers pay more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same rate, two sides: one person's higher payment is another person's higher interest.",
+   "say": "It's one rate with two sides. One person's higher payment is another person's higher interest.",
+   "scene": {
+    "t": "split",
+    "title": "One rate, two sides",
+    "left": {
+     "title": "Borrow",
+     "items": [
+      "Pay more"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Save",
+     "items": [
+      "Earn more"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for the week's biggest money story, explained on a whiteboard.",
+   "say": "If this helped, subscribe for the week's biggest money story, explained on a whiteboard.",
+   "scene": {
+    "t": "cta",
+    "tagline": "The big story, every week"
+   }
+  }
+ ],
+ "post": {
+  "title": "Mortgage rates hit 7.28% on Oct 1. The bond yield behind it, explained",
+  "ig": "On Oct 1, 2026, mortgage rates hit 7.28%. Here's the bond yield behind it.",
+  "tiktok": "Mortgage rates hit 7.28% on Oct 1, 2026. Here's why.",
+  "yt_desc": "On Oct 1, 2026, Freddie Mac's average 30-year fixed mortgage rate hit 7.28%, up from 5.98% on Feb 26, while the 10-year Treasury yield touched 5.34%, its highest since 2002. This video explains what a bond yield is, why yields climbed (oil and the Strait of Hormuz, the Fed's Sept 16 rate hike, heavy government borrowing and strong growth), and how the US move fits a global bond selloff. It works through a hypothetical $400,000 mortgage, shows who pays more and who earns more, and lists the scheduled dates to watch next.\n\nCHAPTERS\n\nSources: Freddie Mac Primary Mortgage Market Survey (Feb 26-Oct 1, 2026; Oct 26, 2023); Reuters (Oct 1, 2026); Tradeweb via The Wall Street Journal (Oct 1, 2026); CNBC (Sept 2026); Federal Reserve FOMC statement (Sept 16, 2026); BEA Personal Income and Outlays (Sept 30, 2026); The Conference Board (Sept 29, 2026); CBO Monthly Budget Review (Sept 9, 2026); US Treasury bill rates (Sept 28, 2026); Rio Times and Al Jazeera (Sept 28-29, 2026); Bloomberg (Sept 2026); NerdWallet (Sept 2026); BLS and Federal Reserve calendars.\n\nNews and education, not financial advice.\n\n#mortgagerates #bonds #economy",
+  "tags": [
+   "mortgage rates",
+   "10 year treasury yield",
+   "bond market",
+   "interest rates",
+   "federal reserve",
+   "inflation",
+   "housing market"
+  ]
+ }
+}
