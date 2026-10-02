@@ -1,0 +1,244 @@
+{
+ "id": "2026-11-14-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why gold rises\nwhen people panic",
+ "cover": {
+  "title": "Why Does Fear Lift Gold?",
+  "prop": "chart-up",
+  "label": "2025",
+  "value": "53 highs"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2025, gold hit 53 record highs. Fear helped drive it.",
+   "say": "In twenty twenty-five, gold hit fifty-three record highs. Fear helped drive it.",
+   "scene": {
+    "t": "hook",
+    "title": "[53] record highs",
+    "prop": "tag",
+    "label": "2025",
+    "value": "53",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Odd, since gold pays zero interest. So why does scared money run to it?",
+   "say": "Odd, since gold pays zero interest. So why does scared money run to it?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Gold pays:",
+     "$0 interest",
+     "$0 dividends"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, it's a safe haven. Nobody issues it, so nobody can default on it.",
+   "say": "First, it's a safe haven. Nobody issues it, so nobody can default on it.",
+   "scene": {
+    "t": "list",
+    "title": "Why fear lifts gold",
+    "items": [
+     "Safe haven",
+     "Falling rates",
+     "Weaker dollar"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the 2008 crisis, its yearly average rose about 25%.",
+   "say": "In the twenty oh-eight crisis, its yearly average rose about twenty-five percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Gold, yearly avg $/oz (LBMA)",
+    "points": [
+     [
+      2007,
+      695
+     ],
+     [
+      2008,
+      872
+     ],
+     [
+      2009,
+      972
+     ],
+     [
+      2010,
+      1225
+     ],
+     [
+      2011,
+      1572
+     ],
+     [
+      2012,
+      1669
+     ],
+     [
+      2013,
+      1411
+     ],
+     [
+      2014,
+      1266
+     ],
+     [
+      2015,
+      1160
+     ],
+     [
+      2016,
+      1251
+     ],
+     [
+      2017,
+      1257
+     ],
+     [
+      2018,
+      1269
+     ],
+     [
+      2019,
+      1393
+     ],
+     [
+      2020,
+      1770
+     ],
+     [
+      2021,
+      1799
+     ],
+     [
+      2022,
+      1800
+     ],
+     [
+      2023,
+      1941
+     ],
+     [
+      2024,
+      2386
+     ],
+     [
+      2025,
+      3431
+     ]
+    ],
+    "prefix": "$",
+    "end": "$3,431",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, it rose 44%, to $3,431 an ounce.",
+   "say": "In twenty twenty-five, it rose forty-four percent, to three thousand four hundred thirty-one dollars an ounce.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "mood": "shock",
+    "note": {
+     "x": 2025,
+     "text": "+44% in 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, scary times often bring rate cuts. Say $10,000 earns 4%: $400 a year. At 2%, $200. Gold's $0 looks less costly.",
+   "say": "Second, scary times often bring rate cuts. Say ten thousand dollars at four percent earns four hundred a year. At two percent, two hundred. Gold's zero looks less costly.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical: $10k, 1 yr",
+    "left": {
+     "label": "At 4%",
+     "value": "$400",
+     "tone": "up",
+     "sub": "$10,000 x 4%"
+    },
+    "right": {
+     "label": "At 2%",
+     "value": "$200",
+     "tone": "down",
+     "sub": "$10,000 x 2%"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, gold is priced in dollars, and the dollar index fell 9.4% in 2025.",
+   "say": "Third, gold is priced in dollars, and the dollar index fell nine point four percent in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "US dollar index, 2025",
+    "value": "-9.4%",
+    "tone": "down",
+    "sub": "Worst year since 2017",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even central banks bought 863 tonnes in 2025.",
+   "say": "Even central banks bought eight hundred sixty-three tonnes in twenty twenty-five.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "CENTRAL BANKS",
+    "label": "+863 t",
+    "caption": "Gold bought in 2025 (WGC)",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gold pays nothing. When fear rises, that matters less.",
+   "say": "Gold pays nothing. When fear rises, that matters less.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No yield, no default",
+     "Fear lifts demand"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Gold hit 53 record highs in 2025. Why fear lifts gold",
+  "ig": "In 2025, gold hit 53 record highs. Fear helped drive it.\nGold's yearly average rose 44% to $3,431/oz in 2025; in 2008 it rose about 25% ($695 to $872).\nWhy: it's a safe haven nobody can default on, falling rates shrink the interest you give up, and it's priced in dollars (the dollar index fell 9.4% in 2025).\nCentral banks bought 863 tonnes of gold in 2025.\nSources: World Gold Council Gold Demand Trends FY2025; LBMA yearly averages; Bloomberg/NPR on the dollar index.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gold #safehaven #interestrates #personalfinance #financeprostv",
+  "tiktok": "Gold hit 53 record highs in 2025. Here's why fear lifts gold. Not financial advice. #moneytok #personalfinance #gold #economy #financeprostv",
+  "yt_desc": "Gold set 53 record highs in 2025 and its yearly average rose 44% to $3,431 an ounce (World Gold Council). It's a safe haven with no default risk, lower rates cut the interest you give up to hold it, and it's priced in dollars, which fell 9.4% on the dollar index in 2025. Central banks bought 863 tonnes in 2025 (WGC). News and education, not financial advice.\n#Shorts #gold #personalfinance",
+  "tags": [
+   "why gold goes up",
+   "gold safe haven",
+   "gold and interest rates",
+   "central bank gold buying",
+   "gold price 2025"
+  ]
+ }
+}
