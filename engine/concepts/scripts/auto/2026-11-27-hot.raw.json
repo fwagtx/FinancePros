@@ -1,175 +1,175 @@
 {
- "series": "ticker",
- "header": "Scam alert:\nfake charities",
- "cover": {
-  "title": "Is That Charity Even Real?",
-  "prop": "bill",
-  "label": "FTC 2025",
-  "value": "$15.9B"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "Americans reported losing $15.9 billion to fraud in 2025.",
-   "say": "Americans lost fifteen point nine billion dollars to fraud in twenty twenty-five.",
-   "scene": {
-    "t": "hook",
-    "title": "Fraud took [$15.9B]",
+  "series": "ticker",
+  "header": "Scam alert:\nfake charities",
+  "cover": {
+    "title": "Is That Charity Even Real?",
     "prop": "bill",
     "label": "FTC 2025",
-    "value": "$15.9B",
-    "mood": "shock"
-   }
+    "value": "$15.9B"
   },
-  {
-   "who": "ticker",
-   "text": "Disasters bring fake charities too. After Hurricane Lowell hit Kaua'i in September 2026, Hawaii's attorney general warned about them.",
-   "say": "Disasters bring fake charities too. After Hurricane Lowell hit Kauai in September twenty twenty-six, Hawaii's attorney general warned about them.",
-   "scene": {
-    "t": "news",
-    "headline": "Hawaii AG warns of scams after Hurricane Lowell",
-    "source": "Hawaii Attorney General, Sept. 16, 2026",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Reported losses grew from $3.3 billion in 2020. That's nearly 5 times as much.",
-   "say": "Reported losses grew from three point three billion dollars in twenty twenty. That's nearly five times as much.",
-   "scene": {
-    "t": "chart",
-    "title": "FTC reported fraud losses",
-    "points": [
-     [
-      2020,
-      3.3
-     ],
-     [
-      2021,
-      5.8
-     ],
-     [
-      2022,
-      8.8
-     ],
-     [
-      2023,
-      10.0
-     ],
-     [
-      2024,
-      12.5
-     ],
-     [
-      2025,
-      15.9
-     ]
-    ],
-    "prefix": "$",
-    "suffix": "B",
-    "end": "$15.9B",
-    "color": "down",
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The FTC's red flags: pressure to give right now, and cash or gift cards.",
-   "say": "The F T C's red flags: pressure to give right now, and cash or gift cards.",
-   "scene": {
-    "t": "list",
-    "title": "Charity red flags",
-    "items": [
-     "Give right now!",
-     "Cash, gift cards",
-     "Wire or crypto",
-     "Copycat names"
-    ],
-    "reveal": 2,
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Then wires, crypto, and copycat names of well-known charities.",
-   "say": "Then wires, crypto, and copycat names of well-known charities.",
-   "scene": {
-    "t": "list",
-    "keep": true,
-    "reveal": 4,
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Starting in 2026, non-itemizers can deduct up to $1,000 in cash gifts, but only to qualified charities.",
-   "say": "Starting in twenty twenty-six, people who don't itemize can deduct up to one thousand dollars in cash gifts, but only to qualified charities.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "2026: non-itemizers",
-     "deduct up to $1,000",
-     "qualified charities only"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Example: a single filer in the 22% bracket gives $500. Real charity: $500 x 22% = $110 less tax. Fake charity: $0, and nothing reaches victims.",
-   "say": "Say a single filer in the twenty-two percent bracket gives five hundred dollars. A real charity means one hundred ten dollars less tax. A fake one means zero, and nothing reaches victims.",
-   "scene": {
-    "t": "compare",
-    "title": "$500 gift, 22% bracket",
-    "left": {
-     "label": "Real charity",
-     "value": "$110",
-     "tone": "up",
-     "sub": "tax saved"
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Reported fraud losses hit $15.9 billion in 2025.",
+      "say": "Reported fraud losses hit fifteen point nine billion in twenty twenty-five.",
+      "scene": {
+        "t": "hook",
+        "title": "Fraud losses: [$15.9B]",
+        "prop": "bill",
+        "label": "FTC 2025",
+        "value": "$15.9B",
+        "mood": "shock"
+      }
     },
-    "right": {
-     "label": "Fake charity",
-     "value": "$0",
-     "tone": "down",
-     "sub": "to victims, too"
+    {
+      "who": "ticker",
+      "text": "Fake charities follow disasters. After Hurricane Lowell battered Kaua'i in September 2026, Hawaii's attorney general warned about them.",
+      "say": "Fake charities follow disasters. After Hurricane Lowell battered Kauai in September twenty twenty-six, Hawaii's attorney general warned about them.",
+      "scene": {
+        "t": "news",
+        "headline": "Hawaii AG warns of scams after Hurricane Lowell",
+        "source": "Hawaii Attorney General, Sept. 16, 2026",
+        "mood": "worried"
+      }
     },
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The IRS Tax Exempt Organization Search shows which charities qualify.",
-   "say": "The I R S Tax Exempt Organization Search shows which charities qualify.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "IRS Tax Exempt",
-     "Organization Search",
-     "shows who qualifies"
-    ],
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
-   "scene": {
-    "t": "cta"
-   }
+    {
+      "who": "ticker",
+      "text": "Up from $3.3 billion in 2020. Nearly 5 times as much.",
+      "say": "Up from three point three billion dollars in twenty twenty. Nearly five times as much.",
+      "scene": {
+        "t": "chart",
+        "title": "Fraud losses, first reported",
+        "points": [
+          [
+            2020,
+            3.3
+          ],
+          [
+            2021,
+            5.8
+          ],
+          [
+            2022,
+            8.8
+          ],
+          [
+            2023,
+            10.0
+          ],
+          [
+            2024,
+            12.5
+          ],
+          [
+            2025,
+            15.9
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$15.9B",
+        "color": "down",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The FTC's red flags: pressure to give right now, and cash or gift cards.",
+      "say": "The F T C's red flags: pressure to give right now, and cash or gift cards.",
+      "scene": {
+        "t": "list",
+        "title": "Charity red flags",
+        "items": [
+          "Give right now!",
+          "Cash, gift cards",
+          "Wire or crypto",
+          "Copycat names"
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Then wires, crypto, and copycat names of well-known charities.",
+      "say": "Then wires, crypto, and copycat names of well-known charities.",
+      "scene": {
+        "t": "list",
+        "keep": true,
+        "reveal": 4,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Starting in 2026, non-itemizers can deduct up to $1,000 in cash gifts ($2,000 joint), but only to qualified charities.",
+      "say": "Starting in twenty twenty-six, non-itemizers can deduct up to one thousand dollars in cash gifts, two thousand for joint filers, but only to qualified charities.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "2026: non-itemizers",
+          "up to $1K ($2K joint)",
+          "qualified charities only"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: a single filer in the 22% bracket gives $500. Real charity: $500 x 22% = $110 less tax. Fake charity: $0, and nothing reaches victims.",
+      "say": "Say a single filer in the twenty-two percent bracket gives five hundred dollars. A real charity means one hundred ten dollars less tax. A fake one means zero, and nothing reaches victims.",
+      "scene": {
+        "t": "compare",
+        "title": "$500 gift, 22% bracket",
+        "left": {
+          "label": "Real charity",
+          "value": "$110",
+          "tone": "up",
+          "sub": "tax saved"
+        },
+        "right": {
+          "label": "Fake charity",
+          "value": "$0",
+          "tone": "down",
+          "sub": "to victims, too"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The IRS Tax Exempt Organization Search shows which charities qualify.",
+      "say": "The I R S Tax Exempt Organization Search shows which charities qualify.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "IRS Tax Exempt",
+          "Organization Search",
+          "shows who qualifies"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "$15.9B in reported fraud losses. Is that charity real?",
+    "ig": "Americans reported losing $15.9 billion to fraud in 2025 (FTC).\n\nReported fraud losses: $3.3B in 2020 to $15.9B in 2025, as first reported by the FTC.\nIn September 2026, Hawaii's attorney general warned of fraudulent charities after Hurricane Lowell.\nFTC red flags: pressure to give right now; cash, gift card, wire or crypto requests; names that sound like well-known charities.\nFrom 2026, non-itemizers can deduct up to $1,000 ($2,000 married) in cash gifts, only to qualified charities. Example: $500 x 22% = $110 less tax; a fake charity gives $0.\n\nSources: FTC Consumer Sentinel; FTC consumer alert Aug 27, 2026; Hawaii Dept. of the Attorney General; IRS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #charityscam #disasterrelief #personalfinance #financeprostv",
+    "tiktok": "$15.9B in reported fraud losses in 2025 (FTC). Fake disaster charities: red flags. Not financial advice. #moneytok #scamalert #financeprostv",
+    "yt_desc": "Americans reported losing $15.9 billion to fraud in 2025, up from $3.3 billion in 2020 (FTC Consumer Sentinel, as first reported), and fake charities follow disasters, as Hawaii's attorney general warned after Hurricane Lowell in September 2026. FTC red flags include pressure to give right now, requests for cash, gift cards, wires or crypto, and copycat names. From 2026, non-itemizers can deduct up to $1,000 ($2,000 married) in cash gifts to qualified charities, which the IRS Tax Exempt Organization Search lists. Sources: FTC, Hawaii Attorney General, IRS.\n\nNews and education, not financial advice.\n\n#Shorts #scamalert #charityscam",
+    "tags": [
+      "charity scams",
+      "disaster relief scams",
+      "fake charities",
+      "FTC fraud losses 2025",
+      "scam alert"
+    ]
   }
- ],
- "post": {
-  "title": "Americans lost $15.9B to fraud in 2025. Fake charities too",
-  "ig": "Americans reported losing $15.9 billion to fraud in 2025 (FTC).\n\nReported fraud losses: $3.3B in 2020 to $15.9B in 2025, as first reported by the FTC.\nIn September 2026, Hawaii's attorney general warned of fraudulent charities after Hurricane Lowell.\nFTC red flags: pressure to give right now; cash, gift card, wire or crypto requests; names that sound like well-known charities.\nFrom 2026, non-itemizers can deduct up to $1,000 ($2,000 married) in cash gifts, only to qualified charities. Example: $500 x 22% = $110 less tax; a fake charity gives $0.\n\nSources: FTC Consumer Sentinel; FTC consumer alert Aug 27, 2026; Hawaii Dept. of the Attorney General; IRS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #charityscam #disasterrelief #personalfinance #financeprostv",
-  "tiktok": "$15.9B lost to fraud in 2025 (FTC). Fake disaster charities: the red flags. Not financial advice. #moneytok #personalfinance #scamalert #financeprostv",
-  "yt_desc": "Americans reported losing $15.9 billion to fraud in 2025, up from $3.3 billion in 2020 (FTC Consumer Sentinel, as first reported), and fake charities follow disasters, as Hawaii's attorney general warned after Hurricane Lowell in September 2026. FTC red flags include pressure to give right now, requests for cash, gift cards, wires or crypto, and copycat names. From 2026, non-itemizers can deduct up to $1,000 ($2,000 married) in cash gifts to qualified charities, which the IRS Tax Exempt Organization Search lists. Sources: FTC, Hawaii Attorney General, IRS.\n\nNews and education, not financial advice.\n\n#Shorts #scamalert #charityscam",
-  "tags": [
-   "charity scams",
-   "disaster relief scams",
-   "fake charities",
-   "FTC fraud losses 2025",
-   "scam alert"
-  ]
- }
 }
