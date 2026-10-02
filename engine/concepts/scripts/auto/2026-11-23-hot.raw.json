@@ -1,0 +1,188 @@
+{
+ "series": "ticker",
+ "header": "Condo vs house:\nthe real math",
+ "cover": {
+  "title": "Is a Condo Really Cheaper?",
+  "prop": "house",
+  "label": "Aug 2026",
+  "value": "-$63K"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In August 2026, condos cost $63,200 less than houses.",
+   "say": "In August twenty twenty-six, condos cost sixty-three thousand less than houses.",
+   "scene": {
+    "t": "hook",
+    "title": "Condo: [$63K] cheaper",
+    "prop": "house",
+    "label": "Aug 2026",
+    "value": "-$63K",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Median prices, per the National Association of Realtors: $434,800 for a single-family home, $371,600 for a condo or co-op.",
+   "say": "Median prices, per the National Association of Realtors: about four thirty-five thousand for a house, about three seventy-two for a condo.",
+   "scene": {
+    "t": "compare",
+    "title": "Median price, Aug 2026",
+    "left": {
+     "label": "House",
+     "value": "$434.8K",
+     "tone": "neutral",
+     "sub": "single-family"
+    },
+    "right": {
+     "label": "Condo",
+     "value": "$371.6K",
+     "tone": "up",
+     "sub": "condo/co-op"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 14.5% less. But the price tag isn't the monthly bill.",
+   "say": "That's about fifteen percent less. But the price tag isn't the monthly bill.",
+   "scene": {
+    "t": "stat",
+    "label": "Condo discount, Aug 2026",
+    "value": "14.5%",
+    "tone": "up",
+    "sub": "NAR medians",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: 20% down at 7% for 30 years. The house loan is $2,314 a month; the condo loan, $1,978.",
+   "say": "Say twenty percent down at seven percent for thirty years. The house loan is about twenty-three fourteen a month. The condo, about nineteen seventy-eight.",
+   "scene": {
+    "t": "compare",
+    "title": "Mortgage, 20% down, 7%",
+    "left": {
+     "label": "House",
+     "value": "$2,314",
+     "tone": "down",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Condo",
+     "value": "$1,978",
+     "tone": "up",
+     "sub": "per month"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The condo saves about $336 a month on the loan.",
+   "say": "The condo saves about three thirty-six a month on the loan.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: condos come with association fees.",
+   "say": "The catch: condos come with association fees.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The catch:",
+     "monthly HOA fees"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2024, about 3 million US households paid more than $500 a month in condo or HOA fees (Census).",
+   "say": "In twenty twenty-four, about three million US households paid over five hundred a month in condo or H O A fees, per the Census.",
+   "scene": {
+    "t": "stat",
+    "label": "Paid $500+/mo fees, 2024",
+    "value": "3M homes",
+    "tone": "down",
+    "sub": "Census Bureau",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hypothetical $400 fee would more than erase that $336 saving.",
+   "say": "A hypothetical four hundred dollar fee would more than erase that three thirty-six saving.",
+   "scene": {
+    "t": "compare",
+    "title": "Monthly, hypothetical",
+    "left": {
+     "label": "Loan saving",
+     "value": "+$336",
+     "tone": "up",
+     "sub": "condo vs house"
+    },
+    "right": {
+     "label": "HOA fee",
+     "value": "-$400",
+     "tone": "down",
+     "sub": "example"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And buildings can add special assessments for big repairs; in Florida, post-Surfside inspection laws pushed many up.",
+   "say": "And buildings can add special assessments for big repairs. In Florida, inspection laws passed after the Surfside collapse pushed many up.",
+   "scene": {
+    "t": "split",
+    "title": "Face-off",
+    "left": {
+     "title": "House",
+     "items": [
+      "Higher price",
+      "You fix the roof"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Condo",
+     "items": [
+      "Lower price",
+      "Fees + assessments"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Condos cost $63,200 less than houses. Then come the fees",
+  "ig": "In August 2026, condos cost $63,200 less than houses.\n\nNAR medians: $434,800 single-family vs $371,600 condo/co-op (14.5% less).\nHypothetical 20% down, 7%, 30 years: about $2,314 vs $1,978 a month, a $336 difference.\nA hypothetical $400 HOA fee more than erases it. In 2024, about 3 million households paid $500+ a month in condo/HOA fees (Census).\n\nSources: NAR (Aug 2026); Freddie Mac PMMS (Sept 2026); U.S. Census Bureau (Sept 2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#realestate #condo #homebuying #personalfinance #financeprostv",
+  "tiktok": "Condos cost $63,200 less than houses (Aug 2026). The HOA math changes it. Not financial advice. #moneytok #personalfinance #realestate #financeprostv",
+  "yt_desc": "In August 2026 the median single-family home sold for $434,800 and the median condo or co-op for $371,600, per NAR. With 20% down at a hypothetical 7% for 30 years, the condo loan is about $336 a month cheaper, a gap a $400 HOA fee would more than erase; about 3 million US households paid over $500 a month in fees in 2024 (Census). Sources: NAR, Freddie Mac, U.S. Census Bureau.\n\nNews and education, not financial advice.\n\n#Shorts #realestate #condo",
+  "tags": [
+   "condo vs house",
+   "condo hoa fees",
+   "median home price 2026",
+   "is a condo cheaper",
+   "homebuying math"
+  ]
+ }
+}
