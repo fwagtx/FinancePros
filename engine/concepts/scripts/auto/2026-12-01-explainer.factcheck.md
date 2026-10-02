@@ -73,3 +73,28 @@ Optional say: `At minimums, that takes ninety-one months and eleven hundred eigh
 - Word count after fixes 1-7: 138 +1 +1 -2 -2 = **136**, within 115-138.
 
 VERDICT: FAIL
+
+## Round 2 (editor)
+Applied (checked 2026-10-02):
+- #1 Survey date: L2 text/say/sub (`LendingTree 12/25`), cover.label and L1 label `Dec 2025`, post.ig `(LendingTree, Dec 2025)`, yt_desc `LendingTree's December 2025 survey`. Header kept.
+- #2 New hook: L1 text/say ("Average holiday debt could take ninety-one months to repay.", 9 words), title `Could take 91 [months]` (22), value `$1,223`, label `Dec 2025`.
+- #3 Pay in 4: L4 text, say and board lines as written (20 and 22 chars).
+- #4 "borrowers": L6 text and say.
+- #5 "record" dropped from L7 text and say. The chart stays a Q4-only series.
+- #6 cover.title `Holiday Debt's Real Cost` (24).
+- #7 L8 say shortened to 17 words and the rate is spoken in full (22.15%). See the deviation below.
+- #8 L9 say "Paid off in four months instead". L9 text updated to match ("...in 4 months instead: $57.").
+
+Deviations:
+- Because of #2, the hook no longer says $1,223 aloud. With the #7 wording, L8 said "twelve twenty-three" but never called it the average debt. L8 now names the figure as the average aloud and on screen, still 17 words:
+  - say: "Average debt, twelve twenty-three, at twenty-two point one five percent, the Fed's second-quarter rate for interest-charging cards."
+  - text: "Example: the average $1,223 at 22.15%, the Fed's Q2 2026 rate for interest-charging cards." Fix #7 had said to leave the text unchanged.
+  - board line 1: `Example: avg debt $1,223` (24)
+  - L9 compare title "Interest on $1,223" still shows it.
+- L9 text gained "instead" so the caption matches the #8 narration.
+- #7 staleness: the Q2 2026 rate is kept as dated, not updated to Q3. Recheck when the G.19 for Q3 2026 comes out (about early Nov).
+
+Layout: hook title 22, cover.title 24, subs at most 18, board lines at most 24, list items at most 16, compare values 6/3, post.title 53, tiktok 138. Spoken numbers match the screen.
+check.py: `OK: 10 lines, 137 spoken words (~46s at 180 wpm)`. Spoken words: 137, within 115-138.
+
+VERDICT: PASS

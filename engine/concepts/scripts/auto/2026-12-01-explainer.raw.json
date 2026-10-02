@@ -2,35 +2,35 @@
   "series": "ticker",
   "header": "Holiday debt:\nthe January math",
   "cover": {
-    "title": "What Holiday Debt Really Costs",
+    "title": "Holiday Debt's Real Cost",
     "prop": "card",
-    "label": "Jan 2026",
+    "label": "Dec 2025",
     "value": "$1,223"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "Average holiday debt? $1,223.",
-      "say": "The average holiday debt? About twelve hundred dollars.",
+      "text": "Average holiday debt could take 91 months to repay.",
+      "say": "Average holiday debt could take ninety-one months to repay.",
       "scene": {
         "t": "hook",
-        "title": "Avg holiday [debt]",
+        "title": "Could take 91 [months]",
         "prop": "card",
-        "label": "Jan 2026",
+        "label": "Dec 2025",
         "value": "$1,223",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "In LendingTree's January 2026 survey, 37% borrowed for the holidays.",
-      "say": "In LendingTree's January twenty twenty-six survey, thirty-seven percent borrowed for the holidays.",
+      "text": "In LendingTree's December 2025 survey, 37% took on holiday debt.",
+      "say": "In LendingTree's December twenty twenty-five survey, thirty-seven percent took on holiday debt.",
       "scene": {
         "t": "stat",
         "label": "Took on holiday debt",
         "value": "37%",
         "tone": "down",
-        "sub": "LendingTree 1/2026",
+        "sub": "LendingTree 12/25",
         "mood": "worried"
       }
     },
@@ -51,14 +51,14 @@
     },
     {
       "who": "ticker",
-      "text": "Pay in 4 means 4 payments over 6 weeks, 0% interest if paid on time.",
-      "say": "Pay in four means four payments over six weeks, zero interest if paid on time.",
+      "text": "Pay in 4: 4 payments over about 6 weeks, no interest, but late fees can bite.",
+      "say": "Pay in four: four payments over about six weeks, no interest, but late fees can bite.",
       "scene": {
         "t": "board",
         "lines": [
           "Pay in 4:",
-          "4 payments, 6 weeks",
-          "0% interest if on time"
+          "4 payments, ~6 weeks",
+          "No interest; late fees"
         ],
         "mood": "think"
       }
@@ -78,8 +78,8 @@
     },
     {
       "who": "ticker",
-      "text": "The CFPB found 63% of BNPL users stacked overlapping loans in 2022.",
-      "say": "The CFPB found sixty-three percent of users stacked overlapping loans in twenty twenty-two.",
+      "text": "The CFPB found 63% of BNPL borrowers stacked overlapping loans in 2022.",
+      "say": "The CFPB found sixty-three percent of borrowers stacked overlapping loans in twenty twenty-two.",
       "scene": {
         "t": "stat",
         "label": "Had overlapping BNPL loans",
@@ -91,8 +91,8 @@
     },
     {
       "who": "ticker",
-      "text": "Card balances hit a record $1.28 trillion at the end of 2025, per the New York Fed.",
-      "say": "Card balances hit a record one point two eight trillion dollars at the end of twenty twenty-five.",
+      "text": "Card balances hit $1.28 trillion at the end of 2025, per the New York Fed.",
+      "say": "Card balances hit one point two eight trillion dollars at the end of twenty twenty-five.",
       "scene": {
         "t": "chart",
         "title": "US card balances, Q4",
@@ -127,12 +127,12 @@
     },
     {
       "who": "ticker",
-      "text": "Example: $1,223 at 22.15%, the Fed's Q2 2026 average for cards charging interest.",
-      "say": "Take twelve hundred twenty-three dollars at about twenty-two percent, the Fed's second-quarter twenty twenty-six average for cards charging interest.",
+      "text": "Example: the average $1,223 at 22.15%, the Fed's Q2 2026 rate for interest-charging cards.",
+      "say": "Average debt, twelve twenty-three, at twenty-two point one five percent, the Fed's second-quarter rate for interest-charging cards.",
       "scene": {
         "t": "board",
         "lines": [
-          "Example: $1,223 owed",
+          "Example: avg debt $1,223",
           "APR 22.15% (Q2 2026)",
           "Min pay: interest + 1%"
         ],
@@ -141,8 +141,8 @@
     },
     {
       "who": "ticker",
-      "text": "At minimums: 91 months and $1,187 in interest. Paid off in 4 months: $57.",
-      "say": "At minimums, that takes ninety-one months and eleven hundred eighty-seven dollars in interest. Paid off in four months: fifty-seven dollars.",
+      "text": "At minimums: 91 months and $1,187 in interest. Paid off in 4 months instead: $57.",
+      "say": "At minimums, that takes ninety-one months and eleven hundred eighty-seven dollars in interest. Paid off in four months instead: fifty-seven dollars.",
       "scene": {
         "t": "compare",
         "title": "Interest on $1,223",
@@ -172,9 +172,9 @@
   ],
   "post": {
     "title": "Holiday debt averaged $1,223. Here's the January math",
-    "ig": "The average holiday debt: $1,223 (LendingTree, Jan 2026).\n\n37% took on holiday debt; 62% of them used credit cards, 35% buy now, pay later.\nBNPL drove $20B of US online holiday spending in Nov-Dec 2025 (Adobe).\nExample: $1,223 at 22.15% APR (Fed, Q2 2026) paid at minimums (interest + 1%) takes 91 months and $1,186.94 in interest; paid in 4 months, $56.94.\n\nSources: LendingTree; Adobe; CFPB; Federal Reserve G.19; New York Fed.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#holidaydebt #buynowpaylater #creditcards #personalfinance #financeprostv",
+    "ig": "The average holiday debt: $1,223 (LendingTree, Dec 2025).\n\n37% took on holiday debt; 62% of them used credit cards, 35% buy now, pay later.\nBNPL drove $20B of US online holiday spending in Nov-Dec 2025 (Adobe).\nExample: $1,223 at 22.15% APR (Fed, Q2 2026) paid at minimums (interest + 1%) takes 91 months and $1,186.94 in interest; paid in 4 months, $56.94.\n\nSources: LendingTree; Adobe; CFPB; Federal Reserve G.19; New York Fed.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#holidaydebt #buynowpaylater #creditcards #personalfinance #financeprostv",
     "tiktok": "Avg holiday debt: $1,223. At minimums: $1,187 interest. Not financial advice. #moneytok #personalfinance #holidaydebt #bnpl #financeprostv",
-    "yt_desc": "LendingTree's January 2026 survey found 37% of Americans took on holiday debt, averaging $1,223, mostly on credit cards and buy now, pay later. At the Fed's Q2 2026 average of 22.15% for cards charged interest, that balance paid at minimums (interest + 1%) takes 91 months and $1,186.94 in interest, versus $56.94 if paid off in 4 months. Sources: LendingTree, Adobe, CFPB, Federal Reserve G.19, New York Fed.\n\nNews and education, not financial advice.\n\n#Shorts #holidaydebt #personalfinance",
+    "yt_desc": "LendingTree's December 2025 survey found 37% of Americans took on holiday debt, averaging $1,223, mostly on credit cards and buy now, pay later. At the Fed's Q2 2026 average of 22.15% for cards charged interest, that balance paid at minimums (interest + 1%) takes 91 months and $1,186.94 in interest, versus $56.94 if paid off in 4 months. Sources: LendingTree, Adobe, CFPB, Federal Reserve G.19, New York Fed.\n\nNews and education, not financial advice.\n\n#Shorts #holidaydebt #personalfinance",
     "tags": [
       "holiday debt",
       "buy now pay later",
