@@ -1,0 +1,256 @@
+{
+ "series": "ticker",
+ "header": "How freight brokers\nmake money",
+ "cover": {
+  "title": "Few Trucks, $1.7B Kept?",
+  "prop": "box",
+  "label": "2025",
+  "value": "$1.7B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Freight broker C.H. Robinson owns very few trucks. In 2025 it still kept $1.7 billion from North American freight.",
+   "say": "Barely any trucks, yet it kept one point seven billion.",
+   "scene": {
+    "t": "hook",
+    "title": "Few trucks. [$1.7B].",
+    "prop": "box",
+    "label": "2025",
+    "value": "$1.7B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's freight broker C.H. Robinson. In 2025, shippers paid its North American unit $11.56 billion, and it kept $1.71 billion.",
+   "say": "In twenty twenty-five, shippers paid C H Robinson's North American unit about eleven point six billion; it kept one point seven.",
+   "scene": {
+    "t": "compare",
+    "title": "C.H. Robinson NAST, 2025",
+    "left": {
+     "label": "Shippers paid",
+     "value": "$11.56B",
+     "tone": "neutral",
+     "sub": "NAST revenue"
+    },
+    "right": {
+     "label": "It kept",
+     "value": "$1.71B",
+     "tone": "up",
+     "sub": "adj. gross profit"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shippers pay the broker, it pays truckers less and keeps the gap.",
+   "say": "Shippers pay the broker, it pays truckers less and keeps the gap.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Shipper pays broker",
+     "- broker pays trucker",
+     "= the spread"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical $1,000 load: the trucker gets $852; the broker keeps 14.8%, Robinson's 2025 North American average.",
+   "say": "On a hypothetical thousand-dollar load, the trucker gets eight hundred fifty-two dollars; the broker keeps fourteen point eight percent.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Shipper pays",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Trucker gets",
+     "value": "$852"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That spread swings: 12.4% to 14.8% from 2020 to 2025 (C.H. Robinson NAST).",
+   "say": "That spread swings, from twelve point four to fourteen point eight percent.",
+   "scene": {
+    "t": "chart",
+    "title": "C.H. Robinson NAST spread",
+    "points": [
+     [
+      2020,
+      13.4
+     ],
+     [
+      2021,
+      12.4
+     ],
+     [
+      2022,
+      13.9
+     ],
+     [
+      2023,
+      12.8
+     ],
+     [
+      2024,
+      14.0
+     ],
+     [
+      2025,
+      14.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "14.8%",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It bottomed in 2021, when costs outran prices.",
+   "say": "It bottomed in twenty twenty-one, when costs outran prices.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "C.H. Robinson NAST spread",
+    "points": [
+     [
+      2020,
+      13.4
+     ],
+     [
+      2021,
+      12.4
+     ],
+     [
+      2022,
+      13.9
+     ],
+     [
+      2023,
+      12.8
+     ],
+     [
+      2024,
+      14.0
+     ],
+     [
+      2025,
+      14.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "14.8%",
+    "color": "up",
+    "chart_note": {
+     "x": 2021,
+     "text": "12.4%: costs spiked"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shipper contract prices lock for up to a year; Robinson buys most truck capacity at spot prices.",
+   "say": "Shipper prices lock for up to a year, but most trucks are bought spot.",
+   "scene": {
+    "t": "split",
+    "title": "Why the spread swings",
+    "left": {
+     "title": "Shipper price",
+     "items": [
+      "Contract rate",
+      "Up to 1 year"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Trucker cost",
+     "items": [
+      "Mostly spot",
+      "Market price"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Q2 2026, Robinson's truckload cost per mile jumped 29%, and its North American margin fell to 13.1%.",
+   "say": "In the second quarter of twenty twenty-six, costs per mile jumped twenty-nine percent; its margin fell to thirteen point one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "NAST margin, Q2 2026",
+    "value": "13.1%",
+    "tone": "down",
+    "sub": "was 14.8% in Q2 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By August 2026, DAT had van spot rates at $2.19 a mile, 22 cents under the $2.41 contract average.",
+   "say": "By August twenty twenty-six, DAT had van spot at two dollars and nineteen cents a mile, twenty-two cents under contract.",
+   "scene": {
+    "t": "compare",
+    "title": "Van rate per mile, Aug 2026",
+    "left": {
+     "label": "Spot",
+     "value": "$2.19",
+     "tone": "down",
+     "sub": "DAT, linehaul"
+    },
+    "right": {
+     "label": "Contract",
+     "value": "$2.41",
+     "tone": "neutral",
+     "sub": "DAT, linehaul"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So brokers sell the gap.",
+   "say": "So brokers sell the gap.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not selling trucks",
+     "Selling the gap"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "A freight broker with few trucks kept $1.7B in 2025",
+  "ig": "C.H. Robinson owns very few trucks, yet its North American unit kept $1.71B of the $11.56B shippers paid it in 2025.\n\nThe model: shippers pay the broker, the broker hires a trucking company for less, and keeps the spread. In 2025 that averaged 14.8% (hypothetical $1,000 load: $852 to the trucker, $148 kept).\nThe spread swings: 12.4% in 2021, 14.8% in 2025, and 13.1% in Q2 2026 after truckload costs per mile jumped 29%.\nIn August 2026, DAT's van spot rate was $2.19 a mile vs $2.41 on contract.\n\nSources: C.H. Robinson 10-K filings (FY2021-FY2025), Q2 2026 results; DAT (Sept 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#freight #trucking #logistics #howtheymakemoney #financeprostv",
+  "tiktok": "A broker with few trucks kept $1.7B in 2025: how the freight spread works. Not financial advice. #moneytok #personalfinance #trucking #freight #financeprostv",
+  "yt_desc": "Freight broker C.H. Robinson owns very few trucks, yet its North American unit kept $1.71 billion of $11.56 billion in 2025 revenue, a 14.8% spread between what shippers pay and what truckers get. That margin fell to 12.4% in 2021 and 13.1% in Q2 2026 when carrier costs jumped; in August 2026 DAT put van spot rates at $2.19 a mile versus $2.41 on contract. Sources: C.H. Robinson 10-K filings and Q2 2026 results, DAT.\n\nNews and education, not financial advice.\n\n#Shorts #freight #trucking",
+  "tags": [
+   "how freight brokers make money",
+   "freight broker spread",
+   "ch robinson",
+   "spot vs contract rates",
+   "how they make money"
+  ]
+ }
+}
