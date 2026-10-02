@@ -1,0 +1,190 @@
+{
+ "id": "2026-11-20-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "\"50% up to 6%\"\ndecoded",
+ "cover": {
+  "title": "What \"50% Up to 6%\" Really Means",
+  "prop": "tag",
+  "label": "Max",
+  "value": "3%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Vanguard, 2026: the most common match maxes out at 3%.",
+   "say": "Vanguard, twenty twenty-six: the most common match maxes out at three percent.",
+   "scene": {
+    "t": "hook",
+    "title": "\"50% up to 6%\" = [3%]",
+    "prop": "tag",
+    "label": "2026",
+    "value": "3%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's written \"50% up to 6%,\" and the 50 isn't what it sounds like.",
+   "say": "It's written fifty percent up to six percent, and the fifty isn't what it sounds like.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "50% up to 6% =",
+     "50¢ per $1 put in,",
+     "on the first 6% of pay"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a hypothetical $60,000 salary, 6% is $3,600, and the employer adds half: $1,800.",
+   "say": "On a hypothetical sixty thousand dollar salary, six percent is thirty-six hundred, and the employer adds half, eighteen hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical: $60,000 pay",
+    "left": {
+     "label": "Worker puts in",
+     "value": "$3,600",
+     "tone": "neutral",
+     "sub": "6% of pay"
+    },
+    "right": {
+     "label": "Employer adds",
+     "value": "$1,800",
+     "tone": "up",
+     "sub": "3% of pay"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put in 3% instead, and the match drops to $900.",
+   "say": "Put in three percent instead, and the match drops to nine hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Match on $60,000 pay",
+    "left": {
+     "label": "Put in 3%",
+     "value": "$900",
+     "tone": "down",
+     "sub": "match per year"
+    },
+    "right": {
+     "label": "Put in 6%",
+     "value": "$1,800",
+     "tone": "up",
+     "sub": "match per year"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $900 a year unmatched.",
+   "say": "That's nine hundred dollars a year unmatched.",
+   "scene": {
+    "t": "compare",
+    "title": "Match on $60,000 pay",
+    "left": {
+     "label": "Put in 3%",
+     "value": "$900",
+     "tone": "down",
+     "sub": "match per year"
+    },
+    "right": {
+     "label": "Put in 6%",
+     "value": "$1,800",
+     "tone": "up",
+     "sub": "match per year"
+    },
+    "keep": true,
+    "winner": "right",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS safe harbor match: 100% of the first 3%, plus 50% of the next 2%, so 4% max.",
+   "say": "The IRS safe harbor match is a hundred percent of the first three percent, plus half the next two, so four percent max.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "100% of first 3% = 3%",
+     "50% of next 2% = 1%",
+     "Max match = 4% of pay"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fidelity's average employer contribution was 4.8% of pay as of June 2026.",
+   "say": "Fidelity's average employer contribution was four point eight percent of pay as of June twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg employer contribution",
+    "value": "4.8%",
+    "tone": "up",
+    "sub": "Fidelity, Q2 2026",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch is vesting. Workers' own money is always theirs; a regular match can take up to 3 years, or 6 if graded.",
+   "say": "The catch is vesting. Workers' own money is always theirs; a regular match can take up to three years, or six if graded.",
+   "scene": {
+    "t": "list",
+    "title": "Vesting rules (IRS)",
+    "items": [
+     "Own money: always",
+     "Cliff: 3 yrs max",
+     "Graded: 6 yrs max"
+    ],
+    "reveal": 3,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The real number is rate times cap: 50% times 6% is 3%.",
+   "say": "The real number is rate times cap: fifty percent times six percent is three percent.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "The formula",
+     "value": "50% × 6%"
+    },
+    "to": {
+     "label": "Max match",
+     "value": "3% of pay"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "\"50% up to 6%\" sounds generous. It maxes out at 3%",
+  "ig": "The most common 401(k) match, \"50% up to 6%,\" maxes out at 3% of pay (Vanguard How America Saves 2026).\nHypothetical $60,000 salary: putting in 6% ($3,600) gets a $1,800 match; putting in 3% ($1,800) gets $900.\nThe IRS safe harbor match (100% of the first 3% + 50% of the next 2%) maxes out at 4% of pay. Fidelity's average employer contribution was 4.8% of pay in Q2 2026.\nVesting: a worker's own deferrals are always theirs; regular matches can take up to a 3-year cliff or 6-year graded schedule.\nSources: Vanguard How America Saves 2026; Fidelity Q2 2026 Retirement Analysis; IRS.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#401k #employermatch #retirement #personalfinance #financeprostv",
+  "tiktok": "\"50% up to 6%\" maxes out at 3% of pay. The match math on $60k. Not financial advice. #moneytok #personalfinance #401k #employermatch #financeprostv",
+  "yt_desc": "The most common 401(k) match formula in Vanguard's How America Saves 2026, \"50% up to 6%,\" maxes out at 3% of pay: on a hypothetical $60,000 salary, putting in 6% ($3,600) brings a $1,800 match, while 3% brings $900. The IRS safe harbor match (100% of the first 3% plus 50% of the next 2%) maxes out at 4%, and Fidelity's average employer contribution was 4.8% of pay in Q2 2026; regular matches can vest over up to 3 years (cliff) or 6 years (graded). News and education, not financial advice.\n#Shorts #401k #personalfinance",
+  "tags": [
+   "401k match explained",
+   "50% up to 6% match",
+   "employer match formula",
+   "safe harbor 401k match",
+   "401k vesting"
+  ]
+ }
+}
