@@ -10,13 +10,13 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "In 2026, a lower car payment can cost you $2,790 more.",
-   "say": "In twenty twenty-six, a lower car payment can cost twenty-seven ninety more.",
+   "text": "This lower car payment costs $2,790 more.",
+   "say": "This lower car payment costs twenty-seven hundred ninety dollars more.",
    "scene": {
     "t": "hook",
     "title": "Pay less, [owe more]",
     "prop": "tag",
-    "label": "2026: 7% APR",
+    "label": "7% APR example",
     "value": "+$2,790",
     "mood": "shock"
    }
@@ -38,7 +38,7 @@
   {
    "who": "ticker",
    "text": "Hypothetical: $35,000 at 7% APR. Over 60 months it's $693.04 a month; over 84 months, $528.24.",
-   "say": "Take thirty-five thousand dollars at seven percent. Over sixty months, that's about six ninety-three a month. Over eighty-four months, about five twenty-eight.",
+   "say": "Hypothetically, borrow thirty-five thousand dollars at seven percent. Over sixty months, it's about six ninety-three a month. Over eighty-four, about five twenty-eight.",
    "scene": {
     "t": "compare",
     "title": "$35,000 at 7% APR",
@@ -60,20 +60,20 @@
   {
    "who": "ticker",
    "text": "The payment drops about $165, but interest rises $2,790.",
-   "say": "The payment drops about one sixty-five, but interest rises twenty-seven ninety.",
+   "say": "The payment drops about a hundred sixty-five dollars, but interest rises twenty-seven hundred ninety.",
    "scene": {
     "t": "stat",
     "label": "Extra interest, 84 vs 60",
     "value": "+$2,790",
     "tone": "down",
-    "sub": "$9,372 - $6,583, hypothetical",
+    "sub": "unrounded math, hypothetical",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "The monthly number can hide add-ons, too: a $1,500 add-on over 84 months adds just $22.64 a month.",
-   "say": "The monthly number can hide add-ons, too. A fifteen hundred dollar add-on over eighty-four months adds just twenty-two sixty-four a month.",
+   "text": "The payment can hide add-ons, too: at 7% APR, a $1,500 add-on over 84 months adds just $22.64 a month.",
+   "say": "The payment can hide add-ons, too. At seven percent, a fifteen hundred dollar add-on over eighty-four months adds just twenty-two dollars sixty-four a month.",
    "scene": {
     "t": "money",
     "from": {
@@ -81,7 +81,7 @@
      "value": "$1,500"
     },
     "to": {
-     "label": "Per month, 84 mo",
+     "label": "Per month, 84 mo, 7%",
      "value": "$22.64"
     },
     "mood": "worried"
@@ -89,8 +89,8 @@
   },
   {
    "who": "ticker",
-   "text": "The FTC calls packing add-ons into a payment 'payment packing.'",
-   "say": "The F T C calls packing add-ons into a payment, payment packing.",
+   "text": "The FTC calls that 'payment packing.'",
+   "say": "The F T C calls that payment packing.",
    "scene": {
     "t": "board",
     "lines": [
@@ -103,39 +103,21 @@
   },
   {
    "who": "ticker",
-   "text": "Long loans are spreading: 84-month-plus loans were 22.9% of new-car financing in Q1 2026, up from 13.4% in Q1 2019 (Edmunds).",
-   "say": "Long loans are spreading. Eighty-four months or more was about twenty-three percent of new-car loans in early twenty twenty-six, up from thirteen in twenty nineteen, per Edmunds.",
+   "text": "Long loans are spreading: 84-month-plus loans hit a record 25.5% of new-car financing in Q3 2026, up from 21.8% a year earlier (Edmunds).",
+   "say": "Long loans are spreading. Per Edmunds, a record twenty-five and a half percent of new-car loans ran eighty-four months or more in the third quarter of twenty twenty-six.",
    "scene": {
-    "t": "chart",
-    "title": "84+ month loans (Q1)",
-    "points": [
-     [
-      2019,
-      13.4
-     ],
-     [
-      2024,
-      15.8
-     ],
-     [
-      2025,
-      19.8
-     ],
-     [
-      2026,
-      22.9
-     ]
-    ],
-    "suffix": "%",
-    "end": "22.9%",
-    "color": "up",
+    "t": "stat",
+    "label": "84+ month loans, Q3 2026",
+    "value": "25.5%",
+    "tone": "down",
+    "sub": "record; 21.8% in Q3 2025",
     "mood": "worried"
    }
   },
   {
    "who": "ticker",
-   "text": "By law, the contract also lists the total of payments, the full amount paid over the loan.",
-   "say": "By law, the contract also lists the total of payments, the full amount paid over the loan.",
+   "text": "By law, the contract also lists the total of payments: everything paid over the loan.",
+   "say": "By law, the contract also lists the total of payments: everything paid over the loan.",
    "scene": {
     "t": "board",
     "lines": [
@@ -157,7 +139,7 @@
  ],
  "post": {
   "title": "Why dealers ask your monthly payment: the $2,790 math",
-  "ig": "In 2026, a lower car payment can cost you $2,790 more.\n\nHypothetical $35,000 at 7% APR: $693.04 a month over 60 months vs $528.24 over 84. Interest: $6,583 vs $9,372.\nA $1,500 add-on over 84 months adds just $22.64 a month; the FTC calls hiding add-ons in a payment 'payment packing.'\nEdmunds: loans of 84+ months were 22.9% of new-car financing in Q1 2026 (13.4% in Q1 2019) and a record 25.5% in Q3 2026.\n\nSources: Edmunds (2019-2026); FTC; CFPB Regulation Z.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#carbuying #carloans #autoloan #personalfinance #financeprostv",
+  "ig": "This lower car payment costs $2,790 more.\n\nHypothetical $35,000 at 7% APR: $693.04 a month over 60 months vs $528.24 over 84. Interest: $6,583 vs $9,372.\nA $1,500 add-on over 84 months adds just $22.64 a month; the FTC calls hiding add-ons in a payment 'payment packing.'\nEdmunds: loans of 84+ months hit a record 25.5% of new-car financing in Q3 2026, up from 21.8% in Q3 2025.\n\nSources: Edmunds (Q3 2026); FTC; CFPB Regulation Z.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#carbuying #carloans #autoloan #personalfinance #financeprostv",
   "tiktok": "A lower car payment can cost $2,790 more. The 60 vs 84-month math at 7%. Not financial advice. #moneytok #personalfinance #carbuying #financeprostv",
   "yt_desc": "On a hypothetical $35,000 loan at 7% APR, stretching from 60 to 84 months cuts the payment from $693.04 to $528.24 but adds about $2,790 of interest, and a $1,500 add-on adds only $22.64 a month. Edmunds says loans of 84 months or more hit a record 25.5% of new-car financing in Q3 2026. Sources: Edmunds, FTC, CFPB Regulation Z.\n\nNews and education, not financial advice.\n\n#Shorts #carbuying #carloans",
   "tags": [
