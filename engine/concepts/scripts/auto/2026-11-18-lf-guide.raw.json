@@ -10,21 +10,21 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "61% of Vanguard 401(k) savers own exactly one fund.",
-   "say": "Sixty-one percent of Vanguard four-oh-one-K savers own exactly one fund.",
+   "text": "In 2025, 61% of Vanguard savers held one target-date fund.",
+   "say": "In twenty twenty-five, sixty-one percent of Vanguard savers held one target-date fund.",
    "scene": {
     "t": "hook",
-    "title": "Most own [one] fund",
+    "title": "Most hold [one] fund",
     "prop": "box",
-    "label": "401(k)",
+    "label": "2025",
     "value": "61%",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "Not one stock. One target-date fund, at the end of 2025, per Vanguard's How America Saves 2026.",
-   "say": "Not one stock. One target-date fund, at the end of twenty twenty-five, according to Vanguard's How America Saves report.",
+   "text": "Nothing else: their whole balance sat in that one fund, per Vanguard's How America Saves 2026.",
+   "say": "Nothing else. Their whole balance sat in that one fund, according to Vanguard's How America Saves twenty twenty-six.",
    "scene": {
     "t": "stat",
     "label": "In a single target-date fund",
@@ -198,8 +198,8 @@
   },
   {
    "who": "ticker",
-   "text": "Defaults matter more now. Under SECURE 2.0, most 401(k) plans set up after Dec. 29, 2022 must auto-enroll workers from 2025.",
-   "say": "Defaults matter more now. Under SECURE two point oh, most four-oh-one-K plans set up after December twenty-ninth, twenty twenty-two must auto-enroll workers, starting in twenty twenty-five.",
+   "text": "Defaults matter even more under SECURE 2.0: most 401(k) plans set up after Dec. 29, 2022 must auto-enroll workers from 2025.",
+   "say": "Defaults matter even more under SECURE two point oh. Most four-oh-one-K plans set up after December twenty-ninth, twenty twenty-two must auto-enroll workers, starting in twenty twenty-five.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -250,13 +250,13 @@
   },
   {
    "who": "ticker",
-   "text": "So the first thing worth knowing is what your plan's default actually is. It's spelled out in the plan's required notices.",
-   "say": "So the first thing worth knowing is what your plan's default actually is. It's spelled out in the plan's required notices.",
+   "text": "Each plan spells out its default in required notices, including the QDIA notice.",
+   "say": "Each plan spells out its default in required notices, including the Q D I A notice.",
    "scene": {
     "t": "board",
     "lines": [
-     "Step 1:",
-     "know your default"
+     "The default:",
+     "in the QDIA notice"
     ],
     "mood": "happy"
    }
@@ -640,14 +640,14 @@
   },
   {
    "who": "ticker",
-   "text": "The law builds in an exit. If your plan holds public company stock, shares from your own contributions can be moved out any time.",
-   "say": "The law builds in an exit. If your plan holds public company stock, shares from your own contributions can be moved out any time.",
+   "text": "The law builds in an exit. In plans holding public company stock, shares bought with your own money can be moved out from day one.",
+   "say": "The law builds in an exit. In plans holding public company stock, shares bought with your own money can be moved out from day one.",
    "scene": {
     "t": "board",
     "lines": [
      "Your own money in",
      "company stock:",
-     "movable any time"
+     "movable from day one"
     ]
    }
   },
@@ -1071,20 +1071,20 @@
   },
   {
    "who": "ticker",
-   "text": "After a strong year for stocks, that can drift to about 85/15 without anyone touching a thing.",
-   "say": "After a strong year for stocks, that can drift to about eighty-five fifteen without anyone touching a thing.",
+   "text": "If stocks gain 25% in a year and bonds stay flat, that drifts to about 83/17, with nobody touching a thing.",
+   "say": "If stocks gain twenty-five percent in a year and bonds stay flat, that drifts to about eighty-three seventeen, with nobody touching a thing.",
    "scene": {
     "t": "compare",
-    "title": "After a strong stock year",
+    "title": "Hypothetical: stocks +25%",
     "left": {
      "label": "Stocks",
-     "value": "85%",
+     "value": "83%",
      "tone": "up",
      "sub": "drifted up"
     },
     "right": {
      "label": "Bonds",
-     "value": "15%",
+     "value": "17%",
      "tone": "down",
      "sub": "drifted down"
     }
@@ -1563,21 +1563,21 @@
   },
   {
    "who": "ticker",
-   "text": "Chapter 7: Recap: the checklist.",
-   "say": "Chapter seven: the recap, as a checklist.",
+   "text": "Chapter 7: The one-screen recap.",
+   "say": "Chapter seven: the one-screen recap.",
    "scene": {
     "t": "chapter",
     "n": 7,
-    "title": "Recap: the checklist"
+    "title": "The one-screen recap"
    }
   },
   {
    "who": "ticker",
-   "text": "Here's the one-screen checklist. First, the default: where your money lands if you do nothing.",
-   "say": "Here's the one-screen checklist. First, the default: where your money lands if you do nothing.",
+   "text": "Here's the one-screen recap. First, the default: where money lands if nobody picks.",
+   "say": "Here's the one-screen recap. First, the default: where money lands if nobody picks.",
    "scene": {
     "t": "list",
-    "title": "401(k) checklist",
+    "title": "401(k) recap",
     "items": [
      "The default fund",
      "Expense ratios",
@@ -1593,7 +1593,7 @@
    "say": "Second, expense ratios, which in our hypothetical meant a sixty-seven thousand, one hundred nine dollar gap.",
    "scene": {
     "t": "list",
-    "title": "401(k) checklist",
+    "title": "401(k) recap",
     "items": [
      "The default fund",
      "Expense ratios",
@@ -1610,7 +1610,7 @@
    "say": "Third, the overall mix. A target-date fund is built to stand alone, and stacking other funds on top of it changes things.",
    "scene": {
     "t": "list",
-    "title": "401(k) checklist",
+    "title": "401(k) recap",
     "items": [
      "The default fund",
      "Expense ratios",
@@ -1627,7 +1627,7 @@
    "say": "Fourth, how much sits in company stock, and when the rules let you move it.",
    "scene": {
     "t": "list",
-    "title": "401(k) checklist",
+    "title": "401(k) recap",
     "items": [
      "The default fund",
      "Expense ratios",
@@ -1677,10 +1677,10 @@
   }
  ],
  "post": {
-  "title": "61% of 401(k) savers own just one fund. How to pick 401(k) investments (2026 guide)",
-  "ig": "61% of Vanguard 401(k) savers own exactly one fund. Here's what's inside it, and what else is on the menu.",
-  "tiktok": "61% of Vanguard 401(k) savers own exactly one fund. Here's how the whole 401(k) menu works.",
-  "yt_desc": "A step-by-step guide to the investment menu in a 401(k): what happens if you never choose (the Labor Department's default investment rule and SECURE 2.0 auto-enrollment), how target-date funds and their glide paths work, and what index funds, actively managed funds, stable value and company stock are. It walks through a hypothetical 0.05% versus 0.75% expense ratio example on $50,000 over 30 years ($67,109 gap at an assumed 7% return before fees), plus diversification, rebalancing, the 2026 IRS limits ($24,500, the $8,000 and $11,250 catch-ups, the new Roth catch-up rule above $150,000 in 2025 FICA wages), employer match math and vesting schedules. It ends with a one-screen checklist.\n\nCHAPTERS\n\nSources: Vanguard, How America Saves 2026 (June 2026); IRS Notice 2025-67 (2026 limits and Roth catch-up wage threshold); Treasury/IRS final Roth catch-up regulations (Sept 2025); ICI, The Economics of Providing 401(k) Plans, 2024 (July 2025); ICI, Trends in the Expenses and Fees of Funds, 2025 (March 2026); Morningstar, 2026 Target-Date Landscape; US Department of Labor, QDIA rule (29 CFR 2550.404c-5) and fee disclosure rule (29 CFR 2550.404a-5); IRC 401(a)(35) and 411(a); SECURE 2.0 Act; CNBC (March 30, 2026) on the DOL's proposed fund-selection rule.\n\nNews and education, not financial advice.\n\n#401k #retirement #personalfinance",
+  "title": "61% of Vanguard 401(k) savers hold one target-date fund. How to pick 401(k) investments (2026 guide)",
+  "ig": "In 2025, 61% of Vanguard 401(k) savers held a single target-date fund. Here's what's inside it, and what else is on the menu.",
+  "tiktok": "In 2025, 61% of Vanguard 401(k) savers held a single target-date fund. Here's how the whole 401(k) menu works.",
+  "yt_desc": "A step-by-step guide to the investment menu in a 401(k): what happens if you never choose (the Labor Department's default investment rule and SECURE 2.0 auto-enrollment), how target-date funds and their glide paths work, and what index funds, actively managed funds, stable value and company stock are. It walks through a hypothetical 0.05% versus 0.75% expense ratio example on $50,000 over 30 years ($67,109 gap at an assumed 7% return before fees), plus diversification, rebalancing, the 2026 IRS limits ($24,500, the $8,000 and $11,250 catch-ups, the new Roth catch-up rule above $150,000 in 2025 FICA wages), employer match math and vesting schedules. It ends with a one-screen recap.\n\nCHAPTERS\n\nSources: Vanguard, How America Saves 2026 (June 2026); IRS Notice 2025-67 (2026 limits and Roth catch-up wage threshold); Treasury/IRS final Roth catch-up regulations (Sept 2025); ICI, The Economics of Providing 401(k) Plans, 2024 (July 2025); ICI, Trends in the Expenses and Fees of Funds, 2025 (March 2026); Morningstar, 2026 Target-Date Landscape; US Department of Labor, QDIA rule (29 CFR 2550.404c-5) and fee disclosure rule (29 CFR 2550.404a-5); IRC 401(a)(35) and 411(a); SECURE 2.0 Act; CNBC (March 30, 2026) on the DOL's proposed fund-selection rule.\n\nNews and education, not financial advice.\n\n#401k #retirement #personalfinance",
   "tags": [
    "how to pick 401k investments",
    "401k for beginners",
