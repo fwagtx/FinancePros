@@ -71,3 +71,23 @@ The original has 148 words. With all the replacements above it has 144, under th
 - Reg Z 1026.18: https://www.consumerfinance.gov/rules-policy/regulations/1026/18/
 
 VERDICT: FAIL
+
+## Round 2 (re-read of the revised raw.json, Oct 2, 2026)
+
+### Fixes checked
+- **Line 1 (hook):** text "This lower car payment costs $2,790 more." matches the spoken "twenty-seven hundred ninety dollars more." It is 10 words, about 3 seconds. The label "7% APR example" now marks it as hypothetical. Resolved.
+- **Line 4:** the sub "unrounded math, hypothetical" no longer shows a $2,789 subtraction. The spoken "about a hundred sixty-five dollars" matches $164.80 rounded. Resolved.
+- **Line 5:** the 7% rate is now stated in the text, the narration and the "Per month, 84 mo, 7%" label. $22.64 is correct. Resolved.
+- **Line 6:** "The FTC calls that 'payment packing.'" now reads naturally. The text matches the spoken line. Resolved.
+- **Line 7:** now uses a stat scene with 25.5% (record, Q3 2026) and the sub "record; 21.8% in Q3 2025". Both figures match the Edmunds Q3 2026 release of Oct 1, 2026. Saying "third quarter of twenty twenty-six" in full avoids any relative time word, so it stays correct on Nov 22. The mixed-release chart is gone. Resolved.
+- **Line 8:** the text matches the spoken line. Resolved.
+- **IG caption:** it now carries the Q3 2026 / Q3 2025 figures and the updated first line. It is consistent with the video.
+
+### New checks
+- **Word count:** spoken words total 147, within the 150 limit.
+- **On-screen vs spoken values:** they agree on every line ($693.04/$528.24 are spoken as "about six ninety-three/five twenty-eight").
+- **Compare values:** both are 7 characters or fewer. No keep:true flags.
+- **Content:** no advice, predictions or political opinion. The cover and title are paid off. The tiktok and yt_desc numbers match the script.
+- **Optional nit (not blocking):** the IG add-on sentence could add "at 7% APR". The rate is already clear from the line before it.
+
+VERDICT: PASS
