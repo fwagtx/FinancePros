@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Delta's card deal beat its whole 2025 profit.",
-   "say": "Delta's card deal beat its whole twenty twenty-five profit.",
+   "text": "Amex paid Delta more than Delta earned all year.",
+   "say": "Amex paid Delta more than Delta earned all year.",
    "scene": {
     "t": "hook",
     "title": "Cards beat [profit]",
@@ -44,8 +44,8 @@
   },
   {
    "who": "ticker",
-   "text": "The card deal beat the profit by $3.2 billion. And it's not just Delta.",
-   "say": "The card deal beat the profit by three point two billion dollars. And it's not just Delta.",
+   "text": "That's revenue, not profit, so not apples to apples. But the gap is $3.2 billion, and it's not just Delta.",
+   "say": "That's revenue, not profit, so not apples to apples. But the gap is three point two billion dollars, and it's not just Delta.",
    "scene": {
     "t": "compare",
     "title": "Delta, 2025",
@@ -282,7 +282,7 @@
      "title": "Travel part",
      "items": [
       "Deferred",
-      "Booked on the trip"
+      "Booked when used"
      ],
      "tone": "neutral"
     },
@@ -839,13 +839,13 @@
   },
   {
    "who": "ticker",
-   "text": "United took the program's 2019 EBITDA, about $1.8 billion of operating earnings, and multiplied it by 12.",
-   "say": "United took the program's twenty nineteen E B I T D A, about one point eight billion dollars of operating earnings, and multiplied it by twelve.",
+   "text": "United took the program's 2019 EBITDA, just over $1.8 billion, and multiplied it by 12.",
+   "say": "United took the program's twenty nineteen core earnings, called E B I T D A, just over one point eight billion dollars, and multiplied them by twelve.",
    "scene": {
     "t": "board",
     "lines": [
-     "2019 EBITDA ~$1.8B",
-     "x 12 = $21.9B value"
+     "EBITDA: just over $1.8B",
+     "x 12 = about $21.9B"
     ]
    }
   },
@@ -926,13 +926,13 @@
      "label": "Low end",
      "value": "$19.5B",
      "tone": "neutral",
-     "sub": "2021 filing"
+     "sub": "Third-party est."
     },
     "right": {
      "label": "High end",
      "value": "$31.5B",
      "tone": "up",
-     "sub": "2021 filing"
+     "sub": "Third-party est."
     }
    }
   },
@@ -986,32 +986,32 @@
   },
   {
    "who": "ticker",
-   "text": "In December 2025, the airline group IATA put the global net margin for 2025 at 3.9%.",
-   "say": "In December twenty twenty-five, the airline group I A T A put the global net margin for twenty twenty-five at three point nine percent.",
+   "text": "IATA's latest estimate, from June 2026, puts the global airline net margin for 2025 at 4.2%.",
+   "say": "The airline group I A T A's latest estimate, from June twenty twenty-six, puts the global net margin for twenty twenty-five at four point two percent.",
    "scene": {
     "t": "stat",
     "label": "Global airline net margin",
-    "value": "3.9%",
+    "value": "4.2%",
     "tone": "down",
     "sub": "2025, IATA est."
    }
   },
   {
    "who": "ticker",
-   "text": "On a $100 ticket, that's about $3.90 of profit.",
-   "say": "On a hundred-dollar ticket, that's about three dollars and ninety cents of profit.",
+   "text": "On a $100 ticket, that's about $4.20 of profit.",
+   "say": "On a hundred-dollar ticket, that's about four dollars and twenty cents of profit.",
    "scene": {
     "t": "board",
     "lines": [
-     "$100 ticket x 3.9%",
-     "= $3.90 profit"
+     "$100 ticket x 4.2%",
+     "= $4.20 profit"
     ]
    }
   },
   {
    "who": "ticker",
-   "text": "In June 2026, citing Middle East disruptions and high fuel prices, IATA cut its 2026 forecast to a 2.0% margin.",
-   "say": "In June twenty twenty-six, citing Middle East disruptions and high fuel prices, I A T A cut its twenty twenty-six forecast to a two percent margin.",
+   "text": "In the same update, citing Middle East disruptions and high fuel prices, IATA cut its 2026 forecast to a 2.0% margin.",
+   "say": "In the same update, citing Middle East disruptions and high fuel prices, I A T A cut its twenty twenty-six forecast to a two percent margin.",
    "scene": {
     "t": "news",
     "headline": "IATA halves 2026 airline profit",
@@ -1180,26 +1180,26 @@
   },
   {
    "who": "ticker",
-   "text": "As part of the switch, Citi agreed to take over the Barclays AAdvantage cards, moving them over in 2026.",
-   "say": "As part of the switch, Citi agreed to take over the Barclays Advantage cards, moving them over in twenty twenty-six.",
+   "text": "As part of the switch, Barclays AAdvantage cardholders were moved over to Citi in April 2026.",
+   "say": "As part of the switch, Barclays Advantage cardholders were moved over to Citi in April twenty twenty-six.",
    "scene": {
     "t": "board",
     "lines": [
      "Barclays AA cards",
-     "move to Citi in 2026"
+     "moved to Citi, 2026"
     ]
    }
   },
   {
    "who": "ticker",
-   "text": "American expects its partner cash to grow about 10% a year, toward $10 billion a year by the end of the decade.",
-   "say": "American expects its partner cash to grow about ten percent a year, toward ten billion dollars a year by the end of the decade.",
+   "text": "American expects its partner cash to grow about 10% a year, toward roughly $10 billion a year.",
+   "say": "American expects its partner cash to grow about ten percent a year, toward roughly ten billion dollars a year.",
    "scene": {
     "t": "stat",
     "label": "AA partner cash target",
     "value": "$10B/yr",
     "tone": "up",
-    "sub": "By decade's end"
+    "sub": "Company target"
    }
   },
   {
@@ -1363,8 +1363,8 @@
   },
   {
    "who": "ticker",
-   "text": "Supporters, including big retailers, say it would cut swipe fees. Airlines and banks argue it could shrink the money that pays for rewards.",
-   "say": "Supporters, including big retailers, say it would cut swipe fees. Airlines and banks argue it could shrink the money that pays for rewards.",
+   "text": "Supporters, including big retailers, say it would cut swipe fees. Opponents, including banks and airlines, say it could shrink the money that pays for rewards.",
+   "say": "Supporters, including big retailers, say it would cut swipe fees. Opponents, including banks and airlines, say it could shrink the money that pays for rewards.",
    "scene": {
     "t": "split",
     "title": "The debate",
@@ -1379,8 +1379,8 @@
     "right": {
      "title": "Opponents",
      "items": [
-      "Less reward money",
-      "Card deals at risk"
+      "Smaller rewards",
+      "Card deals hit"
      ],
      "tone": "neutral"
     }
@@ -1388,13 +1388,13 @@
   },
   {
    "who": "ticker",
-   "text": "As of July 2026, the fight was still going. Forbes reported the card industry was spending about $200 million against it.",
-   "say": "As of July twenty twenty-six, the fight was still going. Forbes reported the card industry was spending about two hundred million dollars against it.",
+   "text": "Cards on Amex's own network, like Delta's, would be exempt. Visa and Mastercard co-brands, like United's and American's, would not. When this video was made, the bill had not passed.",
+   "say": "Cards on Amex's own network, like Delta's, would be exempt. Visa and Mastercard co-brands, like United's and American's, would not. When this video was made, the bill had not passed.",
    "scene": {
     "t": "board",
     "lines": [
-     "July 2026:",
-     "still being fought over"
+     "Amex cards: exempt",
+     "Visa/MC co-brands: covered"
     ]
    }
   },
@@ -1556,8 +1556,8 @@
   },
   {
    "who": "ticker",
-   "text": "Four: flying is thin: about a 3.9% net margin in 2025, by IATA's estimate.",
-   "say": "Four. Flying is thin: about a three point nine percent net margin in twenty twenty-five, by I A T A's estimate.",
+   "text": "Four: flying is thin: about a 4.2% net margin in 2025, by IATA's estimate.",
+   "say": "Four. Flying is thin: about a four point two percent net margin in twenty twenty-five, by I A T A's estimate.",
    "scene": {
     "t": "list",
     "title": "Recap",
@@ -1597,7 +1597,7 @@
   "title": "In 2025, Delta's Amex deal beat its whole profit. How airlines make money from cards",
   "ig": "In 2025, Amex paid Delta $8.2B, more than Delta's $5.0B net income. Here's how airlines make money from credit cards.",
   "tiktok": "Amex paid Delta more than Delta's entire 2025 profit. Here's how airline cards work.",
-  "yt_desc": "How airlines make money from credit cards, not just flights. In 2025, American Express paid Delta $8.2 billion, more than Delta's $5.0 billion net income, and American Airlines received $6.2 billion from card and other partners while earning $111 million. This video covers how airlines sell miles to banks, how breakage and the accounting work, the math behind Delta's card deal (about $22.5 million a day), why United and American borrowed billions against their loyalty programs in 2020 and 2021, IATA's thin airline margins, and the risks: devaluation, the 2024 CFPB and DOT scrutiny of rewards, and the 2026 Credit Card Competition Act debate.\n\nCHAPTERS\n\nSources: Delta Air Lines full-year 2025 results (Jan. 13, 2026), Form 10-K for 2025, and June quarter 2026 results (July 10, 2026); Delta full-year results 2018-2024; American Express Form 10-K for 2025; CNBC (April 2, 2019); Fortune (April 3, 2026); View from the Wing (2026); United Airlines Form 8-K and MileagePlus investor presentation (June 15, 2020); Skift (June 15, 2020); American Airlines (March 2021; Dec. 2024 Citi release; 2025 Form 10-K and Q4 2025 results, Jan. 27, 2026); CNBC (March 8, 2021); IATA (Dec. 9, 2025; June 2026); CFPB and DOT (May 9, 2024); US DOT (Sept. 2024); Sen. Roger Marshall (Jan. 13, 2026); Payments Dive (Jan. 2026); Forbes (July 23, 2026).\n\nNews and education, not financial advice.\n\n#airlines #creditcards #howtheymakemoney",
+  "yt_desc": "How airlines make money from credit cards, not just flights. In 2025, American Express paid Delta $8.2 billion, more than Delta's $5.0 billion net income, and American Airlines received $6.2 billion from card and other partners while earning $111 million. This video covers how airlines sell miles to banks, how breakage and the accounting work, the math behind Delta's card deal (about $22.5 million a day), why United and American borrowed billions against their loyalty programs in 2020 and 2021, IATA's thin airline margins, and the risks: devaluation, the 2024 CFPB and DOT scrutiny of rewards, and the 2026 Credit Card Competition Act debate.\n\nCHAPTERS\n\nSources: Delta Air Lines full-year 2025 results (Jan. 13, 2026), Form 10-K for 2025, and June quarter 2026 results (July 10, 2026); Delta full-year results 2018-2024; American Express Form 10-K for 2025; CNBC (April 2, 2019); Fortune (April 3, 2026); View from the Wing (2026); United Airlines Form 8-K and MileagePlus investor presentation (June 15, 2020); Skift (June 15, 2020); American Airlines (March 2021; Dec. 2024 Citi release; 2025 Form 10-K and Q4 2025 results, Jan. 27, 2026); CNBC (March 8, 2021); IATA (Dec. 9, 2025; June 2026); CFPB and DOT (May 9, 2024); US DOT (Sept. 2024); Sen. Roger Marshall (Jan. 13, 2026); Payments Dive (Jan. 2026); Kilpatrick Townsend on the CCCA of 2026 (Jan. 2026).\n\nNews and education, not financial advice.\n\n#airlines #creditcards #howtheymakemoney",
   "tags": [
    "how airlines make money",
    "airline credit cards",

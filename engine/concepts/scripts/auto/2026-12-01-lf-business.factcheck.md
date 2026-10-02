@@ -72,3 +72,21 @@ Checker: independent. Checked on Oct 2, 2026 for posting on Tue Dec 1, 2026. I c
 The original has 1,793 spoken words. Fixes 1-7 bring it to about 1,799, inside 1,550-1,800.
 
 VERDICT: FAIL
+
+## Round 2 (editor)
+Applied to 2026-12-01-lf-business.raw.json (each line index checked against its content first):
+- **Fix 1 (IATA 2025 margin):** lines 58, 59, 60 and 95 were rewritten as specified. The new values are 4.2% and $4.20, the stat is "4.2%" and the board reads "$100 ticket x 4.2% / = $4.20 profit". Line 60 now opens "In the same update". No 3.9% is left anywhere.
+- **Fix 2 (CCCA):** line 84 now carries the replacement text, say and board ("Amex cards: exempt" / "Visa/MC co-brands: covered"). The $200M figure is dropped from the script. yt_desc never quoted $200M; its "Forbes (July 23, 2026)" source is replaced with "Kilpatrick Townsend on the CCCA of 2026 (Jan. 2026)". Re-check the bill's status before posting.
+- **Fix 3 (layout):** line 17 item changed to "Booked when used". Line 83 items changed to "Smaller rewards" / "Card deals hit". The optional neutral text/say for line 83 is applied.
+- **Fix 4 (opening):** line 0 is now "Amex paid Delta more than Delta earned all year." (9 words). Line 2 adds the revenue-vs-profit caveat. The scenes are unchanged.
+- **Fix 5:** line 68 is now in the past tense (moved to Citi in April 2026), with the board "moved to Citi, 2026".
+- **Fix 6:** in line 48, EBITDA is now said as "earnings before interest, taxes and depreciation, just over one point eight billion". The board reads "EBITDA: just over $1.8B" / "x 12 = about $21.9B".
+- **Fix 7:** line 69 now says "toward roughly $10 billion a year" with no decade claim. The stat sub is "Company target".
+- **Fix 9 (optional):** line 53 subs are "Third-party est." on both sides.
+- **Not applied:** fix 8 (the Q3 2026 refresh, per instructions) and fix 10 (optional).
+
+Deviations: none. Note that "earnings before interest, taxes and depreciation" (as specified) leaves out "amortization", which is a simplification taken from the report's say line.
+
+Checks: check.py prints "OK: 98 lines, 1799 spoken words". A Python layout audit found 0 violations: hook titles ≤22; titles, labels, captions and cover ≤28; subs ≤18; compare values ≤7; news ≤34; list and split items ≤16; board lines ≤26; timeline fields ≤8/18; the bare CHAPTERS line is present. Spoken numbers match the screen.
+
+VERDICT: PASS
