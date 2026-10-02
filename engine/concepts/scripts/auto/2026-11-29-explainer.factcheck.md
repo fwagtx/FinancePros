@@ -86,3 +86,4 @@ VERDICT: FAIL
 
 ## Round 2 (editor)
 Applied fixes 1-6. The post title is shortened to 51 characters and the TikTok caption to 150 or fewer. The cover title is "Avg Kid's #1 Cost? Housing". VERDICT: PASS
+Rebuild: the build ran 1:05, over the cap. Big numbers are now spoken rounded with 'about' (exact on screen), and the clothing sentence was cut. 138 words.
