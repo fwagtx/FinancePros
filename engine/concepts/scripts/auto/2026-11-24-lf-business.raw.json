@@ -45,7 +45,7 @@
   {
    "who": "ticker",
    "text": "Rent won by $752 million. The world's best-known burger chain is also a giant landlord.",
-   "say": "Rent won by about seven hundred fifty million dollars. The world's best-known burger chain is also a giant landlord.",
+   "say": "Rent won by seven hundred fifty-two million dollars. The world's best-known burger chain is also a giant landlord.",
    "scene": {
     "t": "compare",
     "keep": true,
@@ -294,23 +294,14 @@
   },
   {
    "who": "ticker",
-   "text": "And it worked. McDonald's went from 31 restaurants at the end of 1957 to 228 by 1960.",
-   "say": "And it worked. McDonald's went from thirty-one restaurants at the end of nineteen fifty-seven to two hundred twenty-eight by nineteen sixty.",
+   "text": "And it worked. By 1960, there were 228 McDonald's restaurants.",
+   "say": "And it worked. By nineteen sixty, there were two hundred twenty-eight McDonald's restaurants.",
    "scene": {
-    "t": "compare",
-    "title": "McDonald's restaurants",
-    "left": {
-     "label": "End of 1957",
-     "value": "31",
-     "tone": "neutral",
-     "sub": "Restaurants"
-    },
-    "right": {
-     "label": "1960",
-     "value": "228",
-     "tone": "up",
-     "sub": "Restaurants"
-    }
+    "t": "stat",
+    "label": "McDonald's restaurants, 1960",
+    "value": "228",
+    "tone": "up",
+    "sub": "From one Kroc store in 1955"
    }
   },
   {
@@ -355,7 +346,7 @@
   {
    "who": "ticker",
    "text": "\"We are not technically in the food business. We are in the real estate business.\" Harry Sonneborn, as quoted in John Love's 1986 company history.",
-   "say": "In John Love's nineteen eighty-six company history, Sonneborn is quoted telling investors: We are not technically in the food business. We are in the real estate business.",
+   "say": "In John Love's nineteen eighty-six company history, Sonneborn is quoted saying: We are not technically in the food business. We are in the real estate business.",
    "scene": {
     "t": "quote",
     "text": "We are not technically in the food business. We are in the real estate business.",
@@ -485,8 +476,8 @@
   },
   {
    "who": "ticker",
-   "text": "Add rent, royalties and small initial fees, and franchisees sent McDonald's $16,548 million in 2025.",
-   "say": "Add up rent, royalties and small initial fees, and franchisees sent McDonald's about sixteen and a half billion dollars in twenty twenty-five.",
+   "text": "Add rent, royalties and small initial fees, and franchisees sent McDonald's $16.5 billion in 2025.",
+   "say": "Add up rent, royalties and small initial fees, and franchisees sent McDonald's sixteen point five billion dollars in twenty twenty-five.",
    "scene": {
     "t": "board",
     "lines": [
@@ -694,8 +685,8 @@
   },
   {
    "who": "ticker",
-   "text": "That held into 2026. In the April-to-June quarter, franchised revenues rose 4%, to $4.39 billion.",
-   "say": "That held into twenty twenty-six. In the April-to-June quarter, franchised revenues rose four percent, to four point three nine billion dollars.",
+   "text": "That held into 2026. In the April-to-June quarter of 2026, franchised revenues rose 4%, to $4.39 billion.",
+   "say": "That held into twenty twenty-six. In the April-to-June quarter of twenty twenty-six, franchised revenues rose four percent, to four point three nine billion dollars.",
    "scene": {
     "t": "stat",
     "label": "Franchised revenues, Q2 2026",
@@ -706,8 +697,8 @@
   },
   {
    "who": "ticker",
-   "text": "And franchised margins, what's left after McDonald's own property costs, rose 4.3% to about $3.71 billion in that quarter.",
-   "say": "And franchised margins, what's left after McDonald's own property costs, rose four point three percent, to about three point seven one billion dollars in that quarter.",
+   "text": "And franchised margins, what's left after McDonald's own property costs, rose 4.3% to $3.71 billion that quarter.",
+   "say": "And franchised margins, what's left after McDonald's own property costs, rose four point three percent, to three point seven one billion dollars that quarter.",
    "scene": {
     "t": "stat",
     "label": "Franchised margins, Q2 2026",
@@ -911,12 +902,12 @@
   },
   {
    "who": "ticker",
-   "text": "So franchised restaurants made about 90% of its restaurant margin dollars: $13.9 billion of $15.4 billion.",
-   "say": "So franchised restaurants made about ninety percent of its restaurant margin dollars: thirteen point nine billion out of fifteen point four billion.",
+   "text": "So franchised restaurants made about 91% of its restaurant margin dollars: $13.9 billion of $15.4 billion.",
+   "say": "So franchised restaurants made about ninety-one percent of its restaurant margin dollars: thirteen point nine billion out of fifteen point four billion.",
    "scene": {
     "t": "stat",
     "label": "Franchised share of margin",
-    "value": "90.7%",
+    "value": "91%",
     "tone": "up",
     "sub": "$13.9B of $15.4B, 2025"
    }
@@ -967,15 +958,15 @@
   },
   {
    "who": "ticker",
-   "text": "Consolidated markets are the ones McDonald's runs directly, like the U.S. In licensed markets, local partners generally provide the real estate.",
-   "say": "Consolidated markets are the ones McDonald's runs directly, like the US. In developmental licensed markets, local partners generally provide the real estate.",
+   "text": "Consolidated markets are ones where McDonald's itself is the franchisor, like the U.S. In licensed markets, local partners generally provide the real estate.",
+   "say": "Consolidated markets are the ones where McDonald's itself is the franchisor, like the US. In developmental licensed markets, local partners generally provide the real estate.",
    "scene": {
     "t": "countries",
     "cast": [
      {
       "name": "us",
       "mood": "happy",
-      "says": "Run directly"
+      "says": "Franchisor here"
      },
      {
       "name": "china",
@@ -1139,8 +1130,8 @@
   },
   {
    "who": "ticker",
-   "text": "And U.S. sales growth slowed in 2026. In the April-to-June quarter, U.S. comparable sales rose just 0.8%.",
-   "say": "And US sales growth slowed in twenty twenty-six. In the April-to-June quarter, US comparable sales rose just zero point eight percent.",
+   "text": "And U.S. sales growth was slow in spring 2026. In the April-to-June quarter, U.S. comparable sales rose just 0.8%.",
+   "say": "And US sales growth was slow in the spring of twenty twenty-six. In the April-to-June quarter, US comparable sales rose just zero point eight percent.",
    "scene": {
     "t": "stat",
     "label": "US comparable sales, Q2 2026",
@@ -1170,15 +1161,15 @@
      "Rent relief",
      "Capital support",
      "$5B by 2030",
-     "$800K per US store"
+     "$800K/drive-thru"
     ],
     "reveal": 3
    }
   },
   {
    "who": "ticker",
-   "text": "The goal: help pay for new equipment and tech that the company puts at about $800,000 per U.S. restaurant.",
-   "say": "The goal is to help pay for new equipment and technology that the company puts at about eight hundred thousand dollars per US restaurant.",
+   "text": "The goal: help pay for new equipment and tech that the company puts at about $800,000 for a traditional U.S. drive-thru.",
+   "say": "The goal is to help pay for new equipment and technology that the company puts at about eight hundred thousand dollars for a traditional US drive-thru restaurant.",
    "scene": {
     "t": "list",
     "title": "The $8.5B plan",
@@ -1186,7 +1177,7 @@
      "Rent relief",
      "Capital support",
      "$5B by 2030",
-     "$800K per US store"
+     "$800K/drive-thru"
     ],
     "reveal": 4,
     "keep": true
@@ -1244,14 +1235,14 @@
   },
   {
    "who": "ticker",
-   "text": "The system keeps growing, too: more than 46,000 restaurants by September 2026. McDonald's also targeted net restaurant growth of over 4.5% in 2027.",
-   "say": "The system keeps growing, too: more than forty-six thousand restaurants by September twenty twenty-six. McDonald's also targeted net restaurant growth of over four and a half percent in twenty twenty-seven.",
+   "text": "The system keeps growing, too: more than 46,000 restaurants by September 2026. McDonald's also targeted net restaurant growth of about 4.5% in 2027.",
+   "say": "The system keeps growing, too: more than forty-six thousand restaurants by September twenty twenty-six. McDonald's also targeted net restaurant growth of about four and a half percent in twenty twenty-seven.",
    "scene": {
     "t": "stat",
     "label": "Restaurants, Sept 2026",
     "value": "46,000+",
     "tone": "up",
-    "sub": "2027 goal: 4.5%+ net growth"
+    "sub": "2027 goal: ~4.5% net growth"
    }
   },
   {
@@ -1263,7 +1254,7 @@
     "title": "New store, new [tenant]",
     "prop": "store",
     "label": "2027",
-    "value": "4.5%+",
+    "value": "~4.5%",
     "mood": "happy"
    }
   },
@@ -1483,7 +1474,7 @@
   "title": "McDonald's made more from rent than from its own food sales in 2025. Here's how.",
   "ig": "In 2025, McDonald's collected $10.4B in rent from franchisees, more than its own restaurants sold. Here's how a burger chain became a landlord.",
   "tiktok": "McDonald's made more from rent than from selling its own food in 2025. Here's how.",
-  "yt_desc": "How McDonald's became a real estate empire. In 2025, McDonald's collected $10.4 billion in rent from franchisees, more than the $9.7 billion of food sold at its own restaurants. This video covers how Ray Kroc and Harry Sonneborn built the landlord model through Franchise Realty Corporation in 1956, where McDonald's $26.9 billion of 2025 revenue came from, a hypothetical rent-and-royalty example ($4 million in sales, 5% royalty, an assumed 10% rent = $600,000), why franchised margins (84.2%) dwarf company-operated margins (14.7%), what McDonald's owns (about 56% of the land and 80% of the buildings in its consolidated markets), and the $8.5 billion franchisee support plan with rent relief announced at its September 23, 2026 Investor Day.\n\nCHAPTERS\n0:00 Rent beat the burgers\n0:35 The landlord idea\n2:11 Follow the money\n4:00 The rent math\n5:32 What it owns\n6:50 The risks, and you\n9:02 Recap\n\nSources: McDonald's Form 10-K for fiscal 2025 (filed February 2026); McDonald's Q4 and full-year 2025 results (February 11, 2026); McDonald's Q2 2026 results (August 4, 2026); McDonald's 2026 Investor Day release (September 23, 2026); Axios and CNBC (September 23, 2026); McDonald's Form 10-Ks for fiscal 2019-2024 (rent series); McDonald's 2025 Franchise Disclosure Document, Item 19; Restaurant Dive and Restaurant Business (royalty change, delivery fees); McDonald's corporate history; TIME (2015); John F. Love, McDonald's: Behind the Arches (1986).\n\nNews and education, not financial advice.\n\n#McDonalds #realestate #howtheymakemoney",
+  "yt_desc": "How McDonald's became a real estate empire. In 2025, McDonald's collected $10.4 billion in rent from franchisees, more than the $9.7 billion of food sold at its own restaurants. This video covers how Ray Kroc and Harry Sonneborn built the landlord model through Franchise Realty Corporation in 1956, where McDonald's $26.9 billion of 2025 revenue came from, a hypothetical rent-and-royalty example ($4 million in sales, 5% royalty, an assumed 10% rent = $600,000), why franchised margins (84.2%) dwarf company-operated margins (14.7%), what McDonald's owns (about 56% of the land and 80% of the buildings in its consolidated markets), and the $8.5 billion franchisee support plan with rent relief announced at its September 23, 2026 Investor Day.\n\nCHAPTERS\n0:00 Rent beat the burgers\n0:35 The landlord idea\n2:08 Follow the money\n3:56 The rent math\n5:29 What it owns\n6:48 The risks, and you\n9:01 Recap\n\nSources: McDonald's Form 10-K for fiscal 2025 (filed February 2026); McDonald's Q4 and full-year 2025 results (February 11, 2026); McDonald's Q2 2026 results (August 4, 2026); McDonald's 2026 Investor Day release (September 23, 2026); Axios and CNBC (September 23, 2026); McDonald's Form 10-Ks for fiscal 2019-2024 (rent series); McDonald's 2025 Franchise Disclosure Document, Item 19; Restaurant Dive and Restaurant Business (royalty change, delivery fees); McDonald's corporate history; TIME (2015); John F. Love, McDonald's: Behind the Arches (1986).\n\nNews and education, not financial advice.\n\n#McDonalds #realestate #howtheymakemoney",
   "tags": [
    "McDonald's business model",
    "McDonald's real estate",
