@@ -1,54 +1,311 @@
 {
  "series": "ticker",
  "header": "$1,000 in the S&P 500\nsince 1980",
- "cover": {"title": "$1,000 in 1980 Became?", "prop": "chart-up", "label": "1980", "value": "$202,134"},
+ "cover": {
+  "title": "$1,000 in 1980 Became?",
+  "prop": "tag",
+  "label": "1980",
+  "value": "$202,134"
+ },
  "lines": [
-  {"who": "ticker",
+  {
+   "who": "ticker",
    "text": "1980: $1,000. 2025: $202,000.",
    "say": "Nineteen eighty: one thousand dollars. Twenty twenty-five: two hundred two thousand.",
-   "scene": {"t": "hook", "title": "$1,000 in [S&P 500]", "prop": "chart-up", "label": "1980", "value": "$202K", "mood": "shock"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "hook",
+    "title": "$1,000 in [S&P 500]",
+    "prop": "tag",
+    "label": "1980",
+    "value": "$202K",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "That's the S&P 500, January 1980 to December 2025. But that number hinges on one detail.",
    "say": "That's the S and P five hundred, January nineteen eighty to December twenty twenty-five. But that number hinges on one detail.",
-   "scene": {"t": "board", "lines": ["S&P 500, $1,000", "Jan 1980 - Dec 2025", "Two ways to count it"], "mood": "think"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "S&P 500, $1,000",
+     "Jan 1980 - Dec 2025",
+     "Two ways to count it"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Price only, it grew to about $63,000. With dividends reinvested, about $202,000.",
    "say": "Price only, it grew to about sixty-three thousand. With dividends reinvested, about two hundred two thousand.",
-   "scene": {"t": "compare", "title": "$1,000, Jan 1980-Dec 2025", "left": {"label": "Price only", "value": "$63.4K", "tone": "neutral", "sub": "Index level only"}, "right": {"label": "Dividends in", "value": "$202.1K", "tone": "up", "sub": "Total return"}}},
-  {"who": "ticker",
+   "scene": {
+    "t": "compare",
+    "title": "$1,000, Jan 1980-Dec 2025",
+    "left": {
+     "label": "Price only",
+     "value": "$63.4K",
+     "tone": "neutral",
+     "sub": "Index level only"
+    },
+    "right": {
+     "label": "Dividends in",
+     "value": "$202.1K",
+     "tone": "up",
+     "sub": "Total return"
+    }
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Reinvested dividends more than tripled the ending pile.",
    "say": "Reinvested dividends more than tripled the ending pile.",
-   "scene": {"t": "compare", "keep": true, "winner": "right", "title": "$1,000, Jan 1980-Dec 2025", "left": {"label": "Price only", "value": "$63.4K", "tone": "neutral", "sub": "Index level only"}, "right": {"label": "Dividends in", "value": "$202.1K", "tone": "up", "sub": "Total return"}, "mood": "happy"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "$1,000, Jan 1980-Dec 2025",
+    "left": {
+     "label": "Price only",
+     "value": "$63.4K",
+     "tone": "neutral",
+     "sub": "Index level only"
+    },
+    "right": {
+     "label": "Dividends in",
+     "value": "$202.1K",
+     "tone": "up",
+     "sub": "Total return"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "It wasn't a smooth ride, though.",
    "say": "It wasn't a smooth ride, though.",
-   "scene": {"t": "chart", "title": "$1,000 with dividends, year-end", "points": [[1979,1000],[1984,1994],[1989,5039],[1994,7647],[1999,26849],[2002,16752],[2004,23901],[2007,30628],[2008,19296],[2009,24402],[2014,50055],[2019,87028],[2021,132624],[2022,108605],[2024,171475],[2025,202134]], "prefix": "$", "end": "$202,134", "color": "up"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "chart",
+    "title": "$1,000 w/ dividends, yr-end",
+    "points": [
+     [
+      1979,
+      1000
+     ],
+     [
+      1984,
+      1994
+     ],
+     [
+      1989,
+      5039
+     ],
+     [
+      1994,
+      7647
+     ],
+     [
+      1999,
+      26849
+     ],
+     [
+      2002,
+      16752
+     ],
+     [
+      2004,
+      23901
+     ],
+     [
+      2007,
+      30628
+     ],
+     [
+      2008,
+      19296
+     ],
+     [
+      2009,
+      24402
+     ],
+     [
+      2014,
+      50055
+     ],
+     [
+      2019,
+      87028
+     ],
+     [
+      2021,
+      132624
+     ],
+     [
+      2022,
+      108605
+     ],
+     [
+      2024,
+      171475
+     ],
+     [
+      2025,
+      202134
+     ]
+    ],
+    "prefix": "$",
+    "end": "$202,134",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "In 2008 it fell 37%, about $11,300 gone in one year.",
    "say": "In two thousand eight it fell thirty-seven percent, about eleven thousand three hundred dollars gone in one year.",
-   "scene": {"t": "chart", "keep": true, "chart_note": {"x": 2008, "text": "-37% in 2008"}, "title": "$1,000 with dividends, year-end", "points": [[1979,1000],[1984,1994],[1989,5039],[1994,7647],[1999,26849],[2002,16752],[2004,23901],[2007,30628],[2008,19296],[2009,24402],[2014,50055],[2019,87028],[2021,132624],[2022,108605],[2024,171475],[2025,202134]], "prefix": "$", "end": "$202,134", "color": "up", "mood": "shock"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "chart_note": {
+     "x": 2008,
+     "text": "-37% in 2008"
+    },
+    "title": "$1,000 w/ dividends, yr-end",
+    "points": [
+     [
+      1979,
+      1000
+     ],
+     [
+      1984,
+      1994
+     ],
+     [
+      1989,
+      5039
+     ],
+     [
+      1994,
+      7647
+     ],
+     [
+      1999,
+      26849
+     ],
+     [
+      2002,
+      16752
+     ],
+     [
+      2004,
+      23901
+     ],
+     [
+      2007,
+      30628
+     ],
+     [
+      2008,
+      19296
+     ],
+     [
+      2009,
+      24402
+     ],
+     [
+      2014,
+      50055
+     ],
+     [
+      2019,
+      87028
+     ],
+     [
+      2021,
+      132624
+     ],
+     [
+      2022,
+      108605
+     ],
+     [
+      2024,
+      171475
+     ],
+     [
+      2025,
+      202134
+     ]
+    ],
+    "prefix": "$",
+    "end": "$202,134",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "And in 2022 it dropped 18.1%, roughly $24,000.",
    "say": "And in twenty twenty-two it dropped eighteen point one percent, roughly twenty-four thousand dollars.",
-   "scene": {"t": "stat", "label": "S&P 500 total return, 2022", "value": "-18.1%", "tone": "down", "sub": "About -$24,000 on the pile", "mood": "worried"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 total return, 2022",
+    "value": "-18.1%",
+    "tone": "down",
+    "sub": "About -$24,000 on the pile",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "Adjusted for inflation, $202,134 buys what about $47,800 did in 1979.",
    "say": "Adjusted for inflation, that roughly two hundred two thousand buys what about forty-seven thousand eight hundred did in nineteen seventy-nine.",
-   "scene": {"t": "money", "from": {"label": "Dec 2025 dollars", "value": "$202,134"}, "to": {"label": "In Dec 1979 dollars (CPI)", "value": "$47,843"}, "mood": "think"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Dec 2025 dollars",
+     "value": "$202,134"
+    },
+    "to": {
+     "label": "In Dec 1979 dollars (CPI)",
+     "value": "$47,843"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "That's about 12.2% a year, or 8.8% after inflation. History, not a promise.",
    "say": "That's about twelve point two percent a year, or eight point eight after inflation. That's history, not a promise.",
-   "scene": {"t": "board", "lines": ["12.2% a year, nominal", "8.8% a year after CPI", "Past is not a promise"], "mood": "think"}},
-  {"who": "ticker",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "12.2% a year, nominal",
+     "8.8% a year after CPI",
+     "Past is not a promise"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
    "text": "That's the money. Follow for more.",
    "say": "That's the money. Follow for more.",
-   "scene": {"t": "cta"}}
+   "scene": {
+    "t": "cta"
+   }
+  }
  ],
  "post": {
   "title": "$1,000 in the S&P 500 in 1980 became $202,134 by 2025",
   "ig": "$1,000 in the S&P 500 in January 1980 became $202,134 by December 2025.\n\nThat's with dividends reinvested (S&P total return). Price only: $63,419.\nAdjusted for inflation (CPI), $202,134 equals about $47,843 in December 1979 dollars.\nThe ride included -37.00% in 2008 and -18.11% in 2022. About 12.2% a year, 8.8% after inflation. Past results don't guarantee future ones.\n\nSources: S&P Dow Jones Indices annual total returns (via Slickcharts); S&P 500 closes 107.94 (Dec 31, 1979) and 6,845.50 (Dec 31, 2025); BLS CPI-U. Ignores fees and taxes.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#sp500 #compounding #dividends #personalfinance #financeprostv",
-  "tiktok": "$1,000 in the S&P 500 in 1980: $202,134 by 2025 with dividends, $63,419 without. Not financial advice. #moneytok #personalfinance #sp500 #financeprostv",
-  "yt_desc": "$1,000 in the S&P 500 from January 1980 to December 2025 grew to $202,134 with dividends reinvested, versus $63,419 price only, per S&P Dow Jones Indices annual total returns. Adjusted with BLS CPI-U, that's about $47,843 in December 1979 dollars, and the path included -37% in 2008 and -18.1% in 2022. Past results don't guarantee future ones. News and education, not financial advice.\n#Shorts #sp500 #compounding",
-  "tags": ["s&p 500 1000 dollars", "s&p 500 total return", "dividends reinvested", "s&p 500 since 1980", "stock market history"]
+  "tiktok": "$1,000 in the S&P 500 in 1980: $202,134 by 2025 with dividends, $63,419 without, before fees and taxes. Not financial advice. #moneytok #personalfinance #sp500 #financeprostv",
+  "yt_desc": "$1,000 in the S&P 500 from January 1980 to December 2025 grew to $202,134 with dividends reinvested, versus $63,419 price only, per S&P Dow Jones Indices annual total returns. Adjusted with BLS CPI-U, that's about $47,843 in December 1979 dollars, and the path included -37% in 2008 and -18.1% in 2022. Ignores fees and taxes. Past results don't guarantee future ones. News and education, not financial advice.\n#Shorts #sp500 #compounding",
+  "tags": [
+   "s&p 500 1000 dollars",
+   "s&p 500 total return",
+   "dividends reinvested",
+   "s&p 500 since 1980",
+   "stock market history"
+  ]
  }
 }
