@@ -10,70 +10,186 @@
   "lines": [
     {
       "who": "ticker",
-      "text": "Your card rewards aren't free. US stores paid $198 billion in card fees in 2025.",
-      "say": "Your card rewards aren't free. Stores paid a hundred ninety-eight billion dollars.",
-      "scene": {"t": "hook", "title": "Rewards aren't [free]", "prop": "card", "label": "2025", "value": "$198B", "mood": "shock"}
+      "text": "Who really pays for your card rewards? Start with the stores.",
+      "say": "Who really pays for your card rewards? Start with the stores.",
+      "scene": {
+        "t": "hook",
+        "title": "Who pays? [Stores]",
+        "prop": "card",
+        "label": "2025",
+        "value": "$198B",
+        "mood": "shock"
+      }
     },
     {
       "who": "ticker",
-      "text": "That's what US merchants paid in card processing fees in 2025, per the Nilson Report, up from $126B in 2021.",
-      "say": "That's what US merchants paid in card fees in twenty twenty-five, says the Nilson Report.",
-      "scene": {"t": "chart", "title": "US merchant card fees ($B)", "points": [[2021, 126.35], [2022, 160.7], [2023, 172.05], [2024, 187.2], [2025, 198.25]], "prefix": "$", "suffix": "B", "end": "$198B", "color": "up", "mood": "think"}
+      "text": "US merchants paid $198B in card processing fees in 2025, per the Nilson Report, up from $138B in 2021.",
+      "say": "In twenty twenty-five, US merchants paid a hundred ninety-eight billion dollars in card fees, says the Nilson Report.",
+      "scene": {
+        "t": "chart",
+        "title": "US merchant card fees ($B)",
+        "points": [
+          [
+            2021,
+            137.83
+          ],
+          [
+            2022,
+            160.7
+          ],
+          [
+            2023,
+            172.05
+          ],
+          [
+            2024,
+            187.2
+          ],
+          [
+            2025,
+            198.25
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$198B",
+        "color": "up",
+        "mood": "think"
+      }
     },
     {
       "who": "ticker",
       "text": "The biggest slice of each swipe fee goes to the bank that issued your card.",
       "say": "The biggest slice of each swipe fee goes to the bank that issued your card.",
-      "scene": {"t": "board", "lines": ["Store pays a swipe fee", "Biggest slice: your bank", "Bank funds rewards"], "mood": "think"}
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Store pays a swipe fee",
+          "Biggest slice: your bank",
+          "Bank funds rewards"
+        ],
+        "mood": "think"
+      }
     },
     {
       "who": "ticker",
       "text": "Example: a $100 purchase at 2.36%, the 2025 average Visa/Mastercard credit fee, costs the store $2.36.",
       "say": "Example: a hundred-dollar purchase at two point three six percent costs the store two dollars and thirty-six cents.",
-      "scene": {"t": "money", "from": {"label": "Example purchase", "value": "$100"}, "to": {"label": "Store fee at 2.36%", "value": "$2.36"}, "mood": "think"}
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Example purchase",
+          "value": "$100"
+        },
+        "to": {
+          "label": "Store fee at 2.36%",
+          "value": "$2.36"
+        },
+        "mood": "think"
+      }
     },
     {
       "who": "ticker",
       "text": "A 2% cash-back card hands you back $2.00 of it.",
       "say": "A two percent card hands you back two dollars of it.",
-      "scene": {"t": "compare", "title": "On that $100 example", "left": {"label": "Store pays", "value": "$2.36", "tone": "down", "sub": "V/MC avg, 2025"}, "right": {"label": "You get back", "value": "$2.00", "tone": "up", "sub": "on a 2% card"}, "mood": "happy"}
+      "scene": {
+        "t": "compare",
+        "title": "On that $100 example",
+        "left": {
+          "label": "Store pays",
+          "value": "$2.36",
+          "tone": "down",
+          "sub": "V/MC avg, 2025"
+        },
+        "right": {
+          "label": "You get back",
+          "value": "$2.00",
+          "tone": "up",
+          "sub": "on a 2% card"
+        },
+        "mood": "happy"
+      }
     },
     {
       "who": "ticker",
       "text": "American Express in 2025: $37.4B in discount revenue from merchants, $18.4B spent on card member rewards (FY2025 10-K).",
       "say": "American Express, in twenty twenty-five: thirty-seven point four billion from merchants, eighteen point four billion on rewards.",
-      "scene": {"t": "compare", "title": "American Express, 2025", "left": {"label": "From merchants", "value": "$37.4B", "tone": "neutral", "sub": "discount revenue"}, "right": {"label": "On rewards", "value": "$18.4B", "tone": "up", "sub": "rewards expense"}, "mood": "think"}
+      "scene": {
+        "t": "compare",
+        "title": "American Express, 2025",
+        "left": {
+          "label": "From merchants",
+          "value": "$37.4B",
+          "tone": "neutral",
+          "sub": "discount revenue"
+        },
+        "right": {
+          "label": "On rewards",
+          "value": "$18.4B",
+          "tone": "up",
+          "sub": "rewards expense"
+        },
+        "mood": "think"
+      }
     },
     {
       "who": "ticker",
-      "text": "A 2010 Boston Fed study estimated each cash-paying household paid card users about $149 a year.",
-      "say": "A twenty ten Boston Fed study estimated each cash household paid card users about a hundred forty-nine dollars a year.",
-      "scene": {"t": "stat", "label": "Cash household pays/yr", "value": "$149", "tone": "down", "sub": "Boston Fed study, 2010", "mood": "worried"}
+      "text": "A 2010 Boston Fed study estimated each cash-paying household paid card users $149 a year.",
+      "say": "A twenty ten Boston Fed study estimated each cash-paying household paid card users a hundred forty-nine dollars a year.",
+      "scene": {
+        "t": "stat",
+        "label": "Cash-paying household/yr",
+        "value": "$149",
+        "tone": "down",
+        "sub": "Boston Fed study, 2010",
+        "mood": "worried"
+      }
     },
     {
       "who": "ticker",
-      "text": "In June 2026, a judge preliminarily approved a Visa/Mastercard settlement letting stores decline some premium cards.",
-      "say": "In June twenty twenty-six, a judge preliminarily approved a card deal letting stores refuse some premium cards.",
-      "scene": {"t": "news", "headline": "Judge preliminarily OKs Visa, Mastercard swipe fee deal", "source": "Reuters, June 9, 2026", "mood": "think"}
+      "text": "A Visa/Mastercard settlement, preliminarily approved in June 2026, would let stores decline some premium cards.",
+      "say": "A Visa and Mastercard settlement, preliminarily approved in June twenty twenty-six, would let stores turn down some premium cards.",
+      "scene": {
+        "t": "news",
+        "headline": "Visa/MC fee deal gets early OK",
+        "source": "US court, June 9, 2026",
+        "mood": "think"
+      }
     },
     {
       "who": "ticker",
-      "text": "So rewards are recycled swipe fees, and the bill rides in prices.",
-      "say": "So rewards are recycled swipe fees, and the bill rides in prices.",
-      "scene": {"t": "board", "lines": ["Swipe fee -> your bank", "Bank -> your rewards", "Cost -> store prices"], "mood": "happy"}
+      "text": "So swipe fees help fund your rewards, and stores build that cost into prices.",
+      "say": "So swipe fees help fund your rewards, and stores build that cost into prices.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Swipe fee -> your bank",
+          "Bank -> your rewards",
+          "Cost -> store prices"
+        ],
+        "mood": "happy"
+      }
     },
     {
       "who": "ticker",
       "text": "That's the money. Follow for more.",
       "say": "That's the money. Follow for more.",
-      "scene": {"t": "cta"}
+      "scene": {
+        "t": "cta"
+      }
     }
   ],
   "post": {
-    "title": "Who pays for your credit card rewards? Stores paid $198B",
-    "ig": "Your card rewards aren't free: US merchants paid $198.25B in card processing fees in 2025 (Nilson Report).\n\nThe biggest slice of each swipe fee goes to the bank that issued the card. Example: a $100 purchase at 2.36%, the 2025 average Visa/Mastercard credit fee, costs the store $2.36; a 2% card returns $2.\nAmerican Express took in $37.4B in discount revenue from merchants in 2025 and spent $18.4B on card member rewards.\nA 2010 Boston Fed study estimated each cash-paying household paid card users about $149 a year through prices.\n\nSources: Nilson Report (Mar 2026), American Express FY2025 10-K, Boston Fed (2010), Reuters (June 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#creditcards #rewards #swipefees #howtheymakemoney #financeprostv",
-    "tiktok": "Stores paid $198B in card fees in 2025. That's who funds your rewards. Not financial advice. #moneytok #personalfinance #creditcards #rewards #financeprostv",
+    "title": "Who pays for your card rewards? Stores paid $198B in fees",
+    "ig": "Who pays for your card rewards? Start with the stores: US merchants paid $198.25B in card processing fees in 2025 (Nilson Report).\n\nThe biggest slice of each swipe fee goes to the bank that issued the card. Example: a $100 purchase at 2.36%, the 2025 average Visa/Mastercard credit fee, costs the store $2.36; a 2% card returns $2.\nAmerican Express took in $37.4B in discount revenue from merchants in 2025 and spent $18.4B on card member rewards.\nA 2010 Boston Fed study estimated each cash-paying household paid card users about $149 a year through prices.\n\nSources: Nilson Report (Mar 2026), American Express FY2025 10-K, Boston Fed (2010), Reuters (June 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#creditcards #rewards #swipefees #howtheymakemoney #financeprostv",
+    "tiktok": "Stores paid $198B in card fees in 2025, and swipe fees help fund rewards. Not financial advice. #moneytok #creditcards #rewards #financeprostv",
     "yt_desc": "US merchants paid $198.25 billion in card processing fees in 2025 (Nilson Report), and the biggest slice goes to the banks that fund card rewards. American Express took in $37.4 billion in discount revenue and spent $18.4 billion on rewards in 2025, and a 2010 Boston Fed study estimated each cash-paying household paid card users about $149 a year. Sources: Nilson Report, American Express FY2025 10-K, Boston Fed, Reuters.\n\nNews and education, not financial advice.\n\n#Shorts #creditcards #rewards",
-    "tags": ["who pays for credit card rewards", "swipe fees", "interchange fees", "american express rewards", "how they make money"]
+    "tags": [
+      "who pays for credit card rewards",
+      "swipe fees",
+      "interchange fees",
+      "american express rewards",
+      "how they make money"
+    ]
   }
 }
