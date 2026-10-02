@@ -4,20 +4,20 @@
   "cover": {
     "title": "Full Coverage Isn't Full",
     "prop": "car",
-    "label": "2026",
-    "value": "MYTH"
+    "label": "Owed",
+    "value": "$5,500"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "Myth (2026): \"full coverage\" car insurance covers everything. It doesn't.",
-      "say": "Full coverage car insurance? It doesn't cover everything.",
+      "text": "Myth: \"full coverage\" covers everything. A totaled car can still leave $5,500 owed.",
+      "say": "Full coverage? You could still owe fifty-five hundred.",
       "scene": {
         "t": "hook",
         "title": "Not [full] coverage",
         "prop": "car",
-        "label": "2026",
-        "value": "MYTH",
+        "label": "Owed",
+        "value": "$5,500",
         "mood": "shock"
       }
     },
@@ -37,7 +37,7 @@
     {
       "who": "ticker",
       "text": "\"Full coverage\" has no official definition. It usually means liability + collision + comprehensive.",
-      "say": "But full coverage isn't an official policy. It usually means liability, collision and comprehensive.",
+      "say": "But full coverage has no official definition. It usually means liability, collision and comprehensive.",
       "scene": {
         "t": "board",
         "lines": [
@@ -51,13 +51,13 @@
     {
       "who": "ticker",
       "text": "Liability has limits. Common state minimum 25/50/25: $25,000 per person, $50,000 per crash, $25,000 property.",
-      "say": "Liability has limits: a common state minimum is twenty-five, fifty, twenty-five, in thousands.",
+      "say": "Liability has limits: a common state minimum is twenty-five, fifty and twenty-five thousand.",
       "scene": {
         "t": "board",
         "lines": [
           "25/50/25 means:",
           "$25K injuries per person",
-          "$50K per crash, $25K prop."
+          "$50K/crash, $25K property"
         ],
         "mood": "think"
       }
