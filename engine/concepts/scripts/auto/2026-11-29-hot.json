@@ -1,0 +1,205 @@
+{
+ "id": "2026-11-29-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Face-off: 20% down\nvs 5% down",
+ "cover": {
+  "title": "20% vs 5% Down: Real Cost",
+  "prop": "house",
+  "label": "Aug 2026",
+  "value": "$64,365"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "5% down: $64,365 less cash on the August 2026 median home. The catch?",
+   "say": "Five percent down needs about sixty-four grand less. The catch?",
+   "scene": {
+    "t": "hook",
+    "title": "[$64,365] less cash",
+    "prop": "house",
+    "label": "Aug 2026",
+    "value": "5% down",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same house: NAR's median existing-home price in August 2026 was $429,100.",
+   "say": "Same house: the August twenty twenty-six median, about four hundred twenty-nine thousand.",
+   "scene": {
+    "t": "stat",
+    "label": "Median existing-home price",
+    "value": "$429,100",
+    "tone": "neutral",
+    "sub": "NAR, August 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Down payment on $429,100: $85,820 at 20% vs $21,455 at 5%.",
+   "say": "Down payment: about eighty-six thousand versus about twenty-one thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Down payment needed",
+    "left": {
+     "label": "20% down",
+     "value": "$85,820",
+     "tone": "neutral",
+     "sub": "loan $343,280"
+    },
+    "right": {
+     "label": "5% down",
+     "value": "$21,455",
+     "tone": "up",
+     "sub": "loan $407,645"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Monthly principal and interest, 30 yrs at 7.28% (Freddie Mac, Oct 1, 2026): $2,349 vs $2,789.",
+   "say": "At seven point two eight percent, the payment flips: about two thousand three hundred fifty versus two thousand seven hundred ninety.",
+   "scene": {
+    "t": "compare",
+    "title": "Monthly payment (P&I)",
+    "left": {
+     "label": "20% down",
+     "value": "$2,349",
+     "tone": "up",
+     "sub": "30 yrs at 7.28%"
+    },
+    "right": {
+     "label": "5% down",
+     "value": "$2,789",
+     "tone": "down",
+     "sub": "30 yrs at 7.28%"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plus PMI: Freddie Mac says $30-$70 a month per $100,000 borrowed. Here: $122 to $285 a month.",
+   "say": "Then add P M I, about one hundred twenty-two to two hundred eighty-five dollars a month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "PMI: $30-$70/mo per $100K",
+     "Loan: $407,645",
+     "= $122 to $285 a month"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 30 years, 5% down pays $94,177 more interest (before PMI).",
+   "say": "Over thirty years, that's about ninety-four thousand dollars more in interest.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra interest with 5% down",
+    "value": "$94,177",
+    "tone": "down",
+    "sub": "30 yrs, before PMI",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By law (Homeowners Protection Act), PMI ends automatically at a scheduled 78% of the original value. Here: month 145, about 12 years.",
+   "say": "By law, P M I ends automatically at seventy-eight percent of the original value, here about twelve years in.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "PMI auto-ends at 78% LTV",
+     "Homeowners Protection Act",
+     "Here: month 145 (~12 yrs)"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First-time buyers' median down payment was 10% in NAR's 2025 profile; repeat buyers, 23%.",
+   "say": "The typical first-time buyer skips twenty percent anyway: ten percent median in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "First-time buyers' down %",
+    "points": [
+     [
+      2022,
+      6
+     ],
+     [
+      2023,
+      8
+     ],
+     [
+      2024,
+      9
+     ],
+     [
+      2025,
+      10
+     ]
+    ],
+    "suffix": "%",
+    "end": "10%",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "5% down: less cash, earlier start. 20% down: smaller payment, no PMI.",
+   "say": "Five percent: less cash, earlier start. Twenty percent: smaller payment, no P M I.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "5% down",
+     "items": [
+      "Less cash down",
+      "Earlier entry",
+      "PMI, bigger bill"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "20% down",
+     "items": [
+      "Smaller payment",
+      "No PMI",
+      "Longer to save"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "5% down vs 20% down on a $429,100 home: the real math",
+  "ig": "5% down needs $64,365 less cash than 20% on the August 2026 median home.\n\nNAR's median existing-home price in August 2026: $429,100. Freddie Mac's 30-year rate on Oct 1, 2026: 7.28%.\nExample: 20% down = $85,820 and $2,349/month; 5% down = $21,455 and $2,789/month, plus PMI of about $122-$285/month (Freddie Mac's $30-$70 per $100K).\nOver 30 years, 5% down pays $94,177 more interest. PMI ends automatically at a scheduled 78% loan-to-value (Homeowners Protection Act).\nFirst-time buyers' median down payment: 10% in NAR's 2025 profile.\n\nSources: NAR (August 2026 existing-home sales, released Sept 10, 2026; 2025 Profile of Home Buyers and Sellers); Freddie Mac PMMS (Oct 1, 2026); CFPB.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#downpayment #homebuying #mortgage #pmi #financeprostv",
+  "tiktok": "5% down vs 20% on a $429,100 home: $64,365 less cash, $440 more a month before PMI. Not financial advice. #moneytok #mortgage #financeprostv",
+  "yt_desc": "On NAR's August 2026 median home price of $429,100 at Freddie Mac's 7.28% 30-year rate (Oct 1, 2026), 5% down needs $64,365 less cash than 20% but costs $440 more a month in principal and interest, plus PMI, and $94,177 more interest over 30 years. PMI ends automatically at a scheduled 78% loan-to-value under the Homeowners Protection Act (CFPB). Sources: NAR, Freddie Mac, CFPB.\n\nNews and education, not financial advice.\n\n#Shorts #mortgage #homebuying",
+  "tags": [
+   "20 percent down vs 5 percent down",
+   "PMI",
+   "down payment",
+   "mortgage rates 2026",
+   "first-time home buyer"
+  ]
+ }
+}
