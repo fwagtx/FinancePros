@@ -1,0 +1,1480 @@
+{
+ "id": "2026-11-25-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "How to read your\npay stub and W-2",
+ "cover": {
+  "title": "Your W-2 Has Three Wages.",
+  "prop": "paper",
+  "label": "W-2 2026",
+  "value": "3 wages"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your W-2 can show three different wages. All are right.",
+   "say": "Your W-2 can show three different wages. All are right.",
+   "scene": {
+    "t": "hook",
+    "title": "Three [wages], one W-2",
+    "prop": "paper",
+    "label": "W-2 2026",
+    "value": "3 wages",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $60,000 salary, one box can say $54,400 and two others $57,400.",
+   "say": "On a sixty thousand dollar salary, one box can say fifty-four thousand four hundred, and two others fifty-seven thousand four hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Example W-2, 2026",
+    "left": {
+     "label": "Box 1",
+     "value": "$54,400",
+     "tone": "down",
+     "sub": "Income tax wages"
+    },
+    "right": {
+     "label": "Boxes 3 and 5",
+     "value": "$57,400",
+     "tone": "neutral",
+     "sub": "SS + Medicare"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of them is a typo. Each box answers a different question about the same pay.",
+   "say": "None of them is a typo. Each box answers a different question about the same pay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "3 boxes, 3 questions",
+     "Same paycheck"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In February 2023, 43% of private businesses paid every two weeks. That's 26 pay stubs a year.",
+   "say": "In February twenty twenty-three, forty-three percent of private businesses paid every two weeks. That's twenty-six pay stubs a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Businesses paying biweekly",
+    "value": "43%",
+    "tone": "neutral",
+    "sub": "BLS, February 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most people check the bottom number and move on. The lines above it show where every dollar went.",
+   "say": "Most people check the bottom number and move on. The lines above it show where every dollar went.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bottom line: net pay",
+     "Above it: the story"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The plan: gross to net, the tax lines, one paycheck with exact math, the W-2 box by box, and the common mistakes.",
+   "say": "Here's the plan: gross to net, the tax lines, one paycheck with exact math, the W-2 box by box, and the common mistakes.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "Gross to net",
+     "Taxes + example",
+     "W-2 box by box",
+     "Mistakes + list"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Education, not advice. All numbers use 2026 rules.",
+   "say": "This is education, not advice, and every number uses the twenty twenty-six rules.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education, not advice",
+     "2026 tax-year rules"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Gross to net.",
+   "say": "Chapter one: gross to net.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Gross to net"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A pay stub reads top to bottom, and it starts with gross pay.",
+   "say": "A pay stub reads top to bottom, and it starts with gross pay.",
+   "scene": {
+    "t": "list",
+    "title": "Pay stub, top to bottom",
+    "items": [
+     "Gross pay",
+     "Pre-tax cuts",
+     "Taxes",
+     "After-tax + net"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gross pay is everything you earned before anything comes out: salary or hourly pay, plus overtime, bonuses or tips.",
+   "say": "Gross pay is everything you earned before anything comes out: salary or hourly pay, plus overtime, bonuses or tips.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Gross pay =",
+     "everything you earned"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next come pre-tax deductions. They come out before income tax is figured, so they shrink your taxable pay.",
+   "say": "Next come the pre-tax deductions. They come out before income tax is figured, so they shrink your taxable pay.",
+   "scene": {
+    "t": "list",
+    "title": "Pay stub, top to bottom",
+    "items": [
+     "Gross pay",
+     "Pre-tax cuts",
+     "Taxes",
+     "After-tax + net"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Typical pre-tax items: a traditional 401(k), health premiums, HSA or FSA money. Roth 401(k), union dues and garnishments usually come after tax.",
+   "say": "Typical pre-tax items: a traditional four oh one k, health premiums, and H S A or F S A money. Roth four oh one k, union dues and garnishments usually come after tax.",
+   "scene": {
+    "t": "split",
+    "title": "Common deductions",
+    "left": {
+     "title": "Usually pre-tax",
+     "items": [
+      "Traditional 401(k)",
+      "Health premiums",
+      "HSA or FSA"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Usually after-tax",
+     "items": [
+      "Roth 401(k)",
+      "Union dues",
+      "Garnishments"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the taxes: federal withholding, Social Security, Medicare, and maybe state and local tax.",
+   "say": "Then the taxes: federal withholding, Social Security, Medicare, and maybe state and local tax.",
+   "scene": {
+    "t": "list",
+    "title": "Pay stub, top to bottom",
+    "items": [
+     "Gross pay",
+     "Pre-tax cuts",
+     "Taxes",
+     "After-tax + net"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last come after-tax deductions. What's left is net pay, the money that lands in your account.",
+   "say": "Last come after-tax deductions. What's left is net pay, the money that lands in your account.",
+   "scene": {
+    "t": "list",
+    "title": "Pay stub, top to bottom",
+    "items": [
+     "Gross pay",
+     "Pre-tax cuts",
+     "Taxes",
+     "After-tax + net"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In our example later, a $2,307.69 paycheck becomes $1,756.19 of take-home pay.",
+   "say": "In our example later, a paycheck of about two thousand three hundred eight dollars becomes about one thousand seven hundred fifty-six.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Gross pay (example)",
+     "value": "$2,307.69"
+    },
+    "to": {
+     "label": "Net pay (example)",
+     "value": "$1,756.19"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most stubs show two columns: this pay period, and year-to-date.",
+   "say": "Most stubs show two columns: this pay period, and year to date.",
+   "scene": {
+    "t": "compare",
+    "title": "Two columns",
+    "left": {
+     "label": "Current",
+     "value": "1 check",
+     "tone": "neutral",
+     "sub": "This pay period"
+    },
+    "right": {
+     "label": "YTD",
+     "value": "Jan-now",
+     "tone": "up",
+     "sub": "Year to date"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "YTD adds up every check since January 1. By year's end, those totals should be close to your W-2.",
+   "say": "Y T D adds up every check since January first. By year's end, those totals should be close to your W-2.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "YTD = every check",
+     "since January 1"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So YTD is where problems show up early, like a 401(k) deduction that never started.",
+   "say": "So Y T D is where problems show up early, like a four oh one k deduction that never started.",
+   "scene": {
+    "t": "hook",
+    "title": "Watch the [YTD]",
+    "prop": "paper",
+    "label": "Pay stub",
+    "value": "YTD",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The header matters too: your name, pay period, pay date, and often your W-4 filing status.",
+   "say": "The header matters too: your name, the pay period, the pay date, and often your W-4 filing status.",
+   "scene": {
+    "t": "list",
+    "title": "The stub header",
+    "items": [
+     "Name",
+     "Pay period",
+     "Pay date",
+     "W-4 status"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The W-4 tells your employer how much federal income tax to hold back from each check.",
+   "say": "The W-4 tells your employer how much federal income tax to hold back from each check.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Pre-2020",
+      "Allowances"
+     ],
+     [
+      "2020",
+      "Redesigned W-4"
+     ],
+     [
+      "2026",
+      "Still 5 steps"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since 2020, the W-4 has no allowances. It's a five-step form covering other jobs, dependents and extra withholding.",
+   "say": "Since twenty twenty, the W-4 has no allowances. It's a five-step form covering other jobs, dependents and extra withholding.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Pre-2020",
+      "Allowances"
+     ],
+     [
+      "2020",
+      "Redesigned W-4"
+     ],
+     [
+      "2026",
+      "Still 5 steps"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An older W-4 still counts if it was filed before 2020 and never changed. Either way, it drives the withholding line.",
+   "say": "An older W-4 still counts if it was filed before twenty twenty and never changed. Either way, it drives the withholding line.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "W-4 in,",
+     "withholding out"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The tax lines.",
+   "say": "Chapter two: the tax lines.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The tax lines"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two of those taxes work like flat rates: Social Security and Medicare. Together, they're called FICA.",
+   "say": "Two of those taxes work like flat rates: Social Security and Medicare. Together, they're called FICA.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "FICA =",
+     "Social Security + Medicare"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, Social Security tax is 6.2% of your wages, and your employer quietly pays another 6.2%.",
+   "say": "In twenty twenty-six, Social Security tax is six point two percent of your wages, and your employer quietly pays another six point two percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Social Security tax, 2026",
+    "value": "6.2%",
+    "tone": "neutral",
+    "sub": "Employer also pays 6.2%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But it stops at a cap called the wage base. For 2026, the cap is $184,500.",
+   "say": "But it stops at a cap called the wage base. For twenty twenty-six, that cap is one hundred eighty-four thousand five hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Wage base, 2026",
+    "value": "$184,500",
+    "tone": "up",
+    "sub": "Social Security Admin."
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The cap follows average wages. It was $137,700 in 2020, and it's risen every year since.",
+   "say": "The cap follows average wages. It was one hundred thirty-seven thousand seven hundred dollars in twenty twenty, and it's risen every year since.",
+   "scene": {
+    "t": "chart",
+    "title": "Social Security wage base",
+    "points": [
+     [
+      2020,
+      137700
+     ],
+     [
+      2021,
+      142800
+     ],
+     [
+      2022,
+      147000
+     ],
+     [
+      2023,
+      160200
+     ],
+     [
+      2024,
+      168600
+     ],
+     [
+      2025,
+      176100
+     ],
+     [
+      2026,
+      184500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$184,500",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest jump in that stretch came in 2023: $13,200 in one year.",
+   "say": "The biggest jump in that stretch came in twenty twenty-three: thirteen thousand two hundred dollars in a single year.",
+   "scene": {
+    "t": "chart",
+    "title": "Social Security wage base",
+    "points": [
+     [
+      2020,
+      137700
+     ],
+     [
+      2021,
+      142800
+     ],
+     [
+      2022,
+      147000
+     ],
+     [
+      2023,
+      160200
+     ],
+     [
+      2024,
+      168600
+     ],
+     [
+      2025,
+      176100
+     ],
+     [
+      2026,
+      184500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$184,500",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2023,
+     "text": "+$13,200 in 2023"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So in 2026, the most one employer withholds for Social Security is $11,439. Past the cap, that line drops to zero.",
+   "say": "So in twenty twenty-six, the most one employer withholds for Social Security is eleven thousand four hundred thirty-nine dollars. Past the cap, that line drops to zero.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$184,500 x 6.2%",
+     "= $11,439 max, 2026"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Medicare is different: 1.45% of every dollar you earn, with no cap.",
+   "say": "Medicare works differently. It's one point four five percent of every dollar you earn, with no cap at all.",
+   "scene": {
+    "t": "stat",
+    "label": "Medicare tax",
+    "value": "1.45%",
+    "tone": "neutral",
+    "sub": "On all wages, no cap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Past $200,000 of wages in a year, employers must withhold an extra 0.9%, whatever your filing status.",
+   "say": "And once wages pass two hundred thousand dollars in a year, employers must withhold an extra zero point nine percent, whatever your filing status.",
+   "scene": {
+    "t": "stat",
+    "label": "Additional Medicare tax",
+    "value": "+0.9%",
+    "tone": "down",
+    "sub": "Withheld over $200,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What you finally owe depends on filing status: $200,000 for single filers, $250,000 for married filing jointly. The tax return settles it.",
+   "say": "What you finally owe depends on filing status: two hundred thousand for single filers, two hundred fifty thousand for married filing jointly. The tax return settles it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Single: $200,000",
+     "Married jointly: $250,000"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Below the cap, those two add up to 7.65% of FICA wages on every check.",
+   "say": "Below the cap, those two add up to seven point six five percent of your FICA wages on every check.",
+   "scene": {
+    "t": "stat",
+    "label": "Employee FICA, 2026",
+    "value": "7.65%",
+    "tone": "neutral",
+    "sub": "6.2% + 1.45%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal income tax is the line that moves. It depends on your W-4, your pay and the brackets.",
+   "say": "Federal income tax is the line that moves. It depends on your W-4, your pay and the brackets.",
+   "scene": {
+    "t": "compare",
+    "title": "Fixed vs moving",
+    "left": {
+     "label": "FICA",
+     "value": "7.65%",
+     "tone": "neutral",
+     "sub": "Flat rate"
+    },
+    "right": {
+     "label": "Income tax",
+     "value": "Varies",
+     "tone": "neutral",
+     "sub": "W-4 + brackets"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026, a single filer gets a $16,100 standard deduction before any income tax applies.",
+   "say": "For twenty twenty-six, a single filer gets a sixteen thousand one hundred dollar standard deduction before any income tax applies.",
+   "scene": {
+    "t": "stat",
+    "label": "Standard deduction, 2026",
+    "value": "$16,100",
+    "tone": "up",
+    "sub": "Single filer, IRS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The first $12,400 of taxable income is taxed at 10%, and the next slice, up to $50,400, at 12%.",
+   "say": "The first twelve thousand four hundred dollars of taxable income is taxed at ten percent, and the next slice, up to fifty thousand four hundred, at twelve percent.",
+   "scene": {
+    "t": "list",
+    "title": "2026 brackets, single",
+    "items": [
+     "10%: to $12,400",
+     "12%: to $50,400",
+     "22%: next slice"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Above that comes 22%, then higher rates. Each rate only hits the dollars inside its slice.",
+   "say": "Above that comes twenty-two percent, then higher rates. Each rate only hits the dollars inside its slice.",
+   "scene": {
+    "t": "list",
+    "title": "2026 brackets, single",
+    "items": [
+     "10%: to $12,400",
+     "12%: to $50,400",
+     "22%: next slice"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Payroll uses IRS tables to spread that yearly tax across your paychecks.",
+   "say": "Payroll uses I R S tables to spread that yearly tax across your paychecks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Yearly tax / paychecks",
+     "= withholding"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: One paycheck, exact math.",
+   "say": "Chapter three: one paycheck, exact math.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "One paycheck, exact math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hypothetical example: a single worker earning $60,000 a year, paid every two weeks, so 26 paychecks.",
+   "say": "This is a hypothetical example: a single worker earning sixty thousand dollars a year, paid every two weeks, so twenty-six paychecks.",
+   "scene": {
+    "t": "list",
+    "title": "Example assumptions",
+    "items": [
+     "$60,000 salary",
+     "26 paychecks",
+     "5% to 401(k)",
+     "$100 health"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They put 5% in a traditional 401(k), pay $100 a check for health insurance, and live in Texas, with no state income tax.",
+   "say": "They put five percent in a traditional four oh one k, pay one hundred dollars a check for health insurance, and live in Texas, with no state income tax.",
+   "scene": {
+    "t": "list",
+    "title": "Example assumptions",
+    "items": [
+     "$60,000 salary",
+     "26 paychecks",
+     "5% to 401(k)",
+     "$100 health"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gross pay per check: $60,000 divided by 26 is $2,307.69.",
+   "say": "Gross pay per check is sixty thousand divided by twenty-six: two thousand three hundred seven dollars and sixty-nine cents.",
+   "scene": {
+    "t": "stat",
+    "label": "Gross pay per check",
+    "value": "$2,307.69",
+    "tone": "neutral",
+    "sub": "$60,000 / 26"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pre-tax deductions come out first: $115.38 for the 5% 401(k), and $100 for health.",
+   "say": "Pre-tax deductions come out first: one hundred fifteen dollars and thirty-eight cents for the five percent four oh one k, and one hundred for health.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "401(k), 5%: $115.38",
+     "Health premium: $100.00"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the key move. The health premium skips FICA. The 401(k) doesn't.",
+   "say": "Here's the key move. The health premium skips FICA. The four oh one k doesn't.",
+   "scene": {
+    "t": "split",
+    "title": "Who skips what",
+    "left": {
+     "title": "Health premium",
+     "items": [
+      "Skips income tax",
+      "Skips FICA"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Traditional 401(k)",
+     "items": [
+      "Skips income tax",
+      "Still pays FICA"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So FICA wages are $2,307.69 minus the $100 premium: $2,207.69.",
+   "say": "So FICA wages are gross pay minus the one hundred dollar premium: two thousand two hundred seven dollars and sixty-nine cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$2,307.69 - $100",
+     "= $2,207.69 FICA wages"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Social Security at 6.2% is $136.88. Medicare at 1.45% is $32.01. Together, $168.89 of FICA per check.",
+   "say": "Social Security at six point two percent is about one hundred thirty-seven dollars. Medicare at one point four five percent is about thirty-two. Together, about one hundred sixty-nine dollars of FICA per check.",
+   "scene": {
+    "t": "compare",
+    "title": "FICA per check (example)",
+    "left": {
+     "label": "Social Security",
+     "value": "$136.88",
+     "tone": "down",
+     "sub": "6.2%"
+    },
+    "right": {
+     "label": "Medicare",
+     "value": "$32.01",
+     "tone": "down",
+     "sub": "1.45%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For income tax, both deductions come off, which leaves $2,092.31.",
+   "say": "For income tax, both deductions come off, which leaves two thousand ninety-two dollars and thirty-one cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$2,307.69 - $100 - $115.38",
+     "= $2,092.31 taxable"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over a year, that's $54,400. Minus the $16,100 standard deduction, it leaves $38,300 of taxable income.",
+   "say": "Over a year, that's fifty-four thousand four hundred. Minus the sixteen thousand one hundred standard deduction, it leaves thirty-eight thousand three hundred of taxable income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$54,400 - $16,100",
+     "= $38,300 taxable income"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "10% of the first $12,400 is $1,240. 12% of the remaining $25,900 is $3,108.",
+   "say": "Ten percent of the first twelve thousand four hundred is one thousand two hundred forty dollars. Twelve percent of the remaining twenty-five thousand nine hundred is three thousand one hundred eight.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "10% x $12,400 = $1,240",
+     "12% x $25,900 = $3,108"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's an estimated $4,348 a year, about $167.23 a check. Actual withholding can differ a bit.",
+   "say": "That's an estimated four thousand three hundred forty-eight dollars a year, about one hundred sixty-seven a check. Actual withholding can differ a bit.",
+   "scene": {
+    "t": "stat",
+    "label": "Est. federal tax per check",
+    "value": "$167.23",
+    "tone": "down",
+    "sub": "$4,348 a year / 26"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subtract everything, and $2,307.69 of gross becomes $1,756.19 of take-home pay.",
+   "say": "Subtract everything, and about two thousand three hundred eight dollars of gross becomes about one thousand seven hundred fifty-six of take-home pay.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Gross pay (example)",
+     "value": "$2,307.69"
+    },
+    "to": {
+     "label": "Net pay (example)",
+     "value": "$1,756.19"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 76% of gross. And $115.38 of the gap isn't gone. It's in the 401(k).",
+   "say": "That's about seventy-six percent of gross. And about one hundred fifteen dollars of the gap isn't gone. It's in the four oh one k.",
+   "scene": {
+    "t": "stat",
+    "label": "Take-home share (example)",
+    "value": "76%",
+    "tone": "neutral",
+    "sub": "$1,756.19 of $2,307.69"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the trade-off. A traditional 401(k) cuts tax now and is taxed when withdrawn. A Roth is taxed now, and qualified withdrawals are tax-free.",
+   "say": "That's the trade-off. A traditional four oh one k cuts tax now and is taxed when withdrawn. A Roth is taxed now, and qualified withdrawals are tax-free.",
+   "scene": {
+    "t": "split",
+    "title": "The 401(k) trade-off",
+    "left": {
+     "title": "Traditional",
+     "items": [
+      "Less tax now",
+      "Taxed later"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Roth",
+     "items": [
+      "Taxed now",
+      "Qualified: no tax"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Neither is better for everyone. It comes down to your tax rate now versus later.",
+   "say": "Neither is better for everyone. It comes down to your tax rate now versus later.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tax rate now",
+     "vs. tax rate later"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: The W-2, box by box.",
+   "say": "Chapter four: the W-2, box by box.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The W-2, box by box"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tax year 2026 W-2s are due to workers by February 1, 2027, because January 31 is a Sunday.",
+   "say": "Tax year twenty twenty-six W-2s are due to workers by February first, twenty twenty-seven, because January thirty-first is a Sunday.",
+   "scene": {
+    "t": "news",
+    "headline": "2026 W-2s due to workers Feb. 1",
+    "source": "IRS W-2 instructions, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Box 1 is wages for federal income tax: $60,000, minus $3,000 of 401(k), minus $2,600 of premiums. That's $54,400.",
+   "say": "Box one is wages for federal income tax: sixty thousand, minus three thousand of four oh one k, minus two thousand six hundred of premiums. That's fifty-four thousand four hundred.",
+   "scene": {
+    "t": "list",
+    "title": "W-2 boxes 1 to 6",
+    "items": [
+     "1: Wages",
+     "2: Income tax",
+     "3-4: Soc. Sec.",
+     "5-6: Medicare"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Box 2 is the federal income tax withheld during the year.",
+   "say": "Box two is the federal income tax that was withheld during the year.",
+   "scene": {
+    "t": "list",
+    "title": "W-2 boxes 1 to 6",
+    "items": [
+     "1: Wages",
+     "2: Income tax",
+     "3-4: Soc. Sec.",
+     "5-6: Medicare"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Boxes 3 and 4 are Social Security wages and tax. Box 3 is $57,400, because the 401(k) still counts for FICA.",
+   "say": "Boxes three and four are Social Security wages and tax. Box three is fifty-seven thousand four hundred, because the four oh one k still counts for FICA.",
+   "scene": {
+    "t": "list",
+    "title": "W-2 boxes 1 to 6",
+    "items": [
+     "1: Wages",
+     "2: Income tax",
+     "3-4: Soc. Sec.",
+     "5-6: Medicare"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Boxes 5 and 6 are Medicare wages and tax. Box 5 usually matches Box 3, unless pay tops the Social Security cap.",
+   "say": "Boxes five and six are Medicare wages and tax. Box five usually matches box three, unless pay tops the Social Security cap.",
+   "scene": {
+    "t": "list",
+    "title": "W-2 boxes 1 to 6",
+    "items": [
+     "1: Wages",
+     "2: Income tax",
+     "3-4: Soc. Sec.",
+     "5-6: Medicare"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mystery solved. Box 1 is $3,000 lower than Boxes 3 and 5: exactly the 401(k) money.",
+   "say": "Mystery solved. Box one is three thousand dollars lower than boxes three and five: exactly the four oh one k money.",
+   "scene": {
+    "t": "compare",
+    "title": "Example W-2, 2026",
+    "left": {
+     "label": "Box 1",
+     "value": "$54,400",
+     "tone": "down",
+     "sub": "Income tax wages"
+    },
+    "right": {
+     "label": "Boxes 3 and 5",
+     "value": "$57,400",
+     "tone": "neutral",
+     "sub": "SS + Medicare"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick math check: Box 4 should be 6.2% of Box 3. Here, that's $3,558.80.",
+   "say": "Quick math check: box four should be six point two percent of box three. Here, that's three thousand five hundred fifty-eight dollars and eighty cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Box 4 = Box 3 x 6.2%",
+     "$57,400 x 6.2% = $3,558.80"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Box 6 should be 1.45% of Box 5: $832.30, give or take a few cents of rounding.",
+   "say": "Box six should be one point four five percent of box five: eight hundred thirty-two dollars and thirty cents, give or take rounding.",
+   "scene": {
+    "t": "stat",
+    "label": "Box 6, example",
+    "value": "$832.30",
+    "tone": "neutral",
+    "sub": "$57,400 x 1.45%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Box 12 holds letter codes. Code D is traditional 401(k) deferrals: $3,000 here. Employer matches don't appear.",
+   "say": "Box twelve holds letter codes. Code D is traditional four oh one k deferrals: three thousand dollars here. Employer matches don't appear.",
+   "scene": {
+    "t": "list",
+    "title": "Box 12 codes",
+    "items": [
+     "D: 401(k)",
+     "AA: Roth 401(k)",
+     "W: HSA",
+     "DD: health cost"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Code AA is Roth 401(k) money. It's after-tax, so it stays inside Box 1.",
+   "say": "Code double A is Roth four oh one k money. It's after-tax, so it stays inside box one.",
+   "scene": {
+    "t": "list",
+    "title": "Box 12 codes",
+    "items": [
+     "D: 401(k)",
+     "AA: Roth 401(k)",
+     "W: HSA",
+     "DD: health cost"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Code W is HSA money that went in through payroll. It's already left out of Boxes 1, 3 and 5.",
+   "say": "Code W is H S A money that went in through payroll. It's already left out of boxes one, three and five.",
+   "scene": {
+    "t": "list",
+    "title": "Box 12 codes",
+    "items": [
+     "D: 401(k)",
+     "AA: Roth 401(k)",
+     "W: HSA",
+     "DD: health cost"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Code DD is the total cost of your employer health plan, both shares. It's information only, not taxable.",
+   "say": "Code double D is the total cost of your employer health plan, both shares. It's information only, not taxable.",
+   "scene": {
+    "t": "list",
+    "title": "Box 12 codes",
+    "items": [
+     "D: 401(k)",
+     "AA: Roth 401(k)",
+     "W: HSA",
+     "DD: health cost"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "DD can be a big number, so it scares people. It's a receipt, not income.",
+   "say": "Double D can be a big number, so it scares people. It's a receipt, not income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Code DD:",
+     "a receipt, not income"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "W-2s for tax year 2026 add new codes: TT for qualified overtime, only the extra half of time-and-a-half, and TP for cash tips reported to the employer.",
+   "say": "W-2s for tax year twenty twenty-six add new codes: T T for qualified overtime, only the extra half of time and a half, and T P for cash tips reported to the employer.",
+   "scene": {
+    "t": "list",
+    "title": "New Box 12 codes, 2026",
+    "items": [
+     "TT: overtime",
+     "TP: tips",
+     "TA: Trump acct."
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And TA shows employer contributions to a Trump account. The tip and overtime deductions are set to run from 2025 through 2028.",
+   "say": "And T A shows employer contributions to a Trump account. The tip and overtime deductions are set to run from twenty twenty-five through twenty twenty-eight.",
+   "scene": {
+    "t": "list",
+    "title": "New Box 12 codes, 2026",
+    "items": [
+     "TT: overtime",
+     "TP: tips",
+     "TA: Trump acct."
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Further down, Boxes 15 through 20 tell the same story for state and local tax.",
+   "say": "Further down, boxes fifteen through twenty tell the same story for state and local tax.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Boxes 15 to 20:",
+     "state and local tax"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Common mistakes.",
+   "say": "Chapter five: common mistakes.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Common mistakes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake one: expecting Box 1 to equal your salary. With pre-tax deductions, it usually won't, and that's normal.",
+   "say": "Mistake one: expecting box one to equal your salary. With pre-tax deductions, it usually won't, and that's normal.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Box 1 = salary?",
+     "Skipping YTD",
+     "Wrong name/SSN",
+     "DD panic"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake two: ignoring YTD, where a missing 401(k) deduction or a wrong premium shows up early.",
+   "say": "Mistake two: ignoring Y T D, where a missing four oh one k deduction or a wrong premium shows up early.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Box 1 = salary?",
+     "Skipping YTD",
+     "Wrong name/SSN",
+     "DD panic"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake three: skipping the basics. A wrong name or Social Security number can slow down a tax return.",
+   "say": "Mistake three: skipping the basics. A wrong name or Social Security number can slow down a tax return.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Box 1 = salary?",
+     "Skipping YTD",
+     "Wrong name/SSN",
+     "DD panic"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistake four: treating code DD as income. It isn't taxable.",
+   "say": "Mistake four: treating code double D as income. It isn't taxable.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Box 1 = salary?",
+     "Skipping YTD",
+     "Wrong name/SSN",
+     "DD panic"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bonus mistake: an old W-4 after marriage or a second job. The form doesn't update itself, so withholding can drift.",
+   "say": "Bonus mistake: an old W-4 after marriage or a second job. The form doesn't update itself, so withholding can drift.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old W-4 + new life",
+     "= withholding drifts"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Past the $184,500 wage base, the Social Security line drops to zero for the year. That's the cap, not a glitch.",
+   "say": "Past the one hundred eighty-four thousand five hundred dollar wage base, the Social Security line drops to zero for the year. That's the cap, not a glitch.",
+   "scene": {
+    "t": "hook",
+    "title": "Not a [glitch]",
+    "prop": "paper",
+    "label": "$184,500",
+    "value": "$0",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If a W-2 is wrong, the first step is asking the employer for a corrected form, called a W-2c.",
+   "say": "So what if a W-2 is wrong? The first step is asking the employer for a corrected form, called a W-2c.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "First",
+      "Ask for a W-2c"
+     ],
+     [
+      "Late Feb",
+      "Contact the IRS"
+     ],
+     [
+      "Deadline",
+      "Form 4852"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If it's still missing or wrong at the end of February, the IRS can be contacted. It sends the employer a letter.",
+   "say": "If it's still missing or wrong at the end of February, the I R S can be contacted, and it sends the employer a letter.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "First",
+      "Ask for a W-2c"
+     ],
+     [
+      "Late Feb",
+      "Contact the IRS"
+     ],
+     [
+      "Deadline",
+      "Form 4852"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the filing deadline comes first, Form 4852 serves as a substitute W-2, and an amended return can fix things later.",
+   "say": "If the filing deadline comes first, Form forty-eight fifty-two serves as a substitute W-2, and an amended return can fix things later.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "First",
+      "Ask for a W-2c"
+     ],
+     [
+      "Late Feb",
+      "Contact the IRS"
+     ],
+     [
+      "Deadline",
+      "Form 4852"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap and checklist.",
+   "say": "Chapter six: recap and checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap and checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, Social Security is 6.2% up to $184,500. Medicare is 1.45%, plus 0.9% over $200,000.",
+   "say": "In twenty twenty-six, Social Security is six point two percent up to one hundred eighty-four thousand five hundred dollars. Medicare is one point four five percent, plus zero point nine over two hundred thousand.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "SS: 6.2% to $184,500",
+     "Medicare: 1.45% (+0.9%)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On the W-2, Box 1 is for income tax, Boxes 3 and 5 for FICA, and a traditional 401(k) explains the gap.",
+   "say": "On the W-2, box one is for income tax, boxes three and five for FICA, and a traditional four oh one k explains the gap.",
+   "scene": {
+    "t": "compare",
+    "title": "Example W-2, 2026",
+    "left": {
+     "label": "Box 1",
+     "value": "$54,400",
+     "tone": "down",
+     "sub": "Income tax wages"
+    },
+    "right": {
+     "label": "Boxes 3 and 5",
+     "value": "$57,400",
+     "tone": "neutral",
+     "sub": "SS + Medicare"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A pay stub shows one check. The W-2 shows the whole year, sorted by tax.",
+   "say": "A pay stub shows one check. The W-2 shows the whole year, sorted by tax.",
+   "scene": {
+    "t": "split",
+    "title": "Stub vs W-2",
+    "left": {
+     "title": "Pay stub",
+     "items": [
+      "One check",
+      "Current + YTD"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "W-2",
+     "items": [
+      "Whole year",
+      "Sorted by tax"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And here's the one-screen checklist. One: gross pay matches the salary or hours for that period.",
+   "say": "And here's the one-screen checklist. One: gross pay matches the salary or the hours for that period.",
+   "scene": {
+    "t": "list",
+    "title": "The checklist",
+    "items": [
+     "Gross pay",
+     "Pre-tax amounts",
+     "FICA math",
+     "W-2 vs last YTD"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: each pre-tax deduction matches what was elected, like the 401(k) percent and the premium.",
+   "say": "Two: each pre-tax deduction matches what was elected, like the four oh one k percent and the premium.",
+   "scene": {
+    "t": "list",
+    "title": "The checklist",
+    "items": [
+     "Gross pay",
+     "Pre-tax amounts",
+     "FICA math",
+     "W-2 vs last YTD"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: Social Security is 6.2% of FICA wages up to the cap, and Medicare is 1.45% with no cap.",
+   "say": "Three: Social Security is six point two percent of FICA wages up to the cap, and Medicare is one point four five percent with no cap.",
+   "scene": {
+    "t": "list",
+    "title": "The checklist",
+    "items": [
+     "Gross pay",
+     "Pre-tax amounts",
+     "FICA math",
+     "W-2 vs last YTD"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: the W-2 has the right name and Social Security number, and its boxes line up with the last stub's YTD.",
+   "say": "Four: the W-2 has the right name and Social Security number, and its boxes line up with the last stub's year-to-date totals.",
+   "scene": {
+    "t": "list",
+    "title": "The checklist",
+    "items": [
+     "Gross pay",
+     "Pre-tax amounts",
+     "FICA math",
+     "W-2 vs last YTD"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when a W-2 shows three different wages, now you know why. All three are right.",
+   "say": "So when a W-2 shows three different wages, now you know why. All three are right.",
+   "scene": {
+    "t": "hook",
+    "title": "Three [wages], one W-2",
+    "prop": "paper",
+    "label": "W-2 2026",
+    "value": "3 wages",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your W-2 can show three different wages, and all three are right. Here's how to read it.",
+  "ig": "Your W-2 can show three different wages, and all three are right. Here's how to read your pay stub and W-2, box by box.",
+  "tiktok": "Your W-2 can show three different wages. All are right. Here's why.",
+  "yt_desc": "Your W-2 can show three different wages, and all three are right. This guide walks through a pay stub from gross pay to net pay, the 2026 payroll tax rules (Social Security 6.2% up to the $184,500 wage base, Medicare 1.45% plus 0.9% withheld over $200,000), and a hypothetical $60,000 biweekly paycheck with exact math ($2,307.69 gross to $1,756.19 net). Then it reads the W-2 box by box, including why Box 1 is lower than Boxes 3 and 5, Box 12 codes D, AA, W and DD, the new 2026 codes TT, TP and TA, the common mistakes, and a one-screen checklist.\n\nCHAPTERS\n\nSources: Social Security Administration, contribution and benefit base 2020-2026 (announced October 2025); IRS Topic 560, Additional Medicare Tax; IRS Rev. Proc. 2025-32 (2026 standard deduction and brackets); IRS 401(k) contribution limits for 2026; IRS FAQs on the 2020 Form W-4; IRS 2026 General Instructions for Forms W-2 and W-3; Bureau of Labor Statistics, length of pay period (February 2023); Nolo, missing or incorrect W-2.\n\nNews and education, not financial advice.\n\n#paystub #W2 #taxes",
+  "tags": [
+   "how to read a pay stub",
+   "how to read a W-2",
+   "W-2 box 1 vs box 3",
+   "box 12 codes",
+   "FICA",
+   "Social Security wage base 2026",
+   "gross vs net pay",
+   "personal finance basics"
+  ]
+ }
+}
