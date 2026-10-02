@@ -1,0 +1,1611 @@
+{
+ "series": "ticker",
+ "header": "How airlines make\nmoney from cards",
+ "cover": {
+  "title": "Amex Paid More Than Profit.",
+  "prop": "card",
+  "label": "2025",
+  "value": "$8.2B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Delta's card deal beat its whole 2025 profit.",
+   "say": "Delta's card deal beat its whole twenty twenty-five profit.",
+   "scene": {
+    "t": "hook",
+    "title": "Cards beat [profit]",
+    "prop": "card",
+    "label": "2025",
+    "value": "$8.2B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "American Express paid Delta $8.2 billion in 2025. Delta's net income for the whole year was $5.0 billion.",
+   "say": "American Express paid Delta eight point two billion dollars in twenty twenty-five. Delta's net income for the whole year was five billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Delta, 2025",
+    "left": {
+     "label": "Paid by Amex",
+     "value": "$8.2B",
+     "tone": "up",
+     "sub": "Card deal"
+    },
+    "right": {
+     "label": "Net income",
+     "value": "$5.0B",
+     "tone": "neutral",
+     "sub": "Whole airline"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The card deal beat the profit by $3.2 billion. And it's not just Delta.",
+   "say": "The card deal beat the profit by three point two billion dollars. And it's not just Delta.",
+   "scene": {
+    "t": "compare",
+    "title": "Delta, 2025",
+    "left": {
+     "label": "Paid by Amex",
+     "value": "$8.2B",
+     "tone": "up",
+     "sub": "Card deal"
+    },
+    "right": {
+     "label": "Net income",
+     "value": "$5.0B",
+     "tone": "neutral",
+     "sub": "Whole airline"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, American Airlines got $6.2 billion in cash from its card and other partners. Its net income was $111 million.",
+   "say": "In twenty twenty-five, American Airlines got six point two billion dollars in cash from its card and other partners. Its net income was just one hundred eleven million dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "American Airlines, 2025",
+    "left": {
+     "label": "Card + partners",
+     "value": "$6.2B",
+     "tone": "up",
+     "sub": "Cash received"
+    },
+    "right": {
+     "label": "Net income",
+     "value": "$111M",
+     "tone": "down",
+     "sub": "Whole airline"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the strange truth: big US airlines are partly in the business of selling miles to banks.",
+   "say": "So here's the strange truth. Big US airlines are partly in the business of selling miles to banks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Seats: thin margins",
+     "Miles: big checks"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll cover the miles machine, Delta's giant card deal, why miles can beat planes, and the risks.",
+   "say": "We'll cover the miles machine, Delta's giant card deal, why miles can beat planes, and the risks.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "Miles machine",
+     "Delta's $8B card",
+     "Miles vs. planes",
+     "Risks and you"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No stock tips here. Just how the money flows.",
+   "say": "No stock tips here. Just how the money flows.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education, not advice",
+     "Follow the money"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: The miles machine.",
+   "say": "Chapter one: the miles machine.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The miles machine"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start with a mile. You think of it as a reward. To an airline, it's a product it sells.",
+   "say": "Start with a single mile. You think of it as a reward. To an airline, it's a product it sells.",
+   "scene": {
+    "t": "hook",
+    "title": "A mile is a [product]",
+    "prop": "tag",
+    "label": "1 mile",
+    "value": "For sale",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest buyers are banks. They buy miles in bulk and hand them to cardholders as rewards.",
+   "say": "The biggest buyers are banks. They buy miles in bulk, then hand them out to cardholders as rewards.",
+   "scene": {
+    "t": "list",
+    "title": "Who buys miles",
+    "items": [
+     "Card banks",
+     "Hotels",
+     "Car rentals"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hotels and car rental companies buy miles too, but the card deals are the giant ones.",
+   "say": "Hotels and car rental companies buy miles too, but the card deals are the giant ones.",
+   "scene": {
+    "t": "list",
+    "title": "Who buys miles",
+    "items": [
+     "Card banks",
+     "Hotels",
+     "Car rentals"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every time someone swipes an airline card, the bank pays the airline for the miles that purchase earns.",
+   "say": "Every time someone swipes an airline card, the bank pays the airline for the miles that purchase earns.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Card gets swiped",
+     "Bank pays for the miles"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why would a bank pay? Because each swipe earns it a fee from the store.",
+   "say": "Why would a bank pay for that? Because each swipe earns it a fee from the store.",
+   "scene": {
+    "t": "list",
+    "title": "How the bank earns",
+    "items": [
+     "Swipe fees",
+     "Interest",
+     "Annual fees"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also earns interest when cardholders carry a balance, and annual fees on the fancier cards.",
+   "say": "It also earns interest when cardholders carry a balance, and annual fees on the fancier cards.",
+   "scene": {
+    "t": "list",
+    "title": "How the bank earns",
+    "items": [
+     "Swipe fees",
+     "Interest",
+     "Annual fees"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the bank buys more than miles. In Delta's deal, Amex also pays for perks and the Delta name.",
+   "say": "And the bank buys more than miles. In Delta's deal, Amex also pays for perks, and for the Delta name.",
+   "scene": {
+    "t": "list",
+    "title": "What Amex pays for",
+    "items": [
+     "Miles",
+     "Lounge access",
+     "Free bags",
+     "The Delta brand"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Delta's 10-K lists award travel, priority boarding, free checked bags, lounge access and use of the brand.",
+   "say": "Delta's annual report lists award travel, priority boarding, free checked bags, lounge access, and use of the brand.",
+   "scene": {
+    "t": "list",
+    "title": "What Amex pays for",
+    "items": [
+     "Miles",
+     "Lounge access",
+     "Free bags",
+     "The Delta brand"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the accounting. When an airline sells a mile, it can't count all that cash as revenue right away.",
+   "say": "Now the accounting. When an airline sells a mile, it can't count all that cash as revenue right away.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cash arrives today",
+     "Revenue comes later"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The travel part waits until someone actually flies on those miles. The brand and marketing parts count as they're delivered.",
+   "say": "The travel part waits until someone actually flies on those miles. The brand and marketing parts count as they're delivered.",
+   "scene": {
+    "t": "split",
+    "title": "Delta's accounting",
+    "left": {
+     "title": "Travel part",
+     "items": [
+      "Deferred",
+      "Booked on the trip"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Brand part",
+     "items": [
+      "Booked over time",
+      "No seat needed"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there's breakage: the share of miles that will never be used.",
+   "say": "Then there's something called breakage. That's the share of miles that will never be used.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Breakage =",
+     "miles never redeemed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Delta values each mile by the ticket it could buy, then adjusts for miles not likely to be redeemed.",
+   "say": "Delta values each mile by the ticket it could buy, then adjusts for the miles that are not likely to be redeemed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mile value = ticket",
+     "adjusted for breakage"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's try a hypothetical. Say a bank pays 1 cent per mile. That's an assumption, not a real contract price.",
+   "say": "Let's try a hypothetical. Say a bank pays one cent per mile. That's an assumption, not a real contract price.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hypothetical example",
+     "Assume 1¢ per mile"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A cardholder earns 50,000 miles. At 1 cent each, the bank pays the airline $500.",
+   "say": "A cardholder earns fifty thousand miles. At one cent each, the bank pays the airline five hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "50,000 miles x 1¢",
+     "value": "50,000"
+    },
+    "to": {
+     "label": "Bank pays airline",
+     "value": "$500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now assume 10% of those miles never get used. That's 5,000 miles, or $50 paid for seats nobody flies.",
+   "say": "Now assume ten percent of those miles never get used. That's five thousand miles, or fifty dollars paid for seats nobody flies.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "10% of 50,000 = 5,000",
+     "5,000 x 1¢ = $50"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fifty dollars sounds small. Across millions of cardholders, small leftovers like that add up.",
+   "say": "Fifty dollars sounds small. But across millions of cardholders, small leftovers like that add up.",
+   "scene": {
+    "t": "hook",
+    "title": "Paid, never [flown]",
+    "prop": "bag",
+    "label": "Example",
+    "value": "$50",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the airline decides how many miles a seat costs, so it controls the other side of the trade too.",
+   "say": "And the airline decides how many miles a seat costs, so it controls the other side of the trade, too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Airline sets the",
+     "miles price of a seat"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Delta's $8 billion card.",
+   "say": "Chapter two: Delta's eight billion dollar card.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Delta's $8 billion card"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Delta and American Express launched their card partnership back in 1996.",
+   "say": "Delta and American Express launched their card partnership back in nineteen ninety-six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1996",
+      "what": "Amex card launches"
+     },
+     {
+      "when": "2019",
+      "what": "Renewed to 2029"
+     },
+     {
+      "when": "2025",
+      "what": "$8.2B paid"
+     },
+     {
+      "when": "Goal",
+      "what": "$10B a year"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In April 2019, they signed an 11-year renewal that runs through the end of 2029.",
+   "say": "In April twenty nineteen, they signed an eleven-year renewal that runs through the end of twenty twenty-nine.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1996",
+      "what": "Amex card launches"
+     },
+     {
+      "when": "2019",
+      "what": "Renewed to 2029"
+     },
+     {
+      "when": "2025",
+      "what": "$8.2B paid"
+     },
+     {
+      "when": "Goal",
+      "what": "$10B a year"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what Amex paid Delta each year: $3.4 billion in 2018, climbing to $8.2 billion in 2025.",
+   "say": "Here's what Amex paid Delta each year: three point four billion dollars in twenty eighteen, climbing to eight point two billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Amex payments to Delta",
+    "points": [
+     [
+      2018,
+      3.4
+     ],
+     [
+      2019,
+      4.1
+     ],
+     [
+      2020,
+      2.9
+     ],
+     [
+      2021,
+      4.0
+     ],
+     [
+      2022,
+      5.5
+     ],
+     [
+      2023,
+      6.8
+     ],
+     [
+      2024,
+      7.4
+     ],
+     [
+      2025,
+      8.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$8.2B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The one dip was 2020, when flying collapsed. Payments fell 30%, to $2.9 billion, but they never stopped.",
+   "say": "The one dip was twenty twenty, when flying collapsed. Payments fell thirty percent, to two point nine billion dollars, but they never stopped.",
+   "scene": {
+    "t": "chart",
+    "title": "Amex payments to Delta",
+    "points": [
+     [
+      2018,
+      3.4
+     ],
+     [
+      2019,
+      4.1
+     ],
+     [
+      2020,
+      2.9
+     ],
+     [
+      2021,
+      4.0
+     ],
+     [
+      2022,
+      5.5
+     ],
+     [
+      2023,
+      6.8
+     ],
+     [
+      2024,
+      7.4
+     ],
+     [
+      2025,
+      8.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$8.2B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2020,
+     "text": "2020: $2.9B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 2019 to 2025, the payments doubled, from $4.1 billion to $8.2 billion.",
+   "say": "From twenty nineteen to twenty twenty-five, the payments doubled, from four point one billion dollars to eight point two billion.",
+   "scene": {
+    "t": "chart",
+    "title": "Amex payments to Delta",
+    "points": [
+     [
+      2018,
+      3.4
+     ],
+     [
+      2019,
+      4.1
+     ],
+     [
+      2020,
+      2.9
+     ],
+     [
+      2021,
+      4.0
+     ],
+     [
+      2022,
+      5.5
+     ],
+     [
+      2023,
+      6.8
+     ],
+     [
+      2024,
+      7.4
+     ],
+     [
+      2025,
+      8.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$8.2B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "2x vs 2019"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$8.2 billion divided by 365 days is about $22.5 million a day.",
+   "say": "Eight point two billion dollars divided by three hundred sixty-five days is about twenty-two and a half million dollars a day.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$8.2B / 365 days",
+     "= about $22.5M a day"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $936,000 an hour, every hour, all year long.",
+   "say": "That's about nine hundred thirty-six thousand dollars an hour, every hour, all year long.",
+   "scene": {
+    "t": "stat",
+    "label": "Amex to Delta, per hour",
+    "value": "~$936K",
+    "tone": "up",
+    "sub": "2025 average"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Delta's operating revenue in 2025 was $63.4 billion, so the Amex payments equal about 13% of it.",
+   "say": "Delta's operating revenue in twenty twenty-five was sixty-three point four billion dollars, so the Amex payments equal about thirteen percent of it.",
+   "scene": {
+    "t": "stat",
+    "label": "Delta revenue, 2025",
+    "value": "$63.4B",
+    "tone": "neutral",
+    "sub": "Amex = about 13%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Delta says it signed up more than 1 million new Amex cards in 2025, for the fourth year in a row.",
+   "say": "Delta says it signed up more than one million new Amex cards in twenty twenty-five, for the fourth year in a row.",
+   "scene": {
+    "t": "stat",
+    "label": "New Delta Amex cards, 2025",
+    "value": "1M+",
+    "tone": "up",
+    "sub": "4th year in a row"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How much is that per dollar swiped? Amex says Delta cards were about 13% of its worldwide spending volume in 2025.",
+   "say": "So how much is that per dollar swiped? Amex says Delta cards were about thirteen percent of its worldwide spending volume in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Delta's share of Amex spend",
+    "value": "13%",
+    "tone": "neutral",
+    "sub": "Amex 10-K, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's an estimated $217 billion of card spending. $8.2 billion divided by $217 billion is about 3.8 cents per dollar.",
+   "say": "That's an estimated two hundred seventeen billion dollars of card spending. Eight point two billion divided by that is about three point eight cents per dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$8.2B / ~$217B spend",
+     "= about 3.8¢ per $1"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So, as a rough estimate, every $1,000 spent on a Delta Amex card sends about $38 to Delta.",
+   "say": "So, as a rough estimate, every thousand dollars spent on a Delta Amex card sends about thirty-eight dollars to Delta.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Spent on card (est.)",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Amex pays Delta",
+     "value": "~$38"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Amex gets plenty back. Delta cardholders carry about 21% of all Amex card loans, and loans earn interest.",
+   "say": "Amex gets plenty back. Delta cardholders carry about twenty-one percent of all Amex card loans, and loans earn interest.",
+   "scene": {
+    "t": "stat",
+    "label": "Delta cards' share of loans",
+    "value": "21%",
+    "tone": "up",
+    "sub": "Amex, end of 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Delta gets cash for miles and perks. Amex gets loyal customers who swipe a lot and sometimes borrow.",
+   "say": "Delta gets cash for miles and perks. Amex gets loyal customers who swipe a lot, and sometimes borrow.",
+   "scene": {
+    "t": "split",
+    "title": "Both sides win",
+    "left": {
+     "title": "Delta gets",
+     "items": [
+      "Cash for miles",
+      "Paid every month"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Amex gets",
+     "items": [
+      "Swipe fees",
+      "Interest income"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From April to June 2026, Amex paid Delta $2.4 billion, up 16% from a year earlier.",
+   "say": "From April to June of twenty twenty-six, Amex paid Delta two point four billion dollars, up sixteen percent from a year earlier.",
+   "scene": {
+    "t": "news",
+    "headline": "Amex pays Delta $2.4B, up 16%",
+    "source": "Delta Q2 2026 results, July 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Delta's long-term goal is $10 billion a year from Amex.",
+   "say": "And Delta's long-term goal is ten billion dollars a year from Amex.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1996",
+      "what": "Amex card launches"
+     },
+     {
+      "when": "2019",
+      "what": "Renewed to 2029"
+     },
+     {
+      "when": "2025",
+      "what": "$8.2B paid"
+     },
+     {
+      "when": "Goal",
+      "what": "$10B a year"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Which raises a fair question: is Delta an airline with a credit card, or a card business with planes?",
+   "say": "Which raises a fair question. Is Delta an airline with a credit card, or a card business with planes attached?",
+   "scene": {
+    "t": "hook",
+    "title": "Airline, or [bank]?",
+    "prop": "card",
+    "label": "Delta",
+    "value": "$10B",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Miles vs. planes.",
+   "say": "Chapter three: miles versus planes.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Miles vs. planes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For years, outsiders could only guess what these programs were worth. Then 2020 forced the numbers out.",
+   "say": "For years, outsiders could only guess what these programs were worth. Then twenty twenty forced the numbers out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2020: planes parked,",
+     "airlines need cash"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With flights grounded, airlines needed to borrow billions, and lenders wanted something solid as collateral.",
+   "say": "With flights grounded, airlines needed to borrow billions, and lenders wanted something solid as collateral.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "We need cash"
+     }
+    ],
+    "caption": "Lenders want collateral"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In June 2020, United offered its MileagePlus program as collateral for a loan.",
+   "say": "In June twenty twenty, United offered its Mileage Plus program as collateral for a loan.",
+   "scene": {
+    "t": "news",
+    "headline": "United borrows against MileagePlus",
+    "source": "United 8-K, June 15, 2020"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its filing showed MileagePlus sold $5.3 billion of miles in 2019. About 71% of that cash came from partners, mainly Chase.",
+   "say": "Its filing showed Mileage Plus sold five point three billion dollars of miles in twenty nineteen. About seventy-one percent of that cash came from partners, mainly Chase.",
+   "scene": {
+    "t": "stat",
+    "label": "MileagePlus mile sales, 2019",
+    "value": "$5.3B",
+    "tone": "up",
+    "sub": "71% from partners"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "United took the program's 2019 EBITDA, about $1.8 billion of operating earnings, and multiplied it by 12.",
+   "say": "United took the program's twenty nineteen E B I T D A, about one point eight billion dollars of operating earnings, and multiplied it by twelve.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2019 EBITDA ~$1.8B",
+     "x 12 = $21.9B value"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That gave MileagePlus a value of $21.9 billion. Meanwhile, the stock market valued all of United at roughly $10 billion.",
+   "say": "That gave Mileage Plus a value of twenty-one point nine billion dollars. Meanwhile, the stock market valued all of United at roughly ten billion.",
+   "scene": {
+    "t": "compare",
+    "title": "United, mid-2020",
+    "left": {
+     "label": "MileagePlus",
+     "value": "$21.9B",
+     "tone": "up",
+     "sub": "Program value"
+    },
+    "right": {
+     "label": "All of United",
+     "value": "~$10B",
+     "tone": "down",
+     "sub": "Stock value"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On paper, the miles were worth more than the whole airline, planes and all.",
+   "say": "On paper, the miles were worth more than the whole airline, planes and all.",
+   "scene": {
+    "t": "compare",
+    "title": "United, mid-2020",
+    "left": {
+     "label": "MileagePlus",
+     "value": "$21.9B",
+     "tone": "up",
+     "sub": "Program value"
+    },
+    "right": {
+     "label": "All of United",
+     "value": "~$10B",
+     "tone": "down",
+     "sub": "Stock value"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "United went on to borrow $6.8 billion backed by MileagePlus.",
+   "say": "United went on to borrow six point eight billion dollars, backed by Mileage Plus.",
+   "scene": {
+    "t": "stat",
+    "label": "United's MileagePlus loan",
+    "value": "$6.8B",
+    "tone": "neutral",
+    "sub": "Mid-2020"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In March 2021, American Airlines went bigger and raised $10 billion backed by its AAdvantage program.",
+   "say": "In March twenty twenty-one, American Airlines went bigger, and raised ten billion dollars backed by its Advantage program.",
+   "scene": {
+    "t": "news",
+    "headline": "American raises $10B on AAdvantage",
+    "source": "American Airlines, March 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A third-party appraisal valued AAdvantage at somewhere between $19.5 billion and $31.5 billion.",
+   "say": "A third-party appraisal valued Advantage at somewhere between nineteen and a half billion and thirty-one and a half billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "AAdvantage appraisal",
+    "left": {
+     "label": "Low end",
+     "value": "$19.5B",
+     "tone": "neutral",
+     "sub": "2021 filing"
+    },
+    "right": {
+     "label": "High end",
+     "value": "$31.5B",
+     "tone": "up",
+     "sub": "2021 filing"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "American used part of that money to pay off a loan from the US Treasury.",
+   "say": "American used part of that money to pay off a loan from the US Treasury.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "US TREASURY",
+    "label": "Repaid",
+    "caption": "Paid with miles money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why would lenders trust miles? Because card deals send cash every month, even when planes sit still.",
+   "say": "Why would lenders trust miles? Because card deals keep sending cash every month, even when planes sit still.",
+   "scene": {
+    "t": "hook",
+    "title": "Lend on [miles]",
+    "prop": "bag",
+    "label": "2020",
+    "value": "$2.9B",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Why flying needs cards.",
+   "say": "Chapter four: why flying needs cards.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Why flying needs cards"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why do airlines lean on cards so hard? Because flying itself is a thin business.",
+   "say": "Why do airlines lean on cards so hard? Because flying itself is a thin business.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Flying planes:",
+     "a thin-margin business"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In December 2025, the airline group IATA put the global net margin for 2025 at 3.9%.",
+   "say": "In December twenty twenty-five, the airline group I A T A put the global net margin for twenty twenty-five at three point nine percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Global airline net margin",
+    "value": "3.9%",
+    "tone": "down",
+    "sub": "2025, IATA est."
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $100 ticket, that's about $3.90 of profit.",
+   "say": "On a hundred-dollar ticket, that's about three dollars and ninety cents of profit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$100 ticket x 3.9%",
+     "= $3.90 profit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In June 2026, citing Middle East disruptions and high fuel prices, IATA cut its 2026 forecast to a 2.0% margin.",
+   "say": "In June twenty twenty-six, citing Middle East disruptions and high fuel prices, I A T A cut its twenty twenty-six forecast to a two percent margin.",
+   "scene": {
+    "t": "news",
+    "headline": "IATA halves 2026 airline profit",
+    "source": "IATA, June 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Per passenger, IATA put 2025 profit at about $9.10, and 2026 at about $4.50.",
+   "say": "Per passenger, I A T A put twenty twenty-five profit at about nine dollars and ten cents, and twenty twenty-six at about four dollars and fifty cents.",
+   "scene": {
+    "t": "compare",
+    "title": "Profit per passenger",
+    "left": {
+     "label": "2025",
+     "value": "$9.10",
+     "tone": "neutral",
+     "sub": "IATA estimate"
+    },
+    "right": {
+     "label": "2026",
+     "value": "$4.50",
+     "tone": "down",
+     "sub": "June 2026 forecast"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Airlines pay for fuel, crews, planes and airports, and a fuel spike can squeeze that thin profit fast.",
+   "say": "Airlines pay for fuel, crews, planes and airports, and a fuel spike can squeeze that thin profit fast.",
+   "scene": {
+    "t": "list",
+    "title": "Airline costs",
+    "items": [
+     "Fuel",
+     "Crews",
+     "Planes",
+     "Airports"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Profits swing, too. Delta's net income went from $280 million in 2021 to $5.0 billion in 2025.",
+   "say": "Profits swing, too. Delta's net income went from two hundred eighty million dollars in twenty twenty-one to five billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Delta net income",
+    "points": [
+     [
+      2021,
+      0.28
+     ],
+     [
+      2022,
+      1.32
+     ],
+     [
+      2023,
+      4.61
+     ],
+     [
+      2024,
+      3.46
+     ],
+     [
+      2025,
+      5.01
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$5.0B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2024, net income fell to $3.5 billion, even as the Amex payments kept rising.",
+   "say": "In twenty twenty-four, net income fell to three and a half billion dollars, even as the Amex payments kept rising.",
+   "scene": {
+    "t": "chart",
+    "title": "Delta net income",
+    "points": [
+     [
+      2021,
+      0.28
+     ],
+     [
+      2022,
+      1.32
+     ],
+     [
+      2023,
+      4.61
+     ],
+     [
+      2024,
+      3.46
+     ],
+     [
+      2025,
+      5.01
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$5.0B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2024,
+     "text": "2024: $3.5B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the kicker: every year from 2021 to 2025, Amex paid Delta more than Delta's whole net income.",
+   "say": "Here's the kicker. Every year from twenty twenty-one to twenty twenty-five, Amex paid Delta more than Delta's whole net income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2021-2025: Amex pay >",
+     "Delta net income"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Selling miles is different. Banks pay as cardholders spend, and the seat cost comes later, if ever.",
+   "say": "Selling miles is different. Banks pay as cardholders spend, and the seat cost comes later, if ever.",
+   "scene": {
+    "t": "split",
+    "title": "Two businesses",
+    "left": {
+     "title": "Flying",
+     "items": [
+      "Big costs",
+      "Thin margin"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Selling miles",
+     "items": [
+      "Steady cash",
+      "Seat cost later"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why American is doubling down. Starting in 2026, Citi is the only issuer of AAdvantage cards in the US, under a 10-year deal.",
+   "say": "That's why American is doubling down. Starting in twenty twenty-six, Citi is the only issuer of Advantage cards in the US, under a ten-year deal.",
+   "scene": {
+    "t": "news",
+    "headline": "Citi to be sole AA card issuer",
+    "source": "American and Citi, Dec. 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As part of the switch, Citi agreed to take over the Barclays AAdvantage cards, moving them over in 2026.",
+   "say": "As part of the switch, Citi agreed to take over the Barclays Advantage cards, moving them over in twenty twenty-six.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Barclays AA cards",
+     "move to Citi in 2026"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "American expects its partner cash to grow about 10% a year, toward $10 billion a year by the end of the decade.",
+   "say": "American expects its partner cash to grow about ten percent a year, toward ten billion dollars a year by the end of the decade.",
+   "scene": {
+    "t": "stat",
+    "label": "AA partner cash target",
+    "value": "$10B/yr",
+    "tone": "up",
+    "sub": "By decade's end"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At that level, it projects yearly pre-tax income about $1.5 billion above 2024. A projection, not a guarantee.",
+   "say": "At that level, it projects yearly pre-tax income about one and a half billion dollars above twenty twenty-four. That's a projection, not a guarantee.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Near $10B a year:",
+     "pre-tax +$1.5B vs 2024"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: The risks, and you.",
+   "say": "Chapter five: the risks, and you.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The risks, and you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A business built on miles has risks too. The first is trust: miles only work if people believe they're worth something.",
+   "say": "A business built on miles has risks, too. The first is trust. Miles only work if people believe they're worth something.",
+   "scene": {
+    "t": "list",
+    "title": "Risks",
+    "items": [
+     "Trust",
+     "Swipe-fee laws",
+     "One partner",
+     "The economy"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Airlines can change how many miles a seat costs. When the same seat takes more miles, critics call it devaluation.",
+   "say": "Airlines can change how many miles a seat costs. When the same seat takes more miles, critics call it devaluation.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same seat, more miles",
+     "= devaluation"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On May 9, 2024, the CFPB and the Transportation Department held a joint hearing on airline and credit card rewards.",
+   "say": "On May ninth, twenty twenty-four, the C F P B and the Transportation Department held a joint hearing on airline and credit card rewards.",
+   "scene": {
+    "t": "news",
+    "headline": "CFPB and DOT hearing on rewards",
+    "source": "CFPB and DOT, May 9, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB said it got more than 1,200 complaints about card rewards in 2023, over 70% more than before the pandemic.",
+   "say": "The C F P B said it got more than twelve hundred complaints about card rewards in twenty twenty-three, over seventy percent more than before the pandemic.",
+   "scene": {
+    "t": "stat",
+    "label": "Rewards complaints, 2023",
+    "value": "1,200+",
+    "tone": "down",
+    "sub": "CFPB; up 70%+"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They included rewards that lost value, fine print that didn't match the ads, redemption glitches, and points taken away.",
+   "say": "They included rewards that lost value, fine print that didn't match the ads, redemption glitches, and points taken away.",
+   "scene": {
+    "t": "list",
+    "title": "Complaint themes",
+    "items": [
+     "Devaluations",
+     "Fine print",
+     "Redeem glitches",
+     "Revoked points"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2024, the Transportation Department asked American, Delta, Southwest and United about devaluation, dynamic pricing, fees and competition.",
+   "say": "In September twenty twenty-four, the Transportation Department asked American, Delta, Southwest and United about devaluation, dynamic pricing, fees and competition.",
+   "scene": {
+    "t": "news",
+    "headline": "DOT probes 4 airline rewards plans",
+    "source": "US DOT, Sept. 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then-Secretary Pete Buttigieg said: unlike a traditional savings account, these rewards are controlled by a company that can unilaterally change their value.",
+   "say": "Then-Secretary Pete Buttigieg said that unlike a traditional savings account, these rewards are controlled by a company that can unilaterally change their value.",
+   "scene": {
+    "t": "quote",
+    "text": "unlike a traditional savings account, these rewards are controlled by a company that can unilaterally change their value.",
+    "source": "Pete Buttigieg, Sept. 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the same statement, he also said rewards programs bring real value to consumers.",
+   "say": "In the same statement, he also said rewards programs bring real value to consumers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Also: programs bring",
+     "real value"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The second risk is in Congress. On January 13, 2026, Senators Dick Durbin and Roger Marshall reintroduced the Credit Card Competition Act.",
+   "say": "The second risk is in Congress. On January thirteenth, twenty twenty-six, Senators Dick Durbin and Roger Marshall reintroduced the Credit Card Competition Act.",
+   "scene": {
+    "t": "list",
+    "title": "Risks",
+    "items": [
+     "Trust",
+     "Swipe-fee laws",
+     "One partner",
+     "The economy"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "President Trump endorsed the bill the same day.",
+   "say": "President Trump endorsed the bill the same day.",
+   "scene": {
+    "t": "news",
+    "headline": "Swipe-fee bill reintroduced",
+    "source": "US Senate, Jan. 13, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It would make banks with more than $100 billion in assets let stores route card payments over at least two unaffiliated networks.",
+   "say": "It would make banks with more than one hundred billion dollars in assets let stores route card payments over at least two unaffiliated networks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Big banks' cards:",
+     "2+ networks to choose"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Supporters, including big retailers, say it would cut swipe fees. Airlines and banks argue it could shrink the money that pays for rewards.",
+   "say": "Supporters, including big retailers, say it would cut swipe fees. Airlines and banks argue it could shrink the money that pays for rewards.",
+   "scene": {
+    "t": "split",
+    "title": "The debate",
+    "left": {
+     "title": "Supporters",
+     "items": [
+      "Lower swipe fees",
+      "More competition"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Opponents",
+     "items": [
+      "Less reward money",
+      "Card deals at risk"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of July 2026, the fight was still going. Forbes reported the card industry was spending about $200 million against it.",
+   "say": "As of July twenty twenty-six, the fight was still going. Forbes reported the card industry was spending about two hundred million dollars against it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "July 2026:",
+     "still being fought over"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, concentration. Delta's card money comes from one partner, under a deal renewed in 2019 to run through 2029.",
+   "say": "Third, concentration. Delta's card money comes from one partner, under a deal renewed in twenty nineteen to run through twenty twenty-nine.",
+   "scene": {
+    "t": "list",
+    "title": "Risks",
+    "items": [
+     "Trust",
+     "Swipe-fee laws",
+     "One partner",
+     "The economy"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fourth, the economy. Card money depends on spending. In 2020, Amex payments to Delta fell 30%.",
+   "say": "And fourth, the economy. Card money depends on spending. In twenty twenty, Amex payments to Delta fell thirty percent.",
+   "scene": {
+    "t": "list",
+    "title": "Risks",
+    "items": [
+     "Trust",
+     "Swipe-fee laws",
+     "One partner",
+     "The economy"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what does all this mean for the customer?",
+   "say": "So what does all this mean for the customer?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "What it means",
+     "for the customer"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The perks aren't free. Stores pay swipe fees, and merchants argue those fees get built into everyone's prices.",
+   "say": "The perks aren't free. Stores pay swipe fees, and merchants argue those fees get built into everyone's prices.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "STORE",
+    "label": "Swipe fee",
+    "caption": "Who pays for the perks?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For cardholders, it's a trade: miles and perks on one side, annual fees and any interest on the other.",
+   "say": "For cardholders, it's a trade: miles and perks on one side, annual fees and any interest on the other.",
+   "scene": {
+    "t": "split",
+    "title": "The cardholder trade",
+    "left": {
+     "title": "Gets",
+     "items": [
+      "Miles",
+      "Bags, lounges"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Pays",
+     "items": [
+      "Annual fee",
+      "Interest if owed"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And since the airline sets the miles price of a seat, a mile's value can change after it's earned.",
+   "say": "And since the airline sets the miles price of a seat, a mile's value can change after it's earned.",
+   "scene": {
+    "t": "hook",
+    "title": "Miles can [change]",
+    "prop": "tag",
+    "label": "1 mile",
+    "value": "Value?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap.",
+   "say": "Chapter six: recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: airlines sell miles to banks, and banks hand them out as rewards.",
+   "say": "One. Airlines sell miles to banks, and banks hand them out as rewards.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Banks buy miles",
+     "Amex paid $8.2B",
+     "Loans on miles",
+     "Thin flying"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: in 2025, Amex paid Delta $8.2 billion, more than Delta's $5.0 billion net income.",
+   "say": "Two. In twenty twenty-five, Amex paid Delta eight point two billion dollars, more than Delta's five billion dollars of net income.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Banks buy miles",
+     "Amex paid $8.2B",
+     "Loans on miles",
+     "Thin flying"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: in 2020 and 2021, United and American borrowed billions against their miles programs.",
+   "say": "Three. In twenty twenty and twenty twenty-one, United and American borrowed billions against their miles programs.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Banks buy miles",
+     "Amex paid $8.2B",
+     "Loans on miles",
+     "Thin flying"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: flying is thin: about a 3.9% net margin in 2025, by IATA's estimate.",
+   "say": "Four. Flying is thin: about a three point nine percent net margin in twenty twenty-five, by I A T A's estimate.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Banks buy miles",
+     "Amex paid $8.2B",
+     "Loans on miles",
+     "Thin flying"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Airlines still fly planes. But a big part of the money comes from the card in someone's wallet.",
+   "say": "Airlines still fly planes. But a big part of the money comes from the card in someone's wallet.",
+   "scene": {
+    "t": "hook",
+    "title": "Planes, plus [plastic]",
+    "prop": "card",
+    "label": "2025",
+    "value": "$8.2B",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "In 2025, Delta's Amex deal beat its whole profit. How airlines make money from cards",
+  "ig": "In 2025, Amex paid Delta $8.2B, more than Delta's $5.0B net income. Here's how airlines make money from credit cards.",
+  "tiktok": "Amex paid Delta more than Delta's entire 2025 profit. Here's how airline cards work.",
+  "yt_desc": "How airlines make money from credit cards, not just flights. In 2025, American Express paid Delta $8.2 billion, more than Delta's $5.0 billion net income, and American Airlines received $6.2 billion from card and other partners while earning $111 million. This video covers how airlines sell miles to banks, how breakage and the accounting work, the math behind Delta's card deal (about $22.5 million a day), why United and American borrowed billions against their loyalty programs in 2020 and 2021, IATA's thin airline margins, and the risks: devaluation, the 2024 CFPB and DOT scrutiny of rewards, and the 2026 Credit Card Competition Act debate.\n\nCHAPTERS\n\nSources: Delta Air Lines full-year 2025 results (Jan. 13, 2026), Form 10-K for 2025, and June quarter 2026 results (July 10, 2026); Delta full-year results 2018-2024; American Express Form 10-K for 2025; CNBC (April 2, 2019); Fortune (April 3, 2026); View from the Wing (2026); United Airlines Form 8-K and MileagePlus investor presentation (June 15, 2020); Skift (June 15, 2020); American Airlines (March 2021; Dec. 2024 Citi release; 2025 Form 10-K and Q4 2025 results, Jan. 27, 2026); CNBC (March 8, 2021); IATA (Dec. 9, 2025; June 2026); CFPB and DOT (May 9, 2024); US DOT (Sept. 2024); Sen. Roger Marshall (Jan. 13, 2026); Payments Dive (Jan. 2026); Forbes (July 23, 2026).\n\nNews and education, not financial advice.\n\n#airlines #creditcards #howtheymakemoney",
+  "tags": [
+   "how airlines make money",
+   "airline credit cards",
+   "Delta American Express",
+   "frequent flyer miles",
+   "MileagePlus",
+   "AAdvantage",
+   "how they make money"
+  ]
+ }
+}
