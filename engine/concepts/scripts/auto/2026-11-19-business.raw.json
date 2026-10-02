@@ -12,61 +12,161 @@
    "who": "ticker",
    "text": "In 2025, Duolingo's free app made over $1 billion.",
    "say": "In twenty twenty-five, Duolingo's free app made over a billion dollars.",
-   "scene": {"t": "hook", "title": "A [free] app made $1B", "prop": "tag", "label": "FY2025", "value": "$1.04B", "mood": "shock"}
+   "scene": {
+    "t": "hook",
+    "title": "A [free] app made $1B",
+    "prop": "tag",
+    "label": "FY2025",
+    "value": "$1.04B",
+    "mood": "shock"
+   }
   },
   {
    "who": "ticker",
-   "text": "Yet as of June 2026, just 12.7 million of its 140.6 million monthly users paid. About 9%.",
-   "say": "Yet as of June twenty twenty-six, just twelve point seven million of its one hundred forty point six million monthly users paid. That's about nine percent.",
-   "scene": {"t": "stat", "label": "Paid subscribers, June 2026", "value": "12.7M", "tone": "neutral", "sub": "of 140.6M monthly users", "mood": "think"}
+   "text": "Yet as of June 2026, only about 9% of its monthly users paid.",
+   "say": "Yet as of June twenty twenty-six, only about nine percent of its monthly users paid.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly users who paid",
+    "value": "9%",
+    "tone": "neutral",
+    "sub": "12.7M of 140.6M, June 2026",
+    "mood": "think"
+   }
   },
   {
    "who": "ticker",
-   "text": "Still, Duolingo reports revenue grew from $161.7 million in 2020 to $1.04 billion in 2025.",
-   "say": "Still, Duolingo reports revenue grew from about one hundred sixty-two million dollars in twenty twenty to about one point oh four billion in twenty twenty-five.",
-   "scene": {"t": "chart", "title": "Duolingo revenue, $M", "points": [[2020, 161.7], [2021, 250.8], [2022, 369.5], [2023, 531.1], [2024, 748.0], [2025, 1037.6]], "prefix": "$", "suffix": "M", "end": "$1.04B", "color": "up", "mood": "up"}
+   "text": "Still, revenue grew from $161.7 million in 2020 to $1.04 billion in 2025, Duolingo reports.",
+   "say": "Still, revenue grew from about one hundred sixty-two million in twenty twenty to over a billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Duolingo revenue, $M",
+    "points": [
+     [
+      2020,
+      161.7
+     ],
+     [
+      2021,
+      250.8
+     ],
+     [
+      2022,
+      369.5
+     ],
+     [
+      2023,
+      531.1
+     ],
+     [
+      2024,
+      748.0
+     ],
+     [
+      2025,
+      1037.6
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$1.04B",
+    "color": "up",
+    "mood": "up"
+   }
   },
   {
    "who": "ticker",
-   "text": "The secret: in 2025, subscriptions brought in $873.4 million, about 84%. Ads brought in $79.7 million.",
-   "say": "The secret? In twenty twenty-five, subscriptions brought in eight hundred seventy-three point four million dollars, about eighty-four percent. Ads brought in seventy-nine point seven million.",
-   "scene": {"t": "compare", "title": "Duolingo revenue, 2025", "left": {"label": "Subscriptions", "value": "$873.4M", "tone": "up", "sub": "about 84%, 10-K"}, "right": {"label": "Ads", "value": "$79.7M", "tone": "neutral", "sub": "about 8%, 10-K"}}
+   "text": "The secret? In 2025, subscriptions brought in $873.4 million, about 84%. Ads, about $80 million.",
+   "say": "The secret? In twenty twenty-five, subscriptions brought in about eight hundred seventy-three million dollars, about eighty-four percent. Ads, about eighty million.",
+   "scene": {
+    "t": "compare",
+    "title": "Duolingo revenue, 2025",
+    "left": {
+     "label": "Subscriptions",
+     "value": "$873.4M",
+     "tone": "up",
+     "sub": "about 84%, 10-K"
+    },
+    "right": {
+     "label": "Ads",
+     "value": "$79.7M",
+     "tone": "neutral",
+     "sub": "about 8%, 10-K"
+    }
+   }
   },
   {
    "who": "ticker",
-   "text": "So the free users aren't really the product. The paying ones are.",
-   "say": "So the free users mostly aren't paying the bills. The subscribers are.",
-   "scene": {"t": "compare", "keep": true, "winner": "left", "mood": "happy"}
+   "text": "So the subscribers, not the ads, pay the bills.",
+   "say": "So the subscribers, not the ads, pay the bills.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "mood": "happy"
+   }
   },
   {
    "who": "ticker",
-   "text": "The rest in 2025: the Duolingo English Test made $42.0 million, and in-app purchases $40.5 million.",
-   "say": "The rest in twenty twenty-five came from the Duolingo English Test, at forty-two million, and in-app purchases, at forty point five million.",
-   "scene": {"t": "list", "title": "Other 2025 revenue", "items": ["English Test: $42.0M", "In-app buys: $40.5M"], "reveal": 2}
+   "text": "The English Test ($42.0M) and in-app purchases ($40.5M) added about $40 million each.",
+   "say": "The English Test and in-app purchases added about forty million dollars each.",
+   "scene": {
+    "t": "list",
+    "title": "Other 2025 revenue",
+    "items": [
+     "English Test: $42.0M",
+     "In-app buys: $40.5M"
+    ],
+    "reveal": 2
+   }
   },
   {
    "who": "ticker",
-   "text": "Free users get lessons with ads. Super drops the ads and limits. Max adds AI features for more.",
-   "say": "Free users get the lessons with ads. Super drops the ads and limits, and Max adds A I features for a higher price.",
-   "scene": {"t": "board", "lines": ["Free: lessons + ads", "Super: no ads, no limits", "Max: Super + AI tools"]}
+   "text": "Free gets lessons with ads. Super drops the ads, and Max adds AI for more.",
+   "say": "Free gets lessons with ads. Super drops the ads, and Max adds A I features for a higher price.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Free: lessons + ads",
+     "Super: no ads, no limits",
+     "Max: Super + AI tools"
+    ]
+   }
   },
   {
    "who": "ticker",
-   "text": "Hypothetical: 1,000,000 users x 9% = 90,000 payers. At $60 a year, that's $5.4 million.",
-   "say": "Here's a hypothetical: a million users times nine percent is ninety thousand payers. At sixty dollars a year each, that's five point four million dollars.",
-   "scene": {"t": "board", "lines": ["1,000,000 users x 9%", "= 90,000 payers", "x $60/yr = $5.4M"], "mood": "think"}
+   "text": "Hypothetically: 1,000,000 users x 9% = 90,000 payers. At $60 a year, that's $5.4 million.",
+   "say": "Hypothetically, a million users times nine percent is ninety thousand payers. At sixty dollars a year, that's five point four million.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1,000,000 users x 9%",
+     "= 90,000 payers",
+     "x $60/yr = $5.4M"
+    ],
+    "mood": "think"
+   }
   },
   {
    "who": "ticker",
-   "text": "The other 910,000 pay nothing. A small paying slice funds the free app for everyone else.",
-   "say": "The other nine hundred ten thousand pay nothing. A small paying slice funds the free app for everyone else.",
-   "scene": {"t": "stat", "label": "Free users (hypothetical)", "value": "910,000", "tone": "neutral", "sub": "pay $0, may see ads", "mood": "happy"}
+   "text": "The other 910,000 pay nothing. A small paying slice funds everyone else.",
+   "say": "The other nine hundred ten thousand pay nothing. A small paying slice funds everyone else.",
+   "scene": {
+    "t": "stat",
+    "label": "Free users (hypothetical)",
+    "value": "910,000",
+    "tone": "neutral",
+    "sub": "pay $0, may see ads",
+    "mood": "happy"
+   }
   },
   {
    "who": "ticker",
    "text": "That's the money. Follow for more.",
    "say": "That's the money. Follow for more.",
-   "scene": {"t": "cta"}
+   "scene": {
+    "t": "cta"
+   }
   }
  ],
  "post": {
@@ -74,6 +174,12 @@
   "ig": "In 2025, Duolingo's free app made over $1 billion ($1,037.6M).\n\nAs of June 2026, 12.7M of its 140.6M monthly users paid, about 9%.\nSubscriptions brought in $873.4M in 2025 (about 84%). Ads: $79.7M. Duolingo English Test: $42.0M. In-app purchases: $40.5M.\nRevenue grew from $161.7M in 2020 to $1.04B in 2025.\nHypothetical: 1,000,000 users x 9% = 90,000 payers; at $60/yr that's $5.4M.\n\nSources: Duolingo FY2025 Form 10-K; Duolingo Q2 2026 shareholder letter (Aug 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#duolingo #freemium #howtheymakemoney #business #financeprostv",
   "tiktok": "Duolingo's free app made over $1B in 2025. About 9% of users paid. Not financial advice. #moneytok #personalfinance #duolingo #freemium #financeprostv",
   "yt_desc": "In 2025, Duolingo's free app made $1.04 billion, and subscriptions were about 84% of it ($873.4M), while ads were $79.7M. As of June 2026, 12.7 million of its 140.6 million monthly users paid, about 9%. Sources: Duolingo FY2025 Form 10-K and Q2 2026 shareholder letter (Aug 2026).\n\nNews and education, not financial advice.\n\n#Shorts #duolingo #business",
-  "tags": ["how duolingo makes money", "duolingo business model", "freemium", "duolingo revenue", "how they make money"]
+  "tags": [
+   "how duolingo makes money",
+   "duolingo business model",
+   "freemium",
+   "duolingo revenue",
+   "how they make money"
+  ]
  }
 }
