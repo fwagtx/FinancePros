@@ -1,0 +1,163 @@
+{
+ "series": "ticker",
+ "header": "Exempt vs non-exempt:\nwho gets overtime",
+ "cover": {
+  "title": "Do You Get Overtime?",
+  "prop": "tag",
+  "label": "$684/week",
+  "value": "1.5x"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2026, a salary under $684 a week usually means overtime pay.",
+   "say": "In twenty twenty-six, salary under six eighty-four a week usually means overtime.",
+   "scene": {
+    "t": "hook",
+    "title": "Under [$684] a week",
+    "prop": "tag",
+    "label": "2026 floor",
+    "value": "$35,568",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the federal salary floor for most exempt white-collar jobs, which also need exempt duties: $684 a week, or $35,568 a year.",
+   "say": "That's the federal salary floor for most exempt white-collar jobs, which also need exempt duties: about thirty-five thousand six hundred a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Exempt salary floor:",
+     "$684 a week",
+     "= $35,568 a year"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Non-exempt workers get time-and-a-half after 40 hours a week. Exempt workers don't.",
+   "say": "Non-exempt workers get time-and-a-half after forty hours a week. Exempt workers don't.",
+   "scene": {
+    "t": "split",
+    "title": "Who gets overtime",
+    "left": {
+     "title": "Non-exempt",
+     "items": [
+      "1.5x after 40 hrs",
+      "Hourly or salary"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Exempt",
+     "items": [
+      "No OT pay",
+      "Salary + duties"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: $20 an hour for 50 hours. With overtime that's $1,100, versus $1,000 at straight time.",
+   "say": "Say twenty dollars an hour for fifty hours. With overtime that's eleven hundred dollars, versus a thousand at straight time.",
+   "scene": {
+    "t": "compare",
+    "title": "$20/hr, 50-hour week",
+    "left": {
+     "label": "Straight",
+     "value": "$1,000",
+     "tone": "neutral",
+     "sub": "50 x $20"
+    },
+    "right": {
+     "label": "With OT",
+     "value": "$1,100",
+     "tone": "up",
+     "sub": "10 hrs at $30"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The floor has moved: $455 in 2004, $684 in 2020. A 2024 rule to raise it was struck down that November and rescinded in May 2026.",
+   "say": "The floor has moved: four fifty-five in two thousand four, six eighty-four in twenty twenty. A twenty twenty-four rule to raise it was struck down that November and rescinded in May twenty twenty-six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2004",
+      "what": "$455 a week"
+     },
+     {
+      "when": "2020",
+      "what": "$684 a week"
+     },
+     {
+      "when": "Nov 2024",
+      "what": "Raise struck down"
+     },
+     {
+      "when": "May 2026",
+      "what": "DOL rescinds it"
+     }
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "New for 2025 through 2028: non-exempt workers can deduct the overtime premium, up to $12,500, or $25,000 filing jointly.",
+   "say": "New for twenty twenty-five through twenty twenty-eight: non-exempt workers can deduct the overtime premium, up to twelve thousand five hundred, or twenty-five thousand filing jointly.",
+   "scene": {
+    "t": "stat",
+    "label": "Overtime deduction cap",
+    "value": "$12,500",
+    "tone": "up",
+    "sub": "$25,000 joint, 2025-2028",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Only the extra half of time-and-a-half counts: in that example, $100 of the $1,100.",
+   "say": "Only the extra half of time-and-a-half counts. In that example, a hundred dollars of the eleven hundred.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deductible part:",
+     "the extra half",
+     "10 hrs x $10 = $100"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Under $684 a week? The overtime rule, explained",
+  "ig": "In 2026, a salary under $684 a week usually means overtime pay.\n\nMost exempt white-collar jobs need a salary of at least $684/week ($35,568/yr) plus exempt duties; non-exempt workers get 1.5x after 40 hours.\nHypothetical: $20/hr for 50 hours = $1,100 with overtime vs $1,000 straight.\nThe 2024 rule raising the floor was vacated in Nov 2024 and rescinded by DOL in May 2026. For 2025-2028, non-exempt workers can deduct the overtime premium, up to $12,500 ($25,000 joint).\n\nSources: U.S. Department of Labor; IRS.\nNews and education, not financial or legal advice.\nFollow @financeprostv for money explained simply.\n\n#overtime #paycheck #work #personalfinance #financeprostv",
+  "tiktok": "Under $684 a week? You're usually owed overtime (2026). Exempt vs non-exempt, explained. Not financial advice. #moneytok #overtime #financeprostv",
+  "yt_desc": "Most exempt white-collar jobs require a salary of at least $684 a week ($35,568 a year) plus exempt duties; non-exempt workers get time-and-a-half after 40 hours. The 2024 rule that would have raised the threshold was vacated in November 2024 and rescinded by the Labor Department in May 2026. For 2025-2028, non-exempt workers can deduct the overtime premium, up to $12,500 ($25,000 joint). Sources: U.S. Department of Labor, IRS.\n\nNews and education, not financial or legal advice.\n\n#Shorts #overtime #paycheck",
+  "tags": [
+   "exempt vs non exempt",
+   "overtime rules",
+   "flsa salary threshold",
+   "no tax on overtime",
+   "overtime explained"
+  ]
+ }
+}
