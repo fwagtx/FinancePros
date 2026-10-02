@@ -1,0 +1,191 @@
+{
+ "id": "2026-11-28-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Tipflation: why every\nscreen asks for a tip",
+ "cover": {
+  "title": "Why Every Screen Wants a Tip",
+  "prop": "tag",
+  "label": "$6",
+  "value": "+$3?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A $6 coffee. A 50% tip button.",
+   "say": "A six-dollar coffee. A fifty percent tip button.",
+   "scene": {
+    "t": "hook",
+    "title": "Square: a [50%] tip",
+    "prop": "tag",
+    "label": "$6",
+    "value": "+$3",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Square's optional Smart tip screen offers $1, $2 or $3 on sales under $10. On $6, that's about 17%, 33% or 50%.",
+   "say": "Square's optional Smart tip screen offers one, two or three dollars on sales under ten dollars. On six dollars, that's about seventeen, thirty-three or fifty percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1 / $6 = 16.7%",
+     "$2 / $6 = 33.3%",
+     "$3 / $6 = 50%"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2023, 72% told Pew tipping is expected in more places than five years earlier.",
+   "say": "In twenty twenty-three, seventy-two percent told Pew tipping is expected in more places than five years earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Tips expected in more places",
+    "value": "72%",
+    "tone": "down",
+    "sub": "Pew survey, Aug 2023",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? Checkout tablets come with preset tip buttons, so any counter can ask.",
+   "say": "Why? Checkout tablets come with preset tip buttons, so any counter can ask.",
+   "scene": {
+    "t": "list",
+    "title": "Why the screen asks",
+    "items": [
+     "Tablet checkout",
+     "Preset buttons",
+     "Counters ask too"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Yet Toast's average quick-service tip slipped from 17.0% in early 2022 to 15.8% in early 2026.",
+   "say": "Yet Toast's average quick-service tip slipped from seventeen percent in early twenty twenty-two to fifteen point eight percent in early twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Toast quick-service tip, Q1",
+    "points": [
+     [
+      2021,
+      16.9
+     ],
+     [
+      2022,
+      17.0
+     ],
+     [
+      2023,
+      16.0
+     ],
+     [
+      2024,
+      16.0
+     ],
+     [
+      2025,
+      15.8
+     ],
+     [
+      2026,
+      15.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "15.8%",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Bankrate's 2025 survey, 27% tip less or nothing facing pre-entered tip screens. 11% tip more.",
+   "say": "In Bankrate's twenty twenty-five survey, twenty-seven percent tip less or nothing facing pre-entered tip screens. Eleven percent tip more.",
+   "scene": {
+    "t": "compare",
+    "title": "Facing a tip screen",
+    "left": {
+     "label": "Tip less or none",
+     "value": "27%",
+     "tone": "down",
+     "sub": "Bankrate, 2025"
+    },
+    "right": {
+     "label": "Tip more",
+     "value": "11%",
+     "tone": "up",
+     "sub": "Bankrate, 2025"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal law allows a tipped cash wage of $2.13 an hour, if tips bring pay to $7.25.",
+   "say": "Federal law allows a tipped cash wage of two dollars and thirteen cents an hour, if tips bring pay to seven dollars and twenty-five cents.",
+   "scene": {
+    "t": "stat",
+    "label": "Federal tipped cash wage",
+    "value": "$2.13/hr",
+    "tone": "down",
+    "sub": "FLSA; must reach $7.25",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tip screens aren't required by law. They're a store setting with presets.",
+   "say": "Tip screens aren't required by law. They're a store setting with presets.",
+   "scene": {
+    "t": "split",
+    "title": "The tip screen",
+    "left": {
+     "title": "Is",
+     "items": [
+      "A POS setting",
+      "Store presets"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Isn't",
+     "items": [
+      "A law",
+      "A fixed rate"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Tipflation: why a $6 coffee screen can ask for a 50% tip",
+  "ig": "A $6 coffee. A 50% tip button.\n\nSquare's optional Smart tip setting shows $1, $2 or $3 on sales under $10; on $6 that's about 17%, 33% or 50%.\n72% of US adults told Pew (2023) tipping is expected in more places than five years earlier.\nYet Toast's average quick-service tip slipped from 17.0% (Q1 2022) to 15.8% (Q1 2026).\nBankrate (2025): 27% tip less or nothing with a preset tip screen; 11% tip more.\n\nSources: Square; Pew Research Center; Toast; Bankrate; US Dept of Labor.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#tipping #tipflation #personalfinance #moneytips #financeprostv",
+  "tiktok": "A $3 button on a $6 coffee = a 50% tip. Why every screen asks. Not financial advice. #moneytok #personalfinance #tipping #tipflation #financeprostv",
+  "yt_desc": "Square's optional Smart tip setting offers $1, $2 or $3 on sales under $10, so on a $6 coffee the $3 button is a 50% tip. In 2023, 72% of US adults told Pew tipping is expected in more places, yet Toast's average quick-service tip slipped from 17.0% (Q1 2022) to 15.8% (Q1 2026). Sources: Square, Pew Research Center, Toast, Bankrate, US Department of Labor.\n\nNews and education, not financial advice.\n\n#Shorts #tipping #personalfinance",
+  "tags": [
+   "tipflation",
+   "tip screen",
+   "tipping culture",
+   "how much to tip",
+   "tipped minimum wage"
+  ]
+ }
+}
