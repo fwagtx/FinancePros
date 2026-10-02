@@ -1,0 +1,200 @@
+{
+ "id": "2026-11-21-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Guarantors:\nthe 80x rule",
+ "cover": {
+  "title": "Why NYC Guarantors Need 80x Rent",
+  "prop": "tag",
+  "label": "NYC",
+  "value": "80x"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "NYC landlords often want guarantors earning 80 times monthly rent.",
+   "say": "New York City landlords often want guarantors earning eighty times monthly rent.",
+   "scene": {
+    "t": "hook",
+    "title": "Guarantor: [80x] rent",
+    "prop": "tag",
+    "label": "NYC 2026",
+    "value": "80x",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's yearly income, double the tenant's 40x, because the guarantor pays if the tenant doesn't.",
+   "say": "That's yearly income, double the tenant's forty times, because the guarantor pays if the tenant doesn't.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Guarantor = backup payer",
+     "Tenant doesn't pay?",
+     "Guarantor does."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical $2,000 monthly rent: the tenant needs $80,000 a year (40x); the guarantor, $160,000 (80x).",
+   "say": "On a hypothetical two thousand dollar monthly rent, the tenant needs eighty thousand a year. The guarantor needs a hundred sixty thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical: $2,000 rent",
+    "left": {
+     "label": "Tenant (40x)",
+     "value": "$80,000",
+     "tone": "neutral",
+     "sub": "per year"
+    },
+    "right": {
+     "label": "Guarantor (80x)",
+     "value": "$160K",
+     "tone": "down",
+     "sub": "per year"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Elsewhere, a common screen is 3x monthly rent: $72,000 a year.",
+   "say": "Elsewhere, a common screen is three times monthly rent, or seventy-two thousand a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "3x monthly rule:",
+     "$2,000 x 3 x 12 months",
+     "= $72,000 a year"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Harvard's housing center: a record 49% of renter households were cost-burdened in 2024.",
+   "say": "Harvard's housing center says a record forty-nine percent of renter households were cost-burdened in twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Renters cost-burdened",
+    "value": "49%",
+    "tone": "down",
+    "sub": "Harvard JCHS, 2024 data",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Apartment List's national median rent was $1,388 in September 2026.",
+   "say": "Apartment List's national median rent was one thousand three hundred eighty-eight dollars in September twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "US median rent, 2026 (month)",
+    "points": [
+     [
+      2,
+      1357
+     ],
+     [
+      3,
+      1363
+     ],
+     [
+      4,
+      1370
+     ],
+     [
+      6,
+      1385
+     ],
+     [
+      7,
+      1388
+     ],
+     [
+      8,
+      1390
+     ],
+     [
+      9,
+      1388
+     ]
+    ],
+    "prefix": "$",
+    "end": "$1,388",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Signing is a legal promise: the guarantor can be pursued for unpaid rent, damages, and often legal fees.",
+   "say": "Signing is a legal promise: the guarantor can be pursued for unpaid rent, damages, and often legal fees.",
+   "scene": {
+    "t": "list",
+    "title": "Guarantor can owe",
+    "items": [
+     "Unpaid rent",
+     "Damages",
+     "Legal fees"
+    ],
+    "reveal": 3,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurent says its fee is about 70% to 90% of one month's rent for a one-year lease.",
+   "say": "Insurent says its fee is about seventy to ninety percent of one month's rent for a one-year lease.",
+   "scene": {
+    "t": "stat",
+    "label": "Insurent fee, 1-yr lease",
+    "value": "70-90%",
+    "tone": "neutral",
+    "sub": "of 1 month's rent, per firm",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $2,000 a month, that's $1,400 to $1,800.",
+   "say": "On two thousand a month, that's fourteen hundred to eighteen hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Rent",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "Fee, 1 year",
+     "value": "$1,400-1,800"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why NYC guarantors often need to earn 80x the rent",
+  "ig": "In NYC, landlords often want a lease guarantor with yearly income of 80x the monthly rent, double the tenant's 40x (StreetEasy).\nHypothetical $2,000 rent: tenant $80,000 a year at 40x; guarantor $160,000 at 80x. A common 3x monthly screen elsewhere: $72,000 a year.\nA record 49% of renter households were cost-burdened in 2024 (Harvard JCHS 2026). Apartment List's national median rent was $1,388 in September 2026.\nGuarantors can owe unpaid rent, damages and often legal fees. Insurent's fee is about 70-90% of one month's rent for a 1-year lease.\nSources: StreetEasy; Harvard JCHS State of the Nation's Housing 2026; Apartment List; Insurent.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#renting #guarantor #apartmenthunting #personalfinance #financeprostv",
+  "tiktok": "NYC guarantors often need 80x the rent. The math on a $2,000 lease. Not financial advice. #moneytok #personalfinance #renting #guarantor #financeprostv",
+  "yt_desc": "In NYC, landlords often ask lease guarantors to earn 80 times the monthly rent, double the tenant's 40x (StreetEasy): on a hypothetical $2,000 rent that's $160,000 versus $80,000 a year. A record 49% of renter households were cost-burdened in 2024 (Harvard JCHS), and Insurent says its fee is about 70-90% of one month's rent for a one-year lease guaranty. News and education, not financial advice.\n#Shorts #renting #personalfinance",
+  "tags": [
+   "lease guarantor explained",
+   "80x rent rule",
+   "40x rent nyc",
+   "guarantor income requirement",
+   "insurent guarantor fee"
+  ]
+ }
+}
