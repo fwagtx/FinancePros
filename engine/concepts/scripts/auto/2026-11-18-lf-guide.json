@@ -1,0 +1,1675 @@
+{
+ "id": "2026-11-18-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "How to pick investments\nin your 401(k)",
+ "cover": {
+  "title": "Why 61% Own One Fund?",
+  "prop": "box",
+  "label": "401(k)",
+  "value": "61%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2025, 61% of Vanguard savers held one target-date fund.",
+   "say": "In twenty twenty-five, sixty-one percent of Vanguard savers held one target-date fund.",
+   "scene": {
+    "t": "hook",
+    "title": "Most hold [one] fund",
+    "prop": "box",
+    "label": "2025",
+    "value": "61%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nothing else: their whole balance sat in that one fund, per Vanguard's How America Saves 2026.",
+   "say": "Nothing else. Their whole balance sat in that one fund, according to Vanguard's How America Saves twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "In a single target-date fund",
+    "value": "61%",
+    "tone": "neutral",
+    "sub": "Vanguard, year-end 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So is that lazy, or the whole point? Stick around, and you'll see exactly what's inside that one fund.",
+   "say": "So is that lazy, or the whole point? Stick around, and you'll see exactly what's inside that one fund.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lazy?",
+     "Or the whole point?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When you join a 401(k), you get a menu of funds, and most people have no idea what they're ordering.",
+   "say": "When you join a four-oh-one-K, you get a menu of funds, and most people have no idea what they're ordering.",
+   "scene": {
+    "t": "hook",
+    "title": "The 401(k) [menu]",
+    "prop": "paper",
+    "label": "MENU",
+    "value": "?",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the plan: what's on the menu, what it costs, how the mix works, and the 2026 rules.",
+   "say": "Here's the plan: what's on the menu, what it costs, how the mix works, and the twenty twenty-six rules.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "What's on the menu",
+     "What it costs",
+     "How the mix works",
+     "The 2026 rules"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not advice. I won't tell you what to pick. I'll show you how the options work.",
+   "say": "This is education, not advice. I won't tell you what to pick. I'll show you how the options work.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education, not advice",
+     "How options work,",
+     "not what to pick"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What's on the menu.",
+   "say": "Chapter one: what's on the menu.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What's on the menu"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 401(k) is an account, not an investment. Every dollar you put in has to land in a fund your plan offers.",
+   "say": "A four-oh-one-K is an account, not an investment. Every dollar you put in has to land in a fund your plan offers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "401(k) = the account",
+     "Funds = what's inside"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your employer builds the menu and picks a default. You choose from that menu and set your own mix.",
+   "say": "Your employer builds the menu and picks a default. You choose from that menu and set your own mix.",
+   "scene": {
+    "t": "split",
+    "title": "Who picks what",
+    "left": {
+     "title": "Employer",
+     "items": [
+      "Builds the menu",
+      "Picks the default"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "You",
+     "items": [
+      "Choose from it",
+      "Set your mix"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if you never choose? Your money still gets invested. It goes into the plan's default fund.",
+   "say": "And if you never choose? Your money still gets invested. It goes straight into the plan's default fund.",
+   "scene": {
+    "t": "hook",
+    "title": "No pick? [Default]",
+    "prop": "box",
+    "label": "401(k)",
+    "value": "AUTO",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Labor Department's rule calls that a qualified default investment alternative, or QDIA.",
+   "say": "The Labor Department's rule calls that a qualified default investment alternative, or Q D I A.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "QDIA =",
+     "qualified default",
+     "investment alternative"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Under that rule, a QDIA can be a target-date fund, a balanced fund, or a managed account.",
+   "say": "Under that rule, a Q D I A can be a target-date fund, a balanced fund, or a managed account.",
+   "scene": {
+    "t": "list",
+    "title": "QDIA types (DOL rule)",
+    "items": [
+     "Target-date fund",
+     "Balanced fund",
+     "Managed account",
+     "Cash-like, 120 days"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's a fourth, a capital preservation option, but only for the first 120 days after your first contribution.",
+   "say": "There's also a fourth, a capital preservation option, but only for the first hundred and twenty days after your first contribution.",
+   "scene": {
+    "t": "list",
+    "title": "QDIA types (DOL rule)",
+    "items": [
+     "Target-date fund",
+     "Balanced fund",
+     "Managed account",
+     "Cash-like, 120 days"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Defaults matter even more under SECURE 2.0: most 401(k) plans set up after Dec. 29, 2022 must auto-enroll workers from 2025.",
+   "say": "Defaults matter even more under SECURE two point oh. Most four-oh-one-K plans set up after December twenty-ninth, twenty twenty-two must auto-enroll workers, starting in twenty twenty-five.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2022",
+      "SECURE 2.0 signed"
+     ],
+     [
+      "2025",
+      "Auto-enroll starts"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those plans start you at 3% to 10% of pay, then add 1 point a year until you reach at least 10%, capped at 15%.",
+   "say": "Those plans start you at three to ten percent of pay, then add one point a year until you reach at least ten percent, capped at fifteen.",
+   "scene": {
+    "t": "compare",
+    "title": "Auto-enroll (new plans)",
+    "left": {
+     "label": "Starts at",
+     "value": "3%-10%",
+     "tone": "neutral",
+     "sub": "of pay"
+    },
+    "right": {
+     "label": "Rises to",
+     "value": "10%+",
+     "tone": "up",
+     "sub": "+1 pt/yr, max 15%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And at the end of 2025, 61% of Vanguard plans used automatic enrollment. Yes, 61% again. Coincidence.",
+   "say": "And at the end of twenty twenty-five, sixty-one percent of Vanguard plans used automatic enrollment. Yes, sixty-one percent again. Pure coincidence.",
+   "scene": {
+    "t": "stat",
+    "label": "Vanguard plans: auto-enroll",
+    "value": "61%",
+    "tone": "up",
+    "sub": "Year-end 2025, HAS 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each plan spells out its default in required notices, including the QDIA notice.",
+   "say": "Each plan spells out its default in required notices, including the Q D I A notice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The default:",
+     "in the QDIA notice"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The menu itself could change, too. In March 2026, the Labor Department proposed a rule on how plans pick their funds.",
+   "say": "The menu itself could change, too. In March twenty twenty-six, the Labor Department proposed a rule on how plans pick their funds.",
+   "scene": {
+    "t": "news",
+    "headline": "DOL proposes 401(k) menu rule",
+    "source": "CNBC, March 30, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It aims to make alternatives like private equity and crypto easier to add. As of early October 2026, it was still a proposal.",
+   "say": "It aims to make alternatives like private equity and crypto easier to add. As of early October twenty twenty-six, it was still a proposal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Proposed, not final",
+     "(as of Oct 2026)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The one-fund option.",
+   "say": "Chapter two: the one-fund option.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The one-fund option"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The most common default is a target-date fund, and 96% of Vanguard plans offered one at the end of 2025.",
+   "say": "The most common default is a target-date fund, and ninety-six percent of Vanguard plans offered one at the end of twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Vanguard plans offering TDFs",
+    "value": "96%",
+    "tone": "up",
+    "sub": "HAS 2026, year-end 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The year in the name is roughly the retirement year. Someone born in 1996 turns 65 in 2061.",
+   "say": "The year in the name is roughly the retirement year. Someone born in nineteen ninety-six turns sixty-five in twenty sixty-one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Born 1996",
+     "turns 65 in 2061"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inside is a whole portfolio: US stocks, international stocks and bonds, all wrapped in one fund.",
+   "say": "Inside is a whole portfolio: US stocks, international stocks and bonds, all wrapped up in one fund.",
+   "scene": {
+    "t": "list",
+    "title": "Inside one target-date fund",
+    "items": [
+     "US stocks",
+     "International stocks",
+     "Bonds"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The key feature is the glide path. The mix starts mostly in stocks and shifts toward bonds as the target year gets closer.",
+   "say": "The key feature is the glide path. The mix starts out mostly in stocks and shifts toward bonds as the target year gets closer.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Age 25",
+      "Mostly stocks"
+     ],
+     [
+      "Age 45",
+      "Still stock-heavy"
+     ],
+     [
+      "Age 65",
+      "More bonds"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One catch: two 2060 funds from different companies can hold very different mixes. Same year, different recipe.",
+   "say": "One catch: two twenty sixty funds from different companies can hold very different mixes. Same year, different recipe.",
+   "scene": {
+    "t": "compare",
+    "title": "Same year, two families",
+    "left": {
+     "label": "Fund family A",
+     "value": "2060",
+     "tone": "neutral",
+     "sub": "its own mix"
+    },
+    "right": {
+     "label": "Fund family B",
+     "value": "2060",
+     "tone": "neutral",
+     "sub": "a different mix"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Another catch: a target-date fund is built to be the whole portfolio. Stack other funds on top, and the overall mix changes.",
+   "say": "Another catch: a target-date fund is built to be the whole portfolio. Stack other funds on top of it, and the overall mix changes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "TDF = whole portfolio",
+     "+ other funds =",
+     "a different mix"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Morningstar says the average target-date mutual fund charged 0.27% in 2025, down from 0.29% in 2024.",
+   "say": "Morningstar says the average target-date mutual fund charged zero point two seven percent in twenty twenty-five, down from zero point two nine in twenty twenty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg target-date fund fee",
+    "left": {
+     "label": "2024",
+     "value": "0.29%",
+     "tone": "neutral",
+     "sub": "asset-weighted"
+    },
+    "right": {
+     "label": "2025",
+     "value": "0.27%",
+     "tone": "up",
+     "sub": "asset-weighted"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Morningstar found index-based target-date series cost about 0.53 percentage points less than active-based ones, on average.",
+   "say": "And Morningstar found index-based target-date series cost about zero point five three percentage points less than active-based ones, on average.",
+   "scene": {
+    "t": "stat",
+    "label": "Index TDFs cost less by",
+    "value": "0.53 pt",
+    "tone": "up",
+    "sub": "Morningstar, 2026 report"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So that's why one fund is so common: it's often the default, it's diversified, and it adjusts with age on its own.",
+   "say": "So that's why one fund is so common: it's often the default, it's already diversified, and it adjusts with age on its own.",
+   "scene": {
+    "t": "list",
+    "title": "Why one fund is common",
+    "items": [
+     "Often the default",
+     "Already diversified",
+     "Adjusts with age"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trade-off is control. You get the fund company's mix and glide path, not one built around your situation.",
+   "say": "The trade-off is control. You get the fund company's mix and glide path, not one built around your situation.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Trade-off:",
+     "their mix,",
+     "not a custom one"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Building your own mix.",
+   "say": "Chapter three: building your own mix.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Building your own mix"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Skip the target-date fund, and the menu usually offers building blocks. Here are four you'll often see, starting with index funds.",
+   "say": "Skip the target-date fund, and the menu usually offers building blocks. Here are four you'll often see, starting with index funds.",
+   "scene": {
+    "t": "list",
+    "title": "Building blocks",
+    "items": [
+     "Index funds",
+     "Actively managed funds",
+     "Stable value",
+     "Company stock"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An index fund simply copies a market index, like the S&P 500 or the whole US bond market. Nobody picks stocks.",
+   "say": "An index fund simply copies a market index, like the S and P five hundred or the whole US bond market. Nobody's picking stocks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Index fund:",
+     "copies an index,",
+     "no stock picking"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That keeps costs low. ICI found index stock mutual funds averaged 0.05% a year in 2025.",
+   "say": "That keeps costs low. The Investment Company Institute, or I C I, found index stock mutual funds averaged zero point zero five percent a year in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg index stock mutual fund",
+    "value": "0.05%",
+    "tone": "up",
+    "sub": "ICI, 2025 data (Mar 2026)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Actively managed funds pay a team to pick investments and try to beat an index.",
+   "say": "Actively managed funds pay a team to pick investments and try to beat an index.",
+   "scene": {
+    "t": "hook",
+    "title": "Actively managed funds pay a team to pick invest",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That costs more. Actively managed US stock mutual funds averaged 0.64% in 2025, per ICI.",
+   "say": "That costs more. Actively managed US stock mutual funds averaged zero point six four percent in twenty twenty-five, per I C I.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg expense ratio, 2025",
+    "left": {
+     "label": "Index stock funds",
+     "value": "0.05%",
+     "tone": "up",
+     "sub": "ICI"
+    },
+    "right": {
+     "label": "Active US stock",
+     "value": "0.64%",
+     "tone": "down",
+     "sub": "ICI"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some active funds beat their index in a given stretch, and some don't. Either way, the fee comes out every single year.",
+   "say": "Some active funds beat their index in a given stretch, and some don't. Either way, the fee comes out every single year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The fee: certain",
+     "Beating the index:",
+     "not certain"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next up is stable value, a conservative option you'll mostly find in workplace plans.",
+   "say": "Next up is stable value, a conservative option you'll mostly find in workplace plans.",
+   "scene": {
+    "t": "hook",
+    "title": "Next up is stable value, a conservative option y",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It usually holds bonds wrapped in insurance contracts, which smooth out the bumps and credit a steady interest rate.",
+   "say": "It usually holds bonds wrapped in insurance contracts, which smooth out the bumps and credit a steady interest rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bonds + insurance wrap",
+     "= steadier value"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trade-offs: it's built for steadiness, not big growth, and some plans limit moving money from it into similar cash-like funds.",
+   "say": "The trade-offs: it's built for steadiness, not big growth, and some plans limit moving money from it into similar cash-like funds.",
+   "scene": {
+    "t": "split",
+    "title": "Stable value",
+    "left": {
+     "title": "Built for",
+     "items": [
+      "Steady value",
+      "Credited interest"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Trade-offs",
+     "items": [
+      "Less growth focus",
+      "Transfer rules"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The last block is company stock, meaning shares of the company you work for.",
+   "say": "The last block is company stock, meaning shares of the company you actually work for.",
+   "scene": {
+    "t": "hook",
+    "title": "The last block is company stock, meaning shares ",
+    "prop": "none"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the risk: your paycheck and your savings ride on one company. If it struggles, both can take a hit.",
+   "say": "Here's the risk: your paycheck and your savings ride on one company. If it struggles, both can take a hit.",
+   "scene": {
+    "t": "hook",
+    "title": "Same company, [twice]",
+    "prop": "bag",
+    "label": "PAY+401K",
+    "value": "x2",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The law builds in an exit. In plans holding public company stock, shares bought with your own money can be moved out from day one.",
+   "say": "The law builds in an exit. In plans holding public company stock, shares bought with your own money can be moved out from day one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your own money in",
+     "company stock:",
+     "movable from day one"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For shares from employer contributions, that right kicks in after 3 years of service.",
+   "say": "For shares that came from employer contributions, that right kicks in after three years of service.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Day 1",
+      "Your part: movable"
+     ],
+     [
+      "Year 3",
+      "Employer part too"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's tax code section 401(a)(35), and plans have to let people make that switch at least quarterly.",
+   "say": "That's tax code section four-oh-one A thirty-five, and plans have to let people make that switch at least quarterly.",
+   "scene": {
+    "t": "stat",
+    "label": "Company stock switch allowed",
+    "value": "Quarterly",
+    "tone": "neutral",
+    "sub": "At least; IRC 401(a)(35)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: What fees really cost.",
+   "say": "Chapter four: what fees really cost.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "What fees really cost"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every fund has an expense ratio: the percent of your balance the fund keeps each year to run itself.",
+   "say": "Every fund has an expense ratio: the percent of your balance the fund keeps each year to run itself.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Expense ratio =",
+     "% of your balance",
+     "kept each year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You never get a bill for it. It comes out of the fund's returns, which is exactly why it's easy to miss.",
+   "say": "You never get a bill for it. It comes out of the fund's returns, which is exactly why it's so easy to miss.",
+   "scene": {
+    "t": "hook",
+    "title": "Fee you [never] see",
+    "prop": "bill",
+    "label": "FEE",
+    "value": "NO BILL",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The good news: costs have fallen. In 2000, 401(k) savers in stock mutual funds paid 0.76% a year on average, per ICI.",
+   "say": "Good news: costs have fallen. In two thousand, four-oh-one-K savers in stock mutual funds paid zero point seven six percent a year on average, per I C I.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "401(k) stock funds, 2000",
+     "value": "0.76%"
+    },
+    "to": {
+     "label": "401(k) stock funds, 2024",
+     "value": "0.26%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2024 it was 0.26%, a 66% drop, and below the 0.40% paid industrywide.",
+   "say": "By twenty twenty-four it was zero point two six percent, a sixty-six percent drop, and below the zero point four zero percent paid industrywide.",
+   "scene": {
+    "t": "stat",
+    "label": "401(k) stock fund fee, 2024",
+    "value": "0.26%",
+    "tone": "up",
+    "sub": "ICI, July 2025; all: 0.40%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Averages hide big gaps. Hypothetical: $50,000, no new deposits, 30 years, 7% a year before fees. An assumption, not a forecast.",
+   "say": "Averages hide big gaps, so here's a hypothetical: fifty thousand dollars, no new deposits, thirty years, seven percent a year before fees. That's an assumption, not a forecast.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hypothetical:",
+     "$50,000, 30 years",
+     "7% a year before fees"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fund A charges 0.05%, netting 6.95%. Fund B charges 0.75%, netting 6.25%.",
+   "say": "Fund A charges zero point zero five percent, netting six point nine five. Fund B charges zero point seven five, netting six point two five.",
+   "scene": {
+    "t": "compare",
+    "title": "Two hypothetical funds",
+    "left": {
+     "label": "Fund A",
+     "value": "0.05%",
+     "tone": "up",
+     "sub": "nets 6.95%"
+    },
+    "right": {
+     "label": "Fund B",
+     "value": "0.75%",
+     "tone": "down",
+     "sub": "nets 6.25%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In year one, that's $25 versus $375 in fees. Annoying, but not life-changing, right?",
+   "say": "In year one, that's twenty-five dollars versus three hundred seventy-five dollars in fees. Annoying, but not life-changing, right?",
+   "scene": {
+    "t": "compare",
+    "title": "Year-one fee on $50,000",
+    "left": {
+     "label": "Fund A",
+     "value": "$25",
+     "tone": "up",
+     "sub": "0.05%"
+    },
+    "right": {
+     "label": "Fund B",
+     "value": "$375",
+     "tone": "down",
+     "sub": "0.75%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compound it for 30 years, and Fund A grows to $375,313.",
+   "say": "Compound it for thirty years, and Fund A grows to three hundred seventy-five thousand, three hundred thirteen dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fund A:",
+     "$50,000 × 1.0695^30",
+     "= $375,313"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fund B grows to $308,204.",
+   "say": "Fund B grows to three hundred eight thousand, two hundred four dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fund B:",
+     "$50,000 × 1.0625^30",
+     "= $308,204"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same money, same market, and a gap of $67,109 that comes purely from fees.",
+   "say": "Same money, same market, and a gap of sixty-seven thousand, one hundred nine dollars that comes purely from fees.",
+   "scene": {
+    "t": "stat",
+    "label": "Fee gap after 30 years",
+    "value": "$67,109",
+    "tone": "down",
+    "sub": "Hypothetical, 7% before fees"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it snowballs, because fees eat the growth on the growth. The gap is $6,222 after 10 years.",
+   "say": "And it snowballs, because fees eat the growth on the growth. The gap is six thousand, two hundred twenty-two dollars after ten years.",
+   "scene": {
+    "t": "chart",
+    "title": "Fee gap (hypothetical)",
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      5,
+      2260
+     ],
+     [
+      10,
+      6222
+     ],
+     [
+      15,
+      12850
+     ],
+     [
+      20,
+      23591
+     ],
+     [
+      25,
+      40608
+     ],
+     [
+      30,
+      67109
+     ]
+    ],
+    "prefix": "$",
+    "end": "$67,109",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's $23,591 after 20 years, so nearly two-thirds of the gap lands in the last 10.",
+   "say": "It's twenty-three thousand, five hundred ninety-one after twenty years, so nearly two-thirds of the gap lands in the last ten.",
+   "scene": {
+    "t": "chart",
+    "title": "Fee gap (hypothetical)",
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      5,
+      2260
+     ],
+     [
+      10,
+      6222
+     ],
+     [
+      15,
+      12850
+     ],
+     [
+      20,
+      23591
+     ],
+     [
+      25,
+      40608
+     ],
+     [
+      30,
+      67109
+     ]
+    ],
+    "prefix": "$",
+    "end": "$67,109",
+    "color": "down",
+    "keep": true,
+    "note": {
+     "x": 20,
+     "text": "$23,591 at year 20"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You don't have to guess. Labor Department rules require a fee disclosure listing every fund's expense ratio.",
+   "say": "You don't have to guess. Labor Department rules require a fee disclosure listing every fund's expense ratio.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Plan fee disclosure:",
+     "every fund's",
+     "expense ratio"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fees aren't everything. But they're one of the few things about a fund you know in advance.",
+   "say": "Fees aren't everything. But they're one of the few things about a fund you know in advance.",
+   "scene": {
+    "t": "hook",
+    "title": "Known in [advance]",
+    "prop": "tag",
+    "label": "0.05%",
+    "value": "KNOWN",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Your mix and rebalancing.",
+   "say": "Chapter five: your mix, and rebalancing.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Your mix and rebalancing"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Picking funds is really picking a mix: how much goes into stocks, and how much into bonds.",
+   "say": "Picking funds is really picking a mix: how much goes into stocks, and how much goes into bonds.",
+   "scene": {
+    "t": "split",
+    "title": "Stocks vs bonds",
+    "left": {
+     "title": "Stocks",
+     "items": [
+      "More growth potential",
+      "Bigger swings"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Bonds",
+     "items": [
+      "Usually steadier",
+      "Lower expected growth"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That split is called asset allocation, and it shapes how bumpy the ride feels.",
+   "say": "That split is called asset allocation, and it shapes how bumpy the ride feels.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Asset allocation =",
+     "your stock/bond split"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For a reference point, 79% of contribution dollars at Vanguard went into stocks in 2025.",
+   "say": "For a reference point, seventy-nine percent of contribution dollars at Vanguard went into stocks in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Vanguard dollars in stocks",
+    "value": "79%",
+    "tone": "neutral",
+    "sub": "2025, HAS 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Diversification is the other half: spreading money across many companies, industries and countries.",
+   "say": "Diversification is the other half: spreading money across many companies, industries and countries.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Diversify across:",
+     "companies, industries,",
+     "countries"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A total market index fund can hold thousands of companies. A company stock fund holds exactly one.",
+   "say": "A total market index fund can hold thousands of companies. A company stock fund holds exactly one.",
+   "scene": {
+    "t": "compare",
+    "title": "How spread out?",
+    "left": {
+     "label": "Total market fund",
+     "value": "1,000s",
+     "tone": "up",
+     "sub": "of companies"
+    },
+    "right": {
+     "label": "Company stock",
+     "value": "1",
+     "tone": "down",
+     "sub": "company"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then markets move, and the mix drifts. Say, hypothetically, someone sets a target of 80% stocks and 20% bonds.",
+   "say": "Then markets move, and the mix drifts. Say, hypothetically, someone sets a target of eighty percent stocks and twenty percent bonds.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical target",
+    "left": {
+     "label": "Stocks",
+     "value": "80%",
+     "tone": "neutral",
+     "sub": "target"
+    },
+    "right": {
+     "label": "Bonds",
+     "value": "20%",
+     "tone": "neutral",
+     "sub": "target"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If stocks gain 25% in a year and bonds stay flat, that drifts to about 83/17, with nobody touching a thing.",
+   "say": "If stocks gain twenty-five percent in a year and bonds stay flat, that drifts to about eighty-three seventeen, with nobody touching a thing.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical: stocks +25%",
+    "left": {
+     "label": "Stocks",
+     "value": "83%",
+     "tone": "up",
+     "sub": "drifted up"
+    },
+    "right": {
+     "label": "Bonds",
+     "value": "17%",
+     "tone": "down",
+     "sub": "drifted down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rebalancing means bringing it back to the target, and there are a few common ways people do it.",
+   "say": "Rebalancing means bringing it back to the target, and there are a few common ways people do it.",
+   "scene": {
+    "t": "list",
+    "title": "Ways people rebalance",
+    "items": [
+     "Trade back to target",
+     "Redirect new contributions",
+     "Plan auto-rebalance",
+     "TDF does it inside"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some plans offer automatic rebalancing on a schedule, and target-date funds handle it inside the fund.",
+   "say": "Some plans offer automatic rebalancing on a schedule, and target-date funds handle it inside the fund.",
+   "scene": {
+    "t": "list",
+    "title": "Ways people rebalance",
+    "items": [
+     "Trade back to target",
+     "Redirect new contributions",
+     "Plan auto-rebalance",
+     "TDF does it inside"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And trades inside a 401(k) don't create a tax bill. With traditional money, tax comes when you withdraw.",
+   "say": "And trades inside a four-oh-one-K don't create a tax bill. With traditional money, the tax comes when you withdraw.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Trades inside: no tax",
+     "Traditional money:",
+     "taxed when withdrawn"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: 2026 limits and the match.",
+   "say": "Chapter six: twenty twenty-six limits, and the match.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "2026 limits and the match"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, how much can go in. For 2026, the IRS limit on what employees put in is $24,500.",
+   "say": "Now, how much can go in. For twenty twenty-six, the I R S limit on what employees put in is twenty-four thousand, five hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 401(k) employee limit",
+    "value": "$24,500",
+    "tone": "up",
+    "sub": "IRS Notice 2025-67"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It keeps climbing. Back in 2006, the limit was $15,000.",
+   "say": "It keeps climbing. Back in two thousand six, the limit was fifteen thousand dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "401(k) employee limit (IRS)",
+    "points": [
+     [
+      2006,
+      15000
+     ],
+     [
+      2007,
+      15500
+     ],
+     [
+      2008,
+      15500
+     ],
+     [
+      2009,
+      16500
+     ],
+     [
+      2010,
+      16500
+     ],
+     [
+      2011,
+      16500
+     ],
+     [
+      2012,
+      17000
+     ],
+     [
+      2013,
+      17500
+     ],
+     [
+      2014,
+      17500
+     ],
+     [
+      2015,
+      18000
+     ],
+     [
+      2016,
+      18000
+     ],
+     [
+      2017,
+      18000
+     ],
+     [
+      2018,
+      18500
+     ],
+     [
+      2019,
+      19000
+     ],
+     [
+      2020,
+      19500
+     ],
+     [
+      2021,
+      19500
+     ],
+     [
+      2022,
+      20500
+     ],
+     [
+      2023,
+      22500
+     ],
+     [
+      2024,
+      23000
+     ],
+     [
+      2025,
+      23500
+     ],
+     [
+      2026,
+      24500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$24,500",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $9,500 more room in 2026 than in 2006.",
+   "say": "That's nine thousand, five hundred dollars more room in twenty twenty-six than in two thousand six.",
+   "scene": {
+    "t": "chart",
+    "title": "401(k) employee limit (IRS)",
+    "points": [
+     [
+      2006,
+      15000
+     ],
+     [
+      2007,
+      15500
+     ],
+     [
+      2008,
+      15500
+     ],
+     [
+      2009,
+      16500
+     ],
+     [
+      2010,
+      16500
+     ],
+     [
+      2011,
+      16500
+     ],
+     [
+      2012,
+      17000
+     ],
+     [
+      2013,
+      17500
+     ],
+     [
+      2014,
+      17500
+     ],
+     [
+      2015,
+      18000
+     ],
+     [
+      2016,
+      18000
+     ],
+     [
+      2017,
+      18000
+     ],
+     [
+      2018,
+      18500
+     ],
+     [
+      2019,
+      19000
+     ],
+     [
+      2020,
+      19500
+     ],
+     [
+      2021,
+      19500
+     ],
+     [
+      2022,
+      20500
+     ],
+     [
+      2023,
+      22500
+     ],
+     [
+      2024,
+      23000
+     ],
+     [
+      2025,
+      23500
+     ],
+     [
+      2026,
+      24500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$24,500",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2026,
+     "text": "+$9,500 since 2006"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you're 50 or older, there's an $8,000 catch-up on top, for $32,500 total.",
+   "say": "If you're fifty or older, there's an eight thousand dollar catch-up on top, for thirty-two thousand, five hundred total.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 catch-up limits",
+    "left": {
+     "label": "Age 50+",
+     "value": "$8,000",
+     "tone": "neutral",
+     "sub": "total $32,500"
+    },
+    "right": {
+     "label": "Age 60-63",
+     "value": "$11,250",
+     "tone": "up",
+     "sub": "total $35,750"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Turning 60 through 63 in 2026? The super catch-up is $11,250, if the plan offers it.",
+   "say": "Turning sixty through sixty-three in twenty twenty-six? The super catch-up is eleven thousand, two hundred fifty dollars, if the plan offers it.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 catch-up limits",
+    "left": {
+     "label": "Age 50+",
+     "value": "$8,000",
+     "tone": "neutral",
+     "sub": "total $32,500"
+    },
+    "right": {
+     "label": "Age 60-63",
+     "value": "$11,250",
+     "tone": "up",
+     "sub": "total $35,750"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "New for 2026: if your 2025 FICA wages from that employer topped $150,000, catch-up money has to go in as Roth.",
+   "say": "New for twenty twenty-six: if your twenty twenty-five FICA wages from that employer topped a hundred and fifty thousand dollars, catch-up money has to go in as Roth.",
+   "scene": {
+    "t": "stat",
+    "label": "Roth catch-up wage line",
+    "value": "$150,000",
+    "tone": "neutral",
+    "sub": "2025 FICA wages; IRS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Roth means after-tax now, and tax-free later if the rules are met. It only applies to the catch-up part.",
+   "say": "Roth means after-tax now, and tax-free later if the rules are met. It only applies to the catch-up part.",
+   "scene": {
+    "t": "split",
+    "title": "Over $150,000 in 2025 wages",
+    "left": {
+     "title": "Regular $24,500",
+     "items": [
+      "Pre-tax or Roth",
+      "Per plan options"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Catch-up",
+     "items": [
+      "Must be Roth",
+      "After-tax now"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One more ceiling: employee plus employer money together can't top $72,000 in 2026, not counting catch-ups.",
+   "say": "One more ceiling: employee plus employer money together can't top seventy-two thousand dollars in twenty twenty-six, not counting catch-ups.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 total additions limit",
+    "value": "$72,000",
+    "tone": "neutral",
+    "sub": "Employee + employer; IRS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, the match. Plenty of employers add money when you contribute, for example 50 cents per dollar, up to 6% of pay.",
+   "say": "Now, the match. Plenty of employers add money when you contribute, for example fifty cents for every dollar, up to six percent of pay.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You put in (example)",
+     "value": "$1.00"
+    },
+    "to": {
+     "label": "Employer adds",
+     "value": "$0.50"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Worked example: on a $60,000 salary, 6% is $3,600. A 50% match on that adds $1,800 a year.",
+   "say": "Worked example: on a sixty thousand dollar salary, six percent is three thousand, six hundred dollars. A fifty percent match on that adds eighteen hundred dollars a year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$60,000 × 6% = $3,600",
+     "50% match = $1,800/yr"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But matched money might not be fully yours yet. That's called vesting.",
+   "say": "But matched money might not be fully yours yet. That's called vesting.",
+   "scene": {
+    "t": "hook",
+    "title": "Is it [yours] yet?",
+    "prop": "bag",
+    "label": "MATCH",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your own contributions are always 100% yours. Employer money can follow a schedule.",
+   "say": "Your own contributions are always one hundred percent yours. Employer money can follow a schedule.",
+   "scene": {
+    "t": "compare",
+    "title": "Vesting",
+    "left": {
+     "label": "Your money",
+     "value": "100%",
+     "tone": "up",
+     "sub": "always"
+    },
+    "right": {
+     "label": "Employer match",
+     "value": "0-100%",
+     "tone": "neutral",
+     "sub": "on a schedule"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For a match, the law sets the slowest schedules allowed: a 3-year cliff, or graded from 20% at year 2 to 100% at year 6.",
+   "say": "For a match, the law sets the slowest schedules allowed: a three-year cliff, or graded from twenty percent at year two to one hundred percent at year six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Year 2",
+      "Graded: 20%"
+     ],
+     [
+      "Year 3",
+      "Cliff: 100%"
+     ],
+     [
+      "Year 6",
+      "Graded: 100%"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: leave after 4 years on that graded schedule, and you keep 60%: $4,320 of $7,200, ignoring growth.",
+   "say": "Example: leave after four years on that graded schedule, and you keep sixty percent: four thousand, three hundred twenty dollars of seventy-two hundred, ignoring growth.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,800 × 4 yrs = $7,200",
+     "60% vested = $4,320"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many plans vest faster than the legal limit. The actual schedule is in the plan's summary plan description.",
+   "say": "Many plans vest faster than the legal limit. The actual schedule is written in the plan's summary plan description.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your real schedule:",
+     "Summary Plan Description"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 7: The one-screen recap.",
+   "say": "Chapter seven: the one-screen recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "The one-screen recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the one-screen recap. First, the default: where money lands if nobody picks.",
+   "say": "Here's the one-screen recap. First, the default: where money lands if nobody picks.",
+   "scene": {
+    "t": "list",
+    "title": "401(k) recap",
+    "items": [
+     "The default fund",
+     "Expense ratios",
+     "Overall mix",
+     "Company stock share"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, expense ratios, which in our hypothetical meant a $67,109 gap.",
+   "say": "Second, expense ratios, which in our hypothetical meant a sixty-seven thousand, one hundred nine dollar gap.",
+   "scene": {
+    "t": "list",
+    "title": "401(k) recap",
+    "items": [
+     "The default fund",
+     "Expense ratios",
+     "Overall mix",
+     "Company stock share"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, the overall mix. A target-date fund is built to stand alone, and stacking other funds on top changes it.",
+   "say": "Third, the overall mix. A target-date fund is built to stand alone, and stacking other funds on top of it changes things.",
+   "scene": {
+    "t": "list",
+    "title": "401(k) recap",
+    "items": [
+     "The default fund",
+     "Expense ratios",
+     "Overall mix",
+     "Company stock share"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fourth, how much sits in company stock, and when the rules let you move it.",
+   "say": "Fourth, how much sits in company stock, and when the rules let you move it.",
+   "scene": {
+    "t": "list",
+    "title": "401(k) recap",
+    "items": [
+     "The default fund",
+     "Expense ratios",
+     "Overall mix",
+     "Company stock share"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the money rules: the annual limit, catch-ups and the new Roth rule, the match formula, and the vesting schedule.",
+   "say": "Then the money rules: the annual limit, catch-ups and the new Roth rule, the match formula, and the vesting schedule.",
+   "scene": {
+    "t": "list",
+    "title": "Money rules, 2026",
+    "items": [
+     "$24,500 limit",
+     "Catch-ups + Roth rule",
+     "Match formula",
+     "Vesting schedule"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So, is owning one fund lazy? For 61% of Vanguard savers, it's the whole plan. And now you know what's inside it.",
+   "say": "So, is owning one fund lazy? For sixty-one percent of Vanguard savers, it's the whole plan. And now you know exactly what's inside it.",
+   "scene": {
+    "t": "hook",
+    "title": "One fund, [explained]",
+    "prop": "box",
+    "label": "401(k)",
+    "value": "61%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "61% of Vanguard 401(k) savers hold one target-date fund. How to pick 401(k) investments (2026 guide)",
+  "ig": "In 2025, 61% of Vanguard 401(k) savers held a single target-date fund. Here's what's inside it, and what else is on the menu.",
+  "tiktok": "In 2025, 61% of Vanguard 401(k) savers held a single target-date fund. Here's how the whole 401(k) menu works.",
+  "yt_desc": "A step-by-step guide to the investment menu in a 401(k): what happens if you never choose (the Labor Department's default investment rule and SECURE 2.0 auto-enrollment), how target-date funds and their glide paths work, and what index funds, actively managed funds, stable value and company stock are. It walks through a hypothetical 0.05% versus 0.75% expense ratio example on $50,000 over 30 years ($67,109 gap at an assumed 7% return before fees), plus diversification, rebalancing, the 2026 IRS limits ($24,500, the $8,000 and $11,250 catch-ups, the new Roth catch-up rule above $150,000 in 2025 FICA wages), employer match math and vesting schedules. It ends with a one-screen recap.\n\nCHAPTERS\n\nSources: Vanguard, How America Saves 2026 (June 2026); IRS Notice 2025-67 (2026 limits and Roth catch-up wage threshold); Treasury/IRS final Roth catch-up regulations (Sept 2025); ICI, The Economics of Providing 401(k) Plans, 2024 (July 2025); ICI, Trends in the Expenses and Fees of Funds, 2025 (March 2026); Morningstar, 2026 Target-Date Landscape; US Department of Labor, QDIA rule (29 CFR 2550.404c-5) and fee disclosure rule (29 CFR 2550.404a-5); IRC 401(a)(35) and 411(a); SECURE 2.0 Act; CNBC (March 30, 2026) on the DOL's proposed fund-selection rule.\n\nNews and education, not financial advice.\n\n#401k #retirement #personalfinance",
+  "tags": [
+   "how to pick 401k investments",
+   "401k for beginners",
+   "target date funds",
+   "401k fees",
+   "expense ratio",
+   "401k limit 2026",
+   "personal finance"
+  ]
+ }
+}
