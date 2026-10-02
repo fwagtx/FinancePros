@@ -1,0 +1,182 @@
+{
+  "series": "ticker",
+  "header": "Myth: full coverage\ncovers everything",
+  "cover": {
+    "title": "Full Coverage Isn't Full",
+    "prop": "car",
+    "label": "2026",
+    "value": "MYTH"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Myth (2026): \"full coverage\" car insurance covers everything. It doesn't.",
+      "say": "Full coverage car insurance? It doesn't cover everything.",
+      "scene": {
+        "t": "hook",
+        "title": "Not [full] coverage",
+        "prop": "car",
+        "label": "2026",
+        "value": "MYTH",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And it isn't cheap: Bankrate's 2026 national average for full coverage is $2,697 a year.",
+      "say": "It's not cheap: Bankrate's twenty twenty-six average is about twenty-seven hundred dollars a year.",
+      "scene": {
+        "t": "stat",
+        "label": "Avg full coverage, per year",
+        "value": "$2,697",
+        "tone": "down",
+        "sub": "Bankrate, 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "\"Full coverage\" has no official definition. It usually means liability + collision + comprehensive.",
+      "say": "But full coverage isn't an official policy. It usually means liability, collision and comprehensive.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "\"Full coverage\" =",
+          "Liability + collision",
+          "+ comprehensive"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Liability has limits. Common state minimum 25/50/25: $25,000 per person, $50,000 per crash, $25,000 property.",
+      "say": "Liability has limits: a common state minimum is twenty-five, fifty, twenty-five, in thousands.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "25/50/25 means:",
+          "$25K injuries per person",
+          "$50K per crash, $25K prop."
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Usually not included: the loan gap, rental and towing (unless added), wear and tear, rideshare driving.",
+      "say": "Bills above that aren't covered. Also missing: the loan gap, rentals, towing, wear and tear, and rideshare driving.",
+      "scene": {
+        "t": "list",
+        "title": "Usually NOT included",
+        "items": [
+          "Loan gap",
+          "Rental, towing",
+          "Wear and tear",
+          "Rideshare use"
+        ],
+        "reveal": 4,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: a totaled car worth $20,000 (actual cash value) with $25,000 still owed on the loan.",
+      "say": "Example: the car's totaled. It's worth twenty thousand dollars, and the loan is twenty-five thousand.",
+      "scene": {
+        "t": "compare",
+        "title": "Example: car totaled",
+        "left": {
+          "label": "Car value",
+          "value": "$20,000",
+          "tone": "neutral",
+          "sub": "actual cash value"
+        },
+        "right": {
+          "label": "Loan owed",
+          "value": "$25,000",
+          "tone": "down",
+          "sub": "balance left"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Payout: $20,000 - $500 deductible = $19,500. Still owed: $25,000 - $19,500 = $5,500.",
+      "say": "Insurance pays the value minus a five hundred dollar deductible: nineteen thousand five hundred. Five thousand five hundred is still owed.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$20,000 - $500 deductible",
+          "= $19,500 payout",
+          "Still owed: $5,500"
+        ],
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2023, 15.4% of US drivers (about 1 in 7) were uninsured (Insurance Research Council). Uninsured motorist coverage is a separate line.",
+      "say": "In twenty twenty-three, about one in seven drivers had no insurance. Uninsured motorist coverage is separate.",
+      "scene": {
+        "t": "stat",
+        "label": "US drivers uninsured, 2023",
+        "value": "15.4%",
+        "tone": "down",
+        "sub": "IRC: about 1 in 7",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "\"Full coverage\" = three coverages. Gap, rental, towing, rideshare and uninsured motorist are separate lines on the policy.",
+      "say": "So full coverage means three coverages. The rest are separate lines.",
+      "scene": {
+        "t": "split",
+        "title": "What's on the policy",
+        "left": {
+          "title": "\"Full\" (3)",
+          "items": [
+            "Liability",
+            "Collision",
+            "Comprehensive"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Separate lines",
+          "items": [
+            "Gap",
+            "Rental, towing",
+            "Rideshare",
+            "Uninsured driver"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Myth: \"full coverage\" car insurance covers everything",
+    "ig": "\"Full coverage\" car insurance doesn't cover everything.\n\n\"Full coverage\" has no official definition: it usually means liability + collision + comprehensive. Bankrate's 2026 national average: $2,697 a year.\nA common state liability minimum is 25/50/25 ($25,000 per person, $50,000 per crash, $25,000 property). Bills above the limits aren't covered.\nUsually not included: the loan gap, rental and towing unless added, wear and tear, rideshare driving.\nExample: car worth $20,000, $25,000 loan, $500 deductible: payout $19,500, still owed $5,500. In 2023, 15.4% of drivers (about 1 in 7) were uninsured.\n\nSources: Bankrate (2026); West Virginia Insurance Commissioner; Insurance Research Council (2023 data); CNBC Select.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#carinsurance #fullcoverage #moneymyths #personalfinance #financeprostv",
+    "tiktok": "\"Full coverage\" isn't full: a $20K totaled car can leave $5,500 owed. Not financial advice. #moneytok #personalfinance #carinsurance #financeprostv",
+    "yt_desc": "\"Full coverage\" car insurance has no official definition; it usually means liability, collision and comprehensive, at a Bankrate 2026 average of $2,697 a year. It typically leaves out the loan gap, rental and towing, wear and tear and rideshare driving: a $20,000 totaled car with a $25,000 loan and $500 deductible leaves $5,500 owed. In 2023, 15.4% of US drivers were uninsured (Insurance Research Council). Sources: Bankrate, West Virginia Insurance Commissioner, IRC.\n\nNews and education, not financial advice.\n\n#Shorts #carinsurance #moneymyths",
+    "tags": [
+      "full coverage car insurance",
+      "gap insurance",
+      "car insurance myths",
+      "uninsured motorist",
+      "car insurance 2026"
+    ]
+  }
+}
