@@ -71,3 +71,16 @@ EO 6102 covered gold bullion and gold certificates as well as coins, and it was 
 The history, the three functions of money and the M2 totals are correct. The cash figures are wrong: the 10.6% share, $2.5T of cash and $20.9T in accounts (hook, compare scene, cover, all captions) use monetary-base currency, which includes bank vault cash that is not part of M2. The correct figures are about 10% (10.2%), $2.4T and $21.0T. Apply fixes 1–4.
 
 VERDICT: FAIL
+
+## Round 2
+I re-read the revised raw.json and checked every fix.
+
+- **Fix 1 (hook): resolved.** text "Only about 10% was cash." / say "Americans had twenty-three trillion in money. Roughly a tenth was cash." (11 words, about 2.5 s) / scene title "Cash: just [~10%]", value "~10%". The spoken "roughly a tenth" matches the on-screen ~10%, and both match the correct 10.2% (2,390.5 / 23,342.8). Dropping "dollars" is fine because the screen shows $23.3 trillion. The hook is true and specific.
+- **Fix 2 (compare scene): resolved.** Cash is $2.4T and accounts are $21.0T (20,952B). The text, narration ("two point four", "twenty-one") and scene agree. Values are 5 and 6 characters, within the 7-character limit.
+- **Fix 3 (cover): resolved.** Value "~10%", label "Aug 2026".
+- **Fix 4 (captions): resolved.** The title, ig, tiktok and yt_desc now all say "about 10%" and "about $2.4T". The past tense "was" stays accurate on Nov 25.
+- **Fix 5 (line 8): resolved.** "M two, broad money," explains the term. The chart point for 2022 is still 21.27. That was optional and is acceptable (a vintage difference too small to see on the chart).
+- **Fix 6 (line 7): resolved.** The timeline now reads "Gold turned in".
+- **New problems:** none. Both keep:true lines still follow list scenes. There is no advice and no political opinion, and the CTA is correct. Time words are explicitly dated, so they stay true after the Oct 27 and Nov 24 H.6 releases. Spoken words total 147, within the 100–150 range.
+
+VERDICT: PASS
