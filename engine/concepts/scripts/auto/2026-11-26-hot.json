@@ -1,233 +1,233 @@
 {
- "id": "2026-11-26-hot",
- "format": "vertical",
- "series": "ticker",
- "header": "Face-off: active\nvs index funds",
- "cover": {
-  "title": "Pros vs Index: Who Won 2025?",
-  "prop": "chart-down",
-  "label": "S&P 500",
-  "value": "79% lost"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "79% of pros lost to an index in 2025.",
-   "say": "Seventy-nine percent of pros lost to an index in twenty twenty-five.",
-   "scene": {
-    "t": "hook",
-    "title": "[79%] of pros lost",
+  "id": "2026-11-26-hot",
+  "format": "vertical",
+  "series": "ticker",
+  "header": "Face-off: active\nvs index funds",
+  "cover": {
+    "title": "Pros vs Index: Who Won 2025?",
     "prop": "chart-down",
     "label": "S&P 500",
-    "value": "79%",
-    "mood": "shock"
-   }
+    "value": "79%"
   },
-  {
-   "who": "ticker",
-   "text": "Active large-cap US funds trailing the S&P 500 in 2025 (S&P Dow Jones Indices).",
-   "say": "That's active large-cap funds trailing the S and P five hundred.",
-   "scene": {
-    "t": "stat",
-    "label": "Active large-cap funds that trailed",
-    "value": "79%",
-    "tone": "down",
-    "sub": "SPIVA, calendar 2025",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Not a fluke: a majority trailed every year from 2021 to 2025.",
-   "say": "Not a fluke. A majority trailed every year from twenty twenty-one to twenty twenty-five.",
-   "scene": {
-    "t": "chart",
-    "title": "Large-cap funds trailing S&P 500",
-    "points": [
-     [
-      2021,
-      85
-     ],
-     [
-      2022,
-      51
-     ],
-     [
-      2023,
-      60
-     ],
-     [
-      2024,
-      65
-     ],
-     [
-      2025,
-      79
-     ]
-    ],
-    "suffix": "%",
-    "end": "79%",
-    "color": "down",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Even in the best of these years, 2022, 51% trailed.",
-   "say": "Even in the best of these years, twenty twenty-two, fifty-one percent trailed.",
-   "scene": {
-    "t": "chart",
-    "keep": true,
-    "title": "Large-cap funds trailing S&P 500",
-    "points": [
-     [
-      2021,
-      85
-     ],
-     [
-      2022,
-      51
-     ],
-     [
-      2023,
-      60
-     ],
-     [
-      2024,
-      65
-     ],
-     [
-      2025,
-      79
-     ]
-    ],
-    "suffix": "%",
-    "end": "79%",
-    "color": "down",
-    "mood": "shock",
-    "note": {
-     "x": 2022,
-     "text": "best year: 51%"
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "79% of pros lost to an index in 2025.",
+      "say": "Seventy-nine percent of pros lost to an index in twenty twenty-five.",
+      "scene": {
+        "t": "hook",
+        "title": "[79%] of pros lost",
+        "prop": "chart-down",
+        "label": "S&P 500",
+        "value": "79%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Active large-cap US funds trailing the S&P 500 in 2025 (S&P Dow Jones Indices).",
+      "say": "That's active large-cap funds trailing the S and P five hundred.",
+      "scene": {
+        "t": "stat",
+        "label": "Active large-cap funds that trailed",
+        "value": "79%",
+        "tone": "down",
+        "sub": "SPIVA, calendar 2025",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Not a fluke: a majority trailed every year from 2021 to 2025.",
+      "say": "Not a fluke. A majority trailed every year from twenty twenty-one to twenty twenty-five.",
+      "scene": {
+        "t": "chart",
+        "title": "Large-cap funds trailing S&P 500",
+        "points": [
+          [
+            2021,
+            85
+          ],
+          [
+            2022,
+            51
+          ],
+          [
+            2023,
+            60
+          ],
+          [
+            2024,
+            65
+          ],
+          [
+            2025,
+            79
+          ]
+        ],
+        "suffix": "%",
+        "end": "79%",
+        "color": "down",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Even in the best of these years, 2022, 51% trailed.",
+      "say": "Even in the best of these years, twenty twenty-two, fifty-one percent trailed.",
+      "scene": {
+        "t": "chart",
+        "keep": true,
+        "title": "Large-cap funds trailing S&P 500",
+        "points": [
+          [
+            2021,
+            85
+          ],
+          [
+            2022,
+            51
+          ],
+          [
+            2023,
+            60
+          ],
+          [
+            2024,
+            65
+          ],
+          [
+            2025,
+            79
+          ]
+        ],
+        "suffix": "%",
+        "end": "79%",
+        "color": "down",
+        "mood": "shock",
+        "note": {
+          "x": 2022,
+          "text": "best year: 51%"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Fees are one reason. In 2025, active stock mutual funds averaged 0.64% a year; index ones, 0.05% (ICI).",
+      "say": "Fees are one reason. In twenty twenty-five, active stock funds averaged zero point six four percent a year; index ones, zero point zero five percent.",
+      "scene": {
+        "t": "compare",
+        "title": "Average yearly fee, 2025",
+        "left": {
+          "label": "Active",
+          "value": "0.64%",
+          "tone": "down",
+          "sub": "stock mutual funds"
+        },
+        "right": {
+          "label": "Index",
+          "value": "0.05%",
+          "tone": "up",
+          "sub": "stock mutual funds"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: $10,000 at 7% a year before fees for 30 years becomes $75,063 at a 0.05% fee, or $63,584 at 0.64%.",
+      "say": "Example: ten thousand dollars at seven percent a year before fees, for thirty years. A low fee leaves seventy-five thousand sixty-three dollars; a high fee, sixty-three thousand five hundred eighty-four.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$10,000, 7%/yr, 30 years",
+          "0.05% fee: $75,063",
+          "0.64% fee: $63,584"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's $11,479, gone to fees.",
+      "say": "That's eleven thousand four hundred seventy-nine dollars, gone to fees.",
+      "scene": {
+        "t": "stat",
+        "label": "Cost of the fee gap",
+        "value": "$11,479",
+        "tone": "down",
+        "sub": "Example: 30 years, 7% a year",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "By the end of 2023, US passive funds held more money than active ones (Morningstar).",
+      "say": "By the end of twenty twenty-three, passive funds held more money than active.",
+      "scene": {
+        "t": "compare",
+        "title": "US fund assets, end of 2023",
+        "left": {
+          "label": "Active",
+          "value": "$13.24T",
+          "tone": "neutral",
+          "sub": "Morningstar"
+        },
+        "right": {
+          "label": "Passive",
+          "value": "$13.25T",
+          "tone": "up",
+          "sub": "Morningstar"
+        },
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Active funds can beat the index; most didn't. Index funds just match it, minus tiny fees.",
+      "say": "Active funds can beat the index; most didn't. Index funds just match it, minus tiny fees.",
+      "scene": {
+        "t": "split",
+        "title": "The trade-off",
+        "left": {
+          "title": "Active",
+          "items": [
+            "Can beat index",
+            "Higher fees"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "Index",
+          "items": [
+            "Matches index",
+            "Tiny fees"
+          ],
+          "tone": "neutral"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
     }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Fees are one reason. In 2025, active stock mutual funds averaged 0.64% a year; index ones, 0.05% (ICI).",
-   "say": "Fees are one reason. In twenty twenty-five, active stock funds averaged zero point six four percent a year; index ones, zero point zero five percent.",
-   "scene": {
-    "t": "compare",
-    "title": "Average yearly fee, 2025",
-    "left": {
-     "label": "Active",
-     "value": "0.64%",
-     "tone": "down",
-     "sub": "stock mutual funds"
-    },
-    "right": {
-     "label": "Index",
-     "value": "0.05%",
-     "tone": "up",
-     "sub": "stock mutual funds"
-    },
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Example: $10,000 at 7% a year before fees for 30 years becomes $75,063 at a 0.05% fee, or $63,584 at 0.64%.",
-   "say": "Example: ten thousand dollars at seven percent a year before fees, for thirty years. A low fee leaves seventy-five thousand sixty-three dollars; a high fee, sixty-three thousand five hundred eighty-four.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "$10,000, 7%/yr, 30 years",
-     "0.05% fee: $75,063",
-     "0.64% fee: $63,584"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's $11,479, gone to fees.",
-   "say": "That's eleven thousand four hundred seventy-nine dollars, gone to fees.",
-   "scene": {
-    "t": "stat",
-    "label": "Cost of the fee gap",
-    "value": "$11,479",
-    "tone": "down",
-    "sub": "Example: 30 years, 7% a year",
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "By the end of 2023, US passive funds held more money than active ones (Morningstar).",
-   "say": "By the end of twenty twenty-three, passive funds held more money than active.",
-   "scene": {
-    "t": "compare",
-    "title": "US fund assets, end of 2023",
-    "left": {
-     "label": "Active",
-     "value": "$13.24T",
-     "tone": "neutral",
-     "sub": "Morningstar"
-    },
-    "right": {
-     "label": "Passive",
-     "value": "$13.25T",
-     "tone": "up",
-     "sub": "Morningstar"
-    },
-    "mood": "up"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Active funds can beat the index; most didn't. Index funds just match it, minus tiny fees.",
-   "say": "Active funds can beat the index; most didn't. Index funds just match it, minus tiny fees.",
-   "scene": {
-    "t": "split",
-    "title": "The trade-off",
-    "left": {
-     "title": "Active",
-     "items": [
-      "Can beat index",
-      "Higher fees"
-     ],
-     "tone": "neutral"
-    },
-    "right": {
-     "title": "Index",
-     "items": [
-      "Matches index",
-      "Tiny fees"
-     ],
-     "tone": "neutral"
-    },
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
-   "scene": {
-    "t": "cta"
-   }
+  ],
+  "post": {
+    "title": "79% of pro stock pickers lost to an index in 2025",
+    "ig": "79% of pros lost to an index in 2025.\n\n79% of active US large-cap funds trailed the S&P 500 in 2025, and a majority trailed every year from 2021 to 2025 (SPIVA).\nAverage fees in 2025: 0.64% for active stock mutual funds vs 0.05% for index stock mutual funds (ICI).\nExample: $10,000 at 7% a year before fees for 30 years ends at $75,063 at 0.05% vs $63,584 at 0.64%: an $11,479 gap.\nBy end of 2023, US passive funds held more assets than active ones (Morningstar).\n\nSources: S&P Dow Jones Indices SPIVA U.S. Scorecards; ICI (2026); Morningstar.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#indexfunds #investing #personalfinance #moneytips #financeprostv",
+    "tiktok": "79% of active large-cap funds trailed the S&P 500 in 2025. Not financial advice. #moneytok #personalfinance #indexfunds #investing #financeprostv",
+    "yt_desc": "In 2025, 79% of active US large-cap funds trailed the S&P 500 (S&P Dow Jones Indices SPIVA), and average fees were 0.64% for active stock mutual funds versus 0.05% for index stock mutual funds (ICI). In a 30-year example at 7% a year before fees, that fee gap costs $11,479 on $10,000. Sources: SPIVA, ICI, Morningstar.\n\nNews and education, not financial advice.\n\n#Shorts #indexfunds #investing",
+    "tags": [
+      "active vs passive funds",
+      "index funds",
+      "SPIVA 2025",
+      "mutual fund fees",
+      "expense ratio"
+    ]
   }
- ],
- "post": {
-  "title": "79% of pro stock pickers lost to an index in 2025",
-  "ig": "79% of pros lost to an index in 2025.\n\n79% of active US large-cap funds trailed the S&P 500 in 2025, and a majority trailed every year from 2021 to 2025 (SPIVA).\nAverage fees in 2025: 0.64% for active stock mutual funds vs 0.05% for index stock mutual funds (ICI).\nExample: $10,000 at 7% a year before fees for 30 years ends at $75,063 at 0.05% vs $63,584 at 0.64%: an $11,479 gap.\nBy end of 2023, US passive funds held more assets than active ones (Morningstar).\n\nSources: S&P Dow Jones Indices SPIVA U.S. Scorecards; ICI (2026); Morningstar.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#indexfunds #investing #personalfinance #moneytips #financeprostv",
-  "tiktok": "79% of active large-cap funds trailed the S&P 500 in 2025. Not financial advice. #moneytok #personalfinance #indexfunds #investing #financeprostv",
-  "yt_desc": "In 2025, 79% of active US large-cap funds trailed the S&P 500 (S&P Dow Jones Indices SPIVA), and average fees were 0.64% for active stock mutual funds versus 0.05% for index stock mutual funds (ICI). In a 30-year example at 7% a year before fees, that fee gap costs $11,479 on $10,000. Sources: SPIVA, ICI, Morningstar.\n\nNews and education, not financial advice.\n\n#Shorts #indexfunds #investing",
-  "tags": [
-   "active vs passive funds",
-   "index funds",
-   "SPIVA 2025",
-   "mutual fund fees",
-   "expense ratio"
-  ]
- }
 }
