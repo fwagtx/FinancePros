@@ -184,3 +184,43 @@ After these edits: 91 lines and 1,767 spoken words, both within limits. The open
 - Nasdaq and Fidelity 2026 holiday calendars
 
 VERDICT: FAIL
+
+## Round 2
+
+I re-read the full raw.json on October 2, 2026, after the editor applied fixes 1-6.
+
+**Scope of the edits.** I diffed the script against the Round 1 version. Only lines 0, 1, 31, 46, 61, 62, 64, 65, 66, 68, 85 and 89 changed, plus the cover and post. Nothing else was touched.
+
+**Fix 1 and 2 (headline number and opening).**
+- No "51.8%", "January 2025", "Jan 2025", Bloomberg or MEMX text is left in the lines, cover or post. I grepped the whole file to confirm.
+- The lines, cover, post title, ig, tiktok and yt_desc all now use the 2025 full-year figure of 50.6% (Cboe). The source list now cites Cboe's 2025 U.S. Equities Year in Review.
+- Line 0 reads "Most US stock trading never touches a stock exchange." It is 9 words, about 2.7 seconds, and true: off-exchange volume was 50.6% for 2025.
+- Line 1's sub, "2025, Cboe: first over half", is accurate.
+
+**Fix 3 (concentration).**
+- Line 62 now reads "far more concentrated than even at the dot-com peak," which the sources support.
+- The sub on lines 61-62 is "Far above 2000".
+
+**Fix 4 (screen vs narration).**
+- Line 64 shows "about 2,044" and "about 6,846", matching the narration.
+- The chart end is "6,846" on lines 64, 65 and 66, so all three chart scenes are identical apart from their notes.
+
+**Fix 5 and 6.**
+- Line 68 now says single years often land far from 10%.
+- Line 46 now ends "even though the price never moved."
+- Text and narration agree on both lines.
+
+**Mechanical checks.**
+- 91 lines and 1,767 spoken words, both within limits.
+- The file validates against the schema.
+- Every keep:true line still directly follows the same scene template (lines 4, 23, 33, 42, 43, 57, 62, 65, 66, 76, 79, 80, 85-87).
+- All compare values are 7 characters or fewer.
+
+**New issues.** None.
+
+**Optional items, all skipped by the editor and not blocking:**
+- The 2010 point is missing from the chart on lines 3-4.
+- Before posting, re-check that the December 6, 2026 overnight start still holds, and add timestamps under CHAPTERS.
+- Line 90 says "Follow" where YouTube viewers expect "Subscribe".
+
+VERDICT: PASS
