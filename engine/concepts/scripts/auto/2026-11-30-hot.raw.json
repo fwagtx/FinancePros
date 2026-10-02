@@ -1,0 +1,207 @@
+{
+  "series": "ticker",
+  "header": "Scam alert:\nFake soldiers",
+  "cover": {
+    "title": "The Soldier Who Needs Money",
+    "prop": "bill",
+    "label": "FBI 2025",
+    "value": "$929M"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Romance scams took $929 million in 2025.",
+      "say": "Romance scams took nine hundred twenty-nine million dollars in twenty twenty-five.",
+      "scene": {
+        "t": "hook",
+        "title": "Romance [scams], 2025",
+        "prop": "bill",
+        "label": "FBI 2025",
+        "value": "$929M",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And a favorite cover story in FTC reports: a soldier stationed far away.",
+      "say": "And a favorite cover story in F T C reports? A soldier stationed far away.",
+      "scene": {
+        "t": "news",
+        "headline": "FTC: military story among top lies",
+        "source": "FTC Data Spotlight, Feb 2023",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In FBI data, that's up from $475 million in 2019.",
+      "say": "In F B I data, that's up from four hundred seventy-five million in twenty nineteen.",
+      "scene": {
+        "t": "chart",
+        "title": "FBI: romance fraud losses",
+        "points": [
+          [
+            2019,
+            475.0
+          ],
+          [
+            2020,
+            600.2
+          ],
+          [
+            2021,
+            956.0
+          ],
+          [
+            2022,
+            735.9
+          ],
+          [
+            2023,
+            652.5
+          ],
+          [
+            2024,
+            672.0
+          ],
+          [
+            2025,
+            929.3
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "M",
+        "end": "$929M",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And up 38% from 2024.",
+      "say": "And up thirty-eight percent from twenty twenty-four.",
+      "scene": {
+        "t": "chart",
+        "keep": true,
+        "chart_note": {
+          "x": 2025,
+          "text": "+38% in a year"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The fake soldier's asks follow a script: money for leave papers, then a flight home.",
+      "say": "The fake soldier's asks follow a script: money for leave papers, then a flight home.",
+      "scene": {
+        "t": "list",
+        "title": "The fake soldier's asks",
+        "items": [
+          "Leave papers",
+          "Flight home",
+          "Medical bills",
+          "A special phone"
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Then medical bills, and a special phone to stay in touch.",
+      "say": "Then medical bills, and a special phone to stay in touch.",
+      "scene": {
+        "t": "list",
+        "keep": true,
+        "reveal": 4,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: $500 + $1,200 + $2,500 = $4,200, nearly double the FTC's $2,218 median romance loss (Q3 2025).",
+      "say": "Example: five hundred, twelve hundred, then twenty-five hundred. That's forty-two hundred dollars, nearly double the F T C's median romance loss of about twenty-two hundred.",
+      "scene": {
+        "t": "compare",
+        "title": "Example: 3 asks add up",
+        "left": {
+          "label": "Example asks",
+          "value": "$4,200",
+          "tone": "down",
+          "sub": "$500+$1,200+$2,500"
+        },
+        "right": {
+          "label": "Median loss",
+          "value": "$2,218",
+          "tone": "neutral",
+          "sub": "FTC, Q3 2025"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The surprise: Army investigators say buying leave papers is a lie.",
+      "say": "The surprise: Army investigators say buying leave papers is a lie.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Army CID: leave papers",
+          "aren't for sale.",
+          "The request is a lie."
+        ],
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The pattern: weeks after meeting online, a soldier who can't call asks for gift cards, wires or crypto.",
+      "say": "The pattern: weeks after meeting online, a soldier who can't call asks for gift cards, wires or crypto.",
+      "scene": {
+        "t": "split",
+        "title": "The pattern",
+        "left": {
+          "title": "The story",
+          "items": [
+            "Far-off base",
+            "No phone access",
+            "Asks in weeks"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "The ask",
+          "items": [
+            "Gift cards",
+            "Wire transfers",
+            "Crypto"
+          ],
+          "tone": "down"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Romance scams took $929M in 2025. Meet the fake soldier.",
+    "ig": "Romance scams took $929 million in 2025, per the FBI.\n\nFBI IC3 confidence/romance fraud losses: $475M in 2019, $929.3M in 2025, up 38% from $672.0M in 2024.\nIn FTC reports (Feb 2023 spotlight), being in the military far away is one of romance scammers' most common lies.\nArmy CID: impostors ask for money for leave papers, flights home, medical bills and special phones, and CID calls these requests lies.\nExample: $500 + $1,200 + $2,500 = $4,200, nearly double the FTC's $2,218 median romance loss (Q3 2025).\n\nSources: FBI IC3 2025 Internet Crime Report; FTC Data Spotlight; Army CID.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scamalert #romancescam #militaryscam #personalfinance #financeprostv",
+    "tiktok": "Romance scams took $929M in 2025. Meet the fake soldier. Not financial advice. #moneytok #personalfinance #romancescam #scamalert #financeprostv",
+    "yt_desc": "Confidence and romance fraud cost Americans $929.3 million in 2025, up 38% from 2024, according to the FBI's IC3. The FTC lists 'I'm in the military far away' among romance scammers' top lies, and Army CID says asks for leave papers, flights home and medical bills are lies. Sources: FBI IC3 2025 Internet Crime Report, FTC Data Spotlight (Feb 2023), Army CID.\n\nNews and education, not financial advice.\n\n#Shorts #scamalert #romancescam",
+    "tags": [
+      "military romance scam",
+      "fake soldier scam",
+      "romance scam 2025",
+      "scam alert",
+      "FBI IC3 report"
+    ]
+  }
+}
