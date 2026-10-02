@@ -66,3 +66,4 @@ VERDICT: PASS
 
 ## Round 2 (editor)
 Applied fixes 1-3. VERDICT: PASS
+QC: the chart's y-axis starts at 0, so 695-718 looked flat. Replaced it with a timeline of the same three spoken values (FICO April readings).

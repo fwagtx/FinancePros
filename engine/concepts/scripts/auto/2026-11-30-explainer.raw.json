@@ -116,60 +116,22 @@
       "text": "The average US FICO Score rose from 695 in 2015 to a 718 peak in 2023, then slipped to 714 by 2026.",
       "say": "The US average rose from six ninety-five in twenty fifteen to seven eighteen in twenty twenty-three, then slipped to seven fourteen by twenty twenty-six.",
       "scene": {
-        "t": "chart",
-        "title": "Avg US FICO Score (April)",
-        "points": [
-          [
-            2015,
-            695
-          ],
-          [
-            2016,
-            699
-          ],
-          [
-            2017,
-            700
-          ],
-          [
-            2018,
-            704
-          ],
-          [
-            2019,
-            706
-          ],
-          [
-            2020,
-            708
-          ],
-          [
-            2021,
-            716
-          ],
-          [
-            2022,
-            716
-          ],
-          [
-            2023,
-            718
-          ],
-          [
-            2024,
-            717
-          ],
-          [
-            2025,
-            715
-          ],
-          [
-            2026,
-            714
-          ]
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Apr 2015",
+            "what": "Average 695"
+          },
+          {
+            "when": "Apr 2023",
+            "what": "Record 718"
+          },
+          {
+            "when": "Apr 2026",
+            "what": "Average 714"
+          }
         ],
-        "end": "714",
-        "color": "down",
+        "reveal": 3,
         "mood": "think"
       }
     },
