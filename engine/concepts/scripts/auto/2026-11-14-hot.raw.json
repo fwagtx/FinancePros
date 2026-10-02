@@ -1,0 +1,232 @@
+{
+ "series": "ticker",
+ "header": "Why is vanilla\nso expensive?",
+ "cover": {
+  "title": "Vanilla Beat Silver in 2018",
+  "prop": "bag",
+  "label": "1 kg",
+  "value": "$600"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2018, vanilla hit about $600 a kilo.",
+   "say": "In twenty eighteen, vanilla hit about six hundred dollars a kilo.",
+   "scene": {
+    "t": "hook",
+    "title": "Vanilla beat [silver]",
+    "prop": "bag",
+    "label": "1 kg",
+    "value": "$600",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "More than silver, at about $505 a kilo. So why?",
+   "say": "More than silver, at about five hundred five dollars a kilo. So why?",
+   "scene": {
+    "t": "compare",
+    "title": "Per kilo, 2018",
+    "left": {
+     "label": "Vanilla",
+     "value": "~$600",
+     "tone": "up",
+     "sub": "2018 peak, BBC"
+    },
+    "right": {
+     "label": "Silver",
+     "value": "$505",
+     "tone": "neutral",
+     "sub": "2018 avg, USGS"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each flower is pollinated by hand, on the one day it opens.",
+   "say": "Each flower is pollinated by hand, on the one day it opens.",
+   "scene": {
+    "t": "list",
+    "title": "Why vanilla costs so much",
+    "items": [
+     "Hand-pollinated flowers",
+     "9 months on vine",
+     "Months of curing"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pods then ripen about 9 months, and curing takes months more.",
+   "say": "Pods then ripen about nine months, and curing takes months more.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Why vanilla costs so much",
+    "items": [
+     "Hand-pollinated flowers",
+     "9 months on vine",
+     "Months of curing"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 42% of the crop comes from Madagascar, so a 2017 cyclone sent prices soaring.",
+   "say": "About forty-two percent of the crop comes from Madagascar, so a twenty seventeen cyclone sent prices soaring.",
+   "scene": {
+    "t": "stat",
+    "label": "Madagascar's share of world vanilla, 2023",
+    "value": "42%",
+    "tone": "neutral",
+    "sub": "FAOSTAT via Choices (AAEA)",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then supply came back. By 2024, Madagascar's exports averaged about $48 a kilo.",
+   "say": "Then supply came back. By twenty twenty-four, Madagascar's exports averaged about forty-eight dollars a kilo.",
+   "scene": {
+    "t": "chart",
+    "title": "Madagascar vanilla exports, $/kg",
+    "points": [
+     [
+      2018,
+      381.46
+     ],
+     [
+      2019,
+      395.2
+     ],
+     [
+      2020,
+      305.89
+     ],
+     [
+      2021,
+      243.57
+     ],
+     [
+      2022,
+      235.19
+     ],
+     [
+      2023,
+      195.84
+     ],
+     [
+      2024,
+      47.83
+     ]
+    ],
+    "prefix": "$",
+    "end": "$47.83",
+    "color": "down",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That followed Madagascar scrapping its $250 export floor in 2023.",
+   "say": "That followed Madagascar scrapping its two hundred fifty dollar export floor in twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Madagascar vanilla exports, $/kg",
+    "points": [
+     [
+      2018,
+      381.46
+     ],
+     [
+      2019,
+      395.2
+     ],
+     [
+      2020,
+      305.89
+     ],
+     [
+      2021,
+      243.57
+     ],
+     [
+      2022,
+      235.19
+     ],
+     [
+      2023,
+      195.84
+     ],
+     [
+      2024,
+      47.83
+     ]
+    ],
+    "prefix": "$",
+    "end": "$47.83",
+    "color": "down",
+    "chart_note": {
+     "x": 2023,
+     "text": "$250 floor ends"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a gallon of US-standard extract uses 13.35 oz of beans. That's about $227 at $600 a kilo, or about $18 at $48.",
+   "say": "Example: a gallon of US standard extract uses thirteen point three five ounces of beans. That's about two hundred twenty-seven dollars at six hundred a kilo, or about eighteen at forty-eight.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Beans/gallon at $600/kg",
+     "value": "$227.08"
+    },
+    "to": {
+     "label": "Beans/gallon at $48/kg",
+     "value": "$18.17"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The twist? Under 1% of vanilla flavor comes from real beans. Most is lab-made vanillin.",
+   "say": "The twist? Under one percent of vanilla flavor comes from real beans. Most is lab-made vanillin.",
+   "scene": {
+    "t": "stat",
+    "label": "Vanilla flavor from real beans",
+    "value": "<1%",
+    "tone": "down",
+    "sub": "C&EN, American Chem. Society",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "In 2018, vanilla cost more per kilo than silver. Why?",
+  "ig": "In 2018, vanilla hit about $600 a kilo, more than silver (about $505 a kilo that year).\n\nEvery vanilla flower is pollinated by hand on the one day it opens; pods ripen about 9 months, then cure for months.\nMadagascar grew about 42% of the world's vanilla in 2023, so a 2017 cyclone there sent prices soaring.\nAfter Madagascar dropped its $250/kg export floor in 2023, its exports averaged about $48/kg in 2024.\nExample (hypothetical, beans only): a gallon of US-standard extract needs 13.35 oz of beans: $227.08 at $600/kg vs $18.17 at $48/kg.\nLess than 1% of vanilla flavor comes from real beans.\n\nSources: BBC (2018); USGS/Silver Institute (2018 silver avg); FAOSTAT via Choices (AAEA); Mintec (2023); Madagascar export trade data 2018-2024; 21 CFR 169; C&EN (ACS).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#vanilla #madagascar #commodities #moneyfacts #financeprostv",
+  "tiktok": "Vanilla cost more than silver in 2018. Here's why, and what happened next. Not financial advice. #moneytok #personalfinance #vanilla #commodities #financeprostv",
+  "yt_desc": "In 2018, vanilla hit about $600 a kilo (BBC), more than silver's 2018 average of about $505 a kilo (USGS). Hand pollination, about 9 months on the vine, months of curing, and Madagascar's roughly 42% share of world production (FAOSTAT, 2023) explain the price; after Madagascar dropped its $250/kg export floor in 2023, its exports averaged about $48/kg in 2024. Less than 1% of vanilla flavor comes from real beans (C&EN). News and education, not financial advice.\n#Shorts #vanilla #commodities",
+  "tags": [
+   "why is vanilla so expensive",
+   "vanilla price",
+   "madagascar vanilla",
+   "vanilla vs silver",
+   "vanillin"
+  ]
+ }
+}
