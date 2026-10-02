@@ -1,0 +1,1490 @@
+{
+ "id": "2026-11-24-lf-business",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "How McDonald's became\na real estate empire",
+ "cover": {
+  "title": "Rent Beat The Burgers.",
+  "prop": "house",
+  "label": "2025",
+  "value": "$10.4B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "McDonald's made more from rent than from selling its own food.",
+   "say": "McDonald's made more from rent than from selling its own food.",
+   "scene": {
+    "t": "hook",
+    "title": "Rent beat [food sales]",
+    "prop": "house",
+    "label": "2025",
+    "value": "$10.4B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, franchisees paid McDonald's $10.4 billion in rent. Its own restaurants sold $9.7 billion of food.",
+   "say": "In twenty twenty-five, franchisees paid McDonald's ten point four billion dollars in rent. Its own restaurants sold nine point seven billion dollars of food.",
+   "scene": {
+    "t": "compare",
+    "title": "McDonald's, 2025",
+    "left": {
+     "label": "Rent collected",
+     "value": "$10.4B",
+     "tone": "up",
+     "sub": "From franchisees"
+    },
+    "right": {
+     "label": "Own restaurants",
+     "value": "$9.7B",
+     "tone": "neutral",
+     "sub": "Its own food sales"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rent won by $752 million. The world's best-known burger chain is also a giant landlord.",
+   "say": "Rent won by seven hundred fifty-two million dollars. The world's best-known burger chain is also a giant landlord.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "title": "McDonald's, 2025",
+    "left": {
+     "label": "Rent collected",
+     "value": "$10.4B",
+     "tone": "up",
+     "sub": "From franchisees"
+    },
+    "right": {
+     "label": "Own restaurants",
+     "value": "$9.7B",
+     "tone": "neutral",
+     "sub": "Its own food sales"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in September 2026, that landlord offered its tenants rent relief, as part of an $8.5 billion plan.",
+   "say": "And in September twenty twenty-six, that landlord offered its tenants rent relief, as part of an eight point five billion dollar plan.",
+   "scene": {
+    "t": "news",
+    "headline": "$8.5B plan includes rent relief",
+    "source": "Investor Day, Sept. 23, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how did a burger chain become a landlord? The history, the money, the rent math, and the risks.",
+   "say": "So how did a burger chain become a landlord? We'll cover the history, the money, the rent math, and the risks.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "The landlord idea",
+     "Follow the money",
+     "Rent math + land",
+     "Risks and you"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No stock tips here. Just how the machine makes money.",
+   "say": "No stock tips here. Just how the machine makes money.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education, not advice",
+     "How the money flows"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: The landlord idea.",
+   "say": "Chapter one: the landlord idea.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The landlord idea"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1955, a milkshake-mixer salesman named Ray Kroc opened his first McDonald's in Des Plaines, Illinois.",
+   "say": "In nineteen fifty-five, a milkshake-mixer salesman named Ray Kroc opened his first McDonald's, in Des Plaines, Illinois.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1955",
+      "Kroc's first store"
+     ],
+     [
+      "1956",
+      "Franchise Realty"
+     ],
+     [
+      "1961",
+      "Buys out brothers"
+     ],
+     [
+      "2025",
+      "$10.4B in rent"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "He'd struck a deal with the McDonald brothers to sell franchises of their fast, simple burger system.",
+   "say": "He'd struck a deal with the McDonald brothers to sell franchises of their fast, simple burger system.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "McDONALD'S",
+    "label": "1955",
+    "caption": "Des Plaines, Illinois"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Franchisees paid 1.9% of sales. Half a point went to the McDonald brothers, so Kroc kept 1.4%.",
+   "say": "Franchisees paid one point nine percent of their sales. Half a point of that went to the McDonald brothers, so Kroc kept one point four percent.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Franchisee pays",
+     "value": "1.9%"
+    },
+    "to": {
+     "label": "Kroc keeps",
+     "value": "1.4%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a 15-cent hamburger, 1.4% is about a fifth of a cent. That's not an empire.",
+   "say": "On a fifteen-cent hamburger, one point four percent is about a fifth of a cent. That's not an empire.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "15¢ burger x 1.4%",
+     "= about 0.2¢"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, in 1956, a finance executive named Harry Sonneborn joined Kroc with a different idea: control the ground under the restaurants.",
+   "say": "Then, in nineteen fifty-six, a finance executive named Harry Sonneborn joined Kroc with a different idea: control the ground under the restaurants.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1955",
+      "Kroc's first store"
+     ],
+     [
+      "1956",
+      "Franchise Realty"
+     ],
+     [
+      "1961",
+      "Buys out brothers"
+     ],
+     [
+      "2025",
+      "$10.4B in rent"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They set up a separate company, Franchise Realty Corporation, to lease or buy restaurant sites.",
+   "say": "They set up a separate company, Franchise Realty Corporation, to lease or buy restaurant sites.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "FRANCHISE REALTY",
+    "label": "Est. 1956",
+    "caption": "The landlord company"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The playbook: find a good corner, then lease or buy the land.",
+   "say": "The playbook went like this. Find a good corner, then lease or buy the land.",
+   "scene": {
+    "t": "list",
+    "items": [
+     "Find a corner",
+     "Lease or buy land",
+     "Build the store",
+     "Rent it out"
+    ],
+    "title": "The Sonneborn plan",
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Build the restaurant, then rent the whole package to the franchisee, at a markup or a share of sales, whichever was bigger.",
+   "say": "Build the restaurant, then rent the whole package to the franchisee, at a markup or a share of sales, whichever was bigger.",
+   "scene": {
+    "t": "list",
+    "items": [
+     "Find a corner",
+     "Lease or buy land",
+     "Build the store",
+     "Rent it out"
+    ],
+    "title": "The Sonneborn plan",
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From then on, the money flowed two ways: a small cut of sales as a fee, and a much bigger check as rent.",
+   "say": "From then on, the money flowed two ways: a small cut of sales as a fee, and a much bigger check as rent.",
+   "scene": {
+    "t": "split",
+    "title": "Two paychecks",
+    "left": {
+     "title": "Franchise fee",
+     "items": [
+      "% of sales",
+      "Small"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Rent",
+     "items": [
+      "Markup or % sales",
+      "Bigger"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also gave McDonald's control. The franchisee's license and lease came as one package.",
+   "say": "It also gave McDonald's control. The franchisee's license and the lease came as one package.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "License + lease",
+     "= one package"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it worked. By 1960, there were 228 McDonald's restaurants.",
+   "say": "And it worked. By nineteen sixty, there were two hundred twenty-eight McDonald's restaurants.",
+   "scene": {
+    "t": "stat",
+    "label": "McDonald's restaurants, 1960",
+    "value": "228",
+    "tone": "up",
+    "sub": "From one Kroc store in 1955"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1961, Kroc bought out the McDonald brothers for $2.7 million.",
+   "say": "In nineteen sixty-one, Kroc bought out the McDonald brothers for two point seven million dollars.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1955",
+      "Kroc's first store"
+     ],
+     [
+      "1956",
+      "Franchise Realty"
+     ],
+     [
+      "1961",
+      "Buys out brothers"
+     ],
+     [
+      "2025",
+      "$10.4B in rent"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sonneborn went on to run the company as its president from 1959 to 1967.",
+   "say": "Sonneborn went on to run the company as its president, from nineteen fifty-nine to nineteen sixty-seven.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sonneborn: president",
+     "1959 to 1967"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "\"We are not technically in the food business. We are in the real estate business.\" Harry Sonneborn, as quoted in John Love's 1986 company history.",
+   "say": "In John Love's nineteen eighty-six company history, Sonneborn is quoted saying: We are not technically in the food business. We are in the real estate business.",
+   "scene": {
+    "t": "quote",
+    "text": "We are not technically in the food business. We are in the real estate business.",
+    "source": "Sonneborn, quoted by J. Love"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "His point: the hamburgers are how the tenants pay the rent.",
+   "say": "His point was simple: the hamburgers are how the tenants pay the rent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Burgers = how tenants",
+     "pay the rent"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Follow the money.",
+   "say": "Chapter two: follow the money.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Follow the money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fast forward to 2025. McDonald's had 45,356 restaurants worldwide, and about 95% were run by franchisees.",
+   "say": "Fast forward to twenty twenty-five. McDonald's had forty-five thousand three hundred fifty-six restaurants worldwide, and about ninety-five percent were run by franchisees.",
+   "scene": {
+    "t": "stat",
+    "label": "Restaurants, end of 2025",
+    "value": "45,356",
+    "tone": "neutral",
+    "sub": "About 95% franchised"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Together they rang up more than $139 billion in sales in 2025. But most of that money belongs to the franchisees.",
+   "say": "Together, they rang up more than one hundred thirty-nine billion dollars in sales in twenty twenty-five. But most of that money belongs to the franchisees, not to McDonald's.",
+   "scene": {
+    "t": "stat",
+    "label": "Systemwide sales, 2025",
+    "value": "$139B+",
+    "tone": "up",
+    "sub": "All McDonald's restaurants"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "McDonald's own revenue was $26.9 billion. It came from three big buckets, plus a small one.",
+   "say": "McDonald's own revenue was twenty-six point nine billion dollars. It came from three big buckets, plus a small one.",
+   "scene": {
+    "t": "stat",
+    "label": "McDonald's revenue, 2025",
+    "value": "$26.9B",
+    "tone": "neutral",
+    "sub": "Form 10-K, fiscal 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bucket one: rent from franchisees, $10.4 billion.",
+   "say": "Bucket one is rent from franchisees: ten point four billion dollars.",
+   "scene": {
+    "t": "list",
+    "title": "McDonald's revenue, 2025",
+    "items": [
+     "Rent: $10.4B",
+     "Royalties: $6.0B",
+     "Own stores: $9.7B",
+     "Other: $647M"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bucket two: royalties, a cut of every franchisee's sales, $6.0 billion.",
+   "say": "Bucket two is royalties, a cut of every franchisee's sales: six billion dollars.",
+   "scene": {
+    "t": "list",
+    "title": "McDonald's revenue, 2025",
+    "items": [
+     "Rent: $10.4B",
+     "Royalties: $6.0B",
+     "Own stores: $9.7B",
+     "Other: $647M"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bucket three: food sold at its own restaurants, $9.7 billion. Plus $647 million of other revenue.",
+   "say": "Bucket three is food sold at its own restaurants: nine point seven billion. Plus six hundred forty-seven million dollars of other revenue.",
+   "scene": {
+    "t": "list",
+    "title": "McDonald's revenue, 2025",
+    "items": [
+     "Rent: $10.4B",
+     "Royalties: $6.0B",
+     "Own stores: $9.7B",
+     "Other: $647M"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Initial fees, paid when a franchisee opens or takes over a restaurant, were tiny by comparison: $88 million.",
+   "say": "Initial fees, paid when a franchisee opens or takes over a restaurant, were tiny by comparison: just eighty-eight million dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Initial fees, 2025",
+    "value": "$88M",
+    "tone": "neutral",
+    "sub": "vs. $10,442M of rent"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add rent, royalties and small initial fees, and franchisees sent McDonald's $16.5 billion in 2025.",
+   "say": "Add up rent, royalties and small initial fees, and franchisees sent McDonald's sixteen point five billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rent $10,442M",
+     "+ Royalties $6,018M",
+     "+ Fees $88M = $16,548M"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 62% of all its revenue. And inside that franchise money, rent was 63.1% and royalties 36.4%.",
+   "say": "That's about sixty-two percent of all its revenue. And inside that franchise money, rent was about sixty-three percent, and royalties about thirty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Franchise money, 2025",
+    "left": {
+     "label": "Rent",
+     "value": "63.1%",
+     "tone": "up",
+     "sub": "$10,442M"
+    },
+    "right": {
+     "label": "Royalties",
+     "value": "36.4%",
+     "tone": "neutral",
+     "sub": "$6,018M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $1.74 of rent for every $1 of royalties. The landlord part is the bigger part.",
+   "say": "That's a dollar seventy-four of rent for every dollar of royalties. The landlord part is the bigger part.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "title": "Franchise money, 2025",
+    "left": {
+     "label": "Rent",
+     "value": "63.1%",
+     "tone": "up",
+     "sub": "$10,442M"
+    },
+    "right": {
+     "label": "Royalties",
+     "value": "36.4%",
+     "tone": "neutral",
+     "sub": "$6,018M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the rent has kept climbing: from $7.5 billion in 2019 to $10.4 billion in 2025.",
+   "say": "And the rent has kept climbing: from seven point five billion dollars in twenty nineteen to ten point four billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Rent from franchisees",
+    "points": [
+     [
+      2019,
+      7.5
+     ],
+     [
+      2020,
+      6.84
+     ],
+     [
+      2021,
+      8.38
+     ],
+     [
+      2022,
+      9.05
+     ],
+     [
+      2023,
+      9.84
+     ],
+     [
+      2024,
+      10.02
+     ],
+     [
+      2025,
+      10.44
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$10.4B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The one dip was 2020, when the pandemic hit sales and rent fell to $6.8 billion.",
+   "say": "The one dip was twenty twenty, when the pandemic hit sales and rent fell to six point eight billion.",
+   "scene": {
+    "t": "chart",
+    "title": "Rent from franchisees",
+    "points": [
+     [
+      2019,
+      7.5
+     ],
+     [
+      2020,
+      6.84
+     ],
+     [
+      2021,
+      8.38
+     ],
+     [
+      2022,
+      9.05
+     ],
+     [
+      2023,
+      9.84
+     ],
+     [
+      2024,
+      10.02
+     ],
+     [
+      2025,
+      10.44
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$10.4B",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2020,
+     "text": "2020: $6.8B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 2019 to 2025, rent rose about 39%.",
+   "say": "From twenty nineteen to twenty twenty-five, rent rose about thirty-nine percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Rent from franchisees",
+    "points": [
+     [
+      2019,
+      7.5
+     ],
+     [
+      2020,
+      6.84
+     ],
+     [
+      2021,
+      8.38
+     ],
+     [
+      2022,
+      9.05
+     ],
+     [
+      2023,
+      9.84
+     ],
+     [
+      2024,
+      10.02
+     ],
+     [
+      2025,
+      10.44
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$10.4B",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "+39% vs 2019"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why does it climb? The rent is based on a percent of sales, with a minimum. When franchisees sell more, the landlord collects more.",
+   "say": "Why does it climb? The rent is based on a percent of sales, with a minimum. When franchisees sell more, the landlord collects more.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rent = % of sales",
+     "with a minimum"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That held into 2026. In the April-to-June quarter of 2026, franchised revenues rose 4%, to $4.39 billion.",
+   "say": "That held into twenty twenty-six. In the April-to-June quarter of twenty twenty-six, franchised revenues rose four percent, to four point three nine billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Franchised revenues, Q2 2026",
+    "value": "$4.39B",
+    "tone": "up",
+    "sub": "Up 4% vs Q2 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And franchised margins, what's left after McDonald's own property costs, rose 4.3% to $3.71 billion that quarter.",
+   "say": "And franchised margins, what's left after McDonald's own property costs, rose four point three percent, to three point seven one billion dollars that quarter.",
+   "scene": {
+    "t": "stat",
+    "label": "Franchised margins, Q2 2026",
+    "value": "$3.71B",
+    "tone": "up",
+    "sub": "Up 4.3% vs Q2 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: The rent math.",
+   "say": "Chapter three: the rent math.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The rent math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's run one hypothetical U.S. restaurant through the numbers. It's an example, not a real store.",
+   "say": "Let's run one hypothetical US restaurant through the numbers. It's an example, not a real store.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hypothetical example",
+     "Not a real restaurant"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say it sells $4 million a year. The 2024 U.S. average for a traditional McDonald's was $4,002,000.",
+   "say": "Say it sells four million dollars a year. That's close to the twenty twenty-four US average for a traditional McDonald's, which was four million two thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Example yearly sales",
+    "value": "$4.0M",
+    "tone": "neutral",
+    "sub": "2024 US avg: $4,002,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since 2024, new U.S. restaurants pay a 5% royalty, up from 4%. 5% of $4 million is $200,000.",
+   "say": "Since twenty twenty-four, new US restaurants pay a five percent royalty, up from four. Five percent of four million is two hundred thousand dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Sales (example)",
+     "value": "$4M"
+    },
+    "to": {
+     "label": "5% royalty",
+     "value": "$200K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rent varies a lot by location. For this example, assume 10% of sales. That's another $400,000.",
+   "say": "Rent varies a lot by location. For this example, let's assume ten percent of sales. That's another four hundred thousand dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Sales (example)",
+     "value": "$4M"
+    },
+    "to": {
+     "label": "Rent, assumed 10%",
+     "value": "$400K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$200,000 + $400,000 = $600,000. That's 15% of sales going to McDonald's.",
+   "say": "Two hundred thousand plus four hundred thousand is six hundred thousand dollars. That's fifteen percent of sales going to McDonald's.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$200K + $400K = $600K",
+     "= 15% of $4M sales"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves $3.4 million for the franchisee to pay for food, paper, payroll, ads, equipment and loans.",
+   "say": "That leaves three point four million dollars for the franchisee to pay for food, paper, payroll, advertising, equipment and loans.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $4M of sales",
+    "left": {
+     "label": "To McDonald's",
+     "value": "$600K",
+     "tone": "up",
+     "sub": "Rent + royalty"
+    },
+    "right": {
+     "label": "Franchisee",
+     "value": "$3.4M",
+     "tone": "neutral",
+     "sub": "Before all costs"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the clever part: the fee is based on sales, not profit.",
+   "say": "Here's the clever part. The fee is based on sales, not profit.",
+   "scene": {
+    "t": "hook",
+    "title": "Sales, not [profit]",
+    "prop": "tag",
+    "label": "15%",
+    "value": "Sales",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If sales rise 10%, to $4.4 million, McDonald's collects $660,000. That's $60,000 more, whether or not the owner's profit rose.",
+   "say": "If sales rise ten percent, to four point four million, McDonald's collects six hundred sixty thousand dollars. That's sixty thousand more, whether or not the owner's profit rose.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sales +10% = $4.4M",
+     "15% = $660K (+$60K)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The split of jobs: McDonald's provides the land and building. The franchisee pays for equipment, signs and seating, and runs the place.",
+   "say": "Here's the split of jobs. McDonald's provides the land and the building. The franchisee pays for equipment, signs and seating, and runs the place.",
+   "scene": {
+    "t": "split",
+    "title": "Who pays for what",
+    "left": {
+     "title": "McDonald's",
+     "items": [
+      "Land + building",
+      "Gets % of sales"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Franchisee",
+     "items": [
+      "Equipment, decor",
+      "Food + staff"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For McDonald's, that's a great trade. In 2025, it kept 84.2% of its franchise revenue as margin, after property costs.",
+   "say": "For McDonald's, that's a very good trade. In twenty twenty-five, it kept about eighty-four percent of its franchise revenue as margin, after property costs.",
+   "scene": {
+    "t": "compare",
+    "title": "McDonald's margins, 2025",
+    "left": {
+     "label": "Franchised",
+     "value": "84.2%",
+     "tone": "up",
+     "sub": "Margin, 2025"
+    },
+    "right": {
+     "label": "Own restaurants",
+     "value": "14.7%",
+     "tone": "down",
+     "sub": "Margin, 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On food sold at its own restaurants, after food, wages and rent-type costs, it kept just 14.7%.",
+   "say": "On food sold at its own restaurants, after paying for food, wages and occupancy, it kept just about fifteen percent.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "title": "McDonald's margins, 2025",
+    "left": {
+     "label": "Franchised",
+     "value": "84.2%",
+     "tone": "up",
+     "sub": "Margin, 2025"
+    },
+    "right": {
+     "label": "Own restaurants",
+     "value": "14.7%",
+     "tone": "down",
+     "sub": "Margin, 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So franchised restaurants made about 91% of its restaurant margin dollars: $13.9 billion of $15.4 billion.",
+   "say": "So franchised restaurants made about ninety-one percent of its restaurant margin dollars: thirteen point nine billion out of fifteen point four billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Franchised share of margin",
+    "value": "91%",
+    "tone": "up",
+    "sub": "$13.9B of $15.4B, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Selling burgers is a thin-margin business. Collecting rent and royalties is a thick one.",
+   "say": "Selling burgers is a thin-margin business. Collecting rent and royalties is a thick one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Selling food: thin",
+     "Rent + royalty: thick"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: What it owns.",
+   "say": "Chapter four: what it owns.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "What it owns"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what's actually in the empire? At the end of 2025, McDonald's owned about 56% of the land and 80% of the buildings in its consolidated markets.",
+   "say": "So what's actually in the empire? At the end of twenty twenty-five, McDonald's owned about fifty-six percent of the land, and eighty percent of the buildings, for restaurants in its consolidated markets.",
+   "scene": {
+    "t": "compare",
+    "title": "Owned, end of 2025",
+    "left": {
+     "label": "Land",
+     "value": "56%",
+     "tone": "up",
+     "sub": "Main markets"
+    },
+    "right": {
+     "label": "Buildings",
+     "value": "80%",
+     "tone": "up",
+     "sub": "Main markets"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Consolidated markets are ones where McDonald's itself is the franchisor, like the U.S. In licensed markets, local partners generally provide the real estate.",
+   "say": "Consolidated markets are the ones where McDonald's itself is the franchisor, like the US. In developmental licensed markets, local partners generally provide the real estate.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Franchisor here"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Local partner"
+     }
+    ],
+    "caption": "Licensed: partners' sites"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Where it doesn't own the land, it usually holds a long-term lease, then rents to the franchisee. Landlord either way.",
+   "say": "Where it doesn't own the land, it usually holds a long-term lease, then rents to the franchisee. It's the landlord either way.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Own it, or lease it",
+     "then rent it out"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On its books, McDonald's property and equipment cost $49.3 billion, as of December 31, 2025.",
+   "say": "On its books, McDonald's property and equipment cost forty-nine point three billion dollars, as of the end of twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Property, equipment at cost",
+    "value": "$49.3B",
+    "tone": "neutral",
+    "sub": "Dec 31, 2025, Form 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of that is buildings, $37.7 billion, plus $8.2 billion of land.",
+   "say": "Most of that is buildings, thirty-seven point seven billion dollars, plus eight point two billion of land.",
+   "scene": {
+    "t": "list",
+    "title": "What the $49.3B is",
+    "items": [
+     "Buildings: $37.7B",
+     "Land: $8.2B",
+     "Equipment: $2.95B",
+     "Other: $0.46B"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Equipment and everything else adds about $3.4 billion more.",
+   "say": "Equipment and everything else adds about three point four billion more.",
+   "scene": {
+    "t": "list",
+    "title": "What the $49.3B is",
+    "items": [
+     "Buildings: $37.7B",
+     "Land: $8.2B",
+     "Equipment: $2.95B",
+     "Other: $0.46B"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a twist: $15.5 billion of those buildings sit on land McDonald's leases. It rents the ground, builds on it, and rents it back out.",
+   "say": "Here's a twist. Fifteen point five billion dollars of those buildings sit on land McDonald's leases. It rents the ground, builds on it, and rents it back out.",
+   "scene": {
+    "t": "compare",
+    "title": "Buildings, at cost, 2025",
+    "left": {
+     "label": "On owned land",
+     "value": "$22.2B",
+     "tone": "up",
+     "sub": "Owns the ground"
+    },
+    "right": {
+     "label": "On leased land",
+     "value": "$15.5B",
+     "tone": "neutral",
+     "sub": "Leases the ground"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that's at cost. Land bought decades ago sits on the books at old prices, not at what it would sell for.",
+   "say": "And that's at cost. Land bought decades ago sits on the books at old prices, not at what it would sell for.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Booked at cost",
+     "Not market value"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The deals are long, too. A typical franchise arrangement runs 20 years.",
+   "say": "The deals are long, too. A typical franchise arrangement runs twenty years.",
+   "scene": {
+    "t": "stat",
+    "label": "Typical franchise term",
+    "value": "20 yrs",
+    "tone": "neutral",
+    "sub": "Per 2025 Form 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When it ends, McDonald's keeps control of the land and building. It can sign the same operator, pick a new one, or close the store.",
+   "say": "When it ends, McDonald's keeps control of the land and the building. It can sign the same operator again, pick a new one, or close the store.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "After 20 years:",
+     "renew, replace, or close"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the empire isn't really the burger recipe. It's tens of thousands of busy street corners.",
+   "say": "So the empire isn't really the burger recipe. It's tens of thousands of busy street corners.",
+   "scene": {
+    "t": "hook",
+    "title": "It owns the [corner]",
+    "prop": "house",
+    "label": "80%",
+    "value": "Corners",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: The risks, and you.",
+   "say": "Chapter five: the risks, and you.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The risks, and you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But a landlord is only as strong as its tenants. If franchisees struggle, the rent model gets tested.",
+   "say": "But a landlord is only as strong as its tenants. If franchisees struggle, the rent model gets tested.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Strong landlord needs",
+     "healthy tenants"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And U.S. sales growth was slow in spring 2026. In the April-to-June quarter, U.S. comparable sales rose just 0.8%.",
+   "say": "And US sales growth was slow in the spring of twenty twenty-six. In the April-to-June quarter, US comparable sales rose just zero point eight percent.",
+   "scene": {
+    "t": "stat",
+    "label": "US comparable sales, Q2 2026",
+    "value": "+0.8%",
+    "tone": "down",
+    "sub": "Global: +1.3%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the backdrop for September 23, 2026, when McDonald's laid out about $8.5 billion of support for franchisees through 2036.",
+   "say": "That's the backdrop for September twenty-third, twenty twenty-six. At its investor day, McDonald's laid out about eight point five billion dollars of support for franchisees through twenty thirty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "$8.5B franchisee plan to 2036",
+    "source": "Investor Day, Sept. 23, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's a mix of rent relief and capital support, with about $5 billion of it through 2030.",
+   "say": "It's a mix of rent relief and capital support, with about five billion dollars of it through twenty thirty.",
+   "scene": {
+    "t": "list",
+    "title": "The $8.5B plan",
+    "items": [
+     "Rent relief",
+     "Capital support",
+     "$5B by 2030",
+     "$800K/drive-thru"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The goal: help pay for new equipment and tech that the company puts at about $800,000 for a traditional U.S. drive-thru.",
+   "say": "The goal is to help pay for new equipment and technology that the company puts at about eight hundred thousand dollars for a traditional US drive-thru restaurant.",
+   "scene": {
+    "t": "list",
+    "title": "The $8.5B plan",
+    "items": [
+     "Rent relief",
+     "Capital support",
+     "$5B by 2030",
+     "$800K/drive-thru"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Notice what's happening: the landlord is easing up on rent so its tenants can afford to upgrade.",
+   "say": "Notice what's happening. The landlord is easing up on rent so its tenants can afford to upgrade.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Landlord eases rent",
+     "so tenants can upgrade"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Owning the real estate is what gives McDonald's that lever. A royalty-only franchisor has no rent to cut.",
+   "say": "Owning the real estate is what gives McDonald's that lever. A franchisor that only collects royalties has no rent to cut.",
+   "scene": {
+    "t": "hook",
+    "title": "The rent [lever]",
+    "prop": "house",
+    "label": "2026",
+    "value": "$8.5B",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "McDonald's estimates the upgrades add about $100,000 a year in cash flow for an average U.S. restaurant, paying back in about 4 years.",
+   "say": "McDonald's estimates the upgrades add about a hundred thousand dollars a year in cash flow for an average US restaurant, paying back in about four years.",
+   "scene": {
+    "t": "stat",
+    "label": "Estimated yearly cash gain",
+    "value": "$100K",
+    "tone": "up",
+    "sub": "Company est., ~4-yr payback"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the company's own estimate, not a guarantee. Franchisees will find out store by store.",
+   "say": "That's the company's own estimate, not a guarantee. Franchisees will find out store by store.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Company estimate,",
+     "not a guarantee"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The system keeps growing, too: more than 46,000 restaurants by September 2026. McDonald's also targeted net restaurant growth of about 4.5% in 2027.",
+   "say": "The system keeps growing, too: more than forty-six thousand restaurants by September twenty twenty-six. McDonald's also targeted net restaurant growth of about four and a half percent in twenty twenty-seven.",
+   "scene": {
+    "t": "stat",
+    "label": "Restaurants, Sept 2026",
+    "value": "46,000+",
+    "tone": "up",
+    "sub": "2027 goal: ~4.5% net growth"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For a landlord, every new restaurant is a new tenant, paying rent on its sales.",
+   "say": "For a landlord, every new restaurant is one more tenant, paying rent on its sales.",
+   "scene": {
+    "t": "hook",
+    "title": "New store, new [tenant]",
+    "prop": "store",
+    "label": "2027",
+    "value": "~4.5%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Other risks: first, if store sales slow, percent-of-sales rent slows with them, down toward the minimums.",
+   "say": "There are other risks, too. First, if store sales slow, percent-of-sales rent slows with them, down toward the minimums.",
+   "scene": {
+    "t": "list",
+    "title": "Landlord risks",
+    "items": [
+     "Sales slowdowns",
+     "Fee squeeze",
+     "Property costs"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, fees on sales can squeeze operators. Trade press reports that on delivery orders, the app takes its cut, but rent and royalty still apply to the full sale.",
+   "say": "Second, fees on sales can squeeze operators. Trade press has reported that on delivery orders, the app takes its cut, but rent and royalty still apply to the full sale.",
+   "scene": {
+    "t": "list",
+    "title": "Landlord risks",
+    "items": [
+     "Sales slowdowns",
+     "Fee squeeze",
+     "Property costs"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, real estate isn't free. McDonald's pays its own leases, depreciation and upkeep, busy store or not.",
+   "say": "Third, real estate isn't free. McDonald's pays its own leases, depreciation and upkeep, busy store or not.",
+   "scene": {
+    "t": "list",
+    "title": "Landlord risks",
+    "items": [
+     "Sales slowdowns",
+     "Fee squeeze",
+     "Property costs"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what does it mean for you at the counter? In our example, 15 cents of every dollar you spend goes to McDonald's as rent and royalty.",
+   "say": "So what does it mean for you at the counter? In our example, fifteen cents of every dollar you spend goes to McDonald's as rent and royalty.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You spend (example)",
+     "value": "$1.00"
+    },
+    "to": {
+     "label": "Rent + royalty",
+     "value": "15¢"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Because that take rides on sales, McDonald's collects more when the register rings more, from more visits or higher prices.",
+   "say": "Because that take rides on sales, McDonald's collects more whenever the register rings more, whether from more visits or from higher prices.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More sales",
+     "= more rent + royalty"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Food and labor costs stay with the franchisee. So a deal that lifts sales but thins margins can help the landlord more than the operator.",
+   "say": "Food and labor costs stay with the franchisee. So a deal that lifts sales but thins margins can help the landlord more than the operator.",
+   "scene": {
+    "t": "split",
+    "title": "A discount deal",
+    "left": {
+     "title": "McDonald's",
+     "items": [
+      "More sales",
+      "More % fees"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Franchisee",
+     "items": [
+      "More sales",
+      "Thinner margin"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That tension is why the September 2026 rent relief matters to both sides.",
+   "say": "That tension is why the September twenty twenty-six rent relief matters to both sides.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rent relief, 2026:",
+     "both sides need it"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap.",
+   "say": "Chapter six: recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: in 1956, Harry Sonneborn helped turn McDonald's into a landlord through Franchise Realty Corporation.",
+   "say": "One. In nineteen fifty-six, Harry Sonneborn helped turn McDonald's into a landlord, through Franchise Realty Corporation.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Born a landlord",
+     "Rent: $10.4B",
+     "84% vs 15% margin",
+     "Rent relief, 2026"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: in 2025, rent from franchisees was $10.4 billion, more than all the food sold at McDonald's own restaurants.",
+   "say": "Two. In twenty twenty-five, rent from franchisees was ten point four billion dollars, more than all the food sold at McDonald's own restaurants.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Born a landlord",
+     "Rent: $10.4B",
+     "84% vs 15% margin",
+     "Rent relief, 2026"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: franchise revenue kept about 84 cents on the dollar as margin, versus about 15 cents at its own restaurants.",
+   "say": "Three. Franchise revenue kept about eighty-four cents on the dollar as margin, versus about fifteen cents at its own restaurants.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Born a landlord",
+     "Rent: $10.4B",
+     "84% vs 15% margin",
+     "Rent relief, 2026"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: in September 2026, the landlord offered rent relief to help its tenants upgrade.",
+   "say": "Four. In September twenty twenty-six, the landlord offered rent relief to help its tenants upgrade.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Born a landlord",
+     "Rent: $10.4B",
+     "84% vs 15% margin",
+     "Rent relief, 2026"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So yes, McDonald's sells burgers. But the burgers are also how the rent gets paid.",
+   "say": "So yes, McDonald's sells burgers. But the burgers are also how the rent gets paid.",
+   "scene": {
+    "t": "hook",
+    "title": "Burgers pay the [rent]",
+    "prop": "house",
+    "label": "2025",
+    "value": "$10.4B",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "McDonald's made more from rent than from its own food sales in 2025. Here's how.",
+  "ig": "In 2025, McDonald's collected $10.4B in rent from franchisees, more than its own restaurants sold. Here's how a burger chain became a landlord.",
+  "tiktok": "McDonald's made more from rent than from selling its own food in 2025. Here's how.",
+  "yt_desc": "How McDonald's became a real estate empire. In 2025, McDonald's collected $10.4 billion in rent from franchisees, more than the $9.7 billion of food sold at its own restaurants. This video covers how Ray Kroc and Harry Sonneborn built the landlord model through Franchise Realty Corporation in 1956, where McDonald's $26.9 billion of 2025 revenue came from, a hypothetical rent-and-royalty example ($4 million in sales, 5% royalty, an assumed 10% rent = $600,000), why franchised margins (84.2%) dwarf company-operated margins (14.7%), what McDonald's owns (about 56% of the land and 80% of the buildings in its consolidated markets), and the $8.5 billion franchisee support plan with rent relief announced at its September 23, 2026 Investor Day.\n\nCHAPTERS\n0:00 Rent beat the burgers\n0:35 The landlord idea\n2:08 Follow the money\n3:56 The rent math\n5:29 What it owns\n6:48 The risks, and you\n9:01 Recap\n\nSources: McDonald's Form 10-K for fiscal 2025 (filed February 2026); McDonald's Q4 and full-year 2025 results (February 11, 2026); McDonald's Q2 2026 results (August 4, 2026); McDonald's 2026 Investor Day release (September 23, 2026); Axios and CNBC (September 23, 2026); McDonald's Form 10-Ks for fiscal 2019-2024 (rent series); McDonald's 2025 Franchise Disclosure Document, Item 19; Restaurant Dive and Restaurant Business (royalty change, delivery fees); McDonald's corporate history; TIME (2015); John F. Love, McDonald's: Behind the Arches (1986).\n\nNews and education, not financial advice.\n\n#McDonalds #realestate #howtheymakemoney",
+  "tags": [
+   "McDonald's business model",
+   "McDonald's real estate",
+   "how McDonald's makes money",
+   "franchise rent",
+   "Ray Kroc",
+   "Harry Sonneborn",
+   "how they make money"
+  ]
+ }
+}
