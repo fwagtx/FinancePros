@@ -1,0 +1,197 @@
+{
+ "id": "2026-11-23-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Risk vs reward:\ntree vs bush",
+ "cover": {
+  "title": "$100 Became $1 Million?",
+  "prop": "bag",
+  "label": "since 1928",
+  "value": "$1.16M"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Since 1928, US stocks turned $100 into over $1 million.",
+   "say": "Since nineteen twenty-eight, stocks turned a hundred dollars into over a million.",
+   "scene": {
+    "t": "hook",
+    "title": "$100 to [$1M+]",
+    "prop": "bag",
+    "label": "1928-2025",
+    "value": "$1.16M",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same $100 in Treasury bills grew to about $2,600 (Damodaran, NYU).",
+   "say": "The same hundred dollars in Treasury bills grew to about twenty-six hundred, per NYU's Aswath Damodaran.",
+   "scene": {
+    "t": "compare",
+    "title": "$100, 1928 to 2025",
+    "left": {
+     "label": "S&P 500",
+     "value": "$1.16M",
+     "tone": "up",
+     "sub": "with dividends"
+    },
+    "right": {
+     "label": "T-bills",
+     "value": "~$2,600",
+     "tone": "neutral",
+     "sub": "3-month"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That gap was the reward for taking risk. The tall tree grew more, but it swayed.",
+   "say": "That gap was the reward for taking risk. The tall tree grew more, but it swayed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More growth",
+     "came with",
+     "bigger drops"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The S&P 500 lost 18.1% in 2022, then gained 26.3% in 2023.",
+   "say": "The S and P five hundred lost about eighteen percent in twenty twenty-two, then gained about twenty-six percent in twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 total return",
+    "points": [
+     [
+      2018,
+      -4.38
+     ],
+     [
+      2019,
+      31.49
+     ],
+     [
+      2020,
+      18.4
+     ],
+     [
+      2021,
+      28.71
+     ],
+     [
+      2022,
+      -18.11
+     ],
+     [
+      2023,
+      26.29
+     ],
+     [
+      2024,
+      25.02
+     ],
+     [
+      2025,
+      17.88
+     ]
+    ],
+    "suffix": "%",
+    "end": "+17.9%",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same index, two very different years.",
+   "say": "Same index, two very different years.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "mood": "shock",
+    "note": {
+     "x": 2022,
+     "text": "-18.1% in 2022"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The worst year was 1931: a 43.8% loss.",
+   "say": "The worst year was nineteen thirty-one: a forty-three point eight percent loss.",
+   "scene": {
+    "t": "stat",
+    "label": "US stocks, 1931",
+    "value": "-43.8%",
+    "tone": "down",
+    "sub": "worst year since 1928",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stocks fell in 26 of the 98 years from 1928 to 2025, about 1 in 4.",
+   "say": "Stocks fell in twenty-six of the ninety-eight years from nineteen twenty-eight to twenty twenty-five, about one in four.",
+   "scene": {
+    "t": "stat",
+    "label": "Down years, 1928-2025",
+    "value": "26 of 98",
+    "tone": "down",
+    "sub": "S&P 500, Damodaran",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The safe bush barely swayed, but it grew about 3.4% a year, versus about 10% for stocks.",
+   "say": "The safe bush barely swayed, but it grew about three point four percent a year, versus about ten percent for stocks.",
+   "scene": {
+    "t": "split",
+    "title": "Tree vs bush, 1928-2025",
+    "left": {
+     "title": "Stocks",
+     "items": [
+      "~10% a year",
+      "26 down years"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "T-bills",
+     "items": [
+      "~3.4% a year",
+      "Small, steady"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "$100 in 1928: $1.16M in stocks, $2,578 in T-bills",
+  "ig": "Since 1928, $100 in US stocks grew past $1 million.\n\nThe same $100 in 3-month Treasury bills grew to about $2,578 by the end of 2025, before inflation (Damodaran, NYU Stern).\nThe price of that growth: the S&P 500 fell in 26 of 98 years, lost 43.8% in 1931 and 18.1% in 2022.\nStocks compounded about 10% a year; T-bills about 3.4%.\n\nSources: Aswath Damodaran, NYU Stern (1928-2025 data); S&P Dow Jones Indices.\nNews and education, not financial advice. Past returns don't predict future returns.\nFollow @financeprostv for money explained simply.\n\n#investing #stockmarket #riskandreward #personalfinance #financeprostv",
+  "tiktok": "$100 in 1928: about $1.16M in stocks vs $2,578 in T-bills. The catch: 26 down years. Not financial advice. #moneytok #personalfinance #investing #financeprostv",
+  "yt_desc": "From 1928 to 2025, $100 in the S&P 500 with dividends grew to about $1.16 million, while $100 in 3-month Treasury bills grew to about $2,578, per NYU's Aswath Damodaran. Stocks fell in 26 of those 98 years, including -43.8% in 1931 and -18.1% in 2022. Past returns don't predict future returns. Sources: Damodaran (NYU Stern), S&P Dow Jones Indices.\n\nNews and education, not financial advice.\n\n#Shorts #investing #stockmarket",
+  "tags": [
+   "risk vs reward",
+   "stocks vs treasury bills",
+   "s&p 500 history",
+   "stock market returns since 1928",
+   "investing basics"
+  ]
+ }
+}
