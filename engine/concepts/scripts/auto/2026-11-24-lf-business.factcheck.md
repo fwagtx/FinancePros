@@ -105,3 +105,30 @@ Consolidated markets are the US and the International Operated Markets. McDonald
 The financial core of the script is accurate to the decimal. FAIL because of one unsupported historical number (line 17, the 31 restaurants in 1957), one misstated plan detail (line 70, $800K "per US restaurant"), an inconsistently reported growth target shown as "4.5%+", spoken and on-screen values that disagree (line 51, and to a lesser degree lines 2 and 30), and Q2-based lines that need dating before Q3 results come out ahead of the November 24 post. All fixes are listed above and are small.
 
 VERDICT: FAIL
+
+## Round 2
+
+I re-read the full raw.json. It now has 91 lines and 1,723 spoken words, both within target.
+
+**Fix verification**
+- **Issue 1, line 17:** now a stat showing "228" restaurants in 1960, with the sub "From one Kroc store in 1955". The text and narration say "By 1960, there were 228". Verified. The 31-in-1957 claim is gone.
+- **Issue 2, lines 69-70:** the list item is "$800K/drive-thru" (16 characters, within the 18-character limit). Line 70's text and narration say "for a traditional U.S. drive-thru (restaurant)", which matches the sourced wording. The items arrays on lines 69 and 70 are identical, so the keep chain holds. Verified.
+- **Issue 3, lines 75-76:** the narration now says "about 4.5%". The sub reads "2027 goal: ~4.5% net growth" and the hook value is "~4.5%". These are consistent and hold whether the target is "over", "about" or "nearly" 4.5%.
+- **Issue 4, lines 37 and 67:** now "April-to-June quarter of 2026" and "slow in spring 2026". Each Q2 2026 figure is tied to its quarter, so these lines stay true after Q3 results come out on Oct 22 (or Nov 4).
+- **Issue 5:**
+  - Line 51 shows "91%" and the narration says "about ninety-one percent". 13,930 / 15,352 = 90.7%, so verified.
+  - Line 2's narration now says "seven hundred fifty-two million", matching $752 million.
+  - Line 30's text and narration both say $16.5 billion, and the board keeps the exact breakdown summing to $16,548M.
+- **Issue 6, line 20:** "Sonneborn is quoted saying:". The quote wording is unchanged and correct.
+- **Issue 7, line 55:** reworded to "where McDonald's itself is the franchisor", and the US cast line says "Franchisor here". The countries scene still has no prop or label.
+- **Issue 8:** line 38 drops "about", so "$3.71 billion" matches the screen. Line 0 is unchanged, which is acceptable as noted in round 1.
+
+**New checks**
+- **Keep chains:** every keep:true line follows a line with the same template. Line 17 changed from compare to stat, but no line after it uses keep (line 18 is a fresh timeline), so no chain breaks.
+- **Layout:** all compare values are 7 characters or fewer, no list item is longer than 18 characters, and the countries scene has no prop or label.
+- **yt_desc chapters:** the timestamps (0:35, 2:08, 3:56, 5:29, 6:48, 9:01) match each chapter's cumulative word position at a steady pace of about 180 words per minute. They are internally consistent and in order, and the yt_desc facts are unchanged and verified. Recheck them against the rendered audio if the voice pace differs.
+- **Unchanged items:** cover, title and post text are as before and paid off. There are no new time words, advice, price predictions or political content.
+
+There are no remaining issues.
+
+VERDICT: PASS
