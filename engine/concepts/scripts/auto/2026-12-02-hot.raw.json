@@ -1,0 +1,200 @@
+{
+  "series": "ticker",
+  "header": "Getting audited?\nIt's mostly mail",
+  "cover": {
+    "title": "9 in 10 Audits Are Letters",
+    "prop": "tag",
+    "label": "By mail",
+    "value": "89%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "9 in 10 IRS audits of individuals are just letters in the mail.",
+      "say": "Nine in ten audits of individuals are just letters.",
+      "scene": {
+        "t": "hook",
+        "title": "Audited by [mail]",
+        "prop": "paper",
+        "label": "IRS",
+        "value": "9 in 10",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "FY2025: 393,767 of 441,578 individual audits closed were done by mail = 89%.",
+      "say": "In fiscal twenty twenty-five, eighty-nine percent of individual audits happened by mail.",
+      "scene": {
+        "t": "stat",
+        "label": "Individual audits by mail",
+        "value": "89%",
+        "tone": "neutral",
+        "sub": "IRS Data Book FY25",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Individual returns audited: 0.6% of 2015 returns vs 0.3% of 2021 returns (IRS Data Book 2025).",
+      "say": "Audit rates fell from zero point six percent of twenty fifteen returns to zero point three for twenty twenty-one.",
+      "scene": {
+        "t": "chart",
+        "title": "Returns audited, by tax yr",
+        "points": [
+          [
+            2015,
+            0.6
+          ],
+          [
+            2016,
+            0.5
+          ],
+          [
+            2017,
+            0.5
+          ],
+          [
+            2018,
+            0.4
+          ],
+          [
+            2019,
+            0.3
+          ],
+          [
+            2020,
+            0.3
+          ],
+          [
+            2021,
+            0.3
+          ]
+        ],
+        "suffix": "%",
+        "end": "0.3%",
+        "color": "down",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "2021 returns audited: 0.5% with income under $25,000 vs 6.6% at $10 million or more.",
+      "say": "Income matters: half a percent under twenty-five thousand dollars, six point six percent at ten million plus.",
+      "scene": {
+        "t": "compare",
+        "title": "2021 returns audited",
+        "left": {
+          "label": "Under $25K",
+          "value": "0.5%",
+          "tone": "neutral",
+          "sub": "income, TY2021"
+        },
+        "right": {
+          "label": "$10M+",
+          "value": "6.6%",
+          "tone": "down",
+          "sub": "income, TY2021"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A real IRS audit starts with a mailed letter. The IRS doesn't start contact by text, email or social media, and never asks for gift cards.",
+      "say": "A real audit starts with a mailed letter, never a surprise text, email or gift card demand.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Real IRS: a mailed letter",
+          "No surprise texts/emails",
+          "Never gift cards"
+        ],
+        "mood": "angry"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A CP2000 mismatch notice isn't an audit, but wants a reply within 30 days. A notice of deficiency gives 90 days to petition Tax Court.",
+      "say": "A C P two thousand mismatch letter isn't an audit, but wants a reply in thirty days. Deficiency notices give ninety days for Tax Court.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Letter",
+            "what": "Says what to prove"
+          },
+          {
+            "when": "30 days",
+            "what": "CP2000 reply due"
+          },
+          {
+            "when": "90 days",
+            "what": "Tax Court deadline"
+          }
+        ],
+        "reveal": 3,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Look-back: usually 3 years; 6 years if more than 25% of income was left off.",
+      "say": "The look-back is usually three years, six if over a quarter of income was left off.",
+      "scene": {
+        "t": "compare",
+        "title": "How far back the IRS goes",
+        "left": {
+          "label": "Usually",
+          "value": "3 yrs",
+          "tone": "neutral",
+          "sub": "after filing"
+        },
+        "right": {
+          "label": "Big omission",
+          "value": "6 yrs",
+          "tone": "down",
+          "sub": "25%+ income missed"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Audits end as no change, agreed, or disagreed. Disagreements can go to a manager, mediation, or an independent appeal.",
+      "say": "Audits end as no change, agreed or disagreed, and disagreements can go to appeal.",
+      "scene": {
+        "t": "list",
+        "title": "How audits end",
+        "items": [
+          "No change",
+          "Agreed",
+          "Disagree: appeal"
+        ],
+        "reveal": 3,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "9 in 10 IRS audits of individuals are just letters",
+    "ig": "9 in 10 IRS audits of individuals are just letters.\n\nIn FY2025, 393,767 of 441,578 individual audits closed (89%) were done by mail.\nAudit rates: 0.6% of 2015 returns vs 0.3% of 2021 returns; for 2021 returns, 0.5% under $25,000 of income vs 6.6% at $10 million or more.\nThe IRS starts with a mailed letter, not a text, email or social media message, and never asks for gift cards. A CP2000 mismatch notice wants a reply within 30 days; a notice of deficiency gives 90 days to petition Tax Court.\nLook-back: generally 3 years, 6 if more than 25% of income was omitted. Disagree? Manager conference, mediation or an independent appeal.\n\nSources: IRS Data Book 2025 (Tables 3-1, 3-2); IRS.gov audits, CP2000 and scam guidance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#irs #taxaudit #taxes #personalfinance #financeprostv",
+    "tiktok": "9 in 10 IRS audits of individuals are just letters (FY2025). Not financial advice. #moneytok #personalfinance #irs #taxes #financeprostv",
+    "yt_desc": "In FY2025, 89% of individual IRS audits closed were done by mail (393,767 of 441,578), and 0.3% of 2021 returns were audited, from 0.5% under $25,000 of income to 6.6% at $10 million or more. The IRS starts with a mailed letter, never a surprise text or gift-card demand; a CP2000 wants a reply within 30 days, and the look-back is generally 3 years (6 if over 25% of income is omitted). Sources: IRS Data Book 2025, IRS.gov.\n\nNews and education, not financial advice.\n\n#Shorts #irs #taxes",
+    "tags": [
+      "irs audit",
+      "what happens if you get audited",
+      "irs audit rate",
+      "irs scam",
+      "cp2000"
+    ]
+  }
+}
