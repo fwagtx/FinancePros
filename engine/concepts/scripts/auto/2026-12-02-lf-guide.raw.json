@@ -1,0 +1,1766 @@
+{
+ "series": "ticker",
+ "header": "How to file your\ntaxes the first time",
+ "cover": {
+  "title": "Your Refund Isn't a Bonus.",
+  "prop": "tag",
+  "label": "REFUND",
+  "value": "$3,268"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your tax refund isn't a bonus. It's your money.",
+   "say": "Your tax refund isn't a bonus. It's your money.",
+   "scene": {
+    "t": "hook",
+    "title": "Refund? Not a [bonus].",
+    "prop": "bill",
+    "label": "REFUND",
+    "value": "$3,268",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Through April 24, 2026, the average IRS refund was $3,268.",
+   "say": "Through April twenty-fourth, twenty twenty-six, the average IRS refund was three thousand two hundred sixty-eight dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Average refund, 2026 season",
+    "value": "$3,268",
+    "tone": "up",
+    "sub": "IRS, to 4/24/2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For most people, that's tax they overpaid from their paychecks all year, coming back with no interest.",
+   "say": "For most people, that's tax they overpaid from their paychecks all year, coming back with no interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Overpaid all year",
+     "value": "$3,268"
+    },
+    "to": {
+     "label": "Back in spring",
+     "value": "$3,268"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spread over 12 months, $3,268 is about $272 a month.",
+   "say": "Spread over twelve months, three thousand two hundred sixty-eight dollars is about two hundred seventy-two dollars a month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$3,268 / 12 months",
+     "= about $272 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for first-time filers in early 2027, one free IRS tool from 2025 is gone.",
+   "say": "And for first-time filers in early twenty twenty-seven, one free IRS tool from twenty twenty-five is gone.",
+   "scene": {
+    "t": "news",
+    "headline": "IRS ends Direct File program",
+    "source": "IRS email to states, Nov 3, 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the whole process for your 2026 return, in order, with real numbers.",
+   "say": "So here's the whole process for your twenty twenty-six return, in order, with real numbers.",
+   "scene": {
+    "t": "list",
+    "title": "The steps",
+    "items": [
+     "Do you file?",
+     "Gather forms",
+     "Deduct + credit",
+     "Do the math"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll do one return with exact math, then the mistakes and a one-screen checklist.",
+   "say": "We'll do one return with exact math, then the common mistakes and a one-screen checklist.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 return, exact math",
+     "Mistakes + checklist"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Education, not advice, and every rule is for tax year 2026, filed in 2027.",
+   "say": "Education, not advice, and every rule is for tax year twenty twenty-six, filed in twenty twenty-seven.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education, not advice",
+     "Tax year 2026 rules"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Do you need to file?",
+   "say": "Chapter one: do you need to file?",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Do you need to file?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tax year 2026 is the money you earn January through December 2026, reported in early 2027.",
+   "say": "Tax year twenty twenty-six is the money you earn January through December twenty twenty-six, reported in early twenty twenty-seven.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2026",
+      "what": "Earn + withhold"
+     },
+     {
+      "when": "Late Jan",
+      "what": "IRS opens filing"
+     },
+     {
+      "when": "Feb 1",
+      "what": "Forms arrive"
+     },
+     {
+      "when": "Apr 15",
+      "what": "File + pay"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS hasn't announced its 2027 opening day yet. It's usually late January; in 2026 it was January 26.",
+   "say": "The IRS hasn't announced its twenty twenty-seven opening day yet. It's usually late January; in twenty twenty-six it was January twenty-sixth.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2026",
+      "what": "Earn + withhold"
+     },
+     {
+      "when": "Late Jan",
+      "what": "IRS opens filing"
+     },
+     {
+      "when": "Feb 1",
+      "what": "Forms arrive"
+     },
+     {
+      "when": "Apr 15",
+      "what": "File + pay"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Employers must send your W-2 by February 1, 2027, because January 31 lands on a Sunday.",
+   "say": "Employers have to send your W-2 by February first, twenty twenty-seven, because January thirty-first lands on a Sunday.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2026",
+      "what": "Earn + withhold"
+     },
+     {
+      "when": "Late Jan",
+      "what": "IRS opens filing"
+     },
+     {
+      "when": "Feb 1",
+      "what": "Forms arrive"
+     },
+     {
+      "when": "Apr 15",
+      "what": "File + pay"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The deadline is Thursday, April 15, 2027, to file and to pay anything you owe.",
+   "say": "The deadline is Thursday, April fifteenth, twenty twenty-seven, to file and to pay anything you owe.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2026",
+      "what": "Earn + withhold"
+     },
+     {
+      "when": "Late Jan",
+      "what": "IRS opens filing"
+     },
+     {
+      "when": "Feb 1",
+      "what": "Forms arrive"
+     },
+     {
+      "when": "Apr 15",
+      "what": "File + pay"
+     }
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Do you have to file? If you're single and under 65, the line is gross income of $16,100.",
+   "say": "Do you have to file? If you're single and under sixty-five, the line is gross income of sixteen thousand one hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Must file if income hits",
+    "value": "$16,100",
+    "tone": "neutral",
+    "sub": "Single, under 65"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That number isn't random. It's the 2026 standard deduction, which we'll get to.",
+   "say": "That number isn't random. It's the twenty twenty-six standard deduction, which we'll get to.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$16,100 = the 2026",
+     "standard deduction"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Side gig? If you net $400 or more from self-employment, you must file no matter what.",
+   "say": "Got a side gig? If you net four hundred dollars or more from self-employment, you have to file no matter what.",
+   "scene": {
+    "t": "stat",
+    "label": "Self-employment rule",
+    "value": "$400",
+    "tone": "down",
+    "sub": "Net = must file"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And earning less doesn't make filing pointless. It's the only way to get withheld tax back.",
+   "say": "And earning less doesn't make filing pointless. It's the only way to get withheld tax back.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Under the line?",
+     "Filing gets refunds back"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $9,000 from a summer job, $600 of federal income tax withheld. No return, no $600 back.",
+   "say": "Example: nine thousand dollars from a summer job, six hundred dollars of federal income tax withheld. No return, no six hundred dollars back.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: summer job",
+    "left": {
+     "label": "Don't file",
+     "value": "$0",
+     "tone": "down",
+     "sub": "Withholding stays"
+    },
+    "right": {
+     "label": "File",
+     "value": "$600",
+     "tone": "up",
+     "sub": "Withholding back"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next is your filing status. It's set by your situation on December 31.",
+   "say": "Next is your filing status. It's set by your situation on December thirty-first.",
+   "scene": {
+    "t": "list",
+    "title": "Filing status",
+    "items": [
+     "Single",
+     "Married jointly",
+     "Married separate",
+     "Head of house"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most first-time filers are single. Married couples pick jointly or separately.",
+   "say": "Most first-time filers are single. Married couples pick filing jointly or separately.",
+   "scene": {
+    "t": "list",
+    "title": "Filing status",
+    "items": [
+     "Single",
+     "Married jointly",
+     "Married separate",
+     "Head of house"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Head of household is for unmarried people paying most of a home's costs for a qualifying person, like a child.",
+   "say": "Head of household is for unmarried people paying most of a home's costs for a qualifying person, like a child.",
+   "scene": {
+    "t": "list",
+    "title": "Filing status",
+    "items": [
+     "Single",
+     "Married jointly",
+     "Married separate",
+     "Head of house"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's also qualifying surviving spouse. Status matters because it sets your deduction and your brackets.",
+   "say": "There's also qualifying surviving spouse. Status matters because it sets your deduction and your brackets.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Status sets deduction",
+     "and tax brackets"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your parents can claim you as a dependent, that gets marked on your return. It changes your standard deduction.",
+   "say": "If your parents can claim you as a dependent, that gets marked on your return. It changes your standard deduction.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A dependent?",
+     "Check the box"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Gather your forms.",
+   "say": "Chapter two: gather your forms.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Gather your forms"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The W-2 comes from each employer. Box 1 is your taxable wages. Box 2 is federal tax already withheld.",
+   "say": "The W-2 comes from each employer. Box one is your taxable wages. Box two is the federal tax already withheld.",
+   "scene": {
+    "t": "compare",
+    "title": "Your W-2",
+    "left": {
+     "label": "Box 1",
+     "value": "Wages",
+     "tone": "neutral",
+     "sub": "Taxable pay"
+    },
+    "right": {
+     "label": "Box 2",
+     "value": "Paid",
+     "tone": "up",
+     "sub": "Tax withheld"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Freelance or gig pay can come on a 1099-NEC. For 2026, payers send one at $2,000 or more, up from $600.",
+   "say": "Freelance or gig pay can come on a ten ninety-nine N E C. For twenty twenty-six, payers send one at two thousand dollars or more, up from six hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "1099-NEC threshold",
+    "left": {
+     "label": "Before",
+     "value": "$600",
+     "tone": "neutral",
+     "sub": "Through 2025"
+    },
+    "right": {
+     "label": "2026 pay",
+     "value": "$2,000",
+     "tone": "up",
+     "sub": "2025 tax law"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But no form doesn't mean no tax. Self-employment income counts either way.",
+   "say": "But no form doesn't mean no tax. Self-employment income counts either way.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No 1099 =",
+     "still taxable income"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A bank that pays you $10 or more in interest sends a 1099-INT. Smaller amounts are still taxable.",
+   "say": "A bank that pays you ten dollars or more in interest sends a ten ninety-nine I N T. Smaller amounts are still taxable.",
+   "scene": {
+    "t": "stat",
+    "label": "1099-INT is sent at",
+    "value": "$10",
+    "tone": "neutral",
+    "sub": "Interest in a year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the basics: your Social Security number exactly as it's printed on your card, and your bank account and routing numbers.",
+   "say": "Then the basics: your Social Security number exactly as it's printed on your card, and your bank account and routing numbers.",
+   "scene": {
+    "t": "list",
+    "title": "Also gather",
+    "items": [
+     "SSN card",
+     "Bank numbers",
+     "1098-T, 1098-E"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Students may get a 1098-T for tuition or a 1098-E for student loan interest. Those can unlock credits or deductions.",
+   "say": "Students may get a ten ninety-eight T for tuition or a ten ninety-eight E for student loan interest. Those can unlock credits or deductions.",
+   "scene": {
+    "t": "list",
+    "title": "Also gather",
+    "items": [
+     "SSN card",
+     "Bank numbers",
+     "1098-T, 1098-E"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And bank details matter more now. The IRS is phasing out paper refund checks in favor of direct deposit.",
+   "say": "And bank details matter more now. The IRS is phasing out paper refund checks in favor of direct deposit.",
+   "scene": {
+    "t": "news",
+    "headline": "IRS phasing out paper refunds",
+    "source": "IRS, January 8, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One first-timer surprise: e-filing asks for last year's AGI to sign. Never filed? The IRS says enter $0 or create a PIN.",
+   "say": "One first-timer surprise: e-filing asks for last year's A G I to sign. Never filed? The IRS says you can enter zero dollars or create a PIN.",
+   "scene": {
+    "t": "stat",
+    "label": "Last year's AGI, first time",
+    "value": "$0",
+    "tone": "up",
+    "sub": "Or a new PIN",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Filing before every form arrives is risky. A missing 1099 is how a lot of letters from the IRS start.",
+   "say": "Filing before every form arrives is risky. A missing ten ninety-nine is how a lot of letters from the IRS start.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "All forms in hand",
+     "before you file"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Deductions and credits.",
+   "say": "Chapter three: deductions and credits.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Deductions and credits"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A deduction lowers the income that gets taxed. A credit lowers the tax itself.",
+   "say": "A deduction lowers the income that gets taxed. A credit lowers the tax itself.",
+   "scene": {
+    "t": "split",
+    "title": "Two different tools",
+    "left": {
+     "title": "Deduction",
+     "items": [
+      "Cuts income",
+      "Worth % of it"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Credit",
+     "items": [
+      "Cuts the tax",
+      "$1 for $1"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the 12% bracket, a $1,000 deduction saves $120. A $1,000 credit saves $1,000.",
+   "say": "In the twelve percent bracket, a one thousand dollar deduction saves one hundred twenty dollars. A one thousand dollar credit saves the full one thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "$1,000, 12% bracket",
+    "left": {
+     "label": "Deduction",
+     "value": "$120",
+     "tone": "neutral",
+     "sub": "$1,000 x 12%"
+    },
+    "right": {
+     "label": "Credit",
+     "value": "$1,000",
+     "tone": "up",
+     "sub": "Dollar for dollar"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The credit wins by $880.",
+   "say": "The credit wins by eight hundred eighty dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "$1,000, 12% bracket",
+    "left": {
+     "label": "Deduction",
+     "value": "$120",
+     "tone": "neutral",
+     "sub": "$1,000 x 12%"
+    },
+    "right": {
+     "label": "Credit",
+     "value": "$1,000",
+     "tone": "up",
+     "sub": "Dollar for dollar"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Everyone gets a choice: the standard deduction, or itemizing your actual deductions. You take the bigger one.",
+   "say": "Everyone gets a choice: the standard deduction, or itemizing your actual deductions. You take the bigger one.",
+   "scene": {
+    "t": "compare",
+    "title": "Pick the bigger one",
+    "left": {
+     "label": "Standard",
+     "value": "$16,100",
+     "tone": "up",
+     "sub": "Single, 2026"
+    },
+    "right": {
+     "label": "Itemized",
+     "value": "Add up",
+     "tone": "neutral",
+     "sub": "Mortgage, taxes..."
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026, the standard deduction is $16,100 for single filers, $32,200 for married filing jointly.",
+   "say": "For twenty twenty-six, the standard deduction is sixteen thousand one hundred dollars for single filers, and thirty-two thousand two hundred for married filing jointly.",
+   "scene": {
+    "t": "compare",
+    "title": "Standard deduction, 2026",
+    "left": {
+     "label": "Single",
+     "value": "$16,100",
+     "tone": "up",
+     "sub": "IRS, Oct 2025"
+    },
+    "right": {
+     "label": "Married joint",
+     "value": "$32,200",
+     "tone": "up",
+     "sub": "IRS, Oct 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's grown a lot. It was $6,350 for single filers in 2017.",
+   "say": "It's grown a lot. It was six thousand three hundred fifty dollars for single filers in twenty seventeen.",
+   "scene": {
+    "t": "chart",
+    "title": "Standard deduction, single",
+    "points": [
+     [
+      2017,
+      6350
+     ],
+     [
+      2018,
+      12000
+     ],
+     [
+      2019,
+      12200
+     ],
+     [
+      2020,
+      12400
+     ],
+     [
+      2021,
+      12550
+     ],
+     [
+      2022,
+      12950
+     ],
+     [
+      2023,
+      13850
+     ],
+     [
+      2024,
+      14600
+     ],
+     [
+      2025,
+      15750
+     ],
+     [
+      2026,
+      16100
+     ]
+    ],
+    "prefix": "$",
+    "end": "$16,100",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2017 tax law nearly doubled it to $12,000 in 2018.",
+   "say": "The twenty seventeen tax law nearly doubled it, to twelve thousand dollars in twenty eighteen.",
+   "scene": {
+    "t": "chart",
+    "title": "Standard deduction, single",
+    "points": [
+     [
+      2017,
+      6350
+     ],
+     [
+      2018,
+      12000
+     ],
+     [
+      2019,
+      12200
+     ],
+     [
+      2020,
+      12400
+     ],
+     [
+      2021,
+      12550
+     ],
+     [
+      2022,
+      12950
+     ],
+     [
+      2023,
+      13850
+     ],
+     [
+      2024,
+      14600
+     ],
+     [
+      2025,
+      15750
+     ],
+     [
+      2026,
+      16100
+     ]
+    ],
+    "prefix": "$",
+    "end": "$16,100",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2018,
+     "text": "Nearly doubled"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then inflation adjustments and the 2025 tax law pushed it to $16,100 for 2026.",
+   "say": "Then inflation adjustments and the twenty twenty-five tax law pushed it to sixteen thousand one hundred dollars for twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Standard deduction, single",
+    "points": [
+     [
+      2017,
+      6350
+     ],
+     [
+      2018,
+      12000
+     ],
+     [
+      2019,
+      12200
+     ],
+     [
+      2020,
+      12400
+     ],
+     [
+      2021,
+      12550
+     ],
+     [
+      2022,
+      12950
+     ],
+     [
+      2023,
+      13850
+     ],
+     [
+      2024,
+      14600
+     ],
+     [
+      2025,
+      15750
+     ],
+     [
+      2026,
+      16100
+     ]
+    ],
+    "prefix": "$",
+    "end": "$16,100",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "$16,100"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why itemizing is rare. About 9 in 10 returns took the standard deduction in tax year 2022.",
+   "say": "That's why itemizing is rare. About nine in ten returns took the standard deduction in tax year twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Took the standard deduction",
+    "value": "9 in 10",
+    "tone": "neutral",
+    "sub": "Tax year 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Itemizing tends to pay off with big mortgage interest, state and local taxes, large charitable gifts, or very large medical bills.",
+   "say": "Itemizing tends to pay off with big mortgage interest, state and local taxes, large charitable gifts, or very large medical bills.",
+   "scene": {
+    "t": "list",
+    "title": "Common itemized items",
+    "items": [
+     "Mortgage int.",
+     "State/local tax",
+     "Charity gifts",
+     "Medical bills"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credits are where first-timers can find real money. Refundable ones can pay you even if you owe zero tax.",
+   "say": "Credits are where first-timers can find real money. Refundable ones can pay you even if you owe zero tax.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Refundable credit =",
+     "can pay you cash"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest is the Earned Income Tax Credit, worth up to $8,231 in 2026 for workers with three or more kids.",
+   "say": "The biggest is the Earned Income Tax Credit, worth up to eight thousand two hundred thirty-one dollars in twenty twenty-six for workers with three or more kids.",
+   "scene": {
+    "t": "stat",
+    "label": "Max EITC, 2026",
+    "value": "$8,231",
+    "tone": "up",
+    "sub": "3+ qualifying kids"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Do the math.",
+   "say": "Chapter four: do the math.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Do the math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a hypothetical first return. Single, no kids, standard deduction, tax year 2026.",
+   "say": "Here's a hypothetical first return. Single, no kids, standard deduction, tax year twenty twenty-six.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hypothetical example",
+     "Single, 2026, no kids"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Box 1 of the W-2 says $40,000 in wages. A savings account paid $200 in interest on a 1099-INT.",
+   "say": "Box one of the W-2 says forty thousand dollars in wages. A savings account paid two hundred dollars in interest on a ten ninety-nine I N T.",
+   "scene": {
+    "t": "compare",
+    "title": "Example income",
+    "left": {
+     "label": "W-2 wages",
+     "value": "$40,000",
+     "tone": "neutral",
+     "sub": "Box 1"
+    },
+    "right": {
+     "label": "Interest",
+     "value": "$200",
+     "tone": "neutral",
+     "sub": "1099-INT"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Total income: $40,200. Subtract the $16,100 standard deduction.",
+   "say": "Total income is forty thousand two hundred dollars. Subtract the sixteen thousand one hundred dollar standard deduction.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$40,200 - $16,100",
+     "= $24,100 taxable"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves $24,100 of taxable income. Now it goes through the brackets.",
+   "say": "That leaves twenty-four thousand one hundred dollars of taxable income. Now it goes through the brackets.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Total income",
+     "value": "$40,200"
+    },
+    "to": {
+     "label": "Taxable income",
+     "value": "$24,100"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For a single filer in 2026, the first $12,400 is taxed at 10%. That's $1,240.",
+   "say": "For a single filer in twenty twenty-six, the first twelve thousand four hundred dollars is taxed at ten percent. That's one thousand two hundred forty dollars.",
+   "scene": {
+    "t": "list",
+    "title": "2026 brackets, single",
+    "items": [
+     "10%: to $12,400",
+     "12%: to $50,400",
+     "22%: to $105,700",
+     "24%+ above"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Income from $12,400 up to $50,400 is taxed at 12%.",
+   "say": "Income from twelve thousand four hundred up to fifty thousand four hundred dollars is taxed at twelve percent.",
+   "scene": {
+    "t": "list",
+    "title": "2026 brackets, single",
+    "items": [
+     "10%: to $12,400",
+     "12%: to $50,400",
+     "22%: to $105,700",
+     "24%+ above"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Above that it's 22% up to $105,700, then 24% and higher. Our example never gets there.",
+   "say": "Above that it's twenty-two percent up to one hundred five thousand seven hundred, then twenty-four percent and higher. Our example never gets there.",
+   "scene": {
+    "t": "list",
+    "title": "2026 brackets, single",
+    "items": [
+     "10%: to $12,400",
+     "12%: to $50,400",
+     "22%: to $105,700",
+     "24%+ above"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So $24,100 minus $12,400 leaves $11,700 in the 12% bracket. That's $1,404.",
+   "say": "So twenty-four thousand one hundred minus twelve thousand four hundred leaves eleven thousand seven hundred in the twelve percent bracket. That's one thousand four hundred four dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$11,700 x 12%",
+     "= $1,404"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add them: $1,240 plus $1,404 is $2,644 of federal income tax.",
+   "say": "Add them up: one thousand two hundred forty plus one thousand four hundred four is two thousand six hundred forty-four dollars of federal income tax.",
+   "scene": {
+    "t": "stat",
+    "label": "Example tax owed, 2026",
+    "value": "$2,644",
+    "tone": "down",
+    "sub": "$1,240 + $1,404"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The official IRS tax table rounds in $50 steps, so a real return can land a few dollars off.",
+   "say": "The official IRS tax table works in fifty dollar steps, so a real return can land a few dollars off.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "IRS tax table:",
+     "may differ a few $"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Notice the top bracket is 12%, but the tax is about 6.6% of total income. Only the top slice gets the top rate.",
+   "say": "Notice the top bracket is twelve percent, but the tax is about six point six percent of total income. Only the top slice gets the top rate.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: rates",
+    "left": {
+     "label": "Top bracket",
+     "value": "12%",
+     "tone": "neutral",
+     "sub": "Last dollar"
+    },
+    "right": {
+     "label": "Overall",
+     "value": "6.6%",
+     "tone": "up",
+     "sub": "$2,644 / $40,200"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that $200 of interest? It added just $24 of tax: 12% of $200.",
+   "say": "And that two hundred dollars of interest? It added just twenty-four dollars of tax: twelve percent of two hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "Tax on $200 interest",
+    "value": "$24",
+    "tone": "neutral",
+    "sub": "$200 x 12%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the moment of truth. Box 2 says $3,100 was already withheld.",
+   "say": "Now the moment of truth. Box two says three thousand one hundred dollars was already withheld.",
+   "scene": {
+    "t": "compare",
+    "title": "Withheld vs owed",
+    "left": {
+     "label": "Withheld",
+     "value": "$3,100",
+     "tone": "neutral",
+     "sub": "W-2 Box 2"
+    },
+    "right": {
+     "label": "Tax owed",
+     "value": "$2,644",
+     "tone": "neutral",
+     "sub": "Our math"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$3,100 minus $2,644 is a $456 refund. It's money this person overpaid during the year.",
+   "say": "Three thousand one hundred minus two thousand six hundred forty-four is a four hundred fifty-six dollar refund. It's money this person overpaid during the year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Overpaid in 2026",
+     "value": "$456"
+    },
+    "to": {
+     "label": "Refund in 2027",
+     "value": "$456"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Flip it. If only $2,400 had been withheld, this person would owe $244 by April 15.",
+   "say": "Flip it. If only two thousand four hundred dollars had been withheld, this person would owe two hundred forty-four dollars by April fifteenth.",
+   "scene": {
+    "t": "compare",
+    "title": "Same tax, two outcomes",
+    "left": {
+     "label": "$3,100 held",
+     "value": "+$456",
+     "tone": "up",
+     "sub": "Refund"
+    },
+    "right": {
+     "label": "$2,400 held",
+     "value": "-$244",
+     "tone": "down",
+     "sub": "Balance due"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's set by your W-4. More withheld means a bigger refund; less means bigger paychecks but maybe a bill.",
+   "say": "That's set by your W-4. More withheld means a bigger refund; less means bigger paychecks but maybe a bill.",
+   "scene": {
+    "t": "split",
+    "title": "W-4 trade-off",
+    "left": {
+     "title": "Withhold more",
+     "items": [
+      "Bigger refund",
+      "Smaller checks"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Withhold less",
+     "items": [
+      "Bigger checks",
+      "Possible bill"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: How to file.",
+   "say": "Chapter five: how to file.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "How to file"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Almost everyone e-files now. It started in 1986 with just 25,000 returns.",
+   "say": "Almost everyone e-files now. It started in nineteen eighty-six with just twenty-five thousand returns.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1986",
+      "what": "25,000 e-filed"
+     },
+     {
+      "when": "1990",
+      "what": "4.2M, nationwide"
+     },
+     {
+      "when": "2005",
+      "what": "68.4M e-filed"
+     },
+     {
+      "when": "Apr 2026",
+      "what": "139.2M e-filed"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It went nationwide in 1990 with 4.2 million, and hit 68.4 million by 2005.",
+   "say": "It went nationwide in nineteen ninety with four point two million, and hit sixty-eight point four million by two thousand five.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1986",
+      "what": "25,000 e-filed"
+     },
+     {
+      "when": "1990",
+      "what": "4.2M, nationwide"
+     },
+     {
+      "when": "2005",
+      "what": "68.4M e-filed"
+     },
+     {
+      "when": "Apr 2026",
+      "what": "139.2M e-filed"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By April 24, 2026, the IRS had 139.2 million e-filed returns, about 98% of all returns received.",
+   "say": "By April twenty-fourth, twenty twenty-six, the IRS had one hundred thirty-nine point two million e-filed returns, about ninety-eight percent of all returns received.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1986",
+      "what": "25,000 e-filed"
+     },
+     {
+      "when": "1990",
+      "what": "4.2M, nationwide"
+     },
+     {
+      "when": "2005",
+      "what": "68.4M e-filed"
+     },
+     {
+      "when": "Apr 2026",
+      "what": "139.2M e-filed"
+     }
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, the change: IRS Direct File, the free government tool, won't be there.",
+   "say": "First, the change: IRS Direct File, the free government filing tool, won't be there.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "DIRECT FILE",
+    "label": "Closed",
+    "caption": "Ended after 2025",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On November 3, 2025, the IRS told states it would not be available in 2026, and that no launch date had been set for the future.",
+   "say": "On November third, twenty twenty-five, the IRS told states it would not be available in twenty twenty-six, and that no launch date had been set for the future.",
+   "scene": {
+    "t": "quote",
+    "text": "no launch date has been set for the future.",
+    "source": "IRS email to states, Nov 3, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of October 2026, no comeback for the 2027 season has been announced.",
+   "say": "As of October twenty twenty-six, no comeback for the twenty twenty-seven season has been announced.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Direct File for 2027:",
+     "not announced (Oct 2026)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Option one: IRS Free File. For the 2026 season, guided software was free for incomes of $89,000 or less.",
+   "say": "Option one is IRS Free File. For the twenty twenty-six season, guided software was free for incomes of eighty-nine thousand dollars or less.",
+   "scene": {
+    "t": "stat",
+    "label": "Free File income limit",
+    "value": "$89,000",
+    "tone": "up",
+    "sub": "AGI, 2026 season"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2027 limit isn't out yet. It starts at IRS.gov/freefile; partners set their own rules, and some charge for state.",
+   "say": "The twenty twenty-seven limit isn't out yet. It starts at I R S dot gov slash free file; partners set their own rules, and some charge for state.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Start at IRS.gov",
+     "/freefile"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Option two: Free File Fillable Forms. Any income, no fee, but it's basically blank forms with little guidance and no state filing.",
+   "say": "Option two is Free File Fillable Forms. Any income, no fee, but it's basically blank forms with little guidance and no state filing.",
+   "scene": {
+    "t": "split",
+    "title": "Free options",
+    "left": {
+     "title": "Free File",
+     "items": [
+      "Guided",
+      "Income limit"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Fillable Forms",
+     "items": [
+      "Any income",
+      "No guidance"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Option three: VITA, free help from IRS-certified volunteers, generally for people earning $69,000 or less.",
+   "say": "Option three is VITA: free help from IRS-certified volunteers, generally for people earning sixty-nine thousand dollars or less.",
+   "scene": {
+    "t": "stat",
+    "label": "VITA free help, generally",
+    "value": "$69,000",
+    "tone": "up",
+    "sub": "Income or less"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Option four: paid software or a paid preparer: more guidance, or help with complex returns. Prices vary widely, so people compare.",
+   "say": "Option four is paid software or a paid preparer: more guidance, or help with complex returns. Prices vary widely, so people compare.",
+   "scene": {
+    "t": "split",
+    "title": "Paid options",
+    "left": {
+     "title": "Pros",
+     "items": [
+      "More guidance",
+      "Complex returns"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Cons",
+     "items": [
+      "Costs money",
+      "Upsells"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the state. Most states with an income tax need their own return, often filed with the same software.",
+   "say": "Then there's the state. Most states with an income tax need their own return, often filed with the same software.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Federal return"
+     }
+    ],
+    "prop": "box",
+    "label": "State",
+    "caption": "Most states: 2nd return"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nine states don't tax wages in 2026, including Texas, Florida and Washington.",
+   "say": "Nine states don't tax wages in twenty twenty-six, including Texas, Florida and Washington.",
+   "scene": {
+    "t": "stat",
+    "label": "States with no wage tax",
+    "value": "9",
+    "tone": "up",
+    "sub": "e.g. TX, FL, WA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Need more time? Form 4868 extends the deadline to file to October 15, 2027. Not the deadline to pay.",
+   "say": "Need more time? Form forty-eight sixty-eight extends the deadline to file to October fifteenth, twenty twenty-seven. Not the deadline to pay.",
+   "scene": {
+    "t": "compare",
+    "title": "Form 4868",
+    "left": {
+     "label": "To file",
+     "value": "Oct 15",
+     "tone": "up",
+     "sub": "Extended, 2027"
+    },
+    "right": {
+     "label": "To pay",
+     "value": "Apr 15",
+     "tone": "down",
+     "sub": "Not extended"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Missing it is costly: 5% of unpaid tax per month for not filing, up to 25%, versus 0.5% a month for not paying.",
+   "say": "Missing it is costly: five percent of unpaid tax per month for not filing, up to twenty-five percent, versus half a percent a month for not paying.",
+   "scene": {
+    "t": "compare",
+    "title": "Late penalties",
+    "left": {
+     "label": "Not filing",
+     "value": "5%/mo",
+     "tone": "down",
+     "sub": "Max 25%"
+    },
+    "right": {
+     "label": "Not paying",
+     "value": "0.5%/mo",
+     "tone": "down",
+     "sub": "Plus interest"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So filing on time even when you can't pay in full keeps the bigger penalty off.",
+   "say": "So filing on time, even when you can't pay in full, keeps the bigger penalty off.",
+   "scene": {
+    "t": "compare",
+    "title": "Late penalties",
+    "left": {
+     "label": "Not filing",
+     "value": "5%/mo",
+     "tone": "down",
+     "sub": "Max 25%"
+    },
+    "right": {
+     "label": "Not paying",
+     "value": "0.5%/mo",
+     "tone": "down",
+     "sub": "Plus interest"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Expecting a refund? The IRS says most e-filed returns with direct deposit are paid in under 21 days.",
+   "say": "Expecting a refund? The IRS says most e-filed returns with direct deposit are paid in under twenty-one days.",
+   "scene": {
+    "t": "stat",
+    "label": "Most e-file refunds in",
+    "value": "<21 days",
+    "tone": "up",
+    "sub": "Direct deposit"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Mistakes, checklist, recap.",
+   "say": "Chapter six: the mistakes, the checklist, and the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Mistakes and recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS says one of the most common errors is a wrong or missing Social Security number.",
+   "say": "The IRS says one of the most common errors is a wrong or missing Social Security number.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Wrong SSN/name",
+     "Wrong status",
+     "Bad bank number",
+     "Missing a form"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Others: the wrong filing status, especially after a move, a marriage or a divorce.",
+   "say": "Others: the wrong filing status, especially after a marriage or a divorce.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Wrong SSN/name",
+     "Wrong status",
+     "Bad bank number",
+     "Missing a form"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A typo in your bank or routing number can send your refund on a detour.",
+   "say": "A typo in your bank or routing number can send your refund on a long detour.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Wrong SSN/name",
+     "Wrong status",
+     "Bad bank number",
+     "Missing a form"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And leaving off a form, like a 1099 from a side gig or a bank. The IRS gets a copy too.",
+   "say": "And leaving off a form, like a ten ninety-nine from a side gig or a bank. The IRS gets a copy too.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Wrong SSN/name",
+     "Wrong status",
+     "Bad bank number",
+     "Missing a form"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two more: filing as independent when your parents claim you, and thinking an extension delays the payment.",
+   "say": "Two more: filing as independent when your parents claim you, and thinking an extension delays the payment.",
+   "scene": {
+    "t": "split",
+    "title": "Also common",
+    "left": {
+     "title": "Dependent mix-up",
+     "items": [
+      "Both claim you",
+      "Return rejected"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Extension myth",
+     "items": [
+      "Delays filing",
+      "Not payment"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After you file, keep a copy of the return and your forms. The IRS says three years in general.",
+   "say": "After you file, keep a copy of the return and your forms. The IRS says three years in general.",
+   "scene": {
+    "t": "stat",
+    "label": "Keep tax records, generally",
+    "value": "3 years",
+    "tone": "neutral",
+    "sub": "IRS rule"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the one-screen checklist.",
+   "say": "Here's the one-screen checklist.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "W-2s + 1099s",
+     "SSN + bank info",
+     "Pick a method",
+     "File by Apr 15"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First: every W-2 and 1099 in hand. They should all arrive by early February 2027.",
+   "say": "First: every W-2 and ten ninety-nine in hand. They should all arrive by early February twenty twenty-seven.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "W-2s + 1099s",
+     "SSN + bank info",
+     "Pick a method",
+     "File by Apr 15"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second: your Social Security number, bank numbers and filing status, ready to go.",
+   "say": "Second: your Social Security number, your bank numbers and your filing status, ready to go.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "W-2s + 1099s",
+     "SSN + bank info",
+     "Pick a method",
+     "File by Apr 15"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third: a filing method picked, from Free File, Fillable Forms, VITA or paid help, plus the state return.",
+   "say": "Third: a filing method picked, from Free File, Fillable Forms, VITA or paid help, plus the state return.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "W-2s + 1099s",
+     "SSN + bank info",
+     "Pick a method",
+     "File by Apr 15"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last: filed and paid by Thursday, April 15, 2027, or Form 4868 filed and the tax still paid by then.",
+   "say": "Last: filed and paid by Thursday, April fifteenth, twenty twenty-seven, or Form forty-eight sixty-eight filed and the tax still paid by then.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "W-2s + 1099s",
+     "SSN + bank info",
+     "Pick a method",
+     "File by Apr 15"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your income minus the $16,100 standard deduction runs through the brackets. That's your tax.",
+   "say": "Your income, minus the sixteen thousand one hundred dollar standard deduction, runs through the brackets. That's your tax.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Income - $16,100",
+     "-> brackets = tax"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare it with what was withheld. More withheld means a refund; less means a bill.",
+   "say": "Compare it with what was withheld. More withheld means a refund; less withheld means a bill.",
+   "scene": {
+    "t": "compare",
+    "title": "The last step",
+    "left": {
+     "label": "Withheld more",
+     "value": "Refund",
+     "tone": "up",
+     "sub": "Overpaid"
+    },
+    "right": {
+     "label": "Withheld less",
+     "value": "Bill",
+     "tone": "down",
+     "sub": "Underpaid"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So that $3,268 average refund wasn't a gift. It was mostly an interest-free loan to the government.",
+   "say": "So that three thousand two hundred sixty-eight dollar average refund wasn't a gift. It was mostly an interest-free loan to the government.",
+   "scene": {
+    "t": "hook",
+    "title": "Refund? Not a [bonus].",
+    "prop": "bill",
+    "label": "REFUND",
+    "value": "$3,268",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some people like the forced savings; others prefer bigger paychecks. Either way, now you know where it comes from.",
+   "say": "Some people like the forced savings; others prefer bigger paychecks. Either way, now you know where it comes from.",
+   "scene": {
+    "t": "split",
+    "title": "Two approaches",
+    "left": {
+     "title": "Big refund",
+     "items": [
+      "Forced savings",
+      "No interest"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Small refund",
+     "items": [
+      "Bigger checks",
+      "Must budget"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Subscribe for the next guide.",
+   "say": "That's the money. Subscribe for the next guide.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Your first return, done."
+   }
+  }
+ ],
+ "post": {
+  "title": "Your tax refund isn't a bonus. How to file your taxes for the first time, step by step.",
+  "ig": "Your tax refund isn't a bonus. It's your money. Here's how to file your first tax return, step by step, with real 2026 numbers.",
+  "tiktok": "The average 2026 refund was $3,268. It wasn't a bonus. Here's how filing your first return works.",
+  "yt_desc": "Your tax refund isn't a bonus: the average IRS refund through April 24, 2026 was $3,268, mostly tax people overpaid from their paychecks. This step-by-step guide walks through filing your first federal return for tax year 2026: who must file, the forms (W-2, 1099-NEC, 1099-INT), filing status, the $16,100 standard deduction versus itemizing, credits versus deductions, and a hypothetical $40,000 example with exact bracket math ($2,644 of tax, a $456 refund). It also covers the free and paid ways to file now that IRS Direct File is gone, state returns, Form 4868 extensions (to file, not to pay), common mistakes, record keeping, and a one-screen checklist for the April 15, 2027 deadline.\n\nCHAPTERS\n\nSources: IRS IR-2025-103 and Rev. Proc. 2025-32 (Oct 9, 2025), tax year 2026 inflation adjustments; IRS Filing Season Statistics, week ending April 24, 2026; IRS IR-2026-02 (Jan 8, 2026); IRS Free File page; IRS, How long should I keep records; IRS FS-2011-10, IRS E-File: A History (2011); Nextgov/FCW and Federal News Network (Nov 2025) on Direct File; Congressional Research Service RL34498 (standard deduction history); Tax Policy Center; CPA Practice Advisor (Jul 2025) on 1099 thresholds; Tax Foundation 2026 state income tax rates.\n\nNews and education, not financial advice.\n\n#taxes #firsttimefiler #personalfinance",
+  "tags": [
+   "how to file taxes for the first time",
+   "first tax return",
+   "standard deduction 2026",
+   "2026 tax brackets",
+   "IRS Free File",
+   "Direct File ended",
+   "W-2 and 1099",
+   "tax refund explained"
+  ]
+ }
+}
