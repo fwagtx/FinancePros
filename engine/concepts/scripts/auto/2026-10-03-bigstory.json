@@ -1,0 +1,193 @@
+{
+ "id": "2026-10-03-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Mortgage rates\nback above 7%",
+ "cover": {
+  "title": "Mortgages Back Over 7%",
+  "prop": "house",
+  "label": "30-year",
+  "value": "7.28%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Mortgage rates are back above 7%.",
+   "say": "Mortgage rates are back above seven percent.",
+   "scene": {
+    "t": "hook",
+    "title": "Mortgages over [7%]",
+    "prop": "house",
+    "label": "30-year",
+    "value": "7.28%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Freddie Mac: the 30-year fixed averaged 7.28% on Oct 1, 2026, the highest since November 2023.",
+   "say": "Freddie Mac's average hit seven point two eight percent, the highest since November twenty twenty-three.",
+   "scene": {
+    "t": "stat",
+    "label": "30-year fixed, Oct 1 2026",
+    "value": "7.28%",
+    "tone": "down",
+    "sub": "Freddie Mac survey",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Early October each year: 2.88% in 2020, 7.28% in 2026.",
+   "say": "In early October twenty twenty, it was two point eight eight percent.",
+   "scene": {
+    "t": "chart",
+    "title": "30-year rate, early Oct",
+    "points": [
+     [
+      2020,
+      2.88
+     ],
+     [
+      2021,
+      2.99
+     ],
+     [
+      2022,
+      6.66
+     ],
+     [
+      2023,
+      7.49
+     ],
+     [
+      2024,
+      6.12
+     ],
+     [
+      2025,
+      6.34
+     ],
+     [
+      2026,
+      7.28
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.28%",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trigger: a global bond selloff. The US 10-year Treasury yield touched 5.34% intraday on Oct 1, the highest since 2002.",
+   "say": "The trigger is a global bond selloff. On October first, the US ten-year Treasury yield touched five point three four percent, its highest since two thousand two.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "10-year: 5.34%"
+     },
+     {
+      "name": "uk",
+      "mood": "worried",
+      "says": "30-year: over 6%"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "near 30-yr highs"
+     }
+    ],
+    "caption": "Bonds sold off worldwide"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Britain's 30-year yield topped 6%, a 1998 high. Japan's yields are near 30-year highs.",
+   "say": "Britain's thirty-year topped six percent, and Japan's are near thirty-year highs.",
+   "scene": {
+    "t": "news",
+    "headline": "UK 30-yr yield tops 6%, 1998 high",
+    "source": "Reuters, Oct 1, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Reuters cites energy-driven inflation, AI spending soaking up capital, and bets on Fed hikes, which cooled after Friday's weak jobs report.",
+   "say": "Why? Reuters points to pricey energy, AI soaking up money, and Fed hike bets, which cooled after Friday's weak jobs report.",
+   "scene": {
+    "t": "list",
+    "title": "Why yields jumped (Reuters)",
+    "items": [
+     "Energy prices",
+     "AI borrowing",
+     "Fed hike bets"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $400,000 30-year loan, principal and interest: $2,486/mo at 6.34% (Oct 2025) vs $2,737/mo at 7.28% (Oct 2026).",
+   "say": "For example, a four hundred thousand dollar loan costs about two hundred fifty dollars more a month than a year ago.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $400K loan",
+    "left": {
+     "label": "Oct 2025",
+     "value": "$2,486",
+     "tone": "neutral",
+     "sub": "at 6.34%"
+    },
+    "right": {
+     "label": "Oct 2026",
+     "value": "$2,737",
+     "tone": "down",
+     "sub": "at 7.28%"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Existing fixed-rate mortgages don't change. New loans follow bonds. Next Freddie Mac reading: Thursday, Oct 8.",
+   "say": "Existing fixed-rate mortgages don't change. New loans follow bonds, and Freddie Mac's next reading is Thursday.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old fixed loans: no change",
+     "New loans: follow bonds",
+     "Next reading: Thursday"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Mortgage rates are back above 7%. Blame the bond market.",
+  "ig": "Mortgage rates are back above 7%.\nFreddie Mac's 30-year fixed averaged 7.28% on Oct 1, 2026, up from 6.34% a year earlier and the highest since November 2023.\nThe US 10-year Treasury yield touched 5.34% intraday on Oct 1, its highest since 2002, as bonds sold off worldwide. Britain's 30-year yield topped 6%, a 1998 high.\nExample: a $400,000 30-year loan costs about $251 more a month (principal and interest) than at last year's rate.\nSources: Freddie Mac PMMS (Oct 1, 2026), Reuters.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgagerates #bonds #housing #personalfinance #financeprostv",
+  "tiktok": "Mortgage rates are back above 7%: 7.28% on Oct 1. Not financial advice. #moneytok #personalfinance #mortgagerates #bonds #financeprostv",
+  "yt_desc": "Freddie Mac's 30-year fixed mortgage rate averaged 7.28% on Oct 1, 2026, up from 6.34% a year earlier and the highest since November 2023. The trigger is a global bond selloff: the US 10-year Treasury yield touched 5.34% intraday on Oct 1, its highest since 2002, and Britain's 30-year yield topped 6%. Sources: Freddie Mac, Reuters. News and education, not financial advice.\n#Shorts #mortgagerates #personalfinance",
+  "tags": [
+   "mortgage rates",
+   "treasury yields",
+   "bond market",
+   "housing market",
+   "personal finance"
+  ]
+ }
+}
