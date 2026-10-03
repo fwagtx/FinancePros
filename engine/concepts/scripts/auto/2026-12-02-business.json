@@ -1,0 +1,193 @@
+{
+ "id": "2026-12-02-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Berkshire uses\ninsurance float",
+ "cover": {
+  "title": "Berkshire's $176B Secret",
+  "prop": "bag",
+  "label": "End 2025",
+  "value": "$176B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Berkshire Hathaway invests about $176 billion that isn't its own money (end of 2025).",
+   "say": "Berkshire invests a hundred seventy-six billion dollars that isn't its money.",
+   "scene": {
+    "t": "hook",
+    "title": "Other people's [money]",
+    "prop": "bag",
+    "label": "End 2025",
+    "value": "$176B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That money is called float: premiums come in now, claims get paid later.",
+   "say": "That money is called float: premiums come in now, claims get paid later.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Float =",
+     "premiums collected now,",
+     "claims paid later"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Warren Buffett, 2020 letter: \"funds that do not belong to us, but are nevertheless ours to deploy.\"",
+   "say": "Buffett called it funds that do not belong to us, but are nevertheless ours to deploy.",
+   "scene": {
+    "t": "quote",
+    "text": "Funds that do not belong to us, but are nevertheless ours to deploy.",
+    "source": "Warren Buffett, 2020 letter",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: a $1,000 premium invested 5 years at an assumed 4% a year: $1,000 x 1.04^5 = $1,216.65.",
+   "say": "Say a thousand-dollar premium earns an assumed four percent for five years: about twelve hundred seventeen dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Premium (example)",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "5 years at 4%",
+     "value": "$1,216.65"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even if the claim takes the full $1,000 in year 5, the insurer keeps $216.65.",
+   "say": "Even if the claim takes the whole thousand, the insurer keeps about two hundred seventeen.",
+   "scene": {
+    "t": "compare",
+    "title": "Hypothetical, year 5",
+    "left": {
+     "label": "Claim paid",
+     "value": "$1,000",
+     "tone": "down",
+     "sub": "assumed"
+    },
+    "right": {
+     "label": "Kept",
+     "value": "$216.65",
+     "tone": "up",
+     "sub": "investment gain"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It began in 1967 with National Indemnity, bought for $8.6 million.",
+   "say": "It began in nineteen sixty-seven with National Indemnity, bought for eight point six million dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "National Indemnity price",
+    "value": "$8.6M",
+    "tone": "neutral",
+    "sub": "bought in 1967",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Berkshire's float: $39 million in 1970, about $176 billion at the end of 2025.",
+   "say": "Float grew from thirty-nine million in nineteen seventy to about one hundred seventy-six billion by twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Berkshire float, year-end",
+    "points": [
+     [
+      1970,
+      0.039
+     ],
+     [
+      1990,
+      1.632
+     ],
+     [
+      2000,
+      27.871
+     ],
+     [
+      2010,
+      65.832
+     ],
+     [
+      2020,
+      138
+     ],
+     [
+      2024,
+      171
+     ],
+     [
+      2025,
+      176
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$176B",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, insurance underwriting itself earned $7.26 billion after tax, so the float cost less than nothing.",
+   "say": "In twenty twenty-five, underwriting alone earned seven point two six billion after tax, so the float cost less than nothing.",
+   "scene": {
+    "t": "stat",
+    "label": "Underwriting profit, 2025",
+    "value": "$7.26B",
+    "tone": "up",
+    "sub": "after tax",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Greg Abel became Berkshire's CEO on January 1, 2026.",
+   "say": "And on January first, twenty twenty-six, Greg Abel became CEO.",
+   "scene": {
+    "t": "news",
+    "headline": "Greg Abel becomes Berkshire CEO",
+    "source": "Berkshire Hathaway, Jan 1, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Berkshire invests $176 billion that isn't its own money",
+  "ig": "Berkshire Hathaway invests billions that aren't its money.\n\nIt's insurance float: premiums collected now, claims paid later. Berkshire's float was about $176B at the end of 2025, up from $39M in 1970.\nIt began with National Indemnity, bought for $8.6M in 1967.\nIn 2025, insurance underwriting earned $7.26B after tax, so the float cost less than nothing.\nHypothetical: $1,000 held 5 years at an assumed 4% = $1,216.65.\nGreg Abel became CEO on Jan 1, 2026.\n\nSources: Berkshire Hathaway shareholder letters (2010, 2020, 2025) and FY2025 10-K; Berkshire news release May 5, 2025.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#berkshirehathaway #insurance #howtheymakemoney #business #financeprostv",
+  "tiktok": "Berkshire invests ~$176B that isn't its money. How insurance float works. Not financial advice. #moneytok #personalfinance #berkshire #financeprostv",
+  "yt_desc": "Berkshire Hathaway's insurance float, premiums collected now and claims paid later, was about $176 billion at the end of 2025, up from $39 million in 1970. In 2025 its insurance underwriting earned $7.26 billion after tax, so that money cost less than nothing to hold; Greg Abel became CEO on January 1, 2026. Sources: Berkshire shareholder letters, FY2025 10-K, May 5, 2025 news release.\n\nNews and education, not financial advice.\n\n#Shorts #berkshirehathaway #insurance",
+  "tags": [
+   "how berkshire hathaway makes money",
+   "insurance float",
+   "warren buffett float",
+   "berkshire hathaway insurance",
+   "how they make money"
+  ]
+ }
+}
