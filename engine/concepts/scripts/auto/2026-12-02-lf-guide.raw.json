@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Your tax refund isn't a bonus. It's your money.",
-   "say": "Your tax refund isn't a bonus. It's your money.",
+   "text": "The average tax refund was $3,268. It's not a bonus.",
+   "say": "The average tax refund was about thirty-three hundred dollars. Not a bonus.",
    "scene": {
     "t": "hook",
     "title": "Refund? Not a [bonus].",
@@ -35,8 +35,8 @@
   },
   {
    "who": "ticker",
-   "text": "For most people, that's tax they overpaid from their paychecks all year, coming back with no interest.",
-   "say": "For most people, that's tax they overpaid from their paychecks all year, coming back with no interest.",
+   "text": "For many people, much of that is tax they overpaid from their paychecks all year, coming back with no interest.",
+   "say": "For many people, much of that is tax they overpaid from their paychecks all year, coming back with no interest.",
    "scene": {
     "t": "money",
     "from": {
@@ -64,11 +64,11 @@
   },
   {
    "who": "ticker",
-   "text": "And for first-time filers in early 2027, one free IRS tool from 2025 is gone.",
-   "say": "And for first-time filers in early twenty twenty-seven, one free IRS tool from twenty twenty-five is gone.",
+   "text": "And for first-time filers in early 2027, one free IRS tool still isn't back.",
+   "say": "And for first-time filers in early twenty twenty-seven, one free IRS tool still isn't back.",
    "scene": {
     "t": "news",
-    "headline": "IRS ends Direct File program",
+    "headline": "Direct File not offered in 2026",
     "source": "IRS email to states, Nov 3, 2025",
     "mood": "worried"
    }
@@ -237,20 +237,20 @@
   },
   {
    "who": "ticker",
-   "text": "Do you have to file? If you're single and under 65, the line is gross income of $16,100.",
-   "say": "Do you have to file? If you're single and under sixty-five, the line is gross income of sixteen thousand one hundred dollars.",
+   "text": "Do you have to file? If you're single, under 65 and nobody can claim you as a dependent, the line is gross income of $16,100.",
+   "say": "Do you have to file? If you're single, under sixty-five, and nobody can claim you as a dependent, the line is gross income of sixteen thousand one hundred dollars.",
    "scene": {
     "t": "stat",
     "label": "Must file if income hits",
     "value": "$16,100",
     "tone": "neutral",
-    "sub": "Single, under 65"
+    "sub": "If not a dependent"
    }
   },
   {
    "who": "ticker",
-   "text": "That number isn't random. It's the 2026 standard deduction, which we'll get to.",
-   "say": "That number isn't random. It's the twenty twenty-six standard deduction, which we'll get to.",
+   "text": "That number isn't random. It's the 2026 standard deduction. If someone can claim you as a dependent, your line is lower.",
+   "say": "That number isn't random. It's the twenty twenty-six standard deduction. And if someone can claim you as a dependent, your line is lower.",
    "scene": {
     "t": "board",
     "lines": [
@@ -500,14 +500,14 @@
   },
   {
    "who": "ticker",
-   "text": "One first-timer surprise: e-filing asks for last year's AGI to sign. Never filed? The IRS says enter $0 or create a PIN.",
-   "say": "One first-timer surprise: e-filing asks for last year's A G I to sign. Never filed? The IRS says you can enter zero dollars or create a PIN.",
+   "text": "One first-timer surprise: e-filing asks for last year's AGI to sign. Never filed? The IRS says enter $0.",
+   "say": "One first-timer surprise: e-filing asks for last year's A G I to sign. Never filed? The IRS says you enter zero dollars.",
    "scene": {
     "t": "stat",
     "label": "Last year's AGI, first time",
     "value": "$0",
     "tone": "up",
-    "sub": "Or a new PIN",
+    "sub": "Prior-year AGI",
     "mood": "shock"
    }
   },
@@ -859,8 +859,8 @@
   },
   {
    "who": "ticker",
-   "text": "The biggest is the Earned Income Tax Credit, worth up to $8,231 in 2026 for workers with three or more kids.",
-   "say": "The biggest is the Earned Income Tax Credit, worth up to eight thousand two hundred thirty-one dollars in twenty twenty-six for workers with three or more kids.",
+   "text": "One of the biggest is the Earned Income Tax Credit, worth up to $8,231 in 2026 for workers with three or more kids.",
+   "say": "One of the biggest is the Earned Income Tax Credit, worth up to eight thousand two hundred thirty-one dollars in twenty twenty-six for workers with three or more kids.",
    "scene": {
     "t": "stat",
     "label": "Max EITC, 2026",
@@ -1263,13 +1263,13 @@
   },
   {
    "who": "ticker",
-   "text": "As of October 2026, no comeback for the 2027 season has been announced.",
-   "say": "As of October twenty twenty-six, no comeback for the twenty twenty-seven season has been announced.",
+   "text": "As of this video, no comeback for the 2027 season has been announced.",
+   "say": "As of this video, no comeback for the twenty twenty-seven season has been announced.",
    "scene": {
     "t": "board",
     "lines": [
      "Direct File for 2027:",
-     "not announced (Oct 2026)"
+     "not announced yet"
     ]
    }
   },
@@ -1496,7 +1496,7 @@
   },
   {
    "who": "ticker",
-   "text": "Others: the wrong filing status, especially after a move, a marriage or a divorce.",
+   "text": "Others: the wrong filing status, especially after a marriage or a divorce.",
    "say": "Others: the wrong filing status, especially after a marriage or a divorce.",
    "scene": {
     "t": "list",
@@ -1701,8 +1701,8 @@
   },
   {
    "who": "ticker",
-   "text": "So that $3,268 average refund wasn't a gift. It was mostly an interest-free loan to the government.",
-   "say": "So that three thousand two hundred sixty-eight dollar average refund wasn't a gift. It was mostly an interest-free loan to the government.",
+   "text": "So that $3,268 average refund wasn't a gift. Much of it was money withheld from paychecks, coming back with no interest.",
+   "say": "So that three thousand two hundred sixty-eight dollar average refund wasn't a gift. Much of it was money withheld from paychecks, coming back with no interest.",
    "scene": {
     "t": "hook",
     "title": "Refund? Not a [bonus].",
@@ -1751,7 +1751,7 @@
   "title": "Your tax refund isn't a bonus. How to file your taxes for the first time, step by step.",
   "ig": "Your tax refund isn't a bonus. It's your money. Here's how to file your first tax return, step by step, with real 2026 numbers.",
   "tiktok": "The average 2026 refund was $3,268. It wasn't a bonus. Here's how filing your first return works.",
-  "yt_desc": "Your tax refund isn't a bonus: the average IRS refund through April 24, 2026 was $3,268, mostly tax people overpaid from their paychecks. This step-by-step guide walks through filing your first federal return for tax year 2026: who must file, the forms (W-2, 1099-NEC, 1099-INT), filing status, the $16,100 standard deduction versus itemizing, credits versus deductions, and a hypothetical $40,000 example with exact bracket math ($2,644 of tax, a $456 refund). It also covers the free and paid ways to file now that IRS Direct File is gone, state returns, Form 4868 extensions (to file, not to pay), common mistakes, record keeping, and a one-screen checklist for the April 15, 2027 deadline.\n\nCHAPTERS\n\nSources: IRS IR-2025-103 and Rev. Proc. 2025-32 (Oct 9, 2025), tax year 2026 inflation adjustments; IRS Filing Season Statistics, week ending April 24, 2026; IRS IR-2026-02 (Jan 8, 2026); IRS Free File page; IRS, How long should I keep records; IRS FS-2011-10, IRS E-File: A History (2011); Nextgov/FCW and Federal News Network (Nov 2025) on Direct File; Congressional Research Service RL34498 (standard deduction history); Tax Policy Center; CPA Practice Advisor (Jul 2025) on 1099 thresholds; Tax Foundation 2026 state income tax rates.\n\nNews and education, not financial advice.\n\n#taxes #firsttimefiler #personalfinance",
+  "yt_desc": "Your tax refund isn't a bonus: the average IRS refund through April 24, 2026 was $3,268, much of it tax people overpaid from their paychecks. This step-by-step guide walks through filing your first federal return for tax year 2026: who must file, the forms (W-2, 1099-NEC, 1099-INT), filing status, the $16,100 standard deduction versus itemizing, credits versus deductions, and a hypothetical $40,000 example with exact bracket math ($2,644 of tax, a $456 refund). It also covers the free and paid ways to file now that IRS Direct File is gone, state returns, Form 4868 extensions (to file, not to pay), common mistakes, record keeping, and a one-screen checklist for the April 15, 2027 deadline.\n\nCHAPTERS\n\nSources: IRS IR-2025-103 and Rev. Proc. 2025-32 (Oct 9, 2025), tax year 2026 inflation adjustments; IRS Filing Season Statistics, week ending April 24, 2026; IRS IR-2026-02 (Jan 8, 2026); IRS Free File page; IRS, How long should I keep records; IRS FS-2011-10, IRS E-File: A History (2011); Nextgov/FCW and Federal News Network (Nov 2025) on Direct File; Congressional Research Service RL34498 (standard deduction history); Tax Policy Center; CPA Practice Advisor (Jul 2025) on 1099 thresholds; Tax Foundation 2026 state income tax rates.\n\nNews and education, not financial advice.\n\n#taxes #firsttimefiler #personalfinance",
   "tags": [
    "how to file taxes for the first time",
    "first tax return",
