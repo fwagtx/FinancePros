@@ -5,44 +5,44 @@
     "title": "Lemon Laws: Used Cars?",
     "prop": "car",
     "label": "USED",
-    "value": "NOPE"
+    "value": "RARELY"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "In most states, lemon laws don't cover used cars.",
-      "say": "In most states, lemon laws don't cover used cars.",
+      "text": "Most states have no lemon law just for used cars.",
+      "say": "Most states have no lemon law just for used cars.",
       "scene": {
         "t": "hook",
         "title": "Lemon law: [used] cars?",
         "prop": "car",
         "label": "USED",
-        "value": "NOPE",
+        "value": "RARELY",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "Only about 10 states have a used-car lemon law, like New York and Massachusetts.",
-      "say": "Only about ten states have a used-car lemon law, like New York and Massachusetts.",
+      "text": "Only about 10 states have one, like New York and Massachusetts.",
+      "say": "Only about ten states have one, like New York.",
       "scene": {
         "t": "stat",
         "label": "States with used-car laws",
         "value": "About 10",
         "tone": "down",
-        "sub": "J.D. Power list",
+        "sub": "Counts vary: 7-10",
         "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "New cars differ: all 50 states have one. If a serious defect survives too many repairs, the maker refunds or replaces the car.",
-      "say": "New cars differ: all fifty states have one. If a serious defect survives too many repairs, the maker refunds or replaces the car.",
+      "text": "New cars differ: all 50 states have one. If a substantial defect isn't fixed after repeated tries, the maker must refund or replace it.",
+      "say": "New cars differ: all fifty states have one. If a substantial defect isn't fixed after repeated tries, the maker must refund or replace it.",
       "scene": {
         "t": "board",
         "lines": [
-          "Same serious defect",
-          "+ too many failed repairs",
+          "Same substantial defect",
+          "+ repeated failed repairs",
           "= refund or replacement"
         ],
         "mood": "think"
@@ -50,8 +50,8 @@
     },
     {
       "who": "ticker",
-      "text": "California, for example, presumes a lemon within 18 months or 18,000 miles: 4 repair tries, or over 30 days in the shop.",
-      "say": "California, for example, presumes a lemon within eighteen months or eighteen thousand miles: four repair tries, or over thirty days in the shop.",
+      "text": "California, for example, presumes a lemon within 18 months or 18,000 miles: 4 repair tries (maker notified; 2 for safety defects), or over 30 days in the shop.",
+      "say": "California, for example, presumes a lemon within eighteen months or eighteen thousand miles: four repair tries, two for safety defects, or over thirty days in the shop.",
       "scene": {
         "t": "compare",
         "title": "California: 18 mo/18k mi",
@@ -59,7 +59,7 @@
           "label": "Repairs",
           "value": "4",
           "tone": "neutral",
-          "sub": "same defect"
+          "sub": "2 if safety risk"
         },
         "right": {
           "label": "Days in shop",
@@ -72,11 +72,11 @@
     },
     {
       "who": "ticker",
-      "text": "Not covered: accident damage, abuse or neglect, unauthorized mods, and minor defects.",
-      "say": "What's not covered? Accident damage, abuse or neglect, unauthorized modifications, and minor defects.",
+      "text": "Typically not covered: accident damage, abuse or neglect, unauthorized mods, and minor defects.",
+      "say": "Typically not covered: accidents, abuse, modifications and minor defects.",
       "scene": {
         "t": "list",
-        "title": "Not covered",
+        "title": "Typically not covered",
         "items": [
           "Accident damage",
           "Abuse, neglect",
@@ -103,8 +103,8 @@
     },
     {
       "who": "ticker",
-      "text": "Used car with a written warranty? Federal Magnuson-Moss law makes it enforceable.",
-      "say": "Used car with a written warranty? The federal Magnuson-Moss Act makes it enforceable.",
+      "text": "Used car with a written warranty? Federal Magnuson-Moss law lets you sue if it's broken. Sold 'as is'? It doesn't help.",
+      "say": "Used car with a written warranty? The federal Magnuson-Moss Act lets you sue if it's broken.",
       "scene": {
         "t": "split",
         "title": "Two kinds of protection",
@@ -129,8 +129,8 @@
     },
     {
       "who": "ticker",
-      "text": "In California, winning buyers get attorney fees paid by the maker.",
-      "say": "In California, winning buyers get attorney fees paid by the maker.",
+      "text": "In California, buyers who win can recover reasonable attorney fees from the maker.",
+      "say": "In California, buyers who win can recover reasonable attorney fees from the maker.",
       "scene": {
         "t": "stat",
         "label": "Who pays the lawyer",
@@ -150,10 +150,10 @@
     }
   ],
   "post": {
-    "title": "Lemon laws skip used cars in most states. Here's why",
-    "ig": "In most states, lemon laws don't cover used cars.\nAbout 10 states have used-car lemon laws, including New York and Massachusetts.\nAll 50 states cover new cars: in California, 4 repair tries or 30+ days in the shop within 18 months/18,000 miles presumes a lemon.\nA buyback isn't a full refund: California subtracts a usage offset (hypothetical: $2,500 on a $50,000 car first repaired at 6,000 miles).\nSources: CA Civil Code 1793.22, NY Attorney General, J.D. Power, FTC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#lemonlaw #carbuying #usedcars #personalfinance #financeprostv",
-    "tiktok": "Most states' lemon laws skip used cars. Not financial advice. #moneytok #personalfinance #lemonlaw #carbuying #financeprostv",
-    "yt_desc": "Every state has a lemon law for new cars, but only about 10 have one for used cars, per J.D. Power and the New York Attorney General. California presumes a lemon after 4 repair tries or 30+ days in the shop within 18 months or 18,000 miles, and buybacks subtract a usage offset. The federal Magnuson-Moss Warranty Act covers written warranties, per the FTC. News and education, not financial advice. #Shorts #lemonlaw #carbuying",
+    "title": "Most states have no lemon law for used cars",
+    "ig": "Most states have no lemon law just for used cars.\nAbout 10 states have used-car lemon laws, including New York and Massachusetts.\nAll 50 states cover new cars: in California, 4 repair tries (2 for safety defects) or 30+ days in the shop within 18 months/18,000 miles presumes a lemon.\nA buyback isn't a full refund: California subtracts a usage offset (hypothetical: $2,500 on a $50,000 car first repaired at 6,000 miles).\nSources: CA Civil Code 1793.22, CT Office of Legislative Research, FTC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#lemonlaw #carbuying #usedcars #personalfinance #financeprostv",
+    "tiktok": "Most states have no lemon law just for used cars. Not financial advice. #moneytok #personalfinance #lemonlaw #carbuying #financeprostv",
+    "yt_desc": "Every state has a lemon law for new cars, but only about 10 have one for used cars, per Connecticut's legislative research office (counts vary). California presumes a lemon after 4 repair tries (2 for safety defects) or 30+ days in the shop within 18 months or 18,000 miles, and buybacks subtract a usage offset. The federal Magnuson-Moss Warranty Act covers written warranties, per the FTC. News and education, not financial advice. #Shorts #lemonlaw #carbuying",
     "tags": [
       "lemon law",
       "used car lemon law",
