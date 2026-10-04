@@ -1,0 +1,1770 @@
+{
+ "id": "2026-12-03-lf-world",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "WORLD MONEY",
+ "cover": {
+  "title": "Your Dollar Is Spanish?",
+  "prop": "coins",
+  "label": "8 reales",
+  "value": "1792"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your dollar was defined by a Spanish silver coin.",
+   "say": "Your dollar was defined by a Spanish silver coin.",
+   "scene": {
+    "t": "hook",
+    "title": "Your $ is [Spanish]",
+    "prop": "coins",
+    "label": "8 reales",
+    "value": "1792",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1792, Congress defined the new US dollar by the value of the Spanish milled dollar.",
+   "say": "In seventeen ninety-two, Congress defined the brand-new US dollar by the value of a Spanish coin.",
+   "scene": {
+    "t": "quote",
+    "text": "of the value of a Spanish milled dollar as the same is now current",
+    "source": "US Coinage Act, April 2, 1792"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the silver behind coins like that came from mines like Potosí, a mountain in today's Bolivia, found in 1545.",
+   "say": "And the silver behind coins like that came from mines like Potosí, a mountain in today's Bolivia, found in fifteen forty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Silver found at Potosí",
+    "value": "1545",
+    "tone": "neutral",
+    "sub": "In today's Bolivia"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the strange part. In the 1590s, silver was worth about twice as much in China as in Spain.",
+   "say": "Here's the strange part. In the fifteen nineties, silver was worth about twice as much in China as it was in Spain.",
+   "scene": {
+    "t": "compare",
+    "title": "Gold vs silver, 1590s",
+    "left": {
+     "label": "Canton",
+     "value": "1:5.5",
+     "tone": "up",
+     "sub": "Gold:silver"
+    },
+    "right": {
+     "label": "Spain",
+     "value": "1:12.5",
+     "tone": "neutral",
+     "sub": "Gold:silver"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a huge share of Andean and Mexican silver ended its journey in China, which had started collecting taxes in silver.",
+   "say": "So a huge share of Andean and Mexican silver ended its journey in China, which had started collecting taxes in silver.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Taxes in silver"
+     },
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Silver, coming!"
+     }
+    ],
+    "caption": "Silver flows west, 1500s"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Along the way, it created what historians call the first global currency: the piece of eight.",
+   "say": "Along the way, it created what historians call the first global currency: the piece of eight.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "First global currency:",
+     "the piece of eight"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also has a dark side: forced labor, and a death toll historians still argue about.",
+   "say": "This story also has a dark side: forced labor, and a death toll that historians still argue about.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Built on forced labor"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's follow the silver: from the mountain, across the Pacific, to the quarter in your pocket.",
+   "say": "So let's follow the silver, from the mountain, across the Pacific, all the way to the quarter in your pocket.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "The mountain",
+     "The human cost",
+     "The coin",
+     "Silver to China"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick note: this is history and education, not financial advice.",
+   "say": "Quick note: this is history and education, not financial advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "History + education,",
+     "not advice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: A mountain of silver.",
+   "say": "Chapter one: a mountain of silver.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "A mountain of silver"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1545, silver was found in a peak the Spanish called Cerro Rico, the rich hill.",
+   "say": "In fifteen forty-five, silver was found in a peak the Spanish called Cerro Rico, which means the rich hill.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1545",
+      "Silver found"
+     ],
+     [
+      "1572",
+      "Royal mint opens"
+     ],
+     [
+      "1573",
+      "Mita labor draft"
+     ],
+     [
+      "1592",
+      "Peak year"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tradition credits Diego Huallpa, an Indigenous Andean man, who spotted silver while searching for lost llamas.",
+   "say": "Tradition credits Diego Huallpa, an Indigenous Andean man, who spotted the silver while searching for lost llamas.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Diego Huallpa, 1545",
+     "Looking for llamas"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A boom town grew at its feet. Historians estimate about 160,000 people lived in Potosí around 1600.",
+   "say": "A boom town grew at its feet. Historians estimate about a hundred sixty thousand people lived in Potosí around sixteen hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "Potosí population, c. 1600",
+    "value": "160,000",
+    "tone": "up",
+    "sub": "Historian estimate",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That made it the biggest city in the Americas, and one of the largest in the world at the time.",
+   "say": "That made it the biggest city in the Americas, and one of the largest in the world at the time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Biggest city in the",
+     "Americas, c. 1600"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But silver doesn't come out of a mountain as coins. It comes out as rock, and turning rock into metal took chemistry.",
+   "say": "But silver doesn't come out of a mountain as coins. It comes out as rock, and turning rock into metal took chemistry.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rock -> metal -> coins"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the 1570s, the viceroy ordered refiners to use mercury amalgamation, a method brought in from Mexico.",
+   "say": "In the fifteen seventies, the viceroy ordered refiners to use mercury amalgamation, a method brought in from Mexico.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Try mercury"
+     }
+    ],
+    "caption": "Method from New Spain, 1570s"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Crushed ore mixed with mercury gives up its silver. Peru's Huancavelica mines supplied much of the mercury.",
+   "say": "Crushed ore mixed with mercury gives up its silver, and Peru's Huancavelica mines supplied much of that mercury.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Ore + mercury",
+     "= silver"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Output took off. The peak year was 1592, when about 7.1 million ounces of silver were declared at the treasury office.",
+   "say": "Output took off. The peak year was fifteen ninety-two, when about seven point one million ounces of silver were declared at the treasury office.",
+   "scene": {
+    "t": "stat",
+    "label": "Silver declared, 1592",
+    "value": "7.1M oz",
+    "tone": "up",
+    "sub": "Potosí, peak year",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That ore went through about 80 water-driven mills along the town's stream, which made Potosí an industrial city.",
+   "say": "That ore went through about eighty water-driven mills along the town's stream, which made Potosí a true industrial city.",
+   "scene": {
+    "t": "stat",
+    "label": "Water-driven mills, 1592",
+    "value": "80",
+    "tone": "neutral",
+    "sub": "Crushing ore"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1572, a royal mint opened right in town, to turn the metal into coins on the spot.",
+   "say": "In fifteen seventy-two, a royal mint opened right in town, to turn the metal into coins on the spot.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "POTOSI MINT",
+    "label": "1572",
+    "caption": "Royal mint opens"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Potosí got so famous that the Spanish phrase 'vale un Potosí', worth a Potosí, came to mean worth a fortune.",
+   "say": "Potosí got so famous that the Spanish phrase vale un Potosí, worth a Potosí, came to mean worth a fortune.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "'Vale un Potosí'",
+     "= worth a fortune"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its 1700s successor, built to replace the original mint, still stands. In August 2026, The Art Newspaper reported it's Bolivia's most visited museum.",
+   "say": "Its seventeen hundreds successor, built to replace the original mint, still stands. In August twenty twenty-six, The Art Newspaper reported it's Bolivia's most visited museum.",
+   "scene": {
+    "t": "news",
+    "headline": "Potosí mint museum gets new roofs",
+    "source": "The Art Newspaper, Aug. 26, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The first phase, repairing its leaking roofs, costs about $513,000, financed by the Inter-American Development Bank. The full restoration is expected to take five years.",
+   "say": "The first phase, repairing its leaking roofs, costs about five hundred thirteen thousand dollars, financed by the Inter-American Development Bank. The full restoration is expected to take five years.",
+   "scene": {
+    "t": "stat",
+    "label": "Roof repairs, phase 1",
+    "value": "$513,000",
+    "tone": "neutral",
+    "sub": "IDB-funded"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the mine, and the mint, did not run on willing workers alone.",
+   "say": "But the mine, and the mint, did not run on willing workers alone.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1545",
+      "Silver found"
+     ],
+     [
+      "1572",
+      "Royal mint opens"
+     ],
+     [
+      "1573",
+      "Mita labor draft"
+     ],
+     [
+      "1592",
+      "Peak year"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The human cost.",
+   "say": "Chapter two: the human cost.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The human cost"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1573, Viceroy Francisco de Toledo organized a forced labor draft called the mita.",
+   "say": "In fifteen seventy-three, Viceroy Francisco de Toledo organized a forced labor draft called the mita.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mita, 1573:",
+     "forced labor draft"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It required about 13,500 Indigenous men a year, drawn from 16 provinces, to work at Potosí.",
+   "say": "It required about thirteen thousand five hundred Indigenous men a year, drawn from sixteen provinces, to work at Potosí.",
+   "scene": {
+    "t": "stat",
+    "label": "Mita draft, men per year",
+    "value": "13,500",
+    "tone": "down",
+    "sub": "From 16 provinces"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The dangers were everywhere. Underground, mine accidents were common.",
+   "say": "The dangers were everywhere. Underground, mine accidents were common.",
+   "scene": {
+    "t": "list",
+    "title": "What killed workers",
+    "items": [
+     "Mine accidents",
+     "Silicosis",
+     "Mercury fumes",
+     "Disease"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Historian Kris Lane points to silicosis, a lung disease from rock dust, and mercury poisoning as even bigger killers.",
+   "say": "Historian Kris Lane points to silicosis, a lung disease from rock dust, and mercury poisoning as even bigger killers.",
+   "scene": {
+    "t": "list",
+    "title": "What killed workers",
+    "items": [
+     "Mine accidents",
+     "Silicosis",
+     "Mercury fumes",
+     "Disease"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And across the central Andes, historians note that disease was by far the larger destroyer of Indigenous lives.",
+   "say": "And across the central Andes, historians note that disease was by far the larger destroyer of Indigenous lives.",
+   "scene": {
+    "t": "list",
+    "title": "What killed workers",
+    "items": [
+     "Mine accidents",
+     "Silicosis",
+     "Mercury fumes",
+     "Disease"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inside the royal mint, much of the brutal work was done by enslaved Africans, many from Angola and Congo.",
+   "say": "Inside the royal mint, much of the brutal work was done by enslaved Africans, many of them from Angola and Congo.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "POTOSI MINT",
+    "label": "Enslaved",
+    "caption": "Enslaved Africans at mint",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They worked smelting furnaces that ran around the clock, and the mint's giant wooden rolling mills, driven by mules.",
+   "say": "They worked smelting furnaces that ran around the clock, and the mint's giant wooden rolling mills, driven by mules.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Furnaces: 24 hours",
+     "Rolling mills: mules"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how many people died? Nobody kept a reliable count, and historians disagree sharply.",
+   "say": "So how many people died? Nobody kept a reliable count, and historians disagree sharply.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Death toll:",
+     "no reliable count"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the early 1700s, Potosí chronicler Bartolomé Arzáns claimed the mines had consumed 8 million lives.",
+   "say": "In the early seventeen hundreds, Potosí chronicler Bartolomé Arzáns claimed the mines had consumed eight million lives.",
+   "scene": {
+    "t": "compare",
+    "title": "A debated death toll",
+    "left": {
+     "label": "Arzáns, 1700s",
+     "value": "8M",
+     "tone": "down",
+     "sub": "His claim"
+    },
+    "right": {
+     "label": "Historians",
+     "value": "Far less",
+     "tone": "neutral",
+     "sub": "Toll still heavy"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Historians such as Kris Lane say that number is impossible for the Andes' population at the time. But the real toll was still heavy.",
+   "say": "Historians such as Kris Lane say that number is impossible for the Andes' population at the time. But the real toll was still heavy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "8 million: impossible",
+     "The real toll: still heavy"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whatever the exact number, the first global money rested on coerced labor. That's part of the story too.",
+   "say": "Whatever the exact number, the first global money rested on coerced labor. That's part of the story too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Global money,",
+     "built on forced labor"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: The coin the world trusted.",
+   "say": "Chapter three: the coin the world trusted.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The coin the world trusted"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spanish mints turned all this silver into a coin worth 8 reales: the piece of eight, or Spanish dollar.",
+   "say": "Spanish mints turned all this silver into a coin worth eight reales: the piece of eight, also called the Spanish dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "8 reales =",
+     "1 piece of eight",
+     "= 1 Spanish dollar"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the biggest mint wasn't in Spain. Mexico City opened the first mint in the Americas in 1535.",
+   "say": "And the biggest mint wasn't in Spain at all. Mexico City opened the first mint in the Americas in fifteen thirty-five.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Minting since 1535"
+     }
+    ],
+    "caption": "First mint in the Americas",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the 1600s, it was the largest coin maker in the New World.",
+   "say": "By the sixteen hundreds, it was the largest coin maker in the New World.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "MEXICO MINT",
+    "label": "1535",
+    "caption": "Largest New World mint"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why did the world trust this coin? First, there was a lot of it.",
+   "say": "Why did the world trust this coin? First, there was a lot of it.",
+   "scene": {
+    "t": "list",
+    "title": "Why it won",
+    "items": [
+     "Huge supply",
+     "Steady silver",
+     "Accepted widely"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, it was made with a fairly steady weight and silver content, so merchants knew what they were getting.",
+   "say": "Second, it was made with a fairly steady weight and silver content, so merchants knew what they were getting.",
+   "scene": {
+    "t": "list",
+    "title": "Why it won",
+    "items": [
+     "Huge supply",
+     "Steady silver",
+     "Accepted widely"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And third, once everyone took it, everyone wanted it. That's how a currency goes global.",
+   "say": "And third, once everyone took it, everyone wanted it. That's how a currency goes global.",
+   "scene": {
+    "t": "list",
+    "title": "Why it won",
+    "items": [
+     "Huge supply",
+     "Steady silver",
+     "Accepted widely"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Historian Ward Barrett estimated that from 1493 to 1800, about 85% of the world's silver came from the Americas.",
+   "say": "Historian Ward Barrett estimated that from fourteen ninety-three to eighteen hundred, about eighty-five percent of the world's silver came from the Americas.",
+   "scene": {
+    "t": "stat",
+    "label": "World silver from Americas",
+    "value": "85%",
+    "tone": "up",
+    "sub": "1493-1800, Barrett",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spain recorded the treasure that arrived legally in Seville. In 1929, economist Earl Hamilton added it up, decade by decade.",
+   "say": "Spain recorded the treasure that arrived legally in Seville. In nineteen twenty-nine, economist Earl Hamilton added it up, decade by decade.",
+   "scene": {
+    "t": "chart",
+    "title": "American treasure into Spain",
+    "points": [
+     [
+      1500,
+      0.29
+     ],
+     [
+      1510,
+      0.44
+     ],
+     [
+      1520,
+      0.23
+     ],
+     [
+      1530,
+      1.12
+     ],
+     [
+      1540,
+      2.09
+     ],
+     [
+      1550,
+      3.57
+     ],
+     [
+      1560,
+      5.07
+     ],
+     [
+      1570,
+      5.83
+     ],
+     [
+      1580,
+      10.64
+     ],
+     [
+      1590,
+      13.92
+     ],
+     [
+      1600,
+      11.16
+     ],
+     [
+      1610,
+      10.93
+     ],
+     [
+      1620,
+      10.39
+     ],
+     [
+      1630,
+      6.69
+     ],
+     [
+      1640,
+      5.11
+     ],
+     [
+      1650,
+      2.13
+     ]
+    ],
+    "prefix": "",
+    "suffix": "M",
+    "end": "2.13M",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the 1520s, these registered imports of gold and silver averaged about 235,000 pesos a year.",
+   "say": "In the fifteen twenties, these registered imports of gold and silver averaged about two hundred thirty-five thousand pesos a year.",
+   "scene": {
+    "t": "chart",
+    "title": "American treasure into Spain",
+    "points": [
+     [
+      1500,
+      0.29
+     ],
+     [
+      1510,
+      0.44
+     ],
+     [
+      1520,
+      0.23
+     ],
+     [
+      1530,
+      1.12
+     ],
+     [
+      1540,
+      2.09
+     ],
+     [
+      1550,
+      3.57
+     ],
+     [
+      1560,
+      5.07
+     ],
+     [
+      1570,
+      5.83
+     ],
+     [
+      1580,
+      10.64
+     ],
+     [
+      1590,
+      13.92
+     ],
+     [
+      1600,
+      11.16
+     ],
+     [
+      1610,
+      10.93
+     ],
+     [
+      1620,
+      10.39
+     ],
+     [
+      1630,
+      6.69
+     ],
+     [
+      1640,
+      5.11
+     ],
+     [
+      1650,
+      2.13
+     ]
+    ],
+    "prefix": "",
+    "suffix": "M",
+    "end": "2.13M",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 1520,
+     "text": "~235,000 a year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the 1590s, they averaged about 13.9 million pesos a year, roughly 60 times as much.",
+   "say": "By the fifteen nineties, they averaged about thirteen point nine million pesos a year, roughly sixty times as much.",
+   "scene": {
+    "t": "chart",
+    "title": "American treasure into Spain",
+    "points": [
+     [
+      1500,
+      0.29
+     ],
+     [
+      1510,
+      0.44
+     ],
+     [
+      1520,
+      0.23
+     ],
+     [
+      1530,
+      1.12
+     ],
+     [
+      1540,
+      2.09
+     ],
+     [
+      1550,
+      3.57
+     ],
+     [
+      1560,
+      5.07
+     ],
+     [
+      1570,
+      5.83
+     ],
+     [
+      1580,
+      10.64
+     ],
+     [
+      1590,
+      13.92
+     ],
+     [
+      1600,
+      11.16
+     ],
+     [
+      1610,
+      10.93
+     ],
+     [
+      1620,
+      10.39
+     ],
+     [
+      1630,
+      6.69
+     ],
+     [
+      1640,
+      5.11
+     ],
+     [
+      1650,
+      2.13
+     ]
+    ],
+    "prefix": "",
+    "suffix": "M",
+    "end": "2.13M",
+    "color": "up",
+    "keep": true,
+    "mood": "shock",
+    "note": {
+     "x": 1590,
+     "text": "13.9M a year!"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the flow faded, to about 2.1 million pesos a year in the 1650s.",
+   "say": "Then the flow faded, to about two point one million pesos a year in the sixteen fifties.",
+   "scene": {
+    "t": "chart",
+    "title": "American treasure into Spain",
+    "points": [
+     [
+      1500,
+      0.29
+     ],
+     [
+      1510,
+      0.44
+     ],
+     [
+      1520,
+      0.23
+     ],
+     [
+      1530,
+      1.12
+     ],
+     [
+      1540,
+      2.09
+     ],
+     [
+      1550,
+      3.57
+     ],
+     [
+      1560,
+      5.07
+     ],
+     [
+      1570,
+      5.83
+     ],
+     [
+      1580,
+      10.64
+     ],
+     [
+      1590,
+      13.92
+     ],
+     [
+      1600,
+      11.16
+     ],
+     [
+      1610,
+      10.93
+     ],
+     [
+      1620,
+      10.39
+     ],
+     [
+      1630,
+      6.69
+     ],
+     [
+      1640,
+      5.11
+     ],
+     [
+      1650,
+      2.13
+     ]
+    ],
+    "prefix": "",
+    "suffix": "M",
+    "end": "2.13M",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 1650,
+     "text": "2.1M by the 1650s"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In all, Hamilton counted about 16.6 million kilograms of pure silver registered from 1503 to 1660.",
+   "say": "In all, Hamilton counted about sixteen point six million kilograms of pure silver registered from fifteen oh three to sixteen sixty.",
+   "scene": {
+    "t": "stat",
+    "label": "Registered silver, 1503-1660",
+    "value": "16.6M kg",
+    "tone": "up",
+    "sub": "Hamilton, 1929"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And those are only official records. Smuggled silver never made the books, so the real totals were higher.",
+   "say": "And those are only the official records. Smuggled silver never made the books, so the real totals were higher.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Official records only",
+     "Smuggling: not counted"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hamilton argued this flood helped drive a long run of rising prices in Spain, the price revolution. Historians still debate how much.",
+   "say": "Hamilton argued this flood helped drive a long run of rising prices in Spain, known as the price revolution. Historians still debate how much.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "'Price revolution':",
+     "more silver, higher prices",
+     "(size still debated)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But a lot of that silver didn't stay in Europe. It kept moving east, and so did a lot more that never touched Spain.",
+   "say": "But a lot of that silver didn't stay in Europe. It kept moving east, and so did a lot more that never touched Spain.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "uk",
+      "mood": "worried",
+      "says": "Where's it going?"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Over here"
+     }
+    ],
+    "caption": "Silver keeps moving east"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Why silver sailed to China.",
+   "say": "Chapter four: why silver sailed to China.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Why silver sailed to China"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ming China had a money problem. Its paper money had lost people's trust, so trade ran more and more on silver.",
+   "say": "Ming China had a money problem. Its paper money had lost people's trust, so trade ran more and more on silver.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "worried",
+      "says": "Paper? No thanks"
+     }
+    ],
+    "caption": "Ming China, 1500s",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, in 1581, Grand Secretary Zhang Juzheng pushed the single whip reform across the whole country.",
+   "say": "Then, in fifteen eighty-one, Grand Secretary Zhang Juzheng pushed the single whip reform across the whole country.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Single whip, 1581:",
+     "taxes paid in silver"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It folded land taxes, labor duties and other levies into one payment, assessed in silver.",
+   "say": "It folded land taxes, labor duties and other levies into one payment, assessed in silver.",
+   "scene": {
+    "t": "split",
+    "title": "Single whip",
+    "left": {
+     "title": "Before",
+     "items": [
+      "Grain",
+      "Labor duty",
+      "Many levies"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "After",
+     "items": [
+      "One payment",
+      "In silver"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now people needed silver to pay the state, and that pushed its value in China way up.",
+   "say": "Now people needed silver to pay the state, and that pushed its value in China way up.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Silver, please"
+     }
+    ],
+    "caption": "Silver demand jumps"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 1592 into the early 1600s, an ounce of gold traded for just 5.5 to 7 ounces of silver in Canton.",
+   "say": "From fifteen ninety-two into the early sixteen hundreds, an ounce of gold traded for just five and a half to seven ounces of silver in Canton.",
+   "scene": {
+    "t": "compare",
+    "title": "Silver per oz of gold",
+    "left": {
+     "label": "Canton",
+     "value": "5.5-7",
+     "tone": "up",
+     "sub": "1592-early 1600s"
+    },
+    "right": {
+     "label": "Spain",
+     "value": "12.5-14",
+     "tone": "neutral",
+     "sub": "Same period"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Spain, it took 12.5 to 14 ounces. Citing historian Han-sheng Chuan, Flynn and Giráldez conclude silver was worth about twice as much in China.",
+   "say": "In Spain, it took twelve and a half to fourteen ounces. Citing historian Han-sheng Chuan, Flynn and Giráldez conclude silver was worth about twice as much in China.",
+   "scene": {
+    "t": "compare",
+    "title": "Silver per oz of gold",
+    "left": {
+     "label": "Canton",
+     "value": "5.5-7",
+     "tone": "up",
+     "sub": "1592-early 1600s"
+    },
+    "right": {
+     "label": "Spain",
+     "value": "12.5-14",
+     "tone": "neutral",
+     "sub": "Same period"
+    },
+    "keep": true,
+    "winner": "left",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That gap is an arbitrage: buy where something's cheap, sell where it's dear. Flynn and Giráldez walk through the math.",
+   "say": "That gap is an arbitrage: buy where something's cheap, and sell where it's dear. Flynn and Giráldez walk through the math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Arbitrage:",
+     "buy cheap, sell dear"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In their example, 1 ounce of gold in Amsterdam buys about 11 ounces of silver.",
+   "say": "In their example, one ounce of gold in Amsterdam buys about eleven ounces of silver.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Gold, Amsterdam",
+     "value": "1 oz"
+    },
+    "to": {
+     "label": "Silver",
+     "value": "11 oz"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ship those 11 ounces to China at 5.5 to 1. Eleven divided by 5.5 is 2 ounces of gold.",
+   "say": "Ship those eleven ounces to China, at five and a half to one. Eleven divided by five and a half is two ounces of gold.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Silver to China",
+     "value": "11 oz"
+    },
+    "to": {
+     "label": "Gold",
+     "value": "2 oz"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bring the 2 ounces of gold back to Europe, at 11 to 1, and you have 22 ounces of silver.",
+   "say": "Bring those two ounces of gold back to Europe, at eleven to one, and you have twenty-two ounces of silver.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Gold to Europe",
+     "value": "2 oz"
+    },
+    "to": {
+     "label": "Silver",
+     "value": "22 oz"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The silver doubled in one round trip, before shipping costs and the very real risk of losing the ship.",
+   "say": "The silver doubled in one round trip, before shipping costs and the very real risk of losing the ship.",
+   "scene": {
+    "t": "stat",
+    "label": "Silver after one round trip",
+    "value": "x2",
+    "tone": "up",
+    "sub": "Before costs, risk",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That gap pulled silver toward China from every direction. Japan sent silver too: by one estimate it produced about 30% of the world's silver in the 1500s.",
+   "say": "That gap pulled silver toward China from every direction. Japan sent silver too: by one estimate it produced about thirty percent of the world's silver in the fifteen hundreds.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "Me too"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Welcome"
+     }
+    ],
+    "caption": "Japan: ~30% of world silver"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But Spain's route was the boldest: straight across the Pacific. In 1565, Andrés de Urdaneta found a reliable way back east from the Philippines.",
+   "say": "But Spain's route was the boldest one: straight across the Pacific. In fifteen sixty-five, Andrés de Urdaneta found a reliable way to sail back east from the Philippines.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1565",
+      "Return route found"
+     ],
+     [
+      "1571",
+      "Manila founded"
+     ],
+     [
+      "1581",
+      "Single whip tax"
+     ],
+     [
+      "1815",
+      "Last galleon"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1571, Spain founded Manila. Flynn and Giráldez argue that's when continuous world trade truly began.",
+   "say": "In fifteen seventy-one, Spain founded Manila. Flynn and Giráldez argue that's when continuous world trade truly began.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1565",
+      "Return route found"
+     ],
+     [
+      "1571",
+      "Manila founded"
+     ],
+     [
+      "1581",
+      "Single whip tax"
+     ],
+     [
+      "1815",
+      "Last galleon"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From then on, galleons sailed between Acapulco and Manila, carrying silver west, and bringing Chinese silk and porcelain back.",
+   "say": "From then on, galleons sailed between Acapulco and Manila, carrying silver west, and bringing Chinese silk and porcelain back.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Silver, Acapulco"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Silk and porcelain"
+     }
+    ],
+    "caption": "The Manila galleons"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The route ran for 250 years, until the last Manila galleon sailed in 1815.",
+   "say": "The route ran for two hundred fifty years, until the last Manila galleon sailed in eighteen fifteen.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1565",
+      "Return route found"
+     ],
+     [
+      "1571",
+      "Manila founded"
+     ],
+     [
+      "1581",
+      "Single whip tax"
+     ],
+     [
+      "1815",
+      "Last galleon"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The silver dollar left a mark in Asia too. China's yuan and Japan's yen were later modeled on the Spanish and Mexican silver dollars.",
+   "say": "The silver dollar left a mark in Asia too. China's yuan and Japan's yen were later modeled on the Spanish and Mexican silver dollars.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Yuan"
+     },
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "Yen"
+     }
+    ],
+    "caption": "Modeled on the silver dollar"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And both names mean round, after the shape of the coin.",
+   "say": "And both names mean round, after the shape of the coin.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Yuan, yen =",
+     "'round'"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Into your wallet.",
+   "say": "Chapter five: into your wallet.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Into your wallet"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, the American wallet. Start with the dollar sign itself.",
+   "say": "Now, the American wallet. Let's start with the dollar sign itself.",
+   "scene": {
+    "t": "hook",
+    "title": "Where is [$] from?",
+    "prop": "bill",
+    "label": "$1",
+    "value": "$",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Bureau of Engraving and Printing says the most widely accepted explanation is that $ grew out of 'Ps', short for pesos.",
+   "say": "The Bureau of Engraving and Printing says the most widely accepted explanation is that the dollar sign grew out of P S, short for pesos.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Ps = pesos",
+     "P + S -> $"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Writers put the S over the P, and over time the strokes blended into the symbol you know.",
+   "say": "Writers put the S over the P, and over time the strokes blended into the symbol you know.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "S written over P",
+     "-> $"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, the dollar itself. The Coinage Act of 1792 set it at 371.25 grains of pure silver.",
+   "say": "Next, the dollar itself. The Coinage Act of seventeen ninety-two set it at three hundred seventy-one and a quarter grains of pure silver.",
+   "scene": {
+    "t": "stat",
+    "label": "Pure silver in $1, 1792",
+    "value": "371.25 gr",
+    "tone": "neutral",
+    "sub": "Coinage Act, 1792"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the math: 371.25 divided by 480 grains in a troy ounce is 0.773 troy ounces of silver.",
+   "say": "Here's the math: three hundred seventy-one and a quarter, divided by four hundred eighty grains in a troy ounce, is zero point seven seven three troy ounces of silver.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "371.25 / 480",
+     "= 0.773 troy oz"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That weight wasn't random. Alexander Hamilton based it on a Treasury test of worn Spanish dollars.",
+   "say": "That weight wasn't random. Alexander Hamilton based it on a Treasury test of worn Spanish dollars.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Copy that coin"
+     }
+    ],
+    "caption": "Based on Spanish dollars"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Spanish coin also stayed legal money here. A 1793 law made foreign coins like it legal tender.",
+   "say": "The Spanish coin also stayed legal money here. A seventeen ninety-three law made foreign coins like it legal tender.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1792",
+      "Dollar defined"
+     ],
+     [
+      "1793",
+      "Foreign coins OK"
+     ],
+     [
+      "1857",
+      "Legal tender ends"
+     ],
+     [
+      "2001",
+      "Stocks go decimal"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That lasted until the Coinage Act of February 21, 1857, which ended foreign coins' status as legal tender.",
+   "say": "That lasted until the Coinage Act of February twenty-first, eighteen fifty-seven, which ended foreign coins' status as legal tender.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1792",
+      "Dollar defined"
+     ],
+     [
+      "1793",
+      "Foreign coins OK"
+     ],
+     [
+      "1857",
+      "Legal tender ends"
+     ],
+     [
+      "2001",
+      "Stocks go decimal"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So for more than 60 years, Spanish and Mexican silver was legal money in American pockets, right next to US coins.",
+   "say": "So for more than sixty years, Spanish and Mexican silver was legal money in American pockets, right next to US coins.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Both work here"
+     },
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Pesos welcome"
+     }
+    ],
+    "caption": "Legal tender, 1793-1857"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also explains an odd phrase you still hear: two bits.",
+   "say": "It also explains an odd phrase you might still hear: two bits.",
+   "scene": {
+    "t": "hook",
+    "title": "Why [two bits]?",
+    "prop": "coins",
+    "label": "25¢",
+    "value": "2 bits",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The piece of eight was worth 8 reales. Americans called each real a bit, so one bit was 1/8 of a dollar, or 12.5 cents.",
+   "say": "The piece of eight was worth eight reales. Americans called each real a bit, so one bit was an eighth of a dollar, or twelve and a half cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 bit = 1/8 dollar",
+     "= 12.5 cents"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two bits is 2 times 12.5 cents, which is 25 cents. That's a quarter.",
+   "say": "Two bits is two times twelve and a half cents, which is twenty-five cents. That's a quarter.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Two bits",
+     "value": "2 x 12.5¢"
+    },
+    "to": {
+     "label": "A quarter",
+     "value": "25¢"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wall Street quoted stock prices in eighths and sixteenths of a dollar for generations, a habit often traced to the Spanish dollar.",
+   "say": "Wall Street quoted stock prices in eighths and sixteenths of a dollar for generations, a habit often traced back to the Spanish dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Stock quotes:",
+     "1/8, 1/16 of a dollar"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The New York Stock Exchange only went fully decimal on January 29, 2001.",
+   "say": "The New York Stock Exchange only went fully decimal on January twenty-ninth, two thousand one.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1792",
+      "Dollar defined"
+     ],
+     [
+      "1793",
+      "Foreign coins OK"
+     ],
+     [
+      "1857",
+      "Legal tender ends"
+     ],
+     [
+      "2001",
+      "Stocks go decimal"
+     ]
+    ],
+    "reveal": 4,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a dollar sign, a quarter called two bits, and old stock quotes all echo the Spanish silver coin.",
+   "say": "So a dollar sign, a quarter called two bits, and old stock quotes all echo the Spanish silver coin.",
+   "scene": {
+    "t": "list",
+    "title": "Spanish echoes",
+    "items": [
+     "The $ sign",
+     "Two bits",
+     "Stock eighths"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The recap.",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's recap. In 1545, silver was found at Potosí, which grew to an estimated 160,000 people by around 1600.",
+   "say": "Let's recap. In fifteen forty-five, silver was found at Potosí, which grew to an estimated hundred sixty thousand people by around sixteen hundred.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Potosí, 1545",
+     "Forced labor",
+     "Silver to China",
+     "Your $"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That wealth rested on the mita forced labor draft and on enslaved Africans, with a death toll still debated.",
+   "say": "That wealth rested on the mita forced labor draft and on enslaved Africans, with a death toll that's still debated.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Potosí, 1545",
+     "Forced labor",
+     "Silver to China",
+     "Your $"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Silver was worth about twice as much in China, so it flowed there, including on the Manila galleons from 1565 to 1815.",
+   "say": "Silver was worth about twice as much in China, so it flowed there, including on the Manila galleons from fifteen sixty-five to eighteen fifteen.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Potosí, 1545",
+     "Forced labor",
+     "Silver to China",
+     "Your $"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the US dollar was defined by the Spanish dollar in 1792, which stayed legal tender here until 1857.",
+   "say": "And the US dollar was defined by the Spanish dollar in seventeen ninety-two, which stayed legal tender here until eighteen fifty-seven.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Potosí, 1545",
+     "Forced labor",
+     "Silver to China",
+     "Your $"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One mountain's silver tied together the Andes, Mexico, Manila, China and, eventually, the change in your pocket.",
+   "say": "One mountain's silver tied together the Andes, Mexico, Manila, China and, eventually, the change in your pocket.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "mexico",
+      "mood": "happy",
+      "says": "Minted it"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "Taxed in it"
+     },
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Based on it"
+     }
+    ],
+    "caption": "The first world currency"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for more World Money, where we follow the money across the map.",
+   "say": "Subscribe for more World Money, where we follow the money across the map.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Follow the money",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your dollar was defined by a Spanish silver coin. Here's how Potosí's silver went global.",
+  "ig": "Your dollar was defined by a Spanish silver coin. Follow Potosí's silver from the Andes to China to your pocket.",
+  "tiktok": "Your dollar was defined by a Spanish silver coin. How one mountain's silver became the first world currency.",
+  "yt_desc": "Your dollar was defined by a Spanish silver coin: the Coinage Act of 1792 defined the US dollar by the value of the Spanish milled dollar. This video follows silver from Potosí, in today's Bolivia, where the mita forced labor draft and enslaved Africans powered the mines and mint, to Ming China, where taxes were paid in silver and silver was worth about twice as much as in Spain in the 1590s. We cover the Manila galleons (1565-1815), Earl Hamilton's records of American treasure reaching Spain, a worked arbitrage example, and how the Spanish dollar left us the dollar sign, \"two bits\" and legal tender status until 1857. History and education only.\n\nCHAPTERS\n\nSources: US Coinage Act of 1792 and Coinage Act of 1857; Bureau of Engraving and Printing currency FAQs; Earl J. Hamilton, Quarterly Journal of Economics (1929); Dennis O. Flynn and Arturo Giráldez, Journal of World History (1995) and \"Arbitrage, China, and World Trade in the Early Modern Period,\" JESHO (1995) and \"China and the Spanish Empire\" (1996); Ward Barrett, \"World Bullion Flows, 1450-1800\" (1990); Kris Lane, \"Potosí: The Silver City That Changed the World\" (2019); Encyclopedia of Latin American History and Culture, \"Potosí\"; GAO-05-535 (2005); The Art Newspaper (Aug. 26, 2026).\n\nNews and education, not financial advice.\n\n#history #money #silver"
+ }
+}
