@@ -95,50 +95,11 @@
       "text": "That's 52 cents above September 2023 ($3.84).",
       "say": "That's fifty-two cents more than September twenty twenty-three.",
       "scene": {
-        "t": "chart",
-        "keep": true,
-        "title": "Gas, Sept average (EIA)",
-        "points": [
-          [
-            2019,
-            2.592
-          ],
-          [
-            2020,
-            2.183
-          ],
-          [
-            2021,
-            3.175
-          ],
-          [
-            2022,
-            3.7
-          ],
-          [
-            2023,
-            3.836
-          ],
-          [
-            2024,
-            3.214
-          ],
-          [
-            2025,
-            3.166
-          ],
-          [
-            2026,
-            4.355
-          ]
-        ],
-        "prefix": "$",
-        "end": "$4.36",
-        "color": "down",
-        "chart_note": {
-          "x": 2023,
-          "text": "2023: $3.84"
-        },
+        "t": "stat",
+        "label": "Sept 2026 vs Sept 2023",
+        "value": "+52¢",
+        "tone": "down",
+        "sub": "$4.36 vs $3.84",
         "mood": "shock"
       }
     },
