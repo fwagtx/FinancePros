@@ -1,0 +1,222 @@
+{
+ "id": "2026-12-03-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why franchise owners\npay the brand",
+ "cover": {
+  "title": "A Cut of Every Sale",
+  "prop": "bag",
+  "label": "SALES",
+  "value": "US 4-5%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Every franchised McDonald's sends headquarters a cut of every sale.",
+   "say": "Every franchised McDonald's sends headquarters a cut of every sale.",
+   "scene": {
+    "t": "hook",
+    "title": "A cut of [every] sale",
+    "prop": "bag",
+    "label": "SALES",
+    "value": "US 4-5%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "US royalty: 4% of sales, 5% for new restaurants since 2024.",
+   "say": "US royalty: four percent, five for new restaurants since twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "McDonald's US royalty",
+    "value": "4% or 5%",
+    "tone": "neutral",
+    "sub": "of gross sales",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That buys the brand, the system and training. Ads add 4% or more.",
+   "say": "That buys the brand, the system and training. Ads add four percent or more.",
+   "scene": {
+    "t": "list",
+    "title": "What owners get",
+    "items": [
+     "The brand name",
+     "Recipes, system",
+     "Training",
+     "Ad fund: 4%+"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The bigger check is rent, also tied to sales, because McDonald's usually controls the real estate.",
+   "say": "The bigger check is rent, also tied to sales, because McDonald's usually controls the property.",
+   "scene": {
+    "t": "compare",
+    "title": "McDonald's 2025 take",
+    "left": {
+     "label": "Rent",
+     "value": "$10.4B",
+     "tone": "up",
+     "sub": "from franchisees"
+    },
+    "right": {
+     "label": "Royalties",
+     "value": "$6.0B",
+     "tone": "neutral",
+     "sub": "from franchisees"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025: $10.4 billion in rent, $6.0 billion in royalties.",
+   "say": "In twenty twenty-five: ten point four billion in rent, six billion in royalties.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "McDonald's 2025 take",
+    "left": {
+     "label": "Rent",
+     "value": "$10.4B",
+     "tone": "up",
+     "sub": "from franchisees"
+    },
+    "right": {
+     "label": "Royalties",
+     "value": "$6.0B",
+     "tone": "neutral",
+     "sub": "from franchisees"
+    },
+    "winner": "left",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "All franchise revenue: $16.5 billion in 2025.",
+   "say": "All franchise revenue: sixteen and a half billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "McDonald's franchise revenue",
+    "points": [
+     [
+      2019,
+      11.66
+     ],
+     [
+      2020,
+      10.73
+     ],
+     [
+      2021,
+      13.09
+     ],
+     [
+      2022,
+      14.11
+     ],
+     [
+      2023,
+      15.44
+     ],
+     [
+      2024,
+      15.72
+     ],
+     [
+      2025,
+      16.55
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$16.5B",
+    "color": "up",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetically, a new US store selling $3 million a year pays 5% + 4% = 9%: $270,000, before rent.",
+   "say": "Hypothetically, a new US store selling three million dollars a year pays nine percent: two hundred seventy thousand, before rent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hypothetical new store",
+     "$3M x 9% = $270,000",
+     "per year, before rent"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC requires a disclosure document listing the fees at least 14 days before you sign or pay.",
+   "say": "The F T C requires a disclosure document listing the fees at least fourteen days before you sign or pay.",
+   "scene": {
+    "t": "stat",
+    "label": "FTC Franchise Rule",
+    "value": "14 days",
+    "tone": "neutral",
+    "sub": "before sign or pay",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The brand isn't selling burgers here. It rents out a system and the land under it.",
+   "say": "The brand isn't selling burgers here. It rents out a system and the land under it.",
+   "scene": {
+    "t": "split",
+    "title": "Who earns what",
+    "left": {
+     "title": "Owner",
+     "items": [
+      "Store profit",
+      "Runs the shop"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Brand",
+     "items": [
+      "Royalty",
+      "Rent",
+      "Fees"
+     ],
+     "tone": "up"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why McDonald's owners hand HQ a cut of every sale",
+  "ig": "Every franchised McDonald's sends headquarters a cut of every sale.\nUS royalty: 4% of gross sales, 5% for new restaurants since 2024, plus 4%+ for advertising.\nThe bigger check is rent: $10.4B in 2025 vs $6.0B in royalties.\nFranchise revenue: $16.5B in 2025; about 95% of restaurants are franchised.\nHypothetical new US store: $3M in sales x (5% + 4%) = $270,000 a year, before rent.\nSources: McDonald's 2025 Form 10-K, McDonald's franchise disclosure document, FTC Franchise Rule.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#franchise #mcdonalds #business #personalfinance #financeprostv",
+  "tiktok": "Every franchised McDonald's pays HQ a cut of every sale. Not financial advice. #moneytok #personalfinance #franchise #business #financeprostv",
+  "yt_desc": "Franchised McDonald's restaurants in the US pay a 4% or 5% royalty on sales plus 4%+ for advertising, and rent tied to sales. In 2025 McDonald's took in $10.4B in rent and $6.0B in royalties (2025 Form 10-K). The FTC Franchise Rule requires a disclosure document at least 14 days before signing. News and education, not financial advice.\n#Shorts #franchise #business",
+  "tags": [
+   "franchise royalty",
+   "mcdonalds franchise",
+   "how mcdonalds makes money",
+   "franchise fees",
+   "ftc franchise rule"
+  ]
+ }
+}
