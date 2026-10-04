@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Your dollar was copied from a Spanish silver coin.",
-   "say": "Your dollar was copied from a Spanish silver coin.",
+   "text": "Your dollar was defined by a Spanish silver coin.",
+   "say": "Your dollar was defined by a Spanish silver coin.",
    "scene": {
     "t": "hook",
     "title": "Your $ is [Spanish]",
@@ -202,8 +202,8 @@
   },
   {
    "who": "ticker",
-   "text": "That made it the biggest city in the Americas, and one of the biggest anywhere on Earth.",
-   "say": "That made it the biggest city in the Americas, and one of the biggest anywhere on Earth.",
+   "text": "That made it the biggest city in the Americas, and one of the largest in the world at the time.",
+   "say": "That made it the biggest city in the Americas, and one of the largest in the world at the time.",
    "scene": {
     "t": "board",
     "lines": [
@@ -304,24 +304,24 @@
   },
   {
    "who": "ticker",
-   "text": "That old mint still stands. In August 2026, The Art Newspaper reported it's Bolivia's most visited museum.",
-   "say": "That old mint still stands. In August twenty twenty-six, The Art Newspaper reported it's Bolivia's most visited museum.",
+   "text": "Its 1700s successor, built to replace the original mint, still stands. In August 2026, The Art Newspaper reported it's Bolivia's most visited museum.",
+   "say": "Its seventeen hundreds successor, built to replace the original mint, still stands. In August twenty twenty-six, The Art Newspaper reported it's Bolivia's most visited museum.",
    "scene": {
     "t": "news",
-    "headline": "Old Potosí mint gets 5-year repair",
+    "headline": "Potosí mint museum gets new roofs",
     "source": "The Art Newspaper, Aug. 26, 2026"
    }
   },
   {
    "who": "ticker",
-   "text": "A five-year restoration of its roofs and stonework costs about $513,000, financed by the Inter-American Development Bank.",
-   "say": "A five-year restoration of its roofs and stonework costs about five hundred thirteen thousand dollars, financed by the Inter-American Development Bank.",
+   "text": "The first phase, repairing its leaking roofs, costs about $513,000, financed by the Inter-American Development Bank. The full restoration is expected to take five years.",
+   "say": "The first phase, repairing its leaking roofs, costs about five hundred thirteen thousand dollars, financed by the Inter-American Development Bank. The full restoration is expected to take five years.",
    "scene": {
     "t": "stat",
-    "label": "Mint museum restoration",
+    "label": "Roof repairs, phase 1",
     "value": "$513,000",
     "tone": "neutral",
-    "sub": "IDB-funded, 5 yrs"
+    "sub": "IDB-funded"
    }
   },
   {
@@ -453,13 +453,13 @@
   },
   {
    "who": "ticker",
-   "text": "They worked smelting furnaces that ran around the clock, and turned the mint's giant wooden wheels alongside mules.",
-   "say": "They worked smelting furnaces that ran around the clock, and turned the mint's giant wooden wheels alongside mules.",
+   "text": "They worked smelting furnaces that ran around the clock, and the mint's giant wooden rolling mills, driven by mules.",
+   "say": "They worked smelting furnaces that ran around the clock, and the mint's giant wooden rolling mills, driven by mules.",
    "scene": {
     "t": "board",
     "lines": [
      "Furnaces: 24 hours",
-     "Wheels: people + mules"
+     "Rolling mills: mules"
     ]
    }
   },
@@ -490,22 +490,22 @@
      "sub": "His claim"
     },
     "right": {
-     "label": "Many historians",
-     "value": "Lower",
+     "label": "Historians",
+     "value": "Far less",
      "tone": "neutral",
-     "sub": "100,000s of deaths"
+     "sub": "Toll still heavy"
     }
    }
   },
   {
    "who": "ticker",
-   "text": "Many historians call that far too high, and estimate deaths in the hundreds of thousands, which is still a staggering toll.",
-   "say": "Many historians call that far too high, and estimate deaths in the hundreds of thousands, which is still a staggering toll.",
+   "text": "Historians such as Kris Lane say that number is impossible for the Andes' population at the time. But the real toll was still heavy.",
+   "say": "Historians such as Kris Lane say that number is impossible for the Andes' population at the time. But the real toll was still heavy.",
    "scene": {
     "t": "board",
     "lines": [
-     "Hundreds of thousands",
-     "is still staggering"
+     "8 million: impossible",
+     "The real toll: still heavy"
     ],
     "mood": "sad"
    }
@@ -1028,7 +1028,7 @@
   {
    "who": "ticker",
    "text": "Chapter 4: Why silver sailed to China.",
-   "say": "Chapter four: why silver sailed to china.",
+   "say": "Chapter four: why silver sailed to China.",
    "scene": {
     "t": "chapter",
     "n": 4,
@@ -1129,8 +1129,8 @@
   },
   {
    "who": "ticker",
-   "text": "In Spain, it took 12.5 to 14 ounces. Historians Dennis Flynn and Arturo Giráldez put it simply: silver was worth about twice as much in China.",
-   "say": "In Spain, it took twelve and a half to fourteen ounces. Historians Dennis Flynn and Arturo Giráldez put it simply: silver was worth about twice as much in China.",
+   "text": "In Spain, it took 12.5 to 14 ounces. Citing historian Han-sheng Chuan, Flynn and Giráldez conclude silver was worth about twice as much in China.",
+   "say": "In Spain, it took twelve and a half to fourteen ounces. Citing historian Han-sheng Chuan, Flynn and Giráldez conclude silver was worth about twice as much in China.",
    "scene": {
     "t": "compare",
     "title": "Silver per oz of gold",
@@ -1228,8 +1228,8 @@
   },
   {
    "who": "ticker",
-   "text": "That gap pulled silver toward China from every direction. Japan sent silver too, about a third of the world's supply in the 1500s by some estimates.",
-   "say": "That gap pulled silver toward China from every direction. Japan sent silver too, about a third of the world's supply in the fifteen hundreds, by some estimates.",
+   "text": "That gap pulled silver toward China from every direction. Japan sent silver too: by one estimate it produced about 30% of the world's silver in the 1500s.",
+   "say": "That gap pulled silver toward China from every direction. Japan sent silver too: by one estimate it produced about thirty percent of the world's silver in the fifteen hundreds.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -1244,7 +1244,7 @@
       "says": "Welcome"
      }
     ],
-    "caption": "Japan: ~1/3 of world silver"
+    "caption": "Japan: ~30% of world silver"
    }
   },
   {
@@ -1353,8 +1353,8 @@
   },
   {
    "who": "ticker",
-   "text": "The silver dollar left a mark in Asia too. China's yuan and Japan's yen were later minted to match its specs.",
-   "say": "The silver dollar left a mark in Asia too. China's yuan and Japan's yen were later minted to match its specs.",
+   "text": "The silver dollar left a mark in Asia too. China's yuan and Japan's yen were later modeled on the Spanish and Mexican silver dollars.",
+   "say": "The silver dollar left a mark in Asia too. China's yuan and Japan's yen were later modeled on the Spanish and Mexican silver dollars.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -1474,8 +1474,8 @@
   },
   {
    "who": "ticker",
-   "text": "The Spanish coin also stayed legal money here. An 1806 law let foreign coins like it count as legal tender.",
-   "say": "The Spanish coin also stayed legal money here. An eighteen oh six law let foreign coins like it count as legal tender.",
+   "text": "The Spanish coin also stayed legal money here. A 1793 law made foreign coins like it legal tender.",
+   "say": "The Spanish coin also stayed legal money here. A seventeen ninety-three law made foreign coins like it legal tender.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -1484,7 +1484,7 @@
       "what": "Dollar defined"
      },
      {
-      "when": "1806",
+      "when": "1793",
       "what": "Foreign coins OK"
      },
      {
@@ -1511,7 +1511,7 @@
       "what": "Dollar defined"
      },
      {
-      "when": "1806",
+      "when": "1793",
       "what": "Foreign coins OK"
      },
      {
@@ -1529,8 +1529,8 @@
   },
   {
    "who": "ticker",
-   "text": "So for half a century, Spanish and Mexican silver was legal money in American pockets, right next to US coins.",
-   "say": "So for half a century, Spanish and Mexican silver was legal money in American pockets, right next to US coins.",
+   "text": "So for more than 60 years, Spanish and Mexican silver was legal money in American pockets, right next to US coins.",
+   "say": "So for more than sixty years, Spanish and Mexican silver was legal money in American pockets, right next to US coins.",
    "scene": {
     "t": "countries",
     "cast": [
@@ -1545,7 +1545,7 @@
       "says": "Pesos welcome"
      }
     ],
-    "caption": "Legal tender, 1806-1857"
+    "caption": "Legal tender, 1793-1857"
    }
   },
   {
@@ -1614,7 +1614,7 @@
       "what": "Dollar defined"
      },
      {
-      "when": "1806",
+      "when": "1793",
       "what": "Foreign coins OK"
      },
      {
@@ -1707,8 +1707,8 @@
   },
   {
    "who": "ticker",
-   "text": "And the US dollar copied the Spanish dollar in 1792, and let it serve as legal tender until 1857.",
-   "say": "And the US dollar copied the Spanish dollar in seventeen ninety-two, and let it serve as legal tender until eighteen fifty-seven.",
+   "text": "And the US dollar was defined by the Spanish dollar in 1792, which stayed legal tender here until 1857.",
+   "say": "And the US dollar was defined by the Spanish dollar in seventeen ninety-two, which stayed legal tender here until eighteen fifty-seven.",
    "scene": {
     "t": "list",
     "title": "Recap",
@@ -1742,7 +1742,7 @@
      {
       "name": "us",
       "mood": "happy",
-      "says": "Copied it"
+      "says": "Based on it"
      }
     ],
     "caption": "The first world currency"
@@ -1760,9 +1760,9 @@
   }
  ],
  "post": {
-  "title": "Your dollar was copied from a Spanish silver coin. Here's how Potosí's silver went global.",
-  "ig": "Your dollar was copied from a Spanish silver coin. Follow Potosí's silver from the Andes to China to your pocket.",
-  "tiktok": "Your dollar was copied from a Spanish silver coin. How one mountain's silver became the first world currency.",
-  "yt_desc": "Your dollar was copied from a Spanish silver coin: the Coinage Act of 1792 defined the US dollar by the value of the Spanish milled dollar. This video follows silver from Potosí, in today's Bolivia, where the mita forced labor draft and enslaved Africans powered the mines and mint, to Ming China, where taxes were paid in silver and silver was worth about twice as much as in Spain in the 1590s. We cover the Manila galleons (1565-1815), Earl Hamilton's records of American treasure reaching Spain, a worked arbitrage example, and how the Spanish dollar left us the dollar sign, \"two bits\" and legal tender status until 1857. History and education only.\n\nCHAPTERS\n\nSources: US Coinage Act of 1792 and Coinage Act of 1857; Bureau of Engraving and Printing currency FAQs; Earl J. Hamilton, Quarterly Journal of Economics (1929); Dennis O. Flynn and Arturo Giráldez, Journal of World History (1995) and \"China and the Spanish Empire\" (1996); Ward Barrett, \"World Bullion Flows, 1450-1800\" (1990); Kris Lane, \"Potosí: The Silver City That Changed the World\" (2019); Encyclopedia of Latin American History and Culture, \"Potosí\"; GAO-05-535 (2005); The Art Newspaper (Aug. 26, 2026).\n\nNews and education, not financial advice.\n\n#history #money #silver"
+  "title": "Your dollar was defined by a Spanish silver coin. Here's how Potosí's silver went global.",
+  "ig": "Your dollar was defined by a Spanish silver coin. Follow Potosí's silver from the Andes to China to your pocket.",
+  "tiktok": "Your dollar was defined by a Spanish silver coin. How one mountain's silver became the first world currency.",
+  "yt_desc": "Your dollar was defined by a Spanish silver coin: the Coinage Act of 1792 defined the US dollar by the value of the Spanish milled dollar. This video follows silver from Potosí, in today's Bolivia, where the mita forced labor draft and enslaved Africans powered the mines and mint, to Ming China, where taxes were paid in silver and silver was worth about twice as much as in Spain in the 1590s. We cover the Manila galleons (1565-1815), Earl Hamilton's records of American treasure reaching Spain, a worked arbitrage example, and how the Spanish dollar left us the dollar sign, \"two bits\" and legal tender status until 1857. History and education only.\n\nCHAPTERS\n\nSources: US Coinage Act of 1792 and Coinage Act of 1857; Bureau of Engraving and Printing currency FAQs; Earl J. Hamilton, Quarterly Journal of Economics (1929); Dennis O. Flynn and Arturo Giráldez, Journal of World History (1995) and \"Arbitrage, China, and World Trade in the Early Modern Period,\" JESHO (1995) and \"China and the Spanish Empire\" (1996); Ward Barrett, \"World Bullion Flows, 1450-1800\" (1990); Kris Lane, \"Potosí: The Silver City That Changed the World\" (2019); Encyclopedia of Latin American History and Culture, \"Potosí\"; GAO-05-535 (2005); The Art Newspaper (Aug. 26, 2026).\n\nNews and education, not financial advice.\n\n#history #money #silver"
  }
 }
