@@ -1,0 +1,226 @@
+{
+  "series": "ticker",
+  "header": "Gas costs $1.23\nmore than last year",
+  "cover": {
+    "title": "Gas Up $1.23 a Gallon",
+    "prop": "car",
+    "label": "Regular",
+    "value": "+$1.23"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Gas jumped $1.23 a gallon in a year.",
+      "say": "Gas jumped a dollar twenty-three a gallon in a year.",
+      "scene": {
+        "t": "hook",
+        "title": "Gas up [$1.23] a year",
+        "prop": "car",
+        "label": "Regular",
+        "value": "+$1.23",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "AAA national average for regular: $3.14 on Oct 4, 2025, $4.37 on Oct 4, 2026.",
+      "say": "AAA's average for regular is four dollars and thirty-seven cents, up from three dollars and fourteen cents a year ago.",
+      "scene": {
+        "t": "compare",
+        "title": "Regular gas, AAA",
+        "left": {
+          "label": "Oct 4, 2025",
+          "value": "$3.14",
+          "tone": "neutral",
+          "sub": "a year ago"
+        },
+        "right": {
+          "label": "Oct 4, 2026",
+          "value": "$4.37",
+          "tone": "down",
+          "sub": "national average"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "EIA data: September 2026 averaged $4.36 a gallon, the highest September on record.",
+      "say": "September set a record too, averaging four dollars and thirty-six cents in government data.",
+      "scene": {
+        "t": "chart",
+        "title": "Gas, Sept average (EIA)",
+        "points": [
+          [
+            2019,
+            2.592
+          ],
+          [
+            2020,
+            2.183
+          ],
+          [
+            2021,
+            3.175
+          ],
+          [
+            2022,
+            3.7
+          ],
+          [
+            2023,
+            3.836
+          ],
+          [
+            2024,
+            3.214
+          ],
+          [
+            2025,
+            3.166
+          ],
+          [
+            2026,
+            4.355
+          ]
+        ],
+        "prefix": "$",
+        "end": "$4.36",
+        "color": "down",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The old September record: $3.84 in 2023.",
+      "say": "The old September record was three dollars and eighty-four cents, in twenty twenty-three.",
+      "scene": {
+        "t": "chart",
+        "keep": true,
+        "title": "Gas, Sept average (EIA)",
+        "points": [
+          [
+            2019,
+            2.592
+          ],
+          [
+            2020,
+            2.183
+          ],
+          [
+            2021,
+            3.175
+          ],
+          [
+            2022,
+            3.7
+          ],
+          [
+            2023,
+            3.836
+          ],
+          [
+            2024,
+            3.214
+          ],
+          [
+            2025,
+            3.166
+          ],
+          [
+            2026,
+            4.355
+          ]
+        ],
+        "prefix": "$",
+        "end": "$4.36",
+        "color": "down",
+        "chart_note": {
+          "x": 2023,
+          "text": "Old record: $3.84"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Why: the war with Iran disrupted oil shipping through the Strait of Hormuz, and refining costs are high (NPR, Sept 21).",
+      "say": "Why? NPR cites the war with Iran choking oil routes through the Strait of Hormuz, plus pricey refining.",
+      "scene": {
+        "t": "list",
+        "title": "Why gas is up (NPR)",
+        "items": [
+          "War with Iran",
+          "Hormuz disrupted",
+          "Refining costs"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: a 12-gallon fill-up cost $37.68 a year ago and $52.44 at today's average.",
+      "say": "For example, a twelve-gallon fill-up now costs about fifteen dollars more than a year ago.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "12 gal, Oct 2025",
+          "value": "$37.68"
+        },
+        "to": {
+          "label": "12 gal, Oct 2026",
+          "value": "$52.44"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Diesel hit a record $6.53 on Sept 22. Trucks that haul groceries and goods run on diesel.",
+      "say": "Diesel hit a record six dollars and fifty-three cents on September twenty-second, and trucks hauling groceries run on it.",
+      "scene": {
+        "t": "stat",
+        "label": "Diesel record (AAA)",
+        "value": "$6.53",
+        "tone": "down",
+        "sub": "Sept 22, 2026",
+        "mood": "angry"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Gas is down 11 cents from a week ago. EIA's next energy forecast comes Tuesday, Oct 6.",
+      "say": "One bright spot: gas is down eleven cents from a week ago, and the government's next fuel forecast lands Tuesday.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Down 11¢ in a week",
+          "Next EIA forecast: Tuesday"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Gas jumped $1.23 a gallon in a year. Here's why",
+    "ig": "Gas jumped $1.23 a gallon in a year.\nAAA's national average for regular is $4.37 (Oct 4, 2026), up from $3.14 on Oct 4, 2025.\nSeptember 2026 averaged $4.36 (EIA), the highest September on record. The old record was $3.84 in 2023.\nDiesel hit a record $6.53 on Sept 22. Example: a 12-gallon fill-up costs about $15 more than a year ago.\nSources: AAA, EIA, NPR.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gasprices #inflation #diesel #personalfinance #financeprostv",
+    "tiktok": "Gas jumped $1.23 a gallon in a year: $4.37 vs $3.14. Not financial advice. #moneytok #personalfinance #gasprices #inflation #financeprostv",
+    "yt_desc": "AAA's national average for regular gas is $4.37 as of Oct 4, 2026, up $1.23 from a year earlier. EIA data show September 2026 averaged $4.36 a gallon, the highest September on record, and diesel hit a record $6.53 on Sept 22. Sources: AAA, EIA, NPR. News and education, not financial advice.\n#Shorts #gasprices #personalfinance",
+    "tags": [
+      "gas prices",
+      "diesel prices",
+      "inflation",
+      "AAA national average",
+      "personal finance"
+    ]
+  }
+}
