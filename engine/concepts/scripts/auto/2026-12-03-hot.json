@@ -1,0 +1,194 @@
+{
+ "id": "2026-12-03-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Stablecoins can't\nbreak? One hit 87¢",
+ "cover": {
+  "title": "Can a Stablecoin Break?",
+  "prop": "coins",
+  "label": "USDC",
+  "value": "87¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Stablecoins can't lose their peg? USDC hit 87 cents.",
+   "say": "Stablecoins can't lose their peg? USDC hit eighty-seven cents.",
+   "scene": {
+    "t": "hook",
+    "title": "Stablecoin hit [87¢]",
+    "prop": "coins",
+    "label": "USDC",
+    "value": "87¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mar 2023: Circle said $3.3 billion of USDC reserves sat at failed Silicon Valley Bank. USDC fell to about 87 cents on Mar 11.",
+   "say": "In March twenty twenty-three, three point three billion dollars of USDC's reserves were stuck at failed Silicon Valley Bank.",
+   "scene": {
+    "t": "news",
+    "headline": "USDC hits 87¢ on SVB exposure",
+    "source": "CNBC, Mar 11, 2023",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $1,000 of USDC x $0.87 = about $870 at the low. It was back near $1 by Mar 13, 2023.",
+   "say": "A thousand dollars of USDC was briefly worth about eight hundred seventy, before recovering two days later.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "$1,000 in USDC",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Mar 11, 2023 low",
+     "value": "~$870"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "TerraUSD (UST), backed by an algorithm and its sister token LUNA, fell to about 11 cents by May 16, 2022, and never recovered.",
+   "say": "TerraUSD ran on an algorithm, not cash, and sank to about eleven cents by May twenty twenty-two.",
+   "scene": {
+    "t": "compare",
+    "title": "TerraUSD (UST) in 2022",
+    "left": {
+     "label": "The promise",
+     "value": "$1",
+     "tone": "neutral",
+     "sub": "Algorithmic peg"
+    },
+    "right": {
+     "label": "May 16, 2022",
+     "value": "11¢",
+     "tone": "down",
+     "sub": "Never recovered"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bank deposits: FDIC insured up to $250,000. Stablecoins: not FDIC insured.",
+   "say": "Bank deposits are insured up to two hundred fifty thousand dollars. Stablecoins aren't FDIC insured.",
+   "scene": {
+    "t": "compare",
+    "title": "Who backs you?",
+    "left": {
+     "label": "Bank deposit",
+     "value": "$250K",
+     "tone": "up",
+     "sub": "FDIC insured"
+    },
+    "right": {
+     "label": "Stablecoin",
+     "value": "None",
+     "tone": "down",
+     "sub": "Not FDIC insured"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The GENIUS Act (signed July 18, 2025) requires 1:1 reserves like cash and short-term Treasuries. It takes effect by Jan 18, 2027 at the latest.",
+   "say": "The GENIUS Act, signed July twenty twenty-five, requires one-to-one reserves like cash and short-term Treasuries, in force by January twenty twenty-seven.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "GENIUS Act: signed 7/18/25",
+     "1:1 reserves, cash/T-bills",
+     "In force by 1/18/27"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Dollar stablecoins outstanding: $27.1B at end of 2020 vs $306.7B at end of 2025 (DefiLlama).",
+   "say": "Dollar stablecoins grew from twenty-seven billion dollars in twenty twenty to about three hundred seven billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "USD stablecoins, year-end",
+    "points": [
+     [
+      2019,
+      4.2
+     ],
+     [
+      2020,
+      27.1
+     ],
+     [
+      2021,
+      162.5
+     ],
+     [
+      2022,
+      137.5
+     ],
+     [
+      2023,
+      130.1
+     ],
+     [
+      2024,
+      205.4
+     ],
+     [
+      2025,
+      306.7
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$306.7B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A peg is only as strong as the reserves behind it, the ability to redeem, and honest reporting.",
+   "say": "So a peg is only as strong as its reserves, redemptions and honest reporting.",
+   "scene": {
+    "t": "list",
+    "title": "What holds a peg",
+    "items": [
+     "Real reserves",
+     "Easy redemption",
+     "Honest reports"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Stablecoins can't break? USDC hit 87 cents in March 2023",
+  "ig": "Stablecoins can't lose their peg? USDC hit about 87 cents.\n\nMar 11, 2023: Circle said $3.3B of USDC reserves sat at failed Silicon Valley Bank; USDC fell to about 87 cents, then recovered near $1 by Mar 13.\nTerraUSD (UST), an algorithmic stablecoin, fell to about 11 cents by May 16, 2022 and never recovered.\nStablecoins are not FDIC insured. The GENIUS Act (signed July 18, 2025) requires 1:1 reserves and takes effect by Jan 18, 2027 at the latest.\nDollar stablecoins: $27.1B at end of 2020 vs $306.7B at end of 2025.\n\nSources: CNBC, CoinDesk, Reuters, FDIC, House Financial Services Committee, DefiLlama.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#stablecoins #crypto #usdc #moneymyths #financeprostv",
+  "tiktok": "Stablecoins can't break? USDC hit 87 cents in March 2023. Not financial advice. #moneytok #personalfinance #stablecoins #crypto #financeprostv",
+  "yt_desc": "Myth: stablecoins can never lose their peg. In March 2023 USDC fell to about 87 cents after $3.3 billion of reserves got stuck at Silicon Valley Bank, and TerraUSD fell to about 11 cents by May 16, 2022. Stablecoins are not FDIC insured; the GENIUS Act (signed July 18, 2025) requires 1:1 reserves and takes effect by January 18, 2027 at the latest. Sources: CNBC, Reuters, FDIC, DefiLlama.\n\nNews and education, not financial advice.\n\n#Shorts #stablecoins #crypto",
+  "tags": [
+   "stablecoins",
+   "usdc depeg",
+   "terrausd collapse",
+   "genius act",
+   "are stablecoins safe"
+  ]
+ }
+}
