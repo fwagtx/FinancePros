@@ -1,0 +1,195 @@
+{
+  "series": "ticker",
+  "header": "Euro hits 17-month\nlow vs the dollar",
+  "cover": {
+    "title": "Euro at a 17-Month Low",
+    "prop": "bill",
+    "label": "1 euro",
+    "value": "$1.1161"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "The euro hit a 17-month low overnight.",
+      "say": "The euro hit a seventeen-month low overnight.",
+      "scene": {
+        "t": "hook",
+        "title": "Euro at [17-month] low",
+        "prop": "bill",
+        "label": "1 euro",
+        "value": "$1.1161",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It touched $1.1161, the weakest since May 2025, and that changes what your dollar buys.",
+      "say": "It touched about a dollar twelve, the weakest since May twenty twenty-five, and that changes what your dollar buys.",
+      "scene": {
+        "t": "stat",
+        "label": "1 euro, Asia trade Oct 5",
+        "value": "$1.1161",
+        "tone": "down",
+        "sub": "Low since May 2025",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Why: worries about France's debt, plus Spain calling a snap election for Nov. 29.",
+      "say": "Why? Worries about France's debt, plus Spain calling a snap election for November twenty-ninth.",
+      "scene": {
+        "t": "news",
+        "headline": "Spain calls snap vote for Nov. 29",
+        "source": "Euronews, CNBC, Oct 5, 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "€100 cost $143.42 in Sept 2008 and $115.05 in Sept 2026 (Fed data, monthly averages).",
+      "say": "Zoom out: a hundred euros cost about a hundred forty-three dollars in September two thousand eight, and about a hundred fifteen this September.",
+      "scene": {
+        "t": "chart",
+        "title": "Cost of €100, Sept avg",
+        "points": [
+          [
+            2008,
+            143.42
+          ],
+          [
+            2010,
+            131.03
+          ],
+          [
+            2012,
+            128.85
+          ],
+          [
+            2014,
+            128.89
+          ],
+          [
+            2016,
+            112.18
+          ],
+          [
+            2018,
+            116.67
+          ],
+          [
+            2020,
+            117.85
+          ],
+          [
+            2022,
+            98.99
+          ],
+          [
+            2024,
+            111.04
+          ],
+          [
+            2026,
+            115.05
+          ]
+        ],
+        "prefix": "$",
+        "end": "$115",
+        "color": "down",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In Sept 2022 it dipped to $98.99.",
+      "say": "In September twenty twenty-two, it even dipped to about ninety-nine dollars.",
+      "scene": {
+        "t": "chart",
+        "keep": true,
+        "chart_note": {
+          "x": 2022,
+          "text": "$98.99 in 2022"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: €2,000 of trip spending is $2,365 at February's average rate, $2,240 at $1.12. About $125 less, before fees.",
+      "say": "For example, two thousand euros of trip spending costs about two thousand two hundred forty dollars at a dollar twelve, about a hundred twenty-five less than at February's average.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "€2,000, Feb avg",
+          "value": "$2,365"
+        },
+        "to": {
+          "label": "€2,000 at $1.12",
+          "value": "$2,240"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Flip side: stocks priced in euros convert into fewer dollars, so European stock funds can shrink a bit.",
+      "say": "The flip side? Stocks priced in euros convert into fewer dollars, so funds holding European shares can shrink a bit.",
+      "scene": {
+        "t": "split",
+        "title": "A weaker euro",
+        "left": {
+          "title": "Cheaper",
+          "items": [
+            "Trips to Europe",
+            "Imported goods"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Shrinks",
+          "items": [
+            "Euro stock funds",
+            "in dollar terms"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Same exchange rate, two sides of your money.",
+      "say": "Same exchange rate, two sides of your money.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Weak euro = cheaper trip",
+          "Weak euro = smaller fund"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "The euro hit a 17-month low. Here's what it does to you",
+    "ig": "The euro hit a 17-month low against the dollar overnight.\nIt touched $1.1161 in Asian trading on Oct 5, 2026, its weakest since May 2025, as France's debt worries and Spain's snap election (Nov 29) rattled markets.\nExample: EUR 2,000 of trip spending is about $2,240 at $1.12, roughly $125 less than at February 2026's average rate.\nFlip side: stocks priced in euros convert into fewer dollars.\nSources: Bloomberg, Euronews, CNBC (Oct 5, 2026); Federal Reserve G.5 exchange-rate data.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#euro #dollar #travel #personalfinance #financeprostv",
+    "tiktok": "The euro hit a 17-month low. Cheaper Europe trips, smaller euro funds. Not financial advice. #moneytok #personalfinance #euro #financeprostv",
+    "yt_desc": "The euro touched $1.1161 in Asian trading on October 5, 2026, its weakest level since May 2025, amid French debt worries and Spain's snap election call for November 29 (Bloomberg, Euronews, CNBC). A weaker euro makes European trips cost fewer dollars, but euro-priced stocks convert into fewer dollars. Chart: Federal Reserve G.5 monthly averages. News and education, not financial advice.\n#Shorts #euro #personalfinance",
+    "tags": [
+      "euro",
+      "dollar",
+      "exchange rate",
+      "travel money",
+      "personal finance"
+    ]
+  }
+}
