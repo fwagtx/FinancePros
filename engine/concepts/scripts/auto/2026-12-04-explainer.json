@@ -214,7 +214,7 @@
       2
      ]
     ],
-    "end": "2 in 2025",
+    "end": "2",
     "color": "down",
     "mood": "worried"
    }
@@ -224,13 +224,11 @@
    "text": "Yet since 1933, no depositor has lost a penny of FDIC-insured funds.",
    "say": "Yet since nineteen thirty-three, no depositor has lost a penny of F D I C insured funds.",
    "scene": {
-    "t": "chart",
-    "keep": true,
-    "mood": "happy",
-    "note": {
-     "x": 2010,
-     "text": "157 in 2010"
-    }
+    "t": "stat",
+    "label": "Bank failures, 2010",
+    "value": "157",
+    "tone": "down",
+    "sub": "Insured $ lost: 0"
    }
   },
   {
