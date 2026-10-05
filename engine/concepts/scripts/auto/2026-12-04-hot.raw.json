@@ -23,8 +23,8 @@
     },
     {
       "who": "ticker",
-      "text": "It's common: 32% of friend lenders weren't repaid last time (LendingTree, July 2025).",
-      "say": "It's common. In a July twenty twenty-five LendingTree survey, thirty-two percent of friend lenders weren't repaid last time.",
+      "text": "It happens a lot: 32% of people who lent to a friend weren't repaid last time (LendingTree, July 2025).",
+      "say": "It happens a lot. In a July twenty twenty-five LendingTree survey, thirty-two percent of friend lenders weren't repaid last time.",
       "scene": {
         "t": "stat",
         "label": "Last friend loan: unpaid",
@@ -50,7 +50,7 @@
     },
     {
       "who": "ticker",
-      "text": "Forgive it, and it's a gift. In 2026, over $19,000 to one person needs a gift tax return.",
+      "text": "Forgive it, and it's a gift. In 2026, gifts over $19,000 to one person need a gift tax return, usually with no tax due.",
       "say": "Forgive it, and it's a gift. In twenty twenty-six, over nineteen thousand dollars to one person needs a gift tax return.",
       "scene": {
         "t": "stat",
@@ -80,8 +80,8 @@
     },
     {
       "who": "ticker",
-      "text": "Example: $5,000 bad debt, 22% bracket, no gains. $3,000 a year counts: $660 saved, then $440.",
-      "say": "Example: a five thousand dollar bad debt, twenty-two percent bracket, no gains. Three thousand dollars a year counts, so six hundred sixty saved, then four hundred forty.",
+      "text": "Example: $5,000 bad debt, 22% bracket, no gains. Only $3,000 a year offsets income: $660 saved, then $440.",
+      "say": "Example: a five thousand dollar bad debt, twenty-two percent bracket, no gains. Only three thousand a year offsets income, so six hundred sixty saved, then four hundred forty.",
       "scene": {
         "t": "compare",
         "title": "Example: $5,000 bad debt",
@@ -102,22 +102,22 @@
     },
     {
       "who": "ticker",
-      "text": "Loans over $10,000 below the Applicable Federal Rate can create imputed interest.",
-      "say": "Loans over ten thousand dollars below the Applicable Federal Rate can create imputed interest.",
+      "text": "Interest-free family loans over $10,000 can trigger imputed interest.",
+      "say": "Interest-free family loans over ten thousand dollars can trigger imputed interest.",
       "scene": {
         "t": "board",
         "lines": [
-          "Loan over $10,000?",
-          "Below the AFR =",
-          "imputed interest"
+          "Interest-free loan",
+          "over $10,000?",
+          "Imputed interest risk"
         ],
         "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "Paperwork decides it: a signed note, a payment schedule, and collection attempts.",
-      "say": "Paperwork decides it: a signed note, a payment schedule, and collection attempts.",
+      "text": "Paperwork helps prove it: a signed note, a payment schedule, and collection attempts.",
+      "say": "Paperwork helps prove it: a signed note, a payment schedule, and collection attempts.",
       "scene": {
         "t": "list",
         "title": "Loan paper trail",
@@ -141,10 +141,10 @@
     }
   ],
   "post": {
-    "title": "Your unpaid family loan might be a gift to the IRS",
-    "ig": "The IRS may call your unpaid family loan a gift.\n32% of people who lent a friend money didn't get it back last time (LendingTree, July 2025).\nForgive a loan and it's a gift: over $19,000 to one person in 2026 means a gift tax return.\nA real loan gone totally worthless is a short-term capital loss, offsetting up to $3,000 of income a year.\nExample: $5,000 bad debt at 22% saves $660, then $440 the next year.\nSources: IRS Topic 453, IRS Topic 409, IRS Rev. Proc. 2025-32, LendingTree.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#familyloans #baddebt #taxes #personalfinance #financeprostv",
+    "title": "The IRS might treat your unpaid family loan as a gift",
+    "ig": "The IRS may call your unpaid family loan a gift.\n32% of people who lent a friend money didn't get it back last time (LendingTree, July 2025).\nForgive a loan and it's a gift: over $19,000 to one person in 2026 means a gift tax return (usually no tax due).\nA real loan gone totally worthless is a short-term capital loss, offsetting capital gains, then up to $3,000 of other income a year.\nHypothetical: $5,000 bad debt, 22% bracket, no other gains, saves $660, then $440 the next year.\nSources: IRS Topic 453, IRS Topic 409, IRS Rev. Proc. 2025-32, LendingTree.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#familyloans #baddebt #taxes #personalfinance #financeprostv",
     "tiktok": "Unpaid family loan? The IRS may call it a gift. Not financial advice. #moneytok #personalfinance #taxes #familyloans #financeprostv",
-    "yt_desc": "An unpaid family loan can be a gift in the IRS's eyes, and gifts over $19,000 to one person in 2026 need a gift tax return. A real loan that becomes totally worthless is a short-term capital loss, with only $3,000 a year offsetting income (IRS Topics 453 and 409; LendingTree survey, July 2025). News and education, not financial advice. #Shorts #personalfinance #taxes",
+    "yt_desc": "An unpaid family loan can be a gift in the IRS's eyes, and gifts over $19,000 to one person in 2026 need a gift tax return. A real loan that becomes totally worthless is a short-term capital loss, offsetting capital gains, then up to $3,000 of other income a year (IRS Topics 453 and 409; LendingTree survey, July 2025). News and education, not financial advice. #Shorts #personalfinance #taxes",
     "tags": [
       "lending money to family",
       "bad debt deduction",
