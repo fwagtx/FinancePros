@@ -1,0 +1,158 @@
+{
+ "id": "2026-12-04-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Family never paid\nyou back?",
+ "cover": {
+  "title": "Unpaid Loan = Gift?",
+  "prop": "bill",
+  "label": "LOAN",
+  "value": "GIFT?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The IRS may call your unpaid family loan a gift.",
+   "say": "The IRS may call your unpaid family loan a gift.",
+   "scene": {
+    "t": "hook",
+    "title": "Unpaid loan = [gift]?",
+    "prop": "bill",
+    "label": "LOAN",
+    "value": "GIFT?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It happens a lot: 32% of people who lent to a friend weren't repaid last time (LendingTree, July 2025).",
+   "say": "It happens a lot. In a July twenty twenty-five LendingTree survey, thirty-two percent of friend lenders weren't repaid last time.",
+   "scene": {
+    "t": "stat",
+    "label": "Last friend loan: unpaid",
+    "value": "32%",
+    "tone": "down",
+    "sub": "LendingTree 7/2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the IRS asks: was it a loan, or a gift?",
+   "say": "So the IRS asks: was it a loan, or a gift?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Loan or gift?",
+     "Did you expect",
+     "to be repaid?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Forgive it, and it's a gift. In 2026, gifts over $19,000 to one person need a gift tax return, usually with no tax due.",
+   "say": "Forgive it, and it's a gift. In twenty twenty-six, over nineteen thousand dollars to one person needs a gift tax return.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 gift tax exclusion",
+    "value": "$19,000",
+    "tone": "neutral",
+    "sub": "per recipient, IRS",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A real loan gone totally worthless is a short-term capital loss, with proof you tried to collect.",
+   "say": "A real loan gone totally worthless is a short-term capital loss, with proof you tried to collect.",
+   "scene": {
+    "t": "list",
+    "title": "IRS bad debt test",
+    "items": [
+     "Real loan intent",
+     "Fully worthless",
+     "Tried to collect",
+     "Statement filed"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $5,000 bad debt, 22% bracket, no gains. Only $3,000 a year offsets income: $660 saved, then $440.",
+   "say": "Example: a five thousand dollar bad debt, twenty-two percent bracket, no gains. Only three thousand a year offsets income, so six hundred sixty saved, then four hundred forty.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $5,000 bad debt",
+    "left": {
+     "label": "Year 1",
+     "value": "$660",
+     "tone": "up",
+     "sub": "$3,000 x 22%"
+    },
+    "right": {
+     "label": "Year 2",
+     "value": "$440",
+     "tone": "up",
+     "sub": "$2,000 x 22%"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Interest-free family loans over $10,000 can trigger imputed interest.",
+   "say": "Interest-free family loans over ten thousand dollars can trigger imputed interest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Interest-free loan",
+     "over $10,000?",
+     "Imputed interest risk"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paperwork helps prove it: a signed note, a payment schedule, and collection attempts.",
+   "say": "Paperwork helps prove it: a signed note, a payment schedule, and collection attempts.",
+   "scene": {
+    "t": "list",
+    "title": "Loan paper trail",
+    "items": [
+     "Signed note",
+     "Payment schedule",
+     "Collection tries"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "The IRS might treat your unpaid family loan as a gift",
+  "ig": "The IRS may call your unpaid family loan a gift.\n32% of people who lent a friend money didn't get it back last time (LendingTree, July 2025).\nForgive a loan and it's a gift: over $19,000 to one person in 2026 means a gift tax return (usually no tax due).\nA real loan gone totally worthless is a short-term capital loss, offsetting capital gains, then up to $3,000 of other income a year.\nHypothetical: $5,000 bad debt, 22% bracket, no other gains, saves $660, then $440 the next year.\nSources: IRS Topic 453, IRS Topic 409, IRS Rev. Proc. 2025-32, LendingTree.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#familyloans #baddebt #taxes #personalfinance #financeprostv",
+  "tiktok": "Unpaid family loan? The IRS may call it a gift. Not financial advice. #moneytok #personalfinance #taxes #familyloans #financeprostv",
+  "yt_desc": "An unpaid family loan can be a gift in the IRS's eyes, and gifts over $19,000 to one person in 2026 need a gift tax return. A real loan that becomes totally worthless is a short-term capital loss, offsetting capital gains, then up to $3,000 of other income a year (IRS Topics 453 and 409; LendingTree survey, July 2025). News and education, not financial advice. #Shorts #personalfinance #taxes",
+  "tags": [
+   "lending money to family",
+   "bad debt deduction",
+   "gift tax 2026",
+   "IRS topic 453",
+   "family loan"
+  ]
+ }
+}
