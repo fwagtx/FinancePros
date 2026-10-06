@@ -1,0 +1,208 @@
+{
+ "id": "2026-12-05-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Severance pay:\nwhat's negotiable",
+ "cover": {
+  "title": "Is Severance Required?",
+  "prop": "bag",
+  "label": "PAY",
+  "value": "US: none"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "No federal law requires severance pay.",
+   "say": "No federal law requires your job to pay severance.",
+   "scene": {
+    "t": "hook",
+    "title": "Severance: [Optional]",
+    "prop": "bag",
+    "label": "PAY",
+    "value": "US: none",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's an agreement, says the Labor Department. So what's negotiable?",
+   "say": "It's an agreement, says the Labor Department. So what's actually negotiable?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No federal severance law",
+     "It's an agreement",
+     "Terms can be negotiated"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One related rule (WARN Act): firms with 100+ workers must give 60 days' notice of mass layoffs, or owe up to 60 days' back pay.",
+   "say": "One related rule: firms with a hundred-plus workers must give sixty days' notice of mass layoffs, or owe back pay.",
+   "scene": {
+    "t": "stat",
+    "label": "WARN Act notice",
+    "value": "60 days",
+    "tone": "neutral",
+    "sub": "100+ worker firms"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Layoffs aren't rare: 1,206,374 US job cuts announced in 2025 (Challenger)",
+   "say": "Layoffs aren't rare: announced US job cuts hit about one point two million in 2025.",
+   "scene": {
+    "t": "chart",
+    "title": "US job cuts announced",
+    "points": [
+     [
+      2019,
+      593
+     ],
+     [
+      2020,
+      2305
+     ],
+     [
+      2021,
+      322
+     ],
+     [
+      2022,
+      364
+     ],
+     [
+      2023,
+      722
+     ],
+     [
+      2024,
+      761
+     ],
+     [
+      2025,
+      1206
+     ]
+    ],
+    "suffix": "K",
+    "end": "1.2M",
+    "color": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: $60,000 salary, 2 weeks per year x 5 years = 10 weeks = $11,538",
+   "say": "Hypothetical: sixty thousand dollar salary, two weeks per year, five years. That's eleven thousand five hundred thirty-eight dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Salary (example)",
+     "value": "$60,000"
+    },
+    "to": {
+     "label": "10 weeks of pay",
+     "value": "$11,538"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Supplemental wages: employers can withhold a flat 22% federal = $2,538. Real tax is settled at filing.",
+   "say": "Employers can withhold a flat twenty-two percent federal, about two thousand five hundred thirty-eight. Real tax is settled at filing.",
+   "scene": {
+    "t": "compare",
+    "title": "Federal withholding",
+    "left": {
+     "label": "Severance",
+     "value": "$11,538",
+     "tone": "neutral",
+     "sub": "10 weeks (example)"
+    },
+    "right": {
+     "label": "22% withheld",
+     "value": "-$2,538",
+     "tone": "down",
+     "sub": "IRS Pub 15, 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Often negotiated: amount, COBRA premiums, equity vesting, non-competes",
+   "say": "People often negotiate the amount, COBRA premiums, equity vesting and non-competes.",
+   "scene": {
+    "t": "list",
+    "title": "Often negotiated",
+    "items": [
+     "Amount",
+     "COBRA premiums",
+     "Equity vesting",
+     "Non-competes"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Age 40+: 21 days to consider (45 in group layoffs), 7 days to revoke",
+   "say": "At forty-plus, an age-claim release must allow twenty-one days to consider, forty-five in group layoffs, and seven to revoke.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "21 days",
+      "To consider"
+     ],
+     [
+      "45 days",
+      "Group layoffs"
+     ],
+     [
+      "+7 days",
+      "To revoke"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Severance and unemployment: rules vary by state. Some states, like New Jersey, require severance in mass layoffs.",
+   "say": "And whether severance delays unemployment depends on your state.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Unemployment + severance?",
+     "Rules vary by state"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Education, not legal advice"
+   }
+  }
+ ],
+ "post": {
+  "title": "No federal law requires severance. Here's what's negotiable",
+  "ig": "No federal law requires your job to pay severance.\n\nThe US Labor Department says severance is a matter of agreement. The exception: WARN Act, 60 days' notice or back pay for mass layoffs at firms with 100+ workers.\nThe IRS treats severance as supplemental wages: 22% federal withholding. Hypothetical: 10 weeks on a $60,000 salary = $11,538, about $2,538 withheld.\nWorkers 40+ get 21 days to consider an age-claim release (45 in group layoffs) and 7 days to revoke.\nAnnounced US job cuts hit 1,206,374 in 2025 (Challenger, Gray & Christmas).\n\nSources: US Dept. of Labor; IRS Pub 15 (2026); EEOC; Challenger, Gray & Christmas.\nSome states, like New Jersey, require severance in certain mass layoffs.\nNews and education, not legal or financial advice.\nFollow @financeprostv for money explained simply.\n\n#severance #layoffs #careeradvice #personalfinance #financeprostv",
+  "tiktok": "No federal law requires severance. What's negotiable, plus 22% withholding. Not financial advice. #moneytok #severance #layoffs #financeprostv",
+  "yt_desc": "No federal law requires severance pay; the US Labor Department calls it a matter of agreement, with WARN Act notice or back pay for qualifying mass layoffs. The IRS treats severance as supplemental wages (22% federal withholding, IRS Pub 15, 2026), and EEOC rules give workers 40+ 21 days (45 in group layoffs) to consider an age-claim release and 7 days to revoke. Sources: DOL, IRS, EEOC, Challenger, Gray & Christmas. News and education, not financial advice.\n#Shorts #severance #personalfinance",
+  "tags": [
+   "severance pay",
+   "severance negotiation",
+   "layoffs",
+   "WARN Act",
+   "severance taxes"
+  ]
+ }
+}
