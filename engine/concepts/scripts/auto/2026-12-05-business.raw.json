@@ -2,7 +2,7 @@
   "series": "ticker",
   "header": "How affiliate links\npay creators",
   "cover": {
-    "title": "Your Click Pays Them",
+    "title": "Your Order Pays Them",
     "prop": "tag",
     "label": "LINK",
     "value": "10%"
@@ -10,8 +10,8 @@
   "lines": [
     {
       "who": "ticker",
-      "text": "That link pays creators up to 10%.",
-      "say": "That link pays creators up to ten percent.",
+      "text": "An Amazon link can pay a creator up to 10% of your order.",
+      "say": "An Amazon link can pay a creator up to ten percent.",
       "scene": {
         "t": "hook",
         "title": "Up to [10%] cut",
@@ -38,7 +38,7 @@
     {
       "who": "ticker",
       "text": "On Amazon, a click counts for 24 hours, or up to 89 days for items added to your cart in that window.",
-      "say": "On Amazon, a click counts for twenty-four hours, or up to eighty-nine days for items added to your cart in that window.",
+      "say": "On Amazon, a click counts for twenty-four hours, or eighty-nine days for items carted in that window.",
       "scene": {
         "t": "stat",
         "label": "Amazon click window",
@@ -50,24 +50,25 @@
     },
     {
       "who": "ticker",
-      "text": "Amazon's standard rates as of October 2026: 10% for luxury beauty, 4% for all other categories, 0% for gift cards.",
-      "say": "Amazon's standard rates, as of October twenty twenty-six, are ten percent for luxury beauty, four percent for all other categories, and zero for gift cards.",
+      "text": "Amazon's standard rates (Oct 2026) run from 0% on gift cards to 10% on luxury beauty; many categories pay 1-4.5%.",
+      "say": "Amazon's standard rates run from zero on gift cards to ten percent on luxury beauty. Many categories pay one to four and a half percent.",
       "scene": {
         "t": "list",
         "title": "Amazon rates, Oct 2026",
         "items": [
           "Lux beauty: 10%",
-          "All other: 4%",
-          "Gift cards: 0%"
+          "Books: 4.5%",
+          "Toys, home: 3%",
+          "Grocery: 1%"
         ],
-        "reveal": 3,
+        "reveal": 4,
         "mood": "up"
       }
     },
     {
       "who": "ticker",
-      "text": "Example: a $200 order at 4% pays the creator $8. ($200 x 4% = $8)",
-      "say": "For example, a two hundred dollar order at four percent pays the creator eight dollars.",
+      "text": "Example: a $200 order in a 4% category pays the creator $8 ($200 x 4%).",
+      "say": "So a two hundred dollar order in a four percent category pays the creator eight dollars.",
       "scene": {
         "t": "money",
         "from": {
@@ -106,7 +107,7 @@
     {
       "who": "ticker",
       "text": "The FTC's Endorsement Guides, updated in 2023, say creators should clearly disclose paid links.",
-      "say": "The F T C's Endorsement Guides, updated in twenty twenty-three, say creators should clearly disclose paid links.",
+      "say": "The F T C's Endorsement Guides say creators should clearly disclose paid links.",
       "scene": {
         "t": "stat",
         "label": "FTC guides, updated 2023",
@@ -118,8 +119,8 @@
     },
     {
       "who": "ticker",
-      "text": "Amazon requires this exact line, so when you see it, that link pays the creator.",
-      "say": "Amazon requires this exact line, so when you see it, that link pays the creator.",
+      "text": "Amazon makes creators post this line, so when you see it, their Amazon links can earn them a cut.",
+      "say": "Amazon makes creators post this line, so their Amazon links can earn them a cut.",
       "scene": {
         "t": "quote",
         "text": "As an Amazon Associate I earn from qualifying purchases.",
@@ -137,9 +138,9 @@
     }
   ],
   "post": {
-    "title": "How an affiliate link pays a creator up to 10% of your order",
-    "ig": "That link pays creators up to 10% of your order.\nAmazon counts a click for 24 hours (items added to cart in that window: up to 89 days).\nAmazon standard rates as of Oct 2026: 10% luxury beauty, 4% all other categories, 0% gift cards.\nExample: $200 order x 4% = $8 to the creator. Your price is usually the same.\nThe FTC's Endorsement Guides (updated 2023) say creators should clearly disclose paid links.\nSources: Amazon Associates Central, FTC Endorsement Guides (16 CFR Part 255).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#affiliatemarketing #creators #amazon #business #financeprostv",
-    "tiktok": "That link pays creators up to 10% of your order. Not financial advice. #moneytok #personalfinance #affiliatemarketing #creators #financeprostv",
+    "title": "How an Amazon link can pay a creator up to 10% of your order",
+    "ig": "An Amazon link can pay a creator up to 10% of your order.\nAmazon counts a click for 24 hours (items added to cart in that window: up to 89 days).\nAmazon standard rates (Oct 2026) run from 0% (gift cards) to 10% (luxury beauty); many categories pay 1-4.5%.\nExample: $200 order in a 4% category = $8 to the creator. Your price is usually the same.\nThe FTC's Endorsement Guides (updated 2023) say creators should clearly disclose paid links.\nSources: Amazon Associates Central, FTC Endorsement Guides (16 CFR Part 255).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#affiliatemarketing #creators #amazon #business #financeprostv",
+    "tiktok": "An Amazon link can pay a creator up to 10% of your order. Not financial advice. #moneytok #personalfinance #affiliatemarketing #financeprostv",
     "yt_desc": "Affiliate links carry a creator's tag, and Amazon counts a click for 24 hours (89 days for items added to cart in that window). As of October 2026, Amazon's standard rates run from 0% on gift cards to 10% on luxury beauty; a $200 order at 4% pays the creator $8, while your price is usually unchanged (Amazon Associates Central; FTC Endorsement Guides, 16 CFR Part 255, updated 2023). News and education, not financial advice.\n#Shorts #affiliatemarketing #business",
     "tags": [
       "how affiliate links work",
