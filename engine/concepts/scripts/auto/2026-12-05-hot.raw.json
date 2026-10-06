@@ -1,0 +1,152 @@
+{
+  "series": "ticker",
+  "header": "Is your bonus\ntaxed more?",
+  "cover": {
+    "title": "Is Your Bonus Taxed More?",
+    "prop": "bill",
+    "label": "BONUS",
+    "value": "MYTH"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Your bonus isn't taxed more than your salary.",
+      "say": "Your bonus isn't taxed more than your salary.",
+      "scene": {
+        "t": "hook",
+        "title": "Bonus taxed [more]?",
+        "prop": "bill",
+        "label": "BONUS",
+        "value": "MYTH",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So why's the bonus check so small? Employers often withhold a flat 22% federal.",
+      "say": "So why's the bonus check so small? Employers often withhold a flat twenty-two percent federal.",
+      "scene": {
+        "t": "stat",
+        "label": "Flat bonus withholding",
+        "value": "22%",
+        "tone": "down",
+        "sub": "IRS Pub 15, 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Above $1 million a year, it's 37%. Or it's lumped into a regular paycheck.",
+      "say": "Above a million a year, it's thirty-seven percent. Or it's lumped into a regular paycheck.",
+      "scene": {
+        "t": "list",
+        "title": "Bonus withholding",
+        "items": [
+          "Flat 22%",
+          "37% over $1M",
+          "Aggregate method"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's just a prepayment. At filing, a bonus is wages, taxed at the same brackets as salary.",
+      "say": "That's just a prepayment. At filing, a bonus is wages, taxed at the same brackets as salary.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Withholding = prepay",
+          "Bonus = wages",
+          "Same brackets"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Hypothetical: single, $60,000 salary, $5,000 bonus. After the standard deduction, taxable income is $48,900.",
+      "say": "Hypothetical: single, sixty thousand salary, five thousand bonus. After the standard deduction, taxable income is forty-eight thousand nine hundred.",
+      "scene": {
+        "t": "stat",
+        "label": "Example taxable income",
+        "value": "$48,900",
+        "tone": "neutral",
+        "sub": "still 12% bracket",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "12% runs to $50,400 in 2026, so the bonus owes $600, not the $1,100 withheld.",
+      "say": "Twelve percent runs to fifty thousand four hundred in twenty twenty-six, so the bonus owes six hundred dollars, not the one thousand one hundred withheld.",
+      "scene": {
+        "t": "compare",
+        "title": "Example: $5,000 bonus",
+        "left": {
+          "label": "Withheld",
+          "value": "$1,100",
+          "tone": "down",
+          "sub": "22% flat"
+        },
+        "right": {
+          "label": "Actual tax",
+          "value": "$600",
+          "tone": "up",
+          "sub": "12% bracket"
+        },
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That $500 gap comes back at filing, if other withholding was on target.",
+      "say": "That five hundred dollar gap comes back at filing, if other withholding was on target.",
+      "scene": {
+        "t": "stat",
+        "label": "Example over-withholding",
+        "value": "$500",
+        "tone": "up",
+        "sub": "$1,100 - $600",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "FICA is 7.65% on both. It's not taxed more, just withheld differently.",
+      "say": "FICA is seven point six five percent on both. It's not taxed more, just withheld differently.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "FICA: 7.65% on both",
+          "Taxed the same",
+          "Just withheld differently"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "mood": "happy"
+      }
+    }
+  ],
+  "post": {
+    "title": "Is your bonus really taxed more than your salary?",
+    "ig": "Your bonus isn't taxed more than your salary.\nMany employers withhold a flat 22% federal on bonuses (37% on the part over $1M), or use the aggregate method. That's withholding, not the final tax.\nAt filing, a bonus is wages, taxed at the same 2026 brackets as salary.\nHypothetical: single, $60,000 salary + $5,000 bonus. Taxable income $48,900 stays in the 12% bracket: $600 tax vs $1,100 withheld, a $500 gap back at filing.\nSources: IRS Pub 15 (2026), IRS Pub 525, IRS Rev. Proc. 2025-32.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#bonus #taxes #moneymyths #personalfinance #financeprostv",
+    "tiktok": "Your bonus isn't taxed more than your salary. 22% is withholding. Not financial advice. #moneytok #personalfinance #taxes #bonus #financeprostv",
+    "yt_desc": "Bonuses aren't taxed at a higher rate than salary. Employers often withhold a flat 22% federal on bonuses (37% over $1 million), per IRS Publication 15 (2026), but at filing a bonus is taxed at the same brackets as salary (2026 brackets from IRS Rev. Proc. 2025-32). In a hypothetical $5,000 bonus in the 12% bracket, $1,100 is withheld but the tax is $600. News and education, not financial advice.\n#Shorts #taxes #personalfinance",
+    "tags": [
+      "bonus tax",
+      "supplemental wages",
+      "tax withholding",
+      "money myths",
+      "2026 tax brackets"
+    ]
+  }
+}
