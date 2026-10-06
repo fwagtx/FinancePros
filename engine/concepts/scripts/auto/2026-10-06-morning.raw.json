@@ -1,6 +1,6 @@
 {
   "series": "ticker",
-  "header": "Your power bill\nup 32% since 2020",
+  "header": "Home power prices\nup 32% since 2020",
   "cover": {
     "title": "Power Prices Up 32%",
     "prop": "bill",
@@ -12,56 +12,173 @@
       "who": "ticker",
       "text": "Home electricity prices are up 32% since 2020.",
       "say": "Home power prices are up thirty-two percent since twenty twenty.",
-      "scene": {"t": "hook", "title": "Home [power] prices", "prop": "bill", "label": "kWh", "value": "+32%", "mood": "shock"}
+      "scene": {
+        "t": "hook",
+        "title": "Home [power] prices",
+        "prop": "bill",
+        "label": "kWh",
+        "value": "+32%",
+        "mood": "shock"
+      }
     },
     {
       "who": "ticker",
       "text": "EIA's October energy outlook, with its winter heating forecast, comes out today, Oct 6, around noon Eastern.",
       "say": "And the government's new energy outlook, with its winter heating forecast, comes out today around noon Eastern.",
-      "scene": {"t": "news", "headline": "EIA energy outlook due at noon ET", "source": "EIA release schedule, Oct 6, 2026", "mood": "think"}
+      "scene": {
+        "t": "news",
+        "headline": "EIA energy outlook due at noon ET",
+        "source": "EIA release schedule, Oct 6, 2026",
+        "mood": "think"
+      }
     },
     {
       "who": "ticker",
-      "text": "Average US home price per kWh: 13.15 cents in 2020, 17.3 cents in 2025.",
+      "text": "Average US home price per kWh (before inflation): 13.15 cents in 2020, 17.3 cents in 2025.",
       "say": "The average US home paid about thirteen cents per kilowatt-hour in twenty twenty. In twenty twenty-five, about seventeen.",
-      "scene": {"t": "chart", "title": "Home power price, cents/kWh", "points": [[2016, 12.55], [2017, 12.89], [2018, 12.87], [2019, 13.01], [2020, 13.15], [2021, 13.66], [2022, 15.04], [2023, 16.0], [2024, 16.48], [2025, 17.3]], "suffix": "¢", "end": "17.3¢", "color": "down", "mood": "worried"}
+      "scene": {
+        "t": "chart",
+        "title": "Home power price, cents/kWh",
+        "points": [
+          [
+            2016,
+            12.55
+          ],
+          [
+            2017,
+            12.89
+          ],
+          [
+            2018,
+            12.87
+          ],
+          [
+            2019,
+            13.01
+          ],
+          [
+            2020,
+            13.15
+          ],
+          [
+            2021,
+            13.66
+          ],
+          [
+            2022,
+            15.04
+          ],
+          [
+            2023,
+            16.0
+          ],
+          [
+            2024,
+            16.48
+          ],
+          [
+            2025,
+            17.3
+          ]
+        ],
+        "suffix": "¢",
+        "end": "17.3¢",
+        "color": "down",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's faster than overall inflation: consumer prices rose about 24% from 2020 to 2025 (BLS CPI).",
+      "say": "That's faster than overall inflation, about twenty-four percent over the same stretch.",
+      "scene": {
+        "t": "stat",
+        "label": "All prices, 2020 to 2025",
+        "value": "+24%",
+        "tone": "neutral",
+        "sub": "BLS CPI-U",
+        "mood": "think"
+      }
     },
     {
       "who": "ticker",
       "text": "Example: a home using 1,000 kWh a month paid about $132 in 2020 and $173 in 2025.",
       "say": "For example, a home using one thousand kilowatt-hours a month went from about one hundred thirty-two dollars to one hundred seventy-three.",
-      "scene": {"t": "money", "title": "Example: 1,000 kWh a month", "from": {"label": "2020", "value": "$132"}, "to": {"label": "2025", "value": "$173"}, "mood": "shock"}
+      "scene": {
+        "t": "money",
+        "title": "Example: 1,000 kWh a month",
+        "from": {
+          "label": "2020",
+          "value": "$132"
+        },
+        "to": {
+          "label": "2025",
+          "value": "$173"
+        },
+        "mood": "shock"
+      }
     },
     {
       "who": "ticker",
       "text": "EIA's September 2026 forecast: 18.2 cents per kWh in 2026.",
       "say": "And the September forecast from the EIA puts it at eighteen point two cents for twenty twenty-six.",
-      "scene": {"t": "stat", "label": "2026 forecast, per kWh", "value": "18.2¢", "tone": "down", "sub": "EIA, Sep 2026", "mood": "worried"}
+      "scene": {
+        "t": "stat",
+        "label": "2026 forecast, per kWh",
+        "value": "18.2¢",
+        "tone": "down",
+        "sub": "EIA, Sep 2026",
+        "mood": "worried"
+      }
     },
     {
       "who": "ticker",
-      "text": "EIA expects record US power use in 2026, driven by data centers and factories.",
-      "say": "Part of the story is demand. The EIA expects record power use, driven by data centers and factories.",
-      "scene": {"t": "board", "lines": ["Record US power use", "Data centers + factories", "EIA forecast, Sep 2026"], "mood": "think"}
+      "text": "Separately, EIA expects record US power use in 2026, driven by data centers and factories.",
+      "say": "Separately, the EIA expects record power use, driven by data centers and factories.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Record US power use",
+          "Data centers + factories",
+          "EIA forecast, Sep 2026"
+        ],
+        "mood": "think"
+      }
     },
     {
       "who": "ticker",
       "text": "A power bill is the price per kWh times how many kWh you use. Households don't set the price; usage is the part they see and control.",
-      "say": "Your bill is just price times usage. Nobody at home sets the price, so usage is the part a household actually controls.",
-      "scene": {"t": "board", "lines": ["Bill = price x usage", "Price: set for you", "Usage: set by you"], "mood": "happy"}
+      "say": "Your bill is price times usage, and usage is the part a household controls.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Bill = price x usage",
+          "Price: set for you",
+          "Usage: set by you"
+        ],
+        "mood": "happy"
+      }
     },
     {
       "who": "ticker",
       "text": "That's the money. Follow for more.",
       "say": "That's the money. Follow for more.",
-      "scene": {"t": "cta"}
+      "scene": {
+        "t": "cta"
+      }
     }
   ],
   "post": {
     "title": "Home power prices are up 32% since 2020. Here's the math.",
-    "ig": "Home electricity prices are up about 32% since 2020.\nAverage US home price: 13.15 cents per kWh in 2020, 17.3 cents in 2025 (EIA).\nExample: 1,000 kWh a month went from about $132 to $173.\nEIA's Sept 2026 forecast: 18.2 cents in 2026, with record power use driven by data centers and factories.\nEIA's October outlook and Winter Fuels Outlook come out Oct 6, 2026.\nSources: EIA Electric Power Annual Table 2.4; EIA Short-Term Energy Outlook, Sept 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#electricbill #energy #datacenters #personalfinance #financeprostv",
+    "ig": "Home electricity prices are up about 32% since 2020 (not adjusted for inflation; overall prices rose about 24%).\nAverage US home price: 13.15 cents per kWh in 2020, 17.3 cents in 2025 (EIA).\nExample: 1,000 kWh a month went from about $132 to $173.\nEIA's Sept 2026 forecast: 18.2 cents in 2026, with record power use driven by data centers and factories.\nEIA's October outlook and Winter Fuels Outlook come out Oct 6, 2026.\nSources: EIA Electric Power Annual Table 2.4; EIA Short-Term Energy Outlook, Sept 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#electricbill #energy #datacenters #personalfinance #financeprostv",
     "tiktok": "Power prices are up 32% since 2020. Here's the math. Not financial advice. #moneytok #personalfinance #electricbill #energy #financeprostv",
-    "yt_desc": "The average US home paid 13.15 cents per kilowatt-hour for electricity in 2020 and 17.3 cents in 2025, about 32% more, per the EIA. The EIA's September 2026 outlook forecasts 18.2 cents for 2026 and record power use driven by data centers and factories; its October outlook comes out Oct 6, 2026. News and education, not financial advice. #Shorts #electricbill #personalfinance",
-    "tags": ["electricity prices", "electric bill", "EIA", "data centers", "personal finance"]
+    "yt_desc": "The average US home paid 13.15 cents per kilowatt-hour for electricity in 2020 and 17.3 cents in 2025, about 32% more, per the EIA (not adjusted for inflation; consumer prices rose about 24% over the same period, BLS). The EIA's September 2026 outlook forecasts 18.2 cents for 2026 and record power use driven by data centers and factories; its October outlook comes out Oct 6, 2026. News and education, not financial advice. #Shorts #electricbill #personalfinance",
+    "tags": [
+      "electricity prices",
+      "electric bill",
+      "EIA",
+      "data centers",
+      "personal finance"
+    ]
   }
 }
