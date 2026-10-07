@@ -1,0 +1,196 @@
+{
+ "series": "ticker",
+ "header": "Scholarships, grants,\nwork-study",
+ "cover": {
+  "title": "Free Money, Taxed?",
+  "prop": "bag",
+  "label": "AID",
+  "value": "Taxed?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Free college money can still show up on your tax return.",
+   "say": "Free college money can still show up on your tax return.",
+   "scene": {
+    "t": "hook",
+    "title": "Free Money, [Taxed]?",
+    "prop": "bag",
+    "label": "AID",
+    "value": "Taxed?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three kinds of aid: scholarships (usually merit), grants (usually need), and work-study (a paycheck).",
+   "say": "Scholarships are usually merit gifts, grants are usually need-based gifts, and work-study is a paycheck.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Scholarship = merit gift",
+     "Grant = need-based gift",
+     "Work-study = a paycheck"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Max federal Pell Grant, 2026-27: $7,395 (Education Dept.)",
+   "say": "The max Pell Grant for 2026 to 2027 is seven thousand three hundred ninety-five dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Max Pell Grant, 2026-27",
+    "value": "$7,395",
+    "tone": "neutral",
+    "sub": "US Education Dept"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That max has been flat at $7,395 for four award years in a row.",
+   "say": "That max has been flat for four award years in a row.",
+   "scene": {
+    "t": "chart",
+    "title": "Max Pell Grant",
+    "points": [
+     [
+      2017,
+      5920
+     ],
+     [
+      2018,
+      6095
+     ],
+     [
+      2019,
+      6195
+     ],
+     [
+      2020,
+      6345
+     ],
+     [
+      2021,
+      6495
+     ],
+     [
+      2022,
+      6895
+     ],
+     [
+      2023,
+      7395
+     ],
+     [
+      2024,
+      7395
+     ],
+     [
+      2025,
+      7395
+     ],
+     [
+      2026,
+      7395
+     ]
+    ],
+    "prefix": "$",
+    "end": "$7,395",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2024-25, undergrads averaged $12,080 in grants per full-time-equivalent student (College Board).",
+   "say": "In 2024 to 2025, undergrads averaged twelve thousand eighty dollars in grants per full-time student, says the College Board.",
+   "scene": {
+    "t": "stat",
+    "label": "2024-25 grants per FTE",
+    "value": "$12,080",
+    "tone": "up",
+    "sub": "College Board 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $10,000 scholarship puts $3,000 toward housing. That $3,000 is taxable (IRS Pub 970).",
+   "say": "The catch: say a ten thousand dollar scholarship puts three thousand toward housing. Under IRS rules, that three thousand is taxable.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Scholarship (example)",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "Taxable (housing part)",
+     "value": "$3,000"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Work-study is earned: at least minimum wage per hour, and the FAFSA leaves that pay out of your income.",
+   "say": "Work-study is earned: at least minimum wage per hour, and the FAFSA leaves that pay out of your income.",
+   "scene": {
+    "t": "split",
+    "title": "Free vs earned",
+    "left": {
+     "title": "Gift aid",
+     "items": [
+      "No repayment",
+      "Housing: taxable"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Work-study",
+     "items": [
+      "Hourly paycheck",
+      "Min wage or more",
+      "Not FAFSA income"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Withdraw early, though, and you may owe back part of a federal grant.",
+   "say": "Withdraw early, though, and you may owe back part of a federal grant.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Withdraw early?",
+     "May owe part of a grant"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Education, not advice"
+   }
+  }
+ ],
+ "post": {
+  "title": "Free college money can still show up on your tax return",
+  "ig": "Free college money can still show up on your tax return.\n\nScholarships (usually merit) and grants (usually need) don't have to be repaid. Work-study is a paycheck: at least minimum wage for hours worked.\nThe max federal Pell Grant is $7,395 for 2026-27, flat for four award years in a row.\nUndergrads averaged $12,080 in grant aid per full-time-equivalent student in 2024-25 (College Board).\nIRS rule: scholarship money used for housing is taxable. Example: $3,000 of a $10,000 scholarship spent on housing counts as income.\n\nSources: US Dept. of Education; College Board Trends in Student Aid 2025; IRS Publication 970.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#scholarships #financialaid #college #personalfinance #financeprostv",
+  "tiktok": "Free college money can still be taxed: scholarships vs grants vs work-study. Not financial advice. #moneytok #personalfinance #college #financeprostv",
+  "yt_desc": "Scholarships and grants are gift aid; work-study is a paycheck of at least minimum wage. The max Pell Grant is $7,395 for 2026-27 (US Dept. of Education), undergrads averaged $12,080 in grant aid per FTE student in 2024-25 (College Board), and scholarship money used for housing is taxable under IRS Publication 970. News and education, not financial advice.\n#Shorts #financialaid #scholarships",
+  "tags": [
+   "scholarships vs grants",
+   "work-study",
+   "Pell Grant 2026-27",
+   "financial aid",
+   "are scholarships taxable"
+  ]
+ }
+}
