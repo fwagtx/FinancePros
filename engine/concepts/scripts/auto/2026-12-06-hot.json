@@ -1,0 +1,204 @@
+{
+ "id": "2026-12-06-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "What if you stop\npaying rent?",
+ "cover": {
+  "title": "Stop Paying Rent?",
+  "prop": "house",
+  "label": "RENT",
+  "value": "7 YRS"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "An eviction case can follow you for 7 years.",
+   "say": "An eviction case can follow you for seven years.",
+   "scene": {
+    "t": "hook",
+    "title": "Stop paying [rent]?",
+    "prop": "house",
+    "label": "RENT",
+    "value": "7 YRS",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They're common: 1.23 million filings in 2025, in areas Princeton's Eviction Lab tracks.",
+   "say": "They're common: one point two three million filings in twenty twenty-five, in areas Princeton's Eviction Lab tracks.",
+   "scene": {
+    "t": "stat",
+    "label": "Eviction filings",
+    "value": "1.23M",
+    "tone": "down",
+    "sub": "2025, Eviction Lab",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It usually starts with a late fee, then a notice to pay or move out.",
+   "say": "It usually starts with a late fee, then a notice to pay or move out.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Step 1",
+      "Late fee"
+     ],
+     [
+      "Step 2",
+      "Pay-or-quit notice"
+     ],
+     [
+      "Step 3",
+      "Eviction lawsuit"
+     ],
+     [
+      "Step 4",
+      "Court judgment"
+     ],
+     [
+      "Step 5",
+      "Officer removal"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "California allows 3 days, skipping weekends. New York, 14.",
+   "say": "California allows three days, skipping weekends. New York, fourteen.",
+   "scene": {
+    "t": "compare",
+    "title": "Notice, state examples",
+    "left": {
+     "label": "California",
+     "value": "3 days",
+     "tone": "down",
+     "sub": "skips weekends"
+    },
+    "right": {
+     "label": "New York",
+     "value": "14 days",
+     "tone": "neutral",
+     "sub": "rent demand"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, the landlord can sue, and after a judgment, a sheriff or marshal handles removal.",
+   "say": "Next, the landlord can sue, and after a judgment, a sheriff or marshal handles removal.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Step 1",
+      "Late fee"
+     ],
+     [
+      "Step 2",
+      "Pay-or-quit notice"
+     ],
+     [
+      "Step 3",
+      "Eviction lawsuit"
+     ],
+     [
+      "Step 4",
+      "Court judgment"
+     ],
+     [
+      "Step 5",
+      "Officer removal"
+     ]
+    ],
+    "reveal": 5,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit reports usually skip evictions, but rent debt in collections can stay up to 7 years.",
+   "say": "Credit reports usually skip evictions, but rent debt in collections can stay up to seven years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Eviction: usually off",
+     "Collections: can show",
+     "Up to 7 years"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Screening reports can list eviction cases up to 7 years, says the CFPB.",
+   "say": "Screening reports can list eviction cases up to seven years, says the C F P B.",
+   "scene": {
+    "t": "stat",
+    "label": "Screening report limit",
+    "value": "7 years",
+    "tone": "down",
+    "sub": "up to, per CFPB",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2023, TransUnion agreed to pay $15 million to settle claims it misreported eviction records, like dismissals.",
+   "say": "In twenty twenty-three, TransUnion agreed to pay fifteen million dollars to settle claims it misreported eviction records, like dismissals.",
+   "scene": {
+    "t": "stat",
+    "label": "TransUnion settlement",
+    "value": "$15M",
+    "tone": "down",
+    "sub": "FTC + CFPB, 2023",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rules vary by state; local legal aid or 211 can point you to help.",
+   "say": "Rules vary by state; local legal aid or two one one can point you to help.",
+   "scene": {
+    "t": "list",
+    "title": "Where rules come from",
+    "items": [
+     "State law",
+     "Local legal aid",
+     "211 helpline"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "What really happens if you stop paying rent?",
+  "ig": "An eviction case can follow you for 7 years.\nLandlords filed 1.23 million eviction cases in 2025 across the areas Princeton's Eviction Lab tracks.\nThe usual path (rules vary by state): late fee, pay-or-quit notice (example: 3 days in California, 14 in New York), lawsuit, judgment, removal by a sheriff or marshal.\nCredit reports generally leave evictions off, but unpaid rent sent to collections can stay up to 7 years. Tenant screening reports can list eviction cases for up to 7 years (CFPB).\nIn 2023, TransUnion agreed to pay $15 million to settle FTC and CFPB allegations it misreported eviction records. Local legal aid or 211 can point you to help.\nSources: Eviction Lab (Apr 2026), CFPB, FTC, Experian, CA Attorney General, NY CourtHelp.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#rent #eviction #renters #personalfinance #financeprostv",
+  "tiktok": "An eviction case can follow you for 7 years. Not financial advice. #moneytok #personalfinance #renting #eviction #financeprostv",
+  "yt_desc": "What happens if you stop paying rent? Rules vary by state, but the usual path runs from a late fee and a pay-or-quit notice to a lawsuit, a judgment and removal by a sheriff or marshal. Landlords filed 1.23 million eviction cases in 2025 across areas tracked by Princeton's Eviction Lab, and the CFPB says eviction cases can stay on tenant screening reports for up to 7 years. Sources: Eviction Lab, CFPB, FTC, Experian. News and education, not financial advice.\n#Shorts #renting #personalfinance",
+  "tags": [
+   "stop paying rent",
+   "eviction process",
+   "tenant screening",
+   "eviction record",
+   "renters"
+  ]
+ }
+}
