@@ -105,13 +105,19 @@ def tiktok_video(video, cover, hold=0.2):
     return out
 
 
+HOOK_MS = 2000   # the hook frame (big headline, prop and number), used as the Instagram cover when there is no cover-first copy
+
+
 def short_posts(video, cover, post, when, tz, tt_video=None):
     """The per-platform posts for one vertical short. tt_video: the TikTok copy that opens on the cover (tiktok_video)."""
     title = post["title"].strip()
     common = dict(BASE, publicationDate={"dateTime": when, "timezone": tz}, media=[video], draft=_draft())
-    ig = dict(common, text=post["ig"], providers=[{"network": "instagram"}, {"network": "facebook"}],
+    # Instagram ignores the custom cover image for Reels and auto-picks a frame, so it gets its own post: the copy that opens
+    # on the cover, with the cover frame chosen by offset (100 ms into the 0.2 s cover hold). Facebook keeps the cover image.
+    ig = dict(common, media=[tt_video or video], text=post["ig"], providers=[{"network": "instagram"}],
               instagramData={"type": "REEL", "showReelOnFeed": True, "isAiGenerated": False},
-              facebookData={"type": "REEL", "title": title[:100]})
+              videoCoverMilliseconds=100 if tt_video else HOOK_MS)
+    fb = dict(common, text=post["ig"], providers=[{"network": "facebook"}], facebookData={"type": "REEL", "title": title[:100]})
     tt = dict(common, media=[tt_video or video], text=post["tiktok"][:2200], providers=[{"network": "tiktok"}],
               tiktokData={"privacyOption": "PUBLIC_TO_EVERYONE", "title": title[:90], "isAigc": False, "disableComment": False,
                           "disableDuet": False, "disableStitch": False, "autoAddMusic": False})
@@ -121,8 +127,8 @@ def short_posts(video, cover, post, when, tz, tt_video=None):
                            "tags": _tags((post.get("tags") or [])[:10], YT_TAGS[:2]), "isAiGeneratedContent": False})
     th = dict(common, text=threads_text(post.get("threads") or post["ig"]), providers=[{"network": "threads"}], threadsData={},
               optional=True)
-    if cover: ig["videoThumbnailUrl"] = cover; tt["videoThumbnailUrl"] = cover; yt["videoThumbnailUrl"] = cover
-    return [ig, tt, yt, th]
+    if cover: fb["videoThumbnailUrl"] = cover; tt["videoThumbnailUrl"] = cover; yt["videoThumbnailUrl"] = cover
+    return [ig, fb, tt, yt, th]
 
 
 def long_post(video, thumb, post, when, tz):
