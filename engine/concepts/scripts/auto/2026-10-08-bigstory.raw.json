@@ -1,0 +1,72 @@
+{
+  "series": "ticker",
+  "header": "Inflation fears hit\na 3-year high",
+  "cover": {
+    "title": "Inflation Fears: 3.9%",
+    "prop": "chart-up",
+    "value": "3.9%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Americans expect prices to jump 3.9% over the next year.",
+      "say": "Americans expect prices to jump three point nine percent next year.",
+      "scene": {"t": "hook", "title": "[Inflation] Fears", "prop": "chart-up", "value": "3.9%", "mood": "shock"}
+    },
+    {
+      "who": "ticker",
+      "text": "That's the highest since May 2023, says a New York Fed survey out Oct 7.",
+      "say": "That's the highest since May twenty twenty-three, according to a New York Fed survey released October seventh.",
+      "scene": {"t": "news", "headline": "Inflation outlook at 3-year high", "source": "New York Fed, Oct 7, 2026", "mood": "worried"}
+    },
+    {
+      "who": "ticker",
+      "text": "In March, people expected 3.4%. In September, 3.9%.",
+      "say": "Back in March, people expected three point four percent. By September, it hit three point nine.",
+      "scene": {"t": "chart", "title": "1-year inflation expected", "points": [[3, 3.4], [4, 3.6], [5, 3.5], [6, 3.7], [7, 3.6], [8, 3.6], [9, 3.9]], "suffix": "%", "end": "3.9%", "color": "down", "mood": "think"}
+    },
+    {
+      "who": "ticker",
+      "text": "The Fed's inflation goal is 2%, so that's nearly double.",
+      "say": "The Fed's inflation goal is two percent, so that's nearly double.",
+      "scene": {"t": "compare", "title": "Goal vs expectation", "left": {"label": "Fed goal", "value": "2%", "tone": "neutral", "sub": "Long-run target"}, "right": {"label": "Expected", "value": "3.9%", "tone": "down", "sub": "Next 12 months"}, "mood": "worried"}
+    },
+    {
+      "who": "ticker",
+      "text": "Why care? Expectations can turn real: bigger raise demands, easier price hikes.",
+      "say": "Why care? Expectations can turn real, as workers push for bigger raises and businesses feel freer to raise prices.",
+      "scene": {"t": "board", "lines": ["Expect higher prices", "-> ask for bigger raises", "-> prices go up"], "mood": "think"}
+    },
+    {
+      "who": "ticker",
+      "text": "The longer view is calmer: the 5-year outlook held at 3%.",
+      "say": "The longer view is calmer, though. The five-year outlook held at three percent.",
+      "scene": {"t": "stat", "label": "5-year outlook", "value": "3.0%", "tone": "neutral", "sub": "Unchanged in Sept", "mood": "happy"}
+    },
+    {
+      "who": "ticker",
+      "text": "Example: at 3.9%, a $100 grocery run becomes $103.90.",
+      "say": "Here's the math. At three point nine percent, a one hundred dollar grocery run becomes one hundred three dollars and ninety cents.",
+      "scene": {"t": "money", "from": {"label": "Today", "value": "$100"}, "to": {"label": "At 3.9%", "value": "$103.90"}, "mood": "think"}
+    },
+    {
+      "who": "ticker",
+      "text": "So if that forecast comes true, a raise under 3.9% buys less.",
+      "say": "So if that forecast comes true, a raise under three point nine percent actually buys you less.",
+      "scene": {"t": "split", "title": "Your raise", "left": {"title": "Above 3.9%", "items": ["Buys more"], "tone": "up"}, "right": {"title": "Below 3.9%", "items": ["Buys less"], "tone": "down"}, "mood": "think"}
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {"t": "cta", "mood": "happy"}
+    }
+  ],
+  "post": {
+    "title": "Americans Now Expect 3.9% Inflation, a 3-Year High",
+    "ig": "Americans expect prices to jump 3.9% over the next year.\nThat's the highest one-year inflation expectation since May 2023, per the New York Fed's September Survey of Consumer Expectations, released Oct 7, 2026.\nIt was 3.4% in March and 3.6% in August. The Fed's inflation goal is 2%.\nThe five-year outlook held at 3.0%; the three-year rose to 3.3%.\nSources: Federal Reserve Bank of New York, Bloomberg, CNBC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#inflation #economy #federalreserve #personalfinance #financeprostv",
+    "tiktok": "Americans expect 3.9% inflation, a 3-year high. Not financial advice. #moneytok #personalfinance #inflation #economy #financeprostv",
+    "yt_desc": "Americans' one-year inflation expectations rose to 3.9% in September 2026 from 3.6% in August, the highest since May 2023, according to the New York Fed's Survey of Consumer Expectations released Oct 7. The five-year outlook held at 3.0%, versus the Fed's 2% goal. Sources: Federal Reserve Bank of New York, Bloomberg, CNBC. News and education, not financial advice.\n#Shorts #inflation #economy",
+    "tags": ["inflation expectations", "New York Fed survey", "inflation 2026", "consumer expectations", "cost of living"]
+  }
+}
