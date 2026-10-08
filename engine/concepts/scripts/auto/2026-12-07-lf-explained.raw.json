@@ -1,0 +1,1651 @@
+{
+ "series": "ticker",
+ "header": "Inflation: where it\ncomes from",
+ "cover": {
+  "title": "Your Raise Lost to Prices.",
+  "prop": "bill",
+  "label": "PAY",
+  "value": "-0.3%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Paychecks rose 3.1%. Prices rose 3.4%.",
+   "say": "Paychecks rose three point one percent. Prices rose three point four.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay 3.1%, prices [3.4%]",
+    "prop": "bill",
+    "label": "PAY",
+    "value": "-0.3%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the year to August 2026, that left real hourly pay down 0.3%.",
+   "say": "In the year to August twenty twenty-six, that left real hourly pay down three tenths of a percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Real hourly pay",
+    "value": "-0.3%",
+    "tone": "down",
+    "sub": "BLS, to Aug 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A raise smaller than inflation is a pay cut that never shows up on your pay stub.",
+   "say": "A raise that's smaller than inflation is a pay cut that never shows up on your pay stub.",
+   "scene": {
+    "t": "compare",
+    "title": "Year to Aug 2026",
+    "left": {
+     "label": "Pay",
+     "value": "+3.1%",
+     "tone": "up",
+     "sub": "Avg hourly pay"
+    },
+    "right": {
+     "label": "Prices",
+     "value": "+3.4%",
+     "tone": "down",
+     "sub": "CPI-U"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices won that round, by three tenths of a point.",
+   "say": "Prices won that round, by three tenths of a point.",
+   "scene": {
+    "t": "compare",
+    "title": "Year to Aug 2026",
+    "left": {
+     "label": "Pay",
+     "value": "+3.1%",
+     "tone": "up",
+     "sub": "Avg hourly pay"
+    },
+    "right": {
+     "label": "Prices",
+     "value": "+3.4%",
+     "tone": "down",
+     "sub": "CPI-U"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over decades it adds up. What cost $1 in 1970 cost about $8.30 in 2025.",
+   "say": "Over decades, it adds up. By the government's index, what cost one dollar in nineteen seventy cost about eight dollars and thirty cents in twenty twenty-five.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "1970",
+     "value": "$1.00"
+    },
+    "to": {
+     "label": "2025 prices",
+     "value": "$8.30"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Flip it: a 2025 dollar buys what about 12 cents bought in 1970.",
+   "say": "Flip it around, and a twenty twenty-five dollar buys what about twelve cents bought in nineteen seventy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2025 dollar =",
+     "about 12¢ in 1970"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So where does inflation come from, and what do people actually do about it?",
+   "say": "So where does inflation come from, and what do people actually do about it?",
+   "scene": {
+    "t": "list",
+    "title": "This video",
+    "items": [
+     "What it is",
+     "Its causes",
+     "50 years of it",
+     "Tools people use"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real data from the BLS, the Fed and the Treasury, one example with exact math. Education, not advice.",
+   "say": "We'll use real data from the BLS, the Fed and the Treasury, plus one example with exact math. Education, not advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real data + exact math",
+     "Education, not advice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What inflation actually is",
+   "say": "Chapter one: what inflation actually is.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What inflation actually is"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inflation is a broad, lasting rise in prices. Flip side: each dollar buys less.",
+   "say": "Inflation is a broad, lasting rise in prices. The flip side is that each dollar buys a little less.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Prices up, broadly",
+     "= each $ buys less"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One pricey item isn't inflation. If eggs jump but TVs fall, the average may barely move.",
+   "say": "One pricey item isn't inflation. If eggs jump but TVs get cheaper, the average may barely move.",
+   "scene": {
+    "t": "split",
+    "title": "Not the same thing",
+    "left": {
+     "title": "One price",
+     "items": [
+      "Eggs jump",
+      "TVs fall"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Inflation",
+     "items": [
+      "Most prices rise",
+      "It lasts"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The main US gauge is the Consumer Price Index, or CPI, from the Bureau of Labor Statistics.",
+   "say": "The main US gauge is the Consumer Price Index, or C P I, from the Bureau of Labor Statistics.",
+   "scene": {
+    "t": "stat",
+    "label": "Main US gauge",
+    "value": "CPI",
+    "tone": "neutral",
+    "sub": "BLS, every month"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every month, the BLS prices a basket of what city households buy: housing, food, gas, medical care and more.",
+   "say": "Every month, the BLS prices a basket of what city households buy: housing, food, gas, medical care and more.",
+   "scene": {
+    "t": "list",
+    "title": "The CPI basket",
+    "items": [
+     "Housing",
+     "Food",
+     "Gas + energy",
+     "Medical care"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Housing is the biggest slice, so rent and home costs move the number a lot.",
+   "say": "Housing is the biggest slice, so rent and home costs move the number a lot.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Shelter: biggest slice",
+     "Rent moves the CPI"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the August 2026 CPI, prices were up 3.4% from a year earlier.",
+   "say": "In the August twenty twenty-six report, prices were up three point four percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "CPI, 12 mo. to Aug",
+    "value": "3.4%",
+    "tone": "down",
+    "sub": "BLS, Sep 11, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "New CPI data comes out every month, so by the time you watch, there's a newer number.",
+   "say": "New CPI data comes out every month, so by the time you watch this, there's a newer number.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New CPI every month",
+     "Latest: bls.gov/cpi"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Strip out food and energy, which jump around, and you get core inflation: 2.4% over the same 12 months.",
+   "say": "Strip out food and energy, which jump around, and you get core inflation: two point four percent over the same twelve months.",
+   "scene": {
+    "t": "compare",
+    "title": "12 months to Aug 2026",
+    "left": {
+     "label": "All items",
+     "value": "3.4%",
+     "tone": "down",
+     "sub": "Headline CPI"
+    },
+    "right": {
+     "label": "Core",
+     "value": "2.4%",
+     "tone": "neutral",
+     "sub": "No food or energy"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of that gap is gasoline, up 27.4% in a year.",
+   "say": "Most of that gap is gasoline, which was up twenty-seven point four percent in a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Gasoline, 12 months",
+    "value": "+27.4%",
+    "tone": "down",
+    "sub": "BLS, to Aug 2026",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Federal Reserve aims for 2% inflation over the long run, an official goal since January 2012.",
+   "say": "The Federal Reserve aims for two percent inflation over the long run. That's been its official goal since January twenty twelve.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Goal: 2%",
+    "caption": "Official since 2012"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why not zero? Falling prices can make people delay buying and make debts heavier.",
+   "say": "Why not zero? Falling prices can make people put off buying, and they make debts heavier.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Why not 0%?",
+     "Falling prices hurt too"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two words to know: nominal is the number on the label. Real is that number after inflation.",
+   "say": "Two words to know. Nominal is the number on the label. Real is that number after inflation.",
+   "scene": {
+    "t": "compare",
+    "title": "Two kinds of numbers",
+    "left": {
+     "label": "Nominal",
+     "value": "Label",
+     "tone": "neutral",
+     "sub": "Before inflation"
+    },
+    "right": {
+     "label": "Real",
+     "value": "Power",
+     "tone": "up",
+     "sub": "After inflation"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rough rule: real equals nominal minus inflation. That's how a 3.1% raise became -0.3%.",
+   "say": "The rough rule is real equals nominal minus inflation. That's how a three point one percent raise turned into minus three tenths.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real ≈ nominal - inflation",
+     "3.1% - 3.4% = -0.3%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Where inflation comes from",
+   "say": "Chapter two: where inflation comes from.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Where inflation comes from"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cause one is demand: everyone trying to buy more than the economy can make right now.",
+   "say": "Cause one is demand: everyone trying to buy more than the economy can make right now.",
+   "scene": {
+    "t": "list",
+    "title": "Four big causes",
+    "items": [
+     "Too much demand",
+     "Higher costs",
+     "More money",
+     "Expectations"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Economists sum it up as too much money chasing too few goods.",
+   "say": "Economists sum it up as too much money chasing too few goods.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Too much money chasing",
+     "too few goods"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2020, as relief programs and the Fed pumped cash into the economy, the M2 money supply grew about 25%.",
+   "say": "In twenty twenty, as relief programs and the Fed pumped cash into the economy, the M2 money supply grew about twenty-five percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Money supply, 2020",
+    "value": "+25%",
+    "tone": "up",
+    "sub": "M2, Atlanta Fed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the economy reopened, all that spending hit factories and shipping lines that couldn't keep up.",
+   "say": "When the economy reopened, that spending hit factories and shipping lines that couldn't keep up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lots of spending",
+     "+ jammed supply"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cause two is costs: when it costs more to make or ship things, sellers pass part of it on.",
+   "say": "Cause two is costs. When it costs more to make or ship things, sellers pass part of that on to you.",
+   "scene": {
+    "t": "list",
+    "title": "Four big causes",
+    "items": [
+     "Too much demand",
+     "Higher costs",
+     "More money",
+     "Expectations"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Energy is the classic example. In the 12 months ending June 2022, energy prices jumped 41.6%.",
+   "say": "Energy is the classic example. In the twelve months ending June twenty twenty-two, energy prices jumped forty-one point six percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Energy prices",
+    "value": "+41.6%",
+    "tone": "down",
+    "sub": "Year to June 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And oil is priced globally, so a spike hits almost every country at once.",
+   "say": "And oil is priced globally, so a spike hits almost every country at the same time.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "worried",
+      "says": "Gas is up!"
+     },
+     {
+      "name": "germany",
+      "mood": "worried",
+      "says": "Heating too!"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "Imports cost more"
+     }
+    ],
+    "caption": "Oil is priced globally"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It happened again in 2026. Reuters reported oil back above $100 a barrel.",
+   "say": "It happened again in twenty twenty-six. Reuters reported oil back above a hundred dollars a barrel.",
+   "scene": {
+    "t": "news",
+    "headline": "Oil back above $100 a barrel",
+    "source": "Reuters, September 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cause three is money itself. If money grows much faster than the stuff to buy, each dollar is worth less.",
+   "say": "Cause three is money itself. If money grows much faster than the stuff there is to buy, each dollar is worth less.",
+   "scene": {
+    "t": "list",
+    "title": "Four big causes",
+    "items": [
+     "Too much demand",
+     "Higher costs",
+     "More money",
+     "Expectations"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Milton Friedman: \"Inflation is always and everywhere a monetary phenomenon.\"",
+   "say": "The economist Milton Friedman put it this way: inflation is always and everywhere a monetary phenomenon.",
+   "scene": {
+    "t": "quote",
+    "text": "Inflation is always and everywhere a monetary phenomenon.",
+    "source": "Milton Friedman, 1963"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's one school of thought. Other economists put more weight on demand and supply shocks.",
+   "say": "That's one school of thought. Other economists put more weight on demand and on supply shocks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "One school of thought;",
+     "others stress shocks"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cause four is sneaky: expectations. If everyone expects prices to rise, they act in ways that make it happen.",
+   "say": "Cause four is sneaky: expectations. If everyone expects prices to rise, they act in ways that make it happen.",
+   "scene": {
+    "t": "list",
+    "title": "Four big causes",
+    "items": [
+     "Too much demand",
+     "Higher costs",
+     "More money",
+     "Expectations"
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: workers expect 5% inflation and ask for 5% raises. Businesses pay it, then raise prices 5%.",
+   "say": "Say workers expect five percent inflation, so they ask for five percent raises. Businesses pay it, then raise prices five percent.",
+   "scene": {
+    "t": "split",
+    "title": "Example: the spiral",
+    "left": {
+     "title": "Workers",
+     "items": [
+      "Expect +5%",
+      "Ask for +5%"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Businesses",
+     "items": [
+      "Pay +5%",
+      "Charge +5%"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why the Fed works to keep expectations anchored near 2%. Once they slip, they're hard to pull back.",
+   "say": "That's why the Fed works to keep expectations anchored near two percent. Once they slip, they're hard to pull back.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Keep expectations",
+     "anchored near 2%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's main tool is interest rates. Higher rates make borrowing pricier, which cools spending and, with a lag, prices.",
+   "say": "The Fed's main tool is interest rates. Higher rates make borrowing pricier, which cools spending and, with a lag, prices.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Rates up",
+    "caption": "Borrowing costs more"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2026, the Fed raised its target range by a quarter point to 3.75% to 4%, its first hike since 2023.",
+   "say": "In September twenty twenty-six, the Fed raised its target range a quarter point, to three point seven five to four percent, its first hike since twenty twenty-three.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed target, Sep 2026",
+    "value": "3.75-4%",
+    "tone": "up",
+    "sub": "+0.25 pt, Sep 16"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed meets again in late October and December, so the current rate may differ.",
+   "say": "The Fed meets again in late October and December, so the current rate may differ.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rates can change",
+     "at every Fed meeting"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Fifty years of inflation",
+   "say": "Chapter three: fifty years of inflation.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Fifty years of inflation"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's US inflation from 1970 to 1985, as yearly averages from the BLS.",
+   "say": "Here's US inflation from nineteen seventy to nineteen eighty-five, as yearly averages from the BLS.",
+   "scene": {
+    "t": "chart",
+    "title": "US inflation, 1970-85",
+    "points": [
+     [
+      1970,
+      5.7
+     ],
+     [
+      1971,
+      4.4
+     ],
+     [
+      1972,
+      3.2
+     ],
+     [
+      1973,
+      6.2
+     ],
+     [
+      1974,
+      11.0
+     ],
+     [
+      1975,
+      9.1
+     ],
+     [
+      1976,
+      5.8
+     ],
+     [
+      1977,
+      6.5
+     ],
+     [
+      1978,
+      7.6
+     ],
+     [
+      1979,
+      11.3
+     ],
+     [
+      1980,
+      13.5
+     ],
+     [
+      1981,
+      10.3
+     ],
+     [
+      1982,
+      6.2
+     ],
+     [
+      1983,
+      3.2
+     ],
+     [
+      1984,
+      4.3
+     ],
+     [
+      1985,
+      3.6
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.6%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It peaked at 13.5% in 1980, averaged over the whole year.",
+   "say": "It peaked at thirteen and a half percent in nineteen eighty, averaged over the whole year.",
+   "scene": {
+    "t": "stat",
+    "label": "Inflation, 1980",
+    "value": "13.5%",
+    "tone": "down",
+    "sub": "BLS annual average",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oil shocks in 1973 and 1979 poured fuel on it. In 1979, Paul Volcker took over the Fed.",
+   "say": "Oil shocks in nineteen seventy-three and nineteen seventy-nine poured fuel on it. Then in nineteen seventy-nine, Paul Volcker took over the Fed.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1973",
+      "what": "Oil shock"
+     },
+     {
+      "when": "1979",
+      "what": "Volcker runs Fed"
+     },
+     {
+      "when": "1980",
+      "what": "Rates hit 20%"
+     },
+     {
+      "when": "1982",
+      "what": "Jobless 10.8%"
+     },
+     {
+      "when": "1983",
+      "what": "Inflation 3.2%"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "His Fed let short-term rates climb to a record 20% in late 1980.",
+   "say": "His Fed let short-term rates climb to a record twenty percent in late nineteen eighty.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1973",
+      "what": "Oil shock"
+     },
+     {
+      "when": "1979",
+      "what": "Volcker runs Fed"
+     },
+     {
+      "when": "1980",
+      "what": "Rates hit 20%"
+     },
+     {
+      "when": "1982",
+      "what": "Jobless 10.8%"
+     },
+     {
+      "when": "1983",
+      "what": "Inflation 3.2%"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It worked, but it hurt. Unemployment hit 10.8% in November 1982.",
+   "say": "It worked, but it hurt. Unemployment hit ten point eight percent in November nineteen eighty-two.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1973",
+      "what": "Oil shock"
+     },
+     {
+      "when": "1979",
+      "what": "Volcker runs Fed"
+     },
+     {
+      "when": "1980",
+      "what": "Rates hit 20%"
+     },
+     {
+      "when": "1982",
+      "what": "Jobless 10.8%"
+     },
+     {
+      "when": "1983",
+      "what": "Inflation 3.2%"
+     }
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 1983, yearly inflation was down to 3.2%.",
+   "say": "By nineteen eighty-three, yearly inflation was down to three point two percent.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1973",
+      "what": "Oil shock"
+     },
+     {
+      "when": "1979",
+      "what": "Volcker runs Fed"
+     },
+     {
+      "when": "1980",
+      "what": "Rates hit 20%"
+     },
+     {
+      "when": "1982",
+      "what": "Jobless 10.8%"
+     },
+     {
+      "when": "1983",
+      "what": "Inflation 3.2%"
+     }
+    ],
+    "reveal": 5,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lesson central bankers took: inflation is easy to start and painful to stop.",
+   "say": "The lesson central bankers took: inflation is easy to start and painful to stop.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Inflation: easy to start,",
+     "painful to stop"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then came calm. From 2015 to 2020, yearly inflation stayed between 0.1% and 2.4%.",
+   "say": "Then came calm. From twenty fifteen to twenty twenty, yearly inflation stayed between zero point one and two point four percent.",
+   "scene": {
+    "t": "chart",
+    "title": "US inflation, 2015-25",
+    "points": [
+     [
+      2015,
+      0.1
+     ],
+     [
+      2016,
+      1.3
+     ],
+     [
+      2017,
+      2.1
+     ],
+     [
+      2018,
+      2.4
+     ],
+     [
+      2019,
+      1.8
+     ],
+     [
+      2020,
+      1.2
+     ],
+     [
+      2021,
+      4.7
+     ],
+     [
+      2022,
+      8.0
+     ],
+     [
+      2023,
+      4.1
+     ],
+     [
+      2024,
+      2.9
+     ],
+     [
+      2025,
+      2.6
+     ]
+    ],
+    "suffix": "%",
+    "end": "2.6%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it jumped: 4.7% in 2021 and 8% for 2022 as a whole.",
+   "say": "Then it jumped: four point seven percent in twenty twenty-one, and eight percent for twenty twenty-two as a whole.",
+   "scene": {
+    "t": "stat",
+    "label": "Inflation, 2022",
+    "value": "8%",
+    "tone": "down",
+    "sub": "2021 was 4.7%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The peak: 9.1% for the 12 months ending June 2022, the biggest jump since 1981.",
+   "say": "The peak was nine point one percent for the twelve months ending June twenty twenty-two, the biggest jump since nineteen eighty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Peak, June 2022",
+    "value": "9.1%",
+    "tone": "down",
+    "sub": "Biggest since 1981",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed raised the top of its range from 0.25% in March 2022 to 5.5% by July 2023.",
+   "say": "The Fed raised the top of its target range from a quarter percent in March twenty twenty-two to five and a half percent by July twenty twenty-three.",
+   "scene": {
+    "t": "compare",
+    "title": "Fed target, top of range",
+    "left": {
+     "label": "Mar 2022",
+     "value": "0.25%",
+     "tone": "neutral",
+     "sub": "Near zero"
+    },
+    "right": {
+     "label": "Jul 2023",
+     "value": "5.5%",
+     "tone": "up",
+     "sub": "16 months later"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inflation cooled to 2.9% in 2024 and 2.6% in 2025, still above the 2% goal.",
+   "say": "Inflation cooled to two point nine percent in twenty twenty-four and two point six in twenty twenty-five, still above the two percent goal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2024: 2.9%",
+     "2025: 2.6%  (goal: 2%)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then energy spiked again, and the 12-month rate hit 3.4% by August 2026.",
+   "say": "Then energy spiked again, and by August twenty twenty-six the twelve-month rate was back to three point four percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Aug 2026: 3.4%",
+     "over 12 months"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inflation even sets some raises. Social Security's COLA was 8.7% for 2023 and 2.8% for 2026.",
+   "say": "Inflation even sets some raises. Social Security's cost-of-living increase was eight point seven percent for twenty twenty-three, and two point eight percent for twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Social Security COLA",
+    "left": {
+     "label": "2023",
+     "value": "8.7%",
+     "tone": "up",
+     "sub": "After 2022 spike"
+    },
+    "right": {
+     "label": "2026",
+     "value": "2.8%",
+     "tone": "neutral",
+     "sub": "SSA, Oct 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: What it does to your money",
+   "say": "Chapter four: what it does to your money.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "What it does to your money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick tool: the rule of 72. Divide 72 by the inflation rate to get roughly how many years until prices double.",
+   "say": "Here's a quick tool: the rule of seventy-two. Divide seventy-two by the inflation rate, and you get roughly how many years until prices double.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rule of 72:",
+     "72 / rate = years to 2x"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 2%, that's 36 years. At 3%, it's 24 years.",
+   "say": "At two percent, that's thirty-six years. At three percent, it's twenty-four years.",
+   "scene": {
+    "t": "compare",
+    "title": "Years for prices to double",
+    "left": {
+     "label": "At 2%",
+     "value": "36 yrs",
+     "tone": "neutral",
+     "sub": "72 / 2"
+    },
+    "right": {
+     "label": "At 3%",
+     "value": "24 yrs",
+     "tone": "down",
+     "sub": "72 / 3"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 9.1%, it's under 8 years: 72 divided by 9.1 is about 7.9.",
+   "say": "And at nine point one percent, it's under eight years, because seventy-two divided by nine point one is about seven point nine.",
+   "scene": {
+    "t": "stat",
+    "label": "Doubling at 9.1%",
+    "value": "<8 yrs",
+    "tone": "down",
+    "sub": "72 / 9.1 = 7.9",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you have $10,000 in savings paying 0.38%, the FDIC's national average as of August 2026.",
+   "say": "Say you have ten thousand dollars in a savings account paying zero point three eight percent. That's the FDIC's national average as of August twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg savings rate",
+    "value": "0.38%",
+    "tone": "down",
+    "sub": "FDIC, Aug 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After a year, you'd have $10,038. Looks like a gain.",
+   "say": "After a year, you'd have ten thousand thirty-eight dollars. Looks like a gain.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$10,000 x 1.0038",
+     "= $10,038"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But prices rose 3.4% over 12 months. Divide by 1.034 and you get $9,707.93.",
+   "say": "But prices rose three point four percent over those twelve months. Divide by one point zero three four, and you get nine thousand seven hundred seven dollars and ninety-three cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$10,038 / 1.034",
+     "= $9,707.93"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So your $10,038 buys what about $9,708 bought a year earlier.",
+   "say": "So your ten thousand thirty-eight dollars buys what about nine thousand seven hundred eight dollars bought a year earlier.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Balance",
+     "value": "$10,038"
+    },
+    "to": {
+     "label": "Buying power",
+     "value": "$9,708"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At a hypothetical 4% instead: $10,400, about $10,058 in buying power. A $292 loss versus a $58 gain.",
+   "say": "At a hypothetical four percent instead, you'd have ten thousand four hundred, about ten thousand fifty-eight in buying power. A loss of about two hundred ninety-two dollars, versus a gain of about fifty-eight.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $10,000, 1 year",
+    "left": {
+     "label": "At 0.38%",
+     "value": "-$292",
+     "tone": "down",
+     "sub": "Buying power"
+    },
+    "right": {
+     "label": "At 4%",
+     "value": "+$58",
+     "tone": "up",
+     "sub": "Buying power"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same money, same year. The difference is whether the rate beats inflation.",
+   "say": "Same money, same year. The only difference is whether the rate beats inflation.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $10,000, 1 year",
+    "left": {
+     "label": "At 0.38%",
+     "value": "-$292",
+     "tone": "down",
+     "sub": "Buying power"
+    },
+    "right": {
+     "label": "At 4%",
+     "value": "+$58",
+     "tone": "up",
+     "sub": "Buying power"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shortcut: 0.38% minus 3.4% is a real return of about -3%.",
+   "say": "The shortcut: zero point three eight percent minus three point four is a real return of about minus three percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "0.38% - 3.4%",
+     "≈ -3% real return"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And inflation doesn't hit everyone the same way.",
+   "say": "And inflation doesn't hit everyone the same way.",
+   "scene": {
+    "t": "split",
+    "title": "Who feels it",
+    "left": {
+     "title": "Often hurt",
+     "items": [
+      "Cash savers",
+      "Fixed incomes"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Can benefit",
+     "items": [
+      "Fixed-rate loans",
+      "Debts paid later"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take a hypothetical fixed mortgage payment of $1,500. In year 10, it's still $1,500.",
+   "say": "Take a hypothetical fixed mortgage payment of fifteen hundred dollars a month. In year ten, it's still fifteen hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Fixed payment, example",
+    "left": {
+     "label": "Year 1",
+     "value": "$1,500",
+     "tone": "neutral",
+     "sub": "Monthly payment"
+    },
+    "right": {
+     "label": "Year 10",
+     "value": "$1,500",
+     "tone": "up",
+     "sub": "Same dollars"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If prices rise 3.4% a year for those 10 years, that $1,500 feels like about $1,074 in year-one dollars.",
+   "say": "If prices rose three point four percent a year for those ten years, that fifteen hundred would feel like about one thousand seventy-four in year-one dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,500 / 1.034^10",
+     "≈ $1,074 in year-1 $"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The flip side: variable-rate debt, like most credit cards, can get pricier when the Fed raises rates.",
+   "say": "The flip side is variable-rate debt, like most credit cards, which can get pricier when the Fed raises rates.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Variable-rate debt:",
+     "can rise with Fed hikes"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For workers, average hourly pay rose 3.1% in the year to August 2026, the slowest since May 2021, per Trading Economics.",
+   "say": "For workers, average hourly pay rose three point one percent in the year to August twenty twenty-six, the slowest since May twenty twenty-one, per Trading Economics.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg hourly pay",
+    "value": "+3.1%",
+    "tone": "neutral",
+    "sub": "BLS, to Aug 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Tools people use against it",
+   "say": "Chapter five: tools people use against it.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Tools people use against it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "These are tools people use, not recommendations. Every one has trade-offs.",
+   "say": "These are tools people use, not recommendations. Every one of them has trade-offs.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tools, not advice",
+     "Each has trade-offs"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool one: the rate on your cash. Bank rates vary a lot; many people compare theirs to the latest CPI, like 0.38% vs. 3.4%.",
+   "say": "Tool one is the simplest: the rate on your cash. Bank rates vary a lot, and many people compare theirs to the latest CPI, like that zero point three eight versus three point four.",
+   "scene": {
+    "t": "list",
+    "title": "Common tools",
+    "items": [
+     "Savings rates",
+     "I bonds",
+     "TIPS",
+     "Fixed-rate debt"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool two: Series I savings bonds, sold by the US Treasury at TreasuryDirect.",
+   "say": "Tool two is Series I savings bonds, sold by the US Treasury at TreasuryDirect.",
+   "scene": {
+    "t": "list",
+    "title": "Common tools",
+    "items": [
+     "Savings rates",
+     "I bonds",
+     "TIPS",
+     "Fixed-rate debt"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An I bond's rate has two parts: a fixed rate that never changes, and an inflation rate that resets every six months.",
+   "say": "An I bond's rate has two parts: a fixed rate that never changes, and an inflation rate that resets every six months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rate = fixed part",
+     "+ inflation part"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For I bonds bought May through October 2026, the combined rate was 4.26%.",
+   "say": "For I bonds bought from May through October twenty twenty-six, the combined rate was four point two six percent.",
+   "scene": {
+    "t": "stat",
+    "label": "I bond rate",
+    "value": "4.26%",
+    "tone": "up",
+    "sub": "May-Oct 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a 0.90% fixed rate plus 3.34% annualized inflation, plus a tiny bit from combining them.",
+   "say": "That's a zero point nine percent fixed rate, plus three point three four percent annualized inflation, plus a tiny bit from combining the two.",
+   "scene": {
+    "t": "compare",
+    "title": "I bond, May-Oct 2026",
+    "left": {
+     "label": "Fixed",
+     "value": "0.90%",
+     "tone": "neutral",
+     "sub": "For bond's life"
+    },
+    "right": {
+     "label": "Inflation",
+     "value": "3.34%",
+     "tone": "up",
+     "sub": "Annualized, CPI-U"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Treasury sets new rates every May 1 and November 1, so bonds bought from November 2026 to April 2027 get a different rate.",
+   "say": "Treasury sets new rates every May first and November first, so bonds bought from November twenty twenty-six through April twenty twenty-seven get a different rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New rates: May 1",
+     "and November 1"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rules: up to $10,000 a year per person, no cashing out in year one, and cashing out before 5 years costs 3 months of interest.",
+   "say": "The rules: up to ten thousand dollars a year per person, no cashing out in the first year, and cashing out before five years costs three months of interest.",
+   "scene": {
+    "t": "list",
+    "title": "I bond rules",
+    "items": [
+     "$10,000 a year",
+     "Locked 1 year",
+     "<5y: lose 3 mo."
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool three: TIPS, Treasury Inflation-Protected Securities, in 5, 10 and 30-year terms.",
+   "say": "Tool three is TIPS, Treasury Inflation-Protected Securities, in five, ten and thirty-year terms.",
+   "scene": {
+    "t": "list",
+    "title": "Common tools",
+    "items": [
+     "Savings rates",
+     "I bonds",
+     "TIPS",
+     "Fixed-rate debt"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With TIPS, the principal rises with the CPI, and a fixed interest rate is paid on that bigger principal every six months.",
+   "say": "With TIPS, the principal itself rises with the CPI, and a fixed interest rate gets paid on that bigger principal every six months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Principal tracks CPI",
+     "Interest paid on it"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: $10,000 of TIPS, and prices rise 3% in a year. The principal becomes $10,300.",
+   "say": "Hypothetically, say you hold ten thousand dollars of TIPS, and prices rise three percent in a year. The principal becomes ten thousand three hundred.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Principal",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "After 3% CPI",
+     "value": "$10,300"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At a hypothetical 2% rate, a year of interest is $206 instead of $200.",
+   "say": "At a hypothetical two percent rate, a year of interest is two hundred six dollars instead of two hundred.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2% x $10,300",
+     "= $206 a year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hold to maturity and you get the greater of the adjusted or original principal. Sell early and the price can be lower.",
+   "say": "Hold to maturity, and you get the greater of the adjusted or the original principal. Sell early, and the market price can be lower.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "At maturity: the greater",
+     "of adjusted or original"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Key difference: I bonds have a yearly cap and can't be resold. TIPS trade in the market, so prices move.",
+   "say": "The key difference: I bonds have that yearly cap and can't be resold, while TIPS trade in the market, so their prices move.",
+   "scene": {
+    "t": "split",
+    "title": "Two Treasury tools",
+    "left": {
+     "title": "I bonds",
+     "items": [
+      "$10,000/yr cap",
+      "Not tradable"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "TIPS",
+     "items": [
+      "Trade daily",
+      "Price can drop"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tool four is on the debt side: a fixed-rate loan locks the payment while prices rise, like that mortgage example.",
+   "say": "Tool four is on the debt side. A fixed-rate loan locks the payment while prices rise, like that mortgage example.",
+   "scene": {
+    "t": "list",
+    "title": "Common tools",
+    "items": [
+     "Savings rates",
+     "I bonds",
+     "TIPS",
+     "Fixed-rate debt"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some income adjusts on its own. Social Security's COLA compares July-September CPI-W with a year earlier.",
+   "say": "Some income adjusts on its own. Social Security's cost-of-living raise compares the July through September C P I W with a year earlier.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "COLA = Jul-Sep CPI-W",
+     "vs. a year earlier"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2027 COLA was announced in October 2026 and first shows up in January 2027 checks.",
+   "say": "The twenty twenty-seven raise was announced in October twenty twenty-six, and it first shows up in January twenty twenty-seven checks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2027 COLA: set Oct 2026",
+     "Paid from Jan 2027"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Others hold long-term assets like stocks or real estate, which can rise with prices over long stretches but can also fall hard.",
+   "say": "Others hold long-term assets like stocks or real estate, which can rise with prices over long stretches but can also fall hard.",
+   "scene": {
+    "t": "split",
+    "title": "Long-term assets",
+    "left": {
+     "title": "Upside",
+     "items": [
+      "Can grow",
+      "Long stretches"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Downside",
+     "items": [
+      "Can fall hard",
+      "No guarantees"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The recap",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inflation means each dollar buys less. The CPI tracks it monthly, and the Fed aims for 2%.",
+   "say": "Inflation means each dollar buys less. The CPI tracks it every month, and the Fed aims for two percent.",
+   "scene": {
+    "t": "list",
+    "title": "Remember",
+    "items": [
+     "Each $ buys less",
+     "4 causes",
+     "Real = minus CPI",
+     "Know the tools"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It comes from too much demand, higher costs, faster money growth and expectations.",
+   "say": "It comes from too much demand, higher costs, faster money growth and expectations.",
+   "scene": {
+    "t": "list",
+    "title": "Remember",
+    "items": [
+     "Each $ buys less",
+     "4 causes",
+     "Real = minus CPI",
+     "Know the tools"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What matters is the real number: your raise or your interest rate, minus inflation.",
+   "say": "What matters is the real number: your raise or your interest rate, minus inflation.",
+   "scene": {
+    "t": "list",
+    "title": "Remember",
+    "items": [
+     "Each $ buys less",
+     "4 causes",
+     "Real = minus CPI",
+     "Know the tools"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Savings rates, I bonds, TIPS and fixed-rate debt each handle it differently, with trade-offs.",
+   "say": "And savings rates, I bonds, TIPS and fixed-rate debt each handle it differently, with their own trade-offs.",
+   "scene": {
+    "t": "list",
+    "title": "Remember",
+    "items": [
+     "Each $ buys less",
+     "4 causes",
+     "Real = minus CPI",
+     "Know the tools"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember where we started: pay up 3.1%, prices up 3.4%.",
+   "say": "Remember where we started: pay up three point one percent, prices up three point four.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay 3.1%, prices [3.4%]",
+    "prop": "bill",
+    "label": "PAY",
+    "value": "-0.3%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A raise isn't really a raise until it beats inflation.",
+   "say": "A raise isn't really a raise until it beats inflation.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A raise isn't a raise",
+     "until it beats inflation"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for more money explained from zero.",
+   "say": "If this helped, subscribe for more money, explained from zero.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Now you know where it goes."
+   }
+  }
+ ],
+ "post": {
+  "title": "Paychecks rose 3.1%. Prices rose 3.4%. Inflation explained, from the 1970s to I bonds.",
+  "ig": "Paychecks rose 3.1%. Prices rose 3.4%. Where inflation comes from and the tools people use against it.",
+  "tiktok": "Pay up 3.1%, prices up 3.4% (year to Aug 2026). Where inflation comes from and how I bonds and TIPS work.",
+  "yt_desc": "In the year to August 2026, average hourly pay rose 3.1% while consumer prices rose 3.4%, so real hourly pay fell 0.3%. This video explains inflation from zero: how the BLS measures it with the CPI, why the Fed aims for 2%, the four big causes (demand, costs, money and expectations), and 50 years of history from the 1970s and Paul Volcker to the 9.1% peak in June 2022 and the Fed's September 2026 hike. It works through a hypothetical $10,000 savings example with exact math, the rule of 72, and how I bonds, TIPS, fixed-rate debt and Social Security's COLA handle inflation.\n\nCHAPTERS\n\nSources: BLS Consumer Price Index and Real Earnings releases for August 2026 (Sep 11, 2026) and June 2022 (Jul 13, 2022); BLS CPI-U annual averages; Federal Reserve, Statement on Longer-Run Goals (Jan 2012); Federal Reserve History, Volcker's anti-inflation measures; Reuters and Trading Economics (Sep 2026); Atlanta Fed (May 2021) on M2; TreasuryDirect I bond rate release (May 1, 2026) and TIPS page; SSA COLA announcement (Oct 2025); FDIC national rates (Aug 2026); Milton Friedman (1963).\n\nNews and education, not financial advice.\n\n#inflation #personalfinance #ibonds",
+  "tags": [
+   "inflation explained",
+   "what causes inflation",
+   "CPI explained",
+   "I bonds",
+   "TIPS",
+   "rule of 72",
+   "real vs nominal",
+   "Federal Reserve rates"
+  ]
+ }
+}
