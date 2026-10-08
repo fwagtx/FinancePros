@@ -1,0 +1,162 @@
+{
+  "series": "ticker",
+  "header": "Who pays for\nthe Fed?",
+  "cover": {
+    "title": "Do Taxes Fund the Fed?",
+    "prop": "bill",
+    "label": "TAX",
+    "value": "MYTH"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Your taxes don't pay for the Federal Reserve.",
+      "say": "Your taxes don't pay for the Federal Reserve.",
+      "scene": {
+        "t": "hook",
+        "title": "Taxes fund the [Fed]?",
+        "prop": "bill",
+        "label": "TAX",
+        "value": "MYTH",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Congress gives it no budget, so where does its money come from?",
+      "say": "Congress gives it no budget, so where does its money come from?",
+      "scene": {
+        "t": "building",
+        "kind": "fed",
+        "label": "No budget",
+        "caption": "Not funded by Congress",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Mostly interest on the bonds it owns, plus fees banks pay for services like payments.",
+      "say": "Mostly interest on the bonds it owns, plus fees banks pay for services like payments.",
+      "scene": {
+        "t": "list",
+        "title": "Where Fed money comes from",
+        "items": [
+          "Bond interest",
+          "Bank fees"
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "After costs, it sends the leftover profit to the Treasury: $107.4 billion in 2021.",
+      "say": "After costs, it sends the leftover profit to the Treasury: one hundred seven point four billion dollars in twenty twenty-one.",
+      "scene": {
+        "t": "stat",
+        "label": "Sent to Treasury",
+        "value": "$107.4B",
+        "tone": "up",
+        "sub": "2021, Fed",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Then rates jumped. In 2025 it earned about $155 billion in interest, but paid out about $167 billion.",
+      "say": "Then rates jumped. In twenty twenty-five it earned about one hundred fifty-five billion in interest, but paid out about one hundred sixty-seven billion.",
+      "scene": {
+        "t": "compare",
+        "title": "Fed interest, 2025",
+        "left": {
+          "label": "Earned",
+          "value": "$155B",
+          "tone": "up",
+          "sub": "on its bonds"
+        },
+        "right": {
+          "label": "Paid out",
+          "value": "$167B",
+          "tone": "down",
+          "sub": "mostly to banks"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Taxpayers didn't cover that; the Fed books it as a deferred asset, a tab paid from future profits.",
+      "say": "Taxpayers didn't cover that; the Fed books it as a deferred asset, a tab paid from future profits.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Loss = deferred asset",
+          "Paid from future profit",
+          "No tax bill"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "As of September 30, 2026, that tab is about $233 billion.",
+      "say": "As of September thirtieth, twenty twenty-six, that tab is about two hundred thirty-three billion dollars.",
+      "scene": {
+        "t": "stat",
+        "label": "Deferred asset",
+        "value": "$233B",
+        "tone": "down",
+        "sub": "Sep 30, 2026 H.4.1",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Until it's paid off, most of the Fed sends the Treasury nothing: missing checks, not a tax bill.",
+      "say": "Until it's paid off, most of the Fed sends the Treasury nothing: missing checks, not a tax bill.",
+      "scene": {
+        "t": "split",
+        "title": "Myth vs fact",
+        "left": {
+          "title": "Myth",
+          "items": [
+            "Taxes fund it",
+            "You get billed"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Fact",
+          "items": [
+            "Bond interest",
+            "Fewer checks"
+          ],
+          "tone": "up"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "mood": "happy"
+      }
+    }
+  ],
+  "post": {
+    "title": "Do your taxes fund the Federal Reserve? Not quite.",
+    "ig": "Your taxes don't pay for the Federal Reserve.\nCongress doesn't fund it. Its income comes mainly from interest on the bonds it holds, plus fees for services to banks.\nAfter costs, it sends leftover profit to the Treasury: $107.4 billion in 2021.\nIn 2025 it earned $155.3 billion in interest but paid out $167.4 billion. Losses are booked as a deferred asset, about $233 billion as of Sept 30, 2026, repaid from future profits before most remittances resume.\nSources: Federal Reserve (2021 results, 2025 financial statements, H.4.1 Oct 1, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#federalreserve #moneymyths #economics #personalfinance #financeprostv",
+    "tiktok": "Your taxes don't pay for the Fed. So who does? Not financial advice. #moneytok #personalfinance #federalreserve #moneymyths #financeprostv",
+    "yt_desc": "Is the Federal Reserve funded by taxpayers? No: it earns interest on the bonds it holds and fees for bank services, and sent $107.4 billion in profit to the Treasury in 2021. Since late 2022 its interest costs have topped its income, and it books losses as a deferred asset, about $233 billion as of Sept 30, 2026 (Fed H.4.1), repaid from future profits. News and education, not financial advice.\n#Shorts #federalreserve #economics",
+    "tags": [
+      "federal reserve funding",
+      "fed deferred asset",
+      "fed remittances",
+      "money myths",
+      "federal reserve explained"
+    ]
+  }
+}
