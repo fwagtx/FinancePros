@@ -1,190 +1,190 @@
 {
- "series": "ticker",
- "header": "How Market Makers\nMake Money",
- "cover": {
-  "title": "$8.6M a Day on Pennies?",
-  "prop": "coins",
-  "label": "Virtu",
-  "value": "$8.6M"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "This firm netted $8.6 million a day on pennies.",
-   "say": "This firm netted eight point six million dollars a day on pennies.",
-   "scene": {
-    "t": "hook",
-    "title": "[$8.6M] a day",
+  "series": "ticker",
+  "header": "How Market Makers\nMake Money",
+  "cover": {
+    "title": "$8.6M a Day on Pennies?",
     "prop": "coins",
     "label": "Virtu",
-    "value": "$8.6M",
-    "mood": "shock"
-   }
+    "value": "$8.6M"
   },
-  {
-   "who": "ticker",
-   "text": "That's Virtu Financial in 2025. Its IPO filing showed 1 losing day in 1,238.",
-   "say": "That's Virtu Financial in twenty twenty-five. Its IPO filing showed one losing day in twelve hundred thirty-eight.",
-   "scene": {
-    "t": "stat",
-    "label": "Virtu losing days",
-    "value": "1",
-    "tone": "up",
-    "sub": "of 1,238, 2009-13",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Every stock has two prices. Say they buy at $100.00 and sell at $100.01.",
-   "say": "Every stock has two prices. Say they buy at one hundred dollars and sell at one hundred dollars and one cent.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Bid $100.00: they buy",
-     "Ask $100.01: they sell",
-     "Spread: 1¢ (example)"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "On 1 million shares, that 1¢ is $10,000.",
-   "say": "On a million shares, that penny is ten thousand dollars.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "1M shares x 1¢ spread",
-     "value": "1¢"
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "This firm took in $8.6 million a day on pennies.",
+      "say": "This firm took in eight point six million a day on pennies.",
+      "scene": {
+        "t": "hook",
+        "title": "[$8.6M] a day",
+        "prop": "coins",
+        "label": "Virtu",
+        "value": "$8.6M",
+        "mood": "shock"
+      }
     },
-    "to": {
-     "label": "captured (example)",
-     "value": "$10,000"
+    {
+      "who": "ticker",
+      "text": "That's Virtu Financial in 2025. Its IPO filing showed 1 losing day in 1,238.",
+      "say": "That's Virtu Financial in twenty twenty-five. Its IPO filing showed one losing day in twelve hundred thirty-eight.",
+      "scene": {
+        "t": "stat",
+        "label": "Virtu losing days",
+        "value": "1",
+        "tone": "up",
+        "sub": "of 1,238, 2009-13",
+        "mood": "think"
+      }
     },
-    "mood": "up"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "If the price slips 1¢ while they hold them, it's gone. That's inventory risk.",
-   "say": "But if the price slips a penny while they hold them, it's gone. That's inventory risk.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Inventory risk:",
-     "Price drops 1¢ = -$10,000"
-    ],
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Virtu's net trading income: $1.2B in 2023, $2.1B in 2025.",
-   "say": "So income swings: one point two billion in twenty twenty-three, two point one billion in twenty twenty-five.",
-   "scene": {
-    "t": "chart",
-    "title": "Virtu net trading income",
-    "points": [
-     [
-      2021,
-      1.91
-     ],
-     [
-      2022,
-      1.468
-     ],
-     [
-      2023,
-      1.211
-     ],
-     [
-      2024,
-      1.598
-     ],
-     [
-      2025,
-      2.145
-     ]
-    ],
-    "prefix": "$",
-    "suffix": "B",
-    "end": "$2.1B",
-    "color": "up"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Market makers also pay brokers for orders: about $4.4B in 2025, per Moody's.",
-   "say": "Market makers also pay brokers for orders, about four point four billion dollars in twenty twenty-five, per Moody's.",
-   "scene": {
-    "t": "stat",
-    "label": "Order-flow payments",
-    "value": "$4.4B",
-    "tone": "neutral",
-    "sub": "2025, per Moody's",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Critics call that a conflict of interest. Supporters say it funds $0-commission trading.",
-   "say": "Critics call that a conflict of interest. Supporters say it funds zero-commission trading.",
-   "scene": {
-    "t": "split",
-    "title": "Paying for orders",
-    "left": {
-     "title": "Critics",
-     "items": [
-      "Conflict risk",
-      "Paid routing"
-     ],
-     "tone": "neutral"
+    {
+      "who": "ticker",
+      "text": "Every stock has two prices. Say they buy at $100.00 and sell at $100.01.",
+      "say": "Every stock has two prices. Say they buy at one hundred dollars and sell at one hundred dollars and one cent.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Bid $100.00: they buy",
+          "Ask $100.01: they sell",
+          "Spread: 1¢ (example)"
+        ]
+      }
     },
-    "right": {
-     "title": "Supporters",
-     "items": [
-      "$0 commissions",
-      "Better prices"
-     ],
-     "tone": "neutral"
+    {
+      "who": "ticker",
+      "text": "On 1 million shares, that 1¢ is $10,000.",
+      "say": "On a million shares, that penny is ten thousand dollars.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "1M shares x 1¢ spread",
+          "value": "1¢"
+        },
+        "to": {
+          "label": "captured (example)",
+          "value": "$10,000"
+        },
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "If the price slips 1¢ while they hold them, it's gone. That's inventory risk.",
+      "say": "But if the price slips a penny while they hold them, it's gone. That's inventory risk.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Inventory risk:",
+          "Price drops 1¢ = -$10,000"
+        ],
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Virtu's adjusted net trading income: $1.2B in 2023, $2.1B in 2025.",
+      "say": "So income swings: one point two billion in twenty twenty-three, two point one billion in twenty twenty-five.",
+      "scene": {
+        "t": "chart",
+        "title": "Virtu adj. trading income",
+        "points": [
+          [
+            2021,
+            1.91
+          ],
+          [
+            2022,
+            1.468
+          ],
+          [
+            2023,
+            1.211
+          ],
+          [
+            2024,
+            1.598
+          ],
+          [
+            2025,
+            2.145
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$2.1B",
+        "color": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Market makers pay brokers for orders: about $4.4B at 14 big brokers in 2025, per Moody's.",
+      "say": "Market makers pay brokers for orders, about four point four billion at fourteen big brokers in twenty twenty-five, per Moody's.",
+      "scene": {
+        "t": "stat",
+        "label": "Order-flow payments",
+        "value": "$4.4B",
+        "tone": "neutral",
+        "sub": "14 brokers, 2025",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Critics call that a conflict of interest. Supporters say it funds $0-commission trading.",
+      "say": "Critics call that a conflict of interest. Supporters say it funds zero-commission trading.",
+      "scene": {
+        "t": "split",
+        "title": "Paying for orders",
+        "left": {
+          "title": "Critics",
+          "items": [
+            "Conflict risk",
+            "Paid routing"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "Supporters",
+          "items": [
+            "$0 commissions",
+            "Better prices"
+          ],
+          "tone": "neutral"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Tiny spread, huge volume, real risk.",
+      "say": "Tiny spread, huge volume, real risk.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Tiny spread",
+          "x huge volume",
+          "- inventory risk"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "tagline": "How They Make Money"
+      }
     }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Tiny spread, huge volume, real risk.",
-   "say": "Tiny spread, huge volume, real risk.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Tiny spread",
-     "x huge volume",
-     "- inventory risk"
-    ],
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
-   "scene": {
-    "t": "cta",
-    "tagline": "How They Make Money"
-   }
+  ],
+  "post": {
+    "title": "This firm took in $8.6 million a day on pennies",
+    "ig": "This firm took in $8.6 million a day on pennies.\nVirtu Financial averaged $8.6M a day in adjusted net trading income in 2025 ($2.1B for the year, FY2025 10-K).\nMarket makers earn the bid-ask spread: in an example, buying at $100.00 and selling at $100.01 on 1 million shares captures $10,000, unless the price moves first (inventory risk).\nBrokers received about $4.4B in payment for order flow in 2025, per Moody's analysis of 14 brokers. Critics see a conflict; supporters say it funds $0 commissions.\nSources: Virtu FY2025 10-K and 2014 IPO filing, Moody's (via Investment Executive).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#marketmakers #stockmarket #paymentfororderflow #howtheymakemoney #financeprostv",
+    "tiktok": "$8.6M a day on pennies: how market makers earn the spread. Not financial advice. #moneytok #personalfinance #stockmarket #financeprostv",
+    "yt_desc": "Market makers like Virtu Financial earn the gap between the bid and ask price at huge volume: Virtu averaged $8.6 million a day in adjusted net trading income in 2025 (FY2025 10-K). They also pay brokers for order flow, about $4.4 billion across 14 large brokers in 2025 per Moody's, and carry inventory risk when prices move. Sources: Virtu FY2025 10-K and 2014 IPO filing, Moody's via Investment Executive. News and education, not financial advice. #Shorts #stockmarket #investing",
+    "tags": [
+      "how market makers make money",
+      "bid ask spread",
+      "payment for order flow",
+      "Virtu Financial",
+      "market maker explained"
+    ]
   }
- ],
- "post": {
-  "title": "This firm netted $8.6 million a day on pennies",
-  "ig": "This firm netted $8.6 million a day on pennies.\nVirtu Financial averaged $8.6M a day in adjusted net trading income in 2025 ($2.1B for the year, FY2025 10-K).\nMarket makers earn the bid-ask spread: in an example, buying at $100.00 and selling at $100.01 on 1 million shares captures $10,000, unless the price moves first (inventory risk).\nBrokers received about $4.4B in payment for order flow in 2025, per Moody's analysis of 14 brokers. Critics see a conflict; supporters say it funds $0 commissions.\nSources: Virtu FY2025 10-K and 2014 IPO filing, Moody's (via Investment Executive).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#marketmakers #stockmarket #paymentfororderflow #howtheymakemoney #financeprostv",
-  "tiktok": "$8.6M a day on pennies: how market makers earn the spread. Not financial advice. #moneytok #personalfinance #stockmarket #financeprostv",
-  "yt_desc": "Market makers like Virtu Financial earn the gap between the bid and ask price at huge volume: Virtu averaged $8.6 million a day in adjusted net trading income in 2025 (FY2025 10-K). They also pay brokers for order flow, about $4.4 billion in 2025 per Moody's, and carry inventory risk when prices move. Sources: Virtu FY2025 10-K and 2014 IPO filing, Moody's via Investment Executive. News and education, not financial advice. #Shorts #stockmarket #investing",
-  "tags": [
-   "how market makers make money",
-   "bid ask spread",
-   "payment for order flow",
-   "Virtu Financial",
-   "market maker explained"
-  ]
- }
 }
