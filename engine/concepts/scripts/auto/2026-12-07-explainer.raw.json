@@ -1,0 +1,179 @@
+{
+  "series": "ticker",
+  "header": "Present bias:\nfuture you pays",
+  "cover": {
+    "title": "Why Future You Pays",
+    "prop": "bill",
+    "label": "$15",
+    "value": "345%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Waiting one month? People demanded a 345% yearly rate.",
+      "say": "Waiting one month? People demanded a three hundred forty-five percent yearly rate.",
+      "scene": {
+        "t": "hook",
+        "title": "Wait a [Month]?",
+        "prop": "bill",
+        "label": "$15",
+        "value": "345%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Richard Thaler's 1981 survey: the median person wanted $20 next month over $15 now.",
+      "say": "Richard Thaler's nineteen eighty-one survey: the median person wanted twenty dollars next month over fifteen now.",
+      "scene": {
+        "t": "compare",
+        "title": "Thaler survey, 1981",
+        "left": {
+          "label": "Now",
+          "value": "$15",
+          "tone": "neutral",
+          "sub": "given up"
+        },
+        "right": {
+          "label": "In 1 month",
+          "value": "$20",
+          "tone": "up",
+          "sub": "median ask"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Stretch the wait to 10 years, and the implied rate drops to about 19% a year.",
+      "say": "Stretch the wait to ten years, and the implied rate drops to about nineteen percent.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "1 month: 345% a year",
+          "10 years: about 19%",
+          "Now gets a markup"
+        ],
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's present bias. Economist David Laibson modeled it: now gets full value, later gets an extra discount.",
+      "say": "That's present bias. Economist David Laibson modeled it: now gets full value, later gets an extra discount.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Present bias",
+          "Now: full value",
+          "Later: extra discount"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So today-you takes the fun, and future-you inherits the bill.",
+      "say": "So today-you takes the fun, and future-you inherits the bill.",
+      "scene": {
+        "t": "split",
+        "title": "Who pays?",
+        "left": {
+          "title": "Today you",
+          "items": [
+            "Spends now",
+            "Fun first"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Future you",
+          "items": [
+            "Gets the bill",
+            "Saves later"
+          ],
+          "tone": "down"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Hershfield et al., 2011: people shown their own aged faces put ~2x as much of a hypothetical $1,000 toward retirement.",
+      "say": "In a twenty eleven study, people shown their own aged faces put about twice as much of a pretend thousand dollars toward retirement.",
+      "scene": {
+        "t": "stat",
+        "label": "Aged-photo group saved",
+        "value": "~2x",
+        "tone": "up",
+        "sub": "Hershfield, 2011"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Save More Tomorrow pledges future raises. At one company, joiners went from 3.5% to 13.6% saved in 40 months (Thaler & Benartzi, 2004).",
+      "say": "Save More Tomorrow pledges future raises. At one company, joiners went from three point five to thirteen point six percent saved in forty months.",
+      "scene": {
+        "t": "chart",
+        "title": "SMarT joiners, % saved",
+        "points": [
+          [
+            0,
+            3.5
+          ],
+          [
+            14,
+            9.4
+          ],
+          [
+            28,
+            11.6
+          ],
+          [
+            40,
+            13.6
+          ]
+        ],
+        "suffix": "%",
+        "end": "13.6%",
+        "color": "up",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Both work with the bias: future you feels real, or the cost lands later.",
+      "say": "Both work with the bias: future you feels real, or the cost lands later.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Make future you real",
+          "Make the cost land later"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "tagline": "Education, not advice"
+      }
+    }
+  ],
+  "post": {
+    "title": "Waiting one month? People demanded a 345% yearly rate",
+    "ig": "Waiting one month? People demanded a 345% yearly rate.\n\nIn Richard Thaler's 1981 survey, the median person wanted $20 in a month to give up $15 now. Over 10 years, the implied rate fell to about 19% a year.\nThat's present bias: \"now\" gets full value, everything later gets an extra discount (David Laibson, 1997).\nIn a 2011 study (Hershfield et al.), people shown an aged photo of themselves put about twice as much of a hypothetical $1,000 toward retirement.\nWith Save More Tomorrow, joiners at one company went from saving 3.5% to 13.6% of pay in 40 months (Thaler & Benartzi, 2004).\n\nSources: Thaler, Economics Letters 1981; Laibson, QJE 1997; Hershfield et al., JMR 2011; Thaler & Benartzi, JPE 2004.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#presentbias #behavioraleconomics #saving #personalfinance #financeprostv",
+    "tiktok": "Why future you always gets the bill: present bias, explained. Not financial advice. #moneytok #personalfinance #presentbias #financeprostv",
+    "yt_desc": "In Richard Thaler's 1981 survey, the median person wanted $20 in a month to give up $15 now, an implied 345% yearly rate that fell to about 19% over 10 years. That's present bias, modeled by David Laibson (1997); aged-photo studies (Hershfield et al., 2011) and Save More Tomorrow (Thaler & Benartzi, 2004, 3.5% to 13.6% saved in 40 months) work with it. News and education, not financial advice.\n#Shorts #behavioraleconomics #saving",
+    "tags": [
+      "present bias",
+      "hyperbolic discounting",
+      "save more tomorrow",
+      "behavioral economics",
+      "future self"
+    ]
+  }
+}
