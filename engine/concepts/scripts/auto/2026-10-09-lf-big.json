@@ -1,0 +1,1553 @@
+{
+ "id": "2026-10-09-lf-big",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "Is the AI boom wobbling?\nOpenAI's $20B gap, explained",
+ "cover": {
+  "title": "Is the AI Boom Wobbling?",
+  "prop": "chart-down",
+  "label": "OpenAI",
+  "value": "-$20B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A $20 billion gap shook the AI boom.",
+   "say": "A twenty billion dollar gap shook the A I boom.",
+   "scene": {
+    "t": "hook",
+    "title": "A [$20B] gap",
+    "prop": "chart-down",
+    "label": "OpenAI",
+    "value": "-$20B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Oct 8, 2026, the FT reported OpenAI told investors its yearly sales pace was about $50B.",
+   "say": "On October eighth, the Financial Times reported that OpenAI told investors its yearly sales pace was about fifty billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "OpenAI yearly sales pace",
+    "left": {
+     "label": "Widely reported",
+     "value": "~$70B",
+     "tone": "neutral",
+     "sub": "Sept 2026 reports"
+    },
+    "right": {
+     "label": "Told investors",
+     "value": "~$50B",
+     "tone": "down",
+     "sub": "End Sept, per FT"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The number going around had been roughly $70B.",
+   "say": "The number going around had been roughly seventy billion.",
+   "scene": {
+    "t": "compare",
+    "title": "OpenAI yearly sales pace",
+    "left": {
+     "label": "Widely reported",
+     "value": "~$70B",
+     "tone": "neutral",
+     "sub": "Sept 2026 reports"
+    },
+    "right": {
+     "label": "Told investors",
+     "value": "~$50B",
+     "tone": "down",
+     "sub": "End Sept, per FT"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That same day, the Nasdaq fell 1.25%, its worst day since mid-August (CNN).",
+   "say": "That same day, the Nasdaq fell one and a quarter percent, its worst day since mid-August, CNN reported.",
+   "scene": {
+    "t": "stat",
+    "label": "Nasdaq, Oct 8, 2026",
+    "value": "-1.25%",
+    "tone": "down",
+    "sub": "Worst since Aug",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chipmakers took the biggest hit: the Philadelphia chip index fell 3.4%.",
+   "say": "Chipmakers took the biggest hit. The Philadelphia semiconductor index dropped three point four percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Chip stocks slide on OpenAI report",
+    "source": "CNN and CNBC, Oct 8, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And just two days earlier, on Oct 6, the Nasdaq had closed at a record, about 27,600.",
+   "say": "And only two days earlier, on October sixth, the Nasdaq had closed at a record, about twenty-seven thousand six hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Nasdaq Composite close",
+    "left": {
+     "label": "Oct 6, 2026",
+     "value": "27,600",
+     "tone": "up",
+     "sub": "record close"
+    },
+    "right": {
+     "label": "Oct 8, 2026",
+     "value": "27,193",
+     "tone": "down",
+     "sub": "after the report"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So is the AI boom wobbling? Or did somebody just count differently?",
+   "say": "So is the A I boom wobbling? Or did somebody simply count differently?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Is the AI boom wobbling?",
+     "Or just counted",
+     "differently?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The gap reportedly comes down mostly to counting. But the selloff shows how much money rides on AI, including in your 401(k).",
+   "say": "The gap reportedly comes down mostly to counting. But the selloff shows how much money now rides on A I, including in your four oh one K.",
+   "scene": {
+    "t": "hook",
+    "title": "AI is in your [401(k)]",
+    "prop": "pot",
+    "label": "401(k)",
+    "value": "21%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Coming up: the $20B gap, the $725B bet, lessons from 2000, and your 401(k).",
+   "say": "Coming up: the twenty billion dollar gap, the seven hundred twenty-five billion dollar bet, the lessons of two thousand, and your four oh one K.",
+   "scene": {
+    "t": "list",
+    "title": "Coming up",
+    "items": [
+     "The $20B gap",
+     "The $725B bet",
+     "Lessons of 2000",
+     "Your 401(k)"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: The $20 billion gap.",
+   "say": "Let's start with that twenty billion dollar gap.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The $20 billion gap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "OpenAI is private, so it doesn't publish audited results. It gives investors a run-rate.",
+   "say": "OpenAI is a private company, so it doesn't publish audited results. What it gives investors is a run-rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Run-rate =",
+     "recent sales x 12 months",
+     "a snapshot, not a year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A run-rate takes recent sales and multiplies them out to a full year.",
+   "say": "A run-rate takes recent sales and multiplies them out to a full year, as if every month looked like the latest one.",
+   "scene": {
+    "t": "hook",
+    "title": "Run-rate = [snapshot]",
+    "prop": "chart-up",
+    "label": "x12",
+    "value": "x12",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a lemonade stand sells $100 in its best month. Times 12, that's a $1,200 run-rate.",
+   "say": "Here's a made-up example. A lemonade stand sells a hundred dollars in its best month. Times twelve, that's a twelve hundred dollar run-rate.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Best month, example",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Run-rate, x 12",
+     "value": "$1,200"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But if most months were slow, it might sell only $400 all year.",
+   "say": "But if most months were slow, the stand might sell only four hundred dollars all year.",
+   "scene": {
+    "t": "stat",
+    "label": "Example stand, full year",
+    "value": "$400",
+    "tone": "down",
+    "sub": "Hypothetical"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A run-rate is a snapshot of a good moment, not cash in the bank.",
+   "say": "So a run-rate is a snapshot of a good moment, not cash in the bank.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Run-rate: a snapshot",
+     "Not cash in the bank"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "OpenAI shows the same kind of gap. Its run-rate at the end of Sept was about $50B.",
+   "say": "OpenAI shows the same kind of gap. Its run-rate at the end of September was about fifty billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "OpenAI: two numbers",
+    "left": {
+     "label": "Run-rate, end Sept",
+     "value": "~$50B",
+     "tone": "neutral",
+     "sub": "per FT, Oct 8"
+    },
+    "right": {
+     "label": "2026 revenue plan",
+     "value": "$36B",
+     "tone": "neutral",
+     "sub": "per FT, Sept 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But its own forecast for all of 2026 revenue was $36B, the FT reported in Sept 2026.",
+   "say": "But its own forecast for all of twenty twenty-six revenue was thirty-six billion, the Financial Times reported in September.",
+   "scene": {
+    "t": "compare",
+    "title": "OpenAI: two numbers",
+    "left": {
+     "label": "Run-rate, end Sept",
+     "value": "~$50B",
+     "tone": "neutral",
+     "sub": "per FT, Oct 8"
+    },
+    "right": {
+     "label": "2026 revenue plan",
+     "value": "$36B",
+     "tone": "neutral",
+     "sub": "per FT, Sept 2026"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the $20B gap. A lot of AI is sold through cloud partners like Amazon and Google.",
+   "say": "Now, the twenty billion dollar gap. A lot of A I is sold through cloud partners, like Amazon and Google.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$100 sale via a cloud",
+     "Partner keeps $20 (ex.)",
+     "So who books what?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a customer pays $100 and the cloud partner keeps $20.",
+   "say": "In this made-up example, a customer pays a hundred dollars, and the cloud partner keeps twenty.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Customer pays, example",
+     "value": "$100"
+    },
+    "to": {
+     "label": "AI company keeps",
+     "value": "$80"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Count it gross and you book $100. Count it net and you book $80. Per the FT and CNBC, Anthropic counts gross; OpenAI counts net.",
+   "say": "Count it gross, and you book the full hundred dollars. Count it net, and you book eighty. According to the F T and CNBC, rival Anthropic counts gross, and OpenAI counts net.",
+   "scene": {
+    "t": "split",
+    "title": "Same sale, two counts",
+    "left": {
+     "title": "Gross",
+     "items": [
+      "Books $100",
+      "Anthropic's way"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Net",
+     "items": [
+      "Books $80",
+      "OpenAI's way"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A person familiar told CNBC the bigger figure included gross revenue from partners, to compare with Anthropic.",
+   "say": "A person familiar with the matter told CNBC the bigger figure included gross revenue from partners, so investors could compare it with Anthropic.",
+   "scene": {
+    "t": "news",
+    "headline": "OpenAI run-rate near $50B: FT",
+    "source": "Financial Times, Oct 8, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CNN's source said the ~$70B figure didn't come from OpenAI at all.",
+   "say": "And CNN's source said the seventy billion dollar figure didn't come from OpenAI at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "~$70B: outside estimate",
+     "~$50B: OpenAI's count",
+     "Same business"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the growth is still there: OpenAI told investors its run-rate grew 77% in its third quarter.",
+   "say": "The growth is still there. OpenAI told investors its run-rate grew seventy-seven percent in its third quarter, the F T and CNBC reported.",
+   "scene": {
+    "t": "stat",
+    "label": "OpenAI run-rate growth",
+    "value": "+77%",
+    "tone": "up",
+    "sub": "Q3 2026, FT/CNBC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Reported run-rate: about $20B at the end of 2025, over $25B by Feb 2026...",
+   "say": "Look at the path, based on reports. About twenty billion dollars at the end of twenty twenty-five, and over twenty-five billion by February.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "End 2025",
+      "About $20B"
+     ],
+     [
+      "Feb 2026",
+      "Over $25B"
+     ],
+     [
+      "Aug 2026",
+      "Over $40B"
+     ],
+     [
+      "Sep 2026",
+      "About $50B"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "...over $40B in Aug 2026, and about $50B at the end of Sept.",
+   "say": "Then over forty billion in August, and about fifty billion at the end of September.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "End 2025",
+      "About $20B"
+     ],
+     [
+      "Feb 2026",
+      "Over $25B"
+     ],
+     [
+      "Aug 2026",
+      "Over $40B"
+     ],
+     [
+      "Sep 2026",
+      "About $50B"
+     ]
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more than double in nine months. Fast, just not as fast as the number going around.",
+   "say": "That's more than double in nine months. Fast growth, just not as fast as the number going around.",
+   "scene": {
+    "t": "hook",
+    "title": "Fast, but not [$70B]",
+    "prop": "chart-up",
+    "label": "Run-rate",
+    "value": "x2+",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So why did stocks drop? Some investors leaned on the bigger number, and many companies count on OpenAI's spending.",
+   "say": "So why did stocks drop over an accounting difference? Some investors had been leaning on the bigger number, and many companies count on OpenAI's spending.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Many expected ~$70B",
+     "Count says ~$50B",
+     "Suppliers wait on it"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oracle, which has a cloud deal with OpenAI, fell 5.5%. Intel fell 5.3%.",
+   "say": "Oracle, which has a big cloud deal with OpenAI, fell five and a half percent. Intel fell five point three percent.",
+   "scene": {
+    "t": "list",
+    "title": "Oct 8 stock moves",
+    "items": [
+     "Oracle -5.5%",
+     "Intel -5.3%",
+     "AMD -3.9%",
+     "Nvidia -2.9%"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AMD fell 3.9% and Nvidia 2.9%. Higher oil and bond yields also weighed that day.",
+   "say": "A M D fell three point nine percent, and Nvidia two point nine. Higher oil prices and bond yields weighed on stocks that day too.",
+   "scene": {
+    "t": "list",
+    "title": "Oct 8 stock moves",
+    "items": [
+     "Oracle -5.5%",
+     "Intel -5.3%",
+     "AMD -3.9%",
+     "Nvidia -2.9%"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The $725 billion bet.",
+   "say": "Which brings us to the bigger story: the money being spent.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The $725 billion bet"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what the biggest tech spenders pour into big projects like data centers and chips.",
+   "say": "Here's what the biggest tech spenders pour into big projects like data centers and chips.",
+   "scene": {
+    "t": "chart",
+    "title": "Big Tech capex, $ billions",
+    "points": [
+     [
+      2023,
+      154
+     ],
+     [
+      2024,
+      241
+     ],
+     [
+      2025,
+      416
+     ],
+     [
+      2026,
+      725
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$725B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About $154B in 2023, $241B in 2024 and $416B in 2025, incl. Oracle (Vanguard data).",
+   "say": "About one hundred fifty-four billion dollars in twenty twenty-three, two hundred forty-one billion in twenty twenty-four, and four hundred sixteen billion in twenty twenty-five, counting Oracle too, based on Vanguard's data.",
+   "scene": {
+    "t": "chart",
+    "title": "Big Tech capex, $ billions",
+    "points": [
+     [
+      2023,
+      154
+     ],
+     [
+      2024,
+      241
+     ],
+     [
+      2025,
+      416
+     ],
+     [
+      2026,
+      725
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$725B",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026, just the big four (no Oracle) plan roughly $725B, per company guidance compiled by the FT.",
+   "say": "For twenty twenty-six, just the big four, Amazon, Microsoft, Alphabet and Meta, plan roughly seven hundred twenty-five billion dollars, based on company guidance compiled by the Financial Times. That's up about three quarters in one year.",
+   "scene": {
+    "t": "chart",
+    "title": "Big Tech capex, $ billions",
+    "points": [
+     [
+      2023,
+      154
+     ],
+     [
+      2024,
+      241
+     ],
+     [
+      2025,
+      416
+     ],
+     [
+      2026,
+      725
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$725B",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$725B a year is about $2B a day.",
+   "say": "That works out to about two billion dollars a day.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 capex plans, per day",
+    "value": "~$2B",
+    "tone": "neutral",
+    "sub": "$725B / 365 days",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Much of it goes to AI chips, servers and the buildings and power to run them.",
+   "say": "Much of it goes to A I chips, servers, and the buildings and power to run them.",
+   "scene": {
+    "t": "list",
+    "title": "Where the money goes",
+    "items": [
+     "AI chips",
+     "Servers",
+     "Data centers",
+     "Power"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "OpenAI spends heavily too: it expects to burn about $278B of cash from 2026 through 2030 (FT, Sept 2026).",
+   "say": "OpenAI is spending heavily too. In September, the F T reported it expects to burn through about two hundred seventy-eight billion dollars of cash from twenty twenty-six through twenty thirty.",
+   "scene": {
+    "t": "stat",
+    "label": "OpenAI cash burn, 2026-30",
+    "value": "-$278B",
+    "tone": "down",
+    "sub": "Forecast, per FT",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more than double the $122B it raised in March 2026, at an $852B valuation.",
+   "say": "That's more than double the one hundred twenty-two billion dollars it raised in March, at a valuation of eight hundred fifty-two billion.",
+   "scene": {
+    "t": "compare",
+    "title": "OpenAI money in vs out",
+    "left": {
+     "label": "Raised, Mar 2026",
+     "value": "$122B",
+     "tone": "up",
+     "sub": "at $852B value"
+    },
+    "right": {
+     "label": "Cash burn plan",
+     "value": "$278B",
+     "tone": "down",
+     "sub": "2026-2030, per FT"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FT reported it's on track to use up that cash by 2028, so revenue has to keep climbing fast.",
+   "say": "The F T reported it's on track to use up that cash by twenty twenty-eight. So its revenue has to keep climbing fast, or it needs more investors.",
+   "scene": {
+    "t": "compare",
+    "title": "OpenAI money in vs out",
+    "left": {
+     "label": "Raised, Mar 2026",
+     "value": "$122B",
+     "tone": "up",
+     "sub": "at $852B value"
+    },
+    "right": {
+     "label": "Cash burn plan",
+     "value": "$278B",
+     "tone": "down",
+     "sub": "2026-2030, per FT"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Critics also point to what they call circular deals.",
+   "say": "Critics also point to what they call circular deals.",
+   "scene": {
+    "t": "hook",
+    "title": "Money in a [circle]",
+    "prop": "coins",
+    "label": "Loop",
+    "value": "Circular",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's when chipmakers invest in or lend to customers, who then buy their chips.",
+   "say": "That's when chipmakers invest in, or lend to, their own customers, who then turn around and buy their chips.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Chipmaker funds AI firm",
+     "AI firm buys its chips",
+     "Critics: 'circular'"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fortune and Axios have both covered that worry. UBS has argued the deals are manageable.",
+   "say": "Fortune and Axios have both covered that worry. Analysts at U B S, on the other hand, have argued the deals are manageable.",
+   "scene": {
+    "t": "split",
+    "title": "The debate",
+    "left": {
+     "title": "Worry",
+     "items": [
+      "Circular money",
+      "Overbuilding"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Defense",
+     "items": [
+      "Real demand",
+      "Fast growth"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The bet isn't only chips. It's electricity.",
+   "say": "And the bet isn't only chips. It's electricity.",
+   "scene": {
+    "t": "hook",
+    "title": "AI needs [power]",
+    "prop": "fire",
+    "label": "Power",
+    "value": "24/7",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Oct 6, 2026, Google signed a 20-year deal with Constellation for 890 MW of new nuclear capacity, from upgrades at existing plants.",
+   "say": "On October sixth, Google signed a twenty-year deal with Constellation Energy for eight hundred ninety megawatts of new nuclear capacity, from upgrades at plants that already exist.",
+   "scene": {
+    "t": "stat",
+    "label": "Google-Constellation deal",
+    "value": "890 MW",
+    "tone": "up",
+    "sub": "Nuclear, 20 years"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Constellation is investing more than $4.3B in the upgrades.",
+   "say": "Constellation is investing more than four point three billion dollars in those upgrades.",
+   "scene": {
+    "t": "compare",
+    "title": "Nuclear money, this week",
+    "left": {
+     "label": "Constellation invests",
+     "value": "$4.3B+",
+     "tone": "up",
+     "sub": "Uprates by 2032"
+    },
+    "right": {
+     "label": "DOE loan to Vistra",
+     "value": "$4.2B",
+     "tone": "up",
+     "sub": "Conditional, up to"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That same week, the Energy Dept. offered Vistra a conditional loan of up to $4.2B.",
+   "say": "That same week, the Energy Department offered Vistra a conditional loan of up to four point two billion for its own nuclear upgrades.",
+   "scene": {
+    "t": "compare",
+    "title": "Nuclear money, this week",
+    "left": {
+     "label": "Constellation invests",
+     "value": "$4.3B+",
+     "tone": "up",
+     "sub": "Uprates by 2032"
+    },
+    "right": {
+     "label": "DOE loan to Vistra",
+     "value": "$4.2B",
+     "tone": "up",
+     "sub": "Conditional, up to"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By one ING estimate, tech investment was about 36% of US economic growth in Q2 2026.",
+   "say": "It shows up in the whole economy too. By one estimate from the bank I N G, tech investment made up about thirty-six percent of US economic growth in the second quarter.",
+   "scene": {
+    "t": "stat",
+    "label": "Tech share of US growth",
+    "value": "~36%",
+    "tone": "up",
+    "sub": "Q2 2026, ING est."
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That cuts both ways: more spending lifts growth; less would shrink that lift.",
+   "say": "That cuts both ways. When the spending grows, it lifts the economy. If it ever slowed, that lift would shrink too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More AI spending",
+     "= more growth",
+     "Less = smaller lift"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It even shows up in trade: August 2026 imports hit a record, with $2.4B more in chips than July (BEA).",
+   "say": "It even shows up in trade. In August, US imports hit a record, including two point four billion dollars more in semiconductors than in July, the government reported.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "More chips, please"
+     }
+    ],
+    "caption": "Record imports, Aug 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Lessons from 2000.",
+   "say": "So have we seen something like this before? Sort of.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Lessons from 2000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On March 10, 2000, during the dot-com boom, the Nasdaq closed at a record 5,049.",
+   "say": "On March tenth, two thousand, at the height of the dot-com boom, the Nasdaq closed at a record of about five thousand forty-nine.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Mar 2000",
+      "Nasdaq peaks 5,049"
+     ],
+     [
+      "Oct 2002",
+      "Down 78%"
+     ],
+     [
+      "Apr 2015",
+      "Back to the peak"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By Oct 9, 2002, it had fallen about 78%.",
+   "say": "Then the bubble burst. By October ninth, two thousand two, it had fallen about seventy-eight percent.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Mar 2000",
+      "Nasdaq peaks 5,049"
+     ],
+     [
+      "Oct 2002",
+      "Down 78%"
+     ],
+     [
+      "Apr 2015",
+      "Back to the peak"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It didn't get back to that peak until April 2015.",
+   "say": "It didn't get back to that peak until April twenty fifteen, fifteen years later.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Mar 2000",
+      "Nasdaq peaks 5,049"
+     ],
+     [
+      "Oct 2002",
+      "Down 78%"
+     ],
+     [
+      "Apr 2015",
+      "Back to the peak"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nasdaq: 5,049 at the top, 1,114 at the bottom.",
+   "say": "In numbers, that's about five thousand forty-nine at the top, and about one thousand one hundred fourteen at the bottom.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Nasdaq, Mar 10, 2000",
+     "value": "5,049"
+    },
+    "to": {
+     "label": "Nasdaq, Oct 9, 2002",
+     "value": "1,114"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the twist: the internet was real. Many of the stock prices built on it weren't.",
+   "say": "Here's the twist. The internet was real. But many of the stock prices built on it ran far ahead of the profits.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The internet: real",
+     "Many prices: too high"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take Cisco. It sold the networking gear the internet ran on, a bit like chipmakers today.",
+   "say": "Take Cisco. It sold the networking gear the internet ran on, a bit like the chipmakers of today.",
+   "scene": {
+    "t": "hook",
+    "title": "Cisco's [long] wait",
+    "prop": "box",
+    "label": "Cisco",
+    "value": "25 yrs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On March 27, 2000, it closed at a record $80.06 and was briefly the world's most valuable public company.",
+   "say": "On March twenty-seventh, two thousand, it closed at a record eighty dollars and six cents, and was briefly the most valuable public company in the world.",
+   "scene": {
+    "t": "compare",
+    "title": "Cisco record close",
+    "left": {
+     "label": "Mar 27, 2000",
+     "value": "$80.06",
+     "tone": "neutral",
+     "sub": "dot-com record"
+    },
+    "right": {
+     "label": "Dec 10, 2025",
+     "value": "$80.25",
+     "tone": "up",
+     "sub": "first close above"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The stock didn't close above that until Dec 10, 2025, at $80.25. About 25 years later.",
+   "say": "The stock didn't close above that until December tenth, twenty twenty-five, at eighty dollars and twenty-five cents. That's about twenty-five years later.",
+   "scene": {
+    "t": "compare",
+    "title": "Cisco record close",
+    "left": {
+     "label": "Mar 27, 2000",
+     "value": "$80.06",
+     "tone": "neutral",
+     "sub": "dot-com record"
+    },
+    "right": {
+     "label": "Dec 10, 2025",
+     "value": "$80.25",
+     "tone": "up",
+     "sub": "first close above"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Yet the business kept growing: revenue nearly quintupled after 1999.",
+   "say": "Yet the business kept growing. Its revenue nearly quintupled after nineteen ninety-nine.",
+   "scene": {
+    "t": "stat",
+    "label": "Cisco revenue since 1999",
+    "value": "~5x",
+    "tone": "up",
+    "sub": "Dec 2025 reports"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The price was the problem: 96.7x earnings in late 1999, about 19x expected earnings in Dec 2025.",
+   "say": "The price was the problem. In late nineteen ninety-nine, investors paid about ninety-seven times earnings. By December twenty twenty-five, it was about nineteen times expected earnings.",
+   "scene": {
+    "t": "compare",
+    "title": "Price paid for Cisco",
+    "left": {
+     "label": "Late 1999",
+     "value": "96.7x",
+     "tone": "down",
+     "sub": "price / earnings"
+    },
+    "right": {
+     "label": "Dec 2025",
+     "value": "~19x",
+     "tone": "neutral",
+     "sub": "forward earnings"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lesson isn't that AI is a bubble. Nobody knows that. A great business and a great stock price aren't the same thing.",
+   "say": "The lesson isn't that A I is a bubble. Nobody knows that. It's that a great business and a great stock price aren't the same thing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Great business",
+     "is not always a",
+     "great stock price"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, Cisco sold the picks and shovels. Today, chipmakers like Nvidia play that role.",
+   "say": "Back then, Cisco sold the picks and shovels for the gold rush. Today, chipmakers like Nvidia play a similar role.",
+   "scene": {
+    "t": "split",
+    "title": "Picks and shovels",
+    "left": {
+     "title": "2000",
+     "items": [
+      "Internet boom",
+      "Cisco gear"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "2026",
+     "items": [
+      "AI boom",
+      "Nvidia chips"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One big difference: today's biggest spenders, like Microsoft and Alphabet, already make big profits.",
+   "say": "One big difference is that today's biggest spenders, like Microsoft and Alphabet, are already hugely profitable companies.",
+   "scene": {
+    "t": "hook",
+    "title": "Big [profits] this time",
+    "prop": "bag",
+    "label": "Cash",
+    "value": "Profits",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But in a market this concentrated, a wobble in a few names moves everyone's fund.",
+   "say": "But there's a catch. In a market this concentrated, a wobble in a few names moves almost everyone's fund.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A few giant stocks",
+     "move the whole index"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Your 401(k) and AI.",
+   "say": "So what does any of this have to do with your money?",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Your 401(k) and AI"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you own an S&P 500 index fund, maybe inside a 401(k), you own a slice of this boom.",
+   "say": "If you own an S and P five hundred index fund, maybe inside a four oh one K, you already own a big slice of this boom.",
+   "scene": {
+    "t": "hook",
+    "title": "You own [this] boom",
+    "prop": "pot",
+    "label": "401(k)",
+    "value": "S&P 500",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nvidia, Apple and Microsoft now make up over 21% of the S&P 500, per Creative Planning (Oct 6, 2026).",
+   "say": "Nvidia, Apple and Microsoft now make up more than twenty-one percent of the index, according to Creative Planning.",
+   "scene": {
+    "t": "stat",
+    "label": "Top 3 stocks, S&P 500",
+    "value": ">21%",
+    "tone": "neutral",
+    "sub": "Creative Planning"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the most ever for three stocks. In the mid-1980s, IBM, AT&T and Exxon peaked at 13.4%.",
+   "say": "That's the most ever for three stocks. In the mid nineteen eighties, the top three, I B M, A T and T and Exxon, peaked at thirteen point four percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Top 3 stocks' share",
+    "left": {
+     "label": "Mid-1980s peak",
+     "value": "13.4%",
+     "tone": "neutral",
+     "sub": "IBM, AT&T, Exxon"
+    },
+    "right": {
+     "label": "Oct 2026",
+     "value": ">21%",
+     "tone": "down",
+     "sub": "NVDA, AAPL, MSFT"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: of every $100 in an S&P 500 fund, about $21 sits in those three companies.",
+   "say": "So in this example, out of every hundred dollars in the fund, about twenty-one dollars sits in just those three companies.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Index fund, example",
+     "value": "$100"
+    },
+    "to": {
+     "label": "In the top 3 stocks",
+     "value": "~$21"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If those three fell 10% together, the fund would drop about 2.1% from them alone, all else equal.",
+   "say": "If those three fell ten percent together, that alone would pull the fund down about two point one percent, all else equal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$21 x 10% = $2.10",
+     "about 2.1% of the fund",
+     "(all else equal)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It works the same way going up.",
+   "say": "And it works exactly the same way on the way up.",
+   "scene": {
+    "t": "hook",
+    "title": "It cuts [both] ways",
+    "prop": "chart-up",
+    "label": "Index",
+    "value": "+/-",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nvidia alone is about 8.5% of the S&P 500 (early Oct 2026).",
+   "say": "Nvidia alone is about eight and a half percent of the index, based on fund holdings in early October.",
+   "scene": {
+    "t": "stat",
+    "label": "Nvidia's S&P 500 weight",
+    "value": "~8.5%",
+    "tone": "neutral",
+    "sub": "Early Oct 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And many other names, from Oracle to power producers, are tied to AI spending too.",
+   "say": "And plenty of other names, from Oracle to the power producers, are tied to A I spending too.",
+   "scene": {
+    "t": "list",
+    "title": "Tied to AI spending",
+    "items": [
+     "Chipmakers",
+     "Cloud firms",
+     "Power firms",
+     "Builders"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Constellation's stock jumped about 12% on Oct 6, the day of the Google deal.",
+   "say": "Constellation's stock, for example, jumped about twelve percent on October sixth, the day of the Google deal.",
+   "scene": {
+    "t": "stat",
+    "label": "Constellation stock, Oct 6",
+    "value": "+12.2%",
+    "tone": "up",
+    "sub": "Day of Google deal"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When AI spending grows, chipmakers, power producers and builders benefit. If it got cut, they'd feel it first.",
+   "say": "When A I spending grows, chipmakers, power producers and builders benefit. If it ever got cut, those same suppliers, and index funds heavy in them, would feel it.",
+   "scene": {
+    "t": "split",
+    "title": "Who's exposed",
+    "left": {
+     "title": "Spending up",
+     "items": [
+      "Chipmakers",
+      "Power firms",
+      "Builders"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Spending cut",
+     "items": [
+      "Same suppliers",
+      "Top-heavy funds"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some funds weight every company equally, about 0.2% each in an equal-weight S&P 500 fund.",
+   "say": "There are also equal-weight versions of the S and P five hundred, which hold each company at about zero point two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Two ways to build an index",
+    "left": {
+     "label": "Size-weighted",
+     "value": ">21%",
+     "tone": "neutral",
+     "sub": "in top 3 stocks"
+    },
+    "right": {
+     "label": "Equal-weight",
+     "value": "~0.2%",
+     "tone": "neutral",
+     "sub": "per company"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's not advice, just how the two designs differ.",
+   "say": "That's not advice, just how the two designs differ.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not advice",
+     "Just two designs"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of this predicts where stocks go next. It shows how much of a typical retirement account rides on one theme.",
+   "say": "None of this predicts where stocks go next. It just shows how much of a typical retirement account now rides on one theme.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not a forecast",
+     "Just the math",
+     "as of Oct 2026"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: What to watch.",
+   "say": "So what's on the calendar?",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What to watch"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 14: September inflation report (BLS).",
+   "say": "On October fourteenth, the Bureau of Labor Statistics releases September's inflation report.",
+   "scene": {
+    "t": "list",
+    "title": "Dates to watch",
+    "items": [
+     "Oct 14: CPI",
+     "Oct 28: Fed",
+     "Big Tech results",
+     "Nvidia results"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Higher rates make far-off profits worth less to investors today.",
+   "say": "That matters because higher inflation and interest rates make far-off profits worth less to investors today.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Higher rates =",
+     "future profits",
+     "worth less today"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 28: the Fed's next rate decision, after its Sept 2026 hike.",
+   "say": "On October twenty-eighth, the Fed announces its next rate decision, after raising rates in September.",
+   "scene": {
+    "t": "list",
+    "title": "Dates to watch",
+    "items": [
+     "Oct 14: CPI",
+     "Oct 28: Fed",
+     "Big Tech results",
+     "Nvidia results"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Late Oct: Microsoft, Alphabet, Meta and Amazon usually report. Watch their spending plans.",
+   "say": "Microsoft, Alphabet, Meta and Amazon usually report in late October. A key number is whether they raise or trim their spending plans.",
+   "scene": {
+    "t": "list",
+    "title": "Dates to watch",
+    "items": [
+     "Oct 14: CPI",
+     "Oct 28: Fed",
+     "Big Tech results",
+     "Nvidia results"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Nvidia usually reports in late November, a read on whether chip orders keep coming.",
+   "say": "And Nvidia usually reports in late November, which shows whether the chip orders are still coming in.",
+   "scene": {
+    "t": "list",
+    "title": "Dates to watch",
+    "items": [
+     "Oct 14: CPI",
+     "Oct 28: Fed",
+     "Big Tech results",
+     "Nvidia results"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The one number to watch: that ~$725B of planned spending.",
+   "say": "If you remember one number, make it that seven hundred twenty-five billion dollars of planned spending. It shows whether the boom is speeding up or slowing down.",
+   "scene": {
+    "t": "hook",
+    "title": "Watch the [spending]",
+    "prop": "bag",
+    "label": "Capex",
+    "value": "$725B",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And watch whether OpenAI shares more official numbers. Until then, run-rates are what it tells investors.",
+   "say": "And watch whether OpenAI shares more official numbers. Until a company publishes audited results, run-rates are simply what it tells investors.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Audited results: rules",
+     "Run-rates: a snapshot"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap.",
+   "say": "Let's recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "OpenAI's run-rate was about $50B, not the ~$70B widely reported.",
+   "say": "OpenAI's run-rate was about fifty billion dollars, not the roughly seventy billion that was widely reported.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "~$50B, not ~$70B",
+     "Mostly counting",
+     "$725B bet",
+     ">21% in 3 stocks"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The gap is reportedly mostly gross vs net counting, and growth was still 77% in Q3.",
+   "say": "The gap is reportedly mostly gross versus net counting, and its run-rate still grew seventy-seven percent in the third quarter.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "~$50B, not ~$70B",
+     "Mostly counting",
+     "$725B bet",
+     ">21% in 3 stocks"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Big Tech plans to spend roughly $725B in 2026, much of it on AI.",
+   "say": "Big Tech plans to spend roughly seven hundred twenty-five billion dollars in twenty twenty-six, much of it on A I.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "~$50B, not ~$70B",
+     "Mostly counting",
+     "$725B bet",
+     ">21% in 3 stocks"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And three stocks are over 21% of the S&P 500, so many 401(k)s ride on it.",
+   "say": "And three stocks make up more than twenty-one percent of the S and P five hundred, so many four oh one Ks ride on it.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "~$50B, not ~$70B",
+     "Mostly counting",
+     "$725B bet",
+     ">21% in 3 stocks"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real growth, giant bills, and a market more concentrated than ever: the AI boom in October 2026.",
+   "say": "Real growth, giant bills, and a market more concentrated than ever. That's the A I boom in October twenty twenty-six.",
+   "scene": {
+    "t": "split",
+    "title": "The AI boom, Oct 2026",
+    "left": {
+     "title": "Real",
+     "items": [
+      "Fast growth",
+      "Big profits"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Risky",
+     "items": [
+      "Huge bills",
+      "Concentrated"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for the week's biggest money story, explained on a whiteboard.",
+   "say": "If this helped, subscribe for the week's biggest money story, explained on a whiteboard.",
+   "scene": {
+    "t": "cta",
+    "tagline": "The big story, every week"
+   }
+  }
+ ],
+ "post": {
+  "title": "A $20 billion gap shook the AI boom. What OpenAI's number means for your 401(k)",
+  "ig": "A $20 billion gap shook the AI boom on Oct 8, 2026. Here's what really happened.",
+  "tiktok": "A $20B gap shook the AI boom. OpenAI's real number, explained.",
+  "yt_desc": "A $20 billion gap shook the AI boom: on Oct 8, 2026, the Financial Times reported OpenAI told investors its annualized revenue was about $50 billion, not the roughly $70 billion widely reported, and the Nasdaq had its worst day since mid-August. This video explains run-rates and gross vs net counting, follows the roughly $725 billion Big Tech plans to spend in 2026 (including new nuclear power deals), and compares today with the 2000 dot-com bust and Cisco's 25-year wait. It also shows why three stocks making up over 21% of the S&P 500 puts the AI boom inside many 401(k)s, and lists the dates to watch next.\n\nSources: Financial Times, CNBC, CNN and TechCrunch (Oct 8, 2026); Financial Times via Reuters (Sept 19, 2026); Bloomberg (Aug 2026); The Information via Reuters (Mar 2026); AP market data (Oct 6, 2026); Vanguard hyperscaler capex data; Financial Times capex tally and Forbes (Oct 7, 2026); Fortune; Axios; UBS; Google and Constellation (Oct 6, 2026); US Department of Energy (Oct 2026); BEA/Census (Oct 6, 2026); ING (2026); Barchart and Sherwood News (Dec 2025); Creative Planning via Yahoo Finance and Benzinga (Oct 6, 2026); BLS and Federal Reserve calendars.\n\nNews and education, not financial advice.\n\n#AI #investing #stockmarket",
+  "tags": [
+   "AI bubble",
+   "OpenAI revenue",
+   "AI stocks",
+   "Nvidia",
+   "S&P 500",
+   "401k",
+   "dot com bubble",
+   "Big Tech capex"
+  ]
+ }
+}
