@@ -1,0 +1,1520 @@
+{
+ "series": "ticker",
+ "header": "Your end-of-year\nmoney checklist",
+ "cover": {
+  "title": "Half Lost This Money.",
+  "prop": "bag",
+  "label": "FSA",
+  "value": "$441"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2022, about half of FSA holders forfeited their own money.",
+   "say": "In twenty twenty-two, about half of FSA holders forfeited their own money.",
+   "scene": {
+    "t": "hook",
+    "title": "Half [lost] FSA money",
+    "prop": "bag",
+    "label": "FSA",
+    "value": "1 in 2",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average forfeit was $441, per an EBRI study of 3.2 million accounts.",
+   "say": "The average forfeit was four hundred forty-one dollars, according to an EBRI study of three point two million accounts.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg FSA forfeit",
+    "value": "$441",
+    "tone": "down",
+    "sub": "EBRI, 2022 data"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was up from $339 in 2019.",
+   "say": "That was up from three hundred thirty-nine dollars in twenty nineteen.",
+   "scene": {
+    "t": "compare",
+    "title": "Average FSA forfeit",
+    "left": {
+     "label": "2019",
+     "value": "$339",
+     "tone": "neutral",
+     "sub": "EBRI"
+    },
+    "right": {
+     "label": "2022",
+     "value": "$441",
+     "tone": "down",
+     "sub": "EBRI"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That money wasn't stolen. It just hit a deadline nobody was watching.",
+   "say": "That money wasn't stolen. It just hit a deadline nobody was watching.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not stolen.",
+     "Just a missed deadline."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Year-end money runs on two dates: December 31, 2026, and April 15, 2027.",
+   "say": "Year-end money runs on two dates: December thirty-first, twenty twenty-six, and April fifteenth, twenty twenty-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "The two deadlines",
+    "left": {
+     "label": "Dec 31, 2026",
+     "value": "12/31",
+     "tone": "down",
+     "sub": "Most things"
+    },
+    "right": {
+     "label": "Apr 15, 2027",
+     "value": "4/15",
+     "tone": "neutral",
+     "sub": "IRA, HSA, filing"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the full checklist: taxes, benefits, accounts and goals, with the official 2026 numbers.",
+   "say": "So here's the full checklist: taxes, benefits, accounts and goals, with the official twenty twenty-six numbers.",
+   "scene": {
+    "t": "list",
+    "title": "The checklist",
+    "items": [
+     "Taxes",
+     "Benefits",
+     "Accounts",
+     "Goals"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Education, not advice. Every limit here is for tax year 2026 and comes from the IRS.",
+   "say": "Education, not advice. Every limit here is for tax year twenty twenty-six and comes from the IRS.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education, not advice",
+     "Tax year 2026 limits"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Two deadlines.",
+   "say": "Chapter one: two deadlines.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Two deadlines"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most year-end moves have to happen by December 31: 401(k) paycheck contributions, FSA spending in many plans, and required withdrawals.",
+   "say": "Most year-end moves have to happen by December thirty-first: 401(k) paycheck contributions, FSA spending in many plans, and required withdrawals.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "12/31",
+      "what": "401(k), FSA, RMDs"
+     },
+     {
+      "when": "3/15",
+      "what": "Some FSA grace"
+     },
+     {
+      "when": "4/15",
+      "what": "IRA, HSA, filing"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some FSA plans add a grace period. For a calendar-year plan, that can run to March 15, 2027.",
+   "say": "Some FSA plans add a grace period. For a calendar-year plan, that can run to March fifteenth, twenty twenty-seven.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "12/31",
+      "what": "401(k), FSA, RMDs"
+     },
+     {
+      "when": "3/15",
+      "what": "Some FSA grace"
+     },
+     {
+      "when": "4/15",
+      "what": "IRA, HSA, filing"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And IRA and HSA contributions for 2026 can wait until the filing deadline, April 15, 2027.",
+   "say": "And IRA and HSA contributions for twenty twenty-six can wait until the filing deadline, April fifteenth, twenty twenty-seven.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "12/31",
+      "what": "401(k), FSA, RMDs"
+     },
+     {
+      "when": "3/15",
+      "what": "Some FSA grace"
+     },
+     {
+      "when": "4/15",
+      "what": "IRA, HSA, filing"
+     }
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the catch. A 401(k) has no do-over. Money has to come out of a paycheck dated in 2026.",
+   "say": "Here's the catch. A 401(k) has no do-over. The money has to come out of a paycheck dated in twenty twenty-six.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "401(k) = paycheck only",
+     "No deposits after 12/31"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "December's last paychecks are the final chance to change that, and payroll often needs lead time.",
+   "say": "December's last paychecks are the final chance to change that, and payroll often needs lead time.",
+   "scene": {
+    "t": "split",
+    "title": "Deadline types",
+    "left": {
+     "title": "By 12/31",
+     "items": [
+      "401(k) payroll",
+      "Loss harvesting",
+      "Gifts, RMDs"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "By 4/15",
+     "items": [
+      "IRA deposit",
+      "HSA deposit",
+      "File return"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Retirement and HSA limits.",
+   "say": "Chapter two: retirement and HSA limits.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Retirement + HSA limits"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026, the 401(k) and 403(b) limit is $24,500.",
+   "say": "For twenty twenty-six, the 401(k) and 403(b) limit is twenty-four thousand five hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 401(k) limit",
+    "value": "$24,500",
+    "tone": "up",
+    "sub": "IRS, Nov 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the IRS limit since 2016. It was $18,000 then and has climbed in most years since.",
+   "say": "Here's the IRS limit since twenty sixteen. It was eighteen thousand dollars then, and it has climbed in most years since.",
+   "scene": {
+    "t": "chart",
+    "title": "401(k) limit, 2016-2026",
+    "points": [
+     [
+      2016,
+      18000
+     ],
+     [
+      2017,
+      18000
+     ],
+     [
+      2018,
+      18500
+     ],
+     [
+      2019,
+      19000
+     ],
+     [
+      2020,
+      19500
+     ],
+     [
+      2021,
+      19500
+     ],
+     [
+      2022,
+      20500
+     ],
+     [
+      2023,
+      22500
+     ],
+     [
+      2024,
+      23000
+     ],
+     [
+      2025,
+      23500
+     ],
+     [
+      2026,
+      24500
+     ]
+    ],
+    "prefix": "$",
+    "end": "$24.5K",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest one-year jump was 2023, up $2,000 to $22,500. For 2026 it rose $1,000.",
+   "say": "The biggest one-year jump was twenty twenty-three, up two thousand dollars to twenty-two thousand five hundred. For twenty twenty-six it rose one thousand dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Yearly increases",
+    "left": {
+     "label": "2023 jump",
+     "value": "+$2,000",
+     "tone": "up",
+     "sub": "To $22,500"
+    },
+    "right": {
+     "label": "2026 jump",
+     "value": "+$1,000",
+     "tone": "up",
+     "sub": "To $24,500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Turning 50 or older by December 31 adds a catch-up of $8,000, for a total of $32,500.",
+   "say": "Turning fifty or older by December thirty-first adds a catch-up of eight thousand dollars, for a total of thirty-two thousand five hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "Catch-up, age 50+",
+    "value": "$8,000",
+    "tone": "up",
+    "sub": "Total $32,500"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ages 60 through 63 get a bigger super catch-up of $11,250.",
+   "say": "Ages sixty through sixty-three get a bigger super catch-up of eleven thousand two hundred fifty dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Catch-up, 60-63",
+    "value": "$11,250",
+    "tone": "up",
+    "sub": "SECURE 2.0"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a 61-year-old can defer $24,500 plus $11,250. That's $35,750 for 2026.",
+   "say": "Example: a sixty-one-year-old can defer twenty-four thousand five hundred plus eleven thousand two hundred fifty. That's thirty-five thousand seven hundred fifty dollars for twenty twenty-six.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example, age 61:",
+     "$24,500 + $11,250",
+     "= $35,750"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "New in 2026: if your 2025 wages from that employer topped $150,000, catch-ups have to go in as Roth.",
+   "say": "New in twenty twenty-six: if your twenty twenty-five wages from that employer topped one hundred fifty thousand dollars, catch-ups have to go in as Roth.",
+   "scene": {
+    "t": "news",
+    "headline": "Roth catch-up rule starts 2026",
+    "source": "SECURE 2.0; IRS rules, Sep 2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Roth means after-tax now. Plans without a Roth option may not offer those workers a catch-up at all.",
+   "say": "Roth means after-tax now. Plans without a Roth option may not offer those workers a catch-up at all.",
+   "scene": {
+    "t": "compare",
+    "title": "Catch-up, wages > $150K",
+    "left": {
+     "label": "Before 2026",
+     "value": "Pre-tax",
+     "tone": "neutral",
+     "sub": "Their choice"
+    },
+    "right": {
+     "label": "2026 on",
+     "value": "Roth",
+     "tone": "neutral",
+     "sub": "After-tax"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "IRAs rose too. The 2026 limit is $7,500, plus $1,100 more at age 50 and up, for $8,600.",
+   "say": "IRAs rose too. The twenty twenty-six limit is seven thousand five hundred dollars, plus eleven hundred more at age fifty and up, for eight thousand six hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 IRA limit",
+    "left": {
+     "label": "Under 50",
+     "value": "$7,500",
+     "tone": "up",
+     "sub": "Was $7,000"
+    },
+    "right": {
+     "label": "Age 50+",
+     "value": "$8,600",
+     "tone": "up",
+     "sub": "With catch-up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Roth IRAs were our November 11 guide. Here, the key date is April 15, 2027.",
+   "say": "Roth IRAs were our November eleventh guide. Here, the key date is April fifteenth, twenty twenty-seven.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2026 IRA deadline:",
+     "April 15, 2027"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "HSAs, paired with high-deductible health plans, have a 2026 limit of $4,400 for self-only coverage.",
+   "say": "HSAs, paired with high-deductible health plans, have a twenty twenty-six limit of four thousand four hundred dollars for self-only coverage.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 HSA limits",
+    "left": {
+     "label": "Self-only",
+     "value": "$4,400",
+     "tone": "up",
+     "sub": "IRS, May 2025"
+    },
+    "right": {
+     "label": "Family",
+     "value": "$8,750",
+     "tone": "up",
+     "sub": "IRS, May 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Family coverage gets $8,750, and people 55 or older can add $1,000.",
+   "say": "Family coverage gets eight thousand seven hundred fifty dollars, and people fifty-five or older can add one thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "HSA catch-up, 55+",
+    "value": "$1,000",
+    "tone": "up",
+    "sub": "On top of limit"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Unlike an FSA, HSA money doesn't vanish on December 31. It stays in the account, year after year.",
+   "say": "Unlike an FSA, HSA money doesn't vanish on December thirty-first. It stays in the account, year after year.",
+   "scene": {
+    "t": "split",
+    "title": "HSA vs FSA",
+    "left": {
+     "title": "HSA",
+     "items": [
+      "Rolls over",
+      "Yours to keep",
+      "Needs HDHP"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Health FSA",
+     "items": [
+      "Deadline",
+      "Can forfeit",
+      "Via employer"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Benefits you can lose.",
+   "say": "Chapter three: benefits you can lose.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Benefits you can lose"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A health FSA lets workers set aside pre-tax pay for medical costs. The 2026 limit is $3,400.",
+   "say": "A health FSA lets workers set aside pre-tax pay for medical costs. The twenty twenty-six limit is three thousand four hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 health FSA",
+    "value": "$3,400",
+    "tone": "neutral",
+    "sub": "IRS, Oct 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whatever isn't used by the plan's deadline can be forfeited. But plans can soften that in one of two ways, not both.",
+   "say": "Whatever isn't used by the plan's deadline can be forfeited. But plans can soften that in one of two ways, not both.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Unused FSA money",
+     "can be forfeited"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Option one is a carryover. For 2026 plan years, up to $680 can roll into 2027.",
+   "say": "Option one is a carryover. For twenty twenty-six plan years, up to six hundred eighty dollars can roll into twenty twenty-seven.",
+   "scene": {
+    "t": "list",
+    "title": "FSA leftovers",
+    "items": [
+     "Carryover",
+     "Grace period",
+     "Neither"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Option two is a grace period of up to two and a half months. That's March 15, 2027 for a calendar-year plan.",
+   "say": "Option two is a grace period of up to two and a half months. That's March fifteenth, twenty twenty-seven, for a calendar-year plan.",
+   "scene": {
+    "t": "list",
+    "title": "FSA leftovers",
+    "items": [
+     "Carryover",
+     "Grace period",
+     "Neither"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Or the plan offers neither. Then it's pure use it or lose it at year-end.",
+   "say": "Or the plan offers neither. Then it's pure use it or lose it at year-end.",
+   "scene": {
+    "t": "list",
+    "title": "FSA leftovers",
+    "items": [
+     "Carryover",
+     "Grace period",
+     "Neither"
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: someone put in $3,400 and has spent $2,500 by mid-December. That leaves $900.",
+   "say": "Example: someone put in three thousand four hundred dollars and has spent twenty-five hundred by mid-December. That leaves nine hundred dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example:",
+     "$3,400 - $2,500",
+     "= $900 left"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With a carryover plan, $680 rolls forward and $220 is lost.",
+   "say": "With a carryover plan, six hundred eighty rolls forward, and two hundred twenty dollars is lost.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $900 left",
+    "left": {
+     "label": "Rolls over",
+     "value": "$680",
+     "tone": "up",
+     "sub": "Into 2027"
+    },
+    "right": {
+     "label": "Forfeited",
+     "value": "$220",
+     "tone": "down",
+     "sub": "$900 - $680"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With a grace period, all $900 can still be spent by March 15. With neither, all $900 is gone.",
+   "say": "With a grace period, all nine hundred can still be spent by March fifteenth. With neither, all nine hundred dollars is gone.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $900 left",
+    "left": {
+     "label": "Grace period",
+     "value": "$0",
+     "tone": "up",
+     "sub": "Lost if spent"
+    },
+    "right": {
+     "label": "Neither",
+     "value": "$900",
+     "tone": "down",
+     "sub": "Lost"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why people check the plan's rules and balance in early December. Glasses, prescriptions and dental work are common last-minute uses.",
+   "say": "That's why people check the plan's rules and balance in early December. Glasses, prescriptions and dental work are common last-minute uses.",
+   "scene": {
+    "t": "list",
+    "title": "Common FSA uses",
+    "items": [
+     "Glasses",
+     "Prescriptions",
+     "Dental work"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The dependent care FSA got bigger. Under the 2025 tax law, its limit rose from $5,000 to $7,500 for 2026.",
+   "say": "The dependent care FSA got bigger. Under the twenty twenty-five tax law, its limit rose from five thousand dollars to seventy-five hundred for twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Dependent care FSA",
+    "left": {
+     "label": "Through 2025",
+     "value": "$5,000",
+     "tone": "neutral",
+     "sub": "Since 1986"
+    },
+    "right": {
+     "label": "2026",
+     "value": "$7,500",
+     "tone": "up",
+     "sub": "2025 tax law"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's for things like daycare and after-school care. Employers don't have to adopt the higher limit, so plans vary.",
+   "say": "That's for things like daycare and after-school care. Employers don't have to adopt the higher limit, so plans vary.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Daycare, after-school",
+     "Employer limits vary"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And by December, open enrollment has usually closed at many employers, so 2027 benefit picks are often locked in.",
+   "say": "And by December, open enrollment has usually closed at many employers, so twenty twenty-seven benefit picks are often locked in.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Open enrollment: done",
+     "2027 picks locked in"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Picking a health plan was our November 4 guide. On a year-end checklist, it's one line: confirm the 2027 elections came through.",
+   "say": "Picking a health plan was our November fourth guide. On a year-end checklist, it's one line: confirm the twenty twenty-seven elections came through.",
+   "scene": {
+    "t": "list",
+    "title": "Benefits check",
+    "items": [
+     "FSA balance",
+     "Plan rules",
+     "2027 elections"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Investments, gifts and RMDs.",
+   "say": "Chapter four: investments, gifts and R M Ds.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Investments + gifts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a tax rate that sounds made up: 0% on long-term capital gains.",
+   "say": "Here's a tax rate that sounds made up: zero percent on long-term capital gains.",
+   "scene": {
+    "t": "hook",
+    "title": "A [0%] tax rate",
+    "prop": "chart-up",
+    "label": "GAINS",
+    "value": "0%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026, it applies to single filers with taxable income up to $49,450, and joint filers up to $98,900.",
+   "say": "For twenty twenty-six, it applies to single filers with taxable income up to forty-nine thousand four hundred fifty dollars, and joint filers up to ninety-eight thousand nine hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 0% gains bracket",
+    "left": {
+     "label": "Single",
+     "value": "$49,450",
+     "tone": "up",
+     "sub": "Taxable income"
+    },
+    "right": {
+     "label": "Joint",
+     "value": "$98,900",
+     "tone": "up",
+     "sub": "Taxable income"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Long-term means held more than a year. Gains on assets held a year or less are taxed like regular income.",
+   "say": "Long-term means held more than a year. Gains on assets held a year or less are taxed like regular income.",
+   "scene": {
+    "t": "split",
+    "title": "Holding period",
+    "left": {
+     "title": "Over 1 year",
+     "items": [
+      "0%, 15%, 20%"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "1 yr or less",
+     "items": [
+      "Regular rates"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a single filer earns $54,100 in wages. Subtract the $16,100 standard deduction, and taxable income is $38,000.",
+   "say": "Example: a single filer earns fifty-four thousand one hundred dollars in wages. Subtract the sixteen thousand one hundred dollar standard deduction, and taxable income is thirty-eight thousand.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example, single:",
+     "$54,100 - $16,100",
+     "= $38,000 taxable"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves $11,450 of room for long-term gains at 0% federally.",
+   "say": "That leaves eleven thousand four hundred fifty dollars of room for long-term gains at zero percent federally.",
+   "scene": {
+    "t": "stat",
+    "label": "0% room, example",
+    "value": "$11,450",
+    "tone": "up",
+    "sub": "$49,450 - $38,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some people sell winners in that range by December 31 to lock in gains at 0%. State taxes can still apply.",
+   "say": "Some people sell winners in that range by December thirty-first to lock in gains at zero percent. State taxes can still apply.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Federal 0% only",
+     "State tax may apply"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The flip side is tax-loss harvesting: selling investments that are down to offset gains.",
+   "say": "The flip side is tax-loss harvesting: selling investments that are down to offset gains.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tax-loss harvesting:",
+     "losses offset gains"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $2,000 of gains and $7,000 of losses in 2026. That nets to a $5,000 loss.",
+   "say": "Example: two thousand dollars of gains and seven thousand dollars of losses in twenty twenty-six. That nets to a five thousand dollar loss.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example:",
+     "$2,000 gain - $7,000 loss",
+     "= $5,000 net loss"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Up to $3,000 of net loss can offset regular income each year. The other $2,000 carries forward to 2027.",
+   "say": "Up to three thousand dollars of net loss can offset regular income each year. The other two thousand carries forward to twenty twenty-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $5,000 net loss",
+    "left": {
+     "label": "Used in 2026",
+     "value": "$3,000",
+     "tone": "up",
+     "sub": "Vs. regular income"
+    },
+    "right": {
+     "label": "Carried",
+     "value": "$2,000",
+     "tone": "neutral",
+     "sub": "Into 2027"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But there's the wash-sale rule. Buy the same or a substantially identical investment within 30 days before or after, and the loss is disallowed.",
+   "say": "But there's the wash-sale rule. Buy the same or a substantially identical investment within thirty days before or after, and the loss is disallowed.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "-30d",
+      "what": "No identical buy"
+     },
+     {
+      "when": "Sale",
+      "what": "Loss realized"
+     },
+     {
+      "when": "+30d",
+      "what": "No identical buy"
+     }
+    ],
+    "reveal": 3,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a 61-day window. The loss isn't erased; it moves into the new shares' cost, so it can't be used in 2026.",
+   "say": "That's a sixty-one-day window. The loss isn't erased; it moves into the new shares' cost, so it can't be used in twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Wash-sale window",
+    "value": "61 days",
+    "tone": "down",
+    "sub": "30 + sale + 30"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This only matters in taxable brokerage accounts. Inside a 401(k) or IRA, gains and losses aren't taxed year to year.",
+   "say": "This only matters in taxable brokerage accounts. Inside a 401(k) or IRA, gains and losses aren't taxed year to year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Taxable accounts only",
+     "Not 401(k)s or IRAs"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, required minimum distributions, or RMDs. Retirees 73 and older generally have to withdraw a minimum from most retirement accounts.",
+   "say": "Next, required minimum distributions, or R M Ds. Retirees seventy-three and older generally have to withdraw a minimum from most retirement accounts.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "RMD = required yearly",
+     "withdrawal, age 73+"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The annual deadline is December 31. Only the very first one can wait until April 1 of the next year.",
+   "say": "The annual deadline is December thirty-first. Only the very first one can wait until April first of the next year.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "12/31",
+      "what": "Yearly RMD due"
+     },
+     {
+      "when": "Apr 1",
+      "what": "First RMD only"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Waiting means two withdrawals in one year. Missing one triggers a 25% excise tax, cut to 10% if fixed in time.",
+   "say": "Waiting means two withdrawals in one year. Missing one triggers a twenty-five percent excise tax, cut to ten percent if it's fixed in time.",
+   "scene": {
+    "t": "compare",
+    "title": "Missed RMD penalty",
+    "left": {
+     "label": "Missed",
+     "value": "25%",
+     "tone": "down",
+     "sub": "Excise tax"
+    },
+    "right": {
+     "label": "Fixed in time",
+     "value": "10%",
+     "tone": "neutral",
+     "sub": "SECURE 2.0"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gifts follow the calendar too. For 2026, anyone can give up to $19,000 per person without filing a gift tax return.",
+   "say": "Gifts follow the calendar too. For twenty twenty-six, anyone can give up to nineteen thousand dollars per person without filing a gift tax return.",
+   "scene": {
+    "t": "stat",
+    "label": "Gift exclusion",
+    "value": "$19,000",
+    "tone": "neutral",
+    "sub": "Per recipient"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A married couple can combine theirs to give $38,000 per person. And the limit resets every January 1.",
+   "say": "A married couple can combine theirs to give thirty-eight thousand dollars per person. And the limit resets every January first.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "One giver",
+     "value": "$19,000"
+    },
+    "to": {
+     "label": "Married couple",
+     "value": "$38,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: What the 2025 tax law changed.",
+   "say": "Chapter five: what the twenty twenty-five tax law changed.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "New tax law changes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2025 tax law, often called the One Big Beautiful Bill Act, shifted a few year-end numbers for 2026.",
+   "say": "The twenty twenty-five tax law, often called the One Big Beautiful Bill Act, shifted a few year-end numbers for twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "2025 tax law signed July 4, 2025",
+    "source": "Public Law 119-21",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2026 standard deduction is $16,100 for single filers and $32,200 for married couples filing jointly.",
+   "say": "The twenty twenty-six standard deduction is sixteen thousand one hundred dollars for single filers, and thirty-two thousand two hundred for married couples filing jointly.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 standard deduction",
+    "left": {
+     "label": "Single",
+     "value": "$16,100",
+     "tone": "neutral",
+     "sub": "IRS, Oct 2025"
+    },
+    "right": {
+     "label": "Joint",
+     "value": "$32,200",
+     "tone": "neutral",
+     "sub": "IRS, Oct 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The big new one is charity. Starting in 2026, people who take the standard deduction can still deduct cash gifts to qualifying charities.",
+   "say": "The big new one is charity. Starting in twenty twenty-six, people who take the standard deduction can still deduct cash gifts to qualifying charities.",
+   "scene": {
+    "t": "hook",
+    "title": "Charity [counts] again",
+    "prop": "box",
+    "label": "GIFT",
+    "value": "$1,000",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The cap is $1,000 for single filers and $2,000 for joint filers.",
+   "say": "The cap is one thousand dollars for single filers and two thousand dollars for joint filers.",
+   "scene": {
+    "t": "compare",
+    "title": "Non-itemizer charity cap",
+    "left": {
+     "label": "Single",
+     "value": "$1,000",
+     "tone": "up",
+     "sub": "Cash gifts"
+    },
+    "right": {
+     "label": "Joint",
+     "value": "$2,000",
+     "tone": "up",
+     "sub": "Cash gifts"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a single filer in the 22% bracket gives $1,000 in cash. That's $220 less federal tax.",
+   "say": "Example: a single filer in the twenty-two percent bracket gives one thousand dollars in cash. That's two hundred twenty dollars less federal tax.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example, 22% bracket:",
+     "$1,000 x 22%",
+     "= $220 less tax"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The gift has to be made by December 31, 2026 to count for 2026.",
+   "say": "The gift has to be made by December thirty-first, twenty twenty-six, to count for twenty twenty-six.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Give by 12/31/2026",
+     "to count for 2026"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People who itemize face a new floor. Only giving above 0.5% of income counts. At $200,000 of income, the first $1,000 doesn't.",
+   "say": "People who itemize face a new floor. Only giving above half a percent of income counts. At two hundred thousand dollars of income, the first thousand doesn't.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Itemizers: 0.5% floor",
+     "$200,000 x 0.5% = $1,000"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The SALT cap on state and local taxes is $40,400 for 2026, up from $10,000 through 2024, and it phases down above $505,000 of income.",
+   "say": "The SALT cap on state and local taxes is forty thousand four hundred dollars for twenty twenty-six, up from ten thousand through twenty twenty-four, and it phases down above five hundred five thousand of income.",
+   "scene": {
+    "t": "compare",
+    "title": "SALT deduction cap",
+    "left": {
+     "label": "Through 2024",
+     "value": "$10,000",
+     "tone": "neutral",
+     "sub": "Old cap"
+    },
+    "right": {
+     "label": "2026",
+     "value": "$40,400",
+     "tone": "up",
+     "sub": "Phases down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For people 65 and older, there's a new deduction of up to $6,000 each, from 2025 through 2028, with income limits.",
+   "say": "For people sixty-five and older, there's a new deduction of up to six thousand dollars each, from twenty twenty-five through twenty twenty-eight, with income limits.",
+   "scene": {
+    "t": "stat",
+    "label": "Senior deduction",
+    "value": "$6,000",
+    "tone": "up",
+    "sub": "Age 65+, 2025-28"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And there are Trump Accounts for kids. Contributions opened July 4, 2026, up to $5,000 a year.",
+   "say": "And there are Trump Accounts for kids. Contributions opened July fourth, twenty twenty-six, up to five thousand dollars a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Trump Account cap",
+    "value": "$5,000",
+    "tone": "neutral",
+    "sub": "Per child a year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "US-citizen kids born 2025 through 2028 can get a $1,000 federal deposit, elected on IRS Form 4547.",
+   "say": "US-citizen kids born twenty twenty-five through twenty twenty-eight can get a one thousand dollar federal deposit, elected on IRS Form forty-five forty-seven.",
+   "scene": {
+    "t": "hook",
+    "title": "A [$1,000] seed",
+    "prop": "coins",
+    "label": "KIDS",
+    "value": "$1,000",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By March 31, 2026, the IRS said more than 4 million children were signed up.",
+   "say": "By March thirty-first, twenty twenty-six, the IRS said more than four million children were signed up.",
+   "scene": {
+    "t": "stat",
+    "label": "Kids signed up",
+    "value": "4M+",
+    "tone": "up",
+    "sub": "IRS, Mar 31, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Accounts and goals.",
+   "say": "Chapter six: accounts and goals.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Accounts + goals"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Year-end is a natural time to check credit reports. All three bureaus offer free weekly reports at AnnualCreditReport.com.",
+   "say": "Year-end is a natural time to check credit reports. All three bureaus offer free weekly reports at Annual Credit Report dot com.",
+   "scene": {
+    "t": "stat",
+    "label": "Credit reports",
+    "value": "Free",
+    "tone": "up",
+    "sub": "Weekly, per FTC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Checking your own report doesn't hurt your score. People look for accounts they don't recognize and wrong balances.",
+   "say": "Checking your own report doesn't hurt your score. People look for accounts they don't recognize and wrong balances.",
+   "scene": {
+    "t": "list",
+    "title": "Credit report scan",
+    "items": [
+     "Unknown accounts",
+     "Wrong balances",
+     "Old addresses"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, beneficiaries. On a 401(k), IRA or life insurance policy, the beneficiary form usually decides who gets the money, not a will.",
+   "say": "Next, beneficiaries. On a 401(k), IRA or life insurance policy, the beneficiary form usually decides who gets the money, not a will.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Beneficiary form",
+     "usually beats a will"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Marriage, divorce or a new baby in 2026? Those are the classic reasons a form goes out of date.",
+   "say": "Marriage, divorce or a new baby in twenty twenty-six? Those are the classic reasons a form goes out of date.",
+   "scene": {
+    "t": "list",
+    "title": "Update triggers",
+    "items": [
+     "Marriage",
+     "Divorce",
+     "New baby"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then withholding. If 2026 brought a raise or a side gig, the IRS Tax Withholding Estimator shows whether 2027 paychecks need a new W-4.",
+   "say": "Then withholding. If twenty twenty-six brought a raise or a side gig, the IRS Tax Withholding Estimator shows whether twenty twenty-seven paychecks need a new W-4.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "IRS Withholding",
+     "Estimator -> new W-4?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our last two guides covered the W-2 and a first tax return. Here, it's just saving documents as they arrive.",
+   "say": "Our last two guides covered the W-2 and a first tax return. Here, it's just saving documents as they arrive.",
+   "scene": {
+    "t": "list",
+    "title": "Tax folder",
+    "items": [
+     "W-2s",
+     "1099s",
+     "Charity receipts"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Finally, goals. A simple version is three numbers: what was saved in 2026, the total debt, and one target for 2027.",
+   "say": "Finally, goals. A simple version is three numbers: what was saved in twenty twenty-six, the total debt, and one target for twenty twenty-seven.",
+   "scene": {
+    "t": "list",
+    "title": "Three numbers",
+    "items": [
+     "Saved in 2026",
+     "Total debt",
+     "2027 target"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A target with a number and a date is easier to track than \"save more.\"",
+   "say": "A target with a number and a date is easier to track than just saving more.",
+   "scene": {
+    "t": "split",
+    "title": "Goal setting",
+    "left": {
+     "title": "Vague",
+     "items": [
+      "Save more",
+      "Spend less"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Specific",
+     "items": [
+      "+1% 401(k)",
+      "$500 by June"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 7: The one-screen checklist.",
+   "say": "Chapter seven: the one-screen checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "The checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By December 31, 2026: the FSA balance, spent or planned for.",
+   "say": "By December thirty-first, twenty twenty-six: the FSA balance, spent or planned for.",
+   "scene": {
+    "t": "list",
+    "title": "By Dec 31, 2026",
+    "items": [
+     "Spend FSA",
+     "401(k) by 12/31",
+     "Gains + losses",
+     "RMDs + gifts"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "401(k) contributions, through payroll.",
+   "say": "401(k) contributions, through payroll.",
+   "scene": {
+    "t": "list",
+    "title": "By Dec 31, 2026",
+    "items": [
+     "Spend FSA",
+     "401(k) by 12/31",
+     "Gains + losses",
+     "RMDs + gifts"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Any gain harvesting or loss harvesting, minding the wash-sale window.",
+   "say": "Any gain harvesting or loss harvesting, minding the wash-sale window.",
+   "scene": {
+    "t": "list",
+    "title": "By Dec 31, 2026",
+    "items": [
+     "Spend FSA",
+     "401(k) by 12/31",
+     "Gains + losses",
+     "RMDs + gifts"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And RMDs, gifts and charity gifts for 2026.",
+   "say": "And R M Ds, gifts and charity gifts for twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "By Dec 31, 2026",
+    "items": [
+     "Spend FSA",
+     "401(k) by 12/31",
+     "Gains + losses",
+     "RMDs + gifts"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By April 15, 2027: IRA contributions for 2026, up to $7,500.",
+   "say": "By April fifteenth, twenty twenty-seven: IRA contributions for twenty twenty-six, up to seventy-five hundred dollars.",
+   "scene": {
+    "t": "list",
+    "title": "By Apr 15, 2027",
+    "items": [
+     "IRA: $7,500",
+     "HSA: $4,400",
+     "File return"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "HSA contributions, up to $4,400 self-only or $8,750 family.",
+   "say": "HSA contributions, up to forty-four hundred self-only, or eight thousand seven hundred fifty family.",
+   "scene": {
+    "t": "list",
+    "title": "By Apr 15, 2027",
+    "items": [
+     "IRA: $7,500",
+     "HSA: $4,400",
+     "File return"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the 2026 return itself.",
+   "say": "And the twenty twenty-six return itself.",
+   "scene": {
+    "t": "list",
+    "title": "By Apr 15, 2027",
+    "items": [
+     "IRA: $7,500",
+     "HSA: $4,400",
+     "File return"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Anytime in December: credit reports, beneficiary forms, withholding, and three goal numbers.",
+   "say": "Anytime in December: credit reports, beneficiary forms, withholding, and three goal numbers.",
+   "scene": {
+    "t": "list",
+    "title": "Anytime in December",
+    "items": [
+     "Credit reports",
+     "Beneficiaries",
+     "Withholding",
+     "3 goal numbers"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back to the start: about half of FSA holders forfeited money in 2022, an average of $441.",
+   "say": "Back to the start: about half of FSA holders forfeited money in twenty twenty-two, an average of four hundred forty-one dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "Half [lost] FSA money",
+    "prop": "bag",
+    "label": "FSA",
+    "value": "$441",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of this list isn't about earning more. It's about not missing a date.",
+   "say": "Most of this list isn't about earning more. It's about not missing a date.",
+   "scene": {
+    "t": "split",
+    "title": "Year-end",
+    "left": {
+     "title": "Missed",
+     "items": [
+      "Forfeited FSA",
+      "Lost catch-up",
+      "RMD penalty"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "On time",
+     "items": [
+      "Money kept",
+      "Limits used",
+      "No penalty"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two dates, December 31 and April 15. With both on the calendar, the rest is a checklist.",
+   "say": "Two dates, December thirty-first and April fifteenth. With both on the calendar, the rest is a checklist.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Two dates. One checklist."
+   }
+  }
+ ],
+ "post": {
+  "title": "Half of FSA holders forfeited money in 2022. Your end-of-year money checklist for 2026.",
+  "ig": "About half of FSA holders forfeited money in 2022. Here's the end-of-year checklist, with every official 2026 limit and deadline.",
+  "tiktok": "Average FSA forfeit in 2022: $441. The two dates that decide your year-end money.",
+  "yt_desc": "About half of FSA holders forfeited money to their employers in 2022, an average of $441, according to EBRI. This guide walks through the end-of-year money checklist for tax year 2026: what is due by December 31, 2026 versus April 15, 2027; the official 2026 limits for 401(k)s ($24,500, with $8,000 and $11,250 catch-ups and the new Roth catch-up rule), IRAs ($7,500), HSAs ($4,400/$8,750) and FSAs ($3,400, $680 carryover); the 0% capital gains bracket with worked math; tax-loss harvesting and the wash-sale rule; RMDs; the $19,000 gift exclusion; and 2026 changes from the 2025 tax law, including the new $1,000/$2,000 charitable deduction for non-itemizers, the $40,400 SALT cap and Trump Accounts. It ends with credit reports, beneficiaries, withholding, goals and a one-screen checklist.\n\nCHAPTERS\n\nSources: IRS Notice 2025-67 (Nov 13, 2025); IRS Rev. Proc. 2025-19 (May 1, 2025); IRS Rev. Proc. 2025-32 (Oct 9, 2025); IRS IR-2015-126 and Publication 969; Treasury/IRS final Roth catch-up regulations (Sep 15, 2025); EBRI, Vital Statistics on Flexible Spending Accounts, 2022 (May 2024); IRS newsroom on Trump Accounts (data as of Mar 31, 2026); FTC on free weekly credit reports; Franklin Templeton and Eaton Vance on 2026 tax law changes (Jan 2026); Morningstar on SECURE 2.0 RMD penalties.\n\nNews and education, not financial advice.\n\n#taxes #personalfinance #yearend",
+  "tags": [
+   "end of year money checklist",
+   "2026 401k limit",
+   "FSA use it or lose it",
+   "2026 HSA limit",
+   "0% capital gains 2026",
+   "tax loss harvesting",
+   "wash sale rule",
+   "charitable deduction 2026",
+   "Trump Accounts",
+   "RMD deadline"
+  ]
+ }
+}
