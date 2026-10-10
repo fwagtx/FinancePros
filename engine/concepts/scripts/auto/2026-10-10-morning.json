@@ -1,0 +1,190 @@
+{
+ "id": "2026-10-10-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Moderna is back\nin the Nasdaq-100",
+ "cover": {
+  "title": "Kicked Out, Back In",
+  "prop": "chart-up",
+  "value": "+14%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Moderna got kicked out of the Nasdaq-100. Now it's back.",
+   "say": "Moderna got kicked out of the Nasdaq one hundred. Now it's back.",
+   "scene": {
+    "t": "hook",
+    "title": "Kicked out, [back] in",
+    "prop": "chart-up",
+    "value": "+14%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On October 9, it rejoined the index. That same day, the stock jumped 14% to $225.",
+   "say": "On October ninth, it rejoined the index. That same day, the stock jumped fourteen percent, to two hundred twenty-five dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Moderna close, Oct 9",
+    "value": "$225",
+    "tone": "up",
+    "sub": "+14% on the day",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It ended 2025 near $30. That's up more than 600% in 2026.",
+   "say": "It ended twenty twenty-five near thirty dollars. That's up more than six hundred percent in twenty twenty-six.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "End of 2025",
+     "value": "~$30"
+    },
+    "to": {
+     "label": "Oct 9, 2026",
+     "value": "$225"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rewind to December 2024: after a drop of nearly 60% that year, Nasdaq cut it.",
+   "say": "Rewind to December twenty twenty-four. After a drop of nearly sixty percent that year, Nasdaq cut it.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2024",
+      "Dropped, down ~58%"
+     ],
+     [
+      "Aug",
+      "Cancer vaccine win"
+     ],
+     [
+      "Oct 9",
+      "Back in the index"
+     ]
+    ],
+    "reveal": 1,
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August, its cancer vaccine with Merck hit its main goal in a late-stage trial, and the stock took off.",
+   "say": "In August, its cancer vaccine with Merck hit its main goal in a late-stage trial, and the stock took off.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "2024",
+      "Dropped, down ~58%"
+     ],
+     [
+      "Aug",
+      "Cancer vaccine win"
+     ],
+     [
+      "Oct 9",
+      "Back in the index"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It got back in when Warner Bros. Discovery left after Paramount bought it.",
+   "say": "It got back in when Warner Brothers Discovery left after Paramount bought it.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "2024",
+      "Dropped, down ~58%"
+     ],
+     [
+      "Aug",
+      "Cancer vaccine win"
+     ],
+     [
+      "Oct 9",
+      "Back in the index"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the money part: index funds follow rules, not hunches.",
+   "say": "Here's the money part. Index funds follow rules, not hunches.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Index funds follow rules",
+     "Shrink: you can be cut",
+     "Grow: you can get back in"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So Nasdaq-100 funds missed most of this run and buy in after the jump. The upside: no guessing the winner.",
+   "say": "So Nasdaq one hundred funds missed most of this run and buy in after the jump. The upside: no guessing the winner.",
+   "scene": {
+    "t": "split",
+    "title": "Rules-based",
+    "left": {
+     "title": "Downside",
+     "items": [
+      "Buys after runs",
+      "Cuts after drops"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Upside",
+     "items": [
+      "No guessing",
+      "Low effort"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Moderna got kicked out of the Nasdaq-100. Now it's back.",
+  "ig": "Moderna got kicked out of the Nasdaq-100. Now it's back.\nModerna rejoined the Nasdaq-100 on Oct 9, 2026, replacing Warner Bros. Discovery, and the same day its stock closed up 14% at $225.\nIt ended 2025 near $30 a share, a gain of more than 600% in 2026, after its Merck-partnered cancer vaccine hit its main goal in a late-stage trial in August.\nNasdaq dropped it in December 2024, after the stock fell nearly 60% that year. Index funds follow rules, not hunches.\nSources: Nasdaq, Yahoo Finance, Benzinga, Morningstar (Oct 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#moderna #nasdaq100 #indexfunds #investing #financeprostv",
+  "tiktok": "Moderna got kicked out of the Nasdaq-100. Now it's back, up 600%+ in 2026. Not financial advice. #moneytok #personalfinance #moderna #financeprostv",
+  "yt_desc": "Moderna rejoined the Nasdaq-100 on Oct 9, 2026, replacing Warner Bros. Discovery, and the same day its stock closed up 14% at $225, more than 600% above its 2025 year-end price near $30. Nasdaq had dropped it in December 2024 after a nearly 60% slide; index funds follow those rules, not hunches. Sources: Nasdaq, Yahoo Finance, Benzinga. News and education, not financial advice. #Shorts #moderna #indexfunds",
+  "tags": [
+   "Moderna stock",
+   "Nasdaq-100",
+   "index funds",
+   "how index funds work",
+   "personal finance"
+  ]
+ }
+}
