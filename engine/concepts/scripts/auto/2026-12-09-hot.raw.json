@@ -1,0 +1,209 @@
+{
+  "series": "ticker",
+  "header": "Splitting bills:\n50/50 or by income?",
+  "cover": {
+    "title": "50/50 or Split by Income?",
+    "prop": "bill",
+    "label": "$3K",
+    "value": "37.5%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "50/50 bills can take a much bigger bite from one paycheck.",
+      "say": "Fifty-fifty bills can take a much bigger bite from one paycheck.",
+      "scene": {
+        "t": "hook",
+        "title": "50/50 or by [income]?",
+        "prop": "bill",
+        "label": "$3K",
+        "value": "37.5%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: you take home $6,000 a month, your partner $4,000, and bills are $3,000.",
+      "say": "Example: you take home six thousand a month, your partner four thousand, and bills are three thousand.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "EXAMPLE, per month",
+          "Take-home: $6,000 + $4,000",
+          "Shared bills: $3,000"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Split 50/50, that's $1,500 each: 25% of one paycheck, 37.5% of the other.",
+      "say": "Split fifty-fifty, that's fifteen hundred each: twenty-five percent of one paycheck, thirty-seven and a half of the other.",
+      "scene": {
+        "t": "compare",
+        "title": "50/50 split",
+        "left": {
+          "label": "$6K earner",
+          "value": "25%",
+          "tone": "neutral",
+          "sub": "$1,500 of $6,000"
+        },
+        "right": {
+          "label": "$4K earner",
+          "value": "37.5%",
+          "tone": "down",
+          "sub": "$1,500 of $4,000"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "By income, it's 60/40: $1,800 and $1,200, 30% of each paycheck.",
+      "say": "By income, it's sixty-forty: eighteen hundred and twelve hundred, thirty percent of each paycheck.",
+      "scene": {
+        "t": "compare",
+        "title": "Split by income",
+        "left": {
+          "label": "$6K earner",
+          "value": "30%",
+          "tone": "neutral",
+          "sub": "$1,800 of $6,000"
+        },
+        "right": {
+          "label": "$4K earner",
+          "value": "30%",
+          "tone": "neutral",
+          "sub": "$1,200 of $4,000"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Same $3,000 either way: one splits the dollars, the other splits the percentage.",
+      "say": "Same three thousand either way: one splits the dollars, the other splits the percentage.",
+      "scene": {
+        "t": "split",
+        "title": "Equal what?",
+        "left": {
+          "title": "50/50",
+          "items": [
+            "Same dollars",
+            "Simple math"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "By income",
+          "items": [
+            "Same % of pay",
+            "Recalc on raises"
+          ],
+          "tone": "neutral"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Per Pew, 71% of opposite-sex marriages in 2022 had one spouse earning over 60% of the pay.",
+      "say": "Per Pew, seventy-one percent of opposite-sex marriages in twenty twenty-two had one spouse earning over sixty percent of the pay.",
+      "scene": {
+        "t": "stat",
+        "label": "One earns over 60%",
+        "value": "71%",
+        "tone": "neutral",
+        "sub": "Pew, 2022 data",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2025, full-time women's median weekly pay was 82.1% of men's, per the BLS.",
+      "say": "In twenty twenty-five, full-time women's median weekly pay was eighty-two point one percent of men's, per the B L S.",
+      "scene": {
+        "t": "chart",
+        "title": "Women's pay, % of men's",
+        "points": [
+          [
+            2019,
+            81.5
+          ],
+          [
+            2020,
+            82.3
+          ],
+          [
+            2021,
+            83.1
+          ],
+          [
+            2022,
+            83.0
+          ],
+          [
+            2023,
+            83.6
+          ],
+          [
+            2024,
+            82.7
+          ],
+          [
+            2025,
+            82.1
+          ]
+        ],
+        "suffix": "%",
+        "end": "82.1%",
+        "color": "down",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A 2024 UK YouGov poll found 46% of working couples split 50/50, 38% by income.",
+      "say": "A twenty twenty-four UK YouGov poll found forty-six percent of working couples split fifty-fifty, thirty-eight percent by income.",
+      "scene": {
+        "t": "compare",
+        "title": "UK couples, YouGov 2024",
+        "left": {
+          "label": "Split 50/50",
+          "value": "46%",
+          "tone": "neutral",
+          "sub": "both partners work"
+        },
+        "right": {
+          "label": "Split by income",
+          "value": "38%",
+          "tone": "neutral",
+          "sub": "both partners work"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "mood": "happy"
+      }
+    }
+  ],
+  "post": {
+    "title": "Splitting bills 50/50 vs by income: the math on $3,000",
+    "ig": "50/50 bills can take a much bigger bite from one paycheck.\nExample: $6,000 and $4,000 take-home, $3,000 in shared bills. 50/50 = $1,500 each = 25% vs 37.5% of pay. By income (60/40) = $1,800 and $1,200 = 30% of each paycheck.\nPew: in 2022, 71% of opposite-sex US marriages had one spouse earning over 60% of the couple's pay.\nBLS: full-time women's median weekly pay was 82.1% of men's in 2025.\nYouGov (UK, 2024): 46% of working couples split 50/50, 38% split by income.\nSources: Pew Research Center (2023), BLS Usual Weekly Earnings (2025 annual averages), YouGov (2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#couplesandmoney #splittingbills #budgeting #personalfinance #financeprostv",
+    "tiktok": "50/50 bills vs split by income: same $3,000, different % of pay. Not financial advice. #moneytok #personalfinance #couples #budgeting #financeprostv",
+    "yt_desc": "Example: with $6,000 and $4,000 take-home pay and $3,000 in shared bills, a 50/50 split costs 25% vs 37.5% of each paycheck, while splitting by income (60/40) costs 30% of each. Pew found 71% of opposite-sex US marriages in 2022 had one spouse earning over 60% of combined pay, and BLS data put full-time women's median weekly pay at 82.1% of men's in 2025. In a 2024 YouGov UK poll, 46% of working couples split 50/50 and 38% by income. News and education, not financial advice.\n#Shorts #couplesandmoney #budgeting",
+    "tags": [
+      "split bills 50 50",
+      "split bills by income",
+      "couples money",
+      "fair way to split bills",
+      "budgeting for couples"
+    ]
+  }
+}
