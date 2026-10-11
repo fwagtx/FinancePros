@@ -1,0 +1,217 @@
+{
+ "id": "2026-10-11-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Inflation report\nlands Wednesday",
+ "cover": {
+  "title": "The Number That Moves The Fed",
+  "prop": "chart-up",
+  "label": "CPI",
+  "value": "Oct 14"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The Fed hiked last month. Wednesday, we see if inflation's still climbing.",
+   "say": "The Fed hiked last month. Wednesday, we see if inflation's still climbing.",
+   "scene": {
+    "t": "hook",
+    "title": "The [Wednesday] number",
+    "prop": "chart-up",
+    "label": "CPI",
+    "value": "Oct 14",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August, prices were up 3.4% from a year earlier. Forecasts for September: about 3.6%.",
+   "say": "In August, prices were up three point four percent from a year earlier. Forecasts for September? About three point six.",
+   "scene": {
+    "t": "compare",
+    "title": "CPI, year over year",
+    "left": {
+     "label": "August",
+     "value": "3.4%",
+     "tone": "neutral",
+     "sub": "BLS, actual"
+    },
+    "right": {
+     "label": "Sept forecast",
+     "value": "~3.6%",
+     "tone": "up",
+     "sub": "Consensus forecast"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, inflation climbed from 2.4% in January to a 4.2% peak in May as gas prices soared.",
+   "say": "In twenty twenty-six, inflation climbed from two point four percent in January to a four point two percent peak in May, as gas prices soared.",
+   "scene": {
+    "t": "chart",
+    "title": "US inflation, 2026",
+    "points": [
+     [
+      1,
+      2.4
+     ],
+     [
+      2,
+      2.4
+     ],
+     [
+      3,
+      3.3
+     ],
+     [
+      4,
+      3.8
+     ],
+     [
+      5,
+      4.2
+     ],
+     [
+      6,
+      3.5
+     ],
+     [
+      7,
+      3.4
+     ],
+     [
+      8,
+      3.4
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.4%",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So on September 16, the Fed raised rates to 3.75%-4%, its first hike since 2023.",
+   "say": "So on September sixteenth, the Fed raised rates to three point seven five to four percent, its first hike since twenty twenty-three.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75%-4%",
+    "caption": "First hike since 2023",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the week ahead. Tuesday, October 13, big banks start reporting earnings.",
+   "say": "Now the week ahead. Tuesday, October thirteenth, big banks start reporting earnings.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "10/13",
+      "Big banks report"
+     ],
+     [
+      "10/14",
+      "September CPI"
+     ],
+     [
+      "10/28",
+      "Fed rate decision"
+     ]
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wednesday at 8:30 AM Eastern, the September inflation report drops.",
+   "say": "Wednesday at eight thirty Eastern, the September inflation report drops.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "10/13",
+      "Big banks report"
+     ],
+     [
+      "10/14",
+      "September CPI"
+     ],
+     [
+      "10/28",
+      "Fed rate decision"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And on October 28, the Fed decides again.",
+   "say": "And on October twenty-eighth, the Fed decides again.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "10/13",
+      "Big banks report"
+     ],
+     [
+      "10/14",
+      "September CPI"
+     ],
+     [
+      "10/28",
+      "Fed rate decision"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why care? Credit card and home equity line rates usually move with the Fed's rate. Savings yields tend to follow, more slowly.",
+   "say": "Why care? Credit card and home equity line rates usually move with the Fed's rate. Savings yields tend to follow, more slowly.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fed rate moves...",
+     "card + HELOC rates follow",
+     "savings yields lag"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Inflation report Wednesday: what to watch",
+  "ig": "The Fed hiked last month. Wednesday, we see if inflation's still climbing.\nSeptember CPI comes out Wed, Oct 14, 2026, at 8:30 AM ET. Forecasts point to about 3.6% a year, up from 3.4% in August.\nInflation peaked at 4.2% in May 2026 as gas prices soared. On Sept 16 the Fed raised rates to 3.75%-4%, its first hike since 2023.\nNext Fed decision: Oct 28. Card and HELOC rates usually move with the Fed's rate; savings yields tend to lag.\nSources: BLS, Federal Reserve, consensus forecasts (Oct 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#inflation #cpi #federalreserve #interestrates #financeprostv",
+  "tiktok": "Sept CPI drops Wed, Oct 14 after the Fed hiked last month. Not financial advice. #moneytok #personalfinance #inflation #financeprostv",
+  "yt_desc": "The September 2026 CPI report comes out Wednesday, October 14, with forecasts near 3.6% after 3.4% in August. The Fed raised rates to 3.75%-4% on September 16, its first hike since 2023, and decides again October 28. Sources: BLS, Federal Reserve, consensus forecasts. News and education, not financial advice. #Shorts #inflation #federalreserve",
+  "tags": [
+   "CPI October 2026",
+   "inflation report",
+   "Fed rate hike",
+   "interest rates",
+   "personal finance"
+  ]
+ }
+}
