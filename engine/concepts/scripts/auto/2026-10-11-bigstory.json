@@ -1,0 +1,196 @@
+{
+ "id": "2026-10-11-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Diesel +71% in a year\nThe weekend twist",
+ "cover": {
+  "title": "Diesel Is Up 71%",
+  "prop": "bag",
+  "label": "$6.28",
+  "value": "+71%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Diesel costs 71% more than a year ago, per AAA.",
+   "say": "Diesel costs seventy-one percent more than a year ago.",
+   "scene": {
+    "t": "hook",
+    "title": "Diesel is up [71%]",
+    "prop": "bag",
+    "label": "$6.28",
+    "value": "+71%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Sunday, Trump said Russia and Ukraine agreed to an energy ceasefire.",
+   "say": "On Sunday, Trump said Russia and Ukraine agreed to an energy ceasefire.",
+   "scene": {
+    "t": "news",
+    "headline": "Trump says energy ceasefire agreed",
+    "source": "CNN, AFP, Oct 11, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "EIA: a record $6.529 a gallon the week of Sept 21, then $6.199 the week of Oct 5.",
+   "say": "Government data shows a record near six fifty-three a gallon in late September, then about six twenty in early October.",
+   "scene": {
+    "t": "chart",
+    "title": "Weekly diesel, 2026 (EIA)",
+    "points": [
+     [
+      "8/31",
+      5.599
+     ],
+     [
+      "9/7",
+      5.967
+     ],
+     [
+      "9/14",
+      6.285
+     ],
+     [
+      "9/21",
+      6.529
+     ],
+     [
+      "9/28",
+      6.382
+     ],
+     [
+      "10/5",
+      6.199
+     ]
+    ],
+    "prefix": "$",
+    "end": "$6.199",
+    "color": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Friday: a Trump-Putin diesel deal and a US sanctions waiver. Saturday: Russia eased its export ban. Sunday: the ceasefire claim.",
+   "say": "Friday, a Putin diesel deal and a sanctions waiver. Saturday, Russia eased its export ban. Sunday, the ceasefire claim.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "10/9",
+      "Trump-Putin deal"
+     ],
+     [
+      "10/10",
+      "Russia eases ban"
+     ],
+     [
+      "10/11",
+      "Ceasefire claim"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Trump says Russia will ship 300,000+ tons now, then 500,000 tons in November.",
+   "say": "Trump says Russia will ship over three hundred thousand tons now, then five hundred thousand in November.",
+   "scene": {
+    "t": "compare",
+    "title": "Russian diesel, per Trump",
+    "left": {
+     "label": "Now",
+     "value": "300K+",
+     "tone": "neutral",
+     "sub": "tons, right away"
+    },
+    "right": {
+     "label": "November",
+     "value": "500K",
+     "tone": "neutral",
+     "sub": "tons"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Experts doubt prices move much. Michael Lynch, quoted in Fortune: \"It's kind of shuffling deck chairs on the Titanic.\"",
+   "say": "Experts doubt prices move much. One said, quote, it's kind of shuffling deck chairs on the Titanic.",
+   "scene": {
+    "t": "quote",
+    "text": "It's kind of shuffling deck chairs on the Titanic.",
+    "source": "Michael Lynch, EPRF, via Fortune, Oct 10, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why it matters: diesel moves trucks, trains and tractors, so it's baked into shipping and food costs.",
+   "say": "Why it matters: diesel moves trucks, trains and tractors, so it's baked into shipping and food costs.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Diesel moves trucks,",
+     "trains and tractors",
+     "= shipping + food costs"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of Sunday, Moscow hadn't confirmed it. Zelensky called it \"news for me.\" A similar claim in September didn't stop strikes.",
+   "say": "Moscow hadn't confirmed it, and Zelensky called it, quote, news for me. A similar claim in September didn't stop strikes.",
+   "scene": {
+    "t": "split",
+    "title": "Where it stands",
+    "left": {
+     "title": "Done",
+     "items": [
+      "Sanctions waiver",
+      "Export ban eased"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Unclear",
+     "items": [
+      "Kremlin's answer",
+      "Ceasefire terms"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Diesel Is Up 71% in a Year. Then Came Sunday's Surprise",
+  "ig": "Diesel costs 71% more than a year ago, per AAA.\nAAA: national average about $6.28 a gallon, after a record $6.53 on Sept 22. EIA's weekly record was $6.529 (week of Sept 21, 2026).\nOct 9: Trump announced a diesel deal with Putin; Treasury waived sanctions on Russian diesel through April 2027.\nOct 10: Russia partly lifted its diesel export ban (about 500,000 tons).\nOct 11: Trump said Russia and Ukraine agreed to an energy ceasefire (a similar claim in September didn't stop strikes); Moscow had not confirmed and Zelensky called it \"news for me.\"\nSources: EIA, AAA, CNBC, Fortune, CNN, AFP, Kyiv Independent.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#diesel #gasprices #russia #economy #financeprostv",
+  "tiktok": "Diesel costs 71% more than a year ago. Then came Sunday's surprise. Not financial advice. #moneytok #personalfinance #diesel #economy #financeprostv",
+  "yt_desc": "US diesel averages about $6.28 a gallon, 71% above a year ago (AAA), after an EIA weekly record of $6.529 in September 2026. Trump announced a diesel deal with Putin on Oct 9, Russia partly lifted its export ban on Oct 10, and on Oct 11 Trump said Russia and Ukraine agreed to an energy ceasefire, which Moscow had not confirmed. Sources: EIA, AAA, CNBC, Fortune, CNN, AFP. News and education, not financial advice.\n#Shorts #diesel #economy",
+  "tags": [
+   "diesel prices",
+   "Russia diesel deal",
+   "energy ceasefire",
+   "fuel prices 2026",
+   "Trump Putin"
+  ]
+ }
+}
