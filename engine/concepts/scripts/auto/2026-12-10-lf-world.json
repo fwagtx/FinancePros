@@ -1,0 +1,1574 @@
+{
+ "id": "2026-12-10-lf-world",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "WORLD MONEY",
+ "cover": {
+  "title": "Locked For 43 Years.",
+  "prop": "bill",
+  "label": "7.80",
+  "value": "43 yrs"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Hong Kong's dollar has been locked to yours for 43 years.",
+   "say": "Hong Kong's dollar has been locked to yours for forty-three years.",
+   "scene": {
+    "t": "hook",
+    "title": "Locked for [43] years",
+    "prop": "bill",
+    "label": "7.80",
+    "value": "43 yrs",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since October 1983, it has stayed close to HK$7.80 per US dollar.",
+   "say": "Since October nineteen eighty-three, it's stayed close to seven point eight Hong Kong dollars per US dollar.",
+   "scene": {
+    "t": "stat",
+    "label": "HK$ per US$1",
+    "value": "7.80",
+    "tone": "neutral",
+    "sub": "Linked since 1983"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Defending it once meant the government spending HK$118 billion on stocks in just ten trading days.",
+   "say": "Defending it once meant the government spending a hundred eighteen billion Hong Kong dollars on stocks, in just ten trading days.",
+   "scene": {
+    "t": "stat",
+    "label": "1998 stock buying",
+    "value": "HK$118B",
+    "tone": "down",
+    "sub": "In 10 trading days",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in September 2026, when the Fed raised US interest rates, Hong Kong raised its own the very next day.",
+   "say": "And in September twenty twenty-six, when the Fed raised US interest rates, Hong Kong raised its own rate the very next day.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "HONG KONG MONETARY AUTHORITY",
+    "label": "Rate up",
+    "caption": "Followed the Fed, 9/2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how does a city keep its money nailed to another country's money for four decades?",
+   "say": "So how does a city keep its money nailed to another country's money for four decades?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "How do you nail one",
+     "currency to another?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll cover the crash that created the peg, the machine that runs it, the attack it survived, and how it reaches your wallet.",
+   "say": "We'll cover the crash that created the peg, the machine that runs it, the attack it survived, and how it reaches your wallet.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "The 1983 crash",
+     "The machine",
+     "The 1998 attack",
+     "Your wallet"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick note: this is news and education, not financial advice.",
+   "say": "Quick note: this is news and education, not financial advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "News + education,",
+     "not advice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Black Saturday.",
+   "say": "Chapter one: Black Saturday.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Black Saturday"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before 1983, the Hong Kong dollar floated. Its price moved every day, the way the yen or the euro does.",
+   "say": "Before nineteen eighty-three, the Hong Kong dollar floated. Its price moved every day, the way the yen or the euro does.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Before 1983:",
+     "a floating currency"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then in 1983, confidence cracked. People rushed to swap Hong Kong dollars for US dollars.",
+   "say": "Then in nineteen eighty-three, confidence cracked. People rushed to swap their Hong Kong dollars for US dollars.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Everyone wants me"
+     }
+    ],
+    "caption": "A run on the HK$, 1983",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Saturday, September 24, 1983, it hit a record low of HK$9.60 per US dollar.",
+   "say": "On Saturday, September twenty-fourth, nineteen eighty-three, it hit a record low of nine point six Hong Kong dollars per US dollar.",
+   "scene": {
+    "t": "stat",
+    "label": "Low, Sept 24, 1983",
+    "value": "9.60",
+    "tone": "down",
+    "sub": "HK$ per US$1",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It had lost about 15% across two days of trading. People still call that day Black Saturday.",
+   "say": "It had lost about fifteen percent across two days of trading. People still call that day Black Saturday.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "9/83",
+      "Black Saturday"
+     ],
+     [
+      "10/83",
+      "Peg at 7.80"
+     ],
+     [
+      "1998",
+      "Speculator attack"
+     ],
+     [
+      "2005",
+      "7.75-7.85 band"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three weeks later, on October 17, 1983, the government drew a line in the sand.",
+   "say": "Three weeks later, on October seventeenth, nineteen eighty-three, the government drew a line in the sand.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "9/83",
+      "Black Saturday"
+     ],
+     [
+      "10/83",
+      "Peg at 7.80"
+     ],
+     [
+      "1998",
+      "Speculator attack"
+     ],
+     [
+      "2005",
+      "7.75-7.85 band"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From then on, HK$7.80 would equal one US dollar. It's called the Linked Exchange Rate System.",
+   "say": "From then on, seven Hong Kong dollars and eighty cents would equal one US dollar. It's called the Linked Exchange Rate System.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "HK$7.80 = US$1",
+     "Since Oct 17, 1983"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the low, one US dollar cost HK$9.60. Under the link, it cost HK$7.80.",
+   "say": "At the low, one US dollar cost nine point six Hong Kong dollars. Under the link, it cost seven point eight.",
+   "scene": {
+    "t": "compare",
+    "title": "Price of US$1, 1983",
+    "left": {
+     "label": "Sept 24 low",
+     "value": "9.60",
+     "tone": "down",
+     "sub": "HK$, floating"
+    },
+    "right": {
+     "label": "From Oct 17",
+     "value": "7.80",
+     "tone": "up",
+     "sub": "HK$, linked"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The tool Hong Kong picked is called a currency board. And it's surprisingly simple.",
+   "say": "The tool Hong Kong picked is called a currency board. And it's surprisingly simple.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The tool:",
+     "a currency board"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The money machine.",
+   "say": "Chapter two: the money machine.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The money machine"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the part that surprises people: most Hong Kong banknotes aren't issued by the government.",
+   "say": "Here's the part that surprises people: most Hong Kong banknotes aren't issued by the government at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Most HK banknotes:",
+     "not issued by govt"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They're issued by three commercial banks: HSBC, Standard Chartered and Bank of China Hong Kong.",
+   "say": "They're issued by three commercial banks: HSBC, Standard Chartered, and Bank of China Hong Kong.",
+   "scene": {
+    "t": "list",
+    "title": "Who issues HK notes",
+    "items": [
+     "HSBC",
+     "Std Chartered",
+     "Bank of China HK",
+     "Govt: $10 note"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The government only issues the $10 note.",
+   "say": "The government only issues the ten-dollar note.",
+   "scene": {
+    "t": "list",
+    "title": "Who issues HK notes",
+    "items": [
+     "HSBC",
+     "Std Chartered",
+     "Bank of China HK",
+     "Govt: $10 note"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But those banks can't just print money. To issue HK$7.80 in notes, a bank must first hand over one US dollar.",
+   "say": "But those banks can't just print money. To issue seven dollars and eighty cents in notes, a bank must first hand over one US dollar.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Bank pays",
+     "value": "US$1"
+    },
+    "to": {
+     "label": "May issue",
+     "value": "HK$7.80"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That dollar goes into the Exchange Fund, and the bank gets a certificate of indebtedness in return.",
+   "say": "That dollar goes into the Exchange Fund, and the bank gets a certificate of indebtedness in return.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "HONG KONG MONETARY AUTHORITY",
+    "label": "US$ in",
+    "caption": "Into the Exchange Fund"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Want the US dollar back? Hand back the notes, and it's paid out at the same 7.80.",
+   "say": "Want the US dollar back? Hand back the notes, and it's paid out at the same seven point eight.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Notes back -> US$ out",
+     "always at 7.80"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a currency board: the base money is backed by US dollars at a fixed rate.",
+   "say": "That's a currency board: the city's base money is backed by US dollars at a fixed rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Currency board:",
+     "base money backed by US$"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fact, it's backed more than fully. On August 31, 2026, the backing ratio was 112%.",
+   "say": "In fact, it's backed more than fully. On August thirty-first, twenty twenty-six, the backing ratio was one hundred twelve percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Backing ratio",
+    "value": "112%",
+    "tone": "up",
+    "sub": "Aug 31, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about HK$2.3 trillion of backing assets for a monetary base of about HK$2.1 trillion.",
+   "say": "That's about two point three trillion Hong Kong dollars of backing assets, for a monetary base of about two point one trillion.",
+   "scene": {
+    "t": "compare",
+    "title": "Backing, Aug 31, 2026",
+    "left": {
+     "label": "Backing assets",
+     "value": "HK$2.3T",
+     "tone": "up",
+     "sub": "In US$ assets"
+    },
+    "right": {
+     "label": "Monetary base",
+     "value": "HK$2.1T",
+     "tone": "neutral",
+     "sub": "Notes, bank cash"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It all sits in the Exchange Fund, which held about HK$4.3 trillion in assets on August 31, 2026.",
+   "say": "It all sits in the Exchange Fund, which held about four point three trillion Hong Kong dollars in assets on August thirty-first, twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Exchange Fund",
+    "value": "HK$4.3T",
+    "tone": "up",
+    "sub": "Aug 31, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since May 2005, the market rate can move inside a narrow band, from 7.75 to 7.85.",
+   "say": "Since May two thousand five, the market rate can move inside a narrow band, from seven point seven five to seven point eight five.",
+   "scene": {
+    "t": "compare",
+    "title": "The band since 2005",
+    "left": {
+     "label": "Strong side",
+     "value": "7.75",
+     "tone": "up",
+     "sub": "HK$ per US$1"
+    },
+    "right": {
+     "label": "Weak side",
+     "value": "7.85",
+     "tone": "down",
+     "sub": "HK$ per US$1"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If it gets too strong and hits 7.75, the HKMA sells Hong Kong dollars and buys US dollars.",
+   "say": "If it gets too strong and hits seven point seven five, the H K M A sells Hong Kong dollars and buys US dollars.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "HONG KONG MONETARY AUTHORITY",
+    "label": "7.75",
+    "caption": "Strong side: sells HK$"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If it gets too weak and hits 7.85, it does the opposite: it sells US dollars and buys Hong Kong dollars.",
+   "say": "If it gets too weak and hits seven point eight five, it does the opposite: it sells US dollars and buys Hong Kong dollars.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "HONG KONG MONETARY AUTHORITY",
+    "label": "7.85",
+    "caption": "Weak side: buys HK$"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those promises are called Convertibility Undertakings. They kick in automatically when banks ask to trade at the edge.",
+   "say": "Those promises are called Convertibility Undertakings. They kick in automatically when banks ask to trade at the edge.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Convertibility",
+     "Undertakings: 7.75 / 7.85"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the clever bit. Each trade changes the cash banks keep at the HKMA, called the aggregate balance.",
+   "say": "Here's the clever bit. Each trade changes the cash banks keep at the H K M A, called the aggregate balance.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Aggregate balance =",
+     "banks' cash at the HKMA"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the HKMA buys Hong Kong dollars, that pile shrinks. Less cash means Hong Kong's interbank rates, called HIBOR, tend to rise.",
+   "say": "When the H K M A buys Hong Kong dollars, that pile shrinks. Less cash means Hong Kong's interbank rates, called HIBOR, tend to rise.",
+   "scene": {
+    "t": "split",
+    "title": "How the peg self-corrects",
+    "left": {
+     "title": "Weak side",
+     "items": [
+      "HKMA buys HK$",
+      "Cash shrinks",
+      "HIBOR rises"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Strong side",
+     "items": [
+      "HKMA sells HK$",
+      "Cash grows",
+      "HIBOR falls"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Higher rates make holding Hong Kong dollars more attractive, which pulls the currency back from the edge. The strong side works in reverse.",
+   "say": "Higher rates make holding Hong Kong dollars more attractive, which pulls the currency back from the edge. The strong side works in reverse.",
+   "scene": {
+    "t": "split",
+    "title": "How the peg self-corrects",
+    "left": {
+     "title": "Weak side",
+     "items": [
+      "HKMA buys HK$",
+      "Cash shrinks",
+      "HIBOR rises"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Strong side",
+     "items": [
+      "HKMA sells HK$",
+      "Cash grows",
+      "HIBOR falls"
+     ],
+     "tone": "down"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So, mostly, the peg defends itself. No committee vote needed.",
+   "say": "So, mostly, the peg defends itself. No committee vote needed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The peg mostly",
+     "defends itself"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: The 1998 attack.",
+   "say": "Chapter three: the nineteen ninety-eight attack.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The 1998 attack"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That machine faced its toughest test in the Asian financial crisis of 1997 and 1998.",
+   "say": "That machine faced its toughest test in the Asian financial crisis of nineteen ninety-seven and ninety-eight.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "9/83",
+      "Black Saturday"
+     ],
+     [
+      "10/83",
+      "Peg at 7.80"
+     ],
+     [
+      "1998",
+      "Speculator attack"
+     ],
+     [
+      "2005",
+      "7.75-7.85 band"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Currencies across Asia were falling one after another, and speculators bet Hong Kong's would be next.",
+   "say": "Currencies across Asia were falling one after another, and speculators bet Hong Kong's would be next.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1997: Asian currencies",
+     "fall one by one"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On October 23, 1997, cash got so tight that Hong Kong's overnight interbank rate briefly hit 280%.",
+   "say": "On October twenty-third, nineteen ninety-seven, cash got so tight that Hong Kong's overnight interbank rate briefly hit two hundred eighty percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Overnight HIBOR",
+    "value": "280%",
+    "tone": "down",
+    "sub": "Peak, Oct 23, 1997",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the self-defense working: it punishes anyone borrowing Hong Kong dollars to bet against them. But it hurts everyone else too.",
+   "say": "That's the self-defense working: it punishes anyone borrowing Hong Kong dollars to bet against them. But it hurts everyone else too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Self-defense works,",
+     "but it hurts"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So in August 1998, speculators tried what's been called the double play. Step one: bet against Hong Kong stocks.",
+   "say": "So in August nineteen ninety-eight, speculators tried what's been called the double play. Step one: bet against Hong Kong stocks.",
+   "scene": {
+    "t": "list",
+    "title": "The double play",
+    "items": [
+     "Short HK stocks",
+     "Sell HK dollars",
+     "Rates jump",
+     "Stocks fall"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two: sell Hong Kong dollars hard, to push interest rates up.",
+   "say": "Step two: sell Hong Kong dollars hard, to push interest rates up.",
+   "scene": {
+    "t": "list",
+    "title": "The double play",
+    "items": [
+     "Short HK stocks",
+     "Sell HK dollars",
+     "Rates jump",
+     "Stocks fall"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Higher rates drag stock prices down. So even if the peg held, the stock bet could pay off.",
+   "say": "Higher rates drag stock prices down. So even if the peg held, the stock bet could still pay off.",
+   "scene": {
+    "t": "list",
+    "title": "The double play",
+    "items": [
+     "Short HK stocks",
+     "Sell HK dollars",
+     "Rates jump",
+     "Stocks fall"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So from August 14 to 28, 1998, the government did something unusual: it bought stocks itself.",
+   "say": "So from August fourteenth to twenty-eighth, nineteen ninety-eight, the government did something unusual: it bought stocks itself.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "HONG KONG MONETARY AUTHORITY",
+    "label": "Buying",
+    "caption": "Aug 14-28, 1998"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It spent HK$118 billion, about 18% of the Exchange Fund at the time, on 33 Hang Seng index stocks.",
+   "say": "It spent a hundred eighteen billion Hong Kong dollars, about eighteen percent of the Exchange Fund at the time, on thirty-three Hang Seng index stocks.",
+   "scene": {
+    "t": "stat",
+    "label": "1998 stock buying",
+    "value": "HK$118B",
+    "tone": "down",
+    "sub": "33 index stocks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On August 28, the Hang Seng closed at 7,830, 18% above where the buying began.",
+   "say": "On August twenty-eighth, the Hang Seng closed at seven thousand eight hundred thirty, eighteen percent above where the buying began.",
+   "scene": {
+    "t": "stat",
+    "label": "Hang Seng, 8/28/98",
+    "value": "7,830",
+    "tone": "up",
+    "sub": "+18% from Aug 14"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It was controversial. Critics saw a free-market government meddling in prices. Officials said they were stopping market manipulation.",
+   "say": "It was controversial. Critics saw a free-market government meddling in prices. Officials said they were stopping market manipulation.",
+   "scene": {
+    "t": "split",
+    "title": "The 1998 debate",
+    "left": {
+     "title": "Critics",
+     "items": [
+      "Govt in stocks",
+      "Meddling"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Officials",
+     "items": [
+      "Stop rigging",
+      "Save the peg"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On September 5, 1998, the HKMA added seven technical measures to make the system harder to game.",
+   "say": "On September fifth, nineteen ninety-eight, the H K M A added seven technical measures to make the system harder to game.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sept 5, 1998:",
+     "7 technical measures"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By August 2000, the HKMA said it had recovered HK$72.5 billion, with about HK$175 billion in shares still held.",
+   "say": "By August two thousand, the H K M A said it had recovered seventy-two and a half billion, with about a hundred seventy-five billion in shares still held.",
+   "scene": {
+    "t": "stat",
+    "label": "Recovered by 2000",
+    "value": "HK$72.5B",
+    "tone": "up",
+    "sub": "HK$175B still held"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the peg survived.",
+   "say": "And the peg survived.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The peg: survived"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Pushed from both sides.",
+   "say": "Chapter four: pushed from both sides.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Pushed from both sides"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since the band arrived in 2005, both of its edges have been tested.",
+   "say": "Since the band arrived in two thousand five, both of its edges have been tested.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "9/83",
+      "Black Saturday"
+     ],
+     [
+      "10/83",
+      "Peg at 7.80"
+     ],
+     [
+      "1998",
+      "Speculator attack"
+     ],
+     [
+      "2005",
+      "7.75-7.85 band"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2020, money poured in, and the HKMA sold HK$383.5 billion at the strong side.",
+   "say": "In twenty twenty, money poured in, and the H K M A sold three hundred eighty-three and a half billion at the strong side.",
+   "scene": {
+    "t": "stat",
+    "label": "Sold at 7.75, 2020",
+    "value": "HK$383.5B",
+    "tone": "up",
+    "sub": "Strong side"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then in 2022, the Fed started raising rates fast. US rates climbed above Hong Kong's, and money flowed toward the dollar.",
+   "say": "Then in twenty twenty-two, the Fed started raising rates fast. US rates climbed above Hong Kong's, and money flowed toward the dollar.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Higher rates here"
+     }
+    ],
+    "caption": "2022: money chases US rates"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The weak side was triggered 41 times between May and November 2022.",
+   "say": "The weak side was triggered forty-one times between May and November twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Weak-side triggers",
+    "value": "41",
+    "tone": "down",
+    "sub": "May-Nov 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The aggregate balance shrank. By May 2023, it was HK$44.8 billion, the lowest since 2008.",
+   "say": "The aggregate balance shrank. By May twenty twenty-three, it was forty-four point eight billion, the lowest since two thousand eight.",
+   "scene": {
+    "t": "stat",
+    "label": "Aggregate balance",
+    "value": "HK$44.8B",
+    "tone": "down",
+    "sub": "May 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 2025 brought something rarer: both edges in the same year.",
+   "say": "Then twenty twenty-five brought something rarer: both edges in the same year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2025: both edges,",
+     "same year"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In early May 2025, money rushed in, and the HKMA sold HK$129.4 billion at the strong side.",
+   "say": "In early May twenty twenty-five, money rushed in, and the H K M A sold a hundred twenty-nine point four billion at the strong side.",
+   "scene": {
+    "t": "stat",
+    "label": "Strong side, 2025",
+    "value": "HK$129.4B",
+    "tone": "up",
+    "sub": "4 triggers, May"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That flood of cash pushed one-month HIBOR down to 0.57% by late May, while the bottom of the Fed's range was 4.25%.",
+   "say": "That flood of cash pushed one-month HIBOR down to zero point five seven percent by late May, while the bottom of the Fed's range was four and a quarter percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Rates, May 2025",
+    "left": {
+     "label": "1-month HIBOR",
+     "value": "0.57%",
+     "tone": "down",
+     "sub": "May 26, 2025"
+    },
+    "right": {
+     "label": "Fed range floor",
+     "value": "4.25%",
+     "tone": "up",
+     "sub": "May 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So traders borrowed cheap Hong Kong dollars to hold higher-paying US dollars. That's called a carry trade.",
+   "say": "So traders borrowed cheap Hong Kong dollars to hold higher-paying US dollars. That's called a carry trade.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Carry trade:",
+     "borrow HK$, hold US$"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The currency slid to the weak side. From late June to mid-August 2025, it triggered 12 times, and the HKMA bought back HK$119.9 billion.",
+   "say": "The currency slid to the weak side. From late June to mid-August, it triggered twelve times, and the H K M A bought back a hundred nineteen point nine billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Weak side, 2025",
+    "value": "HK$119.9B",
+    "tone": "down",
+    "sub": "12 triggers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pushed hard from both directions, and the band held at both ends. That's the machine doing its job.",
+   "say": "Pushed hard from both directions, and the band held at both ends. That's the machine doing its job.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pushed both ways,",
+     "band held"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Importing the Fed.",
+   "say": "Chapter five: importing the Fed.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Importing the Fed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the price Hong Kong pays for all this stability: it doesn't set its own interest rates.",
+   "say": "Here's the price Hong Kong pays for all this stability: it doesn't set its own interest rates.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The price of the peg:",
+     "no rates of its own"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Think about it. If Hong Kong paid much less than America for long, money would keep leaving for dollars.",
+   "say": "Think about it. If Hong Kong paid much less than America for long, money would keep leaving for dollars.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Better rates here"
+     }
+    ],
+    "caption": "Money follows rates"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the HKMA's base rate follows a formula: normally, the bottom of the Fed's target range, plus half a percentage point.",
+   "say": "So the H K M A's base rate follows a formula: normally, the bottom of the Fed's target range, plus half a percentage point.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "HK base rate =",
+     "Fed floor + 0.5 pts"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's Hong Kong's base rate at each year-end since 2015, plus September 2026.",
+   "say": "Here's Hong Kong's base rate at each year-end since twenty fifteen, plus September twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "HK base rate",
+    "points": [
+     [
+      2015,
+      0.75
+     ],
+     [
+      2016,
+      1.0
+     ],
+     [
+      2017,
+      1.75
+     ],
+     [
+      2018,
+      2.75
+     ],
+     [
+      2019,
+      2.0
+     ],
+     [
+      2020,
+      0.5
+     ],
+     [
+      2021,
+      0.5
+     ],
+     [
+      2022,
+      4.75
+     ],
+     [
+      2023,
+      5.75
+     ],
+     [
+      2024,
+      4.75
+     ],
+     [
+      2025,
+      4.0
+     ],
+     [
+      2026,
+      4.25
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.25%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It sat at just 0.5% at the end of 2020 and 2021, when the Fed was near zero.",
+   "say": "It sat at just half a percent at the end of twenty twenty and twenty twenty-one, when the Fed was near zero.",
+   "scene": {
+    "t": "chart",
+    "title": "HK base rate",
+    "points": [
+     [
+      2015,
+      0.75
+     ],
+     [
+      2016,
+      1.0
+     ],
+     [
+      2017,
+      1.75
+     ],
+     [
+      2018,
+      2.75
+     ],
+     [
+      2019,
+      2.0
+     ],
+     [
+      2020,
+      0.5
+     ],
+     [
+      2021,
+      0.5
+     ],
+     [
+      2022,
+      4.75
+     ],
+     [
+      2023,
+      5.75
+     ],
+     [
+      2024,
+      4.75
+     ],
+     [
+      2025,
+      4.0
+     ],
+     [
+      2026,
+      4.25
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.25%",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It hit 5.75% at the end of 2023, then eased to 4% by the end of 2025.",
+   "say": "It hit five point seven five percent at the end of twenty twenty-three, then eased to four percent by the end of twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "HK base rate",
+    "points": [
+     [
+      2015,
+      0.75
+     ],
+     [
+      2016,
+      1.0
+     ],
+     [
+      2017,
+      1.75
+     ],
+     [
+      2018,
+      2.75
+     ],
+     [
+      2019,
+      2.0
+     ],
+     [
+      2020,
+      0.5
+     ],
+     [
+      2021,
+      0.5
+     ],
+     [
+      2022,
+      4.75
+     ],
+     [
+      2023,
+      5.75
+     ],
+     [
+      2024,
+      4.75
+     ],
+     [
+      2025,
+      4.0
+     ],
+     [
+      2026,
+      4.25
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.25%",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then on September 16, 2026, the Fed raised its range to 3.75% to 4%, its first hike since 2023.",
+   "say": "Then on September sixteenth, twenty twenty-six, the Fed raised its range to three point seven five to four percent, its first hike since twenty twenty-three.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "FEDERAL RESERVE",
+    "label": "3.75-4%",
+    "caption": "Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The next day, the HKMA raised its base rate to 4.25%. That's 3.75 plus a half, and any later Fed move passes through the same way.",
+   "say": "The next day, the H K M A raised its base rate to four point two five percent. That's three point seven five plus a half, and any later Fed move passes through the same way.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "HONG KONG MONETARY AUTHORITY",
+    "label": "4.25%",
+    "caption": "Sept 17, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the trade-off. A currency that barely moves, in exchange for interest rates set with someone else's economy in mind.",
+   "say": "That's the trade-off. A currency that barely moves, in exchange for interest rates set with someone else's economy in mind.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "Upside",
+     "items": [
+      "Stable currency",
+      "Easy pricing"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Downside",
+     "items": [
+      "Fed sets rates",
+      "Less control"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it really barely moves. Here's the yearly average exchange rate since 2019, from the Federal Reserve, zoomed way in.",
+   "say": "And it really does barely move. Here's the yearly average exchange rate since twenty nineteen, from the Federal Reserve, zoomed way in.",
+   "scene": {
+    "t": "chart",
+    "title": "USD/HKD, yearly average",
+    "points": [
+     [
+      2019,
+      7.8351
+     ],
+     [
+      2020,
+      7.7559
+     ],
+     [
+      2021,
+      7.7727
+     ],
+     [
+      2022,
+      7.8306
+     ],
+     [
+      2023,
+      7.8292
+     ],
+     [
+      2024,
+      7.803
+     ],
+     [
+      2025,
+      7.7956
+     ]
+    ],
+    "end": "7.7956",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 7.7559 to 7.8351, that's a gap of about 1% in seven years.",
+   "say": "From the low to the high, that's a gap of about one percent in seven years.",
+   "scene": {
+    "t": "chart",
+    "title": "USD/HKD, yearly average",
+    "points": [
+     [
+      2019,
+      7.8351
+     ],
+     [
+      2020,
+      7.7559
+     ],
+     [
+      2021,
+      7.7727
+     ],
+     [
+      2022,
+      7.8306
+     ],
+     [
+      2023,
+      7.8292
+     ],
+     [
+      2024,
+      7.803
+     ],
+     [
+      2025,
+      7.7956
+     ]
+    ],
+    "end": "7.7956",
+    "color": "down",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: How it hits your wallet.",
+   "say": "Chapter six: how it hits your wallet.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "How it hits your wallet"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what does all of this mean for an American?",
+   "say": "So what does all of this mean for an American?",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "What about me?"
+     }
+    ],
+    "caption": "The wallet test"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, prices. Take an example: a $1,000 trip budget, converted with no bank fees.",
+   "say": "First, prices. Take an example: a one-thousand-dollar trip budget, converted with no bank fees.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $1,000 trip",
+     "no fees assumed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the linked rate of 7.80, $1,000 becomes HK$7,800.",
+   "say": "At the linked rate of seven point eight, one thousand dollars becomes seven thousand eight hundred Hong Kong dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You bring",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "At 7.80",
+     "value": "HK$7,800"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the strong edge, 7.75, you'd get HK$7,750. At the weak edge, 7.85, HK$7,850.",
+   "say": "At the strong edge, seven point seven five, you'd get seven thousand seven hundred fifty. At the weak edge, seven point eight five, seven thousand eight hundred fifty.",
+   "scene": {
+    "t": "compare",
+    "title": "$1,000 at the edges",
+    "left": {
+     "label": "At 7.75",
+     "value": "7,750",
+     "tone": "down",
+     "sub": "HK$ you get"
+    },
+    "right": {
+     "label": "At 7.85",
+     "value": "7,850",
+     "tone": "up",
+     "sub": "HK$ you get"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The difference is HK$100. That's about 1.3%, and it's the most the band allows.",
+   "say": "The difference is a hundred Hong Kong dollars. That's about one point three percent, and it's the most the band allows.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "7,850 - 7,750 = HK$100",
+     "about 1.3%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now flip it around. Say a hotel room costs HK$780 a night.",
+   "say": "Now flip it around. Say a hotel room costs seven hundred eighty Hong Kong dollars a night.",
+   "scene": {
+    "t": "stat",
+    "label": "Hotel, per night",
+    "value": "HK$780",
+    "tone": "neutral",
+    "sub": "Example price"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 7.80, that's exactly $100. At 7.75, it's $100.65. At 7.85, it's $99.36.",
+   "say": "At seven point eight, that's exactly a hundred dollars. At seven point seven five, it's a hundred dollars and sixty-five cents. At seven point eight five, it's ninety-nine dollars and thirty-six cents.",
+   "scene": {
+    "t": "compare",
+    "title": "HK$780 in US dollars",
+    "left": {
+     "label": "At 7.75",
+     "value": "$100.65",
+     "tone": "down",
+     "sub": "Strong HK$"
+    },
+    "right": {
+     "label": "At 7.85",
+     "value": "$99.36",
+     "tone": "up",
+     "sub": "Weak HK$"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So in the worst case, the same room costs you $1.29 more. A floating currency comes with no such floor or ceiling.",
+   "say": "So in the worst case, the same room costs you a dollar and twenty-nine cents more. A floating currency comes with no such floor or ceiling.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Worst case: +$1.29",
+     "Floating: no limits"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, rates. Since Hong Kong copies the Fed, a Fed decision that moves your car loan also moves borrowing costs there.",
+   "say": "Second, rates. Since Hong Kong copies the Fed, a Fed decision that moves your car loan also moves borrowing costs there.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "FEDERAL RESERVE",
+    "label": "One rate",
+    "caption": "Two economies feel it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, reserves. The peg's backing assets are held in US dollar assets, so defending the peg means holding a big pile of them.",
+   "say": "Third, reserves. The peg's backing assets are held in US dollar assets, so defending the peg means holding a big pile of them.",
+   "scene": {
+    "t": "stat",
+    "label": "Backing assets",
+    "value": "HK$2.3T",
+    "tone": "neutral",
+    "sub": "Aug 31, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 7: The recap.",
+   "say": "Chapter seven: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hong Kong's dollar has been linked to yours since October 17, 1983, after a crash to HK$9.60.",
+   "say": "Hong Kong's dollar has been linked to yours since October seventeenth, nineteen eighty-three, after a crash to nine point six.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Peg since 1983",
+     "Band 7.75-7.85",
+     "Rates follow Fed",
+     "Stable trip cost"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since 2005, it trades between 7.75 and 7.85, backed by US dollars.",
+   "say": "Since two thousand five, it trades between seven point seven five and seven point eight five, backed by US dollars.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Peg since 1983",
+     "Band 7.75-7.85",
+     "Rates follow Fed",
+     "Stable trip cost"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The price is control: Hong Kong's base rate follows the Fed, as it did on September 17, 2026.",
+   "say": "The price is control: Hong Kong's base rate follows the Fed, as it did on September seventeenth, twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Peg since 1983",
+     "Band 7.75-7.85",
+     "Rates follow Fed",
+     "Stable trip cost"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for you, a trip there costs about the same in dollars, with at most a 1.3% swing from edge to edge.",
+   "say": "And for you, a trip there costs about the same in dollars, with at most a one point three percent swing from edge to edge.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Peg since 1983",
+     "Band 7.75-7.85",
+     "Rates follow Fed",
+     "Stable trip cost"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The peg isn't magic. It's a promise, backed by a mountain of US dollars and a willingness to let interest rates do the hard work.",
+   "say": "The peg isn't magic. It's a promise, backed by a mountain of US dollars, and a willingness to let interest rates do the hard work.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not magic:",
+     "a promise + US$ reserves"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for the next World Money story. See you next time.",
+   "say": "Subscribe for the next World Money story. See you next time.",
+   "scene": {
+    "t": "cta",
+    "tagline": "World Money"
+   }
+  }
+ ],
+ "post": {
+  "title": "Hong Kong's dollar has been locked to yours for 43 years. Here's how the peg works.",
+  "ig": "Hong Kong's dollar has been locked to yours for 43 years. Here's the machine that keeps it there.",
+  "tiktok": "Hong Kong's dollar has been locked to yours for 43 years. How? A currency board and the Fed.",
+  "yt_desc": "Hong Kong's dollar has been linked to the US dollar since October 17, 1983, at HK$7.80, and since 2005 it has traded inside a 7.75-7.85 band. This video explains the currency board behind it: note-issuing banks that hand over US dollars, the HKMA's Convertibility Undertakings, the aggregate balance and HIBOR. We cover Black Saturday in 1983, the 1998 speculative attack and the HK$118 billion stock-market intervention, pressure on both edges of the band in 2022-2023 and 2025, why Hong Kong's base rate follows the Fed (including the September 2026 hike), and a worked example of what the peg means for an American's trip budget.\n\nCHAPTERS\n\nSources: HKMA (Milestones of Monetary Reform; May 18, 2005 refinements; note-issuing banks; Exchange Fund Abridged Balance Sheet, Sept 30, 2026; Base Rate releases; Annual Reports 1997, 2020, 2022; HKMA Insight, Sept 18, 2019; Half-Yearly Monetary and Financial Stability Reports, Sept 2025 and Mar 2026); Federal Reserve (FOMC statement, Sept 16, 2026; G.5A annual exchange rates via FRED); Trading Economics (Sept 17, 2026); J.P. Morgan Asset Management (May 24, 2023); UBS (2025); China Daily HK (July 2, 2025).\n\nNews and education, not financial advice.\n\n#HongKong #currency #economics"
+ }
+}
