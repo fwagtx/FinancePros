@@ -1,0 +1,211 @@
+{
+ "id": "2026-12-11-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why Verizon gives\naway free phones",
+ "cover": {
+  "title": "Why Are Verizon Phones Free?",
+  "prop": "bag",
+  "label": "Phone",
+  "value": "-$3.5B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2025, Verizon lost $3.5 billion on devices.",
+   "say": "In twenty twenty-five, Verizon lost three point five billion dollars on devices.",
+   "scene": {
+    "t": "hook",
+    "title": "Lost on [phones]",
+    "prop": "bag",
+    "label": "Phone",
+    "value": "-$3.5B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its FY2025 10-K shows $25.5 billion in device revenue, $29.0 billion in costs. On purpose.",
+   "say": "Its annual report shows twenty-five point five billion in device revenue, twenty-nine billion in costs. On purpose.",
+   "scene": {
+    "t": "compare",
+    "title": "Verizon devices, 2025",
+    "left": {
+     "label": "Revenue",
+     "value": "$25.5B",
+     "tone": "neutral",
+     "sub": "FY2025 10-K"
+    },
+    "right": {
+     "label": "Cost",
+     "value": "$29.0B",
+     "tone": "down",
+     "sub": "FY2025 10-K"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The real money is the bill: $83.7 billion in service revenue in 2025.",
+   "say": "The real money is the bill: eighty-three point seven billion in service revenue in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Wireless service",
+    "value": "$83.7B",
+    "tone": "up",
+    "sub": "FY2025 10-K",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Free phones usually mean 36 monthly credits, often on a premium plan, and leaving ends them.",
+   "say": "Free phones usually mean thirty-six monthly credits, often on a premium plan, and leaving ends them.",
+   "scene": {
+    "t": "list",
+    "title": "How free works",
+    "items": [
+     "36 bill credits",
+     "Premium plan",
+     "Leaving ends it"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: an $830 phone credited $23.06 a month x 36 = $830.16.",
+   "say": "Say an eight hundred thirty dollar phone gets twenty-three dollars a month in credits for thirty-six months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $830 phone",
+     "$23.06 x 36 = $830.16"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If that plan costs $25 more a month, that's $900.",
+   "say": "If that plan costs twenty-five dollars more a month, that's nine hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Plan, +$25/mo (example)",
+     "value": "$25"
+    },
+    "to": {
+     "label": "x 36 months",
+     "value": "$900"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And customers stick: consumer phone churn has stayed under 1% a month since 2024.",
+   "say": "And customers stick: consumer phone churn has stayed under one percent monthly since twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Phone churn, Q1'24-Q2'26",
+    "points": [
+     [
+      "Q1'24",
+      0.83
+     ],
+     [
+      "Q2'24",
+      0.79
+     ],
+     [
+      "Q3'24",
+      0.83
+     ],
+     [
+      "Q4'24",
+      0.88
+     ],
+     [
+      "Q1'25",
+      0.9
+     ],
+     [
+      "Q2'25",
+      0.9
+     ],
+     [
+      "Q3'25",
+      0.91
+     ],
+     [
+      "Q4'25",
+      0.95
+     ],
+     [
+      "Q1'26",
+      0.9
+     ],
+     [
+      "Q2'26",
+      0.84
+     ]
+    ],
+    "suffix": "%",
+    "end": "0.84%",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each consumer account paid $147.36 a month on average in Q4 2025.",
+   "say": "Each consumer account paid about a hundred forty-seven dollars a month in late twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Consumer ARPA",
+    "value": "$147.36",
+    "tone": "up",
+    "sub": "Q4 2025, per month",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The phone opens the door. The plan pays for it.",
+   "say": "The phone opens the door. The plan pays for it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Phone: opens the door",
+     "Plan: pays for it"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why Verizon lost $3.5B on devices in 2025",
+  "ig": "In 2025, Verizon's device costs topped device revenue by $3.5 billion.\nFY2025 10-K: $25.5B wireless equipment revenue vs $29.0B cost of wireless equipment.\nThe money is the plan: $83.7B wireless service revenue in 2025, and consumer ARPA of $147.36 a month in Q4 2025.\nFree phones are usually 36 monthly bill credits, often tied to a premium unlimited plan; leaving early ends them. Example: $23.06 x 36 = $830.16, while a $25/month pricier plan is $900 over 36 months.\nConsumer phone churn has stayed under 1% a month since 2024 (0.84% in Q2 2026).\nSources: Verizon FY2025 10-K, 4Q25 Financial and Operating Information, Droid-Life, WhistleOut.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#verizon #phones #howtheymakemoney #business #financeprostv",
+  "tiktok": "Verizon lost $3.5B on devices in 2025. Here's why. Not financial advice. #moneytok #personalfinance #verizon #phones #financeprostv",
+  "yt_desc": "In 2025 Verizon booked $25.5B in wireless equipment revenue against $29.0B in equipment costs, while wireless service revenue reached $83.7B (FY2025 10-K). Free phones usually come as 36 monthly bill credits tied to an unlimited plan, and consumer phone churn has stayed under 1% a month since 2024 (0.84% in Q2 2026). Sources: Verizon FY2025 10-K and 4Q25 Financial and Operating Information. News and education, not financial advice.\n#Shorts #verizon #howtheymakemoney",
+  "tags": [
+   "verizon free phone",
+   "how verizon makes money",
+   "bill credits",
+   "phone deals explained",
+   "wireless business model"
+  ]
+ }
+}
