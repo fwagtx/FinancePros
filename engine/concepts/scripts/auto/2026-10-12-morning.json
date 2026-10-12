@@ -1,0 +1,209 @@
+{
+ "id": "2026-10-12-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Strike in Riyadh\nOil barely blinked",
+ "cover": {
+  "title": "Deadly Riyadh Strike. Oil Shrugged?",
+  "prop": "chart-up",
+  "label": "Brent",
+  "value": "+0.9%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A deadly strike hit Riyadh's airport. Oil barely blinked.",
+   "say": "A deadly strike hit Riyadh's airport. Oil barely blinked.",
+   "scene": {
+    "t": "hook",
+    "title": "Oil barely [blinked]",
+    "prop": "chart-up",
+    "label": "Brent",
+    "value": "+0.9%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 10: a Houthi-claimed strike on Riyadh's main airport killed at least 12 and wounded 300+.",
+   "say": "On Saturday, a Houthi-claimed strike on Riyadh's main airport killed at least twelve people and wounded over three hundred.",
+   "scene": {
+    "t": "news",
+    "headline": "Riyadh airport strike kills 12+",
+    "source": "CNN, CBS, Al Jazeera, Oct 10-11, 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brent topped out at $105.63 overnight, less than 1% above Friday's $104.72 close (ICE futures).",
+   "say": "Overnight, Brent topped out near a hundred six dollars, less than one percent above Friday's close.",
+   "scene": {
+    "t": "compare",
+    "title": "Brent crude, Oct 12",
+    "left": {
+     "label": "Friday close",
+     "value": "$104.72",
+     "tone": "neutral",
+     "sub": "per barrel"
+    },
+    "right": {
+     "label": "Overnight high",
+     "value": "$105.63",
+     "tone": "up",
+     "sub": "up 0.9%"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why so calm? The airport strikes didn't hit oil sites, and no Saudi exports were reported lost this weekend.",
+   "say": "Why so calm? The airport strikes didn't hit oil sites, and no Saudi exports were reported lost this weekend.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Airport hit, not oil",
+     "No weekend export loss",
+     "Markets price barrels"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But oil was already high: Brent averaged about $114 in September vs about $71 in February (EIA).",
+   "say": "But oil was already high. Brent averaged about a hundred fourteen dollars in September, versus about seventy-one in February.",
+   "scene": {
+    "t": "chart",
+    "title": "Brent monthly avg, 2026",
+    "points": [
+     [
+      2,
+      71
+     ],
+     [
+      3,
+      103
+     ],
+     [
+      4,
+      117.29
+     ],
+     [
+      5,
+      107.14
+     ],
+     [
+      6,
+      85.4
+     ],
+     [
+      7,
+      83.76
+     ],
+     [
+      8,
+      91.08
+     ],
+     [
+      9,
+      114.16
+     ]
+    ],
+    "prefix": "$",
+    "end": "$114",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That price flows into gas pumps, plane tickets and shipping costs.",
+   "say": "That price flows into gas pumps, plane tickets and shipping costs.",
+   "scene": {
+    "t": "list",
+    "title": "Oil feeds into",
+    "items": [
+     "Gas pumps",
+     "Plane tickets",
+     "Shipping costs"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's Columbus Day: the bond market is closed, stocks are open. Banks report from Tuesday, CPI on Wednesday.",
+   "say": "The bond market's closed for Columbus Day, but stocks are open. Big banks report Tuesday, and inflation data lands Wednesday.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "10/12",
+      "Bond market shut"
+     ],
+     [
+      "10/13",
+      "Big banks report"
+     ],
+     [
+      "10/14",
+      "Sept CPI out"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The takeaway: oil moves most when barrels go missing, and none were reported lost.",
+   "say": "The takeaway: oil moves most when barrels go missing, and none were reported lost.",
+   "scene": {
+    "t": "split",
+    "title": "What moves oil",
+    "left": {
+     "title": "Big move",
+     "items": [
+      "Oil sites hit",
+      "Exports lost"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Small move",
+     "items": [
+      "Airport hit",
+      "Exports flowing"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Deadly Riyadh Strike. Why Did Oil Barely Move?",
+  "ig": "A deadly strike hit Riyadh's airport. Oil barely blinked.\nOct 10: a Houthi-claimed strike on Riyadh's main airport killed at least 12 and wounded 300+ (CNN, CBS, Al Jazeera).\nOct 12: Brent topped out at $105.63 overnight, less than 1% above Friday's $104.72 close. The airport strikes didn't hit oil sites, and no Saudi exports were reported lost this weekend.\nBrent averaged about $114 in September 2026 vs about $71 in February (EIA).\nSources: CNN, CBS, Al Jazeera, ICE futures, EIA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#oilprices #saudiarabia #economy #stockmarket #financeprostv",
+  "tiktok": "A deadly strike hit Riyadh's airport. Oil barely blinked. Here's why. Not financial advice. #moneytok #personalfinance #oilprices #economy #financeprostv",
+  "yt_desc": "A Houthi-claimed strike on Riyadh's main airport on Oct 10, 2026 killed at least 12 people (CNN, CBS, Al Jazeera), yet Brent crude topped out at $105.63 overnight, less than 1% above Friday's $104.72 close, as no Saudi oil exports were reported lost in the weekend attacks. Brent averaged about $114 in September vs about $71 in February 2026 (EIA). News and education, not financial advice.\n#Shorts #oilprices #economy",
+  "tags": [
+   "oil prices",
+   "Brent crude",
+   "Riyadh airport attack",
+   "Houthis Saudi Arabia",
+   "Columbus Day markets"
+  ]
+ }
+}
