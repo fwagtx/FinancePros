@@ -23,8 +23,8 @@
     },
     {
       "who": "ticker",
-      "text": "That's from NPR's October 11 report, and oddly, layoffs are rare.",
-      "say": "That's from NPR's October eleventh report, and oddly, layoffs are rare.",
+      "text": "That's from an NPR report out Sunday. Oddly, layoffs are low.",
+      "say": "That's from an NPR report out Sunday. Oddly, layoffs are low.",
       "scene": {
         "t": "stat",
         "label": "Run out first",
@@ -41,18 +41,18 @@
       "scene": {
         "t": "news",
         "headline": "Jobless claims near 57-year low",
-        "source": "Reuters, Oct 8, 2026",
+        "source": "Labor Dept, Oct 8, 2026",
         "mood": "think"
       }
     },
     {
       "who": "ticker",
-      "text": "Getting rehired is slow: the median stretch of unemployment was 11.5 weeks in September.",
-      "say": "Getting rehired is slow. The median stretch of unemployment was eleven and a half weeks in September.",
+      "text": "Getting rehired is slow: the average stretch of unemployment was 24.8 weeks in September.",
+      "say": "Getting rehired is slow. The average stretch of unemployment was nearly twenty-five weeks in September.",
       "scene": {
         "t": "stat",
-        "label": "Jobless (median)",
-        "value": "11.5 wks",
+        "label": "Jobless (average)",
+        "value": "24.8 wks",
         "tone": "down",
         "sub": "BLS, Sept 2026",
         "mood": "think"
@@ -60,21 +60,21 @@
     },
     {
       "who": "ticker",
-      "text": "And 1.9 million people have been jobless 27 weeks or more. That's 27.1% of the unemployed.",
+      "text": "And 1.9 million people have been jobless 27 weeks or more. That's about 27% of the unemployed.",
       "say": "And one point nine million people have been jobless twenty-seven weeks or more. That's about twenty-seven percent of the unemployed.",
       "scene": {
         "t": "stat",
         "label": "Jobless 27+ weeks",
         "value": "1.9M",
         "tone": "down",
-        "sub": "27.1% of jobless",
+        "sub": "~27% of jobless",
         "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "Benefits often stop sooner. Colorado pays up to six months; North Carolina, 12 weeks.",
-      "say": "Benefits often stop sooner. Colorado pays up to six months, while North Carolina pays twelve weeks.",
+      "text": "Benefits often stop sooner. Colorado pays up to six months; North Carolina, up to 12 weeks.",
+      "say": "Benefits often stop sooner. Colorado pays up to six months, while North Carolina pays up to twelve weeks.",
       "scene": {
         "t": "compare",
         "title": "Max benefit length",
@@ -95,13 +95,13 @@
     },
     {
       "who": "ticker",
-      "text": "For example, the average US check is $492 a week. 12 weeks is $5,904, then it stops.",
-      "say": "For example, the average US check is about four hundred ninety dollars a week. Twelve weeks is about fifty-nine hundred, then it stops.",
+      "text": "For example, North Carolina's top check is $350 a week. 12 weeks at the max is $4,200, then it stops.",
+      "say": "For example, North Carolina's top check is three hundred fifty dollars a week. Twelve weeks at the max is forty-two hundred dollars, then it stops.",
       "scene": {
         "t": "board",
         "lines": [
-          "Avg US check: $492/wk",
-          "Example: 12 wks = $5,904",
+          "NC max check: $350/wk",
+          "Example: 12 wks = $4,200",
           "Week 13: payments stop"
         ],
         "mood": "think"
@@ -109,18 +109,17 @@
     },
     {
       "who": "ticker",
-      "text": "So people planning for a layoff check their state's week limit, its weekly cap, and how long their savings last.",
-      "say": "So people planning for a layoff check their state's week limit, its weekly cap, and how long their savings last.",
+      "text": "Each state sets its own week limit and weekly cap, so how far benefits go depends on where someone lives.",
+      "say": "Each state sets its own week limit and weekly cap, so how far benefits go depends on where someone lives.",
       "scene": {
         "t": "list",
-        "title": "What people check",
+        "title": "Set by each state",
         "items": [
-          "State week limit",
-          "Weekly check cap",
-          "Savings runway"
+          "Number of weeks",
+          "Weekly check cap"
         ],
-        "reveal": 3,
-        "mood": "happy"
+        "reveal": 2,
+        "mood": "think"
       }
     },
     {
@@ -134,9 +133,9 @@
   ],
   "post": {
     "title": "Nearly 4 in 10 Run Out of Jobless Benefits Before a New Job",
-    "ig": "Nearly 4 in 10 people run out of unemployment benefits before they land a new job (NPR, Oct 11, 2026).\nLayoffs are rare: weekly jobless claims are near a 57-year low (Reuters, Oct 8, 2026).\nBut the median stretch of unemployment was 11.5 weeks in September, and 1.9 million people (27.1% of the unemployed) have been jobless 27+ weeks (BLS).\nColorado pays up to six months of benefits; North Carolina pays 12 weeks. The average US weekly check is about $492 (Labor Department, 12 months to July 2026).\nSources: NPR, BLS, Reuters, US Department of Labor.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#unemployment #jobs #layoffs #economy #financeprostv",
+    "ig": "Nearly 4 in 10 people run out of unemployment benefits before they land a new job (NPR, Oct 11, 2026).\nLayoffs are low: weekly jobless claims are near a 57-year low (Labor Department, Oct 8, 2026).\nBut the average stretch of unemployment was 24.8 weeks in September, and 1.9 million people (27.1% of the unemployed) have been jobless 27+ weeks (BLS).\nColorado pays up to six months of benefits; North Carolina pays up to 12 weeks, with a top check of $350 a week.\nSources: NPR, BLS, US Department of Labor.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#unemployment #jobs #layoffs #economy #financeprostv",
     "tiktok": "Nearly 4 in 10 run out of jobless benefits before finding work. Not financial advice. #moneytok #personalfinance #unemployment #jobs #financeprostv",
-    "yt_desc": "Nearly four in ten unemployed people exhaust their benefits before finding a new job, NPR reported Oct 11, 2026, even as weekly jobless claims sit near a 57-year low (Reuters). BLS says the median stretch of unemployment was 11.5 weeks in September 2026 and 1.9 million people had been jobless 27 weeks or more, while North Carolina pays benefits for just 12 weeks. Sources: NPR, BLS, Reuters, US Department of Labor. News and education, not financial advice.\n#Shorts #unemployment #jobs",
+    "yt_desc": "Nearly four in ten unemployed people exhaust their benefits before finding a new job, NPR reported Oct 11, 2026, even as weekly jobless claims sit near a 57-year low (Labor Department). BLS says the average stretch of unemployment was 24.8 weeks in September 2026 and 1.9 million people had been jobless 27 weeks or more, while North Carolina pays benefits for up to 12 weeks. Sources: NPR, BLS, US Department of Labor. News and education, not financial advice.\n#Shorts #unemployment #jobs",
     "tags": [
       "unemployment benefits",
       "jobless claims",
