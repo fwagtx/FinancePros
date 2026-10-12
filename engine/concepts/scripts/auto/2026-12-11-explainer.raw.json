@@ -23,8 +23,8 @@
     },
     {
       "who": "nutty",
-      "text": "That's the late-2025 count. Squirrel owns part of the tree, so squirrel gets acorns: a dividend.",
-      "say": "That's the late twenty twenty-five count. Squirrel owns part of the tree, so squirrel gets acorns: a dividend.",
+      "text": "That's S&P's year-end 2025 count. Squirrel owns part of the tree and gets acorns: a dividend.",
+      "say": "That's S and P's year-end twenty twenty-five count. Squirrel owns part of the tree and gets acorns: a dividend.",
       "scene": {
         "t": "squirrel",
         "kind": "tree",
@@ -40,12 +40,12 @@
         "t": "timeline",
         "events": [
           {
-            "when": "Ex",
-            "what": "Own it before this"
+            "when": "Buy",
+            "what": "Day before ex"
           },
           {
-            "when": "Rec",
-            "what": "Owner list locked"
+            "when": "Ex",
+            "what": "Also record date"
           },
           {
             "when": "Pay",
@@ -63,7 +63,7 @@
       "scene": {
         "t": "money",
         "from": {
-          "label": "Example: 100 shares",
+          "label": "100 shares",
           "value": "$0.50/qtr"
         },
         "to": {
