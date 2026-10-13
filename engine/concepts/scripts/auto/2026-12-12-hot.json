@@ -1,202 +1,202 @@
 {
- "id": "2026-12-12-hot",
- "format": "vertical",
- "series": "ticker",
- "header": "Why are cancer\ndrugs so expensive?",
- "cover": {
-  "title": "Why Are Cancer Drugs So Expensive?",
-  "prop": "bag",
-  "label": "Rx",
-  "value": "$15,741"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "Why does one cancer drug list at nearly $16,000 a month?",
-   "say": "Why does one cancer drug list at nearly sixteen thousand a month?",
-   "scene": {
-    "t": "hook",
-    "title": "Why so [expensive]?",
+  "id": "2026-12-12-hot",
+  "format": "vertical",
+  "series": "ticker",
+  "header": "Why are cancer\ndrugs so expensive?",
+  "cover": {
+    "title": "Why Are Cancer Drugs So Expensive?",
     "prop": "bag",
     "label": "Rx",
-    "value": "$15,741",
-    "mood": "shock"
-   }
+    "value": "$15,741"
   },
-  {
-   "who": "ticker",
-   "text": "That's Ibrance, a breast cancer drug: $15,741 for 30 days at 2024 list price.",
-   "say": "That's Ibrance, a breast cancer drug, at its twenty twenty-four list price.",
-   "scene": {
-    "t": "stat",
-    "label": "Ibrance, 30 days",
-    "value": "$15,741",
-    "tone": "down",
-    "sub": "2024 list price",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Global cancer drug spending hit $252 billion in 2024 at list prices, per IQVIA.",
-   "say": "Global cancer drug spending hit two hundred fifty-two billion in twenty twenty-four.",
-   "scene": {
-    "t": "chart",
-    "title": "Global cancer drug spend",
-    "points": [
-     [
-      2020,
-      164
-     ],
-     [
-      2021,
-      185
-     ],
-     [
-      2022,
-      196
-     ],
-     [
-      2023,
-      223
-     ],
-     [
-      2024,
-      252
-     ]
-    ],
-    "prefix": "$",
-    "suffix": "B",
-    "end": "$252B",
-    "color": "up",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Studies put R&D near $2.6B per drug (Tufts) and $2.8B for cancer drugs (JAMA 2020).",
-   "say": "Studies put research costs near two point six billion per drug, two point eight for cancer.",
-   "scene": {
-    "t": "compare",
-    "title": "R&D cost per drug",
-    "left": {
-     "label": "Wouters, 2020",
-     "value": "$2.8B",
-     "tone": "neutral",
-     "sub": "cancer, median"
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Why does one cancer drug list at nearly $16,000 a month?",
+      "say": "Why does one cancer drug list at nearly sixteen thousand a month?",
+      "scene": {
+        "t": "hook",
+        "title": "Why so [expensive]?",
+        "prop": "bag",
+        "label": "Rx",
+        "value": "$15,741",
+        "mood": "shock"
+      }
     },
-    "right": {
-     "label": "Tufts, 2016",
-     "value": "$2.6B",
-     "tone": "neutral",
-     "sub": "all drugs, average"
+    {
+      "who": "ticker",
+      "text": "That's Ibrance, a breast cancer drug: $15,741 for 30 days at 2024 list price.",
+      "say": "That's Ibrance, a breast cancer drug, at its twenty twenty-four list price.",
+      "scene": {
+        "t": "stat",
+        "label": "Ibrance, 30 days",
+        "value": "$15,741",
+        "tone": "down",
+        "sub": "2024 list price",
+        "mood": "worried"
+      }
     },
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Only 5.3% of cancer drug candidates went from Phase I to approval (2011-2020).",
-   "say": "Only five point three percent of cancer drug candidates reach approval.",
-   "scene": {
-    "t": "stat",
-    "label": "Odds of approval",
-    "value": "5.3%",
-    "tone": "down",
-    "sub": "oncology, 2011-20",
-    "mood": "sad"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Patents run 20 years from filing; generics usually wait them out.",
-   "say": "Patents run twenty years from filing; generics usually wait them out.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Patent: 20 yrs from filing",
-     "Clock starts before trials",
-     "Generics wait it out"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Critics cite pricing power: after rebates, US brand-name prices ran at least 3.22x other countries' in 2022 (RAND).",
-   "say": "Critics cite pricing power: after rebates, US brand-name prices ran at least three point two two times other countries' in twenty twenty-two.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "us",
-      "mood": "worried",
-      "says": "We pay 3.22x"
-     },
-     {
-      "name": "germany",
-      "mood": "happy"
-     }
-    ],
-    "caption": "RAND, 2022 prices"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Example: one year of Ibrance is $188,892 at list, $94,452 at Medicare's negotiated 2027 price.",
-   "say": "Example: a year of Ibrance is about a hundred eighty-nine thousand at list, ninety-four thousand at Medicare's twenty twenty-seven price.",
-   "scene": {
-    "t": "compare",
-    "title": "Example: 1 year Ibrance",
-    "left": {
-     "label": "2024 list",
-     "value": "$189K",
-     "tone": "down",
-     "sub": "$15,741 x 12"
+    {
+      "who": "ticker",
+      "text": "Global cancer drug spending hit $252 billion in 2024 at list prices, per IQVIA.",
+      "say": "Global cancer drug spending hit two hundred fifty-two billion in twenty twenty-four.",
+      "scene": {
+        "t": "chart",
+        "title": "Global cancer drug spend",
+        "points": [
+          [
+            2020,
+            164
+          ],
+          [
+            2021,
+            185
+          ],
+          [
+            2022,
+            196
+          ],
+          [
+            2023,
+            223
+          ],
+          [
+            2024,
+            252
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$252B",
+        "color": "up",
+        "mood": "think"
+      }
     },
-    "right": {
-     "label": "Medicare 2027",
-     "value": "$94K",
-     "tone": "up",
-     "sub": "$7,871 x 12"
+    {
+      "who": "ticker",
+      "text": "Studies put R&D near $2.6B per drug (Tufts) and $2.8B for cancer drugs (JAMA 2020).",
+      "say": "Studies put research costs near two point six billion per drug, two point eight for cancer.",
+      "scene": {
+        "t": "compare",
+        "title": "R&D cost per drug",
+        "left": {
+          "label": "Wouters, 2020",
+          "value": "$2.8B",
+          "tone": "neutral",
+          "sub": "cancer, median"
+        },
+        "right": {
+          "label": "Tufts, 2016",
+          "value": "$2.6B",
+          "tone": "neutral",
+          "sub": "all drugs, average"
+        },
+        "mood": "think"
+      }
     },
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Patients pay less: in 2027, Part D caps yearly out-of-pocket costs at $2,400.",
-   "say": "Patients pay less: in twenty twenty-seven, Part D caps out-of-pocket costs at twenty-four hundred dollars.",
-   "scene": {
-    "t": "stat",
-    "label": "Part D yearly cap",
-    "value": "$2,400",
-    "tone": "up",
-    "sub": "patient max, 2027",
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
-   "scene": {
-    "t": "cta",
-    "mood": "happy"
-   }
+    {
+      "who": "ticker",
+      "text": "Only 5.3% of cancer drug candidates went from Phase I to approval (2011-2020).",
+      "say": "Only five point three percent of cancer drug candidates reach approval.",
+      "scene": {
+        "t": "stat",
+        "label": "Odds of approval",
+        "value": "5.3%",
+        "tone": "down",
+        "sub": "oncology, 2011-20",
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Patents run 20 years from filing; generics usually wait them out.",
+      "say": "Patents run twenty years from filing; generics usually wait them out.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Patent: 20 yrs from filing",
+          "Clock starts before trials",
+          "Generics wait it out"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Critics cite pricing power: after rebates, US brand-name prices ran at least 3.22x other countries' in 2022 (RAND).",
+      "say": "Critics cite pricing power: after rebates, US brand-name prices ran at least three point two two times other countries' in twenty twenty-two.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "us",
+            "mood": "worried",
+            "says": "We pay 3.22x"
+          },
+          {
+            "name": "germany",
+            "mood": "happy"
+          }
+        ],
+        "caption": "RAND, 2022 prices"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: one year of Ibrance is $188,892 at list, $94,452 at Medicare's negotiated 2027 price.",
+      "say": "Example: a year of Ibrance is about a hundred eighty-nine thousand at list, ninety-four thousand at Medicare's twenty twenty-seven price.",
+      "scene": {
+        "t": "compare",
+        "title": "Example: 1 year Ibrance",
+        "left": {
+          "label": "2024 list",
+          "value": "$189K",
+          "tone": "down",
+          "sub": "$15,741 x 12"
+        },
+        "right": {
+          "label": "Medicare 2027",
+          "value": "$94K",
+          "tone": "up",
+          "sub": "$7,871 x 12"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Patients pay less: in 2027, Part D caps yearly out-of-pocket costs at $2,400.",
+      "say": "Patients pay less: in twenty twenty-seven, Part D caps out-of-pocket costs at twenty-four hundred dollars.",
+      "scene": {
+        "t": "stat",
+        "label": "Part D yearly cap",
+        "value": "$2,400",
+        "tone": "up",
+        "sub": "patient max, 2027",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "mood": "happy"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why one cancer drug lists near $16,000 a month",
+    "ig": "Why does one cancer drug list at nearly $16,000 a month?\nIbrance's 2024 list price was $15,741 for 30 days; Medicare's negotiated 2027 price is $7,871.\nGlobal cancer drug spending hit $252B in 2024, up from $164B in 2020 (IQVIA).\nR&D estimates range from $985M to $2.8B per drug, and only 5.3% of cancer drug candidates reach approval from Phase I.\nRAND: US brand-name prices were at least 3.22x, after rebates, other countries' in 2022. Part D out-of-pocket cap: $2,400 in 2027.\nSources: IQVIA, CMS, JAMA 2020, Tufts CSDD, BIO, RAND.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#cancerdrugs #drugprices #medicare #healthcosts #financeprostv",
+    "tiktok": "Why one cancer drug lists near $16,000 a month. Not financial advice. #moneytok #personalfinance #drugprices #medicare #financeprostv",
+    "yt_desc": "Ibrance listed at $15,741 for 30 days in 2024; Medicare's negotiated 2027 price is $7,871 (CMS). Global cancer drug spending reached $252 billion in 2024 (IQVIA), R&D estimates run up to $2.8 billion per cancer drug (JAMA 2020), and only 5.3% of cancer drug candidates reach approval from Phase I (BIO). RAND found US brand-name prices at least 3.22 times, after rebates, other countries' in 2022. News and education, not financial advice. #Shorts #drugprices #medicare",
+    "tags": [
+      "cancer drug prices",
+      "why are drugs so expensive",
+      "medicare drug negotiation",
+      "part d out of pocket cap",
+      "drug prices explained"
+    ]
   }
- ],
- "post": {
-  "title": "Why one cancer drug lists near $16,000 a month",
-  "ig": "Why does one cancer drug list at nearly $16,000 a month?\nIbrance's 2024 list price was $15,741 for 30 days; Medicare's negotiated 2027 price is $7,871.\nGlobal cancer drug spending hit $252B in 2024, up from $164B in 2020 (IQVIA).\nR&D estimates range from $985M to $2.8B per drug, and only 5.3% of cancer drugs reach approval from Phase I.\nRAND: US brand-name prices were at least 3.22x other countries' in 2022. Part D out-of-pocket cap: $2,400 in 2027.\nSources: IQVIA, CMS, JAMA 2020, Tufts CSDD, BIO, RAND.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#cancerdrugs #drugprices #medicare #healthcosts #financeprostv",
-  "tiktok": "Why one cancer drug lists near $16,000 a month. Not financial advice. #moneytok #personalfinance #drugprices #medicare #financeprostv",
-  "yt_desc": "Ibrance listed at $15,741 for 30 days in 2024; Medicare's negotiated 2027 price is $7,871 (CMS). Global cancer drug spending reached $252 billion in 2024 (IQVIA), R&D estimates run up to $2.8 billion per cancer drug (JAMA 2020), and only 5.3% of cancer drugs reach approval from Phase I (BIO). RAND found US brand-name prices at least 3.22 times other countries' in 2022. News and education, not financial advice. #Shorts #drugprices #medicare",
-  "tags": [
-   "cancer drug prices",
-   "why are drugs so expensive",
-   "medicare drug negotiation",
-   "part d out of pocket cap",
-   "drug prices explained"
-  ]
- }
 }
