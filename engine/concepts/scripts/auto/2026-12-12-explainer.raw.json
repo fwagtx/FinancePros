@@ -1,0 +1,208 @@
+{
+  "series": "ticker",
+  "header": "401(k) vs IRA\nJob plan vs DIY",
+  "cover": {
+    "title": "401(k) or IRA: What Differs?",
+    "prop": "bag",
+    "label": "401k",
+    "value": "3x+"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "A 401(k) takes over 3x what an IRA takes.",
+      "say": "A four-oh-one-k takes over three times what an I R A takes.",
+      "scene": {
+        "t": "hook",
+        "title": "401(k) holds [3x] more",
+        "prop": "tag",
+        "label": "401k",
+        "value": "3x+",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "2026 limits: $24,500 vs $7,500. And it's not the only gap.",
+      "say": "Twenty twenty-six limits: twenty-four thousand five hundred versus seventy-five hundred. And it's not the only gap.",
+      "scene": {
+        "t": "compare",
+        "title": "2026 yearly limits",
+        "left": {
+          "label": "401(k)",
+          "value": "$24,500",
+          "tone": "up",
+          "sub": "+$8,000 if 50+"
+        },
+        "right": {
+          "label": "IRA",
+          "value": "$7,500",
+          "tone": "neutral",
+          "sub": "+$1,100 if 50+"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A 401(k) comes through your job. An IRA you open yourself, with nearly any investment.",
+      "say": "A four-oh-one-k comes through your job. An I R A you open yourself, with nearly any investment.",
+      "scene": {
+        "t": "split",
+        "title": "Who opens it",
+        "left": {
+          "title": "401(k)",
+          "items": [
+            "Via your job",
+            "From paycheck",
+            "Plan's fund menu"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "IRA",
+          "items": [
+            "You open it",
+            "Any brokerage",
+            "Nearly any fund"
+          ],
+          "tone": "neutral"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The 401(k) can add employer money: 96% of Vanguard plans did in 2025.",
+      "say": "The four-oh-one-k can add employer money: ninety-six percent of Vanguard plans did in twenty twenty-five.",
+      "scene": {
+        "t": "stat",
+        "label": "Add employer money",
+        "value": "96%",
+        "tone": "up",
+        "sub": "Vanguard, 2025",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: $60,000 salary, 6% in = $3,600; a 50% match up to 6% adds $1,800.",
+      "say": "Example: sixty-thousand-dollar salary, six percent is thirty-six hundred; a fifty percent match adds eighteen hundred.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Example: $60,000 salary",
+          "6% in = $3,600",
+          "50% match = $1,800"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2026, Roth IRAs phase out from $153,000 for single filers. Roth 401(k)s have no income limit.",
+      "say": "In twenty twenty-six, Roth I R As phase out from one hundred fifty-three thousand for single filers. Roth four-oh-one-ks have no income limit.",
+      "scene": {
+        "t": "compare",
+        "title": "Roth income limits, 2026",
+        "left": {
+          "label": "Roth IRA",
+          "value": "$153K",
+          "tone": "down",
+          "sub": "single phase-out"
+        },
+        "right": {
+          "label": "Roth 401(k)",
+          "value": "None",
+          "tone": "up",
+          "sub": "no income cap"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "401(k) money stops Dec 31; 2026 IRA money runs to April 15, 2027.",
+      "say": "Four-oh-one-k money stops December thirty-first; twenty twenty-six I R A money runs to April fifteenth, twenty twenty-seven.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "12/31",
+            "what": "Last 401(k) payday"
+          },
+          {
+            "when": "4/15",
+            "what": "IRA 2026 deadline"
+          }
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "You can have both. The 401(k) limit rose from $19,500 in 2020.",
+      "say": "You can have both. The four-oh-one-k limit rose from nineteen thousand five hundred in twenty twenty.",
+      "scene": {
+        "t": "chart",
+        "title": "401(k) yearly limit",
+        "points": [
+          [
+            2020,
+            19500
+          ],
+          [
+            2021,
+            19500
+          ],
+          [
+            2022,
+            20500
+          ],
+          [
+            2023,
+            22500
+          ],
+          [
+            2024,
+            23000
+          ],
+          [
+            2025,
+            23500
+          ],
+          [
+            2026,
+            24500
+          ]
+        ],
+        "prefix": "$",
+        "end": "$24.5K",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "A 401(k) takes over 3x what an IRA takes in 2026",
+    "ig": "A 401(k) takes over 3x what an IRA takes.\n\n2026 limits: $24,500 for a 401(k) (+$8,000 at 50+, $11,250 at ages 60-63) vs $7,500 for an IRA (+$1,100 at 50+).\nA 401(k) comes through your job, often with employer money (96% of Vanguard plans added some in 2025). An IRA you open yourself, with nearly any investment.\nExample: $60,000 salary, 6% in = $3,600; a 50% match up to 6% adds $1,800.\nRoth IRAs phase out at $153,000-$168,000 for single filers in 2026; Roth 401(k)s have no income limit. 2026 401(k) money must come out of paychecks by Dec 31; 2026 IRA money can go in until April 15, 2027.\n\nSources: IRS IR-2025-111 / Notice 2025-67 (Nov 2025); Vanguard How America Saves 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#401k #ira #retirement #personalfinance #financeprostv",
+    "tiktok": "A 401(k) takes over 3x what an IRA takes in 2026. Not financial advice. #moneytok #personalfinance #401k #ira #financeprostv",
+    "yt_desc": "For 2026, the 401(k) employee limit is $24,500 and the IRA limit is $7,500, per IRS Notice 2025-67. A 401(k) comes through your job and can include employer money (96% of Vanguard plans added some in 2025, per How America Saves 2026); an IRA you open yourself. Roth IRAs have income limits ($153,000-$168,000 phase-out for single filers in 2026); Roth 401(k)s don't. News and education, not financial advice.\n#Shorts #401k #ira",
+    "tags": [
+      "401k vs ira",
+      "2026 401k limit",
+      "2026 ira limit",
+      "employer match",
+      "roth 401k vs roth ira"
+    ]
+  }
+}
