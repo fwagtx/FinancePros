@@ -1,153 +1,153 @@
 {
- "series": "ticker",
- "header": "Big bank profits\nand your credit card",
- "cover": {
-  "title": "The Bank Made $15.3 Billion",
-  "prop": "bag",
-  "label": "Q3",
-  "value": "$15.3B"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "America's biggest bank made $15.3 billion in three months.",
-   "say": "America's biggest bank made fifteen point three billion dollars in three months.",
-   "scene": {
-    "t": "hook",
-    "title": "A [huge] bank quarter",
+  "series": "ticker",
+  "header": "Big bank profits\nand your credit card",
+  "cover": {
+    "title": "The Bank Made $15.3 Billion",
     "prop": "bag",
     "label": "Q3",
-    "value": "$15.3B",
-    "mood": "shock"
-   }
+    "value": "$15.3B"
   },
-  {
-   "who": "ticker",
-   "text": "That's up 6% from a year ago, and its card data says a lot about your wallet.",
-   "say": "That's up about six percent from a year ago, and its card data says a lot about your wallet.",
-   "scene": {
-    "t": "stat",
-    "label": "JPMorgan Q3 profit",
-    "value": "$15.3B",
-    "tone": "up",
-    "sub": "Q3 2025: $14.4B",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The share of card debt it wrote off as unpaid fell to 2.91%, from 3.15%.",
-   "say": "The share of card debt it wrote off as unpaid fell to two point nine one percent, from three point one five.",
-   "scene": {
-    "t": "compare",
-    "title": "JPM card charge-off rate",
-    "left": {
-     "label": "Q3 2025",
-     "value": "3.15%",
-     "tone": "down",
-     "sub": "written off"
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "America's biggest bank made $15.3 billion in three months.",
+      "say": "America's biggest bank made fifteen point three billion dollars in three months.",
+      "scene": {
+        "t": "hook",
+        "title": "A [huge] bank quarter",
+        "prop": "bag",
+        "label": "Q3",
+        "value": "$15.3B",
+        "mood": "shock"
+      }
     },
-    "right": {
-     "label": "Q3 2026",
-     "value": "2.91%",
-     "tone": "up",
-     "sub": "written off"
+    {
+      "who": "ticker",
+      "text": "That's up 6% from a year ago, and its card data says a lot about your wallet.",
+      "say": "That's up about six percent from a year ago, and its card data says a lot about your wallet.",
+      "scene": {
+        "t": "stat",
+        "label": "JPMorgan Q3 profit",
+        "value": "$15.3B",
+        "tone": "up",
+        "sub": "Q3 2025: $14.4B",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The share of card debt it wrote off as unpaid fell to 2.91%, from 3.15%.",
+      "say": "The share of card debt it wrote off as unpaid fell to two point nine one percent, from three point one five.",
+      "scene": {
+        "t": "compare",
+        "title": "JPM card charge-off rate",
+        "left": {
+          "label": "Q3 2025",
+          "value": "3.15%",
+          "tone": "down",
+          "sub": "written off"
+        },
+        "right": {
+          "label": "Q3 2026",
+          "value": "2.91%",
+          "tone": "up",
+          "sub": "written off"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In other words, a smaller share of card balances is going bad.",
+      "say": "In other words, a smaller share of card balances is going bad.",
+      "scene": {
+        "t": "compare",
+        "keep": true,
+        "winner": "right",
+        "title": "JPM card charge-off rate",
+        "left": {
+          "label": "Q3 2025",
+          "value": "3.15%",
+          "tone": "down",
+          "sub": "written off"
+        },
+        "right": {
+          "label": "Q3 2026",
+          "value": "2.91%",
+          "tone": "up",
+          "sub": "written off"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Spending on its debit and credit cards grew 9.6% from a year earlier.",
+      "say": "They're spending too, with card purchases up about ten percent from a year earlier.",
+      "scene": {
+        "t": "stat",
+        "label": "JPM card spending",
+        "value": "+9.6%",
+        "tone": "up",
+        "sub": "Q3 2026 vs Q3 2025"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Still, earnings were $5.57 a share, below the $5.90 analysts expected.",
+      "say": "Still, earnings of five fifty-seven a share missed the five ninety analysts expected.",
+      "scene": {
+        "t": "news",
+        "headline": "JPMorgan EPS misses",
+        "source": "JPMorgan, LSEG via CNBC, Oct 13, 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Jamie Dimon flagged sticky inflation and rising rates: \"These forces may be manageable, but we remain prepared for a wide range of outcomes.\"",
+      "say": "Jamie Dimon flagged sticky inflation and rising rates, adding, these forces may be manageable, but we remain prepared for a wide range of outcomes.",
+      "scene": {
+        "t": "quote",
+        "text": "These forces may be manageable, but we remain prepared for a wide range of outcomes.",
+        "source": "Jamie Dimon, JPMorgan, Oct 13, 2026",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "JPMorgan sees most cardholders still paying, and it's watching rates and prices.",
+      "say": "So JPMorgan sees most cardholders still paying, while it watches rates and prices.",
+      "scene": {
+        "t": "list",
+        "title": "What JPM is watching",
+        "items": [
+          "Rising rates",
+          "Sticky inflation",
+          "Fiscal deficits"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
     }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In other words, fewer borrowers are defaulting on their cards.",
-   "say": "In other words, fewer borrowers are defaulting on their cards.",
-   "scene": {
-    "t": "compare",
-    "keep": true,
-    "winner": "right",
-    "title": "JPM card charge-off rate",
-    "left": {
-     "label": "Q3 2025",
-     "value": "3.15%",
-     "tone": "down",
-     "sub": "written off"
-    },
-    "right": {
-     "label": "Q3 2026",
-     "value": "2.91%",
-     "tone": "up",
-     "sub": "written off"
-    },
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Spending on its debit and credit cards grew 10% from a year earlier.",
-   "say": "They're spending too, with card purchases up ten percent from a year earlier.",
-   "scene": {
-    "t": "stat",
-    "label": "JPM card spending",
-    "value": "+10%",
-    "tone": "up",
-    "sub": "Q3 2026 vs Q3 2025"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Still, earnings were $5.57 a share, below the $5.90 analysts expected.",
-   "say": "Still, earnings of five fifty-seven a share missed the five ninety analysts expected.",
-   "scene": {
-    "t": "news",
-    "headline": "JPMorgan EPS misses",
-    "source": "JPMorgan, LSEG via CNBC, Oct 13, 2026",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Jamie Dimon flagged sticky inflation and rising rates: \"These forces may be manageable, but we remain prepared for a wide range of outcomes.\"",
-   "say": "Jamie Dimon flagged sticky inflation and rising rates, adding: these forces may be manageable, but we remain prepared for a wide range of outcomes.",
-   "scene": {
-    "t": "quote",
-    "text": "These forces may be manageable, but we remain prepared for a wide range of outcomes.",
-    "source": "Jamie Dimon, JPMorgan, Oct 13, 2026",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Banks see most people still paying, and they're watching rates and prices.",
-   "say": "So big banks see most people still paying their bills, while they watch rates and prices.",
-   "scene": {
-    "t": "list",
-    "title": "What banks are watching",
-    "items": [
-     "Card charge-offs",
-     "Rising rates",
-     "Sticky inflation"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
-   "scene": {
-    "t": "cta"
-   }
+  ],
+  "post": {
+    "title": "America's biggest bank made $15.3 billion in three months",
+    "ig": "America's biggest bank made $15.3 billion in three months.\nJPMorgan's Q3 2026 profit rose about 6% from $14.4 billion a year ago.\nIts card charge-off rate fell to 2.91% from 3.15%, and card spending grew 9.6%.\nEPS of $5.57 missed the $5.90 analysts expected (LSEG), and Jamie Dimon warned about sticky inflation and rising rates.\nSources: JPMorgan Q3 2026 earnings release and SEC filing (Oct 13, 2026), CNBC, Yahoo Finance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#banks #creditcards #jpmorgan #economy #financeprostv",
+    "tiktok": "JPMorgan made $15.3B in 3 months. Card charge-offs fell. Not financial advice. #moneytok #personalfinance #banks #creditcards #financeprostv",
+    "yt_desc": "JPMorgan Chase reported Q3 2026 net income of $15.3 billion, up about 6% from a year earlier, while its card net charge-off rate fell to 2.91% from 3.15% and card spending grew 9.6%. Earnings per share of $5.57 missed the $5.90 analysts expected (LSEG), and CEO Jamie Dimon warned about sticky inflation, rising rates and deficits. Sources: JPMorgan earnings release and SEC filing (Oct 13, 2026), CNBC, Yahoo Finance. News and education, not financial advice. #Shorts #banks #creditcards",
+    "tags": [
+      "jpmorgan earnings",
+      "bank earnings q3 2026",
+      "credit card charge offs",
+      "jamie dimon",
+      "consumer spending"
+    ]
   }
- ],
- "post": {
-  "title": "America's biggest bank made $15.3 billion in three months",
-  "ig": "America's biggest bank made $15.3 billion in three months.\nJPMorgan's Q3 2026 profit rose about 6% from $14.4 billion a year ago.\nIts card charge-off rate fell to 2.91% from 3.15%, and card spending grew 10%.\nEPS of $5.57 missed the $5.90 analysts expected, and Jamie Dimon warned about sticky inflation and rising rates.\nSources: JPMorgan Q3 2026 earnings release and SEC filing (Oct 13, 2026), CNBC, Yahoo Finance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#banks #creditcards #jpmorgan #economy #financeprostv",
-  "tiktok": "JPMorgan made $15.3B in 3 months. Card defaults fell. Not financial advice. #moneytok #personalfinance #banks #creditcards #financeprostv",
-  "yt_desc": "JPMorgan Chase reported Q3 2026 net income of $15.3 billion, up about 6% from a year earlier, while its card net charge-off rate fell to 2.91% from 3.15% and card spending grew 10%. Earnings per share of $5.57 missed the $5.90 analysts expected, and CEO Jamie Dimon warned about sticky inflation, rising rates and deficits. Sources: JPMorgan earnings release and SEC filing (Oct 13, 2026), CNBC, Yahoo Finance. News and education, not financial advice. #Shorts #banks #creditcards",
-  "tags": [
-   "jpmorgan earnings",
-   "bank earnings q3 2026",
-   "credit card charge offs",
-   "jamie dimon",
-   "consumer spending"
-  ]
- }
 }
