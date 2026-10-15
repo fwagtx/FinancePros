@@ -1,0 +1,1551 @@
+{
+ "series": "ticker",
+ "header": "Mortgages: every\nnumber explained",
+ "cover": {
+  "title": "89% Goes to Interest.",
+  "prop": "house",
+  "label": "1st",
+  "value": "89%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The first mortgage payment can be 89% interest.",
+   "say": "The first mortgage payment can be eighty-nine percent interest.",
+   "scene": {
+    "t": "hook",
+    "title": "[89%] goes to interest",
+    "prop": "house",
+    "label": "1st",
+    "value": "89%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $400,000 loan at 7.40%, Freddie Mac's average rate on Oct 8, 2026.",
+   "say": "Take an example: a four hundred thousand dollar loan at seven point four percent, Freddie Mac's average rate on October eighth, twenty twenty-six.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $400K loan",
+     "7.40%, 30 years",
+     "Rate: Oct 8, 2026"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First payment: $2,769.52. About $2,467 is interest; only about $303 pays down the loan.",
+   "say": "The first payment is two thousand seven hundred sixty-nine dollars and fifty-two cents. About two thousand four hundred sixty-seven is interest. Only about three hundred three pays down the loan.",
+   "scene": {
+    "t": "compare",
+    "title": "Payment 1 of 360",
+    "left": {
+     "label": "Interest",
+     "value": "$2,467",
+     "tone": "down",
+     "sub": "89% of payment"
+    },
+    "right": {
+     "label": "Principal",
+     "value": "$303",
+     "tone": "up",
+     "sub": "11% of payment"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Interest wins that round. Easily.",
+   "say": "Interest wins that round. Easily.",
+   "scene": {
+    "t": "compare",
+    "title": "Payment 1 of 360",
+    "left": {
+     "label": "Interest",
+     "value": "$2,467",
+     "tone": "down",
+     "sub": "89% of payment"
+    },
+    "right": {
+     "label": "Principal",
+     "value": "$303",
+     "tone": "up",
+     "sub": "11% of payment"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 30 years, that loan costs $597,027 in interest. More than the loan itself.",
+   "say": "Over thirty years, that loan costs five hundred ninety-seven thousand and twenty-seven dollars in interest. More than the loan itself.",
+   "scene": {
+    "t": "stat",
+    "label": "Interest, 30 years",
+    "value": "$597,027",
+    "tone": "down",
+    "sub": "On a $400K loan",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Piece by piece: the parts, the payment math, rates and the full bill, and getting the loan.",
+   "say": "We'll go piece by piece: the parts, the payment math, rates and the full bill, and getting the loan.",
+   "scene": {
+    "t": "list",
+    "title": "This video",
+    "items": [
+     "The parts",
+     "The payment math",
+     "Rates + PITI",
+     "Getting the loan"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real data, exact math, labeled examples. Education, not advice.",
+   "say": "Real data, exact math, and every example labeled. Education, not advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real data, real math",
+     "Education only"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: The parts of a mortgage",
+   "say": "Chapter one: the parts of a mortgage.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The parts of a mortgage"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A mortgage is a loan to buy a home, and the home itself is the collateral.",
+   "say": "A mortgage is a loan to buy a home, and the home itself is the collateral.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mortgage = home loan",
+     "Home = collateral"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Principal is what you borrow. Our example: $400,000 on a $500,000 home with 20% down.",
+   "say": "Three basics. The principal is what you borrow. In our example, four hundred thousand dollars, on a five hundred thousand dollar home with twenty percent down.",
+   "scene": {
+    "t": "list",
+    "title": "The 3 basics",
+    "items": [
+     "Principal",
+     "Interest rate",
+     "Term"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The interest rate is the yearly price of borrowing it. Here, 7.40%.",
+   "say": "The interest rate is the yearly price of borrowing it. Here, seven point four percent.",
+   "scene": {
+    "t": "list",
+    "title": "The 3 basics",
+    "items": [
+     "Principal",
+     "Interest rate",
+     "Term"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The term is how long you have to pay it back. The US standard is 30 years.",
+   "say": "And the term is how long you have to repay. The US standard is thirty years.",
+   "scene": {
+    "t": "list",
+    "title": "The 3 basics",
+    "items": [
+     "Principal",
+     "Interest rate",
+     "Term"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But loan offers show two percentages: the interest rate and the APR.",
+   "say": "But loan offers show two percentages: the interest rate and the A P R.",
+   "scene": {
+    "t": "compare",
+    "title": "Two numbers",
+    "left": {
+     "label": "Rate",
+     "value": "7.40%",
+     "tone": "neutral",
+     "sub": "Interest only"
+    },
+    "right": {
+     "label": "APR",
+     "value": "7.61%",
+     "tone": "down",
+     "sub": "Rate + fees"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Per the CFPB, APR is the rate plus points, broker fees and other charges, as one yearly rate.",
+   "say": "Per the C F P B, the A P R is the rate plus points, broker fees and other charges, as one yearly rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "APR = rate + points",
+     "+ fees, per year"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $8,000 of lender fees turns a 7.40% rate into about a 7.61% APR.",
+   "say": "In our example, eight thousand dollars of lender fees turns seven point four percent into an A P R of about seven point six one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "APR with $8K fees",
+    "value": "7.61%",
+    "tone": "down",
+    "sub": "Example loan"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So APR helps compare offers. A low rate with big fees can cost more than it looks.",
+   "say": "So the A P R helps compare offers. A low rate with big fees can cost more than it looks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Low rate + big fees",
+     "can cost more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Points are fees paid up front for a lower rate. One point is 1% of the loan.",
+   "say": "Then there are points: fees paid up front for a lower rate. One point is one percent of the loan.",
+   "scene": {
+    "t": "stat",
+    "label": "1 point",
+    "value": "1%",
+    "tone": "neutral",
+    "sub": "of the loan amount"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $400,000, one point costs $4,000.",
+   "say": "So on our loan, one point costs four thousand dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 point on $400K",
+     "= $4,000"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rate cut per point varies. Say 7.15%: the payment falls $67.89 a month.",
+   "say": "How much a point cuts the rate varies. Say it's seven point one five percent. The payment falls from about two thousand seven hundred seventy to about two thousand seven hundred two, or sixty-seven dollars and eighty-nine cents a month.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: 1 point",
+    "left": {
+     "label": "At 7.40%",
+     "value": "$2,770",
+     "tone": "neutral",
+     "sub": "Per month"
+    },
+    "right": {
+     "label": "At 7.15%",
+     "value": "$2,702",
+     "tone": "up",
+     "sub": "Per month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$4,000 / $67.89 = about 59 months, roughly 5 years, to break even. Sell or refinance sooner, and the point cost more than it saved.",
+   "say": "Divide four thousand by that, and you break even in about fifty-nine months, roughly five years. Sell or refinance sooner, and the point cost more than it saved.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$4,000 / $67.89",
+     "= about 59 months"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The payment math",
+   "say": "Chapter two: the payment math.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The payment math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every fixed-rate payment comes from one formula. It's friendlier than it looks.",
+   "say": "Every fixed-rate payment comes from one formula, and it's friendlier than it looks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "M = L x r",
+     "/ (1 - (1+r)^-n)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "L is the loan, r the monthly rate, n the number of payments.",
+   "say": "L is the loan, r is the monthly rate, and n is the number of payments.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "L = $400,000",
+     "r = 7.40% / 12",
+     "n = 360 months"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Monthly payment: $2,769.52, the same for all 30 years. What changes is what's inside it.",
+   "say": "The payment comes out to two thousand seven hundred sixty-nine dollars and fifty-two cents, the same for thirty years. What changes is what's inside it.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly payment",
+    "value": "$2,769.52",
+    "tone": "neutral",
+    "sub": "P&I, 30 years"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Interest = balance x rate / 12. Month one: $400,000 x 7.40% / 12 = $2,466.67.",
+   "say": "Each month's interest is the balance times the rate, over twelve. In month one, that's two thousand four hundred sixty-six dollars and sixty-seven cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$400K x 7.40% / 12",
+     "= $2,466.67"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rest pays down principal: $2,769.52 - $2,466.67 = $302.85.",
+   "say": "The rest pays down principal: three hundred two dollars and eighty-five cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Payment - interest",
+     "= $302.85"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So after one payment, the balance only drops to $399,697.",
+   "say": "So after one payment, the balance only drops to three hundred ninety-nine thousand, six hundred ninety-seven.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Start",
+     "value": "$400,000"
+    },
+    "to": {
+     "label": "After payment 1",
+     "value": "$399,697"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next month, interest is figured on a slightly smaller balance, so a bit more goes to principal. That's amortization.",
+   "say": "Next month, interest is figured on a slightly smaller balance, so a bit more goes to principal. That slow shift is amortization.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Amortization:",
+     "interest shrinks,",
+     "principal grows"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Year one: $29,474 of interest, just $3,760 of principal.",
+   "say": "Year one adds up to about twenty-nine thousand four hundred seventy-four dollars of interest, and just three thousand seven hundred sixty of principal.",
+   "scene": {
+    "t": "compare",
+    "title": "Year 1 totals",
+    "left": {
+     "label": "Interest",
+     "value": "$29,474",
+     "tone": "down",
+     "sub": "Paid in year 1"
+    },
+    "right": {
+     "label": "Principal",
+     "value": "$3,760",
+     "tone": "up",
+     "sub": "Paid in year 1"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The balance falls slowly at first, then faster near the end.",
+   "say": "Here's the balance over time. It falls slowly at first, then faster near the end.",
+   "scene": {
+    "t": "chart",
+    "title": "Balance by loan year",
+    "points": [
+     [
+      0,
+      400
+     ],
+     [
+      5,
+      378
+     ],
+     [
+      10,
+      346
+     ],
+     [
+      15,
+      301
+     ],
+     [
+      20,
+      234
+     ],
+     [
+      25,
+      139
+     ],
+     [
+      30,
+      0
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "K",
+    "end": "$0",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After 10 years and about $332,000 of payments, you'd still owe $346,411.",
+   "say": "After ten years and about three hundred thirty-two thousand dollars of payments, you'd still owe three hundred forty-six thousand, four hundred eleven.",
+   "scene": {
+    "t": "stat",
+    "label": "Owed after 10 yrs",
+    "value": "$346,411",
+    "tone": "down",
+    "sub": "Of $400,000",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Only $53,589 of the loan is paid off.",
+   "say": "Only fifty-three thousand, five hundred eighty-nine dollars is paid off.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paid off in 10 yrs:",
+     "$53,589"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Principal finally beats interest at payment 249, in year 21.",
+   "say": "Principal doesn't beat interest until payment two forty-nine, in year twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Principal wins at",
+    "value": "#249",
+    "tone": "up",
+    "sub": "Year 21 of 30"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? Interest is charged on what you owe, and early on, you owe almost all of it.",
+   "say": "Why so slow? Interest is charged on what you owe, and early on, you owe almost all of it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Interest is charged",
+     "on what you owe"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 30 years: about $997,000 in total. $400K of loan, about $597K of interest.",
+   "say": "Over thirty years, that's about nine hundred ninety-seven thousand dollars in total: four hundred thousand of loan, about five hundred ninety-seven thousand of interest.",
+   "scene": {
+    "t": "compare",
+    "title": "30-year total",
+    "left": {
+     "label": "Loan",
+     "value": "$400K",
+     "tone": "neutral",
+     "sub": "Principal"
+    },
+    "right": {
+     "label": "Interest",
+     "value": "$597K",
+     "tone": "down",
+     "sub": "At 7.40%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now a 15-year loan. On Oct 8, 2026, Freddie Mac's 15-year average was 6.73%.",
+   "say": "Now a fifteen-year loan. On October eighth, twenty twenty-six, Freddie Mac's fifteen-year average was six point seven three percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Oct 8, 2026 rates",
+    "left": {
+     "label": "30-year",
+     "value": "7.40%",
+     "tone": "neutral",
+     "sub": "Freddie Mac avg"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "6.73%",
+     "tone": "up",
+     "sub": "Freddie Mac avg"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same $400,000: about $3,535 a month versus about $2,770.",
+   "say": "Same loan: about three thousand five hundred thirty-five dollars a month, versus about two thousand seven hundred seventy.",
+   "scene": {
+    "t": "compare",
+    "title": "Monthly payment",
+    "left": {
+     "label": "30-year",
+     "value": "$2,770",
+     "tone": "neutral",
+     "sub": "At 7.40%"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "$3,535",
+     "tone": "down",
+     "sub": "At 6.73%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But total interest drops to about $236K, roughly $361K less.",
+   "say": "But total interest drops to about two hundred thirty-six thousand dollars, roughly three hundred sixty-one thousand less.",
+   "scene": {
+    "t": "compare",
+    "title": "Total interest",
+    "left": {
+     "label": "30-year",
+     "value": "$597K",
+     "tone": "down",
+     "sub": "At 7.40%"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "$236K",
+     "tone": "up",
+     "sub": "At 6.73%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lower rate, half the time, far less interest. The trade-off is a much bigger monthly bill.",
+   "say": "Lower rate, half the time, far less interest. The trade-off is a much bigger monthly bill.",
+   "scene": {
+    "t": "compare",
+    "title": "Total interest",
+    "left": {
+     "label": "30-year",
+     "value": "$597K",
+     "tone": "down",
+     "sub": "At 7.40%"
+    },
+    "right": {
+     "label": "15-year",
+     "value": "$236K",
+     "tone": "up",
+     "sub": "At 6.73%"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some pick 30 years for the lower payment; others pick 15 to build equity fast.",
+   "say": "Some people pick thirty years for the lower payment. Others pick fifteen to build equity fast. Both are just math.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "30-year",
+     "items": [
+      "Lower payment",
+      "More interest",
+      "More flexibility"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "15-year",
+     "items": [
+      "Higher payment",
+      "Less interest",
+      "Equity faster"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Where your rate comes from",
+   "say": "Chapter three: where your rate comes from.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Where your rate comes from"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rate on the news usually comes from Freddie Mac's weekly survey, the PMMS.",
+   "say": "The rate on the news usually comes from Freddie Mac's weekly survey, the P M M S.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Freddie Mac PMMS",
+     "Weekly survey"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It averages conventional loans for borrowers with 20% down and excellent credit.",
+   "say": "It's the average for borrowers with twenty percent down and excellent credit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "20% down,",
+     "excellent credit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The yearly average 30-year rate, 2016 to 2025, ending at about 6.6%.",
+   "say": "Here's the yearly average thirty-year rate from twenty sixteen to twenty twenty-five, ending at about six point six percent.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, yearly avg",
+    "points": [
+     [
+      2016,
+      3.65
+     ],
+     [
+      2017,
+      3.99
+     ],
+     [
+      2018,
+      4.54
+     ],
+     [
+      2019,
+      3.94
+     ],
+     [
+      2020,
+      3.11
+     ],
+     [
+      2021,
+      2.96
+     ],
+     [
+      2022,
+      5.34
+     ],
+     [
+      2023,
+      6.81
+     ],
+     [
+      2024,
+      6.72
+     ],
+     [
+      2025,
+      6.6
+     ]
+    ],
+    "suffix": "%",
+    "end": "6.6%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It bottomed out at a 2.96% average in 2021.",
+   "say": "It bottomed out in twenty twenty-one, at two point nine six percent.",
+   "scene": {
+    "t": "stat",
+    "label": "2021 average",
+    "value": "2.96%",
+    "tone": "up",
+    "sub": "Freddie Mac PMMS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it more than doubled, to 6.81% in 2023.",
+   "say": "Then it more than doubled, to six point eight one percent in twenty twenty-three.",
+   "scene": {
+    "t": "stat",
+    "label": "2023 average",
+    "value": "6.81%",
+    "tone": "down",
+    "sub": "Freddie Mac PMMS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our loan: about $1,678 a month at 2.96%, versus about $2,770 at 7.40%.",
+   "say": "On our loan, that's about one thousand six hundred seventy-eight dollars a month at the twenty twenty-one rate, versus about two thousand seven hundred seventy at seven point four.",
+   "scene": {
+    "t": "compare",
+    "title": "Same loan, 2 rates",
+    "left": {
+     "label": "At 2.96%",
+     "value": "$1,678",
+     "tone": "up",
+     "sub": "2021 average"
+    },
+    "right": {
+     "label": "At 7.40%",
+     "value": "$2,770",
+     "tone": "down",
+     "sub": "Oct 8, 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The survey's record high was 18.63%, in October 1981.",
+   "say": "The survey's record high was eighteen point six three percent, in October nineteen eighty-one.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1981",
+      "what": "Record high: 18.63%"
+     },
+     {
+      "when": "2021",
+      "what": "Record low: 2.65%"
+     },
+     {
+      "when": "2026",
+      "what": "7.40% on Oct 8"
+     }
+    ],
+    "reveal": 1,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its record low was 2.65%, in January 2021.",
+   "say": "Its record low was two point six five percent, in January twenty twenty-one.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1981",
+      "what": "Record high: 18.63%"
+     },
+     {
+      "when": "2021",
+      "what": "Record low: 2.65%"
+     },
+     {
+      "when": "2026",
+      "what": "7.40% on Oct 8"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Oct 8, 2026, it was 7.40%, up from 5.98% in late February 2026.",
+   "say": "On October eighth, twenty twenty-six, it was seven point four percent, up from five point nine eight in late February.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1981",
+      "what": "Record high: 18.63%"
+     },
+     {
+      "when": "2021",
+      "what": "Record low: 2.65%"
+     },
+     {
+      "when": "2026",
+      "what": "7.40% on Oct 8"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A new number comes out every Thursday, and nobody knows which way it goes next.",
+   "say": "A new number comes out every Thursday, and nobody knows which way it goes next.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New average",
+     "every Thursday"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your own rate can differ: lenders price in credit score, down payment, loan type and points.",
+   "say": "Your own rate can differ. Lenders price in your credit score, down payment, loan type and points.",
+   "scene": {
+    "t": "list",
+    "title": "Your rate depends on",
+    "items": [
+     "Credit score",
+     "Down payment",
+     "Loan type",
+     "Points paid"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2026 conforming loan limit: $832,750 for a one-unit home in most areas (FHFA).",
+   "say": "Then there's the conforming loan limit. For twenty twenty-six, it's eight hundred thirty-two thousand, seven hundred fifty dollars in most areas.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 loan limit",
+    "value": "$832,750",
+    "tone": "neutral",
+    "sub": "FHFA, most areas"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fannie Mae and Freddie Mac can buy loans up to it. Bigger ones are jumbo loans. FHFA resets it yearly.",
+   "say": "Fannie Mae and Freddie Mac can buy loans up to that limit. Bigger ones are jumbo loans. F H F A resets it every year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Above the limit:",
+     "jumbo loan"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For scale: the median existing home sold for $417,500 in September 2026 (NAR).",
+   "say": "For scale, the median existing home sold for four hundred seventeen thousand, five hundred dollars in September twenty twenty-six, according to the National Association of Realtors.",
+   "scene": {
+    "t": "stat",
+    "label": "Median home price",
+    "value": "$417,500",
+    "tone": "neutral",
+    "sub": "NAR, Sep 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: PITI, the full monthly bill",
+   "say": "Chapter four: PITI, the full monthly bill.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "PITI: the full monthly bill"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That $2,769.52 payment is only P and I: principal and interest.",
+   "say": "That payment we figured is only the P and the I: principal and interest.",
+   "scene": {
+    "t": "list",
+    "title": "PITI",
+    "items": [
+     "Principal",
+     "Interest",
+     "Taxes",
+     "Insurance"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lenders usually add a T and another I: property taxes and homeowners insurance.",
+   "say": "Lenders usually add a T and another I: property taxes and homeowners insurance.",
+   "scene": {
+    "t": "list",
+    "title": "PITI",
+    "items": [
+     "Principal",
+     "Interest",
+     "Taxes",
+     "Insurance"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "ATTOM: the average effective property tax rate on single-family homes was 0.9% in 2025.",
+   "say": "Taxes first. The data firm ATTOM put the average effective property tax rate on single-family homes at zero point nine percent in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg property tax",
+    "value": "0.9%",
+    "tone": "neutral",
+    "sub": "ATTOM, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It varies a lot. Illinois led at 1.84%, then New Jersey at 1.58%.",
+   "say": "It varies a lot. Illinois led at one point eight four percent, then New Jersey at one point five eight.",
+   "scene": {
+    "t": "compare",
+    "title": "Highest, 2025",
+    "left": {
+     "label": "Illinois",
+     "value": "1.84%",
+     "tone": "down",
+     "sub": "Effective rate"
+    },
+    "right": {
+     "label": "New Jersey",
+     "value": "1.58%",
+     "tone": "down",
+     "sub": "Effective rate"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our $500,000 home at 0.9%: $4,500 a year, or $375 a month.",
+   "say": "On our five hundred thousand dollar home, that's four thousand five hundred dollars a year, or three hundred seventy-five a month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$500K x 0.9%",
+     "= $4,500 a year",
+     "= $375 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bankrate: the average homeowners policy is $2,424 a year for $300,000 of dwelling coverage.",
+   "say": "For insurance, Bankrate's national average is two thousand four hundred twenty-four dollars a year, for three hundred thousand dollars of dwelling coverage.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg home insurance",
+    "value": "$2,424",
+    "tone": "neutral",
+    "sub": "Per year, Bankrate"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $202 a month. Lenders require it, because the house secures their loan.",
+   "say": "That's two hundred two dollars a month. Lenders require it, because the house secures their loan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$2,424 / 12",
+     "= $202 a month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add it up: $2,769.52 + $375 + $202 = $3,346.52 a month.",
+   "say": "Add it all up, and the real monthly bill is three thousand three hundred forty-six dollars and fifty-two cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "P&I: $2,769.52",
+     "+ $375 + $202",
+     "= $3,346.52"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 21% more than the payment people usually quote.",
+   "say": "That's about twenty-one percent more than the payment people usually quote.",
+   "scene": {
+    "t": "stat",
+    "label": "PITI vs P&I alone",
+    "value": "+21%",
+    "tone": "down",
+    "sub": "Example home",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Taxes and insurance usually run through escrow: the servicer collects monthly and pays the bills.",
+   "say": "Taxes and insurance usually run through escrow. The servicer collects a slice each month and pays those bills.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Escrow: a holding",
+     "account for taxes",
+     "+ insurance"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal rules cap the cushion at 1/6 of the yearly total, about 2 months.",
+   "say": "Federal rules cap its cushion at one sixth of the yearly total, about two months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cushion: up to 1/6",
+     "= about 2 months"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's reviewed yearly. If taxes or insurance rise, so does the payment, even on a fixed rate.",
+   "say": "It's reviewed every year. If taxes or insurance rise, so does the payment, even on a fixed rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fixed rate isn't",
+     "fixed payment"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Under 20% down on a conventional loan, you usually pay private mortgage insurance, or PMI.",
+   "say": "Next up, P M I. Put under twenty percent down on a conventional loan, and you usually pay private mortgage insurance.",
+   "scene": {
+    "t": "stat",
+    "label": "PMI kicks in under",
+    "value": "20% down",
+    "tone": "down",
+    "sub": "Conventional loans"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It protects the lender. Freddie Mac: typically $30 to $70 a month per $100,000 borrowed.",
+   "say": "It protects the lender, not you. Freddie Mac says it typically runs thirty to seventy dollars a month per hundred thousand borrowed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$30-$70 a month",
+     "per $100K borrowed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: same home, 10% down. A $450,000 loan, PMI of about $135 to $315 a month.",
+   "say": "Example: same home, ten percent down. That's a four hundred fifty thousand dollar loan, and roughly one hundred thirty-five to three hundred fifteen a month of P M I.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "10% down: $450K loan",
+     "PMI: $135-$315/mo"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The part most people never hear: a 1998 law sets when PMI must end.",
+   "say": "Here's what most people never hear. A nineteen ninety-eight law, the Homeowners Protection Act, sets when it must end.",
+   "scene": {
+    "t": "news",
+    "headline": "PMI has an end date",
+    "source": "Homeowners Protection Act, 1998"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 80% of the original value, you can ask to cancel it, with a good payment record.",
+   "say": "At eighty percent of the home's original value, you can ask to cancel it, with a good payment record.",
+   "scene": {
+    "t": "list",
+    "title": "When PMI ends",
+    "items": [
+     "80%: you can ask",
+     "78%: automatic",
+     "Midpoint: final"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 78% on the original schedule, the servicer must drop it automatically, if you're current.",
+   "say": "At seventy-eight percent on the original schedule, the servicer must drop it automatically, if you're current.",
+   "scene": {
+    "t": "list",
+    "title": "When PMI ends",
+    "items": [
+     "80%: you can ask",
+     "78%: automatic",
+     "Midpoint: final"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Otherwise, it ends at the loan's halfway point, if you're current.",
+   "say": "Otherwise, it ends at the loan's halfway point, if you're current.",
+   "scene": {
+    "t": "list",
+    "title": "When PMI ends",
+    "items": [
+     "80%: you can ask",
+     "78%: automatic",
+     "Midpoint: final"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On the $450,000 loan: 80% comes at payment 105; 78% at payment 120, exactly 10 years.",
+   "say": "On our four hundred fifty thousand dollar example, eighty percent comes at payment one oh five, and seventy-eight percent at payment one twenty: exactly ten years.",
+   "scene": {
+    "t": "compare",
+    "title": "The $450K example",
+    "left": {
+     "label": "Can request",
+     "value": "Pmt 105",
+     "tone": "neutral",
+     "sub": "Balance hits 80%"
+    },
+    "right": {
+     "label": "Automatic",
+     "value": "Pmt 120",
+     "tone": "up",
+     "sub": "Balance hits 78%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Extra payments reach 80% sooner. FHA, VA and USDA loans have their own rules.",
+   "say": "Extra payments can reach eighty percent sooner. And F H A, V A and U S D A loans follow their own rules, not this law.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not covered:",
+     "FHA, VA, USDA"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Getting the loan",
+   "say": "Chapter five: getting the loan.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Getting the loan"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Closing costs typically run 2% to 5% of the purchase price.",
+   "say": "Closing costs typically run two to five percent of the purchase price.",
+   "scene": {
+    "t": "stat",
+    "label": "Closing costs",
+    "value": "2%-5%",
+    "tone": "neutral",
+    "sub": "Of purchase price"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $500,000 home: $10,000 to $25,000, for appraisal, title, lender fees and points.",
+   "say": "On our home, that's ten thousand to twenty-five thousand dollars, for the appraisal, title, lender fees and points.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$500K home:",
+     "$10,000-$25,000"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Loan Estimate: within 3 business days of applying. Closing Disclosure: 3 business days before closing.",
+   "say": "Lenders must send a Loan Estimate within three business days of applying, and a Closing Disclosure at least three business days before closing.",
+   "scene": {
+    "t": "compare",
+    "title": "Two forms (CFPB)",
+    "left": {
+     "label": "Estimate",
+     "value": "3 days",
+     "tone": "neutral",
+     "sub": "After you apply"
+    },
+    "right": {
+     "label": "Disclosure",
+     "value": "3 days",
+     "tone": "neutral",
+     "sub": "Before closing"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A fixed-rate loan keeps one rate for the whole term. An adjustable-rate mortgage, or ARM, can change.",
+   "say": "Fixed-rate loans keep one rate for the whole term. An adjustable-rate mortgage, or ARM, can change.",
+   "scene": {
+    "t": "split",
+    "title": "Fixed vs ARM",
+    "left": {
+     "title": "Fixed",
+     "items": [
+      "Rate never moves",
+      "Same P&I always"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "ARM",
+     "items": [
+      "Fixed at first",
+      "Then adjusts",
+      "Has caps"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 5/6 ARM is fixed for 5 years, then adjusts every 6 months.",
+   "say": "A five six ARM is fixed for five years, then adjusts every six months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "5/6 ARM:",
+     "fixed 5 years,",
+     "then every 6 months"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The new rate = an index, usually SOFR, plus a margin set in the loan.",
+   "say": "The new rate is an index, usually SOFR, plus a margin set in the loan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New rate =",
+     "index + margin"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Common 2/1/5 caps: +2 points at the first change, +1 after that, +5 for life.",
+   "say": "Common two, one, five caps allow up to two points at the first change, one point after that, and five points over the life of the loan.",
+   "scene": {
+    "t": "list",
+    "title": "Caps: 2/1/5",
+    "items": [
+     "+2 first change",
+     "+1 each after",
+     "+5 lifetime max"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hypothetical: start at 6%, and it could hit 8% at the first change, never above 11%.",
+   "say": "So an ARM starting at six percent could hit eight percent at the first change, and never top eleven.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: starts at 6%",
+    "left": {
+     "label": "First change",
+     "value": "8% max",
+     "tone": "neutral",
+     "sub": "Start + 2"
+    },
+    "right": {
+     "label": "Lifetime",
+     "value": "11% max",
+     "tone": "down",
+     "sub": "Start + 5"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After the fixed period, the payment can rise, and nobody knows rates 5 years out.",
+   "say": "After the fixed period, the payment can rise, and nobody knows rates five years out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "After year 5,",
+     "payments can rise"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last number: DTI, monthly debt payments / gross monthly income.",
+   "say": "The last number helps decide approval: D T I, your monthly debt payments divided by gross monthly income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "DTI = monthly debts",
+     "/ gross income"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $12,000 a month of income. The $3,346.52 bill is 27.9%. Add an $800 car loan: 34.6%.",
+   "say": "With twelve thousand dollars a month of income, our housing bill is twenty-seven point nine percent. Add an eight hundred dollar car payment, and it's thirty-four point six.",
+   "scene": {
+    "t": "compare",
+    "title": "Example: $12K/mo",
+    "left": {
+     "label": "Housing only",
+     "value": "27.9%",
+     "tone": "neutral",
+     "sub": "Of gross income"
+    },
+    "right": {
+     "label": "+ $800 car loan",
+     "value": "34.6%",
+     "tone": "down",
+     "sub": "Of gross income"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fannie Mae allows up to 50% DTI through its automated system, 36% to 45% underwritten by hand.",
+   "say": "Fannie Mae allows up to fifty percent through its automated system, and thirty-six to forty-five percent underwritten by hand. That's a ceiling, not a budget.",
+   "scene": {
+    "t": "compare",
+    "title": "Fannie Mae max DTI",
+    "left": {
+     "label": "Automated",
+     "value": "50%",
+     "tone": "neutral",
+     "sub": "Fannie DU system"
+    },
+    "right": {
+     "label": "Manual",
+     "value": "36-45%",
+     "tone": "neutral",
+     "sub": "Credit + reserves"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Early payments are mostly interest: 89% of payment one in our example.",
+   "say": "Early payments are mostly interest: eighty-nine percent of payment one, in our example.",
+   "scene": {
+    "t": "list",
+    "title": "Remember",
+    "items": [
+     "Early = interest",
+     "APR adds fees",
+     "PITI = real bill",
+     "PMI ends by law"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The APR adds fees to the rate, which makes it useful for comparing offers.",
+   "say": "The A P R adds fees to the rate, which makes it useful for comparing offers.",
+   "scene": {
+    "t": "list",
+    "title": "Remember",
+    "items": [
+     "Early = interest",
+     "APR adds fees",
+     "PITI = real bill",
+     "PMI ends by law"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The real bill is PITI, and taxes and insurance can rise even on a fixed rate.",
+   "say": "The real bill is PITI, and taxes and insurance can rise even on a fixed rate.",
+   "scene": {
+    "t": "list",
+    "title": "Remember",
+    "items": [
+     "Early = interest",
+     "APR adds fees",
+     "PITI = real bill",
+     "PMI ends by law"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And PMI isn't forever: ask at 80%, automatic at 78%.",
+   "say": "And P M I isn't forever: you can ask at eighty percent, and it's automatic at seventy-eight.",
+   "scene": {
+    "t": "list",
+    "title": "Remember",
+    "items": [
+     "Early = interest",
+     "APR adds fees",
+     "PITI = real bill",
+     "PMI ends by law"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember: 89% of that first payment went to interest. Now you know why.",
+   "say": "Remember: eighty-nine percent of that first payment went to interest. Now you know why.",
+   "scene": {
+    "t": "hook",
+    "title": "[89%] goes to interest",
+    "prop": "house",
+    "label": "1st",
+    "value": "89%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for more money explained from zero.",
+   "say": "If this helped, subscribe for more money, explained from zero.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Now you can read a mortgage."
+   }
+  }
+ ],
+ "post": {
+  "title": "Your first mortgage payment can be 89% interest. Every mortgage number, explained",
+  "ig": "The first mortgage payment can be 89% interest. Here is every number on a mortgage, explained with real math.",
+  "tiktok": "On a $400K loan at 7.40%, 89% of payment one is interest. Every mortgage number, explained.",
+  "yt_desc": "On a $400,000, 30-year loan at 7.40% (Freddie Mac's average on Oct 8, 2026), $2,466.67 of the first $2,769.52 payment is interest, and principal doesn't overtake interest until year 21. This video explains every number on a mortgage from zero: principal, interest rate versus APR, points and break-even, the amortization formula with exact math, total interest over 30 years, and 15-year versus 30-year loans. It then covers Freddie Mac's rate survey from 2016 to 2025, the 2026 conforming loan limit, PITI (property taxes, homeowners insurance, PMI and escrow), when PMI must end under the Homeowners Protection Act, closing costs, fixed versus adjustable-rate loans and debt-to-income ratios. All examples are hypothetical and labeled.\n\nCHAPTERS\n\nSources: Freddie Mac Primary Mortgage Market Survey (Oct 8, 2026; annual averages 2016-2025; record high Oct 1981, record low Jan 2021); NAR Existing-Home Sales (Oct 13, 2026); FHFA 2026 conforming loan limits (Nov 2025); CFPB on APR, points, PMI cancellation and the Loan Estimate and Closing Disclosure; Regulation X (escrow); ATTOM 2025 property tax analysis (Apr 2026); Bankrate homeowners insurance (2026); Freddie Mac on PMI cost and closing costs; Fannie Mae Selling Guide (DTI); lender 5/6 SOFR ARM disclosures. Payment math is our own calculation with the standard amortization formula.\n\nNews and education, not financial advice.\n\n#mortgage #personalfinance #homebuying",
+  "tags": [
+   "how mortgages work",
+   "mortgage explained",
+   "amortization",
+   "APR vs interest rate",
+   "PMI",
+   "PITI",
+   "15 vs 30 year mortgage",
+   "mortgage points"
+  ]
+ }
+}
