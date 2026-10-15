@@ -1,0 +1,188 @@
+{
+  "series": "ticker",
+  "header": "Why are used cars\nso expensive?",
+  "cover": {
+    "title": "Why Are Used Cars So Expensive?",
+    "prop": "car",
+    "label": "Used",
+    "value": "$27,239"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Why does a used car cost over $27,000?",
+      "say": "Why does a used car cost over twenty-seven thousand dollars?",
+      "scene": {
+        "t": "hook",
+        "title": "Why so [expensive]?",
+        "prop": "car",
+        "label": "Used",
+        "value": "$27,000+",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In August 2026, the average used listing hit $27,239 (Cox Automotive).",
+      "say": "In August twenty twenty-six, the average used listing hit twenty-seven thousand, two hundred thirty-nine dollars.",
+      "scene": {
+        "t": "stat",
+        "label": "Avg used listing",
+        "value": "$27,239",
+        "tone": "down",
+        "sub": "Cox Auto, Aug 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Blame a parts shortage: 2022 new-car sales were just 13.9 million, the fewest since 2011.",
+      "say": "Blame a parts shortage: twenty twenty-two new car sales were just thirteen point nine million.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "2022 new car sales",
+          "13.9 million",
+          "Fewest since 2011"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Leasing shrank from 27.82% to 19.65% of new vehicles (Q2 2021 to Q2 2022), so fewer 3-year-old cars come back off lease.",
+      "say": "Leasing shrank too, from twenty-seven point eight two percent of new vehicles to nineteen point six five percent, so fewer three-year-old cars come back off lease.",
+      "scene": {
+        "t": "compare",
+        "title": "New cars leased",
+        "left": {
+          "label": "2021",
+          "value": "27.82%",
+          "tone": "neutral",
+          "sub": "Q2 2021, Experian"
+        },
+        "right": {
+          "label": "2022",
+          "value": "19.65%",
+          "tone": "down",
+          "sub": "Q2 2022, Experian"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A 3-year-old used car averaged $32,461 in Q2 2026 (Edmunds).",
+      "say": "A three-year-old used car averaged thirty-two thousand, four hundred sixty-one dollars in mid twenty twenty-six.",
+      "scene": {
+        "t": "stat",
+        "label": "3-yr-old used avg",
+        "value": "$32,461",
+        "tone": "down",
+        "sub": "Edmunds, Q2 2026",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "At auction, the Manheim used vehicle index hit 205.9 in September 2026 (Cox Automotive).",
+      "say": "At auction, the Manheim index hit two hundred five point nine in September twenty twenty-six.",
+      "scene": {
+        "t": "chart",
+        "title": "Manheim index, Sept.",
+        "points": [
+          [
+            2020,
+            161.2
+          ],
+          [
+            2021,
+            204.8
+          ],
+          [
+            2022,
+            204.5
+          ],
+          [
+            2023,
+            214.3
+          ],
+          [
+            2024,
+            203.0
+          ],
+          [
+            2025,
+            207.0
+          ],
+          [
+            2026,
+            205.9
+          ]
+        ],
+        "prefix": "",
+        "suffix": "",
+        "end": "205.9",
+        "color": "up",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The surprise: cars under $20,000 fell from 55.2% of used sales (Q2 2019) to 31.8% (Q2 2026).",
+      "say": "The surprise: cars under twenty thousand dollars fell from fifty-five point two percent of used sales to thirty-one point eight percent.",
+      "scene": {
+        "t": "compare",
+        "title": "Used sales under $20K",
+        "left": {
+          "label": "2019",
+          "value": "55.2%",
+          "tone": "up",
+          "sub": "Q2 2019, Edmunds"
+        },
+        "right": {
+          "label": "2026",
+          "value": "31.8%",
+          "tone": "down",
+          "sub": "Q2 2026, Edmunds"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And the average used-car loan rate was 11.19% in Q2 2026 (Experian).",
+      "say": "And used car loans averaged eleven point one nine percent in mid twenty twenty-six.",
+      "scene": {
+        "t": "stat",
+        "label": "Avg used loan rate",
+        "value": "11.19%",
+        "tone": "down",
+        "sub": "Experian, Q2 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "mood": "happy"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why is a used car so expensive? The cars never built",
+    "ig": "Why does a used car cost over $27,000?\nThe average used listing was $27,239 in August 2026 (Cox Automotive).\nA parts shortage held 2022 new-vehicle sales to 13.9 million, and leasing fell from 27.82% of new vehicles (Q2 2021) to 19.65% (Q2 2022), so fewer nearly new cars come back off lease about three years later.\nA 3-year-old used car averaged $32,461 in Q2 2026, and used cars under $20,000 fell from 55.2% of sales (Q2 2019) to 31.8% (Q2 2026). The average used loan rate was 11.19% in Q2 2026.\nSources: Cox Automotive, Edmunds, Experian, Kelley Blue Book.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#usedcars #carprices #personalfinance #moneytips #financeprostv",
+    "tiktok": "Why a used car costs over $27,000: the cars never built. Not financial advice. #moneytok #personalfinance #usedcars #carprices #financeprostv",
+    "yt_desc": "The average used car was listed at $27,239 in August 2026 (Cox Automotive). A parts shortage held 2022 new-vehicle sales to 13.9 million and leasing fell to 19.65% of new vehicles in Q2 2022 (Experian), so fewer nearly new cars come back off lease; a 3-year-old used car averaged $32,461 in Q2 2026 and under-$20,000 cars fell to 31.8% of used sales (Edmunds). News and education, not financial advice. #Shorts #usedcars #carprices",
+    "tags": [
+      "used car prices",
+      "why are used cars so expensive",
+      "manheim index",
+      "off lease cars",
+      "used car loan rate"
+    ]
+  }
+}
