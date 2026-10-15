@@ -1,0 +1,186 @@
+{
+  "series": "ticker",
+  "header": "How surgery centers\nmake money",
+  "cover": {
+    "title": "Paid Less, 39% Margin?",
+    "prop": "bill",
+    "label": "USPI",
+    "value": "39%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Medicare pays surgery centers less. Why is one chain's margin 39%?",
+      "say": "Medicare pays surgery centers less. Why is one chain's margin thirty-nine percent?",
+      "scene": {
+        "t": "hook",
+        "title": "Paid [less], 39% margin?",
+        "prop": "bill",
+        "label": "USPI",
+        "value": "39%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Surgery centers do same-day operations like cataracts, no overnight stay.",
+      "say": "Surgery centers do same-day operations like cataracts, no overnight stay.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Surgery center = ASC",
+          "Same-day surgery",
+          "Home that night"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2026, Medicare's base rate per payment unit is $56 there, versus $91 at hospital outpatient departments.",
+      "say": "In twenty twenty-six, Medicare's base rate per payment unit is fifty-six dollars there, versus ninety-one at hospital outpatient departments.",
+      "scene": {
+        "t": "compare",
+        "title": "Medicare base rate",
+        "left": {
+          "label": "ASC",
+          "value": "$56",
+          "tone": "down",
+          "sub": "per unit, 2026"
+        },
+        "right": {
+          "label": "Hospital",
+          "value": "$91",
+          "tone": "up",
+          "sub": "outpatient dept"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Cataract surgery pays about $1,256 there.",
+      "say": "Cataract surgery pays about twelve hundred fifty-six dollars there.",
+      "scene": {
+        "t": "stat",
+        "label": "ASC cataract fee",
+        "value": "$1,256",
+        "tone": "neutral",
+        "sub": "Medicare, 2026",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's Tenet's surgery center arm, USPI, all payers: a 39.2% adjusted EBITDA margin in 2025. Its hospitals? 15.7%.",
+      "say": "That's Tenet's surgery center arm, all payers: a thirty-nine point two percent adjusted EBITDA margin in twenty twenty-five. Its hospitals? Fifteen point seven percent.",
+      "scene": {
+        "t": "compare",
+        "title": "Tenet adj. EBITDA, 2025",
+        "left": {
+          "label": "USPI",
+          "value": "39.2%",
+          "tone": "up",
+          "sub": "surgery center arm"
+        },
+        "right": {
+          "label": "Hospitals",
+          "value": "15.7%",
+          "tone": "neutral",
+          "sub": "Tenet hospitals"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "$2.03 billion on $5.17 billion of revenue.",
+      "say": "Two point zero three billion on five point one seven billion of revenue.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$2.03B / $5.17B",
+          "= 39.2% adj. EBITDA",
+          "USPI, FY2025"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The trick: no ER, no beds, planned cases, quick turnover.",
+      "say": "The trick: no E R, no beds, planned cases, quick turnover.",
+      "scene": {
+        "t": "list",
+        "title": "Lower costs",
+        "items": [
+          "No ER",
+          "No beds",
+          "Planned cases",
+          "Quick turnover"
+        ],
+        "reveal": 4,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Doctors often co-own them. Surgery Partners ran 176 sites at the end of 2025, mostly with physicians.",
+      "say": "Doctors often co-own them. Surgery Partners ran one hundred seventy-six sites at the end of twenty twenty-five, mostly with physicians.",
+      "scene": {
+        "t": "stat",
+        "label": "Surgery Partners",
+        "value": "176",
+        "tone": "neutral",
+        "sub": "sites, Dec 2025",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So a surgeon-owner can earn a surgeon's fee plus a profit share.",
+      "say": "So a surgeon-owner can earn a surgeon's fee plus a profit share.",
+      "scene": {
+        "t": "split",
+        "title": "Surgeon-owner pay",
+        "left": {
+          "title": "As surgeon",
+          "items": [
+            "Surgeon's fee"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "As owner",
+          "items": [
+            "Profit share"
+          ],
+          "tone": "up"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "mood": "happy"
+      }
+    }
+  ],
+  "post": {
+    "title": "Medicare pays surgery centers less. How one chain earns 39%",
+    "ig": "Medicare pays surgery centers less. So why is one chain's margin 39%?\nMedicare's 2026 base rate per payment unit: $56.32 for a surgery center (ASC) vs $91.42 for a hospital outpatient department.\nTenet's surgery center arm, USPI, had a 39.2% adjusted EBITDA margin in 2025 ($2.026B on $5.172B revenue), vs 15.7% for Tenet's hospitals. Margins cover all payers and include physician partners' share.\nSurgery Partners ran 176 facilities at the end of 2025, mostly in partnership with physicians.\nSources: CMS CY2026 OPPS/ASC final rule, Tenet FY2025 results, Surgery Partners FY2025 10-K.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#surgerycenters #healthcare #medicare #business #financeprostv",
+    "tiktok": "Medicare pays surgery centers less, so why is one chain's margin 39%? Not financial advice. #moneytok #healthcare #business #financeprostv",
+    "yt_desc": "Medicare's 2026 base rate per payment unit is $56.32 for a surgery center versus $91.42 for a hospital outpatient department (CMS CY2026 final rule). Yet Tenet's surgery center arm, USPI, posted a 39.2% adjusted EBITDA margin in 2025 versus 15.7% for its hospitals, and Surgery Partners ran 176 facilities, mostly with physician partners (FY2025 filings). News and education, not financial advice. #Shorts #healthcare #business",
+    "tags": [
+      "surgery centers",
+      "ambulatory surgery center",
+      "how they make money",
+      "medicare",
+      "tenet uspi"
+    ]
+  }
+}
