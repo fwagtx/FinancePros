@@ -1,0 +1,195 @@
+{
+ "id": "2026-12-14-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "After the sticker:\ntax, title, fees",
+ "cover": {
+  "title": "What a $32,000 Car Really Costs",
+  "prop": "car",
+  "label": "Texas",
+  "value": "$32,000"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In Texas, a $32,000 car doesn't cost $32,000.",
+   "say": "In Texas, a thirty-two thousand dollar car doesn't cost thirty-two thousand.",
+   "scene": {
+    "t": "hook",
+    "title": "After the [sticker]",
+    "prop": "car",
+    "label": "Texas",
+    "value": "$32,000",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In this 2026 Texas example, 6.25% sales tax adds $2,000.",
+   "say": "In this twenty twenty-six example, six point two five percent sales tax adds two thousand dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $32,000 car",
+     "Texas tax: 6.25%",
+     "Tax = $2,000"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then a $33 title, $50.75 registration and a $225 doc fee.",
+   "say": "Then a thirty-three dollar title, a fifty dollar and seventy-five cent registration, and a two hundred twenty-five dollar doc fee.",
+   "scene": {
+    "t": "list",
+    "title": "Then the fees",
+    "items": [
+     "Title $33",
+     "Reg. fee $50.75",
+     "Doc fee $225"
+    ],
+    "reveal": 3,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $2,308.75 extra, before county and other fees.",
+   "say": "That's two thousand three hundred eight dollars and seventy-five cents extra, before county and other fees.",
+   "scene": {
+    "t": "stat",
+    "label": "Cost past sticker",
+    "value": "$2,308.75",
+    "tone": "down",
+    "sub": "TX emissions cty"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Doc fees vary: California caps them at $85, but Texas dealers can file to charge over $225.",
+   "say": "Doc fees vary: California caps them at eighty-five dollars, but Texas dealers can file to charge over two hundred twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Doc fee rules",
+    "left": {
+     "label": "California",
+     "value": "$85",
+     "tone": "up",
+     "sub": "Hard cap"
+    },
+    "right": {
+     "label": "Texas",
+     "value": "$225",
+     "tone": "neutral",
+     "sub": "Filing if higher"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The surprise: Texas taxes price minus trade-in, so an $8,000 trade-in cuts the tax to $1,500.",
+   "say": "The surprise: Texas taxes price minus trade-in, so an eight thousand dollar trade-in cuts the tax to one thousand five hundred dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Trade-in math",
+    "left": {
+     "label": "No trade-in",
+     "value": "$2,000",
+     "tone": "down",
+     "sub": "Tax on $32,000"
+    },
+    "right": {
+     "label": "$8,000 trade",
+     "value": "$1,500",
+     "tone": "up",
+     "sub": "Tax on $24,000"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$500 less tax, same car.",
+   "say": "That's five hundred dollars less tax, same car.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Trade-in math",
+    "left": {
+     "label": "No trade-in",
+     "value": "$2,000",
+     "tone": "down",
+     "sub": "Tax on $32,000"
+    },
+    "right": {
+     "label": "$8,000 trade",
+     "value": "$1,500",
+     "tone": "up",
+     "sub": "Tax on $24,000"
+    },
+    "winner": "right",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Texas collected $7.45 billion in car sales and rental taxes in fiscal 2026 (Sept 2025 to Aug 2026).",
+   "say": "Texas collected seven point four five billion dollars in car sales and rental taxes in fiscal twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Texas car taxes ($B)",
+    "points": [
+     [
+      2022,
+      6.45
+     ],
+     [
+      2023,
+      6.82
+     ],
+     [
+      2024,
+      6.84
+     ],
+     [
+      2025,
+      7.08
+     ],
+     [
+      2026,
+      7.45
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$7.45B",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "What a $32,000 car really costs after tax, title and fees",
+  "ig": "In Texas, a $32,000 car doesn't cost $32,000.\nExample at 2026 Texas rates: 6.25% sales tax on the vehicle price = $2,000, plus a $33 title (emissions counties; $28 elsewhere), $50.75 base registration and a $225 doc fee = $2,308.75 extra, before county and other fees.\nTexas taxes the price minus the trade-in: an $8,000 trade-in cuts the tax to $1,500.\nDoc fees: California caps them at $85; Texas dealers must file with the state to charge over $225.\nSources: Texas Comptroller, Texas OCCC, Tarrant County Tax Office, CalMatters.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#carbuying #salestax #personalfinance #moneytips #financeprostv",
+  "tiktok": "A $32,000 car in Texas costs over $2,308.75 more. Example math. Not financial advice. #moneytok #personalfinance #carbuying #salestax #financeprostv",
+  "yt_desc": "Example at 2026 Texas rates: a $32,000 car adds $2,000 in sales tax (6.25% of the vehicle price), a $33 title (emissions counties; $28 elsewhere), $50.75 base registration and a $225 doc fee, $2,308.75 before county and other fees. Texas taxes the price minus the trade-in, so an $8,000 trade-in cuts the tax to $1,500, and Texas collected $7.45 billion in motor vehicle sales and rental taxes in fiscal 2026 (Texas Comptroller, OCCC, CalMatters). News and education, not financial advice. #Shorts #carbuying #salestax",
+  "tags": [
+   "car sales tax",
+   "tax title and license",
+   "out the door price",
+   "trade in tax credit",
+   "dealer doc fee"
+  ]
+ }
+}
