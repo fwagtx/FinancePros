@@ -1,8 +1,8 @@
 {
   "series": "ticker",
-  "header": "BofA pays 0.51%\non everyday deposits",
+  "header": "BofA paid 0.51%\non consumer deposits",
   "cover": {
-    "title": "Bank of America Pays 0.51%",
+    "title": "Bank of America Paid 0.51%",
     "prop": "bag",
     "label": "CASH",
     "value": "0.51%"
@@ -10,11 +10,11 @@
   "lines": [
     {
       "who": "ticker",
-      "text": "Bank of America pays 0.51% on everyday deposits.",
-      "say": "Bank of America pays zero point five one percent on everyday deposits.",
+      "text": "Bank of America paid 0.51% on consumer deposits.",
+      "say": "Bank of America paid zero point five one percent on consumer deposits.",
       "scene": {
         "t": "hook",
-        "title": "BofA pays [0.51%]",
+        "title": "BofA paid [0.51%]",
         "prop": "bag",
         "label": "CASH",
         "value": "0.51%",
@@ -48,8 +48,8 @@
     },
     {
       "who": "ticker",
-      "text": "The Fed's target range starts at 3.75%. BofA consumer deposits earned 0.51% in Q3 2026.",
-      "say": "After the September hike, the Fed's target range starts at three point seven five percent. Those deposits earned zero point five one percent.",
+      "text": "The Fed's target range starts at 3.75%. BofA consumer deposits, checking included, averaged 0.51% in Q3 2026.",
+      "say": "After the September hike, the Fed's target range starts at three point seven five percent. Those deposits, checking included, averaged zero point five one percent.",
       "scene": {
         "t": "compare",
         "title": "The gap",
@@ -57,13 +57,13 @@
           "label": "Fed range",
           "value": "3.75%",
           "tone": "up",
-          "sub": "low end, Sept 2026"
+          "sub": "low end, now"
         },
         "right": {
-          "label": "BofA pays",
+          "label": "BofA avg paid",
           "value": "0.51%",
           "tone": "down",
-          "sub": "consumer deposits"
+          "sub": "consumer, Q3 avg"
         },
         "mood": "worried"
       }
@@ -111,11 +111,11 @@
     },
     {
       "who": "ticker",
-      "text": "Rates vary a lot by bank and account, and yours is in your account disclosures.",
-      "say": "Rates vary a lot by bank and account, and the rate on yours is in your account disclosures.",
+      "text": "Rates vary by bank and account, and the rate on any account is in its disclosures.",
+      "say": "Rates vary by bank and account, and the rate on any account is in its disclosures.",
       "scene": {
         "t": "list",
-        "title": "Check your rate",
+        "title": "Rates differ",
         "items": [
           "Varies by bank",
           "Varies by account",
@@ -135,10 +135,10 @@
     }
   ],
   "post": {
-    "title": "Bank of America pays 0.51% on everyday deposits",
-    "ig": "Bank of America pays 0.51% on everyday deposits.\nOn Oct 14, 2026, it reported $16.4B in Q3 net interest income, up 8%.\nIts consumer deposits averaged $949B and earned 0.51% in Q3 2026.\nThe Fed's target range is 3.75%-4.00% after the September 2026 hike.\nSources: Bank of America Q3 2026 results and 10-Q filings; Federal Reserve via Reuters.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#banking #savings #interestrates #personalfinance #financeprostv",
-    "tiktok": "BofA pays 0.51% on everyday deposits but made $16.4B in net interest. Not financial advice. #moneytok #personalfinance #banking #financeprostv",
-    "yt_desc": "Bank of America reported $16.4 billion in third-quarter 2026 net interest income on October 14, up 8%, while its consumer deposits earned 0.51%. The Fed's target range is 3.75% to 4.00% after the September 2026 hike. Sources: Bank of America Q3 2026 results and 10-Q filings, Federal Reserve via Reuters. News and education, not financial advice. #Shorts #banking #savings",
+    "title": "Bank of America paid 0.51% on consumer deposits",
+    "ig": "Bank of America paid an average 0.51% on consumer deposits, checking included.\nOn Oct 14, 2026, it reported $16.4B in Q3 net interest income, up 8%.\nIts consumer deposits averaged $949B, with an average rate paid of 0.51% in Q3 2026 (all consumer deposits, not a savings offer).\nThe Fed's target range is 3.75%-4.00% after the September 2026 hike.\nSources: Bank of America Q3 2026 earnings release and presentation, 10-Q filings; Federal Reserve statement, Sept 16, 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#banking #savings #interestrates #personalfinance #financeprostv",
+    "tiktok": "BofA paid an average 0.51% on consumer deposits, earning $16.4B in Q3 net interest. Not financial advice. #moneytok #banking #financeprostv",
+    "yt_desc": "Bank of America reported $16.4 billion in third-quarter 2026 net interest income on October 14, up 8%, while its consumer deposits, checking included, earned an average 0.51%. The Fed's target range is 3.75% to 4.00% after the September 2026 hike. Sources: Bank of America Q3 2026 results and 10-Q filings, Federal Reserve statement (Sept 16, 2026). News and education, not financial advice. #Shorts #banking #savings",
     "tags": [
       "bank of america earnings",
       "net interest income",
