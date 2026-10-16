@@ -2,29 +2,29 @@
   "series": "ticker",
   "header": "Why rent is higher\nin some cities",
   "cover": {
-    "title": "Why Is SF Rent 4x Houston?",
+    "title": "Why Is SF Rent Nearly 3x?",
     "prop": "house",
     "label": "1BR",
-    "value": "4x"
+    "value": "~3x"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "A San Francisco one-bedroom rents for about 4x Houston's. Why?",
-      "say": "A San Francisco one-bedroom rents for about four times Houston's. Why?",
+      "text": "San Francisco rent is nearly 3x the US median. Why?",
+      "say": "San Francisco rent is nearly triple the US median. Why?",
       "scene": {
         "t": "hook",
-        "title": "SF rent: [4x] Houston",
+        "title": "SF 1BR vs the [US]",
         "prop": "house",
         "label": "1BR",
-        "value": "4x",
+        "value": "~3x",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "Median one-bedroom rent: $4,400 in SF (Sept 2026) vs $1,050 in Houston (Aug 2026), per Zumper.",
-      "say": "Zumper's median one-bedroom was four thousand four hundred dollars in San Francisco, versus one thousand fifty in Houston.",
+      "text": "Median one-bedroom rent, Sept 2026: $4,400 in SF vs $1,518 nationwide, per Zumper.",
+      "say": "In September twenty twenty-six, Zumper's median one-bedroom was four thousand four hundred dollars in San Francisco, versus fifteen hundred eighteen nationwide.",
       "scene": {
         "t": "compare",
         "title": "Median 1BR rent",
@@ -35,10 +35,10 @@
           "sub": "Zumper, Sept 2026"
         },
         "right": {
-          "label": "Houston",
-          "value": "$1,050",
-          "tone": "down",
-          "sub": "Zumper, Aug 2026"
+          "label": "US median",
+          "value": "$1,518",
+          "tone": "neutral",
+          "sub": "Zumper, Sept 2026"
         }
       }
     },
@@ -58,8 +58,8 @@
     },
     {
       "who": "ticker",
-      "text": "Demand: SF one-bedroom rent rose 25.4% in a year. Zumper ties it to AI hiring.",
-      "say": "Demand first. San Francisco's rose twenty-five point four percent in a year, and Zumper ties that to AI hiring.",
+      "text": "Demand first. San Francisco's one-bedroom rent rose 25.4% in a year, and Zumper ties that to AI hiring.",
+      "say": "Demand first. San Francisco's one-bedroom rent rose twenty-five point four percent in a year, and Zumper ties that to AI hiring.",
       "scene": {
         "t": "stat",
         "label": "SF 1BR, 1 year",
@@ -118,14 +118,14 @@
     },
     {
       "who": "ticker",
-      "text": "Houston's metro permitted 65,075 homes in 2025, and its one-bedroom rent fell 14.6% in a year.",
-      "say": "Houston's metro permitted sixty-five thousand seventy-five homes in twenty twenty-five, and its rent fell fourteen point six percent in a year.",
+      "text": "Compare Houston: its whole metro area permitted 65,075 homes in 2025 (Census).",
+      "say": "Compare Houston, whose whole metro area permitted sixty-five thousand seventy-five homes in twenty twenty-five.",
       "scene": {
         "t": "stat",
         "label": "Houston permits",
         "value": "65,075",
         "tone": "up",
-        "sub": "Metro, 2025",
+        "sub": "Whole metro, 2025",
         "mood": "up"
       }
     },
@@ -135,7 +135,7 @@
       "say": "So high rent usually means well-paid jobs chasing too few homes.",
       "scene": {
         "t": "split",
-        "title": "Same jobs, new homes?",
+        "title": "Jobs vs new homes",
         "left": {
           "title": "Pricier city",
           "items": [
@@ -164,14 +164,14 @@
     }
   ],
   "post": {
-    "title": "Why a San Francisco 1BR rents for about 4x Houston's",
-    "ig": "Why does a San Francisco one-bedroom rent for about 4x Houston's?\nMedian 1BR rent: $4,400 in San Francisco (Sept 2026) vs $1,050 in Houston (Aug 2026), per Zumper.\nSF rent rose 25.4% in a year as AI hiring added demand. SF County permitted just 770 homes in 2024, down from 2,519 in 2021.\nHouston's metro permitted 65,075 homes in 2025, and its 1BR rent fell 14.6% in a year.\nSources: Zumper National Rent Report, US Census Bureau building permits (via FRED).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#rent #housing #economics #moneytips #financeprostv",
-    "tiktok": "Why SF rent is about 4x Houston's: jobs vs homes built. Not financial advice. #moneytok #personalfinance #rent #housing #financeprostv",
-    "yt_desc": "A San Francisco one-bedroom had a median rent of $4,400 in September 2026, versus $1,050 in Houston in August 2026 (Zumper). The difference comes down to supply and demand: SF County permitted just 770 homes in 2024 (Census), while Houston's metro permitted 65,075 in 2025. News and education, not financial advice. #Shorts #rent #economics",
+    "title": "Why a San Francisco 1BR rents for nearly 3x the US median",
+    "ig": "Why does a San Francisco one-bedroom rent for nearly 3x the US median?\nMedian 1BR rent, Sept 2026: $4,400 in San Francisco vs $1,518 nationwide, per Zumper.\nSF rent rose 25.4% in a year as AI hiring added demand. SF County permitted just 770 homes in 2024, down from 2,519 in 2021.\nHouston's whole metro area permitted 65,075 homes in 2025, second most in the US.\nSources: Zumper National Rent Report, US Census Bureau building permits (via FRED).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#rent #housing #economics #moneytips #financeprostv",
+    "tiktok": "Why SF rent is nearly 3x the US median: jobs vs homes built. Not financial advice. #moneytok #personalfinance #rent #housing #financeprostv",
+    "yt_desc": "A San Francisco one-bedroom had a median rent of $4,400 in September 2026, nearly three times the $1,518 national median (Zumper). The gap comes down to supply and demand: AI hiring added demand while San Francisco County permitted just 770 homes in 2024 (Census). Houston's whole metro area permitted 65,075 in 2025. News and education, not financial advice. #Shorts #rent #economics",
     "tags": [
       "why rent is so high",
       "san francisco rent",
-      "houston rent",
+      "housing costs",
       "housing supply",
       "zoning explained"
     ]
