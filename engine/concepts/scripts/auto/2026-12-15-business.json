@@ -1,0 +1,204 @@
+{
+ "id": "2026-12-15-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Amex\nmakes money",
+ "cover": {
+  "title": "Why Stores Pay Amex More",
+  "prop": "card",
+  "label": "AMEX",
+  "value": "$37.4B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Why do stores often pay more to take an Amex card?",
+   "say": "Why do stores often pay more to take an Amex card?",
+   "scene": {
+    "t": "hook",
+    "title": "Stores pay [Amex] more",
+    "prop": "card",
+    "label": "AMEX",
+    "value": "FEES?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, merchants paid Amex $37.4 billion in discount revenue.",
+   "say": "In twenty twenty-five, merchants paid Amex thirty-seven point four billion in discount revenue.",
+   "scene": {
+    "t": "stat",
+    "label": "Discount revenue",
+    "value": "$37.4B",
+    "tone": "up",
+    "sub": "Amex, FY2025",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Up from $24.6 billion in 2021.",
+   "say": "Up from twenty-four point six billion in twenty twenty-one.",
+   "scene": {
+    "t": "chart",
+    "title": "Amex discount revenue",
+    "points": [
+     [
+      2021,
+      24.6
+     ],
+     [
+      2022,
+      30.7
+     ],
+     [
+      2023,
+      33.4
+     ],
+     [
+      2024,
+      35.2
+     ],
+     [
+      2025,
+      37.4
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$37.4B",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's Amex's biggest revenue line, more than double its $17.4 billion in net interest.",
+   "say": "It's Amex's biggest revenue line, more than double its seventeen point four billion in net interest.",
+   "scene": {
+    "t": "compare",
+    "title": "Amex revenue, 2025",
+    "left": {
+     "label": "Merchant fees",
+     "value": "$37.4B",
+     "tone": "up",
+     "sub": "discount revenue"
+    },
+    "right": {
+     "label": "Interest",
+     "value": "$17.4B",
+     "tone": "neutral",
+     "sub": "net interest"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Visa and Mastercard leave issuing to banks. Amex issues cards, runs the network and signs up stores.",
+   "say": "Visa and Mastercard leave issuing to banks. Amex issues cards, runs the network and signs up stores.",
+   "scene": {
+    "t": "split",
+    "title": "Two card models",
+    "left": {
+     "title": "Visa, Mastercard",
+     "items": [
+      "Banks issue",
+      "Network only"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Amex",
+     "items": [
+      "Issues cards",
+      "Runs network",
+      "Signs stores"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That closed loop keeps the fee with Amex on its own cards.",
+   "say": "That closed loop keeps the fee with Amex on its own cards.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Closed loop:",
+     "Amex on both ends",
+     "Fee stays with Amex"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cardmembers spend big: $25,453 per card on average in 2025.",
+   "say": "Cardmembers spend big: twenty-five thousand four hundred fifty-three dollars per card on average in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Spend per card",
+    "value": "$25,453",
+    "tone": "up",
+    "sub": "Amex average, 2025",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rough math: $37.4 billion over $1.67 trillion spent on Amex-issued cards is about 2.2 cents kept per dollar.",
+   "say": "Rough math: thirty-seven point four billion over one point six seven trillion spent on Amex-issued cards is about two point two cents kept per dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$37.4B / $1.67T",
+     "= ~2.2¢ kept per $1",
+     "Amex cards, 2025"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stores pay the fee, the fee funds rewards, and rewards bring big spenders.",
+   "say": "Stores pay the fee, the fee funds rewards, and rewards bring big spenders.",
+   "scene": {
+    "t": "list",
+    "title": "The Amex loop",
+    "items": [
+     "Store pays fee",
+     "Fee pays rewards",
+     "Big spenders"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why stores pay Amex more: the $37.4B merchant fee machine",
+  "ig": "Why do stores pay more to take an Amex card?\nIn 2025, merchants paid American Express $37.4 billion in discount revenue, about half of its $72.2 billion total revenue and more than double its $17.4 billion in net interest income.\nUnlike Visa and Mastercard, where banks issue the cards, Amex issues its own cards, runs the network and signs up merchants: a closed loop.\nAmex cardmembers spent $25,453 per card on average in 2025.\nSources: American Express FY2025 10-K and Q4 2025 earnings release.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#americanexpress #creditcards #business #howtheymakemoney #financeprostv",
+  "tiktok": "Why stores pay more to take Amex: $37.4B in merchant fees in 2025. Not financial advice. #moneytok #personalfinance #amex #creditcards #financeprostv",
+  "yt_desc": "American Express earned $37.4 billion in discount revenue (merchant fees) in 2025, its largest revenue line and about half of its $72.2 billion total, because it runs a closed loop: it issues its own cards, runs the network and signs up merchants. Its cardmembers spent $25,453 per card on average in 2025 (Amex FY2025 10-K and Q4 2025 earnings release). News and education, not financial advice. #Shorts #amex #creditcards",
+  "tags": [
+   "american express",
+   "how they make money",
+   "merchant fees",
+   "closed loop network",
+   "credit cards"
+  ]
+ }
+}
