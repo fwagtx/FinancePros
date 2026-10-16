@@ -1,0 +1,214 @@
+{
+  "series": "ticker",
+  "header": "Mortgage rates\nstuck at 7.4%",
+  "cover": {
+    "title": "Mortgage Rates Stuck at 7.4%",
+    "prop": "house",
+    "label": "30-yr",
+    "value": "7.4%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Mortgage rates finally stopped climbing, at 7.4%.",
+      "say": "Mortgage rates finally stopped climbing, at seven point four percent.",
+      "scene": {
+        "t": "hook",
+        "title": "Stuck at [7.4%]",
+        "prop": "house",
+        "label": "30-yr",
+        "value": "7.4%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's Freddie Mac's 30-year average, tied for the highest since Nov 2023.",
+      "say": "That's Freddie Mac's thirty-year average, tied for the highest since November twenty twenty-three.",
+      "scene": {
+        "t": "stat",
+        "label": "30-year fixed avg",
+        "value": "7.4%",
+        "tone": "down",
+        "sub": "Freddie Mac 10/15",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It rose 7 straight weeks to 7.4%, then held flat.",
+      "say": "It rose seven straight weeks to seven point four percent, then held flat.",
+      "scene": {
+        "t": "chart",
+        "title": "30-yr rate, weekly",
+        "points": [
+          [
+            "8/27",
+            6.66
+          ],
+          [
+            "9/3",
+            6.71
+          ],
+          [
+            "9/10",
+            6.76
+          ],
+          [
+            "9/17",
+            6.95
+          ],
+          [
+            "9/24",
+            7.03
+          ],
+          [
+            "10/1",
+            7.28
+          ],
+          [
+            "10/8",
+            7.4
+          ],
+          [
+            "10/15",
+            7.4
+          ]
+        ],
+        "suffix": "%",
+        "end": "7.4%",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: a $300,000, 30-year loan at February's low of 5.98% runs about $1,795 a month in principal and interest.",
+      "say": "For example, a three hundred thousand dollar, thirty-year loan at February's low of five point nine eight percent runs about seventeen hundred ninety-five dollars a month.",
+      "scene": {
+        "t": "compare",
+        "title": "$300K loan example",
+        "left": {
+          "label": "Feb low",
+          "value": "$1,795",
+          "tone": "up",
+          "sub": "at 5.98%"
+        },
+        "right": {
+          "label": "Now",
+          "value": "$2,077",
+          "tone": "down",
+          "sub": "at 7.4%"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "At 7.4%, it's about $2,077.",
+      "say": "At seven point four percent, it's about two thousand seventy-seven dollars.",
+      "scene": {
+        "t": "compare",
+        "keep": true,
+        "winner": "left",
+        "title": "$300K loan example",
+        "left": {
+          "label": "Feb low",
+          "value": "$1,795",
+          "tone": "up",
+          "sub": "at 5.98%"
+        },
+        "right": {
+          "label": "Now",
+          "value": "$2,077",
+          "tone": "down",
+          "sub": "at 7.4%"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's about $282 more a month, before taxes and insurance.",
+      "say": "That's about two hundred eighty-two dollars more a month, before taxes and insurance.",
+      "scene": {
+        "t": "stat",
+        "label": "Extra per month",
+        "value": "+$282",
+        "tone": "down",
+        "sub": "same $300K loan",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And a pause isn't a drop: a year ago, it was 6.27%.",
+      "say": "And a pause isn't a drop, since a year ago it was six point two seven percent.",
+      "scene": {
+        "t": "compare",
+        "title": "Pause, not a drop",
+        "left": {
+          "label": "Year ago",
+          "value": "6.27%",
+          "tone": "neutral",
+          "sub": "Oct 2025"
+        },
+        "right": {
+          "label": "Now",
+          "value": "7.4%",
+          "tone": "down",
+          "sub": "Oct 15, 2026"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Freddie Mac's number is an average; real quotes vary with credit, down payment and lender.",
+      "say": "Freddie Mac's number is an average, and real quotes vary with credit, down payment and lender.",
+      "scene": {
+        "t": "list",
+        "title": "Quotes vary by",
+        "items": [
+          "Credit score",
+          "Down payment",
+          "Lender"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The next weekly reading is Thursday, Oct 22.",
+      "say": "The next weekly reading is Thursday, October twenty-second.",
+      "scene": {
+        "t": "news",
+        "headline": "Next reading: Oct 22",
+        "source": "Freddie Mac PMMS",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Mortgage rates stopped climbing. At 7.4%",
+    "ig": "Mortgage rates finally stopped climbing, at 7.4%.\nFreddie Mac's 30-year fixed average held at 7.40% on Oct 15, 2026, ending seven straight weekly increases and tied for the highest since November 2023.\nA year ago it was 6.27%. The 2026 low was 5.98% in February.\nExample: on a $300,000, 30-year loan, principal and interest go from about $1,795 a month at 5.98% to about $2,077 at 7.40%, roughly $282 more.\nSources: Freddie Mac Primary Mortgage Market Survey, Oct 15, 2026 and archive.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgage #mortgagerates #homebuying #housing #financeprostv",
+    "tiktok": "Mortgage rates held at 7.4%. A $300K loan: ~$282 more a month than in Feb. Not financial advice. #moneytok #personalfinance #mortgage #financeprostv",
+    "yt_desc": "Freddie Mac's 30-year fixed mortgage average held at 7.40% on October 15, 2026, ending seven straight weekly increases and tied for the highest since November 2023. A year ago it was 6.27%; the 2026 low was 5.98% in February. In an example $300,000 loan, that's about $282 more a month in principal and interest. Source: Freddie Mac Primary Mortgage Market Survey. News and education, not financial advice. #Shorts #mortgage #housing",
+    "tags": [
+      "mortgage rates",
+      "freddie mac",
+      "30 year mortgage",
+      "home buying",
+      "personal finance"
+    ]
+  }
+}
