@@ -1,0 +1,1588 @@
+{
+ "series": "ticker",
+ "header": "How Starbucks\nmakes money",
+ "cover": {
+  "title": "47% Margin. No Cafes.",
+  "prop": "bag",
+  "label": "BEANS",
+  "value": "47.3%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Starbucks' highest-margin business doesn't have a single cafe.",
+   "say": "Starbucks' highest-margin business doesn't have a single cafe.",
+   "scene": {
+    "t": "hook",
+    "title": "Top margin, [no cafes]",
+    "prop": "bag",
+    "label": "BEANS",
+    "value": "0 cafes",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the coffee sold in grocery aisles. In fiscal 2025 it had a 47.3% operating margin.",
+   "say": "It's the coffee sold in grocery aisles. In fiscal twenty twenty-five, it had a forty-seven point three percent operating margin.",
+   "scene": {
+    "t": "stat",
+    "label": "Op. margin, FY2025",
+    "value": "47.3%",
+    "tone": "up",
+    "sub": "Channel Dev. unit"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The cafes in North America, where you actually buy your latte? 11.5%.",
+   "say": "The cafes in North America, where you actually buy your latte? Eleven point five percent.",
+   "scene": {
+    "t": "compare",
+    "title": "FY2025 op. margin",
+    "left": {
+     "label": "N. America",
+     "value": "11.5%",
+     "tone": "down",
+     "sub": "The cafes"
+    },
+    "right": {
+     "label": "Channel Dev",
+     "value": "47.3%",
+     "tone": "up",
+     "sub": "Grocery + Nestle"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the bags on the grocery shelf beat the cafes on every dollar of sales. Easily.",
+   "say": "So the bags on the grocery shelf beat the cafes on every dollar of sales. Easily.",
+   "scene": {
+    "t": "compare",
+    "title": "FY2025 op. margin",
+    "left": {
+     "label": "N. America",
+     "value": "11.5%",
+     "tone": "down",
+     "sub": "The cafes"
+    },
+    "right": {
+     "label": "Channel Dev",
+     "value": "47.3%",
+     "tone": "up",
+     "sub": "Grocery + Nestle"
+    },
+    "keep": true,
+    "winner": "right",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the first twist. In fiscal 2025, Starbucks brought in $37.2 billion from 40,990 stores.",
+   "say": "That's the first twist. In fiscal twenty twenty-five, Starbucks brought in thirty-seven point two billion dollars from forty thousand nine hundred ninety stores.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$37.2B in sales",
+     "40,990 stores",
+     "Fiscal 2025"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll cover the three money streams, the cafe-free cash machine, the app that keeps you coming back, and the turnaround.",
+   "say": "We'll cover the three money streams, the cafe-free cash machine, the app that keeps you coming back, and the turnaround.",
+   "scene": {
+    "t": "list",
+    "title": "This video",
+    "items": [
+     "3 money streams",
+     "Cafe-free cash",
+     "App + loyalty",
+     "The turnaround"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every number comes from Starbucks' own filings. Education, not advice.",
+   "say": "Every number comes from Starbucks' own filings. Education, not advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Source: 10-K filings",
+     "Education only"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: From one Seattle shop",
+   "say": "Chapter one: from one Seattle shop.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "From one Seattle shop"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It started in 1971 with one store in Seattle's Pike Place Market.",
+   "say": "It started in nineteen seventy-one, with one store in Seattle's Pike Place Market.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1971",
+      "what": "First store, Pike Place"
+     },
+     {
+      "when": "1987",
+      "what": "Schultz buys the chain"
+     },
+     {
+      "when": "1992",
+      "what": "IPO at $17 a share"
+     },
+     {
+      "when": "2024",
+      "what": "Niccol becomes CEO"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1987, Howard Schultz bought the small chain and set out to grow it.",
+   "say": "In nineteen eighty-seven, Howard Schultz bought the small chain and set out to grow it.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1971",
+      "what": "First store, Pike Place"
+     },
+     {
+      "when": "1987",
+      "what": "Schultz buys the chain"
+     },
+     {
+      "when": "1992",
+      "what": "IPO at $17 a share"
+     },
+     {
+      "when": "2024",
+      "what": "Niccol becomes CEO"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In June 1992, it went public on the Nasdaq at $17 a share.",
+   "say": "In June nineteen ninety-two, it went public on the Nasdaq at seventeen dollars a share.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1971",
+      "what": "First store, Pike Place"
+     },
+     {
+      "when": "1987",
+      "what": "Schultz buys the chain"
+     },
+     {
+      "when": "1992",
+      "what": "IPO at $17 a share"
+     },
+     {
+      "when": "2024",
+      "what": "Niccol becomes CEO"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in September 2024, Brian Niccol, who had run Chipotle, became chairman and CEO.",
+   "say": "And in September twenty twenty-four, Brian Niccol, who had run Chipotle, became chairman and C E O.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1971",
+      "what": "First store, Pike Place"
+     },
+     {
+      "when": "1987",
+      "what": "Schultz buys the chain"
+     },
+     {
+      "when": "1992",
+      "what": "IPO at $17 a share"
+     },
+     {
+      "when": "2024",
+      "what": "Niccol becomes CEO"
+     }
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the end of fiscal 2025, in September 2025, there were 40,990 Starbucks stores worldwide.",
+   "say": "By the end of fiscal twenty twenty-five, in September twenty twenty-five, there were forty thousand nine hundred ninety Starbucks stores worldwide.",
+   "scene": {
+    "t": "stat",
+    "label": "Stores worldwide",
+    "value": "40,990",
+    "tone": "neutral",
+    "sub": "Sept 28, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 61% of them were in just two countries: 16,864 in the US and 8,011 in China.",
+   "say": "About sixty-one percent of them were in just two countries: sixteen thousand eight hundred sixty-four in the US, and eight thousand eleven in China.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy"
+     },
+     {
+      "name": "china",
+      "mood": "happy"
+     }
+    ],
+    "caption": "61% of all stores"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Revenue grew from $26.5 billion in fiscal 2019 to $37.2 billion in fiscal 2025.",
+   "say": "Revenue grew from twenty-six point five billion dollars in fiscal twenty nineteen to thirty-seven point two billion in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Revenue, fiscal years",
+    "points": [
+     [
+      2019,
+      26.5
+     ],
+     [
+      2020,
+      23.5
+     ],
+     [
+      2021,
+      29.1
+     ],
+     [
+      2022,
+      32.3
+     ],
+     [
+      2023,
+      36.0
+     ],
+     [
+      2024,
+      36.2
+     ],
+     [
+      2025,
+      37.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$37.2B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The one dip was fiscal 2020, the pandemic year, at $23.5 billion. Since fiscal 2023, growth has slowed.",
+   "say": "The one dip was fiscal twenty twenty, the pandemic year, at twenty-three point five billion. Since fiscal twenty twenty-three, growth has slowed.",
+   "scene": {
+    "t": "chart",
+    "title": "Revenue, fiscal years",
+    "points": [
+     [
+      2019,
+      26.5
+     ],
+     [
+      2020,
+      23.5
+     ],
+     [
+      2021,
+      29.1
+     ],
+     [
+      2022,
+      32.3
+     ],
+     [
+      2023,
+      36.0
+     ],
+     [
+      2024,
+      36.2
+     ],
+     [
+      2025,
+      37.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$37.2B",
+    "color": "up",
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But revenue isn't profit. Where the money comes from, and how much of it Starbucks keeps, is the real story.",
+   "say": "But revenue isn't profit. Where the money comes from, and how much of it Starbucks keeps, is the real story.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Revenue is not",
+     "profit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Three ways money comes in",
+   "say": "Chapter two: three ways money comes in.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Three ways money comes in"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Starbucks reports three business segments. North America, mostly US and Canada cafes, was 74% of fiscal 2025 revenue, or $27.4 billion.",
+   "say": "Starbucks reports three business segments. North America, mostly US and Canada cafes, was seventy-four percent of fiscal twenty twenty-five revenue, or twenty-seven point four billion dollars.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 revenue",
+    "items": [
+     "N. America: 74%",
+     "Intl.: 21%",
+     "Channel Dev: 5%"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "International, which includes China, was 21%, or $7.8 billion.",
+   "say": "International, which includes China, was twenty-one percent, or seven point eight billion.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 revenue",
+    "items": [
+     "N. America: 74%",
+     "Intl.: 21%",
+     "Channel Dev: 5%"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Channel Development, the grocery and Nestle business from the opening, was just 5%, about $1.9 billion.",
+   "say": "And Channel Development, the grocery and Nestle business from the opening, was just five percent, about one point nine billion.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 revenue",
+    "items": [
+     "N. America: 74%",
+     "Intl.: 21%",
+     "Channel Dev: 5%"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's a second way to slice it: who actually runs the store.",
+   "say": "There's a second way to slice it: who actually runs the store.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who runs",
+     "the store?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of fiscal 2025, Starbucks ran 21,514 stores itself. Licensees ran 19,476.",
+   "say": "At the end of fiscal twenty twenty-five, Starbucks ran twenty-one thousand five hundred fourteen stores itself. Licensees ran nineteen thousand four hundred seventy-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Who runs the store",
+    "left": {
+     "label": "Starbucks",
+     "value": "21,514",
+     "tone": "neutral",
+     "sub": "Company-operated"
+    },
+    "right": {
+     "label": "Licensees",
+     "value": "19,476",
+     "tone": "neutral",
+     "sub": "Licensed stores"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a company-operated store, Starbucks keeps the whole price of your drink. But it also pays the rent, the wages and the machines.",
+   "say": "In a company-operated store, Starbucks keeps the whole price of your drink. But it also pays the rent, the wages and the machines.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Company-operated:",
+     "Keeps the full sale",
+     "Pays rent + wages"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those stores brought in $30.7 billion in fiscal 2025. That's 83% of all revenue.",
+   "say": "Those stores brought in thirty point seven billion dollars in fiscal twenty twenty-five. That's eighty-three percent of all revenue.",
+   "scene": {
+    "t": "stat",
+    "label": "Company-op revenue",
+    "value": "$30.7B",
+    "tone": "up",
+    "sub": "83% of FY2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A licensed store is run by another company, often in a spot like a grocery store or an airport.",
+   "say": "A licensed store is run by another company, often in a spot like a grocery store or an airport.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "LICENSED",
+    "label": "Not owned",
+    "caption": "Run by a partner"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Starbucks sells that operator its coffee and supplies at a markup, and takes a royalty on the sales.",
+   "say": "Starbucks sells that operator its coffee and supplies at a markup, and takes a royalty on the sales.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Licensed:",
+     "Markup on supplies",
+     "+ royalty on sales"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So licensed stores, nearly half of all locations, brought in just 12% of revenue: $4.4 billion in fiscal 2025.",
+   "say": "So licensed stores, nearly half of all locations, brought in just twelve percent of revenue: four point four billion dollars in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Licensed revenue",
+    "value": "$4.4B",
+    "tone": "neutral",
+    "sub": "12% of FY2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Starbucks' own words: licensed stores generally have a lower gross margin and a higher operating margin than company-operated stores.",
+   "say": "In Starbucks' own words: licensed stores generally have a lower gross margin and a higher operating margin than company-operated stores.",
+   "scene": {
+    "t": "quote",
+    "text": "Licensed stores generally have a lower gross margin and a higher operating margin than company-operated stores.",
+    "source": "Starbucks FY2025 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Translation: less money per cup, but the partner pays the rent and the staff, so more of what Starbucks does get is profit.",
+   "say": "Translation: less money per cup, but the partner pays the rent and the staff, so more of what Starbucks does get is profit.",
+   "scene": {
+    "t": "split",
+    "title": "Licensed model",
+    "left": {
+     "title": "Less",
+     "items": [
+      "Revenue per cup",
+      "Control"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Also less",
+     "items": [
+      "Rent",
+      "Wages",
+      "Store costs"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And what sells inside its own stores? In fiscal 2025, beverages were 73% of sales, food 23%, and everything else 4%.",
+   "say": "And what sells inside its own stores? In fiscal twenty twenty-five, beverages were seventy-three percent of sales, food twenty-three percent, and everything else four percent.",
+   "scene": {
+    "t": "list",
+    "title": "Store sales, FY2025",
+    "items": [
+     "Drinks: 73%",
+     "Food: 23%",
+     "Other: 4%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nearly three of every four dollars in its own stores come from a cup.",
+   "say": "Nearly three of every four dollars in its own stores come from a cup.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "73% of store sales",
+     "= drinks"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: The cafe-free money machine",
+   "say": "Chapter three: the cafe-free money machine.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The cafe-free money machine"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August 2018, Nestle paid Starbucks about $7 billion up front.",
+   "say": "In August twenty eighteen, Nestle paid Starbucks about seven billion dollars up front.",
+   "scene": {
+    "t": "news",
+    "headline": "Nestle deal: $7B",
+    "source": "Starbucks 10-K, Aug 2018",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That bought Nestle the right to sell Starbucks coffee and tea around the world outside the cafes: bags, pods and coffee for other businesses.",
+   "say": "That bought Nestle the right to sell Starbucks coffee and tea around the world outside the cafes: bags, pods and coffee for other businesses.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nestle sells:",
+     "Bags, pods, more",
+     "Outside the cafes"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of that money was prepaid royalties, so Starbucks didn't count it as revenue all at once.",
+   "say": "Most of that money was prepaid royalties, so Starbucks didn't count it as revenue all at once.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mostly prepaid",
+     "royalties"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its filings spread it over an estimated 40 years. $7 billion divided by 40 is $175 million a year.",
+   "say": "Its filings spread it over an estimated forty years. Seven billion divided by forty is one hundred seventy-five million dollars a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Paid up front",
+     "value": "$7B"
+    },
+    "to": {
+     "label": "Per year, 40 yrs",
+     "value": "$175M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The filings actually show about $176.5 million booked each year since fiscal 2021, from money that arrived in 2018.",
+   "say": "The filings actually show about one hundred seventy-six point five million dollars booked each year since fiscal twenty twenty-one, from money that arrived in twenty eighteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Booked each year",
+    "value": "$176.5M",
+    "tone": "up",
+    "sub": "Since FY2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of fiscal 2025, about $5.6 billion of it was still waiting to be counted.",
+   "say": "At the end of fiscal twenty twenty-five, about five point six billion dollars of it was still waiting to be counted.",
+   "scene": {
+    "t": "stat",
+    "label": "Still to be booked",
+    "value": "$5.6B",
+    "tone": "neutral",
+    "sub": "Sept 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On top of that, Nestle keeps buying product from Starbucks and paying it royalties.",
+   "say": "On top of that, Nestle keeps buying product from Starbucks and paying it royalties.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nestle buys product",
+     "+ pays royalties"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those sales and royalties make up most of Channel Development's revenue.",
+   "say": "Those sales and royalties make up most of Channel Development's revenue.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nestle buys product",
+     "+ pays royalties"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's also a bottled-drink joint venture with PepsiCo, called the North American Coffee Partnership.",
+   "say": "There's also a bottled-drink joint venture with PepsiCo, called the North American Coffee Partnership.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bottled drinks:",
+     "PepsiCo venture"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the worked example. Channel Development's operating profit in fiscal 2025 was $885.1 million. Divide by $4,991.8 million for all three segments, and you get 17.7%.",
+   "say": "Now the worked example. Channel Development's operating profit in fiscal twenty twenty-five was eight hundred eighty-five point one million dollars. Divide that by four thousand nine hundred ninety-one point eight million for all three segments, and you get seventeen point seven percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$885.1M",
+     "/ $4,991.8M",
+     "= 17.7%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Yet it was just 5.0% of revenue: $1.9 billion out of $37.2 billion.",
+   "say": "Yet it was just five point zero percent of revenue: one point nine billion out of thirty-seven point two billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Channel Dev, FY2025",
+    "left": {
+     "label": "Revenue",
+     "value": "5.0%",
+     "tone": "neutral",
+     "sub": "$1.9B of $37.2B"
+    },
+    "right": {
+     "label": "Profit",
+     "value": "17.7%",
+     "tone": "up",
+     "sub": "Of segment profit"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Five percent of the sales. Almost eighteen percent of the segment profit.",
+   "say": "Five percent of the sales. Almost eighteen percent of the segment profit.",
+   "scene": {
+    "t": "compare",
+    "title": "Channel Dev, FY2025",
+    "left": {
+     "label": "Revenue",
+     "value": "5.0%",
+     "tone": "neutral",
+     "sub": "$1.9B of $37.2B"
+    },
+    "right": {
+     "label": "Profit",
+     "value": "17.7%",
+     "tone": "up",
+     "sub": "Of segment profit"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Another way to see it: on every $100 of sales in fiscal 2025, North America kept $11.50 of operating profit. Channel Development kept $47.30.",
+   "say": "Another way to see it: on every hundred dollars of sales in fiscal twenty twenty-five, North America kept eleven dollars and fifty cents of operating profit. Channel Development kept forty-seven dollars and thirty cents.",
+   "scene": {
+    "t": "compare",
+    "title": "Profit per $100",
+    "left": {
+     "label": "N. America",
+     "value": "$11.50",
+     "tone": "down",
+     "sub": "FY2025"
+    },
+    "right": {
+     "label": "Channel Dev",
+     "value": "$47.30",
+     "tone": "up",
+     "sub": "FY2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fair caveat: without millions of people walking into the cafes, that logo wouldn't sell many bags in a grocery store.",
+   "say": "Fair caveat: without millions of people walking into the cafes, that logo wouldn't sell many bags in a grocery store.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No cafes,",
+     "no brand to sell"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And even this machine slipped. Its margin fell 5 points in fiscal 2025, mostly from lower income from the PepsiCo venture.",
+   "say": "And even this machine slipped. Its margin fell five points in fiscal twenty twenty-five, mostly from lower income from the PepsiCo venture.",
+   "scene": {
+    "t": "stat",
+    "label": "Channel Dev margin",
+    "value": "47.3%",
+    "tone": "down",
+    "sub": "Down 5 pts in FY25"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: The app that keeps you",
+   "say": "Chapter four: the app that keeps you.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The app that keeps you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of fiscal 2025, 34.2 million people in the US had used Starbucks Rewards in the previous 90 days.",
+   "say": "At the end of fiscal twenty twenty-five, thirty-four point two million people in the US had used Starbucks Rewards in the previous ninety days.",
+   "scene": {
+    "t": "stat",
+    "label": "Active US members",
+    "value": "34.2M",
+    "tone": "up",
+    "sub": "Q4 FY2025, 90-day"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the quarter that ended in June 2026, that was 35.8 million.",
+   "say": "By the quarter that ended in June twenty twenty-six, that was thirty-five point eight million.",
+   "scene": {
+    "t": "stat",
+    "label": "Active US members",
+    "value": "35.8M",
+    "tone": "up",
+    "sub": "Quarter to June 26"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Members earn Stars toward free drinks and food, and the app lets Starbucks send each of them its own offers.",
+   "say": "Members earn Stars toward free drinks and food, and the app lets Starbucks send each of them its own offers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Spend $1, earn Stars",
+     "Stars = free items"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In March 2026, the program was rebuilt into three levels: Green, Gold at 500 Stars in a year, and Reserve at 2,500.",
+   "say": "In March twenty twenty-six, the program was rebuilt into three levels: Green, Gold at five hundred Stars in a year, and Reserve at two thousand five hundred.",
+   "scene": {
+    "t": "list",
+    "title": "Rewards, Mar 2026",
+    "items": [
+     "Green",
+     "Gold: 500 Stars",
+     "Reserve: 2,500"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Green members earn 1 Star per dollar. Reserve members earn 1.7. The more you spend, the faster the next free drink comes.",
+   "say": "Green members earn one Star per dollar. Reserve members earn one point seven. The more you spend, the faster the next free drink comes.",
+   "scene": {
+    "t": "compare",
+    "title": "Stars per $1",
+    "left": {
+     "label": "Green",
+     "value": "1",
+     "tone": "neutral",
+     "sub": "Base level"
+    },
+    "right": {
+     "label": "Reserve",
+     "value": "1.7",
+     "tone": "up",
+     "sub": "2,500 Stars a year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ordering ahead matters too. The latest figure we found: in December 2023, 31% of transactions at US company-operated stores came through the app.",
+   "say": "Ordering ahead matters too. The latest figure we found: in December twenty twenty-three, thirty-one percent of transactions at US company-operated stores came through the app.",
+   "scene": {
+    "t": "stat",
+    "label": "App orders",
+    "value": "31%",
+    "tone": "up",
+    "sub": "US, Dec 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And lots of people load money onto a card or the app before they buy anything at all.",
+   "say": "And lots of people load money onto a card or the app before they buy anything at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay first,",
+     "drink later"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of fiscal 2025, Starbucks was holding $1.75 billion of customers' prepaid card balances and Stars.",
+   "say": "At the end of fiscal twenty twenty-five, Starbucks was holding one point seven five billion dollars of customers' prepaid card balances and Stars.",
+   "scene": {
+    "t": "stat",
+    "label": "Cards + Stars owed",
+    "value": "$1.75B",
+    "tone": "neutral",
+    "sub": "Sept 28, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some of that is never spent. In fiscal 2025, those leftovers, called breakage, added $222.4 million to revenue.",
+   "say": "Some of that is never spent. In fiscal twenty twenty-five, those leftovers, called breakage, added two hundred twenty-two point four million dollars to revenue.",
+   "scene": {
+    "t": "stat",
+    "label": "Breakage, FY2025",
+    "value": "$222.4M",
+    "tone": "up",
+    "sub": "Unspent balances"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the app does three jobs: it collects your money early, rewards you for coming back, and gets you past the line.",
+   "say": "So the app does three jobs: it collects your money early, rewards you for coming back, and gets you past the line.",
+   "scene": {
+    "t": "list",
+    "title": "The app's 3 jobs",
+    "items": [
+     "Collects early",
+     "Rewards repeats",
+     "Skips the line"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: The squeeze and the turnaround",
+   "say": "Chapter five: the squeeze and the turnaround.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The squeeze and the turnaround"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the problem: keeping the money.",
+   "say": "Now the problem: keeping the money.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The squeeze"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Starbucks' operating margin was 16.8% in fiscal 2021 and 15.0% in fiscal 2024. In fiscal 2025, it was 7.9%.",
+   "say": "Starbucks' operating margin was sixteen point eight percent in fiscal twenty twenty-one, and fifteen percent in fiscal twenty twenty-four. In fiscal twenty twenty-five, it was seven point nine percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Operating margin",
+    "points": [
+     [
+      2021,
+      16.8
+     ],
+     [
+      2022,
+      14.3
+     ],
+     [
+      2023,
+      16.3
+     ],
+     [
+      2024,
+      15.0
+     ],
+     [
+      2025,
+      7.9
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.9%",
+    "color": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In dollars, operating profit fell from $5.4 billion to $2.9 billion in one year.",
+   "say": "In dollars, operating profit fell from five point four billion to two point nine billion in one year.",
+   "scene": {
+    "t": "chart",
+    "title": "Operating margin",
+    "points": [
+     [
+      2021,
+      16.8
+     ],
+     [
+      2022,
+      14.3
+     ],
+     [
+      2023,
+      16.3
+     ],
+     [
+      2024,
+      15.0
+     ],
+     [
+      2025,
+      7.9
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.9%",
+    "color": "down",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "North America, the biggest piece, went from a 19.8% margin in fiscal 2024 to 11.5% in fiscal 2025.",
+   "say": "North America, the biggest piece, went from a nineteen point eight percent margin in fiscal twenty twenty-four to eleven point five percent in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "N. America margin",
+    "left": {
+     "label": "FY2024",
+     "value": "19.8%",
+     "tone": "up",
+     "sub": "Before"
+    },
+    "right": {
+     "label": "FY2025",
+     "value": "11.5%",
+     "tone": "down",
+     "sub": "After"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The filing points to costs growing faster than sales, and to restructuring, including $653.2 million of charges in North America.",
+   "say": "The filing points to costs growing faster than sales, and to restructuring, including six hundred fifty-three point two million dollars of charges in North America.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Costs > sales",
+     "Restructuring:",
+     "$653.2M charges"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Niccol's plan has a name: Back to Starbucks. In an open letter on September 10, 2024, he wrote: \"We're getting back to Starbucks.\"",
+   "say": "Niccol's plan has a name: Back to Starbucks. In an open letter on September tenth, twenty twenty-four, he wrote: We're getting back to Starbucks.",
+   "scene": {
+    "t": "quote",
+    "text": "We're getting back to Starbucks.",
+    "source": "Brian Niccol, Sept 10, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "He had started the day before, on September 9, 2024. The changes came in steps.",
+   "say": "He had started the day before, on September ninth, twenty twenty-four, and the changes came in steps.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "9/24",
+      "what": "Niccol starts as CEO"
+     },
+     {
+      "when": "11/24",
+      "what": "No non-dairy upcharge"
+     },
+     {
+      "when": "1/25",
+      "what": "Plan: cut 30% of menu"
+     },
+     {
+      "when": "9/25",
+      "what": "$1B restructuring plan"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In November 2024, Starbucks dropped the extra charge for non-dairy milk at its US and Canada company-operated stores.",
+   "say": "In November twenty twenty-four, Starbucks dropped the extra charge for non-dairy milk at its US and Canada company-operated stores.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "9/24",
+      "what": "Niccol starts as CEO"
+     },
+     {
+      "when": "11/24",
+      "what": "No non-dairy upcharge"
+     },
+     {
+      "when": "1/25",
+      "what": "Plan: cut 30% of menu"
+     },
+     {
+      "when": "9/25",
+      "what": "$1B restructuring plan"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In January 2025, it said it would cut about 30% of its food and drink menu by late 2025.",
+   "say": "In January twenty twenty-five, it said it would cut about thirty percent of its food and drink menu by late twenty twenty-five.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "9/24",
+      "what": "Niccol starts as CEO"
+     },
+     {
+      "when": "11/24",
+      "what": "No non-dairy upcharge"
+     },
+     {
+      "when": "1/25",
+      "what": "Plan: cut 30% of menu"
+     },
+     {
+      "when": "9/25",
+      "what": "$1B restructuring plan"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The self-serve condiment bars came back too, after disappearing during the pandemic.",
+   "say": "The self-serve condiment bars came back too, after disappearing during the pandemic.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "9/24",
+      "what": "Niccol starts as CEO"
+     },
+     {
+      "when": "11/24",
+      "what": "No non-dairy upcharge"
+     },
+     {
+      "when": "1/25",
+      "what": "Plan: cut 30% of menu"
+     },
+     {
+      "when": "9/25",
+      "what": "$1B restructuring plan"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in September 2025 came a restructuring plan of about $1 billion, including about 900 corporate job cuts and store closures.",
+   "say": "And in September twenty twenty-five came a restructuring plan of about one billion dollars, including about nine hundred corporate job cuts and store closures.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "9/24",
+      "what": "Niccol starts as CEO"
+     },
+     {
+      "when": "11/24",
+      "what": "No non-dairy upcharge"
+     },
+     {
+      "when": "1/25",
+      "what": "Plan: cut 30% of menu"
+     },
+     {
+      "when": "9/25",
+      "what": "$1B restructuring plan"
+     }
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the last quarter of fiscal 2025, 627 stores closed under that plan, 584 of them in North America.",
+   "say": "In the last quarter of fiscal twenty twenty-five, six hundred twenty-seven stores closed under that plan, five hundred eighty-four of them in North America.",
+   "scene": {
+    "t": "stat",
+    "label": "Stores closed",
+    "value": "627",
+    "tone": "down",
+    "sub": "Q4 FY2025 plan"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Niccol said the savings would go toward more baristas and new store designs, with a goal of about four-minute waits.",
+   "say": "Niccol said the savings would go toward more baristas and new store designs, with a goal of about four-minute waits.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More baristas",
+     "New store designs",
+     "4-minute wait goal"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there's China, Starbucks' second-biggest market by store count.",
+   "say": "Then there's China, Starbucks' second-biggest market by store count.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "worried"
+     }
+    ],
+    "caption": "8,011 stores, Sept 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By April 2026, Starbucks had closed a deal giving funds run by Boyu Capital 60% of its China store business. Starbucks kept 40%.",
+   "say": "By April twenty twenty-six, Starbucks had closed a deal giving funds run by Boyu Capital sixty percent of its China store business. Starbucks kept forty percent.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy"
+     },
+     {
+      "name": "china",
+      "mood": "happy"
+     }
+    ],
+    "prop": "tag",
+    "label": "40%",
+    "caption": "Starbucks keeps 40%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That moves about 8,000 China stores from company-operated to licensed. Starbucks books less revenue from them, and the partner carries the costs.",
+   "say": "That moves about eight thousand China stores from company-operated to licensed. Starbucks books less revenue from them, and the partner carries the costs.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "About 8,000 stores",
+     "moving to licensed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The latest quarter when this video was made ended June 28, 2026. Global same-store sales rose 7.9%.",
+   "say": "The latest quarter when this video was made ended June twenty-eighth, twenty twenty-six. Global same-store sales rose seven point nine percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Same-store sales",
+    "value": "+7.9%",
+    "tone": "up",
+    "sub": "Qtr to June 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Operating margin that quarter was 14.4%, up about 4.3 points from a year earlier.",
+   "say": "Operating margin that quarter was fourteen point four percent, up about four point three points from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Operating margin",
+    "value": "14.4%",
+    "tone": "up",
+    "sub": "Qtr to June 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Revenue that quarter still fell 1%, to $9.3 billion, which Starbucks put down to the China deal.",
+   "say": "Revenue that quarter still fell one percent, to nine point three billion dollars, which Starbucks put down to the China deal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Revenue: $9.3B, -1%",
+     "Reason: China deal"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whether the turnaround holds is a question for future filings, not for this video.",
+   "say": "Whether the turnaround holds is a question for future filings, not for this video.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Future filings",
+     "will tell"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And there are real risks to watch in the business model itself.",
+   "say": "And there are real risks to watch in the business model itself.",
+   "scene": {
+    "t": "list",
+    "title": "The risks",
+    "items": [
+     "Coffee prices",
+     "Labor costs",
+     "Two big markets"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, coffee itself. Arabica futures hit a record of about $4.38 a pound on October 23, 2025.",
+   "say": "First, coffee itself. Arabica futures hit a record of about four dollars and thirty-eight cents a pound on October twenty-third, twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Arabica record",
+    "value": "$4.38/lb",
+    "tone": "down",
+    "sub": "Oct 23, 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, people. More baristas on every shift means a bigger wage bill before any extra sales show up.",
+   "say": "Second, people. More baristas on every shift means a bigger wage bill before any extra sales show up.",
+   "scene": {
+    "t": "list",
+    "title": "The risks",
+    "items": [
+     "Coffee prices",
+     "Labor costs",
+     "Two big markets"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, concentration. At the end of fiscal 2025, about 61% of all stores sat in just two countries, the US and China.",
+   "say": "Third, concentration. At the end of fiscal twenty twenty-five, about sixty-one percent of all stores sat in just two countries, the US and China.",
+   "scene": {
+    "t": "list",
+    "title": "The risks",
+    "items": [
+     "Coffee prices",
+     "Labor costs",
+     "Two big markets"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: What it means for you",
+   "say": "Chapter six: what it means for you.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For customers, a few things follow from all this.",
+   "say": "For customers, a few things follow from all this.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "For customers"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The free non-dairy swap was a real price cut. Starbucks said nearly half of US customers who paid to modify drinks would save 10% or more.",
+   "say": "The free non-dairy swap was a real price cut. Starbucks said nearly half of US customers who paid to modify drinks would save ten percent or more.",
+   "scene": {
+    "t": "stat",
+    "label": "Modifier savings",
+    "value": "10%+",
+    "tone": "up",
+    "sub": "Nearly half, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The loyalty levels reward heavy spending. Light users still earn Stars, just more slowly.",
+   "say": "The loyalty levels reward heavy spending. Light users still earn Stars, just more slowly.",
+   "scene": {
+    "t": "split",
+    "title": "Rewards levels",
+    "left": {
+     "title": "Light users",
+     "items": [
+      "1 Star per $1",
+      "Slower rewards"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Heavy users",
+     "items": [
+      "1.7 per $1",
+      "Extra Star Days"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Money loaded onto a card is money Starbucks holds until you spend it. Balances that are never spent eventually become its revenue.",
+   "say": "Money loaded onto a card is money Starbucks holds until you spend it. Balances that are never spent eventually become its revenue.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Loaded money:",
+     "Starbucks holds it"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that bag of Starbucks coffee at the grocery store? Starbucks didn't brew it, but it still earns from it, through Nestle.",
+   "say": "And that bag of Starbucks coffee at the grocery store? Starbucks didn't brew it, but it still earns from it, through Nestle.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "GROCERY",
+    "label": "Nestle",
+    "caption": "Starbucks still earns"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Recap time.",
+   "say": "Recap time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Recap"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Starbucks' own cafes bring in 83% of revenue. Licensed stores bring in 12%, with fewer costs.",
+   "say": "Starbucks' own cafes bring in eighty-three percent of revenue. Licensed stores bring in twelve percent, with fewer costs.",
+   "scene": {
+    "t": "list",
+    "title": "Recap, FY2025",
+    "items": [
+     "Own cafes: 83%",
+     "Licensed: 12%",
+     "Grocery: 47.3%",
+     "Rewards: 34.2M"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The grocery and Nestle business is small but it keeps 47.3% of its sales as operating profit.",
+   "say": "The grocery and Nestle business is small, but it keeps forty-seven point three percent of its sales as operating profit.",
+   "scene": {
+    "t": "list",
+    "title": "Recap, FY2025",
+    "items": [
+     "Own cafes: 83%",
+     "Licensed: 12%",
+     "Grocery: 47.3%",
+     "Rewards: 34.2M"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 34.2 million active US Rewards members keep the whole machine turning.",
+   "say": "And thirty-four point two million active US Rewards members keep the whole machine turning.",
+   "scene": {
+    "t": "list",
+    "title": "Recap, FY2025",
+    "items": [
+     "Own cafes: 83%",
+     "Licensed: 12%",
+     "Grocery: 47.3%",
+     "Rewards: 34.2M"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the next time you tap the app for a latte, you know where the money goes. Subscribe for more How They Make Money.",
+   "say": "So the next time you tap the app for a latte, you know where the money goes. Subscribe for more How They Make Money.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
+  }
+ ],
+ "post": {
+  "title": "Starbucks' highest-margin business has no cafes. How Starbucks really makes money",
+  "ig": "Starbucks' highest-margin business has no cafes: a 47.3% margin in fiscal 2025. Here is how the whole company makes money.",
+  "tiktok": "Starbucks' best-margin business doesn't pour a single latte. How Starbucks makes money, with fiscal 2025 numbers.",
+  "yt_desc": "Starbucks brought in $37.2 billion in fiscal 2025 (year ended Sept 28, 2025), but its highest-margin segment has no cafes: Channel Development, the packaged-coffee business run largely through Nestle, kept a 47.3% operating margin versus 11.5% for North America. This video breaks down Starbucks' three segments, company-operated versus licensed stores, the roughly $7 billion Nestle prepayment, Starbucks Rewards and prepaid balances, and the margin drop to 7.9% in fiscal 2025. It then walks through Brian Niccol's Back to Starbucks plan with dated facts, the Boyu Capital China joint venture, and results for the quarter ended June 28, 2026. Worked examples use figures from Starbucks' own filings.\n\nCHAPTERS\n\nSources: Starbucks FY2025 Form 10-K and Q4 FY2025 results release (Oct 29, 2025); Starbucks FY2019-FY2023 10-Ks and annual reports; Starbucks Q3 FY2026 results and IR dashboard (July 29, 2026); Starbucks Rewards relaunch release (March 10, 2026); Starbucks and Boyu Capital joint venture release (2026); Axios (Sept 10, 2024); NPR (Jan 28, 2025); TODAY/Scripps News (Oct 30, 2024); AP (Sept 25, 2025); GeekWire (Jan 2024); Bloomberg (Oct 23, 2025).\n\nNews and education, not financial advice.\n\n#starbucks #howtheymakemoney #business",
+  "tags": [
+   "how Starbucks makes money",
+   "Starbucks business model",
+   "Starbucks Nestle",
+   "Starbucks Rewards",
+   "licensed stores",
+   "Back to Starbucks",
+   "Brian Niccol",
+   "Channel Development"
+  ]
+ }
+}
