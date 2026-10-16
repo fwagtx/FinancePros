@@ -1,0 +1,179 @@
+{
+  "series": "ticker",
+  "header": "Why rent is higher\nin some cities",
+  "cover": {
+    "title": "Why Is SF Rent 4x Houston?",
+    "prop": "house",
+    "label": "1BR",
+    "value": "4x"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "A San Francisco one-bedroom rents for about 4x Houston's. Why?",
+      "say": "A San Francisco one-bedroom rents for about four times Houston's. Why?",
+      "scene": {
+        "t": "hook",
+        "title": "SF rent: [4x] Houston",
+        "prop": "house",
+        "label": "1BR",
+        "value": "4x",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Median one-bedroom rent: $4,400 in SF (Sept 2026) vs $1,050 in Houston (Aug 2026), per Zumper.",
+      "say": "Zumper's median one-bedroom was four thousand four hundred dollars in San Francisco, versus one thousand fifty in Houston.",
+      "scene": {
+        "t": "compare",
+        "title": "Median 1BR rent",
+        "left": {
+          "label": "San Francisco",
+          "value": "$4,400",
+          "tone": "up",
+          "sub": "Zumper, Sept 2026"
+        },
+        "right": {
+          "label": "Houston",
+          "value": "$1,050",
+          "tone": "down",
+          "sub": "Zumper, Aug 2026"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Rent is just a price: people who want homes vs homes that exist.",
+      "say": "Rent is a price: people who want homes, versus homes that exist.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Rent = a price",
+          "Demand: jobs + pay",
+          "Supply: homes built"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Demand: SF one-bedroom rent rose 25.4% in a year. Zumper ties it to AI hiring.",
+      "say": "Demand first. San Francisco's rose twenty-five point four percent in a year, and Zumper ties that to AI hiring.",
+      "scene": {
+        "t": "stat",
+        "label": "SF 1BR, 1 year",
+        "value": "+25.4%",
+        "tone": "up",
+        "sub": "Zumper, Sept 2026"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Supply: San Francisco County permitted 2,519 homes in 2021 and just 770 in 2024 (Census).",
+      "say": "Then supply. San Francisco County permitted two thousand five hundred nineteen homes in twenty twenty-one, and just seven hundred seventy in twenty twenty-four.",
+      "scene": {
+        "t": "chart",
+        "title": "SF homes permitted",
+        "points": [
+          [
+            2020,
+            2004
+          ],
+          [
+            2021,
+            2519
+          ],
+          [
+            2022,
+            2044
+          ],
+          [
+            2023,
+            1136
+          ],
+          [
+            2024,
+            770
+          ]
+        ],
+        "end": "770",
+        "color": "down",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Zoning rules, like height limits, shape what gets built. And land near jobs is pricey.",
+      "say": "Zoning rules, like height limits, shape what gets built. And land near jobs is pricey.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Zoning: what, where",
+          "Height limits",
+          "Pricey land"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Houston's metro permitted 65,075 homes in 2025, and its one-bedroom rent fell 14.6% in a year.",
+      "say": "Houston's metro permitted sixty-five thousand seventy-five homes in twenty twenty-five, and its rent fell fourteen point six percent in a year.",
+      "scene": {
+        "t": "stat",
+        "label": "Houston permits",
+        "value": "65,075",
+        "tone": "up",
+        "sub": "Metro, 2025",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So high rent usually means well-paid jobs chasing too few homes.",
+      "say": "So high rent usually means well-paid jobs chasing too few homes.",
+      "scene": {
+        "t": "split",
+        "title": "Same jobs, new homes?",
+        "left": {
+          "title": "Pricier city",
+          "items": [
+            "Jobs boom",
+            "Few new homes"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Cheaper city",
+          "items": [
+            "Jobs grow",
+            "Lots of building"
+          ],
+          "tone": "up"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why a San Francisco 1BR rents for about 4x Houston's",
+    "ig": "Why does a San Francisco one-bedroom rent for about 4x Houston's?\nMedian 1BR rent: $4,400 in San Francisco (Sept 2026) vs $1,050 in Houston (Aug 2026), per Zumper.\nSF rent rose 25.4% in a year as AI hiring added demand. SF County permitted just 770 homes in 2024, down from 2,519 in 2021.\nHouston's metro permitted 65,075 homes in 2025, and its 1BR rent fell 14.6% in a year.\nSources: Zumper National Rent Report, US Census Bureau building permits (via FRED).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#rent #housing #economics #moneytips #financeprostv",
+    "tiktok": "Why SF rent is about 4x Houston's: jobs vs homes built. Not financial advice. #moneytok #personalfinance #rent #housing #financeprostv",
+    "yt_desc": "A San Francisco one-bedroom had a median rent of $4,400 in September 2026, versus $1,050 in Houston in August 2026 (Zumper). The difference comes down to supply and demand: SF County permitted just 770 homes in 2024 (Census), while Houston's metro permitted 65,075 in 2025. News and education, not financial advice. #Shorts #rent #economics",
+    "tags": [
+      "why rent is so high",
+      "san francisco rent",
+      "houston rent",
+      "housing supply",
+      "zoning explained"
+    ]
+  }
+}
