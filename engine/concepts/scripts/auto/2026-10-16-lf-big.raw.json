@@ -1,0 +1,1826 @@
+{
+ "series": "ticker",
+ "header": "Inflation came back\nWhat it means for you",
+ "cover": {
+  "title": "Your Raise Lost to Prices.",
+  "prop": "bill",
+  "label": "Pay",
+  "value": "-0.7%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Average hourly pay rose 3%. Prices rose 3.7%.",
+   "say": "Average hourly pay rose three percent. Prices rose three point seven.",
+   "scene": {
+    "t": "hook",
+    "title": "Pay 3%, prices [3.7%]",
+    "prop": "bill",
+    "label": "Pay",
+    "value": "-0.7%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So after a year of raises, real hourly pay is down 0.7% (BLS, Sept 2026).",
+   "say": "So after a whole year of raises, real hourly pay for the average worker is down zero point seven percent, the Labor Department says.",
+   "scene": {
+    "t": "stat",
+    "label": "Real hourly pay",
+    "value": "-0.7%",
+    "tone": "down",
+    "sub": "Sept 2025 to 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's not a typo. Prices simply ran faster than pay.",
+   "say": "That's not a typo. Prices simply ran faster than pay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay: +3%",
+     "Prices: +3.7%",
+     "Real pay: -0.7%"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that was only one of the inflation reports out on Oct 14 and 15, 2026.",
+   "say": "And that was only one of the inflation reports that landed on October fourteenth and fifteenth.",
+   "scene": {
+    "t": "news",
+    "headline": "Inflation hits 3.7%",
+    "source": "BLS, Oct 14, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Consumer prices: up 3.7% in a year. Producer prices: up 6.3%.",
+   "say": "Consumer prices, up three point seven percent in a year. Producer prices, up six point three percent.",
+   "scene": {
+    "t": "list",
+    "title": "Two days in October",
+    "items": [
+     "CPI: 3.7%",
+     "PPI: 6.3%",
+     "Mortgage: 7.4%",
+     "COLA: 3.6%"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage rates: 7.4%. And a 3.6% raise for Social Security.",
+   "say": "Mortgage rates, seven point four percent. And a three point six percent raise for Social Security.",
+   "scene": {
+    "t": "list",
+    "title": "Two days in October",
+    "items": [
+     "CPI: 3.7%",
+     "PPI: 6.3%",
+     "Mortgage: 7.4%",
+     "COLA: 3.6%"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed already raised rates in Sept 2026, to 3.75-4.00%.",
+   "say": "The Federal Reserve already raised rates in September, to a range of three point seven five to four percent.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75-4.00%",
+    "caption": "Hiked Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it decides again on Oct 28.",
+   "say": "And it decides again on October twenty-eighth.",
+   "scene": {
+    "t": "stat",
+    "label": "Next Fed decision",
+    "value": "Oct 28",
+    "tone": "neutral",
+    "sub": "Meeting Oct 27-28"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So is this the 1970s again? Or 2022? Not exactly, and the difference matters.",
+   "say": "So is this the nineteen seventies all over again? Or twenty twenty-two? Not exactly, and the difference matters.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1970s again?",
+     "2022 again?",
+     "Not exactly"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Coming up: what happened, pay vs prices, lessons from the 1970s, and your money.",
+   "say": "Coming up: what happened, pay versus prices, lessons from the seventies, and what it means for your money.",
+   "scene": {
+    "t": "list",
+    "title": "Coming up",
+    "items": [
+     "What happened",
+     "Pay vs prices",
+     "1970s and 2022",
+     "Your money"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What happened",
+   "say": "Let's start with what happened.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What happened"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's inflation in 2026, month by month: prices vs a year earlier (BLS).",
+   "say": "Here's inflation in twenty twenty-six, month by month. Each point compares prices with a year earlier.",
+   "scene": {
+    "t": "chart",
+    "title": "Inflation in 2026",
+    "points": [
+     [
+      1,
+      2.4
+     ],
+     [
+      2,
+      2.4
+     ],
+     [
+      3,
+      3.3
+     ],
+     [
+      4,
+      3.8
+     ],
+     [
+      5,
+      4.2
+     ],
+     [
+      6,
+      3.5
+     ],
+     [
+      7,
+      3.4
+     ],
+     [
+      8,
+      3.4
+     ],
+     [
+      9,
+      3.7
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.7%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It was 2.4% in Jan and Feb, then jumped after the Iran war began in late Feb and energy prices surged.",
+   "say": "It sat at two point four percent in January and February, then jumped after the Iran war began in late February and energy prices surged.",
+   "scene": {
+    "t": "chart",
+    "title": "Inflation in 2026",
+    "points": [
+     [
+      1,
+      2.4
+     ],
+     [
+      2,
+      2.4
+     ],
+     [
+      3,
+      3.3
+     ],
+     [
+      4,
+      3.8
+     ],
+     [
+      5,
+      4.2
+     ],
+     [
+      6,
+      3.5
+     ],
+     [
+      7,
+      3.4
+     ],
+     [
+      8,
+      3.4
+     ],
+     [
+      9,
+      3.7
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.7%",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It peaked at 4.2% in May, cooled to 3.4% over the summer, then rose to 3.7% in Sept.",
+   "say": "It peaked at four point two percent in May, cooled to three point four over the summer, and climbed back to three point seven in September.",
+   "scene": {
+    "t": "chart",
+    "title": "Inflation in 2026",
+    "points": [
+     [
+      1,
+      2.4
+     ],
+     [
+      2,
+      2.4
+     ],
+     [
+      3,
+      3.3
+     ],
+     [
+      4,
+      3.8
+     ],
+     [
+      5,
+      4.2
+     ],
+     [
+      6,
+      3.5
+     ],
+     [
+      7,
+      3.4
+     ],
+     [
+      8,
+      3.4
+     ],
+     [
+      9,
+      3.7
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.7%",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The main culprit: gasoline, up 9.1% in Sept alone.",
+   "say": "The main culprit was gasoline, which rose nine point one percent in September alone.",
+   "scene": {
+    "t": "stat",
+    "label": "Gasoline, Sept",
+    "value": "+9.1%",
+    "tone": "down",
+    "sub": "In one month, BLS",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gas made up more than half of Sept's increase, and it's up about 34% from a year earlier.",
+   "say": "Gas made up more than half of September's increase, and it's up about thirty-four percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Gasoline vs 2025",
+    "value": "~34%",
+    "tone": "down",
+    "sub": "12 months to Sept"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Strip out food and energy, and 'core' inflation is 2.6%, not 3.7%.",
+   "say": "Strip out food and energy, and what economists call core inflation is two point six percent, not three point seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Sept 2026 inflation",
+    "left": {
+     "label": "All items",
+     "value": "3.7%",
+     "tone": "down",
+     "sub": "Headline CPI"
+    },
+    "right": {
+     "label": "Core",
+     "value": "2.6%",
+     "tone": "neutral",
+     "sub": "No food or energy"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Groceries were flat in Sept. Food at home is up 1.8% in a year.",
+   "say": "Groceries were actually flat in September, and food at home is up just one point eight percent in a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Food at home",
+    "value": "+1.8%",
+    "tone": "neutral",
+    "sub": "12 months to Sept"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shoppers felt the gas part: Sept retail sales at gas stations rose 6.4% (Census).",
+   "say": "Shoppers felt the gas part. In September, sales at gas stations jumped six point four percent, the Census Bureau reported.",
+   "scene": {
+    "t": "stat",
+    "label": "Gas station sales",
+    "value": "+6.4%",
+    "tone": "down",
+    "sub": "Sept, Census"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then on Oct 15, producer prices jumped 1.3% in one month.",
+   "say": "Then, on October fifteenth, the producer price index, which tracks what businesses get paid, jumped one point three percent in a single month.",
+   "scene": {
+    "t": "news",
+    "headline": "PPI jumps 1.3%",
+    "source": "BLS, Oct 15, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the biggest monthly jump since March 2022.",
+   "say": "That's the biggest monthly jump since March twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "PPI, one month",
+    "value": "+1.3%",
+    "tone": "down",
+    "sub": "Top since Mar 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over a year: 6.3%, the most since Dec 2022, when it hit 6.4%.",
+   "say": "Over twelve months, producer prices are up six point three percent, the most since December twenty twenty-two, when they hit six point four.",
+   "scene": {
+    "t": "compare",
+    "title": "Producer prices, 1 year",
+    "left": {
+     "label": "Dec 2022",
+     "value": "6.4%",
+     "tone": "neutral",
+     "sub": "Earlier high"
+    },
+    "right": {
+     "label": "Sept 2026",
+     "value": "6.3%",
+     "tone": "down",
+     "sub": "Most since then"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Producer prices are costs upstream. Businesses either pass them on or absorb them.",
+   "say": "Why does that matter? Producer prices are costs upstream. Businesses either pass them on to shoppers or absorb them in their profits.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Producer prices =",
+     "costs upstream",
+     "Pass on or absorb"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage rates: Freddie Mac's 30-year average held at 7.4% on Oct 15, the highest since Nov 2023.",
+   "say": "Mortgage rates are up too. Freddie Mac's average thirty-year rate held at seven point four percent on October fifteenth, the highest since November twenty twenty-three.",
+   "scene": {
+    "t": "stat",
+    "label": "30-year mortgage",
+    "value": "7.4%",
+    "tone": "down",
+    "sub": "Freddie, Oct 15"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In late Feb 2026, it was 5.98%.",
+   "say": "Back in late February, it was five point nine eight percent.",
+   "scene": {
+    "t": "compare",
+    "title": "30-year mortgage rate",
+    "left": {
+     "label": "Feb 2026 low",
+     "value": "5.98%",
+     "tone": "up",
+     "sub": "Freddie Mac"
+    },
+    "right": {
+     "label": "Oct 15, 2026",
+     "value": "7.4%",
+     "tone": "down",
+     "sub": "Highest since 2023"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $300,000 loan, that's about $1,795 a month vs $2,077 (principal and interest only).",
+   "say": "In a made-up example, on a three hundred thousand dollar loan, that's about seventeen hundred ninety-five dollars a month versus two thousand seventy-seven, for principal and interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example, at 5.98%",
+     "value": "$1,795"
+    },
+    "to": {
+     "label": "At 7.4%",
+     "value": "$2,077"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $282 more every month for the same loan.",
+   "say": "That's about two hundred eighty-two dollars more every month, for the very same loan.",
+   "scene": {
+    "t": "stat",
+    "label": "Example, per month",
+    "value": "+$282",
+    "tone": "down",
+    "sub": "Same $300K loan"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Pay vs prices",
+   "say": "Now, the number a lot of people missed: what happened to paychecks.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Pay vs prices"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Average hourly pay rose 3% in the year to Sept, to $37.81 an hour (BLS).",
+   "say": "Average hourly pay rose three percent in the year to September, to thirty-seven dollars and eighty-one cents an hour.",
+   "scene": {
+    "t": "compare",
+    "title": "Year to Sept 2026",
+    "left": {
+     "label": "Hourly pay",
+     "value": "+3%",
+     "tone": "up",
+     "sub": "$37.81 an hour"
+    },
+    "right": {
+     "label": "Prices",
+     "value": "+3.7%",
+     "tone": "down",
+     "sub": "CPI"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices rose 3.7%. So prices won the race.",
+   "say": "Prices rose three point seven percent. So prices won the race.",
+   "scene": {
+    "t": "compare",
+    "title": "Year to Sept 2026",
+    "left": {
+     "label": "Hourly pay",
+     "value": "+3%",
+     "tone": "up",
+     "sub": "$37.81 an hour"
+    },
+    "right": {
+     "label": "Prices",
+     "value": "+3.7%",
+     "tone": "down",
+     "sub": "CPI"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Economists call this 'real' pay: roughly your raise minus inflation.",
+   "say": "Economists call this real pay. It's roughly your raise minus inflation. Three minus three point seven is minus zero point seven.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real pay =",
+     "raise - inflation",
+     "3% - 3.7% = -0.7%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Sept alone, pay rose 0.1% while prices rose 0.6%.",
+   "say": "And in September alone, pay rose zero point one percent, while prices rose zero point six.",
+   "scene": {
+    "t": "compare",
+    "title": "September alone",
+    "left": {
+     "label": "Hourly pay",
+     "value": "+0.1%",
+     "tone": "neutral",
+     "sub": "One month"
+    },
+    "right": {
+     "label": "Prices",
+     "value": "+0.6%",
+     "tone": "down",
+     "sub": "One month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $50,000 salary with a 3% raise becomes $51,500.",
+   "say": "Here's a made-up example. A fifty thousand dollar salary with a three percent raise becomes fifty-one thousand five hundred.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Salary, example",
+     "value": "$50,000"
+    },
+    "to": {
+     "label": "After a 3% raise",
+     "value": "$51,500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To keep pace with 3.7% prices, it would need to be $51,850. That's $350 short.",
+   "say": "To keep pace with prices up three point seven percent, it would need to be fifty-one thousand eight hundred fifty. That's three hundred fifty dollars short.",
+   "scene": {
+    "t": "stat",
+    "label": "Example shortfall",
+    "value": "-$350",
+    "tone": "down",
+    "sub": "vs $51,850 needed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Longer hours softened it: real weekly pay fell only 0.1%, as the average workweek got longer.",
+   "say": "Longer hours softened the hit. Real weekly pay fell only zero point one percent, because the average workweek got longer.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Weekly pay: -0.1%",
+     "Longer workweeks"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hiring also slowed: employers added just 29,000 jobs in Sept, and unemployment was 4.2%.",
+   "say": "Hiring has slowed, too. Employers added just twenty-nine thousand jobs in September, and unemployment was four point two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "September jobs",
+    "left": {
+     "label": "Jobs added",
+     "value": "29,000",
+     "tone": "down",
+     "sub": "BLS, Oct 2"
+    },
+    "right": {
+     "label": "Unemployment",
+     "value": "4.2%",
+     "tone": "neutral",
+     "sub": "BLS, Oct 2"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Slower hiring usually means less pressure for bigger raises.",
+   "say": "Slow hiring usually means less pressure on employers to hand out bigger raises.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Slow hiring =",
+     "less raise pressure"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Retirees get a raise: Social Security's 2027 COLA is 3.6% (SSA, Oct 14).",
+   "say": "Retirees are getting a raise. On October fourteenth, Social Security announced a three point six percent cost-of-living increase for twenty twenty-seven.",
+   "scene": {
+    "t": "stat",
+    "label": "2027 COLA",
+    "value": "+3.6%",
+    "tone": "up",
+    "sub": "SSA, Oct 14, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the largest since 2023's 8.7%. The 2026 raise was 2.8%.",
+   "say": "It's the largest since twenty twenty-three, when it was eight point seven percent. The twenty twenty-six raise was two point eight.",
+   "scene": {
+    "t": "compare",
+    "title": "Social Security COLA",
+    "left": {
+     "label": "2026",
+     "value": "2.8%",
+     "tone": "neutral",
+     "sub": "2023 was 8.7%"
+    },
+    "right": {
+     "label": "2027",
+     "value": "3.6%",
+     "tone": "up",
+     "sub": "Starts Jan 2027"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $2,000 monthly check, 3.6% adds $72, to $2,072.",
+   "say": "In a made-up example, on a two thousand dollar monthly check, three point six percent adds seventy-two dollars, to two thousand seventy-two.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Monthly check, ex.",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "With 3.6% COLA",
+     "value": "$2,072"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 72 million people get it starting in Jan 2027.",
+   "say": "Nearly seventy-two million Social Security beneficiaries get it starting in January.",
+   "scene": {
+    "t": "stat",
+    "label": "Beneficiaries",
+    "value": "~72M",
+    "tone": "neutral",
+    "sub": "From Jan 2027"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The COLA tracks a version of CPI, so it's built to keep up with prices, not beat them.",
+   "say": "The raise is tied to a version of the consumer price index, so it's built to keep up with prices, not get ahead of them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "COLA tracks CPI-W",
+     "Keeps up with prices",
+     "Doesn't beat them"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: We've seen this before",
+   "say": "To see why everyone's watching the Fed, let's go back about fifty years.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "We've seen this before"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's US inflation by year from 1972 (annual average, BLS).",
+   "say": "Here's US inflation by year, starting in nineteen seventy-two, when it was three point two percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Inflation, 1972-1983",
+    "points": [
+     [
+      1972,
+      3.2
+     ],
+     [
+      1973,
+      6.2
+     ],
+     [
+      1974,
+      11.0
+     ],
+     [
+      1975,
+      9.1
+     ],
+     [
+      1976,
+      5.8
+     ],
+     [
+      1977,
+      6.5
+     ],
+     [
+      1978,
+      7.6
+     ],
+     [
+      1979,
+      11.3
+     ],
+     [
+      1980,
+      13.5
+     ],
+     [
+      1981,
+      10.3
+     ],
+     [
+      1982,
+      6.2
+     ],
+     [
+      1983,
+      3.2
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.2%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oil shocks in 1973 and 1979 helped push it to 11% in 1974 and 13.5% in 1980.",
+   "say": "Oil shocks in nineteen seventy-three and nineteen seventy-nine helped push it to eleven percent in nineteen seventy-four, and thirteen point five percent in nineteen eighty.",
+   "scene": {
+    "t": "chart",
+    "title": "Inflation, 1972-1983",
+    "points": [
+     [
+      1972,
+      3.2
+     ],
+     [
+      1973,
+      6.2
+     ],
+     [
+      1974,
+      11.0
+     ],
+     [
+      1975,
+      9.1
+     ],
+     [
+      1976,
+      5.8
+     ],
+     [
+      1977,
+      6.5
+     ],
+     [
+      1978,
+      7.6
+     ],
+     [
+      1979,
+      11.3
+     ],
+     [
+      1980,
+      13.5
+     ],
+     [
+      1981,
+      10.3
+     ],
+     [
+      1982,
+      6.2
+     ],
+     [
+      1983,
+      3.2
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.2%",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In between, it never fell back to where it started, so price rises kept stacking up.",
+   "say": "In between, it never fell back to where it started, so price rises kept stacking up.",
+   "scene": {
+    "t": "chart",
+    "title": "Inflation, 1972-1983",
+    "points": [
+     [
+      1972,
+      3.2
+     ],
+     [
+      1973,
+      6.2
+     ],
+     [
+      1974,
+      11.0
+     ],
+     [
+      1975,
+      9.1
+     ],
+     [
+      1976,
+      5.8
+     ],
+     [
+      1977,
+      6.5
+     ],
+     [
+      1978,
+      7.6
+     ],
+     [
+      1979,
+      11.3
+     ],
+     [
+      1980,
+      13.5
+     ],
+     [
+      1981,
+      10.3
+     ],
+     [
+      1982,
+      6.2
+     ],
+     [
+      1983,
+      3.2
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.2%",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Measured month by month, the 12-month rate peaked at 14.8% in March 1980.",
+   "say": "Measured month by month, the yearly rate peaked at fourteen point eight percent in March nineteen eighty.",
+   "scene": {
+    "t": "stat",
+    "label": "CPI, March 1980",
+    "value": "14.8%",
+    "tone": "down",
+    "sub": "12-month rate, BLS",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Oct 1979, new Fed Chair Paul Volcker announced a tough anti-inflation plan.",
+   "say": "In October nineteen seventy-nine, the new Fed chair, Paul Volcker, announced a tough plan to break inflation.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed's Volcker acts",
+    "source": "Federal Reserve, Oct 6, 1979"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's key rate hit a record 20% in late 1980.",
+   "say": "The Fed's key interest rate hit a record twenty percent in late nineteen eighty.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Rate: 20%",
+    "caption": "Late 1980"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage rates hit 18.63% in Oct 1981 (Freddie Mac).",
+   "say": "Thirty-year mortgage rates reached eighteen point six three percent in October nineteen eighty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Mortgage, Oct 1981",
+    "value": "18.63%",
+    "tone": "down",
+    "sub": "Freddie Mac"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It worked, at a cost: unemployment peaked at 10.8% in late 1982.",
+   "say": "It worked, but at a painful cost. Unemployment peaked at ten point eight percent in late nineteen eighty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Unemployment",
+    "value": "10.8%",
+    "tone": "down",
+    "sub": "Late 1982"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 1983, inflation was back to 3.2%.",
+   "say": "By nineteen eighty-three, inflation was back down to three point two percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Inflation, 1972-1983",
+    "points": [
+     [
+      1972,
+      3.2
+     ],
+     [
+      1973,
+      6.2
+     ],
+     [
+      1974,
+      11.0
+     ],
+     [
+      1975,
+      9.1
+     ],
+     [
+      1976,
+      5.8
+     ],
+     [
+      1977,
+      6.5
+     ],
+     [
+      1978,
+      7.6
+     ],
+     [
+      1979,
+      11.3
+     ],
+     [
+      1980,
+      13.5
+     ],
+     [
+      1981,
+      10.3
+     ],
+     [
+      1982,
+      6.2
+     ],
+     [
+      1983,
+      3.2
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.2%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lesson the Fed took: inflation that lingers gets harder to stop.",
+   "say": "The lesson central bankers took from the seventies: inflation that lingers gets much harder to stop.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1970s lesson:",
+     "Lingering inflation",
+     "is harder to stop"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fast-forward: in Jan 2021, mortgages hit a record low 2.65%. In March 2022, the Fed started hiking from near zero.",
+   "say": "Now fast-forward. In January twenty twenty-one, mortgage rates hit a record low of two point six five percent. In March twenty twenty-two, the Fed started hiking from near zero.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1/21",
+      "what": "Mortgages 2.65%"
+     },
+     {
+      "when": "3/22",
+      "what": "Fed starts hiking"
+     },
+     {
+      "when": "6/22",
+      "what": "Inflation hits 9.1%"
+     },
+     {
+      "when": "7/23",
+      "what": "Rates 5.25-5.5%"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inflation hit 9.1% in June 2022, the most since 1981.",
+   "say": "Inflation hit nine point one percent in June twenty twenty-two, the most since nineteen eighty-one.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1/21",
+      "what": "Mortgages 2.65%"
+     },
+     {
+      "when": "3/22",
+      "what": "Fed starts hiking"
+     },
+     {
+      "when": "6/22",
+      "what": "Inflation hits 9.1%"
+     },
+     {
+      "when": "7/23",
+      "what": "Rates 5.25-5.5%"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By July 2023, after 11 hikes, the Fed's range was 5.25-5.5%.",
+   "say": "By July twenty twenty-three, after eleven hikes, the Fed's range was five point two five to five point five percent.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1/21",
+      "what": "Mortgages 2.65%"
+     },
+     {
+      "when": "3/22",
+      "what": "Fed starts hiking"
+     },
+     {
+      "when": "6/22",
+      "what": "Inflation hits 9.1%"
+     },
+     {
+      "when": "7/23",
+      "what": "Rates 5.25-5.5%"
+     }
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2022 was rough for 401(k)s: the S&P 500 fell 19.4% and the Nasdaq 33.1%.",
+   "say": "Twenty twenty-two was rough for four oh one Ks. The S and P five hundred fell nineteen point four percent, and the Nasdaq thirty-three point one.",
+   "scene": {
+    "t": "split",
+    "title": "2022 for investors",
+    "left": {
+     "title": "Stocks",
+     "items": [
+      "S&P 500: -19.4%",
+      "Nasdaq: -33.1%"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Bonds",
+     "items": [
+      "Index: -12%+",
+      "Worst on record"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bonds didn't help: the main US bond index fell more than 12% in 2022, its worst year on record.",
+   "say": "Bonds didn't help either. The main US bond index fell more than twelve percent in twenty twenty-two, its worst year on record.",
+   "scene": {
+    "t": "stat",
+    "label": "US bond index 2022",
+    "value": "-12%+",
+    "tone": "down",
+    "sub": "Worst on record"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When rates rise, existing bond prices fall, and stocks often wobble too.",
+   "say": "That's because when rates rise, the prices of existing bonds fall, and stocks often wobble too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rates up =",
+     "bond prices down",
+     "stocks often wobble"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So is 2026 a replay? Core inflation was 5.9% in June 2022. In Sept 2026, it's 2.6%.",
+   "say": "So is twenty twenty-six a replay? Not quite. Core inflation was five point nine percent in June twenty twenty-two. In September twenty twenty-six, it's two point six.",
+   "scene": {
+    "t": "compare",
+    "title": "Core inflation",
+    "left": {
+     "label": "June 2022",
+     "value": "5.9%",
+     "tone": "down",
+     "sub": "BLS"
+    },
+    "right": {
+     "label": "Sept 2026",
+     "value": "2.6%",
+     "tone": "neutral",
+     "sub": "BLS"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2026's jump is mostly energy, a bit like the 1970s oil shocks. The question is whether it spreads.",
+   "say": "This jump is mostly about energy, a bit like the oil shocks of the seventies. The big question is whether it spreads into everything else.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2026: mostly energy",
+     "Big question:",
+     "does it spread?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One detail most people miss: the Fed's 3.75-4% range is barely above 3.7% inflation.",
+   "say": "And here's a detail most people miss. The Fed's target range, three point seven five to four percent, is barely above inflation at three point seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Fed rate vs prices",
+    "left": {
+     "label": "Fed target",
+     "value": "3.75-4%",
+     "tone": "neutral",
+     "sub": "Since Sept 16"
+    },
+    "right": {
+     "label": "Inflation",
+     "value": "3.7%",
+     "tone": "down",
+     "sub": "Sept CPI"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rate minus inflation is the 'real' interest rate. Now it's about 0%. In 1981 it was far above zero.",
+   "say": "Rate minus inflation is called the real interest rate. Right now, it's close to zero. In nineteen eighty-one, it was far above zero.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real rate =",
+     "rate - inflation",
+     "Now: about 0%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Savings, debt and 401(k)",
+   "say": "So what does all of this mean for your own money?",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Savings, debt, 401(k)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average US savings account paid 0.38% in July 2026 (FDIC national rate).",
+   "say": "Start with savings. The national average savings account rate was zero point three eight percent in July, according to the F D I C.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg savings rate",
+    "value": "0.38%",
+    "tone": "down",
+    "sub": "FDIC, July 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $10,000 at 0.38% earns $38 in a year.",
+   "say": "In a made-up example, ten thousand dollars at that rate earns thirty-eight dollars in a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Savings, example",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "Interest at 0.38%",
+     "value": "$38"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But with prices up 3.7%, the same stuff costs $370 more.",
+   "say": "But with prices up three point seven percent, the same stuff now costs three hundred seventy dollars more.",
+   "scene": {
+    "t": "compare",
+    "title": "$10,000 for a year",
+    "left": {
+     "label": "Interest",
+     "value": "+$38",
+     "tone": "up",
+     "sub": "At 0.38%"
+    },
+    "right": {
+     "label": "Price rise",
+     "value": "$370",
+     "tone": "down",
+     "sub": "At 3.7% inflation"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So in real terms, that cash lost buying power.",
+   "say": "So in real terms, that cash lost buying power.",
+   "scene": {
+    "t": "compare",
+    "title": "$10,000 for a year",
+    "left": {
+     "label": "Interest",
+     "value": "+$38",
+     "tone": "up",
+     "sub": "At 0.38%"
+    },
+    "right": {
+     "label": "Price rise",
+     "value": "$370",
+     "tone": "down",
+     "sub": "At 3.7% inflation"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some online savings accounts and Treasury bills pay closer to the Fed's rate. Example: at 4%, $10,000 earns $400.",
+   "say": "Some online savings accounts and Treasury bills pay closer to the Fed's rate. At an example rate of four percent, the same ten thousand dollars earns four hundred.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: 4% rate",
+     "$10,000 earns $400",
+     "Near inflation"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A math trick, the rule of 72: 72 divided by 3.7 is about 19.5.",
+   "say": "Here's a math trick called the rule of seventy-two. Seventy-two divided by three point seven is about nineteen point five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rule of 72:",
+     "72 / 3.7 = 19.5"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about how many years prices take to double at 3.7% a year. Math, not a forecast.",
+   "say": "That's about how many years prices would take to double at that pace. It's math, not a forecast.",
+   "scene": {
+    "t": "stat",
+    "label": "Prices double in",
+    "value": "19.5 yrs",
+    "tone": "neutral",
+    "sub": "If 3.7% a year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Debt: card accounts charged interest averaged 22.15% APR in Q2 2026 (Fed).",
+   "say": "Now debt. Credit card accounts that were charged interest averaged a twenty-two point one five percent A P R in the second quarter, Fed data show.",
+   "scene": {
+    "t": "stat",
+    "label": "Card APR, Q2 2026",
+    "value": "22.15%",
+    "tone": "down",
+    "sub": "Fed G.19 data"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $5,000 balance at 22.15% costs about $1,108 a year in interest.",
+   "say": "In a made-up example, a five thousand dollar balance at that rate costs about eleven hundred eight dollars a year in interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Card balance, ex.",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Interest per year",
+     "value": "~$1,108"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most card rates float with the prime rate, now 7%. The Sept hike added about $12.50 a year on that balance.",
+   "say": "Most card rates float with the prime rate, now seven percent. September's quarter-point hike adds about twelve dollars and fifty cents a year on that balance.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Prime rate: 7%",
+     "+0.25 pt hike =",
+     "+$12.50/yr on $5K"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fixed-rate debt is different: a fixed mortgage or car payment stays the same as prices rise.",
+   "say": "Fixed-rate debt works differently. A fixed mortgage or car payment stays the same, even as prices and paychecks rise around it.",
+   "scene": {
+    "t": "split",
+    "title": "When prices rise",
+    "left": {
+     "title": "Fixed rate",
+     "items": [
+      "Payment locked",
+      "Same each month"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Variable rate",
+     "items": [
+      "Rate can rise",
+      "Cards, HELOCs"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Variable-rate debt, like cards and home equity lines, can get pricier when the Fed hikes.",
+   "say": "Variable-rate debt, like credit cards and home equity lines, can get pricier when the Fed hikes.",
+   "scene": {
+    "t": "split",
+    "title": "When prices rise",
+    "left": {
+     "title": "Fixed rate",
+     "items": [
+      "Payment locked",
+      "Same each month"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Variable rate",
+     "items": [
+      "Rate can rise",
+      "Cards, HELOCs"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your 401(k): stocks have held up so far. The S&P 500 set a record close of about 7,819 on Oct 6, 2026.",
+   "say": "And your four oh one K? Stocks have held up so far. The S and P five hundred closed at a record of about seven thousand eight hundred nineteen on October sixth.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 record",
+    "value": "~7,819",
+    "tone": "up",
+    "sub": "Close, Oct 6, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the 10-year Treasury yield topped 5.3% in early Oct, its highest since 2002.",
+   "say": "But the ten-year Treasury yield climbed above five point three percent in early October, its highest since two thousand two.",
+   "scene": {
+    "t": "stat",
+    "label": "10-year yield",
+    "value": "5.3%+",
+    "tone": "down",
+    "sub": "Highest since 2002"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Higher yields mean new bonds pay more, but bonds already in your fund are worth less.",
+   "say": "Higher yields mean new bonds pay more, but bonds already sitting in your fund are worth less.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New bonds: pay more",
+     "Old bonds: drop"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2022 showed stocks and bonds can fall at the same time. That's history, not a forecast.",
+   "say": "Twenty twenty-two showed that stocks and bonds can fall at the same time. That's history, not a forecast.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2022: both fell",
+     "History, not",
+     "a forecast"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Winners, losers, what's next",
+   "say": "So who comes out ahead, and who falls behind?",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Winners, losers, what's next"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ahead: higher-rate savers, people with low fixed-rate loans, and banks.",
+   "say": "Ahead: savers earning higher rates, people with low fixed-rate loans locked in, and banks.",
+   "scene": {
+    "t": "split",
+    "title": "Ahead vs behind",
+    "left": {
+     "title": "Ahead",
+     "items": [
+      "High-rate savers",
+      "Low fixed loans",
+      "Banks"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Behind",
+     "items": [
+      "Wage earners",
+      "Home buyers",
+      "Card borrowers"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Behind: workers whose raises trail prices, home buyers, and card borrowers.",
+   "say": "Behind: workers whose raises trail prices, home buyers, and anyone carrying a card balance.",
+   "scene": {
+    "t": "split",
+    "title": "Ahead vs behind",
+    "left": {
+     "title": "Ahead",
+     "items": [
+      "High-rate savers",
+      "Low fixed loans",
+      "Banks"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Behind",
+     "items": [
+      "Wage earners",
+      "Home buyers",
+      "Card borrowers"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Banks, for example: Bank of America's net interest income rose 8% to $16.4B in Q3 2026.",
+   "say": "Take banks. Bank of America's net interest income rose eight percent, to sixteen point four billion dollars, in the third quarter.",
+   "scene": {
+    "t": "stat",
+    "label": "BofA interest inc.",
+    "value": "$16.4B",
+    "tone": "up",
+    "sub": "Q3 2026, up 8%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For now, borrowers are mostly keeping up: JPMorgan's card charge-off rate fell to 2.91% in Q3, from 3.34%.",
+   "say": "So far, borrowers are mostly keeping up. JPMorgan's card charge-off rate fell to two point nine one percent in the third quarter, from three point three four.",
+   "scene": {
+    "t": "stat",
+    "label": "JPM card losses",
+    "value": "2.91%",
+    "tone": "up",
+    "sub": "Q3, from 3.34%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Renters feel it too: shelter costs are up 3.2% in a year.",
+   "say": "Renters feel it too. Shelter costs are up three point two percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Shelter, 12 months",
+    "value": "+3.2%",
+    "tone": "down",
+    "sub": "BLS, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Dates to watch: Oct 22, mortgage rates. Oct 28, the Fed's decision.",
+   "say": "Now, the dates to watch. On October twenty-second, Freddie Mac posts new mortgage rates. On October twenty-eighth, the Fed announces its decision.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "10/22",
+      "what": "Mortgage rates"
+     },
+     {
+      "when": "10/28",
+      "what": "Fed decision"
+     },
+     {
+      "when": "11/10",
+      "what": "October CPI"
+     },
+     {
+      "when": "11/13",
+      "what": "Producer prices"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nov 10: October inflation and real pay. Nov 13: producer prices.",
+   "say": "On November tenth, the October inflation report and the real pay numbers arrive together. And on November thirteenth, producer prices.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "10/22",
+      "what": "Mortgage rates"
+     },
+     {
+      "when": "10/28",
+      "what": "Fed decision"
+     },
+     {
+      "when": "11/10",
+      "what": "October CPI"
+     },
+     {
+      "when": "11/13",
+      "what": "Producer prices"
+     }
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In each, watch gas prices, core inflation, real pay and how the Fed describes inflation.",
+   "say": "In each one, watch the same four things: gas prices, core inflation, real pay, and how the Fed describes inflation.",
+   "scene": {
+    "t": "list",
+    "title": "What to watch",
+    "items": [
+     "Gas prices",
+     "Core inflation",
+     "Real pay",
+     "Fed's words"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Sept, the Fed put it in three words.",
+   "say": "In September, the Fed's statement put it in three words: inflation remains elevated.",
+   "scene": {
+    "t": "quote",
+    "text": "Inflation remains elevated.",
+    "source": "FOMC statement, Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap",
+   "say": "Let's recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Consumer prices are up 3.7% in a year, mostly because of gas. Core is 2.6%.",
+   "say": "Consumer prices are up three point seven percent in a year, mostly because of gas. Core inflation is two point six.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Prices: +3.7%",
+     "Pay: +3%",
+     "Mortgage: 7.4%",
+     "Fed: Oct 28"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Average pay is up 3%, so real hourly pay is down 0.7%.",
+   "say": "Average pay is up three percent, so real hourly pay is down zero point seven.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Prices: +3.7%",
+     "Pay: +3%",
+     "Mortgage: 7.4%",
+     "Fed: Oct 28"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage rates are 7.4%, the highest since Nov 2023.",
+   "say": "Mortgage rates are at seven point four percent, the highest since November twenty twenty-three.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Prices: +3.7%",
+     "Pay: +3%",
+     "Mortgage: 7.4%",
+     "Fed: Oct 28"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the Fed decides on Oct 28, with its rate barely above inflation.",
+   "say": "And the Fed decides on October twenty-eighth, with its rate barely above inflation.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Prices: +3.7%",
+     "Pay: +3%",
+     "Mortgage: 7.4%",
+     "Fed: Oct 28"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's not the 1970s, and it's not 2022. But prices are outrunning paychecks again.",
+   "say": "It's not the seventies, and it's not twenty twenty-two. But for now, prices are outrunning pay again.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not the 1970s",
+     "Not 2022",
+     "Prices beat pay"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for the week's biggest money story, explained on a whiteboard.",
+   "say": "If this helped, subscribe for the week's biggest money story, explained on a whiteboard.",
+   "scene": {
+    "t": "cta",
+    "tagline": "The big story, every week"
+   }
+  }
+ ],
+ "post": {
+  "title": "Average pay rose 3%. Prices rose 3.7%. Inflation's comeback week, explained",
+  "ig": "Average hourly pay rose 3%. Prices rose 3.7%. Here's what inflation's comeback means for your money.",
+  "tiktok": "Pay up 3%, prices up 3.7%. Inflation's comeback, explained.",
+  "yt_desc": "Average hourly pay rose 3% in the year to September 2026, but prices rose 3.7%, so real hourly pay fell 0.7%. In two days in October, the consumer price index, producer prices (up 6.3% over a year), Freddie Mac's 7.4% mortgage rate and Social Security's 3.6% COLA all told the same story, with the Fed's next decision on Oct 28. This video compares 2026 with the 1970s and with 2021-22, and walks through what it means for paychecks, savings, debt and 401(k)s, with labeled examples.\n\nCHAPTERS\n\nSources: BLS CPI and Real Earnings (Oct 14, 2026); BLS PPI (Oct 15, 2026); BLS Employment Situation (Oct 2, 2026); Social Security Administration (Oct 14, 2026); Freddie Mac (Oct 15, 2026); Federal Reserve (Sept 16, 2026); Census Bureau (Oct 15, 2026); FDIC national rates; Federal Reserve G.19; Bank of America and JPMorgan Q3 2026 results; Federal Reserve History; AP and Axios (Dec 2022); CNBC; CNN.\n\nNews and education, not financial advice.\n\n#inflation #personalfinance #economy",
+  "tags": [
+   "inflation",
+   "CPI",
+   "real wages",
+   "Social Security COLA",
+   "mortgage rates",
+   "Federal Reserve",
+   "1970s inflation",
+   "401k"
+  ]
+ }
+}
