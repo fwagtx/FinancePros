@@ -4,27 +4,27 @@
   "cover": {
     "title": "Does a Freeze Hurt Your Score?",
     "prop": "card",
-    "label": "0 pts",
+    "label": "SCORE",
     "value": "MYTH"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "Freezing your credit doesn't cost you a single point.",
-      "say": "Freezing your credit doesn't cost you a single point.",
+      "text": "Does freezing your credit hurt your score? Not by a single point.",
+      "say": "Does freezing your credit hurt your score? Not by a single point.",
       "scene": {
         "t": "hook",
         "title": "Freeze = [0] points",
         "prop": "card",
-        "label": "0 pts",
+        "label": "SCORE",
         "value": "MYTH",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "Not one. The FTC and CFPB both say freezes don't affect scores.",
-      "say": "Not one. The F T C and C F P B both say freezes don't affect scores.",
+      "text": "The FTC and CFPB both say freezes don't affect scores.",
+      "say": "The F T C and C F P B both say freezes don't affect scores.",
       "scene": {
         "t": "stat",
         "label": "Score change",
@@ -36,8 +36,8 @@
     },
     {
       "who": "ticker",
-      "text": "A freeze only stops new lenders from pulling your report. Nothing in your score changes.",
-      "say": "A freeze only stops new lenders from pulling your report. Nothing in your score changes.",
+      "text": "A freeze mainly stops new lenders from pulling your report. Nothing in your score changes.",
+      "say": "A freeze mainly stops new lenders from pulling your report. Nothing in your score changes.",
       "scene": {
         "t": "board",
         "lines": [
@@ -118,8 +118,8 @@
     },
     {
       "who": "ticker",
-      "text": "The stakes? The FTC got over 1.1 million identity theft reports in 2024.",
-      "say": "The stakes? The F T C got over one point one million identity theft reports in twenty twenty-four.",
+      "text": "The stakes? The FTC has logged over a million identity theft reports every year since 2020.",
+      "say": "The stakes? The F T C has logged over a million identity theft reports every year since twenty twenty.",
       "scene": {
         "t": "chart",
         "title": "ID theft reports, FTC",
