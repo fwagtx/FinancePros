@@ -55,3 +55,7 @@ It is true, specific, about 2.5 seconds spoken, and matches the cover. However, 
 - Time words: "July 2026" is the only time-sensitive date (Issue 1).
 
 VERDICT: FAIL
+
+## Round 2 (editor)
+Applied fix 1 (FDIC rate now "under 0.4%" / "over $3 million" on screen, voice, compare and posts) and fix 2 ("usually" passive on line, board and posts). Item 3 kept as dated. Hook unchanged (optional).
+VERDICT: PASS
