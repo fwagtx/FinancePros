@@ -1,0 +1,152 @@
+{
+ "id": "2026-10-17-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "US oil tops $100\nWhat it means for gas",
+ "cover": {
+  "title": "US Oil Is Back Above $100",
+  "prop": "chart-up",
+  "label": "WTI",
+  "value": "$101"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "US oil is back above $100 a barrel.",
+   "say": "US oil is back above a hundred dollars a barrel.",
+   "scene": {
+    "t": "hook",
+    "title": "US oil tops [$100]",
+    "prop": "chart-up",
+    "label": "WTI",
+    "value": "$101",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It settled at $101.41 on October 16, up more than 10% in a single week.",
+   "say": "It settled at a hundred one dollars and forty-one cents on October sixteenth, up more than ten percent in a single week.",
+   "scene": {
+    "t": "news",
+    "headline": "US oil tops $100",
+    "source": "CNBC, Oct 16, 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A big driver, per CNBC: at least 9 ships attacked near the Strait of Hormuz since October 11.",
+   "say": "A big driver, per CNBC? At least nine ships have been attacked near the Strait of Hormuz since October eleventh.",
+   "scene": {
+    "t": "stat",
+    "label": "Ships attacked",
+    "value": "9+",
+    "tone": "down",
+    "sub": "since Oct 11",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oil flowing through it fell to about 70% of pre-war levels, per Kpler.",
+   "say": "Oil flowing through it fell to about seventy percent of pre-war levels, per Kpler.",
+   "scene": {
+    "t": "stat",
+    "label": "Hormuz oil flow",
+    "value": "~70%",
+    "tone": "down",
+    "sub": "of pre-war, Kpler",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For scale: in October 2025, US oil averaged about $60 a barrel.",
+   "say": "For scale, in October twenty twenty-five, US oil averaged about sixty dollars a barrel.",
+   "scene": {
+    "t": "compare",
+    "title": "US oil (WTI), barrel",
+    "left": {
+     "label": "Oct 2025",
+     "value": "$60.26",
+     "tone": "neutral",
+     "sub": "World Bank avg"
+    },
+    "right": {
+     "label": "Oct 16, 2026",
+     "value": "$101.41",
+     "tone": "down",
+     "sub": "closing price"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Gas averaged $4.33 in September, a record for that month, says AAA.",
+   "say": "Gas averaged four dollars and thirty-three cents in September, a record for that month, says triple A.",
+   "scene": {
+    "t": "stat",
+    "label": "Sept gas average",
+    "value": "$4.33",
+    "tone": "down",
+    "sub": "Sept record, AAA",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And oil isn't just gas. It's in trucking diesel, plane tickets and heating bills.",
+   "say": "And oil isn't just gas. It's in trucking diesel, plane tickets and heating bills.",
+   "scene": {
+    "t": "list",
+    "title": "Where oil shows up",
+    "items": [
+     "Gas at the pump",
+     "Trucking diesel",
+     "Plane tickets",
+     "Heating bills"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pump prices usually follow crude with a lag, so the key number is whether oil stays above $100.",
+   "say": "Pump prices usually follow crude with a lag, so the key number is whether oil stays above a hundred dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Crude moves first",
+     "Pump prices follow",
+     "Watch: oil over $100"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "US oil is back above $100 a barrel. Here's why",
+  "ig": "US oil is back above $100 a barrel.\nUS crude (WTI) settled at $101.41 on Oct 16, 2026, up more than 10% for the week. CNBC tied the jump to attacks on at least 9 ships near the Strait of Hormuz since Oct 11 and a big drop in US crude stockpiles.\nOil flowing through the strait fell to about 70% of its pre-war level (Kpler).\nIn October 2025, WTI averaged $60.26. US gas averaged $4.33 in September 2026, a record for the month (AAA).\nSources: CNBC, Reuters, Kpler, AAA, World Bank.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#oilprices #gasprices #inflation #economy #financeprostv",
+  "tiktok": "US oil is back above $100 a barrel amid Hormuz ship attacks. Not financial advice. #moneytok #personalfinance #oilprices #gasprices #financeprostv",
+  "yt_desc": "US crude oil (WTI) settled at $101.41 a barrel on October 16, 2026, up more than 10% for the week. CNBC tied the move to attacks on at least nine ships near the Strait of Hormuz, while Kpler data showed flows fell to about 70% of pre-war levels. That compares with a $60.26 average in October 2025, and US gas averaged a record $4.33 for September. Sources: CNBC, Reuters, Kpler, AAA, World Bank. News and education, not financial advice.\n#Shorts #oilprices #gasprices",
+  "tags": [
+   "oil prices",
+   "WTI crude",
+   "Strait of Hormuz",
+   "gas prices",
+   "oil above 100"
+  ]
+ }
+}
