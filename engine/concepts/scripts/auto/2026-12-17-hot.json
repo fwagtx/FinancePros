@@ -1,0 +1,209 @@
+{
+ "id": "2026-12-17-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why is your phone\nbill so expensive?",
+ "cover": {
+  "title": "Cheaper Service, Record Taxes",
+  "prop": "bill",
+  "label": "$100",
+  "value": "28.8%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Phone plans got cheaper. The taxes on them hit a record.",
+   "say": "Phone plans got cheaper. The taxes on them hit a record.",
+   "scene": {
+    "t": "hook",
+    "title": "Taxes hit a [record]",
+    "prop": "bill",
+    "label": "$100",
+    "value": "28.8%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Tax Foundation's 2026 study says a record 28.8% of a typical bill is taxes and fees.",
+   "say": "The Tax Foundation's twenty twenty-six study says a record twenty-eight point eight percent of a typical bill is taxes and fees.",
+   "scene": {
+    "t": "stat",
+    "label": "Taxes and fees",
+    "value": "28.8%",
+    "tone": "down",
+    "sub": "Tax Foundation '26",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That share was 18.6% in 2016.",
+   "say": "That share was eighteen point six percent in twenty sixteen.",
+   "scene": {
+    "t": "chart",
+    "title": "Tax share of bill",
+    "points": [
+     [
+      2016,
+      18.6
+     ],
+     [
+      2018,
+      19.1
+     ],
+     [
+      2019,
+      21.7
+     ],
+     [
+      2022,
+      25.4
+     ],
+     [
+      2023,
+      24.5
+     ],
+     [
+      2024,
+      26.8
+     ],
+     [
+      2025,
+      27.6
+     ],
+     [
+      2026,
+      28.8
+     ]
+    ],
+    "prefix": "",
+    "suffix": "%",
+    "end": "28.8%",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, the average carrier charge per line fell from $50.64 to $33.14 a month over about two decades.",
+   "say": "Meanwhile, the average carrier charge per line fell from about fifty-one dollars to thirty-three over two decades.",
+   "scene": {
+    "t": "compare",
+    "title": "Price per line",
+    "left": {
+     "label": "Two decades ago",
+     "value": "$50.64",
+     "tone": "neutral",
+     "sub": "per line, a month"
+    },
+    "right": {
+     "label": "2026",
+     "value": "$33.14",
+     "tone": "up",
+     "sub": "Tax Foundation"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a four-line, $100-a-month plan, that's about $345 a year in taxes and fees.",
+   "say": "On a four-line, hundred-dollar plan, that's about three hundred forty-five dollars a year in taxes and fees.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Plan, 1 year",
+     "value": "$1,200"
+    },
+    "to": {
+     "label": "Taxes and fees",
+     "value": "~$345"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the study, 14.4% is the federal Universal Service Fund; state and local add about the same.",
+   "say": "In the study, fourteen point four percent is the federal Universal Service Fund; state and local add about the same.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Federal USF: 14.39%",
+     "State, local: 14.42%",
+     "Study total: 28.8%"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Verizon bid $45.5 billion for C-band spectrum in 2021, then spent $17 billion on capital projects in 2025.",
+   "say": "Verizon bid forty-five point five billion dollars for C-band spectrum in twenty twenty-one, then spent seventeen billion on capital projects in twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Verizon's big costs",
+    "left": {
+     "label": "C-band bid",
+     "value": "$45.5B",
+     "tone": "down",
+     "sub": "FCC auction, 2021"
+    },
+    "right": {
+     "label": "Capex",
+     "value": "$17.0B",
+     "tone": "down",
+     "sub": "full year 2025"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the plan got cheaper. The stuff stacked on top hit a record.",
+   "say": "So the plan got cheaper. The stuff stacked on top hit a record.",
+   "scene": {
+    "t": "split",
+    "title": "Your phone bill",
+    "left": {
+     "title": "Fell",
+     "items": [
+      "Price per line"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Record high",
+     "items": [
+      "Taxes and fees"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Phone Service Got Cheaper. Why Do Taxes Hit a Record?",
+  "ig": "Phone service got cheaper. The taxes on it hit a record.\nA record 28.8% of a typical wireless bill is taxes, fees and surcharges (Tax Foundation, 2026).\nThe average charge per line fell from $50.64 to $33.14 a month over about two decades.\nA four-line, $100/month plan pays about $345 a year in taxes and fees.\nVerizon bid $45.5B in the FCC's 2021 C-band auction and spent $17.0B on capex in 2025.\nSources: Tax Foundation, FCC, Verizon.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#phonebill #wireless #taxes #moneyexplained #financeprostv",
+  "tiktok": "Your phone plan got cheaper, but 28.8% of the bill is taxes and fees. Not financial advice. #moneytok #personalfinance #phonebill #financeprostv",
+  "yt_desc": "Why is a cell phone bill so expensive? The Tax Foundation's 2026 study finds a record 28.8% of a typical wireless bill is taxes, fees and surcharges, while the average charge per line fell from $50.64 to $33.14 a month over about two decades. Verizon also bid $45.5 billion in the FCC's 2021 C-band auction and spent $17.0 billion on capital projects in 2025. Sources: Tax Foundation, FCC, Verizon. News and education, not financial advice. #Shorts #phonebill #personalfinance",
+  "tags": [
+   "cell phone bill",
+   "wireless taxes",
+   "why is my phone bill so high",
+   "universal service fund",
+   "phone plan cost"
+  ]
+ }
+}
