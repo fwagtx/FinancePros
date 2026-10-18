@@ -1,1816 +1,1816 @@
 {
- "series": "ticker",
- "header": "WORLD MONEY",
- "cover": {
-  "title": "Same Burger, 3x Price?",
-  "prop": "tag",
-  "label": "CHF",
-  "value": "$9.04"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "In Switzerland, a Big Mac costs $9.04.",
-   "say": "In Switzerland, a Big Mac costs nine dollars and four cents.",
-   "scene": {
-    "t": "hook",
-    "title": "A [$9.04] Big Mac",
+  "series": "ticker",
+  "header": "WORLD MONEY",
+  "cover": {
+    "title": "Same Burger, 3x Price?",
     "prop": "tag",
     "label": "CHF",
-    "value": "$9.04",
-    "mood": "shock"
-   }
+    "value": "$9.04"
   },
-  {
-   "who": "ticker",
-   "text": "In Japan, the exact same burger costs $3.08.",
-   "say": "In Japan, the exact same burger costs three dollars and eight cents.",
-   "scene": {
-    "t": "compare",
-    "title": "One burger, July 2026",
-    "left": {
-     "label": "Switzerland",
-     "value": "$9.04",
-     "tone": "down",
-     "sub": "CHF 7.30"
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "In Switzerland, a Big Mac costs $9.04.",
+      "say": "In Switzerland, a Big Mac costs nine dollars and four cents.",
+      "scene": {
+        "t": "hook",
+        "title": "A [$9.04] Big Mac",
+        "prop": "tag",
+        "label": "CHF",
+        "value": "$9.04",
+        "mood": "shock"
+      }
     },
-    "right": {
-     "label": "Japan",
-     "value": "$3.08",
-     "tone": "up",
-     "sub": "500 yen"
+    {
+      "who": "ticker",
+      "text": "In Japan, the exact same burger costs $3.08.",
+      "say": "In Japan, the exact same burger costs three dollars and eight cents.",
+      "scene": {
+        "t": "compare",
+        "title": "One burger, July 2026",
+        "left": {
+          "label": "Switzerland",
+          "value": "$9.04",
+          "tone": "down",
+          "sub": "CHF 7.30"
+        },
+        "right": {
+          "label": "Japan",
+          "value": "$3.08",
+          "tone": "up",
+          "sub": "500 yen"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Same bun, same sauce, same two patties. Nearly three times the price.",
+      "say": "Same bun, same sauce, same two patties. Nearly three times the price.",
+      "scene": {
+        "t": "compare",
+        "title": "One burger, July 2026",
+        "left": {
+          "label": "Switzerland",
+          "value": "$9.04",
+          "tone": "down",
+          "sub": "CHF 7.30"
+        },
+        "right": {
+          "label": "Japan",
+          "value": "$3.08",
+          "tone": "up",
+          "sub": "500 yen"
+        },
+        "winner": "right",
+        "keep": true,
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Those prices come from The Economist's Big Mac index, July 2026 edition, the latest one out.",
+      "say": "Those prices come from The Economist's Big Mac index, the July twenty twenty-six edition, which is the latest one out.",
+      "scene": {
+        "t": "news",
+        "headline": "Big Mac index update",
+        "source": "The Economist, July 2026"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And that gap isn't really about burgers. It's about money: what a franc, a yen, or a dollar is actually worth.",
+      "say": "And that gap isn't really about burgers. It's about money: what a franc, a yen, or a dollar is actually worth.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "japan",
+            "mood": "worried",
+            "says": "Am I cheap?"
+          },
+          {
+            "name": "us",
+            "mood": "happy",
+            "says": "Lunch is on me"
+          }
+        ],
+        "caption": "A burger as a currency test"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's the plan: the idea, the math, the latest numbers, and what it means for your wallet.",
+      "say": "Here's the plan: the idea, the math, the latest numbers, and what it means for your wallet.",
+      "scene": {
+        "t": "list",
+        "title": "The plan",
+        "items": [
+          "The idea",
+          "The math",
+          "The menu",
+          "Your wallet"
+        ],
+        "reveal": 4
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Quick note: this is news and education, not financial advice.",
+      "say": "Quick note: this is news and education, not financial advice.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "News + education,",
+          "not advice"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter 1: The burger standard.",
+      "say": "Chapter one: the burger standard.",
+      "scene": {
+        "t": "chapter",
+        "n": 1,
+        "title": "The burger standard"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Start with a simple question. If one thing is identical everywhere, shouldn't it cost about the same everywhere?",
+      "say": "Start with a simple question. If one thing is identical everywhere, shouldn't it cost about the same everywhere?",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Same thing,",
+          "same price?"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Economists have a name for that idea: purchasing power parity, or PPP.",
+      "say": "Economists have a name for that idea: purchasing power parity, or P P P.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Purchasing",
+          "Power Parity",
+          "(PPP)"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "PPP says that over the long run, exchange rates should drift toward the rate that makes the same basket of goods cost the same in every country.",
+      "say": "P P P says that over the long run, exchange rates should drift toward the rate that makes the same basket of goods cost the same in every country.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Long run:",
+          "same basket,",
+          "same price"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's the logic. If gold were cheap in Mexico and pricey in America, traders would buy it in Mexico and sell it here.",
+      "say": "Here's the logic. If gold were cheap in Mexico and pricey in America, traders would buy it in Mexico and sell it here.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "mexico",
+            "mood": "happy",
+            "says": "Cheap over here"
+          },
+          {
+            "name": "us",
+            "mood": "worried",
+            "says": "Pricey over here"
+          }
+        ],
+        "caption": "Buy low, sell high"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "All that buying pushes up demand for pesos, and the price gap slowly closes.",
+      "say": "All that buying pushes up demand for pesos, and the price gap slowly closes.",
+      "scene": {
+        "t": "split",
+        "title": "How gaps close",
+        "left": {
+          "title": "Cheap country",
+          "items": [
+            "Buyers rush in",
+            "Currency rises"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Pricey country",
+          "items": [
+            "Buyers leave",
+            "Prices ease"
+          ],
+          "tone": "down"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Real PPP research uses huge baskets with thousands of prices. That's slow, expensive, and honestly a little dull.",
+      "say": "Real P P P research uses huge baskets with thousands of prices. That's slow, expensive, and honestly a little dull.",
+      "scene": {
+        "t": "stat",
+        "label": "Real PPP baskets",
+        "value": "1,000s",
+        "tone": "neutral",
+        "sub": "of prices",
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So The Economist picked a basket of one: a Big Mac, sold in dozens of countries with basically the same recipe.",
+      "say": "So The Economist picked a basket of one: a Big Mac, sold in dozens of countries with basically the same recipe.",
+      "scene": {
+        "t": "hook",
+        "title": "A basket of [one]",
+        "prop": "box",
+        "label": "BIG",
+        "value": "x1"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The July 2026 edition covers 54 places, counting the US and treating the whole euro area as one.",
+      "say": "The July twenty twenty-six edition covers fifty-four places, counting the US and treating the whole euro area as one.",
+      "scene": {
+        "t": "stat",
+        "label": "Places covered",
+        "value": "54",
+        "tone": "neutral",
+        "sub": "July 2026 edition"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter 2: A joke that stuck.",
+      "say": "Chapter two: a joke that stuck.",
+      "scene": {
+        "t": "chapter",
+        "n": 2,
+        "title": "A joke that stuck"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The Economist first ran the Big Mac index in September 1986. Economics writer Pam Woodall came up with it.",
+      "say": "The Economist first ran the Big Mac index in September nineteen eighty-six. Economics writer Pam Woodall came up with it.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "1986",
+            "what": "Index launched"
+          },
+          {
+            "when": "2011",
+            "what": "GDP-adjusted added"
+          },
+          {
+            "when": "2022",
+            "what": "Method update"
+          },
+          {
+            "when": "2026",
+            "what": "July edition"
+          }
+        ],
+        "reveal": 1
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The magazine itself calls it a lighthearted guide to whether currencies are at their correct level.",
+      "say": "The magazine itself calls it a lighthearted guide to whether currencies are at their correct level.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "A lighthearted",
+          "guide to currency",
+          "levels"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It was meant as a fun way to explain a dry theory. Instead it gave the world a new word: burgernomics.",
+      "say": "It was meant as a fun way to explain a dry theory. Instead, it gave the world a new word: burgernomics.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Burgernomics"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Decades later, it shows up in economics textbooks and gets covered around the world every time it updates.",
+      "say": "Decades later, it shows up in economics textbooks, and it gets covered around the world every time it updates.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "uk",
+            "mood": "happy",
+            "says": "Where am I?"
+          },
+          {
+            "name": "china",
+            "mood": "worried",
+            "says": "Check my yuan"
+          },
+          {
+            "name": "canada",
+            "mood": "happy",
+            "says": "Me too!"
+          }
+        ],
+        "caption": "Everyone checks the burger"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2011, The Economist added a second version that adjusts for how rich each country is. We'll get to why soon.",
+      "say": "In twenty eleven, The Economist added a second version that adjusts for how rich each country is. We'll get to why soon.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "1986",
+            "what": "Index launched"
+          },
+          {
+            "when": "2011",
+            "what": "GDP-adjusted added"
+          },
+          {
+            "when": "2022",
+            "what": "Method update"
+          },
+          {
+            "when": "2026",
+            "what": "July edition"
+          }
+        ],
+        "reveal": 2
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In July 2022, it tweaked the method. The US price now comes straight from McDonald's instead of an average of four cities.",
+      "say": "In July twenty twenty-two, it tweaked the method. The US price now comes straight from McDonald's, instead of an average of four cities.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "1986",
+            "what": "Index launched"
+          },
+          {
+            "when": "2011",
+            "what": "GDP-adjusted added"
+          },
+          {
+            "when": "2022",
+            "what": "Method update"
+          },
+          {
+            "when": "2026",
+            "what": "July edition"
+          }
+        ],
+        "reveal": 3,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It now updates twice a year, around January and July. The July 2026 edition is the newest, and the next is expected in early 2027.",
+      "say": "It now updates twice a year, around January and July. The July twenty twenty-six edition is the newest, and the next one is expected in early twenty twenty-seven.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "1986",
+            "what": "Index launched"
+          },
+          {
+            "when": "2011",
+            "what": "GDP-adjusted added"
+          },
+          {
+            "when": "2022",
+            "what": "Method update"
+          },
+          {
+            "when": "2026",
+            "what": "July edition"
+          }
+        ],
+        "reveal": 4,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "By the way, the American burger itself has gotten pricier. In the April 2000 edition, a US Big Mac cost $2.24.",
+      "say": "By the way, the American burger itself has gotten pricier. In the April two thousand edition, a US Big Mac cost two dollars and twenty-four cents.",
+      "scene": {
+        "t": "chart",
+        "title": "US Big Mac price",
+        "points": [
+          [
+            2000,
+            2.24
+          ],
+          [
+            2002,
+            2.35
+          ],
+          [
+            2004,
+            2.47
+          ],
+          [
+            2006,
+            2.78
+          ],
+          [
+            2008,
+            3.21
+          ],
+          [
+            2010,
+            3.53
+          ],
+          [
+            2012,
+            3.96
+          ],
+          [
+            2014,
+            4.29
+          ],
+          [
+            2016,
+            4.5
+          ],
+          [
+            2018,
+            4.62
+          ],
+          [
+            2020,
+            4.82
+          ],
+          [
+            2022,
+            5.15
+          ],
+          [
+            2024,
+            5.69
+          ],
+          [
+            2026,
+            6.22
+          ]
+        ],
+        "prefix": "$",
+        "end": "$6.22",
+        "color": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "By July 2026, it was $6.22. That's inflation in dollars, which is a separate story from what the dollar is worth abroad.",
+      "say": "By July twenty twenty-six, it was six dollars and twenty-two cents. That's inflation in dollars, which is a separate story from what the dollar is worth abroad.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "US, April 2000",
+          "value": "$2.24"
+        },
+        "to": {
+          "label": "US, July 2026",
+          "value": "$6.22"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter 3: Doing the math.",
+      "say": "Chapter three: doing the math.",
+      "scene": {
+        "t": "chapter",
+        "n": 3,
+        "title": "Doing the math"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The whole index is two divisions. Grab a napkin.",
+      "say": "The whole index is just two divisions. Grab a napkin.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Two steps.",
+          "One napkin."
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Step one: divide the local price by the US price. That gives you the implied exchange rate, the rate PPP says should exist.",
+      "say": "Step one: divide the local price by the US price. That gives you the implied exchange rate, the rate P P P says should exist.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Local price",
+          "/ US price",
+          "= implied rate"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Step two: compare the implied rate with the real one. The gap is how over or undervalued the currency looks.",
+      "say": "Step two: compare the implied rate with the real one. The gap is how over or undervalued the currency looks.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Implied rate",
+          "/ actual rate",
+          "- 1 = gap"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Let's try Japan. In the July 2026 edition, a Big Mac in Japan costs 500 yen.",
+      "say": "Let's try Japan. In the July twenty twenty-six edition, a Big Mac in Japan costs five hundred yen.",
+      "scene": {
+        "t": "stat",
+        "label": "Big Mac in Japan",
+        "value": "500 yen",
+        "tone": "neutral",
+        "sub": "July 2026 edition"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "500 yen divided by $6.22 gives 80.39. So by burger logic, one dollar should buy about 80 yen.",
+      "say": "Five hundred yen divided by six dollars and twenty-two cents gives eighty point three nine. So by burger logic, one dollar should buy about eighty yen.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "500 / 6.22",
+          "= 80.39 yen",
+          "per dollar"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But at the time of the survey, one dollar actually bought 162.135 yen. About twice as many.",
+      "say": "But at the time of the survey, one dollar actually bought one hundred sixty-two point one three five yen. That's about twice as many.",
+      "scene": {
+        "t": "compare",
+        "title": "Yen per $1, July 2026",
+        "left": {
+          "label": "Burger rate",
+          "value": "80.39",
+          "tone": "neutral",
+          "sub": "500 / $6.22"
+        },
+        "right": {
+          "label": "Actual rate",
+          "value": "162.135",
+          "tone": "down",
+          "sub": "Market, July 2026"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Now step two: 80.39 divided by 162.135, minus one, equals minus 50.4%.",
+      "say": "Now step two: eighty point three nine, divided by one hundred sixty-two point one three five, minus one, equals minus fifty point four percent.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "80.39 / 162.135",
+          "- 1 = -50.4%"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So by the burger test, the yen is undervalued against the dollar by about half.",
+      "say": "So by the burger test, the yen is undervalued against the dollar by about half.",
+      "scene": {
+        "t": "stat",
+        "label": "Yen vs dollar",
+        "value": "-50.4%",
+        "tone": "down",
+        "sub": "Raw, July 2026",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "There's a shortcut that gives the same answer. Convert 500 yen to dollars: that's $3.08. Then compare it with $6.22.",
+      "say": "There's a shortcut that gives the same answer. Convert five hundred yen to dollars, and you get three dollars and eight cents. Then compare it with six dollars and twenty-two cents.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Japan Big Mac",
+          "value": "500 yen"
+        },
+        "to": {
+          "label": "In dollars",
+          "value": "$3.08"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "$3.08 is about half of $6.22. Same conclusion, fewer decimals.",
+      "say": "Three dollars and eight cents is about half of six dollars and twenty-two cents. Same conclusion, fewer decimals.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "japan",
+            "mood": "sad",
+            "says": "Half price?"
+          },
+          {
+            "name": "us",
+            "mood": "happy",
+            "says": "Bargain!"
+          }
+        ],
+        "caption": "Yen: -50.4% (July 2026)"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Now Switzerland. A Big Mac there costs 7.30 Swiss francs.",
+      "say": "Now Switzerland. A Big Mac there costs seven francs and thirty centimes.",
+      "scene": {
+        "t": "stat",
+        "label": "Big Mac, Swiss",
+        "value": "CHF 7.30",
+        "tone": "neutral",
+        "sub": "July 2026 edition"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "7.30 divided by 6.22 is about 1.17 francs per dollar. But the real rate was only about 0.81 francs.",
+      "say": "Seven point three divided by six point two two is about one point one seven francs per dollar. But the real rate was only about zero point eight one francs.",
+      "scene": {
+        "t": "compare",
+        "title": "Francs per $1",
+        "left": {
+          "label": "Burger rate",
+          "value": "1.17",
+          "tone": "neutral",
+          "sub": "7.30 / $6.22"
+        },
+        "right": {
+          "label": "Actual rate",
+          "value": "0.81",
+          "tone": "up",
+          "sub": "Market, July 2026"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Run the math and the franc comes out 45.4% overvalued. That's the most expensive burger in the whole index.",
+      "say": "Run the math, and the franc comes out forty-five point four percent overvalued. That's the most expensive burger in the whole index.",
+      "scene": {
+        "t": "stat",
+        "label": "Franc vs dollar",
+        "value": "+45.4%",
+        "tone": "up",
+        "sub": "Raw, July 2026",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In dollars, that Swiss Big Mac costs $9.04. That's the number from the very start of this video.",
+      "say": "In dollars, that Swiss Big Mac costs nine dollars and four cents. That's the number from the very start of this video.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Swiss Big Mac",
+          "value": "CHF 7.30"
+        },
+        "to": {
+          "label": "In dollars",
+          "value": "$9.04"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter 4: The July 2026 menu.",
+      "say": "Chapter four: the July twenty twenty-six menu.",
+      "scene": {
+        "t": "chapter",
+        "n": 4,
+        "title": "The July 2026 menu"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A positive number means a Big Mac costs more in dollars than in America. A negative one means it costs less.",
+      "say": "A positive number means a Big Mac costs more in dollars than it does in America. A negative one means it costs less.",
+      "scene": {
+        "t": "split",
+        "title": "Reading the index",
+        "left": {
+          "title": "Plus (+)",
+          "items": [
+            "Pricier than US",
+            "Overvalued"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Minus (-)",
+          "items": [
+            "Cheaper than US",
+            "Undervalued"
+          ],
+          "tone": "down"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "On the pricey side: Switzerland, Britain, the euro area, and right around even, Mexico.",
+      "say": "On the pricey side, there's Switzerland, Britain, the euro area, and right around even, Mexico.",
+      "scene": {
+        "t": "list",
+        "title": "Pricier, July 2026",
+        "items": [
+          "Switzerland",
+          "Britain",
+          "Euro area",
+          "Mexico"
+        ],
+        "reveal": 1
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In Britain, a Big Mac costs 5.49 pounds, which works out to $7.40. The pound looks 19% overvalued.",
+      "say": "In Britain, a Big Mac costs five pounds and forty-nine pence, which works out to seven dollars and forty cents. The pound looks nineteen percent overvalued.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "uk",
+            "mood": "happy",
+            "says": "Strong pound"
+          }
+        ],
+        "caption": "UK: $7.40, +19.0%"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That 19% puts Britain on the board.",
+      "say": "That nineteen percent puts Britain on the board.",
+      "scene": {
+        "t": "list",
+        "title": "Pricier, July 2026",
+        "items": [
+          "Switzerland",
+          "Britain",
+          "Euro area",
+          "Mexico"
+        ],
+        "reveal": 2
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In the euro area, the average Big Mac costs 6.19 euros, or $7.08. That's 13.8% above the US price.",
+      "say": "In the euro area, the average Big Mac costs six euros and nineteen cents, or seven dollars and eight cents. That's thirteen point eight percent above the US price.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "germany",
+            "mood": "happy",
+            "says": "Euro area here"
+          }
+        ],
+        "caption": "Euro area: $7.08, +13.8%"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The euro joins the pricey list.",
+      "say": "So the euro joins the pricey list.",
+      "scene": {
+        "t": "list",
+        "title": "Pricier, July 2026",
+        "items": [
+          "Switzerland",
+          "Britain",
+          "Euro area",
+          "Mexico"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Mexico is the surprise. At 109 pesos, its Big Mac costs $6.27, almost dead even with the US price.",
+      "say": "Mexico is the surprise. At one hundred nine pesos, its Big Mac costs six dollars and twenty-seven cents, almost dead even with the US price.",
+      "scene": {
+        "t": "compare",
+        "title": "Big Mac, July 2026",
+        "left": {
+          "label": "Mexico",
+          "value": "$6.27",
+          "tone": "neutral",
+          "sub": "109 pesos"
+        },
+        "right": {
+          "label": "United States",
+          "value": "$6.22",
+          "tone": "neutral",
+          "sub": "McDonald's price"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That makes the peso just 0.8% overvalued by the raw burger test.",
+      "say": "That makes the peso just zero point eight percent overvalued by the raw burger test.",
+      "scene": {
+        "t": "list",
+        "title": "Pricier, July 2026",
+        "items": [
+          "Switzerland",
+          "Britain",
+          "Euro area",
+          "Mexico"
+        ],
+        "reveal": 4
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Now the cheap side of the menu: China, Japan, India, and Indonesia.",
+      "say": "Now for the cheap side of the menu: China, Japan, India, and Indonesia.",
+      "scene": {
+        "t": "list",
+        "title": "Cheaper, July 2026",
+        "items": [
+          "China",
+          "Japan",
+          "India",
+          "Indonesia"
+        ],
+        "reveal": 1
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In China, a Big Mac costs 26.50 yuan, about $3.91. That makes the yuan look 37.1% undervalued.",
+      "say": "In China, a Big Mac costs twenty-six yuan and fifty fen, about three dollars and ninety-one cents. That makes the yuan look thirty-seven point one percent undervalued.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "china",
+            "mood": "worried",
+            "says": "Only $3.91"
+          }
+        ],
+        "caption": "China: -37.1%"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Japan we already did: minus 50.4%.",
+      "say": "Japan we already did: minus fifty point four percent.",
+      "scene": {
+        "t": "list",
+        "title": "Cheaper, July 2026",
+        "items": [
+          "China",
+          "Japan",
+          "India",
+          "Indonesia"
+        ],
+        "reveal": 2
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In India, McDonald's doesn't sell beef, so the index uses the chicken Maharaja Mac. It costs 236.25 rupees, about $2.45.",
+      "say": "In India, McDonald's doesn't sell beef, so the index uses the chicken Maharaja Mac. It costs two hundred thirty-six rupees and twenty-five paise, about two dollars and forty-five cents.",
+      "scene": {
+        "t": "stat",
+        "label": "India, in dollars",
+        "value": "$2.45",
+        "tone": "down",
+        "sub": "Rs 236.25"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That puts the rupee at minus 60.5%.",
+      "say": "That puts the rupee at minus sixty point five percent.",
+      "scene": {
+        "t": "list",
+        "title": "Cheaper, July 2026",
+        "items": [
+          "China",
+          "Japan",
+          "India",
+          "Indonesia"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And the cheapest burger in the July 2026 edition? Indonesia, at about $2.38, or minus 61.7%.",
+      "say": "And the cheapest burger in the July twenty twenty-six edition? Indonesia, at about two dollars and thirty-eight cents, or minus sixty-one point seven percent.",
+      "scene": {
+        "t": "list",
+        "title": "Cheaper, July 2026",
+        "items": [
+          "China",
+          "Japan",
+          "India",
+          "Indonesia"
+        ],
+        "reveal": 4
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The yen is a good example of how these numbers move over time. In the July 2011 edition, it actually looked 12.2% overvalued.",
+      "say": "The yen is a good example of how these numbers move over time. In the July twenty eleven edition, it actually looked twelve point two percent overvalued.",
+      "scene": {
+        "t": "chart",
+        "title": "Yen vs $, raw index",
+        "points": [
+          [
+            2010,
+            4.0
+          ],
+          [
+            2011,
+            12.2
+          ],
+          [
+            2012,
+            3.3
+          ],
+          [
+            2013,
+            -23.5
+          ],
+          [
+            2014,
+            -15.1
+          ],
+          [
+            2015,
+            -30.4
+          ],
+          [
+            2016,
+            -23.0
+          ],
+          [
+            2017,
+            -25.3
+          ],
+          [
+            2018,
+            -24.1
+          ],
+          [
+            2019,
+            -23.9
+          ],
+          [
+            2020,
+            -24.6
+          ],
+          [
+            2021,
+            -28.0
+          ],
+          [
+            2022,
+            -45.1
+          ],
+          [
+            2023,
+            -43.2
+          ],
+          [
+            2024,
+            -43.9
+          ],
+          [
+            2025,
+            -46.3
+          ],
+          [
+            2026,
+            -50.4
+          ]
+        ],
+        "suffix": "%",
+        "end": "-50.4%",
+        "color": "down"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "By July 2022, it was minus 45.1%, and by July 2026, minus 50.4%. The yen has looked undervalued in every July edition since 2013.",
+      "say": "By July twenty twenty-two, it was minus forty-five point one percent, and by July twenty twenty-six, minus fifty point four. The yen has looked undervalued in every July edition since twenty thirteen.",
+      "scene": {
+        "t": "chart",
+        "title": "Yen vs $, raw index",
+        "points": [
+          [
+            2010,
+            4.0
+          ],
+          [
+            2011,
+            12.2
+          ],
+          [
+            2012,
+            3.3
+          ],
+          [
+            2013,
+            -23.5
+          ],
+          [
+            2014,
+            -15.1
+          ],
+          [
+            2015,
+            -30.4
+          ],
+          [
+            2016,
+            -23.0
+          ],
+          [
+            2017,
+            -25.3
+          ],
+          [
+            2018,
+            -24.1
+          ],
+          [
+            2019,
+            -23.9
+          ],
+          [
+            2020,
+            -24.6
+          ],
+          [
+            2021,
+            -28.0
+          ],
+          [
+            2022,
+            -45.1
+          ],
+          [
+            2023,
+            -43.2
+          ],
+          [
+            2024,
+            -43.9
+          ],
+          [
+            2025,
+            -46.3
+          ],
+          [
+            2026,
+            -50.4
+          ]
+        ],
+        "suffix": "%",
+        "end": "-50.4%",
+        "color": "down",
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Japan's burger did get pricier, from 370 yen in July 2016 to 500 yen in July 2026. But the dollar went from 106.725 yen to 162.135.",
+      "say": "Japan's burger did get pricier, from three hundred seventy yen in July twenty sixteen to five hundred yen in July twenty twenty-six. But the dollar went from buying one hundred six point seven two five yen to one hundred sixty-two point one three five.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Japan, July 2016",
+          "value": "370 yen"
+        },
+        "to": {
+          "label": "Japan, July 2026",
+          "value": "500 yen"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter 5: Where the burger breaks.",
+      "say": "Chapter five: where the burger breaks.",
+      "scene": {
+        "t": "chapter",
+        "n": 5,
+        "title": "Where the burger breaks"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So is the yen really worth twice what the market says? Not so fast.",
+      "say": "So is the yen really worth twice what the market says? Not so fast.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Is the yen really",
+          "worth 2x?"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The big flaw: you can't ship a Big Mac across an ocean. Most of its price is local stuff that never crosses a border.",
+      "say": "The big flaw is that you can't ship a Big Mac across an ocean. Most of its price is local stuff that never crosses a border.",
+      "scene": {
+        "t": "building",
+        "kind": "store",
+        "name": "BURGER SHOP",
+        "label": "Local costs",
+        "caption": "Can't export a lunch"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "First, rent. A restaurant in Zurich pays very different rent than one in Jakarta.",
+      "say": "First, rent. A restaurant in Zurich pays very different rent than one in Jakarta.",
+      "scene": {
+        "t": "list",
+        "title": "Not in the box",
+        "items": [
+          "Rent",
+          "Local wages",
+          "Taxes",
+          "Competition"
+        ],
+        "reveal": 1
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Second, wages. The person flipping the patty is paid in local money, at local pay rates.",
+      "say": "Second, wages. The person flipping the patty is paid in local money, at local pay rates.",
+      "scene": {
+        "t": "list",
+        "title": "Not in the box",
+        "items": [
+          "Rent",
+          "Local wages",
+          "Taxes",
+          "Competition"
+        ],
+        "reveal": 2,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Third, taxes. Sales taxes and value-added taxes vary a lot from country to country.",
+      "say": "Third, taxes. Sales taxes and value-added taxes vary a lot from country to country.",
+      "scene": {
+        "t": "list",
+        "title": "Not in the box",
+        "items": [
+          "Rent",
+          "Local wages",
+          "Taxes",
+          "Competition"
+        ],
+        "reveal": 3,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And fourth, competition. In some countries a Big Mac is cheap fast food; in others it's a pricier treat.",
+      "say": "And fourth, competition. In some countries, a Big Mac is cheap fast food. In others, it's a pricier treat.",
+      "scene": {
+        "t": "list",
+        "title": "Not in the box",
+        "items": [
+          "Rent",
+          "Local wages",
+          "Taxes",
+          "Competition"
+        ],
+        "reveal": 4,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "There's a deeper pattern too. Richer countries have higher wages, so anything involving local labor tends to cost more there.",
+      "say": "There's a deeper pattern, too. Richer countries have higher wages, so anything involving local labor tends to cost more there.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "uk",
+            "mood": "happy",
+            "says": "Higher wages"
+          },
+          {
+            "name": "mexico",
+            "mood": "worried",
+            "says": "Lower wages"
+          }
+        ],
+        "caption": "Rich vs poorer: price gap"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That means poorer countries will almost always look undervalued on the raw index, even when nothing is wrong with their currency.",
+      "say": "That means poorer countries will almost always look undervalued on the raw index, even when nothing is wrong with their currency.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Poorer country",
+          "= cheaper burger",
+          "(often)"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's why the 2011 version exists. It compares each country's burger price with the price expected for its income per person.",
+      "say": "That's why the twenty eleven version exists. It compares each country's burger price with the price you'd expect for its income per person.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "GDP-adjusted:",
+          "price vs income",
+          "per person"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It uses a line of best fit between Big Mac prices and GDP per person. The gap from that line is the adjusted reading.",
+      "say": "It uses a line of best fit between Big Mac prices and G D P per person. The gap from that line is the adjusted reading.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Line of best fit:",
+          "Big Mac price vs",
+          "GDP per person"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Adjust for income and the picture shifts. India goes from minus 60.5% to minus 49.5%.",
+      "say": "Adjust for income, and the picture shifts. India goes from minus sixty point five percent to minus forty-nine point five.",
+      "scene": {
+        "t": "compare",
+        "title": "India rupee, July 2026",
+        "left": {
+          "label": "Raw",
+          "value": "-60.5%",
+          "tone": "down",
+          "sub": "Burger price only"
+        },
+        "right": {
+          "label": "GDP-adjusted",
+          "value": "-49.5%",
+          "tone": "down",
+          "sub": "Income-adjusted"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "China moves from minus 37.1% to minus 23.8%.",
+      "say": "China moves from minus thirty-seven point one percent to minus twenty-three point eight.",
+      "scene": {
+        "t": "compare",
+        "title": "China yuan, July 2026",
+        "left": {
+          "label": "Raw",
+          "value": "-37.1%",
+          "tone": "down",
+          "sub": "Burger price only"
+        },
+        "right": {
+          "label": "GDP-adjusted",
+          "value": "-23.8%",
+          "tone": "down",
+          "sub": "Income-adjusted"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And Mexico flips from roughly even to 25.4% overvalued, because its burger is expensive for a country at its income level.",
+      "say": "And Mexico flips from roughly even to twenty-five point four percent overvalued, because its burger is expensive for a country at its income level.",
+      "scene": {
+        "t": "compare",
+        "title": "Mexico peso, July 2026",
+        "left": {
+          "label": "Raw",
+          "value": "+0.8%",
+          "tone": "neutral",
+          "sub": "Burger price only"
+        },
+        "right": {
+          "label": "GDP-adjusted",
+          "value": "+25.4%",
+          "tone": "up",
+          "sub": "Income-adjusted"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The yen barely budges: minus 47.2% adjusted. Japan is a rich country, so its cheap burger stands out either way.",
+      "say": "The yen barely budges: minus forty-seven point two percent adjusted. Japan is a rich country, so its cheap burger stands out either way.",
+      "scene": {
+        "t": "stat",
+        "label": "Yen, GDP-adjusted",
+        "value": "-47.2%",
+        "tone": "down",
+        "sub": "July 2026 edition"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "One more limit. PPP is a long-run idea. A currency can look cheap or pricey for years, so the index isn't a forecast.",
+      "say": "One more limit. P P P is a long-run idea. A currency can look cheap or pricey for years, so the index isn't a forecast.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Long-run idea,",
+          "not a forecast"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The yen chart we just saw is proof: undervalued in every July edition since 2013.",
+      "say": "The yen chart we just saw is proof: it's looked undervalued in every July edition since twenty thirteen.",
+      "scene": {
+        "t": "chart",
+        "title": "Yen vs $, raw index",
+        "points": [
+          [
+            2010,
+            4.0
+          ],
+          [
+            2011,
+            12.2
+          ],
+          [
+            2012,
+            3.3
+          ],
+          [
+            2013,
+            -23.5
+          ],
+          [
+            2014,
+            -15.1
+          ],
+          [
+            2015,
+            -30.4
+          ],
+          [
+            2016,
+            -23.0
+          ],
+          [
+            2017,
+            -25.3
+          ],
+          [
+            2018,
+            -24.1
+          ],
+          [
+            2019,
+            -23.9
+          ],
+          [
+            2020,
+            -24.6
+          ],
+          [
+            2021,
+            -28.0
+          ],
+          [
+            2022,
+            -45.1
+          ],
+          [
+            2023,
+            -43.2
+          ],
+          [
+            2024,
+            -43.9
+          ],
+          [
+            2025,
+            -46.3
+          ],
+          [
+            2026,
+            -50.4
+          ]
+        ],
+        "suffix": "%",
+        "end": "-50.4%",
+        "color": "down"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter 6: Your wallet.",
+      "say": "Chapter six: your wallet.",
+      "scene": {
+        "t": "chapter",
+        "n": 6,
+        "title": "Your wallet"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So why should an American care about a burger in Tokyo? Because exchange rates show up in prices you pay.",
+      "say": "So why would an American care about a burger in Tokyo? Because exchange rates show up in prices you pay.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "us",
+            "mood": "happy",
+            "says": "What about me?"
+          }
+        ],
+        "caption": "From burger to wallet"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Exchange rates reach Americans in three main ways.",
+      "say": "Exchange rates reach Americans in three main ways.",
+      "scene": {
+        "t": "list",
+        "title": "Where it hits",
+        "items": [
+          "Travel costs",
+          "Import prices",
+          "Export demand"
+        ],
+        "reveal": 1
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Travel first. At the July 2026 survey, one dollar bought about 162 yen, so dollars stretched a long way in Japan.",
+      "say": "Travel first. At the July twenty twenty-six survey, one dollar bought about a hundred sixty-two yen, so dollars stretched a long way in Japan.",
+      "scene": {
+        "t": "stat",
+        "label": "Yen per $1",
+        "value": "162.135",
+        "tone": "up",
+        "sub": "July 2026 survey"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "An American visitor paying 500 yen for a Big Mac spent about $3.08, roughly half the US price.",
+      "say": "An American visitor paying five hundred yen for a Big Mac spent about three dollars and eight cents, roughly half the US price.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "us",
+            "mood": "happy",
+            "says": "Half-price lunch"
+          },
+          {
+            "name": "japan",
+            "mood": "happy",
+            "says": "Welcome!"
+          }
+        ],
+        "caption": "Japan: $3.08 Big Mac"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Flip it around for Switzerland: that same lunch ran $9.04. Same tourist, very different trip budget.",
+      "say": "Flip it around for Switzerland, where that same lunch ran nine dollars and four cents. Same tourist, very different trip budget.",
+      "scene": {
+        "t": "compare",
+        "title": "Lunch for a US tourist",
+        "left": {
+          "label": "Japan",
+          "value": "$3.08",
+          "tone": "up",
+          "sub": "July 2026"
+        },
+        "right": {
+          "label": "Switzerland",
+          "value": "$9.04",
+          "tone": "down",
+          "sub": "July 2026"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Second, imports. When the dollar is strong, foreign goods, from cars to electronics, tend to cost Americans less in dollars.",
+      "say": "Second, imports. When the dollar is strong, foreign goods, from cars to electronics, tend to cost Americans less in dollars.",
+      "scene": {
+        "t": "list",
+        "title": "Where it hits",
+        "items": [
+          "Travel costs",
+          "Import prices",
+          "Export demand"
+        ],
+        "reveal": 2
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "When the dollar weakens, those same imports tend to get pricier on American shelves.",
+      "say": "When the dollar weakens, those same imports tend to get pricier on American shelves.",
+      "scene": {
+        "t": "building",
+        "kind": "customs",
+        "name": "US CUSTOMS",
+        "label": "Imports",
+        "caption": "Dollar strength sets the bill"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Third, exports. A strong dollar makes American products more expensive for buyers abroad.",
+      "say": "Third, exports. A strong dollar makes American products more expensive for buyers abroad.",
+      "scene": {
+        "t": "list",
+        "title": "Where it hits",
+        "items": [
+          "Travel costs",
+          "Import prices",
+          "Export demand"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A strong dollar helps shoppers and travelers, and it squeezes exporters. A weak dollar flips both.",
+      "say": "A strong dollar helps shoppers and travelers, and it squeezes exporters. A weak dollar flips both.",
+      "scene": {
+        "t": "split",
+        "title": "Strong dollar",
+        "left": {
+          "title": "Helps",
+          "items": [
+            "Travelers",
+            "Import buyers"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Hurts",
+          "items": [
+            "US exporters",
+            "US tourism"
+          ],
+          "tone": "down"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The Big Mac index won't tell you where any currency is headed. But it's a quick gut check on what your dollar buys abroad.",
+      "say": "The Big Mac index won't tell you where any currency is headed. But it's a quick gut check on what your dollar buys abroad.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Not a forecast.",
+          "A gut check."
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter 7: The recap.",
+      "say": "Chapter seven: the recap.",
+      "scene": {
+        "t": "chapter",
+        "n": 7,
+        "title": "The recap"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "PPP says identical things should cost the same everywhere in the long run. The Big Mac index tests that with one burger.",
+      "say": "P P P says identical things should cost the same everywhere in the long run. The Big Mac index tests that with one burger.",
+      "scene": {
+        "t": "list",
+        "title": "Recap",
+        "items": [
+          "PPP in a bun",
+          "Two divisions",
+          "Adjust for GDP",
+          "Not a forecast"
+        ],
+        "reveal": 1
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The math is two divisions: local price over US price, then compare with the real exchange rate.",
+      "say": "The math is two divisions: local price over US price, then compare that with the real exchange rate.",
+      "scene": {
+        "t": "list",
+        "title": "Recap",
+        "items": [
+          "PPP in a bun",
+          "Two divisions",
+          "Adjust for GDP",
+          "Not a forecast"
+        ],
+        "reveal": 2,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In the July 2026 edition, the Swiss franc is 45.4% overvalued, and the yen is 50.4% undervalued.",
+      "say": "In the July twenty twenty-six edition, the Swiss franc is forty-five point four percent overvalued, and the yen is fifty point four percent undervalued.",
+      "scene": {
+        "t": "compare",
+        "title": "July 2026 extremes",
+        "left": {
+          "label": "Swiss franc",
+          "value": "+45.4%",
+          "tone": "up",
+          "sub": "Most overvalued"
+        },
+        "right": {
+          "label": "Japanese yen",
+          "value": "-50.4%",
+          "tone": "down",
+          "sub": "Raw vs dollar"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The GDP-adjusted version accounts for the fact that burgers are cheaper where wages are lower.",
+      "say": "The GDP-adjusted version accounts for the fact that burgers are cheaper where wages are lower.",
+      "scene": {
+        "t": "list",
+        "title": "Recap",
+        "items": [
+          "PPP in a bun",
+          "Two divisions",
+          "Adjust for GDP",
+          "Not a forecast"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And it's a lighthearted guide, not a forecast. Rent, wages and taxes never fit inside a burger box.",
+      "say": "And it's a lighthearted guide, not a forecast. Rent, wages, and taxes never fit inside a burger box.",
+      "scene": {
+        "t": "list",
+        "title": "Recap",
+        "items": [
+          "PPP in a bun",
+          "Two divisions",
+          "Adjust for GDP",
+          "Not a forecast"
+        ],
+        "reveal": 4,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The next edition is expected in early 2027. Now you can do the math yourself in about ten seconds.",
+      "say": "The next edition is expected in early twenty twenty-seven. Now you can do the math yourself, in about ten seconds.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "us",
+            "mood": "happy",
+            "says": "See you in 2027"
+          },
+          {
+            "name": "japan",
+            "mood": "happy",
+            "says": "Bring a napkin"
+          },
+          {
+            "name": "uk",
+            "mood": "happy",
+            "says": "Cheers!"
+          }
+        ],
+        "caption": "Next edition: early 2027"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Subscribe to FinancePros TV for more World Money.",
+      "say": "Subscribe to FinancePros TV for more World Money.",
+      "scene": {
+        "t": "cta",
+        "tagline": "World Money, one story at a time"
+      }
     }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Same bun, same sauce, same two patties. Nearly three times the price.",
-   "say": "Same bun, same sauce, same two patties. Nearly three times the price.",
-   "scene": {
-    "t": "compare",
-    "title": "One burger, July 2026",
-    "left": {
-     "label": "Switzerland",
-     "value": "$9.04",
-     "tone": "down",
-     "sub": "CHF 7.30"
-    },
-    "right": {
-     "label": "Japan",
-     "value": "$3.08",
-     "tone": "up",
-     "sub": "500 yen"
-    },
-    "winner": "right",
-    "keep": true,
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Those prices come from The Economist's Big Mac index, July 2026 edition, the latest one out.",
-   "say": "Those prices come from The Economist's Big Mac index, the July twenty twenty-six edition, which is the latest one out.",
-   "scene": {
-    "t": "news",
-    "headline": "Big Mac index update",
-    "source": "The Economist, July 2026"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And that gap isn't really about burgers. It's about money: what a franc, a yen, or a dollar is actually worth.",
-   "say": "And that gap isn't really about burgers. It's about money: what a franc, a yen, or a dollar is actually worth.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "japan",
-      "mood": "worried",
-      "says": "Am I cheap?"
-     },
-     {
-      "name": "us",
-      "mood": "happy",
-      "says": "Lunch is on me"
-     }
-    ],
-    "caption": "A burger as a currency test"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Here's the plan: the idea, the math, the latest numbers, and what it means for your wallet.",
-   "say": "Here's the plan: the idea, the math, the latest numbers, and what it means for your wallet.",
-   "scene": {
-    "t": "list",
-    "title": "The plan",
-    "items": [
-     "The idea",
-     "The math",
-     "The menu",
-     "Your wallet"
-    ],
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Quick note: this is news and education, not financial advice.",
-   "say": "Quick note: this is news and education, not financial advice.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "News + education,",
-     "not advice"
+  ],
+  "post": {
+    "title": "A Big Mac is $9.04 in Switzerland and $3.08 in Japan. Here's what that says about money.",
+    "ig": "A Big Mac costs $9.04 in Switzerland and $3.08 in Japan. The Big Mac index explains why.",
+    "tiktok": "A Big Mac costs $9.04 in Switzerland and $3.08 in Japan. What a burger reveals about currencies.",
+    "yt_desc": "In The Economist's July 2026 Big Mac index, a Big Mac costs $9.04 in Switzerland, $6.22 in the US and $3.08 in Japan. This video explains purchasing power parity in plain words, the index's history since 1986, and the exact two-step math that makes the Swiss franc look 45.4% overvalued and the yen 50.4% undervalued. We cover the euro area, Britain, Mexico, China and India, the GDP-adjusted version, where the burger test breaks (rent, wages, taxes), and how exchange rates reach an American's wallet through travel, imports and exports. The next edition is expected in early 2027.\n\nCHAPTERS\n\nSources: The Economist, Big Mac index July 2026 edition and methodology (big-mac-data GitHub repository, accessed October 2026); The Economist, Big Mac index page; Wikipedia, Big Mac Index (history); O'Brien and Ruiz de Vargas, University of Connecticut (GDP-adjusted index).\n\nNews and education, not financial advice.\n\n#BigMacIndex #currency #economics",
+    "tags": [
+      "Big Mac index",
+      "purchasing power parity",
+      "exchange rates",
+      "The Economist",
+      "dollar",
+      "yen",
+      "Swiss franc",
+      "economics"
     ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter 1: The burger standard.",
-   "say": "Chapter one: the burger standard.",
-   "scene": {
-    "t": "chapter",
-    "n": 1,
-    "title": "The burger standard"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Start with a simple question. If one thing is identical everywhere, shouldn't it cost about the same everywhere?",
-   "say": "Start with a simple question. If one thing is identical everywhere, shouldn't it cost about the same everywhere?",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Same thing,",
-     "same price?"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Economists have a name for that idea: purchasing power parity, or PPP.",
-   "say": "Economists have a name for that idea: purchasing power parity, or P P P.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Purchasing",
-     "Power Parity",
-     "(PPP)"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "PPP says that over the long run, exchange rates should drift toward the rate that makes the same basket of goods cost the same in every country.",
-   "say": "P P P says that over the long run, exchange rates should drift toward the rate that makes the same basket of goods cost the same in every country.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Long run:",
-     "same basket,",
-     "same price"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Here's the logic. If gold were cheap in Mexico and pricey in America, traders would buy it in Mexico and sell it here.",
-   "say": "Here's the logic. If gold were cheap in Mexico and pricey in America, traders would buy it in Mexico and sell it here.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "mexico",
-      "mood": "happy",
-      "says": "Cheap over here"
-     },
-     {
-      "name": "us",
-      "mood": "worried",
-      "says": "Pricey over here"
-     }
-    ],
-    "caption": "Buy low, sell high"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "All that buying pushes up demand for pesos, and the price gap slowly closes.",
-   "say": "All that buying pushes up demand for pesos, and the price gap slowly closes.",
-   "scene": {
-    "t": "split",
-    "title": "How gaps close",
-    "left": {
-     "title": "Cheap country",
-     "items": [
-      "Buyers rush in",
-      "Currency rises"
-     ],
-     "tone": "up"
-    },
-    "right": {
-     "title": "Pricey country",
-     "items": [
-      "Buyers leave",
-      "Prices ease"
-     ],
-     "tone": "down"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Real PPP research uses huge baskets with thousands of prices. That's slow, expensive, and honestly a little dull.",
-   "say": "Real P P P research uses huge baskets with thousands of prices. That's slow, expensive, and honestly a little dull.",
-   "scene": {
-    "t": "stat",
-    "label": "Real PPP baskets",
-    "value": "1,000s",
-    "tone": "neutral",
-    "sub": "of prices",
-    "mood": "sad"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So The Economist picked a basket of one: a Big Mac, sold in dozens of countries with basically the same recipe.",
-   "say": "So The Economist picked a basket of one: a Big Mac, sold in dozens of countries with basically the same recipe.",
-   "scene": {
-    "t": "hook",
-    "title": "A basket of [one]",
-    "prop": "box",
-    "label": "BIG",
-    "value": "x1"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The July 2026 edition covers 54 places, counting the US and treating the whole euro area as one.",
-   "say": "The July twenty twenty-six edition covers fifty-four places, counting the US and treating the whole euro area as one.",
-   "scene": {
-    "t": "stat",
-    "label": "Places covered",
-    "value": "54",
-    "tone": "neutral",
-    "sub": "July 2026 edition"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter 2: A joke that stuck.",
-   "say": "Chapter two: a joke that stuck.",
-   "scene": {
-    "t": "chapter",
-    "n": 2,
-    "title": "A joke that stuck"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The Economist first ran the Big Mac index in September 1986. Economics writer Pam Woodall came up with it.",
-   "say": "The Economist first ran the Big Mac index in September nineteen eighty-six. Economics writer Pam Woodall came up with it.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     {
-      "when": "1986",
-      "what": "Index launched"
-     },
-     {
-      "when": "2011",
-      "what": "GDP-adjusted added"
-     },
-     {
-      "when": "2022",
-      "what": "Method update"
-     },
-     {
-      "when": "2026",
-      "what": "July edition"
-     }
-    ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The magazine itself calls it a lighthearted guide to whether currencies are at their correct level.",
-   "say": "The magazine itself calls it a lighthearted guide to whether currencies are at their correct level.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "A lighthearted",
-     "guide to currency",
-     "levels"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It was meant as a fun way to explain a dry theory. Instead it gave the world a new word: burgernomics.",
-   "say": "It was meant as a fun way to explain a dry theory. Instead, it gave the world a new word: burgernomics.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Burgernomics"
-    ],
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Decades later, it shows up in economics textbooks and gets covered around the world every time it updates.",
-   "say": "Decades later, it shows up in economics textbooks, and it gets covered around the world every time it updates.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "uk",
-      "mood": "happy",
-      "says": "Where am I?"
-     },
-     {
-      "name": "china",
-      "mood": "worried",
-      "says": "Check my yuan"
-     },
-     {
-      "name": "canada",
-      "mood": "happy",
-      "says": "Me too!"
-     }
-    ],
-    "caption": "Everyone checks the burger"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In 2011, The Economist added a second version that adjusts for how rich each country is. We'll get to why soon.",
-   "say": "In twenty eleven, The Economist added a second version that adjusts for how rich each country is. We'll get to why soon.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     {
-      "when": "1986",
-      "what": "Index launched"
-     },
-     {
-      "when": "2011",
-      "what": "GDP-adjusted added"
-     },
-     {
-      "when": "2022",
-      "what": "Method update"
-     },
-     {
-      "when": "2026",
-      "what": "July edition"
-     }
-    ],
-    "reveal": 2
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In July 2022, it tweaked the method. The US price now comes straight from McDonald's instead of an average of four cities.",
-   "say": "In July twenty twenty-two, it tweaked the method. The US price now comes straight from McDonald's, instead of an average of four cities.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     {
-      "when": "1986",
-      "what": "Index launched"
-     },
-     {
-      "when": "2011",
-      "what": "GDP-adjusted added"
-     },
-     {
-      "when": "2022",
-      "what": "Method update"
-     },
-     {
-      "when": "2026",
-      "what": "July edition"
-     }
-    ],
-    "reveal": 3,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It now updates twice a year, around January and July. The July 2026 edition is the newest, and the next is expected in early 2027.",
-   "say": "It now updates twice a year, around January and July. The July twenty twenty-six edition is the newest, and the next one is expected in early twenty twenty-seven.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     {
-      "when": "1986",
-      "what": "Index launched"
-     },
-     {
-      "when": "2011",
-      "what": "GDP-adjusted added"
-     },
-     {
-      "when": "2022",
-      "what": "Method update"
-     },
-     {
-      "when": "2026",
-      "what": "July edition"
-     }
-    ],
-    "reveal": 4,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "By the way, the American burger itself has gotten pricier. In the April 2000 edition, a US Big Mac cost $2.24.",
-   "say": "By the way, the American burger itself has gotten pricier. In the April two thousand edition, a US Big Mac cost two dollars and twenty-four cents.",
-   "scene": {
-    "t": "chart",
-    "title": "US Big Mac price",
-    "points": [
-     [
-      2000,
-      2.24
-     ],
-     [
-      2002,
-      2.35
-     ],
-     [
-      2004,
-      2.47
-     ],
-     [
-      2006,
-      2.78
-     ],
-     [
-      2008,
-      3.21
-     ],
-     [
-      2010,
-      3.53
-     ],
-     [
-      2012,
-      3.96
-     ],
-     [
-      2014,
-      4.29
-     ],
-     [
-      2016,
-      4.5
-     ],
-     [
-      2018,
-      4.62
-     ],
-     [
-      2020,
-      4.82
-     ],
-     [
-      2022,
-      5.15
-     ],
-     [
-      2024,
-      5.69
-     ],
-     [
-      2026,
-      6.22
-     ]
-    ],
-    "prefix": "$",
-    "end": "$6.22",
-    "color": "up"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "By July 2026, it was $6.22. That's inflation in dollars, which is a separate story from what the dollar is worth abroad.",
-   "say": "By July twenty twenty-six, it was six dollars and twenty-two cents. That's inflation in dollars, which is a separate story from what the dollar is worth abroad.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "US, April 2000",
-     "value": "$2.24"
-    },
-    "to": {
-     "label": "US, July 2026",
-     "value": "$6.22"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter 3: Doing the math.",
-   "say": "Chapter three: doing the math.",
-   "scene": {
-    "t": "chapter",
-    "n": 3,
-    "title": "Doing the math"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The whole index is two divisions. Grab a napkin.",
-   "say": "The whole index is just two divisions. Grab a napkin.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Two steps.",
-     "One napkin."
-    ],
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Step one: divide the local price by the US price. That gives you the implied exchange rate, the rate PPP says should exist.",
-   "say": "Step one: divide the local price by the US price. That gives you the implied exchange rate, the rate P P P says should exist.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Local price",
-     "/ US price",
-     "= implied rate"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Step two: compare the implied rate with the real one. The gap is how over or undervalued the currency looks.",
-   "say": "Step two: compare the implied rate with the real one. The gap is how over or undervalued the currency looks.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Implied rate",
-     "/ actual rate",
-     "- 1 = gap"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Let's try Japan. In the July 2026 edition, a Big Mac in Japan costs 500 yen.",
-   "say": "Let's try Japan. In the July twenty twenty-six edition, a Big Mac in Japan costs five hundred yen.",
-   "scene": {
-    "t": "stat",
-    "label": "Big Mac in Japan",
-    "value": "500 yen",
-    "tone": "neutral",
-    "sub": "July 2026 edition"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "500 yen divided by $6.22 gives 80.39. So by burger logic, one dollar should buy about 80 yen.",
-   "say": "Five hundred yen divided by six dollars and twenty-two cents gives eighty point three nine. So by burger logic, one dollar should buy about eighty yen.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "500 / 6.22",
-     "= 80.39 yen",
-     "per dollar"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "But at the time of the survey, one dollar actually bought 162.135 yen. About twice as many.",
-   "say": "But at the time of the survey, one dollar actually bought one hundred sixty-two point one three five yen. That's about twice as many.",
-   "scene": {
-    "t": "compare",
-    "title": "Yen per $1, July 2026",
-    "left": {
-     "label": "Burger rate",
-     "value": "80.39",
-     "tone": "neutral",
-     "sub": "500 / $6.22"
-    },
-    "right": {
-     "label": "Actual rate",
-     "value": "162.135",
-     "tone": "down",
-     "sub": "Market, July 2026"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Now step two: 80.39 divided by 162.135, minus one, equals minus 50.4%.",
-   "say": "Now step two: eighty point three nine, divided by one hundred sixty-two point one three five, minus one, equals minus fifty point four percent.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "80.39 / 162.135",
-     "- 1 = -50.4%"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So by the burger test, the yen is undervalued against the dollar by about half.",
-   "say": "So by the burger test, the yen is undervalued against the dollar by about half.",
-   "scene": {
-    "t": "stat",
-    "label": "Yen vs dollar",
-    "value": "-50.4%",
-    "tone": "down",
-    "sub": "Raw, July 2026",
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "There's a shortcut that gives the same answer. Convert 500 yen to dollars: that's $3.08. Then compare it with $6.22.",
-   "say": "There's a shortcut that gives the same answer. Convert five hundred yen to dollars, and you get three dollars and eight cents. Then compare it with six dollars and twenty-two cents.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "Japan Big Mac",
-     "value": "500 yen"
-    },
-    "to": {
-     "label": "In dollars",
-     "value": "$3.08"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "$3.08 is about half of $6.22. Same conclusion, fewer decimals.",
-   "say": "Three dollars and eight cents is about half of six dollars and twenty-two cents. Same conclusion, fewer decimals.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "japan",
-      "mood": "sad",
-      "says": "Half price?"
-     },
-     {
-      "name": "us",
-      "mood": "happy",
-      "says": "Bargain!"
-     }
-    ],
-    "caption": "Yen: -50.4% (July 2026)"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Now Switzerland. A Big Mac there costs 7.30 Swiss francs.",
-   "say": "Now Switzerland. A Big Mac there costs seven francs and thirty centimes.",
-   "scene": {
-    "t": "stat",
-    "label": "Big Mac, Swiss",
-    "value": "CHF 7.30",
-    "tone": "neutral",
-    "sub": "July 2026 edition"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "7.30 divided by 6.22 is about 1.17 francs per dollar. But the real rate was only about 0.81 francs.",
-   "say": "Seven point three divided by six point two two is about one point one seven francs per dollar. But the real rate was only about zero point eight one francs.",
-   "scene": {
-    "t": "compare",
-    "title": "Francs per $1",
-    "left": {
-     "label": "Burger rate",
-     "value": "1.17",
-     "tone": "neutral",
-     "sub": "7.30 / $6.22"
-    },
-    "right": {
-     "label": "Actual rate",
-     "value": "0.81",
-     "tone": "up",
-     "sub": "Market, July 2026"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Run the math and the franc comes out 45.4% overvalued. That's the most expensive burger in the whole index.",
-   "say": "Run the math, and the franc comes out forty-five point four percent overvalued. That's the most expensive burger in the whole index.",
-   "scene": {
-    "t": "stat",
-    "label": "Franc vs dollar",
-    "value": "+45.4%",
-    "tone": "up",
-    "sub": "Raw, July 2026",
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In dollars, that Swiss Big Mac costs $9.04. That's the number from the very start of this video.",
-   "say": "In dollars, that Swiss Big Mac costs nine dollars and four cents. That's the number from the very start of this video.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "Swiss Big Mac",
-     "value": "CHF 7.30"
-    },
-    "to": {
-     "label": "In dollars",
-     "value": "$9.04"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter 4: The July 2026 menu.",
-   "say": "Chapter four: the July twenty twenty-six menu.",
-   "scene": {
-    "t": "chapter",
-    "n": 4,
-    "title": "The July 2026 menu"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "A positive number means a Big Mac costs more in dollars than in America. A negative one means it costs less.",
-   "say": "A positive number means a Big Mac costs more in dollars than it does in America. A negative one means it costs less.",
-   "scene": {
-    "t": "split",
-    "title": "Reading the index",
-    "left": {
-     "title": "Plus (+)",
-     "items": [
-      "Pricier than US",
-      "Overvalued"
-     ],
-     "tone": "up"
-    },
-    "right": {
-     "title": "Minus (-)",
-     "items": [
-      "Cheaper than US",
-      "Undervalued"
-     ],
-     "tone": "down"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "On the pricey side: Switzerland, Britain, the euro area, and right around even, Mexico.",
-   "say": "On the pricey side, there's Switzerland, Britain, the euro area, and right around even, Mexico.",
-   "scene": {
-    "t": "list",
-    "title": "Pricier, July 2026",
-    "items": [
-     "Switzerland",
-     "Britain",
-     "Euro area",
-     "Mexico"
-    ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In Britain, a Big Mac costs 5.49 pounds, which works out to $7.40. The pound looks 19% overvalued.",
-   "say": "In Britain, a Big Mac costs five pounds and forty-nine pence, which works out to seven dollars and forty cents. The pound looks nineteen percent overvalued.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "uk",
-      "mood": "happy",
-      "says": "Strong pound"
-     }
-    ],
-    "caption": "UK: $7.40, +19.0%"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That 19% puts Britain on the board.",
-   "say": "That nineteen percent puts Britain on the board.",
-   "scene": {
-    "t": "list",
-    "title": "Pricier, July 2026",
-    "items": [
-     "Switzerland",
-     "Britain",
-     "Euro area",
-     "Mexico"
-    ],
-    "reveal": 2
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In the euro area, the average Big Mac costs 6.19 euros, or $7.08. That's 13.8% above the US price.",
-   "say": "In the euro area, the average Big Mac costs six euros and nineteen cents, or seven dollars and eight cents. That's thirteen point eight percent above the US price.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "germany",
-      "mood": "happy",
-      "says": "Euro area here"
-     }
-    ],
-    "caption": "Euro area: $7.08, +13.8%"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The euro joins the pricey list.",
-   "say": "So the euro joins the pricey list.",
-   "scene": {
-    "t": "list",
-    "title": "Pricier, July 2026",
-    "items": [
-     "Switzerland",
-     "Britain",
-     "Euro area",
-     "Mexico"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Mexico is the surprise. At 109 pesos, its Big Mac costs $6.27, almost dead even with the US price.",
-   "say": "Mexico is the surprise. At one hundred nine pesos, its Big Mac costs six dollars and twenty-seven cents, almost dead even with the US price.",
-   "scene": {
-    "t": "compare",
-    "title": "Big Mac, July 2026",
-    "left": {
-     "label": "Mexico",
-     "value": "$6.27",
-     "tone": "neutral",
-     "sub": "109 pesos"
-    },
-    "right": {
-     "label": "United States",
-     "value": "$6.22",
-     "tone": "neutral",
-     "sub": "McDonald's price"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That makes the peso just 0.8% overvalued by the raw burger test.",
-   "say": "That makes the peso just zero point eight percent overvalued by the raw burger test.",
-   "scene": {
-    "t": "list",
-    "title": "Pricier, July 2026",
-    "items": [
-     "Switzerland",
-     "Britain",
-     "Euro area",
-     "Mexico"
-    ],
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Now the cheap side of the menu: China, Japan, India, and Indonesia.",
-   "say": "Now for the cheap side of the menu: China, Japan, India, and Indonesia.",
-   "scene": {
-    "t": "list",
-    "title": "Cheaper, July 2026",
-    "items": [
-     "China",
-     "Japan",
-     "India",
-     "Indonesia"
-    ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In China, a Big Mac costs 26.50 yuan, about $3.91. That makes the yuan look 37.1% undervalued.",
-   "say": "In China, a Big Mac costs twenty-six yuan and fifty fen, about three dollars and ninety-one cents. That makes the yuan look thirty-seven point one percent undervalued.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "china",
-      "mood": "worried",
-      "says": "Only $3.91"
-     }
-    ],
-    "caption": "China: -37.1%"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Japan we already did: minus 50.4%.",
-   "say": "Japan we already did: minus fifty point four percent.",
-   "scene": {
-    "t": "list",
-    "title": "Cheaper, July 2026",
-    "items": [
-     "China",
-     "Japan",
-     "India",
-     "Indonesia"
-    ],
-    "reveal": 2
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In India, McDonald's doesn't sell beef, so the index uses the chicken Maharaja Mac. It costs 236.25 rupees, about $2.45.",
-   "say": "In India, McDonald's doesn't sell beef, so the index uses the chicken Maharaja Mac. It costs two hundred thirty-six rupees and twenty-five paise, about two dollars and forty-five cents.",
-   "scene": {
-    "t": "stat",
-    "label": "India, in dollars",
-    "value": "$2.45",
-    "tone": "down",
-    "sub": "Rs 236.25"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That puts the rupee at minus 60.5%.",
-   "say": "That puts the rupee at minus sixty point five percent.",
-   "scene": {
-    "t": "list",
-    "title": "Cheaper, July 2026",
-    "items": [
-     "China",
-     "Japan",
-     "India",
-     "Indonesia"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And the cheapest burger in the July 2026 edition? Indonesia, at about $2.38, or minus 61.7%.",
-   "say": "And the cheapest burger in the July twenty twenty-six edition? Indonesia, at about two dollars and thirty-eight cents, or minus sixty-one point seven percent.",
-   "scene": {
-    "t": "list",
-    "title": "Cheaper, July 2026",
-    "items": [
-     "China",
-     "Japan",
-     "India",
-     "Indonesia"
-    ],
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The yen is a good example of how these numbers move over time. In the July 2011 edition, it actually looked 12.2% overvalued.",
-   "say": "The yen is a good example of how these numbers move over time. In the July twenty eleven edition, it actually looked twelve point two percent overvalued.",
-   "scene": {
-    "t": "chart",
-    "title": "Yen vs $, raw index",
-    "points": [
-     [
-      2010,
-      4.0
-     ],
-     [
-      2011,
-      12.2
-     ],
-     [
-      2012,
-      3.3
-     ],
-     [
-      2013,
-      -23.5
-     ],
-     [
-      2014,
-      -15.1
-     ],
-     [
-      2015,
-      -30.4
-     ],
-     [
-      2016,
-      -23.0
-     ],
-     [
-      2017,
-      -25.3
-     ],
-     [
-      2018,
-      -24.1
-     ],
-     [
-      2019,
-      -23.9
-     ],
-     [
-      2020,
-      -24.6
-     ],
-     [
-      2021,
-      -28.0
-     ],
-     [
-      2022,
-      -45.1
-     ],
-     [
-      2023,
-      -43.2
-     ],
-     [
-      2024,
-      -43.9
-     ],
-     [
-      2025,
-      -46.3
-     ],
-     [
-      2026,
-      -50.4
-     ]
-    ],
-    "suffix": "%",
-    "end": "-50.4%",
-    "color": "down"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "By July 2022, it was minus 45.1%, and by July 2026, minus 50.4%. The yen has looked undervalued in every July edition since 2013.",
-   "say": "By July twenty twenty-two, it was minus forty-five point one percent, and by July twenty twenty-six, minus fifty point four. The yen has looked undervalued in every July edition since twenty thirteen.",
-   "scene": {
-    "t": "chart",
-    "title": "Yen vs $, raw index",
-    "points": [
-     [
-      2010,
-      4.0
-     ],
-     [
-      2011,
-      12.2
-     ],
-     [
-      2012,
-      3.3
-     ],
-     [
-      2013,
-      -23.5
-     ],
-     [
-      2014,
-      -15.1
-     ],
-     [
-      2015,
-      -30.4
-     ],
-     [
-      2016,
-      -23.0
-     ],
-     [
-      2017,
-      -25.3
-     ],
-     [
-      2018,
-      -24.1
-     ],
-     [
-      2019,
-      -23.9
-     ],
-     [
-      2020,
-      -24.6
-     ],
-     [
-      2021,
-      -28.0
-     ],
-     [
-      2022,
-      -45.1
-     ],
-     [
-      2023,
-      -43.2
-     ],
-     [
-      2024,
-      -43.9
-     ],
-     [
-      2025,
-      -46.3
-     ],
-     [
-      2026,
-      -50.4
-     ]
-    ],
-    "suffix": "%",
-    "end": "-50.4%",
-    "color": "down",
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Japan's burger did get pricier, from 370 yen in July 2016 to 500 yen in July 2026. But the dollar went from 106.725 yen to 162.135.",
-   "say": "Japan's burger did get pricier, from three hundred seventy yen in July twenty sixteen to five hundred yen in July twenty twenty-six. But the dollar went from buying one hundred six point seven two five yen to one hundred sixty-two point one three five.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "Japan, July 2016",
-     "value": "370 yen"
-    },
-    "to": {
-     "label": "Japan, July 2026",
-     "value": "500 yen"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter 5: Where the burger breaks.",
-   "say": "Chapter five: where the burger breaks.",
-   "scene": {
-    "t": "chapter",
-    "n": 5,
-    "title": "Where the burger breaks"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So is the yen really worth twice what the market says? Not so fast.",
-   "say": "So is the yen really worth twice what the market says? Not so fast.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Is the yen really",
-     "worth 2x?"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The big flaw: you can't ship a Big Mac across an ocean. Most of its price is local stuff that never crosses a border.",
-   "say": "The big flaw is that you can't ship a Big Mac across an ocean. Most of its price is local stuff that never crosses a border.",
-   "scene": {
-    "t": "building",
-    "kind": "store",
-    "name": "BURGER SHOP",
-    "label": "Local costs",
-    "caption": "Can't export a lunch"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "First, rent. A restaurant in Zurich pays very different rent than one in Jakarta.",
-   "say": "First, rent. A restaurant in Zurich pays very different rent than one in Jakarta.",
-   "scene": {
-    "t": "list",
-    "title": "Not in the box",
-    "items": [
-     "Rent",
-     "Local wages",
-     "Taxes",
-     "Competition"
-    ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Second, wages. The person flipping the patty is paid in local money, at local pay rates.",
-   "say": "Second, wages. The person flipping the patty is paid in local money, at local pay rates.",
-   "scene": {
-    "t": "list",
-    "title": "Not in the box",
-    "items": [
-     "Rent",
-     "Local wages",
-     "Taxes",
-     "Competition"
-    ],
-    "reveal": 2,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Third, taxes. Sales taxes and value-added taxes vary a lot from country to country.",
-   "say": "Third, taxes. Sales taxes and value-added taxes vary a lot from country to country.",
-   "scene": {
-    "t": "list",
-    "title": "Not in the box",
-    "items": [
-     "Rent",
-     "Local wages",
-     "Taxes",
-     "Competition"
-    ],
-    "reveal": 3,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And fourth, competition. In some countries a Big Mac is cheap fast food; in others it's a pricier treat.",
-   "say": "And fourth, competition. In some countries, a Big Mac is cheap fast food. In others, it's a pricier treat.",
-   "scene": {
-    "t": "list",
-    "title": "Not in the box",
-    "items": [
-     "Rent",
-     "Local wages",
-     "Taxes",
-     "Competition"
-    ],
-    "reveal": 4,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "There's a deeper pattern too. Richer countries have higher wages, so anything involving local labor tends to cost more there.",
-   "say": "There's a deeper pattern, too. Richer countries have higher wages, so anything involving local labor tends to cost more there.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "uk",
-      "mood": "happy",
-      "says": "Higher wages"
-     },
-     {
-      "name": "mexico",
-      "mood": "worried",
-      "says": "Lower wages"
-     }
-    ],
-    "caption": "Rich vs poorer: price gap"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That means poorer countries will almost always look undervalued on the raw index, even when nothing is wrong with their currency.",
-   "say": "That means poorer countries will almost always look undervalued on the raw index, even when nothing is wrong with their currency.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Poorer country",
-     "= cheaper burger",
-     "(often)"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's why the 2011 version exists. It compares each country's burger price with the price expected for its income per person.",
-   "say": "That's why the twenty eleven version exists. It compares each country's burger price with the price you'd expect for its income per person.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "GDP-adjusted:",
-     "price vs income",
-     "per person"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It uses a line of best fit between Big Mac prices and GDP per person. The gap from that line is the adjusted reading.",
-   "say": "It uses a line of best fit between Big Mac prices and G D P per person. The gap from that line is the adjusted reading.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Line of best fit:",
-     "Big Mac price vs",
-     "GDP per person"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Adjust for income and the picture shifts. India goes from minus 60.5% to minus 49.5%.",
-   "say": "Adjust for income, and the picture shifts. India goes from minus sixty point five percent to minus forty-nine point five.",
-   "scene": {
-    "t": "compare",
-    "title": "India rupee, July 2026",
-    "left": {
-     "label": "Raw",
-     "value": "-60.5%",
-     "tone": "down",
-     "sub": "Burger price only"
-    },
-    "right": {
-     "label": "GDP-adjusted",
-     "value": "-49.5%",
-     "tone": "down",
-     "sub": "Income-adjusted"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "China moves from minus 37.1% to minus 23.8%.",
-   "say": "China moves from minus thirty-seven point one percent to minus twenty-three point eight.",
-   "scene": {
-    "t": "compare",
-    "title": "China yuan, July 2026",
-    "left": {
-     "label": "Raw",
-     "value": "-37.1%",
-     "tone": "down",
-     "sub": "Burger price only"
-    },
-    "right": {
-     "label": "GDP-adjusted",
-     "value": "-23.8%",
-     "tone": "down",
-     "sub": "Income-adjusted"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And Mexico flips from roughly even to 25.4% overvalued, because its burger is expensive for a country at its income level.",
-   "say": "And Mexico flips from roughly even to twenty-five point four percent overvalued, because its burger is expensive for a country at its income level.",
-   "scene": {
-    "t": "compare",
-    "title": "Mexico peso, July 2026",
-    "left": {
-     "label": "Raw",
-     "value": "+0.8%",
-     "tone": "neutral",
-     "sub": "Burger price only"
-    },
-    "right": {
-     "label": "GDP-adjusted",
-     "value": "+25.4%",
-     "tone": "up",
-     "sub": "Income-adjusted"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The yen barely budges: minus 47.2% adjusted. Japan is a rich country, so its cheap burger stands out either way.",
-   "say": "The yen barely budges: minus forty-seven point two percent adjusted. Japan is a rich country, so its cheap burger stands out either way.",
-   "scene": {
-    "t": "stat",
-    "label": "Yen, GDP-adjusted",
-    "value": "-47.2%",
-    "tone": "down",
-    "sub": "July 2026 edition"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "One more limit. PPP is a long-run idea. A currency can look cheap or pricey for years, so the index isn't a forecast.",
-   "say": "One more limit. P P P is a long-run idea. A currency can look cheap or pricey for years, so the index isn't a forecast.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Long-run idea,",
-     "not a forecast"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The yen chart we just saw is proof: undervalued in every July edition since 2013.",
-   "say": "The yen chart we just saw is proof: it's looked undervalued in every July edition since twenty thirteen.",
-   "scene": {
-    "t": "chart",
-    "title": "Yen vs $, raw index",
-    "points": [
-     [
-      2010,
-      4.0
-     ],
-     [
-      2011,
-      12.2
-     ],
-     [
-      2012,
-      3.3
-     ],
-     [
-      2013,
-      -23.5
-     ],
-     [
-      2014,
-      -15.1
-     ],
-     [
-      2015,
-      -30.4
-     ],
-     [
-      2016,
-      -23.0
-     ],
-     [
-      2017,
-      -25.3
-     ],
-     [
-      2018,
-      -24.1
-     ],
-     [
-      2019,
-      -23.9
-     ],
-     [
-      2020,
-      -24.6
-     ],
-     [
-      2021,
-      -28.0
-     ],
-     [
-      2022,
-      -45.1
-     ],
-     [
-      2023,
-      -43.2
-     ],
-     [
-      2024,
-      -43.9
-     ],
-     [
-      2025,
-      -46.3
-     ],
-     [
-      2026,
-      -50.4
-     ]
-    ],
-    "suffix": "%",
-    "end": "-50.4%",
-    "color": "down"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter 6: Your wallet.",
-   "say": "Chapter six: your wallet.",
-   "scene": {
-    "t": "chapter",
-    "n": 6,
-    "title": "Your wallet"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So why should an American care about a burger in Tokyo? Because exchange rates show up in prices you pay.",
-   "say": "So why would an American care about a burger in Tokyo? Because exchange rates show up in prices you pay.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "us",
-      "mood": "happy",
-      "says": "What about me?"
-     }
-    ],
-    "caption": "From burger to wallet"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Exchange rates reach Americans in three main ways.",
-   "say": "Exchange rates reach Americans in three main ways.",
-   "scene": {
-    "t": "list",
-    "title": "Where it hits",
-    "items": [
-     "Travel costs",
-     "Import prices",
-     "Export demand"
-    ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Travel first. At the July 2026 survey, one dollar bought about 162 yen, so dollars stretched a long way in Japan.",
-   "say": "Travel first. At the July twenty twenty-six survey, one dollar bought about a hundred sixty-two yen, so dollars stretched a long way in Japan.",
-   "scene": {
-    "t": "stat",
-    "label": "Yen per $1",
-    "value": "162.135",
-    "tone": "up",
-    "sub": "July 2026 survey"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "An American visitor paying 500 yen for a Big Mac spent about $3.08, roughly half the US price.",
-   "say": "An American visitor paying five hundred yen for a Big Mac spent about three dollars and eight cents, roughly half the US price.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "us",
-      "mood": "happy",
-      "says": "Half-price lunch"
-     },
-     {
-      "name": "japan",
-      "mood": "happy",
-      "says": "Welcome!"
-     }
-    ],
-    "caption": "Japan: $3.08 Big Mac"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Flip it around for Switzerland: that same lunch ran $9.04. Same tourist, very different trip budget.",
-   "say": "Flip it around for Switzerland, where that same lunch ran nine dollars and four cents. Same tourist, very different trip budget.",
-   "scene": {
-    "t": "compare",
-    "title": "Lunch for a US tourist",
-    "left": {
-     "label": "Japan",
-     "value": "$3.08",
-     "tone": "up",
-     "sub": "July 2026"
-    },
-    "right": {
-     "label": "Switzerland",
-     "value": "$9.04",
-     "tone": "down",
-     "sub": "July 2026"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Second, imports. When the dollar is strong, foreign goods, from cars to electronics, tend to cost Americans less in dollars.",
-   "say": "Second, imports. When the dollar is strong, foreign goods, from cars to electronics, tend to cost Americans less in dollars.",
-   "scene": {
-    "t": "list",
-    "title": "Where it hits",
-    "items": [
-     "Travel costs",
-     "Import prices",
-     "Export demand"
-    ],
-    "reveal": 2
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "When the dollar weakens, those same imports tend to get pricier on American shelves.",
-   "say": "When the dollar weakens, those same imports tend to get pricier on American shelves.",
-   "scene": {
-    "t": "building",
-    "kind": "customs",
-    "name": "US CUSTOMS",
-    "label": "Imports",
-    "caption": "Dollar strength sets the bill"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Third, exports. A strong dollar makes American products more expensive for buyers abroad.",
-   "say": "Third, exports. A strong dollar makes American products more expensive for buyers abroad.",
-   "scene": {
-    "t": "list",
-    "title": "Where it hits",
-    "items": [
-     "Travel costs",
-     "Import prices",
-     "Export demand"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "A strong dollar helps shoppers and travelers, and it squeezes exporters. A weak dollar flips both.",
-   "say": "A strong dollar helps shoppers and travelers, and it squeezes exporters. A weak dollar flips both.",
-   "scene": {
-    "t": "split",
-    "title": "Strong dollar",
-    "left": {
-     "title": "Helps",
-     "items": [
-      "Travelers",
-      "Import buyers"
-     ],
-     "tone": "up"
-    },
-    "right": {
-     "title": "Hurts",
-     "items": [
-      "US exporters",
-      "Foreign visitors"
-     ],
-     "tone": "down"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The Big Mac index won't tell you where any currency is headed. But it's a quick gut check on what your dollar buys abroad.",
-   "say": "The Big Mac index won't tell you where any currency is headed. But it's a quick gut check on what your dollar buys abroad.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Not a forecast.",
-     "A gut check."
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter 7: The recap.",
-   "say": "Chapter seven: the recap.",
-   "scene": {
-    "t": "chapter",
-    "n": 7,
-    "title": "The recap"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "PPP says identical things should cost the same everywhere in the long run. The Big Mac index tests that with one burger.",
-   "say": "P P P says identical things should cost the same everywhere in the long run. The Big Mac index tests that with one burger.",
-   "scene": {
-    "t": "list",
-    "title": "Recap",
-    "items": [
-     "PPP in a bun",
-     "Two divisions",
-     "Adjust for GDP",
-     "Not a forecast"
-    ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The math is two divisions: local price over US price, then compare with the real exchange rate.",
-   "say": "The math is two divisions: local price over US price, then compare that with the real exchange rate.",
-   "scene": {
-    "t": "list",
-    "title": "Recap",
-    "items": [
-     "PPP in a bun",
-     "Two divisions",
-     "Adjust for GDP",
-     "Not a forecast"
-    ],
-    "reveal": 2,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In the July 2026 edition, the Swiss franc is 45.4% overvalued, and the yen is 50.4% undervalued.",
-   "say": "In the July twenty twenty-six edition, the Swiss franc is forty-five point four percent overvalued, and the yen is fifty point four percent undervalued.",
-   "scene": {
-    "t": "compare",
-    "title": "July 2026 extremes",
-    "left": {
-     "label": "Swiss franc",
-     "value": "+45.4%",
-     "tone": "up",
-     "sub": "Most overvalued"
-    },
-    "right": {
-     "label": "Japanese yen",
-     "value": "-50.4%",
-     "tone": "down",
-     "sub": "Raw vs dollar"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The GDP-adjusted version accounts for the fact that burgers are cheaper where wages are lower.",
-   "say": "The GDP-adjusted version accounts for the fact that burgers are cheaper where wages are lower.",
-   "scene": {
-    "t": "list",
-    "title": "Recap",
-    "items": [
-     "PPP in a bun",
-     "Two divisions",
-     "Adjust for GDP",
-     "Not a forecast"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And it's a lighthearted guide, not a forecast. Rent, wages and taxes never fit inside a burger box.",
-   "say": "And it's a lighthearted guide, not a forecast. Rent, wages, and taxes never fit inside a burger box.",
-   "scene": {
-    "t": "list",
-    "title": "Recap",
-    "items": [
-     "PPP in a bun",
-     "Two divisions",
-     "Adjust for GDP",
-     "Not a forecast"
-    ],
-    "reveal": 4,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The next edition is expected in early 2027. Now you can do the math yourself in about ten seconds.",
-   "say": "The next edition is expected in early twenty twenty-seven. Now you can do the math yourself, in about ten seconds.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "us",
-      "mood": "happy",
-      "says": "See you in 2027"
-     },
-     {
-      "name": "japan",
-      "mood": "happy",
-      "says": "Bring a napkin"
-     },
-     {
-      "name": "uk",
-      "mood": "happy",
-      "says": "Cheers!"
-     }
-    ],
-    "caption": "Next edition: early 2027"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Subscribe to FinancePros TV for more World Money.",
-   "say": "Subscribe to FinancePros TV for more World Money.",
-   "scene": {
-    "t": "cta",
-    "tagline": "World Money, one story at a time"
-   }
   }
- ],
- "post": {
-  "title": "A Big Mac is $9.04 in Switzerland and $3.08 in Japan. Here's what that says about money.",
-  "ig": "A Big Mac costs $9.04 in Switzerland and $3.08 in Japan. The Big Mac index explains why.",
-  "tiktok": "A Big Mac costs $9.04 in Switzerland and $3.08 in Japan. What a burger reveals about currencies.",
-  "yt_desc": "In The Economist's July 2026 Big Mac index, a Big Mac costs $9.04 in Switzerland, $6.22 in the US and $3.08 in Japan. This video explains purchasing power parity in plain words, the index's history since 1986, and the exact two-step math that makes the Swiss franc look 45.4% overvalued and the yen 50.4% undervalued. We cover the euro area, Britain, Mexico, China and India, the GDP-adjusted version, where the burger test breaks (rent, wages, taxes), and how exchange rates reach an American's wallet through travel, imports and exports. The next edition is expected in early 2027.\n\nCHAPTERS\n\nSources: The Economist, Big Mac index July 2026 edition and methodology (big-mac-data GitHub repository, accessed October 2026); The Economist, Big Mac index page; Wikipedia, Big Mac Index (history); O'Brien and Ruiz de Vargas, University of Connecticut (GDP-adjusted index).\n\nNews and education, not financial advice.\n\n#BigMacIndex #currency #economics",
-  "tags": [
-   "Big Mac index",
-   "purchasing power parity",
-   "exchange rates",
-   "The Economist",
-   "dollar",
-   "yen",
-   "Swiss franc",
-   "economics"
-  ]
- }
 }
