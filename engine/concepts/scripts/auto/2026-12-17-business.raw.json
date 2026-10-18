@@ -1,0 +1,212 @@
+{
+  "series": "ticker",
+  "header": "How Roku makes money\nfrom ads, not sticks",
+  "cover": {
+    "title": "Why Roku Sells at a Loss",
+    "prop": "box",
+    "label": "ROKU",
+    "value": "-$82M"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Roku sells its streaming sticks and TVs at a loss. On purpose.",
+      "say": "Roku sells its streaming sticks and TVs at a loss. On purpose.",
+      "scene": {
+        "t": "hook",
+        "title": "Sold at a [loss]",
+        "prop": "box",
+        "label": "ROKU",
+        "value": "-$82M",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2025, Roku's devices had $592.4M in sales and an $82.0M gross loss.",
+      "say": "In twenty twenty-five, Roku's devices had about five hundred ninety-two million dollars in sales, and an eighty-two million dollar gross loss.",
+      "scene": {
+        "t": "stat",
+        "label": "Devices gross loss",
+        "value": "-$82.0M",
+        "tone": "down",
+        "sub": "Roku FY2025 10-K",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "On average, about $14 lost per $100 of hardware.",
+      "say": "On average, about fourteen dollars lost per hundred dollars of hardware.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$100 device sales",
+          "about $114 cost",
+          "about -$14 gross"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The real money is Platform: ads and subscriptions, $4.14B.",
+      "say": "The real money is Platform: ads and subscriptions, four point one four billion dollars.",
+      "scene": {
+        "t": "compare",
+        "title": "Roku revenue, 2025",
+        "left": {
+          "label": "Platform",
+          "value": "$4.14B",
+          "tone": "up",
+          "sub": "Ads and subs"
+        },
+        "right": {
+          "label": "Devices",
+          "value": "$592M",
+          "tone": "down",
+          "sub": "Sticks and TVs"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's 87.5% of Roku's 2025 revenue.",
+      "say": "That's eighty-seven and a half percent of Roku's revenue.",
+      "scene": {
+        "t": "compare",
+        "title": "Roku revenue, 2025",
+        "keep": true,
+        "winner": "left",
+        "left": {
+          "label": "Platform",
+          "value": "$4.14B",
+          "tone": "up",
+          "sub": "87.5% of revenue"
+        },
+        "right": {
+          "label": "Devices",
+          "value": "$592M",
+          "tone": "down",
+          "sub": "12.5% of revenue"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's grown from $2.71B in 2022.",
+      "say": "It's grown from two point seven one billion in twenty twenty-two.",
+      "scene": {
+        "t": "chart",
+        "title": "Roku Platform revenue",
+        "points": [
+          [
+            2022,
+            2.71
+          ],
+          [
+            2023,
+            2.99
+          ],
+          [
+            2024,
+            3.52
+          ],
+          [
+            2025,
+            4.14
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$4.14B",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Roku sells ads on its home screen and The Roku Channel, plus a cut of subscriptions.",
+      "say": "Roku sells ads on its home screen and The Roku Channel, plus a cut of subscriptions.",
+      "scene": {
+        "t": "list",
+        "title": "Platform money",
+        "items": [
+          "Home screen ads",
+          "The Roku Channel",
+          "Subscription cut"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2025, each $100 of Platform revenue kept about $52 of gross profit.",
+      "say": "In twenty twenty-five, each hundred dollars of Platform revenue kept about fifty-two dollars of gross profit.",
+      "scene": {
+        "t": "stat",
+        "label": "Platform margin",
+        "value": "52.0%",
+        "tone": "up",
+        "sub": "FY2025, from 10-K",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So the cheap stick is the doorway.",
+      "say": "So the cheap stick is the doorway.",
+      "scene": {
+        "t": "split",
+        "title": "Roku's two halves",
+        "left": {
+          "title": "Devices",
+          "items": [
+            "Priced low",
+            "Gross loss"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Platform",
+          "items": [
+            "Ads and subs",
+            "52% margin"
+          ],
+          "tone": "up"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Fox agreed in June 2026 to buy Roku for about $22B, pending approval.",
+      "say": "Fox agreed in June twenty twenty-six to buy Roku for about twenty-two billion, pending approval.",
+      "scene": {
+        "t": "news",
+        "headline": "Fox to buy Roku",
+        "source": "Fox 8-K, June 2026"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why Roku sells streaming sticks at a loss",
+    "ig": "Roku sells its streaming sticks and TVs at a loss. On purpose.\nIn 2025, Roku's Devices segment had $592.4M in revenue and an $82.0M gross loss (FY2025 10-K).\nIts Platform segment, ads and subscriptions, made $4.14B, 87.5% of revenue, with about a 52% gross margin.\nPlatform revenue grew from $2.71B in 2022 to $4.14B in 2025. Fox agreed in June 2026 to buy Roku in a deal valued at about $22B, pending regulatory approval.\nSources: Roku FY2025 and FY2022 10-Ks, Variety.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#roku #streaming #advertising #howtheymakemoney #financeprostv",
+    "tiktok": "Roku lost $82M on devices in 2025 but made $4.14B from ads and subs (10-K). Not financial advice. #moneytok #personalfinance #roku #financeprostv",
+    "yt_desc": "Roku's Devices segment had $592.4M in 2025 revenue and an $82.0M gross loss, while its Platform segment (ads and subscriptions) made $4.14B, 87.5% of revenue, at about a 52% gross margin, per Roku's FY2025 10-K. Fox agreed in June 2026 to acquire Roku in a deal valued at about $22B, pending regulatory approval (Variety). News and education, not financial advice. #Shorts #roku #streaming",
+    "tags": [
+      "roku",
+      "how roku makes money",
+      "streaming business model",
+      "roku platform revenue",
+      "connected tv advertising"
+    ]
+  }
+}
