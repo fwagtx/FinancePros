@@ -1,0 +1,176 @@
+{
+  "series": "ticker",
+  "header": "Does paying rent\nbuild credit?",
+  "cover": {
+    "title": "Does Rent Build Credit?",
+    "prop": "house",
+    "label": "RENT",
+    "value": "13%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "You pay rent every month. Your credit score probably never sees it.",
+      "say": "You pay rent every month. Your credit score probably never sees it.",
+      "scene": {
+        "t": "hook",
+        "title": "Paid rent, [no] credit?",
+        "prop": "house",
+        "label": "RENT",
+        "value": "HIDDEN",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In a 2025 TransUnion survey, just 13% of renters said their rent was reported.",
+      "say": "In a twenty twenty-five TransUnion survey, just thirteen percent of renters said their rent was reported.",
+      "scene": {
+        "t": "stat",
+        "label": "Rent reported",
+        "value": "13%",
+        "tone": "down",
+        "sub": "TransUnion, 2025",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Rent isn't reported by default. A landlord or a third-party service has to send it, and some charge fees.",
+      "say": "Rent isn't reported by default. A landlord or a third-party service has to send it, and some charge fees.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Not auto-reported",
+          "Landlord or service",
+          "sends it (some paid)"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Landlords lag too: of property managers aware of rent reporting, 44% did it in 2025.",
+      "say": "Landlords lag too: among property managers aware of rent reporting, forty-four percent did it in twenty twenty-five.",
+      "scene": {
+        "t": "chart",
+        "title": "Managers reporting",
+        "points": [
+          [
+            2022,
+            27
+          ],
+          [
+            2023,
+            36
+          ],
+          [
+            2024,
+            48
+          ],
+          [
+            2025,
+            44
+          ]
+        ],
+        "suffix": "%",
+        "end": "44%",
+        "color": "down",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Even then, it depends on the score. FICO 9 and VantageScore 4.0 count rent; FICO 8, the one lenders use most, usually doesn't, except through Experian Boost.",
+      "say": "Even then, it depends on the score. FICO nine and VantageScore four point oh count rent; FICO eight, the one lenders use most, usually doesn't, except through Experian Boost.",
+      "scene": {
+        "t": "compare",
+        "title": "Does rent count?",
+        "left": {
+          "label": "FICO 9",
+          "value": "Counts",
+          "tone": "up",
+          "sub": "& VantageScore 4.0"
+        },
+        "right": {
+          "label": "FICO 8",
+          "value": "Rarely",
+          "tone": "down",
+          "sub": "except Exp. Boost"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Mortgages are shifting too: since September 2026, all approved Fannie and Freddie lenders can use VantageScore 4.0.",
+      "say": "Mortgages are shifting too: since September twenty twenty-six, all approved Fannie and Freddie lenders can use VantageScore four point oh.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Jul25",
+            "what": "FHFA OKs VantageScore 4.0"
+          },
+          {
+            "when": "May26",
+            "what": "Pilot for some lenders"
+          },
+          {
+            "when": "Sep26",
+            "what": "Open to all GSE lenders"
+          }
+        ],
+        "reveal": 3,
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So rent builds credit only when it's reported, and only on scores that count it.",
+      "say": "So rent builds credit only when it's reported, and only on scores that count it.",
+      "scene": {
+        "t": "split",
+        "title": "Rent builds credit?",
+        "left": {
+          "title": "Yes",
+          "items": [
+            "Gets reported",
+            "Score counts it"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "No",
+          "items": [
+            "Never reported",
+            "FICO 8 (mostly)"
+          ],
+          "tone": "down"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Does paying rent build credit? Only if someone reports it",
+    "ig": "You pay rent every month. Your credit score probably never sees it.\n\nIn a 2025 TransUnion survey, just 13% of renters said their rent was reported to credit bureaus.\nRent isn't reported by default: a landlord or a third-party service (some paid) has to send it.\nFICO 9 and VantageScore 4.0 count reported rent; FICO 8, the version lenders use most, generally doesn't (Experian Boost is an exception).\nSince September 2026, all approved Fannie Mae and Freddie Mac lenders can use VantageScore 4.0.\n\nSources: TransUnion Rent Payment Reporting 2025; Experian; myFICO; FHFA; Fannie Mae LL-2026-06.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#creditscore #rent #renting #personalfinance #financeprostv",
+    "tiktok": "Rent only counts if reported. 13% of renters said theirs was (2025). Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
+    "yt_desc": "Does paying rent build credit? Only if it's reported: in a 2025 TransUnion survey, just 13% of renters said their rent was reported to credit bureaus. FICO 9 and VantageScore 4.0 count reported rent, while FICO 8, the version lenders use most, generally doesn't (Experian Boost is an exception); since September 2026 all approved Fannie Mae and Freddie Mac lenders can use VantageScore 4.0 (FHFA, Fannie Mae LL-2026-06). Sources: TransUnion, Experian, myFICO, FHFA, Fannie Mae. News and education, not financial advice.\n#Shorts #creditscore #personalfinance",
+    "tags": [
+      "does rent build credit",
+      "rent reporting",
+      "VantageScore 4.0 mortgage",
+      "FICO 8 vs FICO 9",
+      "credit score explained"
+    ]
+  }
+}
