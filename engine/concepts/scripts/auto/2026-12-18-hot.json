@@ -1,0 +1,194 @@
+{
+ "id": "2026-12-18-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Public vs private\ncollege, after aid",
+ "cover": {
+  "title": "Public vs Private: After Aid",
+  "prop": "tag",
+  "label": "$45K",
+  "value": "$14,610"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Private college tuition runs $33,050 more a year, on paper.",
+   "say": "Private college tuition runs about thirty-three thousand more a year, on paper.",
+   "scene": {
+    "t": "hook",
+    "title": "Public vs [Private]",
+    "prop": "tag",
+    "label": "$45K",
+    "value": "+$33,050",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After grants, that gap shrinks by more than half.",
+   "say": "After grants, that gap shrinks by more than half.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sticker price",
+     "minus grants",
+     "= net price"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025-26, tuition and fees averaged $11,950 in-state public and $45,000 private.",
+   "say": "In twenty twenty-five to twenty-six, tuition and fees averaged about twelve thousand in-state public, and forty-five thousand private.",
+   "scene": {
+    "t": "compare",
+    "title": "Sticker price, 2025-26",
+    "left": {
+     "label": "Public in-state",
+     "value": "$11,950",
+     "tone": "up",
+     "sub": "tuition and fees"
+    },
+    "right": {
+     "label": "Private nonprofit",
+     "value": "$45,000",
+     "tone": "down",
+     "sub": "tuition and fees"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But privates give bigger grants: $28,090 per full-time freshman, versus $9,650.",
+   "say": "But privates give bigger grants: about twenty-eight thousand per full-time freshman, versus about nine thousand seven hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Implied grant aid",
+    "left": {
+     "label": "Public in-state",
+     "value": "$9,650",
+     "tone": "neutral",
+     "sub": "per FT freshman"
+    },
+    "right": {
+     "label": "Private nonprofit",
+     "value": "$28,090",
+     "tone": "up",
+     "sub": "per FT freshman"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Net, that's about $2,300 public and $16,910 private.",
+   "say": "Net, that's about twenty-three hundred public, and about sixteen thousand nine hundred private.",
+   "scene": {
+    "t": "compare",
+    "title": "Net tuition and fees",
+    "left": {
+     "label": "Public in-state",
+     "value": "$2,300",
+     "tone": "up",
+     "sub": "2025-26 average"
+    },
+    "right": {
+     "label": "Private nonprofit",
+     "value": "$16,910",
+     "tone": "down",
+     "sub": "2025-26 average"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the yearly gap falls to $14,610.",
+   "say": "So the yearly gap falls to about fourteen thousand six hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg net gap / year",
+    "value": "$14,610",
+    "tone": "neutral",
+    "sub": "College Bd, 25-26",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: four years at those averages is $58,440, before housing or price hikes.",
+   "say": "For example, four years at those averages is fifty-eight thousand four hundred forty dollars, before housing or price hikes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: 4 years",
+     "$14,610 x 4",
+     "= $58,440"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2025-26, NACUBO estimates private freshmen averaged a 57.1% discount, and about 90% got school aid.",
+   "say": "For that year, NACUBO estimates private freshmen averaged roughly a fifty-seven percent discount, and about ninety percent got school aid.",
+   "scene": {
+    "t": "stat",
+    "label": "Private discount",
+    "value": "57.1%",
+    "tone": "up",
+    "sub": "NACUBO 2025-26 est",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trade-off: public starts cheaper, private discounts deeper, and averages hide big swings.",
+   "say": "The trade-off: public starts cheaper, private discounts deeper, and averages hide big swings.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "Public in-state",
+     "items": [
+      "Lower sticker",
+      "Smaller grants"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Private",
+     "items": [
+      "Bigger discounts",
+      "Aid varies a lot"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Public vs private college: the price gap after grants",
+  "ig": "Private college tuition runs $33,050 more a year on paper. After grants? Less than half that.\n\n2025-26 average tuition and fees: $11,950 in-state public vs $45,000 private nonprofit (College Board).\nImplied average grants per first-time full-time student (sticker minus net): $9,650 public vs $28,090 private.\nAverage net tuition and fees: about $2,300 public vs $16,910 private, a $14,610 yearly gap.\nNACUBO estimates a 57.1% average freshman discount at private nonprofits in 2025-26; about 90% got school aid.\n\nSources: College Board, Trends in College Pricing and Student Aid 2025; NACUBO 2025 Tuition Discounting Study.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#college #financialaid #studentloans #personalfinance #financeprostv",
+  "tiktok": "Public vs private: a $33,050 sticker gap falls to $14,610 after grants. Not financial advice. #moneytok #personalfinance #financeprostv #college",
+  "yt_desc": "In 2025-26, average tuition and fees are $11,950 at in-state public four-year colleges and $45,000 at private nonprofits, but average grants of $9,650 vs $28,090 cut the yearly gap from $33,050 to $14,610 (net about $2,300 vs $16,910). NACUBO estimates a 57.1% average freshman tuition discount at private nonprofits in 2025-26. Sources: College Board Trends in College Pricing and Student Aid 2025; NACUBO 2025 Tuition Discounting Study. News and education, not financial advice.\n#Shorts #college #financialaid",
+  "tags": [
+   "public vs private college",
+   "college net price",
+   "financial aid",
+   "tuition discount rate",
+   "college costs 2025-26"
+  ]
+ }
+}
