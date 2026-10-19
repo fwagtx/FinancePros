@@ -1,0 +1,219 @@
+{
+  "series": "acorn",
+  "header": "Why big squirrels\ngather acorns cheaper",
+  "cover": {
+    "title": "Why Bigger Costs Less",
+    "prop": "acorns",
+    "label": "$1.10",
+    "value": "-90%"
+  },
+  "lines": [
+    {
+      "who": "nutty",
+      "text": "Why does the biggest squirrel pay 90% less per acorn?",
+      "say": "Why does the biggest squirrel pay ninety percent less per acorn?",
+      "scene": {
+        "t": "hook",
+        "title": "Big squirrel pays [less]",
+        "prop": "acorns",
+        "label": "$1.10",
+        "value": "-90%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "That's economies of scale: each unit gets cheaper as volume grows.",
+      "say": "That's economies of scale: each unit gets cheaper as volume grows.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Economies of scale",
+          "Cost per unit falls",
+          "as volume grows"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Some costs are fixed, like a storage tree. Others, like a sack per acorn, are variable.",
+      "say": "Some costs are fixed, like a storage tree. Others, like a sack per acorn, are variable.",
+      "scene": {
+        "t": "split",
+        "title": "Two kinds of cost",
+        "left": {
+          "title": "Fixed",
+          "items": [
+            "Storage tree",
+            "Same at any size"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "Variable",
+          "items": [
+            "Sack per acorn",
+            "Grows per acorn"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Made-up example: a $100 tree, plus $1 per sack.",
+      "say": "Made-up example: a hundred-dollar tree, plus one dollar per sack.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Example (made up)",
+          "Tree: $100 fixed",
+          "Sack: $1 per acorn"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Ten acorns? $11 each. A thousand? $1.10 each.",
+      "say": "Ten acorns? Eleven dollars each. A thousand? One dollar and ten cents each.",
+      "scene": {
+        "t": "compare",
+        "title": "Cost per acorn",
+        "left": {
+          "label": "10 acorns",
+          "value": "$11.00",
+          "tone": "down",
+          "sub": "$110 / 10"
+        },
+        "right": {
+          "label": "1,000 acorns",
+          "value": "$1.10",
+          "tone": "up",
+          "sub": "$1,100 / 1,000"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Costco does it for real: net sales hit $297.2 billion in fiscal 2026.",
+      "say": "Costco does it for real: net sales hit two hundred ninety-seven point two billion dollars in fiscal twenty twenty-six.",
+      "scene": {
+        "t": "chart",
+        "title": "Costco net sales",
+        "points": [
+          [
+            2019,
+            149.4
+          ],
+          [
+            2020,
+            163.2
+          ],
+          [
+            2021,
+            192.1
+          ],
+          [
+            2022,
+            222.7
+          ],
+          [
+            2023,
+            237.7
+          ],
+          [
+            2024,
+            249.6
+          ],
+          [
+            2025,
+            269.9
+          ],
+          [
+            2026,
+            297.2
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$297.2",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "It says volume helps it run thin: an 11.1% gross margin (FY2026), versus Kroger's 22.9% (FY2025).",
+      "say": "It says volume helps it run thin: an eleven point one percent gross margin, versus Kroger's twenty-two point nine.",
+      "scene": {
+        "t": "compare",
+        "title": "Gross margin",
+        "left": {
+          "label": "Costco",
+          "value": "11.1%",
+          "tone": "up",
+          "sub": "fiscal 2026"
+        },
+        "right": {
+          "label": "Kroger",
+          "value": "22.9%",
+          "tone": "neutral",
+          "sub": "fiscal 2025"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "But past a point, too many managers and slow decisions push costs back up: diseconomies of scale.",
+      "say": "But past a point, too many managers and slow decisions push costs back up: diseconomies of scale.",
+      "scene": {
+        "t": "list",
+        "title": "Diseconomies",
+        "items": [
+          "More managers",
+          "Slower decisions",
+          "Messy teamwork"
+        ],
+        "reveal": 3,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Big squirrel wins by spreading one tree over lots of acorns.",
+      "say": "Big squirrel wins by spreading one tree over lots of acorns.",
+      "scene": {
+        "t": "squirrel",
+        "kind": "tree",
+        "caption": "Share the tree",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel explained economies of scale. Squirrel would like one follow.",
+      "say": "Squirrel explained economies of scale. Squirrel would like one follow.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why the biggest squirrel pays 90% less per acorn",
+    "ig": "Why does the biggest squirrel pay 90% less per acorn?\n\nEconomies of scale: fixed costs get spread over more units, so cost per unit falls.\nMade-up example: a $100 tree plus a $1 sack per acorn. 10 acorns = $11.00 each; 1,000 acorns = $1.10 each.\nCostco's net sales grew from $149.4B (FY2019) to $297.2B (FY2026), and it says volume helps it profit on an 11.1% gross margin (FY2026) vs. Kroger's 22.9% (FY2025).\nPast a point, size can push costs back up: diseconomies of scale.\n\nSources: Costco FY2026 10-K and results release; Kroger FY2025 results release.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#economiesofscale #acorneconomics #economics #personalfinance #financeprostv",
+    "tiktok": "Why bigger costs less: $11 vs $1.10 per acorn, and Costco's 11.1% margin. Not financial advice. #moneytok #personalfinance #economics #financeprostv",
+    "yt_desc": "Economies of scale explained with acorns: in a made-up example, a $100 tree plus $1 per sack means 10 acorns cost $11.00 each and 1,000 cost $1.10 each. Costco's net sales grew from $149.4 billion in fiscal 2019 to $297.2 billion in fiscal 2026, and it says volume helps it profit on an 11.1% gross margin (FY2026) versus Kroger's 22.9% (FY2025); past a point, diseconomies of scale push costs back up. Sources: Costco FY2026 10-K and results, Kroger FY2025 results. News and education, not financial advice.\n#Shorts #economics #personalfinance",
+    "tags": [
+      "economies of scale",
+      "fixed vs variable costs",
+      "Costco gross margin",
+      "diseconomies of scale",
+      "Acorn Economics"
+    ]
+  }
+}
