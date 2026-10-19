@@ -72,3 +72,7 @@ This is fine. The script does not generalize Costco's figure to all warehouse cl
 - **Cover and title payoff:** "Why Bigger Costs Less" and "-90%" are paid off on lines 4-5.
 
 VERDICT: FAIL
+
+## Round 2 (editor)
+Applied the line 7 fix (volume plus membership fees) and the ig/yt_desc replacements.
+VERDICT: PASS
