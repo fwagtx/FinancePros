@@ -1,0 +1,197 @@
+{
+ "id": "2026-12-18-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How solar companies\nreally make money",
+ "cover": {
+  "title": "Why Is Solar $0 Down?",
+  "prop": "house",
+  "label": "$0",
+  "value": "$59,377"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Why would a solar company cover your roof for $0 down?",
+   "say": "Why would a solar company cover your roof for zero down?",
+   "scene": {
+    "t": "hook",
+    "title": "Solar for [$0] down?",
+    "prop": "house",
+    "label": "$0",
+    "value": "Why?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sunrun valued each new customer at $59,377 (gross) in Q2 2026.",
+   "say": "Sunrun valued each new customer at about fifty-nine grand in mid twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Subscriber value",
+    "value": "$59,377",
+    "tone": "up",
+    "sub": "Gross, Sunrun Q2",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a lease or PPA, the company owns the panels; you pay monthly for up to 25 years.",
+   "say": "In a lease or P P A, the company owns the panels; you pay monthly for up to twenty-five years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lease or PPA:",
+     "Company owns panels",
+     "You pay monthly"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Owning them earns a business tax credit: 44.0% on average for Sunrun in Q2 2026.",
+   "say": "Owning them earns a business tax credit, averaging forty-four percent for Sunrun then.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg tax credit",
+    "value": "44.0%",
+    "tone": "up",
+    "sub": "Sunrun, Q2 2026",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Buyers lost their 30% credit after 2025. Leases can still qualify through 2027.",
+   "say": "Buyers lost their thirty percent credit after twenty twenty-five. Leases can still qualify through twenty twenty-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Federal tax credit",
+    "left": {
+     "label": "Buy (25D)",
+     "value": "Ended",
+     "tone": "down",
+     "sub": "after Dec 2025"
+    },
+    "right": {
+     "label": "Lease (48E)",
+     "value": "Open",
+     "tone": "up",
+     "sub": "through 2027"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sunrun had 997,280 subscribers at the end of 2025, up from 667,241 in 2022.",
+   "say": "Sunrun reached nearly a million subscribers by the end of twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Sunrun subscribers",
+    "points": [
+     [
+      2022,
+      667
+     ],
+     [
+      2023,
+      781
+     ],
+     [
+      2024,
+      889
+     ],
+     [
+      2025,
+      997
+     ]
+    ],
+    "suffix": "K",
+    "end": "997K",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Loans differ. The CFPB found fees often 10% to 30% of the cash price, baked into the loan.",
+   "say": "Loans differ. The C F P B found fees often ten to thirty percent of the price, baked into the loan.",
+   "scene": {
+    "t": "stat",
+    "label": "Solar loan fees",
+    "value": "10-30%",
+    "tone": "down",
+    "sub": "CFPB, Aug 2024",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Made-up example: a $30,000 system with a 20% fee becomes a $36,000 loan.",
+   "say": "Made-up example: a thirty-thousand-dollar system with a twenty percent fee becomes a thirty-six-thousand-dollar loan.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Cash price",
+     "value": "$30,000"
+    },
+    "to": {
+     "label": "Loan, 20% fee",
+     "value": "$36,000"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Leases earn on payments and tax credits; loans, on interest and fees.",
+   "say": "Leases earn on payments and tax credits; loans, on interest and fees.",
+   "scene": {
+    "t": "split",
+    "title": "Who earns what",
+    "left": {
+     "title": "Lease/PPA",
+     "items": [
+      "Monthly payments",
+      "Tax credits"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Loan",
+     "items": [
+      "Interest",
+      "Dealer fees"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How solar companies make money on $0-down leases",
+  "ig": "Why would a solar company put panels on your roof for $0 down?\n\nIn a lease or PPA the company owns the panels: Sunrun valued each new subscriber at $59,377 (gross) in Q2 2026, with an average business tax credit of 44.0%.\nThe homeowner 25D credit (30%) ended for expenditures after Dec 31, 2025; leased systems can still qualify under 48E through 2027.\nOn solar loans, the CFPB (Aug 2024) found fees often 10-30% of the cash price built into the principal. Made-up example: $30,000 system + 20% fee = $36,000 loan.\n\nSources: Sunrun Q2 2026 and Q4 2025 results; IRS Form 5695 instructions; SEIA; CFPB Solar Financing Issue Spotlight (2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#solar #solarpanels #howtheymakemoney #personalfinance #financeprostv",
+  "tiktok": "Why $0-down solar? Sunrun valued each customer at $59,377 (Q2 2026). Not financial advice. #moneytok #personalfinance #solar #financeprostv",
+  "yt_desc": "How solar companies make money: in a lease or PPA the company owns the panels, and Sunrun valued each new subscriber at $59,377 in Q2 2026 with an average tax credit of 44.0%. The homeowner 25D credit ended after 2025, while leased systems can still qualify under 48E through 2027; the CFPB found solar loan fees of 10-30% of the cash price built into loans. Sources: Sunrun Q2 2026 and Q4 2025 results, IRS, SEIA, CFPB (2024). News and education, not financial advice.\n#Shorts #solar #personalfinance",
+  "tags": [
+   "solar lease",
+   "Sunrun",
+   "solar loan dealer fees",
+   "solar tax credit 2026",
+   "how they make money"
+  ]
+ }
+}
