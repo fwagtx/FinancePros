@@ -1,0 +1,208 @@
+{
+  "series": "ticker",
+  "header": "Scam Alert:\nThe Hospital Bill",
+  "cover": {
+    "title": "The Hospital Bill Scam",
+    "prop": "paper",
+    "label": "BILL",
+    "value": "$9,000"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Your online match \"just landed in the hospital\". That's the scam.",
+      "say": "Your online match just landed in the hospital. That's the scam.",
+      "scene": {
+        "t": "hook",
+        "title": "The hospital [scam]",
+        "prop": "paper",
+        "label": "BILL",
+        "value": "$9,000",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The FBI logged $929 million in romance scam losses in 2025.",
+      "say": "The FBI logged nine hundred twenty-nine million dollars in romance scam losses in twenty twenty-five.",
+      "scene": {
+        "t": "stat",
+        "label": "Romance scam loss",
+        "value": "$929M",
+        "tone": "down",
+        "sub": "FBI IC3, 2025",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's up about 38% from 2024.",
+      "say": "That's up about thirty-eight percent from twenty twenty-four.",
+      "scene": {
+        "t": "chart",
+        "title": "Romance fraud losses",
+        "points": [
+          [
+            2021,
+            956
+          ],
+          [
+            2022,
+            736
+          ],
+          [
+            2023,
+            653
+          ],
+          [
+            2024,
+            672
+          ],
+          [
+            2025,
+            929
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "M",
+        "end": "$929M",
+        "color": "down",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In FTC data for 2022, the top lie? Someone's sick, hurt or in jail.",
+      "say": "In FTC data for twenty twenty-two, the top lie? Someone's sick, hurt or in jail.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Top lie (FTC, 2022):",
+          "sick, hurt, in jail"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Hypothetical example: weeks of sweet texts, then a $500 ER bill in gift cards.",
+      "say": "Here's a made-up example: weeks of sweet texts, then a five hundred dollar E R bill in gift cards.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Wk 1",
+            "what": "Sweet texts daily"
+          },
+          {
+            "when": "Wk 6",
+            "what": "ER bill: $500"
+          },
+          {
+            "when": "Wk 7",
+            "what": "Surgery: $2,500"
+          },
+          {
+            "when": "Wk 8",
+            "what": "Hospital: $6,000"
+          }
+        ],
+        "reveal": 2,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Then a $2,500 surgery deposit by wire, then a $6,000 hospital bill.",
+      "say": "Then a twenty-five hundred dollar surgery deposit by wire, then a six thousand dollar hospital bill.",
+      "scene": {
+        "t": "timeline",
+        "keep": true,
+        "events": [
+          {
+            "when": "Wk 1",
+            "what": "Sweet texts daily"
+          },
+          {
+            "when": "Wk 6",
+            "what": "ER bill: $500"
+          },
+          {
+            "when": "Wk 7",
+            "what": "Surgery: $2,500"
+          },
+          {
+            "when": "Wk 8",
+            "what": "Hospital: $6,000"
+          }
+        ],
+        "reveal": 4,
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example total: $500 + $2,500 + $6,000 = $9,000, to someone never met in person.",
+      "say": "That's nine thousand dollars, sent to someone they've never met in person.",
+      "scene": {
+        "t": "stat",
+        "label": "Example total",
+        "value": "$9,000",
+        "tone": "down",
+        "sub": "$500+$2,500+$6,000",
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "FTC, 2022: gift cards were the most common payment, but crypto and wires moved the most money.",
+      "say": "In twenty twenty-two, gift cards were the most common payment, but crypto and wires moved the most money.",
+      "scene": {
+        "t": "list",
+        "title": "How they get paid",
+        "items": [
+          "Gift cards",
+          "Bank wires",
+          "Crypto"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The FTC says only scammers ask for gift cards, wires or crypto, and that money is usually gone.",
+      "say": "The FTC says only scammers ask for gift cards, wires or crypto, and that money is usually gone.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Only scammers ask",
+          "for gift cards,",
+          "wires or crypto"
+        ],
+        "mood": "angry"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "The romance scam that ends with a hospital bill",
+    "ig": "Your online match just landed in the hospital. That's the scam.\nThe FBI logged $929 million in romance scam losses in 2025, up about 38% from 2024.\nIn FTC data for 2022, the most common romance-scam lie was \"sick, hurt or in jail.\"\nExample: $500 + $2,500 + $6,000 = $9,000 to someone never met in person.\nThe FTC says only scammers ask for payment by gift card, wire or crypto.\nSources: FBI IC3 2025 Internet Crime Report; FTC Data Spotlight (Feb 2023).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#romancescam #scamalert #fraud #personalfinance #financeprostv",
+    "tiktok": "Online match suddenly in the hospital? $929M lost to romance scams in 2025. Not financial advice. #moneytok #personalfinance #scamalert #financeprostv",
+    "yt_desc": "The FBI's IC3 logged $929 million in romance scam losses in 2025, and in FTC data for 2022, \"sick, hurt or in jail\" was the most common romance-scam lie. A hypothetical $9,000 medical-emergency escalation shows how small asks grow, usually paid in gift cards, wires or crypto. Sources: FBI IC3 2025 Internet Crime Report, FTC Data Spotlight (Feb 2023). News and education, not financial advice. #Shorts #scamalert #personalfinance",
+    "tags": [
+      "romance scam",
+      "scam alert",
+      "medical emergency scam",
+      "FBI IC3 2025",
+      "online dating scam"
+    ]
+  }
+}
