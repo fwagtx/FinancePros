@@ -1,0 +1,215 @@
+{
+  "series": "ticker",
+  "header": "How Modelo makes\nConstellation money",
+  "cover": {
+    "title": "Who Really Sells Modelo?",
+    "prop": "tag",
+    "label": "#1",
+    "value": "$8.3B"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Bud Light's parent owns Modelo. So why does a rival sell it?",
+      "say": "Bud Light's parent owns Modelo. So why does a rival sell it?",
+      "scene": {
+        "t": "hook",
+        "title": "Who sells [Modelo]?",
+        "prop": "tag",
+        "label": "#1",
+        "value": "Why?",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2013, the Justice Department made AB InBev hand Modelo's US rights to Constellation Brands.",
+      "say": "In twenty thirteen, the Justice Department made A B InBev hand Modelo's US rights to Constellation Brands.",
+      "scene": {
+        "t": "news",
+        "headline": "DOJ clears beer deal",
+        "source": "US DOJ, April 2013",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Constellation paid $2.9 billion for a Mexican brewery and perpetual US brand rights.",
+      "say": "Constellation paid two point nine billion dollars for a brewery and those rights.",
+      "scene": {
+        "t": "stat",
+        "label": "Brewery + rights",
+        "value": "$2.9B",
+        "tone": "neutral",
+        "sub": "2013 deal",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Beer sales grew from $2.8 billion in fiscal 2014 to $8.3 billion in fiscal 2026.",
+      "say": "Beer sales grew from two point eight billion dollars in fiscal twenty fourteen to eight point three billion.",
+      "scene": {
+        "t": "chart",
+        "title": "Constellation beer sales",
+        "points": [
+          [
+            2014,
+            2.8
+          ],
+          [
+            2015,
+            3.2
+          ],
+          [
+            2020,
+            5.6
+          ],
+          [
+            2021,
+            6.1
+          ],
+          [
+            2024,
+            8.2
+          ],
+          [
+            2025,
+            8.5
+          ],
+          [
+            2026,
+            8.3
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$8.3B",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "After the 2023 Bud Light boycott, Modelo Especial passed it in US retail dollar sales (June 2023).",
+      "say": "After the twenty twenty-three Bud Light boycott, Modelo passed it in retail dollar sales.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "2013",
+            "what": "US rights deal"
+          },
+          {
+            "when": "2023",
+            "what": "Passes Bud Light"
+          },
+          {
+            "when": "2025",
+            "what": "Ultra wins volume"
+          },
+          {
+            "when": "2026",
+            "what": "Still No. 1 dollars"
+          }
+        ],
+        "reveal": 2,
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Michelob Ultra took the volume lead in 2025, but Modelo still led in dollars as of October 2026, per Constellation.",
+      "say": "Michelob Ultra took the volume lead in twenty twenty-five, but Modelo still led in dollars as of October twenty twenty-six.",
+      "scene": {
+        "t": "timeline",
+        "keep": true,
+        "events": [
+          {
+            "when": "2013",
+            "what": "US rights deal"
+          },
+          {
+            "when": "2023",
+            "what": "Passes Bud Light"
+          },
+          {
+            "when": "2025",
+            "what": "Ultra wins volume"
+          },
+          {
+            "when": "2026",
+            "what": "Still No. 1 dollars"
+          }
+        ],
+        "reveal": 4,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In fiscal 2026 (ended February 2026), beer's operating margin was 38.0%.",
+      "say": "In fiscal twenty twenty-six, beer's operating margin was thirty-eight percent.",
+      "scene": {
+        "t": "stat",
+        "label": "Beer op. margin",
+        "value": "38.0%",
+        "tone": "neutral",
+        "sub": "-170 bps vs FY25",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Math: $10 of beer sales x 38% = about $3.80 of operating profit.",
+      "say": "That's about three dollars and eighty cents of operating profit per ten dollars of sales.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Beer sales",
+          "value": "$10"
+        },
+        "to": {
+          "label": "Op. profit",
+          "value": "$3.80"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But in FY2026, beer sales fell 3%, and aluminum tariffs raised costs.",
+      "say": "But that year, beer sales fell three percent, and aluminum tariffs raised costs.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Beer sales: -3%",
+          "Aluminum tariffs",
+          "Costs went up"
+        ],
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Bud Light's parent owns Modelo. Why does a rival sell it?",
+    "ig": "Bud Light's parent owns Modelo. So why does Constellation Brands sell it in the US?\n\nIn 2013 the DOJ cleared AB InBev's Grupo Modelo deal only if the US rights went to Constellation, which paid $2.9B for a brewery and perpetual US brand rights.\nConstellation's beer net sales grew from $2.8B (FY2014) to $8.3B (FY2026), with a 38.0% operating margin.\nModelo Especial passed Bud Light in retail dollar sales in June 2023; Constellation said in October 2026 it is still No. 1 by dollars. Michelob Ultra leads by volume.\nFY2026 beer sales fell 3% as shipment volumes dropped and aluminum tariffs raised costs.\n\nSources: Constellation Brands FY2026 and Q2 FY2027 results, 2013 deal filing; US DOJ; Circana via Fox Business, CNN.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#modelo #beer #howtheymakemoney #business #financeprostv",
+    "tiktok": "Bud Light's parent owns Modelo, but a rival sells it in the US. Not financial advice. #moneytok #personalfinance #modelo #beer #financeprostv",
+    "yt_desc": "Bud Light's parent AB InBev owns Grupo Modelo, but a 2013 DOJ settlement sent the US rights to Constellation Brands, which paid $2.9B for a brewery and perpetual brand rights. Constellation's beer net sales reached $8.3B in fiscal 2026 with a 38.0% operating margin, though sales fell 3% as shipment volumes dropped and aluminum tariffs raised costs. Sources: Constellation Brands FY2026 and Q2 FY2027 results, US DOJ, Circana via Fox Business and CNN. News and education, not financial advice.\n#Shorts #modelo #business",
+    "tags": [
+      "Modelo Especial",
+      "Constellation Brands",
+      "how they make money",
+      "best selling beer",
+      "Bud Light vs Modelo"
+    ]
+  }
+}
