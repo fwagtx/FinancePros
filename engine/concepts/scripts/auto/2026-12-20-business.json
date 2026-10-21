@@ -1,0 +1,162 @@
+{
+ "id": "2026-12-20-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How car leases\nmake lessors money",
+ "cover": {
+  "title": "Your Lease Is a Bet",
+  "prop": "car",
+  "label": "GMF",
+  "value": "$25.0B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Every car lease is secretly a bet on a used car.",
+   "say": "Every car lease is secretly a bet on a used car.",
+   "scene": {
+    "t": "hook",
+    "title": "A lease is a [bet]",
+    "prop": "car",
+    "label": "Used",
+    "value": "Bet?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $40,000 car, 36 months, 58% residual. That's a bet on $23,200.",
+   "say": "Take a forty-thousand-dollar car, three years, fifty-eight percent residual. That's a bet on twenty-three thousand two hundred dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: $40,000 car",
+     "3 yrs, 58% residual",
+     "Bet: $23,200 at end"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You pay the $16,800 drop: $16,800 / 36 = about $467 a month.",
+   "say": "You pay the sixteen thousand eight hundred dollar drop, about four hundred sixty-seven dollars a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Value lost",
+     "value": "$16,800"
+    },
+    "to": {
+     "label": "Per month",
+     "value": "$467"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The money factor (about 6% interest) adds $158 a month: ($40,000 + $23,200) x 0.0025.",
+   "say": "The money factor, about six percent interest, adds a hundred fifty-eight dollars a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Interest per month",
+    "value": "+$158",
+    "tone": "neutral",
+    "sub": "Example, ~6% APR",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The risk: in Q2 2008, falling truck and SUV values cost Ford Credit a $2.1 billion charge.",
+   "say": "The risk: in twenty oh eight, falling truck and S U V values cost Ford Credit a two point one billion dollar charge.",
+   "scene": {
+    "t": "news",
+    "headline": "$2.1B lease charge",
+    "source": "Ford Credit, Q2 2008",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then used prices spiked. Usually about 75% of leased cars come back, per Moody's. By mid-2022, about 10% did.",
+   "say": "Then used prices spiked. Usually about seventy-five percent of leased cars come back, per Moody's. By mid twenty twenty-two, about ten percent did.",
+   "scene": {
+    "t": "compare",
+    "title": "Leased cars returned",
+    "left": {
+     "label": "Usually",
+     "value": "~75%",
+     "tone": "neutral",
+     "sub": "Moody's Analytics"
+    },
+    "right": {
+     "label": "Mid-2022",
+     "value": "~10%",
+     "tone": "down",
+     "sub": "Used prices spiked"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many drivers bought at the preset price and kept the gain.",
+   "say": "Many drivers bought at the preset price and kept the gain.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Leased cars returned",
+    "left": {
+     "label": "Usually",
+     "value": "~75%",
+     "tone": "neutral",
+     "sub": "Moody's Analytics"
+    },
+    "right": {
+     "label": "Mid-2022",
+     "value": "~10%",
+     "tone": "down",
+     "sub": "Used prices spiked"
+    },
+    "winner": "right",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of 2025, GM Financial's leased cars carried $25.0 billion in estimated residual value (FY2025 10-K).",
+   "say": "At the end of twenty twenty-five, GM Financial's residual bets totaled twenty-five billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "GMF residual value",
+    "value": "$25.0B",
+    "tone": "neutral",
+    "sub": "Residuals, FY2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Every car lease is secretly a bet on a used car",
+  "ig": "Every car lease is secretly a bet on a used car.\n\nExample: a $40,000 car, 36 months, 58% residual. The lessor bets it's worth $23,200 later; you pay the $16,800 drop (about $467/month) plus a money factor (about 6% APR here, $158/month).\nIn Q2 2008, falling truck and SUV values cost Ford Credit a $2.1B lease charge.\nMoody's: about 75% of leased cars usually come back; by mid-2022, about 10% did, as many drivers bought at the preset price.\nGM Financial's leased cars carried $25.0B in estimated residual value at the end of 2025; its 10-K says a 1% drop in residuals would add about $250M in depreciation.\n\nSources: Ford Credit 2008 filings, GM FY2025 10-K, Moody's Analytics (2023).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#carlease #cars #howtheymakemoney #business #financeprostv",
+  "tiktok": "Every car lease is secretly a bet on a used car. Not financial advice. #moneytok #personalfinance #carlease #cars #financeprostv",
+  "yt_desc": "A car lease is a bet on what the car will be worth later: the residual value. In a $40,000, 36-month example with a 58% residual, you pay the $16,800 drop plus interest, while the lessor typically carries the resale risk, which cost Ford Credit a $2.1B charge in 2008 and flipped in 2022 when, per Moody's, only about 10% of leased cars came back. GM Financial's leased cars carried $25.0B in estimated residual value at the end of 2025 (FY2025 10-K). News and education, not financial advice.\n#Shorts #carlease #business",
+  "tags": [
+   "car leasing",
+   "residual value",
+   "how leasing works",
+   "GM Financial",
+   "Ford Credit"
+  ]
+ }
+}
