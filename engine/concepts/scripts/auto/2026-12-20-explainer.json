@@ -1,0 +1,235 @@
+{
+ "id": "2026-12-20-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Tax extensions:\nfile later, pay now",
+ "cover": {
+  "title": "Zero Extra Days to Pay",
+  "prop": "paper",
+  "label": "4868",
+  "value": "0 days"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A tax extension gives you zero extra days to pay.",
+   "say": "A tax extension gives you zero extra days to pay.",
+   "scene": {
+    "t": "hook",
+    "title": "Zero days to [pay]",
+    "prop": "paper",
+    "label": "4868",
+    "value": "0 days",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026 taxes, the return and payment are both due April 15, 2027.",
+   "say": "For 2026 taxes, the return and payment are both due April fifteenth, 2027.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Apr15",
+      "Return and tax due"
+     ],
+     [
+      "Oct15",
+      "Extended return due"
+     ]
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Form 4868 moves only the paperwork, to October 15.",
+   "say": "Form forty-eight sixty-eight moves only the paperwork, to October fifteenth.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Apr15",
+      "Return and tax due"
+     ],
+     [
+      "Oct15",
+      "Extended return due"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Unpaid tax collects IRS interest from April: 7% a year as of late 2026.",
+   "say": "Unpaid tax collects I R S interest from April: seven percent a year as of late 2026.",
+   "scene": {
+    "t": "chart",
+    "title": "IRS rate each Jan",
+    "points": [
+     [
+      2022,
+      3
+     ],
+     [
+      2023,
+      7
+     ],
+     [
+      2024,
+      8
+     ],
+     [
+      2025,
+      7
+     ],
+     [
+      2026,
+      7
+     ]
+    ],
+    "suffix": "%",
+    "end": "7%",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then penalties: filing late costs 5% a month, paying late 0.5%.",
+   "say": "Then penalties: filing late costs five percent a month, paying late half a percent.",
+   "scene": {
+    "t": "compare",
+    "title": "IRS monthly penalty",
+    "left": {
+     "label": "Late filing",
+     "value": "5%/mo",
+     "tone": "down",
+     "sub": "max 25%"
+    },
+    "right": {
+     "label": "Late paying",
+     "value": "0.5%/mo",
+     "tone": "neutral",
+     "sub": "max 25%"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS says the filing penalty is usually 10 times bigger.",
+   "say": "The I R S says the filing penalty is usually ten times bigger.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "IRS monthly penalty",
+    "left": {
+     "label": "Late filing",
+     "value": "5%/mo",
+     "tone": "down",
+     "sub": "max 25%"
+    },
+    "right": {
+     "label": "Late paying",
+     "value": "0.5%/mo",
+     "tone": "neutral",
+     "sub": "max 25%"
+    },
+    "winner": "right",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: someone owes $4,000 and files and pays 5 months late.",
+   "say": "Say someone owes four thousand dollars and files and pays five months late.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example: owe $4,000",
+     "Filed+paid 5 mo late",
+     "Interest extra"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No extension? $1,000 in penalties. Extension filed on time? $100.",
+   "say": "No extension? One thousand dollars in penalties. Extension filed on time? One hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Penalties, 5 mo",
+    "left": {
+     "label": "No extension",
+     "value": "$1,000",
+     "tone": "down",
+     "sub": "25% of $4,000"
+    },
+    "right": {
+     "label": "Extension",
+     "value": "$100",
+     "tone": "up",
+     "sub": "2.5% of $4,000"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Getting one takes Form 4868 or an online payment marked as an extension. State rules differ.",
+   "say": "Getting one takes Form forty-eight sixty-eight or an online payment marked as an extension. State rules differ.",
+   "scene": {
+    "t": "list",
+    "title": "Get an extension",
+    "items": [
+     "File Form 4868",
+     "Pay as extension",
+     "Check your state"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The extension can't delay the bill, but it can shrink the penalty.",
+   "say": "The extension can't delay the bill, but it can shrink the penalty.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Filing: by Oct 15",
+     "Paying: still Apr 15"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "A tax extension gives you zero extra days to pay",
+  "ig": "A tax extension gives you zero extra days to pay.\n\nFor 2026 taxes, returns and payments are due April 15, 2027; Form 4868 moves only the filing deadline, to October 15, 2027.\nUnpaid tax collects IRS interest from April 15 (7% a year as of late 2026) plus a late-payment penalty of 0.5% a month.\nThe late-filing penalty is 5% a month, about 10 times bigger. Example: owe $4,000, file and pay 5 months late: $1,000 in penalties with no extension vs $100 with one (interest not included).\n\nSources: IRS failure-to-file and failure-to-pay penalty pages; IRS IR-2026-98 (Q4 2026 interest); IRS extension guidance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#taxes #taxextension #irs #personalfinance #financeprostv",
+  "tiktok": "A tax extension gives you zero extra days to pay. Not financial advice. #moneytok #personalfinance #taxes #taxextension #financeprostv",
+  "yt_desc": "Form 4868 moves the filing deadline for 2026 returns from April 15 to October 15, 2027, but the tax is still due April 15, with IRS interest (7% as of late 2026) and a 0.5% monthly late-payment penalty on any unpaid balance. The late-filing penalty is 5% a month, so in an example of owing $4,000 and paying 5 months late, penalties are $1,000 with no extension versus $100 with one (sources: IRS penalty pages, IR-2026-98). News and education, not financial advice.\n#Shorts #taxes #personalfinance",
+  "tags": [
+   "tax extension",
+   "form 4868",
+   "irs penalties",
+   "failure to file penalty",
+   "tax deadline"
+  ]
+ }
+}
