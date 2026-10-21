@@ -1,0 +1,171 @@
+{
+ "id": "2026-12-20-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Money Myth:\nThe Free Paid-Off Home",
+ "cover": {
+  "title": "Is a Paid-Off House Free?",
+  "prop": "house",
+  "label": "PAID",
+  "value": "$873/mo"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Paid off your house? You still pay rent. To the county.",
+   "say": "Paid off your house? You still pay rent. To the county.",
+   "scene": {
+    "t": "hook",
+    "title": "Paid off, not [free]",
+    "prop": "house",
+    "label": "PAID",
+    "value": "$873/mo",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "ATTOM: the average US single-family property tax bill was $4,427 in 2025.",
+   "say": "ATTOM says the average property tax bill was about forty-four hundred dollars in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg property tax",
+    "value": "$4,427",
+    "tone": "down",
+    "sub": "ATTOM, US, 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Up from $3,785 in 2021.",
+   "say": "Up from about thirty-eight hundred in twenty twenty-one.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg property tax bill",
+    "points": [
+     [
+      2021,
+      3785
+     ],
+     [
+      2022,
+      3901
+     ],
+     [
+      2023,
+      4062
+     ],
+     [
+      2024,
+      4300
+     ],
+     [
+      2025,
+      4427
+     ]
+    ],
+    "prefix": "$",
+    "end": "$4,427",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurance averaged $2,872 a year in 2026 (quotes for $300K of dwelling coverage), per Insurance.com.",
+   "say": "Insurance averaged about twenty-nine hundred in twenty twenty-six, per Insurance dot com.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg home insurance",
+    "value": "$2,872",
+    "tone": "down",
+    "sub": "Insurance.com 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add a 1% upkeep rule of thumb: a $400K example home runs $3,600 in tax (0.9%), plus $2,872 insurance, plus $4,000 upkeep.",
+   "say": "Add a one percent upkeep rule of thumb, and a four hundred thousand dollar example home runs thirty-six hundred in tax, plus insurance, plus four thousand in upkeep.",
+   "scene": {
+    "t": "list",
+    "title": "$400K example home",
+    "items": [
+     "Tax 0.9%: $3,600",
+     "Insure: $2,872",
+     "Upkeep: $4,000"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $10,472 a year, or about $873 a month.",
+   "say": "That's about ten thousand five hundred a year, or eight hundred seventy-three dollars a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Example cost/year",
+    "value": "$10,472",
+    "tone": "down",
+    "sub": "about $873 a month",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Skip the taxes long enough and the county can take it. One Minnesota county seized a condo over about $15,000 in tax debt and penalties.",
+   "say": "Skip the taxes long enough and the county can take it. One Minnesota county seized a condo over a fifteen-thousand-dollar debt.",
+   "scene": {
+    "t": "news",
+    "headline": "Seized for $15K debt",
+    "source": "Tyler v. Hennepin County, 2023",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It kept the extra $25,000, until the Supreme Court ruled 9-0 in 2023 that it couldn't.",
+   "say": "It kept the extra twenty-five thousand, until the Supreme Court ruled nine to zero in twenty twenty-three that it couldn't.",
+   "scene": {
+    "t": "compare",
+    "title": "Tyler v. Hennepin",
+    "left": {
+     "label": "Tax owed",
+     "value": "$15K",
+     "tone": "neutral",
+     "sub": "taxes + penalties"
+    },
+    "right": {
+     "label": "County kept",
+     "value": "+$25K",
+     "tone": "down",
+     "sub": "unconstitutional"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "A paid-off $400K house can still cost $873 a month",
+  "ig": "Paid off your house? You still pay rent. To the county.\nATTOM: the average US single-family property tax bill was $4,427 in 2025, up from $3,785 in 2021.\nInsurance.com put the average 2026 homeowners premium at $2,872 a year (for $300K dwelling coverage); a common upkeep rule of thumb is about 1% of value a year.\nExample $400K home: $3,600 tax + $2,872 insurance + $4,000 upkeep = $10,472 a year, about $873 a month.\nUnpaid property taxes can lead to tax foreclosure, as in Tyler v. Hennepin County (2023).\nSources: ATTOM 2025 property tax report; Insurance.com 2026; US Supreme Court, Tyler v. Hennepin County (2023).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#moneymyth #homeownership #propertytax #personalfinance #financeprostv",
+  "tiktok": "Paid-off house = free? Example: about $873/mo in tax, insurance, upkeep. Not financial advice. #moneytok #personalfinance #propertytax #financeprostv",
+  "yt_desc": "A paid-off home isn't free: ATTOM says the average US single-family property tax bill was $4,427 in 2025, and Insurance.com put the average 2026 homeowners premium at $2,872. A hypothetical $400,000 home with 1% upkeep costs about $10,472 a year, and in Tyler v. Hennepin County (2023) a county took a condo over about $15,000 in taxes, penalties and interest, then kept the $25,000 surplus until the Supreme Court ruled 9-0 that it couldn't. News and education, not financial advice. #Shorts #propertytax #personalfinance",
+  "tags": [
+   "paid off house",
+   "property tax",
+   "homeowners insurance",
+   "money myth",
+   "cost of owning a home"
+  ]
+ }
+}
