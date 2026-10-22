@@ -1,0 +1,199 @@
+{
+  "series": "acorn",
+  "header": "Acorn Economics\nThe $5,000 ask",
+  "cover": {
+    "title": "One Ask, $237,877 More Pay",
+    "prop": "acorns",
+    "label": "$5K",
+    "value": "$237,877"
+  },
+  "lines": [
+    {
+      "who": "nutty",
+      "text": "A $5,000 ask can add up to about $238,000 in pay.",
+      "say": "A five-thousand-dollar ask can add up to two hundred thirty-eight thousand.",
+      "scene": {
+        "t": "hook",
+        "title": "The $5K [ask]",
+        "prop": "acorns",
+        "label": "$5K",
+        "value": "$237,877",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Example: one squirrel takes $60,000. Another asks and gets $65,000.",
+      "say": "Made-up example: one squirrel takes sixty thousand dollars. Another asks and gets sixty-five thousand.",
+      "scene": {
+        "t": "compare",
+        "title": "Starting pay",
+        "left": {
+          "label": "Didn't ask",
+          "value": "$60,000",
+          "tone": "neutral",
+          "sub": "example offer"
+        },
+        "right": {
+          "label": "Asked",
+          "value": "$65,000",
+          "tone": "up",
+          "sub": "+$5,000"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Both get 3% raises a year for 30 years.",
+      "say": "Both get three percent raises a year for thirty years.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Example assumptions",
+          "3% raise every year",
+          "for 30 years"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Raises are percentages of a bigger pile, so the gap grows to about $11,800 a year.",
+      "say": "Raises are percentages of a bigger pile, so the gap grows to about eleven thousand eight hundred a year.",
+      "scene": {
+        "t": "chart",
+        "title": "Yearly gap (example)",
+        "points": [
+          [
+            1,
+            5000
+          ],
+          [
+            5,
+            5628
+          ],
+          [
+            9,
+            6334
+          ],
+          [
+            13,
+            7129
+          ],
+          [
+            17,
+            8024
+          ],
+          [
+            21,
+            9031
+          ],
+          [
+            25,
+            10164
+          ],
+          [
+            30,
+            11783
+          ]
+        ],
+        "prefix": "$",
+        "end": "$11.8K",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Over 30 years, that's $237,877 more, before taxes.",
+      "say": "Over thirty years, that's two hundred thirty-seven thousand, eight hundred seventy-seven dollars more, before taxes.",
+      "scene": {
+        "t": "stat",
+        "label": "30-year pay gap",
+        "value": "$237,877",
+        "tone": "up",
+        "sub": "example, pre-tax",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel also plants 10% of each year's gap in a 401(k), half from an employer match.",
+      "say": "Squirrel also plants ten percent of each year's gap in a four-oh-one-k, half from an employer match.",
+      "scene": {
+        "t": "squirrel",
+        "kind": "plant",
+        "caption": "10% into a 401(k)",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Assuming 6% yearly growth, that's about $55,270.",
+      "say": "Assuming six percent yearly growth, that's about fifty-five thousand.",
+      "scene": {
+        "t": "squirrel",
+        "kind": "tree",
+        "caption": "$55,270 by year 30",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "But a 2023 Pew survey found 32% of men and 28% of women asked for more when last hired.",
+      "say": "But a twenty twenty-three Pew survey found thirty-two percent of men and twenty-eight percent of women asked for more when last hired.",
+      "scene": {
+        "t": "compare",
+        "title": "Asked for more pay",
+        "left": {
+          "label": "Men",
+          "value": "32%",
+          "tone": "neutral",
+          "sub": "Pew, 2023"
+        },
+        "right": {
+          "label": "Women",
+          "value": "28%",
+          "tone": "neutral",
+          "sub": "Pew, 2023"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Of those who asked, 66% got more than first offered.",
+      "say": "Of those who asked, sixty-six percent got more than first offered.",
+      "scene": {
+        "t": "stat",
+        "label": "Askers paid more",
+        "value": "66%",
+        "tone": "up",
+        "sub": "Pew 2023: 28%+38%",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel explained salary negotiation. Squirrel would like one follow.",
+      "say": "Squirrel explained salary negotiation. Squirrel would like one follow.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "How a $5,000 salary ask adds up to $237,877 over 30 years",
+    "ig": "A $5,000 ask can add up to about $238,000 in pay.\n\nExample: a $65,000 start vs. $60,000, both with 3% raises for 30 years. The yearly gap grows from $5,000 to $11,783, and the total gap is $237,877 before taxes.\nPut 10% of each year's gap in a 401(k) (half employer match) at an assumed 6% a year: about $55,270 extra after 30 years.\nIn a 2023 Pew survey, 32% of men and 28% of women asked for more pay when last hired; 66% of those who asked got more than the first offer.\n\nSources: Pew Research Center (April 2023); example math by FinancePros TV with stated assumptions.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#salarynegotiation #acorneconomics #careers #personalfinance #financeprostv",
+    "tiktok": "A $5K ask: $237,877 more pay over 30 years (example, 3% raises). Not financial advice. #moneytok #personalfinance #salary #careertok #financeprostv",
+    "yt_desc": "In a made-up example, a $65,000 starting salary versus $60,000, both with 3% annual raises, adds up to $237,877 more pay over 30 years before taxes, and 10% of that gap in a 401(k) at an assumed 6% a year grows to about $55,270. A 2023 Pew Research Center survey found 32% of men and 28% of women asked for more pay when last hired, and 66% of those who asked got more than the first offer. News and education, not financial advice.\n#Shorts #salary #personalfinance",
+    "tags": [
+      "salary negotiation",
+      "starting salary compounding",
+      "Pew salary survey",
+      "401k employer match",
+      "Acorn Economics"
+    ]
+  }
+}
