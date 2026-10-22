@@ -1,0 +1,1632 @@
+{
+ "id": "2026-12-21-lf-explained",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "Wealth on a normal\nsalary: the math",
+ "cover": {
+  "title": "10 Early Years Beat 30.",
+  "prop": "bag",
+  "label": "25-35",
+  "value": "$631K"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "10 years of saving at 25 can beat 30 years at 35.",
+   "say": "Ten years of saving at twenty-five can beat thirty years at thirty-five.",
+   "scene": {
+    "t": "hook",
+    "title": "[10] years beats 30",
+    "prop": "bag",
+    "label": "25-35",
+    "value": "10 > 30",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two savers, same $6,000 a year. One stops after just 10 years and still ends up with more.",
+   "say": "Two savers put in the same six thousand dollars a year. One stops after just ten years, and still ends up with more money.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $6,000 a year",
+    "left": {
+     "label": "Ages 25-35",
+     "value": "$631K",
+     "tone": "up",
+     "sub": "Put in $60,000"
+    },
+    "right": {
+     "label": "Ages 35-65",
+     "value": "$567K",
+     "tone": "down",
+     "sub": "Put in $180,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About $631,000 versus about $567,000 at age 65, assuming 7% a year.",
+   "say": "At sixty-five, it's about six hundred thirty-one thousand dollars versus about five hundred sixty-seven thousand, assuming seven percent a year.",
+   "scene": {
+    "t": "compare",
+    "title": "Same $6,000 a year",
+    "left": {
+     "label": "Ages 25-35",
+     "value": "$631K",
+     "tone": "up",
+     "sub": "Put in $60,000"
+    },
+    "right": {
+     "label": "Ages 35-65",
+     "value": "$567K",
+     "tone": "down",
+     "sub": "Put in $180,000"
+    },
+    "winner": "left",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No stock tips. No lucky timing. Just a formula, a normal paycheck, and time.",
+   "say": "No stock tips. No lucky timing. Just a formula, a normal paycheck, and time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No tips.",
+     "No luck.",
+     "Just math + time"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The typical full-time worker in America earned $1,251 a week in the second quarter of 2026.",
+   "say": "The typical full-time worker in America earned one thousand two hundred fifty-one dollars a week in the second quarter of twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Median weekly pay",
+    "value": "$1,251",
+    "tone": "neutral",
+    "sub": "BLS, Q2 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Times 52, that's about $65,000 a year. A normal salary, not a tech fortune.",
+   "say": "Multiply by fifty-two and that's about sixty-five thousand dollars a year. A normal salary, not a tech fortune.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per week",
+     "value": "$1,251"
+    },
+    "to": {
+     "label": "Per year",
+     "value": "$65,052"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll do the real math on the four numbers that decide whether a paycheck like that builds wealth.",
+   "say": "So let's do the real math on the four numbers that decide whether a paycheck like that builds wealth.",
+   "scene": {
+    "t": "list",
+    "title": "The four levers",
+    "items": [
+     "Savings rate",
+     "Time",
+     "Fees",
+     "Debt"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick note: this is education, not financial advice. Every example spells out its assumptions.",
+   "say": "Quick note: this is education, not financial advice, and every example spells out its assumptions.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education,",
+     "not advice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: The real lever.",
+   "say": "Chapter one: the real lever.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The real lever"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most people think wealth comes from picking the perfect investment. On a normal salary, the math points somewhere else.",
+   "say": "Most people think wealth comes from picking the perfect investment. On a normal salary, the math points somewhere else.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Picking winners?",
+     "Or saving more?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest lever is your savings rate: the share of each paycheck that you keep instead of spend.",
+   "say": "The biggest lever is your savings rate. That's the share of each paycheck you keep instead of spend.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Savings rate =",
+     "saved / income"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Across the US, people saved 4.1% of their after-tax income in August 2026, according to the BEA.",
+   "say": "Across the whole country, people saved four point one percent of their after-tax income in August twenty twenty-six, according to the Bureau of Economic Analysis.",
+   "scene": {
+    "t": "stat",
+    "label": "US saving rate",
+    "value": "4.1%",
+    "tone": "down",
+    "sub": "BEA, Aug 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Inside workplace plans, Vanguard found the average worker put in 7.6% of pay in 2025, or 12.1% counting employer money.",
+   "say": "Inside workplace retirement plans, Vanguard found the average worker put in seven point six percent of pay in twenty twenty-five, or twelve point one percent counting employer money.",
+   "scene": {
+    "t": "compare",
+    "title": "401(k) saving, 2025",
+    "left": {
+     "label": "Worker only",
+     "value": "7.6%",
+     "tone": "neutral",
+     "sub": "Avg deferral"
+    },
+    "right": {
+     "label": "With employer",
+     "value": "12.1%",
+     "tone": "up",
+     "sub": "Avg total rate"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's use a round example: a $60,000 salary, a bit below that typical full-time pay.",
+   "say": "So let's use a round example: a salary of sixty thousand dollars, which is a bit below that typical full-time pay.",
+   "scene": {
+    "t": "stat",
+    "label": "Example salary",
+    "value": "$60,000",
+    "tone": "neutral",
+    "sub": "Our example"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saving 10% means $6,000 a year. Saving 15% means $9,000 a year.",
+   "say": "Saving ten percent means six thousand dollars a year. Saving fifteen percent means nine thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "$60,000 salary",
+    "left": {
+     "label": "Save 10%",
+     "value": "$6,000",
+     "tone": "neutral",
+     "sub": "per year"
+    },
+    "right": {
+     "label": "Save 15%",
+     "value": "$9,000",
+     "tone": "up",
+     "sub": "per year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For growth, we'll assume 7% a year, close to the stock market's long-run return after inflation. So results are roughly in today's dollars.",
+   "say": "For growth, we'll assume seven percent a year. That's close to the stock market's long-run return after inflation, so the results are roughly in today's dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Assumed return:",
+     "7% a year",
+     "(after inflation)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's an assumption, not a promise. We'll stress-test it before the end.",
+   "say": "And it's an assumption, not a promise. We'll stress-test it before the end.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "An assumption,",
+     "not a promise"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After 30 years, saving 10% grows to about $567,000. Saving 15% grows to about $850,000.",
+   "say": "After thirty years, saving ten percent grows to about five hundred sixty-seven thousand dollars. Saving fifteen percent grows to about eight hundred fifty thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "After 30 years",
+    "left": {
+     "label": "Save 10%",
+     "value": "$567K",
+     "tone": "neutral",
+     "sub": "$6,000 a year"
+    },
+    "right": {
+     "label": "Save 15%",
+     "value": "$850K",
+     "tone": "up",
+     "sub": "$9,000 a year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Five extra percent of pay, $250 a month, adds about $283,000.",
+   "say": "Five extra percent of pay, which is two hundred fifty dollars a month, adds about two hundred eighty-three thousand dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "After 30 years",
+    "left": {
+     "label": "Save 10%",
+     "value": "$567K",
+     "tone": "neutral",
+     "sub": "$6,000 a year"
+    },
+    "right": {
+     "label": "Save 15%",
+     "value": "$850K",
+     "tone": "up",
+     "sub": "$9,000 a year"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that extra $283,000 comes from only $90,000 of extra deposits. The rest is growth.",
+   "say": "And that extra two hundred eighty-three thousand comes from only ninety thousand dollars of extra deposits. The rest is pure growth.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra deposits",
+    "value": "$90,000",
+    "tone": "neutral",
+    "sub": "30 years x $3,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The savings rate is the one number you control every single month, no matter what the market does.",
+   "say": "It's the one number you control every single month, no matter what the market does.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You control it",
+     "every month"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: How compounding works.",
+   "say": "Chapter two: how compounding works.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "How compounding works"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the formula behind every number in this video.",
+   "say": "Here's the formula behind every number in this video.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "FV = P x",
+     "((1+r)^n - 1) / r"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "P is what you put in each year, r is the yearly return, and n is the number of years.",
+   "say": "P is what you put in each year, r is the yearly return, and n is the number of years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "P = yearly deposit",
+     "r = return (0.07)",
+     "n = years"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The key piece is (1 + r) to the power of n. That's growth earning growth on top of itself.",
+   "say": "The key piece is one plus r, raised to the power of n. That's growth earning more growth on top of itself.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "(1.07)^n",
+     "growth on growth"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 7%, money roughly doubles every 10 years. 1.07 to the 10th power is about 1.97.",
+   "say": "At seven percent, money roughly doubles every ten years. One point oh seven to the tenth power is about one point nine seven.",
+   "scene": {
+    "t": "stat",
+    "label": "1.07 to the 10th",
+    "value": "x1.97",
+    "tone": "up",
+    "sub": "about double"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Rule of 72 gives the same shortcut: 72 divided by 7 is about 10 years.",
+   "say": "The rule of seventy-two gives you the same shortcut. Seventy-two divided by seven is about ten years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rule of 72:",
+     "72 / 7 = ~10 years"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 30 years, one dollar grows to about $7.61. Over 40 years, it's almost $15.",
+   "say": "Over thirty years, one dollar grows to about seven dollars and sixty-one cents. Over forty years, it's almost fifteen dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "One dollar grows to",
+    "left": {
+     "label": "30 years",
+     "value": "$7.61",
+     "tone": "up",
+     "sub": "1.07 ^ 30"
+    },
+    "right": {
+     "label": "40 years",
+     "value": "$14.97",
+     "tone": "up",
+     "sub": "1.07 ^ 40"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those last 10 years nearly double everything, which is why the start date matters so much.",
+   "say": "Those last ten years nearly double everything, and that's why the start date matters so much.",
+   "scene": {
+    "t": "compare",
+    "title": "One dollar grows to",
+    "left": {
+     "label": "30 years",
+     "value": "$7.61",
+     "tone": "up",
+     "sub": "1.07 ^ 30"
+    },
+    "right": {
+     "label": "40 years",
+     "value": "$14.97",
+     "tone": "up",
+     "sub": "1.07 ^ 40"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the big one. Both save $6,000 a year until 65. One starts at 25, the other at 35.",
+   "say": "Now the big one. Both people save six thousand dollars a year until sixty-five. One starts at twenty-five, the other at thirty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Save $6,000 a year",
+    "left": {
+     "label": "Start at 25",
+     "value": "$1.2M",
+     "tone": "up",
+     "sub": "40 years to 65"
+    },
+    "right": {
+     "label": "Start at 35",
+     "value": "$567K",
+     "tone": "down",
+     "sub": "30 years to 65"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The early starter ends with about $1.2 million. The later starter ends with about $567,000.",
+   "say": "The early starter ends up with about one point two million dollars. The later starter ends up with about five hundred sixty-seven thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Save $6,000 a year",
+    "left": {
+     "label": "Start at 25",
+     "value": "$1.2M",
+     "tone": "up",
+     "sub": "40 years to 65"
+    },
+    "right": {
+     "label": "Start at 35",
+     "value": "$567K",
+     "tone": "down",
+     "sub": "30 years to 65"
+    },
+    "winner": "left",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more than double the money, from just $60,000 more in deposits.",
+   "say": "That's more than double the money, from just sixty thousand dollars more in deposits.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra deposits",
+    "value": "$60,000",
+    "tone": "neutral",
+    "sub": "10 more years"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And here's the part that surprises almost everyone.",
+   "say": "And here's the part that surprises almost everyone.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The twist"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saver A puts in $6,000 a year only from 25 to 35, then stops for good. Saver B saves $6,000 every year from 35 to 65.",
+   "say": "Saver A puts in six thousand dollars a year only from twenty-five to thirty-five, then stops for good. Saver B saves six thousand every single year from thirty-five to sixty-five.",
+   "scene": {
+    "t": "split",
+    "title": "Two savers",
+    "left": {
+     "title": "Saver A",
+     "items": [
+      "Saves 25 to 35",
+      "Then stops",
+      "Puts in $60,000"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Saver B",
+     "items": [
+      "Saves 35 to 65",
+      "Never stops",
+      "Puts in $180,000"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 65, Saver A has about $631,000. Saver B has about $567,000.",
+   "say": "At sixty-five, Saver A has about six hundred thirty-one thousand dollars. Saver B has about five hundred sixty-seven thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "At age 65",
+    "left": {
+     "label": "Saver A",
+     "value": "$631K",
+     "tone": "up",
+     "sub": "Put in $60,000"
+    },
+    "right": {
+     "label": "Saver B",
+     "value": "$567K",
+     "tone": "down",
+     "sub": "Put in $180,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saver A put in one third as much and still wins. Ten years of early saving beat thirty years of late saving.",
+   "say": "Saver A put in one third as much money and still wins. Ten years of early saving beat thirty years of late saving.",
+   "scene": {
+    "t": "compare",
+    "title": "At age 65",
+    "left": {
+     "label": "Saver A",
+     "value": "$631K",
+     "tone": "up",
+     "sub": "Put in $60,000"
+    },
+    "right": {
+     "label": "Saver B",
+     "value": "$567K",
+     "tone": "down",
+     "sub": "Put in $180,000"
+    },
+    "winner": "left",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? Those early deposits get 30 extra years to compound. At 7%, that's about three doublings.",
+   "say": "Why? Those early deposits get thirty extra years to compound. At seven percent, that's about three doublings.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "30 extra years",
+     "= ~3 doublings"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you're past 25, this isn't a too-late story. The math simply rewards whatever head start is still available.",
+   "say": "And if you're past twenty-five, this isn't a too-late story. The math simply rewards whatever head start is still available.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not too late.",
+     "Just earlier =",
+     "more growth"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Free money, hidden costs.",
+   "say": "Chapter three: free money, hidden costs.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Free money, hidden costs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two numbers hide in the benefits paperwork most people skim: the employer match and the fund fees.",
+   "say": "Two big numbers hide in the benefits paperwork most people skim: the employer match, and the fund fees.",
+   "scene": {
+    "t": "list",
+    "title": "Hidden numbers",
+    "items": [
+     "Employer match",
+     "Fund fees"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Vanguard's plans, about 96% made some kind of employer contribution in 2025.",
+   "say": "Start with the match. In Vanguard's plans, about ninety-six percent made some kind of employer contribution in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Plans adding money",
+    "value": "96%",
+    "tone": "up",
+    "sub": "Vanguard, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Common formulas match 50 cents or a full dollar per dollar you put in, up to a cap that's often 6% of pay.",
+   "say": "Common formulas match fifty cents or a full dollar for each dollar you put in, up to a cap that's often six percent of pay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "50% or 100% match",
+     "up to ~6% of pay"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: with a 50% match on up to 6% of a $60,000 salary, putting in $3,600 brings $1,800 a year from the employer.",
+   "say": "For example, with a fifty percent match on up to six percent of a sixty thousand dollar salary, putting in three thousand six hundred dollars brings in eighteen hundred a year from the employer.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You put in 6%",
+     "value": "$3,600"
+    },
+    "to": {
+     "label": "Employer adds",
+     "value": "$1,800"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That match is part of your pay. It just only shows up when you contribute.",
+   "say": "That match is really part of your pay. It just only shows up when you contribute.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The match is pay",
+     "you have to claim"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On its own, $1,800 a year at 7% for 30 years grows to about $170,000.",
+   "say": "On its own, eighteen hundred dollars a year, growing at seven percent for thirty years, becomes about one hundred seventy thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Match, 30 years",
+    "value": "$170K",
+    "tone": "up",
+    "sub": "$1,800/yr at 7%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add it to a 10% saver's $6,000 and the total, $7,800 a year, grows to about $737,000.",
+   "say": "Add it to a ten percent saver's six thousand, and the total of seven thousand eight hundred a year grows to about seven hundred thirty-seven thousand dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Saved per year",
+     "value": "$7,800"
+    },
+    "to": {
+     "label": "After 30 years",
+     "value": "$737K"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the second hidden number: fees.",
+   "say": "Now the second hidden number: fees.",
+   "scene": {
+    "t": "list",
+    "title": "Hidden numbers",
+    "items": [
+     "Employer match",
+     "Fund fees"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every fund charges an expense ratio: a yearly fee taken as a percent of your balance.",
+   "say": "Every fund charges an expense ratio. That's a yearly fee, taken as a percent of your whole balance.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Expense ratio =",
+     "yearly % of balance"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It sounds tiny: 1% versus 0.05%. But it's charged every year, on a pile that keeps growing.",
+   "say": "It sounds tiny: one percent versus five hundredths of a percent. But it's charged every year, on a pile that keeps growing.",
+   "scene": {
+    "t": "compare",
+    "title": "Yearly fee",
+    "left": {
+     "label": "Fund A",
+     "value": "1%",
+     "tone": "down",
+     "sub": "Higher fee"
+    },
+    "right": {
+     "label": "Fund B",
+     "value": "0.05%",
+     "tone": "up",
+     "sub": "Low fee"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saving $9,000 a year for 30 years: about $712,000 with the 1% fee, about $843,000 with the 0.05% fee.",
+   "say": "Saving nine thousand dollars a year for thirty years, you'd have about seven hundred twelve thousand with the one percent fee, and about eight hundred forty-three thousand with the tiny fee.",
+   "scene": {
+    "t": "compare",
+    "title": "$9,000/yr, 30 years",
+    "left": {
+     "label": "1% fee",
+     "value": "$712K",
+     "tone": "down",
+     "sub": "Grows 6% a year"
+    },
+    "right": {
+     "label": "0.05% fee",
+     "value": "$843K",
+     "tone": "up",
+     "sub": "Grows 6.95% a year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That 1% costs about $131,000. Same saver, same market, different fee.",
+   "say": "That one percent fee costs about one hundred thirty-one thousand dollars. Same saver, same market, just a different fee.",
+   "scene": {
+    "t": "compare",
+    "title": "$9,000/yr, 30 years",
+    "left": {
+     "label": "1% fee",
+     "value": "$712K",
+     "tone": "down",
+     "sub": "Grows 6% a year"
+    },
+    "right": {
+     "label": "0.05% fee",
+     "value": "$843K",
+     "tone": "up",
+     "sub": "Grows 6.95% a year"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For context, ICI says the average stock mutual fund charged 0.40% in 2024, down sharply since the 1990s.",
+   "say": "For context, the Investment Company Institute says the average stock mutual fund charged about four tenths of a percent in twenty twenty-four, way down since the nineteen nineties.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg stock fund fee",
+    "value": "0.40%",
+    "tone": "neutral",
+    "sub": "ICI, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Defense comes first.",
+   "say": "Chapter four: defense comes first.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Defense comes first"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of that compounding works if one surprise bill knocks you off track.",
+   "say": "None of that compounding math works if one surprise bill knocks you off track.",
+   "scene": {
+    "t": "hook",
+    "title": "One [surprise] bill",
+    "prop": "fire",
+    "label": "BILL",
+    "value": "$400",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the Fed's survey for 2025, 63% of adults said they'd cover a surprise $400 expense with cash or its equivalent.",
+   "say": "In the Federal Reserve's survey for twenty twenty-five, sixty-three percent of adults said they'd cover a surprise four hundred dollar expense with cash or its equivalent.",
+   "scene": {
+    "t": "stat",
+    "label": "Could cover $400",
+    "value": "63%",
+    "tone": "neutral",
+    "sub": "Fed SHED, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other 37% would borrow, sell something, or couldn't pay it at all.",
+   "say": "The other thirty-seven percent would have to borrow, sell something, or couldn't pay it at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "37%: borrow, sell,",
+     "or can't pay"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why an emergency fund usually comes first in the math: cash set aside for exactly this kind of surprise.",
+   "say": "That's why an emergency fund usually comes first in the plan. It's just cash, set aside for exactly this kind of surprise.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Emergency fund =",
+     "cash for surprises"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A common rule of thumb is three to six months of essential expenses. It's not exciting. That's the point.",
+   "say": "A common rule of thumb is three to six months of essential expenses. It's not exciting, and that's the point.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rule of thumb:",
+     "3-6 months",
+     "of essentials"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The second defense is high-interest debt. Card accounts paying interest averaged a 22.36% rate in August 2026, per the Fed.",
+   "say": "The second defense is high-interest debt. On card accounts that pay interest, the average rate was about twenty-two percent in August twenty twenty-six, according to the Federal Reserve.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg card rate",
+    "value": "22.36%",
+    "tone": "down",
+    "sub": "Fed G.19, Aug 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $5,000 balance, that's about $1,118 of interest in a year, before monthly compounding.",
+   "say": "On a five thousand dollar balance, that's about one thousand one hundred eighteen dollars of interest in a year, before monthly compounding.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Card balance",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "1 year interest",
+     "value": "$1,118"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our growth assumption was 7%, and that's not even guaranteed. Card interest runs about 22%, and it's charged for sure.",
+   "say": "Our growth assumption was seven percent, and that's not even guaranteed. Card interest runs about twenty-two percent, and it's charged for sure.",
+   "scene": {
+    "t": "compare",
+    "title": "Grow vs owe",
+    "left": {
+     "label": "Assumed growth",
+     "value": "7%",
+     "tone": "up",
+     "sub": "Not guaranteed"
+    },
+    "right": {
+     "label": "Card interest",
+     "value": "22.36%",
+     "tone": "down",
+     "sub": "Charged for sure"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So paying off a 22% balance works like earning a guaranteed 22% return. Few investments reliably match that.",
+   "say": "So paying off a twenty-two percent balance works like earning a guaranteed twenty-two percent return. Few investments reliably match that.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay off 22% debt",
+     "= sure 22% return"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Raises and tax breaks.",
+   "say": "Chapter five: raises and tax breaks.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Raises and tax breaks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the quiet enemy of a normal salary: lifestyle creep.",
+   "say": "Now for the quiet enemy of a normal salary: lifestyle creep.",
+   "scene": {
+    "t": "hook",
+    "title": "Lifestyle [creep]",
+    "prop": "car",
+    "label": "NEW",
+    "value": "+3%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You get a 3% raise, spending rises to match, and the savings rate never moves.",
+   "say": "You get a three percent raise, your spending quietly rises to match it, and your savings rate never moves.",
+   "scene": {
+    "t": "list",
+    "title": "Lifestyle creep",
+    "items": [
+     "Raise arrives",
+     "Spending rises",
+     "Savings flat"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a 3% raise on $60,000 is $1,800 a year.",
+   "say": "For example, a three percent raise on sixty thousand dollars is eighteen hundred dollars a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Old salary",
+     "value": "$60,000"
+    },
+    "to": {
+     "label": "After 3% raise",
+     "value": "$61,800"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If half of it, $900 a year, goes to savings, it grows to about $85,000 over 30 years at 7%.",
+   "say": "If half of that raise, nine hundred dollars a year, goes to savings instead, it grows to about eighty-five thousand dollars over thirty years at seven percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Half of one raise",
+    "value": "$85K",
+    "tone": "up",
+    "sub": "$900/yr, 30 yrs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the budget barely notices, because that money was never part of the spending.",
+   "say": "And the budget barely notices, because that money was never part of the spending in the first place.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Can't miss money",
+     "you never spent"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Repeat it with five 3% raises, and a 10% saver is saving 15.5% of pay.",
+   "say": "Repeat that with five raises of three percent each, and a ten percent saver ends up saving fifteen and a half percent of pay.",
+   "scene": {
+    "t": "compare",
+    "title": "Half of each raise",
+    "left": {
+     "label": "Start",
+     "value": "10%",
+     "tone": "neutral",
+     "sub": "of pay saved"
+    },
+    "right": {
+     "label": "After 5 raises",
+     "value": "15.5%",
+     "tone": "up",
+     "sub": "of pay saved"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other big boost comes from accounts with tax breaks, like a 401(k) or an IRA.",
+   "say": "The other big boost comes from accounts with tax breaks, like a 401(k) or an I R A.",
+   "scene": {
+    "t": "list",
+    "title": "Tax-advantaged",
+    "items": [
+     "401(k)",
+     "Traditional IRA",
+     "Roth IRA"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Traditional accounts cut taxes now and tax withdrawals later. Roth accounts flip it: tax now, tax-free qualified withdrawals later.",
+   "say": "Traditional accounts cut your taxes now and tax the withdrawals later. Roth accounts flip it: you pay tax now, and qualified withdrawals later are tax-free.",
+   "scene": {
+    "t": "split",
+    "title": "Two flavors",
+    "left": {
+     "title": "Traditional",
+     "items": [
+      "Tax break now",
+      "Taxed later"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Roth",
+     "items": [
+      "Taxed now",
+      "Tax-free later"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Either way, growth inside the account isn't taxed every year, so compounding runs without a yearly tax bite.",
+   "say": "Either way, growth inside the account isn't taxed every year, so the compounding runs without a yearly tax bite.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No yearly tax",
+     "on growth inside"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For 2026, the 401(k) limit is $24,500 and the IRA limit is $7,500.",
+   "say": "For twenty twenty-six, the 401(k) limit is twenty-four thousand five hundred dollars, and the I R A limit is seven thousand five hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 limits",
+    "left": {
+     "label": "401(k)",
+     "value": "$24,500",
+     "tone": "up",
+     "sub": "Employee deferral"
+    },
+    "right": {
+     "label": "IRA",
+     "value": "$7,500",
+     "tone": "up",
+     "sub": "Per person"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People 50 and older can add an $8,000 catch-up to a 401(k) for 2026.",
+   "say": "People fifty and older can add an eight thousand dollar catch-up contribution to a 401(k) for twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Catch-up, age 50+",
+    "value": "$8,000",
+    "tone": "up",
+    "sub": "401(k), 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS adjusts these limits for inflation most years, and posts each new year's figures at IRS.gov.",
+   "say": "The I R S adjusts these limits for inflation most years, and it posts each new year's figures at I R S dot gov.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Limits rise with",
+     "inflation most years"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Notice our $9,000 example sits far below that 401(k) limit. A normal salary doesn't need to hit the max to build wealth.",
+   "say": "And notice that our nine thousand dollar example sits far below that 401(k) limit. A normal salary doesn't need to hit the max to build wealth.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$9,000 vs $24,500",
+     "No max needed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The honest caveats.",
+   "say": "Chapter six: the honest caveats.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The honest caveats"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the fine print. That 7% assumption comes from history, and history is bumpy.",
+   "say": "Now for the fine print. That seven percent assumption comes from history, and history is bumpy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The fine print"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 1928 through 2025, the S&P 500 grew about 10% a year, compounded, with dividends, roughly 7% after inflation, per NYU's Aswath Damodaran.",
+   "say": "From nineteen twenty-eight through twenty twenty-five, the S and P five hundred grew about ten percent a year, compounded, with dividends reinvested, or roughly seven percent after inflation, based on data from N Y U professor Aswath Damodaran.",
+   "scene": {
+    "t": "compare",
+    "title": "S&P 500, 1928-2025",
+    "left": {
+     "label": "Before inflation",
+     "value": "~10%",
+     "tone": "up",
+     "sub": "per year, avg"
+    },
+    "right": {
+     "label": "After inflation",
+     "value": "~7%",
+     "tone": "up",
+     "sub": "per year, avg"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But look at the actual years. This is the S&P 500's total return each year, 2000 through 2025.",
+   "say": "But look at the actual years. This is the S and P five hundred's total return for each year from two thousand through twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 yearly return",
+    "points": [
+     [
+      2000,
+      -9.1
+     ],
+     [
+      2001,
+      -11.89
+     ],
+     [
+      2002,
+      -22.1
+     ],
+     [
+      2003,
+      28.68
+     ],
+     [
+      2004,
+      10.88
+     ],
+     [
+      2005,
+      4.91
+     ],
+     [
+      2006,
+      15.79
+     ],
+     [
+      2007,
+      5.49
+     ],
+     [
+      2008,
+      -37.0
+     ],
+     [
+      2009,
+      26.46
+     ],
+     [
+      2010,
+      15.06
+     ],
+     [
+      2011,
+      2.11
+     ],
+     [
+      2012,
+      16.0
+     ],
+     [
+      2013,
+      32.39
+     ],
+     [
+      2014,
+      13.69
+     ],
+     [
+      2015,
+      1.38
+     ],
+     [
+      2016,
+      11.96
+     ],
+     [
+      2017,
+      21.83
+     ],
+     [
+      2018,
+      -4.38
+     ],
+     [
+      2019,
+      31.49
+     ],
+     [
+      2020,
+      18.4
+     ],
+     [
+      2021,
+      28.71
+     ],
+     [
+      2022,
+      -18.11
+     ],
+     [
+      2023,
+      26.29
+     ],
+     [
+      2024,
+      25.02
+     ],
+     [
+      2025,
+      17.88
+     ]
+    ],
+    "suffix": "%",
+    "end": "+17.9%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2008, it lost 37%. In 2022, it fell about 18%. In 2025, it gained about 18%.",
+   "say": "In two thousand eight, it lost thirty-seven percent. In twenty twenty-two, it fell about eighteen percent. In twenty twenty-five, it gained about eighteen percent.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 yearly return",
+    "points": [
+     [
+      2000,
+      -9.1
+     ],
+     [
+      2001,
+      -11.89
+     ],
+     [
+      2002,
+      -22.1
+     ],
+     [
+      2003,
+      28.68
+     ],
+     [
+      2004,
+      10.88
+     ],
+     [
+      2005,
+      4.91
+     ],
+     [
+      2006,
+      15.79
+     ],
+     [
+      2007,
+      5.49
+     ],
+     [
+      2008,
+      -37.0
+     ],
+     [
+      2009,
+      26.46
+     ],
+     [
+      2010,
+      15.06
+     ],
+     [
+      2011,
+      2.11
+     ],
+     [
+      2012,
+      16.0
+     ],
+     [
+      2013,
+      32.39
+     ],
+     [
+      2014,
+      13.69
+     ],
+     [
+      2015,
+      1.38
+     ],
+     [
+      2016,
+      11.96
+     ],
+     [
+      2017,
+      21.83
+     ],
+     [
+      2018,
+      -4.38
+     ],
+     [
+      2019,
+      31.49
+     ],
+     [
+      2020,
+      18.4
+     ],
+     [
+      2021,
+      28.71
+     ],
+     [
+      2022,
+      -18.11
+     ],
+     [
+      2023,
+      26.29
+     ],
+     [
+      2024,
+      25.02
+     ],
+     [
+      2025,
+      17.88
+     ]
+    ],
+    "suffix": "%",
+    "end": "+17.9%",
+    "color": "up",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And from 2000 through 2009, the index averaged about -1% a year. People called it the lost decade.",
+   "say": "And from two thousand through two thousand nine, the index averaged about minus one percent a year. People called it the lost decade.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500, 2000-09",
+    "value": "-0.95%",
+    "tone": "down",
+    "sub": "per year, avg"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So 7% is a long-run average, not a yearly promise. Past returns don't guarantee future ones.",
+   "say": "So seven percent is a long-run average, not a yearly promise. Past returns don't guarantee future ones.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Past returns are",
+     "not a promise"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real life also brings taxes, job changes, and years when saving isn't possible. The formula shows direction, not a guaranteed destination.",
+   "say": "Real life also brings taxes, job changes, and years when saving just isn't possible. The formula shows a direction, not a guaranteed destination.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Formula = direction,",
+     "not a guarantee"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why the levers you control matter most: how much, how early, what you pay in fees, and how much 22% debt you carry.",
+   "say": "That's why the levers you actually control matter most: how much you save, how early, what you pay in fees, and how much twenty-two percent debt you carry.",
+   "scene": {
+    "t": "list",
+    "title": "What you control",
+    "items": [
+     "Savings rate",
+     "Start date",
+     "Fees",
+     "Card debt"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 7: The recap.",
+   "say": "Chapter seven: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: the savings rate is the main lever. On $60,000, going from 10% to 15% adds about $283,000 over 30 years.",
+   "say": "One: the savings rate is the main lever. On sixty thousand dollars, going from ten to fifteen percent adds about two hundred eighty-three thousand over thirty years.",
+   "scene": {
+    "t": "list",
+    "title": "The math, recapped",
+    "items": [
+     "10% vs 15%",
+     "Start early",
+     "Match + low fees",
+     "Cushion, no debt"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: time multiplies everything. Ten early years beat thirty late ones.",
+   "say": "Two: time multiplies everything. Ten early years beat thirty late ones.",
+   "scene": {
+    "t": "list",
+    "title": "The math, recapped",
+    "items": [
+     "10% vs 15%",
+     "Start early",
+     "Match + low fees",
+     "Cushion, no debt"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: the match is pay, and a 1% fee can quietly take about $131,000.",
+   "say": "Three: the match is part of your pay, and a one percent fee can quietly take about one hundred thirty-one thousand dollars.",
+   "scene": {
+    "t": "list",
+    "title": "The math, recapped",
+    "items": [
+     "10% vs 15%",
+     "Start early",
+     "Match + low fees",
+     "Cushion, no debt"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: a cash cushion and no 22% card debt keep the whole plan from breaking.",
+   "say": "Four: a cash cushion and no twenty-two percent card debt keep the whole plan from breaking.",
+   "scene": {
+    "t": "list",
+    "title": "The math, recapped",
+    "items": [
+     "10% vs 15%",
+     "Start early",
+     "Match + low fees",
+     "Cushion, no debt"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put together: 15% of $60,000 for 40 years at an assumed 7% is about $1.8 million in today's dollars.",
+   "say": "Put together, fifteen percent of sixty thousand dollars, for forty years, at an assumed seven percent, is about one point eight million dollars in today's dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "15% for 40 years",
+    "value": "$1.8M",
+    "tone": "up",
+    "sub": "Assumed 7% a year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not a fortune salary. Just a normal one, a decent savings rate, and a lot of time.",
+   "say": "Not a fortune salary. Just a normal one, a decent savings rate, and a lot of time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Normal salary",
+     "+ savings rate",
+     "+ time"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for more money, explained from zero.",
+   "say": "If this helped, subscribe for more money, explained from zero.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Now you know the math."
+   }
+  }
+ ],
+ "post": {
+  "title": "Saving for 10 years early can beat saving for 30 years later: the math on a normal salary",
+  "ig": "Save for 10 years from 25 and you can beat 30 years from 35. Here's the math on a normal salary.",
+  "tiktok": "Save for 10 years from 25 and you can beat 30 years from 35. The real math of building wealth on a normal salary.",
+  "yt_desc": "Saving for 10 years starting at 25 can beat saving for 30 years starting at 35, and this video shows the exact math. Starting from the median full-time paycheck ($1,251 a week in Q2 2026, BLS), we work through a $60,000 salary saving 10% versus 15%, the compound growth formula, starting at 25 versus 35, the employer match, how a 1% fee compares with 0.05% over 30 years, emergency funds, credit card interest, lifestyle creep and the 2026 401(k) and IRA limits. We finish with the honest caveats: real S&P 500 returns from 2000 to 2025, including 2008 and the lost decade. All growth examples assume 7% a year after inflation, which is an assumption, not a promise.\n\nCHAPTERS\n\nSources: BLS, Usual Weekly Earnings, Q2 2026 (July 2026); BEA, Personal Income and Outlays, August 2026 (Sept 2026); Vanguard, How America Saves 2026 (June 2026); Federal Reserve, Economic Well-Being of US Households in 2025 (May 2026); Federal Reserve G.19 Consumer Credit (Oct 2026); IRS 2026 contribution limits (Nov 2025); ICI expense ratio report (2025); Aswath Damodaran, NYU Stern historical returns 1928-2025; Dimensional Fund Advisors (2000-2009 returns); S&P 500 annual total returns via YCharts. Growth math is our own calculation with the future-value formula.\n\nNews and education, not financial advice.\n\n#personalfinance #compoundinterest #investing",
+  "tags": [
+   "build wealth",
+   "compound interest",
+   "savings rate",
+   "401k",
+   "employer match",
+   "expense ratio",
+   "personal finance",
+   "retirement math"
+  ]
+ }
+}
