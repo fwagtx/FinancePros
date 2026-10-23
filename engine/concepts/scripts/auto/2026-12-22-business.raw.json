@@ -10,11 +10,11 @@
   "lines": [
     {
       "who": "ticker",
-      "text": "Publix only sells its stock to the people who work there.",
-      "say": "Publix only sells its stock to the people who work there.",
+      "text": "Publix sells its stock only to its workers and its board.",
+      "say": "Publix sells its stock only to its workers and its board.",
       "scene": {
         "t": "hook",
-        "title": "Staff-only [stock]",
+        "title": "Insiders-only [stock]",
         "prop": "store",
         "label": "SHARE",
         "value": "STAFF",
@@ -80,8 +80,8 @@
     },
     {
       "who": "ticker",
-      "text": "After a year with 1,000+ work hours, associates get free shares through an employee stock plan.",
-      "say": "After a year with a thousand work hours, associates get free shares through an employee stock plan.",
+      "text": "After a year with 1,000+ work hours, associates can get free shares through an employee stock plan.",
+      "say": "After a year with a thousand-plus work hours, associates can get free shares through an employee stock plan.",
       "scene": {
         "t": "stat",
         "label": "Joins ESOP after",
@@ -93,24 +93,15 @@
     },
     {
       "who": "ticker",
-      "text": "That cost Publix $561 million in 2025. The plan's shares were worth $13.9 billion.",
-      "say": "That cost Publix five hundred sixty-one million dollars in twenty twenty-five. The plan's shares were worth thirteen point nine billion.",
+      "text": "By the end of 2025, the plan's shares were worth $13.9 billion.",
+      "say": "By the end of twenty twenty-five, the plan's shares were worth thirteen point nine billion dollars.",
       "scene": {
-        "t": "compare",
-        "title": "Publix ESOP, 2025",
-        "left": {
-          "label": "Cost in 2025",
-          "value": "$561M",
-          "tone": "neutral",
-          "sub": "Publix 10-K FY2025"
-        },
-        "right": {
-          "label": "Plan's shares",
-          "value": "$13.9B",
-          "tone": "up",
-          "sub": "As of Dec 27, 2025"
-        },
-        "mood": "shock"
+        "t": "stat",
+        "label": "ESOP shares worth",
+        "value": "$13.9B",
+        "tone": "up",
+        "sub": "As of Dec 27, 2025",
+        "mood": "think"
       }
     },
     {
@@ -128,8 +119,8 @@
     },
     {
       "who": "ticker",
-      "text": "Example: 100 shares bought in March 2022 for $1,376 were worth $1,965 four years later (price only).",
-      "say": "For example, a hundred shares bought in March twenty twenty-two for one thousand three hundred seventy-six dollars were worth one thousand nine hundred sixty-five four years later.",
+      "text": "Example: 100 shares at the March 2022 price cost $1,376; four years later, $1,965 (price only).",
+      "say": "For example, a hundred shares at the March twenty twenty-two price cost thirteen seventy-six dollars; four years later, nineteen sixty-five, price only.",
       "scene": {
         "t": "money",
         "from": {
@@ -153,10 +144,10 @@
     }
   ],
   "post": {
-    "title": "Publix only sells its stock to people who work there",
-    "ig": "Publix only sells its stock to the people who work there.\n\nPublix stock isn't on any exchange; the board sets the price each quarter using an outside appraisal.\nSplit-adjusted, the March 1 price went from $9.78 in 2020 to $19.65 in 2026.\nAfter a year with 1,000+ work hours, associates get free shares through the ESOP, which cost Publix $561M in 2025. ESOP shares were worth $13.9B at Dec 27, 2025.\nExample: 100 shares at the March 2022 price ($1,376) were worth $1,965 at the March 2026 price, price only.\n\nSources: Publix FY2025 10-K, Publix quarterly results releases (2020-2026), Publix ESOP plan page.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#publix #employeeownership #esop #business #financeprostv",
-    "tiktok": "Publix only sells its stock to people who work there. Here's how. Not financial advice. #moneytok #personalfinance #publix #esop #financeprostv",
-    "yt_desc": "Publix stock isn't traded on any exchange: it's sold only to employees and board members, and the board sets the price using an outside appraisal (Publix FY2025 10-K). Split-adjusted, the March 1 price rose from $9.78 in 2020 to $19.65 in 2026, and the ESOP, which gives eligible associates free shares, cost Publix $561M in 2025 and held shares worth $13.9B at year-end. News and education, not financial advice.\n#Shorts #publix #business",
+    "title": "Publix sells its stock only to its workers and board",
+    "ig": "Publix sells its stock only to its workers and its board.\n\nPublix stock isn't on any exchange; the board sets the price each quarter using an outside appraisal.\nSplit-adjusted, the March 1 price went from $9.78 in 2020 to $19.65 in 2026.\nAfter a year with 1,000+ work hours, associates can get free shares through the ESOP. ESOP shares were worth $13.9B at Dec 27, 2025.\nExample: 100 shares at the March 2022 price ($1,376) were worth $1,965 at the March 2026 price, price only.\n\nSources: Publix FY2025 10-K, Publix quarterly results releases (2020-2026), Publix ESOP plan page.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#publix #employeeownership #esop #business #financeprostv",
+    "tiktok": "Publix sells its stock only to its workers and board. Here's how. Not financial advice. #moneytok #personalfinance #publix #esop #financeprostv",
+    "yt_desc": "Publix stock isn't traded on any exchange: it's sold only to employees and board members, and the board sets the price using an outside appraisal (Publix FY2025 10-K). Split-adjusted, the March 1 price rose from $9.78 in 2020 to $19.65 in 2026, and the ESOP, which can give eligible associates free shares, held shares worth $13.9B at the end of 2025. News and education, not financial advice.\n#Shorts #publix #business",
     "tags": [
       "Publix",
       "Publix stock",
