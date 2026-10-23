@@ -1,0 +1,229 @@
+{
+ "id": "2026-10-23-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Mortgage rates fell.\nBarely.",
+ "cover": {
+  "title": "Mortgage Rates Fell. Barely.",
+  "prop": "house",
+  "label": "7.32%",
+  "value": "-0.08"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Mortgage rates finally dropped. Here's why it barely helps.",
+   "say": "Mortgage rates finally dropped. Here's why it barely helps.",
+   "scene": {
+    "t": "hook",
+    "title": "Rates fell. [Barely].",
+    "prop": "house",
+    "label": "7.32%",
+    "value": "-0.08",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Thursday, Freddie Mac said the average 30-year rate fell to 7.32%.",
+   "say": "On Thursday, Freddie Mac said the average thirty-year rate fell to seven point three two percent.",
+   "scene": {
+    "t": "stat",
+    "label": "30-yr rate, Oct 22",
+    "value": "7.32%",
+    "tone": "down",
+    "sub": "Freddie Mac survey",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's down from 7.40%, the first weekly drop since August.",
+   "say": "That's down from seven point four percent, the first weekly drop since August.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, 11 weeks",
+    "points": [
+     [
+      1,
+      6.67
+     ],
+     [
+      2,
+      6.65
+     ],
+     [
+      3,
+      6.66
+     ],
+     [
+      4,
+      6.71
+     ],
+     [
+      5,
+      6.76
+     ],
+     [
+      6,
+      6.95
+     ],
+     [
+      7,
+      7.03
+     ],
+     [
+      8,
+      7.28
+     ],
+     [
+      9,
+      7.4
+     ],
+     [
+      10,
+      7.4
+     ],
+     [
+      11,
+      7.32
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.32%",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A year ago, that same average was just 6.19%.",
+   "say": "A year ago, that same average was just six point one nine percent.",
+   "scene": {
+    "t": "compare",
+    "title": "30-year fixed rate",
+    "left": {
+     "label": "Year ago",
+     "value": "6.19%",
+     "tone": "up",
+     "sub": "Oct 2025"
+    },
+    "right": {
+     "label": "Now",
+     "value": "7.32%",
+     "tone": "down",
+     "sub": "Oct 22, 2026"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $400,000 loan, principal and interest goes from about $2,447 a month to $2,748.",
+   "say": "Take a four hundred thousand dollar example loan. Principal and interest goes from about two thousand four hundred forty-seven a month to two thousand seven hundred forty-eight.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "At 6.19%",
+     "value": "$2,447"
+    },
+    "to": {
+     "label": "At 7.32%",
+     "value": "$2,748"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $300 more every month, or roughly $3,600 a year.",
+   "say": "That's about three hundred dollars more every month, or roughly thirty-six hundred dollars a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra per month",
+    "value": "+$300",
+    "tone": "down",
+    "sub": "$400K loan example",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Thursday's dip saves that same borrower only about $22 a month.",
+   "say": "Thursday's dip saves that same borrower only about twenty-two dollars a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Thursday's dip",
+    "value": "-$22/mo",
+    "tone": "up",
+    "sub": "same $400K loan",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That average also assumes great credit and 20% down. Real quotes vary.",
+   "say": "That average also assumes great credit and twenty percent down. Real quotes vary.",
+   "scene": {
+    "t": "list",
+    "title": "Survey assumes",
+    "items": [
+     "Great credit",
+     "20% down",
+     "Purchase loan"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One week isn't a trend. The next Freddie Mac reading comes October 29.",
+   "say": "One week isn't a trend. The next Freddie Mac reading comes October twenty-ninth.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Sep24",
+      "Tops 7%"
+     ],
+     [
+      "Oct15",
+      "Holds at 7.40%"
+     ],
+     [
+      "Oct22",
+      "Dips to 7.32%"
+     ],
+     [
+      "Oct29",
+      "Next reading"
+     ]
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Mortgage rates finally fell. Here's why it barely helps",
+  "ig": "Mortgage rates finally fell. Here's why it barely helps.\nFreddie Mac: the average 30-year fixed rate was 7.32% on Oct 22, 2026, down from 7.40%, the first weekly drop since August.\nA year ago it was 6.19%.\nExample: on a $400,000 loan, principal and interest is about $2,748 a month at 7.32% vs. $2,447 at 6.19%, about $300 more.\nThe latest dip saves that borrower about $22 a month.\nSources: Freddie Mac Primary Mortgage Market Survey (Oct 22, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgagerates #homebuying #personalfinance #housing #financeprostv",
+  "tiktok": "Mortgage rates dipped to 7.32%, but a $400K loan costs ~$300/mo more than a year ago. Not financial advice. #moneytok #personalfinance #financeprostv",
+  "yt_desc": "Freddie Mac says the average 30-year fixed mortgage rate fell to 7.32% on October 22, 2026, from 7.40%, its first weekly drop since August. A year earlier it was 6.19%, so on a $400,000 example loan the monthly payment is still about $300 higher. Source: Freddie Mac Primary Mortgage Market Survey. News and education, not financial advice. #Shorts #mortgagerates #personalfinance",
+  "tags": [
+   "mortgage rates",
+   "freddie mac",
+   "30 year mortgage",
+   "home buying",
+   "personal finance"
+  ]
+ }
+}
