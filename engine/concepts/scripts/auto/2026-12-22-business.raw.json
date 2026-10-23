@@ -1,0 +1,168 @@
+{
+  "series": "ticker",
+  "header": "How Publix is owned\nby its workers",
+  "cover": {
+    "title": "Who Owns Publix?",
+    "prop": "store",
+    "label": "SHARE",
+    "value": "STAFF"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Publix only sells its stock to the people who work there.",
+      "say": "Publix only sells its stock to the people who work there.",
+      "scene": {
+        "t": "hook",
+        "title": "Staff-only [stock]",
+        "prop": "store",
+        "label": "SHARE",
+        "value": "STAFF",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "There's no stock exchange. Publix's own board sets the price, using an outside appraisal.",
+      "say": "There's no stock exchange. Publix's own board sets the price, using an outside appraisal.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "No stock exchange",
+          "Board sets the price",
+          "Outside appraisal"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Adjusted for a 2022 split, the March price went from $9.78 in 2020 to $19.65 in 2026.",
+      "say": "Adjusted for a twenty twenty-two split, the March price went from nine seventy-eight in twenty twenty to nineteen sixty-five in twenty twenty-six.",
+      "scene": {
+        "t": "chart",
+        "title": "Price each March 1",
+        "points": [
+          [
+            2020,
+            9.78
+          ],
+          [
+            2021,
+            12.04
+          ],
+          [
+            2022,
+            13.76
+          ],
+          [
+            2023,
+            14.55
+          ],
+          [
+            2024,
+            15.2
+          ],
+          [
+            2025,
+            19.2
+          ],
+          [
+            2026,
+            19.65
+          ]
+        ],
+        "prefix": "$",
+        "end": "$19.65",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "After a year with 1,000+ work hours, associates get free shares through an employee stock plan.",
+      "say": "After a year with a thousand work hours, associates get free shares through an employee stock plan.",
+      "scene": {
+        "t": "stat",
+        "label": "Joins ESOP after",
+        "value": "1 year",
+        "tone": "up",
+        "sub": "1,000+ work hours",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That cost Publix $561 million in 2025. The plan's shares were worth $13.9 billion.",
+      "say": "That cost Publix five hundred sixty-one million dollars in twenty twenty-five. The plan's shares were worth thirteen point nine billion.",
+      "scene": {
+        "t": "compare",
+        "title": "Publix ESOP, 2025",
+        "left": {
+          "label": "Cost in 2025",
+          "value": "$561M",
+          "tone": "neutral",
+          "sub": "Publix 10-K FY2025"
+        },
+        "right": {
+          "label": "Plan's shares",
+          "value": "$13.9B",
+          "tone": "up",
+          "sub": "As of Dec 27, 2025"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "To cash out, owners generally sell back to Publix at the board's price.",
+      "say": "To cash out, owners generally sell back to Publix at the board's price.",
+      "scene": {
+        "t": "building",
+        "kind": "store",
+        "label": "SELL BACK",
+        "caption": "No exchange: Publix buys",
+        "name": "PUBLIX",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: 100 shares bought in March 2022 for $1,376 were worth $1,965 four years later (price only).",
+      "say": "For example, a hundred shares bought in March twenty twenty-two for one thousand three hundred seventy-six dollars were worth one thousand nine hundred sixty-five four years later.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "100 sh, Mar 2022",
+          "value": "$1,376"
+        },
+        "to": {
+          "label": "Same, Mar 2026",
+          "value": "$1,965"
+        },
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Publix only sells its stock to people who work there",
+    "ig": "Publix only sells its stock to the people who work there.\n\nPublix stock isn't on any exchange; the board sets the price each quarter using an outside appraisal.\nSplit-adjusted, the March 1 price went from $9.78 in 2020 to $19.65 in 2026.\nAfter a year with 1,000+ work hours, associates get free shares through the ESOP, which cost Publix $561M in 2025. ESOP shares were worth $13.9B at Dec 27, 2025.\nExample: 100 shares at the March 2022 price ($1,376) were worth $1,965 at the March 2026 price, price only.\n\nSources: Publix FY2025 10-K, Publix quarterly results releases (2020-2026), Publix ESOP plan page.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#publix #employeeownership #esop #business #financeprostv",
+    "tiktok": "Publix only sells its stock to people who work there. Here's how. Not financial advice. #moneytok #personalfinance #publix #esop #financeprostv",
+    "yt_desc": "Publix stock isn't traded on any exchange: it's sold only to employees and board members, and the board sets the price using an outside appraisal (Publix FY2025 10-K). Split-adjusted, the March 1 price rose from $9.78 in 2020 to $19.65 in 2026, and the ESOP, which gives eligible associates free shares, cost Publix $561M in 2025 and held shares worth $13.9B at year-end. News and education, not financial advice.\n#Shorts #publix #business",
+    "tags": [
+      "Publix",
+      "Publix stock",
+      "employee owned company",
+      "ESOP explained",
+      "how Publix makes money"
+    ]
+  }
+}
