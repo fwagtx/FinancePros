@@ -1,0 +1,211 @@
+{
+ "id": "2026-10-23-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "THE BIG STORY\nGloomy, but spending",
+ "cover": {
+  "title": "Gloomy Mood, $454B Spent",
+  "prop": "card",
+  "label": "Q3",
+  "value": "$454B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Gloomy all summer, yet Amex cardholders spent $454 billion.",
+   "say": "Gloomy all summer, yet Amex cardholders spent four hundred fifty-four billion.",
+   "scene": {
+    "t": "hook",
+    "title": "[$454B] spent in Q3",
+    "prop": "card",
+    "label": "Q3",
+    "value": "$454B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Both numbers came out Friday morning, and they tell two very different stories.",
+   "say": "Both numbers came out Friday morning, and they tell two very different stories.",
+   "scene": {
+    "t": "news",
+    "headline": "Two reports, one day",
+    "source": "UMich, Amex, Oct 23, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The University of Michigan's consumer sentiment index hit 48, the second-lowest on record, says Reuters.",
+   "say": "The University of Michigan's consumer sentiment index hit forty-eight, the second-lowest on record, says Reuters.",
+   "scene": {
+    "t": "stat",
+    "label": "Consumer mood",
+    "value": "48",
+    "tone": "down",
+    "sub": "UMich, final Oct",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It started 2026 near 56, then hit a record low of 44.8 in May.",
+   "say": "It started twenty twenty-six near fifty-six, then hit a record low of forty-four point eight in May.",
+   "scene": {
+    "t": "chart",
+    "title": "Consumer mood, 2026",
+    "points": [
+     [
+      1,
+      56.4
+     ],
+     [
+      2,
+      56.6
+     ],
+     [
+      3,
+      53.3
+     ],
+     [
+      4,
+      49.8
+     ],
+     [
+      5,
+      44.8
+     ],
+     [
+      6,
+      49.5
+     ],
+     [
+      7,
+      55.2
+     ],
+     [
+      8,
+      51.7
+     ],
+     [
+      9,
+      48.1
+     ],
+     [
+      10,
+      48.0
+     ]
+    ],
+    "end": "48",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People expect prices to rise 4.7% over the next year, and the survey's director says purchasing power dominates their views.",
+   "say": "People expect prices to rise four point seven percent over the next year, and the survey's director says purchasing power dominates their views.",
+   "scene": {
+    "t": "stat",
+    "label": "Expected inflation",
+    "value": "4.7%",
+    "tone": "down",
+    "sub": "next 12 months",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, Amex cardholders spent $454 billion from July through September, up 8%.",
+   "say": "Meanwhile, Amex cardholders spent four hundred fifty-four billion dollars from July through September, up eight percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Amex card spending",
+    "left": {
+     "label": "Q3 2025",
+     "value": "$421B",
+     "tone": "neutral",
+     "sub": "a year earlier"
+    },
+    "right": {
+     "label": "Q3 2026",
+     "value": "$454B",
+     "tone": "up",
+     "sub": "July-Sept 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Reuters says it's affluent customers who kept spending on travel, dining and shopping.",
+   "say": "Reuters says it's affluent customers who kept spending on travel, dining and shopping.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Amex card spending",
+    "winner": "right",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So one premium card's shoppers don't speak for every wallet.",
+   "say": "So one premium card's shoppers don't speak for every wallet.",
+   "scene": {
+    "t": "split",
+    "title": "Two wallets",
+    "left": {
+     "title": "Survey",
+     "items": [
+      "Mood: 48",
+      "Expect +4.7%"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Amex",
+     "items": [
+      "Spent $454B",
+      "Up 8%"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Strong spending at the top can sit right next to tight budgets for many others.",
+   "say": "Strong spending at the top can sit right next to tight budgets for many others.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Big spending at top",
+     "+ tight budgets",
+     "= same economy"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Gloomy all summer, Amex cardholders spent $454B anyway",
+  "ig": "Americans felt gloomy all summer. Amex cardholders spent $454 billion anyway.\nThe University of Michigan's final October consumer sentiment index came in at 48.0, which Reuters calls the second-lowest on record (May 2026: 44.8).\nPeople expect prices to rise 4.7% over the next year.\nAmerican Express card member spending hit $454 billion in Q3 2026, up 8% from $421 billion, led by affluent customers per Reuters.\nSources: University of Michigan Surveys of Consumers, American Express Q3 2026 release, Reuters, Oct 23, 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#consumersentiment #inflation #creditcards #economy #financeprostv",
+  "tiktok": "Mood is near a record low, yet Amex cardholders spent $454B in Q3. Not financial advice. #moneytok #personalfinance #economy #financeprostv",
+  "yt_desc": "The University of Michigan's final October consumer sentiment index came in at 48.0, near a record low, with year-ahead inflation expectations at 4.7%. The same morning, American Express said card member spending rose 8% to $454 billion in Q3 2026, led by affluent customers. Sources: University of Michigan, American Express, Reuters, Oct 23, 2026. News and education, not financial advice. #Shorts #economy #inflation",
+  "tags": [
+   "consumer sentiment",
+   "american express earnings",
+   "inflation expectations",
+   "k shaped economy",
+   "university of michigan"
+  ]
+ }
+}
