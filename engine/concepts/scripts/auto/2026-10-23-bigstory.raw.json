@@ -175,13 +175,26 @@
       "text": "Strong spending at the top can sit next to tight budgets for many others.",
       "say": "Strong spending at the top can sit next to tight budgets for many others.",
       "scene": {
-        "t": "board",
-        "lines": [
-          "Big spending at top",
-          "+ tight budgets",
-          "= same economy"
-        ],
-        "mood": "think"
+        "t": "split",
+        "title": "Two wallets",
+        "left": {
+          "title": "Survey",
+          "items": [
+            "Mood: 48",
+            "Expect +4.7%"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Amex",
+          "items": [
+            "Spent $454B",
+            "Up 8%"
+          ],
+          "tone": "up"
+        },
+        "mood": "think",
+        "keep": true
       }
     },
     {
