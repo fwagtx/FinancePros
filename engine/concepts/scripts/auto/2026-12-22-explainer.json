@@ -1,0 +1,188 @@
+{
+ "id": "2026-12-22-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Use it or lose it\nFSA vs HSA deadlines",
+ "cover": {
+  "title": "Will Your FSA Money Vanish?",
+  "prop": "card",
+  "label": "FSA",
+  "value": "Dec 31"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "For many workers, unspent FSA money vanishes after December 31.",
+   "say": "For many workers, unspent FSA money vanishes after December thirty-first.",
+   "scene": {
+    "t": "hook",
+    "title": "Use it or [lose] it",
+    "prop": "card",
+    "label": "FSA",
+    "value": "Dec 31",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "EBRI found the average FSA forfeit was $441 in 2022.",
+   "say": "E B R I found the average FSA forfeit was four hundred forty-one dollars in twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg. FSA forfeit",
+    "value": "$441",
+    "tone": "down",
+    "sub": "EBRI, 2022 data",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's use-it-or-lose-it, but plans can add one escape hatch.",
+   "say": "That's use-it-or-lose-it, but plans can add one escape hatch.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Health FSA rule:",
+     "use it or lose it",
+     "Plan may add 1 fix"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A carryover up to $680 for 2026 plans, or a grace period up to 2.5 months.",
+   "say": "A carryover up to six hundred eighty dollars for twenty twenty-six plans, or a grace period up to two and a half months.",
+   "scene": {
+    "t": "split",
+    "title": "One or the other",
+    "left": {
+     "title": "Carryover",
+     "items": [
+      "Up to $680",
+      "2026 plan year"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Grace",
+     "items": [
+      "Up to 2.5 mos",
+      "time to spend"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: you put in the 2026 max, $3,400, and $900 is left (plan allows full carryover).",
+   "say": "Say you put in the twenty twenty-six max, three thousand four hundred dollars, and nine hundred is left.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example (2026)",
+     "Put in: $3,400",
+     "Left Dec 31: $900"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A carryover keeps $680 and loses $220; a full grace period loses $0 if spent by March 15 (calendar-year plan).",
+   "say": "A carryover keeps six hundred eighty and loses two hundred twenty; a full grace period loses zero if spent by March fifteenth.",
+   "scene": {
+    "t": "compare",
+    "title": "Your $900 left",
+    "left": {
+     "label": "Carryover",
+     "value": "-$220",
+     "tone": "down",
+     "sub": "$680 rolls over"
+    },
+    "right": {
+     "label": "Grace",
+     "value": "$0 lost",
+     "tone": "up",
+     "sub": "if spent by Mar 15"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Run-out periods add time to file claims, not to spend.",
+   "say": "Run-out periods add time to file claims, not to spend.",
+   "scene": {
+    "t": "list",
+    "title": "Run-out period",
+    "items": [
+     "Late claims OK",
+     "No new costs"
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "HSAs are different: the money rolls over and stays yours.",
+   "say": "H S As are different: the money rolls over and stays yours.",
+   "scene": {
+    "t": "compare",
+    "title": "FSA vs HSA",
+    "left": {
+     "label": "FSA",
+     "value": "Expires",
+     "tone": "down",
+     "sub": "unless plan allows"
+    },
+    "right": {
+     "label": "HSA",
+     "value": "Yours",
+     "tone": "up",
+     "sub": "rolls over yearly"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plan documents spell out which rule applies and when.",
+   "say": "Plan documents spell out which rule applies and when.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Plan documents list:",
+     "carryover or grace",
+     "and claim deadlines"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why unspent FSA money can vanish after December 31",
+  "ig": "For many workers, unspent FSA money vanishes after December 31.\n\nEBRI found about half of FSA holders forfeited money in 2022; the average forfeit was $441.\nEmployers can add ONE fix, never both: a carryover (up to $680 for 2026 plan years, IRS Rev. Proc. 2025-32) or a grace period of up to 2.5 months.\nExample: $3,400 in (2026 max), $900 left. Carryover: $680 rolls over, $220 lost. Full grace period: $0 lost if spent by March 15 (calendar-year plan).\nHSAs work differently: the balance rolls over every year and stays yours (IRS Pub. 969).\n\nSources: IRS Rev. Proc. 2025-32, IRS Notice 2013-71, IRS Publication 969, EBRI (2022 FSA data, published 2024). Plans differ; check plan documents.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#fsa #hsa #benefits #personalfinance #financeprostv",
+  "tiktok": "Unspent FSA money can vanish Dec 31: carryover vs grace period explained. Not financial advice. #moneytok #personalfinance #fsa #hsa #financeprostv",
+  "yt_desc": "Health FSA money is use-it-or-lose-it, but an employer plan can add one fix: a carryover of up to $680 for 2026 plan years (IRS Rev. Proc. 2025-32) or a grace period of up to 2.5 months, never both. EBRI found about half of FSA holders forfeited money in 2022, $441 on average, while HSA balances roll over and stay with the account holder (IRS Publication 969). News and education, not financial advice.\n#Shorts #FSA #personalfinance",
+  "tags": [
+   "FSA use it or lose it",
+   "FSA carryover 2026",
+   "FSA grace period",
+   "HSA vs FSA",
+   "year-end benefits"
+  ]
+ }
+}
