@@ -1,0 +1,1519 @@
+{
+ "series": "ticker",
+ "header": "How Disney\nmakes money",
+ "cover": {
+  "title": "Mickey's Real Money Machine.",
+  "prop": "tag",
+  "label": "PARKS",
+  "value": "$10.0B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Disney's theme park division earns more than movies, streaming and ESPN combined.",
+   "say": "Disney's theme park division earns more than movies, streaming and ESPN combined.",
+   "scene": {
+    "t": "hook",
+    "title": "Parks beat [movies]",
+    "prop": "tag",
+    "label": "PARKS",
+    "value": "$10.0B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2025, Disney Experiences made $10.0 billion in operating income. That's parks, cruises and merchandise.",
+   "say": "In fiscal twenty twenty-five, Disney Experiences made ten point zero billion dollars in operating income. That's parks, cruises and merchandise.",
+   "scene": {
+    "t": "stat",
+    "label": "Experiences profit",
+    "value": "$10.0B",
+    "tone": "up",
+    "sub": "Op. income, FY2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Entertainment and Sports together, meaning TV, movies, Disney+ and ESPN, made about $7.6 billion.",
+   "say": "Entertainment and Sports together, meaning TV, movies, Disney plus and ESPN, made about seven point six billion.",
+   "scene": {
+    "t": "compare",
+    "title": "FY2025 op. income",
+    "left": {
+     "label": "Experiences",
+     "value": "$10.0B",
+     "tone": "up",
+     "sub": "Parks, cruises"
+    },
+    "right": {
+     "label": "Ent + Sports",
+     "value": "$7.6B",
+     "tone": "neutral",
+     "sub": "TV, film, ESPN"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the company famous for cartoons earns most of its profit from people standing in line.",
+   "say": "So the company famous for cartoons earns most of its profit from people standing in line.",
+   "scene": {
+    "t": "compare",
+    "title": "FY2025 op. income",
+    "left": {
+     "label": "Experiences",
+     "value": "$10.0B",
+     "tone": "up",
+     "sub": "Parks, cruises"
+    },
+    "right": {
+     "label": "Ent + Sports",
+     "value": "$7.6B",
+     "tone": "neutral",
+     "sub": "TV, film, ESPN"
+    },
+    "winner": "left",
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the streaming service that lost billions a year? It's now profitable too.",
+   "say": "And the streaming service that lost billions a year? It's now profitable too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Streaming: from",
+     "billions lost",
+     "to profit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We'll cover Disney's three businesses, the park money machine, the streaming turnaround, ESPN, and the risks.",
+   "say": "We'll cover Disney's three businesses, the park money machine, the streaming turnaround, ESPN, and the risks.",
+   "scene": {
+    "t": "list",
+    "title": "This video",
+    "items": [
+     "3 businesses",
+     "The parks",
+     "Streaming",
+     "ESPN + risks"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Numbers come mostly from Disney's own filings. This is education, not advice.",
+   "say": "Numbers come mostly from Disney's own filings. This is education, not advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Disney filings",
+     "Education only"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Three businesses",
+   "say": "Chapter one: three businesses.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Three businesses"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Disney's fiscal year ends around the start of October. In fiscal 2025, which ended in September 2025, revenue was $94.4 billion.",
+   "say": "Disney's fiscal year ends around the start of October. In fiscal twenty twenty-five, which ended in September twenty twenty-five, revenue was ninety-four point four billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Revenue, FY2025",
+    "value": "$94.4B",
+    "tone": "neutral",
+    "sub": "Up 3% on FY2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Disney splits that into three segments. The biggest by sales is Entertainment, at $42.5 billion.",
+   "say": "Disney splits that into three segments. The biggest by sales is Entertainment, at forty-two point five billion dollars.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 revenue",
+    "items": [
+     "Ent: $42.5B",
+     "Sports: $17.7B",
+     "Exper: $36.2B"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Entertainment is the TV networks like ABC and FX, the Disney+ and Hulu streaming services, and the movie studios.",
+   "say": "Entertainment is the TV networks like A B C and F X, the Disney plus and Hulu streaming services, and the movie studios.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 revenue",
+    "items": [
+     "Ent: $42.5B",
+     "Sports: $17.7B",
+     "Exper: $36.2B"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sports is basically ESPN. It brought in $17.7 billion.",
+   "say": "Sports is basically ESPN. It brought in seventeen point seven billion.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 revenue",
+    "items": [
+     "Ent: $42.5B",
+     "Sports: $17.7B",
+     "Exper: $36.2B"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Experiences, the parks, the cruise ships and the toys, brought in $36.2 billion.",
+   "say": "And Experiences, the parks, the cruise ships and the toys, brought in thirty-six point two billion.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 revenue",
+    "items": [
+     "Ent: $42.5B",
+     "Sports: $17.7B",
+     "Exper: $36.2B"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But sales aren't profit. Disney's favorite profit number is segment operating income: what each business keeps before taxes and interest.",
+   "say": "But sales aren't profit. Disney's favorite profit number is segment operating income: what each business keeps before taxes and interest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Segment operating",
+     "income = what each",
+     "unit keeps"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By that measure, Entertainment made $4.7 billion in fiscal 2025.",
+   "say": "By that measure, Entertainment made four point seven billion dollars in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 op. income",
+    "items": [
+     "Ent: $4.7B",
+     "Sports: $2.9B",
+     "Exper: $10.0B"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sports made $2.9 billion.",
+   "say": "Sports made two point nine billion.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 op. income",
+    "items": [
+     "Ent: $4.7B",
+     "Sports: $2.9B",
+     "Exper: $10.0B"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Experiences made $10.0 billion, a record for that segment.",
+   "say": "And Experiences made ten point zero billion, a record for that segment.",
+   "scene": {
+    "t": "list",
+    "title": "FY2025 op. income",
+    "items": [
+     "Ent: $4.7B",
+     "Sports: $2.9B",
+     "Exper: $10.0B"
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the surprise. Experiences was about 38% of Disney's revenue...",
+   "say": "Here's the surprise. Experiences was about thirty-eight percent of Disney's revenue...",
+   "scene": {
+    "t": "compare",
+    "title": "Experiences, FY2025",
+    "left": {
+     "label": "Revenue",
+     "value": "38%",
+     "tone": "neutral",
+     "sub": "Share of total"
+    },
+    "right": {
+     "label": "Op. income",
+     "value": "57%",
+     "tone": "up",
+     "sub": "Share of segments"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "...but about 57% of all segment operating income. Less than half the sales, more than half the profit.",
+   "say": "...but about fifty-seven percent of all segment operating income. Less than half the sales, more than half the profit.",
+   "scene": {
+    "t": "compare",
+    "title": "Experiences, FY2025",
+    "left": {
+     "label": "Revenue",
+     "value": "38%",
+     "tone": "neutral",
+     "sub": "Share of total"
+    },
+    "right": {
+     "label": "Op. income",
+     "value": "57%",
+     "tone": "up",
+     "sub": "Share of segments"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The reason is margin, meaning how many cents of profit each business keeps from a dollar of sales.",
+   "say": "The reason is margin, meaning how many cents of profit each business keeps from a dollar of sales.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Margin =",
+     "profit / sales"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2025, Entertainment kept about 11 cents per dollar. Experiences kept about 28 cents.",
+   "say": "In fiscal twenty twenty-five, Entertainment kept about eleven cents per dollar. Experiences kept about twenty-eight cents.",
+   "scene": {
+    "t": "compare",
+    "title": "Profit per $1, FY25",
+    "left": {
+     "label": "Entertain.",
+     "value": "11¢",
+     "tone": "down",
+     "sub": "$4.7B / $42.5B"
+    },
+    "right": {
+     "label": "Experiences",
+     "value": "28¢",
+     "tone": "up",
+     "sub": "$10.0B / $36.2B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sports sat in between, at about 16 cents. So the parks aren't a side business. They're the engine.",
+   "say": "Sports sat in between, at about sixteen cents. So the parks aren't a side business. They're the engine.",
+   "scene": {
+    "t": "compare",
+    "title": "Profit per $1, FY25",
+    "left": {
+     "label": "Entertain.",
+     "value": "11¢",
+     "tone": "down",
+     "sub": "$4.7B / $42.5B"
+    },
+    "right": {
+     "label": "Experiences",
+     "value": "28¢",
+     "tone": "up",
+     "sub": "$10.0B / $36.2B"
+    },
+    "winner": "right",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The money machine with ears",
+   "say": "Chapter two: the money machine with ears.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The money machine with ears"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A park is expensive to build. But once it's open, many costs are already paid, so extra guests can add a lot of profit.",
+   "say": "A park is expensive to build. But once it's open, many costs are already paid, so extra guests can add a lot of profit.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "MAGIC KINGDOM",
+    "label": "OPEN",
+    "caption": "Big cost up front"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Disney gets paid before you arrive, for tickets, hotels and parking...",
+   "say": "Disney gets paid before you arrive, for tickets, hotels and parking...",
+   "scene": {
+    "t": "split",
+    "title": "One park visit",
+    "left": {
+     "title": "Before",
+     "items": [
+      "Ticket",
+      "Hotel",
+      "Parking"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Inside",
+     "items": [
+      "Food",
+      "Merch",
+      "Ride passes"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "...and again inside, for food, souvenirs and paid line-skipping passes. Your one trip is many purchases.",
+   "say": "...and again inside, for food, souvenirs and paid line-skipping passes. Your one trip is many purchases.",
+   "scene": {
+    "t": "split",
+    "title": "One park visit",
+    "left": {
+     "title": "Before",
+     "items": [
+      "Ticket",
+      "Hotel",
+      "Parking"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Inside",
+     "items": [
+      "Food",
+      "Merch",
+      "Ride passes"
+     ],
+     "tone": "up"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there's the ticket itself. When Magic Kingdom opened in 1971, admission was $3.50, but most rides cost extra.",
+   "say": "Then there's the ticket itself. When Magic Kingdom opened in nineteen seventy-one, admission was three dollars and fifty cents, but most rides cost extra.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1971",
+      "what": "$3.50, rides extra"
+     },
+     {
+      "when": "1987",
+      "what": "$28 for one day"
+     },
+     {
+      "when": "2012",
+      "what": "$89 for one day"
+     },
+     {
+      "when": "2026",
+      "what": "$139 to $209"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By December 1987, after ride coupons ended, a one-day ticket was $28.",
+   "say": "By December nineteen eighty-seven, after ride coupons ended, a one-day ticket was twenty-eight dollars.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1971",
+      "what": "$3.50, rides extra"
+     },
+     {
+      "when": "1987",
+      "what": "$28 for one day"
+     },
+     {
+      "when": "2012",
+      "what": "$89 for one day"
+     },
+     {
+      "when": "2026",
+      "what": "$139 to $209"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By June 2012, one day at a Disney World park cost at least $89.",
+   "say": "By June twenty twelve, one day at a Disney World park cost at least eighty-nine dollars.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1971",
+      "what": "$3.50, rides extra"
+     },
+     {
+      "when": "1987",
+      "what": "$28 for one day"
+     },
+     {
+      "when": "2012",
+      "what": "$89 for one day"
+     },
+     {
+      "when": "2026",
+      "what": "$139 to $209"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in 2026, an adult one-day Magic Kingdom ticket runs from $139 to $209, depending on the date.",
+   "say": "And in twenty twenty-six, an adult one-day Magic Kingdom ticket runs from one hundred thirty-nine to two hundred nine dollars, depending on the date.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1971",
+      "what": "$3.50, rides extra"
+     },
+     {
+      "when": "1987",
+      "what": "$28 for one day"
+     },
+     {
+      "when": "2012",
+      "what": "$89 for one day"
+     },
+     {
+      "when": "2026",
+      "what": "$139 to $209"
+     }
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's date-based pricing, which Disney World started in 2016. Busy days cost more, quiet days cost less.",
+   "say": "That's date-based pricing, which Disney World started in twenty sixteen. Busy days cost more, quiet days cost less.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Date-based pricing",
+     "Busy day = pricier",
+     "Since 2016"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's do the math with an example family: two adults and two kids aged 3 to 9, for one day at Magic Kingdom.",
+   "say": "Let's do the math with an example family: two adults and two kids aged three to nine, for one day at Magic Kingdom.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example family",
+     "2 adults, 2 kids",
+     "1 day, 2026 prices"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A kid's one-day ticket costs $5 less than an adult's on the same date.",
+   "say": "A kid's one-day ticket costs five dollars less than an adult's on the same date.",
+   "scene": {
+    "t": "stat",
+    "label": "Kid vs adult",
+    "value": "-$5",
+    "tone": "neutral",
+    "sub": "Same date, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $209 peak date, like some in December 2026, two adults cost $418 and two kids cost $408.",
+   "say": "On a two hundred nine dollar peak date, like some in December twenty twenty-six, two adults cost four hundred eighteen dollars and two kids cost four hundred eight.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2 x $209 = $418",
+     "2 x $204 = $408",
+     "Total: $826"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $826 for one day of tickets, before tax, food or parking.",
+   "say": "That's eight hundred twenty-six dollars for one day of tickets, before tax, food or parking.",
+   "scene": {
+    "t": "stat",
+    "label": "Peak day, family",
+    "value": "$826",
+    "tone": "down",
+    "sub": "Tickets, pre-tax",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On the cheapest $139 date, it's 2 times $139 plus 2 times $134. That's $546.",
+   "say": "On the cheapest one hundred thirty-nine dollar date, it's two times one thirty-nine plus two times one thirty-four. That's five hundred forty-six dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2 x $139 = $278",
+     "2 x $134 = $268",
+     "Total: $546"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same park, same family, same rides. The calendar alone changes the bill by $280.",
+   "say": "Same park, same family, same rides. The calendar alone changes the bill by two hundred eighty dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Same family, 1 day",
+    "left": {
+     "label": "Low date",
+     "value": "$546",
+     "tone": "up",
+     "sub": "$139 adult"
+    },
+    "right": {
+     "label": "Peak date",
+     "value": "$826",
+     "tone": "down",
+     "sub": "$209 adult"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the clever part: Disney charges the most when the most people want to come.",
+   "say": "That's the clever part: Disney charges the most when the most people want to come.",
+   "scene": {
+    "t": "compare",
+    "title": "Same family, 1 day",
+    "left": {
+     "label": "Low date",
+     "value": "$546",
+     "tone": "up",
+     "sub": "$139 adult"
+    },
+    "right": {
+     "label": "Peak date",
+     "value": "$826",
+     "tone": "down",
+     "sub": "$209 adult"
+    },
+    "winner": "left",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it doesn't stop at land. Disney Cruise Line is a floating version of the same idea.",
+   "say": "And it doesn't stop at land. Disney Cruise Line is a floating version of the same idea.",
+   "scene": {
+    "t": "hook",
+    "title": "Parks that [float]",
+    "prop": "box",
+    "label": "SHIP",
+    "value": "8 ships"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In March 2026, the Disney Adventure began sailing from Singapore. It's the line's eighth and largest ship, for about 6,700 passengers.",
+   "say": "In March twenty twenty-six, the Disney Adventure began sailing from Singapore. It's the line's eighth and largest ship, for about six thousand seven hundred passengers.",
+   "scene": {
+    "t": "news",
+    "headline": "Disney ship #8 sails",
+    "source": "Disney, CNBC, March 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At that launch, Disney said five more ships are planned by 2031.",
+   "say": "At that launch, Disney said five more ships are planned by twenty thirty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Ships planned",
+    "value": "+5",
+    "tone": "up",
+    "sub": "By 2031"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back in September 2023, Disney said it planned to spend about $60 billion on parks and cruises over roughly ten years.",
+   "say": "Back in September twenty twenty-three, Disney said it planned to spend about sixty billion dollars on parks and cruises over roughly ten years.",
+   "scene": {
+    "t": "stat",
+    "label": "Parks + cruises",
+    "value": "$60B",
+    "tone": "neutral",
+    "sub": "10-yr plan, 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was nearly double what it spent the decade before, according to AP. Disney is betting big on the business that pays the bills.",
+   "say": "That was nearly double what it spent the decade before, according to A P. Disney is betting big on the business that pays the bills.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Nearly 2x the",
+     "prior decade",
+     "Source: AP"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even the boss came from there. In February 2026, Disney named parks chief Josh D'Amaro to succeed Bob Iger as CEO, effective March 2026.",
+   "say": "Even the boss came from there. In February twenty twenty-six, Disney named parks chief Josh D'Amaro to succeed Bob Iger as C E O, effective March twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "Parks boss named CEO",
+    "source": "Bloomberg, Feb 3, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Streaming, from losses to profit",
+   "say": "Chapter three: streaming, from losses to profit.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Streaming: losses to profit"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Disney+ launched in November 2019. For years, Disney spent heavily on shows and marketing to win subscribers.",
+   "say": "Disney plus launched in November twenty nineteen. For years, Disney spent heavily on shows and marketing to win subscribers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Disney+ launch",
+     "Nov 2019"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2022, Disney's streaming business, mostly Disney+ and Hulu, lost $3.4 billion.",
+   "say": "In fiscal twenty twenty-two, Disney's streaming business, mostly Disney plus and Hulu, lost three point four billion dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "Streaming op. income",
+    "points": [
+     [
+      2022,
+      -3.4
+     ],
+     [
+      2023,
+      -2.5
+     ],
+     [
+      2024,
+      0.1
+     ],
+     [
+      2025,
+      1.3
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$1.3B",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2023, the loss shrank to $2.5 billion.",
+   "say": "In fiscal twenty twenty-three, the loss shrank to two point five billion.",
+   "scene": {
+    "t": "chart",
+    "title": "Streaming op. income",
+    "points": [
+     [
+      2022,
+      -3.4
+     ],
+     [
+      2023,
+      -2.5
+     ],
+     [
+      2024,
+      0.1
+     ],
+     [
+      2025,
+      1.3
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$1.3B",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2024, it turned a small profit of about $0.1 billion. And in fiscal 2025, it made $1.3 billion.",
+   "say": "In fiscal twenty twenty-four, it turned a small profit of about zero point one billion. And in fiscal twenty twenty-five, it made one point three billion.",
+   "scene": {
+    "t": "chart",
+    "title": "Streaming op. income",
+    "points": [
+     [
+      2022,
+      -3.4
+     ],
+     [
+      2023,
+      -2.5
+     ],
+     [
+      2024,
+      0.1
+     ],
+     [
+      2025,
+      1.3
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$1.3B",
+    "color": "up",
+    "keep": true,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a swing of nearly $5 billion in three years, from the same business.",
+   "say": "That's a swing of nearly five billion dollars in three years, from the same business.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "FY2022",
+     "value": "-$3.4B"
+    },
+    "to": {
+     "label": "FY2025",
+     "value": "+$1.3B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How? A big part of the answer is price. Disney raised streaming prices more than once and added cheaper plans with ads.",
+   "say": "How? A big part of the answer is price. Disney raised streaming prices more than once and added cheaper plans with ads.",
+   "scene": {
+    "t": "list",
+    "title": "The turnaround",
+    "items": [
+     "Higher prices",
+     "Ad plans"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2026, ad-free Disney+ went from $18.99 to $21.49 a month.",
+   "say": "In September twenty twenty-six, ad-free Disney plus went from eighteen ninety-nine to twenty-one forty-nine a month.",
+   "scene": {
+    "t": "compare",
+    "title": "Disney+ ad-free",
+    "left": {
+     "label": "Before",
+     "value": "$18.99",
+     "tone": "neutral",
+     "sub": "Per month"
+    },
+    "right": {
+     "label": "Sept 2026",
+     "value": "$21.49",
+     "tone": "down",
+     "sub": "Per month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over a full year, that's 12 times $21.49, or $257.88. More than one peak-day park ticket.",
+   "say": "Over a full year, that's twelve times twenty-one forty-nine, or two hundred fifty-seven dollars and eighty-eight cents. More than one peak-day park ticket.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "12 x $21.49",
+     "= $257.88 a year"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Also, starting in fiscal 2026, Disney stopped reporting how many Disney+ and Hulu subscribers it has. It said the numbers had become less meaningful.",
+   "say": "Also, starting in fiscal twenty twenty-six, Disney stopped reporting how many Disney plus and Hulu subscribers it has. It said the numbers had become less meaningful.",
+   "scene": {
+    "t": "news",
+    "headline": "Sub counts go dark",
+    "source": "Variety, Aug 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The focus now is profit. In the quarter that ended in June 2026, streaming earned $712 million, up from $329 million a year earlier.",
+   "say": "The focus now is profit. In the quarter that ended in June twenty twenty-six, streaming earned seven hundred twelve million dollars, up from three hundred twenty-nine million a year earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "Streaming, Apr-Jun",
+    "left": {
+     "label": "2025",
+     "value": "$329M",
+     "tone": "neutral",
+     "sub": "Op. income"
+    },
+    "right": {
+     "label": "2026",
+     "value": "$712M",
+     "tone": "up",
+     "sub": "Op. income"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was about a 13% operating margin, per Disney's August 2026 report.",
+   "say": "That was about a thirteen percent operating margin, per Disney's August twenty twenty-six report.",
+   "scene": {
+    "t": "stat",
+    "label": "Streaming margin",
+    "value": "13%",
+    "tone": "up",
+    "sub": "Apr-Jun 2026 qtr"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, old-school TV is shrinking. In fiscal 2025, Disney's TV networks brought in $9.4 billion, down 12%.",
+   "say": "Meanwhile, old-school TV is shrinking. In fiscal twenty twenty-five, Disney's TV networks brought in nine point four billion dollars, down twelve percent.",
+   "scene": {
+    "t": "stat",
+    "label": "TV network sales",
+    "value": "$9.4B",
+    "tone": "down",
+    "sub": "FY2025, down 12%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their operating income fell 14%, to about $3.0 billion. Still bigger than streaming, but heading the other way.",
+   "say": "Their operating income fell fourteen percent, to about three point zero billion dollars. Still bigger than streaming, but heading the other way.",
+   "scene": {
+    "t": "compare",
+    "title": "FY2025 op. income",
+    "left": {
+     "label": "TV networks",
+     "value": "$3.0B",
+     "tone": "down",
+     "sub": "Down 14%"
+    },
+    "right": {
+     "label": "Streaming",
+     "value": "$1.3B",
+     "tone": "up",
+     "sub": "Up from $0.1B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the movies? In fiscal 2025, content sales and licensing, which includes the box office, made just $392 million.",
+   "say": "And the movies? In fiscal twenty twenty-five, content sales and licensing, which includes the box office, made just three hundred ninety-two million dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Film + licensing",
+    "value": "$392M",
+    "tone": "neutral",
+    "sub": "Op. income, FY2025",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Which sounds tiny. But a movie's real job at Disney isn't just selling tickets.",
+   "say": "Which sounds tiny. But a movie's real job at Disney isn't just selling tickets.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A movie's real job?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: The flywheel and ESPN",
+   "say": "Chapter four: the flywheel and ESPN.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The flywheel and ESPN"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1957, Walt Disney drew a chart of his company. Films sat in the middle, with arrows out to TV, music, books, merchandise and Disneyland.",
+   "say": "In nineteen fifty-seven, Walt Disney drew a chart of his company. Films sat in the middle, with arrows out to TV, music, books, merchandise and Disneyland.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1957 Disney chart:",
+     "Films in the middle",
+     "Arrows to the rest"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It still works that way. A hit movie creates characters people love.",
+   "say": "It still works that way. A hit movie creates characters people love.",
+   "scene": {
+    "t": "list",
+    "title": "The flywheel",
+    "items": [
+     "Hit movie",
+     "Streaming",
+     "Park ride",
+     "Toys + cruises"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The movie then lives on Disney+, which keeps families subscribed.",
+   "say": "The movie then lives on Disney plus, which keeps families subscribed.",
+   "scene": {
+    "t": "list",
+    "title": "The flywheel",
+    "items": [
+     "Hit movie",
+     "Streaming",
+     "Park ride",
+     "Toys + cruises"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The characters turn into rides and meet-and-greets, which sell park tickets.",
+   "say": "The characters turn into rides and meet-and-greets, which sell park tickets.",
+   "scene": {
+    "t": "list",
+    "title": "The flywheel",
+    "items": [
+     "Hit movie",
+     "Streaming",
+     "Park ride",
+     "Toys + cruises"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And then into toys, costumes and cruise shows. Each piece advertises all the others.",
+   "say": "And then into toys, costumes and cruise shows. Each piece advertises all the others.",
+   "scene": {
+    "t": "list",
+    "title": "The flywheel",
+    "items": [
+     "Hit movie",
+     "Streaming",
+     "Park ride",
+     "Toys + cruises"
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why a movie's box office profit undersells it. The film is the ad for everything else.",
+   "say": "That's why a movie's box office profit undersells it. The film is the ad for everything else.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The film is the ad",
+     "for everything else"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there's the third business: ESPN. In fiscal 2025, Sports made $17.7 billion in revenue and $2.9 billion in operating income.",
+   "say": "Then there's the third business: ESPN. In fiscal twenty twenty-five, Sports made seventeen point seven billion in revenue and two point nine billion in operating income.",
+   "scene": {
+    "t": "compare",
+    "title": "Sports, FY2025",
+    "left": {
+     "label": "Revenue",
+     "value": "$17.7B",
+     "tone": "neutral",
+     "sub": "Mostly ESPN"
+    },
+    "right": {
+     "label": "Op. income",
+     "value": "$2.9B",
+     "tone": "up",
+     "sub": "Up 20%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "ESPN has long made money from cable fees. Most cable and satellite customers paid for it in their bill, watching or not.",
+   "say": "ESPN has long made money from cable fees. Most cable and satellite customers paid for it in their bill, watching or not.",
+   "scene": {
+    "t": "split",
+    "title": "ESPN money",
+    "left": {
+     "title": "Old way",
+     "items": [
+      "Cable fees",
+      "TV ads"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "New way",
+     "items": [
+      "Streaming",
+      "Ads"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But as people cut the cord, ESPN followed them. In August 2025, it launched its own streaming service at $29.99 a month.",
+   "say": "But as people cut the cord, ESPN followed them. In August twenty twenty-five, it launched its own streaming service at twenty-nine ninety-nine a month.",
+   "scene": {
+    "t": "stat",
+    "label": "ESPN streaming",
+    "value": "$29.99",
+    "tone": "neutral",
+    "sub": "Per month, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That same month, ESPN and the NFL announced a deal for the league to take a 10% stake in ESPN, subject to approvals.",
+   "say": "That same month, ESPN and the NFL announced a deal for the league to take a ten percent stake in ESPN, subject to approvals.",
+   "scene": {
+    "t": "news",
+    "headline": "NFL to get 10% stake",
+    "source": "ESPN, Fox Business, Aug 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "ESPN's profits aren't guaranteed, though. In the quarter that ended in June 2026, Sports operating income fell 17%, to $858 million.",
+   "say": "ESPN's profits aren't guaranteed, though. In the quarter that ended in June twenty twenty-six, Sports operating income fell seventeen percent, to eight hundred fifty-eight million dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Sports op. income",
+    "value": "$858M",
+    "tone": "down",
+    "sub": "Apr-Jun 2026, -17%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: The risks",
+   "say": "Chapter five: the risks.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The risks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, cable TV is still a big profit source, and it's shrinking.",
+   "say": "First, cable TV is still a big profit source, and it's shrinking.",
+   "scene": {
+    "t": "list",
+    "title": "Risks",
+    "items": [
+     "Cable decline",
+     "Sports costs",
+     "Park slowdown",
+     "Big spending"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, sports rights tend to get more expensive when they're renewed, and ESPN has to pay up to keep the big games.",
+   "say": "Second, sports rights tend to get more expensive when they're renewed, and ESPN has to pay up to keep the big games.",
+   "scene": {
+    "t": "list",
+    "title": "Risks",
+    "items": [
+     "Cable decline",
+     "Sports costs",
+     "Park slowdown",
+     "Big spending"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, parks depend on people feeling rich enough to travel. A recession can hit ticket and hotel sales.",
+   "say": "Third, parks depend on people feeling rich enough to travel. A recession can hit ticket and hotel sales.",
+   "scene": {
+    "t": "list",
+    "title": "Risks",
+    "items": [
+     "Cable decline",
+     "Sports costs",
+     "Park slowdown",
+     "Big spending"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And competition is real. Comcast's Universal opened Epic Universe in Orlando in May 2025, right down the road.",
+   "say": "And competition is real. Comcast's Universal opened Epic Universe in Orlando in May twenty twenty-five, right down the road.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "EPIC UNIVERSE",
+    "label": "May 2025",
+    "caption": "Universal, Orlando"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fourth, that $60 billion plan has to pay off. Ships and rides cost money years before they earn anything.",
+   "say": "Fourth, that sixty billion dollar plan has to pay off. Ships and rides cost money years before they earn anything.",
+   "scene": {
+    "t": "list",
+    "title": "Risks",
+    "items": [
+     "Cable decline",
+     "Sports costs",
+     "Park slowdown",
+     "Big spending"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And streaming profits now lean on price increases. Every increase risks people canceling.",
+   "say": "And streaming profits now lean on price increases. Every increase risks people canceling.",
+   "scene": {
+    "t": "hook",
+    "title": "Price up, [subs down?]",
+    "prop": "tag",
+    "label": "D+",
+    "value": "$21.49",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So far, the parks have carried the load. In the quarter that ended in June 2026, Experiences earned $3.02 billion, up 20%.",
+   "say": "So far, the parks have carried the load. In the quarter that ended in June twenty twenty-six, Experiences earned three point zero two billion dollars, up twenty percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Experiences profit",
+    "value": "$3.02B",
+    "tone": "up",
+    "sub": "Apr-Jun 2026, +20%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Part of that gain came from a tariff refund. Total segment operating income that quarter was $5.6 billion.",
+   "say": "Part of that gain came from a tariff refund. Total segment operating income that quarter was five point six billion dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Helped by a",
+     "tariff refund",
+     "All segments: $5.6B"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: What it means for you",
+   "say": "Chapter six: what it means for you.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you visit the parks, the price depends on the calendar. In our example family, the same day ranged from $546 to $826.",
+   "say": "If you visit the parks, the price depends on the calendar. In our example family, the same day ranged from five hundred forty-six to eight hundred twenty-six dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Example family day",
+    "left": {
+     "label": "Low date",
+     "value": "$546",
+     "tone": "up",
+     "sub": "2026 prices"
+    },
+    "right": {
+     "label": "Peak date",
+     "value": "$826",
+     "tone": "down",
+     "sub": "2026 prices"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you stream, your subscription is now one of Disney's profit levers, and prices have gone up more than once.",
+   "say": "If you stream, your subscription is now one of Disney's profit levers, and prices have gone up more than once.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your subscription",
+     "= a profit lever"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if you own a broad index fund, you probably own a tiny slice of Disney. It's in the S&P 500 and the Dow.",
+   "say": "And if you own a broad index fund, you probably own a tiny slice of Disney. It's in the S and P five hundred and the Dow.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Disney is in the",
+     "S&P 500 and the Dow"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's not a reason to buy or sell anything. It's just a reminder that a family vacation and a retirement account can touch the same company.",
+   "say": "That's not a reason to buy or sell anything. It's just a reminder that a family vacation and a retirement account can touch the same company.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not advice",
+     "Just how it works"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick recap. In fiscal 2025, the parks division made about 57% of Disney's segment profit on 38% of revenue.",
+   "say": "Quick recap. In fiscal twenty twenty-five, the parks division made about fifty-seven percent of Disney's segment profit on thirty-eight percent of revenue.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Parks: 57%",
+     "Streaming: +$",
+     "ESPN: shifting",
+     "TV: shrinking"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Streaming went from a $3.4 billion loss in fiscal 2022 to a $1.3 billion profit in fiscal 2025.",
+   "say": "Streaming went from a three point four billion dollar loss in fiscal twenty twenty-two to a one point three billion dollar profit in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Parks: 57%",
+     "Streaming: +$",
+     "ESPN: shifting",
+     "TV: shrinking"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "ESPN is moving from cable bundles to streaming, while paying more for games.",
+   "say": "ESPN is moving from cable bundles to streaming, while paying more for games.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Parks: 57%",
+     "Streaming: +$",
+     "ESPN: shifting",
+     "TV: shrinking"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And classic TV is the shrinking piece the rest of the company is outrunning.",
+   "say": "And classic TV is the shrinking piece the rest of the company is outrunning.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Parks: 57%",
+     "Streaming: +$",
+     "ESPN: shifting",
+     "TV: shrinking"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So Disney isn't really a movie company. It's a company that uses movies to sell you a day at the park.",
+   "say": "So Disney isn't really a movie company. It's a company that uses movies to sell you a day at the park.",
+   "scene": {
+    "t": "hook",
+    "title": "Movies sell [parks]",
+    "prop": "tag",
+    "label": "PARKS",
+    "value": "57%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for more How They Make Money.",
+   "say": "Subscribe for more How They Make Money.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
+  }
+ ],
+ "post": {
+  "title": "Disney's parks earn more than movies, streaming and ESPN combined. How Disney makes money",
+  "ig": "Disney's parks division made $10.0 billion in fiscal 2025, more than movies, streaming and ESPN combined.",
+  "tiktok": "Disney's parks out-earn its movies, Disney+ and ESPN combined. Here's how Disney really makes money.",
+  "yt_desc": "In fiscal 2025 (year ended Sept 27, 2025), Disney's Experiences segment, meaning parks, cruises and consumer products, earned $10.0 billion in segment operating income, more than Entertainment and Sports combined, on about 38% of revenue. This video breaks down Disney's three segments with numbers from its 10-K, the margin gap between parks and media, date-based ticket pricing with a worked example for a family of four, and the cruise and $60 billion parks investment plan. It then follows streaming's swing from a $3.4 billion loss in fiscal 2022 to a $1.3 billion profit in fiscal 2025, ESPN's move to streaming, the 1957 flywheel chart, and the risks, using results for the quarter ended June 27, 2026.\n\nCHAPTERS\n\nSources: The Walt Disney Company Form 10-K and Q4 FY2025 earnings release (Nov 13, 2025); Disney FY2023 Annual Report; Disney Q3 FY2026 earnings release (Aug 5, 2026); Variety (Aug 2025); Hollywood Reporter (Sept 2026); Bloomberg (Feb 3, 2026); TouringPlans 2026 ticket prices; Spectrum News 13 (Feb 27, 2014); AP (Sept 19, 2023); CNBC (Mar 4, 2026); ESPN and Fox Business (Aug 2025).\n\nNews and education, not financial advice.\n\n#disney #howtheymakemoney #business",
+  "tags": [
+   "how Disney makes money",
+   "Disney business model",
+   "Disney parks profit",
+   "Disney+ profit",
+   "ESPN streaming",
+   "Disney World ticket prices",
+   "Disney Experiences",
+   "Disney flywheel"
+  ]
+ }
+}
