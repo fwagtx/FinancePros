@@ -1,0 +1,165 @@
+{
+ "id": "2026-12-22-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "No credit history,\nno credit card?",
+ "cover": {
+  "title": "No Credit, No Card? Myth",
+  "prop": "card",
+  "label": "$200",
+  "value": "MYTH"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "No credit history means no credit card? That's a myth.",
+   "say": "No credit history means no credit card? That's a myth.",
+   "scene": {
+    "t": "hook",
+    "title": "No credit, [no] card?",
+    "prop": "card",
+    "label": "$0",
+    "value": "MYTH",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB estimated about 7 million US adults had no credit file in December 2020.",
+   "say": "The C F P B estimated about seven million US adults had no credit file in December twenty twenty.",
+   "scene": {
+    "t": "stat",
+    "label": "No credit file",
+    "value": "7.0M",
+    "tone": "down",
+    "sub": "CFPB, Dec 2020",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 2.7% of adults, down from 5.8% in 2010 (CFPB corrected estimate, June 2025).",
+   "say": "That's two point seven percent of adults, down from five point eight percent in twenty ten.",
+   "scene": {
+    "t": "compare",
+    "title": "Credit invisible adults",
+    "left": {
+     "label": "Dec 2010",
+     "value": "5.8%",
+     "tone": "neutral",
+     "sub": "13.5M adults"
+    },
+    "right": {
+     "label": "Dec 2020",
+     "value": "2.7%",
+     "tone": "up",
+     "sub": "7.0M adults"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There are doors for that: secured cards, student cards, authorized users and credit-builder loans.",
+   "say": "There are doors for that: secured cards, student cards, authorized users and builder loans.",
+   "scene": {
+    "t": "list",
+    "title": "Ways in at zero",
+    "items": [
+     "Secured card",
+     "Student card",
+     "Added user",
+     "Builder loan"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A secured card's refundable deposit usually sets the limit. Example: $200 down, $200 limit.",
+   "say": "A secured card's deposit usually sets the limit, so two hundred dollars down means a two hundred dollar limit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example:",
+     "$200 deposit",
+     "= $200 limit"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Experian says using over 30% of a limit starts to hurt scores more. 30% x $200 = $60.",
+   "say": "Experian says using over thirty percent starts to hurt more; on two hundred, that's sixty dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "30% of $200",
+    "value": "$60",
+    "tone": "neutral",
+    "sub": "Experian guideline",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "myFICO: a FICO Score needs an account at least 6 months old, reported in the past 6 months.",
+   "say": "My FICO says a score needs an account at least six months old, reported in the past six months.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Day 1",
+      "Account opens"
+     ],
+     [
+      "Mo 6",
+      "Six months old"
+     ],
+     [
+      "Mo 6+",
+      "FICO Score possible"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One catch: under 21, federal card rules require your own income or assets, or a co-signer 21+, which many issuers don't accept.",
+   "say": "One catch: under twenty-one, federal rules require your own income or assets, or a co-signer many issuers won't accept.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Under 21?",
+     "Own income/assets",
+     "or a 21+ co-signer"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Myth: you can't get a credit card with no credit history",
+  "ig": "No credit history means no credit card? That's a myth.\n\nThe CFPB's corrected June 2025 estimate: about 7.0 million US adults (2.7%) had no credit file in December 2020, down from 5.8% in 2010.\nSecured cards, student cards, authorized-user status and credit-builder loans are built for people starting from zero.\nExample: a $200 deposit on a secured card usually means a $200 limit; 30% of $200 is $60, the point Experian says utilization starts to weigh more.\nmyFICO: a FICO Score needs an account at least 6 months old, reported within the past 6 months. Under 21, card rules require your own income or assets, or a co-signer 21+ (many issuers don't accept co-signers).\n\nSources: CFPB (June 2025), myFICO, Experian, Regulation Z 1026.51.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#credit #creditscore #moneymyths #personalfinance #financeprostv",
+  "tiktok": "No credit history, no credit card? Myth. Not financial advice. #moneytok #personalfinance #creditscore #moneymyths #financeprostv",
+  "yt_desc": "No credit history doesn't mean no credit card. The CFPB's corrected June 2025 estimate puts adults with no credit file at 2.7% (about 7 million) in December 2020, and products like secured cards, where a $200 deposit usually means a $200 limit, exist for people starting from zero. myFICO says a FICO Score needs an account at least six months old, reported within six months. News and education, not financial advice.\n#Shorts #credit #creditscore",
+  "tags": [
+   "no credit history",
+   "secured credit card",
+   "credit invisible",
+   "build credit",
+   "money myths"
+  ]
+ }
+}
