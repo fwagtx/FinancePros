@@ -1,0 +1,175 @@
+{
+  "series": "ticker",
+  "header": "How VPN companies\nmake money",
+  "cover": {
+    "title": "Why VPNs Want 2 Years",
+    "prop": "tag",
+    "label": "24MO",
+    "value": "$81.36"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "VPN companies want two years of your money on day one.",
+      "say": "VPN companies want two years of your money on day one.",
+      "scene": {
+        "t": "hook",
+        "title": "Two years, [upfront]",
+        "prop": "tag",
+        "label": "24MO",
+        "value": "$81.36",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example at NordVPN Basic prices as listed in 2026: $12.99 monthly for 24 months costs $311.76.",
+      "say": "At NordVPN's listed twenty twenty-six prices, paying monthly for two years costs three hundred eleven dollars and seventy-six cents.",
+      "scene": {
+        "t": "compare",
+        "title": "24 months of VPN",
+        "left": {
+          "label": "Monthly",
+          "value": "$311.76",
+          "tone": "down",
+          "sub": "$12.99 x 24"
+        },
+        "right": {
+          "label": "2-year deal",
+          "value": "$81.36",
+          "tone": "up",
+          "sub": "2026 promo price"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The 2-year deal: $81.36 upfront. That's all the cash on day one.",
+      "say": "The two-year deal is eighty-one dollars and thirty-six cents upfront. That's all the cash on day one.",
+      "scene": {
+        "t": "compare",
+        "title": "24 months of VPN",
+        "keep": true,
+        "winner": "right",
+        "left": {
+          "label": "Monthly",
+          "value": "$311.76",
+          "tone": "down",
+          "sub": "$12.99 x 24"
+        },
+        "right": {
+          "label": "2-year deal",
+          "value": "$81.36",
+          "tone": "up",
+          "sub": "2026 promo price"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Kape Technologies, owner of ExpressVPN, CyberGhost and Private Internet Access, grew revenue from $66.1M in 2019 to about $624M in 2022.",
+      "say": "Kape Technologies, owner of ExpressVPN, CyberGhost and Private Internet Access, grew revenue from sixty-six million dollars in twenty nineteen to about six hundred twenty-four million in twenty twenty-two.",
+      "scene": {
+        "t": "chart",
+        "title": "Kape revenue ($M)",
+        "points": [
+          [
+            2019,
+            66.1
+          ],
+          [
+            2020,
+            122.2
+          ],
+          [
+            2021,
+            230.7
+          ],
+          [
+            2022,
+            623.5
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "M",
+        "end": "$624M",
+        "color": "up",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's the twist: in 2021, Kape also bought the VPN review sites vpnMentor and Wizcase.",
+      "say": "Here's the twist: in twenty twenty-one, Kape also bought the VPN review sites vpn Mentor and Wizcase.",
+      "scene": {
+        "t": "split",
+        "title": "Kape owns",
+        "left": {
+          "title": "VPNs",
+          "items": [
+            "ExpressVPN",
+            "CyberGhost",
+            "PIA"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "Reviews",
+          "items": [
+            "vpnMentor",
+            "Wizcase"
+          ],
+          "tone": "neutral"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Affiliate directories report NordVPN pays 40% on new 2-year plans: about $32.54 on that 2026 deal.",
+      "say": "NordVPN's affiliate program reportedly pays forty percent of new two-year plans: thirty-two dollars and fifty-four cents.",
+      "scene": {
+        "t": "stat",
+        "label": "Reported cut",
+        "value": "$32.54",
+        "tone": "neutral",
+        "sub": "40% of $81.36",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Free VPNs can run on data: in 2023, an Australian court fined two Meta units A$20M over misleading Onavo VPN claims.",
+      "say": "Free VPNs can run on data. In twenty twenty-three, an Australian court fined two Meta units twenty million Australian dollars over misleading Onavo claims.",
+      "scene": {
+        "t": "news",
+        "headline": "A$20M Onavo penalty",
+        "source": "Federal Court of Australia, 2023",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why VPN companies push 2-year plans so hard",
+    "ig": "VPN companies want two years of your money on day one.\n\nExample with NordVPN Basic prices reported in 2026: $12.99 x 24 months = $311.76, vs a 2-year deal billed $81.36 upfront that renews higher.\nKape Technologies (ExpressVPN, CyberGhost, Private Internet Access) said 86.8% of its 2022 revenue was recurring; revenue grew from $66.1M in 2019 to $623.5M in 2022.\nKape also bought the review sites vpnMentor and Wizcase in 2021. NordVPN's affiliate program reportedly pays 40% on new 2-year plans.\nIn 2023 an Australian court fined two Meta units A$20M over misleading claims about the free Onavo VPN app.\n\nSources: Kape FY2019-FY2022 results, Tom's Guide and security.org NordVPN pricing (2026), affiliate program directories, Federal Court of Australia/ACCC (2023).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#vpn #subscriptions #affiliatemarketing #business #financeprostv",
+    "tiktok": "Why VPN companies want 2 years upfront. Not financial advice. #moneytok #personalfinance #vpn #subscriptions #financeprostv",
+    "yt_desc": "Using NordVPN Basic prices reported in 2026, paying $12.99 a month for 24 months is $311.76 versus a 2-year deal billed $81.36 upfront that renews higher. Kape Technologies, owner of ExpressVPN, CyberGhost and Private Internet Access, said 86.8% of its 2022 revenue was recurring, and it also bought review sites vpnMentor and Wizcase in 2021 (Kape annual results). In 2023 an Australian court fined two Meta units A$20M over the free Onavo VPN app. News and education, not financial advice.\n#Shorts #vpn #business",
+    "tags": [
+      "how VPN companies make money",
+      "VPN business model",
+      "Kape Technologies",
+      "affiliate marketing",
+      "subscription economics"
+    ]
+  }
+}
