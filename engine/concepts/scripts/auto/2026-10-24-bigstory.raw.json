@@ -1,155 +1,138 @@
 {
   "series": "ticker",
-  "header": "THE BIG STORY\nMortgage rates dip",
+  "header": "THE BIG STORY\nTesla's profit drop",
   "cover": {
-    "title": "Mortgage Rates Fell",
-    "prop": "house",
-    "label": "30-yr",
-    "value": "7.32%"
+    "title": "Tesla's Profit Fell",
+    "prop": "car",
+    "label": "Q3",
+    "value": "-43%"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "Mortgage rates finally fell, for the first time since August.",
-      "say": "Mortgage rates finally fell, for the first time since August.",
+      "text": "Tesla's sales held flat. Its profit fell 43%.",
+      "say": "Tesla's sales held flat. Its profit fell forty-three percent.",
       "scene": {
         "t": "hook",
-        "title": "Rates finally [fell]",
-        "prop": "house",
-        "label": "30-yr",
-        "value": "7.32%",
+        "title": "Tesla profit [fell]",
+        "prop": "car",
+        "label": "Q3",
+        "value": "-43%",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "On Thursday, Freddie Mac said the average 30-year fixed rate dipped to 7.32%.",
-      "say": "On Thursday, Freddie Mac said the average thirty-year fixed rate dipped to seven point three two percent.",
+      "text": "Tesla posted its third-quarter results on Wednesday.",
+      "say": "Tesla posted its third-quarter results on Wednesday.",
       "scene": {
         "t": "news",
-        "headline": "Rates dip to 7.32%",
-        "source": "Freddie Mac, Oct 22, 2026",
+        "headline": "Tesla profit falls",
+        "source": "Tesla, CNBC, Oct 21, 2026",
         "mood": "think"
       }
     },
     {
       "who": "ticker",
-      "text": "In early September it was 6.71%, then it climbed almost every week.",
-      "say": "In early September it was six point seven one percent, then it climbed almost every week.",
+      "text": "Revenue came in at $28.05 billion, roughly flat from a year earlier.",
+      "say": "Revenue came in at twenty-eight point oh five billion dollars, roughly flat from a year earlier.",
       "scene": {
-        "t": "chart",
-        "title": "30-yr rate, weekly",
-        "points": [
-          [
-            1,
-            6.71
-          ],
-          [
-            2,
-            6.76
-          ],
-          [
-            3,
-            6.95
-          ],
-          [
-            4,
-            7.03
-          ],
-          [
-            5,
-            7.28
-          ],
-          [
-            6,
-            7.4
-          ],
-          [
-            7,
-            7.4
-          ],
-          [
-            8,
-            7.32
-          ]
-        ],
-        "suffix": "%",
-        "end": "7.32%",
-        "color": "up",
+        "t": "stat",
+        "label": "Q3 revenue",
+        "value": "$28.05B",
+        "tone": "neutral",
+        "sub": "About flat vs 2025",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But net profit dropped from $1.37 billion to $787 million.",
+      "say": "But net profit dropped from one point three seven billion dollars to seven hundred eighty-seven million.",
+      "scene": {
+        "t": "compare",
+        "title": "Tesla net profit",
+        "left": {
+          "label": "Q3 2025",
+          "value": "$1.37B",
+          "tone": "neutral",
+          "sub": "a year earlier"
+        },
+        "right": {
+          "label": "Q3 2026",
+          "value": "$787M",
+          "tone": "down",
+          "sub": "July-Sept 2026"
+        },
         "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "The week before, it was 7.40%, the highest in nearly three years, says the AP.",
-      "say": "The week before, it was seven point four percent, the highest in nearly three years, says the A P.",
+      "text": "Part of the reason: research and development spending jumped 69%, to $2.76 billion.",
+      "say": "Part of the reason is that research and development spending jumped sixty-nine percent, to two point seven six billion dollars.",
       "scene": {
         "t": "stat",
-        "label": "The week before",
-        "value": "7.40%",
-        "tone": "down",
-        "sub": "Near 3-year high",
+        "label": "R&D spending",
+        "value": "$2.76B",
+        "tone": "up",
+        "sub": "Up 69% in a year",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "And a year ago, the average was just 6.19%.",
-      "say": "And a year ago, the average was just six point one nine percent.",
+      "text": "Tesla tied its higher costs to AI projects, stock pay including Elon Musk's 2025 award, and admin costs.",
+      "say": "Tesla tied its higher costs to A I projects, stock pay including Elon Musk's twenty twenty-five award, and admin costs.",
       "scene": {
-        "t": "compare",
-        "title": "30-year fixed rate",
-        "left": {
-          "label": "Oct 2025",
-          "value": "6.19%",
-          "tone": "neutral",
-          "sub": "a year ago"
-        },
-        "right": {
-          "label": "Oct 2026",
-          "value": "7.32%",
-          "tone": "down",
-          "sub": "Freddie Mac"
-        },
+        "t": "list",
+        "title": "Where it went",
+        "items": [
+          "AI projects",
+          "Stock pay",
+          "Admin costs"
+        ],
+        "reveal": 3,
         "mood": "think"
       }
     },
     {
       "who": "ticker",
-      "text": "For example, on a $400,000 loan, today's rate costs $301 more a month than last year's.",
-      "say": "For example, on a four hundred thousand dollar loan, today's rate costs three hundred one dollars more a month than last year's.",
-      "scene": {
-        "t": "stat",
-        "label": "Extra per month",
-        "value": "+$301",
-        "tone": "down",
-        "sub": "$400K loan, P&I",
-        "mood": "sad"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Why the dip? Mortgage rates follow the 10-year Treasury yield, and the AP says it has eased lately.",
-      "say": "So why the dip? Mortgage rates follow the ten-year Treasury yield, and the A P says that yield has eased lately.",
+      "text": "So operating income, the profit from running the business, fell to $718 million from $1.62 billion.",
+      "say": "So operating income, the profit from running the business, fell to seven hundred eighteen million from one point six two billion.",
       "scene": {
         "t": "board",
         "lines": [
-          "Mortgage rates",
-          "follow the 10-year",
-          "Treasury yield"
+          "Operating income",
+          "$1.62B to $718M",
+          "Down 56%"
         ],
-        "mood": "think"
+        "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "Freddie Mac's next survey lands Thursday, right after the Fed meets.",
-      "say": "Freddie Mac's next survey lands Thursday, right after the Fed meets.",
+      "text": "The lesson: sales show what a company brings in, and profit shows what it actually keeps after the bills.",
+      "say": "Here's the lesson: sales show what a company brings in, and profit shows what it actually keeps after the bills.",
       "scene": {
-        "t": "building",
-        "kind": "fed",
-        "label": "Next survey",
-        "caption": "Watch Thursday",
+        "t": "split",
+        "title": "Tesla Q3",
+        "left": {
+          "title": "Sales",
+          "items": [
+            "$28.05B",
+            "About flat"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "Profit",
+          "items": [
+            "$787M",
+            "Down 43%"
+          ],
+          "tone": "down"
+        },
         "mood": "think"
       }
     },
@@ -163,16 +146,16 @@
     }
   ],
   "post": {
-    "title": "Mortgage rates finally fell. Here's what it costs you",
-    "ig": "Mortgage rates finally fell, for the first time since August.\nFreddie Mac: the average 30-year fixed rate dipped to 7.32% on Oct 22, 2026, from 7.40%, which the AP called the highest in nearly three years.\nA year ago it was 6.19%.\nExample: on a $400,000 loan, principal and interest go from about $2,447 to $2,748 a month, $301 more.\nSources: Freddie Mac Primary Mortgage Market Survey, AP, Bloomberg, Oct 22, 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgagerates #housing #homebuying #interestrates #financeprostv",
-    "tiktok": "Mortgage rates fell to 7.32%, first drop since August. Not financial advice. #moneytok #personalfinance #mortgagerates #housing #financeprostv",
-    "yt_desc": "Freddie Mac says the average 30-year fixed mortgage rate dipped to 7.32% on October 22, 2026, from 7.40%, its first weekly drop since late August. A year ago it was 6.19%; on a $400,000 loan that gap is about $301 a month in principal and interest. Sources: Freddie Mac, AP, Bloomberg. News and education, not financial advice. #Shorts #mortgagerates #housing",
+    "title": "Tesla's sales held flat. Its profit fell 43%",
+    "ig": "Tesla's sales held flat. Its profit fell 43%.\nQ3 2026 revenue: $28.05 billion, roughly flat year over year.\nNet income: $787 million, down from $1.37 billion a year earlier.\nR&D spending jumped 69% to $2.76 billion; operating income fell to $718 million.\nSources: Tesla Q3 2026 results (Oct 21, 2026), CNBC, Electrek.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#tesla #earnings #stocks #investing #financeprostv",
+    "tiktok": "Tesla's sales held flat, but its profit fell 43% as R&D jumped 69%. Not financial advice. #moneytok #personalfinance #tesla #earnings #financeprostv",
+    "yt_desc": "Tesla reported Q3 2026 results on October 21, 2026: revenue of $28.05 billion, roughly flat, while net income fell 43% to $787 million from $1.37 billion. Research and development spending rose 69% to $2.76 billion, and operating income fell to $718 million. Sources: Tesla, CNBC, Electrek. News and education, not financial advice. #Shorts #tesla #earnings",
     "tags": [
-      "mortgage rates",
-      "freddie mac",
-      "30 year mortgage",
-      "housing market",
-      "home buying"
+      "tesla earnings",
+      "tesla q3 2026",
+      "tesla profit",
+      "elon musk",
+      "stock market"
     ]
   }
 }
