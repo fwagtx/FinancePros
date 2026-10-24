@@ -1,0 +1,174 @@
+{
+  "series": "ticker",
+  "header": "Who gets your 401(k)\nwith no beneficiary?",
+  "cover": {
+    "title": "Will vs. 401(k) Form",
+    "prop": "paper",
+    "label": "WILL",
+    "value": "Nope"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Your will doesn't decide who gets your 401(k).",
+      "say": "Your will doesn't decide who gets your four oh one k.",
+      "scene": {
+        "t": "hook",
+        "title": "Your [will] vs 401(k)",
+        "prop": "paper",
+        "label": "WILL",
+        "value": "Nope",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The beneficiary form does. No form? The plan's rules pick.",
+      "say": "The beneficiary form does. No form? The plan's rules pick.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Form beats will",
+          "No form?",
+          "Plan picks"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Married? By federal law, your spouse generally gets it, unless they signed a witnessed waiver.",
+      "say": "Married? By federal law, your spouse generally gets it, unless they signed a witnessed waiver.",
+      "scene": {
+        "t": "stat",
+        "label": "If you're married",
+        "value": "Spouse",
+        "tone": "neutral",
+        "sub": "unless waiver",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Single? Many plans go to your children next, then your estate.",
+      "say": "Single? Many plans go to your children next, then your estate.",
+      "scene": {
+        "t": "list",
+        "title": "A common default",
+        "items": [
+          "Spouse",
+          "Children",
+          "Your estate"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "An estate can mean probate. Die before required withdrawals start, and it generally gets 5 years to empty the account, versus 10 for most non-spouse heirs.",
+      "say": "An estate can mean probate. Die before required withdrawals start, and it generally gets five years to empty the account, versus ten for most non-spouse heirs.",
+      "scene": {
+        "t": "compare",
+        "title": "Payout clock",
+        "left": {
+          "label": "Named heir",
+          "value": "10 yrs",
+          "tone": "up",
+          "sub": "most non-spouses"
+        },
+        "right": {
+          "label": "Estate",
+          "value": "5 yrs",
+          "tone": "down",
+          "sub": "died before RMDs"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The form can even beat a divorce. In 2001, in Egelhoff v. Egelhoff, the Supreme Court backed an ex-wife still on the form.",
+      "say": "The form can even beat a divorce. In two thousand one, in Egelhoff versus Egelhoff, the Supreme Court backed an ex-wife still on the form.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "1974",
+            "what": "ERISA signed"
+          },
+          {
+            "when": "2001",
+            "what": "Egelhoff: ex wins"
+          },
+          {
+            "when": "2009",
+            "what": "Kennedy: ex wins"
+          }
+        ],
+        "reveal": 2,
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2009, it backed another ex-wife on the form, 9-0, though she'd waived it in her divorce.",
+      "say": "In two thousand nine, it backed another ex-wife on the form, nine to zero, though she'd waived it in her divorce.",
+      "scene": {
+        "t": "timeline",
+        "keep": true,
+        "events": [
+          {
+            "when": "1974",
+            "what": "ERISA signed"
+          },
+          {
+            "when": "2001",
+            "what": "Egelhoff: ex wins"
+          },
+          {
+            "when": "2009",
+            "what": "Kennedy: ex wins"
+          }
+        ],
+        "reveal": 3,
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Bottom line: the plan reads the form first, not your will.",
+      "say": "Bottom line: the plan reads the form first, not your will.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "1. Form on file",
+          "2. Plan default",
+          "3. Will via estate"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Your will doesn't decide who gets your 401(k)",
+    "ig": "Your will doesn't decide who gets your 401(k).\n\nERISA plans pay whoever the plan documents and beneficiary form say. If you're married, your spouse generally gets it unless they signed a waiver witnessed by a notary or plan rep.\nNo form? Many plans default to spouse, then children, then your estate (each plan sets its own order). An estate can mean probate, and if death came before required withdrawals began, generally 5 years to empty the account vs. 10 for most named non-spouse heirs.\nThe Supreme Court sided with ex-spouses still on the form in Egelhoff v. Egelhoff (2001) and Kennedy v. DuPont (2009, 9-0), where the ex-wife had waived the money in her divorce.\n\nSources: Egelhoff v. Egelhoff (2001), Kennedy v. Plan Administrator for DuPont (2009), IRS, IRC 417(a)(2).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#401k #estateplanning #retirement #personalfinance #financeprostv",
+    "tiktok": "Your will doesn't decide who gets your 401(k). The form does. Not financial advice. #moneytok #personalfinance #401k #estateplanning #financeprostv",
+    "yt_desc": "Your will doesn't decide who gets your 401(k): ERISA plans follow the plan documents and beneficiary form, and a spouse is generally the default unless they signed a notarized or plan-witnessed waiver. With no form, many plans default to spouse, children, then the estate, which can mean probate and, if death came before required withdrawals began, generally a 5-year payout clock vs. 10 years for most named non-spouse heirs (IRS). The Supreme Court sided with ex-spouses still on the form in Egelhoff v. Egelhoff (2001) and Kennedy v. DuPont (2009). News and education, not financial advice.\n#Shorts #401k #estateplanning",
+    "tags": [
+      "401k beneficiary",
+      "what happens to 401k when you die",
+      "Egelhoff v Egelhoff",
+      "beneficiary designation vs will",
+      "inherited 401k 5 year rule"
+    ]
+  }
+}
