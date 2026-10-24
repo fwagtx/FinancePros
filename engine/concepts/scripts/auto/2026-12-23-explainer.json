@@ -1,0 +1,181 @@
+{
+ "id": "2026-12-23-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Pre-qualified vs\npre-approved",
+ "cover": {
+  "title": "Pre-Approved Isn't Approved?",
+  "prop": "paper",
+  "label": "PRE",
+  "value": "<5 pts"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "That pre-approved letter isn't a loan. Neither is pre-qualified.",
+   "say": "That pre-approved letter isn't a loan. Neither is pre-qualified.",
+   "scene": {
+    "t": "hook",
+    "title": "Pre-[approved]?",
+    "prop": "paper",
+    "label": "PRE",
+    "value": "Not yet",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB says lenders use both words differently; neither guarantees a loan.",
+   "say": "The C F P B says lenders use both words differently; neither guarantees a loan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "CFPB:",
+     "Words vary by lender",
+     "No loan guarantee"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What counts is what got checked: your own numbers, or verified documents.",
+   "say": "What counts is what got checked: your own numbers, or verified documents.",
+   "scene": {
+    "t": "split",
+    "title": "Often...",
+    "left": {
+     "title": "Pre-qual",
+     "items": [
+      "Self-reported",
+      "Soft pull"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Pre-approve",
+     "items": [
+      "Verified docs",
+      "Hard pull"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hard pull costs most people under 5 points, says myFICO.",
+   "say": "A hard pull costs most people under five points, says my FICO.",
+   "scene": {
+    "t": "stat",
+    "label": "1 hard inquiry",
+    "value": "<5 pts",
+    "tone": "down",
+    "sub": "myFICO estimate",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage, auto or student loan pulls within 14 or 45 days, by FICO version, count once.",
+   "say": "Mortgage, auto or student loan pulls within fourteen or forty-five days, by FICO version, count once.",
+   "scene": {
+    "t": "compare",
+    "title": "Rate-shop window",
+    "left": {
+     "label": "Older FICO",
+     "value": "14 days",
+     "tone": "neutral",
+     "sub": "counts as 1 pull"
+    },
+    "right": {
+     "label": "Newer FICO",
+     "value": "45 days",
+     "tone": "up",
+     "sub": "counts as 1 pull"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: 3 mortgage lenders pull in 14 days: 1 inquiry, not 3.",
+   "say": "Say three mortgage lenders pull in fourteen days: one inquiry, not three.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Pulls in 14 days",
+     "value": "3"
+    },
+    "to": {
+     "label": "FICO counts",
+     "value": "1"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For cards, in 2022 the FTC alleged nearly a third of applicants for Credit Karma's \"pre-approved\" offers were denied. Credit Karma disagreed; settled for $3 million.",
+   "say": "For cards, in twenty twenty-two the F T C alleged nearly a third of applicants for Credit Karma's pre-approved offers were denied. Credit Karma disagreed; settled for three million.",
+   "scene": {
+    "t": "news",
+    "headline": "FTC: $3M settlement",
+    "source": "FTC v. Credit Karma, Sept 2022",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pre-approved card mail is prescreened; OptOutPrescreen.com cuts it for 5 years or permanently.",
+   "say": "Pre-approved card mail is prescreened; Opt Out Prescreen dot com cuts it for five years or permanently.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Prescreened mail:",
+     "OptOutPrescreen.com",
+     "5 years or permanent"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whatever it's called, what got checked is the real test.",
+   "say": "Whatever it's called, what got checked is the real test.",
+   "scene": {
+    "t": "list",
+    "title": "What got checked?",
+    "items": [
+     "Credit pull",
+     "Income docs",
+     "Assets"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Pre-qualified vs pre-approved: neither is a loan",
+  "ig": "That pre-approved letter isn't a loan. Neither is pre-qualified.\n\nThe CFPB says lenders use the two terms differently, and neither letter is a guaranteed loan offer. Often, prequalification uses self-reported numbers and preapproval uses verified documents.\nmyFICO: one hard inquiry takes less than 5 points off most people's FICO scores. Mortgage, auto and student loan shopping within 14 or 45 days (depending on FICO version) counts as one inquiry.\nExample: 3 mortgage lenders in 14 days = 1 inquiry, not 3.\nPrescreened card mail: opt out at OptOutPrescreen.com or 1-888-5-OPT-OUT (1-888-567-8688) for 5 years or permanently (FTC).\n\nSources: CFPB, myFICO, FTC (incl. FTC v. Credit Karma, Sept 2022; Credit Karma disagreed with the allegations).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#mortgage #creditscore #homebuying #personalfinance #financeprostv",
+  "tiktok": "Pre-approved isn't approved: what lenders check and how hard pulls count. Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
+  "yt_desc": "The CFPB says lenders use \"prequalification\" and \"preapproval\" differently, and neither letter is a guaranteed loan offer; what matters is what the lender verified. myFICO says one hard inquiry takes less than 5 points off most people's scores, and mortgage, auto and student loan shopping within a 14- or 45-day window counts as one inquiry. Prescreened card mail can be stopped at OptOutPrescreen.com for 5 years or permanently (FTC). News and education, not financial advice.\n#Shorts #creditscore #mortgage",
+  "tags": [
+   "pre-qualified vs pre-approved",
+   "mortgage preapproval",
+   "hard inquiry credit score",
+   "rate shopping window",
+   "opt out prescreen"
+  ]
+ }
+}
