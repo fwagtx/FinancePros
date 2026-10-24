@@ -1,0 +1,191 @@
+{
+ "id": "2026-10-24-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Dow lost 653 Friday.\nStill won the week.",
+ "cover": {
+  "title": "Down 653, Still Up?",
+  "prop": "chart-down",
+  "label": "Dow",
+  "value": "+0.4%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The Dow lost 653 points Friday... and still won the week.",
+   "say": "Dow lost six hundred fifty-three points Friday, and still won the week.",
+   "scene": {
+    "t": "hook",
+    "title": "Down 653. Week: [up].",
+    "prop": "chart-down",
+    "label": "-653",
+    "value": "+0.4%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It closed at 52,215.",
+   "say": "It closed at fifty-two thousand two hundred fifteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Dow close, Oct 23",
+    "value": "52,215",
+    "tone": "down",
+    "sub": "-653 pts on Friday",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But it started the week lower, so it still finished up 0.4%.",
+   "say": "But it started the week lower, so it still finished up zero point four percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Dow daily closes",
+    "points": [
+     [
+      1,
+      52002.41
+     ],
+     [
+      2,
+      51966.03
+     ],
+     [
+      3,
+      52495.88
+     ],
+     [
+      4,
+      52856.09
+     ],
+     [
+      5,
+      52867.98
+     ],
+     [
+      6,
+      52215.16
+     ]
+    ],
+    "end": "52,215",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The S&P 500 slipped 0.5% for the week, the Nasdaq 0.7%.",
+   "say": "The S and P five hundred slipped zero point five percent, the Nasdaq zero point seven.",
+   "scene": {
+    "t": "list",
+    "title": "The week, Oct 19-23",
+    "items": [
+     "Dow +0.4%",
+     "S&P 500 -0.5%",
+     "Nasdaq -0.7%"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AP tied Friday's drop to oil, with Brent above $116.",
+   "say": "The A P tied Friday's drop to oil, with Brent above a hundred sixteen dollars.",
+   "scene": {
+    "t": "news",
+    "headline": "Oil weighs on stocks",
+    "source": "AP, Oct 23, 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "653 points sounds huge. It's about 1.2%.",
+   "say": "Six hundred fifty-three points sounds huge. It's about one point two percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "653 / 52,868",
+     "= about 1.2%"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, the S&P 500 is up about 11.4%, the Dow 8.6%.",
+   "say": "In twenty twenty-six, the S and P is up about eleven point four percent, the Dow eight point six.",
+   "scene": {
+    "t": "compare",
+    "title": "2026 so far",
+    "left": {
+     "label": "S&P 500",
+     "value": "+11.4%",
+     "tone": "up",
+     "sub": "Calc vs 12/31/25"
+    },
+    "right": {
+     "label": "Dow",
+     "value": "+8.6%",
+     "tone": "up",
+     "sub": "Calc vs 12/31/25"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $10,000 tracking the S&P 500 since New Year's is about $11,137, before dividends and fees.",
+   "say": "For example, ten thousand dollars tracking the S and P since New Year's is about eleven thousand one hundred thirty-seven, before dividends and fees.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Dec 31, 2025",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "Oct 23, 2026",
+     "value": "$11,137"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Points grab headlines. Your 401(k) moves in percent.",
+   "say": "Points grab headlines. Your four oh one k moves in percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Points = headlines",
+     "Percent = your money"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "The Dow lost 653 points Friday and still won the week",
+  "ig": "The Dow lost 653 points Friday and still won the week.\nFriday, Oct 23: Dow 52,215.16 (-652.82, -1.2%), S&P 500 7,623.68 (-0.5%), Nasdaq 25,955.34 (-0.2%).\nFor the week: Dow +0.4%, S&P 500 -0.5%, Nasdaq -0.7%.\nIn 2026 so far: S&P 500 about +11.4%, Dow about +8.6%.\nSources: AP market close (Oct 23, 2026); Dec 31, 2025 closes via AP.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stockmarket #dowjones #investing #personalfinance #financeprostv",
+  "tiktok": "Dow lost 653 points Friday and still ended the week up 0.4%. Not financial advice. #moneytok #personalfinance #stockmarket #investing #financeprostv",
+  "yt_desc": "The Dow fell 652.82 points (1.2%) on Friday, October 23, 2026, to 52,215.16, but still finished the week up about 0.4%, while the S&P 500 slipped 0.5% and the Nasdaq 0.7%. The S&P 500 is still up about 11.4% in 2026. Source: AP market close data. News and education, not financial advice. #Shorts #stockmarket #investing",
+  "tags": [
+   "stock market",
+   "dow jones",
+   "s&p 500",
+   "weekly market recap",
+   "personal finance"
+  ]
+ }
+}
