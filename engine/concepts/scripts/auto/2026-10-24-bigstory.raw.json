@@ -1,66 +1,53 @@
 {
   "series": "ticker",
-  "header": "THE BIG STORY\nTesla's profit drop",
+  "header": "THE BIG STORY\nWho pays for jet fuel",
   "cover": {
-    "title": "Tesla's Profit Fell",
-    "prop": "car",
-    "label": "Q3",
-    "value": "-43%"
+    "title": "Who Pays for Fuel?",
+    "prop": "tag",
+    "label": "Fuel",
+    "value": "+60.3%"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "Tesla's sales held flat. Its profit fell 43%.",
-      "say": "Tesla's sales held flat. Its profit fell forty-three percent.",
+      "text": "Jet fuel jumped about 60%. Guess who's covering the bill.",
+      "say": "Jet fuel jumped about sixty percent. Guess who's covering the bill.",
       "scene": {
         "t": "hook",
-        "title": "Tesla profit [fell]",
-        "prop": "car",
-        "label": "Q3",
-        "value": "-43%",
+        "title": "Who pays for [fuel]?",
+        "prop": "tag",
+        "label": "Fuel",
+        "value": "+60.3%",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "Tesla posted its third-quarter results on Wednesday.",
-      "say": "Tesla posted its third-quarter results on Wednesday.",
+      "text": "United Airlines reported its third-quarter results on Tuesday, October 20.",
+      "say": "United Airlines reported its third-quarter results on Tuesday, October twentieth.",
       "scene": {
         "t": "news",
-        "headline": "Tesla profit falls",
-        "source": "Tesla, CNBC, Oct 21, 2026",
+        "headline": "Fuel bill soars",
+        "source": "United, CNBC, Oct 20, 2026",
         "mood": "think"
       }
     },
     {
       "who": "ticker",
-      "text": "Revenue came in at $28.05 billion, roughly flat from a year earlier.",
-      "say": "Revenue came in at twenty-eight point oh five billion dollars, roughly flat from a year earlier.",
-      "scene": {
-        "t": "stat",
-        "label": "Q3 revenue",
-        "value": "$28.05B",
-        "tone": "neutral",
-        "sub": "About flat vs 2025",
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "But net profit dropped from $1.37 billion to $787 million.",
-      "say": "But net profit dropped from one point three seven billion dollars to seven hundred eighty-seven million.",
+      "text": "It paid an average of $3.90 a gallon, up from $2.43 a year earlier.",
+      "say": "It paid an average of three dollars and ninety cents a gallon, up from two dollars and forty-three cents a year earlier.",
       "scene": {
         "t": "compare",
-        "title": "Tesla net profit",
+        "title": "Jet fuel per gallon",
         "left": {
           "label": "Q3 2025",
-          "value": "$1.37B",
+          "value": "$2.43",
           "tone": "neutral",
           "sub": "a year earlier"
         },
         "right": {
           "label": "Q3 2026",
-          "value": "$787M",
+          "value": "$3.90",
           "tone": "down",
           "sub": "July-Sept 2026"
         },
@@ -69,71 +56,80 @@
     },
     {
       "who": "ticker",
-      "text": "Part of the reason: research and development spending jumped 69%, to $2.76 billion.",
-      "say": "Part of the reason is that research and development spending jumped sixty-nine percent, to two point seven six billion dollars.",
+      "text": "Its total fuel bill hit $4.84 billion for the quarter, up about 62%, CNBC reports.",
+      "say": "Its total fuel bill hit four point eight four billion dollars for the quarter, up about sixty-two percent, C N B C reports.",
       "scene": {
         "t": "stat",
-        "label": "R&D spending",
-        "value": "$2.76B",
-        "tone": "up",
-        "sub": "Up 69% in a year",
+        "label": "Q3 fuel bill",
+        "value": "$4.84B",
+        "tone": "down",
+        "sub": "Up about 62%",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "Tesla tied its higher costs to AI projects, stock pay including Elon Musk's 2025 award, and admin costs.",
-      "say": "Tesla tied its higher costs to A I projects, stock pay including Elon Musk's twenty twenty-five award, and admin costs.",
+      "text": "CEO Scott Kirby says United is passing about 72% of that surge on to customers.",
+      "say": "C E O Scott Kirby says United is passing about seventy-two percent of that surge on to customers.",
       "scene": {
-        "t": "list",
-        "title": "Where it went",
-        "items": [
-          "AI projects",
-          "Stock pay",
-          "Admin costs"
-        ],
-        "reveal": 3,
+        "t": "stat",
+        "label": "Passed to fliers",
+        "value": "72%",
+        "tone": "down",
+        "sub": "Says CEO Kirby",
         "mood": "think"
       }
     },
     {
       "who": "ticker",
-      "text": "So operating income, the profit from running the business, fell to $718 million from $1.62 billion.",
-      "say": "So operating income, the profit from running the business, fell to seven hundred eighteen million from one point six two billion.",
+      "text": "And he says he wants that number closer to 100%.",
+      "say": "And he says he wants that number closer to one hundred percent.",
       "scene": {
         "t": "board",
         "lines": [
-          "Operating income",
-          "$1.62B to $718M",
-          "Down 56%"
+          "Now: about 72%",
+          "Wants: near 100%"
         ],
         "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "The lesson: sales show what a company brings in, and profit shows what it actually keeps after the bills.",
-      "say": "Here's the lesson: sales show what a company brings in, and profit shows what it actually keeps after the bills.",
+      "text": "Revenue still rose 17.4% to $17.9 billion, but United cut its full-year profit forecast.",
+      "say": "Revenue still rose seventeen point four percent to seventeen point nine billion dollars, but United cut its full-year profit forecast.",
       "scene": {
         "t": "split",
-        "title": "Tesla Q3",
+        "title": "United Q3",
         "left": {
-          "title": "Sales",
+          "title": "Up",
           "items": [
-            "$28.05B",
-            "About flat"
+            "Revenue +17.4%",
+            "$17.9B"
           ],
-          "tone": "neutral"
+          "tone": "up"
         },
         "right": {
-          "title": "Profit",
+          "title": "Down",
           "items": [
-            "$787M",
-            "Down 43%"
+            "Profit outlook",
+            "Cut for 2026"
           ],
           "tone": "down"
         },
         "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "United expects $4.80 a gallon from October through December.",
+      "say": "And United expects four dollars and eighty cents a gallon from October through December.",
+      "scene": {
+        "t": "stat",
+        "label": "Q4 fuel, expected",
+        "value": "$4.80",
+        "tone": "down",
+        "sub": "United's estimate",
+        "mood": "worried"
       }
     },
     {
@@ -146,16 +142,16 @@
     }
   ],
   "post": {
-    "title": "Tesla's sales held flat. Its profit fell 43%",
-    "ig": "Tesla's sales held flat. Its profit fell 43%.\nQ3 2026 revenue: $28.05 billion, roughly flat year over year.\nNet income: $787 million, down from $1.37 billion a year earlier.\nR&D spending jumped 69% to $2.76 billion; operating income fell to $718 million.\nSources: Tesla Q3 2026 results (Oct 21, 2026), CNBC, Electrek.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#tesla #earnings #stocks #investing #financeprostv",
-    "tiktok": "Tesla's sales held flat, but its profit fell 43% as R&D jumped 69%. Not financial advice. #moneytok #personalfinance #tesla #earnings #financeprostv",
-    "yt_desc": "Tesla reported Q3 2026 results on October 21, 2026: revenue of $28.05 billion, roughly flat, while net income fell 43% to $787 million from $1.37 billion. Research and development spending rose 69% to $2.76 billion, and operating income fell to $718 million. Sources: Tesla, CNBC, Electrek. News and education, not financial advice. #Shorts #tesla #earnings",
+    "title": "Jet fuel jumped 60%. United says fliers cover most of it",
+    "ig": "Jet fuel jumped about 60%. Guess who's covering the bill.\nUnited Airlines paid $3.90 a gallon in Q3 2026, up from $2.43 a year earlier; its fuel bill hit $4.84 billion.\nCEO Scott Kirby says United is passing about 72% of the surge on to customers and wants that closer to 100%.\nRevenue rose 17.4% to $17.9 billion, but United cut its 2026 profit forecast and expects $4.80 a gallon in Q4.\nSources: United Airlines Q3 2026 results (Oct 20, 2026), CNBC, Reuters.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#airfare #airlines #jetfuel #travel #financeprostv",
+    "tiktok": "United's jet fuel cost jumped 60%, and it says about 72% is passed to fliers. Not financial advice. #moneytok #personalfinance #airfare #travel #financeprostv",
+    "yt_desc": "United Airlines said on October 20, 2026 that jet fuel averaged $3.90 a gallon in Q3, up 60.3% from $2.43, pushing its fuel bill to $4.84 billion. CEO Scott Kirby says United is passing about 72% of the surge on to customers, and the airline cut its 2026 profit forecast. Sources: United Airlines, CNBC, Reuters. News and education, not financial advice. #Shorts #airfare #airlines",
     "tags": [
-      "tesla earnings",
-      "tesla q3 2026",
-      "tesla profit",
-      "elon musk",
-      "stock market"
+      "united airlines earnings",
+      "jet fuel prices",
+      "airfare",
+      "airline stocks",
+      "travel costs"
     ]
   }
 }
