@@ -1,0 +1,179 @@
+{
+  "series": "ticker",
+  "header": "MORNING MONEY\nFed week, your card",
+  "cover": {
+    "title": "100 of 100 Agree",
+    "prop": "card",
+    "label": "POLL",
+    "value": "100%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Every economist in a Reuters poll, 100 of 100, sees a December rate hike.",
+      "say": "Every economist in a Reuters poll sees a December rate hike.",
+      "scene": {
+        "t": "hook",
+        "title": "100 of [100] agree",
+        "prop": "card",
+        "label": "POLL",
+        "value": "100/100",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But for Wednesday's Fed decision, 94 of 100 expect no change.",
+      "say": "But for Wednesday's Fed decision, ninety-four of a hundred expect no change.",
+      "scene": {
+        "t": "compare",
+        "title": "Reuters poll, Oct 20",
+        "left": {
+          "label": "Oct 28",
+          "value": "Hold",
+          "tone": "neutral",
+          "sub": "94 of 100 say"
+        },
+        "right": {
+          "label": "Dec 9",
+          "value": "Hike",
+          "tone": "down",
+          "sub": "100 of 100 say"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's why it matters. In September, the Fed made its first hike since 2023, to 3.75% to 4%.",
+      "say": "Here's why it matters. In September, the Fed made its first hike since twenty twenty-three, to three point seven five to four percent.",
+      "scene": {
+        "t": "stat",
+        "label": "Fed funds range",
+        "value": "3.75-4%",
+        "tone": "down",
+        "sub": "Set Sept 16, 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The next day, big banks lifted their prime rate from 6.75% to 7%.",
+      "say": "The next day, big banks lifted their prime rate from six point seven five to seven percent.",
+      "scene": {
+        "t": "compare",
+        "title": "Bank prime rate",
+        "left": {
+          "label": "Before",
+          "value": "6.75%",
+          "tone": "neutral",
+          "sub": "Until Sept 16"
+        },
+        "right": {
+          "label": "After",
+          "value": "7.00%",
+          "tone": "down",
+          "sub": "From Sept 17"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Most credit cards have variable rates built on prime plus a margin, so card rates rose too.",
+      "say": "Most credit cards have variable rates built on prime plus a margin, so card rates rose too.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Card APR =",
+          "prime + margin"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: on a $5,000 balance, each quarter-point hike adds about $12.50 a year.",
+      "say": "For example, on a five thousand dollar balance, each quarter-point hike adds about twelve dollars and fifty cents a year.",
+      "scene": {
+        "t": "stat",
+        "label": "Per 0.25% hike",
+        "value": "$12.50",
+        "tone": "down",
+        "sub": "Example: $5,000",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Card balances and home equity lines usually feel it, but fixed-rate loans you already have don't change.",
+      "say": "Card balances and home equity lines usually feel it, but fixed-rate loans you already have don't change.",
+      "scene": {
+        "t": "split",
+        "title": "Rate hike",
+        "left": {
+          "title": "Goes up",
+          "items": [
+            "Card balances",
+            "HELOCs"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Stays put",
+          "items": [
+            "Fixed mortgage",
+            "Fixed car loan"
+          ],
+          "tone": "up"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So the dates to watch are Wednesday at 2 p.m. Eastern, and then December 9.",
+      "say": "So the dates to watch are Wednesday at two p.m. Eastern, and then December ninth.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Sep16",
+            "what": "Fed hikes"
+          },
+          {
+            "when": "Oct28",
+            "what": "Poll: hold"
+          },
+          {
+            "when": "Dec 9",
+            "what": "Poll: hike"
+          }
+        ],
+        "reveal": 3,
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Reuters poll: all 100 see a Dec Fed hike. Your card?",
+    "ig": "Every economist in a Reuters poll, 100 of 100, sees a December rate hike.\nFor the Fed decision on Wednesday, Oct 28, 94 of 100 expect no change from 3.75%-4.00%.\nThe Fed raised rates Sept 16, its first hike since 2023, and big banks lifted the prime rate from 6.75% to 7.00% on Sept 17.\nMost credit cards have variable rates built on prime. Example: on a $5,000 balance, each quarter-point hike adds about $12.50 a year.\nSources: Reuters poll (Oct 20, 2026), Federal Reserve, CNBC, U.S. Bancorp, Wells Fargo.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#federalreserve #interestrates #creditcards #fedweek #financeprostv",
+    "tiktok": "Reuters poll: 94 of 100 see a Fed hold Wednesday, all 100 a December hike. Not financial advice. #moneytok #personalfinance #fed #financeprostv",
+    "yt_desc": "The Fed decides on rates Wednesday, October 28, 2026. In a Reuters poll published October 20, 94 of 100 economists expect a hold at 3.75%-4.00%, and all 100 expect a December hike. After the September 16 hike, big banks raised the prime rate to 7.00%, which most variable credit card rates are built on. Sources: Reuters, Federal Reserve, CNBC, U.S. Bancorp, Wells Fargo. News and education, not financial advice. #Shorts #federalreserve #creditcards",
+    "tags": [
+      "fed meeting october 2026",
+      "fed rate hike",
+      "prime rate",
+      "credit card interest",
+      "reuters poll"
+    ]
+  }
+}
