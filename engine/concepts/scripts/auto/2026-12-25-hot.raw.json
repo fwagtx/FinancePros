@@ -1,0 +1,208 @@
+{
+  "series": "ticker",
+  "header": "Why is printer ink\nso expensive?",
+  "cover": {
+    "title": "Why Ink Is So Pricey",
+    "prop": "box",
+    "label": "INK",
+    "value": "$10.9B"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Your printer is cheap on purpose. The ink is the product.",
+      "say": "Your printer is cheap on purpose. The ink is the product.",
+      "scene": {
+        "t": "hook",
+        "title": "Ink is the [product]",
+        "prop": "box",
+        "label": "INK",
+        "value": "$10.9B",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's razor and blades: cheap machine, pricey refills.",
+      "say": "It's razor and blades: cheap machine, pricey refills.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Razor and blades",
+          "Cheap machine",
+          "Pricey refills"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "HP's CEO told CNBC in January 2024 that HP loses money on printers.",
+      "say": "HP's CEO told CNBC in January twenty twenty-four that HP loses money on printers.",
+      "scene": {
+        "t": "news",
+        "headline": "HP loses on printers",
+        "source": "CNBC, January 2024",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "HP's fiscal 2025 printer sales: $5.8 billion. Ink and supplies: $10.9 billion.",
+      "say": "HP's fiscal twenty twenty-five printer sales: five point eight billion dollars. Ink and supplies: ten point nine billion.",
+      "scene": {
+        "t": "compare",
+        "title": "HP FY2025 revenue",
+        "left": {
+          "label": "Printers",
+          "value": "$5.8B",
+          "tone": "neutral",
+          "sub": "HP 10-K, FY2025"
+        },
+        "right": {
+          "label": "Supplies",
+          "value": "$10.9B",
+          "tone": "up",
+          "sub": "HP 10-K, FY2025"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's about 65% of HP's printing revenue.",
+      "say": "That's about sixty-five percent of HP's printing revenue.",
+      "scene": {
+        "t": "chart",
+        "title": "Supplies share",
+        "points": [
+          [
+            2021,
+            62.8
+          ],
+          [
+            2022,
+            62.2
+          ],
+          [
+            2023,
+            63.5
+          ],
+          [
+            2024,
+            65.1
+          ],
+          [
+            2025,
+            65.4
+          ]
+        ],
+        "suffix": "%",
+        "end": "65.4%",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2019, UK group Which? found branded ink cost about £1.89 per millilitre.",
+      "say": "In twenty nineteen, UK group Which? found branded ink cost about one pound eighty-nine per millilitre.",
+      "scene": {
+        "t": "stat",
+        "label": "Branded ink, 2019",
+        "value": "£1.89/ml",
+        "tone": "down",
+        "sub": "Which?, UK",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "HP's Dynamic Security firmware blocked some non-HP cartridges, leading to a $1.5 million US settlement in 2019.",
+      "say": "HP's Dynamic Security firmware blocked some non-HP cartridges, leading to a one point five million dollar US settlement in twenty nineteen.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "2016",
+            "what": "Firmware update"
+          },
+          {
+            "when": "2019",
+            "what": "$1.5M US fund"
+          },
+          {
+            "when": "2025",
+            "what": "Toner case"
+          }
+        ],
+        "reveal": 3,
+        "mood": "angry"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: a $60 printer plus four $40 refills a year is $480 of ink in three years.",
+      "say": "Example: a sixty-dollar printer plus four forty-dollar refills a year is four hundred eighty dollars of ink in three years.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Example printer",
+          "value": "$60"
+        },
+        "to": {
+          "label": "3 years of ink",
+          "value": "$480"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Some ink-tank printers flip it: pricier upfront, cheaper bottles. Subscriptions charge a monthly fee for pages.",
+      "say": "Some ink-tank printers flip it: pricier upfront, cheaper bottles. Subscriptions charge a monthly fee for pages.",
+      "scene": {
+        "t": "split",
+        "title": "Other models",
+        "left": {
+          "title": "Ink tank",
+          "items": [
+            "Pricier printer",
+            "Cheap bottles"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "Subscribe",
+          "items": [
+            "Monthly fee",
+            "Set pages"
+          ],
+          "tone": "neutral"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why printer ink costs so much when printers are cheap",
+    "ig": "Your printer is cheap on purpose. The ink is the product.\n\nIn January 2024, HP's CEO told CNBC that HP loses money on printers and makes it on supplies.\nHP's FY2025 10-K: printer hardware $5.8B vs supplies (ink, toner) $10.9B, about 65% of printing revenue (62.8% in FY2021).\nIn 2019, Which? found branded ink cost about £1.89 per ml, roughly ten times vintage champagne.\nHP's Dynamic Security firmware led to a $1.5M US settlement in 2019; a 2025 toner case settled with HP denying wrongdoing. Example: a $60 printer + four $40 refills a year = $480 of ink in 3 years.\n\nSources: HP 10-K filings (FY2021-FY2025), CNBC via BetaNews/PetaPixel (Jan 2024), Which? via The Drinks Business (2019), court filings, The Register (2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#printerink #businessmodel #personalfinance #moneyfacts #financeprostv",
+    "tiktok": "Your printer is cheap on purpose. The ink is the product. Not financial advice. #moneytok #personalfinance #printerink #businessmodel #financeprostv",
+    "yt_desc": "Printers are sold cheap because the money is in ink: in HP's fiscal 2025 10-K, supplies brought in $10.9 billion versus $5.8 billion for printer hardware, about 65% of printing revenue. In 2019 Which? found branded ink cost about £1.89 per ml, and HP's Dynamic Security firmware led to a $1.5 million US settlement in 2019. Sources: HP 10-K filings, CNBC (Jan 2024), Which?, court filings. News and education, not financial advice.\n#Shorts #printerink #personalfinance",
+    "tags": [
+      "printer ink",
+      "why is printer ink so expensive",
+      "razor and blades",
+      "HP Dynamic Security",
+      "business model"
+    ]
+  }
+}
