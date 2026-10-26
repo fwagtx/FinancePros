@@ -1,50 +1,191 @@
 {
   "series": "ticker",
   "header": "No-spend challenge:\nwhat it reveals",
-  "cover": {"title": "The No-Spend X-Ray", "prop": "card", "label": "X-ray", "value": "$0/mo"},
+  "cover": {
+    "title": "The No-Spend X-Ray",
+    "prop": "card",
+    "label": "X-ray",
+    "value": "$0 fun"
+  },
   "lines": [
-    {"who": "ticker",
-     "text": "A no-spend month isn't really about saving. It's an X-ray.",
-     "say": "A no-spend month isn't really about saving. It's an X-ray.",
-     "scene": {"t": "hook", "title": "No-spend [X-ray]", "prop": "card", "label": "$0", "value": "30 days", "mood": "shock"}},
-    {"who": "ticker",
-     "text": "The rules: for a set stretch, the extras stop, but rent, bills and groceries still get paid.",
-     "say": "The rules: for a set stretch, the extras stop, but rent, bills and groceries still get paid.",
-     "scene": {"t": "board", "lines": ["Extras: stop", "Rent, bills: paid", "Groceries: paid"], "mood": "think"}},
-    {"who": "ticker",
-     "text": "In 2024, the average US household spent $3,945 eating out, per the BLS.",
-     "say": "In twenty twenty-four, the average US household spent three thousand, nine hundred forty-five dollars eating out, per the B L S.",
-     "scene": {"t": "chart", "title": "Eating out per year", "points": [[2019, 3526], [2020, 2375], [2021, 3030], [2022, 3639], [2023, 3933], [2024, 3945]], "prefix": "$", "end": "$3,945", "color": "up", "mood": "worried"}},
-    {"who": "ticker",
-     "text": "In a 2022 C+R Research survey, people guessed $86 a month on subscriptions. Itemized? $219.",
-     "say": "In a twenty twenty-two C plus R Research survey, people guessed eighty-six dollars a month on subscriptions. Itemized? Two hundred nineteen.",
-     "scene": {"t": "compare", "title": "Subscriptions a month", "left": {"label": "Guess", "value": "$86", "tone": "neutral", "sub": "offhand estimate"}, "right": {"label": "Itemized", "value": "$219", "tone": "down", "sub": "C+R Research, 2022"}, "mood": "shock"}},
-    {"who": "ticker",
-     "text": "And 42% forgot they were still paying for one they'd stopped using.",
-     "say": "And forty-two percent forgot they were still paying for one they'd stopped using.",
-     "scene": {"t": "stat", "label": "Forgot a sub", "value": "42%", "tone": "down", "sub": "C+R survey, 2022", "mood": "sad"}},
-    {"who": "ticker",
-     "text": "In 1998, researchers Prelec and Loewenstein described the pain of paying, and cards can soften it.",
-     "say": "In nineteen ninety-eight, researchers Prelec and Loewenstein described the pain of paying, and cards can soften it.",
-     "scene": {"t": "split", "title": "Pain of paying", "left": {"title": "Cash", "items": ["Feel it now"], "tone": "up"}, "right": {"title": "Card", "items": ["Feel it less"], "tone": "down"}, "mood": "think"}},
-    {"who": "ticker",
-     "text": "Example: three $15 takeout orders a week, for four weeks, is $180.",
-     "say": "Example: three fifteen-dollar takeout orders a week, for four weeks, is a hundred eighty dollars.",
-     "scene": {"t": "money", "from": {"label": "3 x $15 a week", "value": "$45/wk"}, "to": {"label": "Four weeks", "value": "$180"}, "mood": "up"}},
-    {"who": "ticker",
-     "text": "Some people find the real lesson is which buys they missed, and which they forgot by Friday.",
-     "say": "Some people find the real lesson is which buys they missed, and which they forgot by Friday.",
-     "scene": {"t": "list", "title": "What it shows", "items": ["Real wants", "Autopilot buys", "Leaky subs"], "reveal": 3, "mood": "happy"}},
-    {"who": "ticker",
-     "text": "That's the money. Follow for more.",
-     "say": "That's the money. Follow for more.",
-     "scene": {"t": "cta"}}
+    {
+      "who": "ticker",
+      "text": "A no-spend month isn't really about saving. It's an X-ray.",
+      "say": "A no-spend month isn't really about saving. It's an X-ray.",
+      "scene": {
+        "t": "hook",
+        "title": "No-spend [X-ray]",
+        "prop": "card",
+        "label": "$0",
+        "value": "30 days",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The rules: for a set stretch, the extras stop, but rent, bills and groceries still get paid.",
+      "say": "The rules: for a set stretch, the extras stop, but rent, bills and groceries still get paid.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Extras: stop",
+          "Rent, bills: paid",
+          "Groceries: paid"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2024, the average US household spent $3,945 eating out, per the BLS.",
+      "say": "In twenty twenty-four, the average US household spent three thousand, nine hundred forty-five dollars eating out, per the B L S.",
+      "scene": {
+        "t": "chart",
+        "title": "Eating out per year",
+        "points": [
+          [
+            2019,
+            3526
+          ],
+          [
+            2020,
+            2375
+          ],
+          [
+            2021,
+            3030
+          ],
+          [
+            2022,
+            3639
+          ],
+          [
+            2023,
+            3933
+          ],
+          [
+            2024,
+            3945
+          ]
+        ],
+        "prefix": "$",
+        "end": "$3,945",
+        "color": "up",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In a 2022 C+R Research survey, people guessed $86 a month on subscriptions. Itemized? $219.",
+      "say": "In a twenty twenty-two C plus R Research survey, people guessed eighty-six dollars a month on subscriptions. Itemized? Two hundred nineteen.",
+      "scene": {
+        "t": "compare",
+        "title": "Subscriptions a month",
+        "left": {
+          "label": "Guess",
+          "value": "$86",
+          "tone": "neutral",
+          "sub": "offhand estimate"
+        },
+        "right": {
+          "label": "Itemized",
+          "value": "$219",
+          "tone": "down",
+          "sub": "C+R Research, 2022"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And 42% forgot they were still paying for one they'd stopped using.",
+      "say": "And forty-two percent forgot they were still paying for one they'd stopped using.",
+      "scene": {
+        "t": "stat",
+        "label": "Forgot a sub",
+        "value": "42%",
+        "tone": "down",
+        "sub": "C+R survey, 2022",
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 1998, Prelec and Loewenstein described the pain of paying; later research found cards can soften it.",
+      "say": "In nineteen ninety-eight, Prelec and Loewenstein described the pain of paying; later research found cards can soften it.",
+      "scene": {
+        "t": "split",
+        "title": "Pain of paying",
+        "left": {
+          "title": "Cash",
+          "items": [
+            "Feel it now"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Card",
+          "items": [
+            "Feel it less"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: three $15 takeout orders a week, for four weeks, is $180.",
+      "say": "Example: three fifteen-dollar takeout orders a week, for four weeks, is a hundred eighty dollars.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "3 x $15 a week",
+          "value": "$45/wk"
+        },
+        "to": {
+          "label": "Four weeks",
+          "value": "$180"
+        },
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Some people find the real lesson is which buys they missed, and which they forgot by Friday.",
+      "say": "Some people find the real lesson is which buys they missed, and which they forgot by Friday.",
+      "scene": {
+        "t": "list",
+        "title": "What it shows",
+        "items": [
+          "Real wants",
+          "Autopilot buys",
+          "Leaky subs"
+        ],
+        "reveal": 3,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
   ],
   "post": {
     "title": "What a no-spend challenge really teaches about spending",
-    "ig": "A no-spend month isn't really about saving. It's an X-ray.\n\nA no-spend challenge pauses non-essential spending for a set period; rent, bills and groceries still get paid.\nIn 2024, the average US consumer unit spent $3,945 on food away from home (BLS Consumer Expenditure Survey).\nIn a 2022 C+R Research survey, people guessed $86 a month on subscriptions; itemized, it was $219, and 42% had forgotten one they still paid for.\nPrelec and Loewenstein (1998) described the 'pain of paying,' which card payments can soften. Example: three $15 takeout orders a week for four weeks = $180.\n\nSources: BLS, C+R Research, Prelec & Loewenstein (Marketing Science, 1998).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#nospendchallenge #budgeting #moneyhabits #personalfinance #financeprostv",
+    "ig": "A no-spend month isn't really about saving. It's an X-ray.\n\nA no-spend challenge pauses non-essential spending for a set period; rent, bills and groceries still get paid.\nIn 2024, the average US consumer unit spent $3,945 on food away from home (BLS Consumer Expenditure Survey).\nIn a 2022 C+R Research survey, people guessed $86 a month on subscriptions; itemized, it was $219, and 42% had forgotten one they still paid for.\nPrelec and Loewenstein (1998) described the 'pain of paying'; later research (Prelec & Simester, 2001) found card payments can soften it. Example: three $15 takeout orders a week for four weeks = $180.\n\nSources: BLS, C+R Research, Prelec & Loewenstein (Marketing Science, 1998), Prelec & Simester (Marketing Letters, 2001).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#nospendchallenge #budgeting #moneyhabits #personalfinance #financeprostv",
     "tiktok": "A no-spend month isn't about saving. It's an X-ray. Not financial advice. #moneytok #personalfinance #nospendchallenge #budgeting #financeprostv",
-    "yt_desc": "A no-spend challenge pauses non-essential spending for a set period while essentials still get paid, and it can reveal spending patterns. In 2024 the average US consumer unit spent $3,945 on food away from home (BLS), and a 2022 C+R Research survey found people guessed $86 a month on subscriptions versus $219 itemized. Prelec and Loewenstein (1998) described the 'pain of paying,' which card payments can soften. News and education, not financial advice.\n#Shorts #nospendchallenge #budgeting",
-    "tags": ["no spend challenge", "no-spend month", "spending habits", "subscription spending", "pain of paying"]
+    "yt_desc": "A no-spend challenge pauses non-essential spending for a set period while essentials still get paid, and it can reveal spending patterns. In 2024 the average US consumer unit spent $3,945 on food away from home (BLS), and a 2022 C+R Research survey found people guessed $86 a month on subscriptions versus $219 itemized. Prelec and Loewenstein (1998) described the 'pain of paying'; later research found card payments can soften it. News and education, not financial advice.\n#Shorts #nospendchallenge #budgeting",
+    "tags": [
+      "no spend challenge",
+      "no-spend month",
+      "spending habits",
+      "subscription spending",
+      "pain of paying"
+    ]
   }
 }
