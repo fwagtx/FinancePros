@@ -37,7 +37,8 @@ FIRST_DAY = min(AUTO_START, LONG_START)
 REPO = os.environ.get("GITHUB_REPOSITORY", "fwagtx/FinancePros")
 BRANCH = os.environ.get("GITHUB_REF_NAME", "claude/dazzling-newton-1ex2s0")
 MEDIA = os.environ.get("MEDIA_BRANCH", "media")      # videos live on their own branch, trimmed to the last week
-KEEP_DAYS = 7                                         # Metricool copies each file when the post is scheduled
+KEEP_DAYS = 2                                         # Metricool copies each file the moment the post is scheduled
+DONE = ("posted", "scheduled", "skipped", "missed")   # "scheduled" = made ahead by a Claude session (engine/session.py)
 AUTO = os.path.join(CON, "scripts", "auto")
 
 
@@ -94,7 +95,7 @@ def due(now, st):
     out = []
     for show, when in slots(now.date()):
         rec = st.get(show, {})
-        if rec.get("status") in ("posted", "skipped", "missed"): continue
+        if rec.get("status") in DONE: continue
         if rec.get("tries", 0) >= TRIES: continue
         if now < when - LEAD[kind(show)] or now > when + GRACE: continue
         out.append((when, show))
@@ -137,7 +138,7 @@ def r2_ready():
 
 def host_r2(files, date):
     """Upload files to the FinancePros R2 bucket and return their public URLs. The bucket's lifecycle rule deletes them
-    after 7 days; Metricool keeps its own copy once a post is scheduled."""
+    after a day; Metricool keeps its own copy once a post is scheduled."""
     import boto3, mimetypes
     c = r2_cfg()
     s3 = boto3.client("s3", endpoint_url=f"https://{c['account']}.r2.cloudflarestorage.com", aws_access_key_id=c["key"],
@@ -272,7 +273,7 @@ def main():
     t0 = time.monotonic(); failures = 0
     while time.monotonic() - t0 < 150 * 60:
         pull(); now = dt.datetime.now(TZ); st = load_state(date)
-        missed = [s for s, w in slots(now.date()) if now > w + GRACE and st.get(s, {}).get("status") not in ("posted", "skipped", "missed")]
+        missed = [s for s, w in slots(now.date()) if now > w + GRACE and st.get(s, {}).get("status") not in DONE]
         if missed:
             for s in missed: st.setdefault(s, {})["status"] = "missed"
             save(date, st, f"{date}: missed {', '.join(missed)}")
