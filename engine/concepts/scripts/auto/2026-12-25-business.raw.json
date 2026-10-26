@@ -10,11 +10,11 @@
   "lines": [
     {
       "who": "ticker",
-      "text": "Movers lose your $1,000 stereo. The free coverage pays 6 bucks.",
-      "say": "Movers lose your thousand-dollar stereo. The free coverage pays six bucks.",
+      "text": "One signature can turn a $1,000 stereo into 6 bucks.",
+      "say": "One signature can turn a thousand-dollar stereo into six bucks.",
       "scene": {
         "t": "hook",
-        "title": "Lost stereo: [6 bucks]",
+        "title": "1 signature: [6 bucks]",
         "prop": "box",
         "label": "10 lb",
         "value": "6 bucks",
@@ -76,8 +76,8 @@
     },
     {
       "who": "ticker",
-      "text": "Interstate estimates are binding, a set price, or non-binding, capping what's due at delivery at 110%.",
-      "say": "Interstate estimates are binding, a set price, or non-binding, capping what's due at delivery at a hundred and ten percent.",
+      "text": "Interstate estimates are binding, a set price, or non-binding, where at most 110% of the estimate is due at delivery.",
+      "say": "Interstate estimates are binding, a set price, or non-binding, where at most a hundred and ten percent of the estimate is due at delivery.",
       "scene": {
         "t": "split",
         "title": "Estimates",
@@ -102,21 +102,21 @@
     },
     {
       "who": "ticker",
-      "text": "Free released value coverage pays 60 cents per pound per item.",
-      "say": "Free released value coverage pays sixty cents per pound per item.",
+      "text": "Released value coverage is free, but only if you choose it in writing. It pays 60 cents per pound per item.",
+      "say": "Released value coverage is free, but only if you choose it in writing. It pays sixty cents per pound per item.",
       "scene": {
         "t": "stat",
         "label": "Released value",
         "value": "60¢/lb",
         "tone": "down",
-        "sub": "per item, FMCSA",
+        "sub": "opt-in, per item",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "Federal regulators' example: a 10-pound, $1,000 stereo gets 6 bucks. Full value costs extra.",
-      "say": "Federal regulators' example: a ten-pound, thousand-dollar stereo gets six bucks. Full value costs extra.",
+      "text": "Federal regulators' example: a 10-pound, $1,000 stereo gets 6 bucks.",
+      "say": "Federal regulators' example: a ten-pound, thousand-dollar stereo gets six bucks.",
       "scene": {
         "t": "money",
         "from": {
@@ -132,32 +132,24 @@
     },
     {
       "who": "ticker",
-      "text": "Hostage-load complaints, when movers hold goods for more money, rose from 364 in 2017 to 899 in 2020, per federal regulators.",
-      "say": "Hostage-load complaints, when movers hold goods for more money, rose from three hundred sixty-four in twenty seventeen to eight hundred ninety-nine in twenty twenty, per federal regulators.",
+      "text": "Without that signature, full value protection is the default: the mover repairs, replaces, or pays current value. It costs more.",
+      "say": "Without that signature, full value protection is the default: the mover repairs, replaces, or pays current value. It costs more.",
       "scene": {
-        "t": "chart",
-        "title": "Hostage complaints",
-        "points": [
-          [
-            2017,
-            364
-          ],
-          [
-            2018,
-            409
-          ],
-          [
-            2019,
-            495
-          ],
-          [
-            2020,
-            899
-          ]
-        ],
-        "end": "899",
-        "color": "down",
-        "mood": "worried"
+        "t": "compare",
+        "title": "Coverage",
+        "left": {
+          "label": "Released",
+          "value": "60¢/lb",
+          "tone": "down",
+          "sub": "opt-in, in writing"
+        },
+        "right": {
+          "label": "Full value",
+          "value": "Default",
+          "tone": "up",
+          "sub": "repair or replace"
+        },
+        "mood": "think"
       }
     },
     {
@@ -170,10 +162,10 @@
     }
   ],
   "post": {
-    "title": "Movers lose a $1,000 stereo. Free coverage pays $6.",
-    "ig": "Movers lose a $1,000 stereo. The free coverage pays $6.\n\nLocal moves are usually billed by the hour (crew x hours); interstate moves are priced by weight and distance, plus extras like stairs, long carries, shuttles and packing.\nUnder FMCSA rules, a non-binding interstate estimate means the mover can't demand more than 110% at delivery; the rest is billed 30 days later.\nReleased value coverage is free but pays 60 cents per pound per article: FMCSA's example is a 10-lb, $1,000 stereo paying $6.\nHostage-load complaints rose from 364 in 2017 to 899 in 2020 (FMCSA via AARP).\n\nSources: FMCSA Protect Your Move, 49 CFR Part 375, This Old House (2025), AARP (2021).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#moving #movingcompany #howtheymakemoney #businessmodel #financeprostv",
-    "tiktok": "Movers lose a $1,000 stereo. Free coverage pays $6. How moves get priced. Not financial advice. #moneytok #personalfinance #moving #financeprostv",
-    "yt_desc": "How moving companies price a move: local moves are usually billed by the hour, while interstate moves are priced by weight and distance plus extras like stairs, long carries and shuttles. Under FMCSA rules (49 CFR Part 375), a non-binding estimate caps what a mover can demand at delivery at 110%, and free released value coverage pays 60 cents per pound per article, so FMCSA's own example is a $1,000 stereo paying $6. Hostage-load complaints rose from 364 in 2017 to 899 in 2020 (FMCSA via AARP). News and education, not financial advice.\n#Shorts #moving #businessmodel",
+    "title": "One signature turns a $1,000 stereo into $6",
+    "ig": "One signature can turn a $1,000 stereo into $6.\n\nLocal moves are usually billed by the hour (crew x hours); interstate moves are priced by weight and distance, plus extras like stairs, long carries, shuttles and packing.\nUnder FMCSA rules, a non-binding interstate estimate means the mover can't demand more than 110% of the estimate at delivery; any balance can't be demanded until at least 30 days after delivery.\nReleased value coverage is free but only applies if you choose it in writing; it pays 60 cents per pound per article. FMCSA's example is a 10-lb, $1,000 stereo paying $6.\nFull Value Protection is the default and costs more: the mover repairs, replaces or pays current value.\n\nSources: FMCSA Protect Your Move, 49 CFR Part 375, This Old House (2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#moving #movingcompany #howtheymakemoney #businessmodel #financeprostv",
+    "tiktok": "One signature can turn a $1,000 stereo into $6. How movers price a move. Not financial advice. #moneytok #personalfinance #moving #financeprostv",
+    "yt_desc": "How moving companies price a move: local moves are usually billed by the hour, while interstate moves are priced by weight and distance plus extras like stairs, long carries and shuttles. Under FMCSA rules (49 CFR Part 375), a non-binding estimate caps what a mover can demand at delivery at 110% of the estimate. Free released value coverage applies only if you choose it in writing and pays 60 cents per pound per article, so FMCSA's own example is a $1,000 stereo paying $6. Without that signature, Full Value Protection is the default and costs more. News and education, not financial advice.\n#Shorts #moving #businessmodel",
     "tags": [
       "how movers price a move",
       "moving company pricing",
