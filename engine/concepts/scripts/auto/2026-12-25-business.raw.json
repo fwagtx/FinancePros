@@ -1,0 +1,185 @@
+{
+  "series": "ticker",
+  "header": "How movers\nprice a move",
+  "cover": {
+    "title": "How Movers Price It",
+    "prop": "box",
+    "label": "10 lb",
+    "value": "60¢/lb"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Movers lose your $1,000 stereo. The free coverage pays 6 bucks.",
+      "say": "Movers lose your thousand-dollar stereo. The free coverage pays six bucks.",
+      "scene": {
+        "t": "hook",
+        "title": "Lost stereo: [6 bucks]",
+        "prop": "box",
+        "label": "10 lb",
+        "value": "6 bucks",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "First, pricing. Local moves are usually billed by the hour; interstate moves, by weight and distance.",
+      "say": "First, pricing. Local moves are usually billed by the hour; interstate moves, by weight and distance.",
+      "scene": {
+        "t": "compare",
+        "title": "Two ways to price",
+        "left": {
+          "label": "Local",
+          "value": "Hourly",
+          "tone": "neutral",
+          "sub": "crew x hours"
+        },
+        "right": {
+          "label": "Interstate",
+          "value": "Weight",
+          "tone": "neutral",
+          "sub": "pounds and miles"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: 3 movers at $45 an hour each, for 5 hours, is $675.",
+      "say": "Example: three movers at forty-five dollars an hour each, for five hours, is six hundred seventy-five dollars.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Example only:",
+          "3 movers x $45/hr",
+          "x 5 hrs = $675"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Then come extras: stairs, long carries, shuttle trucks and packing.",
+      "say": "Then come extras: stairs, long carries, shuttle trucks and packing.",
+      "scene": {
+        "t": "list",
+        "title": "Add-on fees",
+        "items": [
+          "Stairs",
+          "Long carry",
+          "Shuttle truck",
+          "Packing"
+        ],
+        "reveal": 4,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Interstate estimates are binding, a set price, or non-binding, capping what's due at delivery at 110%.",
+      "say": "Interstate estimates are binding, a set price, or non-binding, capping what's due at delivery at a hundred and ten percent.",
+      "scene": {
+        "t": "split",
+        "title": "Estimates",
+        "left": {
+          "title": "Binding",
+          "items": [
+            "Set price",
+            "Agreed upfront"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Nonbinding",
+          "items": [
+            "Final weight",
+            "Max 110% due"
+          ],
+          "tone": "neutral"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Free released value coverage pays 60 cents per pound per item.",
+      "say": "Free released value coverage pays sixty cents per pound per item.",
+      "scene": {
+        "t": "stat",
+        "label": "Released value",
+        "value": "60¢/lb",
+        "tone": "down",
+        "sub": "per item, FMCSA",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Federal regulators' example: a 10-pound, $1,000 stereo gets 6 bucks. Full value costs extra.",
+      "say": "Federal regulators' example: a ten-pound, thousand-dollar stereo gets six bucks. Full value costs extra.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "10-lb stereo",
+          "value": "$1,000"
+        },
+        "to": {
+          "label": "Released value",
+          "value": "6 bucks"
+        },
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Hostage-load complaints, when movers hold goods for more money, rose from 364 in 2017 to 899 in 2020, per federal regulators.",
+      "say": "Hostage-load complaints, when movers hold goods for more money, rose from three hundred sixty-four in twenty seventeen to eight hundred ninety-nine in twenty twenty, per federal regulators.",
+      "scene": {
+        "t": "chart",
+        "title": "Hostage complaints",
+        "points": [
+          [
+            2017,
+            364
+          ],
+          [
+            2018,
+            409
+          ],
+          [
+            2019,
+            495
+          ],
+          [
+            2020,
+            899
+          ]
+        ],
+        "end": "899",
+        "color": "down",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Movers lose a $1,000 stereo. Free coverage pays $6.",
+    "ig": "Movers lose a $1,000 stereo. The free coverage pays $6.\n\nLocal moves are usually billed by the hour (crew x hours); interstate moves are priced by weight and distance, plus extras like stairs, long carries, shuttles and packing.\nUnder FMCSA rules, a non-binding interstate estimate means the mover can't demand more than 110% at delivery; the rest is billed 30 days later.\nReleased value coverage is free but pays 60 cents per pound per article: FMCSA's example is a 10-lb, $1,000 stereo paying $6.\nHostage-load complaints rose from 364 in 2017 to 899 in 2020 (FMCSA via AARP).\n\nSources: FMCSA Protect Your Move, 49 CFR Part 375, This Old House (2025), AARP (2021).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#moving #movingcompany #howtheymakemoney #businessmodel #financeprostv",
+    "tiktok": "Movers lose a $1,000 stereo. Free coverage pays $6. How moves get priced. Not financial advice. #moneytok #personalfinance #moving #financeprostv",
+    "yt_desc": "How moving companies price a move: local moves are usually billed by the hour, while interstate moves are priced by weight and distance plus extras like stairs, long carries and shuttles. Under FMCSA rules (49 CFR Part 375), a non-binding estimate caps what a mover can demand at delivery at 110%, and free released value coverage pays 60 cents per pound per article, so FMCSA's own example is a $1,000 stereo paying $6. Hostage-load complaints rose from 364 in 2017 to 899 in 2020 (FMCSA via AARP). News and education, not financial advice.\n#Shorts #moving #businessmodel",
+    "tags": [
+      "how movers price a move",
+      "moving company pricing",
+      "binding vs non-binding estimate",
+      "released value 60 cents per pound",
+      "fmcsa moving rules"
+    ]
+  }
+}
