@@ -1,0 +1,156 @@
+{
+  "series": "ticker",
+  "header": "Paying in full\nbuilds credit?",
+  "cover": {
+    "title": "Pay in Full Myth",
+    "prop": "card",
+    "label": "FICO",
+    "value": "35%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Paying your card in full doesn't build credit? That's a myth.",
+      "say": "Paying your card in full doesn't build credit? That's a myth.",
+      "scene": {
+        "t": "hook",
+        "title": "Pay-in-full [myth]",
+        "prop": "card",
+        "label": "PAID",
+        "value": "MYTH",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It does. myFICO says payment history is 35% of a FICO score, and amounts owed are 30%.",
+      "say": "It does. myFICO says payment history is thirty-five percent of a FICO score, and amounts owed are thirty percent.",
+      "scene": {
+        "t": "compare",
+        "title": "FICO score weights",
+        "left": {
+          "label": "Pay history",
+          "value": "35%",
+          "tone": "up",
+          "sub": "myFICO"
+        },
+        "right": {
+          "label": "Amounts owed",
+          "value": "30%",
+          "tone": "up",
+          "sub": "myFICO"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's the twist. myFICO says issuers usually report your last statement balance, so paying by the due date doesn't change it.",
+      "say": "Here's the twist. myFICO says issuers usually report your last statement balance, so paying by the due date doesn't change it.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Day 1",
+            "what": "Card charges"
+          },
+          {
+            "when": "Close",
+            "what": "Balance reported"
+          },
+          {
+            "when": "Later",
+            "what": "Paid in full"
+          }
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "For example, a $1,500 statement balance on a $3,000 limit shows 50% utilization, even if you pay it all off.",
+      "say": "For example, a fifteen-hundred-dollar statement balance on a three-thousand-dollar limit shows fifty percent utilization, even if you pay it all off.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Example:",
+          "$1,500 / $3,000",
+          "= 50% used"
+        ],
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The CFPB says experts advise using no more than 30% of your limit, and some say less than 10%.",
+      "say": "The CFPB says experts advise using no more than thirty percent of your limit, and some say less than ten percent.",
+      "scene": {
+        "t": "compare",
+        "title": "How much to use",
+        "left": {
+          "label": "Experts",
+          "value": "30%",
+          "tone": "neutral",
+          "sub": "No more than: CFPB"
+        },
+        "right": {
+          "label": "Some experts",
+          "value": "10%",
+          "tone": "up",
+          "sub": "Less than: CFPB"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And Experian says people with exceptional FICO scores typically keep utilization under 10%.",
+      "say": "And Experian says people with exceptional FICO scores typically keep utilization under ten percent.",
+      "scene": {
+        "t": "stat",
+        "label": "Top FICO scorers",
+        "value": "<10%",
+        "tone": "up",
+        "sub": "Use, per Experian",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So paying in full does build credit. It's the balance on your closing date that counts.",
+      "say": "So paying in full does build credit. It's the balance on your closing date that counts.",
+      "scene": {
+        "t": "list",
+        "title": "Pay in full",
+        "items": [
+          "Builds history",
+          "Close date key"
+        ],
+        "reveal": 2,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Paying your card in full builds credit, with one catch",
+    "ig": "Paying your card in full doesn't build credit? That's a myth.\n\nmyFICO: payment history is 35% of a FICO score and amounts owed are 30%.\nmyFICO says issuers usually report your last statement balance, so paying by the due date doesn't change what's reported.\nExample: a $1,500 statement balance on a $3,000 limit = 50% utilization, even if paid in full.\nCFPB: experts advise using no more than 30% of your limit; some say under 10%. Experian: people with exceptional FICO scores typically stay under 10%.\n\nSources: myFICO, CFPB, Experian.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#creditscore #creditcards #moneymyths #personalfinance #financeprostv",
+    "tiktok": "Paying in full doesn't build credit? Myth. The catch: statement balance. Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
+    "yt_desc": "Paying your card in full does build credit: myFICO says payment history is 35% of a FICO score and amounts owed are 30%. But issuers usually report your last statement balance, so a $1,500 balance on a $3,000 limit shows 50% utilization even if paid in full (example). The CFPB says experts advise using no more than 30% of your limit, some say under 10%, and Experian says top scorers typically stay under 10%. News and education, not financial advice.\n#Shorts #creditscore #personalfinance",
+    "tags": [
+      "credit score",
+      "credit utilization",
+      "pay credit card in full",
+      "statement closing date",
+      "credit myths"
+    ]
+  }
+}
