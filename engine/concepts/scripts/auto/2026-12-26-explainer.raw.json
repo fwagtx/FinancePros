@@ -1,51 +1,197 @@
 {
   "series": "ticker",
   "header": "LLC vs sole prop:\nwhat really changes",
-  "cover": {"title": "LLC vs Sole Prop", "prop": "tag", "label": "LLC", "value": "$0"},
+  "cover": {
+    "title": "LLC vs Sole Prop",
+    "prop": "tag",
+    "label": "LLC",
+    "value": "$0"
+  },
   "lines": [
-    {"who": "ticker",
-     "text": "By default, an LLC cuts your federal taxes by $0.",
-     "say": "By default, an LLC cuts your federal taxes by zero dollars.",
-     "scene": {"t": "hook", "title": "LLC tax cut: [$0]", "prop": "tag", "label": "LLC", "value": "$0", "mood": "shock"}},
-    {"who": "ticker",
-     "text": "The IRS treats a one-owner LLC as a disregarded entity, so its profit lands on the same Schedule C.",
-     "say": "The IRS treats a one-owner LLC as a disregarded entity, so its profit lands on the same Schedule C.",
-     "scene": {"t": "board", "lines": ["1-owner LLC", "= disregarded", "Same Schedule C"], "mood": "think"}},
-    {"who": "ticker",
-     "text": "Example: $50,000 of profit means about $7,065 of self-employment tax either way.",
-     "say": "Example: fifty thousand dollars of profit means about seven thousand sixty-five dollars of self-employment tax either way.",
-     "scene": {"t": "compare", "title": "Self-employment tax", "left": {"label": "Sole prop", "value": "$7,065", "tone": "neutral", "sub": "$50K profit"}, "right": {"label": "LLC", "value": "$7,065", "tone": "neutral", "sub": "$50K profit"}, "mood": "worried"}},
-    {"who": "ticker",
-     "text": "That's 15.3%: 12.4% for Social Security and 2.9% for Medicare.",
-     "say": "That's fifteen point three percent: twelve point four for Social Security and two point nine for Medicare.",
-     "scene": {"t": "stat", "label": "SE tax rate (IRS)", "value": "15.3%", "tone": "down", "sub": "12.4% SS+2.9% Med"}},
-    {"who": "ticker",
-     "text": "The Social Security part stops at a cap: $184,500 in 2026, and $192,300 in 2027, per the SSA.",
-     "say": "The Social Security part stops at a cap: a hundred eighty-four thousand, five hundred dollars in twenty twenty-six, and a hundred ninety-two thousand, three hundred in twenty twenty-seven, per the S S A.",
-     "scene": {"t": "chart", "title": "Social Security cap", "points": [[2020, 137700], [2021, 142800], [2022, 147000], [2023, 160200], [2024, 168600], [2025, 176100], [2026, 184500], [2027, 192300]], "prefix": "$", "end": "$192K", "color": "up", "mood": "think"}},
-    {"who": "ticker",
-     "text": "What changes is legal: an LLC generally shields your personal stuff from business debts, but not your own negligence or debts you personally guaranteed.",
-     "say": "What changes is legal: an LLC generally shields your personal stuff from business debts, but not your own negligence or debts you personally guaranteed.",
-     "scene": {"t": "split", "title": "LLC shield", "left": {"title": "Covers", "items": ["Business debts"], "tone": "up"}, "right": {"title": "Not", "items": ["Own negligence", "Guarantees"], "tone": "down"}, "mood": "think"}},
-    {"who": "ticker",
-     "text": "Mix personal and business money, and a court can pierce that shield.",
-     "say": "Mix personal and business money, and a court can pierce that shield.",
-     "scene": {"t": "board", "lines": ["Mixed money?", "Courts can", "pierce the veil"], "mood": "worried"}},
-    {"who": "ticker",
-     "text": "It can cost more, too. California, for example, charges LLCs an $800 yearly tax.",
-     "say": "It can cost more, too. California, for example, charges LLCs an eight hundred dollar yearly tax.",
-     "scene": {"t": "stat", "label": "CA LLC yearly tax", "value": "$800", "tone": "down", "sub": "Example: CA FTB", "mood": "shock"}},
-    {"who": "ticker",
-     "text": "And an optional S corp election, on Form 2553, changes how payroll taxes work, which is worth a talk with a tax pro.",
-     "say": "And an optional S corp election, on Form twenty-five fifty-three, changes how payroll taxes work, which is worth a talk with a tax pro.",
-     "scene": {"t": "list", "title": "Optional extra", "items": ["S corp option", "Form 2553", "Ask a tax pro"], "reveal": 3, "mood": "happy"}},
-    {"who": "ticker", "text": "That's the money. Follow for more.", "say": "That's the money. Follow for more.", "scene": {"t": "cta"}}
+    {
+      "who": "ticker",
+      "text": "By default, a one-owner LLC cuts your federal taxes by $0.",
+      "say": "By default, a one-owner LLC cuts your federal taxes by zero dollars.",
+      "scene": {
+        "t": "hook",
+        "title": "LLC tax cut: [$0]",
+        "prop": "tag",
+        "label": "LLC",
+        "value": "$0",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The IRS treats a one-owner LLC as a disregarded entity: same Schedule C.",
+      "say": "The IRS treats a one-owner LLC as a disregarded entity: same Schedule C.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "1-owner LLC",
+          "= disregarded",
+          "Same Schedule C"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: $50,000 of profit means about $7,065 of self-employment tax either way.",
+      "say": "Example: fifty thousand dollars of profit means about seven thousand sixty-five dollars of self-employment tax either way.",
+      "scene": {
+        "t": "compare",
+        "title": "Self-employment tax",
+        "left": {
+          "label": "Sole prop",
+          "value": "$7,065",
+          "tone": "neutral",
+          "sub": "Hypothetical $50K"
+        },
+        "right": {
+          "label": "LLC",
+          "value": "$7,065",
+          "tone": "neutral",
+          "sub": "Hypothetical $50K"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Its Social Security part caps out: $184,500 in 2026, $192,300 in 2027, per the SSA.",
+      "say": "Its Social Security part caps out: a hundred eighty-four thousand, five hundred dollars in twenty twenty-six, a hundred ninety-two thousand, three hundred in twenty twenty-seven, per the S S A.",
+      "scene": {
+        "t": "chart",
+        "title": "Social Security cap",
+        "points": [
+          [
+            2020,
+            137700
+          ],
+          [
+            2021,
+            142800
+          ],
+          [
+            2022,
+            147000
+          ],
+          [
+            2023,
+            160200
+          ],
+          [
+            2024,
+            168600
+          ],
+          [
+            2025,
+            176100
+          ],
+          [
+            2026,
+            184500
+          ],
+          [
+            2027,
+            192300
+          ]
+        ],
+        "prefix": "$",
+        "end": "$192K",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "What changes is legal: an LLC generally shields you from business debts, not your own negligence or personal guarantees.",
+      "say": "What changes is legal: an LLC generally shields you from business debts, not your own negligence or personal guarantees.",
+      "scene": {
+        "t": "split",
+        "title": "LLC shield",
+        "left": {
+          "title": "Covers",
+          "items": [
+            "Business debts"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Not",
+          "items": [
+            "Own negligence",
+            "Guarantees"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Mix personal and business money, and courts can pierce it.",
+      "say": "Mix personal and business money, and courts can pierce it.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Mixed money?",
+          "Courts can",
+          "pierce the veil"
+        ],
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "California, for example, also charges LLCs an $800 yearly tax.",
+      "say": "California, for example, also charges LLCs an eight hundred dollar yearly tax.",
+      "scene": {
+        "t": "stat",
+        "label": "CA LLC yearly tax",
+        "value": "$800",
+        "tone": "down",
+        "sub": "Example: CA FTB",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "An optional S corp election, Form 2553, changes the payroll tax math; that's tax pro territory.",
+      "say": "An optional S corp election, Form twenty-five fifty-three, changes the payroll tax math; that's tax pro territory.",
+      "scene": {
+        "t": "list",
+        "title": "Optional extra",
+        "items": [
+          "S corp option",
+          "Form 2553",
+          "Tax pro topic"
+        ],
+        "reveal": 3,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
   ],
   "post": {
-    "title": "Does an LLC lower your taxes? By default, $0.",
-    "ig": "By default, an LLC cuts your federal taxes by $0.\n\nThe IRS treats a single-member LLC as a disregarded entity: same Schedule C, same 15.3% self-employment tax as a sole proprietor.\nExample: $50,000 of profit x 92.35% x 15.3% = about $7,065 either way.\nThe Social Security part is capped at $184,500 for 2026 and $192,300 for 2027 (SSA).\nWhat changes: a state-law liability shield for business debts (not your own negligence or personal guarantees), state fees (California: $800 a year), and an optional S corp election (Form 2553).\n\nSources: IRS Publication 3402, IRS Topic 554, SSA, California Franchise Tax Board.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#llc #smallbusiness #sidehustle #selfemployed #financeprostv",
-    "tiktok": "By default, an LLC cuts your federal taxes by $0. Here's what does change. Not financial advice. #moneytok #personalfinance #llc #sidehustle #financeprostv",
+    "title": "Does a one-owner LLC cut your taxes? By default, $0.",
+    "ig": "By default, a one-owner LLC cuts your federal taxes by $0.\n\nThe IRS treats a single-member LLC as a disregarded entity: same Schedule C, same 15.3% self-employment tax as a sole proprietor.\nExample: $50,000 of profit x 92.35% x 15.3% = about $7,065 either way.\nThe Social Security part is capped at $184,500 for 2026 and $192,300 for 2027 (SSA).\nWhat changes: a state-law liability shield for business debts (not your own negligence or personal guarantees), state fees (California: $800 a year), and an optional S corp election (Form 2553).\n\nSources: IRS Publication 3402, IRS Topic 554, SSA, California Franchise Tax Board.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#llc #smallbusiness #sidehustle #selfemployed #financeprostv",
+    "tiktok": "By default, a one-owner LLC cuts your federal taxes by $0. Here's what changes. Not financial advice. #moneytok #personalfinance #llc #financeprostv",
     "yt_desc": "By default, the IRS treats a single-member LLC as a disregarded entity, so it pays the same Schedule C income tax and 15.3% self-employment tax as a sole proprietor (IRS Pub 3402, Topic 554). What changes is a state-law liability shield, state fees such as California's $800 yearly LLC tax (FTB), and the option of an S corp election on Form 2553. The Social Security wage base is $184,500 for 2026 and $192,300 for 2027 (SSA). News and education, not financial advice.\n#Shorts #llc #smallbusiness",
-    "tags": ["llc vs sole proprietor", "single member llc taxes", "self employment tax", "llc liability protection", "s corp election"]
+    "tags": [
+      "llc vs sole proprietor",
+      "single member llc taxes",
+      "self employment tax",
+      "llc liability protection",
+      "s corp election"
+    ]
   }
 }
