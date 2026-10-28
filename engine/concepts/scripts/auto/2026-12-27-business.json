@@ -1,0 +1,192 @@
+{
+ "id": "2026-12-27-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Prepaid Cards\nMake Money",
+ "cover": {
+  "title": "Prepaid Profits",
+  "prop": "card",
+  "label": "GDOT",
+  "value": "$2.08B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Prepaid cards lend you nothing. So how do they profit?",
+   "say": "Prepaid cards lend you nothing. So how do they profit?",
+   "scene": {
+    "t": "hook",
+    "title": "No loans. Still [paid].",
+    "prop": "card",
+    "label": "GDOT",
+    "value": "$2.08B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Green Dot's 2025 revenue: $2.08 billion.",
+   "say": "Green Dot's twenty twenty-five revenue: two point zero eight billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Green Dot revenue",
+    "value": "$2.08B",
+    "tone": "up",
+    "sub": "FY2025, Form 10-K",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fees: monthly, cash reloads, ATM withdrawals, even buying the card.",
+   "say": "The fees: monthly, cash reloads, ATM withdrawals, even buying the card.",
+   "scene": {
+    "t": "list",
+    "title": "The fee menu",
+    "items": [
+     "Monthly fee",
+     "Cash reloads",
+     "ATM fees",
+     "Card purchase"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For example, one Green Dot card lists $7.95 monthly, plus up to $5.95 per reload.",
+   "say": "For example, one Green Dot card lists seven dollars and ninety-five cents monthly, plus up to five dollars and ninety-five cents per reload.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Example card",
+     "Monthly: $7.95",
+     "Up to $5.95/reload"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No fee waiver, two reloads: $19.85 a month.",
+   "say": "No fee waiver, two reloads: nineteen dollars and eighty-five cents a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "monthly fee",
+     "value": "$7.95"
+    },
+    "to": {
+     "label": "fee + 2 reloads",
+     "value": "$19.85"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Merchants pay swipe fees too. Green Dot's fell from $380 million in 2021 to $185 million in 2025.",
+   "say": "Merchants pay swipe fees too. Green Dot's fell from three hundred eighty million in twenty twenty-one to one hundred eighty-five million in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Green Dot interchange",
+    "points": [
+     [
+      2021,
+      380.0
+     ],
+     [
+      2022,
+      295.6
+     ],
+     [
+      2023,
+      231.0
+     ],
+     [
+      2024,
+      198.3
+     ],
+     [
+      2025,
+      184.6
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$185M",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Balances earn interest: about $90 million, net, in 2025.",
+   "say": "Balances earn interest: about ninety million dollars, net, in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Net interest",
+    "value": "$90M",
+    "tone": "up",
+    "sub": "Green Dot, FY2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The twist: in 2025, growth came from partner companies while cardholder fees fell.",
+   "say": "The twist: in twenty twenty-five, growth came from partner companies while cardholder fees fell.",
+   "scene": {
+    "t": "split",
+    "title": "Green Dot 2025",
+    "left": {
+     "title": "Partners",
+     "items": [
+      "Program fees",
+      "Rose in 2025"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Users",
+     "items": [
+      "Account fees",
+      "Fell in 2025"
+     ],
+     "tone": "down"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since April 2019, a federal rule requires prepaid cards to show fees up front.",
+   "say": "Since April twenty nineteen, a federal rule requires prepaid cards to show fees up front.",
+   "scene": {
+    "t": "news",
+    "headline": "Fees shown up front",
+    "source": "CFPB Prepaid Rule, Apr 2019"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
+  }
+ ],
+ "post": {
+  "title": "How prepaid debit cards make money with no loans",
+  "ig": "Prepaid cards lend you nothing. So how do they profit?\nGreen Dot's fiscal 2025 revenue: $2.08B; interchange (swipe fees paid by merchants) was $184.6M, down from $380.0M in 2021.\nNet interest income on balances: about $90M in 2025. Growth in 2025 came mainly from partner program fees while accountholder fees fell.\nExample: a $7.95 monthly fee plus two cash reloads at up to $5.95 each = $19.85 a month (fee not waived).\nSince April 2019, the CFPB Prepaid Rule requires a short fee chart before purchase.\nSources: Green Dot Form 10-K filings (FY2021-FY2025), Green Dot cardholder agreement, CFPB.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#prepaidcards #greendot #howtheymakemoney #business #financeprostv",
+  "tiktok": "Prepaid cards lend nothing. So how do they profit? Fees, swipes, interest. Not financial advice. #moneytok #personalfinance #prepaid #financeprostv",
+  "yt_desc": "Prepaid debit cards make money from monthly, reload and ATM fees, merchant swipe fees (interchange) and interest on balances. Green Dot reported $2.08 billion in fiscal 2025 revenue, with interchange falling from $380.0 million in 2021 to $184.6 million in 2025; the $19.85 monthly cost is an example using a Green Dot card's listed fees. Sources: Green Dot Form 10-K filings, Green Dot cardholder agreement, CFPB Prepaid Rule. News and education, not financial advice. #Shorts #prepaidcards #business",
+  "tags": [
+   "how prepaid cards make money",
+   "prepaid debit card fees",
+   "green dot",
+   "interchange fees",
+   "how they make money"
+  ]
+ }
+}
