@@ -1,0 +1,175 @@
+{
+ "id": "2026-12-27-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Your stock got\ndelisted. Now what?",
+ "cover": {
+  "title": "Delisted Stock?",
+  "prop": "chart-down",
+  "label": "STOCK",
+  "value": "$1 bid"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Stock delisted? Delisting alone doesn't erase your shares.",
+   "say": "Stock delisted? Delisting alone doesn't erase your shares.",
+   "scene": {
+    "t": "hook",
+    "title": "Delisted isn't [erased]",
+    "prop": "paper",
+    "label": "STOCK",
+    "value": "YOURS",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You still own them. They often trade over the counter, with fewer buyers and wider spreads.",
+   "say": "You still own them. They often trade over the counter, with fewer buyers and wider spreads.",
+   "scene": {
+    "t": "split",
+    "title": "After delisting",
+    "left": {
+     "title": "Exchange",
+     "items": [
+      "More buyers",
+      "Tight spreads",
+      "More info"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "OTC",
+     "items": [
+      "Fewer buyers",
+      "Wider spreads",
+      "Less info"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some delistings are voluntary, like cash buyouts. Others are forced out.",
+   "say": "Some delistings are voluntary, like cash buyouts. Others are forced out.",
+   "scene": {
+    "t": "list",
+    "title": "Why stocks delist",
+    "items": [
+     "Cash buyout",
+     "Going private",
+     "Price under $1",
+     "Bankruptcy"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Nasdaq, a closing bid under $1 for 30 straight business days starts a 180-day fix-it clock.",
+   "say": "On Nasdaq, a closing bid under one dollar for thirty straight business days starts a hundred-eighty-day fix-it clock.",
+   "scene": {
+    "t": "stat",
+    "label": "Nasdaq bid floor",
+    "value": "$1.00",
+    "tone": "down",
+    "sub": "30 days, then 180",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A common fix: a reverse split. Say 10 fifty-cent shares become 1 five-dollar share.",
+   "say": "A common fix: a reverse split. Say ten fifty-cent shares become one five-dollar share.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Say 10 shares at",
+     "value": "$0.50"
+    },
+    "to": {
+     "label": "1 share at",
+     "value": "$5.00"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since 2025, Nasdaq skips that grace period after a reverse split in the past year.",
+   "say": "Since twenty twenty-five, Nasdaq skips that grace period after a reverse split in the past year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reverse split in",
+     "the past year?",
+     "No grace period"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bankruptcy is the real danger: the SEC says that stock is likely worthless.",
+   "say": "Bankruptcy is the real danger: the S E C says that stock is likely worthless.",
+   "scene": {
+    "t": "stat",
+    "label": "Bankrupt stock",
+    "value": "Often $0",
+    "tone": "down",
+    "sub": "SEC bulletin",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The original Bed Bath & Beyond left Nasdaq in May 2023; its bankruptcy plan canceled the shares that September.",
+   "say": "The original Bed Bath and Beyond left Nasdaq in May twenty twenty-three; its bankruptcy plan canceled the shares that September.",
+   "scene": {
+    "t": "news",
+    "headline": "BBBYQ stock canceled",
+    "source": "2023 Chapter 11 plan",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Delisting is a warning, not a vanishing act. Why it happened decides the rest.",
+   "say": "Delisting is a warning, not a vanishing act. Why it happened decides the rest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Delisted =",
+     "warning sign",
+     "not deleted"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Delisting alone doesn't erase your shares",
+  "ig": "Stock delisted? Delisting alone doesn't erase your shares.\nDelisted stocks often keep trading over the counter, with fewer buyers and wider spreads.\nNasdaq: a closing bid under $1 for 30 business days in a row brings a warning and usually 180 days to fix it.\nSince 2025, no grace period if the company did a reverse split in the past year.\nThe real risk is bankruptcy: the SEC says a bankrupt company's common stock is likely worthless. The original Bed Bath & Beyond's shares were canceled in September 2023.\nSources: SEC investor bulletin, Nasdaq rules, Federal Register, the original Bed Bath & Beyond's 2023 Chapter 11 plan.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stocks #investing #delisting #personalfinance #financeprostv",
+  "tiktok": "Delisting alone doesn't erase your shares. Not financial advice. #moneytok #personalfinance #stocks #investing #financeprostv",
+  "yt_desc": "A delisted stock usually keeps trading over the counter, where buyers are fewer and spreads wider. Nasdaq flags a closing bid under $1 for 30 business days and usually gives 180 days to fix it; since January 2025 there is no grace period after a reverse split in the past year. The SEC says a bankrupt company's common stock is likely worthless, and the original Bed Bath & Beyond's shares were canceled in September 2023. Sources: SEC investor bulletin, Nasdaq rules, Federal Register. News and education, not financial advice.\n#Shorts #stocks #investing",
+  "tags": [
+   "stock delisting",
+   "what happens if a stock is delisted",
+   "reverse stock split",
+   "OTC stocks",
+   "Nasdaq minimum bid price"
+  ]
+ }
+}
