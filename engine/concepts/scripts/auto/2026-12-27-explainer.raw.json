@@ -1,0 +1,194 @@
+{
+  "series": "ticker",
+  "header": "Credit vs debit:\nwho's out the cash?",
+  "cover": {
+    "title": "Credit vs Debit",
+    "prop": "card",
+    "label": "DEBIT",
+    "value": "-$2K"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Same fraud, two cards. Only one drains your checking account.",
+      "say": "Same fraud, two cards. Only one drains your checking account.",
+      "scene": {
+        "t": "hook",
+        "title": "Whose [money] is gone?",
+        "prop": "card",
+        "label": "DEBIT",
+        "value": "-$2,000",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "On credit, a thief spends the bank's money. On debit, they spend yours.",
+      "say": "On credit, a thief spends the bank's money. On debit, they spend yours.",
+      "scene": {
+        "t": "compare",
+        "title": "Whose money is gone?",
+        "left": {
+          "label": "Credit",
+          "value": "Bank's",
+          "tone": "up",
+          "sub": "Lender's money"
+        },
+        "right": {
+          "label": "Debit",
+          "value": "Yours",
+          "tone": "down",
+          "sub": "Your checking cash"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The Truth in Lending Act caps what you owe for unauthorized credit card charges at $50.",
+      "say": "The Truth in Lending Act caps what you owe for unauthorized credit card charges at fifty dollars.",
+      "scene": {
+        "t": "stat",
+        "label": "Credit card max",
+        "value": "$50",
+        "tone": "up",
+        "sub": "Truth in Lending",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And in a billing dispute, Regulation Z says you don't have to pay the charge.",
+      "say": "And in a billing dispute, Regulation Z says you don't have to pay the charge.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Dispute open:",
+          "you don't pay it"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Debit falls under Regulation E. Banks get 10 business days to decide.",
+      "say": "Debit falls under Regulation E. Banks get ten business days to decide.",
+      "scene": {
+        "t": "timeline",
+        "title": "Debit fraud claim",
+        "events": [
+          {
+            "when": "Day 0",
+            "what": "You report fraud"
+          },
+          {
+            "when": "10 BD",
+            "what": "Decide, or credit you back"
+          },
+          {
+            "when": "45 d",
+            "what": "Max if credited back"
+          },
+          {
+            "when": "90 d",
+            "what": "Some debit purchases"
+          }
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Or they credit you back and take up to 45 days, or 90 for some debit purchases.",
+      "say": "Or they credit you back and take up to forty-five days, or ninety for some debit purchases.",
+      "scene": {
+        "t": "timeline",
+        "title": "Debit fraud claim",
+        "keep": true,
+        "reveal": 4,
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Example: $2,500 in checking, $2,000 stolen, and $500 left while you wait.",
+      "say": "Example: two thousand five hundred dollars in checking, two thousand stolen, and five hundred left while you wait.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Checking",
+          "value": "$2,500"
+        },
+        "to": {
+          "label": "After $2K fraud",
+          "value": "$500"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Rent autopays can bounce and overdraft fees can pile up.",
+      "say": "Rent autopays can bounce and overdraft fees can pile up.",
+      "scene": {
+        "t": "list",
+        "title": "While you wait",
+        "items": [
+          "Rent autopay",
+          "Bounced bills",
+          "Overdraft fees"
+        ],
+        "reveal": 3,
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Card networks' zero-liability policies often cover debit too. The real difference is whose money is missing while the bank investigates.",
+      "say": "Card networks' zero-liability policies often cover debit too. The real difference is whose money is missing while the bank investigates.",
+      "scene": {
+        "t": "split",
+        "title": "Fraud wait",
+        "left": {
+          "title": "Credit",
+          "items": [
+            "Bank's money",
+            "Bill on hold"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Debit",
+          "items": [
+            "Your cash",
+            "Bills at risk"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Card fraud: why debit can drain your checking account",
+    "ig": "Same fraud, two cards. Only one drains your checking account.\n\nCredit card: the Truth in Lending Act caps what you owe for unauthorized charges at $50, and under Regulation Z you don't have to pay a disputed charge while it's investigated.\nDebit card: under Regulation E the bank has 10 business days to decide, or it can provisionally credit you and take up to 45 days (90 for some debit purchases).\nExample: $2,500 in checking - $2,000 stolen = $500 left while you wait, so autopays can bounce and overdraft fees can hit.\nCard networks' zero-liability policies often cover debit too; the gap is whose money is missing during the investigation.\n\nSources: 12 CFR 1026.12 and 1026.13 (Regulation Z), 12 CFR 1005.11 (Regulation E), CFPB, FTC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#creditcards #debitcard #fraud #personalfinance #financeprostv",
+    "tiktok": "Same fraud, two cards. Only one drains your checking account. Not financial advice. #moneytok #personalfinance #creditcards #fraud #financeprostv",
+    "yt_desc": "With credit card fraud, the Truth in Lending Act caps unauthorized-charge liability at $50 and Regulation Z lets you skip paying a disputed charge while it's investigated. With debit card fraud, the money leaves your checking account, and under Regulation E the bank has 10 business days to decide or can provisionally credit you and take up to 45 days (90 for some debit purchases). Sources: 12 CFR 1026.12, 1026.13, 1005.11; CFPB; FTC. News and education, not financial advice.\n#Shorts #creditcards #fraud",
+    "tags": [
+      "credit card vs debit card fraud",
+      "regulation e",
+      "fair credit billing act",
+      "debit card fraud",
+      "credit card fraud protection"
+    ]
+  }
+}
