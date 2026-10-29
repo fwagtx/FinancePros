@@ -39,34 +39,30 @@
       "text": "A year earlier it was $15.2 billion, and it has grown every quarter since.",
       "say": "A year earlier it was fifteen point two billion dollars, and it has grown every quarter since.",
       "scene": {
-        "t": "chart",
-        "title": "Google Cloud ($B)",
-        "points": [
-          [
-            1,
-            15.2
-          ],
-          [
-            2,
-            17.7
-          ],
-          [
-            3,
-            20.0
-          ],
-          [
-            4,
-            24.8
-          ],
-          [
-            5,
-            30.7
-          ]
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Q3 25",
+            "what": "$15.2B"
+          },
+          {
+            "when": "Q4 25",
+            "what": "$17.7B"
+          },
+          {
+            "when": "Q1 26",
+            "what": "$20.0B"
+          },
+          {
+            "when": "Q2 26",
+            "what": "$24.8B"
+          },
+          {
+            "when": "Q3 26",
+            "what": "$30.7B"
+          }
         ],
-        "prefix": "$",
-        "suffix": "B",
-        "end": "$30.7B",
-        "color": "up",
+        "reveal": 5,
         "mood": "think"
       }
     },
