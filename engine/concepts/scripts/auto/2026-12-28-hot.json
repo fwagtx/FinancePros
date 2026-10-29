@@ -1,0 +1,218 @@
+{
+ "id": "2026-12-28-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Myth: bonds can't\nlose value",
+ "cover": {
+  "title": "Can Bonds Lose?",
+  "prop": "chart-down",
+  "label": "BONDS",
+  "value": "-13%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: safe bonds can't lose value.",
+   "say": "Myth: safe bonds can't lose value.",
+   "scene": {
+    "t": "hook",
+    "title": "Can't [lose]?",
+    "prop": "chart-down",
+    "label": "BONDS",
+    "value": "-13%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2022, the main US bond index lost about 13%.",
+   "say": "In twenty twenty-two, the main US bond index lost about thirteen percent.",
+   "scene": {
+    "t": "stat",
+    "label": "US bond index 2022",
+    "value": "-13.01%",
+    "tone": "down",
+    "sub": "Bloomberg US Agg",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its worst year since the index began in 1976. The old record: about 3%, in 1994.",
+   "say": "Its worst year since the index began in nineteen seventy-six. The old record: about three percent, in nineteen ninety-four.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Worst on record",
+     "Old worst: 1994",
+     "That drop: -2.92%"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's 2016 to 2025: mostly gains, then one big cliff in 2022.",
+   "say": "Here's twenty sixteen to twenty twenty-five: mostly gains, then one big cliff in twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "title": "US bond index, yearly",
+    "points": [
+     [
+      2016,
+      2.65
+     ],
+     [
+      2017,
+      3.54
+     ],
+     [
+      2018,
+      0.01
+     ],
+     [
+      2019,
+      8.72
+     ],
+     [
+      2020,
+      7.51
+     ],
+     [
+      2021,
+      -1.54
+     ],
+     [
+      2022,
+      -13.01
+     ],
+     [
+      2023,
+      5.53
+     ],
+     [
+      2024,
+      1.25
+     ],
+     [
+      2025,
+      7.3
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.3%",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Long-term Treasuries fell harder that year: iShares' TLT fund lost about 31%.",
+   "say": "Long-term Treasuries fell harder that year: iShares' T L T fund lost about thirty-one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "TLT, 2022 return",
+    "value": "-31.4%",
+    "tone": "down",
+    "sub": "iShares, 20+ yr",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? When rates rise, older bonds paying less interest get cheaper.",
+   "say": "Why? When rates rise, older bonds paying less interest get cheaper.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rates go up",
+     "Old bond prices",
+     "go down"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math, with FINRA's rule of thumb: duration 6, rates up 2 percentage points, and $10,000 becomes about $8,800.",
+   "say": "Our math, with FINRA's rule of thumb: duration six, rates up two percentage points, and ten thousand dollars becomes about eight thousand eight hundred dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Rates up 2 pts",
+    "left": {
+     "label": "Before",
+     "value": "$10,000",
+     "tone": "neutral",
+     "sub": "Duration-6 fund"
+    },
+    "right": {
+     "label": "After",
+     "value": "$8,800",
+     "tone": "down",
+     "sub": "Our math, approx"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A high-quality bond held to maturity pays back face value, barring default. Most bond funds never mature.",
+   "say": "A high-quality bond held to maturity pays back face value, barring default. Most bond funds never mature.",
+   "scene": {
+    "t": "split",
+    "title": "Two paths",
+    "left": {
+     "title": "One bond",
+     "items": [
+      "Has end date",
+      "Face value back"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Bond fund",
+     "items": [
+      "No end date",
+      "Price floats"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So safe means low default risk, not a price that never moves.",
+   "say": "So safe means low default risk, not a price that never moves.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Safe = low default",
+     "not a flat price"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Bonds are safe, so they can't lose value? 2022 says no",
+  "ig": "Myth: bonds are safe, so they can't lose value.\n\nIn 2022 the Bloomberg US Aggregate bond index returned -13.01%, its worst year since it began in 1976 (the old record was -2.92% in 1994).\nLong-term Treasuries fell harder: the iShares 20+ Year Treasury Bond ETF (TLT) returned -31.4% in 2022.\nWhy: when rates rise, existing bond prices fall. FINRA's rule of thumb: price moves about 1% per year of duration for each 1-point rate change. Our math: a duration-6 fund, rates up 2 points, $10,000 becomes about $8,800.\nA high-quality bond held to maturity repays face value barring default; most bond funds have no maturity date.\n\nSources: State Street SPDR index data, Bloomberg, iShares (TLT), FINRA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#bonds #investing #interestrates #personalfinance #financeprostv",
+  "tiktok": "Bonds can't lose value? The US bond index lost 13% in 2022. Not financial advice. #moneytok #personalfinance #bonds #investing #financeprostv",
+  "yt_desc": "Bonds are often called safe, but the Bloomberg US Aggregate bond index returned -13.01% in 2022, its worst year since the index began in 1976, and the iShares 20+ Year Treasury ETF (TLT) returned -31.4%. When rates rise, bond prices fall about 1% for each year of duration per 1-point rate rise, per FINRA; an individual high-quality bond held to maturity still repays face value barring default, while most bond funds never mature. Sources: State Street SPDR index data, Bloomberg, iShares, FINRA. News and education, not financial advice.\n#Shorts #bonds #investing",
+  "tags": [
+   "bonds",
+   "bond myth",
+   "2022 bond market",
+   "interest rates and bonds",
+   "bond duration"
+  ]
+ }
+}
