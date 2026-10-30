@@ -1,0 +1,1644 @@
+{
+ "series": "ticker",
+ "header": "How insurers\nmake money",
+ "cover": {
+  "title": "The Float Trick.",
+  "prop": "bag",
+  "label": "FLOAT",
+  "value": "$35.7B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 2023, insurers lost money selling insurance and still made billions.",
+   "say": "In twenty twenty-three, insurers lost money selling insurance and still made billions.",
+   "scene": {
+    "t": "hook",
+    "title": "Lose and [win]",
+    "prop": "bag",
+    "label": "FLOAT",
+    "value": "$35.7B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "US property and casualty insurers lost about $22 billion on their policies in 2023, according to Verisk and the APCIA.",
+   "say": "US property and casualty insurers lost about twenty-two billion dollars on their policies in twenty twenty-three, according to Verisk and the A P C I A.",
+   "scene": {
+    "t": "compare",
+    "title": "US P&C insurers, 2023",
+    "left": {
+     "label": "Underwriting",
+     "value": "-$22B",
+     "tone": "down",
+     "sub": "Loss on policies"
+    },
+    "right": {
+     "label": "Net income",
+     "value": "$35.7B",
+     "tone": "up",
+     "sub": "After taxes"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Yet the same industry earned $35.7 billion in net income after taxes that year.",
+   "say": "Yet the same industry earned thirty-five point seven billion dollars in net income after taxes that year.",
+   "scene": {
+    "t": "compare",
+    "title": "US P&C insurers, 2023",
+    "left": {
+     "label": "Underwriting",
+     "value": "-$22B",
+     "tone": "down",
+     "sub": "Loss on policies"
+    },
+    "right": {
+     "label": "Net income",
+     "value": "$35.7B",
+     "tone": "up",
+     "sub": "After taxes"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How do you lose money doing your job and still come out ahead? One word: float.",
+   "say": "How do you lose money doing your job and still come out ahead? One word: float.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Float = money held",
+     "before claims paid"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Insurers get your money first and pay claims later. In between, that money is invested, and it earns a lot.",
+   "say": "Insurers get your money first and pay claims later. In between, that money is invested, and it earns a lot.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Your premium",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "Invested",
+     "value": "bonds"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In this video: the two ways insurers make money, the one number that grades them, a real insurer's books, and what it means for you.",
+   "say": "In this video: the two ways insurers make money, the one number that grades them, a real insurer's books, and what it means for you.",
+   "scene": {
+    "t": "list",
+    "title": "This video",
+    "items": [
+     "Two engines",
+     "Combined ratio",
+     "Float + rates",
+     "Progressive"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Numbers come from industry reports and company filings, with years attached. This is education, not advice.",
+   "say": "Numbers come from industry reports and company filings, with years attached. This is education, not advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Industry reports",
+     "Education only"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Two money engines",
+   "say": "Chapter one: two money engines.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Two money engines"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We're talking about property and casualty insurers here: the companies behind your car, home and renters policies.",
+   "say": "We're talking about property and casualty insurers here: the companies behind your car, home and renters policies.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "INSURANCE CO",
+    "label": "CAR + HOME",
+    "caption": "Property and casualty"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their business is a strange one. They sell a product before they know what it will cost them.",
+   "say": "Their business is a strange one. They sell a product before they know what it will cost them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price set today",
+     "Cost known later"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A bakery knows what flour costs. An insurer only finds out next year, when the crashes, fires and lawsuits come in.",
+   "say": "A bakery knows what flour costs. An insurer only finds out next year, when the crashes, fires and lawsuits come in.",
+   "scene": {
+    "t": "split",
+    "title": "Cost known?",
+    "left": {
+     "title": "Bakery",
+     "items": [
+      "Flour price",
+      "Known today"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Insurer",
+     "items": [
+      "Claims",
+      "Known later"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So insurers make money in two ways. Engine one is underwriting: charging more in premiums than they pay in claims and costs.",
+   "say": "So insurers make money in two ways. Engine one is underwriting: charging more in premiums than they pay in claims and costs.",
+   "scene": {
+    "t": "list",
+    "title": "Two engines",
+    "items": [
+     "Underwriting",
+     "Investing"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Engine two is investing: putting premiums to work in bonds and other assets until the claims arrive.",
+   "say": "Engine two is investing: putting premiums to work in bonds and other assets until the claims arrive.",
+   "scene": {
+    "t": "list",
+    "title": "Two engines",
+    "items": [
+     "Underwriting",
+     "Investing"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That pile of money waiting to be paid out is the float. It isn't the insurer's money, but the insurer keeps the returns.",
+   "say": "That pile of money waiting to be paid out is the float. It isn't the insurer's money, but the insurer keeps the returns.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not their money,",
+     "but their returns"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A car repair claim might be paid in weeks. An injury lawsuit can take years, and the money waits the whole time.",
+   "say": "A car repair claim might be paid in weeks. An injury lawsuit can take years, and the money waits the whole time.",
+   "scene": {
+    "t": "split",
+    "title": "Claim speed",
+    "left": {
+     "title": "Fast",
+     "items": [
+      "Car repair",
+      "Weeks"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Slow",
+     "items": [
+      "Injury suit",
+      "Years"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Warren Buffett built Berkshire Hathaway around this idea, but it isn't his secret. The whole industry runs on it.",
+   "say": "Warren Buffett built Berkshire Hathaway around this idea, but it isn't his secret. The whole industry runs on it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not just Buffett:",
+     "a whole industry"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, AM Best says US property and casualty insurers earned about $60.9 billion from underwriting.",
+   "say": "In twenty twenty-five, A M Best says US property and casualty insurers earned about sixty point nine billion dollars from underwriting.",
+   "scene": {
+    "t": "stat",
+    "label": "Underwriting, 2025",
+    "value": "$60.9B",
+    "tone": "up",
+    "sub": "AM Best, Mar 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was a great year for underwriting. But net investment income was even bigger: $91.4 billion.",
+   "say": "That was a great year for underwriting. But net investment income was even bigger: ninety-one point four billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "US P&C income, 2025",
+    "left": {
+     "label": "Underwriting",
+     "value": "$60.9B",
+     "tone": "up",
+     "sub": "Engine one"
+    },
+    "right": {
+     "label": "Investments",
+     "value": "$91.4B",
+     "tone": "up",
+     "sub": "Net invest. income"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So even in their best underwriting year in about a decade, the investing engine brought in more.",
+   "say": "So even in their best underwriting year in about a decade, the investing engine brought in more.",
+   "scene": {
+    "t": "compare",
+    "title": "US P&C income, 2025",
+    "left": {
+     "label": "Underwriting",
+     "value": "$60.9B",
+     "tone": "up",
+     "sub": "Engine one"
+    },
+    "right": {
+     "label": "Investments",
+     "value": "$91.4B",
+     "tone": "up",
+     "sub": "Net invest. income"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The combined ratio",
+   "say": "Chapter two: the combined ratio.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The combined ratio"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To grade engine one, insurers use a single number called the combined ratio.",
+   "say": "To grade engine one, insurers use a single number called the combined ratio.",
+   "scene": {
+    "t": "hook",
+    "title": "One [grade]",
+    "prop": "paper",
+    "label": "C.R.",
+    "value": "100"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's simple: claims plus the cost of handling them, plus all other expenses, divided by premiums earned.",
+   "say": "It's simple: claims plus the cost of handling them, plus all other expenses, divided by premiums earned.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Claims + costs",
+     "÷ premiums"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Under 100 means the insurer made money on its policies. Over 100 means it paid out more than it took in.",
+   "say": "Under one hundred means the insurer made money on its policies. Over one hundred means it paid out more than it took in.",
+   "scene": {
+    "t": "split",
+    "title": "The rule",
+    "left": {
+     "title": "Under 100",
+     "items": [
+      "Profit",
+      "on policies"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Over 100",
+     "items": [
+      "Loss",
+      "on policies"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's do the math with an example. Picture a made-up insurer and one car policy that costs $2,000 a year.",
+   "say": "Let's do the math with an example. Picture a made-up insurer and one car policy that costs two thousand dollars a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Example premium",
+    "value": "$2,000",
+    "tone": "neutral",
+    "sub": "One car, one year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say it pays $1,400 in claims and claim handling, and $500 for agents, ads, staff and offices.",
+   "say": "Say it pays fourteen hundred dollars in claims and claim handling, and five hundred dollars for agents, ads, staff and offices.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Claims: $1,400",
+     "Costs: $500"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's $1,900 out of $2,000 in. Divide, and the combined ratio is 95.",
+   "say": "That's nineteen hundred dollars out of two thousand in. Divide, and the combined ratio is ninety-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,900 / $2,000",
+     "= 95"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the underwriting profit is $100. Five cents on every dollar of premium.",
+   "say": "So the underwriting profit is one hundred dollars. Five cents on every dollar of premium.",
+   "scene": {
+    "t": "stat",
+    "label": "Example profit",
+    "value": "$100",
+    "tone": "up",
+    "sub": "Example, ratio 95",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now add the float. Suppose the $1,400 set aside for claims sits invested for about a year, earning 4%.",
+   "say": "Now add the float. Suppose the fourteen hundred dollars set aside for claims sits invested for about a year, earning four percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,400 x 4%",
+     "= $56"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's another $56. Total profit on this one example policy: $156.",
+   "say": "That's another fifty-six dollars. Total profit on this one example policy: one hundred fifty-six dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Underwriting",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Plus float",
+     "value": "$156"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now a bad year. Claims jump to $1,540. Add the $500 in costs, and $2,040 goes out.",
+   "say": "Now a bad year. Claims jump to fifteen hundred forty dollars. Add the five hundred in costs, and two thousand forty dollars goes out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,540 + $500",
+     "= $2,040 out"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The combined ratio is 102, so the insurer loses $40 on the policy itself.",
+   "say": "The combined ratio is one hundred two, so the insurer loses forty dollars on the policy itself.",
+   "scene": {
+    "t": "compare",
+    "title": "Example bad year",
+    "left": {
+     "label": "Underwriting",
+     "value": "-$40",
+     "tone": "down",
+     "sub": "Ratio 102"
+    },
+    "right": {
+     "label": "Float income",
+     "value": "+$61.60",
+     "tone": "up",
+     "sub": "$1,540 x 4%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the float earns $61.60. The insurer still ends up about $22 ahead. That's the 2023 story in miniature.",
+   "say": "But the float earns sixty-one dollars and sixty cents. The insurer still ends up about twenty-two dollars ahead. That's the twenty twenty-three story in miniature.",
+   "scene": {
+    "t": "compare",
+    "title": "Example bad year",
+    "left": {
+     "label": "Underwriting",
+     "value": "-$40",
+     "tone": "down",
+     "sub": "Ratio 102"
+    },
+    "right": {
+     "label": "Float income",
+     "value": "+$61.60",
+     "tone": "up",
+     "sub": "$1,540 x 4%"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's a limit, though. At a ratio of 110, this example loses $200 on the policy, and 4% float income can't cover it.",
+   "say": "There's a limit, though. At a ratio of one hundred ten, this example loses two hundred dollars on the policy, and four percent float income can't cover it.",
+   "scene": {
+    "t": "stat",
+    "label": "Ratio 110 example",
+    "value": "-$200",
+    "tone": "down",
+    "sub": "Float can't cover",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the real industry. In 2020, the combined ratio was 98.6, and in 2021 it was 99.6. Barely profitable on policies.",
+   "say": "Here's the real industry. In twenty twenty, the combined ratio was ninety-eight point six, and in twenty twenty-one it was ninety-nine point six. Barely profitable on policies.",
+   "scene": {
+    "t": "chart",
+    "title": "US P&C combined ratio",
+    "points": [
+     [
+      2020,
+      98.6
+     ],
+     [
+      2021,
+      99.6
+     ],
+     [
+      2022,
+      102.4
+     ],
+     [
+      2023,
+      101.6
+     ],
+     [
+      2024,
+      96.6
+     ],
+     [
+      2025,
+      92.9
+     ]
+    ],
+    "end": "92.9",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it went over 100: 102.4 in 2022 and 101.6 in 2023, as repair costs and claims ran hot.",
+   "say": "Then it went over one hundred: one hundred two point four in twenty twenty-two and one hundred one point six in twenty twenty-three, as repair costs and claims ran hot.",
+   "scene": {
+    "t": "chart",
+    "title": "US P&C combined ratio",
+    "points": [
+     [
+      2020,
+      98.6
+     ],
+     [
+      2021,
+      99.6
+     ],
+     [
+      2022,
+      102.4
+     ],
+     [
+      2023,
+      101.6
+     ],
+     [
+      2024,
+      96.6
+     ],
+     [
+      2025,
+      92.9
+     ]
+    ],
+    "end": "92.9",
+    "color": "up",
+    "keep": true,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 96.6 in 2024, and 92.9 in 2025, per Verisk and the APCIA. That's a big swing in just two years.",
+   "say": "Then ninety-six point six in twenty twenty-four, and ninety-two point nine in twenty twenty-five, per Verisk and the A P C I A. That's a big swing in just two years.",
+   "scene": {
+    "t": "chart",
+    "title": "US P&C combined ratio",
+    "points": [
+     [
+      2020,
+      98.6
+     ],
+     [
+      2021,
+      99.6
+     ],
+     [
+      2022,
+      102.4
+     ],
+     [
+      2023,
+      101.6
+     ],
+     [
+      2024,
+      96.6
+     ],
+     [
+      2025,
+      92.9
+     ]
+    ],
+    "end": "92.9",
+    "color": "up",
+    "keep": true,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In dollars, that swing is huge. The industry lost $24.8 billion on underwriting in 2022...",
+   "say": "In dollars, that swing is huge. The industry lost twenty-four point eight billion dollars on underwriting in twenty twenty-two...",
+   "scene": {
+    "t": "chart",
+    "title": "Underwriting result",
+    "points": [
+     [
+      2020,
+      5.2
+     ],
+     [
+      2021,
+      -3.8
+     ],
+     [
+      2022,
+      -24.8
+     ],
+     [
+      2023,
+      -21.8
+     ],
+     [
+      2024,
+      23
+     ],
+     [
+      2025,
+      63
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$63B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "...and gained about $63 billion in 2025, Verisk and the APCIA estimate.",
+   "say": "...and gained about sixty-three billion dollars in twenty twenty-five, Verisk and the A P C I A estimate.",
+   "scene": {
+    "t": "chart",
+    "title": "Underwriting result",
+    "points": [
+     [
+      2020,
+      5.2
+     ],
+     [
+      2021,
+      -3.8
+     ],
+     [
+      2022,
+      -24.8
+     ],
+     [
+      2023,
+      -21.8
+     ],
+     [
+      2024,
+      23
+     ],
+     [
+      2025,
+      63
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$63B",
+    "color": "up",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the first half of 2026 kept going: a combined ratio of 92.7, versus 96.5 a year earlier.",
+   "say": "And the first half of twenty twenty-six kept going: a combined ratio of ninety-two point seven, versus ninety-six point five a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Ratio, H1 2026",
+    "value": "92.7",
+    "tone": "up",
+    "sub": "Verisk/APCIA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But Verisk warned against reading too much into it. Much of that improvement came from fewer big disasters.",
+   "say": "But Verisk warned against reading too much into it. Much of that improvement came from fewer big disasters.",
+   "scene": {
+    "t": "news",
+    "headline": "Risk hasn't shrunk",
+    "source": "Verisk/APCIA, Sept 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Float meets interest rates",
+   "say": "Chapter three: float meets interest rates.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Float meets interest rates"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The float engine depends on one thing above all: what bonds pay. And for years, they paid almost nothing.",
+   "say": "The float engine depends on one thing above all: what bonds pay. And for years, they paid almost nothing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Float engine =",
+     "bond yields"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2020 and 2021, the Federal Reserve held its key rate near zero.",
+   "say": "In twenty twenty and twenty twenty-one, the Federal Reserve held its key rate near zero.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2020",
+      "what": "Rates near zero"
+     },
+     {
+      "when": "2022",
+      "what": "Fed starts hikes"
+     },
+     {
+      "when": "2023",
+      "what": "5.25% to 5.5%"
+     },
+     {
+      "when": "2024",
+      "what": "First cuts"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In March 2022, the Fed started raising rates to fight inflation...",
+   "say": "In March twenty twenty-two, the Fed started raising rates to fight inflation...",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2020",
+      "what": "Rates near zero"
+     },
+     {
+      "when": "2022",
+      "what": "Fed starts hikes"
+     },
+     {
+      "when": "2023",
+      "what": "5.25% to 5.5%"
+     },
+     {
+      "when": "2024",
+      "what": "First cuts"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "...and by July 2023, its target range hit 5.25% to 5.5%.",
+   "say": "...and by July twenty twenty-three, its target range hit five and a quarter to five and a half percent.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2020",
+      "what": "Rates near zero"
+     },
+     {
+      "when": "2022",
+      "what": "Fed starts hikes"
+     },
+     {
+      "when": "2023",
+      "what": "5.25% to 5.5%"
+     },
+     {
+      "when": "2024",
+      "what": "First cuts"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It began cutting in September 2024, but rates stayed far above the near-zero years.",
+   "say": "It began cutting in September twenty twenty-four, but rates stayed far above the near-zero years.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2020",
+      "what": "Rates near zero"
+     },
+     {
+      "when": "2022",
+      "what": "Fed starts hikes"
+     },
+     {
+      "when": "2023",
+      "what": "5.25% to 5.5%"
+     },
+     {
+      "when": "2024",
+      "what": "First cuts"
+     }
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For insurers, that was a gift. As old bonds matured, they reinvested the money at much higher yields.",
+   "say": "For insurers, that was a gift. As old bonds matured, they reinvested the money at much higher yields.",
+   "scene": {
+    "t": "hook",
+    "title": "Rates [up]",
+    "prop": "chart-up",
+    "label": "YIELD",
+    "value": "Higher",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Verisk and the APCIA put industry net investment income at $54.3 billion in 2021.",
+   "say": "Verisk and the A P C I A put industry net investment income at fifty-four point three billion dollars in twenty twenty-one.",
+   "scene": {
+    "t": "compare",
+    "title": "Investment income",
+    "left": {
+     "label": "2021",
+     "value": "$54.3B",
+     "tone": "neutral",
+     "sub": "Verisk/APCIA"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$91.4B",
+     "tone": "up",
+     "sub": "AM Best"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AM Best puts it at $91.4 billion in 2025. Different counters, so it's a rough comparison, but the jump is obvious.",
+   "say": "A M Best puts it at ninety-one point four billion dollars in twenty twenty-five. Different counters, so it's a rough comparison, but the jump is obvious.",
+   "scene": {
+    "t": "compare",
+    "title": "Investment income",
+    "left": {
+     "label": "2021",
+     "value": "$54.3B",
+     "tone": "neutral",
+     "sub": "Verisk/APCIA"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$91.4B",
+     "tone": "up",
+     "sub": "AM Best"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's how 2023 worked. Underwriting lost about $22 billion, but the float and the insurers' own capital kept earning.",
+   "say": "That's how twenty twenty-three worked. Underwriting lost about twenty-two billion dollars, but the float and the insurers' own capital kept earning.",
+   "scene": {
+    "t": "stat",
+    "label": "Invest. inc., 2023",
+    "value": "$73.9B",
+    "tone": "up",
+    "sub": "AM Best, record"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AM Best called 2023's $73.9 billion in investment income a record, tied to higher interest rates.",
+   "say": "A M Best called twenty twenty-three's seventy-three point nine billion dollars in investment income a record, tied to higher interest rates.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lose on policies,",
+     "win on bonds"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Flip it around, and you see the old problem. When rates were near zero, insurers had little cushion.",
+   "say": "Flip it around, and you see the old problem. When rates were near zero, insurers had little cushion.",
+   "scene": {
+    "t": "split",
+    "title": "The cushion",
+    "left": {
+     "title": "Low rates",
+     "items": [
+      "Thin cushion",
+      "Price must pay"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "High rates",
+     "items": [
+      "Big cushion",
+      "Room to slip"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With a thin cushion, more of the profit has to come from the premiums themselves.",
+   "say": "With a thin cushion, more of the profit has to come from the premiums themselves.",
+   "scene": {
+    "t": "split",
+    "title": "The cushion",
+    "left": {
+     "title": "Low rates",
+     "items": [
+      "Thin cushion",
+      "Price must pay"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "High rates",
+     "items": [
+      "Big cushion",
+      "Room to slip"
+     ],
+     "tone": "up"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One more twist: insurers mostly buy safe bonds, because the money has to be there when your claim comes.",
+   "say": "One more twist: insurers mostly buy safe bonds, because the money has to be there when your claim comes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Safe bonds first",
+     "Must pay claims"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: A real insurer's books",
+   "say": "Chapter four: a real insurer's books.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "A real insurer's books"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's open a real one. Progressive, one of the biggest US car insurers, filed its 10-K for 2025 in early 2026.",
+   "say": "Let's open a real one. Progressive, one of the biggest US car insurers, filed its ten K for twenty twenty-five in early twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "Progressive 10-K",
+    "source": "SEC filing, FY2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, Progressive wrote $83.2 billion in net premiums, up 12% from 2024.",
+   "say": "In twenty twenty-five, Progressive wrote eighty-three point two billion dollars in net premiums, up twelve percent from twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Premiums written",
+    "value": "$83.2B",
+    "tone": "up",
+    "sub": "Progressive, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its combined ratio was 87.4 in 2025, better than 88.8 the year before.",
+   "say": "Its combined ratio was eighty-seven point four in twenty twenty-five, better than eighty-eight point eight the year before.",
+   "scene": {
+    "t": "compare",
+    "title": "Progressive ratio",
+    "left": {
+     "label": "2024",
+     "value": "88.8",
+     "tone": "neutral",
+     "sub": "Combined ratio"
+    },
+    "right": {
+     "label": "2025",
+     "value": "87.4",
+     "tone": "up",
+     "sub": "Combined ratio"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So Progressive kept about 12.6 cents of underwriting profit from every premium dollar. The industry kept about 7 in 2025.",
+   "say": "So Progressive kept about twelve point six cents of underwriting profit from every premium dollar. The industry kept about seven in twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Progressive ratio",
+    "left": {
+     "label": "2024",
+     "value": "88.8",
+     "tone": "neutral",
+     "sub": "Combined ratio"
+    },
+    "right": {
+     "label": "2025",
+     "value": "87.4",
+     "tone": "up",
+     "sub": "Combined ratio"
+    },
+    "winner": "right",
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its own stated goal is a combined ratio of 96 or better, meaning at least 4 cents of profit per dollar.",
+   "say": "Its own stated goal is a combined ratio of ninety-six or better, meaning at least four cents of profit per dollar.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Goal: 96 or less",
+     "= 4% profit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now engine two. Progressive's investment portfolio was worth $97.4 billion at the end of 2025, up from $80.3 billion.",
+   "say": "Now engine two. Progressive's investment portfolio was worth ninety-seven point four billion dollars at the end of twenty twenty-five, up from eighty point three billion.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "End of 2024",
+     "value": "$80.3B"
+    },
+    "to": {
+     "label": "End of 2025",
+     "value": "$97.4B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its investment income rose to about $3.6 billion in 2025, from about $2.8 billion in 2024.",
+   "say": "Its investment income rose to about three point six billion dollars in twenty twenty-five, from about two point eight billion in twenty twenty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Progressive invest. inc.",
+    "left": {
+     "label": "2024",
+     "value": "$2.83B",
+     "tone": "neutral",
+     "sub": "Investment income"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$3.58B",
+     "tone": "up",
+     "sub": "Up 26.5%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? The 10-K points to reinvesting cash and buying bonds with higher coupons. The yield on its recurring income was 4.1%.",
+   "say": "Why? The ten K points to reinvesting cash and buying bonds with higher coupons. The yield on its recurring income was four point one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Book yield, 2025",
+    "value": "4.1%",
+    "tone": "up",
+    "sub": "Was 3.9% in 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's our own rough math. A 12.6% margin on roughly $81.7 billion of earned premiums is about $10.3 billion of underwriting profit.",
+   "say": "Here's our own rough math. A twelve point six percent margin on roughly eighty-one point seven billion dollars of earned premiums is about ten point three billion dollars of underwriting profit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "12.6% x $81.7B",
+     "= ~$10.3B (ours)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's nearly three times its investment income. Progressive is unusual: underwriting is its bigger engine.",
+   "say": "That's nearly three times its investment income. Progressive is unusual: underwriting is its bigger engine.",
+   "scene": {
+    "t": "compare",
+    "title": "Progressive, 2025",
+    "left": {
+     "label": "Underwriting",
+     "value": "~$10.3B",
+     "tone": "up",
+     "sub": "Our estimate"
+    },
+    "right": {
+     "label": "Investing",
+     "value": "$3.58B",
+     "tone": "neutral",
+     "sub": "Investment income"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For the industry as a whole, it's the other way around. Investing usually carries the load.",
+   "say": "For the industry as a whole, it's the other way around. Investing usually carries the load.",
+   "scene": {
+    "t": "compare",
+    "title": "Progressive, 2025",
+    "left": {
+     "label": "Underwriting",
+     "value": "~$10.3B",
+     "tone": "up",
+     "sub": "Our estimate"
+    },
+    "right": {
+     "label": "Investing",
+     "value": "$3.58B",
+     "tone": "neutral",
+     "sub": "Investment income"
+    },
+    "winner": "left",
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Progressive's net income was about $11.3 billion in 2025, on 38.6 million policies in force at year-end.",
+   "say": "Progressive's net income was about eleven point three billion dollars in twenty twenty-five, on thirty-eight point six million policies in force at year-end.",
+   "scene": {
+    "t": "stat",
+    "label": "Net income, 2025",
+    "value": "$11.3B",
+    "tone": "up",
+    "sub": "Progressive"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The clever part is data. Car insurers price each driver by risk, and the ones that price best win the careful drivers.",
+   "say": "The clever part is data. Car insurers price each driver by risk, and the ones that price best win the careful drivers.",
+   "scene": {
+    "t": "hook",
+    "title": "Price the [risk]",
+    "prop": "car",
+    "label": "RISK",
+    "value": "87.4"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Disasters and reinsurance",
+   "say": "Chapter five: disasters and reinsurance.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Disasters and reinsurance"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the risk side. One bad week can wipe out years of careful pricing.",
+   "say": "Now the risk side. One bad week can wipe out years of careful pricing.",
+   "scene": {
+    "t": "hook",
+    "title": "One bad [week]",
+    "prop": "fire",
+    "label": "LA",
+    "value": "$28B+",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In January 2025, the Palisades and Eaton fires hit Los Angeles. Verisk estimated insured losses at $28 billion to $35 billion.",
+   "say": "In January twenty twenty-five, the Palisades and Eaton fires hit Los Angeles. Verisk estimated insured losses at twenty-eight billion to thirty-five billion dollars.",
+   "scene": {
+    "t": "news",
+    "headline": "LA fires: $28B-$35B",
+    "source": "Verisk, Jan 22, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The old wildfire record, the 2018 Camp Fire, was $12.4 billion, per Verisk.",
+   "say": "The old wildfire record, the twenty eighteen Camp Fire, was twelve point four billion dollars, per Verisk.",
+   "scene": {
+    "t": "compare",
+    "title": "Insured wildfire loss",
+    "left": {
+     "label": "Camp, 2018",
+     "value": "$12.4B",
+     "tone": "neutral",
+     "sub": "Old record"
+    },
+    "right": {
+     "label": "LA, 2025",
+     "value": "$28B+",
+     "tone": "down",
+     "sub": "Verisk low end"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even so, AM Best says catastrophes added only 7.6 points to the 2025 combined ratio, down from 8.8 points in 2024, since the rest of the year was calmer.",
+   "say": "Even so, A M Best says catastrophes added only seven point six points to the twenty twenty-five combined ratio, down from eight point eight points in twenty twenty-four, since the rest of the year was calmer.",
+   "scene": {
+    "t": "stat",
+    "label": "Disasters, 2025",
+    "value": "7.6 pts",
+    "tone": "neutral",
+    "sub": "Of combined ratio"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare 2017, when hurricanes Harvey, Irma and Maria hit. The ratio hit 103.7, a $23.2 billion underwriting loss.",
+   "say": "Compare twenty seventeen, when hurricanes Harvey, Irma and Maria hit. The ratio hit one hundred three point seven, a twenty-three point two billion dollar underwriting loss.",
+   "scene": {
+    "t": "stat",
+    "label": "Ratio, 2017",
+    "value": "103.7",
+    "tone": "down",
+    "sub": "Three hurricanes",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how does an insurer survive a monster year? It buys insurance for itself. That's called reinsurance.",
+   "say": "So how does an insurer survive a monster year? It buys insurance for itself. That's called reinsurance.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reinsurance =",
+     "cover for insurers"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The insurer pays a reinsurer a premium...",
+   "say": "The insurer pays a reinsurer a premium...",
+   "scene": {
+    "t": "list",
+    "title": "How it works",
+    "items": [
+     "Pay a premium",
+     "Set a limit",
+     "Pass the rest"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "...agrees on a level of losses it keeps itself...",
+   "say": "...agrees on a level of losses it keeps itself...",
+   "scene": {
+    "t": "list",
+    "title": "How it works",
+    "items": [
+     "Pay a premium",
+     "Set a limit",
+     "Pass the rest"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "...and passes losses above that level to the reinsurer. It gives up some profit to avoid a wipeout.",
+   "say": "...and passes losses above that level to the reinsurer. It gives up some profit to avoid a wipeout.",
+   "scene": {
+    "t": "list",
+    "title": "How it works",
+    "items": [
+     "Pay a premium",
+     "Set a limit",
+     "Pass the rest"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Reinsurance has its own cycle. At the January 2026 renewals, Howden Re says catastrophe reinsurance rates fell an average 14.7%.",
+   "say": "Reinsurance has its own cycle. At the January twenty twenty-six renewals, Howden Re says catastrophe reinsurance rates fell an average fourteen point seven percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Cat reinsurance",
+    "value": "-14.7%",
+    "tone": "up",
+    "sub": "Jan 2026, Howden"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Howden called it the largest annual drop since 2014, as record capital poured into reinsurance.",
+   "say": "Howden called it the largest annual drop since twenty fourteen, as record capital poured into reinsurance.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Biggest drop",
+     "since 2014"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: What it means, and a recap",
+   "say": "Chapter six: what it means, and a recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "What it means, recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what does all this mean for the person paying the bill? A few things, none of them advice.",
+   "say": "So what does all this mean for the person paying the bill? A few things, none of them advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your premium",
+     "No advice here"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, your premium is priced to cover expected claims plus costs. Investment income is a cushion, not a plan.",
+   "say": "First, your premium is priced to cover expected claims plus costs. Investment income is a cushion, not a plan.",
+   "scene": {
+    "t": "split",
+    "title": "Your premium",
+    "left": {
+     "title": "Covers",
+     "items": [
+      "Claims",
+      "Costs"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Bonus",
+     "items": [
+      "Float income"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, insurers earn more when claims come in lower than expected. That's why deductibles, limits and claim reviews exist.",
+   "say": "Second, insurers earn more when claims come in lower than expected. That's why deductibles, limits and claim reviews exist.",
+   "scene": {
+    "t": "list",
+    "title": "Built into policies",
+    "items": [
+     "Deductibles",
+     "Limits",
+     "Claim reviews"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A higher deductible usually lowers the premium, because you carry more of the small claims. It's a trade, and people weigh it differently.",
+   "say": "A higher deductible usually lowers the premium, because you carry more of the small claims. It's a trade, and people weigh it differently.",
+   "scene": {
+    "t": "compare",
+    "title": "The deductible trade",
+    "left": {
+     "label": "Low deduct.",
+     "value": "Pricier",
+     "tone": "down",
+     "sub": "Insurer pays more"
+    },
+    "right": {
+     "label": "High deduct.",
+     "value": "Cheaper",
+     "tone": "up",
+     "sub": "You pay more first"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, state insurance regulators oversee rates and require insurers to hold reserves, so the float is there when claims come.",
+   "say": "Third, state insurance regulators oversee rates and require insurers to hold reserves, so the float is there when claims come.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "STATE REGULATOR",
+    "label": "RESERVES",
+    "caption": "Rates and reserves"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the cycle matters. In the first half of 2026, premium growth slowed to 2.1% as rate increases cooled, Verisk and the APCIA report.",
+   "say": "And the cycle matters. In the first half of twenty twenty-six, premium growth slowed to two point one percent as rate increases cooled, Verisk and the A P C I A report.",
+   "scene": {
+    "t": "stat",
+    "label": "Premium growth",
+    "value": "2.1%",
+    "tone": "neutral",
+    "sub": "H1 2026, vs 5.2%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's not a forecast. It's just how the cycle has worked: big profits invite competition, and losses push prices up.",
+   "say": "That's not a forecast. It's just how the cycle has worked: big profits invite competition, and losses push prices up.",
+   "scene": {
+    "t": "split",
+    "title": "The cycle",
+    "left": {
+     "title": "Big profit",
+     "items": [
+      "More rivals",
+      "Prices cool"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Big loss",
+     "items": [
+      "Fewer rivals",
+      "Prices rise"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick recap. Insurers make money two ways: underwriting, and investing the float.",
+   "say": "Quick recap. Insurers make money two ways: underwriting, and investing the float.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Two engines",
+     "Ratio < 100",
+     "Float earns",
+     "Disasters bite"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The combined ratio grades underwriting. Under 100 is profit. The industry hit 92.9 in 2025.",
+   "say": "The combined ratio grades underwriting. Under one hundred is profit. The industry hit ninety-two point nine in twenty twenty-five.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Two engines",
+     "Ratio < 100",
+     "Float earns",
+     "Disasters bite"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Higher interest rates pushed investment income up, so insurers can lose on policies and still profit, like in 2023.",
+   "say": "Higher interest rates pushed investment income up, so insurers can lose on policies and still profit, like in twenty twenty-three.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Two engines",
+     "Ratio < 100",
+     "Float earns",
+     "Disasters bite"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And one disaster year can flip everything, which is why reinsurance exists.",
+   "say": "And one disaster year can flip everything, which is why reinsurance exists.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Two engines",
+     "Ratio < 100",
+     "Float earns",
+     "Disasters bite"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So next time you pay a premium, remember: you're not just buying protection. You're lending an insurer money, interest-free.",
+   "say": "So next time you pay a premium, remember: you're not just buying protection. You're lending an insurer money, interest-free.",
+   "scene": {
+    "t": "hook",
+    "title": "Free [loan]",
+    "prop": "bag",
+    "label": "FLOAT",
+    "value": "0%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscribe for more How They Make Money.",
+   "say": "Subscribe for more How They Make Money.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
+  }
+ ],
+ "post": {
+  "title": "Insurers lost $22B on policies in 2023 and still made $35.7B. Float, explained",
+  "ig": "In 2023, US insurers lost about $22 billion on their policies and still earned $35.7 billion. The secret is float.",
+  "tiktok": "Insurers can lose money on insurance and still profit. Here's how float works.",
+  "yt_desc": "In 2023, US property and casualty insurers lost about $22 billion on underwriting yet earned $35.7 billion in net income, according to Verisk and the APCIA. This video explains the two ways insurers make money, underwriting and investing the float, and the combined ratio that grades them, with a worked example and the industry's ratios from 2020 to 2025. We open Progressive's 2025 10-K, show how higher interest rates lifted investment income, and cover catastrophe years, reinsurance, and what it all means for the people paying premiums.\n\nCHAPTERS\n\nSources: Verisk/APCIA full-year 2025 report (Mar 25, 2026), first-half 2026 report (Sept 2, 2026) and 2021-2023 annual reports; AM Best First Look 2025 (Mar 23, 2026) and 2023 investment income report (May 28, 2024); Progressive Form 10-K FY2025 and December 2025 results release (Jan 28, 2026); Verisk LA wildfire estimate (Jan 22, 2025); ISO/PCI 2017 results (May 2018); Howden Re January 2026 renewal report; Federal Reserve FOMC statements (2022-2024).\n\nNews and education, not financial advice.\n\n#insurance #howtheymakemoney #personalfinance",
+  "tags": [
+   "how insurance companies make money",
+   "insurance float explained",
+   "combined ratio",
+   "insurance industry",
+   "Progressive insurance",
+   "underwriting profit",
+   "reinsurance",
+   "insurance investment income"
+  ]
+ }
+}
