@@ -1,0 +1,180 @@
+{
+  "series": "acorn",
+  "header": "Acorn Economics\nWho pays a tariff?",
+  "cover": {
+    "title": "Who Pays Tariffs",
+    "prop": "customs",
+    "label": "US",
+    "value": "~90%"
+  },
+  "lines": [
+    {
+      "who": "nutty",
+      "text": "The other country doesn't pay the border tariff. So who does?",
+      "say": "The other country doesn't pay the border tariff. So who does?",
+      "scene": {
+        "t": "hook",
+        "title": "Who [pays]?",
+        "prop": "customs",
+        "label": "US",
+        "value": "~90%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "A tariff is a tax on imports, like a toll at the forest border.",
+      "say": "A tariff is a tax on imports, like a toll at the forest border.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Tariff = a tax",
+          "on imports"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "The importer, usually a US company, pays it to US Customs.",
+      "say": "The importer, usually a US company, pays it to US Customs.",
+      "scene": {
+        "t": "building",
+        "kind": "customs",
+        "name": "US CUSTOMS",
+        "label": "Importer $",
+        "caption": "Importer pays",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Our own math: Squirrel imports $100 of acorns. A 10% tariff adds $10.",
+      "say": "Our own math: Squirrel imports a hundred dollars of acorns. A ten percent tariff adds ten dollars.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Acorns",
+          "value": "$100"
+        },
+        "to": {
+          "label": "+10% tariff",
+          "value": "$110"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel can charge shoppers $110, or eat the $10 itself.",
+      "say": "Squirrel can charge shoppers a hundred ten dollars, or eat the ten dollars itself.",
+      "scene": {
+        "t": "compare",
+        "title": "Who eats the $10?",
+        "left": {
+          "label": "Shoppers",
+          "value": "$110",
+          "tone": "down",
+          "sub": "our example price"
+        },
+        "right": {
+          "label": "Squirrel",
+          "value": "-$10",
+          "tone": "neutral",
+          "sub": "keeps $100 price"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Studies of the 2018 tariffs found nearly all of it hit US import prices.",
+      "say": "Studies of the twenty eighteen tariffs found nearly all of it hit US import prices.",
+      "scene": {
+        "t": "stat",
+        "label": "2018 pass-through",
+        "value": "~100%",
+        "tone": "down",
+        "sub": "Amiti et al., 2019",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "For 2025, the New York Fed estimated US firms and consumers bore nearly 90% of the cost.",
+      "say": "For twenty twenty-five, the New York Fed estimated US firms and consumers bore nearly ninety percent of the cost.",
+      "scene": {
+        "t": "stat",
+        "label": "US share, 2025",
+        "value": "~90%",
+        "tone": "down",
+        "sub": "NY Fed, Feb 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "A 2021 study found store prices rose less than import prices; retailers ate some.",
+      "say": "A twenty twenty-one study found store prices rose less than import prices; retailers ate some.",
+      "scene": {
+        "t": "squirrel",
+        "kind": "think",
+        "caption": "Stores ate some",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Customs duties hit about $195 billion in fiscal 2025.",
+      "say": "Customs duties hit about one hundred ninety-five billion dollars in fiscal twenty twenty-five.",
+      "scene": {
+        "t": "chart",
+        "title": "US customs, fiscal yrs",
+        "points": [
+          [
+            2022,
+            99.9
+          ],
+          [
+            2023,
+            80.3
+          ],
+          [
+            2024,
+            77.0
+          ],
+          [
+            2025,
+            194.9
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$195B",
+        "color": "up",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel explained tariffs. Squirrel would like one follow.",
+      "say": "Squirrel explained tariffs. Squirrel would like one follow.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Who actually pays a tariff? The acorn toll, explained",
+    "ig": "The other country doesn't pay the tariff. So who does?\n\nThe US importer pays the tariff to US Customs at the border.\nOur own example: $100 of acorns + a 10% tariff = $10 owed, $110 landed cost. The importer can raise prices, absorb it, or split it.\nResearch on the 2018 tariffs (Amiti, Redding and Weinstein, 2019) found nearly full pass-through to US import prices; a New York Fed study (Feb 2026) estimated US firms and consumers bore nearly 90% of 2025 tariffs. A 2021 study found store prices rose less, as retailers absorbed some.\nUS customs duties: $77.0 billion in fiscal 2024, $194.9 billion in fiscal 2025 (Treasury).\n\nSources: Journal of Economic Perspectives (2019); Federal Reserve Bank of New York (Feb 2026); Cavallo et al., AER: Insights (2021); US Treasury; example math by FinancePros TV.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#tariffs #acorneconomics #economics #personalfinance #financeprostv",
+    "tiktok": "Who pays a tariff? A NY Fed study estimated US firms and consumers bore ~90% of 2025 tariff costs. Not financial advice. #tariffs #financeprostv",
+    "yt_desc": "A tariff is a tax on imports that the US importer pays to US Customs, then passes on, absorbs, or splits (example math: $100 of acorns plus a 10% tariff costs $110). Research on the 2018 tariffs found nearly full pass-through to US import prices, and a New York Fed study (February 2026) estimated US firms and consumers bore nearly 90% of the 2025 tariffs. US customs duties were $77.0 billion in fiscal 2024 and $194.9 billion in fiscal 2025, per Treasury. News and education, not financial advice.\n#Shorts #tariffs #economics",
+    "tags": [
+      "how tariffs work",
+      "who pays tariffs",
+      "tariff pass-through",
+      "customs duties",
+      "Acorn Economics"
+    ]
+  }
+}
