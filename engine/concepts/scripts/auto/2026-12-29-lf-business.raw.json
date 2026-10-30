@@ -83,15 +83,11 @@
       "text": "Insurers get your money first and pay claims later. In between, that money is invested, and it earns a lot.",
       "say": "Insurers get your money first and pay claims later. In between, that money is invested, and it earns a lot.",
       "scene": {
-        "t": "money",
-        "from": {
-          "label": "Your premium",
-          "value": "$2,000"
-        },
-        "to": {
-          "label": "Invested",
-          "value": "bonds"
-        }
+        "t": "board",
+        "lines": [
+          "Premium in now,",
+          "invested till paid"
+        ]
       }
     },
     {
