@@ -1,0 +1,1424 @@
+{
+ "series": "ticker",
+ "header": "Hot economy, split Fed\nWhat it means for you",
+ "cover": {
+  "title": "The Fed Split.",
+  "prop": "fed",
+  "label": "FED",
+  "value": "10-2"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Two Fed officials voted to raise your interest rates.",
+   "say": "Two Fed officials voted to raise your interest rates.",
+   "scene": {
+    "t": "hook",
+    "title": "Fed [split]",
+    "prop": "fed",
+    "label": "FED",
+    "value": "10-2",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They lost, 10-2. But the economy is running hot, prices aren't cooling, and that split reaches your wallet.",
+   "say": "They lost, ten to two. But the economy is running hot, prices aren't cooling off, and that split reaches straight into your wallet.",
+   "scene": {
+    "t": "compare",
+    "title": "Fed vote, Oct 28",
+    "left": {
+     "label": "Hold",
+     "value": "10",
+     "tone": "neutral",
+     "sub": "votes to hold"
+    },
+    "right": {
+     "label": "Hike",
+     "value": "2",
+     "tone": "down",
+     "sub": "wanted a hike"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 28: the Fed kept its key rate at 3.75%-4.00%.",
+   "say": "On October twenty-eighth, the Fed kept its key rate at three point seven five to four percent.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75-4.00%",
+    "caption": "Held, Oct 28"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The next morning: the economy grew at a 3.4% annual pace in Q3.",
+   "say": "The very next morning, the government said the economy grew at a three point four percent annual pace from July through September.",
+   "scene": {
+    "t": "stat",
+    "label": "Q3 GDP growth",
+    "value": "3.4%",
+    "tone": "up",
+    "sub": "annualized, BEA",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same morning: the Fed's favorite inflation gauge was up 3.6% from a year earlier.",
+   "say": "That same morning, the Fed's favorite inflation gauge showed prices up three point six percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Sept PCE inflation",
+    "value": "3.6%",
+    "tone": "down",
+    "sub": "Fed goal: 2%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put it together: a hot economy, sticky prices, and a Fed that can't agree.",
+   "say": "Put it together and you get a strange mix: a hot economy, sticky prices, and a Fed that can't agree.",
+   "scene": {
+    "t": "list",
+    "title": "The mix",
+    "items": [
+     "Hot economy",
+     "Sticky prices",
+     "A split Fed"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That mix touches your card, your savings, your mortgage, your job and your 401(k).",
+   "say": "And that mix touches your credit card, your savings, your mortgage, your job, and your four oh one K.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cards + savings",
+     "Mortgage + 401(k)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Coming up: what happened, why it's hot, why the Fed split, and your money.",
+   "say": "Here's the plan: what happened, why the economy is so hot, why the Fed split, and what it all means for your money.",
+   "scene": {
+    "t": "list",
+    "title": "Coming up",
+    "items": [
+     "What happened",
+     "Why so hot",
+     "The Fed split",
+     "Your money"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: A week of big numbers",
+   "say": "Let's start with the numbers, one at a time.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "A week of big numbers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, the Fed. Rewind to December 2025: its third rate cut that year, to 3.50%-3.75%.",
+   "say": "First, the Fed. Rewind to December twenty twenty-five, when it made its third rate cut of that year, to three and a half to three point seven five percent.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2025",
+      "what": "Three rate cuts"
+     },
+     {
+      "when": "Sep16",
+      "what": "Hike to 4.00%"
+     },
+     {
+      "when": "Oct28",
+      "what": "Hold, 10-2 vote"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sept 16, 2026: it reversed course with a quarter-point hike, its first since July 2023.",
+   "say": "Then on September sixteenth, twenty twenty-six, it reversed course with a quarter-point hike, its first since July twenty twenty-three.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2025",
+      "what": "Three rate cuts"
+     },
+     {
+      "when": "Sep16",
+      "what": "Hike to 4.00%"
+     },
+     {
+      "when": "Oct28",
+      "what": "Hold, 10-2 vote"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 28: a hold. But not a unanimous one.",
+   "say": "And on October twenty-eighth, it held. But not unanimously.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2025",
+      "what": "Three rate cuts"
+     },
+     {
+      "when": "Sep16",
+      "what": "Hike to 4.00%"
+     },
+     {
+      "when": "Oct28",
+      "what": "Hold, 10-2 vote"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted another quarter-point hike.",
+   "say": "Governor Lisa Cook and Cleveland Fed President Beth Hammack voted no. Both wanted another quarter-point hike.",
+   "scene": {
+    "t": "news",
+    "headline": "2 dissent for a hike",
+    "source": "Fed statement, Oct 28, 2026",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "NBC News reported it was Cook's first dissent since joining the Fed's board in 2022.",
+   "say": "NBC News reported it was Cook's first dissent since she joined the Fed's board in twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Cook's dissents",
+    "value": "First",
+    "tone": "neutral",
+    "sub": "since 2022, NBC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's statement: \"Economic activity is expanding at a strong pace.\"",
+   "say": "And the Fed's own statement opened its read on the economy with this: Economic activity is expanding at a strong pace.",
+   "scene": {
+    "t": "quote",
+    "text": "Economic activity is expanding at a strong pace.",
+    "source": "FOMC statement, Oct 28, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, growth. The economy grew at a 2.5% pace in Q1 2026 and 2.2% in Q2.",
+   "say": "The growth numbers back that up. The economy grew at a two point five percent pace in the first quarter of twenty twenty-six, and two point two percent in the second.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Q1'26",
+      "what": "2.5% growth"
+     },
+     {
+      "when": "Q2'26",
+      "what": "2.2% growth"
+     },
+     {
+      "when": "Q3'26",
+      "what": "3.4% growth"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 3.4% in Q3, above the 3.1% economists expected, per CNBC.",
+   "say": "Then three point four percent in the third quarter, above the three point one percent economists expected, according to CNBC.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Q1'26",
+      "what": "2.5% growth"
+     },
+     {
+      "when": "Q2'26",
+      "what": "2.2% growth"
+     },
+     {
+      "when": "Q3'26",
+      "what": "3.4% growth"
+     }
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Annualized = the 3-month pace, as a yearly rate. This is the first of 3 estimates.",
+   "say": "Quick note: annualized means the three-month pace, expressed as a yearly rate. And this is the first of three estimates.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "3-month pace,",
+     "as a yearly rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shoppers led: consumer spending grew at a 3.8% pace, same as Q2.",
+   "say": "Shoppers led the way. Consumer spending grew at a three point eight percent pace, the same as the quarter before.",
+   "scene": {
+    "t": "stat",
+    "label": "Consumer spending",
+    "value": "+3.8%",
+    "tone": "up",
+    "sub": "Q3, annualized"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then prices. Sept PCE inflation: 3.6% from a year earlier, up from 3.4% in August.",
+   "say": "Then came prices. The P C E price index was up three point six percent from a year earlier in September, up from three point four in August.",
+   "scene": {
+    "t": "compare",
+    "title": "PCE inflation, y/y",
+    "left": {
+     "label": "August",
+     "value": "3.4%",
+     "tone": "neutral",
+     "sub": "2026"
+    },
+    "right": {
+     "label": "September",
+     "value": "3.6%",
+     "tone": "down",
+     "sub": "2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Core PCE, without food and energy: 3.1%. Both are above the Fed's 2% goal.",
+   "say": "Core inflation, which leaves out food and energy, was three point one percent. Both numbers sit well above the Fed's two percent goal.",
+   "scene": {
+    "t": "compare",
+    "title": "Sept PCE, y/y",
+    "left": {
+     "label": "Headline",
+     "value": "3.6%",
+     "tone": "down",
+     "sub": "all items"
+    },
+    "right": {
+     "label": "Core",
+     "value": "3.1%",
+     "tone": "down",
+     "sub": "no food or energy"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A big driver: gasoline and other energy goods jumped 9.2% in September alone.",
+   "say": "A big driver was energy. Gasoline and other energy goods jumped nine point two percent in September alone, CNBC reported.",
+   "scene": {
+    "t": "stat",
+    "label": "Gas + energy goods",
+    "value": "+9.2%",
+    "tone": "down",
+    "sub": "Sept, one month",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Moody's Mark Zandi estimated the war has cost the average US household about $2,000 so far, mostly via energy.",
+   "say": "Moody's economist Mark Zandi estimated in mid-October that the war with Iran has cost the average US household about two thousand dollars so far, mostly through higher energy costs.",
+   "scene": {
+    "t": "stat",
+    "label": "Cost per household",
+    "value": "~$2,000",
+    "tone": "down",
+    "sub": "Zandi estimate"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Layoffs stayed rare: jobless claims were 194,000 in the week ended Oct 24.",
+   "say": "Meanwhile, layoffs stayed rare. Initial jobless claims were one hundred ninety-four thousand in the week ended October twenty-fourth.",
+   "scene": {
+    "t": "stat",
+    "label": "Jobless claims",
+    "value": "194,000",
+    "tone": "up",
+    "sub": "wk ended Oct 24"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CNBC: that's near levels last seen in the late 1960s.",
+   "say": "CNBC noted that's near levels last seen in the late nineteen-sixties.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Near late-1960s",
+     "levels, per CNBC"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And moods improved: consumer confidence rose 7.5 points in October, to 91.7.",
+   "say": "Even moods improved. The Conference Board's consumer confidence index jumped seven and a half points in October, to ninety-one point seven.",
+   "scene": {
+    "t": "stat",
+    "label": "Confidence index",
+    "value": "91.7",
+    "tone": "up",
+    "sub": "Oct, up 7.5 pts",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's strong growth, few layoffs, and inflation that isn't coming down. So why so hot?",
+   "say": "That's strong growth, few layoffs, and inflation that isn't coming down. So why is the economy this hot?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Strong growth",
+     "+ sticky prices"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Why it's running hot",
+   "say": "So what's actually powering all this?",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Why it's running hot"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One answer is AI. Business spending on equipment jumped at a 20.9% annual pace in Q3.",
+   "say": "A big part of the answer is AI. Business spending on equipment jumped at a twenty point nine percent annual pace in the third quarter, as companies poured money into the AI build-out.",
+   "scene": {
+    "t": "stat",
+    "label": "Equipment spending",
+    "value": "+20.9%",
+    "tone": "up",
+    "sub": "Q3, annualized"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed agrees: \"Productivity growth is strong, and capital investment is robust.\"",
+   "say": "Even the Fed's statement noted it: Productivity growth is strong, and capital investment is robust.",
+   "scene": {
+    "t": "quote",
+    "text": "Productivity growth is strong, and capital investment is robust.",
+    "source": "FOMC statement, Oct 28, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Big Tech's results show it. Alphabet: Google Cloud revenue up 103% from a year earlier.",
+   "say": "You can see it in Big Tech's results. Alphabet said Google Cloud revenue more than doubled, up a hundred and three percent from a year earlier.",
+   "scene": {
+    "t": "list",
+    "title": "Cloud sales, Q3",
+    "items": [
+     "Google +103%",
+     "Azure +48%",
+     "AWS +39%"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Microsoft: Azure and other cloud services grew 48%.",
+   "say": "Microsoft said Azure and its other cloud services grew forty-eight percent.",
+   "scene": {
+    "t": "list",
+    "title": "Cloud sales, Q3",
+    "items": [
+     "Google +103%",
+     "Azure +48%",
+     "AWS +39%"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Amazon: AWS sales rose 39%, to $46.0B.",
+   "say": "And Amazon said its A W S cloud sales rose thirty-nine percent, to forty-six billion dollars.",
+   "scene": {
+    "t": "list",
+    "title": "Cloud sales, Q3",
+    "items": [
+     "Google +103%",
+     "Azure +48%",
+     "AWS +39%"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: AWS made about 63% of Amazon's operating profit in Q3.",
+   "say": "By our math, A W S made about sixty-three percent of Amazon's operating profit in the quarter.",
+   "scene": {
+    "t": "stat",
+    "label": "AWS profit share",
+    "value": "~63%",
+    "tone": "up",
+    "sub": "our math, Q3 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One company's AI spending is another company's sales, and someone's paycheck.",
+   "say": "And one company's AI spending is another company's sales, and somebody else's paycheck.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AI spending =",
+     "someone's paycheck"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rising stock prices help too, at least for some people. Here's how Mark Zandi described it to CNBC.",
+   "say": "Rising stock prices help too, at least for some people. Here's how Mark Zandi described it to CNBC.",
+   "scene": {
+    "t": "split",
+    "title": "Two tracks",
+    "left": {
+     "title": "Spending",
+     "items": [
+      "High net worth",
+      "AI stock gains"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Squeezed",
+     "items": [
+      "Lower income",
+      "Middle income"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "\"High-net-worth consumers are enjoying the runup in AI stocks and the value of their equity holdings, and are spending with some gusto.\"",
+   "say": "High-net-worth consumers are enjoying the runup in AI stocks and the value of their equity holdings, and are spending with some gusto.",
+   "scene": {
+    "t": "quote",
+    "text": "High-net-worth consumers are enjoying the runup in AI stocks and the value of their equity holdings, and are spending with some gusto.",
+    "source": "Mark Zandi, Moody's, to CNBC, Oct 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "\"Lower- and middle-income consumers are increasingly struggling with falling real wages and high rates, and are much more cautious and careful spenders.\"",
+   "say": "But, he added: Lower- and middle-income consumers are increasingly struggling with falling real wages and high rates, and are much more cautious and careful spenders.",
+   "scene": {
+    "t": "quote",
+    "text": "Lower- and middle-income consumers are increasingly struggling with falling real wages and high rates, and are much more cautious and careful spenders.",
+    "source": "Mark Zandi, Moody's, to CNBC, Oct 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Labor Dept: after inflation, average hourly pay fell 0.7% from Sept 2025 to Sept 2026.",
+   "say": "The Labor Department's numbers fit that picture. After inflation, average hourly pay was down zero point seven percent from September twenty twenty-five to September twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Real hourly pay",
+    "value": "-0.7%",
+    "tone": "down",
+    "sub": "Sept, vs year ago",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The growth is real. For millions of people, so is the squeeze.",
+   "say": "So the growth is real. And for millions of people, so is the squeeze.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Growth: real",
+     "Squeeze: real"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Why the Fed split",
+   "say": "Which brings us back to the Fed, and why twelve voters looking at the same numbers landed in different places.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Why the Fed split"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The tool: raise rates, borrowing costs more, spending cools, prices can ease. The risk: jobs.",
+   "say": "The Fed's main tool is simple. Raise rates, and borrowing costs more, spending cools, and prices can ease. The catch is that it can also cost jobs.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Higher rates =",
+     "cooler spending"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "10 voted to wait for more data. 2 wanted a quarter-point hike now.",
+   "say": "Ten voters chose to wait for more information. Two wanted a quarter-point hike right away.",
+   "scene": {
+    "t": "split",
+    "title": "The vote",
+    "left": {
+     "title": "Hold",
+     "items": [
+      "10 votes",
+      "Wait for data"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Hike",
+     "items": [
+      "2 votes",
+      "+0.25 point"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The statement: \"The accumulation of more information will help the Committee determine the policy stance appropriate...\"",
+   "say": "In the statement's words: The accumulation of more information will help the Committee determine the policy stance appropriate to ensure a timely return of inflation to the Committee's two percent goal.",
+   "scene": {
+    "t": "quote",
+    "text": "The accumulation of more information will help the Committee determine the policy stance appropriate to ensure a timely return of inflation to the Committee's 2 percent goal.",
+    "source": "FOMC statement, Oct 28, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chair Kevin Warsh: \"We will deliver price stability. No ifs, ands, or buts.\"",
+   "say": "And Chair Kevin Warsh, at his press conference, said: We will deliver price stability. No ifs, ands, or buts.",
+   "scene": {
+    "t": "quote",
+    "text": "We will deliver price stability. No ifs, ands, or buts.",
+    "source": "Fed Chair Kevin Warsh, Oct 28, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "He also said: \"If you think that we're tolerating some inflation target somewhere in the twos, let us disabuse you of it.\"",
+   "say": "He also said: If you think that we're tolerating some inflation target somewhere in the twos, let us disabuse you of it.",
+   "scene": {
+    "t": "quote",
+    "text": "If you think that we're tolerating some inflation target somewhere in the twos, let us disabuse you of it.",
+    "source": "Kevin Warsh, Oct 28, 2026, via CNBC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Translation: 2% means 2%.",
+   "say": "Translation: the goal is two percent. Not two point something.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Translation:",
+     "2% means 2%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why some want more: the top of the Fed's range is 4.00%. PCE inflation is 3.6%.",
+   "say": "Here's one way to see why some officials want more. The top of the Fed's range is four percent. Inflation, by the P C E measure, is three point six.",
+   "scene": {
+    "t": "compare",
+    "title": "Rate vs inflation",
+    "left": {
+     "label": "Fed rate, top",
+     "value": "4.00%",
+     "tone": "neutral",
+     "sub": "since Sept 16"
+    },
+    "right": {
+     "label": "PCE inflation",
+     "value": "3.6%",
+     "tone": "down",
+     "sub": "Sept, y/y"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: the after-inflation, or 'real', rate is only about 0.4 point.",
+   "say": "Subtract one from the other, and by our math the after-inflation rate, what economists call the real rate, is only about zero point four points.",
+   "scene": {
+    "t": "stat",
+    "label": "Real rate",
+    "value": "~0.4 pt",
+    "tone": "neutral",
+    "sub": "our math: 4.0-3.6",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Warsh: \"While overall financial conditions are tighter, I'm unwilling and unable to call them tight.\"",
+   "say": "Warsh himself said: While overall financial conditions are tighter, I'm unwilling and unable to call them tight.",
+   "scene": {
+    "t": "quote",
+    "text": "While overall financial conditions are tighter, I'm unwilling and unable to call them tight.",
+    "source": "Kevin Warsh, Oct 28, 2026, via CNBC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For context: the top of the Fed's range at each year-end since 2019.",
+   "say": "For context, here's the top of the Fed's range at the end of each year since twenty nineteen.",
+   "scene": {
+    "t": "chart",
+    "title": "Fed rate, year-end",
+    "points": [
+     [
+      2019,
+      1.75
+     ],
+     [
+      2020,
+      0.25
+     ],
+     [
+      2021,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      4.5
+     ],
+     [
+      2025,
+      3.75
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.75%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Near zero in 2020 and 2021. Then 4.50% in 2022 and 5.50% in 2023, as the Fed fought the last inflation surge.",
+   "say": "Near zero in twenty twenty and twenty twenty-one. Then four and a half percent in twenty twenty-two, and five and a half in twenty twenty-three, as the Fed fought the last inflation surge.",
+   "scene": {
+    "t": "chart",
+    "title": "Fed rate, year-end",
+    "points": [
+     [
+      2019,
+      1.75
+     ],
+     [
+      2020,
+      0.25
+     ],
+     [
+      2021,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      4.5
+     ],
+     [
+      2025,
+      3.75
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.75%",
+    "color": "down",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cuts brought it to 3.75% by the end of 2025. The Sept 2026 hike took it back to 4.00%.",
+   "say": "Cuts brought it down to three point seven five by the end of twenty twenty-five, and September's hike took it back up to four.",
+   "scene": {
+    "t": "stat",
+    "label": "Top of range now",
+    "value": "4.00%",
+    "tone": "neutral",
+    "sub": "since Sept 16"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Warsh was blunt about the record: \"...we wouldn't be suffering from nearly six years of inflation above target.\"",
+   "say": "Warsh was blunt about the record, too. In his words: we wouldn't be suffering from nearly six years of inflation above target.",
+   "scene": {
+    "t": "quote",
+    "text": "...we wouldn't be suffering from nearly six years of inflation above target.",
+    "source": "Kevin Warsh, Oct 28, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The dilemma: move too slowly and inflation digs in. Move too fast and jobs can take the hit.",
+   "say": "That's the Fed's dilemma. Move too slowly, and inflation can dig in. Move too fast, and jobs can take the hit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Too slow: prices",
+     "Too fast: jobs"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: What it means for you",
+   "say": "Okay. What does all of this mean for your money?",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit cards: most have variable rates tied to the prime rate.",
+   "say": "Start with credit cards. Most have variable rates tied to the prime rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Card rates follow",
+     "the prime rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prime is usually the top of the Fed's range + 3 points. Now 7.00%.",
+   "say": "Prime is usually the top of the Fed's range plus three points. That's seven percent right now.",
+   "scene": {
+    "t": "stat",
+    "label": "Prime rate",
+    "value": "7.00%",
+    "tone": "down",
+    "sub": "Fed top + 3 pts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bankrate's average card rate: 19.67% in mid-October.",
+   "say": "Bankrate's national average card rate was nineteen point six seven percent in mid-October.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg card APR",
+    "value": "19.67%",
+    "tone": "down",
+    "sub": "Bankrate, Oct 14"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "LendingTree: \"Credit card rates have risen for three straight months and are now at their highest levels since December 2025.\"",
+   "say": "And LendingTree's Matt Schulz told CNBC: Credit card rates have risen for three straight months and are now at their highest levels since December twenty twenty-five.",
+   "scene": {
+    "t": "quote",
+    "text": "Credit card rates have risen for three straight months and are now at their highest levels since December 2025.",
+    "source": "Matt Schulz, LendingTree, to CNBC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: on a $5,000 balance, each quarter-point move is about $12.50 a year.",
+   "say": "Here's the math on a hypothetical five thousand dollar balance. Every quarter-point move in the rate is about twelve dollars and fifty cents a year in interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Example balance",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Per 0.25 pt, 1 yr",
+     "value": "$12.50"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At 19.67%, that balance costs about $984 a year if it never shrinks.",
+   "say": "But at nineteen point six seven percent, that same balance costs about nine hundred eighty-four dollars a year if it never shrinks.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "$5,000 at 19.67%",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Interest, 1 year",
+     "value": "~$984"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rate level matters far more than any single move.",
+   "say": "So the rate level matters far more than any single quarter-point move.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The level matters",
+     "more than one move"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Savings is the flip side. Citing Bankrate, CNBC says some top online savings accounts pay more than 4%.",
+   "say": "Savings is the flip side. Citing Bankrate, CNBC says some top online savings accounts pay more than four percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Top savings yields",
+    "value": "4%+",
+    "tone": "up",
+    "sub": "Bankrate via CNBC",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: $10,000 at 4% earns $400 in a year. 3.6% inflation takes about $360 of buying power.",
+   "say": "In a simple example, ten thousand dollars at four percent earns four hundred dollars in a year, while three point six percent inflation takes about three hundred sixty dollars of buying power.",
+   "scene": {
+    "t": "compare",
+    "title": "$10,000 example",
+    "left": {
+     "label": "Interest at 4%",
+     "value": "+$400",
+     "tone": "up",
+     "sub": "1 year, example"
+    },
+    "right": {
+     "label": "Prices +3.6%",
+     "value": "-$360",
+     "tone": "down",
+     "sub": "buying power"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You end up about $40 ahead, before taxes. Thin, but ahead.",
+   "say": "So you end up about forty dollars ahead, before taxes. Thin, but ahead.",
+   "scene": {
+    "t": "compare",
+    "title": "$10,000 example",
+    "left": {
+     "label": "Interest at 4%",
+     "value": "+$400",
+     "tone": "up",
+     "sub": "1 year, example"
+    },
+    "right": {
+     "label": "Prices +3.6%",
+     "value": "-$360",
+     "tone": "down",
+     "sub": "buying power"
+    },
+    "winner": "left",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgages follow a different path: long-term Treasury yields, more than the Fed's rate.",
+   "say": "Mortgages follow a different path. They track long-term Treasury yields more than the Fed's rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mortgages follow",
+     "long-term yields"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Freddie Mac's 30-year average: 7.24% on Oct 29, down from 7.32% a week earlier.",
+   "say": "Freddie Mac's average thirty-year rate was seven point two four percent on October twenty-ninth, down from seven point three two a week earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "30-yr mortgage",
+    "value": "7.24%",
+    "tone": "down",
+    "sub": "Freddie, Oct 29"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A year earlier, it was 6.17%.",
+   "say": "A year earlier, it was six point one seven percent.",
+   "scene": {
+    "t": "compare",
+    "title": "30-year rate",
+    "left": {
+     "label": "Oct 2025",
+     "value": "6.17%",
+     "tone": "neutral",
+     "sub": "Freddie Mac"
+    },
+    "right": {
+     "label": "Oct 29, 2026",
+     "value": "7.24%",
+     "tone": "down",
+     "sub": "Freddie Mac"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: a $300,000, 30-year loan: about $1,832 a month at 6.17% vs about $2,044 at 7.24% (principal + interest).",
+   "say": "On a hypothetical three hundred thousand dollar, thirty-year loan, principal and interest go from about one thousand eight hundred thirty-two dollars a month at the old rate to about two thousand forty-four at the new one.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "$300K at 6.17%",
+     "value": "$1,832"
+    },
+    "to": {
+     "label": "Same at 7.24%",
+     "value": "$2,044"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $213 more, every month.",
+   "say": "That's roughly two hundred thirteen dollars more, every single month, for the same loan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "~$213 more",
+     "every month"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Car loans: Edmunds says \"The headline new-car APR has essentially flatlined at the 7% threshold all year.\"",
+   "say": "Car loans have barely budged. Edmunds analyst Joseph Yoon told CNBC: The headline new-car A P R has essentially flatlined at the seven percent threshold all year.",
+   "scene": {
+    "t": "quote",
+    "text": "The headline new-car APR has essentially flatlined at the 7% threshold all year.",
+    "source": "Joseph Yoon, Edmunds, to CNBC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Jobs: employers added just 29,000 jobs in September. Unemployment: 4.2%.",
+   "say": "Now jobs. The latest jobs report showed employers added just twenty-nine thousand jobs in September, with unemployment at four point two percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Sept job gains",
+    "value": "29,000",
+    "tone": "down",
+    "sub": "unemployment 4.2%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Few layoffs, slow hiring: good if you have a job, a grind if you're looking.",
+   "say": "So layoffs are rare, but hiring is slow. That's decent news if you have a job, and a grind if you're looking for one.",
+   "scene": {
+    "t": "split",
+    "title": "Jobs",
+    "left": {
+     "title": "Have a job",
+     "items": [
+      "Few layoffs"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Looking",
+     "items": [
+      "Slow hiring"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your 401(k): when rates rise, prices of existing bonds fall, and higher rates can weigh on stocks too.",
+   "say": "And your four oh one K? When interest rates rise, prices of existing bonds fall, and higher rates can weigh on stock prices too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rates up =",
+     "bond prices down"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2022, as the Fed hiked fast, the S&P 500 fell 19.4%. History, not a forecast.",
+   "say": "In twenty twenty-two, as the Fed hiked fast, the S and P five hundred fell nineteen point four percent. That's history, not a forecast.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 in 2022",
+    "value": "-19.4%",
+    "tone": "down",
+    "sub": "as rates jumped"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: What to watch next",
+   "say": "So what comes next? Here's the calendar, and what markets are saying.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What to watch next"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Friday, Nov 6: the October jobs report.",
+   "say": "Friday, November sixth: the October jobs report.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Nov 6",
+      "what": "October jobs"
+     },
+     {
+      "when": "Nov10",
+      "what": "October CPI"
+     },
+     {
+      "when": "Dec 9",
+      "what": "Fed decision"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tuesday, Nov 10: October consumer prices.",
+   "say": "Tuesday, November tenth: October consumer prices.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Nov 6",
+      "what": "October jobs"
+     },
+     {
+      "when": "Nov10",
+      "what": "October CPI"
+     },
+     {
+      "when": "Dec 9",
+      "what": "Fed decision"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Dec 8-9: the Fed's next meeting, with a decision on Dec 9 and new projections.",
+   "say": "And December eighth and ninth: the Fed's next meeting, with the decision on the ninth, plus new economic projections.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Nov 6",
+      "what": "October jobs"
+     },
+     {
+      "when": "Nov10",
+      "what": "October CPI"
+     },
+     {
+      "when": "Dec 9",
+      "what": "Fed decision"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Markets: on Oct 27, CME FedWatch put the odds of a December hike at about 78%, CNN reported.",
+   "say": "As for markets, CNN reported that on October twenty-seventh, CME's FedWatch tool put the odds of a December quarter-point hike at about seventy-eight percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Dec hike odds",
+    "value": "~78%",
+    "tone": "neutral",
+    "sub": "FedWatch, Oct 27"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Right after the Oct 28 decision: about 85%.",
+   "say": "Right after the October twenty-eighth decision, those odds rose to about eighty-five percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Dec hike odds",
+    "left": {
+     "label": "Oct 27",
+     "value": "~78%",
+     "tone": "neutral",
+     "sub": "CME FedWatch"
+    },
+    "right": {
+     "label": "Oct 28",
+     "value": "~85%",
+     "tone": "down",
+     "sub": "after decision"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Odds move every day, and they aren't a decision.",
+   "say": "But those odds move every day, and they aren't a decision.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Odds are not",
+     "a decision"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Warsh: \"If we had a firm conclusion about the conduct of monetary policy, we'd announce it to much fanfare today.\"",
+   "say": "Warsh put it this way: If we had a firm conclusion about the conduct of monetary policy, we'd announce it to much fanfare today.",
+   "scene": {
+    "t": "quote",
+    "text": "If we had a firm conclusion about the conduct of monetary policy, we'd announce it to much fanfare today.",
+    "source": "Kevin Warsh, Oct 28, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Worth watching until then: gas prices, core inflation, hiring, and your own card's rate.",
+   "say": "Until then, the numbers worth watching are gas prices, core inflation, hiring, and the rate on your own card statement.",
+   "scene": {
+    "t": "list",
+    "title": "Watch these",
+    "items": [
+     "Gas prices",
+     "Core inflation",
+     "Hiring",
+     "Your card APR"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The recap",
+   "say": "Let's wrap it up.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The economy grew at a 3.4% pace in Q3, led by shoppers and AI spending.",
+   "say": "The economy grew at a three point four percent pace in the third quarter, led by shoppers and AI spending.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "GDP +3.4%",
+     "Prices +3.6%",
+     "Fed split 10-2",
+     "Rates in play"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices were up 3.6% from a year earlier in September, well above the 2% goal.",
+   "say": "Prices were up three point six percent from a year earlier in September, well above the Fed's two percent goal.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "GDP +3.4%",
+     "Prices +3.6%",
+     "Fed split 10-2",
+     "Rates in play"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed held at 3.75%-4.00%, but two officials wanted a hike.",
+   "say": "The Fed held at three point seven five to four percent, but two officials wanted a hike.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "GDP +3.4%",
+     "Prices +3.6%",
+     "Fed split 10-2",
+     "Rates in play"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Card rates, savings yields and mortgages all hang on the data before Dec 9.",
+   "say": "So your card rate, your savings yield and your mortgage rate all hang on what the data shows before December ninth.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "GDP +3.4%",
+     "Prices +3.6%",
+     "Fed split 10-2",
+     "Rates in play"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hot economy can be good news for some, and a squeeze for others, depending on which side you're on.",
+   "say": "A hot economy can be good news for some people, and a real squeeze for others, depending on which side of it you're on.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Good for some,",
+     "tight for others"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the Big Story. See you next week.",
+   "say": "That's the big story of the week. Subscribe, and I'll see you next Friday.",
+   "scene": {
+    "t": "cta",
+    "tagline": "The Big Story, every Friday"
+   }
+  }
+ ],
+ "post": {
+  "title": "Two Fed officials wanted a rate hike. Hot economy, 3.6% inflation: what it means for you",
+  "ig": "The economy grew 3.4%, prices are up 3.6%, and two Fed officials voted for a hike. Here's what that split means for your card, savings and mortgage.",
+  "tiktok": "Two Fed officials voted to raise rates. Here's why, and what it means for your money.",
+  "yt_desc": "The Fed held rates at 3.75%-4.00% on October 28, 2026, but two officials, Governor Lisa Cook and Cleveland Fed President Beth Hammack, voted for a hike. A day later, the economy posted 3.4% growth for the third quarter while the Fed's preferred inflation gauge showed prices up 3.6% from a year earlier. This video explains what happened, why the economy is running hot (shoppers and the AI build-out), why the Fed is split, and what it all means for credit cards, savings, mortgages, jobs and your 401(k), plus the dates to watch before the Dec 8-9 Fed meeting.\n\nCHAPTERS\n\nSources: Federal Reserve FOMC statement and Chair Warsh press conference transcript (Oct 28, 2026); BEA GDP advance estimate, Q3 2026, and Personal Income and Outlays, September 2026 (Oct 29, 2026); CNBC (Oct 28-29, 2026); CNN (Oct 28, 2026); NBC News (Oct 28, 2026); Freddie Mac PMMS (Oct 29, 2026); Bankrate (Oct 14, 2026); Conference Board (Oct 27, 2026); BLS Employment Situation (Oct 2, 2026) and Real Earnings (Oct 14, 2026); Labor Department jobless claims (Oct 29, 2026); Alphabet, Microsoft and Amazon Q3 2026 results; Federal Reserve rate history.\n\nNews and education, not financial advice.\n\n#Fed #inflation #economy",
+  "tags": [
+   "Federal Reserve",
+   "interest rates",
+   "inflation",
+   "GDP",
+   "Kevin Warsh",
+   "mortgage rates",
+   "credit cards",
+   "economy"
+  ]
+ }
+}
