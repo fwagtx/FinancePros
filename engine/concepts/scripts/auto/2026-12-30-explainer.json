@@ -1,0 +1,197 @@
+{
+ "id": "2026-12-30-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Dental insurance\nwhy it feels thin",
+ "cover": {
+  "title": "40-Year-Old Cap",
+  "prop": "card",
+  "label": "MAX",
+  "value": "$1,000"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Many dental plans still cap coverage at a 40-year-old number.",
+   "say": "Many dental plans still cap coverage at a forty-year-old number.",
+   "scene": {
+    "t": "hook",
+    "title": "Dental [cap]",
+    "prop": "card",
+    "label": "SET",
+    "value": "40 yrs",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the annual maximum, the most your plan pays per year.",
+   "say": "That's the annual maximum, the most your plan pays per year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Annual maximum =",
+     "most plan pays/yr"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The ADA says many plans still use a $1,000 max set some 40 years ago.",
+   "say": "The A D A says many plans still use a one-thousand-dollar max set some forty years ago.",
+   "scene": {
+    "t": "stat",
+    "label": "Long-standing max",
+    "value": "$1,000",
+    "tone": "down",
+    "sub": "ADA News, Dec 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $1,000 of 1985 dental care cost $5,385 in 2025.",
+   "say": "Our math: a thousand dollars of nineteen eighty-five dental care cost about fifty-four hundred in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Dental prices, BLS",
+    "points": [
+     [
+      1985,
+      1000
+     ],
+     [
+      1990,
+      1369
+     ],
+     [
+      1995,
+      1801
+     ],
+     [
+      2000,
+      2245
+     ],
+     [
+      2005,
+      2822
+     ],
+     [
+      2010,
+      3445
+     ],
+     [
+      2015,
+      3899
+     ],
+     [
+      2020,
+      4409
+     ],
+     [
+      2025,
+      5385
+     ]
+    ],
+    "prefix": "$",
+    "end": "$5,385",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plans often pay 100% for cleanings, 80% for fillings, 50% for crowns.",
+   "say": "Plans often pay a hundred percent for cleanings, eighty percent for fillings, fifty percent for crowns.",
+   "scene": {
+    "t": "list",
+    "title": "Typical plan pays",
+    "items": [
+     "Cleanings 100%",
+     "Fillings 80%",
+     "Crowns 50%"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some plans add waits, often 6 months for basic, 12 for major.",
+   "say": "Some plans add waits, often six months for basic, twelve for major.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Basic: 6 mo wait",
+     "Major: 12 mo wait"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: a $1,400 crown, 50% covered, but only $500 left on your max? You pay $900.",
+   "say": "Our math: a fourteen-hundred-dollar crown, fifty percent covered, but only five hundred left on your max? You pay nine hundred.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Crown (example)",
+     "value": "$1,400"
+    },
+    "to": {
+     "label": "You pay",
+     "value": "$900"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Only 3.4% of patients reach the typical max, per an ADA analysis.",
+   "say": "Only three point four percent of patients reach the typical max, per an A D A analysis.",
+   "scene": {
+    "t": "stat",
+    "label": "Reach their max",
+    "value": "3.4%",
+    "tone": "neutral",
+    "sub": "ADA HPI, 2024",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many plans reset on January 1; unused benefits usually don't roll over.",
+   "say": "Many plans reset on January first; unused benefits usually don't roll over.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Many plans reset",
+     "on Jan 1"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why dental insurance runs out so fast: the annual maximum",
+  "ig": "Many dental plans still cap coverage at a 40-year-old number.\n\nThe annual maximum is the most your plan pays in a year. The ADA (Dec 2025) says many plans still use a $1,000 max set some 40 years ago.\nOur math with BLS dental price data: $1,000 of dental care in Dec 1985 cost $5,385 in Dec 2025.\nThe familiar design pays 100% preventive, 80% basic, 50% major, and some plans add waits (often 6 months basic, 12 months major).\nOur example: a $1,400 crown at 50% = $700 from the plan, but with only $500 of a $1,500 max left, you pay $900. An ADA HPI analysis (2024) found only 3.4% of patients reach the typical max. Many plans reset Jan 1.\n\nSources: ADA News (Dec 19, 2025); ADA Health Policy Institute (2024); BLS CPI dental services; Delta Dental; Guardian; Humana; example math by FinancePros TV.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#dentalinsurance #healthcosts #personalfinance #moneytips #financeprostv",
+  "tiktok": "Many dental plans still use a $1,000 max set ~40 years ago (ADA). Not financial advice. #moneytok #personalfinance #dentalinsurance #financeprostv",
+  "yt_desc": "The annual maximum is the most a dental plan pays in a year; the ADA (Dec 2025) says many plans still use a $1,000 level set some 40 years ago. By our math with BLS CPI dental services data, $1,000 of dental care in December 1985 cost $5,385 in December 2025, and the familiar 100/80/50 design means major work like crowns is often covered at 50%. An ADA Health Policy Institute analysis (2024) found only 3.4% of patients reach the typical maximum. News and education, not financial advice.\n#Shorts #dentalinsurance #personalfinance",
+  "tags": [
+   "dental insurance annual maximum",
+   "dental insurance explained",
+   "100 80 50 coinsurance",
+   "dental waiting period",
+   "FinancePros TV"
+  ]
+ }
+}
