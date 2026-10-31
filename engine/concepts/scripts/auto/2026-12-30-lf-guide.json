@@ -1,0 +1,1507 @@
+{
+ "id": "2026-12-30-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "How to build an\nemergency fund",
+ "cover": {
+  "title": "The $400 Test.",
+  "prop": "bill",
+  "label": "$400",
+  "value": "37%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Over a third of adults wouldn't cover $400 from savings.",
+   "say": "Over a third of adults wouldn't cover four hundred dollars from savings.",
+   "scene": {
+    "t": "hook",
+    "title": "The [$400] test",
+    "prop": "bill",
+    "label": "$400",
+    "value": "37%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the Fed's 2025 household survey, 63% said they'd cover a surprise $400 bill with cash or its equivalent.",
+   "say": "In the Fed's twenty twenty-five household survey, sixty-three percent said they'd cover a surprise four hundred dollar bill with cash or its equivalent.",
+   "scene": {
+    "t": "stat",
+    "label": "Cash or equivalent",
+    "value": "63%",
+    "tone": "neutral",
+    "sub": "Fed SHED, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other 37% would need to borrow, carry a card balance, sell something, or couldn't pay it right now.",
+   "say": "The other thirty-seven percent would need to borrow, carry a card balance, sell something, or couldn't pay it right now.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Other 37%:",
+     "borrow, sell, skip"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And here's the surprise. Back in 2013, only 50% could cover it that way.",
+   "say": "And here's the surprise. Back in twenty thirteen, only fifty percent could cover it that way.",
+   "scene": {
+    "t": "chart",
+    "title": "Could cover $400",
+    "points": [
+     [
+      2013,
+      50
+     ],
+     [
+      2017,
+      59
+     ],
+     [
+      2021,
+      68
+     ],
+     [
+      2025,
+      63
+     ]
+    ],
+    "suffix": "%",
+    "end": "63%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It climbed to 59% by 2017 and peaked at 68% in 2021.",
+   "say": "It climbed to fifty-nine percent by twenty seventeen and peaked at sixty-eight percent in twenty twenty-one.",
+   "scene": {
+    "t": "chart",
+    "title": "Could cover $400",
+    "points": [
+     [
+      2013,
+      50
+     ],
+     [
+      2017,
+      59
+     ],
+     [
+      2021,
+      68
+     ],
+     [
+      2025,
+      63
+     ]
+    ],
+    "suffix": "%",
+    "end": "63%",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it slipped back to 63%, and it stayed there all the way through 2025.",
+   "say": "Then it slipped back to sixty-three percent, and it stayed there all the way through twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Could cover $400",
+    "points": [
+     [
+      2013,
+      50
+     ],
+     [
+      2017,
+      59
+     ],
+     [
+      2021,
+      68
+     ],
+     [
+      2025,
+      63
+     ]
+    ],
+    "suffix": "%",
+    "end": "63%",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To be fair, the Fed asked how people would pay, not how much they had saved. But the gap is still real.",
+   "say": "To be fair, the Fed asked how people would pay, not how much they had saved. But the gap is still real.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "How you'd pay,",
+     "not what you have"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That gap, between a bad week and a pile of new debt, is exactly what an emergency fund is for.",
+   "say": "That gap, between a bad week and a pile of new debt, is exactly what an emergency fund is for.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bad week",
+     "not a debt spiral"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So this guide builds one from zero: what counts, how much to aim for, where the money comes from, and where it lives.",
+   "say": "So this guide builds one from zero: what counts, how much to aim for, where the money comes from, and where it lives.",
+   "scene": {
+    "t": "list",
+    "title": "The steps",
+    "items": [
+     "What counts",
+     "How much",
+     "Find the money",
+     "Where it lives"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plus how to use it, the common mistakes, and a one-screen checklist. It's education, not advice, and there are no product picks.",
+   "say": "Plus how to use it, the common mistakes, and a one-screen checklist. It's education, not advice, and there are no product picks.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mistakes and",
+     "a checklist too"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: What counts as an emergency",
+   "say": "Chapter one: what counts as an emergency.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What counts as an emergency"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB describes an emergency fund as money set aside for unplanned expenses, like a car repair or a job loss.",
+   "say": "The C F P B describes an emergency fund as money set aside for unplanned expenses, like a car repair or a job loss.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Emergency fund =",
+     "cash for surprises"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A simple test for spending it has three questions. Is it unexpected? Is it necessary? And is it urgent?",
+   "say": "A simple test for spending it has three questions. Is it unexpected? Is it necessary? And is it urgent?",
+   "scene": {
+    "t": "list",
+    "title": "The 3-question test",
+    "items": [
+     "Unexpected?",
+     "Necessary?",
+     "Urgent?"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A transmission that dies when you need the car for work passes all three. So does a job loss, a medical bill, or a broken furnace in January.",
+   "say": "A transmission that dies when you need the car for work passes all three. So does a job loss, a medical bill, or a broken furnace in January.",
+   "scene": {
+    "t": "split",
+    "title": "Counts?",
+    "left": {
+     "title": "Yes",
+     "items": [
+      "Car repair",
+      "Job loss",
+      "Medical bill",
+      "Broken furnace"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No",
+     "items": [
+      "Concert tix",
+      "A big sale",
+      "Holidays",
+      "Yearly bills"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But a concert, a big sale, or the holidays fail the test. They might feel urgent, but they were never a surprise.",
+   "say": "But a concert, a big sale, or the holidays fail the test. They might feel urgent, but they were never a surprise.",
+   "scene": {
+    "t": "split",
+    "title": "Counts?",
+    "left": {
+     "title": "Yes",
+     "items": [
+      "Car repair",
+      "Job loss",
+      "Medical bill",
+      "Broken furnace"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No",
+     "items": [
+      "Concert tix",
+      "A big sale",
+      "Holidays",
+      "Yearly bills"
+     ],
+     "tone": "down"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Predictable costs, like car registration or a once-a-year insurance bill, can get their own savings pot. Some people call that a sinking fund.",
+   "say": "Predictable costs, like car registration or a once-a-year insurance bill, can get their own savings pot. Some people call that a sinking fund.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Known costs:",
+     "a sinking fund"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Keeping the two apart stops the holidays from quietly eating your safety net every December.",
+   "say": "Keeping the two apart stops the holidays from quietly eating your safety net every December.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Two pots,",
+     "two different jobs"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Pick your target",
+   "say": "Chapter two: pick your target.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Pick your target"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The number you'll hear most is three to six months of essential expenses. That's a common rule of thumb, not a law.",
+   "say": "The number you'll hear most is three to six months of essential expenses. That's a common rule of thumb, not a law.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "3 to 6 months",
+     "of essential bills"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Essentials are the bills that keep life running, starting with housing and groceries.",
+   "say": "Essentials are the bills that keep life running, starting with housing and groceries.",
+   "scene": {
+    "t": "list",
+    "title": "Essentials",
+    "items": [
+     "Housing",
+     "Groceries",
+     "Utilities",
+     "Debt minimums"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then utilities and minimum debt payments, plus things like insurance and getting to work.",
+   "say": "Then utilities and minimum debt payments, plus things like insurance and getting to work.",
+   "scene": {
+    "t": "list",
+    "title": "Essentials",
+    "items": [
+     "Housing",
+     "Groceries",
+     "Utilities",
+     "Debt minimums"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Streaming and takeout don't count. The question is simple: if your income stopped, what would still be due?",
+   "say": "Streaming and takeout don't count. The question is simple: if your income stopped, what would still be due?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "If income stopped,",
+     "what's still due?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's do our own math with a made-up example: essential bills of $2,500 a month.",
+   "say": "Let's do our own math with a made-up example: essential bills of twenty-five hundred dollars a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Essentials a month",
+    "value": "$2,500",
+    "tone": "neutral",
+    "sub": "Our example"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three months of that is $7,500. Six months is $15,000.",
+   "say": "Three months of that is seventy-five hundred dollars. Six months is fifteen thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Our math",
+    "left": {
+     "label": "3 months",
+     "value": "$7,500",
+     "tone": "neutral",
+     "sub": "3 x $2,500"
+    },
+    "right": {
+     "label": "6 months",
+     "value": "$15,000",
+     "tone": "neutral",
+     "sub": "6 x $2,500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Starting from zero, $15,000 can feel like a mountain. That's why a lot of people start with a much smaller first goal.",
+   "say": "Starting from zero, fifteen thousand dollars can feel like a mountain. That's why a lot of people start with a much smaller first goal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$15,000 from $0?",
+     "Start smaller"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One common path goes in stages. First, a starter goal of $500 or $1,000, which covers a lot of everyday surprises.",
+   "say": "One common path goes in stages. First, a starter goal of five hundred or a thousand dollars, which covers a lot of everyday surprises.",
+   "scene": {
+    "t": "timeline",
+    "title": "The stages",
+    "events": [
+     [
+      "First",
+      "$500 or $1,000"
+     ],
+     [
+      "Next",
+      "1 month of bills"
+     ],
+     [
+      "Then",
+      "3 months"
+     ],
+     [
+      "Last",
+      "6 months"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, one full month of essential bills, so a short gap between paychecks isn't a crisis.",
+   "say": "Next, one full month of essential bills, so a short gap between paychecks isn't a crisis.",
+   "scene": {
+    "t": "timeline",
+    "title": "The stages",
+    "events": [
+     [
+      "First",
+      "$500 or $1,000"
+     ],
+     [
+      "Next",
+      "1 month of bills"
+     ],
+     [
+      "Then",
+      "3 months"
+     ],
+     [
+      "Last",
+      "6 months"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then three months, which is where a lot of guides draw the first real finish line.",
+   "say": "Then three months, which is where a lot of guides draw the first real finish line.",
+   "scene": {
+    "t": "timeline",
+    "title": "The stages",
+    "events": [
+     [
+      "First",
+      "$500 or $1,000"
+     ],
+     [
+      "Next",
+      "1 month of bills"
+     ],
+     [
+      "Then",
+      "3 months"
+     ],
+     [
+      "Last",
+      "6 months"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And six months can make more sense with irregular income, a single earner, or a job that's slow to replace.",
+   "say": "And six months can make more sense with irregular income, a single earner, or a job that's slow to replace.",
+   "scene": {
+    "t": "timeline",
+    "title": "The stages",
+    "events": [
+     [
+      "First",
+      "$500 or $1,000"
+     ],
+     [
+      "Next",
+      "1 month of bills"
+     ],
+     [
+      "Then",
+      "3 months"
+     ],
+     [
+      "Last",
+      "6 months"
+     ]
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For context, the Fed found 55% of adults had three months of expenses saved in 2025, down from 59% in 2021.",
+   "say": "For context, the Fed found fifty-five percent of adults had three months of expenses saved in twenty twenty-five, down from fifty-nine percent in twenty twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "3 months saved",
+    "value": "55%",
+    "tone": "neutral",
+    "sub": "Fed SHED, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So if you're starting at zero, you're far from alone, and every stage counts on its own.",
+   "say": "So if you're starting at zero, you're far from alone, and every stage counts on its own.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "At zero?",
+     "You're not alone."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB also suggests a reality check: look back at the surprise costs you've actually had, and what they cost.",
+   "say": "The C F P B also suggests a reality check: look back at the surprise costs you've actually had, and what they cost.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "What surprised you",
+     "last year?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your car needed $800 of work last year, that's a pretty good hint for your first goal.",
+   "say": "If your car needed eight hundred dollars of work last year, that's a pretty good hint for your first goal.",
+   "scene": {
+    "t": "hook",
+    "title": "First [hint]",
+    "prop": "car",
+    "label": "$800",
+    "value": "$800"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Find the money",
+   "say": "Chapter three: find the money.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Find the money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the hard part: finding money when there isn't any extra. So start with an amount so small it's almost boring.",
+   "say": "Here's the hard part: finding money when there isn't any extra. So start with an amount so small it's almost boring.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Start small.",
+     "Almost boring."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $25 a week adds up to $500 in 20 weeks.",
+   "say": "Our math: twenty-five dollars a week adds up to five hundred dollars in twenty weeks.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per week",
+     "value": "$25"
+    },
+    "to": {
+     "label": "After 20 weeks",
+     "value": "$500"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Keep going, and it's $1,000 by week 40.",
+   "say": "Keep going, and it's a thousand dollars by week forty.",
+   "scene": {
+    "t": "timeline",
+    "title": "$25 a week",
+    "events": [
+     [
+      "Wk20",
+      "$500"
+     ],
+     [
+      "Wk40",
+      "$1,000"
+     ],
+     [
+      "Wk52",
+      "$1,300"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's $1,300 after a full year. That's a starter fund, built out of about $3.57 a day.",
+   "say": "And it's thirteen hundred dollars after a full year. That's a starter fund, built out of about three dollars and fifty-seven cents a day.",
+   "scene": {
+    "t": "timeline",
+    "title": "$25 a week",
+    "events": [
+     [
+      "Wk20",
+      "$500"
+     ],
+     [
+      "Wk40",
+      "$1,000"
+     ],
+     [
+      "Wk52",
+      "$1,300"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Double it to $50 a week, and the $1,000 starter goal shows up in 20 weeks instead of 40.",
+   "say": "Double it to fifty dollars a week, and the thousand dollar starter goal shows up in twenty weeks instead of forty.",
+   "scene": {
+    "t": "compare",
+    "title": "Our math: to $1,000",
+    "left": {
+     "label": "$25 a week",
+     "value": "40 wks",
+     "tone": "neutral",
+     "sub": "Starter goal"
+    },
+    "right": {
+     "label": "$50 a week",
+     "value": "20 wks",
+     "tone": "up",
+     "sub": "Starter goal"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So where does the first $25 come from? Usually from one specific bill, not from a vague promise to spend less.",
+   "say": "So where does the first twenty-five dollars come from? Usually from one specific bill, not from a vague promise to spend less.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Find one bill,",
+     "not vague cuts"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Common places to look include a subscription you forgot about, and bank fees you might be able to avoid.",
+   "say": "Common places to look include a subscription you forgot about, and bank fees you might be able to avoid.",
+   "scene": {
+    "t": "list",
+    "title": "Places to look",
+    "items": [
+     "A subscription",
+     "Bank fees",
+     "Phone plan",
+     "Takeout night"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Or a cheaper phone plan, or one less takeout night a week. Pick whichever one hurts the least.",
+   "say": "Or a cheaper phone plan, or one less takeout night a week. Pick whichever one hurts the least.",
+   "scene": {
+    "t": "list",
+    "title": "Places to look",
+    "items": [
+     "A subscription",
+     "Bank fees",
+     "Phone plan",
+     "Takeout night"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then automate it. Set a transfer for payday, so the money moves before you get a chance to spend it.",
+   "say": "Then automate it. Set a transfer for payday, so the money moves before you get a chance to spend it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Automate it",
+     "for payday"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many employers can also split a direct deposit, sending a slice of every paycheck straight into savings.",
+   "say": "Many employers can also split a direct deposit, sending a slice of every paycheck straight into savings.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Split deposit:",
+     "a slice to savings"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saving first and spending what's left is an old idea, often called paying yourself first.",
+   "say": "Saving first and spending what's left is an old idea, often called paying yourself first.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay yourself",
+     "first"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Windfalls speed things up, like a tax refund or a raise.",
+   "say": "Windfalls speed things up, like a tax refund or a raise.",
+   "scene": {
+    "t": "list",
+    "title": "Windfalls",
+    "items": [
+     "Tax refund",
+     "A raise",
+     "A bonus",
+     "Side money"
+    ],
+    "reveal": 2,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A bonus or a little side money can also jump you a whole stage at once.",
+   "say": "A bonus or a little side money can also jump you a whole stage at once.",
+   "scene": {
+    "t": "list",
+    "title": "Windfalls",
+    "items": [
+     "Tax refund",
+     "A raise",
+     "A bonus",
+     "Side money"
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: if a raise adds $100 to each monthly paycheck and all of it goes to the fund, that's $1,200 a year.",
+   "say": "Our math: if a raise adds a hundred dollars to each monthly paycheck and all of it goes to the fund, that's twelve hundred dollars a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Raise a month",
+     "value": "$100"
+    },
+    "to": {
+     "label": "Saved a year",
+     "value": "$1,200"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This matters because plenty of people start from nothing. Bankrate's 2026 report found nearly 1 in 4 Americans, 24%, had no emergency savings.",
+   "say": "This matters because plenty of people start from nothing. Bankrate's twenty twenty-six report found nearly one in four Americans, twenty-four percent, had no emergency savings.",
+   "scene": {
+    "t": "stat",
+    "label": "No emergency fund",
+    "value": "24%",
+    "tone": "down",
+    "sub": "Bankrate, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If that's you, the first $25 is the hardest one to save. After that, it's mostly a habit.",
+   "say": "If that's you, the first twenty-five dollars is the hardest one to save. After that, it's mostly a habit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The first $25",
+     "is the hardest"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Where to keep it",
+   "say": "Chapter four: where to keep it.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Where to keep it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Where the money sits matters almost as much as how much you save. A good home checks three boxes. First, it's safe.",
+   "say": "Where the money sits matters almost as much as how much you save. A good home checks three boxes. First, it's safe.",
+   "scene": {
+    "t": "list",
+    "title": "A good home",
+    "items": [
+     "Safe",
+     "Liquid",
+     "Separate"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, it's liquid, meaning you can get the cash in a day or two without paying a penalty.",
+   "say": "Second, it's liquid, meaning you can get the cash in a day or two without paying a penalty.",
+   "scene": {
+    "t": "list",
+    "title": "A good home",
+    "items": [
+     "Safe",
+     "Liquid",
+     "Separate"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And third, it's separate from your checking account, so it doesn't quietly blend into everyday spending.",
+   "say": "And third, it's separate from your checking account, so it doesn't quietly blend into everyday spending.",
+   "scene": {
+    "t": "list",
+    "title": "A good home",
+    "items": [
+     "Safe",
+     "Liquid",
+     "Separate"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Safe usually means insured. The FDIC covers deposits up to $250,000 per depositor, per insured bank, per ownership category.",
+   "say": "Safe usually means insured. The F D I C covers deposits up to two hundred fifty thousand dollars per depositor, per insured bank, per ownership category.",
+   "scene": {
+    "t": "stat",
+    "label": "FDIC coverage",
+    "value": "$250,000",
+    "tone": "up",
+    "sub": "Per bank, category"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit unions have the same $250,000 standard through the NCUA.",
+   "say": "Credit unions have the same two hundred fifty thousand dollar standard through the N C U A.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "NCUA: $250,000",
+     "at credit unions"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Savings, checking, money market deposit accounts and CDs are all insured deposits.",
+   "say": "Savings, checking, money market deposit accounts and C Ds are all insured deposits.",
+   "scene": {
+    "t": "split",
+    "title": "Insured?",
+    "left": {
+     "title": "Yes",
+     "items": [
+      "Savings",
+      "Checking",
+      "Money mkt acct",
+      "CDs"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No",
+     "items": [
+      "Stocks",
+      "Bonds",
+      "Mutual funds",
+      "Crypto"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stocks, bonds, mutual funds and crypto are not, even when you buy them through a bank.",
+   "say": "Stocks, bonds, mutual funds and crypto are not, even when you buy them through a bank.",
+   "scene": {
+    "t": "split",
+    "title": "Insured?",
+    "left": {
+     "title": "Yes",
+     "items": [
+      "Savings",
+      "Checking",
+      "Money mkt acct",
+      "CDs"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No",
+     "items": [
+      "Stocks",
+      "Bonds",
+      "Mutual funds",
+      "Crypto"
+     ],
+     "tone": "down"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Investments can also be down right when the car breaks, which is why emergency money usually sits in cash.",
+   "say": "Investments can also be down right when the car breaks, which is why emergency money usually sits in cash.",
+   "scene": {
+    "t": "split",
+    "title": "Insured?",
+    "left": {
+     "title": "Yes",
+     "items": [
+      "Savings",
+      "Checking",
+      "Money mkt acct",
+      "CDs"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No",
+     "items": [
+      "Stocks",
+      "Bonds",
+      "Mutual funds",
+      "Crypto"
+     ],
+     "tone": "down"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CDs are insured too, but most charge a penalty for pulling money out early, so they're less liquid.",
+   "say": "C Ds are insured too, but most charge a penalty for pulling money out early, so they're less liquid.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "CDs: insured,",
+     "but early-exit fee"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the rate. The FDIC's national average savings rate was just 0.38% in mid-2026.",
+   "say": "Now the rate. The F D I C's national average savings rate was just zero point three eight percent in mid twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg savings rate",
+    "value": "0.38%",
+    "tone": "down",
+    "sub": "FDIC, mid-2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $1,000 at 0.38% earns about $3.80 in a year.",
+   "say": "Our math: a thousand dollars at zero point three eight percent earns about three dollars and eighty cents in a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Saved",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "1 year at 0.38%",
+     "value": "$3.80"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some online banks and credit unions pay many times that average. We covered why in a separate video, so here's the short version.",
+   "say": "Some online banks and credit unions pay many times that average. We covered why in a separate video, so here's the short version.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rates vary",
+     "a lot"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rates change, so it helps to compare the current rate, the fees, and whether the account is FDIC or NCUA insured.",
+   "say": "Rates change, so it helps to compare the current rate, the fees, and whether the account is F D I C or N C U A insured.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Compare: rate,",
+     "fees, insurance"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still, for an emergency fund, safe and reachable come first. The interest is a nice bonus.",
+   "say": "Still, for an emergency fund, safe and reachable come first. The interest is a nice bonus.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Safe first.",
+     "Interest second."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's also a newer option at some jobs, created by the SECURE 2.0 law.",
+   "say": "There's also a newer option at some jobs, created by the SECURE two point oh law.",
+   "scene": {
+    "t": "news",
+    "headline": "Savings at work",
+    "source": "SECURE 2.0 Act, 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's called a pension-linked emergency savings account, and employers have been allowed to offer one alongside a 401(k) or similar plan since 2024.",
+   "say": "It's called a pension-linked emergency savings account, and employers have been allowed to offer one alongside a four oh one K or similar plan since twenty twenty-four.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pension-linked",
+     "emergency savings"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You put in after-tax money, and the balance from your contributions is capped at $2,600 for 2026, adjusted for inflation over time. You can withdraw at least once a month.",
+   "say": "You put in after-tax money, and the balance from your contributions is capped at twenty-six hundred dollars for twenty twenty-six, adjusted for inflation over time. You can withdraw at least once a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Balance cap, 2026",
+    "value": "$2,600",
+    "tone": "neutral",
+    "sub": "IRS Notice 2025-67"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The first four withdrawals each plan year can't carry fees. But it's optional for employers, so it's worth asking whether yours offers one.",
+   "say": "The first four withdrawals each plan year can't carry fees. But it's optional for employers, so it's worth asking whether yours offers one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Optional for",
+     "employers: ask HR"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Using it and refilling it",
+   "say": "Chapter five: using it, and refilling it.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Using it and refilling it"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When a real emergency hits, using the fund is the whole point. Spending it isn't failing.",
+   "say": "When a real emergency hits, using the fund is the whole point. Spending it isn't failing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Using it",
+     "isn't failing"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Run the three questions first. If it's unexpected, necessary and urgent, that's what the money is there for.",
+   "say": "Run the three questions first. If it's unexpected, necessary and urgent, that's what the money is there for.",
+   "scene": {
+    "t": "list",
+    "title": "The 3-question test",
+    "items": [
+     "Unexpected?",
+     "Necessary?",
+     "Urgent?"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The alternative is often a credit card. Fed data put the average rate on cards charging interest at about 22% in 2026.",
+   "say": "The alternative is often a credit card. Fed data put the average rate on cards charging interest at about twenty-two percent in twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg card rate",
+    "value": "~22%",
+    "tone": "down",
+    "sub": "Fed G.19, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: a $1,000 emergency carried on a 22% card costs about $18.33 in interest every month.",
+   "say": "Our math: a thousand dollar emergency carried on a twenty-two percent card costs about eighteen dollars and thirty-three cents in interest every month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "On a 22% card",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "Interest a month",
+     "value": "$18.33"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over a full year, that's roughly $220, before any compounding. The same $1,000 from savings costs zero in interest.",
+   "say": "Over a full year, that's roughly two hundred twenty dollars, before any compounding. The same thousand dollars from savings costs zero in interest.",
+   "scene": {
+    "t": "compare",
+    "title": "Our math: 1 year",
+    "left": {
+     "label": "Card at 22%",
+     "value": "~$220",
+     "tone": "down",
+     "sub": "Interest cost"
+    },
+    "right": {
+     "label": "From savings",
+     "value": "$0",
+     "tone": "up",
+     "sub": "Interest cost"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After you use it, refill it first. Point the same automatic transfer back at the fund until it's whole again.",
+   "say": "After you use it, refill it first. Point the same automatic transfer back at the fund until it's whole again.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Use it,",
+     "then refill it"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's one more backstop. Since 2024, retirement plans can allow an emergency withdrawal of up to $1,000, at most once a year, without the usual 10% early withdrawal penalty.",
+   "say": "There's one more backstop. Since twenty twenty-four, retirement plans can allow an emergency withdrawal of up to a thousand dollars, at most once a year, without the usual ten percent early withdrawal penalty.",
+   "scene": {
+    "t": "stat",
+    "label": "Plan withdrawal",
+    "value": "$1,000",
+    "tone": "neutral",
+    "sub": "Once a year, 2024+"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But it's still taxed, and it shrinks your retirement savings, which is why it's a backstop, not the plan.",
+   "say": "But it's still taxed, and it shrinks your retirement savings, which is why it's a backstop, not the plan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Still taxed.",
+     "A backstop only."
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the common mistakes. Number one is a goal so big you never start.",
+   "say": "Now the common mistakes. Number one is a goal so big you never start.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Giant goal",
+     "Investing it",
+     "Mixing it",
+     "No refill"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A $500 goal you actually hit beats a $15,000 goal you never begin.",
+   "say": "A five hundred dollar goal you actually hit beats a fifteen thousand dollar goal you never begin.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Giant goal",
+     "Investing it",
+     "Mixing it",
+     "No refill"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Number two is putting emergency money in stocks or crypto, which can drop right when you need them.",
+   "say": "Number two is putting emergency money in stocks or crypto, which can drop right when you need them.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Giant goal",
+     "Investing it",
+     "Mixing it",
+     "No refill"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Number three is mixing it with checking, where it slowly turns into groceries and gas.",
+   "say": "Number three is mixing it with checking, where it slowly turns into groceries and gas.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Giant goal",
+     "Investing it",
+     "Mixing it",
+     "No refill"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And number four is using it and never refilling it, which leaves you back at zero for the next surprise.",
+   "say": "And number four is using it and never refilling it, which leaves you back at zero for the next surprise.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "Giant goal",
+     "Investing it",
+     "Mixing it",
+     "No refill"
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's a quieter one, too: waiting until every debt is gone. One common approach keeps a small cushion while paying debt down, so one surprise doesn't add new debt.",
+   "say": "There's a quieter one, too: waiting until every debt is gone. One common approach keeps a small cushion while paying debt down, so one surprise doesn't add new debt.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paying off debt?",
+     "Keep a buffer"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The checklist",
+   "say": "Chapter six: the checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the whole guide on one screen. Decide what counts as an emergency, and pick your first stage.",
+   "say": "Here's the whole guide on one screen. Decide what counts as an emergency, and pick your first stage.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist, part 1",
+    "items": [
+     "Define it",
+     "Pick a stage",
+     "Pick an amount",
+     "Automate it"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then choose a weekly amount, and automate it on payday.",
+   "say": "Then choose a weekly amount, and automate it on payday.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist, part 1",
+    "items": [
+     "Define it",
+     "Pick a stage",
+     "Pick an amount",
+     "Automate it"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then keep it in an insured, separate account, throw windfalls at it, and refill it after you use it.",
+   "say": "Then keep it in an insured, separate account, throw windfalls at it, and refill it after you use it.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist, part 2",
+    "items": [
+     "Insured acct",
+     "Keep separate",
+     "Add windfalls",
+     "Refill after"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two numbers to remember: 63% of adults would cover $400 with cash or its equivalent in 2025, and deposits are insured up to $250,000 per bank, per ownership category.",
+   "say": "Two numbers to remember: sixty-three percent of adults would cover four hundred dollars with cash or its equivalent in twenty twenty-five, and deposits are insured up to two hundred fifty thousand dollars per bank, per ownership category.",
+   "scene": {
+    "t": "compare",
+    "title": "Key numbers",
+    "left": {
+     "label": "Cover $400",
+     "value": "63%",
+     "tone": "neutral",
+     "sub": "Fed SHED, 2025"
+    },
+    "right": {
+     "label": "Insured to",
+     "value": "$250K",
+     "tone": "up",
+     "sub": "FDIC or NCUA"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And one number to start with: $25 a week, which is $500 in 20 weeks, by our math.",
+   "say": "And one number to start with: twenty-five dollars a week, which is five hundred dollars in twenty weeks, by our math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$25 a week",
+     "= $500 in 20 weeks"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fund doesn't have to be big to work. It just has to be there before the surprise shows up.",
+   "say": "The fund doesn't have to be big to work. It just has to be there before the surprise shows up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not big.",
+     "Just there first."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this helped, subscribe for more step-by-step money guides. Education, not advice.",
+   "say": "If this helped, subscribe for more step-by-step money guides. Education, not advice.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Education, not advice."
+   }
+  }
+ ],
+ "post": {
+  "title": "Over a third of adults wouldn't cover $400 from savings. How to build an emergency fund from $0",
+  "ig": "Over a third of US adults wouldn't cover a surprise $400 bill with cash or its equivalent (Fed, 2025). How to build an emergency fund from zero, step by step.",
+  "tiktok": "Over a third of adults wouldn't cover $400 with cash or its equivalent (Fed, 2025). Building an emergency fund from $0. Not financial advice.",
+  "yt_desc": "In the Federal Reserve's 2025 household survey (released May 2026), 63% of adults said they would cover a surprise $400 expense with cash or its equivalent, unchanged since 2022 and down from 68% in 2021. This step-by-step guide builds an emergency fund from zero: what counts as an emergency, how to size the goal in stages (a $500 or $1,000 starter, then one month, then three to six months of essential expenses), finding the first $25 a week and automating it, where the money can live (FDIC and NCUA insurance up to $250,000; the FDIC national average savings rate was 0.38% in mid-2026), workplace emergency savings accounts (contribution balance capped at $2,600 for 2026, adjusted for inflation), and how to use and refill the fund. Worked examples are our own math, and there are no product picks.\n\nCHAPTERS\n\nSources: Federal Reserve, Economic Well-Being of U.S. Households in 2025 (May 13, 2026) and SHED data tables (2013-2025); Bankrate 2026 Annual Emergency Savings Report (Feb 2026); CFPB, An essential guide to building an emergency fund; FDIC deposit insurance FAQ and National Rates and Rate Caps (July 2026); NCUA share insurance; IRS Notice 2025-67 (Nov 2025); DOL/IRS guidance on pension-linked emergency savings accounts (Jan 2024); IRS Notice 2024-55 (June 2024); Federal Reserve G.19 Consumer Credit (2026).\n\nNews and education, not financial advice.\n\n#emergencyfund #personalfinance #savingmoney",
+  "tags": [
+   "how to build an emergency fund",
+   "emergency fund from zero",
+   "emergency savings",
+   "$400 emergency",
+   "Fed SHED",
+   "FDIC insurance",
+   "high yield savings",
+   "PLESA"
+  ]
+ }
+}
