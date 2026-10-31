@@ -1,0 +1,155 @@
+{
+  "series": "ticker",
+  "header": "Scam alert:\nhostage moving loads",
+  "cover": {
+    "title": "Held for Ransom",
+    "prop": "box",
+    "label": "2020",
+    "value": "899"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Some movers load your stuff, then hold it for ransom.",
+      "say": "Some movers load your stuff, then hold it for ransom.",
+      "scene": {
+        "t": "hook",
+        "title": "Held [hostage]",
+        "prop": "box",
+        "label": "PAY",
+        "value": "RANSOM",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's a hostage load: a cheap quote, then a far bigger bill once it's loaded.",
+      "say": "It's a hostage load: a cheap quote, then a far bigger bill once it's loaded.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Cheap quote online",
+          "Big bill on truck"
+        ],
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Hostage complaints went from about 360 in 2017 to about 900 in 2020, per federal data via AARP.",
+      "say": "Hostage complaints went from about three sixty in twenty seventeen to about nine hundred in twenty twenty, per federal data via AARP.",
+      "scene": {
+        "t": "chart",
+        "title": "Hostage complaints",
+        "points": [
+          [
+            2017,
+            364
+          ],
+          [
+            2018,
+            409
+          ],
+          [
+            2019,
+            495
+          ],
+          [
+            2020,
+            899
+          ]
+        ],
+        "end": "899",
+        "color": "up",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And in 2024, a three-week federal sweep still took on 128 hostage complaints.",
+      "say": "And in twenty twenty-four, a three-week federal sweep still took on a hundred twenty-eight hostage complaints.",
+      "scene": {
+        "t": "stat",
+        "label": "Hostage complaints",
+        "value": "128",
+        "tone": "neutral",
+        "sub": "FMCSA sweep, 2024",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "One ring running more than a dozen moving companies cost victims over $2.4 million, per federal prosecutors.",
+      "say": "One ring running more than a dozen moving companies cost victims over two point four million dollars, per federal prosecutors.",
+      "scene": {
+        "t": "news",
+        "headline": "$2.4M moving scam",
+        "source": "U.S. Attorney, S.D. Ohio",
+        "mood": "angry"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Federal red flags: cash or a big deposit, no in-home or video survey, no rights booklet.",
+      "say": "Federal red flags: cash or a big deposit, no in-home or video survey, no rights booklet.",
+      "scene": {
+        "t": "list",
+        "title": "FMCSA red flags",
+        "items": [
+          "Cash/deposit",
+          "No home survey",
+          "No rights book"
+        ],
+        "reveal": 3,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Before signing, check the mover's DOT number with FMCSA.",
+      "say": "Before signing, check the mover's D O T number with F M C S A.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Check DOT number",
+          "with FMCSA"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Movers found holding goods hostage face a federal civil penalty of at least $10,000 per violation.",
+      "say": "Movers found holding goods hostage face a federal civil penalty of at least ten thousand dollars per violation.",
+      "scene": {
+        "t": "stat",
+        "label": "Min. civil penalty",
+        "value": "$10,000",
+        "tone": "up",
+        "sub": "49 U.S.C. 14915",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Fake movers that hold your stuff hostage: the red flags",
+    "ig": "Some movers load your stuff, then hold it for ransom.\n\nIt's called a hostage load: a cheap quote, then a much bigger bill once your things are on the truck.\nHostage-load complaints to DOT went from 364 in 2017 to 899 in 2020 (FMCSA data via AARP). In April 2024, a three-week FMCSA sweep still addressed 128 hostage complaints.\nOhio federal prosecutors said one ring running more than a dozen rogue moving companies (2013-2018) cost victims over $2.4 million.\nFMCSA red flags: cash or a large deposit, no in-home or virtual survey, no \"Your Rights and Responsibilities When You Move\" booklet. Check the USDOT number on FMCSA's site and report problems to FMCSA's National Consumer Complaint Database. Federal law sets a civil penalty of at least $10,000 per violation for holding goods hostage.\n\nSources: FMCSA Protect Your Move and Operation Protect Your Move reports (2023, 2024); AARP (Aug 2021); U.S. Attorney, S.D. Ohio; 49 U.S.C. 14915.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#movingscam #scamalert #moving #personalfinance #financeprostv",
+    "tiktok": "Movers that hold your stuff for ransom: the FMCSA red flags. Not financial advice. #moneytok #personalfinance #movingscam #scamalert #financeprostv",
+    "yt_desc": "A hostage load is when a mover gives a low quote, loads your things, then demands much more before delivering. Hostage-load complaints to DOT rose from 364 in 2017 to 899 in 2020 (FMCSA data via AARP), and FMCSA's red flags include cash or large deposits, no in-home or virtual survey, and no rights booklet; check the USDOT number on FMCSA's site and file complaints with FMCSA. Sources: FMCSA, AARP, U.S. Attorney S.D. Ohio, 49 U.S.C. 14915. News and education, not financial advice.\n#Shorts #movingscam #personalfinance",
+    "tags": [
+      "moving scam",
+      "hostage load movers",
+      "FMCSA protect your move",
+      "moving company red flags",
+      "FinancePros TV"
+    ]
+  }
+}
