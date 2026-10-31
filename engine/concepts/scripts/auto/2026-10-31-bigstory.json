@@ -1,0 +1,178 @@
+{
+ "id": "2026-10-31-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Obamacare 2027\nPrices Jump Again",
+ "cover": {
+  "title": "ACA Prices Jump",
+  "prop": "bill",
+  "label": "2027",
+  "value": "+13%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Obamacare prices are jumping again. Sign-ups start tomorrow.",
+   "say": "Obamacare prices are jumping again. Sign-ups start tomorrow.",
+   "scene": {
+    "t": "hook",
+    "title": "Up [Again]",
+    "prop": "bill",
+    "label": "2027",
+    "value": "+13%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Open enrollment for 2027 plans begins November 1 in most states.",
+   "say": "Open enrollment for twenty twenty-seven plans begins November first in most states.",
+   "scene": {
+    "t": "news",
+    "headline": "Sign-ups open Nov 1",
+    "source": "HealthCare.gov, 2027 plans",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "KFF says the benchmark silver plan is up 13% on average.",
+   "say": "KFF says the benchmark silver plan is up thirteen percent on average.",
+   "scene": {
+    "t": "stat",
+    "label": "Benchmark plan",
+    "value": "+13%",
+    "tone": "down",
+    "sub": "2027 avg, per KFF",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 11% in HealthCare.gov states, 16% where states run their own.",
+   "say": "That's eleven percent in HealthCare dot gov states, sixteen where states run their own.",
+   "scene": {
+    "t": "compare",
+    "title": "Where you live",
+    "left": {
+     "label": "HealthCare.gov",
+     "value": "+11%",
+     "tone": "down",
+     "sub": "federal site"
+    },
+    "right": {
+     "label": "State sites",
+     "value": "+16%",
+     "tone": "down",
+     "sub": "own exchange"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 40-year-old's average benchmark was $625 a month this year. Plus 13%? Our math: about $706.",
+   "say": "A forty-year-old's average benchmark was six hundred twenty-five dollars a month this year. Plus thirteen percent? Our math: about seven hundred six.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2026 average",
+     "value": "$625"
+    },
+    "to": {
+     "label": "2027, our math",
+     "value": "~$706"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subsidies follow that benchmark, so aid usually rises too. No subsidy? You pay it all.",
+   "say": "Subsidies follow that benchmark, so aid usually rises too. No subsidy? You pay it all.",
+   "scene": {
+    "t": "split",
+    "title": "Who pays",
+    "left": {
+     "title": "Subsidy",
+     "items": [
+      "Aid rises too",
+      "Cost may hold"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No subsidy",
+     "items": [
+      "Pays it all",
+      "Full increase"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Earn over 400% of the poverty line? Then there's no federal subsidy.",
+   "say": "Earn over four hundred percent of the poverty line? Then there's no federal subsidy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Over 400% of the",
+     "poverty line = $0"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal data show about 3 million fewer people had marketplace coverage this February than last.",
+   "say": "Federal data show about three million fewer people had marketplace coverage this February than last.",
+   "scene": {
+    "t": "stat",
+    "label": "Fewer covered",
+    "value": "~3M",
+    "tone": "down",
+    "sub": "Feb '26 vs Feb '25",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On HealthCare.gov, the deadline for January 1 coverage is December 15. Some state sites run later.",
+   "say": "On HealthCare dot gov, the deadline for January first coverage is December fifteenth. Some state sites run later.",
+   "scene": {
+    "t": "list",
+    "title": "HealthCare.gov",
+    "items": [
+     "Due Dec 15",
+     "Jan 1 coverage",
+     "States vary"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Obamacare benchmark plans rise 13% for 2027. Who pays?",
+  "ig": "Obamacare prices are jumping again, and sign-ups start Nov 1.\nKFF: 2027 benchmark silver premiums rise 13% on average (11% in HealthCare.gov states, 16% in state-run ones).\nA 40-year-old's average benchmark was $625/month in 2026; +13% is about $706 (our math).\nSubsidies rise with the benchmark; no subsidy means paying the full increase. On HealthCare.gov, the deadline for Jan 1 coverage is Dec 15; some state sites run later.\nSources: KFF, CMS, HealthCare.gov.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#obamacare #healthinsurance #openenrollment #personalfinance #financeprostv",
+  "tiktok": "ACA benchmark plans up 13% for 2027, per KFF. Sign-ups open Nov 1. Not financial advice. #moneytok #personalfinance #obamacare #financeprostv",
+  "yt_desc": "ACA open enrollment for 2027 starts November 1, and KFF says benchmark silver premiums rise 13% on average (11% in HealthCare.gov states, 16% in state-run marketplaces). Subsidies rise with the benchmark, but people without one pay the full increase; on HealthCare.gov the deadline for January 1 coverage is December 15, and some state sites run later. Sources: KFF, CMS, HealthCare.gov. News and education, not financial advice. #Shorts #obamacare #healthinsurance",
+  "tags": [
+   "obamacare 2027",
+   "aca open enrollment",
+   "health insurance premiums",
+   "aca subsidies",
+   "personal finance"
+  ]
+ }
+}
