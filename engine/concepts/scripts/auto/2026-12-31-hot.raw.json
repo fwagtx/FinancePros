@@ -1,0 +1,256 @@
+{
+ "series": "ticker",
+ "header": "Claiming at 62?\nThe 30% catch",
+ "cover": {
+  "title": "The Age 62 Myth",
+  "prop": "bill",
+  "label": "AT 62",
+  "value": "-30%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Claiming Social Security at 62 cuts your check 30% for life.",
+   "say": "Claiming Social Security at sixty-two cuts your check thirty percent for life.",
+   "scene": {
+    "t": "hook",
+    "title": "Claim early, [smaller] check",
+    "prop": "bill",
+    "label": "62",
+    "value": "-30%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The myth? Same check, just sooner. Here's the math.",
+   "say": "The myth? Same check, just sooner. Here's the math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "MYTH: same check,",
+     "just sooner"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Born in 1960 or later? Full retirement age is 67, and claiming at 62 pays just 70%.",
+   "say": "Born in nineteen sixty or later? Full retirement age is sixty-seven, and claiming at sixty-two pays just seventy percent.",
+   "scene": {
+    "t": "chart",
+    "title": "% of full benefit (SSA)",
+    "points": [
+     [
+      62,
+      70
+     ],
+     [
+      63,
+      75
+     ],
+     [
+      64,
+      80
+     ],
+     [
+      65,
+      86.7
+     ],
+     [
+      66,
+      93.3
+     ],
+     [
+      67,
+      100
+     ],
+     [
+      68,
+      108
+     ],
+     [
+      69,
+      116
+     ],
+     [
+      70,
+      124
+     ]
+    ],
+    "suffix": "%",
+    "end": "124%",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wait until 70, and 8% yearly credits push it to 124%.",
+   "say": "Wait until seventy, and eight percent yearly credits push it to one hundred twenty-four percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "% of full benefit (SSA)",
+    "points": [
+     [
+      62,
+      70
+     ],
+     [
+      63,
+      75
+     ],
+     [
+      64,
+      80
+     ],
+     [
+      65,
+      86.7
+     ],
+     [
+      66,
+      93.3
+     ],
+     [
+      67,
+      100
+     ],
+     [
+      68,
+      108
+     ],
+     [
+      69,
+      116
+     ],
+     [
+      70,
+      124
+     ]
+    ],
+    "suffix": "%",
+    "end": "124%",
+    "color": "up",
+    "chart_note": {
+     "x": 70,
+     "text": "+8% a year"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $2,000 at 67 is $1,400 at 62, or $2,480 at 70.",
+   "say": "Our math: two thousand dollars at sixty-seven is fourteen hundred at sixty-two, or twenty-four eighty at seventy.",
+   "scene": {
+    "t": "list",
+    "title": "Our math",
+    "items": [
+     "62: $1,400",
+     "67: $2,000",
+     "70: $2,480"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that 30% cut never resets at 67. It's permanent.",
+   "say": "And that thirty percent cut never resets at sixty-seven. It's permanent.",
+   "scene": {
+    "t": "stat",
+    "label": "Cut at 62",
+    "value": "-30%",
+    "tone": "down",
+    "sub": "permanent, per SSA",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Raises still apply: the 3.6% COLA for 2027 adds about $50 to $1,400, but $72 to $2,000.",
+   "say": "Raises still apply: the three point six percent COLA for twenty twenty-seven adds about fifty dollars to fourteen hundred, but seventy-two to two thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "2027 COLA: 3.6%",
+    "left": {
+     "label": "Claim at 62",
+     "value": "+$50",
+     "tone": "down",
+     "sub": "on $1,400"
+    },
+    "right": {
+     "label": "Claim at 67",
+     "value": "+$72",
+     "tone": "up",
+     "sub": "on $2,000"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Early means more checks. In our math, waiting to 67 pulls ahead around age 79.",
+   "say": "Early means more checks. In our math, waiting to sixty-seven pulls ahead around age seventy-nine.",
+   "scene": {
+    "t": "stat",
+    "label": "Break-even age",
+    "value": "~79",
+    "tone": "neutral",
+    "sub": "our math, 62 v 67",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So it's a trade: more checks, or bigger ones. Health and plans decide which wins.",
+   "say": "So it's a trade: more checks, or bigger ones. Health and plans decide which wins.",
+   "scene": {
+    "t": "split",
+    "title": "The trade-off",
+    "left": {
+     "title": "Claim early",
+     "items": [
+      "More checks",
+      "Smaller ones"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Claim later",
+     "items": [
+      "Fewer checks",
+      "Bigger ones"
+     ],
+     "tone": "up"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Claiming Social Security at 62 cuts your check 30% for life",
+  "ig": "Claiming Social Security at 62 cuts your check 30% for life.\nBorn 1960 or later? Full retirement age is 67. Claiming at 62 pays 70% of the full benefit; waiting to 70 pays 124% (SSA rules).\nOur math: a $2,000 check at 67 is $1,400 at 62 or $2,480 at 70.\nThe cut never resets, but COLAs still apply: the 2027 COLA is 3.6% (SSA, Oct 14, 2026).\nOur math: break-even for 62 vs 67 is around age 79.\nSources: Social Security Administration; CNBC (Oct 14, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#socialsecurity #retirement #moneymyths #personalfinance #financeprostv",
+  "tiktok": "Claiming Social Security at 62 = a 30% smaller check, for life. Not financial advice. #moneytok #personalfinance #socialsecurity #financeprostv",
+  "yt_desc": "Claiming Social Security at 62 doesn't just start the same check sooner: for anyone born in 1960 or later it pays 70% of the full benefit, permanently, while waiting to 70 pays 124% (SSA rules). Our math: $2,000 at 67 becomes $1,400 at 62 or $2,480 at 70, and the 2027 COLA of 3.6% (SSA, announced Oct 14, 2026) still applies to the smaller check. Sources: Social Security Administration, CNBC. News and education, not financial advice.\n#Shorts #socialsecurity #retirement",
+  "tags": [
+   "social security",
+   "claiming at 62",
+   "full retirement age",
+   "social security myths",
+   "2027 COLA"
+  ]
+ }
+}
