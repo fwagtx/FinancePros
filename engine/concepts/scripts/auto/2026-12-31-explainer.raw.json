@@ -1,0 +1,214 @@
+{
+  "series": "ticker",
+  "header": "FHA vs conventional\nthe real trade-off",
+  "cover": {
+    "title": "The Forever Fee",
+    "prop": "house",
+    "label": "MIP",
+    "value": "$155"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Under 10% down on FHA? This fee never cancels.",
+      "say": "Under ten percent down on F H A? This fee never cancels.",
+      "scene": {
+        "t": "hook",
+        "title": "The [forever] fee",
+        "prop": "house",
+        "label": "MIP",
+        "value": "<10%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "FHA needs 3.5% down with a 580 score; conventional, 3%.",
+      "say": "F H A needs three and a half percent down with a five-eighty score; conventional, three.",
+      "scene": {
+        "t": "compare",
+        "title": "Minimum down",
+        "left": {
+          "label": "FHA",
+          "value": "3.5%",
+          "tone": "neutral",
+          "sub": "580+ score"
+        },
+        "right": {
+          "label": "Conventional",
+          "value": "3%",
+          "tone": "neutral",
+          "sub": "Fannie/Freddie"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But FHA adds 1.75% upfront, then about 0.55% yearly on most loans.",
+      "say": "But F H A adds one point seven five percent upfront, then about half a percent yearly.",
+      "scene": {
+        "t": "stat",
+        "label": "FHA upfront fee",
+        "value": "1.75%",
+        "tone": "down",
+        "sub": "HUD, 2026 rules",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: a $350,000 home means a loan of $337,750.",
+      "say": "Our math: a three-fifty thousand dollar home means a loan of about three thirty-eight thousand.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$350K, 3.5% down",
+          "= $337,750 loan"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's about $5,911 upfront, plus about $155 a month.",
+      "say": "That's about fifty-nine hundred upfront, plus about one fifty-five a month.",
+      "scene": {
+        "t": "stat",
+        "label": "Year-1 MIP/month",
+        "value": "$155",
+        "tone": "down",
+        "sub": "+$5,911 upfront",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Under 10% down, it lasts the whole loan. Conventional PMI must end at 22% equity.",
+      "say": "Under ten percent down, it lasts the whole loan. Conventional P M I must end at twenty-two percent equity.",
+      "scene": {
+        "t": "split",
+        "title": "How it ends",
+        "left": {
+          "title": "FHA MIP",
+          "items": [
+            "Life of loan",
+            "Refi to exit"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Conv. PMI",
+          "items": [
+            "Ask at 20%",
+            "Auto at 22%"
+          ],
+          "tone": "up"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Fannie Mae says PMI runs 0.2% to 2% yearly.",
+      "say": "Fannie Mae says P M I runs zero point two to two percent yearly.",
+      "scene": {
+        "t": "stat",
+        "label": "PMI per year",
+        "value": "0.2-2%",
+        "tone": "neutral",
+        "sub": "Fannie Mae",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Conventional limits nearly doubled from 2017 to 2026.",
+      "say": "Conventional limits nearly doubled from twenty seventeen to twenty twenty-six.",
+      "scene": {
+        "t": "chart",
+        "title": "Conforming limit, FHFA",
+        "points": [
+          [
+            2017,
+            424100
+          ],
+          [
+            2018,
+            453100
+          ],
+          [
+            2019,
+            484350
+          ],
+          [
+            2020,
+            510400
+          ],
+          [
+            2021,
+            548250
+          ],
+          [
+            2022,
+            647200
+          ],
+          [
+            2023,
+            726200
+          ],
+          [
+            2024,
+            766550
+          ],
+          [
+            2025,
+            806500
+          ],
+          [
+            2026,
+            832750
+          ]
+        ],
+        "prefix": "$",
+        "end": "$832,750",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The trade-off: FHA is easier to get into, conventional easier to get out of.",
+      "say": "The trade-off: F H A is easier to get into, conventional easier to get out of.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "FHA: easier in",
+          "Conv: easier out"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "FHA vs conventional: the fee that never cancels",
+    "ig": "Put under 10% down on an FHA loan and the mortgage insurance never cancels on its own.\nFHA: 3.5% down with a 580+ score, 1.75% upfront premium, about 0.55% a year on most loans (HUD rules, 2026).\nOur math: $350,000 home, 3.5% down = $337,750 loan, $5,911 upfront and about $155 a month in year one.\nConventional: 3% down possible; PMI runs 0.2% to 2% a year (Fannie Mae) and must end at 22% equity by law.\nSources: HUD, FHFA, Fannie Mae, CFPB.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#fhaloan #mortgage #firsttimehomebuyer #personalfinance #financeprostv",
+    "tiktok": "FHA vs conventional: the fee that never cancels. Not financial advice. #moneytok #personalfinance #fhaloan #mortgage #financeprostv",
+    "yt_desc": "FHA loans allow 3.5% down with a 580 score, but with under 10% down the mortgage insurance lasts the life of the loan (HUD rules as of 2026). Our math on a $350,000 home: $5,911 upfront and about $155 a month in year one, while conventional PMI (0.2% to 2% a year per Fannie Mae) must end at 22% equity under the Homeowners Protection Act. Sources: HUD, FHFA, Fannie Mae, CFPB. News and education, not financial advice. #Shorts #mortgage #fhaloan",
+    "tags": [
+      "fha loan",
+      "conventional loan",
+      "mortgage insurance",
+      "pmi",
+      "first time home buyer"
+    ]
+  }
+}
