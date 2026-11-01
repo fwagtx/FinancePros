@@ -1,0 +1,223 @@
+{
+ "id": "2026-11-01-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Korea's exports\nnearly doubled",
+ "cover": {
+  "title": "Korea's AI Boom",
+  "prop": "box",
+  "label": "KOREA",
+  "value": "+93.7%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "South Korea's exports nearly doubled in one year. Blame AI.",
+   "say": "South Korea's exports nearly doubled in one year. Blame AI.",
+   "scene": {
+    "t": "hook",
+    "title": "Korea's exports nearly [doubled]",
+    "prop": "box",
+    "label": "KOREA",
+    "value": "+93.7%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The numbers came out today: $115.3 billion, a record for any October.",
+   "say": "The numbers came out today: about one hundred fifteen billion dollars, a record for any October.",
+   "scene": {
+    "t": "stat",
+    "label": "Korea Oct exports",
+    "value": "$115.3B",
+    "tone": "up",
+    "sub": "Trade Ministry",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A year earlier, October brought in about $60 billion, and it had barely budged in years.",
+   "say": "A year earlier, October brought in about sixty billion, and it had barely budged in years.",
+   "scene": {
+    "t": "chart",
+    "title": "Korea's October exports",
+    "points": [
+     [
+      2023,
+      55.1
+     ],
+     [
+      2024,
+      57.5
+     ],
+     [
+      2025,
+      59.6
+     ],
+     [
+      2026,
+      115.3
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$115.3B",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The difference is chips: $56.4 billion, nearly half of everything Korea sold.",
+   "say": "The difference is chips: about fifty-six billion dollars, nearly half of everything Korea sold.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Korea's October exports",
+    "points": [
+     [
+      2023,
+      55.1
+     ],
+     [
+      2024,
+      57.5
+     ],
+     [
+      2025,
+      59.6
+     ],
+     [
+      2026,
+      115.3
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$115.3B",
+    "color": "up",
+    "mood": "shock",
+    "note": {
+     "x": 2026,
+     "text": "chips: $56.4B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sales to the US nearly tripled to $24.9 billion, and China bought $27 billion.",
+   "say": "Sales to the US nearly tripled to about twenty-five billion, and China bought about twenty-seven billion.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "US: $24.9B"
+     },
+     {
+      "name": "china",
+      "mood": "happy",
+      "says": "China: $27.0B"
+     }
+    ],
+    "caption": "Who's buying"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trade ministry credits big tech's spending on AI data centers, which eat memory chips.",
+   "say": "The trade ministry credits big tech's spending on AI data centers, which eat memory chips.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AI data centers",
+     "eat memory chips"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One catch: a big holiday moved out of October this year, so there were more workdays.",
+   "say": "One catch: a big holiday moved out of October this year, so there were more workdays.",
+   "scene": {
+    "t": "compare",
+    "title": "October growth",
+    "left": {
+     "label": "Headline",
+     "value": "+93.7%",
+     "tone": "up",
+     "sub": "total"
+    },
+    "right": {
+     "label": "Per day",
+     "value": "+76%",
+     "tone": "up",
+     "sub": "per workday"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Per workday, exports rose 76%. Still huge, just less than the headline.",
+   "say": "Per workday, exports rose about seventy-six percent. Still huge, just less than the headline.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "October growth",
+    "left": {
+     "label": "Headline",
+     "value": "+93.7%",
+     "tone": "up",
+     "sub": "total"
+    },
+    "right": {
+     "label": "Per day",
+     "value": "+76%",
+     "tone": "up",
+     "sub": "per workday"
+    },
+    "winner": "right",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Takeaway: AI spending is now showing up as real money, not just stock prices.",
+   "say": "The takeaway: AI spending is now showing up as real money, not just stock prices.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AI spending =",
+     "real trade money"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why South Korea's Exports Nearly Doubled in October",
+  "ig": "South Korea's exports just jumped 93.7%. Blame AI.\nOctober exports hit $115.3 billion, a record for October, released Nov 1.\nChips alone were $56.4 billion, up 259%, nearly half the total.\nShipments to the US rose 185.8% to $24.9 billion.\nA holiday shift helped: per workday, exports rose 76%.\nSources: Korea Ministry of Trade, Industry and Resources; Korea Times; Seoul Economic Daily.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#economy #ai #semiconductors #trade #financeprostv",
+  "tiktok": "Korea's exports jumped 93.7% on AI chips. Not financial advice. #moneytok #personalfinance #ai #economy #financeprostv",
+  "yt_desc": "South Korea's October exports jumped 93.7% to $115.3 billion, a record for October, with chips at $56.4 billion, nearly half the total, according to Korea's trade ministry (Nov 1, 2026). Shipments to the US rose 185.8% to $24.9 billion, and per workday exports rose 76% after a holiday moved into September. News and education, not financial advice. #Shorts #economy #ai",
+  "tags": [
+   "south korea exports",
+   "ai chips",
+   "semiconductors",
+   "economy news",
+   "ai boom"
+  ]
+ }
+}
