@@ -1,50 +1,180 @@
 {
-  "series": "ticker",
-  "header": "How golf courses\nmake money",
-  "cover": {"title": "Not From Golf", "prop": "bag", "label": "GOLF", "value": "13.5%"},
-  "lines": [
-    {"who": "ticker",
-     "text": "Private clubs make just 13.5% from golf.",
-     "say": "Private clubs make just thirteen point five percent from golf.",
-     "scene": {"t": "hook", "title": "Barely [golf] money", "prop": "bag", "label": "GOLF", "value": "13.5%", "mood": "shock"}},
-    {"who": "ticker",
-     "text": "In 2022 data from the club managers' association, member dues brought in 49.5%.",
-     "say": "In twenty twenty-two data from the club managers' association, member dues brought in forty-nine point five percent.",
-     "scene": {"t": "list", "title": "Club revenue, 2022", "items": ["Dues 49.5%", "Food 24.7%", "Golf 13.5%"], "reveal": 1, "mood": "think"}},
-    {"who": "ticker",
-     "text": "Food, drinks and parties added another 24.7%.",
-     "say": "Food, drinks and parties added another twenty-four point seven percent.",
-     "scene": {"t": "list", "keep": true, "title": "Club revenue, 2022", "items": ["Dues 49.5%", "Food 24.7%", "Golf 13.5%"], "reveal": 2}},
-    {"who": "ticker",
-     "text": "Golf and the pro shop? Just 13.5%. Dues get paid, rain or shine.",
-     "say": "Golf and the pro shop? Just thirteen point five percent. Dues get paid, rain or shine.",
-     "scene": {"t": "list", "keep": true, "title": "Club revenue, 2022", "items": ["Dues 49.5%", "Food 24.7%", "Golf 13.5%"], "reveal": 3, "mood": "up"}},
-    {"who": "ticker",
-     "text": "Public courses run on volume. Americans played a record 545 million rounds in 2024, says the National Golf Foundation.",
-     "say": "Public courses run on volume. Americans played a record five hundred forty-five million rounds in twenty twenty-four, says the National Golf Foundation.",
-     "scene": {"t": "chart", "title": "US rounds played", "points": [[2020, 502], [2021, 529], [2022, 510], [2023, 531], [2024, 545]], "suffix": "M", "end": "545M", "color": "up"}},
-    {"who": "ticker",
-     "text": "Take San Diego's city courses: $41.4 million in fiscal 2025, from 427,508 rounds.",
-     "say": "Take San Diego's city courses: forty-one point four million dollars in fiscal twenty twenty-five, from about four hundred twenty-eight thousand rounds.",
-     "scene": {"t": "stat", "label": "San Diego FY2025", "value": "$41.4M", "tone": "up", "sub": "427,508 rounds"}},
-    {"who": "ticker",
-     "text": "Our math: $41.4M / 427,508 = $96.84 a round, counting greens fees, carts, the range, the shop and food.",
-     "say": "Our math: that's about ninety-seven dollars a round, counting greens fees, carts, the range, the shop and food.",
-     "scene": {"t": "board", "lines": ["$41.4M / 427,508", "= $96.84 a round"], "mood": "think"}},
-    {"who": "ticker",
-     "text": "So private clubs sell membership first, and public courses sell tee times by the thousand.",
-     "say": "So private clubs sell membership first, and public courses sell tee times by the thousand.",
-     "scene": {"t": "split", "title": "Who pays", "left": {"title": "Private club", "items": ["Dues", "Food, parties"], "tone": "up"}, "right": {"title": "Public course", "items": ["Tee times", "Carts, food"], "tone": "neutral"}, "mood": "happy"}},
-    {"who": "ticker",
-     "text": "That's the money. Follow for more.",
-     "say": "That's the money. Follow for more.",
-     "scene": {"t": "cta"}}
-  ],
-  "post": {
-    "title": "Private clubs make just 13.5% from golf. So what pays?",
-    "ig": "Private clubs make just 13.5% of their revenue from golf.\nIn 2022 club data from the Club Management Association of America (CMAA): dues 49.5%, food, drinks and events 24.7%, golf operations and pro shop 13.5%.\nPublic courses run on volume: Americans played a record 545 million rounds in 2024 (National Golf Foundation).\nSan Diego's city courses took in $41.4M in fiscal 2025 from 427,508 rounds. Our math: about $96.84 a round, all-in.\nSources: CMAA Board Brief (Jan/Feb 2023), National Golf Foundation, City of San Diego Golf Division (2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#golf #countryclub #howtheymakemoney #business #financeprostv",
-    "tiktok": "Private clubs make just 13.5% from golf (CMAA, 2022). Dues: 49.5%. Not financial advice. #moneytok #personalfinance #golf #business #financeprostv",
-    "yt_desc": "In 2022 data from the Club Management Association of America, private clubs got 49.5% of operating revenue from dues, 24.7% from food, drinks and events, and just 13.5% from golf operations and the pro shop. Americans played a record 545 million rounds in 2024 (National Golf Foundation), and San Diego's city courses took in $41.4 million in fiscal 2025 from 427,508 rounds; by our math, about $96.84 a round. News and education, not financial advice. #Shorts #golf #business",
-    "tags": ["how golf courses make money", "country club", "golf business", "how they make money", "golf rounds played"]
+ "series": "ticker",
+ "header": "How golf courses\nmake money",
+ "cover": {
+  "title": "Dues Beat Golf",
+  "prop": "bag",
+  "label": "FEES",
+  "value": "13.5%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Golf fees bring private clubs just 13.5% of revenue.",
+   "say": "Golf fees bring private clubs just thirteen point five percent of revenue.",
+   "scene": {
+    "t": "hook",
+    "title": "Golf fees? [Tiny]",
+    "prop": "bag",
+    "label": "FEES",
+    "value": "13.5%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the club managers' association's 2022 report on hundreds of clubs, member dues brought in 49.5%.",
+   "say": "In the club managers' association's twenty twenty-two report on hundreds of clubs, member dues brought in forty-nine point five percent.",
+   "scene": {
+    "t": "list",
+    "title": "CMAA 2022 report",
+    "items": [
+     "Dues 49.5%",
+     "Food 24.7%",
+     "Golf 13.5%"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Food, drinks and parties added another 24.7%.",
+   "say": "Food, drinks and parties added another twenty-four point seven percent.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "CMAA 2022 report",
+    "items": [
+     "Dues 49.5%",
+     "Food 24.7%",
+     "Golf 13.5%"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Golf and the pro shop? Just 13.5%. Dues get paid, rain or shine.",
+   "say": "Golf and the pro shop? Just thirteen point five percent. Dues get paid, rain or shine.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "CMAA 2022 report",
+    "items": [
+     "Dues 49.5%",
+     "Food 24.7%",
+     "Golf 13.5%"
+    ],
+    "reveal": 3,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Public courses run on volume: Americans played a record 545 million rounds in 2024, and even more in 2025.",
+   "say": "Public courses run on volume: Americans played a record five hundred forty-five million rounds in twenty twenty-four, and even more in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "US rounds played",
+    "points": [
+     [
+      2020,
+      502
+     ],
+     [
+      2021,
+      529
+     ],
+     [
+      2022,
+      510
+     ],
+     [
+      2023,
+      531
+     ],
+     [
+      2024,
+      545
+     ]
+    ],
+    "suffix": "M",
+    "end": "545M",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take San Diego's city courses: over $41 million in fiscal 2025, from about 428,000 rounds.",
+   "say": "Take San Diego's city courses: over forty-one million dollars in fiscal twenty twenty-five, from about four hundred twenty-eight thousand rounds.",
+   "scene": {
+    "t": "stat",
+    "label": "San Diego FY2025",
+    "value": "$41M+",
+    "tone": "up",
+    "sub": "~428,000 rounds"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $97 to $99 a round, counting greens fees, carts, the range, the shop and food.",
+   "say": "Our math: ninety-seven to ninety-nine dollars a round, counting greens fees, carts, the range, the shop and food.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$41-42M / 427,508",
+     "= $97-$99 a round"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Private clubs sell membership first, and public courses sell tee times by the thousand.",
+   "say": "Private clubs sell membership first, and public courses sell tee times by the thousand.",
+   "scene": {
+    "t": "split",
+    "title": "Who pays",
+    "left": {
+     "title": "Private club",
+     "items": [
+      "Dues",
+      "Food, parties"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Public course",
+     "items": [
+      "Tee times",
+      "Carts, food"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
   }
+ ],
+ "post": {
+  "title": "Golf fees bring private clubs just 13.5%. So what pays?",
+  "ig": "Golf operations and the pro shop bring private clubs just 13.5% of operating revenue.\nIn the Club Management Association of America's 2022 Finance & Operations Report (about 440 clubs): dues 49.5%, food, drinks and events 24.7%, golf operations and pro shop 13.5%.\nPublic courses run on volume: Americans played a record 545 million rounds in 2024, and a new record in 2025 (National Golf Foundation).\nSan Diego's city courses took in over $41 million in fiscal 2025 (later city figures: about $42.3M) from 427,508 rounds. Our math: about $97-$99 a round, all-in.\nSources: CMAA Board Brief (Jan/Feb 2023), National Golf Foundation, City of San Diego Golf Division (2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#golf #countryclub #howtheymakemoney #business #financeprostv",
+  "tiktok": "Golf fees bring private clubs just 13.5% (CMAA 2022). Not financial advice. #moneytok #personalfinance #golf #business #financeprostv",
+  "yt_desc": "In the Club Management Association of America's 2022 report (about 440 clubs), private clubs got 49.5% of operating revenue from dues, 24.7% from food, drinks and events, and just 13.5% from golf operations and the pro shop. Americans played a record 545 million rounds in 2024 and set a new record in 2025 (National Golf Foundation), and San Diego's city courses took in over $41 million in fiscal 2025 from 427,508 rounds; by our math, about $97 to $99 a round. News and education, not financial advice. #Shorts #golf #business",
+  "tags": [
+   "how golf courses make money",
+   "country club",
+   "golf business",
+   "how they make money",
+   "golf rounds played"
+  ]
+ }
 }
