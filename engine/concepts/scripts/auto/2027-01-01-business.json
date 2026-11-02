@@ -1,0 +1,204 @@
+{
+ "id": "2027-01-01-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How SoFi became\na bank",
+ "cover": {
+  "title": "A $22.3M Bank",
+  "prop": "store",
+  "label": "BANK",
+  "value": "$22.3M"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "SoFi bought a whole bank for $22.3 million.",
+   "say": "SoFi bought a whole bank for twenty-two point three million dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "SoFi bought a [bank]",
+    "prop": "store",
+    "label": "BANK",
+    "value": "$22.3M",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It started at Stanford in 2011, with alumni-funded student loans.",
+   "say": "It started at Stanford in twenty eleven, with alumni-funded student loans.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2011",
+      "Student loans"
+     ],
+     [
+      "2021",
+      "Bank deal signed"
+     ],
+     [
+      "2022",
+      "Becomes a bank"
+     ]
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Signed in 2021, closed February 2022. Then SoFi committed $750 million in capital.",
+   "say": "Signed in twenty twenty-one, closed February twenty twenty-two. Then SoFi committed seven hundred fifty million in capital.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "2011",
+      "Student loans"
+     ],
+     [
+      "2021",
+      "Bank deal signed"
+     ],
+     [
+      "2022",
+      "Becomes a bank"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? Banks take deposits, and deposits are cheaper money to lend.",
+   "say": "Why? Banks take deposits, and deposits are cheaper money to lend.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "SOFI BANK",
+    "label": "Deposits",
+    "caption": "Cheaper money",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Year-end deposits went from $7.3 billion in 2022 to $37.5 billion in 2025.",
+   "say": "Year-end deposits went from seven point three billion dollars in twenty twenty-two to thirty-seven point five billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "SoFi deposits",
+    "points": [
+     [
+      2022,
+      7.3
+     ],
+     [
+      2023,
+      18.6
+     ],
+     [
+      2024,
+      26.0
+     ],
+     [
+      2025,
+      37.5
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$37.5B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By September 30, 2026, they hit $51.3 billion.",
+   "say": "By September thirtieth, twenty twenty-six, they hit fifty-one point three billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Deposits 9/30/26",
+    "value": "$51.3B",
+    "tone": "up",
+    "sub": "SoFi Q3 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Q3 2026, deposits cost 1.45 points less than warehouse loans.",
+   "say": "In the third quarter of twenty twenty-six, deposits cost one point four five points less than warehouse loans.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deposit rates:",
+     "1.45 pts lower"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: that's $145 a year saved on every $10,000 lent.",
+   "say": "Our math: that's a hundred forty-five dollars a year saved on every ten thousand dollars lent.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Lent",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "Saved a year",
+     "value": "$145"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That quarter, net interest income was about $930 million, and fees about $571 million.",
+   "say": "That quarter, net interest income was about nine hundred thirty million, and fees about five hundred seventy-one million.",
+   "scene": {
+    "t": "compare",
+    "title": "Q3 2026 revenue",
+    "left": {
+     "label": "Interest",
+     "value": "$930M",
+     "tone": "up",
+     "sub": "net interest"
+    },
+    "right": {
+     "label": "Fees",
+     "value": "$571M",
+     "tone": "neutral",
+     "sub": "fee-based"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "SoFi bought a whole bank for $22.3 million. Here's why",
+  "ig": "SoFi bought a whole bank for $22.3 million.\nIt started at Stanford in 2011 with alumni-funded student loans. In February 2022 it closed its deal for Golden Pacific Bancorp, which became SoFi Bank.\nYear-end deposits grew from $7.3 billion (2022) to $37.5 billion (2025), and hit $51.3 billion on September 30, 2026.\nIn Q3 2026, deposits cost 1.45 points less than warehouse funding. Our math: $145 a year saved per $10,000 lent. Net interest income was $929.5 million that quarter.\nSources: SoFi 10-K filings (2022, 2024), SoFi Q4 2025 and Q3 2026 earnings releases.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#sofi #banking #howtheymakemoney #fintech #financeprostv",
+  "tiktok": "SoFi bought a whole bank for $22.3M. Here's why. Not financial advice. #moneytok #personalfinance #sofi #fintech #financeprostv",
+  "yt_desc": "SoFi started at Stanford in 2011 with alumni-funded student loans, then became a national bank in February 2022 by buying Golden Pacific Bancorp for about $22.3 million (SoFi FY2022 10-K). Its year-end deposits grew from $7.3 billion in 2022 to $37.5 billion in 2025 and reached $51.3 billion on September 30, 2026, and in Q3 2026 deposits cost 1.45 points less than warehouse funding (SoFi Q3 2026 earnings release). News and education, not financial advice. #Shorts #sofi #banking",
+  "tags": [
+   "how sofi makes money",
+   "sofi bank",
+   "sofi deposits",
+   "how they make money",
+   "fintech bank charter"
+  ]
+ }
+}
