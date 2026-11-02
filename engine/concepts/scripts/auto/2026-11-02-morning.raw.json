@@ -1,41 +1,184 @@
 {
-  "series": "ticker",
-  "header": "Morning Money\nGas vs. a year ago",
-  "cover": {"title": "Gas Is Up $1.13", "prop": "tag", "label": "GAS", "value": "+$1.13"},
-  "lines": [
-    {"who": "ticker", "text": "Gas costs $1.13 a gallon more than a year ago.",
-     "say": "Gas costs a dollar thirteen a gallon more than a year ago.",
-     "scene": {"t": "hook", "title": "Gas is up [$1.13]", "prop": "tag", "label": "GAS", "value": "+$1.13", "mood": "shock"}},
-    {"who": "ticker", "text": "AAA's national average was $3.04 this time last year. This morning it's $4.17.",
-     "say": "AAA's national average was three dollars and four cents this time last year. This morning, it's four seventeen.",
-     "scene": {"t": "compare", "title": "Regular gas, per gallon", "left": {"label": "Nov 2025", "value": "$3.04", "tone": "neutral", "sub": "AAA"}, "right": {"label": "Today", "value": "$4.17", "tone": "down", "sub": "AAA, Nov 2"}, "mood": "worried"}},
-    {"who": "ticker", "text": "Government data say October averaged $4.31, the highest October since at least 1990.",
-     "say": "Government data say October averaged four thirty-one, the highest October since at least 1990.",
-     "scene": {"t": "chart", "title": "October gas price (EIA)", "points": [[2019, 2.627], [2020, 2.158], [2021, 3.291], [2022, 3.815], [2023, 3.613], [2024, 3.137], [2025, 3.06], [2026, 4.31]], "prefix": "$", "end": "$4.31", "color": "down", "mood": "shock"}},
-    {"who": "ticker", "text": "Even 2022, the year everyone complained about gas, was $3.82 in October.",
-     "say": "Even 2022, the year everyone complained about gas, was three eighty-two in October.",
-     "scene": {"t": "chart", "keep": true, "title": "October gas price (EIA)", "chart_note": {"x": 2022, "text": "$3.82 in 2022"}, "mood": "think"}},
-    {"who": "ticker", "text": "AAA says the culprit is crude oil, still above $100 a barrel.",
-     "say": "AAA says the culprit is crude oil, which is still above a hundred dollars a barrel.",
-     "scene": {"t": "stat", "label": "Crude oil (AAA)", "value": ">$100", "tone": "down", "sub": "a barrel, Oct 29", "mood": "worried"}},
-    {"who": "ticker", "text": "Overnight, oil futures slipped on hopes for Iran talks mediated by Qatar.",
-     "say": "Overnight, oil futures slipped on hopes for Iran talks mediated by Qatar.",
-     "scene": {"t": "news", "headline": "Oil slips on talks", "source": "Newsquawk, Nov 2", "mood": "think"}},
-    {"who": "ticker", "text": "Diesel hurts more: $6.29, up from $3.68. That's the fuel trucks use to move your groceries.",
-     "say": "Diesel hurts more: six twenty-nine, up from three sixty-eight. That's the fuel trucks use to move your groceries.",
-     "scene": {"t": "money", "from": {"label": "Diesel, 2025", "value": "$3.68"}, "to": {"label": "Diesel, today", "value": "$6.29"}, "mood": "angry"}},
-    {"who": "ticker", "text": "Our math: a 15-gallon fill-up costs $17 more than last year, even after a 23-cent drop this month.",
-     "say": "Our math: a fifteen gallon fill-up costs seventeen dollars more than last year, even after a twenty-three cent drop this month.",
-     "scene": {"t": "board", "lines": ["15 gal x $1.13", "= $17 more"], "mood": "think"}},
-    {"who": "ticker", "text": "That's the money. Follow for more.",
-     "say": "That's the money. Follow for more.",
-     "scene": {"t": "cta"}}
-  ],
-  "post": {
-    "title": "Gas costs $1.13 more a gallon than a year ago",
-    "ig": "A gallon of gas costs $1.13 more than a year ago.\nAAA national average: $4.17 today (Nov 2) vs $3.04 a year ago, even after falling about 23 cents in a month.\nOctober averaged $4.31 (EIA), the highest October since at least 1990. October 2022 was $3.82.\nDiesel: $6.29 vs $3.68 a year ago. AAA says crude above $100 a barrel is the culprit.\nOur math: a 15-gallon fill-up costs $17 more than last year.\nSources: AAA (Nov 2, 2026); U.S. Energy Information Administration; Newsquawk (Nov 2).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gasprices #oil #inflation #personalfinance #financeprostv",
-    "tiktok": "Gas is $1.13 a gallon pricier than a year ago (AAA). Not financial advice. #moneytok #personalfinance #gasprices #oil #financeprostv",
-    "yt_desc": "AAA's national average for regular gas is $4.17 (Nov 2, 2026), up $1.13 from $3.04 a year ago, and EIA data show October averaged $4.31, the highest October since at least 1990. Diesel is $6.29 versus $3.68 a year ago, and AAA says crude oil above $100 a barrel is keeping pump prices high. Sources: AAA, U.S. Energy Information Administration, Newsquawk. News and education, not financial advice.\n#Shorts #gasprices #personalfinance",
-    "tags": ["gas prices", "AAA national average", "diesel prices", "oil prices", "inflation"]
+ "series": "ticker",
+ "header": "Morning Money\nGas vs. a year ago",
+ "cover": {
+  "title": "Gas Is Up $1.13",
+  "prop": "tag",
+  "label": "GAS",
+  "value": "+$1.13"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Gas costs $1.13 a gallon more than a year ago.",
+   "say": "Gas costs a dollar thirteen a gallon more than a year ago.",
+   "scene": {
+    "t": "hook",
+    "title": "Gas is up [$1.13]",
+    "prop": "tag",
+    "label": "GAS",
+    "value": "+$1.13",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AAA's national average was $3.04 this time last year. This morning it's $4.17.",
+   "say": "AAA's national average was three dollars and four cents this time last year. This morning, it's four seventeen.",
+   "scene": {
+    "t": "compare",
+    "title": "Regular gas, per gallon",
+    "left": {
+     "label": "Nov 2025",
+     "value": "$3.04",
+     "tone": "neutral",
+     "sub": "AAA"
+    },
+    "right": {
+     "label": "Today",
+     "value": "$4.17",
+     "tone": "down",
+     "sub": "AAA, Nov 2"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Government data say October averaged $4.31, the highest October since at least 1990.",
+   "say": "Government data say October averaged four thirty-one, the highest October since at least 1990.",
+   "scene": {
+    "t": "chart",
+    "title": "October gas price (EIA)",
+    "points": [
+     [
+      2019,
+      2.627
+     ],
+     [
+      2020,
+      2.158
+     ],
+     [
+      2021,
+      3.291
+     ],
+     [
+      2022,
+      3.815
+     ],
+     [
+      2023,
+      3.613
+     ],
+     [
+      2024,
+      3.137
+     ],
+     [
+      2025,
+      3.06
+     ],
+     [
+      2026,
+      4.31
+     ]
+    ],
+    "prefix": "$",
+    "end": "$4.31",
+    "color": "down",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Even 2022, the year everyone complained about gas, was $3.82 in October.",
+   "say": "Even 2022, the year everyone complained about gas, was three eighty-two in October.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "October gas price (EIA)",
+    "chart_note": {
+     "x": 2022,
+     "text": "$3.82 in 2022"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last week, AAA blamed crude oil, which was above $100 a barrel.",
+   "say": "Last week, AAA blamed crude oil, which was above a hundred dollars a barrel.",
+   "scene": {
+    "t": "stat",
+    "label": "Crude oil (AAA)",
+    "value": ">$100",
+    "tone": "down",
+    "sub": "a barrel, Oct 29",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Overnight, oil futures slipped on hopes for Iran talks mediated by Qatar.",
+   "say": "Overnight, oil futures slipped on hopes for Iran talks mediated by Qatar.",
+   "scene": {
+    "t": "news",
+    "headline": "Oil slips on talks",
+    "source": "Reuters, Nov 2",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Diesel hurts more: $6.29, up from $3.68. That's the fuel trucks use to move your groceries.",
+   "say": "Diesel hurts more: six twenty-nine, up from three sixty-eight. That's the fuel trucks use to move your groceries.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Diesel, Nov 2025",
+     "value": "$3.68"
+    },
+    "to": {
+     "label": "Diesel, today",
+     "value": "$6.29"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: a 15-gallon fill-up costs $17 more than last year, even after a 23-cent drop over the past month.",
+   "say": "Our math: a fifteen gallon fill-up costs seventeen dollars more than last year, even after a twenty-three cent drop over the past month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "15 gal x $1.13",
+     "= $17 more"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
   }
+ ],
+ "post": {
+  "title": "Gas costs $1.13 more a gallon than a year ago",
+  "ig": "A gallon of gas costs $1.13 more than a year ago.\nAAA national average: $4.17 today (Nov 2) vs $3.04 a year ago, even after falling about 23 cents in a month.\nOctober averaged $4.31 (EIA), the highest October since at least 1990. October 2022 was $3.82.\nDiesel: $6.29 vs $3.68 a year ago. AAA says crude above $100 a barrel is the culprit.\nOur math: a 15-gallon fill-up costs $17 more than last year.\nSources: AAA (Nov 2, 2026); U.S. Energy Information Administration; Reuters (Nov 2).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gasprices #oil #inflation #personalfinance #financeprostv",
+  "tiktok": "Gas is $1.13 a gallon pricier than a year ago (AAA). Not financial advice. #moneytok #personalfinance #gasprices #oil #financeprostv",
+  "yt_desc": "AAA's national average for regular gas is $4.17 (Nov 2, 2026), up $1.13 from $3.04 a year ago, and EIA data show October averaged $4.31, the highest October since at least 1990. Diesel is $6.29 versus $3.68 a year ago, and AAA says crude oil above $100 a barrel is keeping pump prices high. Sources: AAA, U.S. Energy Information Administration, Reuters. News and education, not financial advice.\n#Shorts #gasprices #personalfinance",
+  "tags": [
+   "gas prices",
+   "AAA national average",
+   "diesel prices",
+   "oil prices",
+   "inflation"
+  ]
+ }
 }
