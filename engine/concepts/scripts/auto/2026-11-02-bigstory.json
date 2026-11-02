@@ -1,0 +1,222 @@
+{
+ "id": "2026-11-02-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Factories just\nsped up",
+ "cover": {
+  "title": "Factories Surge",
+  "prop": "chart-up",
+  "label": "ISM",
+  "value": "2021"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "US factory output just hit its fastest pace since 2021.",
+   "say": "US factory output just hit its fastest pace since twenty twenty-one.",
+   "scene": {
+    "t": "hook",
+    "title": "Fastest output since [2021]",
+    "prop": "chart-up",
+    "label": "ISM",
+    "value": "2021",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the same report has a catch. Quick scoring: above 50 is growth, below 50 is shrinking.",
+   "say": "But the same report has a catch. Quick scoring: above fifty is growth, below fifty is shrinking.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Above 50 = growth",
+     "Below 50 = shrink"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Today's ISM report: factory output scored 59, the highest since November 2021.",
+   "say": "Today's I S M report: factory output scored fifty-nine, the highest since November twenty twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Factory output",
+    "value": "59",
+    "tone": "up",
+    "sub": "since Nov 2021",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The overall index hit 55.5, beating forecasts: 10 straight months of growth, after 10 of shrinking.",
+   "say": "The overall index hit fifty-five point five, beating forecasts: ten straight months of growth, after ten of shrinking.",
+   "scene": {
+    "t": "chart",
+    "title": "ISM index each October",
+    "points": [
+     [
+      2019,
+      48.3
+     ],
+     [
+      2020,
+      59.3
+     ],
+     [
+      2021,
+      60.8
+     ],
+     [
+      2022,
+      50.2
+     ],
+     [
+      2023,
+      46.7
+     ],
+     [
+      2024,
+      46.5
+     ],
+     [
+      2025,
+      48.7
+     ],
+     [
+      2026,
+      55.5
+     ]
+    ],
+    "end": "55.5",
+    "color": "up",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: input prices scored 75.2, down from September but up from 58.5 last December.",
+   "say": "The catch: input prices scored seventy-five point two, down from September but up from fifty-eight point five last December.",
+   "scene": {
+    "t": "compare",
+    "title": "Prices factories pay",
+    "left": {
+     "label": "Dec 2025",
+     "value": "58.5",
+     "tone": "neutral",
+     "sub": "ISM prices"
+    },
+    "right": {
+     "label": "Oct 2026",
+     "value": "75.2",
+     "tone": "down",
+     "sub": "ISM prices"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 53% of factories paid more, for things like copper, aluminum, diesel and electronics.",
+   "say": "About fifty-three percent of factories paid more, for things like copper, aluminum, diesel and electronics.",
+   "scene": {
+    "t": "list",
+    "title": "53% paid more for",
+    "items": [
+     "Copper",
+     "Aluminum",
+     "Diesel",
+     "Electronics"
+    ],
+    "reveal": 4,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For your money, it's mixed: busy factories support jobs, but higher costs can trickle into prices.",
+   "say": "For your money, it's mixed: busy factories support jobs, but higher costs can trickle into prices.",
+   "scene": {
+    "t": "split",
+    "title": "What it means",
+    "left": {
+     "title": "Good",
+     "items": [
+      "More orders",
+      "Still hiring"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Watch",
+     "items": [
+      "Costly inputs",
+      "Pricier goods"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next up: Election Day tomorrow, then the October jobs report on Friday.",
+   "say": "Next up: Election Day tomorrow, then the October jobs report on Friday.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Mon",
+      "Factory report"
+     ],
+     [
+      "Tue",
+      "Election Day"
+     ],
+     [
+      "Fri",
+      "Jobs report"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bottom line: factories are busy, but costs are still high.",
+   "say": "Bottom line: factories are busy, but costs are still high.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Factories: busy",
+     "Costs: still high"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "US factory output just hit its fastest pace since 2021",
+  "ig": "US factory output just hit its fastest pace since 2021.\nThe ISM factory index rose to 55.5 in October, beating forecasts, the 10th straight month of growth.\nThe catch: the prices index is 75.2, up from 58.5 last December.\nAbout 53% of factories paid more for inputs like copper, aluminum and diesel.\nSource: ISM Manufacturing PMI Report, Nov 2, 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#economy #manufacturing #inflation #moneynews #financeprostv",
+  "tiktok": "Factory output hit its fastest pace since 2021, but costs are hot. Not financial advice. #moneytok #personalfinance #economy #inflation #financeprostv",
+  "yt_desc": "The ISM manufacturing index rose to 55.5 in October 2026, its 10th straight month of growth, with production at its fastest pace since 2021. But the prices index is still 75.2, up from 58.5 last December. Source: ISM Report On Business, Nov 2, 2026. News and education, not financial advice. #Shorts #economy #inflation",
+  "tags": [
+   "ISM manufacturing",
+   "factory index",
+   "inflation",
+   "economy news",
+   "financeprostv"
+  ]
+ }
+}
