@@ -1,0 +1,198 @@
+{
+  "series": "acorn",
+  "header": "Acorn Economics\nWhere'd my acorns go?",
+  "cover": {
+    "title": "The Empty Vault",
+    "prop": "acorns",
+    "label": "VAULT",
+    "value": "0%"
+  },
+  "lines": [
+    {
+      "who": "nutty",
+      "text": "Your bank is required to keep 0% of your deposit.",
+      "say": "Your bank is required to keep zero percent of your deposit.",
+      "scene": {
+        "t": "hook",
+        "title": "Required in vault: [0%]",
+        "prop": "acorns",
+        "label": "VAULT",
+        "value": "0%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel deposits 100 acorns. The bank doesn't lock them all up.",
+      "say": "Squirrel deposits a hundred acorns. The bank doesn't lock them all up.",
+      "scene": {
+        "t": "squirrel",
+        "kind": "bank",
+        "caption": "100 acorns in",
+        "value": "100",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Our math: the bank keeps 10 acorns and lends 90 to a chipmunk.",
+      "say": "Our math: the bank keeps ten acorns and lends ninety to a chipmunk.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Deposit",
+          "value": "100"
+        },
+        "to": {
+          "label": "Lent out",
+          "value": "90"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "That's fractional reserve banking. Keep a slice, lend the rest.",
+      "say": "That's fractional reserve banking. Keep a slice, lend the rest.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Keep a slice,",
+          "lend the rest"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "The slice sits as vault cash or as reserves at the Federal Reserve.",
+      "say": "The slice sits as vault cash, or as reserves at the Federal Reserve.",
+      "scene": {
+        "t": "list",
+        "title": "The kept slice",
+        "items": [
+          "Vault cash",
+          "Fed reserves"
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Since March 26, 2020, the Fed's required slice has been 0%.",
+      "say": "Since March twenty-sixth, twenty twenty, the Fed's required slice has been zero percent.",
+      "scene": {
+        "t": "stat",
+        "label": "Required reserve",
+        "value": "0%",
+        "tone": "neutral",
+        "sub": "Fed, Mar 26 2020",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Yet banks still kept about $3.2 trillion at the Fed in 2025, on average.",
+      "say": "Yet banks still kept about three point two trillion dollars at the Fed in twenty twenty-five, on average.",
+      "scene": {
+        "t": "chart",
+        "title": "Reserves at the Fed",
+        "points": [
+          [
+            2016,
+            2.31
+          ],
+          [
+            2017,
+            2.25
+          ],
+          [
+            2018,
+            1.98
+          ],
+          [
+            2019,
+            1.56
+          ],
+          [
+            2020,
+            2.65
+          ],
+          [
+            2021,
+            3.88
+          ],
+          [
+            2022,
+            3.4
+          ],
+          [
+            2023,
+            3.24
+          ],
+          [
+            2024,
+            3.37
+          ],
+          [
+            2025,
+            3.2
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "T",
+        "end": "$3.2T",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Twist: the Bank of England said in 2014 that new loans create new deposits.",
+      "say": "Twist: the Bank of England said in twenty fourteen that new loans create new deposits.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Loans create",
+          "new deposits"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "If a bank fails, FDIC covers up to $250,000 per depositor, per bank, per ownership category.",
+      "say": "If a bank fails, F D I C covers up to two hundred fifty thousand dollars per depositor, per bank, per ownership category.",
+      "scene": {
+        "t": "stat",
+        "label": "FDIC insurance",
+        "value": "$250,000",
+        "tone": "up",
+        "sub": "per depositor/bank",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "nutty",
+      "text": "Squirrel explained fractional reserve banking. Squirrel would like one follow.",
+      "say": "Squirrel explained fractional reserve banking. Squirrel would like one follow.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why your bank doesn't keep your deposit in a vault",
+    "ig": "Your bank is required to keep 0% of your deposit in reserve.\n\nThe Fed cut reserve requirements to 0% effective March 26, 2020.\nBanks still held about $3.2 trillion at the Fed on average in 2025 (FRED, reserve balances).\nOur math: deposit 100 acorns, the bank keeps 10 and lends 90. The Bank of England (2014) notes that new loans create new deposits.\nFDIC covers up to $250,000 per depositor, per insured bank, per ownership category.\n\nSources: Federal Reserve; FRED (WRESBAL); Bank of England Quarterly Bulletin 2014 Q1; FDIC; example math by FinancePros TV.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n\n#banking #acorneconomics #economics #personalfinance #financeprostv",
+    "tiktok": "Your bank must keep 0% of your deposit, per Fed rules since 2020. Not financial advice. #moneytok #personalfinance #banking #financeprostv",
+    "yt_desc": "Fractional reserve banking means a bank keeps a slice of deposits as vault cash or reserves at the Fed and lends the rest (example math: deposit 100 acorns, keep 10, lend 90). The Fed cut reserve requirements to 0% effective March 26, 2020, yet banks held about $3.2 trillion at the Fed on average in 2025 (FRED WRESBAL), and FDIC covers up to $250,000 per depositor, per insured bank, per ownership category. The Bank of England (2014) explains that new loans create new deposits. News and education, not financial advice.\n#Shorts #banking #economics",
+    "tags": [
+      "fractional reserve banking",
+      "reserve requirements",
+      "how banks work",
+      "FDIC insurance",
+      "Acorn Economics"
+    ]
+  }
+}
