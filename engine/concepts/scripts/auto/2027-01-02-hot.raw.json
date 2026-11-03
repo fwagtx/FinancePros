@@ -1,0 +1,205 @@
+{
+ "series": "ticker",
+ "header": "Money myth:\nHome gain = profit?",
+ "cover": {
+  "title": "Is It Profit?",
+  "prop": "house",
+  "label": "GAIN",
+  "value": "+$150K"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your home's up $150,000? That's not your profit.",
+   "say": "Your home's up a hundred fifty thousand dollars? That's not your profit.",
+   "scene": {
+    "t": "hook",
+    "title": "Home up $150K? Not [profit]",
+    "prop": "house",
+    "label": "GAIN",
+    "value": "+$150K",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices did jump: the Case-Shiller index rose 82% from 2016 to 2025.",
+   "say": "Prices did jump. The Case-Shiller index rose about eighty-two percent from twenty sixteen to twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "US home price index",
+    "points": [
+     [
+      2016,
+      180.9
+     ],
+     [
+      2017,
+      191.4
+     ],
+     [
+      2018,
+      202.4
+     ],
+     [
+      2019,
+      209.4
+     ],
+     [
+      2020,
+      222.1
+     ],
+     [
+      2021,
+      260.0
+     ],
+     [
+      2022,
+      298.3
+     ],
+     [
+      2023,
+      305.7
+     ],
+     [
+      2024,
+      321.3
+     ],
+     [
+      2025,
+      328.5
+     ]
+    ],
+    "end": "+82%",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you paid $300,000 in 2016, and it's worth $450,000 in 2026.",
+   "say": "Say you paid three hundred thousand in twenty sixteen, and it's worth four hundred fifty thousand in twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Our example",
+    "left": {
+     "label": "Paid 2016",
+     "value": "$300K",
+     "tone": "neutral"
+    },
+    "right": {
+     "label": "Worth 2026",
+     "value": "$450K",
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Selling often costs 6% to 10%. At 6%, $27,000's gone.",
+   "say": "Selling often costs six to ten percent. At six percent, twenty-seven thousand's gone.",
+   "scene": {
+    "t": "stat",
+    "label": "Selling at 6%",
+    "value": "-$27,000",
+    "tone": "down",
+    "sub": "Redfin: 6% to 10%",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ten years of interest on a $240,000 loan at 2016's 3.65% average: about $78,600 (our math).",
+   "say": "Ten years of interest on a two hundred forty thousand dollar loan at twenty sixteen's rate? About seventy-eight thousand six hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "Interest, 10 years",
+    "value": "-$78,600",
+    "tone": "down",
+    "sub": "$240K at 3.65%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves about $44,400. Our math.",
+   "say": "That leaves about forty-four thousand four hundred. Our math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Gain: $150,000",
+     "Left: $44,400"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that's before property taxes, insurance and repairs.",
+   "say": "And that's before property taxes, insurance and repairs.",
+   "scene": {
+    "t": "list",
+    "title": "Not counted yet",
+    "items": [
+     "Property tax",
+     "Insurance",
+     "Repairs"
+    ],
+    "reveal": 3,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And inflation hit 34%, so 2016's $300,000 is about $402,000 in 2025 dollars.",
+   "say": "And inflation hit thirty-four percent, so twenty sixteen's three hundred thousand is about four hundred two thousand in twenty twenty-five dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2016",
+     "value": "$300,000"
+    },
+    "to": {
+     "label": "2025 dollars",
+     "value": "$402,000"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Renters pay for housing too, but a price tag isn't profit. What's left is.",
+   "say": "Renters pay for housing too, but a price tag isn't profit. What's left is.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Gain isn't profit",
+     "Count what's left"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your home went up $150K. Here's why that isn't profit",
+  "ig": "Your home's up $150,000? That's not your profit.\nThe Case-Shiller US home price index rose 82% from 2016 to 2025.\nOur example: paid $300,000 in 2016, worth $450,000 in 2026. Selling at 6% costs $27,000; a $240,000 loan at 3.65% charges about $78,600 interest in 10 years. About $44,400 left (our math), before taxes, insurance and repairs.\nAnd CPI rose 34% from 2016 to 2025.\nSources: S&P Case-Shiller and BLS via FRED, Freddie Mac, Redfin.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#moneymyths #realestate #homeowner #personalfinance #financeprostv",
+  "tiktok": "Your home's up $150K? That's not profit. Not financial advice. #moneytok #personalfinance #realestate #moneymyths #financeprostv",
+  "yt_desc": "Home prices rose 82% from 2016 to 2025 on the Case-Shiller index, but a higher price isn't profit. In our example, a $150,000 gain shrinks to about $44,400 after 6% selling costs and 10 years of interest at 3.65%, before taxes, insurance, repairs and 34% inflation. Sources: S&P Case-Shiller and BLS CPI via FRED, Freddie Mac, Redfin. News and education, not financial advice. #Shorts #realestate #moneymyths",
+  "tags": [
+   "home equity myth",
+   "is my house profit",
+   "selling costs",
+   "home prices",
+   "financeprostv"
+  ]
+ }
+}
