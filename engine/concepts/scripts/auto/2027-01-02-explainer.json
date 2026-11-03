@@ -1,0 +1,206 @@
+{
+ "id": "2027-01-02-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "New year, new numbers\nwhat changed Jan 1",
+ "cover": {
+  "title": "The 2027 Raises",
+  "prop": "coins",
+  "label": "SSA",
+  "value": "+3.6%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your Social Security check grows 3.6% this month.",
+   "say": "Your Social Security check grows three point six percent this month.",
+   "scene": {
+    "t": "hook",
+    "title": "New year, new [raise]",
+    "prop": "coins",
+    "label": "SSA",
+    "value": "+3.6%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "SSA announced it last October, up from 2.8% for 2026.",
+   "say": "The Social Security Administration announced it last October, up from two point eight percent for twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Yearly COLA",
+    "left": {
+     "label": "2026",
+     "value": "2.8%",
+     "tone": "neutral",
+     "sub": "paid in 2026"
+    },
+    "right": {
+     "label": "2027",
+     "value": "3.6%",
+     "tone": "up",
+     "sub": "SSA, Oct 2026"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: a $2,000 monthly check becomes $2,072.",
+   "say": "Our math: a two thousand dollar monthly check becomes two thousand seventy-two dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2026 check",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "2027 check",
+     "value": "$2,072"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still working? Social Security tax now covers your first $192,300 of pay.",
+   "say": "Still working? Social Security tax now covers your first one hundred ninety-two thousand three hundred dollars of pay.",
+   "scene": {
+    "t": "stat",
+    "label": "Taxed wage cap",
+    "value": "$192,300",
+    "tone": "neutral",
+    "sub": "SSA, Oct 14, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Minimum wages rose too. Washington's is $17.73 in 2027, the nation's highest state rate.",
+   "say": "Minimum wages rose too. Washington's is seventeen seventy-three an hour in twenty twenty-seven, the nation's highest state rate.",
+   "scene": {
+    "t": "chart",
+    "title": "WA minimum wage, L&I",
+    "points": [
+     [
+      2020,
+      13.5
+     ],
+     [
+      2021,
+      13.69
+     ],
+     [
+      2022,
+      14.49
+     ],
+     [
+      2023,
+      15.74
+     ],
+     [
+      2024,
+      16.28
+     ],
+     [
+      2025,
+      16.66
+     ],
+     [
+      2026,
+      17.13
+     ],
+     [
+      2027,
+      17.73
+     ]
+    ],
+    "prefix": "$",
+    "end": "$17.73",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "California rose to $17.40, and Michigan to $15.00.",
+   "say": "California rose to seventeen forty, and Michigan to fifteen dollars.",
+   "scene": {
+    "t": "list",
+    "title": "Jan 1, 2027",
+    "items": [
+     "CA: $17.40",
+     "MI: $15.00",
+     "Federal: $7.25"
+    ],
+    "reveal": 2,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The federal minimum? Still $7.25, unchanged since 2009.",
+   "say": "The federal minimum? Still seven twenty-five, unchanged since two thousand nine.",
+   "scene": {
+    "t": "list",
+    "title": "Jan 1, 2027",
+    "items": [
+     "CA: $17.40",
+     "MI: $15.00",
+     "Federal: $7.25"
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tax brackets and 401(k) limits are tied to inflation too, so the IRS adjusts them yearly.",
+   "say": "Tax brackets and four oh one K limits are tied to inflation too, so the I R S adjusts them each year.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Brackets + 401(k)",
+     "= inflation-linked"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So this month, check your paycheck and your budget against the new numbers.",
+   "say": "So this month, check your paycheck and your budget against the new numbers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New year:",
+     "check the numbers"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "What changed Jan 1, 2027: a 3.6% raise and new wage floors",
+  "ig": "Social Security checks grow 3.6% starting with January 2027 payments.\nSSA announced the 3.6% COLA on Oct 14, 2026 (up from 2.8%). Our math: a $2,000 check becomes $2,072.\nThe Social Security wage cap rose to $192,300 from $184,500.\nMinimum wages on Jan 1, 2027: Washington $17.73, California $17.40, Michigan $15.00. Federal: still $7.25 since 2009.\nSources: SSA, WA L&I, California DIR, Michigan LEO, US DOL.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#socialsecurity #minimumwage #newyear #personalfinance #financeprostv",
+  "tiktok": "Jan 1, 2027: a 3.6% Social Security raise and new minimum wages. Not financial advice. #moneytok #personalfinance #socialsecurity #financeprostv",
+  "yt_desc": "Social Security benefits rose 3.6% for 2027 (SSA, announced Oct 14, 2026) and the taxable wage cap rose to $192,300. On Jan 1, 2027, Washington's minimum wage rose to $17.73, California's to $17.40 and Michigan's to $15.00, while the federal minimum stays $7.25 (since 2009). Sources: SSA, WA L&I, California DIR, Michigan LEO, US DOL. News and education, not financial advice. #Shorts #socialsecurity #minimumwage",
+  "tags": [
+   "social security cola 2027",
+   "minimum wage 2027",
+   "new year money changes",
+   "social security wage cap",
+   "personal finance"
+  ]
+ }
+}
