@@ -10,11 +10,11 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "Your home's up $150,000? That's not your profit.",
-   "say": "Your home's up a hundred fifty thousand dollars? That's not your profit.",
+   "text": "Home up $150K? Costs can eat most of it.",
+   "say": "Home up a hundred fifty thousand? Costs can eat most of it.",
    "scene": {
     "t": "hook",
-    "title": "Home up $150K? Not [profit]",
+    "title": "Up $150K? Not all [profit]",
     "prop": "house",
     "label": "GAIN",
     "value": "+$150K",
@@ -23,7 +23,7 @@
   },
   {
    "who": "ticker",
-   "text": "Prices did jump: the Case-Shiller index rose 82% from 2016 to 2025.",
+   "text": "Prices did jump: the Case-Shiller index rose about 82% from 2016 to 2025.",
    "say": "Prices did jump. The Case-Shiller index rose about eighty-two percent from twenty sixteen to twenty twenty-five.",
    "scene": {
     "t": "chart",
@@ -97,8 +97,8 @@
   },
   {
    "who": "ticker",
-   "text": "Selling often costs 6% to 10%. At 6%, $27,000's gone.",
-   "say": "Selling often costs six to ten percent. At six percent, twenty-seven thousand's gone.",
+   "text": "Selling often costs 6% to 10%. At 6%, that's $27,000.",
+   "say": "Selling often costs six to ten percent. At six percent, that's twenty-seven thousand.",
    "scene": {
     "t": "stat",
     "label": "Selling at 6%",
@@ -110,8 +110,8 @@
   },
   {
    "who": "ticker",
-   "text": "Ten years of interest on a $240,000 loan at 2016's 3.65% average: about $78,600 (our math).",
-   "say": "Ten years of interest on a two hundred forty thousand dollar loan at twenty sixteen's rate? About seventy-eight thousand six hundred.",
+   "text": "Interest on a $240,000 loan at 2016's 3.65% average: about $78,600 in 10 years (our math).",
+   "say": "Interest on a two hundred forty thousand dollar loan at three point six five percent? About seventy-eight thousand six hundred in ten years.",
    "scene": {
     "t": "stat",
     "label": "Interest, 10 years",
@@ -123,8 +123,8 @@
   },
   {
    "who": "ticker",
-   "text": "That leaves about $44,400. Our math.",
-   "say": "That leaves about forty-four thousand four hundred. Our math.",
+   "text": "That leaves about $44,400 of the gain (our math).",
+   "say": "That leaves about forty-four thousand four hundred of the gain.",
    "scene": {
     "t": "board",
     "lines": [
@@ -136,8 +136,8 @@
   },
   {
    "who": "ticker",
-   "text": "And that's before property taxes, insurance and repairs.",
-   "say": "And that's before property taxes, insurance and repairs.",
+   "text": "That's before property taxes, insurance and repairs.",
+   "say": "That's before property taxes, insurance and repairs.",
    "scene": {
     "t": "list",
     "title": "Not counted yet",
@@ -152,8 +152,8 @@
   },
   {
    "who": "ticker",
-   "text": "And inflation hit 34%, so 2016's $300,000 is about $402,000 in 2025 dollars.",
-   "say": "And inflation hit thirty-four percent, so twenty sixteen's three hundred thousand is about four hundred two thousand in twenty twenty-five dollars.",
+   "text": "Overall prices rose 34% from 2016 to 2025: 2016's $300,000 is about $402,000 in 2025 dollars.",
+   "say": "Overall prices rose thirty-four percent, so twenty sixteen's three hundred thousand is about four hundred two thousand in twenty twenty-five dollars.",
    "scene": {
     "t": "money",
     "from": {
@@ -169,13 +169,13 @@
   },
   {
    "who": "ticker",
-   "text": "Renters pay for housing too, but a price tag isn't profit. What's left is.",
-   "say": "Renters pay for housing too, but a price tag isn't profit. What's left is.",
+   "text": "Owning does skip rent. But a higher price isn't all profit.",
+   "say": "Owning does skip rent. But a higher price isn't all profit.",
    "scene": {
     "t": "board",
     "lines": [
-     "Gain isn't profit",
-     "Count what's left"
+     "Owners skip rent",
+     "Not all profit"
     ],
     "mood": "happy"
    }
@@ -190,10 +190,10 @@
   }
  ],
  "post": {
-  "title": "Your home went up $150K. Here's why that isn't profit",
-  "ig": "Your home's up $150,000? That's not your profit.\nThe Case-Shiller US home price index rose 82% from 2016 to 2025.\nOur example: paid $300,000 in 2016, worth $450,000 in 2026. Selling at 6% costs $27,000; a $240,000 loan at 3.65% charges about $78,600 interest in 10 years. About $44,400 left (our math), before taxes, insurance and repairs.\nAnd CPI rose 34% from 2016 to 2025.\nSources: S&P Case-Shiller and BLS via FRED, Freddie Mac, Redfin.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#moneymyths #realestate #homeowner #personalfinance #financeprostv",
+  "title": "Your home went up $150K. Here's why that isn't all profit",
+  "ig": "Your home's up $150,000? Costs can eat most of it.\nThe Case-Shiller US home price index rose about 82% from 2016 to 2025.\nOur example: paid $300,000 in 2016, worth $450,000 in 2026. Selling at 6% costs $27,000; a $240,000 loan at 3.65% charges about $78,600 interest in 10 years. About $44,400 of the gain left (our math), before taxes, insurance and repairs.\nAnd CPI rose 34% from 2016 to 2025.\nSources: S&P Case-Shiller and BLS via FRED, Freddie Mac, Redfin.\nOwners also skip rent, which this doesn't count.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#moneymyths #realestate #homeowner #personalfinance #financeprostv",
   "tiktok": "Your home's up $150K? That's not profit. Not financial advice. #moneytok #personalfinance #realestate #moneymyths #financeprostv",
-  "yt_desc": "Home prices rose 82% from 2016 to 2025 on the Case-Shiller index, but a higher price isn't profit. In our example, a $150,000 gain shrinks to about $44,400 after 6% selling costs and 10 years of interest at 3.65%, before taxes, insurance, repairs and 34% inflation. Sources: S&P Case-Shiller and BLS CPI via FRED, Freddie Mac, Redfin. News and education, not financial advice. #Shorts #realestate #moneymyths",
+  "yt_desc": "Home prices rose about 82% from 2016 to 2025 on the Case-Shiller index, but a higher price isn't all profit. In our example, a $150,000 gain shrinks to about $44,400 after 6% selling costs and 10 years of interest at 3.65%, before taxes, insurance and repairs. Overall prices also rose 34% from 2016 to 2025. Sources: S&P Case-Shiller and BLS CPI via FRED, Freddie Mac, Redfin. News and education, not financial advice. #Shorts #realestate #moneymyths",
   "tags": [
    "home equity myth",
    "is my house profit",
