@@ -1,0 +1,240 @@
+{
+ "id": "2027-01-02-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How travel insurance\nmakes money",
+ "cover": {
+  "title": "Europe: 40¢ Back",
+  "prop": "bag",
+  "label": "$1",
+  "value": "40¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Europe's regulator found travel insurance paid back about 40¢ per dollar.",
+   "say": "Europe's regulator found travel insurance paid back about forty cents per dollar.",
+   "scene": {
+    "t": "hook",
+    "title": "Europe: [40¢] back?",
+    "prop": "bag",
+    "label": "$1",
+    "value": "40¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its 2019 review: 40% went to claims, 24% to sellers.",
+   "say": "Its twenty nineteen review: forty percent went to claims, twenty-four percent to sellers.",
+   "scene": {
+    "t": "stat",
+    "label": "Claims ratio",
+    "value": "40%",
+    "tone": "down",
+    "sub": "EIOPA review, 2019",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "UK regulator data showed 31% to 37% in 2024, and 44% to 48% in 2025.",
+   "say": "UK regulator data showed thirty-one to thirty-seven percent in twenty twenty-four, and forty-four to forty-eight percent in twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "UK claims share",
+    "left": {
+     "label": "2024",
+     "value": "31-37%",
+     "tone": "down",
+     "sub": "FCA"
+    },
+    "right": {
+     "label": "2025",
+     "value": "44-48%",
+     "tone": "neutral",
+     "sub": "FCA"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the US, travelers spent $5.56 billion on it in 2024.",
+   "say": "In the US, travelers spent five point five six billion dollars on it in twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "US spend (UStiA)",
+    "points": [
+     [
+      2016,
+      2.8
+     ],
+     [
+      2018,
+      3.8
+     ],
+     [
+      2020,
+      1.72
+     ],
+     [
+      2022,
+      4.27
+     ],
+     [
+      2024,
+      5.56
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$5.56B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up from $1.72 billion in 2020.",
+   "say": "That's up from one point seven two billion in twenty twenty.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "US spend (UStiA)",
+    "points": [
+     [
+      2016,
+      2.8
+     ],
+     [
+      2018,
+      3.8
+     ],
+     [
+      2020,
+      1.72
+     ],
+     [
+      2022,
+      4.27
+     ],
+     [
+      2024,
+      5.56
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$5.56B",
+    "color": "up",
+    "note": {
+     "x": 2020,
+     "text": "$1.72B in 2020"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Policies usually cost 5% to 10% of the trip.",
+   "say": "Policies usually cost five to ten percent of the trip.",
+   "scene": {
+    "t": "stat",
+    "label": "Share of trip cost",
+    "value": "5-10%",
+    "tone": "neutral",
+    "sub": "NAIC, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: a $3,000 trip at 8% is a $240 premium.",
+   "say": "Our math: a three thousand dollar trip at eight percent is a two hundred forty dollar premium.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$3,000 x 8%",
+     "= $240 premium"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At Europe's averages, about $96 pays claims and about $58 goes to the seller.",
+   "say": "At Europe's averages, about ninety-six dollars pays claims and about fifty-eight goes to the seller.",
+   "scene": {
+    "t": "list",
+    "title": "Where $240 goes",
+    "items": [
+     "Claims $96",
+     "Seller $58",
+     "Insurer $86"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The last $86 covers insurer costs and profit.",
+   "say": "The last eighty-six covers insurer costs and profit.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Where $240 goes",
+    "items": [
+     "Claims $96",
+     "Seller $58",
+     "Insurer $86"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most trips get nothing back; a few canceled ones get reimbursed.",
+   "say": "Most trips get nothing back; a few canceled ones get reimbursed.",
+   "scene": {
+    "t": "split",
+    "title": "It's a pool",
+    "left": {
+     "title": "Most trips",
+     "items": [
+      "Go fine",
+      "Get $0 back"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "A few trips",
+     "items": [
+      "Get canceled",
+      "Get reimbursed"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Europe's travel insurance paid back about 40¢ per dollar",
+  "ig": "Europe's regulator found travel insurance paid back about 40 cents per premium dollar.\nEurope's regulator EIOPA found a 40% average claims ratio and 24% average commission (2019 review). UK FCA data: claims were 31-37% of travel premiums in 2024 and 44-48% in 2025.\nIn the US, travelers spent $5.56 billion on travel insurance in 2024 (UStiA), and policies usually cost 5-10% of the trip (NAIC).\nOur math: a $3,000 trip at 8% = $240 premium; at Europe's averages, about $96 to claims, $58 to the seller, $86 to the insurer.\nSources: EIOPA (2019), FCA value measures (2025 data, pub. July 2026), UStiA 2022-2024 market study, NAIC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#travelinsurance #insurance #howtheymakemoney #travel #financeprostv",
+  "tiktok": "In Europe, travel insurance paid back about 40¢ per dollar. Where's the rest? Not financial advice. #moneytok #travelinsurance #financeprostv",
+  "yt_desc": "Europe's insurance regulator EIOPA found travel insurers paid an average 40% of premiums in claims and 24% in commissions (2019), and UK FCA data shows claims at 31-37% of travel premiums in 2024 and 44-48% in 2025. Americans spent $5.56 billion on travel insurance in 2024 (UStiA), with policies usually costing 5-10% of the trip (NAIC). News and education, not financial advice. #Shorts #travelinsurance #insurance",
+  "tags": [
+   "how travel insurance makes money",
+   "travel insurance",
+   "travel insurance claims",
+   "how they make money",
+   "insurance commission"
+  ]
+ }
+}
