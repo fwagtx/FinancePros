@@ -1,0 +1,204 @@
+{
+ "series": "acorn",
+ "header": "Acorn Economics\nInterest is rent",
+ "cover": {
+  "title": "Why 105 Acorns?",
+  "prop": "acorns",
+  "label": "100",
+  "value": "105"
+ },
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "Squirrel lends 100 acorns and wants 105 back. Why?",
+   "say": "Squirrel lends a hundred acorns and wants a hundred five back. Why?",
+   "scene": {
+    "t": "hook",
+    "title": "Lend 100, get [105]",
+    "prop": "acorns",
+    "label": "100",
+    "value": "105",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Because interest is rent. You're paying to use someone else's acorns.",
+   "say": "Because interest is rent. You're paying to use someone else's acorns.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "think",
+    "caption": "Interest = rent",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Rent pays for waiting, and for inflation, since acorns may buy less later.",
+   "say": "Rent pays for waiting, and for inflation, since acorns may buy less later.",
+   "scene": {
+    "t": "list",
+    "title": "Why rent?",
+    "items": [
+     "Waiting",
+     "Inflation",
+     "Risk"
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "And risk. The chipmunk might never pay him back.",
+   "say": "And risk. The chipmunk might never pay him back.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Why rent?",
+    "items": [
+     "Waiting",
+     "Inflation",
+     "Risk"
+    ],
+    "reveal": 3,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Our math: 100 acorns at 5% for a year makes 105.",
+   "say": "Our math: a hundred acorns at five percent for a year makes a hundred five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Our math:",
+     "100 + 5% = 105"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Banks rent both ways: savings paid 0.38% in October 2026, cards charged 22.36% in August 2026.",
+   "say": "Banks rent both ways: savings paid about zero point four percent in October twenty twenty-six, cards charged about twenty-two percent in August.",
+   "scene": {
+    "t": "compare",
+    "title": "Same banks, two rents",
+    "left": {
+     "label": "Savings",
+     "value": "0.38%",
+     "tone": "down",
+     "sub": "FDIC, Oct 2026"
+    },
+    "right": {
+     "label": "Card APR",
+     "value": "22.36%",
+     "tone": "up",
+     "sub": "Fed, Aug 2026"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Mortgage rent moves too: 2.96% in 2021, 6.6% in 2025.",
+   "say": "Mortgage rent moves too: about three percent in twenty twenty-one, six point six in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr mortgage, yearly avg",
+    "points": [
+     [
+      2016,
+      3.65
+     ],
+     [
+      2017,
+      3.99
+     ],
+     [
+      2018,
+      4.54
+     ],
+     [
+      2019,
+      3.94
+     ],
+     [
+      2020,
+      3.11
+     ],
+     [
+      2021,
+      2.96
+     ],
+     [
+      2022,
+      5.34
+     ],
+     [
+      2023,
+      6.81
+     ],
+     [
+      2024,
+      6.72
+     ],
+     [
+      2025,
+      6.6
+     ]
+    ],
+    "suffix": "%",
+    "end": "6.6%",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "The Fed's base rent was 3.75% to 4% as of October 2026.",
+   "say": "The Fed's base rent was three point seven five to four percent as of October twenty twenty-six.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75-4%",
+    "caption": "The base rent",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "So lend, and you collect rent. Borrow, and you pay it.",
+   "say": "So lend, and you collect rent. Borrow, and you pay it.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "basket",
+    "caption": "Collect or pay",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained why interest is rent. Squirrel would like one follow.",
+   "say": "Squirrel explained why interest is rent. Squirrel would like one follow.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Interest is rent"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why squirrel lends 100 acorns and wants 105 back",
+  "ig": "Squirrel lends 100 acorns and wants 105 back. Why?\nInterest is rent: the price of using someone else's money for a while. It pays for waiting, inflation and risk.\nIn Oct 2026 the average savings rate was 0.38% (FDIC). In Aug 2026 card balances were charged 22.36% (Fed G.19).\nThe 30-year mortgage averaged 2.96% in 2021 and 6.6% in 2025 (Freddie Mac). The Fed's target range was 3.75%-4% as of Oct 2026.\nSources: Federal Reserve, FDIC, Freddie Mac via FRED.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#interest #personalfinance #acorneconomics #moneybasics #financeprostv",
+  "tiktok": "Why 105 acorns back for 100? Interest is rent. Not financial advice. #moneytok #personalfinance #interestrates #financeprostv",
+  "yt_desc": "Interest is rent on money: it pays the lender for waiting, inflation and risk. In Oct 2026 savings paid 0.38% on average (FDIC), while card balances were charged 22.36% in Aug 2026 (Fed G.19); the 30-year mortgage averaged 6.6% in 2025 (Freddie Mac via FRED). News and education, not financial advice. #Shorts #interest #personalfinance",
+  "tags": [
+   "what is interest",
+   "interest rates explained",
+   "acorn economics",
+   "credit card APR",
+   "personal finance basics"
+  ]
+ }
+}
