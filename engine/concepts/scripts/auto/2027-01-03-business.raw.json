@@ -1,0 +1,196 @@
+{
+ "series": "ticker",
+ "header": "How UnitedHealth\nreally makes money",
+ "cover": {
+  "title": "57% From Optum",
+  "prop": "chart-up",
+  "label": "Q3'26",
+  "value": "57%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "57% of UnitedHealth's profit didn't come from insurance.",
+   "say": "Fifty-seven percent of UnitedHealth's profit didn't come from insurance.",
+   "scene": {
+    "t": "hook",
+    "title": "Not from [insurance]",
+    "prop": "chart-up",
+    "label": "Q3'26",
+    "value": "57%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the third quarter of 2026, Optum earned $3.7 billion; the insurer, $2.8 billion.",
+   "say": "In the third quarter of twenty twenty-six, Optum earned three point seven billion; the insurer, two point eight billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Q3 2026 op. profit",
+    "left": {
+     "label": "Optum",
+     "value": "$3.7B",
+     "tone": "up",
+     "sub": "Q3 2026"
+    },
+    "right": {
+     "label": "Insurer",
+     "value": "$2.8B",
+     "tone": "neutral",
+     "sub": "UnitedHealthcare"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 3.7 of 6.6 billion is about 57%.",
+   "say": "Our math: three point seven of six point six billion is about fifty-seven percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$3.7B / $6.6B",
+     "= 57% (our math)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Optum is doctors, a pharmacy benefit manager, and data and tech.",
+   "say": "Optum is doctors, a pharmacy benefit manager, and data and tech.",
+   "scene": {
+    "t": "list",
+    "title": "What Optum is",
+    "items": [
+     "Doctors",
+     "Pharmacy plans",
+     "Data and tech"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its revenue went from about $136 billion in 2020 to $271 billion in 2025.",
+   "say": "Its revenue went from about one hundred thirty-six billion in twenty twenty to two hundred seventy-one billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Optum revenue",
+    "points": [
+     [
+      2020,
+      136.3
+     ],
+     [
+      2021,
+      155.6
+     ],
+     [
+      2022,
+      182.8
+     ],
+     [
+      2023,
+      226.6
+     ],
+     [
+      2024,
+      253.0
+     ],
+     [
+      2025,
+      270.6
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$271B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why own it all? Federal rules make insurers spend 80% to 85% of premiums on care.",
+   "say": "Why own it all? Federal rules make insurers spend eighty to eighty-five percent of premiums on care.",
+   "scene": {
+    "t": "stat",
+    "label": "Must go to care",
+    "value": "80-85%",
+    "tone": "neutral",
+    "sub": "CMS 80/20 rule"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That caps the insurer's cut, not the profit of the doctors and pharmacy it owns.",
+   "say": "That caps the insurer's cut, not the profit of the doctors and pharmacy it owns.",
+   "scene": {
+    "t": "split",
+    "title": "Who gets capped",
+    "left": {
+     "title": "Insurer",
+     "items": [
+      "Premium rule",
+      "Capped cut"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Optum",
+     "items": [
+      "Paid for care",
+      "No MLR cap"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, about $168 billion of sales inside the company got netted out.",
+   "say": "In twenty twenty-five, about one hundred sixty-eight billion of sales inside the company got netted out.",
+   "scene": {
+    "t": "stat",
+    "label": "In-house sales",
+    "value": "$168B",
+    "tone": "neutral",
+    "sub": "2025 eliminations"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A Justice Department antitrust probe, reported in 2025, looks at that link.",
+   "say": "A Justice Department antitrust probe, reported in twenty twenty-five, looks at that link.",
+   "scene": {
+    "t": "news",
+    "headline": "DOJ eyes UHC-Optum",
+    "source": "WSJ, reported 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why 57% of UnitedHealth's profit came from Optum",
+  "ig": "57% of UnitedHealth's profit didn't come from insurance.\nIn Q3 2026, Optum earned $3.7B in earnings from operations vs $2.8B at UnitedHealthcare (our math: 57% of $6.6B).\nOptum's revenue grew from $136.3B in 2020 to $270.6B in 2025.\nCMS's 80/20 rule makes insurers spend 80-85% of premiums on care; that caps the insurer, not the providers and pharmacy business it owns.\nIn 2025, about $168B of sales between UnitedHealth's own businesses was eliminated.\nSources: UnitedHealth Group FY2025 and Q3 2026 earnings releases (SEC 8-K), CMS, WSJ.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#unitedhealth #optum #healthinsurance #howtheymakemoney #financeprostv",
+  "tiktok": "57% of UnitedHealth's profit didn't come from insurance. Not financial advice. #moneytok #personalfinance #unitedhealth #optum #financeprostv",
+  "yt_desc": "In Q3 2026, Optum earned $3.7 billion in earnings from operations versus $2.8 billion at UnitedHealthcare, about 57% of UnitedHealth Group's total (our math, from the Oct 13, 2026 release). Optum's revenue grew from $136.3 billion in 2020 to $270.6 billion in 2025, and CMS's medical loss ratio rule requires insurers to spend 80-85% of premiums on care. News and education, not financial advice. #Shorts #unitedhealth #optum",
+  "tags": [
+   "how unitedhealth makes money",
+   "optum",
+   "unitedhealth group",
+   "medical loss ratio",
+   "how they make money"
+  ]
+ }
+}
