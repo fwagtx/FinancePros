@@ -4,19 +4,19 @@
  "cover": {
   "title": "Raise vs Prices",
   "prop": "bill",
-  "label": "RAISE",
+  "label": "BASE",
   "value": "3.0%"
  },
  "lines": [
   {
    "who": "ticker",
-   "text": "The typical raise for people who stayed put just lost to prices.",
-   "say": "The typical raise for people who stayed put just lost to prices.",
+   "text": "Stayed at your job? The typical base raise just lost to prices.",
+   "say": "Stayed at your job? The typical base raise just lost to prices.",
    "scene": {
     "t": "hook",
-    "title": "Your Raise [Lost]",
+    "title": "Base Raise [Lost]",
     "prop": "bill",
-    "label": "RAISE",
+    "label": "BASE",
     "value": "3.0%",
     "mood": "shock"
    }
@@ -100,23 +100,23 @@
     "t": "board",
     "lines": [
      "3.0% - 3.7%",
-     "= -0.7% (our math)"
+     "= -0.7 pts"
     ],
     "mood": "think"
    }
   },
   {
    "who": "ticker",
-   "text": "With bonuses and overtime: stayers 4.4%, switchers 7.6%, the fastest since March 2024.",
-   "say": "Add bonuses and overtime, and stayers got four point four, switchers seven point six, the fastest since March twenty twenty-four.",
+   "text": "With bonuses and overtime, stayers got 4.4%, beating prices. Switchers got 7.6%, their fastest since March 2024.",
+   "say": "Add bonuses and overtime, and stayers got four point four, beating prices. Switchers got seven point six, their fastest since March twenty twenty-four.",
    "scene": {
     "t": "compare",
     "title": "With bonuses",
     "left": {
      "label": "Stayed",
      "value": "4.4%",
-     "tone": "neutral",
-     "sub": "same job"
+     "tone": "up",
+     "sub": "beats 3.7%"
     },
     "right": {
      "label": "Switched",
@@ -144,7 +144,7 @@
   {
    "who": "ticker",
    "text": "The simple check: your own raise versus 3.7% inflation.",
-   "say": "So the simple check is your own raise versus that three point seven percent.",
+   "say": "The simple check: your own raise versus three point seven percent.",
    "scene": {
     "t": "board",
     "lines": [
@@ -188,9 +188,9 @@
  ],
  "post": {
   "title": "Stayed at your job? Your base raise trailed inflation",
-  "ig": "The typical raise for people who stayed put just lost to prices.\nADP: private employers added 86,000 jobs in October.\nBase pay: job-stayers +3.0%, job-switchers +4.8% (year over year).\nInflation: 3.7% in the year through September (BLS). Our math: stayers' base pay is about 0.7 points behind.\nWith bonuses and overtime: stayers +4.4%, switchers +7.6%, fastest since March 2024.\nSources: ADP National Employment Report (Nov 4, 2026), BLS CPI (Oct 14, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#jobs #raise #inflation #personalfinance #financeprostv",
+  "ig": "Stayed at your job? The typical base raise just lost to prices.\nADP: private employers added 86,000 jobs in October.\nBase pay: job-stayers +3.0%, job-switchers +4.8% (year over year).\nInflation: 3.7% in the year through September (BLS). Our math: stayers' base pay is about 0.7 points behind.\nWith bonuses and overtime: stayers +4.4% (ahead of inflation), switchers +7.6%, switchers' fastest since March 2024.\nSources: ADP National Employment Report (Nov 4, 2026), BLS CPI (Oct 14, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#jobs #raise #inflation #personalfinance #financeprostv",
   "tiktok": "Stayers' base raise: 3.0%. Prices: 3.7%. Switchers: 4.8%. Not financial advice. #moneytok #personalfinance #jobs #inflation #financeprostv",
-  "yt_desc": "ADP says private employers added 86,000 jobs in October 2026, and job-stayers' base pay rose 3.0% while job-switchers' rose 4.8%. With inflation at 3.7% through September (BLS), the typical stayer's base raise trailed prices by about 0.7 points (our math). Sources: ADP National Employment Report, Nov 4, 2026; BLS CPI, Oct 14, 2026. News and education, not financial advice. #Shorts #jobs #inflation",
+  "yt_desc": "ADP says private employers added 86,000 jobs in October 2026, and job-stayers' base pay rose 3.0% while job-switchers' rose 4.8%. With inflation at 3.7% through September (BLS), the typical stayer's base raise trailed prices by about 0.7 points (our math); with bonuses and overtime, stayers got 4.4%, ahead of prices. Sources: ADP National Employment Report, Nov 4, 2026; BLS CPI, Oct 14, 2026. News and education, not financial advice. #Shorts #jobs #inflation",
   "tags": [
    "ADP jobs report",
    "October jobs 2026",
