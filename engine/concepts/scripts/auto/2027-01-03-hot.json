@@ -1,0 +1,200 @@
+{
+ "id": "2027-01-03-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Money myth:\nIt's your willpower?",
+ "cover": {
+  "title": "Not Willpower",
+  "prop": "pot",
+  "label": "AUTO",
+  "value": "94%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "94% vs 64%. The gap isn't willpower.",
+   "say": "Ninety-four percent versus sixty-four. The gap isn't willpower.",
+   "scene": {
+    "t": "hook",
+    "title": "Not a [willpower] problem",
+    "prop": "pot",
+    "label": "AUTO",
+    "value": "94%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A year ago, Fidelity found saving more was the top money resolution, picked by 44%.",
+   "say": "A year ago, Fidelity found saving more was the top money resolution, picked by forty-four percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Want to save more",
+    "value": "44%",
+    "tone": "neutral",
+    "sub": "Fidelity, Dec 2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, 94% of workers took part in Vanguard plans that auto-enroll. Opt-in plans? 64%.",
+   "say": "In twenty twenty-five, ninety-four percent of workers took part in Vanguard plans that auto-enroll. Opt-in plans? Sixty-four percent.",
+   "scene": {
+    "t": "compare",
+    "title": "401(k) participation, 2025",
+    "left": {
+     "label": "Opt in",
+     "value": "64%",
+     "tone": "down",
+     "sub": "Vanguard"
+    },
+    "right": {
+     "label": "Automatic",
+     "value": "94%",
+     "tone": "up",
+     "sub": "Vanguard"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same-company studies point to the real difference: the default setting.",
+   "say": "Same-company studies point to the real difference: the default setting.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "401(k) participation, 2025",
+    "left": {
+     "label": "Opt in",
+     "value": "64%",
+     "tone": "down",
+     "sub": "Vanguard"
+    },
+    "right": {
+     "label": "Automatic",
+     "value": "94%",
+     "tone": "up",
+     "sub": "Vanguard"
+    },
+    "winner": "right",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "61% of Vanguard plans auto-enrolled by 2025, up from 48% in 2018.",
+   "say": "Sixty-one percent of Vanguard plans auto-enrolled by twenty twenty-five, up from forty-eight percent in twenty eighteen.",
+   "scene": {
+    "t": "chart",
+    "title": "Plans that auto-enroll",
+    "points": [
+     [
+      2018,
+      48
+     ],
+     [
+      2019,
+      50
+     ],
+     [
+      2020,
+      54
+     ],
+     [
+      2021,
+      56
+     ],
+     [
+      2022,
+      58
+     ],
+     [
+      2023,
+      59
+     ],
+     [
+      2024,
+      61
+     ],
+     [
+      2025,
+      61
+     ]
+    ],
+    "suffix": "%",
+    "end": "61%",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a 2004 study, workers who pre-committed future raises went from saving 3.5% to 13.6% in 40 months.",
+   "say": "In a twenty oh four study, workers who pre-committed future raises went from saving three point five percent to thirteen point six percent in forty months.",
+   "scene": {
+    "t": "stat",
+    "label": "Savings rate",
+    "value": "13.6%",
+    "tone": "up",
+    "sub": "From 3.5%, 2004",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start small: $50 moved automatically every two weeks is $1,300 a year (our math).",
+   "say": "Start small. Fifty dollars moved automatically every two weeks is thirteen hundred dollars a year, by our math.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per paycheck",
+     "value": "$50"
+    },
+    "to": {
+     "label": "26 paychecks",
+     "value": "$1,300"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So skip the grit. Automate it, time it to payday, and save part of each raise.",
+   "say": "So skip the grit. Automate it, time it to payday, and save part of each raise.",
+   "scene": {
+    "t": "list",
+    "title": "Systems beat grit",
+    "items": [
+     "Automate it",
+     "Time to payday",
+     "Save raises"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Money resolutions don't fail from willpower. Here's the data",
+  "ig": "94% vs 64%. The gap isn't willpower.\nFidelity (Dec 2025): saving more was the top money resolution for 2026 (44%).\nVanguard, 2025: participation was 94% in 401(k) plans that auto-enroll, vs 64% in opt-in plans. 61% of Vanguard plans auto-enrolled by 2025, up from 48% in 2018.\nA 2004 Save More Tomorrow study: workers who pre-committed future raises went from saving 3.5% to 13.6% in 40 months.\nOur math: $50 automatic transfer every two weeks (26 times) = $1,300 a year.\nSources: Fidelity (Dec 2025), Vanguard How America Saves, Thaler and Benartzi (2004).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#moneymyths #newyearsresolution #saving #personalfinance #financeprostv",
+  "tiktok": "94% vs 64%. The gap isn't willpower. Not financial advice. #moneytok #personalfinance #moneymyths #saving #financeprostv",
+  "yt_desc": "Money resolutions don't fail from weak willpower; setup matters more. In 2025, participation was 94% in Vanguard 401(k) plans with automatic enrollment versus 64% in opt-in plans, and in a 2004 Save More Tomorrow study, workers who joined went from saving 3.5% to 13.6% in 40 months. Our math: $50 automatically every two weeks is $1,300 a year. Sources: Fidelity, Vanguard How America Saves, Thaler and Benartzi (2004). News and education, not financial advice. #Shorts #moneymyths #saving",
+  "tags": [
+   "new years money resolution",
+   "willpower myth",
+   "automatic savings",
+   "401k auto enrollment",
+   "financeprostv"
+  ]
+ }
+}
