@@ -1,0 +1,198 @@
+{
+ "series": "ticker",
+ "header": "Money myth:\nIt's your willpower?",
+ "cover": {
+  "title": "Not Willpower",
+  "prop": "pot",
+  "label": "AUTO",
+  "value": "94%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your money resolution isn't a willpower problem. It's a setup problem.",
+   "say": "Your money resolution isn't a willpower problem. It's a setup problem.",
+   "scene": {
+    "t": "hook",
+    "title": "Not a [willpower] problem",
+    "prop": "pot",
+    "label": "AUTO",
+    "value": "94%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fidelity found the top money resolution for 2026 was saving more, picked by 44%.",
+   "say": "Fidelity found the top money resolution for twenty twenty-six was saving more, picked by forty-four percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Want to save more",
+    "value": "44%",
+    "tone": "neutral",
+    "sub": "Fidelity, Dec 2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what works. In 2025, 94% of workers joined Vanguard plans that auto-enrolled them. Opt-in plans? 64%.",
+   "say": "Here's what works. In twenty twenty-five, ninety-four percent of workers joined Vanguard plans that auto-enrolled them. Opt-in plans? Sixty-four percent.",
+   "scene": {
+    "t": "compare",
+    "title": "401(k) sign-ups, 2025",
+    "left": {
+     "label": "Opt in",
+     "value": "64%",
+     "tone": "down",
+     "sub": "Vanguard"
+    },
+    "right": {
+     "label": "Automatic",
+     "value": "94%",
+     "tone": "up",
+     "sub": "Vanguard"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same kinds of workers. The difference was the default setting.",
+   "say": "Same kinds of workers. The big difference was the default setting.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "401(k) sign-ups, 2025",
+    "left": {
+     "label": "Opt in",
+     "value": "64%",
+     "tone": "down",
+     "sub": "Vanguard"
+    },
+    "right": {
+     "label": "Automatic",
+     "value": "94%",
+     "tone": "up",
+     "sub": "Vanguard"
+    },
+    "winner": "right",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Employers noticed: 61% of Vanguard plans auto-enrolled by 2025, up from 48% in 2018.",
+   "say": "Employers noticed. Sixty-one percent of Vanguard plans auto-enrolled by twenty twenty-five, up from forty-eight percent in twenty eighteen.",
+   "scene": {
+    "t": "chart",
+    "title": "Plans that auto-enroll",
+    "points": [
+     [
+      2018,
+      48
+     ],
+     [
+      2019,
+      50
+     ],
+     [
+      2020,
+      54
+     ],
+     [
+      2021,
+      56
+     ],
+     [
+      2022,
+      58
+     ],
+     [
+      2023,
+      59
+     ],
+     [
+      2024,
+      61
+     ],
+     [
+      2025,
+      61
+     ]
+    ],
+    "suffix": "%",
+    "end": "61%",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a 2004 study, workers pre-committed future raises, and savings rates rose from 3.5% to 13.6% in 40 months.",
+   "say": "In a twenty oh four study, workers pre-committed future raises, and savings rates rose from three point five to thirteen point six percent in forty months.",
+   "scene": {
+    "t": "stat",
+    "label": "Savings rate",
+    "value": "13.6%",
+    "tone": "up",
+    "sub": "From 3.5%, 2004",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start small: $50 moved automatically each paycheck is $1,300 a year (our math).",
+   "say": "Start small. Fifty dollars moved automatically each paycheck is thirteen hundred dollars a year, by our math.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per paycheck",
+     "value": "$50"
+    },
+    "to": {
+     "label": "26 paychecks",
+     "value": "$1,300"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So skip the grit. Automate it, time it to payday, and save part of each raise.",
+   "say": "So skip the grit. Automate it, time it to payday, and save part of each raise.",
+   "scene": {
+    "t": "list",
+    "title": "Systems beat grit",
+    "items": [
+     "Automate it",
+     "Time to payday",
+     "Save raises"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Money resolutions don't fail from willpower. Here's proof",
+  "ig": "Your money resolution isn't a willpower problem. It's a setup problem.\nFidelity: the top money resolution for 2026 was saving more (44%).\nVanguard, 2025: 94% of workers joined 401(k) plans that enrolled them automatically, vs 64% in opt-in plans. 61% of Vanguard plans auto-enrolled by 2025, up from 48% in 2018.\nA 2004 Save More Tomorrow study: savings rates rose from 3.5% to 13.6% in 40 months when workers pre-committed future raises.\nOur math: $50 automatic transfer x 26 paychecks = $1,300 a year.\nSources: Fidelity (Dec 2025), Vanguard How America Saves, Thaler and Benartzi (2004).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#moneymyths #newyearsresolution #saving #personalfinance #financeprostv",
+  "tiktok": "Your money resolution isn't a willpower problem. Not financial advice. #moneytok #personalfinance #moneymyths #saving #financeprostv",
+  "yt_desc": "Money resolutions don't fail from weak willpower; setup matters more. In 2025, 94% of workers joined Vanguard 401(k) plans with automatic enrollment versus 64% in opt-in plans, and a 2004 Save More Tomorrow study saw savings rates rise from 3.5% to 13.6% in 40 months. Our math: $50 automatically per paycheck is $1,300 a year. Sources: Fidelity, Vanguard How America Saves, Thaler and Benartzi (2004). News and education, not financial advice. #Shorts #moneymyths #saving",
+  "tags": [
+   "new years money resolution",
+   "willpower myth",
+   "automatic savings",
+   "401k auto enrollment",
+   "financeprostv"
+  ]
+ }
+}
