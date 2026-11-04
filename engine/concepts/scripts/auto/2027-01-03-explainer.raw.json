@@ -10,11 +10,11 @@
  "lines": [
   {
    "who": "nutty",
-   "text": "Squirrel lends 100 acorns and wants 105 back. Why?",
-   "say": "Squirrel lends a hundred acorns and wants a hundred five back. Why?",
+   "text": "Borrow 100 acorns, owe 105. Why?",
+   "say": "Borrow a hundred acorns, owe a hundred and five. Why?",
    "scene": {
     "t": "hook",
-    "title": "Lend 100, get [105]",
+    "title": "Borrow 100, owe [105]",
     "prop": "acorns",
     "label": "100",
     "value": "105",
@@ -50,8 +50,8 @@
   },
   {
    "who": "nutty",
-   "text": "And risk. The chipmunk might never pay him back.",
-   "say": "And risk. The chipmunk might never pay him back.",
+   "text": "And risk: the chipmunk borrower might never pay back.",
+   "say": "And risk: the chipmunk borrower might never pay back.",
    "scene": {
     "t": "list",
     "keep": true,
@@ -68,20 +68,20 @@
   {
    "who": "nutty",
    "text": "Our math: 100 acorns at 5% for a year makes 105.",
-   "say": "Our math: a hundred acorns at five percent for a year makes a hundred five.",
+   "say": "Our math: a hundred acorns at five percent for a year makes a hundred and five.",
    "scene": {
     "t": "board",
     "lines": [
      "Our math:",
-     "100 + 5% = 105"
+     "100 x 1.05 = 105"
     ],
     "mood": "happy"
    }
   },
   {
    "who": "nutty",
-   "text": "Banks rent both ways: savings paid 0.38% in October 2026, cards charged 22.36% in August 2026.",
-   "say": "Banks rent both ways: savings paid about zero point four percent in October twenty twenty-six, cards charged about twenty-two percent in August.",
+   "text": "Banks rent both ways. In 2026, savings paid 0.38%; cards charged 22.36%.",
+   "say": "Banks rent both ways. In twenty twenty-six, savings paid zero point three eight percent; cards charged twenty-two point three six percent.",
    "scene": {
     "t": "compare",
     "title": "Same banks, two rents",
@@ -92,7 +92,7 @@
      "sub": "FDIC, Oct 2026"
     },
     "right": {
-     "label": "Card APR",
+     "label": "Card rate",
      "value": "22.36%",
      "tone": "up",
      "sub": "Fed, Aug 2026"
@@ -103,7 +103,7 @@
   {
    "who": "nutty",
    "text": "Mortgage rent moves too: 2.96% in 2021, 6.6% in 2025.",
-   "say": "Mortgage rent moves too: about three percent in twenty twenty-one, six point six in twenty twenty-five.",
+   "say": "Mortgage rent moves too: two point nine six percent in twenty twenty-one, six point six percent in twenty twenty-five.",
    "scene": {
     "t": "chart",
     "title": "30-yr mortgage, yearly avg",
@@ -163,7 +163,7 @@
     "t": "building",
     "kind": "fed",
     "label": "3.75-4%",
-    "caption": "The base rent",
+    "caption": "Base rent, Oct 2026",
     "mood": "think"
    }
   },
