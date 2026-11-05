@@ -1,0 +1,209 @@
+{
+ "series": "ticker",
+ "header": "How vending machines\nmake money",
+ "cover": {
+  "title": "Tap Beats Cash",
+  "prop": "card",
+  "label": "2025",
+  "value": "+88¢"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Card buyers spend 88¢ more per vending sale than cash.",
+   "say": "Card buyers spend eighty-eight cents more per vending sale than cash.",
+   "scene": {
+    "t": "hook",
+    "title": "Cards pay [more]",
+    "prop": "card",
+    "label": "2025",
+    "value": "+88¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, on Cantaloupe's network, card sales averaged $2.45; cash, $1.57.",
+   "say": "In twenty twenty-five, on Cantaloupe's network, card sales averaged two forty-five; cash, a dollar fifty-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg vending sale",
+    "left": {
+     "label": "Card",
+     "value": "$2.45",
+     "tone": "up",
+     "sub": "2025"
+    },
+    "right": {
+     "label": "Cash",
+     "value": "$1.57",
+     "tone": "down",
+     "sub": "2025"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average vending sale overall was $2.01. Where does it go?",
+   "say": "The average vending sale overall was two dollars and one cent. Where does it go?",
+   "scene": {
+    "t": "stat",
+    "label": "Avg vending sale",
+    "value": "$2.01",
+    "tone": "neutral",
+    "sub": "Cantaloupe, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math, with example costs: the snack costs $1.",
+   "say": "Our math, with example costs: the snack costs a dollar.",
+   "scene": {
+    "t": "list",
+    "title": "Our math: $2.01",
+    "items": [
+     "Snack: $1.00",
+     "Host: 20¢",
+     "Card fee: 10¢",
+     "Left: 71¢"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The host building might take 10%. That's 20¢.",
+   "say": "The host building might take ten percent. That's twenty cents.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Our math: $2.01",
+    "items": [
+     "Snack: $1.00",
+     "Host: 20¢",
+     "Card fee: 10¢",
+     "Left: 71¢"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 5% card fee takes about 10¢ more.",
+   "say": "A five percent card fee takes about ten cents more.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Our math: $2.01",
+    "items": [
+     "Snack: $1.00",
+     "Host: 20¢",
+     "Card fee: 10¢",
+     "Left: 71¢"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves 71¢ for the truck, the driver and the machine.",
+   "say": "That leaves seventy-one cents for the truck, the driver and the machine.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Our math: $2.01",
+    "items": [
+     "Snack: $1.00",
+     "Host: 20¢",
+     "Card fee: 10¢",
+     "Left: 71¢"
+    ],
+    "reveal": 4,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, cards and phones were 78% of vending sales on Cantaloupe's network.",
+   "say": "In twenty twenty-five, cards and phones were seventy-eight percent of vending sales on Cantaloupe's network.",
+   "scene": {
+    "t": "stat",
+    "label": "Cashless share",
+    "value": "78%",
+    "tone": "up",
+    "sub": "Cantaloupe, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cantaloupe's payment volume nearly doubled, from $1.8 billion in fiscal 2021 to $3.4 billion in 2025.",
+   "say": "Cantaloupe's payment volume nearly doubled, from one point eight billion in fiscal twenty twenty-one to three point four billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Cantaloupe FY volume",
+    "points": [
+     [
+      2021,
+      1.8
+     ],
+     [
+      2022,
+      2.3
+     ],
+     [
+      2023,
+      2.6
+     ],
+     [
+      2024,
+      3.0
+     ],
+     [
+      2025,
+      3.4
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$3.4B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So operators keep part of that 71¢, millions of times over.",
+   "say": "So operators keep part of that seventy-one cents, millions of times over.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Part of 71¢",
+     "x millions"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why card buyers spend 88 cents more at vending machines",
+  "ig": "Card buyers spent 88 cents more per vending sale than cash buyers in 2025.\nOn Cantaloupe's network, the average card sale was $2.45 vs $1.57 in cash; the overall average vending sale was $2.01.\nOur math with example costs: a $1.00 snack, a 10% host commission (20¢) and a 5% card fee (10¢) leave about 71¢ before trucks, drivers and machines.\nOn that network, cashless hit 78% of vending sales in 2025, and Cantaloupe's payment volume grew from $1.8B (FY2021) to $3.4B (FY2025).\nCantaloupe has been part of 365 Retail Markets since May 2026.\nSources: Cantaloupe 2026 Micropayment Trends Report; Cantaloupe 10-K filings (SEC).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#vending #vendingmachine #cashless #howtheymakemoney #financeprostv",
+  "tiktok": "Card buyers spend 88¢ more per vending sale than cash (2025). Not financial advice. #moneytok #personalfinance #vending #financeprostv",
+  "yt_desc": "In 2025, the average vending sale on Cantaloupe's payment network was $2.01, with card sales averaging $2.45 versus $1.57 in cash, and cashless reaching 78% of vending sales (Cantaloupe 2026 Micropayment Trends Report). Cantaloupe's total payment volume grew from $1.8 billion in fiscal 2021 to $3.4 billion in fiscal 2025, per its 10-K filings; the snack-cost split shown is our math with example costs. Cantaloupe has been part of 365 Retail Markets since May 2026. News and education, not financial advice. #Shorts #vending #howtheymakemoney",
+  "tags": [
+   "how vending machines make money",
+   "vending machine business model",
+   "cashless payments",
+   "cantaloupe",
+   "how they make money"
+  ]
+ }
+}
