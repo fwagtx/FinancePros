@@ -1,72 +1,193 @@
 {
- "series": "ticker",
- "header": "The 25x rule:\nwhere it comes from",
- "cover": {
-  "title": "Why 25 Times?",
-  "prop": "none",
-  "value": "25x"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "Why does retirement math say you need 25x your spending?",
-   "say": "Why does retirement math say you need twenty-five times your spending?",
-   "scene": {"t": "hook", "title": "Why [25x] spending?", "prop": "none", "value": "25x", "mood": "think"}
+  "series": "ticker",
+  "header": "The 25x rule:\nwhere it comes from",
+  "cover": {
+    "title": "Why 25 Times?",
+    "prop": "none",
+    "value": "25x"
   },
-  {
-   "who": "ticker",
-   "text": "It's the 4% rule, flipped: 1 divided by 0.04 is 25.",
-   "say": "It's the four percent rule, flipped: one divided by point zero four is twenty-five.",
-   "scene": {"t": "board", "lines": ["1 / 0.04 = 25", "4% rule, flipped"], "mood": "happy"}
-  },
-  {
-   "who": "ticker",
-   "text": "In 1994, planner William Bengen tested 30-year retirements back to 1926 and found 4% survived them all.",
-   "say": "In nineteen ninety-four, planner William Bengen tested thirty-year retirements back to nineteen twenty-six and found four percent survived them all.",
-   "scene": {"t": "timeline", "events": [{"when": "1926", "what": "Data starts"}, {"when": "1994", "what": "Bengen: 4% rule"}, {"when": "1998", "what": "Trinity study"}], "reveal": 2, "mood": "think"}
-  },
-  {
-   "who": "ticker",
-   "text": "A 1998 Trinity University study backed it up, and the name stuck.",
-   "say": "A nineteen ninety-eight Trinity University study backed it up, and the name stuck.",
-   "scene": {"t": "timeline", "keep": true, "events": [{"when": "1926", "what": "Data starts"}, {"when": "1994", "what": "Bengen: 4% rule"}, {"when": "1998", "what": "Trinity study"}], "reveal": 3, "mood": "up"}
-  },
-  {
-   "who": "ticker",
-   "text": "Morningstar's forward-looking estimate runs lower: 3.9% in December 2025.",
-   "say": "Morningstar's forward-looking estimate runs lower: three point nine percent in December twenty twenty-five.",
-   "scene": {"t": "chart", "title": "Morningstar safe rate", "points": [[2021, 3.3], [2022, 3.8], [2023, 4.0], [2024, 3.7], [2025, 3.9]], "suffix": "%", "end": "3.9%", "color": "up", "mood": "think"}
-  },
-  {
-   "who": "ticker",
-   "text": "Then there's Social Security: the average retirement check was about $2,071 a month in January 2026.",
-   "say": "Then there's Social Security: the average retirement check was about two thousand seventy-one dollars a month in January twenty twenty-six.",
-   "scene": {"t": "stat", "label": "Avg. retiree check", "value": "$2,071", "tone": "up", "sub": "SSA, Jan. 2026", "mood": "happy"}
-  },
-  {
-   "who": "ticker",
-   "text": "Our math: $40,000 a year times 25 is $1 million. Subtract about $25,000 of Social Security first, and it's $375,000.",
-   "say": "Our math: forty thousand a year times twenty-five is one million. Subtract about twenty-five thousand of Social Security first, and it's three hundred seventy-five thousand.",
-   "scene": {"t": "compare", "title": "Our math: $40K/yr", "left": {"label": "No SS", "value": "$1M", "tone": "neutral", "sub": "$40K x 25"}, "right": {"label": "With SS", "value": "$375K", "tone": "up", "sub": "$15K x 25"}, "mood": "shock"}
-  },
-  {
-   "who": "ticker",
-   "text": "It's a rule of thumb, not a guarantee: taxes, fees and bad early years can break it.",
-   "say": "It's a rule of thumb, not a guarantee: taxes, fees and bad early years can break it.",
-   "scene": {"t": "list", "title": "Not a guarantee", "items": ["Taxes", "Fees", "Bad early yrs"], "reveal": 3, "mood": "worried"}
-  },
-  {
-   "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
-   "scene": {"t": "cta", "tagline": "25x = 1 / 4%"}
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Why does retirement math say you need 25x your spending?",
+      "say": "Why does retirement math say you need twenty-five times your spending?",
+      "scene": {
+        "t": "hook",
+        "title": "Why [25x] spending?",
+        "prop": "none",
+        "value": "25x",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's the 4% rule flipped: 1 divided by 0.04 is 25.",
+      "say": "It's the four percent rule flipped: one divided by point zero four is twenty-five.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "1 / 0.04 = 25",
+          "4% rule, flipped"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 1994, William Bengen tested 30-year retirements back to 1926 and found 4% survived them all.",
+      "say": "In nineteen ninety-four, William Bengen tested thirty-year retirements back to nineteen twenty-six and found four percent survived them all.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "1926",
+            "what": "Data starts"
+          },
+          {
+            "when": "1994",
+            "what": "Bengen: 4% rule"
+          },
+          {
+            "when": "1998",
+            "what": "Trinity study"
+          }
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A 1998 Trinity study backed it up.",
+      "say": "A nineteen ninety-eight Trinity study backed it up.",
+      "scene": {
+        "t": "timeline",
+        "keep": true,
+        "events": [
+          {
+            "when": "1926",
+            "what": "Data starts"
+          },
+          {
+            "when": "1994",
+            "what": "Bengen: 4% rule"
+          },
+          {
+            "when": "1998",
+            "what": "Trinity study"
+          }
+        ],
+        "reveal": 3,
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Morningstar's forward-looking estimate is lower: 3.9% in December 2025.",
+      "say": "Morningstar's forward-looking estimate is lower: three point nine percent in December twenty twenty-five.",
+      "scene": {
+        "t": "chart",
+        "title": "Morningstar safe rate",
+        "points": [
+          [
+            2021,
+            3.3
+          ],
+          [
+            2022,
+            3.8
+          ],
+          [
+            2023,
+            4.0
+          ],
+          [
+            2024,
+            3.7
+          ],
+          [
+            2025,
+            3.9
+          ]
+        ],
+        "suffix": "%",
+        "end": "3.9%",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Social Security helps: the average check was about $2,071 a month in January 2026, before a 3.6% raise for 2027.",
+      "say": "Social Security helps: the average check was about two thousand seventy-one dollars a month in January twenty twenty-six, before a three point six percent raise for twenty twenty-seven.",
+      "scene": {
+        "t": "stat",
+        "label": "Avg. retiree check",
+        "value": "$2,071",
+        "tone": "up",
+        "sub": "SSA, Jan. 2026",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: $40,000 a year times 25 is $1 million. Subtract about $26,000 of Social Security, and it's $350,000.",
+      "say": "Our math: forty thousand a year times twenty-five is one million. Subtract about twenty-six thousand of Social Security, and it's three hundred fifty thousand.",
+      "scene": {
+        "t": "compare",
+        "title": "Our math: $40K/yr",
+        "left": {
+          "label": "No SS",
+          "value": "$1M",
+          "tone": "neutral",
+          "sub": "$40K x 25"
+        },
+        "right": {
+          "label": "With SS",
+          "value": "$350K",
+          "tone": "up",
+          "sub": "$14K x 25"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's a rule of thumb, not a promise: taxes, fees and bad early years can break it.",
+      "say": "It's a rule of thumb, not a promise: taxes, fees and bad early years can break it.",
+      "scene": {
+        "t": "list",
+        "title": "Not a guarantee",
+        "items": [
+          "Taxes",
+          "Fees",
+          "Bad early yrs"
+        ],
+        "reveal": 3,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "tagline": "25x = 1 / 4%"
+      }
+    }
+  ],
+  "post": {
+    "title": "The 25x retirement rule: where the magic number comes from",
+    "ig": "Why does retirement math say 25x your spending? It's the 4% rule flipped: 1 / 0.04 = 25.\nWilliam Bengen's 1994 study tested 30-year US retirements back to 1926; a 4% start survived them all. The 1998 Trinity study backed it up.\nMorningstar's forward-looking estimate was 3.9% (Dec 2025). Bengen raised his own figure to 4.7% in his 2025 book.\nOur math: $40,000/yr x 25 = $1,000,000. Subtract ~$26,000 of Social Security (avg $2,071/mo in Jan 2026, plus the 3.6% raise for 2027; our math) and it's $350,000.\nA rule of thumb, not a guarantee: taxes, fees and bad early years matter.\nSources: Journal of Financial Planning (1994), AAII Journal (1998), Morningstar, SSA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#retirement #4percentrule #fire #personalfinance #financeprostv",
+    "tiktok": "Why 25x your spending? It's the 4% rule flipped. Not financial advice. #moneytok #personalfinance #retirement #4percentrule #financeprostv",
+    "yt_desc": "The 25x retirement rule is the 4% rule flipped (1 / 0.04 = 25), from William Bengen's 1994 study of 30-year US retirements since 1926 and the 1998 Trinity study. Morningstar's forward-looking estimate was 3.9% in December 2025, and Social Security (avg $2,071/month in Jan 2026, plus a 3.6% raise for 2027) shrinks the target: in our math, $40,000/yr drops from $1,000,000 to $350,000. News and education, not financial advice. #Shorts #retirement #personalfinance",
+    "tags": [
+      "25x rule",
+      "4% rule explained",
+      "retirement number",
+      "safe withdrawal rate",
+      "William Bengen"
+    ]
   }
- ],
- "post": {
-  "title": "The 25x retirement rule: where the magic number comes from",
-  "ig": "Why does retirement math say 25x your spending? It's the 4% rule flipped: 1 / 0.04 = 25.\nWilliam Bengen's 1994 study tested 30-year US retirements back to 1926; a 4% start survived them all. The 1998 Trinity study backed it up.\nMorningstar's forward-looking estimate was 3.9% (Dec 2025). Bengen raised his own figure to 4.7% in his 2025 book.\nOur math: $40,000/yr x 25 = $1,000,000. Subtract ~$25,000 of Social Security (avg $2,071/mo, Jan 2026) and it's $375,000.\nA rule of thumb, not a guarantee: taxes, fees and bad early years matter.\nSources: Journal of Financial Planning (1994), AAII Journal (1998), Morningstar, SSA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#retirement #4percentrule #fire #personalfinance #financeprostv",
-  "tiktok": "Why 25x your spending? It's the 4% rule flipped. Not financial advice. #moneytok #personalfinance #retirement #4percentrule #financeprostv",
-  "yt_desc": "The 25x retirement rule is the 4% rule flipped (1 / 0.04 = 25), from William Bengen's 1994 study of 30-year US retirements since 1926 and the 1998 Trinity study. Morningstar's forward-looking estimate was 3.9% in December 2025, and Social Security (avg $2,071/month, Jan 2026) shrinks the target: in our math, $40,000/yr drops from $1,000,000 to $375,000. News and education, not financial advice. #Shorts #retirement #personalfinance",
-  "tags": ["25x rule", "4% rule explained", "retirement number", "safe withdrawal rate", "William Bengen"]
- }
 }

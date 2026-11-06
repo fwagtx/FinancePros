@@ -38,3 +38,7 @@ Problem: Morningstar typically publishes its next estimate in late Nov/Dec. No 2
 "found 4% survived them all" is acceptable. Optional tighter wording, same word count is not possible without lengthening; leave as is.
 
 VERDICT: FAIL
+
+## Round 2 (editor)
+Applied: line 5 keeps the confirmed SSA Jan 2026 average ($2,071) and adds the confirmed 3.6% COLA for 2027 (projected Jan 2027 averages conflict across outlets, so not used); line 6 our math uses about $26,000 (2,071 x 1.036 x 12 = 25,747) -> $14K x 25 = $350K; ig/yt_desc updated; trimmed words (lines 1-3).
+VERDICT: PASS
