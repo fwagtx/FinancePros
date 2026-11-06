@@ -1,0 +1,1731 @@
+{
+ "id": "2027-01-05-lf-business",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "How Google makes\nmoney from free",
+ "cover": {
+  "title": "Free Isn't Free.",
+  "prop": "coins",
+  "label": "PER DAY",
+  "value": "$800M+"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Google's free. Its ads made over $800 million a day.",
+   "say": "Google's free. Its ads made over eight hundred million a day.",
+   "scene": {
+    "t": "hook",
+    "title": "Free Isn't [Free]",
+    "prop": "coins",
+    "label": "ADS",
+    "value": "$800M+",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 2025: $294.7 billion in ads, or about $807 million a day, by our math.",
+   "say": "That's twenty twenty-five: two hundred ninety-four point seven billion dollars in ads, or about eight hundred seven million a day, by our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Google ads, 2025",
+    "value": "$294.7B",
+    "tone": "up",
+    "sub": "Alphabet 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how does a company that charges you zero become one of the biggest money machines on Earth?",
+   "say": "So how does a company that charges you zero become one of the biggest money machines on Earth?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price to you: $0",
+     "Still a giant"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Short answer: you're not the customer. You're the reason the customer shows up.",
+   "say": "Short answer: you're not the customer. You're the reason the customer shows up.",
+   "scene": {
+    "t": "split",
+    "title": "Who pays?",
+    "left": {
+     "title": "You",
+     "items": [
+      "Search free",
+      "Watch free"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Advertisers",
+     "items": [
+      "Pay per click",
+      "Pay per view"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In this video: the auction behind every search, the bill for being the default, the court case, and what comes after ads.",
+   "say": "In this video: the auction behind every search, the bill for being the default, the court case, and what comes after ads.",
+   "scene": {
+    "t": "list",
+    "title": "This video",
+    "items": [
+     "Ad auction",
+     "Default deals",
+     "Court case",
+     "After ads"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every number comes from Alphabet's filings, with dates attached. This is education, not advice about any stock.",
+   "say": "Every number comes from Alphabet's filings, with dates attached. This is education, not advice about any stock.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Alphabet filings",
+     "Education only"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: The free trick",
+   "say": "Chapter one: the free trick.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The free trick"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Google started in 1998 as a search engine with no real way to make money.",
+   "say": "Google started in nineteen ninety-eight as a search engine with no real way to make money.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "GOOGLE",
+    "label": "1998",
+    "caption": "Great search, no business"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fix came in 2000, with a product called AdWords: small text ads next to your results.",
+   "say": "The fix came in two thousand, with a product called AdWords: small text ads next to your results.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2000",
+      "AdWords launches"
+     ],
+     [
+      "2004",
+      "Goes public"
+     ],
+     [
+      "2006",
+      "Buys YouTube"
+     ],
+     [
+      "2015",
+      "Alphabet formed"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2004 that ad engine was big enough to take Google public.",
+   "say": "By two thousand four that ad engine was big enough to take Google public.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2000",
+      "AdWords launches"
+     ],
+     [
+      "2004",
+      "Goes public"
+     ],
+     [
+      "2006",
+      "Buys YouTube"
+     ],
+     [
+      "2015",
+      "Alphabet formed"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2006 it bought YouTube, which turned free videos into another giant ad shelf.",
+   "say": "In two thousand six it bought YouTube, which turned free videos into another giant ad shelf.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2000",
+      "AdWords launches"
+     ],
+     [
+      "2004",
+      "Goes public"
+     ],
+     [
+      "2006",
+      "Buys YouTube"
+     ],
+     [
+      "2015",
+      "Alphabet formed"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in 2015 it reorganized under a parent company called Alphabet. Google is still where nearly all the money comes from.",
+   "say": "And in twenty fifteen it reorganized under a parent company called Alphabet. Google is still where nearly all the money comes from.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2000",
+      "AdWords launches"
+     ],
+     [
+      "2004",
+      "Goes public"
+     ],
+     [
+      "2006",
+      "Buys YouTube"
+     ],
+     [
+      "2015",
+      "Alphabet formed"
+     ]
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the trick. When you type a search, you tell Google exactly what you want, right now.",
+   "say": "Here's the trick. When you type a search, you tell Google exactly what you want, right now.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You type it,",
+     "you want it"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A TV ad guesses who's watching. A search ad knows. Someone typing 'plumber near me' isn't browsing. They're buying.",
+   "say": "A TV ad guesses who's watching. A search ad knows. Someone typing 'plumber near me' isn't browsing. They're buying.",
+   "scene": {
+    "t": "split",
+    "title": "Ad that knows",
+    "left": {
+     "title": "TV ad",
+     "items": [
+      "Guesses",
+      "Shown to all"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Search ad",
+     "items": [
+      "Knows intent",
+      "Shown on ask"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That moment of intent is the product. Google sells a spot in front of it.",
+   "say": "That moment of intent is the product. Google sells a spot in front of it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Intent is",
+     "the product"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it doesn't set the price. Advertisers set it, in an auction that runs in a split second every time you search.",
+   "say": "And it doesn't set the price. Advertisers set it, in an auction that runs in a split second every time you search.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price set by",
+     "a live auction"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Inside the ad auction",
+   "say": "Chapter two: inside the ad auction.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Inside the ad auction"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Advertisers pick keywords and a maximum bid: the most they'll pay for one click.",
+   "say": "Advertisers pick keywords and a maximum bid: the most they'll pay for one click.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Keyword + max bid",
+     "per click"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the core idea: cost per click. A business pays nothing when you see its ad, only when you click it.",
+   "say": "That's the core idea: cost per click. A business pays nothing when you see its ad, only when you click it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "CPC = cost",
+     "per click"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the highest bid doesn't automatically win. Google also grades each ad.",
+   "say": "But the highest bid doesn't automatically win. Google also grades each ad.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Top bid doesn't",
+     "always win"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That grade is Quality Score, a 1 to 10 rating for each keyword.",
+   "say": "That grade is Quality Score, a one to ten rating for each keyword.",
+   "scene": {
+    "t": "stat",
+    "label": "Quality Score",
+    "value": "1-10",
+    "tone": "neutral",
+    "sub": "Google Ads Help"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It looks at three things. First, how likely people are to click the ad.",
+   "say": "It looks at three things. First, how likely people are to click the ad.",
+   "scene": {
+    "t": "list",
+    "title": "Quality Score",
+    "items": [
+     "Click chance",
+     "Ad relevance",
+     "Landing page"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, how well the ad matches what you searched.",
+   "say": "Second, how well the ad matches what you searched.",
+   "scene": {
+    "t": "list",
+    "title": "Quality Score",
+    "items": [
+     "Click chance",
+     "Ad relevance",
+     "Landing page"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, how good the page is after you click.",
+   "say": "Third, how good the page is after you click.",
+   "scene": {
+    "t": "list",
+    "title": "Quality Score",
+    "items": [
+     "Click chance",
+     "Ad relevance",
+     "Landing page"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Google doesn't publish its exact formula. But marketers use a simple version: bid times Quality Score equals Ad Rank.",
+   "say": "Google doesn't publish its exact formula. But marketers use a simple version: bid times Quality Score equals Ad Rank.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bid x Quality",
+     "= Ad Rank"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's run it. This is a simplified example, our math.",
+   "say": "Let's run it. This is a simplified example, our math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Simplified example",
+     "(our math)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ann bids $4 a click, but her ad is so-so: Quality Score 5. Her Ad Rank is 20.",
+   "say": "Ann bids four dollars a click, but her ad is so-so: Quality Score five. Her Ad Rank is twenty.",
+   "scene": {
+    "t": "compare",
+    "title": "Simplified auction",
+    "left": {
+     "label": "Ann",
+     "value": "20",
+     "tone": "neutral",
+     "sub": "$4 bid x QS 5"
+    },
+    "right": {
+     "label": "Ben",
+     "value": "24",
+     "tone": "up",
+     "sub": "$3 bid x QS 8"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ben bids only $3, but his ad is great: Quality Score 8. His Ad Rank is 24. Ben wins the top spot.",
+   "say": "Ben bids only three dollars, but his ad is great: Quality Score eight. His Ad Rank is twenty-four. Ben wins the top spot.",
+   "scene": {
+    "t": "compare",
+    "title": "Simplified auction",
+    "left": {
+     "label": "Ann",
+     "value": "20",
+     "tone": "neutral",
+     "sub": "$4 bid x QS 5"
+    },
+    "right": {
+     "label": "Ben",
+     "value": "24",
+     "tone": "up",
+     "sub": "$3 bid x QS 8"
+    },
+    "winner": "right",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Ben doesn't pay his full $3. He pays just enough to beat Ann: 20 divided by 8, plus a penny. That's $2.51.",
+   "say": "And Ben doesn't pay his full three dollars. He pays just enough to beat Ann: twenty divided by eight, plus a penny. That's two dollars and fifty-one cents.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Ben's max bid",
+     "value": "$3.00"
+    },
+    "to": {
+     "label": "Ben pays",
+     "value": "$2.51"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the clever part. Better ads pay less, so users see more useful ads and keep searching.",
+   "say": "That's the clever part. Better ads pay less, so users see more useful ads and keep searching.",
+   "scene": {
+    "t": "split",
+    "title": "Who it helps",
+    "left": {
+     "title": "Users",
+     "items": [
+      "Useful ads",
+      "Keep coming"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Google",
+     "items": [
+      "More clicks",
+      "More auctions"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now multiply that by billions of searches. In 2025, Alphabet said paid clicks rose 6% and the average cost per click rose 7%.",
+   "say": "Now multiply that by billions of searches. In twenty twenty-five, Alphabet said paid clicks rose six percent and the average cost per click rose seven percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Search ads, 2025",
+    "left": {
+     "label": "Paid clicks",
+     "value": "+6%",
+     "tone": "up",
+     "sub": "vs 2024"
+    },
+    "right": {
+     "label": "Cost per click",
+     "value": "+7%",
+     "tone": "up",
+     "sub": "vs 2024"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "More clicks, and each one a bit pricier. That combo is the engine.",
+   "say": "More clicks, and each one a bit pricier. That combo is the engine.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More clicks x",
+     "higher price"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the auction starts fresh on the very next search, with new bidders and new prices, all day, every day.",
+   "say": "And the auction starts fresh on the very next search, with new bidders and new prices, all day, every day.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New search,",
+     "new auction"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: The money machine",
+   "say": "Chapter three: the money machine.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The money machine"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's Alphabet's total revenue from 2015 to 2025, straight from its annual reports.",
+   "say": "Here's Alphabet's total revenue from twenty fifteen to twenty twenty-five, straight from its annual reports.",
+   "scene": {
+    "t": "chart",
+    "title": "Alphabet revenue",
+    "points": [
+     [
+      2015,
+      75.0
+     ],
+     [
+      2016,
+      90.3
+     ],
+     [
+      2017,
+      110.9
+     ],
+     [
+      2018,
+      136.8
+     ],
+     [
+      2019,
+      161.9
+     ],
+     [
+      2020,
+      182.5
+     ],
+     [
+      2021,
+      257.6
+     ],
+     [
+      2022,
+      282.8
+     ],
+     [
+      2023,
+      307.4
+     ],
+     [
+      2024,
+      350.0
+     ],
+     [
+      2025,
+      402.8
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$402.8B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2015 it was about $75 billion. In 2025 it hit $402.8 billion, the first year above $400 billion.",
+   "say": "In twenty fifteen it was about seventy-five billion dollars. In twenty twenty-five it hit four hundred two point eight billion, the first year above four hundred billion.",
+   "scene": {
+    "t": "chart",
+    "title": "Alphabet revenue",
+    "points": [
+     [
+      2015,
+      75.0
+     ],
+     [
+      2016,
+      90.3
+     ],
+     [
+      2017,
+      110.9
+     ],
+     [
+      2018,
+      136.8
+     ],
+     [
+      2019,
+      161.9
+     ],
+     [
+      2020,
+      182.5
+     ],
+     [
+      2021,
+      257.6
+     ],
+     [
+      2022,
+      282.8
+     ],
+     [
+      2023,
+      307.4
+     ],
+     [
+      2024,
+      350.0
+     ],
+     [
+      2025,
+      402.8
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$402.8B",
+    "color": "up",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look at 2021. Revenue jumped from $182.5 billion to $257.6 billion, up 41% in a year, as ad spending boomed online.",
+   "say": "Look at twenty twenty-one. Revenue jumped from one hundred eighty-two point five billion to two hundred fifty-seven point six billion, up forty-one percent in a year, as ad spending boomed online.",
+   "scene": {
+    "t": "chart",
+    "title": "Alphabet revenue",
+    "points": [
+     [
+      2015,
+      75.0
+     ],
+     [
+      2016,
+      90.3
+     ],
+     [
+      2017,
+      110.9
+     ],
+     [
+      2018,
+      136.8
+     ],
+     [
+      2019,
+      161.9
+     ],
+     [
+      2020,
+      182.5
+     ],
+     [
+      2021,
+      257.6
+     ],
+     [
+      2022,
+      282.8
+     ],
+     [
+      2023,
+      307.4
+     ],
+     [
+      2024,
+      350.0
+     ],
+     [
+      2025,
+      402.8
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$402.8B",
+    "color": "up",
+    "keep": true,
+    "mood": "shock",
+    "note": {
+     "x": 2021,
+     "text": "+41% in a year!"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From 2015 to 2025, revenue grew about 5.4 times, by our math.",
+   "say": "From twenty fifteen to twenty twenty-five, revenue grew about five point four times, by our math.",
+   "scene": {
+    "t": "stat",
+    "label": "10-year growth",
+    "value": "5.4x",
+    "tone": "up",
+    "sub": "Our math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So where did the 2025 money come from? Mostly from three ad shelves.",
+   "say": "So where did the twenty twenty-five money come from? Mostly from three ad shelves.",
+   "scene": {
+    "t": "list",
+    "title": "Ads, 2025",
+    "items": [
+     "Search $224.5B",
+     "YouTube $40.4B",
+     "Network $29.8B"
+    ],
+    "reveal": 0
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Search and other brought in $224.5 billion. That's the ads around your search results, Maps and more.",
+   "say": "Search and other brought in two hundred twenty-four point five billion dollars. That's the ads around your search results, Maps and more.",
+   "scene": {
+    "t": "list",
+    "title": "Ads, 2025",
+    "items": [
+     "Search $224.5B",
+     "YouTube $40.4B",
+     "Network $29.8B"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "YouTube ads added $40.4 billion.",
+   "say": "YouTube ads added forty point four billion.",
+   "scene": {
+    "t": "list",
+    "title": "Ads, 2025",
+    "items": [
+     "Search $224.5B",
+     "YouTube $40.4B",
+     "Network $29.8B"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the Network, ads Google places on other people's websites and apps, made $29.8 billion.",
+   "say": "And the Network, ads Google places on other people's websites and apps, made twenty-nine point eight billion.",
+   "scene": {
+    "t": "list",
+    "title": "Ads, 2025",
+    "items": [
+     "Search $224.5B",
+     "YouTube $40.4B",
+     "Network $29.8B"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Network actually slipped in 2025, from $30.4 billion the year before, on lower AdSense revenue, Alphabet said.",
+   "say": "Network actually slipped in twenty twenty-five, from thirty point four billion the year before, on lower AdSense revenue, Alphabet said.",
+   "scene": {
+    "t": "compare",
+    "title": "Google Network",
+    "left": {
+     "label": "2024",
+     "value": "$30.4B",
+     "tone": "neutral",
+     "sub": "Full year"
+    },
+    "right": {
+     "label": "2025",
+     "value": "$29.8B",
+     "tone": "down",
+     "sub": "Full year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "YouTube is bigger than its ad line, though. Counting ads and subscriptions, it brought in over $60 billion in 2025, Alphabet said.",
+   "say": "YouTube is bigger than its ad line, though. Counting ads and subscriptions, it brought in over sixty billion dollars in twenty twenty-five, Alphabet said.",
+   "scene": {
+    "t": "stat",
+    "label": "YouTube, all 2025",
+    "value": "$60B+",
+    "tone": "up",
+    "sub": "Ads + subs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add them up and ads were $294.7 billion, about 73% of all revenue in 2025, by our math.",
+   "say": "Add them up and ads were two hundred ninety-four point seven billion dollars, about seventy-three percent of all revenue in twenty twenty-five, by our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Ads share, 2025",
+    "value": "73.2%",
+    "tone": "up",
+    "sub": "Our math, 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now break that ad money down to time. $294.7 billion over 365 days is about $807 million a day.",
+   "say": "Now break that ad money down to time. Two hundred ninety-four point seven billion over three hundred sixty-five days is about eight hundred seven million a day.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Ads, 2025",
+     "value": "$294.7B"
+    },
+    "to": {
+     "label": "Per day",
+     "value": "$807M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $33.6 million an hour, or roughly $9,345 every second, by our math.",
+   "say": "That's about thirty-three point six million dollars an hour, or roughly nine thousand three hundred forty-five dollars every second, by our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Ads per second",
+    "value": "$9,345",
+    "tone": "up",
+    "sub": "2025, our math",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the time you finish one search, Google's ads have made thousands of dollars.",
+   "say": "By the time you finish one search, Google's ads have made thousands of dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "One search later:",
+     "thousands earned"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Paying for the front door",
+   "say": "Chapter four: paying for the front door.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Paying for the front door"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the part most people never hear about. Google pays a fortune to be the place you search.",
+   "say": "Here's the part most people never hear about. Google pays a fortune to be the place you search.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Google pays to",
+     "be your default"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those payments are called traffic acquisition costs, or TAC.",
+   "say": "Those payments are called traffic acquisition costs, or T A C.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "TAC = traffic",
+     "acquisition costs"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some goes to websites that show Google's ads. A lot goes to browsers, phone makers and carriers that make Google the default.",
+   "say": "Some goes to websites that show Google's ads. A lot goes to browsers, phone makers and carriers that make Google the default.",
+   "scene": {
+    "t": "split",
+    "title": "Who gets TAC",
+    "left": {
+     "title": "Network",
+     "items": [
+      "Websites",
+      "Apps"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Distribution",
+     "items": [
+      "Browsers",
+      "Phone makers"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the July to September 2026 quarter, Google ads brought in $82.0 billion.",
+   "say": "In the July to September twenty twenty-six quarter, Google ads brought in eighty-two billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Q3 2026, Google ads",
+    "left": {
+     "label": "Ad revenue",
+     "value": "$82.0B",
+     "tone": "up",
+     "sub": "Jul-Sep 2026"
+    },
+    "right": {
+     "label": "To partners",
+     "value": "$16.4B",
+     "tone": "down",
+     "sub": "TAC"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And $16.4 billion went back out to partners. That's 20% of ad revenue, or $1 of every $5.",
+   "say": "And sixteen point four billion went back out to partners. That's twenty percent of ad revenue, or one dollar of every five.",
+   "scene": {
+    "t": "compare",
+    "title": "Q3 2026, Google ads",
+    "left": {
+     "label": "Ad revenue",
+     "value": "$82.0B",
+     "tone": "up",
+     "sub": "Jul-Sep 2026"
+    },
+    "right": {
+     "label": "To partners",
+     "value": "$16.4B",
+     "tone": "down",
+     "sub": "TAC"
+    },
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest single check goes to Apple.",
+   "say": "The biggest single check goes to Apple.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "APPLE",
+    "label": "SAFARI",
+    "caption": "Google is the default"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Court documents unsealed in 2024 showed Google paid Apple $20 billion in 2022 to be Safari's default search engine.",
+   "say": "Court documents unsealed in twenty twenty-four showed Google paid Apple twenty billion dollars in twenty twenty-two to be Safari's default search engine.",
+   "scene": {
+    "t": "news",
+    "headline": "Apple got $20B",
+    "source": "Court docs via Bloomberg, May 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A Google expert witness also testified in 2023 that Google shares 36% of its Safari search ad revenue with Apple.",
+   "say": "A Google expert witness also testified in twenty twenty-three that Google shares thirty-six percent of its Safari search ad revenue with Apple.",
+   "scene": {
+    "t": "stat",
+    "label": "Apple's cut",
+    "value": "36%",
+    "tone": "down",
+    "sub": "Safari search ads"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why pay that much? Because most people never change the default. Being first in line is worth billions.",
+   "say": "Why pay that much? Because most people never change the default. Being first in line is worth billions.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Most people keep",
+     "the default"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For Google, the math works: the searches are worth more than the check. But that same check put it in court.",
+   "say": "For Google, the math works: the searches are worth more than the check. But that same check put it in court.",
+   "scene": {
+    "t": "split",
+    "title": "The default deal",
+    "left": {
+     "title": "Upside",
+     "items": [
+      "Huge traffic",
+      "Steady clicks"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Downside",
+     "items": [
+      "Big checks",
+      "Legal risk"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: The court case",
+   "say": "Chapter five: the court case.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The court case"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The US Justice Department sued Google in 2020, arguing deals like the Apple one shut out rival search engines.",
+   "say": "The US Justice Department sued Google in twenty twenty, arguing deals like the Apple one shut out rival search engines.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "US DISTRICT COURT",
+    "label": "DOJ v. GOOGLE",
+    "caption": "Filed 2020"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August 2024, Judge Amit Mehta ruled that Google illegally kept a monopoly in search.",
+   "say": "In August twenty twenty-four, Judge Amit Mehta ruled that Google illegally kept a monopoly in search.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "8/24",
+      "Ruled a monopoly"
+     ],
+     [
+      "9/25",
+      "Remedies ordered"
+     ],
+     [
+      "1/26",
+      "Google appeals"
+     ],
+     [
+      "2/26",
+      "DOJ cross-appeal"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "His words were blunt.",
+   "say": "His words were blunt.",
+   "scene": {
+    "t": "quote",
+    "text": "Google is a monopolist, and it has acted as one to maintain its monopoly.",
+    "source": "Judge Amit Mehta, Aug 5, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In September 2025 came the remedies. Google was not forced to sell Chrome or Android.",
+   "say": "In September twenty twenty-five came the remedies. Google was not forced to sell Chrome or Android.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "8/24",
+      "Ruled a monopoly"
+     ],
+     [
+      "9/25",
+      "Remedies ordered"
+     ],
+     [
+      "1/26",
+      "Google appeals"
+     ],
+     [
+      "2/26",
+      "DOJ cross-appeal"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But it can no longer sign exclusive deals for Search, Chrome, Assistant or Gemini.",
+   "say": "But it can no longer sign exclusive deals for Search, Chrome, Assistant or Gemini.",
+   "scene": {
+    "t": "list",
+    "title": "Remedies, 2025",
+    "items": [
+     "No exclusives",
+     "Pay still OK",
+     "Share data"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It can still pay partners like Apple for placement, just not to lock rivals out.",
+   "say": "It can still pay partners like Apple for placement, just not to lock rivals out.",
+   "scene": {
+    "t": "list",
+    "title": "Remedies, 2025",
+    "items": [
+     "No exclusives",
+     "Pay still OK",
+     "Share data"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it must share some search index and user data with qualified competitors.",
+   "say": "And it must share some search index and user data with qualified competitors.",
+   "scene": {
+    "t": "list",
+    "title": "Remedies, 2025",
+    "items": [
+     "No exclusives",
+     "Pay still OK",
+     "Share data"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The idea behind the data sharing is to help rival search engines catch up, under a court-appointed technical committee's watch.",
+   "say": "The idea behind the data sharing is to help rival search engines catch up, under a court-appointed technical committee's watch.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Data for rivals,",
+     "court oversight"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Google appealed in January 2026, challenging the ruling itself.",
+   "say": "Google appealed in January twenty twenty-six, challenging the ruling itself.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "8/24",
+      "Ruled a monopoly"
+     ],
+     [
+      "9/25",
+      "Remedies ordered"
+     ],
+     [
+      "1/26",
+      "Google appeals"
+     ],
+     [
+      "2/26",
+      "DOJ cross-appeal"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Justice Department and states cross-appealed in February 2026, asking for tougher remedies. As of November 2026, the appeals court hadn't ruled.",
+   "say": "The Justice Department and states cross-appealed in February twenty twenty-six, asking for tougher remedies. As of November twenty twenty-six, the appeals court hadn't ruled.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "8/24",
+      "Ruled a monopoly"
+     ],
+     [
+      "9/25",
+      "Remedies ordered"
+     ],
+     [
+      "1/26",
+      "Google appeals"
+     ],
+     [
+      "2/26",
+      "DOJ cross-appeal"
+     ]
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Justice Department says rivals need more room. Google says the rules hurt users. We'll leave that to the courts.",
+   "say": "The Justice Department says rivals need more room. Google says the rules hurt users. We'll leave that to the courts.",
+   "scene": {
+    "t": "split",
+    "title": "Two views",
+    "left": {
+     "title": "DOJ",
+     "items": [
+      "More rivals",
+      "Tougher rules"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Google",
+     "items": [
+      "Hurts users",
+      "Appealing"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Beyond the ads",
+   "say": "Chapter six: beyond the ads.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Beyond the ads"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ads still dominate, but Google has been building money machines that don't depend on them.",
+   "say": "Ads still dominate, but Google has been building money machines that don't depend on them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not just ads",
+     "anymore"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, Google Cloud, which rents computing power and AI tools to businesses, made about $58.7 billion.",
+   "say": "In twenty twenty-five, Google Cloud, which rents computing power and AI tools to businesses, made about fifty-eight point seven billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Google Cloud, 2025",
+    "value": "$58.7B",
+    "tone": "up",
+    "sub": "Up about 36%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Subscriptions, platforms and devices, think YouTube Premium, Google One storage, app store fees and Pixel phones, made about $48 billion.",
+   "say": "Subscriptions, platforms and devices, think YouTube Premium, Google One storage, app store fees and Pixel phones, made about forty-eight billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Subs and devices",
+    "value": "$48B",
+    "tone": "up",
+    "sub": "2025, about"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then came the July to September 2026 quarter, reported in late October. Total revenue was $127.6 billion, up 25%.",
+   "say": "Then came the July to September twenty twenty-six quarter, reported in late October. Total revenue was one hundred twenty-seven point six billion dollars, up twenty-five percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Q3 2026: $127.6B",
+    "source": "Alphabet, Oct 28, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Search still grew 12%, to $63.35 billion. YouTube ads grew about 9%, to $11.2 billion.",
+   "say": "Search still grew twelve percent, to sixty-three point three five billion. YouTube ads grew about nine percent, to eleven point two billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Q3 2026 ads",
+    "left": {
+     "label": "Search",
+     "value": "$63.35B",
+     "tone": "up",
+     "sub": "Up 12%"
+    },
+    "right": {
+     "label": "YouTube ads",
+     "value": "$11.2B",
+     "tone": "up",
+     "sub": "Up about 9%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the jaw-dropper was Cloud: $30.7 billion, up from $15.2 billion a year earlier.",
+   "say": "But the jaw-dropper was Cloud: thirty point seven billion, up from fifteen point two billion a year earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "Google Cloud, Q3",
+    "left": {
+     "label": "Q3 2025",
+     "value": "$15.2B",
+     "tone": "neutral",
+     "sub": "Jul-Sep 2025"
+    },
+    "right": {
+     "label": "Q3 2026",
+     "value": "$30.7B",
+     "tone": "up",
+     "sub": "Up 103%"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's 103% growth in a single year, as companies rushed to rent AI computing.",
+   "say": "That's one hundred three percent growth in a single year, as companies rushed to rent AI computing.",
+   "scene": {
+    "t": "compare",
+    "title": "Google Cloud, Q3",
+    "left": {
+     "label": "Q3 2025",
+     "value": "$15.2B",
+     "tone": "neutral",
+     "sub": "Jul-Sep 2025"
+    },
+    "right": {
+     "label": "Q3 2026",
+     "value": "$30.7B",
+     "tone": "up",
+     "sub": "Up 103%"
+    },
+    "winner": "right",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It got more profitable too. Cloud's operating margin was 36.2% in that quarter, up from 23.7% a year earlier.",
+   "say": "It got more profitable too. Cloud's operating margin was thirty-six point two percent in that quarter, up from twenty-three point seven percent a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Cloud margin, Q3",
+    "value": "36.2%",
+    "tone": "up",
+    "sub": "Was 23.7% in 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Because of that, ads were about 64% of revenue in that quarter, down from about 73% in 2025, by our math.",
+   "say": "Because of that, ads were about sixty-four percent of revenue in that quarter, down from about seventy-three percent in twenty twenty-five, by our math.",
+   "scene": {
+    "t": "compare",
+    "title": "Ads share of revenue",
+    "left": {
+     "label": "2025",
+     "value": "73%",
+     "tone": "neutral",
+     "sub": "Full year"
+    },
+    "right": {
+     "label": "Q3 2026",
+     "value": "64%",
+     "tone": "neutral",
+     "sub": "Jul-Sep 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And AI is changing search itself. Alphabet said in July 2025 that AI Overviews had over 2 billion monthly users.",
+   "say": "And AI is changing search itself. Alphabet said in July twenty twenty-five that AI Overviews had over two billion monthly users.",
+   "scene": {
+    "t": "stat",
+    "label": "AI Overviews users",
+    "value": "2B+",
+    "tone": "neutral",
+    "sub": "Monthly, July 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The open question: if an AI answers you directly, do you still click an ad? Google is now putting ads inside AI answers too.",
+   "say": "The open question: if an AI answers you directly, do you still click an ad? Google is now putting ads inside AI answers too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AI answer,",
+     "still an ad?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the big risk. The auction only pays when people click, and AI could change how often they do.",
+   "say": "That's the big risk. The auction only pays when people click, and AI could change how often they do.",
+   "scene": {
+    "t": "split",
+    "title": "The risks",
+    "left": {
+     "title": "AI answers",
+     "items": [
+      "Fewer clicks?",
+      "New ad slots"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Courts",
+     "items": [
+      "Exclusives out",
+      "Appeals open"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 7: What it means for you",
+   "say": "Chapter seven: what it means for you.",
+   "scene": {
+    "t": "chapter",
+    "n": 7,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First: free has a price. You pay with your attention and your data, and that's what advertisers buy.",
+   "say": "First: free has a price. You pay with your attention and your data, and that's what advertisers buy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You pay with",
+     "attention + data"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second: the top results are often ads. Look for the small 'Sponsored' label before you click.",
+   "say": "Second: the top results are often ads. Look for the small 'Sponsored' label before you click.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Look for",
+     "'Sponsored'"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third: every click a business pays for gets built into its prices. Those ad costs don't vanish. Customers cover them.",
+   "say": "Third: every click a business pays for gets built into its prices. Those ad costs don't vanish. Customers cover them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Ad costs end up",
+     "in prices"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fourth: defaults are powerful. You can change your search engine in a few taps. Google paid Apple $20 billion in 2022 betting you won't.",
+   "say": "And fourth: defaults are powerful. You can change your search engine in a few taps. Google paid Apple twenty billion dollars in twenty twenty-two betting you won't.",
+   "scene": {
+    "t": "hook",
+    "title": "Defaults [Win]",
+    "prop": "bag",
+    "label": "APPLE",
+    "value": "$20B",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "None of this says whether the stock is a good or bad idea. It's just how the machine works.",
+   "say": "None of this says whether the stock is a good or bad idea. It's just how the machine works.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not a stock tip,",
+     "just the machine"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's recap how Google makes money from free.",
+   "say": "So let's recap how Google makes money from free.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sell attention",
+     "Auction clicks",
+     "Pay for doors",
+     "Grow Cloud"
+    ],
+    "reveal": 0
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It gives you search and video for free and sells your attention to advertisers.",
+   "say": "It gives you search and video for free and sells your attention to advertisers.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sell attention",
+     "Auction clicks",
+     "Pay for doors",
+     "Grow Cloud"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It prices that attention with a split-second auction, where better ads pay less per click.",
+   "say": "It prices that attention with a split-second auction, where better ads pay less per click.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sell attention",
+     "Auction clicks",
+     "Pay for doors",
+     "Grow Cloud"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It pays partners like Apple billions to be the front door, a deal the courts are still weighing.",
+   "say": "It pays partners like Apple billions to be the front door, a deal the courts are still weighing.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sell attention",
+     "Auction clicks",
+     "Pay for doors",
+     "Grow Cloud"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's growing Cloud fast, so ads were a smaller share of revenue by the third quarter of 2026.",
+   "say": "And it's growing Cloud fast, so ads were a smaller share of revenue by the third quarter of twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sell attention",
+     "Auction clicks",
+     "Pay for doors",
+     "Grow Cloud"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, that added up to over $800 million a day from ads, from a product you never paid a cent for.",
+   "say": "In twenty twenty-five, that added up to over eight hundred million dollars a day from ads, from a product you never paid a cent for.",
+   "scene": {
+    "t": "stat",
+    "label": "Ads per day, 2025",
+    "value": "$807M",
+    "tone": "up",
+    "sub": "Our math, 10-K"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next time you search, remember: there's an auction happening behind it, and you're what's being bid on.",
+   "say": "Next time you search, remember: there's an auction happening behind it, and you're what's being bid on.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You are what's",
+     "being bid on"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this helped, subscribe for more How They Make Money.",
+   "say": "If this helped, subscribe for more How They Make Money.",
+   "scene": {
+    "t": "cta",
+    "tagline": "How They Make Money"
+   }
+  }
+ ],
+ "post": {
+  "title": "Google Is Free. Its Ads Made $800M+ a Day in 2025.",
+  "ig": "You pay Google nothing, yet its ads made over $800 million a day in 2025. Here's the auction behind every search.",
+  "tiktok": "Google is free, yet its ads made over $800M a day in 2025. The auction, the Apple deal and the court case, explained.",
+  "yt_desc": "Google charges you nothing, yet in 2025 Alphabet's ads brought in $294.7 billion, about $807 million a day by our math. This video explains how the search ad auction works (cost per click, Quality Score and a worked example), why Google paid Apple $20 billion in 2022 to be Safari's default, and what the 2024 antitrust ruling and 2025 remedies did. We chart Alphabet's revenue from 2015 to 2025 and look at its July-September 2026 quarter, when Google Cloud revenue more than doubled to $30.7 billion.\n\nCHAPTERS\n\nSources: Alphabet Form 10-K FY2025 (Feb 2026) and earlier 10-Ks; Alphabet Q3 2026 earnings release and 10-Q (Oct 28, 2026); Google Ads Help (actual CPC, Quality Score); court documents in US v. Google via Bloomberg (May 2024); expert testimony (Nov 2023); Judge Amit Mehta's opinion (Aug 5, 2024) and remedies decision (Sept 2, 2025) via AP; appeal coverage (PYMNTS, Bloomberg Government, 2026); Alphabet Q2 2025 earnings call (July 2025).\n\nNews and education, not financial advice.\n\n#google #howtheymakemoney #business",
+  "tags": [
+   "how google makes money",
+   "google ads auction",
+   "cost per click",
+   "quality score",
+   "google apple deal",
+   "google antitrust",
+   "alphabet revenue",
+   "google cloud"
+  ]
+ }
+}
