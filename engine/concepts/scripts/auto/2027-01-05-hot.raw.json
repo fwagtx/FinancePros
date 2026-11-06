@@ -11,7 +11,7 @@
     {
       "who": "ticker",
       "text": "HOA homes sell for about 4% more. Worth it?",
-      "say": "Homes in an HOA sell for about four percent more. Worth it?",
+      "say": "HOA homes sell for about four percent more. Worth it?",
       "scene": {
         "t": "hook",
         "title": "HOA [premium]?",
@@ -23,21 +23,21 @@
     },
     {
       "who": "ticker",
-      "text": "A 2019 study found at least 4%, about $13,500, over similar homes outside HOAs.",
-      "say": "A twenty nineteen study found at least four percent, about thirteen thousand five hundred dollars, over similar homes outside one.",
+      "text": "A 2019 study put it at about $13,500 over similar non-HOA homes.",
+      "say": "A twenty nineteen study put it at about thirteen thousand five hundred dollars over similar non-HOA homes.",
       "scene": {
         "t": "stat",
         "label": "HOA price premium",
         "value": "$13,500",
         "tone": "up",
-        "sub": "4%+, 2019 study",
+        "sub": "2019 study",
         "mood": "think"
       }
     },
     {
       "who": "ticker",
-      "text": "And HOAs grew from 2.1 million residents in 1970 to 74.1 million in 2020.",
-      "say": "And HOAs grew from about two million residents in nineteen seventy to about seventy-four million in twenty twenty.",
+      "text": "HOA residents grew from about 2 million in 1970 to about 74 million in 2020.",
+      "say": "HOA residents grew from about two million in nineteen seventy to about seventy-four million in twenty twenty.",
       "scene": {
         "t": "chart",
         "title": "HOA residents",
@@ -75,8 +75,8 @@
     },
     {
       "who": "ticker",
-      "text": "In 2024, 1 in 4 owners paid a condo or HOA fee. The median: $135 a month.",
-      "say": "In twenty twenty-four, one in four owners paid a condo or HOA fee, with a median of a hundred thirty-five dollars a month.",
+      "text": "In 2024, 1 in 4 owners paid a condo or HOA fee, median $135 a month.",
+      "say": "In twenty twenty-four, one in four owners paid a condo or HOA fee, median one hundred thirty-five dollars a month.",
       "scene": {
         "t": "stat",
         "label": "Median HOA fee",
@@ -88,8 +88,8 @@
     },
     {
       "who": "ticker",
-      "text": "You get shared perks, kept-up common areas and rules that protect the look. You also get fees that can rise, rules, fines and surprise assessments.",
-      "say": "You get shared perks, kept-up common areas and rules that protect the look. You also get fees that can rise, rules, fines and surprise assessments.",
+      "text": "Pros: perks, common areas, curb appeal. Cons: rising fees, rules, fines, surprise bills.",
+      "say": "Pros: perks, common areas, curb appeal. Cons: rising fees, rules, fines, surprise bills.",
       "scene": {
         "t": "split",
         "title": "HOA face-off",
@@ -97,7 +97,7 @@
           "title": "Pros",
           "items": [
             "Shared perks",
-            "Kept-up areas",
+            "Common areas",
             "Curb appeal"
           ],
           "tone": "up"
@@ -107,7 +107,7 @@
           "items": [
             "Rising fees",
             "Rules + fines",
-            "Assessments"
+            "Surprise bills"
           ],
           "tone": "down"
         },
@@ -116,8 +116,8 @@
     },
     {
       "who": "ticker",
-      "text": "Our math: a $300 monthly fee for 10 years is $36,000.",
-      "say": "Our math: a three hundred dollar monthly fee for ten years is thirty-six thousand dollars.",
+      "text": "Our math: $300 a month for 10 years is $36,000.",
+      "say": "Our math: three hundred dollars a month for ten years is thirty-six thousand dollars.",
       "scene": {
         "t": "board",
         "lines": [
@@ -129,8 +129,8 @@
     },
     {
       "who": "ticker",
-      "text": "Lenders count HOA dues in your debt-to-income ratio, so that $300 shrinks what you can borrow.",
-      "say": "And lenders count HOA dues in your debt-to-income ratio, so that three hundred dollars shrinks what you can borrow.",
+      "text": "Lenders count those dues in your debt-to-income ratio, so they can shrink what you can borrow.",
+      "say": "Lenders count those dues in your debt-to-income ratio, so they can shrink what you can borrow.",
       "scene": {
         "t": "compare",
         "title": "Monthly dues",
@@ -151,8 +151,8 @@
     },
     {
       "who": "ticker",
-      "text": "The surprise: in most states, an HOA can foreclose over unpaid dues. Rules vary by state.",
-      "say": "The surprise: in most states, an HOA can foreclose over unpaid dues. Rules vary by state.",
+      "text": "The surprise: in most states, an HOA can foreclose over unpaid dues, though rules vary.",
+      "say": "The surprise: in most states, an HOA can foreclose over unpaid dues, though rules vary.",
       "scene": {
         "t": "board",
         "lines": [
@@ -164,16 +164,16 @@
     },
     {
       "who": "ticker",
-      "text": "Either way, compare the fee history, rules, reserves and past assessments before you pick a side.",
-      "say": "Either way, compare the fee history, the rules, the reserves and past assessments before you pick a side.",
+      "text": "Buyers often check fee history, rules, reserves and past assessments.",
+      "say": "Buyers often check fee history, rules, reserves and past assessments.",
       "scene": {
         "t": "list",
-        "title": "Check first",
+        "title": "What buyers check",
         "items": [
           "Fee history",
           "The rules",
           "Reserves",
-          "Assessments"
+          "Past bills"
         ],
         "reveal": 4,
         "mood": "happy"
