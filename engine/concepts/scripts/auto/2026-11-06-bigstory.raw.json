@@ -1,160 +1,160 @@
 {
- "series": "ticker",
- "header": "Wall Street's\n$2.5 Trillion Day",
- "cover": {
-  "title": "Gone in One Day",
-  "prop": "chart-down",
-  "value": "$2.5T"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "Thursday's stock sell-off wiped out about $2.5 trillion.",
-   "say": "Thursday's stock sell-off wiped out about two and a half trillion dollars.",
-   "scene": {
-    "t": "hook",
-    "title": "Gone in [one] day",
+  "series": "ticker",
+  "header": "Wall Street's\n$3 Trillion Day",
+  "cover": {
+    "title": "Gone in One Day",
     "prop": "chart-down",
-    "value": "$2.5T",
-    "mood": "shock"
-   }
+    "value": "$3T"
   },
-  {
-   "who": "ticker",
-   "text": "And if you have a 401(k) or an index fund, some of that was yours.",
-   "say": "And if you have a four-oh-one-K or an index fund, some of that was yours.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "401(k)?",
-     "Index fund?"
-    ],
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The S&P 500 fell 4.4%, and the Nasdaq dropped 5.5%.",
-   "say": "The S and P five hundred fell four point four percent, and the Nasdaq dropped five point five.",
-   "scene": {
-    "t": "compare",
-    "title": "Thursday, Nov 5",
-    "left": {
-     "label": "S&P 500",
-     "value": "-4.4%",
-     "tone": "down",
-     "sub": "big US stocks"
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Thursday's stock sell-off wiped out about $3 trillion.",
+      "say": "Thursday's stock sell-off wiped out about three trillion dollars.",
+      "scene": {
+        "t": "hook",
+        "title": "Gone in [one] day",
+        "prop": "chart-down",
+        "value": "$3T",
+        "mood": "shock"
+      }
     },
-    "right": {
-     "label": "Nasdaq",
-     "value": "-5.5%",
-     "tone": "down",
-     "sub": "tech-heavy"
+    {
+      "who": "ticker",
+      "text": "And if you have a 401(k) or an index fund, some of that was yours.",
+      "say": "And if you have a four-oh-one-K or an index fund, some of that was yours.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "401(k)?",
+          "Index fund?"
+        ],
+        "mood": "worried"
+      }
     },
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chip stocks took the hardest hit. Their index fell about 12%, its worst day since March 2020.",
-   "say": "Chip stocks took the hardest hit. Their index fell about twelve percent, its worst day since March twenty twenty.",
-   "scene": {
-    "t": "stat",
-    "label": "Chip stock index",
-    "value": "-12.2%",
-    "tone": "down",
-    "sub": "Worst since 2020",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Why? After the midterm results, investors worried new rules could slow down AI data center building.",
-   "say": "Why? After the midterm results, investors worried new rules could slow down AI data center building.",
-   "scene": {
-    "t": "news",
-    "headline": "AI build-out fears",
-    "source": "CNBC, AP, Nov 5, 2026",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That left the Nasdaq about 12% below its October record. That's called a correction.",
-   "say": "That left the Nasdaq about twelve percent below its October record. That's called a correction.",
-   "scene": {
-    "t": "stat",
-    "label": "Nasdaq vs record",
-    "value": "-12%",
-    "tone": "down",
-    "sub": "Oct 6 record",
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Here's the twist: it's the third correction this year, and the first two were followed by new records.",
-   "say": "Here's the twist: it's the third correction this year, and the first two were followed by new records.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     {
-      "when": "Mar",
-      "what": "Correction 1"
-     },
-     {
-      "when": "Jul",
-      "what": "Correction 2"
-     },
-     {
-      "when": "Oct 6",
-      "what": "New record"
-     },
-     {
-      "when": "Nov 5",
-      "what": "Correction 3"
-     }
-    ],
-    "reveal": 4,
-    "mood": "up"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's history, not a promise. Big drops happen, and retirement money is measured in years, not days.",
-   "say": "That's history, not a promise. Big drops happen, and retirement money is measured in years, not days.",
-   "scene": {
-    "t": "list",
-    "title": "Keep in mind",
-    "items": [
-     "Drops happen",
-     "Not a promise",
-     "Think in years"
-    ],
-    "reveal": 3,
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
-   "scene": {
-    "t": "cta"
-   }
+    {
+      "who": "ticker",
+      "text": "The S&P 500 fell 4.4%, and the Nasdaq dropped 5.5%.",
+      "say": "The S and P five hundred fell four point four percent, and the Nasdaq dropped five point five.",
+      "scene": {
+        "t": "compare",
+        "title": "Thursday, Nov 5",
+        "left": {
+          "label": "S&P 500",
+          "value": "-4.4%",
+          "tone": "down",
+          "sub": "big US stocks"
+        },
+        "right": {
+          "label": "Nasdaq",
+          "value": "-5.5%",
+          "tone": "down",
+          "sub": "tech-heavy"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chip stocks took the hardest hit. Their index fell about 12%, its worst day since March 2020.",
+      "say": "Chip stocks took the hardest hit. Their index fell about twelve percent, its worst day since March twenty twenty.",
+      "scene": {
+        "t": "stat",
+        "label": "Chip stock index",
+        "value": "-12%",
+        "tone": "down",
+        "sub": "Worst since 2020",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Why? After the midterm results, investors worried new rules could slow down AI data center building.",
+      "say": "Why? After the midterm results, investors worried new rules could slow down AI data center building.",
+      "scene": {
+        "t": "news",
+        "headline": "AI build-out fears",
+        "source": "Reuters, CNN, Nov 5, 2026",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That left the Nasdaq about 12% below its October record. That's called a correction.",
+      "say": "That left the Nasdaq about twelve percent below its October record. That's called a correction.",
+      "scene": {
+        "t": "stat",
+        "label": "Nasdaq vs record",
+        "value": "-12%",
+        "tone": "down",
+        "sub": "Oct 6 record",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's the twist: the Nasdaq also fell into a correction in March, and it went on to hit new records.",
+      "say": "Here's the twist: the Nasdaq also fell into a correction in March, and it went on to hit new records.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Mar",
+            "what": "Correction"
+          },
+          {
+            "when": "Jun",
+            "what": "New record"
+          },
+          {
+            "when": "Oct 6",
+            "what": "Record high"
+          },
+          {
+            "when": "Nov 5",
+            "what": "Correction again"
+          }
+        ],
+        "reveal": 4,
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's history, not a promise. Big drops happen, and retirement money is measured in years, not days.",
+      "say": "That's history, not a promise. Big drops happen, and retirement money is measured in years, not days.",
+      "scene": {
+        "t": "list",
+        "title": "Keep in mind",
+        "items": [
+          "Drops happen",
+          "Not a promise",
+          "Think in years"
+        ],
+        "reveal": 3,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Wall Street lost $3 trillion in one day. Here's why",
+    "ig": "Thursday's stock sell-off wiped out about $3 trillion in value from S&P 500 companies.\nThe S&P 500 fell 4.4% and the Nasdaq 5.5% on Nov 5, their worst days since April 2025.\nThe chip stock index fell about 12%, its worst day since March 2020.\nThe Nasdaq is about 12% below its Oct 6 record: its second correction of 2026, after March.\nSources: Reuters, CNN, NBC News, Benzinga.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stockmarket #nasdaq #401k #aistocks #financeprostv",
+    "tiktok": "$3 trillion gone in one day. What happened? Not financial advice. #moneytok #personalfinance #stockmarket #nasdaq #financeprostv",
+    "yt_desc": "Thursday's AI and chip stock sell-off wiped out about $3 trillion in S&P 500 value: the S&P 500 fell 4.4% and the Nasdaq 5.5% on Nov 5, 2026, and the chip index dropped about 12%. The Nasdaq is now in its second correction of 2026, after March. Sources: Reuters, CNN, NBC News, Benzinga. News and education, not financial advice. #Shorts #stockmarket #nasdaq",
+    "tags": [
+      "stock market sell-off",
+      "nasdaq correction",
+      "ai stocks",
+      "chip stocks",
+      "401k"
+    ]
   }
- ],
- "post": {
-  "title": "Wall Street lost $2.5 trillion in one day. Here's why",
-  "ig": "Thursday's stock sell-off wiped out about $2.5 trillion.\nThe S&P 500 fell 4.4% and the Nasdaq 5.5% on Nov 5, their worst days since April 2025.\nThe chip stock index fell about 12%, its worst day since March 2020.\nThe Nasdaq is about 12% below its Oct 6 record: its third correction of 2026.\nSources: CNN, CNBC, AP, Charles Schwab.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stockmarket #nasdaq #401k #aistocks #financeprostv",
-  "tiktok": "$2.5 trillion gone in one day. What happened? Not financial advice. #moneytok #personalfinance #stockmarket #nasdaq #financeprostv",
-  "yt_desc": "Thursday's AI and chip stock sell-off wiped out about $2.5 trillion: the S&P 500 fell 4.4% and the Nasdaq 5.5% on Nov 5, 2026, and the chip index dropped about 12%. The Nasdaq is now in its third correction of 2026. Sources: CNN, CNBC, AP, Charles Schwab. News and education, not financial advice. #Shorts #stockmarket #nasdaq",
-  "tags": [
-   "stock market sell-off",
-   "nasdaq correction",
-   "ai stocks",
-   "chip stocks",
-   "401k"
-  ]
- }
 }
