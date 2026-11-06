@@ -1,0 +1,204 @@
+{
+  "series": "ticker",
+  "header": "HOA vs\nno HOA",
+  "cover": {
+    "title": "HOA vs No HOA",
+    "prop": "house",
+    "label": "HOA",
+    "value": "+4%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "HOA homes sell for about 4% more. Worth it?",
+      "say": "Homes in an HOA sell for about four percent more. Worth it?",
+      "scene": {
+        "t": "hook",
+        "title": "HOA [premium]?",
+        "prop": "house",
+        "label": "HOA",
+        "value": "+4%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A 2019 study found at least 4%, about $13,500, over similar homes outside HOAs.",
+      "say": "A twenty nineteen study found at least four percent, about thirteen thousand five hundred dollars, over similar homes outside one.",
+      "scene": {
+        "t": "stat",
+        "label": "HOA price premium",
+        "value": "$13,500",
+        "tone": "up",
+        "sub": "4%+, 2019 study",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And HOAs grew from 2.1 million residents in 1970 to 74.1 million in 2020.",
+      "say": "And HOAs grew from about two million residents in nineteen seventy to about seventy-four million in twenty twenty.",
+      "scene": {
+        "t": "chart",
+        "title": "HOA residents",
+        "points": [
+          [
+            1970,
+            2.1
+          ],
+          [
+            1980,
+            9.6
+          ],
+          [
+            1990,
+            29.6
+          ],
+          [
+            2000,
+            45.2
+          ],
+          [
+            2010,
+            62.0
+          ],
+          [
+            2020,
+            74.1
+          ]
+        ],
+        "suffix": "M",
+        "end": "74.1M",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2024, 1 in 4 owners paid a condo or HOA fee. The median: $135 a month.",
+      "say": "In twenty twenty-four, one in four owners paid a condo or HOA fee, with a median of a hundred thirty-five dollars a month.",
+      "scene": {
+        "t": "stat",
+        "label": "Median HOA fee",
+        "value": "$135/mo",
+        "tone": "neutral",
+        "sub": "1 in 4 pay, 2024",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "You get shared perks, kept-up common areas and rules that protect the look. You also get fees that can rise, rules, fines and surprise assessments.",
+      "say": "You get shared perks, kept-up common areas and rules that protect the look. You also get fees that can rise, rules, fines and surprise assessments.",
+      "scene": {
+        "t": "split",
+        "title": "HOA face-off",
+        "left": {
+          "title": "Pros",
+          "items": [
+            "Shared perks",
+            "Kept-up areas",
+            "Curb appeal"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Cons",
+          "items": [
+            "Rising fees",
+            "Rules + fines",
+            "Assessments"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: a $300 monthly fee for 10 years is $36,000.",
+      "say": "Our math: a three hundred dollar monthly fee for ten years is thirty-six thousand dollars.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$300/mo x 10 yrs",
+          "= $36,000"
+        ],
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Lenders count HOA dues in your debt-to-income ratio, so that $300 shrinks what you can borrow.",
+      "say": "And lenders count HOA dues in your debt-to-income ratio, so that three hundred dollars shrinks what you can borrow.",
+      "scene": {
+        "t": "compare",
+        "title": "Monthly dues",
+        "left": {
+          "label": "No HOA",
+          "value": "$0",
+          "tone": "up",
+          "sub": "no dues"
+        },
+        "right": {
+          "label": "HOA",
+          "value": "$300",
+          "tone": "down",
+          "sub": "counts in DTI"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The surprise: in most states, an HOA can foreclose over unpaid dues. Rules vary by state.",
+      "say": "The surprise: in most states, an HOA can foreclose over unpaid dues. Rules vary by state.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Unpaid dues =",
+          "lien, foreclosure"
+        ],
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Either way, compare the fee history, rules, reserves and past assessments before you pick a side.",
+      "say": "Either way, compare the fee history, the rules, the reserves and past assessments before you pick a side.",
+      "scene": {
+        "t": "list",
+        "title": "Check first",
+        "items": [
+          "Fee history",
+          "The rules",
+          "Reserves",
+          "Assessments"
+        ],
+        "reveal": 4,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "HOA homes sell for about 4% more. Is the fee worth it?",
+    "ig": "HOA homes sell for about 4% more. Is it worth the fee?\nA 2019 study found HOA homes priced at least 4% (about $13,500) above similar homes outside one.\nIn 2024, about 1 in 4 US owners paid a condo or HOA fee; the median was $135 a month.\nOur math: $300 a month for 10 years is $36,000, and lenders count dues in your debt-to-income ratio.\nIn most states an HOA can foreclose over unpaid dues. Rules vary by state.\nSources: Journal of Urban Economics (2019), US Census Bureau ACS 2024, Foundation for Community Association Research.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#hoa #homebuying #realestate #personalfinance #financeprostv",
+    "tiktok": "HOA homes sell for about 4% more. Worth the fee? Not financial advice. #moneytok #personalfinance #hoa #homebuying #financeprostv",
+    "yt_desc": "HOA homes were priced at least 4% (about $13,500) above similar homes in a 2019 Journal of Urban Economics study, and in 2024 about 1 in 4 US owners paid a condo or HOA fee (median $135 a month, Census ACS). Our math: $300 a month for 10 years is $36,000, and in most states an HOA can foreclose over unpaid dues. News and education, not financial advice. #Shorts #hoa #personalfinance",
+    "tags": [
+      "HOA",
+      "homeowners association",
+      "HOA fees",
+      "home buying",
+      "personal finance"
+    ]
+  }
+}
