@@ -1,0 +1,163 @@
+{
+ "id": "2026-11-07-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Credit card debt\njust jumped",
+ "cover": {
+  "title": "Debt Jumped",
+  "prop": "card",
+  "label": "DEBT",
+  "value": "$28B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Americans added about $28 billion of consumer debt in September.",
+   "say": "Americans added about twenty-eight billion dollars of consumer debt in September.",
+   "scene": {
+    "t": "hook",
+    "title": "Debt [jumped]",
+    "prop": "card",
+    "label": "DEBT",
+    "value": "$28B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's from the Fed's consumer credit report, out Friday, and the twist is where it went.",
+   "say": "That's from the Fed's consumer credit report, out Friday, and the twist is where it went.",
+   "scene": {
+    "t": "news",
+    "headline": "Consumer debt +$28B",
+    "source": "Federal Reserve G.19, Nov 6, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Revolving debt, mostly credit cards, shrank at a 4.4% yearly pace in August, then grew at 14.5% in September.",
+   "say": "Revolving debt, mostly credit cards, shrank at a four point four percent yearly pace in August, then grew at fourteen point five percent in September.",
+   "scene": {
+    "t": "compare",
+    "title": "Card debt pace",
+    "left": {
+     "label": "August",
+     "value": "-4.4%",
+     "tone": "down",
+     "sub": "annual rate"
+    },
+    "right": {
+     "label": "September",
+     "value": "+14.5%",
+     "tone": "up",
+     "sub": "annual rate"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cards are about a quarter of consumer debt, but drove more than half of the jump.",
+   "say": "Cards are about a quarter of consumer debt, but drove more than half of the jump.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cards: 1/4 of debt",
+     "Over 1/2 the jump"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That pushed revolving balances to about $1.37 trillion.",
+   "say": "That pushed revolving balances to about one point three seven trillion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Revolving debt",
+    "value": "$1.37T",
+    "tone": "down",
+    "sub": "Sept, Fed G.19",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On cards that charge interest, the average rate hit 22.36% last quarter.",
+   "say": "On cards that charge interest, the average rate hit twenty-two point three six percent last quarter.",
+   "scene": {
+    "t": "stat",
+    "label": "Card APR, Q3",
+    "value": "22.36%",
+    "tone": "down",
+    "sub": "Fed, Nov 6",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: carry $1,000 for a year at that rate, and that's roughly $224 in interest.",
+   "say": "Our math: carry a thousand dollars for a year at that rate, and that's roughly two hundred twenty-four dollars in interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Card balance",
+     "value": "$1,000"
+    },
+    "to": {
+     "label": "1 year interest",
+     "value": "$224"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The takeaway: a balance paid in full costs nothing, but a carried balance keeps charging you.",
+   "say": "The takeaway: a balance paid in full costs nothing, but a carried balance keeps charging you.",
+   "scene": {
+    "t": "split",
+    "title": "Your card",
+    "left": {
+     "title": "Paid in full",
+     "items": [
+      "$0 interest",
+      "No carryover"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Carried",
+     "items": [
+      "~22% APR",
+      "$224 per $1K"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Credit card debt surged in September: what it costs you",
+  "ig": "Americans added about $28 billion of consumer debt in September.\nRevolving credit, mostly credit cards, grew at a 14.5% annual pace in September after shrinking 4.4% in August (Fed G.19, Nov 6, 2026).\nRevolving balances reached $1.369 trillion, and cards made up more than half of the month's increase.\nThe average rate on cards charging interest was 22.36% in Q3. Our math: $1,000 carried a year is roughly $224 in interest.\nSources: Federal Reserve G.19 (Nov 6, 2026) via PYMNTS, Investing.com, LendingTree.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditcards #debt #consumercredit #personalfinance #financeprostv",
+  "tiktok": "Card debt grew at a 14.5% annual rate in September. What 22% APR costs. Not financial advice. #moneytok #personalfinance #creditcards #financeprostv",
+  "yt_desc": "Americans added about $28 billion of consumer debt in September 2026, and revolving credit, mostly credit cards, grew at a 14.5% annual pace to $1.369 trillion, the Federal Reserve's G.19 report showed Nov 6. The average rate on cards charging interest was 22.36% in Q3 (Fed via LendingTree). News and education, not financial advice. #Shorts #creditcards #debt",
+  "tags": [
+   "credit card debt",
+   "consumer credit",
+   "Federal Reserve G.19",
+   "credit card APR",
+   "personal finance"
+  ]
+ }
+}
