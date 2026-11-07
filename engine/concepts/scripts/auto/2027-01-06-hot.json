@@ -1,0 +1,225 @@
+{
+ "id": "2027-01-06-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Hot Take\nWhy diapers cost more",
+ "cover": {
+  "title": "Diaper Prices",
+  "prop": "box",
+  "label": "2019",
+  "value": "+32%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Diaper packs rose about 32% from 2019 to 2023.",
+   "say": "Diaper packs rose about thirty-two percent from twenty nineteen to twenty twenty-three.",
+   "scene": {
+    "t": "hook",
+    "title": "Why [Diapers] Cost More",
+    "prop": "box",
+    "label": "2019",
+    "value": "+32%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "NIQ: the average pack went from $16.54 to $21.90 by mid-2023.",
+   "say": "Per N I Q, the average pack went from sixteen fifty-four to twenty-one ninety by mid twenty twenty-three.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg diaper pack",
+    "left": {
+     "label": "2019",
+     "value": "$16.54",
+     "tone": "neutral",
+     "sub": "NIQ"
+    },
+    "right": {
+     "label": "Mid-2023",
+     "value": "$21.90",
+     "tone": "down",
+     "sub": "NIQ"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Producer prices sat flat for years, then rose about 16% from 2021 to early 2026.",
+   "say": "Producer prices sat flat for years, then rose about sixteen percent from twenty twenty-one to early twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Diapers & similar, PPI",
+    "points": [
+     [
+      2017,
+      100.9
+     ],
+     [
+      2018,
+      100.9
+     ],
+     [
+      2019,
+      100.0
+     ],
+     [
+      2020,
+      100.0
+     ],
+     [
+      2021,
+      100.0
+     ],
+     [
+      2022,
+      106.4
+     ],
+     [
+      2023,
+      110.9
+     ],
+     [
+      2024,
+      110.9
+     ],
+     [
+      2025,
+      112.2
+     ],
+     [
+      2026,
+      116.0
+     ]
+    ],
+    "end": "+16%",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The gel is made from acrylic acid, which comes from propylene, an oil and gas product.",
+   "say": "The gel is made from acrylic acid, which comes from propylene, an oil and gas product.",
+   "scene": {
+    "t": "list",
+    "title": "Inside a diaper",
+    "items": [
+     "Absorbent gel",
+     "Wood pulp",
+     "Freight"
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add wood pulp, plus fuel to ship bulky boxes.",
+   "say": "Add wood pulp, plus fuel to ship bulky boxes.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Inside a diaper",
+    "items": [
+     "Absorbent gel",
+     "Wood pulp",
+     "Freight"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2021, P&G raised baby care prices, citing commodity and freight costs.",
+   "say": "In twenty twenty-one, P and G raised baby care prices, citing commodity and freight costs.",
+   "scene": {
+    "t": "news",
+    "headline": "P&G raises prices",
+    "source": "AP, Oct 2021",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2023, 47% of families with young kids struggled to afford diapers.",
+   "say": "In twenty twenty-three, forty-seven percent of families with young kids struggled to afford diapers.",
+   "scene": {
+    "t": "stat",
+    "label": "Diaper need, 2023",
+    "value": "47%",
+    "tone": "down",
+    "sub": "NDBN Diaper Check",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The surprise: SNAP can't be used for diapers.",
+   "say": "The surprise: SNAP can't be used for diapers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "SNAP covers food",
+     "Diapers: not food"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At $80 a month, a diaper bank estimate, that's $960 a year. Our math.",
+   "say": "At eighty dollars a month, a diaper bank estimate, that's nine hundred sixty a year. Our math.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per month",
+     "value": "$80"
+    },
+    "to": {
+     "label": "Per year",
+     "value": "$960"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Compare price per diaper, not per box.",
+   "say": "Compare price per diaper, not per box.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price per diaper",
+     "not per box"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why diaper packs rose 32% from 2019 to 2023",
+  "ig": "Diaper packs rose about 32% from 2019 to 2023. Here's why.\nThe average pack went from $16.54 (2019) to $21.90 (mid-2023), per NIQ.\nProducer prices for diapers and similar products rose about 16% from Jan 2021 to Jan 2026 (BLS PPI). The absorbent gel is made from acrylic acid, which comes from oil-and-gas-based propylene.\nIn 2023, 47% of families with young kids reported diaper need, and SNAP can't be used for diapers.\nSources: NIQ via Fox Business, BLS via FRED, AP, National Diaper Bank Network, USDA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#diapers #inflation #parenting #personalfinance #financeprostv",
+  "tiktok": "Diaper packs rose 32% from 2019 to 2023. Here's why. Not financial advice. #moneytok #personalfinance #diapers #inflation #financeprostv",
+  "yt_desc": "The average diaper pack went from $16.54 in 2019 to $21.90 by mid-2023 (NIQ), and producer prices for diapers and similar products rose about 16% from January 2021 to January 2026 (BLS PPI via FRED). The absorbent gel is made from oil-linked acrylic acid, and SNAP can't be used for diapers (USDA). In 2023, 47% of families with young kids reported diaper need (National Diaper Bank Network). News and education, not financial advice. #Shorts #diapers #inflation",
+  "tags": [
+   "diaper prices",
+   "why are diapers expensive",
+   "inflation",
+   "SNAP",
+   "personal finance"
+  ]
+ }
+}
