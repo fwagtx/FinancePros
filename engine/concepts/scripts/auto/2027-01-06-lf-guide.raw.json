@@ -10,36 +10,27 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "People underestimate their subscriptions by $133 a month.",
-   "say": "People underestimate their subscriptions by a hundred thirty-three dollars a month.",
+   "text": "People guessed $86 for subscriptions. It was $219.",
+   "say": "People guessed eighty-six dollars for subscriptions. It was two-nineteen.",
    "scene": {
     "t": "hook",
     "title": "Your Hidden [Leak]",
     "prop": "card",
     "label": "SUBS",
-    "value": "$133",
+    "value": "$219",
     "mood": "shock"
    }
   },
   {
    "who": "ticker",
-   "text": "That's from a 2022 survey: people guessed $86 a month. Itemized, the average was $219.",
-   "say": "That's from a twenty twenty-two survey: people guessed eighty-six dollars a month. When they itemized it, the average was two hundred nineteen.",
+   "text": "That's a 2022 survey of 1,000 people. Itemized, subscriptions ran $133 a month more than they guessed.",
+   "say": "That's a twenty twenty-two survey of a thousand people. Itemized, subscriptions ran a hundred thirty-three dollars a month more than they guessed.",
    "scene": {
-    "t": "compare",
-    "title": "Subscriptions, 2022",
-    "left": {
-     "label": "Guess",
-     "value": "$86",
-     "tone": "neutral",
-     "sub": "per month"
-    },
-    "right": {
-     "label": "Real",
-     "value": "$219",
-     "tone": "down",
-     "sub": "per month"
-    }
+    "t": "stat",
+    "label": "Monthly gap",
+    "value": "$133",
+    "tone": "down",
+    "sub": "C+R Research, 2022"
    }
   },
   {
@@ -255,7 +246,7 @@
    "scene": {
     "t": "money",
     "from": {
-     "label": "Own - owe",
+     "label": "You own",
      "value": "$13,500"
     },
     "to": {
@@ -267,8 +258,8 @@
   },
   {
    "who": "ticker",
-   "text": "And that's fine. Lots of people in their twenties start below zero, especially with a car loan or student debt.",
-   "say": "And that's fine. Lots of people in their twenties start below zero, especially with a car loan or student debt.",
+   "text": "And that's fine. Plenty of people start below zero, especially with a car loan or student debt.",
+   "say": "And that's fine. Plenty of people start below zero, especially with a car loan or student debt.",
    "scene": {
     "t": "board",
     "lines": [
@@ -413,7 +404,7 @@
   {
    "who": "ticker",
    "text": "That $133 gap, times 12 months, is $1,596 a year. That's our math on the survey average.",
-   "say": "That hundred thirty-three dollar gap, times twelve months, is about sixteen hundred dollars a year. That's our math on the survey average.",
+   "say": "That hundred thirty-three dollar gap, times twelve months, is fifteen hundred ninety-six dollars a year. That's our math on the survey average.",
    "scene": {
     "t": "stat",
     "label": "Gap per year",
@@ -424,7 +415,7 @@
   },
   {
    "who": "ticker",
-   "text": "Why does it happen? In that survey, 86% had some or all subscriptions on autopay. Out of sight, out of mind.",
+   "text": "Why does it happen? In that survey, 86% had some or all of their subscriptions on autopay. Out of sight, out of mind.",
    "say": "Why does it happen? In that survey, eighty-six percent had some or all of their subscriptions on autopay. Out of sight, out of mind.",
    "scene": {
     "t": "stat",
@@ -546,8 +537,8 @@
   },
   {
    "who": "ticker",
-   "text": "In August 2022 it was 18.43%. By August 2024 it hit 23.37%, the highest on record.",
-   "say": "In August twenty twenty-two it was about eighteen point four percent. By August twenty twenty-four it hit about twenty-three point four, the highest on record.",
+   "text": "In August 2022 it was 18.43%. By August 2024 it hit 23.37%, the highest in data going back to 1994.",
+   "say": "In August twenty twenty-two it was eighteen point four three percent. By August twenty twenty-four it hit twenty-three point three seven, the highest in data going back to nineteen ninety-four.",
    "scene": {
     "t": "chart",
     "title": "Card APR, Aug",
@@ -581,7 +572,7 @@
   {
    "who": "ticker",
    "text": "In August 2026, it was still 22.36%.",
-   "say": "In August twenty twenty-six, it was still about twenty-two point four percent.",
+   "say": "In August twenty twenty-six, it was still twenty-two point three six percent.",
    "scene": {
     "t": "chart",
     "title": "Card APR, Aug",
@@ -620,8 +611,8 @@
   },
   {
    "who": "ticker",
-   "text": "So what does a rate like that cost? Take a $6,000 balance at 28%.",
-   "say": "So what does a rate like that cost? Take a six thousand dollar balance at twenty-eight percent.",
+   "text": "Some cards charge even more. Take a $6,000 balance at 28%.",
+   "say": "Some cards charge even more. Take a six thousand dollar balance at twenty-eight percent.",
    "scene": {
     "t": "board",
     "lines": [
@@ -727,7 +718,7 @@
   {
    "who": "ticker",
    "text": "With the avalanche, the extra goes to Card B. Total interest: $1,877. Debt-free in 23 months.",
-   "say": "With the avalanche, the extra goes to Card B. Total interest: about eighteen hundred seventy-seven dollars. Debt-free in twenty-three months.",
+   "say": "With the avalanche, the extra goes to Card B. Total interest: eighteen hundred seventy-seven dollars. Debt-free in twenty-three months.",
    "scene": {
     "t": "compare",
     "title": "Total interest",
@@ -748,7 +739,7 @@
   {
    "who": "ticker",
    "text": "With the snowball, Card A is gone by month 4, but total interest is $2,060. Same 23 months.",
-   "say": "With the snowball, Card A is gone by month four, but total interest is about two thousand sixty. Same twenty-three months.",
+   "say": "With the snowball, Card A is gone by month four, but total interest is two thousand sixty. Same twenty-three months.",
    "scene": {
     "t": "compare",
     "title": "Total interest",
@@ -771,7 +762,7 @@
   {
    "who": "ticker",
    "text": "The difference is $183 in our math. The avalanche saves money. The snowball buys an early win.",
-   "say": "The difference is about a hundred eighty-three dollars in our math. The avalanche saves money. The snowball buys an early win.",
+   "say": "The difference is a hundred eighty-three dollars in our math. The avalanche saves money. The snowball buys an early win.",
    "scene": {
     "t": "stat",
     "label": "Avalanche saves",
@@ -856,8 +847,8 @@
   },
   {
    "who": "ticker",
-   "text": "Why bother? In the Fed's survey of 2025, 63% of adults said they'd cover a $400 surprise with cash or its equivalent.",
-   "say": "Why bother? In the Fed's survey of twenty twenty-five, sixty-three percent of adults said they'd cover a four hundred dollar surprise with cash or its equivalent.",
+   "text": "Why bother? In the Fed's 2025 household survey, 63% of adults said they'd cover a $400 surprise with cash or its equivalent.",
+   "say": "Why bother? In the Fed's twenty twenty-five household survey, sixty-three percent of adults said they'd cover a four hundred dollar surprise with cash or its equivalent.",
    "scene": {
     "t": "stat",
     "label": "Cover $400 w/ cash",
@@ -881,8 +872,8 @@
   },
   {
    "who": "ticker",
-   "text": "We did a full video on emergency funds, so here's the short version: a cushion keeps a surprise off your credit card.",
-   "say": "We did a full video on emergency funds, so here's the short version: a cushion keeps a surprise off your credit card.",
+   "text": "Emergency funds are a separate topic, so here's the short version: a cushion keeps a surprise off your credit card.",
+   "say": "Emergency funds are a separate topic, so here's the short version: a cushion keeps a surprise off your credit card.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1118,8 +1109,8 @@
   },
   {
    "who": "ticker",
-   "text": "We covered how to read a report in another video. Today's step is just: pull it and look.",
-   "say": "We covered how to read a report in another video. Today's step is just: pull it and look.",
+   "text": "Reading a report in depth is a separate topic. Today's step is just: pull it and look.",
+   "say": "Reading a report in depth is a separate topic. Today's step is just: pull it and look.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1130,8 +1121,8 @@
   },
   {
    "who": "ticker",
-   "text": "Next, consider a credit freeze. It stops new lenders from pulling your report, which blocks most new-account fraud.",
-   "say": "Next, consider a credit freeze. It stops new lenders from pulling your report, which blocks most new-account fraud.",
+   "text": "Next, consider a credit freeze. It stops new lenders from pulling your report, which makes it much harder to open credit in your name.",
+   "say": "Next, consider a credit freeze. It stops new lenders from pulling your report, which makes it much harder to open credit in your name.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1253,8 +1244,8 @@
   },
   {
    "who": "ticker",
-   "text": "Here's the surprise: that form generally beats your will. And it doesn't update itself after a marriage or a divorce.",
-   "say": "Here's the surprise: that form generally beats your will. And it doesn't update itself after a marriage or a divorce.",
+   "text": "Here's the surprise: that form generally beats your will. And it may not update itself after a marriage or a divorce.",
+   "say": "Here's the surprise: that form generally beats your will. And it may not update itself after a marriage or a divorce.",
    "scene": {
     "t": "compare",
     "title": "Who wins?",
@@ -1355,7 +1346,7 @@
     "title": "Common mistakes",
     "items": [
      "All at once",
-     "Skip the match",
+     "Unknown match",
      "Paying to lock",
      "Old forms"
     ],
@@ -1365,14 +1356,14 @@
   },
   {
    "who": "ticker",
-   "text": "Number two: contributing less than the full match. That's pay you earned and didn't collect.",
-   "say": "Number two: contributing less than the full match. That's pay you earned and didn't collect.",
+   "text": "Number two: never looking up your match. That five-minute check is the easiest one to skip.",
+   "say": "Number two: never looking up your match. That five-minute check is the easiest one to skip.",
    "scene": {
     "t": "list",
     "title": "Common mistakes",
     "items": [
      "All at once",
-     "Skip the match",
+     "Unknown match",
      "Paying to lock",
      "Old forms"
     ],
@@ -1389,7 +1380,7 @@
     "title": "Common mistakes",
     "items": [
      "All at once",
-     "Skip the match",
+     "Unknown match",
      "Paying to lock",
      "Old forms"
     ],
@@ -1406,7 +1397,7 @@
     "title": "Common mistakes",
     "items": [
      "All at once",
-     "Skip the match",
+     "Unknown match",
      "Paying to lock",
      "Old forms"
     ],
@@ -1417,7 +1408,7 @@
   {
    "who": "ticker",
    "text": "Here's the whole thing on one screen. Saturday: snapshot, statements, debt list.",
-   "say": "Here's the whole thing on one screen. Saturday: snapshot, statements, and your debt list.",
+   "say": "Here's the whole thing on one screen. Saturday: snapshot, statements, debt list.",
    "scene": {
     "t": "split",
     "title": "The checklist",
@@ -1445,7 +1436,7 @@
   {
    "who": "ticker",
    "text": "Sunday: autopilot, credit and freeze, insurance and beneficiaries, and reminders.",
-   "say": "Sunday: autopilot, credit and freeze, insurance and beneficiaries, and your reminders.",
+   "say": "Sunday: autopilot, credit and freeze, insurance and beneficiaries, and reminders.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1457,8 +1448,8 @@
   },
   {
    "who": "ticker",
-   "text": "Remember that survey: people missed $133 a month in subscriptions. Statements are where you find yours.",
-   "say": "Remember that survey: people missed about a hundred thirty-three dollars a month in subscriptions. Statements are where you find yours.",
+   "text": "Remember that survey: people underestimated subscriptions by $133 a month. Statements are where you find yours.",
+   "say": "Remember that survey: people underestimated subscriptions by a hundred thirty-three dollars a month. Statements are where you find yours.",
    "scene": {
     "t": "stat",
     "label": "Avg sub gap",
@@ -1469,8 +1460,8 @@
   },
   {
    "who": "ticker",
-   "text": "And a card at about 22% eats money every month, so knowing your APRs is half the battle.",
-   "say": "And a card at about twenty-two percent eats money every month, so knowing your A P Rs is half the battle.",
+   "text": "And with the average card rate at 22.36%, knowing your APRs is half the battle.",
+   "say": "And with the average card rate at twenty-two point three six percent, knowing your A P Rs is half the battle.",
    "scene": {
     "t": "stat",
     "label": "Card APR, Aug 2026",

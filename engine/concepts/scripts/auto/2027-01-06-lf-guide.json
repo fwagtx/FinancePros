@@ -1,0 +1,1527 @@
+{
+ "id": "2027-01-06-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "Reset your money\nin one weekend",
+ "cover": {
+  "title": "Reset in 2 Days.",
+  "prop": "card",
+  "label": "PER MONTH",
+  "value": "$133"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "People guessed $86 for subscriptions. It was $219.",
+   "say": "People guessed eighty-six dollars for subscriptions. It was two-nineteen.",
+   "scene": {
+    "t": "hook",
+    "title": "Your Hidden [Leak]",
+    "prop": "card",
+    "label": "SUBS",
+    "value": "$219",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a 2022 survey of 1,000 people. Itemized, subscriptions ran $133 a month more than they guessed.",
+   "say": "That's a twenty twenty-two survey of a thousand people. Itemized, subscriptions ran a hundred thirty-three dollars a month more than they guessed.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly gap",
+    "value": "$133",
+    "tone": "down",
+    "sub": "C+R Research, 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same survey: 42% had forgotten they were still paying for something they no longer used.",
+   "say": "Same survey: forty-two percent had forgotten they were still paying for something they no longer used.",
+   "scene": {
+    "t": "stat",
+    "label": "Forgot a sub",
+    "value": "42%",
+    "tone": "down",
+    "sub": "C+R Research, 2022",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the thing about money. Most leaks aren't dramatic. They're quiet, and they're on autopay.",
+   "say": "That's the thing about money. Most leaks aren't dramatic. They're quiet, and they're on autopay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Quiet leaks",
+     "on autopay"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the plan: one weekend, eight steps, and your money goes from foggy to clear.",
+   "say": "So here's the plan: one weekend, eight steps, and your money goes from foggy to clear.",
+   "scene": {
+    "t": "list",
+    "title": "First steps",
+    "items": [
+     "Snapshot",
+     "Spending",
+     "Debt",
+     "Autopilot"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saturday is about seeing. Sunday is about setting things up so they run without you.",
+   "say": "Saturday is about seeing. Sunday is about setting things up so they run without you.",
+   "scene": {
+    "t": "split",
+    "title": "Two days",
+    "left": {
+     "title": "Saturday",
+     "items": [
+      "See it all",
+      "Find leaks"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Sunday",
+     "items": [
+      "Automate",
+      "Protect"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You don't need a finance degree. You need your logins, a notebook, and maybe coffee.",
+   "say": "You don't need a finance degree. You need your logins, a notebook, and maybe coffee.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Logins",
+     "Notebook + coffee"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick note: this is education, not advice. Every number here comes with its date.",
+   "say": "Quick note: this is education, not advice. Every number here comes with its date.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education only",
+     "Every number dated"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saturday morning: the snapshot.",
+   "say": "Saturday morning: the snapshot.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Saturday AM: The Snapshot"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one is a list. Every account you have, and what's in it or what you owe on it.",
+   "say": "Step one is a list. Every account you have, and what's in it or what you owe on it.",
+   "scene": {
+    "t": "list",
+    "title": "List every account",
+    "items": [
+     "Checking",
+     "Savings",
+     "Retirement",
+     "Debts"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Checking and savings first. Those are easy.",
+   "say": "Checking and savings first. Those are easy.",
+   "scene": {
+    "t": "list",
+    "title": "List every account",
+    "items": [
+     "Checking",
+     "Savings",
+     "Retirement",
+     "Debts"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then retirement accounts, including that old 401(k) from a job you left years ago.",
+   "say": "Then retirement accounts, including that old four oh one k from a job you left years ago.",
+   "scene": {
+    "t": "list",
+    "title": "List every account",
+    "items": [
+     "Checking",
+     "Savings",
+     "Retirement",
+     "Debts"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then every debt: cards, car loan, student loans, the store card you opened for 15% off a couch.",
+   "say": "Then every debt: cards, car loan, student loans, the store card you opened for fifteen percent off a couch.",
+   "scene": {
+    "t": "list",
+    "title": "List every account",
+    "items": [
+     "Checking",
+     "Savings",
+     "Retirement",
+     "Debts"
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now one subtraction. Everything you own, minus everything you owe. That's your net worth.",
+   "say": "Now one subtraction. Everything you own, minus everything you owe. That's your net worth.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Own - owe",
+     "= net worth"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's do an example. Checking $1,800, savings $2,400, and a 401(k) with $9,300. That's $13,500.",
+   "say": "Let's do an example. Checking eighteen hundred dollars, savings twenty-four hundred, and a four oh one k with ninety-three hundred. That's thirteen thousand five hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: you own",
+    "value": "$13,500",
+    "tone": "up",
+    "sub": "Our math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On the other side: a $6,000 card, a $1,000 store card, and a $9,000 car loan. That's $16,000.",
+   "say": "On the other side: a six thousand dollar card, a one thousand dollar store card, and a nine thousand dollar car loan. That's sixteen thousand.",
+   "scene": {
+    "t": "stat",
+    "label": "Example: you owe",
+    "value": "$16,000",
+    "tone": "down",
+    "sub": "Our math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$13,500 minus $16,000 is negative $2,500.",
+   "say": "Thirteen thousand five hundred minus sixteen thousand is negative twenty-five hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You own",
+     "value": "$13,500"
+    },
+    "to": {
+     "label": "Net worth",
+     "value": "-$2,500"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that's fine. Plenty of people start below zero, especially with a car loan or student debt.",
+   "say": "And that's fine. Plenty of people start below zero, especially with a car loan or student debt.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Below zero is",
+     "a starting line"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's not a grade. Write it down with the date, so next January you can compare.",
+   "say": "It's not a grade. Write it down with the date, so next January you can compare.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Write it down",
+     "with the date"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bonus: making the list is how people find forgotten accounts, like that old 401(k) still sitting with a former employer.",
+   "say": "Bonus: making the list is how people find forgotten accounts, like that old four oh one k still sitting with a former employer.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old 401(k)?",
+     "Still yours"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saturday afternoon: follow the money.",
+   "say": "Saturday afternoon: follow the money.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Saturday PM: Follow the Money"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step two: pull up last month's bank and card statements. Not a budget app. The actual statements.",
+   "say": "Step two: pull up last month's bank and card statements. Not a budget app. The actual statements.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Last month's",
+     "statements"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Go line by line and sort every charge into three piles.",
+   "say": "Go line by line and sort every charge into three piles.",
+   "scene": {
+    "t": "list",
+    "title": "Three piles",
+    "items": [
+     "Must pay",
+     "Want",
+     "Wait, what?"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Must pay: rent, utilities, insurance, minimum payments.",
+   "say": "Must pay: rent, utilities, insurance, minimum payments.",
+   "scene": {
+    "t": "list",
+    "title": "Three piles",
+    "items": [
+     "Must pay",
+     "Want",
+     "Wait, what?"
+    ],
+    "reveal": 1,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Want: takeout, streaming, the gym you actually go to.",
+   "say": "Want: takeout, streaming, the gym you actually go to.",
+   "scene": {
+    "t": "list",
+    "title": "Three piles",
+    "items": [
+     "Must pay",
+     "Want",
+     "Wait, what?"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And wait, what? That's the charge you don't recognize, or forgot you signed up for.",
+   "say": "And wait, what? That's the charge you don't recognize, or forgot you signed up for.",
+   "scene": {
+    "t": "list",
+    "title": "Three piles",
+    "items": [
+     "Must pay",
+     "Want",
+     "Wait, what?"
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember the survey: people guessed $86 a month, but itemized, it was $219.",
+   "say": "Remember the survey: people guessed eighty-six dollars a month, but itemized, it was two hundred nineteen.",
+   "scene": {
+    "t": "compare",
+    "title": "Subscriptions, 2022",
+    "left": {
+     "label": "Guess",
+     "value": "$86",
+     "tone": "neutral",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Real",
+     "value": "$219",
+     "tone": "down",
+     "sub": "per month"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That $133 gap, times 12 months, is $1,596 a year. That's our math on the survey average.",
+   "say": "That hundred thirty-three dollar gap, times twelve months, is fifteen hundred ninety-six dollars a year. That's our math on the survey average.",
+   "scene": {
+    "t": "stat",
+    "label": "Gap per year",
+    "value": "$1,596",
+    "tone": "down",
+    "sub": "Our math, 2022 avg"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why does it happen? In that survey, 86% had some or all of their subscriptions on autopay. Out of sight, out of mind.",
+   "say": "Why does it happen? In that survey, eighty-six percent had some or all of their subscriptions on autopay. Out of sight, out of mind.",
+   "scene": {
+    "t": "stat",
+    "label": "On autopay",
+    "value": "86%",
+    "tone": "neutral",
+    "sub": "C+R Research, 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So for each one in the want and wait-what piles, ask one question: did I use this last month?",
+   "say": "So for each one in the want and wait-what piles, ask one question: did I use this last month?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Used it last",
+     "month?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the answer is no, that's a candidate to cancel. If it's yes, keep it guilt-free. This isn't about joy cuts.",
+   "say": "If the answer is no, that's a candidate to cancel. If it's yes, keep it guilt-free. This isn't about joy cuts.",
+   "scene": {
+    "t": "split",
+    "title": "The test",
+    "left": {
+     "title": "Used it",
+     "items": [
+      "Keep it",
+      "No guilt"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Didn't",
+     "items": [
+      "Cancel it",
+      "Or pause"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One more thing to look for: fees. Overdraft fees, late fees, ATM fees. Those are leaks too.",
+   "say": "One more thing to look for: fees. Overdraft fees, late fees, ATM fees. Those are leaks too.",
+   "scene": {
+    "t": "list",
+    "title": "Also check",
+    "items": [
+     "Overdraft",
+     "Late fees",
+     "ATM fees"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Total up what you cut. That number has a job in step four.",
+   "say": "Total up what you cut. That number has a job in step four.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Total the cuts",
+     "It gets a job"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Saturday night: the debt list.",
+   "say": "Saturday night: the debt list.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Saturday Night: The Debt List"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step three: take every debt from your snapshot and add two things: the interest rate, and the minimum payment.",
+   "say": "Step three: take every debt from your snapshot and add two things: the interest rate, and the minimum payment.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Balance",
+     "APR + minimum"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The rate is called the APR, and it's on your statement. This number matters more than the balance.",
+   "say": "The rate is called the A P R, and it's on your statement. This number matters more than the balance.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "APR = yearly",
+     "interest rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's why. The Fed tracks the average rate on credit cards that actually charged interest.",
+   "say": "Here's why. The Fed tracks the average rate on credit cards that actually charged interest.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Card rates",
+    "caption": "Accounts charged interest"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August 2022 it was 18.43%. By August 2024 it hit 23.37%, the highest in data going back to 1994.",
+   "say": "In August twenty twenty-two it was eighteen point four three percent. By August twenty twenty-four it hit twenty-three point three seven, the highest in data going back to nineteen ninety-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Card APR, Aug",
+    "points": [
+     [
+      2022,
+      18.43
+     ],
+     [
+      2023,
+      22.77
+     ],
+     [
+      2024,
+      23.37
+     ],
+     [
+      2025,
+      22.83
+     ],
+     [
+      2026,
+      22.36
+     ]
+    ],
+    "suffix": "%",
+    "end": "22.36%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August 2026, it was still 22.36%.",
+   "say": "In August twenty twenty-six, it was still twenty-two point three six percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Card APR, Aug",
+    "points": [
+     [
+      2022,
+      18.43
+     ],
+     [
+      2023,
+      22.77
+     ],
+     [
+      2024,
+      23.37
+     ],
+     [
+      2025,
+      22.83
+     ],
+     [
+      2026,
+      22.36
+     ]
+    ],
+    "suffix": "%",
+    "end": "22.36%",
+    "color": "up",
+    "keep": true,
+    "mood": "worried",
+    "note": {
+     "x": 2026,
+     "text": "Still 22.36%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some cards charge even more. Take a $6,000 balance at 28%.",
+   "say": "Some cards charge even more. Take a six thousand dollar balance at twenty-eight percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$6,000 x 28%",
+     "÷ 12 months"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$6,000 times 28%, divided by 12, is $140 of interest in a single month.",
+   "say": "Six thousand times twenty-eight percent, divided by twelve, is a hundred forty dollars of interest in a single month.",
+   "scene": {
+    "t": "stat",
+    "label": "Interest, 1 month",
+    "value": "$140",
+    "tone": "down",
+    "sub": "Our math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the question everyone asks: which debt do I pay extra on first? There are two classic methods.",
+   "say": "Now the question everyone asks: which debt do I pay extra on first? There are two classic methods.",
+   "scene": {
+    "t": "split",
+    "title": "Two methods",
+    "left": {
+     "title": "Avalanche",
+     "items": [
+      "Highest APR",
+      "first"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Snowball",
+     "items": [
+      "Smallest debt",
+      "first"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Avalanche: pay minimums on everything, then every extra dollar goes to the highest rate.",
+   "say": "Avalanche: pay minimums on everything, then every extra dollar goes to the highest rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Avalanche:",
+     "highest APR first"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Snowball: minimums on everything, then extra goes to the smallest balance, for a quick win.",
+   "say": "Snowball: minimums on everything, then extra goes to the smallest balance, for a quick win.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Snowball:",
+     "smallest first"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's run real numbers. Card A: $1,000 at 15%, minimum $40. Card B: $6,000 at 28%, minimum $120.",
+   "say": "Let's run real numbers. Card A: one thousand dollars at fifteen percent, minimum forty. Card B: six thousand at twenty-eight percent, minimum a hundred twenty.",
+   "scene": {
+    "t": "compare",
+    "title": "Two cards",
+    "left": {
+     "label": "Card A",
+     "value": "$1,000",
+     "tone": "neutral",
+     "sub": "15% APR"
+    },
+    "right": {
+     "label": "Card B",
+     "value": "$6,000",
+     "tone": "down",
+     "sub": "28% APR"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You put $400 a month toward both. That's the minimums, plus $240 extra.",
+   "say": "You put four hundred dollars a month toward both. That's the minimums, plus two hundred forty extra.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly budget",
+    "value": "$400",
+    "tone": "neutral",
+    "sub": "$160 min + $240"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With the avalanche, the extra goes to Card B. Total interest: $1,877. Debt-free in 23 months.",
+   "say": "With the avalanche, the extra goes to Card B. Total interest: eighteen hundred seventy-seven dollars. Debt-free in twenty-three months.",
+   "scene": {
+    "t": "compare",
+    "title": "Total interest",
+    "left": {
+     "label": "Avalanche",
+     "value": "$1,877",
+     "tone": "up",
+     "sub": "23 months"
+    },
+    "right": {
+     "label": "Snowball",
+     "value": "$2,060",
+     "tone": "down",
+     "sub": "23 months"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With the snowball, Card A is gone by month 4, but total interest is $2,060. Same 23 months.",
+   "say": "With the snowball, Card A is gone by month four, but total interest is two thousand sixty. Same twenty-three months.",
+   "scene": {
+    "t": "compare",
+    "title": "Total interest",
+    "left": {
+     "label": "Avalanche",
+     "value": "$1,877",
+     "tone": "up",
+     "sub": "23 months"
+    },
+    "right": {
+     "label": "Snowball",
+     "value": "$2,060",
+     "tone": "down",
+     "sub": "23 months"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The difference is $183 in our math. The avalanche saves money. The snowball buys an early win.",
+   "say": "The difference is a hundred eighty-three dollars in our math. The avalanche saves money. The snowball buys an early win.",
+   "scene": {
+    "t": "stat",
+    "label": "Avalanche saves",
+    "value": "$183",
+    "tone": "up",
+    "sub": "Our math, example"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Which is better? The one you'll actually stick with. Pick one tonight and write the order down.",
+   "say": "Which is better? The one you'll actually stick with. Pick one tonight and write the order down.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The best plan is",
+     "the one you keep"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sunday morning: put it on autopilot.",
+   "say": "Sunday morning: put it on autopilot.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Sunday AM: Autopilot"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sunday is about systems. Willpower runs out. Automatic transfers don't.",
+   "say": "Sunday is about systems. Willpower runs out. Automatic transfers don't.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Willpower: weak",
+     "Autopilot: strong"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step four is savings. Set an automatic transfer from checking to savings on payday, even a small one.",
+   "say": "Step four is savings. Set an automatic transfer from checking to savings on payday, even a small one.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Day 1",
+      "Paycheck lands"
+     ],
+     [
+      "Day 1",
+      "Auto to savings"
+     ],
+     [
+      "Later",
+      "Spend the rest"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's where the money you cut in step two can go. Cancel a $15 subscription, move $15.",
+   "say": "That's where the money you cut in step two can go. Cancel a fifteen dollar subscription, move fifteen dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Canceled sub",
+     "value": "$15"
+    },
+    "to": {
+     "label": "Savings",
+     "value": "+$15"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why bother? In the Fed's 2025 household survey, 63% of adults said they'd cover a $400 surprise with cash or its equivalent.",
+   "say": "Why bother? In the Fed's twenty twenty-five household survey, sixty-three percent of adults said they'd cover a four hundred dollar surprise with cash or its equivalent.",
+   "scene": {
+    "t": "stat",
+    "label": "Cover $400 w/ cash",
+    "value": "63%",
+    "tone": "neutral",
+    "sub": "Fed SHED, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For adults 18 to 29, it was just 45%.",
+   "say": "For adults eighteen to twenty-nine, it was just forty-five percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Ages 18 to 29",
+    "value": "45%",
+    "tone": "down",
+    "sub": "Fed SHED, 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Emergency funds are a separate topic, so here's the short version: a cushion keeps a surprise off your credit card.",
+   "say": "Emergency funds are a separate topic, so here's the short version: a cushion keeps a surprise off your credit card.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cushion first",
+     "Card stays clean"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step five is retirement. If your job offers a 401(k) match, check what percent you contribute today.",
+   "say": "Step five is retirement. If your job offers a four oh one k match, check what percent you contribute today.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your 401(k) %",
+     "vs the match"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Vanguard's 2026 report, the average promised match was 4.7% of pay in 2025.",
+   "say": "In Vanguard's twenty twenty-six report, the average promised match was four point seven percent of pay in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg employer match",
+    "value": "4.7%",
+    "tone": "up",
+    "sub": "Vanguard, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's an example plan: it matches 100% of what you put in, up to 4% of pay, and you earn $50,000.",
+   "say": "Here's an example plan: it matches a hundred percent of what you put in, up to four percent of pay, and you earn fifty thousand dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Match 100%",
+     "up to 4% of pay"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put in 4%, or $2,000 a year, and the employer adds $2,000.",
+   "say": "Put in four percent, or two thousand dollars a year, and the employer adds two thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Match, $50K pay",
+    "left": {
+     "label": "You put 4%",
+     "value": "+$2,000",
+     "tone": "up",
+     "sub": "match"
+    },
+    "right": {
+     "label": "You put 2%",
+     "value": "+$1,000",
+     "tone": "down",
+     "sub": "match"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put in only 2%, and the match is $1,000. That's $1,000 a year left on the table.",
+   "say": "Put in only two percent, and the match is one thousand. That's a thousand dollars a year left on the table.",
+   "scene": {
+    "t": "compare",
+    "title": "Match, $50K pay",
+    "left": {
+     "label": "You put 4%",
+     "value": "+$2,000",
+     "tone": "up",
+     "sub": "match"
+    },
+    "right": {
+     "label": "You put 2%",
+     "value": "+$1,000",
+     "tone": "down",
+     "sub": "match"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your plan's formula may be different, so look it up in your benefits portal. It takes five minutes.",
+   "say": "Your plan's formula may be different, so look it up in your benefits portal. It takes five minutes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Check YOUR plan",
+     "5 minutes"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the limits. For 2026, the most you could put into a 401(k) yourself was $24,500.",
+   "say": "Now the limits. For twenty twenty-six, the most you could put into a four oh one k yourself was twenty-four thousand five hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "401(k) limit, 2026",
+    "value": "$24,500",
+    "tone": "neutral",
+    "sub": "IRS, for 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for 2026, the IRA limit was $7,500.",
+   "say": "And for twenty twenty-six, the I R A limit was seven thousand five hundred.",
+   "scene": {
+    "t": "stat",
+    "label": "IRA limit, 2026",
+    "value": "$7,500",
+    "tone": "neutral",
+    "sub": "IRS, for 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS usually raises these for the new year, so check its 2027 numbers before you change anything.",
+   "say": "The I R S usually raises these for the new year, so check its twenty twenty-seven numbers before you change anything.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Check IRS for",
+     "2027 limits"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most people never get near those limits. The point is just that your percent doesn't raise itself.",
+   "say": "Most people never get near those limits. The point is just that your percent doesn't raise itself.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Your % doesn't",
+     "raise itself"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some plans have an auto-increase option that bumps you up 1% a year. Worth a look while you're logged in.",
+   "say": "Some plans have an auto-increase option that bumps you up one percent a year. Worth a look while you're logged in.",
+   "scene": {
+    "t": "stat",
+    "label": "Auto-increase",
+    "value": "+1%",
+    "tone": "up",
+    "sub": "if plan offers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last autopilot move: set every bill to at least the minimum payment on autopay, so a late fee never happens.",
+   "say": "Last autopilot move: set every bill to at least the minimum payment on autopay, so a late fee never happens.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Autopay at least",
+     "the minimum"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sunday afternoon: lock it down.",
+   "say": "Sunday afternoon: lock it down.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Sunday PM: Lock It Down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step six is protection, starting with your credit reports.",
+   "say": "Step six is protection, starting with your credit reports.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Protect what",
+     "you built"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can get your reports from all three bureaus free, every week, at AnnualCreditReport.com. That's been permanent since October 2023.",
+   "say": "You can get your reports from all three bureaus free, every week, at Annual Credit Report dot com. That's been permanent since October twenty twenty-three.",
+   "scene": {
+    "t": "news",
+    "headline": "Free weekly reports",
+    "source": "FTC, Oct 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the only site authorized for those free reports, per the FTC. Lookalike sites may charge.",
+   "say": "That's the only site authorized for those free reports, per the FTC. Lookalike sites may charge.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Only one",
+     "official site"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Scan for accounts you don't recognize, wrong addresses, or late payments that aren't yours.",
+   "say": "Scan for accounts you don't recognize, wrong addresses, or late payments that aren't yours.",
+   "scene": {
+    "t": "list",
+    "title": "Look for",
+    "items": [
+     "Unknown accts",
+     "Wrong address",
+     "Wrong lates"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Reading a report in depth is a separate topic. Today's step is just: pull it and look.",
+   "say": "Reading a report in depth is a separate topic. Today's step is just: pull it and look.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pull it",
+     "Look at it"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, consider a credit freeze. It stops new lenders from pulling your report, which makes it much harder to open credit in your name.",
+   "say": "Next, consider a credit freeze. It stops new lenders from pulling your report, which makes it much harder to open credit in your name.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Freeze = no",
+     "new credit pulls"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since September 21, 2018, freezing and unfreezing is free by federal law.",
+   "say": "Since September twenty-first, twenty eighteen, freezing and unfreezing is free by federal law.",
+   "scene": {
+    "t": "stat",
+    "label": "Credit freeze cost",
+    "value": "$0",
+    "tone": "up",
+    "sub": "Federal law, 2018"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You do it at each of the three bureaus: Equifax, Experian, and TransUnion.",
+   "say": "You do it at each of the three bureaus: Equifax, Experian, and TransUnion.",
+   "scene": {
+    "t": "list",
+    "title": "Freeze at all 3",
+    "items": [
+     "Equifax",
+     "Experian",
+     "TransUnion"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A freeze doesn't hurt your score. And when you apply for a loan, you lift it for free first.",
+   "say": "A freeze doesn't hurt your score. And when you apply for a loan, you lift it for free first.",
+   "scene": {
+    "t": "split",
+    "title": "Freeze facts",
+    "left": {
+     "title": "Does",
+     "items": [
+      "No new pulls",
+      "Lift for free"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Doesn't",
+     "items": [
+      "Hurt score",
+      "Cost money"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Watch out: bureaus also sell lock products. The FTC notes locks can carry fees. The free one is the freeze.",
+   "say": "Watch out: bureaus also sell lock products. The FTC notes locks can carry fees. The free one is the freeze.",
+   "scene": {
+    "t": "compare",
+    "title": "Freeze vs lock",
+    "left": {
+     "label": "Freeze",
+     "value": "Free",
+     "tone": "up",
+     "sub": "by law"
+    },
+    "right": {
+     "label": "Lock",
+     "value": "Fees?",
+     "tone": "down",
+     "sub": "may have fees"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step seven is insurance. Open your renters or homeowners, auto, and health policies, and check two things.",
+   "say": "Step seven is insurance. Open your renters or homeowners, auto, and health policies, and check two things.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Coverage still",
+     "fits your life?"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Does the coverage still fit your life, and when does each policy renew? Put those dates in your notebook.",
+   "say": "Does the coverage still fit your life, and when does each policy renew? Put those dates in your notebook.",
+   "scene": {
+    "t": "list",
+    "title": "Insurance check",
+    "items": [
+     "Still fits?",
+     "Renewal date"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last, beneficiaries. On your 401(k), IRA, and life insurance, there's a form naming who gets the money.",
+   "say": "Last, beneficiaries. On your four oh one k, I R A, and life insurance, there's a form naming who gets the money.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who gets it?",
+     "The form says"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the surprise: that form generally beats your will. And it may not update itself after a marriage or a divorce.",
+   "say": "Here's the surprise: that form generally beats your will. And it may not update itself after a marriage or a divorce.",
+   "scene": {
+    "t": "compare",
+    "title": "Who wins?",
+    "left": {
+     "label": "Your will",
+     "value": "Loses",
+     "tone": "down",
+     "sub": "usually"
+    },
+    "right": {
+     "label": "The form",
+     "value": "Wins",
+     "tone": "up",
+     "sub": "usually"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So if your ex is still on there from your first job, this weekend is the time to log in and check.",
+   "say": "So if your ex is still on there from your first job, this weekend is the time to log in and check.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old form?",
+     "Log in, check"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sunday night: reminders, and the checklist.",
+   "say": "Sunday night: reminders, and the checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Sunday Night: Your Checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step eight, the final one: open your calendar and set a few reminders, so this weekend isn't a one-time thing.",
+   "say": "Step eight, the final one: open your calendar and set a few reminders, so this weekend isn't a one-time thing.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Apr",
+      "Quarter check"
+     ],
+     [
+      "Jul",
+      "Quarter check"
+     ],
+     [
+      "Oct",
+      "Quarter check"
+     ],
+     [
+      "Jan",
+      "Full reset"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 30-minute check every quarter. Net worth, statements, and your debt list.",
+   "say": "A thirty-minute check every quarter. Net worth, statements, and your debt list.",
+   "scene": {
+    "t": "stat",
+    "label": "Quarterly check",
+    "value": "30 min",
+    "tone": "up",
+    "sub": "4 times a year"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And one hard date: the federal tax deadline for 2026 returns is April 15, 2027.",
+   "say": "And one hard date: the federal tax deadline for twenty twenty-six returns is April fifteenth, twenty twenty-seven.",
+   "scene": {
+    "t": "stat",
+    "label": "Tax deadline",
+    "value": "Apr 15",
+    "tone": "neutral",
+    "sub": "2026 returns, 2027"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the common mistakes. Number one: trying to fix everything in one night. That's why it's a weekend.",
+   "say": "Now the common mistakes. Number one: trying to fix everything in one night. That's why it's a weekend.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "All at once",
+     "Unknown match",
+     "Paying to lock",
+     "Old forms"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Number two: never looking up your match. That five-minute check is the easiest one to skip.",
+   "say": "Number two: never looking up your match. That five-minute check is the easiest one to skip.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "All at once",
+     "Unknown match",
+     "Paying to lock",
+     "Old forms"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Number three: paying for a lock when the freeze is free.",
+   "say": "Number three: paying for a lock when the freeze is free.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "All at once",
+     "Unknown match",
+     "Paying to lock",
+     "Old forms"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And number four: a beneficiary form nobody has looked at since the day you were hired.",
+   "say": "And number four: a beneficiary form nobody has looked at since the day you were hired.",
+   "scene": {
+    "t": "list",
+    "title": "Common mistakes",
+    "items": [
+     "All at once",
+     "Unknown match",
+     "Paying to lock",
+     "Old forms"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the whole thing on one screen. Saturday: snapshot, statements, debt list.",
+   "say": "Here's the whole thing on one screen. Saturday: snapshot, statements, debt list.",
+   "scene": {
+    "t": "split",
+    "title": "The checklist",
+    "left": {
+     "title": "Saturday",
+     "items": [
+      "Net worth",
+      "Statements",
+      "Debt list"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Sunday",
+     "items": [
+      "Autopilot",
+      "Credit/freeze",
+      "Insurance",
+      "Reminders"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sunday: autopilot, credit and freeze, insurance and beneficiaries, and reminders.",
+   "say": "Sunday: autopilot, credit and freeze, insurance and beneficiaries, and reminders.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Screenshot this",
+     "one-screen list"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember that survey: people underestimated subscriptions by $133 a month. Statements are where you find yours.",
+   "say": "Remember that survey: people underestimated subscriptions by a hundred thirty-three dollars a month. Statements are where you find yours.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg sub gap",
+    "value": "$133",
+    "tone": "down",
+    "sub": "per month, 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And with the average card rate at 22.36%, knowing your APRs is half the battle.",
+   "say": "And with the average card rate at twenty-two point three six percent, knowing your A P Rs is half the battle.",
+   "scene": {
+    "t": "stat",
+    "label": "Card APR, Aug 2026",
+    "value": "22.36%",
+    "tone": "down",
+    "sub": "Fed G.19"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You won't fix your whole financial life in two days. But you'll know exactly where it stands.",
+   "say": "You won't fix your whole financial life in two days. But you'll know exactly where it stands.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not perfect",
+     "Just clear"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And clear beats perfect. Grab a notebook, block out Saturday morning, and start with the list.",
+   "say": "And clear beats perfect. Grab a notebook, block out Saturday morning, and start with the list.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Saturday 9 AM:",
+     "the list"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this helped, subscribe for more step-by-step guides.",
+   "say": "If this helped, subscribe for more step-by-step guides.",
+   "scene": {
+    "t": "cta",
+    "tagline": "The Guide"
+   }
+  }
+ ],
+ "post": {
+  "title": "Reset Your Money in One Weekend: An 8-Step Checklist",
+  "ig": "People underestimated their subscriptions by $133 a month (2022 survey). Here's the one-weekend reset that finds yours.",
+  "tiktok": "People underestimated subscriptions by $133 a month in a 2022 survey. The one-weekend money reset, step by step.",
+  "yt_desc": "In a 2022 survey, people guessed they spent $86 a month on subscriptions; itemized, it averaged $219. This guide walks through a one-weekend money reset: a net worth snapshot with exact math, a statement review, a debt list with a worked avalanche vs snowball example, automatic savings and the 401(k) match, free weekly credit reports and a free credit freeze, insurance and beneficiary checks, and calendar reminders. We chart the Fed's average card rate on accounts charged interest from August 2022 to August 2026, and use 2026 contribution limits (check the IRS for 2027).\n\nCHAPTERS\n\nSources: C+R Research subscription survey via CNBC (Sept 2022); Federal Reserve G.19 Consumer Credit and FRED (Aug 2022-Aug 2026 readings, Oct 2026 release); Federal Reserve SHED, Economic Well-Being of U.S. Households in 2025 (May 2026); Vanguard How America Saves 2026; IRS 2026 retirement limits (Nov 2025); FTC on free weekly credit reports (Oct 2023) and free credit freezes (Sept 2018); TaxAct 2027 tax dates.\n\nNews and education, not financial advice.\n\n#moneytips #personalfinance #newyear",
+  "tags": [
+   "money reset",
+   "new year money checklist",
+   "net worth",
+   "debt avalanche vs snowball",
+   "401k match",
+   "credit freeze",
+   "subscriptions",
+   "personal finance for beginners"
+  ]
+ }
+}
