@@ -1,0 +1,163 @@
+{
+  "series": "ticker",
+  "header": "Rent-to-own\nThe real price",
+  "cover": {
+    "title": "The $1,300 TV",
+    "prop": "store",
+    "label": "$600",
+    "value": "$1,300"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "This $600 TV can cost you $1,300.",
+      "say": "This six hundred dollar TV can cost you thirteen hundred.",
+      "scene": {
+        "t": "hook",
+        "title": "The [$1,300] TV",
+        "prop": "store",
+        "label": "$600",
+        "value": "$1,300",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's rent-to-own: weekly payments, usually no credit check, return it anytime.",
+      "say": "It's rent-to-own: weekly payments, usually no credit check, return it anytime.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Small weekly bills",
+          "Return anytime"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "For example, $20 a week for 65 weeks is $1,300. Our math: more than double the price.",
+      "say": "For example, twenty dollars a week for sixty-five weeks is thirteen hundred. Our math: more than double the price.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Cash price",
+          "value": "$600"
+        },
+        "to": {
+          "label": "65 weeks x $20",
+          "value": "$1,300"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's not yours until the final payment. Return it in week 64, you keep nothing.",
+      "say": "It's not yours until the final payment. Return it in week sixty-four, you keep nothing.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Wk 1",
+            "what": "Pay $20"
+          },
+          {
+            "when": "Wk 64",
+            "what": "Still not yours"
+          },
+          {
+            "when": "Wk 65",
+            "what": "Finally yours"
+          }
+        ],
+        "reveal": 3,
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The same $600 on a card at 22.36% APR, over 15 months, is about $693. Our math.",
+      "say": "The same six hundred on a card at about twenty-two percent A P R, over fifteen months, is about six ninety-three. Our math.",
+      "scene": {
+        "t": "compare",
+        "title": "Total for a $600 TV",
+        "left": {
+          "label": "Card 22.36%",
+          "value": "$693",
+          "tone": "up",
+          "sub": "15 months"
+        },
+        "right": {
+          "label": "Rent-to-own",
+          "value": "$1,300",
+          "tone": "down",
+          "sub": "65 weeks"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's a lease, so no APR is required. A 2017 NerdWallet study estimated up to 468%.",
+      "say": "It's a lease, so no A P R is required. A twenty seventeen NerdWallet study estimated up to four hundred sixty-eight percent.",
+      "scene": {
+        "t": "stat",
+        "label": "Implied APR, max",
+        "value": "468%",
+        "tone": "down",
+        "sub": "NerdWallet, 2017",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Rules vary by state. California caps the total at 2.25 times the cash price, Vermont at 2.",
+      "say": "Rules vary by state. California caps the total at two point two five times the cash price, Vermont at two.",
+      "scene": {
+        "t": "list",
+        "title": "State caps on total",
+        "items": [
+          "CA: 2.25x",
+          "VT: 2x"
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So the real price is the weekly payment times the weeks.",
+      "say": "So the real price is the weekly payment times the weeks.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Weekly x weeks",
+          "= real price"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why a $600 TV can cost $1,300 at a rent-to-own store",
+    "ig": "This $600 TV can cost you $1,300.\nFor example: $20 a week for 65 weeks = $1,300 (our math). You own it only after the last payment.\nSame $600 on a card at 22.36% APR (Fed, Q3 2026) over 15 months: about $693 (our math).\nA 2017 NerdWallet/Raycom study estimated Rent-A-Center's implied APRs at 43% to 468%.\nRules vary by state: California caps total cost at 2.25x the cash price, Vermont at 2x.\nSources: Federal Reserve G.19, NerdWallet/Raycom (2017), California Civil Code 1812.644, APRO.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#renttoown #personalfinance #moneytips #creditcards #financeprostv",
+    "tiktok": "A $600 TV for $1,300? How rent-to-own weekly payments add up. Not financial advice. #moneytok #personalfinance #renttoown #financeprostv",
+    "yt_desc": "Rent-to-own stores let you pay weekly with no credit check, but you own nothing until the last payment. For example, $20 a week for 65 weeks is $1,300 for a $600 TV (our math), versus about $693 on a 22.36% APR card over 15 months (Federal Reserve G.19, Q3 2026). A 2017 NerdWallet study estimated implied APRs up to 468%, and states like California (2.25x) and Vermont (2x) cap total cost. News and education, not financial advice. #Shorts #personalfinance #renttoown",
+    "tags": [
+      "rent to own",
+      "lease to own",
+      "rent-a-center",
+      "weekly payments",
+      "personal finance"
+    ]
+  }
+}
