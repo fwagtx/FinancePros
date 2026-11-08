@@ -1,0 +1,204 @@
+{
+  "series": "ticker",
+  "header": "McDonald's app\nThe money machine",
+  "cover": {
+    "title": "The $41B App",
+    "prop": "bag",
+    "label": "$41B",
+    "value": "$41B"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "McDonald's app members rang up $41 billion in one year.",
+      "say": "McDonald's app members rang up forty-one billion dollars in one year.",
+      "scene": {
+        "t": "hook",
+        "title": "The [App] Machine",
+        "prop": "bag",
+        "label": "$41B",
+        "value": "$41B",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's loyalty sales for the 12 months to September 2026, in 70 markets.",
+      "say": "That's loyalty sales for the twelve months to September twenty twenty-six, in seventy markets.",
+      "scene": {
+        "t": "stat",
+        "label": "Loyalty sales",
+        "value": "$41B",
+        "tone": "up",
+        "sub": "12 mo. to Sep 2026",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2023, it was about $20 billion, so roughly double.",
+      "say": "In twenty twenty-three, it was about twenty billion, so roughly double.",
+      "scene": {
+        "t": "chart",
+        "title": "12-mo loyalty sales ($B)",
+        "points": [
+          [
+            2023,
+            20
+          ],
+          [
+            2024,
+            30
+          ],
+          [
+            2025,
+            37
+          ],
+          [
+            2026,
+            41
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$41B to Sep",
+        "color": "up",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Why? McDonald's says US members went from 10.5 visits a year before joining to 26 after.",
+      "say": "Why? McDonald's says US members went from ten and a half visits a year before joining to twenty-six after.",
+      "scene": {
+        "t": "compare",
+        "title": "Visits per year",
+        "left": {
+          "label": "Before",
+          "value": "10.5",
+          "tone": "neutral",
+          "sub": "pre-join"
+        },
+        "right": {
+          "label": "After",
+          "value": "26",
+          "tone": "up",
+          "sub": "post-join"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The lure: 100 points per $1, and medium fries cost 3,500.",
+      "say": "The lure: one hundred points per dollar, and medium fries cost three thousand five hundred.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "100 pts per $1",
+          "Fries: 3,500 pts"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: $35 of spending earns free medium fries.",
+      "say": "Our math: thirty-five dollars of spending earns free medium fries.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "You spend",
+          "value": "$35"
+        },
+        "to": {
+          "label": "You get",
+          "value": "Fries"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That price rose in May 2026 from 3,000 points, so it takes $5 more.",
+      "say": "That price rose in May twenty twenty-six from three thousand points, so it takes five dollars more.",
+      "scene": {
+        "t": "compare",
+        "title": "Fries in points",
+        "left": {
+          "label": "Pre-May '26",
+          "value": "3,000",
+          "tone": "neutral",
+          "sub": "= $30 spent"
+        },
+        "right": {
+          "label": "Since May '26",
+          "value": "3,500",
+          "tone": "down",
+          "sub": "= $35 spent"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And every scan shows McDonald's what you order, so offers can target you.",
+      "say": "And every scan shows McDonald's what you order, so offers can target you.",
+      "scene": {
+        "t": "split",
+        "title": "The trade",
+        "left": {
+          "title": "You get",
+          "items": [
+            "Free fries",
+            "Deals"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "It gets",
+          "items": [
+            "More visits",
+            "Your data"
+          ],
+          "tone": "neutral"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Its 2027 goal: 250 million active members spending $45 billion a year. The free fries buy your next visit.",
+      "say": "Its twenty twenty-seven goal: two hundred fifty million active members spending forty-five billion dollars a year. The free fries buy your next visit.",
+      "scene": {
+        "t": "stat",
+        "label": "2027 goal",
+        "value": "$45B",
+        "tone": "up",
+        "sub": "250M members",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "How McDonald's app turned free fries into $41 billion",
+    "ig": "McDonald's app members rang up $41 billion in one year.\nSales to loyalty members hit $41B in the 12 months to Sept 2026, up from about $20B in 2023.\nMcDonald's says US customers visited 10.5 times the year before joining and 26 times the year after.\nOur math: at 100 points per $1, medium fries (3,500 points since May 2026) take $35 of spending.\nSources: McDonald's earnings releases (2023-2026), Investor Update (Dec 2023), Doctor of Credit.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mcdonalds #loyaltyprograms #business #howtheymakemoney #financeprostv",
+    "tiktok": "McDonald's app members spent $41B in a year. How free fries pay. Not financial advice. #moneytok #personalfinance #mcdonalds #business #financeprostv",
+    "yt_desc": "McDonald's loyalty members generated $41 billion in sales in the 12 months to September 2026, up from about $20 billion in 2023. McDonald's says US customers visited 10.5 times the year before joining and 26 times after, and at 100 points per $1, medium fries take $35 of spending (our math). Sources: McDonald's earnings releases and 2023 Investor Update. News and education, not financial advice. #Shorts #mcdonalds #business",
+    "tags": [
+      "mcdonalds",
+      "loyalty program",
+      "mymcdonalds rewards",
+      "how they make money",
+      "business model"
+    ]
+  }
+}
