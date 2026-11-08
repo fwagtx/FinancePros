@@ -1,0 +1,1647 @@
+{
+ "series": "ticker",
+ "header": "WORLD MONEY",
+ "cover": {
+  "title": "Gold on a Plane.",
+  "prop": "box",
+  "label": "GOLD",
+  "value": "47 t"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In 1991, India flew 47 tonnes of gold to London.",
+   "say": "In nineteen ninety-one, India flew forty-seven tonnes of gold to London.",
+   "scene": {
+    "t": "hook",
+    "title": "Gold to [London]",
+    "prop": "box",
+    "label": "GOLD",
+    "value": "47 t",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Not to sell it. To borrow against it, because the country was close to running out of dollars.",
+   "say": "Not to sell it. To borrow against it, because the country was close to running out of dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not a sale.",
+     "A loan."
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By mid-1991, India's reserves could pay for only about two weeks of imports.",
+   "say": "By mid nineteen ninety-one, India's reserves could pay for only about two weeks of imports.",
+   "scene": {
+    "t": "stat",
+    "label": "Import cover",
+    "value": "~2 weeks",
+    "tone": "down",
+    "sub": "Mid-1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Think about a country of more than 800 million people, two weeks from not being able to buy oil.",
+   "say": "Think about a country of more than eight hundred million people, two weeks from not being able to buy oil.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "RESERVE BANK OF INDIA",
+    "label": "Reserves: ~2 wks",
+    "caption": "1991: almost empty"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, in about one month, India rewrote the rules of its whole economy.",
+   "say": "Then, in about one month, India rewrote the rules of its whole economy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "One month.",
+     "New rules."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that rewrite reaches you: your generic pills, your bank's tech support, maybe your coworkers.",
+   "say": "And that rewrite reaches you: your generic pills, your bank's tech support, maybe your coworkers.",
+   "scene": {
+    "t": "list",
+    "title": "Where 1991 shows up",
+    "items": [
+     "Generic pills",
+     "Tech support",
+     "Trade",
+     "Coworkers"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how does a giant country end up shipping its gold overseas? Let's start with a war.",
+   "say": "So how does a giant country end up shipping its gold overseas? Let's start with a war.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Gold overseas?",
+     "Start with a war."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick note: this is news and education, not financial advice.",
+   "say": "Quick note: this is news and education, not financial advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "News + education,",
+     "not advice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: running on empty.",
+   "say": "Chapter one: running on empty.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Running on empty"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In August 1990, Iraq invaded Kuwait.",
+   "say": "In August nineteen ninety, Iraq invaded Kuwait.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Aug90",
+      "what": "Kuwait invaded"
+     },
+     {
+      "when": "May91",
+      "what": "Gold to UBS"
+     },
+     {
+      "when": "Jul91",
+      "what": "Gold to London"
+     },
+     {
+      "when": "Jul91",
+      "what": "Rupee cut twice"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oil prices roughly doubled in a few months. Brent went from about $17 a barrel in July 1990 to above $40 in October.",
+   "say": "Oil prices roughly doubled in a few months. Brent went from about seventeen dollars a barrel in July nineteen ninety to above forty dollars in October.",
+   "scene": {
+    "t": "compare",
+    "title": "Brent oil, 1990",
+    "left": {
+     "label": "July",
+     "value": "~$17",
+     "tone": "neutral",
+     "sub": "per barrel"
+    },
+    "right": {
+     "label": "October",
+     "value": "$40+",
+     "tone": "down",
+     "sub": "per barrel"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For India, which imported much of its oil, that hurt fast.",
+   "say": "For India, which imported much of its oil, that hurt fast.",
+   "scene": {
+    "t": "compare",
+    "title": "Brent oil, 1990",
+    "left": {
+     "label": "July",
+     "value": "~$17",
+     "tone": "neutral",
+     "sub": "per barrel"
+    },
+    "right": {
+     "label": "October",
+     "value": "$40+",
+     "tone": "down",
+     "sub": "per barrel"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "India's oil import bill jumped by more than half in the 1990-91 fiscal year.",
+   "say": "India's oil import bill jumped by more than half in the nineteen ninety to ninety-one fiscal year.",
+   "scene": {
+    "t": "stat",
+    "label": "Oil import bill",
+    "value": ">50%",
+    "tone": "down",
+    "sub": "FY 1990-91"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the war hit a second wallet: money sent home by Indians working in the Gulf.",
+   "say": "And the war hit a second wallet: money sent home by Indians working in the Gulf.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hit #2:",
+     "money sent home"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "India airlifted more than 170,000 of its citizens out of Kuwait, in 488 flights over 59 days.",
+   "say": "India airlifted more than a hundred seventy thousand of its citizens out of Kuwait, in four hundred eighty-eight flights over fifty-nine days.",
+   "scene": {
+    "t": "stat",
+    "label": "People airlifted",
+    "value": "170,000+",
+    "tone": "neutral",
+    "sub": "Aug-Oct 1990"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's still in the Guinness record books. But those workers' paychecks, and the dollars they sent home, stopped.",
+   "say": "It's still in the Guinness record books. But those workers' paychecks, and the dollars they sent home, stopped.",
+   "scene": {
+    "t": "news",
+    "headline": "Record airlift home",
+    "source": "Guinness, Air India, 1990"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So more dollars were flowing out for oil, and fewer were flowing in from workers.",
+   "say": "So more dollars were flowing out for oil, and fewer were flowing in from workers.",
+   "scene": {
+    "t": "split",
+    "title": "India's dollars, 1990",
+    "left": {
+     "title": "Out",
+     "items": [
+      "Pricier oil",
+      "Debt bills"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "In",
+     "items": [
+      "Fewer wages",
+      "Less trust"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's why that matters. A country pays for imports in dollars, not its own currency.",
+   "say": "Here's why that matters. A country pays for imports in dollars, not its own currency.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Imports are paid",
+     "in dollars"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those dollars sit in a pile called foreign exchange reserves, at the central bank.",
+   "say": "Those dollars sit in a pile called foreign exchange reserves, at the central bank.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "RESERVE BANK OF INDIA",
+    "label": "FX reserves",
+    "caption": "The dollar pile"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In January 1991, India's pile was down to about $1.2 billion.",
+   "say": "In January nineteen ninety-one, India's pile was down to about one point two billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "FX reserves",
+    "value": "~$1.2B",
+    "tone": "down",
+    "sub": "January 1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By June, it covered only about two weeks of imports. Lenders saw it, and new loans got hard to find.",
+   "say": "By June, it covered only about two weeks of imports. Lenders saw it, and new loans got hard to find.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "~2 weeks left.",
+     "Lenders back off."
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Politics added fog. In May 1991, during an election, former prime minister Rajiv Gandhi was assassinated.",
+   "say": "Politics added fog. In May nineteen ninety-one, during an election, former prime minister Rajiv Gandhi was assassinated.",
+   "scene": {
+    "t": "news",
+    "headline": "Election turmoil",
+    "source": "May 21, 1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On June 21, P.V. Narasimha Rao became prime minister, and he named an economist, Manmohan Singh, as finance minister.",
+   "say": "On June twenty-first, P V Narasimha Rao became prime minister, and he named an economist, Manmohan Singh, as finance minister.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "May21",
+      "what": "Gandhi killed"
+     },
+     {
+      "when": "Jun21",
+      "what": "Rao sworn in"
+     },
+     {
+      "when": "Jun21",
+      "what": "Singh: finance"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They walked into an empty vault. So what do you do when you run out of cash? You pawn the jewelry.",
+   "say": "They walked into an empty vault. So what do you do when you run out of cash? You pawn the jewelry.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Out of cash?",
+     "Pawn the jewelry."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: gold on a plane.",
+   "say": "Chapter two: gold on a plane.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Gold on a plane"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The first move came even before the new team took over.",
+   "say": "The first move came even before the new team took over.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Aug90",
+      "what": "Kuwait invaded"
+     },
+     {
+      "when": "May91",
+      "what": "Gold to UBS"
+     },
+     {
+      "when": "Jul91",
+      "what": "Gold to London"
+     },
+     {
+      "when": "Jul91",
+      "what": "Rupee cut twice"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On May 16, 1991, the government leased 20 tonnes of seized gold to the State Bank of India.",
+   "say": "On May sixteenth, nineteen ninety-one, the government leased twenty tonnes of seized gold to the State Bank of India.",
+   "scene": {
+    "t": "stat",
+    "label": "Gold to UBS",
+    "value": "20 t",
+    "tone": "neutral",
+    "sub": "May 1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That bank sold it to Union Bank of Switzerland, with an option to buy it back. It raised about $200 million.",
+   "say": "That bank sold it to Union Bank of Switzerland, with an option to buy it back. It raised about two hundred million dollars.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "UNION BANK OF SWITZERLAND",
+    "label": "20 t gold",
+    "caption": "About $200M raised"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That bought a little time. Not much.",
+   "say": "That bought a little time. Not much.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A little time.",
+     "Not much."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then in July, the Reserve Bank of India pledged its own gold: 46.91 tonnes.",
+   "say": "Then in July, the Reserve Bank of India pledged its own gold: forty-six point nine one tonnes.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Aug90",
+      "what": "Kuwait invaded"
+     },
+     {
+      "when": "May91",
+      "what": "Gold to UBS"
+     },
+     {
+      "when": "Jul91",
+      "what": "Gold to London"
+     },
+     {
+      "when": "Jul91",
+      "what": "Rupee cut twice"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It went to the Bank of England in four shipments, starting July 4, 1991, as collateral for a loan.",
+   "say": "It went to the Bank of England in four shipments, starting July fourth, nineteen ninety-one, as collateral for a loan.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "BANK OF ENGLAND",
+    "label": "46.91 t gold",
+    "caption": "Collateral, July 1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Bank of Japan was part of the deal too. Together they lent about $405 million.",
+   "say": "The Bank of Japan was part of the deal too. Together they lent about four hundred five million dollars.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "uk",
+      "mood": "happy",
+      "says": "Gold received"
+     },
+     {
+      "name": "japan",
+      "mood": "happy",
+      "says": "Loan approved"
+     }
+    ],
+    "caption": "About $405M lent"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $405 million divided by 46.91 tonnes is about $8.6 million per tonne of gold.",
+   "say": "Our math: four hundred five million dollars divided by forty-six point nine one tonnes is about eight point six million dollars per tonne of gold.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Our math:",
+     "$405M / 46.91 t",
+     "= ~$8.6M a tonne"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And there's a story that the van carrying the gold to the airport broke down on a Mumbai street.",
+   "say": "And there's a story that the van carrying the gold to the airport broke down on a Mumbai street.",
+   "scene": {
+    "t": "news",
+    "headline": "Gold van breaks down",
+    "source": "Business Standard, 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the news got out, it was a shock. Gold has huge emotional weight in India.",
+   "say": "When the news got out, it was a shock. Gold has huge emotional weight in India.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Gold = trust,",
+     "family, safety"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the gold didn't fix anything. It just kept the lights on while the real work started.",
+   "say": "But the gold didn't fix anything. It just kept the lights on while the real work started.",
+   "scene": {
+    "t": "split",
+    "title": "What gold did",
+    "left": {
+     "title": "Did",
+     "items": [
+      "Bought time",
+      "Paid bills"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Didn't",
+     "items": [
+      "Fix growth",
+      "Fix rules"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the first real move was the price of the rupee itself.",
+   "say": "And the first real move was the price of the rupee itself.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Next:",
+     "the rupee"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: the rupee drops.",
+   "say": "Chapter three: the rupee drops.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The rupee drops"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back then, India's government managed the rupee's value. Today it's far more market-driven.",
+   "say": "Back then, India's government managed the rupee's value. Today it's far more market-driven.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1991: a managed",
+     "rupee"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On July 1, 1991, it cut the rupee's value. Two days later, on July 3, it cut again.",
+   "say": "On July first, nineteen ninety-one, it cut the rupee's value. Two days later, on July third, it cut again.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Aug90",
+      "what": "Kuwait invaded"
+     },
+     {
+      "when": "May91",
+      "what": "Gold to UBS"
+     },
+     {
+      "when": "Jul91",
+      "what": "Gold to London"
+     },
+     {
+      "when": "Jul91",
+      "what": "Rupee cut twice"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Together, the rupee lost about 18.7% of its value against the dollar, by the central bank's own count.",
+   "say": "Together, the rupee lost about eighteen point seven percent of its value against the dollar, by the central bank's own count.",
+   "scene": {
+    "t": "stat",
+    "label": "Rupee vs dollar",
+    "value": "-18.7%",
+    "tone": "down",
+    "sub": "July 1 and 3, 1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why do it in two steps? To test the reaction first. The second cut came after markets took the first one calmly.",
+   "say": "Why do it in two steps? To test the reaction first. The second cut came after markets took the first one calmly.",
+   "scene": {
+    "t": "list",
+    "title": "Two steps",
+    "items": [
+     "Cut once",
+     "Watch markets",
+     "Cut again"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's do the math on what a cut like that means.",
+   "say": "Let's do the math on what a cut like that means.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Worked example",
+     "(our math)"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the rupee loses 18.7% of its dollar value, one rupee is now worth 0.813 of what it was.",
+   "say": "If the rupee loses eighteen point seven percent of its dollar value, one rupee is now worth zero point eight one three of what it was.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Our math:",
+     "1 - 0.187",
+     "= 0.813"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a dollar now costs 1 divided by 0.813, or about 1.23 times as many rupees.",
+   "say": "So a dollar now costs one divided by zero point eight one three, or about one point two three times as many rupees.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Our math:",
+     "1 / 0.813",
+     "= about 1.23"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say an imported part cost 1,000 rupees before. After the cut, the same part costs about 1,230 rupees.",
+   "say": "Say an imported part cost one thousand rupees before. After the cut, the same part costs about one thousand two hundred thirty rupees.",
+   "scene": {
+    "t": "compare",
+    "title": "Same import, in rupees",
+    "left": {
+     "label": "Before",
+     "value": "₹1,000",
+     "tone": "neutral",
+     "sub": "June 1991"
+    },
+    "right": {
+     "label": "After",
+     "value": "₹1,230",
+     "tone": "down",
+     "sub": "our math"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 23% more, for exactly the same thing.",
+   "say": "That's about twenty-three percent more, for exactly the same thing.",
+   "scene": {
+    "t": "compare",
+    "title": "Same import, in rupees",
+    "left": {
+     "label": "Before",
+     "value": "₹1,000",
+     "tone": "neutral",
+     "sub": "June 1991"
+    },
+    "right": {
+     "label": "After",
+     "value": "₹1,230",
+     "tone": "down",
+     "sub": "our math"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But flip it around. An Indian shirt or a software project suddenly looked cheaper to an American buyer.",
+   "say": "But flip it around. An Indian shirt or a software project suddenly looked cheaper to an American buyer.",
+   "scene": {
+    "t": "split",
+    "title": "A cheaper rupee",
+    "left": {
+     "title": "Hurts",
+     "items": [
+      "Imports",
+      "Oil bill"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Helps",
+     "items": [
+      "Exports",
+      "Tourism"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the trade-off of a weaker currency: buying from the world costs more, selling to it gets easier.",
+   "say": "That's the trade-off of a weaker currency: buying from the world costs more, selling to it gets easier.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Buy: pricier.",
+     "Sell: easier."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A cheaper rupee alone wasn't going to save India, though. The rules had to change.",
+   "say": "A cheaper rupee alone wasn't going to save India, though. The rules had to change.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cheap rupee:",
+     "not enough"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: the big rewrite.",
+   "say": "Chapter four: the big rewrite.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "The big rewrite"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For decades, India ran on what people called the License Raj.",
+   "say": "For decades, India ran on what people called the License Raj.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The License Raj"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To open a factory, or even make more of something, a company often needed a permit from the government.",
+   "say": "To open a factory, or even make more of something, a company often needed a permit from the government.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "name": "LICENSE OFFICE",
+    "label": "Permit needed",
+    "caption": "Want to grow? Ask first"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Want to double your output of scooters? Fill out the forms, and wait. Sometimes for years.",
+   "say": "Want to double your output of scooters? Fill out the forms, and wait. Sometimes for years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More scooters?",
+     "Forms. Wait."
+    ],
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On July 24, 1991, that changed. A new industrial policy ended licensing for all but 18 industries.",
+   "say": "On July twenty-fourth, nineteen ninety-one, that changed. A new industrial policy ended licensing for all but eighteen industries.",
+   "scene": {
+    "t": "stat",
+    "label": "Still licensed",
+    "value": "18",
+    "tone": "up",
+    "sub": "July 24, 1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mostly things like defense and hazardous chemicals. For most of the economy, the permit line was gone.",
+   "say": "Mostly things like defense and hazardous chemicals. For most of the economy, the permit line was gone.",
+   "scene": {
+    "t": "split",
+    "title": "Licensing after 1991",
+    "left": {
+     "title": "Still needed",
+     "items": [
+      "Defense",
+      "Hazardous",
+      "Strategic"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Gone for",
+     "items": [
+      "Most industry"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Foreign companies got automatic approval to own up to 51% of businesses in high-priority industries.",
+   "say": "Foreign companies got automatic approval to own up to fifty-one percent of businesses in high-priority industries.",
+   "scene": {
+    "t": "stat",
+    "label": "Foreign ownership",
+    "value": "51%",
+    "tone": "up",
+    "sub": "Automatic, 1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And import taxes came down. The 1991-92 budget cut the top tariff from more than 300% to 150%.",
+   "say": "And import taxes came down. The nineteen ninety-one to ninety-two budget cut the top tariff from more than three hundred percent to a hundred fifty percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Top import tariff",
+    "left": {
+     "label": "Before",
+     "value": "300%+",
+     "tone": "down",
+     "sub": "Pre-1991"
+    },
+    "right": {
+     "label": "After",
+     "value": "150%",
+     "tone": "up",
+     "sub": "1991-92 budget"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still high, but it was a start. Later budgets kept cutting.",
+   "say": "Still high, but it was a start. Later budgets kept cutting.",
+   "scene": {
+    "t": "compare",
+    "title": "Top import tariff",
+    "left": {
+     "label": "Before",
+     "value": "300%+",
+     "tone": "down",
+     "sub": "Pre-1991"
+    },
+    "right": {
+     "label": "After",
+     "value": "150%",
+     "tone": "up",
+     "sub": "1991-92 budget"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same day, Manmohan Singh gave the budget speech. He ended it by quoting Victor Hugo.",
+   "say": "Same day, Manmohan Singh gave the budget speech. He ended it by quoting Victor Hugo.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "July 24, 1991:",
+     "budget speech"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "\"No power on earth can stop an idea whose time has come.\"",
+   "say": "No power on earth can stop an idea whose time has come.",
+   "scene": {
+    "t": "quote",
+    "text": "No power on earth can stop an idea whose time has come.",
+    "source": "Manmohan Singh, quoting Victor Hugo, July 24, 1991"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The idea, he told parliament, was India emerging as a major economic power.",
+   "say": "The idea, he told parliament, was India emerging as a major economic power.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The idea:",
+     "India rising"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The International Monetary Fund backed the plan. On October 31, 1991, it approved a standby loan of 1.656 billion SDRs, its own currency unit.",
+   "say": "The International Monetary Fund backed the plan. On October thirty-first, nineteen ninety-one, it approved a standby loan of one point six five six billion S D Rs, its own currency unit.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "IMF",
+    "label": "SDR 1.656B",
+    "caption": "Oct 31, 1991: approved"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A loan like that comes with conditions, and India had already spelled out its plan in an August 1991 letter to the IMF.",
+   "say": "A loan like that comes with conditions, and India had already spelled out its plan in an August nineteen ninety-one letter to the I M F.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "IMF loan =",
+     "conditions"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fair warning: people still argue about how much the IMF pushed versus how much India chose. Both shaped it.",
+   "say": "Fair warning: people still argue about how much the IMF pushed versus how much India chose. Both shaped it.",
+   "scene": {
+    "t": "split",
+    "title": "Who drove it?",
+    "left": {
+     "title": "IMF",
+     "items": [
+      "Conditions",
+      "Cash"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "India",
+     "items": [
+      "Own plan",
+      "Own pace"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So did it work? Here's India's economy in US dollars, every five years, from World Bank data.",
+   "say": "So did it work? Here's India's economy in US dollars, every five years, from World Bank data.",
+   "scene": {
+    "t": "chart",
+    "title": "India GDP, $ billions",
+    "points": [
+     [
+      1990,
+      321.0
+     ],
+     [
+      1995,
+      360.3
+     ],
+     [
+      2000,
+      468.4
+     ],
+     [
+      2005,
+      820.4
+     ],
+     [
+      2010,
+      1675.6
+     ],
+     [
+      2015,
+      2103.6
+     ],
+     [
+      2020,
+      2674.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$2,675B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1990, it was about $321 billion.",
+   "say": "In nineteen ninety, it was about three hundred twenty-one billion dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "India GDP, $ billions",
+    "points": [
+     [
+      1990,
+      321.0
+     ],
+     [
+      1995,
+      360.3
+     ],
+     [
+      2000,
+      468.4
+     ],
+     [
+      2005,
+      820.4
+     ],
+     [
+      2010,
+      1675.6
+     ],
+     [
+      2015,
+      2103.6
+     ],
+     [
+      2020,
+      2674.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$2,675B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 1990,
+     "text": "$321B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2005 it had grown to about $820 billion.",
+   "say": "By two thousand five it had grown to about eight hundred twenty billion dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "India GDP, $ billions",
+    "points": [
+     [
+      1990,
+      321.0
+     ],
+     [
+      1995,
+      360.3
+     ],
+     [
+      2000,
+      468.4
+     ],
+     [
+      2005,
+      820.4
+     ],
+     [
+      2010,
+      1675.6
+     ],
+     [
+      2015,
+      2103.6
+     ],
+     [
+      2020,
+      2674.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$2,675B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2005,
+     "text": "$820B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And by 2020, even after a pandemic year, about $2.67 trillion.",
+   "say": "And by twenty twenty, even after a pandemic year, about two point six seven trillion dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "India GDP, $ billions",
+    "points": [
+     [
+      1990,
+      321.0
+     ],
+     [
+      1995,
+      360.3
+     ],
+     [
+      2000,
+      468.4
+     ],
+     [
+      2005,
+      820.4
+     ],
+     [
+      2010,
+      1675.6
+     ],
+     [
+      2015,
+      2103.6
+     ],
+     [
+      2020,
+      2674.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$2,675B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2020,
+     "text": "$2.67T"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 2,675 divided by 321 is about 8.3. More than eight times bigger in thirty years.",
+   "say": "Our math: two thousand six hundred seventy-five divided by three hundred twenty-one is about eight point three. More than eight times bigger in thirty years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Our math:",
+     "2,675 / 321",
+     "= about 8.3x"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2024, the World Bank put it at about $3.91 trillion, the fifth-largest economy on Earth.",
+   "say": "By twenty twenty-four, the World Bank put it at about three point nine one trillion dollars, the fifth-largest economy on Earth.",
+   "scene": {
+    "t": "stat",
+    "label": "India GDP, 2024",
+    "value": "$3.91T",
+    "tone": "up",
+    "sub": "World Bank"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "These are dollars, not adjusted for inflation, and the rupee kept sliding. So the real gain is smaller, but still huge.",
+   "say": "These are dollars, not adjusted for inflation, and the rupee kept sliding. So the real gain is smaller, but still huge.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not inflation-",
+     "adjusted"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that dollar pile? About $717 billion in the week ended October 30, 2026, says the central bank.",
+   "say": "And that dollar pile? About seven hundred seventeen billion dollars in the week ended October thirtieth, twenty twenty-six, says the central bank.",
+   "scene": {
+    "t": "compare",
+    "title": "India FX reserves",
+    "left": {
+     "label": "Jan 1991",
+     "value": "~$1.2B",
+     "tone": "down",
+     "sub": "near empty"
+    },
+    "right": {
+     "label": "Oct 2026",
+     "value": "$717B",
+     "tone": "up",
+     "sub": "RBI"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 717 divided by 1.2 is about 600 times bigger.",
+   "say": "Our math: seven hundred seventeen divided by one point two is about six hundred times bigger.",
+   "scene": {
+    "t": "compare",
+    "title": "India FX reserves",
+    "left": {
+     "label": "Jan 1991",
+     "value": "~$1.2B",
+     "tone": "down",
+     "sub": "near empty"
+    },
+    "right": {
+     "label": "Oct 2026",
+     "value": "$717B",
+     "tone": "up",
+     "sub": "about 600x"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Growth doesn't fix everything. India is still much poorer per person than the US. But the direction changed.",
+   "say": "Growth doesn't fix everything. India is still much poorer per person than the US. But the direction changed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Still poorer",
+     "per person"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: your wallet.",
+   "say": "Chapter five: your wallet.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Your wallet"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Open your medicine cabinet. There's a good chance something in there came from an Indian company.",
+   "say": "Open your medicine cabinet. There's a good chance something in there came from an Indian company.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Check the",
+     "medicine cabinet"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2022, Indian companies supplied 47% of all generic prescriptions filled in the US, says IQVIA.",
+   "say": "In twenty twenty-two, Indian companies supplied forty-seven percent of all generic prescriptions filled in the US, says I Q V I A.",
+   "scene": {
+    "t": "stat",
+    "label": "US generic scripts",
+    "value": "47%",
+    "tone": "up",
+    "sub": "India, 2022 IQVIA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Counting every prescription, generic or not, it was about four in ten.",
+   "say": "Counting every prescription, generic or not, it was about four in ten.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "All US scripts:",
+     "about 4 in 10"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same report, which an Indian drug industry group paid for, estimated $219 billion in savings to US health care in 2022.",
+   "say": "The same report, which an Indian drug industry group paid for, estimated two hundred nineteen billion dollars in savings to US health care in twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Est. US savings",
+    "value": "$219B",
+    "tone": "up",
+    "sub": "2022, IQVIA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, the tech behind your bank, your airline, or your insurer.",
+   "say": "Next, the tech behind your bank, your airline, or your insurer.",
+   "scene": {
+    "t": "list",
+    "title": "Indian IT clients",
+    "items": [
+     "Banks",
+     "Airlines",
+     "Insurers",
+     "Retailers"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Indian IT firms grew up after 1991. Today, the biggest ones earn about half their money in North America.",
+   "say": "Indian IT firms grew up after 1991. Today, the biggest ones earn about half their money in North America.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Big Indian IT:",
+     "~half from N. Am."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "TCS got 48.5% of its revenue from North America in its January to March 2026 quarter. Infosys got 55.7%.",
+   "say": "T C S got forty-eight point five percent of its revenue from North America in its January to March twenty twenty-six quarter. Infosys got fifty-five point seven percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Revenue from N. America",
+    "left": {
+     "label": "TCS",
+     "value": "48.5%",
+     "tone": "neutral",
+     "sub": "Jan-Mar 2026"
+    },
+    "right": {
+     "label": "Infosys",
+     "value": "55.7%",
+     "tone": "neutral",
+     "sub": "Jan-Mar 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there's trade. In 2025, the US bought about $103.8 billion of goods from India.",
+   "say": "Then there's trade. In twenty twenty-five, the US bought about a hundred three point eight billion dollars of goods from India.",
+   "scene": {
+    "t": "compare",
+    "title": "US-India goods, 2025",
+    "left": {
+     "label": "US buys",
+     "value": "$103.8B",
+     "tone": "neutral",
+     "sub": "USTR"
+    },
+    "right": {
+     "label": "US sells",
+     "value": "$45.4B",
+     "tone": "neutral",
+     "sub": "USTR"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it sold India about $45.4 billion. That gap is about a $58.4 billion goods deficit.",
+   "say": "And it sold India about forty-five point four billion dollars. That gap is about a fifty-eight point four billion dollar goods deficit.",
+   "scene": {
+    "t": "compare",
+    "title": "US-India goods, 2025",
+    "left": {
+     "label": "US buys",
+     "value": "$103.8B",
+     "tone": "neutral",
+     "sub": "USTR"
+    },
+    "right": {
+     "label": "US sells",
+     "value": "$45.4B",
+     "tone": "neutral",
+     "sub": "gap: $58.4B"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In total, about $149.1 billion of goods crossed between the two in 2025, from phones to medicines to gems.",
+   "say": "In total, about a hundred forty-nine point one billion dollars of goods crossed between the two in twenty twenty-five, from phones to medicines to gems.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Shipping to me?"
+     }
+    ],
+    "caption": "2025: $149.1B in goods trade"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And then there are people. In fiscal 2024, 71% of approved H-1B petitions were for workers born in India, says USCIS.",
+   "say": "And then there are people. In fiscal twenty twenty-four, seventy-one percent of approved H one B petitions were for workers born in India, says U S C I S.",
+   "scene": {
+    "t": "stat",
+    "label": "H-1B approvals",
+    "value": "71%",
+    "tone": "neutral",
+    "sub": "India-born, FY24"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 283,000 of roughly 399,000 approvals. China was second, at about 12%.",
+   "say": "That's about two hundred eighty-three thousand of roughly three hundred ninety-nine thousand approvals. China was second, at about twelve percent.",
+   "scene": {
+    "t": "compare",
+    "title": "H-1B approvals, FY24",
+    "left": {
+     "label": "India",
+     "value": "71%",
+     "tone": "neutral",
+     "sub": "~283,000"
+    },
+    "right": {
+     "label": "China",
+     "value": "~12%",
+     "tone": "neutral",
+     "sub": "USCIS"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Whatever you think of trade deals or visa rules, and people disagree a lot, the link runs back to 1991.",
+   "say": "Whatever you think of trade deals or visa rules, and people disagree a lot, the link runs back to 1991.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Policy views vary.",
+     "The link: 1991."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A closed economy doesn't build export giants. An open one at least gives them the chance.",
+   "say": "A closed economy doesn't build export giants. An open one at least gives them the chance.",
+   "scene": {
+    "t": "split",
+    "title": "Before vs after",
+    "left": {
+     "title": "Closed",
+     "items": [
+      "Permits",
+      "High tariffs"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Open",
+     "items": [
+      "Exports",
+      "Investment"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: the recap.",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: a war roughly doubled oil prices and cut off money from Gulf workers.",
+   "say": "One: a war roughly doubled oil prices and cut off money from Gulf workers.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Oil shock",
+     "Gold pledged",
+     "Rupee -18.7%",
+     "New rules"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: with about two weeks of imports left, India pledged its gold to borrow.",
+   "say": "Two: with about two weeks of imports left, India pledged its gold to borrow.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Oil shock",
+     "Gold pledged",
+     "Rupee -18.7%",
+     "New rules"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: the rupee lost about 18.7% in two steps, making imports pricier and exports cheaper.",
+   "say": "Three: the rupee lost about eighteen point seven percent in two steps, making imports pricier and exports cheaper.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Oil shock",
+     "Gold pledged",
+     "Rupee -18.7%",
+     "New rules"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: licenses, tariffs and foreign investment rules were rewritten, and the economy grew more than eight times by 2020.",
+   "say": "Four: licenses, tariffs and foreign investment rules were rewritten, and the economy grew more than eight times by 2020.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Oil shock",
+     "Gold pledged",
+     "Rupee -18.7%",
+     "New rules"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lesson in money terms: a country's dollar pile is like your emergency fund. When it nearly hit zero, India had to change everything.",
+   "say": "The lesson in money terms: a country's dollar pile is like your emergency fund. When it nearly hit zero, India had to change everything.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reserves =",
+     "emergency fund"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Forty-seven tonnes of gold on a plane, and an economy that opened up. That's 1991.",
+   "say": "Forty-seven tonnes of gold on a plane, and an economy that opened up. That's 1991.",
+   "scene": {
+    "t": "hook",
+    "title": "Gold to [growth]",
+    "prop": "chart-up",
+    "label": "INDIA",
+    "value": "8.3x",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this made the world economy click a little more, subscribe for more World Money.",
+   "say": "If this made the world economy click a little more, subscribe for more World Money.",
+   "scene": {
+    "t": "cta",
+    "tagline": "World Money, one country at a time"
+   }
+  }
+ ],
+ "post": {
+  "title": "In 1991, India flew 47 tonnes of gold to London. Here's why.",
+  "ig": "In 1991, India flew 47 tonnes of gold to London to borrow dollars. Then it rewrote its economy.",
+  "tiktok": "In 1991 India was two weeks from running out of dollars. So it flew its gold to London.",
+  "yt_desc": "In July 1991, India's central bank pledged 46.91 tonnes of gold to the Bank of England to borrow about $405 million, because its reserves could cover only about two weeks of imports. This video explains how the Gulf War oil shock and lost remittances drained India's dollars, why the rupee was cut by about 18.7% in two steps, and how the July 24, 1991 reforms ended most industrial licensing, cut tariffs and opened the door to foreign investment. Then we follow it to your wallet: generic drugs, Indian IT firms, US-India trade in 2025, and H-1B workers.\n\nCHAPTERS\n\nSources: Lok Sabha records (July 18, 1991); Rajya Sabha records (Feb 28, 1994); Reserve Bank of India history and weekly data (Oct 30, 2026); Ministry of Finance and IMF archives (Oct 31, 1991); Industrial Policy Statement (July 24, 1991); World Bank, World Development Indicators (GDP, current US$); IQVIA Institute (April 2024); TCS and Infosys Q4 FY2026 results; USTR (2025 trade); USCIS (FY2024 H-1B report); US EIA (Brent prices, 1990); Business Standard (2011, 2021); Business Today (Aug 2026).\n\nNews and education, not financial advice.\n\n#India #economics #history",
+  "tags": [
+   "India",
+   "1991",
+   "Manmohan Singh",
+   "rupee",
+   "IMF",
+   "gold",
+   "economic history",
+   "world economy"
+  ]
+ }
+}
