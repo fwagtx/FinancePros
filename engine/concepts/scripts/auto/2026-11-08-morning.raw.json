@@ -1,0 +1,219 @@
+{
+  "series": "ticker",
+  "header": "Your week ahead:\ninflation Tuesday",
+  "cover": {
+    "title": "Pay vs Prices",
+    "prop": "bill",
+    "label": "CPI",
+    "value": "3.7%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Average pay is losing to prices. Tuesday's report updates the score.",
+      "say": "Average pay is losing to prices. Tuesday's report updates the score.",
+      "scene": {
+        "t": "hook",
+        "title": "Pay vs [prices]",
+        "prop": "bill",
+        "label": "PAY",
+        "mood": "shock",
+        "value": "+3.1%"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Average pay grew 3.1% in a year, but prices grew 3.7%.",
+      "say": "Average pay grew three point one percent in a year, but prices grew three point seven percent.",
+      "scene": {
+        "t": "compare",
+        "title": "Pay vs prices",
+        "left": {
+          "label": "Pay",
+          "value": "+3.1%",
+          "tone": "neutral",
+          "sub": "Oct, BLS"
+        },
+        "right": {
+          "label": "Prices",
+          "value": "+3.7%",
+          "tone": "down",
+          "sub": "Sept CPI"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The next score lands Tuesday, when the government releases October's inflation report.",
+      "say": "The next score lands Tuesday, when the government releases October's inflation report.",
+      "scene": {
+        "t": "news",
+        "headline": "October CPI: Tuesday",
+        "source": "BLS schedule, Nov 10, 2026",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "CPI tracks the price of an everyday basket: rent, gas, food, cars, doctor visits.",
+      "say": "C P I tracks the price of an everyday basket: rent, gas, food, cars, doctor visits.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "CPI = price of",
+          "everyday basket"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A year ago, it was 3%. This September, it climbed to 3.7%.",
+      "say": "A year ago, it was three percent. This September, it climbed to three point seven percent.",
+      "scene": {
+        "t": "chart",
+        "title": "CPI, Sept each year",
+        "points": [
+          [
+            2021,
+            5.4
+          ],
+          [
+            2022,
+            8.2
+          ],
+          [
+            2023,
+            3.7
+          ],
+          [
+            2024,
+            2.4
+          ],
+          [
+            2025,
+            3.0
+          ],
+          [
+            2026,
+            3.7
+          ]
+        ],
+        "suffix": "%",
+        "end": "3.7%",
+        "color": "down",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Gas did a lot of that, up 34.2% in a year.",
+      "say": "Gas did a lot of that, up thirty-four point two percent in a year.",
+      "scene": {
+        "t": "stat",
+        "label": "Gas prices, 1 yr",
+        "value": "+34.2%",
+        "tone": "down",
+        "sub": "Sept, BLS",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Wednesday is Veterans Day: stocks trade, but the bond market is closed.",
+      "say": "Wednesday is Veterans Day: stocks trade, but the bond market is closed.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Tue",
+            "what": "October CPI"
+          },
+          {
+            "when": "Wed",
+            "what": "Bonds closed"
+          },
+          {
+            "when": "Fri",
+            "what": "Wholesale prices"
+          }
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Friday brings wholesale prices. September's were up 6.3% in a year, the most since 2022.",
+      "say": "Friday brings wholesale prices. September's were up six point three percent in a year, the most since twenty twenty-two.",
+      "scene": {
+        "t": "timeline",
+        "keep": true,
+        "events": [
+          {
+            "when": "Tue",
+            "what": "October CPI"
+          },
+          {
+            "when": "Wed",
+            "what": "Bonds closed"
+          },
+          {
+            "when": "Fri",
+            "what": "Wholesale prices"
+          }
+        ],
+        "reveal": 3,
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Compare your raise to Tuesday's yearly rate. Beat it, your real pay grew. Miss it, it shrank.",
+      "say": "Compare your raise to Tuesday's yearly rate. Beat it, your real pay grew. Miss it, it shrank.",
+      "scene": {
+        "t": "split",
+        "title": "Your raise vs CPI",
+        "left": {
+          "title": "Beats CPI",
+          "items": [
+            "Real pay up",
+            "More buying"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Below CPI",
+          "items": [
+            "Real pay down",
+            "Less buying"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Pay is trailing prices. Tuesday's CPI updates the score",
+    "ig": "Average pay is losing to prices, and Tuesday's report updates the score.\nAverage hourly pay rose 3.1% in the year to October; consumer prices rose 3.7% in the year to September (BLS).\nOctober CPI comes out Tuesday, Nov 10, at 8:30 AM ET. Gas was up 34.2% in a year in September.\nWednesday, Nov 11 (Veterans Day): stocks open, bond market closed. Friday, Nov 13: wholesale prices (PPI), which rose 6.3% in the year to September, the most since 2022.\nSources: BLS CPI and PPI releases and schedules, SIFMA holiday schedule via Kiplinger.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#inflation #cpi #weekahead #personalfinance #financeprostv",
+    "tiktok": "Pay +3.1%, prices +3.7%. October CPI drops Tuesday. Not financial advice. #moneytok #personalfinance #inflation #cpi #financeprostv",
+    "yt_desc": "Average pay rose 3.1% in the year to October while consumer prices rose 3.7% in the year to September, per the BLS. October CPI is out Tuesday, Nov 10 at 8:30 AM ET; the bond market closes Wednesday for Veterans Day, and wholesale prices (PPI) follow Friday, Nov 13. Sources: BLS, SIFMA. News and education, not financial advice. #Shorts #inflation #cpi",
+    "tags": [
+      "CPI week ahead",
+      "October CPI 2026",
+      "inflation report",
+      "Veterans Day bond market",
+      "pay vs inflation"
+    ]
+  }
+}
