@@ -1,0 +1,205 @@
+{
+  "series": "ticker",
+  "header": "Credit score\nisn't wealth",
+  "cover": {
+    "title": "Rich, No Score?",
+    "prop": "bag",
+    "label": "cash",
+    "value": "$1M"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "A millionaire can have no credit score at all.",
+      "say": "A millionaire can have no credit score at all.",
+      "scene": {
+        "t": "hook",
+        "title": "Rich, but [no] score",
+        "prop": "bag",
+        "label": "cash",
+        "value": "$1M",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A credit score doesn't measure money. It predicts one thing.",
+      "say": "A credit score doesn't measure money. It predicts one thing.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Not: how rich",
+          "But: will you pay"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "FICO builds it to predict your odds of being 90 days late on a debt within 24 months.",
+      "say": "FICO builds it to predict your odds of being ninety days late on a debt within twenty-four months.",
+      "scene": {
+        "t": "stat",
+        "label": "Odds of 90+ late",
+        "value": "24 mo",
+        "tone": "neutral",
+        "sub": "FICO's target",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Scores run 300 to 850. Higher means lower odds.",
+      "say": "Scores run three hundred to eight fifty. Higher means lower odds.",
+      "scene": {
+        "t": "compare",
+        "title": "The FICO scale",
+        "left": {
+          "label": "Riskiest",
+          "value": "300",
+          "tone": "down",
+          "sub": "high late odds"
+        },
+        "right": {
+          "label": "Safest",
+          "value": "850",
+          "tone": "up",
+          "sub": "low late odds"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The average FICO score hit 718 in 2023, then 715 in 2025.",
+      "say": "The average FICO score hit seven eighteen in twenty twenty-three, then seven fifteen in twenty twenty-five.",
+      "scene": {
+        "t": "chart",
+        "title": "Average FICO score",
+        "points": [
+          [
+            2015,
+            695
+          ],
+          [
+            2017,
+            700
+          ],
+          [
+            2019,
+            706
+          ],
+          [
+            2021,
+            716
+          ],
+          [
+            2023,
+            718
+          ],
+          [
+            2025,
+            715
+          ]
+        ],
+        "end": "715",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Wealth is different: what you own minus what you owe.",
+      "say": "Wealth is different: what you own minus what you owe.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Own - owe",
+          "= net worth"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: Alex has $1 million saved, no debt, never borrowed. No FICO score.",
+      "say": "Our math: Alex has one million dollars saved, no debt, never borrowed. No FICO score.",
+      "scene": {
+        "t": "compare",
+        "title": "Net worth, our math",
+        "left": {
+          "label": "Alex",
+          "value": "$1M",
+          "tone": "up",
+          "sub": "no score"
+        },
+        "right": {
+          "label": "Sam",
+          "value": "-$35K",
+          "tone": "down",
+          "sub": "scores high"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Sam owns $60,000, owes $95,000: minus $35,000. Paid on time, Sam can score high.",
+      "say": "Sam owns sixty thousand dollars, owes ninety-five thousand: minus thirty-five thousand. Paid on time, Sam can score high.",
+      "scene": {
+        "t": "compare",
+        "keep": true,
+        "title": "Net worth, our math",
+        "winner": "right",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The CFPB estimated about 7 million US adults had no credit record in 2020.",
+      "say": "The C F P B estimated about seven million US adults had no credit record in twenty twenty.",
+      "scene": {
+        "t": "stat",
+        "label": "No credit record",
+        "value": "7.0M",
+        "tone": "neutral",
+        "sub": "CFPB, Dec 2020",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So a score tracks debt habits, not wealth.",
+      "say": "So a score tracks debt habits, not wealth.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Score: debt habits",
+          "Wealth: own - owe"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why a millionaire can have no credit score",
+    "ig": "A millionaire can have no credit score at all.\nFICO scores (300 to 850) are built to predict the odds of being 90+ days late on a debt within 24 months.\nThe average FICO score was 695 in 2015, a record 718 in 2023 and 715 in 2025 (FICO, April readings).\nOur math: $1M saved, no debt, never borrowed = no FICO score. Owning $60,000 and owing $95,000 = net worth of -$35,000, yet on-time payments can still mean a high score.\nThe CFPB estimated about 7.0 million US adults had no credit record in Dec 2020.\nSources: FICO, myFICO, CFPB (June 2025 update).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #networth #personalfinance #moneytips #financeprostv",
+    "tiktok": "A millionaire can have no credit score. Here's why. Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
+    "yt_desc": "A FICO score (300 to 850) is built to predict the odds of being 90+ days late on a debt within 24 months, not how much money you have. The average FICO score was 718 in 2023 and 715 in 2025 (FICO), and the CFPB estimated about 7 million US adults had no credit record in 2020. Sources: FICO, myFICO, CFPB. News and education, not financial advice. #Shorts #creditscore #personalfinance",
+    "tags": [
+      "credit score",
+      "FICO score explained",
+      "net worth",
+      "credit invisible",
+      "personal finance"
+    ]
+  }
+}
