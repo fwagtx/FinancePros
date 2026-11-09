@@ -1,0 +1,72 @@
+{
+  "series": "ticker",
+  "header": "Job Fears Hit\nA 2020-Level High",
+  "cover": {
+    "title": "Job Fears Spike",
+    "prop": "chart-up",
+    "value": "45.3%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Americans see a 45.3% chance unemployment rises next year.",
+      "say": "Americans see about a forty-five percent chance unemployment rises next year.",
+      "scene": {"t": "hook", "title": "Job [fears]", "prop": "chart-up", "label": "jobs", "value": "45.3%", "mood": "shock"}
+    },
+    {
+      "who": "ticker",
+      "text": "That's the highest since April 2020, in a New York Fed survey out today.",
+      "say": "That's the highest since April twenty twenty, in a New York Fed survey out today.",
+      "scene": {"t": "news", "headline": "Job fears: 2020 high", "source": "NY Fed, Nov 9, 2026", "mood": "worried"}
+    },
+    {
+      "who": "ticker",
+      "text": "It jumped 1.4 percentage points in a month, led by people without a college degree.",
+      "say": "It jumped one point four percentage points in a month, led by people without a college degree.",
+      "scene": {"t": "stat", "label": "Jump in a month", "value": "+1.4 pts", "tone": "down", "sub": "Sept to Oct 2026", "mood": "worried"}
+    },
+    {
+      "who": "ticker",
+      "text": "But here's the twist: the odds of finding a new job after losing one rose to 46.5%.",
+      "say": "But here's the twist: the odds of finding a new job after losing one rose to about forty-six and a half percent.",
+      "scene": {"t": "compare", "title": "Two signals", "left": {"label": "Jobs worse", "value": "45.3%", "tone": "down", "sub": "highest since 2020"}, "right": {"label": "Find a job", "value": "46.5%", "tone": "up", "sub": "best since Nov '25"}, "mood": "think"}
+    },
+    {
+      "who": "ticker",
+      "text": "So people expect a softer job market, but more think they could bounce back.",
+      "say": "So people expect a softer job market, but more of them think they could bounce back.",
+      "scene": {"t": "compare", "keep": true, "title": "Two signals", "left": {"label": "Jobs worse", "value": "45.3%", "tone": "down", "sub": "highest since 2020"}, "right": {"label": "Find a job", "value": "46.5%", "tone": "up", "sub": "best since Nov '25"}, "winner": "right", "mood": "happy"}
+    },
+    {
+      "who": "ticker",
+      "text": "Wallets feel it too: the expected chance of missing a minimum debt payment rose to 13.8%.",
+      "say": "Wallets feel it too: the expected chance of missing a minimum debt payment rose to about fourteen percent.",
+      "scene": {"t": "stat", "label": "Miss a payment", "value": "13.8%", "tone": "down", "sub": "next 3 months", "mood": "worried"}
+    },
+    {
+      "who": "ticker",
+      "text": "And people expect rent up 7.7% and medical care up 9.3% over the next year.",
+      "say": "And people expect rent up about eight percent and medical care up about nine percent over the next year.",
+      "scene": {"t": "list", "title": "Expected next year", "items": ["Rent +7.7%", "Medical +9.3%"], "reveal": 2, "mood": "shock"}
+    },
+    {
+      "who": "ticker",
+      "text": "Expectations aren't a forecast. But they're a good nudge to check your emergency cushion.",
+      "say": "Expectations aren't a forecast. But they're a good nudge to check your emergency cushion.",
+      "scene": {"t": "board", "lines": ["Fear isn't fact", "Check your cushion"], "mood": "happy"}
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {"t": "cta"}
+    }
+  ],
+  "post": {
+    "title": "Americans' job fears just hit their highest since 2020",
+    "ig": "Americans' job fears just hit their highest level since April 2020.\nThe New York Fed's October survey (released Nov 9, 2026) puts the odds that unemployment rises in a year at 45.3%, up 1.4 points.\nTwist: the odds of finding a new job after a layoff rose to 46.5%, the highest since November 2025.\nThe expected chance of missing a minimum debt payment rose to 13.8%; expected rent growth is 7.7%.\nSources: Federal Reserve Bank of New York Survey of Consumer Expectations, Reuters, ABA Banking Journal.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#jobs #unemployment #economy #federalreserve #financeprostv",
+    "tiktok": "Job fears just hit a 2020-level high. Here's the twist. Not financial advice. #moneytok #personalfinance #jobs #economy #financeprostv",
+    "yt_desc": "The New York Fed's October 2026 Survey of Consumer Expectations (released Nov 9, 2026) shows the expected odds that US unemployment rises in a year jumped to 45.3%, the highest since April 2020, while the odds of finding a new job after a layoff rose to 46.5%. The expected chance of missing a minimum debt payment rose to 13.8%. Sources: Federal Reserve Bank of New York, Reuters. News and education, not financial advice. #Shorts #jobs #economy",
+    "tags": ["new york fed survey", "unemployment expectations", "consumer expectations", "job market", "inflation expectations"]
+  }
+}
