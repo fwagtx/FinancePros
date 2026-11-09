@@ -1,215 +1,219 @@
 {
- "series": "ticker",
- "header": "Why vet bills\nkeep rising",
- "cover": {
-  "title": "Snickers Vets?",
-  "prop": "store",
-  "label": "VET",
-  "value": "~3,000"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "The company behind Snickers runs about 3,000 vet hospitals.",
-   "say": "The company behind Snickers runs about three thousand vet hospitals.",
-   "scene": {
-    "t": "hook",
-    "title": "Candy maker, [vet]",
+  "series": "ticker",
+  "header": "Why vet bills\nkeep rising",
+  "cover": {
+    "title": "Snickers Vets?",
     "prop": "store",
     "label": "VET",
-    "value": "~3,000",
-    "mood": "shock"
-   }
+    "value": "~3,000"
   },
-  {
-   "who": "ticker",
-   "text": "That's Mars: Banfield, VCA, BluePearl. So why are vet bills climbing?",
-   "say": "That's Mars: Banfield, V C A, BluePearl. So why are vet bills climbing?",
-   "scene": {
-    "t": "list",
-    "title": "Mars owns",
-    "items": [
-     "Banfield",
-     "VCA",
-     "BluePearl"
-    ],
-    "reveal": 3,
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "BLS data: US vet prices rose 8.8% in 2022 and 9.4% in 2023.",
-   "say": "US vet prices rose eight point eight percent in twenty twenty-two and nine point four in twenty twenty-three.",
-   "scene": {
-    "t": "chart",
-    "title": "US vet prices, y/y",
-    "points": [
-     [
-      2016,
-      3.65
-     ],
-     [
-      2017,
-      2.2
-     ],
-     [
-      2018,
-      2.55
-     ],
-     [
-      2019,
-      4.14
-     ],
-     [
-      2020,
-      3.7
-     ],
-     [
-      2021,
-      4.21
-     ],
-     [
-      2022,
-      8.83
-     ],
-     [
-      2023,
-      9.44
-     ],
-     [
-      2024,
-      7.4
-     ]
-    ],
-    "suffix": "%",
-    "end": "7.4%",
-    "color": "up",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "By 2024 estimates, big groups own about 25% of general clinics and 75% of specialty and ER.",
-   "say": "By twenty twenty-four estimates, big groups own about twenty-five percent of general clinics, and seventy-five percent of specialty and E R.",
-   "scene": {
-    "t": "compare",
-    "title": "Corporate-owned",
-    "left": {
-     "label": "General",
-     "value": "~25%",
-     "tone": "neutral",
-     "sub": "2024 estimate"
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "The company behind Snickers runs about 3,000 vet clinics worldwide.",
+      "say": "The company behind Snickers runs about three thousand vet clinics worldwide.",
+      "scene": {
+        "t": "hook",
+        "title": "Candy maker, [vet]",
+        "prop": "store",
+        "label": "VET",
+        "value": "~3,000",
+        "mood": "shock"
+      }
     },
-    "right": {
-     "label": "Specialty/ER",
-     "value": "~75%",
-     "tone": "up",
-     "sub": "2024 estimate"
+    {
+      "who": "ticker",
+      "text": "That's Mars: Banfield, VCA, BluePearl. So why are vet bills climbing?",
+      "say": "That's Mars: Banfield, V C A, BluePearl. So why are vet bills climbing?",
+      "scene": {
+        "t": "list",
+        "title": "Mars owns",
+        "items": [
+          "Banfield",
+          "VCA",
+          "BluePearl"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
     },
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Reported drivers: higher staff pay, fancier medicine, fewer owners.",
-   "say": "Reported drivers: higher staff pay, fancier medicine, fewer owners.",
-   "scene": {
-    "t": "list",
-    "title": "Why bills rise",
-    "items": [
-     "Staff pay",
-     "Fancier care",
-     "Fewer owners"
-    ],
-    "reveal": 3,
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Britain's watchdog found UK vet prices rose 63% from 2016 to 2023, about 2x inflation.",
-   "say": "Britain's watchdog found UK vet prices rose sixty-three percent from twenty sixteen to twenty twenty-three, about double inflation.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "uk",
-      "mood": "angry",
-      "says": "Vets up 63%!"
-     }
-    ],
-    "caption": "About 2x inflation"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In 2025, it found big chains charged 16.6% more than independents.",
-   "say": "In twenty twenty-five, it found big chains charged sixteen point six percent more than independents.",
-   "scene": {
-    "t": "stat",
-    "label": "Big chain premium",
-    "value": "+16.6%",
-    "tone": "up",
-    "sub": "UK CMA, 2025",
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Our math: a $200 vet bill in 2015 is about $313 by 2024. Overall prices: $265.",
-   "say": "Our math: a two hundred dollar vet bill in twenty fifteen is about three thirteen by twenty twenty-four. Overall prices? Two sixty-five.",
-   "scene": {
-    "t": "compare",
-    "title": "$200 bill, our math",
-    "left": {
-     "label": "Vet bill",
-     "value": "$313",
-     "tone": "up",
-     "sub": "2015 to 2024"
+    {
+      "who": "ticker",
+      "text": "US vet prices rose 8.8% in 2022 and 9.4% in 2023.",
+      "say": "US vet prices rose eight point eight percent in twenty twenty-two and nine point four in twenty twenty-three.",
+      "scene": {
+        "t": "chart",
+        "title": "US vet prices, y/y",
+        "points": [
+          [
+            2016,
+            3.65
+          ],
+          [
+            2017,
+            2.2
+          ],
+          [
+            2018,
+            2.55
+          ],
+          [
+            2019,
+            4.14
+          ],
+          [
+            2020,
+            3.7
+          ],
+          [
+            2021,
+            4.21
+          ],
+          [
+            2022,
+            8.83
+          ],
+          [
+            2023,
+            9.44
+          ],
+          [
+            2024,
+            7.4
+          ],
+          [
+            2025,
+            6.31
+          ]
+        ],
+        "suffix": "%",
+        "end": "6.3%",
+        "color": "up",
+        "mood": "worried"
+      }
     },
-    "right": {
-     "label": "All prices",
-     "value": "$265",
-     "tone": "neutral",
-     "sub": "2015 to 2024"
+    {
+      "who": "ticker",
+      "text": "By 2024 estimates, big groups own about 25% of general clinics and 75% of specialty and ER.",
+      "say": "By twenty twenty-four estimates, big groups own about twenty-five percent of general clinics, and seventy-five percent of specialty and E R.",
+      "scene": {
+        "t": "compare",
+        "title": "Corporate-owned",
+        "left": {
+          "label": "General",
+          "value": "~25%",
+          "tone": "neutral",
+          "sub": "2024 estimate"
+        },
+        "right": {
+          "label": "Specialty/ER",
+          "value": "~75%",
+          "tone": "up",
+          "sub": "2024 estimate"
+        },
+        "mood": "think"
+      }
     },
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Fancier care, plus fewer owners. That's the bill.",
-   "say": "Fancier care, plus fewer owners. That's the bill.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Fancier care",
-     "+ fewer owners"
-    ],
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's the money. Follow for more.",
-   "say": "That's the money. Follow for more.",
-   "scene": {
-    "t": "cta"
-   }
+    {
+      "who": "ticker",
+      "text": "Reported drivers: higher staff pay, fancier medicine, fewer owners.",
+      "say": "Reported drivers: higher staff pay, fancier medicine, fewer owners.",
+      "scene": {
+        "t": "list",
+        "title": "Why bills rise",
+        "items": [
+          "Staff pay",
+          "Fancier care",
+          "Fewer owners"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Britain's watchdog found vet prices rose 63% from 2016 to 2023, about 2x inflation.",
+      "say": "Britain's watchdog found vet prices rose sixty-three percent from twenty sixteen to twenty twenty-three, about double inflation.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "uk",
+            "mood": "angry",
+            "says": "Vets up 63%!"
+          }
+        ],
+        "caption": "About 2x inflation"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Its 2026 final report: five big chains priced 18.3% above independents.",
+      "say": "Its twenty twenty-six final report: five big chains priced eighteen point three percent above independents.",
+      "scene": {
+        "t": "stat",
+        "label": "Big chain premium",
+        "value": "+18.3%",
+        "tone": "up",
+        "sub": "UK CMA, 2026",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: a $200 vet bill in 2015 is about $333 by 2025. Overall prices: $272.",
+      "say": "Our math: a two hundred dollar vet bill in twenty fifteen is about three thirty-three by twenty twenty-five. Overall prices? Two seventy-two.",
+      "scene": {
+        "t": "compare",
+        "title": "$200 bill, our math",
+        "left": {
+          "label": "Vet bill",
+          "value": "$333",
+          "tone": "up",
+          "sub": "2015 to 2025"
+        },
+        "right": {
+          "label": "All prices",
+          "value": "$272",
+          "tone": "neutral",
+          "sub": "2015 to 2025"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Fancier care, plus fewer owners. That's the bill.",
+      "say": "Fancier care, plus fewer owners. That's the bill.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Fancier care",
+          "+ fewer owners"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "The candy company behind your rising vet bills",
+    "ig": "The company behind Snickers runs about 3,000 vet clinics worldwide.\nMars owns Banfield, VCA and BluePearl; its vet network is about 3,000 clinics worldwide (Mars Veterinary Health).\nUS vet prices rose 8.8% in 2022 and 9.4% in 2023 (BLS CPI, annual averages).\nBig groups own about 25% of US general vet clinics and about 75% of specialty and ER clinics (2024 estimates).\nThe UK competition watchdog found vet prices rose 63% from 2016 to 2023, vs 32% inflation (CMA).\nOur math: a $200 vet bill at 2015 prices is about $333 by 2025; prices overall, about $272.\nSources: BLS, Mars Veterinary Health, Stateline, UK CMA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#vetbills #pets #inflation #business #financeprostv",
+    "tiktok": "The Snickers company runs about 3,000 vet clinics worldwide. Not financial advice. #moneytok #personalfinance #vetbills #pets #financeprostv",
+    "yt_desc": "Mars, the company behind Snickers, runs about 3,000 vet clinics worldwide, including Banfield, VCA and BluePearl. US vet prices rose 8.8% in 2022 and 9.4% in 2023 (BLS), and the UK's CMA found vet prices rose 63% from 2016 to 2023 vs 32% inflation. Sources: BLS, Mars Veterinary Health, UK CMA. News and education, not financial advice. #Shorts #vetbills #business",
+    "tags": [
+      "vet bills",
+      "why are vet bills so expensive",
+      "Mars vet clinics",
+      "veterinary inflation",
+      "pet costs"
+    ]
   }
- ],
- "post": {
-  "title": "The candy company behind your rising vet bills",
-  "ig": "The company behind Snickers runs about 3,000 vet hospitals.\nMars owns Banfield, VCA and BluePearl; its vet network is about 3,000 clinics worldwide (Mars Veterinary Health).\nUS vet prices rose 8.8% in 2022 and 9.4% in 2023 (BLS CPI, annual averages).\nBig groups own about 25% of US general vet clinics and about 75% of specialty and ER hospitals (2024 estimates).\nThe UK competition watchdog found vet prices rose 63% from 2016 to 2023, vs 31.3% inflation (CMA).\nOur math: a $200 vet bill at 2015 prices is about $313 by 2024; prices overall, about $265.\nSources: BLS, Mars Veterinary Health, Stateline, UK CMA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#vetbills #pets #inflation #business #financeprostv",
-  "tiktok": "The Snickers company runs about 3,000 vet hospitals. Not financial advice. #moneytok #personalfinance #vetbills #pets #financeprostv",
-  "yt_desc": "Mars, the company behind Snickers, runs about 3,000 vet hospitals worldwide, including Banfield, VCA and BluePearl. US vet prices rose 8.8% in 2022 and 9.4% in 2023 (BLS), and the UK's CMA found vet prices rose 63% from 2016 to 2023 vs 31.3% inflation. Sources: BLS, Mars Veterinary Health, UK CMA. News and education, not financial advice. #Shorts #vetbills #business",
-  "tags": [
-   "vet bills",
-   "why are vet bills so expensive",
-   "Mars vet clinics",
-   "veterinary inflation",
-   "pet costs"
-  ]
- }
 }
