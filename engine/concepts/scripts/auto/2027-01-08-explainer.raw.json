@@ -36,14 +36,14 @@
     },
     {
       "who": "ticker",
-      "text": "FICO builds it to predict your odds of being 90 days late on a debt within 24 months.",
-      "say": "FICO builds it to predict your odds of being ninety days late on a debt within twenty-four months.",
+      "text": "FICO builds it to predict your odds of falling 90 days behind on a debt within 24 months.",
+      "say": "FICO builds it to predict your odds of falling ninety days behind on a debt within twenty-four months.",
       "scene": {
-        "t": "stat",
-        "label": "Odds of 90+ late",
-        "value": "24 mo",
-        "tone": "neutral",
-        "sub": "FICO's target",
+        "t": "board",
+        "lines": [
+          "Predicts: 90+ days",
+          "late in 24 months"
+        ],
         "mood": "think"
       }
     },
@@ -71,38 +71,38 @@
     },
     {
       "who": "ticker",
-      "text": "The average FICO score hit 718 in 2023, then 715 in 2025.",
-      "say": "The average FICO score hit seven eighteen in twenty twenty-three, then seven fifteen in twenty twenty-five.",
+      "text": "The average FICO score was 699 in 2016, 714 in April 2026.",
+      "say": "The average FICO score was six ninety-nine in twenty sixteen, seven fourteen in April twenty twenty-six.",
       "scene": {
         "t": "chart",
         "title": "Average FICO score",
         "points": [
           [
-            2015,
-            695
+            2016,
+            699
           ],
           [
-            2017,
-            700
+            2018,
+            704
           ],
           [
-            2019,
-            706
+            2020,
+            708
           ],
           [
-            2021,
+            2022,
             716
           ],
           [
-            2023,
-            718
+            2024,
+            717
           ],
           [
-            2025,
-            715
+            2026,
+            714
           ]
         ],
-        "end": "715",
+        "end": "714",
         "color": "up",
         "mood": "think"
       }
@@ -137,7 +137,7 @@
           "label": "Sam",
           "value": "-$35K",
           "tone": "down",
-          "sub": "scores high"
+          "sub": "can score high"
         },
         "mood": "shock"
       }
@@ -161,7 +161,7 @@
       "scene": {
         "t": "stat",
         "label": "No credit record",
-        "value": "7.0M",
+        "value": "~7M",
         "tone": "neutral",
         "sub": "CFPB, Dec 2020",
         "mood": "think"
@@ -191,9 +191,9 @@
   ],
   "post": {
     "title": "Why a millionaire can have no credit score",
-    "ig": "A millionaire can have no credit score at all.\nFICO scores (300 to 850) are built to predict the odds of being 90+ days late on a debt within 24 months.\nThe average FICO score was 695 in 2015, a record 718 in 2023 and 715 in 2025 (FICO, April readings).\nOur math: $1M saved, no debt, never borrowed = no FICO score. Owning $60,000 and owing $95,000 = net worth of -$35,000, yet on-time payments can still mean a high score.\nThe CFPB estimated about 7.0 million US adults had no credit record in Dec 2020.\nSources: FICO, myFICO, CFPB (June 2025 update).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #networth #personalfinance #moneytips #financeprostv",
+    "ig": "A millionaire can have no credit score at all.\nFICO scores (300 to 850) are built to predict the odds of falling 90+ days behind on a debt within 24 months.\nThe average FICO score was 695 in 2015, a record 718 in 2023 and 714 in April 2026 (FICO, April readings).\nOur math: $1M saved, no debt, never borrowed = no FICO score. Owning $60,000 and owing $95,000 = net worth of -$35,000, yet on-time payments can still mean a high score.\nThe CFPB estimated about 7.0 million US adults had no credit record in Dec 2020.\nSources: FICO, myFICO, CFPB (June 2025 update).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #networth #personalfinance #moneytips #financeprostv",
     "tiktok": "A millionaire can have no credit score. Here's why. Not financial advice. #moneytok #personalfinance #creditscore #financeprostv",
-    "yt_desc": "A FICO score (300 to 850) is built to predict the odds of being 90+ days late on a debt within 24 months, not how much money you have. The average FICO score was 718 in 2023 and 715 in 2025 (FICO), and the CFPB estimated about 7 million US adults had no credit record in 2020. Sources: FICO, myFICO, CFPB. News and education, not financial advice. #Shorts #creditscore #personalfinance",
+    "yt_desc": "A FICO score (300 to 850) is built to predict the odds of falling 90+ days behind on a debt within 24 months, not how much money you have. The average FICO score hit a record 718 in 2023 and was 714 as of April 2026 (FICO), and the CFPB estimated about 7 million US adults had no credit record in 2020. Sources: FICO, myFICO, CFPB. News and education, not financial advice. #Shorts #creditscore #personalfinance",
     "tags": [
       "credit score",
       "FICO score explained",
