@@ -1,0 +1,205 @@
+{
+ "id": "2026-11-10-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "October inflation\nran hot: +0.4%",
+ "cover": {
+  "title": "Prices Ran Hot",
+  "prop": "chart-up",
+  "label": "October CPI",
+  "value": "+0.4%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "October inflation ran hot, and the yearly number is missing.",
+   "say": "October inflation ran hot, and the yearly number is missing.",
+   "scene": {
+    "t": "hook",
+    "title": "Inflation's [missing] number",
+    "prop": "chart-up",
+    "label": "CPI",
+    "value": "+0.4%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices rose 0.4% in October, above the 0.3% economists expected.",
+   "say": "Prices rose four tenths of a percent in October, above the three tenths economists expected.",
+   "scene": {
+    "t": "stat",
+    "label": "October prices",
+    "value": "+0.4%",
+    "tone": "down",
+    "sub": "BLS, Nov 10, 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Core prices, without food and energy, rose 0.3%, versus 0.2% expected.",
+   "say": "Core prices, without food and energy, rose three tenths, versus two tenths expected.",
+   "scene": {
+    "t": "compare",
+    "title": "Core prices, October",
+    "left": {
+     "label": "Expected",
+     "value": "+0.2%",
+     "tone": "neutral",
+     "sub": "Economists' forecast"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "+0.3%",
+     "tone": "down",
+     "sub": "BLS"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why no yearly rate? The 2025 shutdown meant the government skipped collecting prices last October.",
+   "say": "Why no yearly rate? The twenty twenty-five shutdown meant the government skipped collecting prices last October.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No Oct 2025 data",
+     "= no yearly rate"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The last yearly reading was 3.7%, back in September.",
+   "say": "The last yearly reading was about three point seven percent, back in September.",
+   "scene": {
+    "t": "chart",
+    "title": "Yearly inflation, 2026",
+    "points": [
+     [
+      1,
+      2.4
+     ],
+     [
+      2,
+      2.4
+     ],
+     [
+      3,
+      3.3
+     ],
+     [
+      4,
+      3.8
+     ],
+     [
+      5,
+      4.2
+     ],
+     [
+      6,
+      3.5
+     ],
+     [
+      7,
+      3.4
+     ],
+     [
+      8,
+      3.4
+     ],
+     [
+      9,
+      3.7
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.7%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Groceries rose 0.4% too. Our math: a $100 cart now costs $100.40.",
+   "say": "Groceries rose four tenths of a percent too. Our math: a hundred dollar cart now costs a hundred dollars and forty cents.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "September cart",
+     "value": "$100"
+    },
+    "to": {
+     "label": "October cart",
+     "value": "$100.40"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's also the last CPI report before the Fed meets December 8 and 9.",
+   "say": "It's also the last consumer price report before the Fed meets on December eighth and ninth.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Dec 8-9",
+    "caption": "Last CPI before the meeting",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fed decisions flow into your card rate, loan rates and savings yield.",
+   "say": "And Fed decisions flow into your card rate, loan rates and savings yield.",
+   "scene": {
+    "t": "list",
+    "title": "Where the Fed hits",
+    "items": [
+     "Card APRs",
+     "Loan rates",
+     "Savings yield"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Simple test: if your raise is smaller than price growth, your real pay shrank.",
+   "say": "Simple test: if your raise is smaller than price growth, your real pay shrank.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Raise < prices",
+     "= real pay cut"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "October inflation ran hot, and the yearly rate is missing",
+  "ig": "October inflation ran hot, and the yearly number is missing.\nPrices rose 0.4% in October (economists expected 0.3%); core prices rose 0.3% vs 0.2% expected.\nNo 12-month rate this time: the 2025 shutdown meant no prices were collected in October 2025.\nGroceries +0.4%: our math, a $100 cart is now $100.40. Last yearly rate: 3.7% in September.\nIt's the last CPI before the Fed meets Dec 8-9.\nSources: BLS (Nov 10, 2026), CNBC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#inflation #cpi #groceries #personalfinance #financeprostv",
+  "tiktok": "October prices rose 0.4%, hotter than expected, and there's no yearly rate. Not financial advice. #moneytok #personalfinance #cpi #financeprostv",
+  "yt_desc": "October 2026 consumer prices rose 0.4% (0.3% expected) and core prices rose 0.3% (0.2% expected), per the BLS release on Nov 10, 2026. There's no 12-month rate this time because the 2025 shutdown left no October 2025 price data; the last yearly reading was 3.7% in September. Sources: BLS, CNBC. News and education, not financial advice. #Shorts #inflation #cpi",
+  "tags": [
+   "inflation",
+   "cpi october 2026",
+   "consumer price index",
+   "fed december meeting",
+   "grocery prices"
+  ]
+ }
+}
