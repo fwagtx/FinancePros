@@ -1,0 +1,164 @@
+{
+  "series": "ticker",
+  "header": "Loan Rate Boss\nBack at 5%",
+  "cover": {
+    "title": "Back at 5%",
+    "prop": "house",
+    "label": "10-YR",
+    "value": "5%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "The rate that steers mortgages touched 5% today.",
+      "say": "The rate that steers mortgages touched five percent today.",
+      "scene": {
+        "t": "hook",
+        "title": "The [rate] behind your mortgage",
+        "prop": "house",
+        "label": "10-YR",
+        "value": "5%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's the 10-year Treasury yield, and it jumped after this morning's hot inflation report.",
+      "say": "It's the ten-year Treasury yield, and it jumped after this morning's hot inflation report.",
+      "scene": {
+        "t": "stat",
+        "label": "10-year yield",
+        "value": "5%",
+        "tone": "down",
+        "sub": "CNBC, Nov 10, 2026",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Lenders price long loans off it, so when it climbs, loan rates tend to follow.",
+      "say": "Lenders price long loans off it, so when it climbs, loan rates tend to follow.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "10-yr yield up",
+          "loan rates follow"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Fed Governor Christopher Waller said a half-point hike should be considered in December if inflation ran hot. It did.",
+      "say": "Fed Governor Christopher Waller said a half-point hike should be considered in December if inflation ran hot. It did.",
+      "scene": {
+        "t": "quote",
+        "text": "a 50 basis point hike in the policy rate should be considered at the December meeting",
+        "source": "Fed Gov. Christopher Waller, Nov 10, 2026",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Mortgages already average about 7.2%, versus about 6.2% a year ago.",
+      "say": "Mortgages already average about seven point two percent, versus about six point two a year ago.",
+      "scene": {
+        "t": "compare",
+        "title": "30-year mortgage",
+        "left": {
+          "label": "Nov 2025",
+          "value": "6.22%",
+          "tone": "neutral",
+          "sub": "Freddie Mac"
+        },
+        "right": {
+          "label": "Nov 2026",
+          "value": "7.18%",
+          "tone": "down",
+          "sub": "week of Nov 5"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "On a $300,000 loan, that's about $191 more a month. That's our math.",
+      "say": "On a three hundred thousand dollar loan, that's about a hundred ninety-one dollars more a month. That's our math.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "at 6.22%",
+          "value": "$1,841"
+        },
+        "to": {
+          "label": "at 7.18%",
+          "value": "$2,032"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Already locked into a fixed rate? Your payment doesn't change. New borrowing feels this.",
+      "say": "Already locked into a fixed rate? Your payment doesn't change. It's new borrowing that feels this.",
+      "scene": {
+        "t": "split",
+        "title": "Who feels it",
+        "left": {
+          "title": "Locked in",
+          "items": [
+            "Fixed mortgage",
+            "Same payment"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Borrowing new",
+          "items": [
+            "New mortgages",
+            "Car loans"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Next up: mortgage rates Thursday, wholesale prices Friday, then the Fed in December.",
+      "say": "Next up: mortgage rates Thursday, wholesale prices Friday, then the Fed in December.",
+      "scene": {
+        "t": "list",
+        "title": "What to watch",
+        "items": [
+          "Mortgages Thu",
+          "Wholesale Fri",
+          "Fed in Dec"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "The rate behind your mortgage just touched 5% again",
+    "ig": "The rate that steers mortgages touched 5% today.\nThe 10-year Treasury yield jumped to about 5.00% on Nov 10, 2026 after a hotter-than-expected October inflation report (CNBC).\nFed Governor Christopher Waller said a 50 basis point hike \"should be considered\" in December if inflation ran hot.\nFreddie Mac's 30-year mortgage rate averaged 7.18% (week of Nov 5) vs 6.22% a year ago. On a $300,000 loan that's about $191 more a month (our math).\nSources: CNBC, Yahoo Finance, Freddie Mac.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgagerates #treasuryyields #federalreserve #interestrates #financeprostv",
+    "tiktok": "The rate behind your mortgage touched 5% today. Not financial advice. #moneytok #personalfinance #mortgage #interestrates #financeprostv",
+    "yt_desc": "The 10-year Treasury yield, the benchmark for mortgages and car loans, touched about 5% on Nov 10, 2026 after hot October inflation data, and Fed Governor Christopher Waller said a half-point December hike should be considered if inflation ran hot. Freddie Mac's 30-year mortgage rate averaged 7.18% the week of Nov 5 vs 6.22% a year ago. Sources: CNBC, Yahoo Finance, Freddie Mac. News and education, not financial advice. #Shorts #mortgagerates #interestrates",
+    "tags": [
+      "10 year treasury yield",
+      "mortgage rates",
+      "fed rate hike",
+      "christopher waller",
+      "interest rates"
+    ]
+  }
+}
