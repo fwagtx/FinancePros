@@ -35,7 +35,7 @@ Bloomberg/BloombergQuint 2018, WEF 2016 and CBS coverage).
 2 FIX (6.6% must read as a relative rise on a low base, not 6.6 percentage points / "your odds").
   TEXT: A win worth a year's median income lifted neighbors' already-low bankruptcy rate about 6.6% over three years.
   SAY: A win worth a year's median income lifted neighbors' already-low bankruptcy rate about six point six percent over three years.
-  SCENE sub: "Relative rise, Philly Fed"  (value "+6.6%" OK)
+  SCENE sub: "Relative rise"  (value "+6.6%" OK; stat.sub max 18 chars, source stays in post copy)
 
 3 FIX (paper links WIN SIZE to filers' visible assets; it does not say filers had more visible stuff than non-filers).
   TEXT: Bigger wins meant bankrupt neighbors held more visible stuff, like houses and cars.
@@ -60,7 +60,7 @@ Bloomberg/BloombergQuint 2018, WEF 2016 and CBS coverage).
 HEADER: OK. COVER: OK ("+6.6%" matches spoken/onscreen).
 
 POST - FIX (carry the same framing fixes):
-  title: "Why a neighbor's lottery win can mean more bankruptcies nearby"
+  title: "A neighbor's lottery win can mean more bankruptcies nearby"  (58 chars, post.title max 60)
   ig line 1: "When a neighbor wins the lottery, nearby bankruptcies tick up."
   ig line 2: "In Canadian data, a win equal to a year's median income (C$29,229) raised neighbors' bankruptcy rate 6.59% over three years, a relative rise on a low base (Philadelphia Fed working paper, 2018)."
   ig line 3: "The bigger the win, the more visible stuff, like houses and cars, the bankrupt neighbors held."
@@ -72,4 +72,10 @@ POST - FIX (carry the same framing fixes):
 Hook 10 spoken words (max 12). Total spoken words after fixes: 140 (10/14/20/13/15/22/12/15/13/6), within 115-140.
 Money/hook values: +6.6%, $754, $7,540 all at most 8 characters. No advice, no predictions, no stale time words.
 
+Applied to raw.json on 2026-11-10; check.py: OK, 10 lines, 140 spoken words, hook 10 words.
+
 VERDICT: FIX
+
+## Round 2 (editor)
+- All fixes applied by checker; check.py OK (140 words).
+VERDICT: PASS

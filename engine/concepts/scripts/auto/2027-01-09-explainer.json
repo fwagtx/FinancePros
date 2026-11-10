@@ -1,0 +1,178 @@
+{
+ "id": "2027-01-09-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Keeping up with\nthe Joneses",
+ "cover": {
+  "title": "Neighbor Won?",
+  "prop": "bag",
+  "label": "WIN",
+  "value": "+6.6%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "When a neighbor wins the lottery, nearby bankruptcies tick up.",
+   "say": "When a neighbor wins the lottery, nearby bankruptcies tick up.",
+   "scene": {
+    "t": "hook",
+    "title": "Their win, nearby [debt]",
+    "prop": "bag",
+    "label": "WIN",
+    "value": "+6.6%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Economists tested this in Canada, where a postal code is only about 13 homes.",
+   "say": "Economists tested this in Canada, where a postal code is only about thirteen homes.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "canada",
+      "mood": "worried",
+      "says": "My neighbor won!"
+     }
+    ],
+    "caption": "Postal code: ~13 homes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A win worth a year's median income lifted neighbors' already-low bankruptcy rate about 6.6% over three years.",
+   "say": "A win worth a year's median income lifted neighbors' already-low bankruptcy rate about six point six percent over three years.",
+   "scene": {
+    "t": "stat",
+    "label": "Neighbor filings",
+    "value": "+6.6%",
+    "tone": "down",
+    "sub": "Relative rise",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bigger wins meant bankrupt neighbors held more visible stuff, like houses and cars.",
+   "say": "Bigger wins meant bankrupt neighbors held more visible stuff, like houses and cars.",
+   "scene": {
+    "t": "split",
+    "title": "What grew with the win",
+    "left": {
+     "title": "Visible",
+     "items": [
+      "House",
+      "Car"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Less visible",
+     "items": [
+      "Furniture"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 2011 Dutch study agrees: next-door neighbors of lottery winners spent more on cars.",
+   "say": "A twenty eleven Dutch study agrees: next-door neighbors of lottery winners spent more on cars.",
+   "scene": {
+    "t": "news",
+    "headline": "Neighbors: more cars",
+    "source": "American Economic Review, 2011",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your feed does it too: in 2023, Bankrate found social media impulse buyers averaged $754 in a year.",
+   "say": "Your feed does it too: in twenty twenty-three, Bankrate found social media impulse buyers averaged seven hundred fifty-four dollars in a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Impulse buys, 1 yr",
+    "value": "$754",
+    "tone": "down",
+    "sub": "Bankrate, Aug 2023",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: over ten years, that's $7,540.",
+   "say": "Our math: over ten years, that's seven thousand five hundred forty dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "1 year",
+     "value": "$754"
+    },
+    "to": {
+     "label": "10 years",
+     "value": "$7,540"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fun fact: in the 1913 comic that coined the phrase, the Joneses never appear.",
+   "say": "Fun fact: in the nineteen thirteen comic that coined the phrase, the Joneses never appear.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1913 comic strip",
+     "Joneses: unseen"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You see their car, never their loan. You're racing someone you can't see.",
+   "say": "You see their car, never their loan. You're racing someone you can't see.",
+   "scene": {
+    "t": "compare",
+    "title": "What you see",
+    "left": {
+     "label": "Their car",
+     "value": "seen",
+     "tone": "neutral",
+     "sub": "on the driveway"
+    },
+    "right": {
+     "label": "Their loan",
+     "value": "hidden",
+     "tone": "down",
+     "sub": "never shown"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "A neighbor's lottery win can mean more bankruptcies nearby",
+  "ig": "When a neighbor wins the lottery, nearby bankruptcies tick up.\nIn Canadian data, a win equal to a year's median income (C$29,229) raised neighbors' bankruptcy rate 6.59% over three years, a relative rise on a low base (Philadelphia Fed working paper, 2018).\nThe bigger the win, the more visible stuff, like houses and cars, the bankrupt neighbors held.\nIn a 2011 Dutch study, next-door neighbors of lottery winners spent more on cars.\nIn a Bankrate survey (Aug 2023), social media impulse buyers spent an average of $754 in a year. Our math: over 10 years that's $7,540.\nSources: Agarwal, Mikhed & Scholnick (Philadelphia Fed, 2018); Kuhn et al. (American Economic Review, 2011); Bankrate (2023).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#keepingupwiththejoneses #moneytips #personalfinance #budgeting #financeprostv",
+  "tiktok": "A neighbor's lottery win can mean more bankruptcies nearby. Not financial advice. #moneytok #personalfinance #keepingupwiththejoneses #financeprostv",
+  "yt_desc": "A Philadelphia Fed working paper (2018) found that a Canadian lottery win equal to a year's median income raised neighbors' bankruptcy rate 6.59% over three years (a relative rise on a low base), and bigger wins went with more visible assets, like houses and cars, among bankrupt neighbors. A 2011 Dutch Postcode Lottery study (American Economic Review) found winners' next-door neighbors spent more on cars, and a 2023 Bankrate survey found social media impulse buyers spent an average of $754 in a year. News and education, not financial advice. #Shorts #keepingupwiththejoneses #personalfinance",
+  "tags": [
+   "keeping up with the joneses",
+   "lottery winners neighbors bankruptcy",
+   "social comparison spending",
+   "lifestyle inflation",
+   "personal finance"
+  ]
+ }
+}
