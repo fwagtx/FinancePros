@@ -1,0 +1,191 @@
+{
+ "id": "2027-01-10-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Zelle to the\nwrong person?",
+ "cover": {
+  "title": "Wrong Zelle?",
+  "prop": "bill",
+  "label": "$500",
+  "value": "Gone?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Zelle the wrong person, and your bank may not fix it.",
+   "say": "Zelle the wrong person, and your bank may not fix it.",
+   "scene": {
+    "t": "hook",
+    "title": "Wrong [Zelle]",
+    "prop": "bill",
+    "label": "$500",
+    "value": "Gone?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Zelle moved over $1.2 trillion in 2025, and it lands in minutes.",
+   "say": "Zelle moved over one point two trillion dollars in twenty twenty-five, and it lands in minutes.",
+   "scene": {
+    "t": "chart",
+    "title": "Zelle: dollars sent per year",
+    "points": [
+     [
+      2022,
+      629
+     ],
+     [
+      2023,
+      806
+     ],
+     [
+      2024,
+      1000
+     ],
+     [
+      2025,
+      1200
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$1.2T",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Zelle says once a payment to an enrolled user completes, it can't be canceled.",
+   "say": "Zelle says once a payment to an enrolled user completes, it can't be canceled.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Enrolled user?",
+     "Lands in minutes",
+     "No cancel button"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The exception: if they aren't enrolled yet, it sits pending. Cancel it, or it expires in 14 days.",
+   "say": "The exception: if they aren't enrolled yet, it sits pending. Cancel it, or it expires in fourteen days.",
+   "scene": {
+    "t": "split",
+    "title": "Where's your money?",
+    "left": {
+     "title": "Pending",
+     "items": [
+      "Can cancel",
+      "14-day expiry"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Completed",
+     "items": [
+      "Can't cancel",
+      "Ask to return"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And federal rules on unauthorized transfers? You hit send, so it's generally not unauthorized.",
+   "say": "And federal rules on unauthorized transfers? You hit send, so it's generally not unauthorized.",
+   "scene": {
+    "t": "compare",
+    "title": "Reg E: unauthorized?",
+    "left": {
+     "label": "Stolen login",
+     "value": "Yes",
+     "tone": "up",
+     "sub": "covered"
+    },
+    "right": {
+     "label": "Your typo",
+     "value": "No",
+     "tone": "down",
+     "sub": "generally"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So call your bank right away and report the error, then message the person and ask nicely.",
+   "say": "So call your bank right away and report the error, then message the person and ask nicely.",
+   "scene": {
+    "t": "list",
+    "title": "Sent it wrong? Do this",
+    "items": [
+     "Call bank now",
+     "Ask recipient",
+     "Save receipts",
+     "Small claims"
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Screenshot everything. Small claims court is the last resort. Getting it back isn't guaranteed.",
+   "say": "Screenshot everything. Small claims court is the last resort, and getting it back isn't guaranteed.",
+   "scene": {
+    "t": "list",
+    "title": "Sent it wrong? Do this",
+    "items": [
+     "Call bank now",
+     "Ask recipient",
+     "Save receipts",
+     "Small claims"
+    ],
+    "keep": true,
+    "reveal": 4,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Takeaway: check the name and number before you hit send. Zelle is cash, not a credit card.",
+   "say": "The takeaway: check the name and number before you hit send, because Zelle works like cash, not a credit card.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Check the number",
+     "Zelle = cash"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Zelle is cash."
+   }
+  }
+ ],
+ "post": {
+  "title": "Sent Zelle to the wrong person? Here's what happens",
+  "ig": "Sent Zelle to the wrong person? Your bank may not be able to fix it.\nZelle says a completed payment to an enrolled user can't be canceled.\nIf the recipient isn't enrolled yet, it stays pending: cancel it, or it expires after 14 days.\nUnder federal Regulation E, a payment you sent yourself is generally not \"unauthorized\". Still, report it to your bank right away.\nZelle moved over $1.2 trillion in 2025. Check the name and number before you send.\nSources: Zelle FAQ and 2025 press release, CFPB Regulation E (12 CFR 1005.2).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#zelle #personalfinance #moneytips #banking #financeprostv",
+  "tiktok": "Zelle the wrong person? It may be gone. Not financial advice. #moneytok #personalfinance #zelle #banking #financeprostv",
+  "yt_desc": "Zelle says a completed payment to an enrolled user can't be canceled; only pending payments to people not yet enrolled can be, and those expire after 14 days. Under Regulation E, a payment you sent yourself is generally not unauthorized, but report it to your bank fast and ask the recipient to return it. Sources: Zelle FAQ, Zelle 2025 press release ($1.2 trillion sent), CFPB Regulation E. News and education, not financial advice. #Shorts #zelle #personalfinance",
+  "tags": [
+   "zelle wrong person",
+   "zelle mistake",
+   "cancel zelle payment",
+   "regulation e",
+   "personal finance"
+  ]
+ }
+}
