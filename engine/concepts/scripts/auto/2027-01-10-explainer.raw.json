@@ -1,0 +1,216 @@
+{
+  "series": "ticker",
+  "header": "Tragedy of the\ncommons",
+  "cover": {
+    "title": "Who Ate the Cod?",
+    "prop": "chart-down",
+    "label": "Cod",
+    "value": "-99%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Why would fleets wipe out the fish that paid their bills?",
+      "say": "Why would fleets wipe out the fish that paid their bills?",
+      "scene": {
+        "t": "hook",
+        "title": "Why wipe out your [paycheck]?",
+        "prop": "chart-down",
+        "label": "Cod",
+        "value": "-99%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Off Newfoundland, cod catches topped 800,000 tonnes in 1968. By 1998, about 5,000.",
+      "say": "Off Newfoundland, cod catches topped eight hundred thousand tonnes in nineteen sixty-eight. By nineteen ninety-eight, about five thousand.",
+      "scene": {
+        "t": "chart",
+        "title": "Northern cod catch (tonnes)",
+        "points": [
+          [
+            1968,
+            800
+          ],
+          [
+            1978,
+            140
+          ],
+          [
+            1988,
+            240
+          ],
+          [
+            1998,
+            5
+          ]
+        ],
+        "suffix": "K",
+        "end": "5K",
+        "color": "down",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's a 99% drop, our math.",
+      "say": "That's a ninety-nine percent drop, our math.",
+      "scene": {
+        "t": "chart",
+        "keep": true,
+        "title": "Northern cod catch (tonnes)",
+        "points": [
+          [
+            1968,
+            800
+          ],
+          [
+            1978,
+            140
+          ],
+          [
+            1988,
+            240
+          ],
+          [
+            1998,
+            5
+          ]
+        ],
+        "suffix": "K",
+        "end": "5K",
+        "color": "down",
+        "chart_note": {
+          "x": 1998,
+          "text": "-99%, our math"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Canada shut it in 1992. About 30,000 people in Newfoundland and Labrador lost work.",
+      "say": "Canada shut it in nineteen ninety-two. About thirty thousand people in Newfoundland and Labrador lost work.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "canada",
+            "mood": "sad",
+            "says": "30,000 jobs gone"
+          }
+        ],
+        "caption": "1992: cod moratorium"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Garrett Hardin named this in 1968: \"Freedom in a commons brings ruin to all.\"",
+      "say": "Garrett Hardin named this in nineteen sixty-eight: freedom in a commons brings ruin to all.",
+      "scene": {
+        "t": "quote",
+        "text": "Freedom in a commons brings ruin to all.",
+        "source": "Garrett Hardin, Science, 1968",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: 10 squirrels share an oak. One grabs 5 extra acorns. The tree loses 10, split 10 ways.",
+      "say": "Our math: ten squirrels share an oak. One grabs five extra acorns. The tree loses ten, split ten ways.",
+      "scene": {
+        "t": "compare",
+        "title": "Our math: 1 greedy squirrel",
+        "left": {
+          "label": "His gain",
+          "value": "+5",
+          "tone": "up",
+          "sub": "all his"
+        },
+        "right": {
+          "label": "His cost",
+          "value": "-1",
+          "tone": "down",
+          "sub": "10 lost, split 10 ways"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Gain 5, pay 1. Every squirrel does it. The oak goes bare.",
+      "say": "Gain five, pay one. Every squirrel does it. The oak goes bare.",
+      "scene": {
+        "t": "compare",
+        "keep": true,
+        "title": "Our math: 1 greedy squirrel",
+        "left": {
+          "label": "His gain",
+          "value": "+5",
+          "tone": "up",
+          "sub": "all his"
+        },
+        "right": {
+          "label": "His cost",
+          "value": "-1",
+          "tone": "down",
+          "sub": "10 lost, split 10 ways"
+        },
+        "winner": "left",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But Elinor Ostrom won the 2009 economics Nobel showing communities can fix it: clear members, own rules, monitoring, rising penalties.",
+      "say": "But Elinor Ostrom won the twenty oh nine economics Nobel showing communities can fix it: clear members, own rules, monitoring, rising penalties.",
+      "scene": {
+        "t": "list",
+        "title": "Ostrom's fixes",
+        "items": [
+          "Know who's in",
+          "Make own rules",
+          "Watch usage",
+          "Rising penalty"
+        ],
+        "reveal": 4,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "With limits, cod partly recovered: in 2026, Canada's quota hit 59,000 tonnes.",
+      "say": "With limits, cod partly recovered: in twenty twenty-six, Canada's quota hit fifty-nine thousand tonnes.",
+      "scene": {
+        "t": "stat",
+        "label": "Cod quota, 2026",
+        "value": "59,000 t",
+        "tone": "up",
+        "sub": "Fisheries Canada",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Tragedy of the commons: why Canada's cod collapsed",
+    "ig": "Why would fleets wipe out the fish that paid their bills?\nNorthern cod catches topped 800,000 tonnes in 1968 and fell to about 5,000 by 1998 (DFO).\nCanada closed the fishery in July 1992; about 30,000 people in Newfoundland and Labrador lost work.\nGarrett Hardin called it the tragedy of the commons (Science, 1968). Elinor Ostrom won the 2009 economics Nobel showing communities can manage commons.\nIn 2026, Canada set a 59,000-tonne northern cod quota as the stock reached DFO's healthy zone; conservation groups say recovery is still fragile.\nSources: Fisheries and Oceans Canada, Science (1968), Heritage NL, Nobel Prize.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#economics #tragedyofthecommons #moneytips #learnoneveryday #financeprostv",
+    "tiktok": "Why fleets wiped out the cod that paid them. Not financial advice. #moneytok #personalfinance #economics #tragedyofthecommons #financeprostv",
+    "yt_desc": "Northern cod catches off Newfoundland topped 800,000 tonnes in 1968 and fell to about 5,000 by 1998 (Fisheries and Oceans Canada); the 1992 moratorium left about 30,000 people in Newfoundland and Labrador out of work. Garrett Hardin called this the tragedy of the commons in Science (1968), and Elinor Ostrom won the 2009 economics Nobel for showing communities can manage shared resources. News and education, not financial advice. #Shorts #economics #tragedyofthecommons",
+    "tags": [
+      "tragedy of the commons",
+      "cod moratorium",
+      "Elinor Ostrom",
+      "economics explained",
+      "Garrett Hardin"
+    ]
+  }
+}
