@@ -1,0 +1,459 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "series",
+  "header",
+  "cover",
+  "lines",
+  "post"
+ ],
+ "properties": {
+  "series": {
+   "type": "string",
+   "enum": [
+    "ticker",
+    "acorn"
+   ]
+  },
+  "header": {
+   "type": "string"
+  },
+  "cover": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "title"
+   ],
+   "properties": {
+    "title": {
+     "type": "string"
+    },
+    "prop": {
+     "type": "string",
+     "enum": [
+      "bill",
+      "card",
+      "house",
+      "car",
+      "bag",
+      "coins",
+      "fed",
+      "store",
+      "customs",
+      "chart-up",
+      "chart-down",
+      "fire",
+      "acorns",
+      "box",
+      "tag",
+      "mattress",
+      "pot",
+      "paper",
+      "none"
+     ]
+    },
+    "label": {
+     "type": "string"
+    },
+    "value": {
+     "type": "string"
+    },
+    "countries": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "lines": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "who",
+     "text",
+     "say",
+     "scene"
+    ],
+    "properties": {
+     "who": {
+      "type": "string",
+      "enum": [
+       "ticker",
+       "nutty"
+      ]
+     },
+     "text": {
+      "type": "string"
+     },
+     "say": {
+      "type": "string"
+     },
+     "scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "t"
+      ],
+      "properties": {
+       "t": {
+        "type": "string",
+        "enum": [
+         "hook",
+         "board",
+         "chart",
+         "compare",
+         "list",
+         "stat",
+         "money",
+         "countries",
+         "building",
+         "news",
+         "quote",
+         "timeline",
+         "split",
+         "squirrel",
+         "chapter",
+         "cta"
+        ]
+       },
+       "keep": {
+        "type": "boolean"
+       },
+       "mood": {
+        "type": "string",
+        "enum": [
+         "happy",
+         "up",
+         "shock",
+         "worried",
+         "think",
+         "angry",
+         "sad"
+        ]
+       },
+       "title": {
+        "type": "string"
+       },
+       "prop": {
+        "type": "string",
+        "enum": [
+         "bill",
+         "card",
+         "house",
+         "car",
+         "bag",
+         "coins",
+         "fed",
+         "store",
+         "customs",
+         "chart-up",
+         "chart-down",
+         "fire",
+         "acorns",
+         "box",
+         "tag",
+         "mattress",
+         "pot",
+         "paper",
+         "none"
+        ]
+       },
+       "label": {
+        "type": "string"
+       },
+       "value": {
+        "type": "string"
+       },
+       "sub": {
+        "type": "string"
+       },
+       "tone": {
+        "type": "string",
+        "enum": [
+         "up",
+         "down",
+         "neutral"
+        ]
+       },
+       "lines": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "points": {
+        "type": "array",
+        "items": {
+         "type": "array",
+         "items": {
+          "type": "number"
+         }
+        }
+       },
+       "prefix": {
+        "type": "string"
+       },
+       "suffix": {
+        "type": "string"
+       },
+       "end": {
+        "type": "string"
+       },
+       "color": {
+        "type": "string",
+        "enum": [
+         "up",
+         "down"
+        ]
+       },
+       "chart_note": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+         "x": {
+          "type": "number"
+         },
+         "text": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "x",
+         "text"
+        ]
+       },
+       "left": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+         "label": {
+          "type": "string"
+         },
+         "value": {
+          "type": "string"
+         },
+         "tone": {
+          "type": "string",
+          "enum": [
+           "up",
+           "down",
+           "neutral"
+          ]
+         },
+         "sub": {
+          "type": "string"
+         },
+         "title": {
+          "type": "string"
+         },
+         "items": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        }
+       },
+       "right": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+         "label": {
+          "type": "string"
+         },
+         "value": {
+          "type": "string"
+         },
+         "tone": {
+          "type": "string",
+          "enum": [
+           "up",
+           "down",
+           "neutral"
+          ]
+         },
+         "sub": {
+          "type": "string"
+         },
+         "title": {
+          "type": "string"
+         },
+         "items": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        }
+       },
+       "winner": {
+        "type": "string",
+        "enum": [
+         "left",
+         "right"
+        ]
+       },
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "reveal": {
+        "type": "integer"
+       },
+       "from": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+         "label": {
+          "type": "string"
+         },
+         "value": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "label",
+         "value"
+        ]
+       },
+       "to": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+         "label": {
+          "type": "string"
+         },
+         "value": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "label",
+         "value"
+        ]
+       },
+       "cast": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "name"
+         ],
+         "properties": {
+          "name": {
+           "type": "string",
+           "enum": [
+            "us",
+            "china",
+            "japan",
+            "uk",
+            "germany",
+            "mexico",
+            "canada"
+           ]
+          },
+          "mood": {
+           "type": "string",
+           "enum": [
+            "happy",
+            "worried",
+            "angry",
+            "sad"
+           ]
+          },
+          "says": {
+           "type": "string"
+          }
+         }
+        }
+       },
+       "caption": {
+        "type": "string"
+       },
+       "kind": {
+        "type": "string"
+       },
+       "headline": {
+        "type": "string"
+       },
+       "source": {
+        "type": "string"
+       },
+       "text": {
+        "type": "string"
+       },
+       "events": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "properties": {
+          "when": {
+           "type": "string"
+          },
+          "what": {
+           "type": "string"
+          }
+         },
+         "required": [
+          "when",
+          "what"
+         ]
+        }
+       },
+       "n": {
+        "type": "integer"
+       },
+       "tagline": {
+        "type": "string"
+       },
+       "note": {
+        "type": "string"
+       },
+       "name": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "post": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "title",
+    "ig",
+    "tiktok",
+    "yt_desc"
+   ],
+   "properties": {
+    "title": {
+     "type": "string"
+    },
+    "ig": {
+     "type": "string"
+    },
+    "tiktok": {
+     "type": "string"
+    },
+    "yt_desc": {
+     "type": "string"
+    },
+    "tags": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}
