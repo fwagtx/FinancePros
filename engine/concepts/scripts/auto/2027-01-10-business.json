@@ -1,0 +1,205 @@
+{
+ "id": "2027-01-10-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Billboards\nMake Money",
+ "cover": {
+  "title": "Billboard Math",
+  "prop": "bill",
+  "label": "digital",
+  "value": "33%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "At Lamar, 1 in 30 billboards earns a third of billboard revenue.",
+   "say": "At Lamar, one in thirty billboards earns a third of billboard revenue.",
+   "scene": {
+    "t": "hook",
+    "title": "Billboard [Math]",
+    "prop": "bill",
+    "label": "2025",
+    "value": "33%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lamar Advertising ran about 159,300 billboards in 2025.",
+   "say": "Lamar Advertising ran about a hundred fifty-nine thousand billboards in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Lamar billboards",
+    "value": "159,300",
+    "tone": "neutral",
+    "sub": "10-K, end of 2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Just 3.5% were digital, yet earned a third (33%) of billboard revenue.",
+   "say": "Just three and a half percent were digital, yet earned a third of billboard revenue.",
+   "scene": {
+    "t": "compare",
+    "title": "Digital boards, 2025",
+    "left": {
+     "label": "Share of boards",
+     "value": "3.5%",
+     "tone": "neutral",
+     "sub": "about 5,500"
+    },
+    "right": {
+     "label": "Share of revenue",
+     "value": "33%",
+     "tone": "up",
+     "sub": "Lamar 10-K"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Screens rotate 6 to 8 ads, every 6 to 8 seconds.",
+   "say": "Screens rotate six to eight ads, every six to eight seconds.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "6-8 ads per loop",
+     "6-8 seconds each",
+     "1 pole, many ads"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: about $120,800 a year per digital board, versus $8,770 for printed.",
+   "say": "Our math: about a hundred twenty-one thousand a year per digital board, versus eighty-eight hundred for printed.",
+   "scene": {
+    "t": "compare",
+    "title": "Revenue per board",
+    "left": {
+     "label": "Printed",
+     "value": "$8,770",
+     "tone": "neutral",
+     "sub": "our math, 2025"
+    },
+    "right": {
+     "label": "Digital",
+     "value": "$120.8K",
+     "tone": "up",
+     "sub": "our math, 2025"
+    },
+    "winner": "right",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Poles are built once, on owned or leased land, so in 2025 about 47% of revenue became adjusted EBITDA.",
+   "say": "Poles are built once, on owned or leased land, so in twenty twenty-five about forty-seven percent of revenue became adjusted E B I T D A.",
+   "scene": {
+    "t": "stat",
+    "label": "Adj. EBITDA margin",
+    "value": "47%",
+    "tone": "up",
+    "sub": "our math, 2025",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 1965 law limits highway billboards, and Lamar's taxed as a REIT, like a landlord.",
+   "say": "A nineteen sixty-five law limits highway billboards, and Lamar's taxed as a REIT, like a landlord.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1965",
+      "Highway limits"
+     ],
+     [
+      "2014",
+      "Lamar goes REIT"
+     ],
+     [
+      "2025",
+      "5,500 digital"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "US outdoor ad revenue hit a record $9.46 billion in 2025.",
+   "say": "US outdoor ad revenue hit a record nine point four six billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "US outdoor ad revenue",
+    "points": [
+     [
+      2022,
+      8.6
+     ],
+     [
+      2023,
+      8.73
+     ],
+     [
+      2024,
+      9.1
+     ],
+     [
+      2025,
+      9.46
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$9.46B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Own scarce spots, then rent each view to more advertisers.",
+   "say": "Own scarce spots, then rent each view to more advertisers.",
+   "scene": {
+    "t": "list",
+    "title": "The billboard model",
+    "items": [
+     "Scarce spots",
+     "Build once",
+     "Rent views"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How billboards make money: at Lamar, 3.5% of boards earn 33%",
+  "ig": "At Lamar, 1 in 30 billboards earns a third of billboard revenue.\nLamar Advertising ran about 159,300 billboards at the end of 2025; about 5,500 digital ones earned about 33% of billboard revenue (2025 10-K).\nOur math: about $120,800 a year per digital board versus about $8,770 per printed one in 2025.\nThe pole is built once, often on leased land; Lamar is a REIT, and the 1965 Highway Beautification Act limits billboards along major highways.\nUS out-of-home ad revenue hit a record $9.46 billion in 2025 (OAAA).\nSources: Lamar Advertising 2025 Form 10-K and results release, OAAA, FHWA.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#billboards #advertising #howtheymakemoney #businessmodel #financeprostv",
+  "tiktok": "At Lamar, 1 in 30 boards earns a third of billboard sales. Not financial advice. #moneytok #personalfinance #billboards #businessmodel #financeprostv",
+  "yt_desc": "Lamar Advertising ran about 159,300 billboards at the end of 2025, and its roughly 5,500 digital boards earned about 33% of billboard revenue (2025 Form 10-K). By our math that is about $120,800 a year per digital board versus about $8,770 per printed one; US out-of-home ad revenue hit a record $9.46 billion in 2025 (OAAA). News and education, not financial advice. #Shorts #billboards #businessmodel",
+  "tags": [
+   "how billboards make money",
+   "Lamar Advertising",
+   "digital billboards",
+   "out of home advertising",
+   "business model explained"
+  ]
+ }
+}
