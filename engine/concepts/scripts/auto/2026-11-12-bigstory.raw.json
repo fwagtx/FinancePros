@@ -1,0 +1,186 @@
+{
+  "series": "ticker",
+  "header": "Mortgage Rates\nFall Again",
+  "cover": {
+    "title": "Rates Fell, But…",
+    "prop": "house",
+    "label": "30-yr",
+    "value": "7.11%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Mortgage rates just fell four weeks in a row. Here's the catch.",
+      "say": "Mortgage rates just fell four weeks in a row. Here's the catch.",
+      "scene": {
+        "t": "hook",
+        "title": "Rates [Down] Again",
+        "prop": "house",
+        "label": "30-yr",
+        "value": "7.11%",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Freddie Mac's survey, out today: the average 30-year fixed rate is 7.11%.",
+      "say": "Freddie Mac's survey, out today, puts the average thirty-year fixed rate at about seven point one percent.",
+      "scene": {
+        "t": "news",
+        "headline": "30-yr rate: 7.11%",
+        "source": "Freddie Mac, Nov 12, 2026",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's down from 7.40% in early October, the highest in nearly three years.",
+      "say": "That's down from about seven point four in early October, the highest in nearly three years.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Sep",
+            "what": "7.03%"
+          },
+          {
+            "when": "Oct",
+            "what": "Peak: 7.40%"
+          },
+          {
+            "when": "Nov",
+            "what": "7.11% today"
+          }
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "On a $400,000 loan, that's about $79 a month less (our math).",
+      "say": "On a four hundred thousand dollar loan, that's about seventy-nine dollars a month less, by our math.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "At 7.40%",
+          "value": "$2,770"
+        },
+        "to": {
+          "label": "At 7.11%",
+          "value": "$2,691"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The catch? A year ago, it was 6.24%.",
+      "say": "The catch? A year ago, it was about six point two percent.",
+      "scene": {
+        "t": "compare",
+        "title": "30-yr rate",
+        "left": {
+          "label": "Year ago",
+          "value": "6.24%",
+          "tone": "up",
+          "sub": "Nov 2025"
+        },
+        "right": {
+          "label": "Today",
+          "value": "7.11%",
+          "tone": "down",
+          "sub": "Nov 12, 2026"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That same loan cost about $231 a month less back then (our math).",
+      "say": "That same loan cost about two hundred thirty-one dollars a month less back then.",
+      "scene": {
+        "t": "compare",
+        "keep": true,
+        "title": "30-yr rate",
+        "left": {
+          "label": "Year ago",
+          "value": "6.24%",
+          "tone": "up",
+          "sub": "Nov 2025"
+        },
+        "right": {
+          "label": "Today",
+          "value": "7.11%",
+          "tone": "down",
+          "sub": "Nov 12, 2026"
+        },
+        "winner": "left",
+        "mood": "sad"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "What moves them? Mortgage rates tend to follow the 10-year Treasury yield, not the Fed directly.",
+      "say": "What moves them? Mortgage rates tend to follow the ten-year Treasury yield, not the Fed directly.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Mortgage rates",
+          "follow 10-yr yield"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That average assumes 20% down and strong credit, so your quote can differ.",
+      "say": "And that average assumes twenty percent down and strong credit, so your quote can differ.",
+      "scene": {
+        "t": "list",
+        "title": "Your rate depends on",
+        "items": [
+          "Credit score",
+          "Down payment",
+          "Loan type"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Next update: Thursday, November 19.",
+      "say": "Next Thursday's update shows whether the streak makes it to five.",
+      "scene": {
+        "t": "stat",
+        "label": "Next rate update",
+        "value": "Nov 19",
+        "tone": "neutral",
+        "sub": "Freddie Mac survey",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Mortgage rates fell 4 weeks straight. Here's the catch.",
+    "ig": "Mortgage rates just fell four weeks in a row. Here's the catch.\nThe average 30-year fixed rate is 7.11%, down from 7.18% last week (Freddie Mac, Nov 12, 2026).\nIt peaked at 7.40% in early October, the highest in nearly three years.\nBut a year ago it was 6.24%. On a $400,000 loan, that's about $231 a month more today (our math).\nSources: Freddie Mac Primary Mortgage Market Survey; AP.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgagerates #housing #homebuying #personalfinance #financeprostv",
+    "tiktok": "Mortgage rates fell 4 weeks straight to 7.11%. The catch? #moneytok #personalfinance #mortgagerates #housing #financeprostv Not financial advice.",
+    "yt_desc": "The average 30-year fixed mortgage rate fell to 7.11% this week, its fourth straight weekly drop and lowest in seven weeks, per Freddie Mac (Nov 12, 2026). It is still well above the 6.24% of a year ago. Sources: Freddie Mac PMMS, AP. News and education, not financial advice. #Shorts #mortgagerates #personalfinance",
+    "tags": [
+      "mortgage rates",
+      "Freddie Mac",
+      "30-year mortgage",
+      "home buying",
+      "interest rates"
+    ]
+  }
+}
