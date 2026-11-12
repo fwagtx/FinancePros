@@ -1,0 +1,1687 @@
+{
+ "series": "ticker",
+ "header": "Buy now, pay later:\nthe business model",
+ "cover": {
+  "title": "Who Pays for 0%?",
+  "prop": "card",
+  "label": "$400",
+  "value": "$9.96"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Pay later is zero interest. So who's paying for it?",
+   "say": "Pay later is zero interest. So who's paying for it?",
+   "scene": {
+    "t": "hook",
+    "title": "Who [pays]?",
+    "prop": "card",
+    "label": "$400",
+    "value": "$9.96",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Split a $400 order into four, and the store can hand the lender about $10.",
+   "say": "Split a four hundred dollar order into four, and the store can hand the lender about ten dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Fee on $400 order",
+    "value": "$9.96",
+    "tone": "down",
+    "sub": "Our math @ 2.49%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And for the biggest US name in this business, store fees aren't even the main money.",
+   "say": "And for the biggest US name in this business, store fees aren't even the main money.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Store fees:",
+     "not the main money"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026, Affirm earned about 48% of its revenue from interest.",
+   "say": "In fiscal twenty twenty-six, Affirm earned about forty-eight percent of its revenue from interest.",
+   "scene": {
+    "t": "stat",
+    "label": "Affirm revenue",
+    "value": "48%",
+    "tone": "neutral",
+    "sub": "interest, FY2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So interest-free is only part of the story. There's a store paying, a loan earning interest, and sometimes a late fee.",
+   "say": "So interest-free is only part of the story. There's a store paying, a loan earning interest, and sometimes a late fee.",
+   "scene": {
+    "t": "list",
+    "title": "Three money pipes",
+    "items": [
+     "Store fees",
+     "Interest",
+     "Late fees"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And this isn't a niche. 16% of US adults used buy now, pay later in 2025, according to the Federal Reserve.",
+   "say": "And this isn't a niche. Sixteen percent of US adults used buy now, pay later in twenty twenty-five, according to the Federal Reserve.",
+   "scene": {
+    "t": "stat",
+    "label": "Adults using BNPL",
+    "value": "16%",
+    "tone": "neutral",
+    "sub": "Fed survey, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Of those users, 26%, about one in four, paid late at least once that year.",
+   "say": "Of those users, twenty-six percent, about one in four, paid late at least once that year.",
+   "scene": {
+    "t": "stat",
+    "label": "Paid late, 2025",
+    "value": "26%",
+    "tone": "down",
+    "sub": "of BNPL users, Fed",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's open the machine: who pays, how lenders earn, and what it can cost you.",
+   "say": "So let's open the machine: who pays, how lenders earn, and what it can cost you.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who pays?",
+     "Who earns?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick note: this is news and education, not financial advice.",
+   "say": "Quick note: this is news and education, not financial advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "News + education,",
+     "not advice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: what pay in four really is.",
+   "say": "Chapter one: what pay in four really is.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "What pay in four is"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The classic product is called pay in four. You split one purchase into four equal payments.",
+   "say": "The classic product is called pay in four. You split one purchase into four equal payments.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay in 4 =",
+     "4 equal payments"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Take a $400 jacket. The first $100 is due right at checkout.",
+   "say": "Take a four hundred dollar jacket. The first hundred dollars is due right at checkout.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Day 0",
+      "what": "$100 at checkout"
+     },
+     {
+      "when": "Wk 2",
+      "what": "$100"
+     },
+     {
+      "when": "Wk 4",
+      "what": "$100"
+     },
+     {
+      "when": "Wk 6",
+      "what": "$100, done"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then another $100 at week two, and another at week four.",
+   "say": "Then another hundred dollars at week two, and another at week four.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "Day 0",
+      "what": "$100 at checkout"
+     },
+     {
+      "when": "Wk 2",
+      "what": "$100"
+     },
+     {
+      "when": "Wk 4",
+      "what": "$100"
+     },
+     {
+      "when": "Wk 6",
+      "what": "$100, done"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The last one lands at week six. Total paid: $400. Interest: zero. That's how the CFPB describes the standard product.",
+   "say": "The last one lands at week six. Total paid, four hundred dollars. Interest, zero. That's how the C F P B describes the standard product.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "Day 0",
+      "what": "$100 at checkout"
+     },
+     {
+      "when": "Wk 2",
+      "what": "$100"
+     },
+     {
+      "when": "Wk 4",
+      "what": "$100"
+     },
+     {
+      "when": "Wk 6",
+      "what": "$100, done"
+     }
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's a second kind, too: longer monthly loans that can run from 3 months to about 4 years.",
+   "say": "There's a second kind, too: longer monthly loans that can run from three months to about four years.",
+   "scene": {
+    "t": "compare",
+    "title": "Two kinds of BNPL",
+    "left": {
+     "label": "Pay in 4",
+     "value": "0%",
+     "tone": "up",
+     "sub": "6 weeks"
+    },
+    "right": {
+     "label": "Monthly",
+     "value": "0-36%",
+     "tone": "down",
+     "sub": "3-48 months"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those can charge interest. At Affirm, the APR runs from 0% up to 36%.",
+   "say": "Those can charge interest. At Affirm, the A P R runs from zero up to thirty-six percent.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "Two kinds of BNPL",
+    "left": {
+     "label": "Pay in 4",
+     "value": "0%",
+     "tone": "up",
+     "sub": "6 weeks"
+    },
+    "right": {
+     "label": "Monthly",
+     "value": "0-36%",
+     "tone": "down",
+     "sub": "3-48 months"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How big is all this? Congress's research service estimates pay-in-four loans reached about $63 billion in 2025.",
+   "say": "How big is all this? Congress's research service estimates pay in four loans reached about sixty-three billion dollars in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Pay-in-4 loans, US",
+    "value": "$63.3B",
+    "tone": "neutral",
+    "sub": "2025, CRS estimate"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That sounds massive, but it's only about 1% of the $6.3 trillion Americans put on credit cards that year.",
+   "say": "That sounds massive, but it's only about one percent of the six point three trillion dollars Americans put on credit cards that year.",
+   "scene": {
+    "t": "compare",
+    "title": "US purchases, 2025",
+    "left": {
+     "label": "Pay in 4",
+     "value": "$63.3B",
+     "tone": "neutral",
+     "sub": "CRS estimate"
+    },
+    "right": {
+     "label": "Credit cards",
+     "value": "$6.3T",
+     "tone": "neutral",
+     "sub": "Richmond Fed"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A small slice that's growing fast. And to see how it pays, we need to follow one $400 order.",
+   "say": "A small slice that's growing fast. And to see how it pays, we need to follow one four hundred dollar order.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Small slice,",
+     "growing fast"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: the store pays first.",
+   "say": "Chapter two: the store pays first.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The store pays first"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the part shoppers never see. When you pick pay later, the store pays the lender a fee.",
+   "say": "Here's the part shoppers never see. When you pick pay later, the store pays the lender a fee.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "THE STORE",
+    "label": "Fee to lender",
+    "caption": "The store pays",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's called a merchant discount fee: a cut of every sale.",
+   "say": "It's called a merchant discount fee: a cut of every sale.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Merchant discount:",
+     "a cut of each sale"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB studied big lenders and found the average fee was about 3.4% in 2019.",
+   "say": "The C F P B studied big lenders and found the average fee was about three point four percent in twenty nineteen.",
+   "scene": {
+    "t": "compare",
+    "title": "Avg BNPL store fee",
+    "left": {
+     "label": "2019",
+     "value": "3.39%",
+     "tone": "neutral",
+     "sub": "CFPB, 2022 report"
+    },
+    "right": {
+     "label": "2021",
+     "value": "2.49%",
+     "tone": "neutral",
+     "sub": "CFPB, 2022 report"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2021 it had slipped to about 2.5%, as more lenders competed for the same stores.",
+   "say": "By twenty twenty-one it had slipped to about two and a half percent, as more lenders competed for the same stores.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "Avg BNPL store fee",
+    "left": {
+     "label": "2019",
+     "value": "3.39%",
+     "tone": "neutral",
+     "sub": "CFPB, 2022 report"
+    },
+    "right": {
+     "label": "2021",
+     "value": "2.49%",
+     "tone": "neutral",
+     "sub": "CFPB, 2022 report"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Other estimates run higher. In 2022, Consumer Reports put BNPL fees at 6 to 7%, versus 1 to 3% for credit cards.",
+   "say": "Other estimates run higher. In twenty twenty-two, Consumer Reports put these fees at six to seven percent, versus one to three percent for credit cards.",
+   "scene": {
+    "t": "compare",
+    "title": "Store fee per sale",
+    "left": {
+     "label": "BNPL",
+     "value": "6-7%",
+     "tone": "down",
+     "sub": "Consumer Reports"
+    },
+    "right": {
+     "label": "Cards",
+     "value": "1-3%",
+     "tone": "neutral",
+     "sub": "2022 estimate"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's do our math on the $400 order with the CFPB's 2.49% average. That's $9.96.",
+   "say": "So let's do our math on the four hundred dollar order with the C F P B's two point four nine percent average. That's nine dollars and ninety-six cents.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$400 x 2.49%",
+     "= $9.96"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You pay the full $400. The store gets $390.04. The lender keeps the difference.",
+   "say": "You pay the full four hundred dollars. The store gets three hundred ninety dollars and four cents. The lender keeps the difference.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You pay",
+     "value": "$400"
+    },
+    "to": {
+     "label": "Store gets",
+     "value": "$390.04"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After your $100 down payment, the lender is owed $300 for up to six weeks.",
+   "say": "After your hundred dollar down payment, the lender is owed three hundred dollars for up to six weeks.",
+   "scene": {
+    "t": "stat",
+    "label": "Lender is owed",
+    "value": "$300",
+    "tone": "neutral",
+    "sub": "for up to 6 weeks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$9.96 on $300 is about 3.3% for six weeks of waiting. That's our math, and it's paid by the store, not you.",
+   "say": "Nine ninety-six on three hundred is about three point three percent, for six weeks of waiting. That's our math, and it's paid by the store, not you.",
+   "scene": {
+    "t": "stat",
+    "label": "Lender's cut",
+    "value": "3.32%",
+    "tone": "up",
+    "sub": "Our math, 6 weeks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if the fee were 6% instead, the same order would cost the store $24.",
+   "say": "And if the fee were six percent instead, the same order would cost the store twenty-four dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Fee on a $400 order",
+    "left": {
+     "label": "At 2.49%",
+     "value": "$9.96",
+     "tone": "neutral",
+     "sub": "CFPB 2021 avg"
+    },
+    "right": {
+     "label": "At 6%",
+     "value": "$24.00",
+     "tone": "down",
+     "sub": "Higher estimate"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So why would any store agree to pay more than it pays for a credit card? Because it can mean more sales.",
+   "say": "So why would any store agree to pay more than it pays for a credit card? Because it can mean more sales.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Why pay more?",
+     "More sales"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Richmond Fed researchers put it simply.",
+   "say": "Richmond Fed researchers put it simply.",
+   "scene": {
+    "t": "quote",
+    "text": "The fact that merchants are willing to pay such fees suggests that merchants benefit from accepting BNPL.",
+    "source": "Richmond Fed Economic Brief, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Their point: stores wouldn't pay those fees if it didn't pay off for them.",
+   "say": "Their point: stores wouldn't pay those fees if it didn't pay off for them.",
+   "scene": {
+    "t": "quote",
+    "keep": true,
+    "text": "The fact that merchants are willing to pay such fees suggests that merchants benefit from accepting BNPL.",
+    "source": "Richmond Fed Economic Brief, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the pitch lenders make to stores: bigger carts, more finished checkouts, and new shoppers.",
+   "say": "That's the pitch lenders make to stores: bigger carts, more finished checkouts, and new shoppers.",
+   "scene": {
+    "t": "list",
+    "title": "The pitch to stores",
+    "items": [
+     "Bigger carts",
+     "More checkouts",
+     "New shoppers"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At Affirm, store fees brought in about $1.15 billion in fiscal 2026, the year that ended June 30.",
+   "say": "At Affirm, store fees brought in about one point one five billion dollars in fiscal twenty twenty-six, the year that ended June thirtieth.",
+   "scene": {
+    "t": "stat",
+    "label": "Affirm store fees",
+    "value": "$1.15B",
+    "tone": "up",
+    "sub": "FY2026, to June 30"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 2.3% of the $50.2 billion people spent through Affirm that year, by our math. Close to the CFPB average.",
+   "say": "That's about two point three percent of the fifty point two billion dollars people spent through Affirm that year, by our math. Close to the C F P B average.",
+   "scene": {
+    "t": "stat",
+    "label": "Fees / volume",
+    "value": "2.29%",
+    "tone": "neutral",
+    "sub": "Our math, FY2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But here's the twist. Store fees were only about 27% of Affirm's revenue.",
+   "say": "But here's the twist. Store fees were only about twenty-seven percent of Affirm's revenue.",
+   "scene": {
+    "t": "hook",
+    "title": "The [twist]",
+    "prop": "store",
+    "label": "FEES",
+    "value": "27%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: the interest engine.",
+   "say": "Chapter three: the interest engine.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The interest engine"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Affirm's total revenue in fiscal 2026 was about $4.26 billion. So where did the rest come from?",
+   "say": "Affirm's total revenue in fiscal twenty twenty-six was about four point two six billion dollars. So where did the rest come from?",
+   "scene": {
+    "t": "stat",
+    "label": "Affirm revenue",
+    "value": "$4.26B",
+    "tone": "up",
+    "sub": "FY2026, to June 30"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 48%, roughly $2.05 billion, was interest on loans.",
+   "say": "About forty-eight percent, roughly two point oh five billion dollars, was interest on loans.",
+   "scene": {
+    "t": "list",
+    "title": "Affirm FY2026 mix",
+    "items": [
+     "Interest 48%",
+     "Store fees 27%",
+     "Other 25%"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 27% was the store fees we just did the math on.",
+   "say": "About twenty-seven percent was the store fees we just did the math on.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Affirm FY2026 mix",
+    "items": [
+     "Interest 48%",
+     "Store fees 27%",
+     "Other 25%"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the other 25% came from card network fees, selling loans to investors, and servicing those loans.",
+   "say": "And the other twenty-five percent came from card network fees, selling loans to investors, and servicing those loans.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Affirm FY2026 mix",
+    "items": [
+     "Interest 48%",
+     "Store fees 27%",
+     "Other 25%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "How does a 0% brand earn that much interest? Look at what people borrowed.",
+   "say": "How does a zero percent brand earn that much interest? Look at what people borrowed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Known for 0%,",
+     "earns interest?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026, 70% of Affirm's volume was interest-bearing monthly loans.",
+   "say": "In fiscal twenty twenty-six, seventy percent of Affirm's volume was interest-bearing monthly loans.",
+   "scene": {
+    "t": "stat",
+    "label": "Interest-bearing",
+    "value": "70%",
+    "tone": "neutral",
+    "sub": "of FY2026 volume"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Zero-percent monthly plans were 14%, and classic pay in four, which Affirm calls Pay in X, was just 16%.",
+   "say": "Zero percent monthly plans were fourteen percent, and classic pay in four, which Affirm calls Pay in X, was just sixteen percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Rest of Affirm volume",
+    "left": {
+     "label": "0% monthly",
+     "value": "14%",
+     "tone": "neutral",
+     "sub": "FY2026"
+    },
+    "right": {
+     "label": "Pay in X",
+     "value": "16%",
+     "tone": "neutral",
+     "sub": "FY2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what interest looks like on one loan. Say $1,000 over 12 months at 15% APR, a made-up example inside Affirm's range.",
+   "say": "Here's what interest looks like on one loan. Say one thousand dollars over twelve months at fifteen percent A P R, a made-up example inside Affirm's range.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,000, 12 months",
+     "at 15% APR"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The payment works out to $90.26 a month.",
+   "say": "The payment works out to ninety dollars and twenty-six cents a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly payment",
+    "value": "$90.26",
+    "tone": "neutral",
+    "sub": "Our math, 15% APR"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over the year you pay back $1,083.10, so $83.10 of that is interest, and it goes to the lender.",
+   "say": "Over the year you pay back one thousand eighty-three dollars and ten cents, so eighty-three dollars and ten cents of that is interest, and it goes to the lender.",
+   "scene": {
+    "t": "stat",
+    "label": "Interest paid",
+    "value": "$83.10",
+    "tone": "down",
+    "sub": "on $1,000, 12 mo"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now multiply that across millions of shoppers.",
+   "say": "Now multiply that across millions of shoppers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "x millions",
+     "of shoppers"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's how much shopping has flowed through Affirm each fiscal year, from 2019 to 2026.",
+   "say": "Here's how much shopping has flowed through Affirm each fiscal year, from twenty nineteen to twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Affirm GMV, $ billions",
+    "points": [
+     [
+      2019,
+      2.6
+     ],
+     [
+      2020,
+      4.6
+     ],
+     [
+      2021,
+      8.3
+     ],
+     [
+      2022,
+      15.5
+     ],
+     [
+      2023,
+      20.2
+     ],
+     [
+      2024,
+      26.6
+     ],
+     [
+      2025,
+      36.7
+     ],
+     [
+      2026,
+      50.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$50.2B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2019, it was about $2.6 billion.",
+   "say": "In fiscal twenty nineteen, it was about two point six billion dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "Affirm GMV, $ billions",
+    "points": [
+     [
+      2019,
+      2.6
+     ],
+     [
+      2020,
+      4.6
+     ],
+     [
+      2021,
+      8.3
+     ],
+     [
+      2022,
+      15.5
+     ],
+     [
+      2023,
+      20.2
+     ],
+     [
+      2024,
+      26.6
+     ],
+     [
+      2025,
+      36.7
+     ],
+     [
+      2026,
+      50.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$50.2B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2019,
+     "text": "$2.6B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By fiscal 2022, it had grown to $15.5 billion.",
+   "say": "By fiscal twenty twenty-two, it had grown to fifteen and a half billion.",
+   "scene": {
+    "t": "chart",
+    "title": "Affirm GMV, $ billions",
+    "points": [
+     [
+      2019,
+      2.6
+     ],
+     [
+      2020,
+      4.6
+     ],
+     [
+      2021,
+      8.3
+     ],
+     [
+      2022,
+      15.5
+     ],
+     [
+      2023,
+      20.2
+     ],
+     [
+      2024,
+      26.6
+     ],
+     [
+      2025,
+      36.7
+     ],
+     [
+      2026,
+      50.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$50.2B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2022,
+     "text": "$15.5B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in fiscal 2026, $50.2 billion. That's about 19 times bigger in seven years, by our math.",
+   "say": "And in fiscal twenty twenty-six, fifty point two billion. That's about nineteen times bigger in seven years, by our math.",
+   "scene": {
+    "t": "chart",
+    "title": "Affirm GMV, $ billions",
+    "points": [
+     [
+      2019,
+      2.6
+     ],
+     [
+      2020,
+      4.6
+     ],
+     [
+      2021,
+      8.3
+     ],
+     [
+      2022,
+      15.5
+     ],
+     [
+      2023,
+      20.2
+     ],
+     [
+      2024,
+      26.6
+     ],
+     [
+      2025,
+      36.7
+     ],
+     [
+      2026,
+      50.2
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$50.2B",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "19x!"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It kept climbing. In the July-to-September quarter of 2026, volume rose 34% to $14.4 billion.",
+   "say": "It kept climbing. In the July to September quarter of twenty twenty-six, volume rose thirty-four percent to fourteen point four billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Affirm volume",
+    "value": "$14.4B",
+    "tone": "up",
+    "sub": "+34%, Jul-Sep 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In that quarter, interest income was about $658 million, a little over half of its $1.26 billion in revenue.",
+   "say": "In that quarter, interest income was about six hundred fifty-eight million dollars, a little over half of its one point two six billion in revenue.",
+   "scene": {
+    "t": "compare",
+    "title": "Affirm, Jul-Sep 2026",
+    "left": {
+     "label": "Interest",
+     "value": "$658M",
+     "tone": "neutral",
+     "sub": "income"
+    },
+    "right": {
+     "label": "Revenue",
+     "value": "$1.26B",
+     "tone": "up",
+     "sub": "total"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the brand people know for interest-free checkouts is, by revenue, largely a lending business.",
+   "say": "So the brand people know for interest-free checkouts is, by revenue, largely a lending business.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "By revenue:",
+     "mostly a lender"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: late fees and Klarna.",
+   "say": "Chapter four: late fees and Klarna.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Late fees and Klarna"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pipe number three is late fees. Affirm says it doesn't charge them. Many other lenders do.",
+   "say": "Pipe number three is late fees. Affirm says it doesn't charge them. Many other lenders do.",
+   "scene": {
+    "t": "split",
+    "title": "Late fees?",
+    "left": {
+     "title": "Affirm",
+     "items": [
+      "Says none",
+      "Earns interest"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Many others",
+     "items": [
+      "Charge a fee",
+      "Per missed pay"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In CFPB data for 2023, 4.1% of pay-in-four loans got hit with a late fee.",
+   "say": "In C F P B data for twenty twenty-three, four point one percent of pay in four loans got hit with a late fee.",
+   "scene": {
+    "t": "stat",
+    "label": "Loans w/ late fee",
+    "value": "4.1%",
+    "tone": "down",
+    "sub": "CFPB, 2023 data"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average late fee charged was $9.70, and lenders actually collected about $5.70 of it.",
+   "say": "The average late fee charged was nine dollars and seventy cents, and lenders actually collected about five dollars and seventy cents of it.",
+   "scene": {
+    "t": "compare",
+    "title": "Average late fee",
+    "left": {
+     "label": "Charged",
+     "value": "$9.70",
+     "tone": "down",
+     "sub": "per late fee"
+    },
+    "right": {
+     "label": "Collected",
+     "value": "$5.70",
+     "tone": "neutral",
+     "sub": "per late fee"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Notice something? One average late fee is about the same as the whole store fee on our $400 order.",
+   "say": "Notice something? One average late fee is about the same as the whole store fee on our four hundred dollar order.",
+   "scene": {
+    "t": "compare",
+    "title": "Two fees, one order",
+    "left": {
+     "label": "Late fee",
+     "value": "$9.70",
+     "tone": "down",
+     "sub": "you pay"
+    },
+    "right": {
+     "label": "Store fee",
+     "value": "$9.96",
+     "tone": "neutral",
+     "sub": "store pays"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still, with only a few percent of loans charged, late fees are a side pipe, not the main one.",
+   "say": "Still, with only a few percent of loans charged, late fees are a side pipe, not the main one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Late fees:",
+     "a side pipe"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the other giant. Klarna, a Swedish company, listed on the New York Stock Exchange in September 2025.",
+   "say": "Now the other giant. Klarna, a Swedish company, listed on the New York Stock Exchange in September twenty twenty-five.",
+   "scene": {
+    "t": "news",
+    "headline": "Klarna lists on NYSE",
+    "source": "Sept 10, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It priced its shares at $40, above its planned range, valuing the company at about $15 billion.",
+   "say": "It priced its shares at forty dollars, above its planned range, valuing the company at about fifteen billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Klarna IPO price",
+    "value": "$40",
+    "tone": "up",
+    "sub": "Sept 2025, ~$15.1B"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back in 2021, private investors had valued Klarna at $45.6 billion. A year later, it was $6.7 billion.",
+   "say": "Back in twenty twenty-one, private investors had valued Klarna at forty-five point six billion dollars. A year later, it was six point seven billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Klarna valuation",
+    "left": {
+     "label": "2021",
+     "value": "$45.6B",
+     "tone": "up",
+     "sub": "private round"
+    },
+    "right": {
+     "label": "2022",
+     "value": "$6.7B",
+     "tone": "down",
+     "sub": "private round"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, shoppers spent about $128 billion through Klarna, and its revenue was about $3.5 billion.",
+   "say": "In twenty twenty-five, shoppers spent about a hundred twenty-eight billion dollars through Klarna, and its revenue was about three and a half billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Klarna volume",
+    "value": "$127.9B",
+    "tone": "up",
+    "sub": "2025, rev. $3.51B"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Klarna's mix is nearly the reverse. About 71% of its 2025 revenue came from transaction and service fees, mostly paid by stores.",
+   "say": "Klarna's mix is nearly the reverse. About seventy-one percent of its twenty twenty-five revenue came from transaction and service fees, mostly paid by stores.",
+   "scene": {
+    "t": "compare",
+    "title": "Biggest revenue pipe",
+    "left": {
+     "label": "Klarna fees",
+     "value": "71%",
+     "tone": "neutral",
+     "sub": "2025"
+    },
+    "right": {
+     "label": "Affirm interest",
+     "value": "48%",
+     "tone": "neutral",
+     "sub": "FY2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Interest was about 27% of Klarna's revenue, roughly the same share that store fees were at Affirm.",
+   "say": "Interest was about twenty-seven percent of Klarna's revenue, roughly the same share that store fees were at Affirm.",
+   "scene": {
+    "t": "stat",
+    "label": "Klarna interest",
+    "value": "27%",
+    "tone": "neutral",
+    "sub": "of 2025 revenue"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Growth doesn't guarantee profit. Klarna posted a net loss of $273 million in 2025.",
+   "say": "Growth doesn't guarantee profit. Klarna posted a net loss of two hundred seventy-three million dollars in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Klarna net result",
+    "value": "-$273M",
+    "tone": "down",
+    "sub": "2025, net loss"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Revenue kept growing: in the April-to-June quarter of 2026, it was $1.04 billion, up 27% in a year.",
+   "say": "Revenue kept growing: in the April to June quarter of twenty twenty-six, it was one point oh four billion dollars, up twenty-seven percent in a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Klarna revenue",
+    "value": "$1.04B",
+    "tone": "up",
+    "sub": "Apr-Jun 2026, +27%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So: two giants, two recipes. One leans on interest. The other leans on store fees.",
+   "say": "So: two giants, two recipes. One leans on interest. The other leans on store fees.",
+   "scene": {
+    "t": "split",
+    "title": "Two recipes",
+    "left": {
+     "title": "Affirm",
+     "items": [
+      "Interest 48%",
+      "Store fees 27%"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Klarna",
+     "items": [
+      "Fees 71%",
+      "Interest 27%"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: the risks and the rules.",
+   "say": "Chapter five: the risks and the rules.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Risks and rules"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what does this mean for the person paying? Pay in four works as promised, until it doesn't.",
+   "say": "So what does this mean for the person paying? Pay in four works as promised, until it doesn't.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Works as promised,",
+     "until it doesn't"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Use keeps creeping up: from 10% of US adults in 2021 to 16% in 2025, in the Fed's yearly survey.",
+   "say": "Use keeps creeping up: from ten percent of US adults in twenty twenty-one to sixteen percent in twenty twenty-five, in the Fed's yearly survey.",
+   "scene": {
+    "t": "chart",
+    "title": "US adults using BNPL",
+    "points": [
+     [
+      2021,
+      10
+     ],
+     [
+      2022,
+      12
+     ],
+     [
+      2023,
+      14
+     ],
+     [
+      2024,
+      15
+     ],
+     [
+      2025,
+      16
+     ]
+    ],
+    "suffix": "%",
+    "end": "16%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And late payments rose faster: 18% of users paid late in 2023, and 26% in 2025.",
+   "say": "And late payments rose faster: eighteen percent of users paid late in twenty twenty-three, and twenty-six percent in twenty twenty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "Users who paid late",
+    "left": {
+     "label": "2023",
+     "value": "18%",
+     "tone": "neutral",
+     "sub": "Fed survey"
+    },
+    "right": {
+     "label": "2025",
+     "value": "26%",
+     "tone": "down",
+     "sub": "Fed survey"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, 11% of users said a BNPL payment triggered an overdraft or a bounced-payment fee at their bank.",
+   "say": "In twenty twenty-five, eleven percent of users said a buy now, pay later payment triggered an overdraft or a bounced-payment fee at their bank.",
+   "scene": {
+    "t": "stat",
+    "label": "Overdraft or NSF",
+    "value": "11%",
+    "tone": "down",
+    "sub": "of users, Fed 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Private surveys find even more. In a LendingTree survey from March 2026, 47% of users said they paid late in the past year.",
+   "say": "Private surveys find even more. In a LendingTree survey from March twenty twenty-six, forty-seven percent of users said they paid late in the past year.",
+   "scene": {
+    "t": "stat",
+    "label": "Paid late, past yr",
+    "value": "47%",
+    "tone": "down",
+    "sub": "LendingTree, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of those were no more than about a week late. But in both surveys, the share has climbed for years.",
+   "say": "Most of those were no more than about a week late. But in both surveys, the share has climbed for years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Most: ~1 week late",
+     "but climbing"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The bigger risk is stacking: several small loans at once, from different apps.",
+   "say": "The bigger risk is stacking: several small loans at once, from different apps.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Stacking:",
+     "many loans at once"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each one looks tiny, like $100 here and $75 there. Together, they can crowd the same paycheck.",
+   "say": "Each one looks tiny, like a hundred dollars here and seventy-five there. Together, they can crowd the same paycheck.",
+   "scene": {
+    "t": "list",
+    "title": "Same paycheck",
+    "items": [
+     "$100 shoes",
+     "$75 phone",
+     "Same payday"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And other lenders often can't see them. Congress's researchers say most providers don't consistently report pay-in-four loans to credit bureaus.",
+   "say": "And other lenders often can't see them. Congress's researchers say most providers don't consistently report pay in four loans to credit bureaus.",
+   "scene": {
+    "t": "news",
+    "headline": "Often not reported",
+    "source": "CRS report, Feb 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Affirm is the main exception, according to that same report. It reports its loans to the bureaus.",
+   "say": "Affirm is the main exception, according to that same report. It reports its loans to the bureaus.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Affirm: reports",
+     "to bureaus"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Scoring is catching up. In June 2025, FICO announced its first credit scores built to include BNPL data.",
+   "say": "Scoring is catching up. In June twenty twenty-five, FICO announced its first credit scores built to include buy now, pay later data.",
+   "scene": {
+    "t": "stat",
+    "label": "FICO 10 BNPL",
+    "value": "Jun 2025",
+    "tone": "neutral",
+    "sub": "First BNPL scores"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With scores like that, paying on time could help a score, and paying late could hurt it, once lenders use them.",
+   "say": "With scores like that, paying on time could help a score, and paying late could hurt it, once lenders use them.",
+   "scene": {
+    "t": "split",
+    "title": "With BNPL scores",
+    "left": {
+     "title": "On time",
+     "items": [
+      "Can help",
+      "Builds history"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Late",
+     "items": [
+      "Can hurt",
+      "Flags risk"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The federal rules have swung, too. In May 2024, the CFPB said pay-in-four lenders should follow credit card rules under the Truth in Lending law.",
+   "say": "The federal rules have swung, too. In May twenty twenty-four, the C F P B said pay in four lenders should follow credit card rules under the Truth in Lending law.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "May24",
+      "what": "CFPB card rule"
+     },
+     {
+      "when": "May25",
+      "what": "Rule withdrawn"
+     },
+     {
+      "when": "Jun25",
+      "what": "FICO BNPL scores"
+     },
+     {
+      "when": "Sep25",
+      "what": "Klarna IPO"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That meant card-style rights, like disputing a charge and getting refunds credited back.",
+   "say": "That meant card-style rights, like disputing a charge and getting refunds credited back.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Card-style rights:",
+     "disputes, refunds"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, in May 2025, the CFPB withdrew that rule, along with other guidance documents.",
+   "say": "Then, in May twenty twenty-five, the C F P B withdrew that rule, along with other guidance documents.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "May24",
+      "what": "CFPB card rule"
+     },
+     {
+      "when": "May25",
+      "what": "Rule withdrawn"
+     },
+     {
+      "when": "Jun25",
+      "what": "FICO BNPL scores"
+     },
+     {
+      "when": "Sep25",
+      "what": "Klarna IPO"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A month later, it said it wouldn't reissue it, because a change that big should go through a full public rulemaking.",
+   "say": "A month later, it said it wouldn't reissue it, because a change that big should go through a full public rulemaking.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "May24",
+      "what": "CFPB card rule"
+     },
+     {
+      "when": "May25",
+      "what": "Rule withdrawn"
+     },
+     {
+      "when": "Jun25",
+      "what": "FICO BNPL scores"
+     },
+     {
+      "when": "Sep25",
+      "what": "Klarna IPO"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Supporters said the rule gave shoppers clear protections. The industry called it the wrong process and a poor fit.",
+   "say": "Supporters said the rule gave shoppers clear protections. The industry called it the wrong process and a poor fit.",
+   "scene": {
+    "t": "split",
+    "title": "The debate",
+    "left": {
+     "title": "Supporters",
+     "items": [
+      "More rights",
+      "Clear disputes"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Industry",
+     "items": [
+      "Wrong process",
+      "Poor fit"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some states are stepping in. New York passed a law in 2025 that requires BNPL lenders to get a license.",
+   "say": "Some states are stepping in. New York passed a law in twenty twenty-five that requires buy now, pay later lenders to get a license.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New York:",
+     "BNPL license law"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: the recap.",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Recap. Pipe one: the store pays a fee, about $10 on a $400 order at the CFPB's 2021 average.",
+   "say": "Recap. Pipe one: the store pays a fee, about ten dollars on a four hundred dollar order at the C F P B's twenty twenty-one average.",
+   "scene": {
+    "t": "list",
+    "title": "Three money pipes",
+    "items": [
+     "Store fees",
+     "Interest",
+     "Late fees"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pipe two: interest on longer loans. That was about 48% of Affirm's fiscal 2026 revenue.",
+   "say": "Pipe two: interest on longer loans. That was about forty-eight percent of Affirm's fiscal twenty twenty-six revenue.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Three money pipes",
+    "items": [
+     "Store fees",
+     "Interest",
+     "Late fees"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pipe three: late fees, where lenders charge them, averaging $9.70 in the CFPB's 2023 data.",
+   "say": "Pipe three: late fees, where lenders charge them, averaging nine dollars and seventy cents in the C F P B's twenty twenty-three data.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Three money pipes",
+    "items": [
+     "Store fees",
+     "Interest",
+     "Late fees"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For the shopper, classic pay in four costs no interest when every payment lands on time.",
+   "say": "For the shopper, classic pay in four costs no interest when every payment lands on time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paid on time:",
+     "$0 interest"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The costs show up in four places: interest on longer loans, late fees, overdrafts, and stacking.",
+   "say": "The costs show up in four places: interest on longer loans, late fees, overdrafts, and stacking.",
+   "scene": {
+    "t": "list",
+    "title": "Where costs show up",
+    "items": [
+     "APR loans",
+     "Late fees",
+     "Overdrafts",
+     "Stacking"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So when a checkout button says zero interest, remember the $9.96: someone is still paying, and now you know who.",
+   "say": "So when a checkout button says zero interest, remember the nine ninety-six: someone is still paying, and now you know who.",
+   "scene": {
+    "t": "hook",
+    "title": "Now you [know]",
+    "prop": "tag",
+    "label": "$400",
+    "value": "$9.96",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this made pay later make sense, subscribe for more Explained.",
+   "say": "If this made pay later make sense, subscribe for more Explained.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Money, explained from zero"
+   }
+  }
+ ],
+ "post": {
+  "title": "Buy now, pay later is 0% interest. So how do Affirm and Klarna make billions?",
+  "ig": "Pay in four is interest-free. So who pays? On a $400 order, the store can pay the lender about $10.",
+  "tiktok": "Pay later is zero interest. So who's paying for it? On a $400 order, about $10 comes from the store.",
+  "yt_desc": "Buy now, pay later is sold as zero interest, so how do lenders make billions? This video follows a $400 pay-in-four order to show the merchant fee stores pay (our math uses the CFPB's 2.49% average from 2021), then shows why Affirm earned about 48% of its fiscal 2026 revenue from interest, how Klarna's mix differs, and what late fees really add. We also cover late payments and overdrafts in the Fed's 2025 survey, credit reporting and FICO's BNPL scores, and how the CFPB's 2024 rule was withdrawn in 2025.\n\nCHAPTERS\n\nSources: Affirm Form 10-K, fiscal year ended June 30, 2026, and fiscal Q1 2027 results (Nov 5, 2026); Affirm S-1 (2020) and 10-Ks (GMV history); Klarna full-year 2025 results (Feb 26, 2026) and Q2 2026 results (Aug 2026); Klarna IPO coverage, American Banker (Sept 2025); CFPB, Buy Now, Pay Later: Market Trends and Consumer Impacts (Sept 2022) and BNPL market report (Dec 2025); Congressional Research Service, R48858 (Feb 18, 2026); Federal Reserve, Economic Well-Being of U.S. Households in 2025 (May 2026); Richmond Fed Economic Brief 25-03 (2025); Consumer Reports (Nov 2022); LendingTree BNPL survey (March 2026); FICO (June 23, 2025); Federal Register 90 FR 20084 (May 12, 2025).\n\nNews and education, not financial advice.\n\n#buynowpaylater #personalfinance #economics",
+  "tags": [
+   "buy now pay later",
+   "BNPL",
+   "Affirm",
+   "Klarna",
+   "merchant fees",
+   "credit score",
+   "CFPB",
+   "personal finance"
+  ]
+ }
+}
