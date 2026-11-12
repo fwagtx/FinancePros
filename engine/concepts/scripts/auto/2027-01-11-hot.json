@@ -1,0 +1,192 @@
+{
+ "id": "2027-01-11-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Pay off a loan,\nlose credit points?",
+ "cover": {
+  "title": "Payoff Dip?",
+  "prop": "car",
+  "label": "PAID",
+  "value": "-pts?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: paying off a loan early always boosts your credit score.",
+   "say": "Myth: paying off a loan early always boosts your credit score.",
+   "scene": {
+    "t": "hook",
+    "title": "Payoff [Myth]",
+    "prop": "car",
+    "label": "PAID",
+    "value": "-pts?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying off your last open loan can actually cost points.",
+   "say": "Paying off your last open loan can actually cost points.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Last loan paid off",
+     "Score can dip"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "myFICO says a low-balance loan looks less risky than no open loan.",
+   "say": "My FICO says a low-balance loan looks less risky than no open loan.",
+   "scene": {
+    "t": "split",
+    "title": "Which looks safer?",
+    "left": {
+     "title": "Open loan",
+     "items": [
+      "Low balance",
+      "Less risky"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "No open loan",
+     "items": [
+      "Paid to zero",
+      "Can lose pts"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Payment history is the biggest FICO factor at 35%, and payoff doesn't erase it.",
+   "say": "Payment history is the biggest FICO factor, at thirty-five percent, and paying off doesn't erase it.",
+   "scene": {
+    "t": "stat",
+    "label": "Payment history",
+    "value": "35%",
+    "tone": "up",
+    "sub": "top FICO factor",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Experian and Equifax say the dip is usually small and temporary.",
+   "say": "Experian and Equifax say the dip is usually small and temporary.",
+   "scene": {
+    "t": "stat",
+    "label": "Typical payoff dip",
+    "value": "Small",
+    "tone": "neutral",
+    "sub": "and temporary",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A loan paid on time can stay on your report up to 10 years.",
+   "say": "A loan paid on time can stay on your report up to ten years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paid on time?",
+     "Stays up to 10 yrs"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cards work differently: lower balances mean lower utilization, which usually helps.",
+   "say": "Credit cards work differently: lower balances mean lower utilization, which usually helps.",
+   "scene": {
+    "t": "compare",
+    "title": "Pay it down",
+    "left": {
+     "label": "Card balance",
+     "value": "Helps",
+     "tone": "up",
+     "sub": "utilization"
+    },
+    "right": {
+     "label": "Last loan",
+     "value": "Can dip",
+     "tone": "down",
+     "sub": "for a while"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: a $10,000 car loan at 7% over 5 years costs $1,881 in interest.",
+   "say": "Our math: a ten thousand dollar car loan at seven percent over five years costs about eighteen hundred eighty-one dollars in interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Car loan",
+     "value": "$10,000"
+    },
+    "to": {
+     "label": "Interest",
+     "value": "$1,881"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paying off the $6,413 left after 2 years skips $716 of interest.",
+   "say": "Paying off the rest after two years skips about seven hundred sixteen dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Interest skipped",
+    "value": "$716",
+    "tone": "up",
+    "sub": "our math, no fee",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The score blip fades. The interest math doesn't.",
+   "say": "The score blip fades. The interest math doesn't.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Score: brief dip",
+     "Interest: saved"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Points fade. Interest adds up."
+   }
+  }
+ ],
+ "post": {
+  "title": "Can paying off a loan early lower your credit score?",
+  "ig": "Paying off your last open loan early can lower your FICO score. Usually briefly.\nmyFICO says a loan with a low balance looks less risky than having no open installment loan at all, so paying off your last one can cost points.\nExperian and Equifax also point to credit mix (10% of a FICO score) and say the dip is usually small and temporary. Payment history, the biggest factor at 35%, isn't erased by payoff.\nA closed loan paid on time can stay on your Experian report for up to 10 years.\nOur math: a $10,000 car loan at 7% for 5 years costs $1,881 in interest; paying off the $6,413 left after 2 years skips $716 (assuming no prepayment fee).\nFICO-specific; VantageScore and other models may differ.\nSources: myFICO, Experian, Equifax; amortization is our math.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #personalfinance #moneymyths #carloan #financeprostv",
+  "tiktok": "Paying off your last loan can dip your credit score, briefly. Not financial advice. #moneytok #personalfinance #creditscore #moneymyths #financeprostv",
+  "yt_desc": "Paying off your last open installment loan can cost credit score points: myFICO says a low-balance loan looks less risky than no open loan at all. Experian and Equifax also point to credit mix (10% of a FICO score) and say the dip is usually small and temporary. Our math: on a $10,000 car loan at 7% over 5 years, paying off the $6,413 left after 2 years skips about $716 of interest (assuming no prepayment fee). FICO-specific; other score models may differ. Sources: myFICO, Experian, Equifax. News and education, not financial advice. #Shorts #creditscore #personalfinance",
+  "tags": [
+   "paying off loan credit score",
+   "credit score drop",
+   "credit mix",
+   "fico score factors",
+   "personal finance"
+  ]
+ }
+}
