@@ -1,0 +1,211 @@
+{
+ "id": "2027-01-11-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "The true hourly\ncost of stuff",
+ "cover": {
+  "title": "Price in Hours?",
+  "prop": "tag",
+  "label": "$1200",
+  "value": "47 hrs"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "By our math, a $1,200 phone costs about 47 work hours.",
+   "say": "By our math, a twelve-hundred-dollar phone costs about forty-seven work hours.",
+   "scene": {
+    "t": "hook",
+    "title": "Phone: [47] hours",
+    "prop": "tag",
+    "label": "$1200",
+    "value": "47 hrs",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Average private-sector pay hit $38.00 an hour in October 2026, per the BLS.",
+   "say": "Average private-sector pay hit thirty-eight dollars an hour in October twenty twenty-six, per the BLS.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg hourly pay",
+    "value": "$38.00",
+    "tone": "neutral",
+    "sub": "BLS, Oct 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Yearly averages rose from $25.64 in 2016 to $36.45 in 2025.",
+   "say": "Yearly averages rose from about twenty-six in twenty sixteen to about thirty-six in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg hourly pay, yearly",
+    "points": [
+     [
+      2016,
+      25.64
+     ],
+     [
+      2017,
+      26.32
+     ],
+     [
+      2018,
+      27.11
+     ],
+     [
+      2019,
+      27.99
+     ],
+     [
+      2020,
+      29.35
+     ],
+     [
+      2021,
+      30.6
+     ],
+     [
+      2022,
+      32.26
+     ],
+     [
+      2023,
+      33.72
+     ],
+     [
+      2024,
+      35.06
+     ],
+     [
+      2025,
+      36.45
+     ]
+    ],
+    "prefix": "$",
+    "end": "$36.45",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$1,200 divided by $38 is 31.6 hours, before taxes.",
+   "say": "Twelve hundred divided by thirty-eight is about thirty-two hours, before taxes.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Price",
+     "value": "$1,200"
+    },
+    "to": {
+     "label": "At $38/hr",
+     "value": "31.6 hrs"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say an illustrative 25% goes to taxes, so you keep $28.50. Now it's 42.1 hours.",
+   "say": "Say an illustrative quarter goes to taxes, so you keep twenty-eight fifty. Now it's about forty-two hours.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$38 - 25% = $28.50",
+     "1200/28.50 = 42.1h"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then add the commute: 26.4 minutes each way, per the Census.",
+   "say": "Then add the commute: about twenty-six minutes each way, per the Census.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg commute, 1 way",
+    "value": "26.4 min",
+    "tone": "down",
+    "sub": "Census ACS 2020-24",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over an 8-hour day, that unpaid time drops the real wage to $25.68.",
+   "say": "Over an eight-hour day, that unpaid time drops the real wage to about twenty-five seventy.",
+   "scene": {
+    "t": "compare",
+    "title": "Our math: real wage",
+    "left": {
+     "label": "Pay rate",
+     "value": "$38.00",
+     "tone": "neutral",
+     "sub": "before tax"
+    },
+    "right": {
+     "label": "Real wage",
+     "value": "$25.68",
+     "tone": "down",
+     "sub": "after tax + commute"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Vicki Robin and Joe Dominguez called this your real hourly wage, in their 1992 book Your Money or Your Life.",
+   "say": "Vicki Robin and Joe Dominguez called this your real hourly wage, in their nineteen ninety-two book Your Money or Your Life.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real hourly wage",
+     "Robin & Dominguez"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The phone costs 46.7 hours, more than a work week. A tool, not a rule.",
+   "say": "The phone costs about forty-seven hours, more than a work week. A tool, not a rule.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Price",
+     "value": "$1,200"
+    },
+    "to": {
+     "label": "Real cost",
+     "value": "46.7 hrs"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "By our math, a $1,200 phone costs about 47 hours of work",
+  "ig": "By our math, a $1,200 phone costs about 47 hours of work at average pay.\nBLS: average private-sector pay was $38.00 an hour in October 2026 ($25.64 yearly average in 2016, $36.45 in 2025).\nOur math: $1,200 / $38 = 31.6 hours. Assume 25% goes to taxes (illustrative, not anyone's real rate) and it's 42.1 hours.\nAdd the average 26.4-minute commute each way (Census, 2020-2024) to an 8-hour day and the real wage is $25.68, so 46.7 hours.\nThe real hourly wage idea comes from Vicki Robin and Joe Dominguez's 1992 book Your Money or Your Life.\nSources: BLS, US Census Bureau, Your Money or Your Life.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#personalfinance #budgeting #moneytips #realhourlywage #financeprostv",
+  "tiktok": "What a $1,200 phone costs in hours of work, our math. Not financial advice. #moneytok #personalfinance #budgeting #realhourlywage #financeprostv",
+  "yt_desc": "Average private-sector pay was $38.00 an hour in October 2026 (BLS), so a $1,200 phone looks like 31.6 hours of work. Our math, assuming an illustrative 25% tax share (not anyone's real rate), an 8-hour day and the average 26.4-minute commute each way (Census, 2020-2024), puts the real wage at $25.68 and the phone at 46.7 hours, the real hourly wage idea from Vicki Robin and Joe Dominguez's 1992 book Your Money or Your Life. News and education, not financial advice. #Shorts #personalfinance #budgeting",
+  "tags": [
+   "real hourly wage",
+   "true cost of a purchase",
+   "Your Money or Your Life",
+   "average hourly earnings",
+   "personal finance explained"
+  ]
+ }
+}
