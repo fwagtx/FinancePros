@@ -1,0 +1,212 @@
+{
+ "id": "2027-01-11-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Why GameStop Pays\nSo Little",
+ "cover": {
+  "title": "Trade-In Math",
+  "prop": "tag",
+  "label": "used",
+  "value": "43.4%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Why does GameStop pay so little for your old games?",
+   "say": "Why does GameStop pay so little for your old games?",
+   "scene": {
+    "t": "hook",
+    "title": "Trade-In [Math]",
+    "prop": "tag",
+    "label": "USED",
+    "value": "43.4%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "GameStop's own annual report once spelled it out.",
+   "say": "GameStop's own annual report once spelled it out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "GameStop 10-K",
+     "fiscal 2018"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2018, used and value products kept 43.4% as gross profit; new consoles, 8.5%.",
+   "say": "In fiscal twenty eighteen, used and value products kept about forty-three percent as gross profit; new consoles, eight and a half.",
+   "scene": {
+    "t": "compare",
+    "title": "Gross margin, FY2018",
+    "left": {
+     "label": "New consoles",
+     "value": "8.5%",
+     "tone": "down",
+     "sub": "10-K, FY2018"
+    },
+    "right": {
+     "label": "Used & value",
+     "value": "43.4%",
+     "tone": "up",
+     "sub": "10-K, FY2018"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 5 times the margin, on mostly traded-in stock.",
+   "say": "That's about five times the margin, on mostly traded-in stock.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Gross margin, FY2018",
+    "left": {
+     "label": "New consoles",
+     "value": "8.5%",
+     "tone": "down",
+     "sub": "10-K, FY2018"
+    },
+    "right": {
+     "label": "Used & value",
+     "value": "43.4%",
+     "tone": "up",
+     "sub": "10-K, FY2018"
+    },
+    "winner": "right",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $100 of those sales left about $43 of gross profit.",
+   "say": "Our math: a hundred dollars of those sales left about forty-three dollars of gross profit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$100 used sales",
+     "$43 gross profit"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That spread also pays for stores, staff, testing, and games nobody buys.",
+   "say": "That spread also pays for stores, staff, testing, and games nobody buys.",
+   "scene": {
+    "t": "list",
+    "title": "The spread pays for",
+    "items": [
+     "Stores",
+     "Staff",
+     "Testing",
+     "Unsold games"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In the quarter to August 1, 2026, pre-owned and refurbished sales were $170.7 million, 21.6% of sales.",
+   "say": "In the quarter to August first, twenty twenty-six, pre-owned and refurbished sales were about a hundred seventy-one million, about a fifth of sales.",
+   "scene": {
+    "t": "stat",
+    "label": "Pre-owned sales",
+    "value": "$170.7M",
+    "tone": "neutral",
+    "sub": "Q2 FY2026, 21.6%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Total sales fell from $6.01 billion in fiscal 2021 to $3.63 billion in fiscal 2025.",
+   "say": "Total sales fell from about six billion in fiscal twenty twenty-one to about three point six billion in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "GameStop net sales",
+    "points": [
+     [
+      2021,
+      6.01
+     ],
+     [
+      2022,
+      5.93
+     ],
+     [
+      2023,
+      5.27
+     ],
+     [
+      2024,
+      3.82
+     ],
+     [
+      2025,
+      3.63
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$3.63B",
+    "color": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So a trade-in quote is a reseller's buying price, not your game's worth.",
+   "say": "So a trade-in quote is a reseller's buying price, not your game's worth.",
+   "scene": {
+    "t": "split",
+    "title": "Your old game",
+    "left": {
+     "title": "Trade it in",
+     "items": [
+      "Fast",
+      "Lower price"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Sell it yourself",
+     "items": [
+      "Slower",
+      "Keep spread"
+     ],
+     "tone": "up"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why GameStop pays so little for your trade-ins",
+  "ig": "Why does GameStop pay so little for your old games?\nIn fiscal 2018, GameStop's 10-K showed a 43.4% gross margin on pre-owned and value products versus 8.5% on new video game hardware.\nOur math: on $100 of those sales, about $43 was gross profit, before stores, staff and unsold stock.\nIn the quarter ended Aug 1, 2026, pre-owned and refurbished sales were $170.7 million, 21.6% of net sales; total net sales fell from $6.01 billion in fiscal 2021 to $3.63 billion in fiscal 2025.\nSources: GameStop fiscal 2018 Form 10-K, fiscal 2025 and Q2 fiscal 2026 results releases.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gamestop #tradein #howtheymakemoney #businessmodel #financeprostv",
+  "tiktok": "FY2018: used and value products earned GameStop a 43.4% gross margin vs 8.5% on new consoles. Not financial advice. #gamestop #moneytok #financeprostv",
+  "yt_desc": "In fiscal 2018, GameStop's 10-K showed a 43.4% gross margin on pre-owned and value products versus 8.5% on new video game hardware, which helps explain why trade-in offers sit well below resale prices. In the quarter ended Aug 1, 2026, pre-owned and refurbished sales were $170.7 million, 21.6% of net sales (GameStop Q2 fiscal 2026 release); total net sales were $3.63 billion in fiscal 2025. News and education, not financial advice. #Shorts #gamestop #tradein",
+  "tags": [
+   "why gamestop pays so little",
+   "GameStop trade-in",
+   "pre-owned games margin",
+   "how GameStop makes money",
+   "business model explained"
+  ]
+ }
+}
