@@ -1,0 +1,196 @@
+{
+  "series": "ticker",
+  "header": "Record Quarter,\nFalling Stock",
+  "cover": {
+    "title": "Record Yet Down",
+    "prop": "chart-down",
+    "label": "AMAT",
+    "value": "-6%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Best quarter in its history. Then Friday, it slid about 6%.",
+      "say": "Best quarter in its history. Then Friday, it slid about six percent.",
+      "scene": {
+        "t": "hook",
+        "title": "Record, then [down]",
+        "prop": "chart-down",
+        "label": "AMAT",
+        "value": "-6%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Applied Materials makes chipmaking machines. Thursday, it reported record quarterly revenue: $10.41 billion.",
+      "say": "Applied Materials makes chipmaking machines. Thursday, it reported record quarterly revenue of about ten point four billion dollars.",
+      "scene": {
+        "t": "news",
+        "headline": "Record Q4: $10.41B",
+        "source": "Applied Materials, Nov 12, 2026",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "For the full year, sales hit $34.45 billion, up 21%.",
+      "say": "For the full year, sales hit about thirty-four and a half billion, up twenty-one percent.",
+      "scene": {
+        "t": "chart",
+        "title": "Applied yearly revenue",
+        "points": [
+          [
+            2022,
+            25.79
+          ],
+          [
+            2023,
+            26.52
+          ],
+          [
+            2024,
+            27.18
+          ],
+          [
+            2025,
+            28.37
+          ],
+          [
+            2026,
+            34.45
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$34.45B",
+        "color": "up",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Yet Friday morning, the stock fell about 6%.",
+      "say": "Yet on Friday morning, the stock fell about six percent.",
+      "scene": {
+        "t": "stat",
+        "label": "Stock, Fri morning",
+        "value": "-6%",
+        "tone": "down",
+        "sub": "per Investing.com",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Why? Stocks move on surprises, not on good news alone.",
+      "say": "Why? Stocks move on surprises, not on good news alone.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Price moves on",
+          "the surprise"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Analysts expected about $10.30 billion. That's a beat of only about 1% (our math).",
+      "say": "Analysts expected about ten point three billion. That's a beat of only about one percent, by our math.",
+      "scene": {
+        "t": "compare",
+        "title": "Q4 revenue",
+        "left": {
+          "label": "Expected",
+          "value": "$10.30B",
+          "tone": "neutral",
+          "sub": "analysts"
+        },
+        "right": {
+          "label": "Actual",
+          "value": "$10.41B",
+          "tone": "up",
+          "sub": "Nov 12, 2026"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Reports also cite profit-taking, cuts to analyst price targets, and a broad slide in chip stocks.",
+      "say": "Reports also cite profit-taking, cuts to analyst price targets, and a broad slide in chip stocks.",
+      "scene": {
+        "t": "list",
+        "title": "Also weighing on it",
+        "items": [
+          "Profit-taking",
+          "Lower targets",
+          "Chip sell-off"
+        ],
+        "reveal": 3,
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The business and the stock keep different scoreboards, and chipmakers sit inside broad index funds, including many 401(k)s.",
+      "say": "The business and the stock keep different scoreboards, and chipmakers sit inside broad index funds, including many 401 Ks.",
+      "scene": {
+        "t": "split",
+        "title": "Two scoreboards",
+        "left": {
+          "title": "Business",
+          "items": [
+            "Record sales",
+            "Record profit"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Stock",
+          "items": [
+            "Down Friday",
+            "Lower targets"
+          ],
+          "tone": "down"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Next big test for chip stocks: Nvidia's earnings Tuesday, Nov 17.",
+      "say": "Next big test for chip stocks: Nvidia's earnings Tuesday.",
+      "scene": {
+        "t": "stat",
+        "label": "Nvidia earnings",
+        "value": "Nov 17",
+        "tone": "neutral",
+        "sub": "per Nvidia",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Record quarter, falling stock: why Applied Materials dropped",
+    "ig": "Best quarter in its history. Then Friday, the stock slid about 6%.\nApplied Materials, which makes chipmaking machines, reported record revenue of $10.41 billion, up 53% (Nov 12, 2026).\nFull-year revenue: a record $34.45 billion, up 21%.\nAnalysts expected about $10.30 billion. Shares fell about 6% in Friday morning trading as chip-equipment stocks slid and analysts trimmed price targets.\nSources: Applied Materials Q4 FY2026 release; Investing.com; 24/7 Wall St.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stockmarket #earnings #semiconductors #investing #financeprostv",
+    "tiktok": "Record quarter. Then the stock slid about 6% Friday. Why? #moneytok #personalfinance #stockmarket #earnings #financeprostv Not financial advice.",
+    "yt_desc": "Applied Materials reported record quarterly revenue of $10.41 billion, up 53%, on Nov 12, 2026, beating the roughly $10.30 billion analysts expected. Its shares still fell about 6% in Friday morning trading; reports cited profit-taking, analyst price-target cuts and a broad chip-stock slide. Sources: Applied Materials release, Investing.com, 24/7 Wall St. News and education, not financial advice. #Shorts #stockmarket #earnings",
+    "tags": [
+      "Applied Materials",
+      "AMAT earnings",
+      "chip stocks",
+      "sell the news",
+      "stock market"
+    ]
+  }
+}
