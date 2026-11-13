@@ -1,0 +1,205 @@
+{
+  "series": "ticker",
+  "header": "Rent renewal:\nwhere's your leverage",
+  "cover": {
+    "title": "Renewal Markup?",
+    "prop": "house",
+    "label": "-6%",
+    "value": "+5.3%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "One big landlord: renewals up 5.3%. New leases? Down 6%.",
+      "say": "One big landlord: renewals up over five percent. New leases? Down six.",
+      "scene": {
+        "t": "hook",
+        "title": "The [renewal] markup",
+        "prop": "house",
+        "label": "-6%",
+        "value": "+5.3%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's MAA, Q3 2026, versus each unit's last lease.",
+      "say": "That's M A A, third quarter twenty twenty-six, versus each unit's last lease.",
+      "scene": {
+        "t": "compare",
+        "title": "MAA Q3 2026",
+        "left": {
+          "label": "New leases",
+          "value": "-6.0%",
+          "tone": "down",
+          "sub": "vs last lease"
+        },
+        "right": {
+          "label": "Renewals",
+          "value": "+5.3%",
+          "tone": "up",
+          "sub": "vs last lease"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So where's your leverage? One: empty units. Rental vacancy hit 7.6% in Q3 2026, per the Census.",
+      "say": "So where's your leverage? One: empty units. Rental vacancy hit seven point six percent that same quarter, per the Census.",
+      "scene": {
+        "t": "chart",
+        "title": "Rental vacancy, Q3",
+        "points": [
+          [
+            2020,
+            6.4
+          ],
+          [
+            2021,
+            5.8
+          ],
+          [
+            2022,
+            6.0
+          ],
+          [
+            2023,
+            6.6
+          ],
+          [
+            2024,
+            6.9
+          ],
+          [
+            2025,
+            7.1
+          ],
+          [
+            2026,
+            7.6
+          ]
+        ],
+        "suffix": "%",
+        "end": "7.6%",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Two: deals. In April 2026, 39.8% of Zillow listings offered one.",
+      "say": "Two: deals. In April twenty twenty-six, about forty percent of Zillow listings offered one.",
+      "scene": {
+        "t": "stat",
+        "label": "Listings w/ a deal",
+        "value": "39.8%",
+        "tone": "up",
+        "sub": "Zillow, Apr 2026",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Three: by our math, a 5.3% raise on $1,541 a month is about $980 a year.",
+      "say": "Three: by our math, a five point three percent raise on fifteen forty-one a month is about nine eighty a year.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Census median",
+          "value": "$1,541"
+        },
+        "to": {
+          "label": "5.3% raise",
+          "value": "+$980/yr"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But in September 2026, empty units took a median 34 days to lease, per Apartment List. That's $1,722 lost.",
+      "say": "But in September twenty twenty-six, empty units took a median thirty-four days to lease, per Apartment List. That's about seventeen hundred dollars lost.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$50.66/day x 34",
+          "= $1,722 lost"
+        ],
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "One empty month costs more than a year of your raise.",
+      "say": "One empty month costs more than a year of your raise.",
+      "scene": {
+        "t": "compare",
+        "title": "Our math",
+        "left": {
+          "label": "Your raise",
+          "value": "$980",
+          "tone": "neutral",
+          "sub": "1 year"
+        },
+        "right": {
+          "label": "Empty unit",
+          "value": "$1,722",
+          "tone": "down",
+          "sub": "34 days"
+        },
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So your leverage: vacancies, deals and refill costs.",
+      "say": "So your leverage: vacancies, deals and refill costs.",
+      "scene": {
+        "t": "list",
+        "title": "Your leverage",
+        "items": [
+          "Local vacancy",
+          "Listing deals",
+          "Cost to refill"
+        ],
+        "reveal": 3,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A landlord can still say no.",
+      "say": "A landlord can still say no.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Leverage, not",
+          "a guarantee"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Why MAA renewers paid 5.3% more as new leases fell 6%",
+    "ig": "At one big landlord, new tenants paid 6% less and renewing tenants paid 5.3% more (MAA, Q3 2026).\nThe US rental vacancy rate hit 7.6% in Q3 2026, per the Census, and 39.8% of Zillow rental listings offered a deal in April 2026.\nIn September 2026 the median vacant unit took 34 days to lease (Apartment List).\nOur math: a 5.3% raise on the $1,541 Census median asking rent is about $980 a year; 34 empty days is about $1,722 of lost rent.\nSources: US Census Bureau, MAA Q3 2026 results, Zillow, Apartment List.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#renting #rent #personalfinance #moneytips #financeprostv",
+    "tiktok": "At one big landlord (MAA, Q3 2026), renewals rose 5.3% and new leases fell 6%. Where rent leverage comes from. Not financial advice. #rent #moneytok",
+    "yt_desc": "In Q3 2026, apartment landlord MAA reported new lease rents down 6.0% and renewals up 5.3%. The US rental vacancy rate hit 7.6% in Q3 2026 (Census), 39.8% of Zillow listings offered a concession in April 2026, and the median vacant unit took 34 days to lease in September 2026 (Apartment List); by our math that is about $1,722 of lost rent on a $1,541 rent, more than a $980 yearly raise. News and education, not financial advice. #Shorts #rent #personalfinance",
+    "tags": [
+      "rent negotiation",
+      "lease renewal",
+      "rental vacancy rate",
+      "rent concessions",
+      "personal finance explained"
+    ]
+  }
+}
