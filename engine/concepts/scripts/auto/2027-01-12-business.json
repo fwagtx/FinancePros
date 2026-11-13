@@ -1,0 +1,195 @@
+{
+ "id": "2027-01-12-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Gyms Profit\nFrom January",
+ "cover": {
+  "title": "The No-Show Math",
+  "prop": "store",
+  "label": "GYM",
+  "value": "~7,200"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Planet Fitness: about 7,200 members per club. Gyms profit from no-shows.",
+   "say": "Planet Fitness: about seventy-two hundred members per club. Gyms profit from no-shows.",
+   "scene": {
+    "t": "hook",
+    "title": "Members Per [Club]",
+    "prop": "store",
+    "label": "GYM",
+    "value": "~7,200",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 20.8 million members over 2,896 clubs, end of 2025.",
+   "say": "Our math: twenty point eight million members over about twenty-nine hundred clubs, end of twenty twenty-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "20.8M members",
+     "÷ 2,896 clubs"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And its annual report says joins are typically highest in January.",
+   "say": "And its annual report says joins are typically highest in January.",
+   "scene": {
+    "t": "stat",
+    "label": "Most new joins",
+    "value": "January",
+    "tone": "up",
+    "sub": "PF 10-K, FY2025",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Members jumped from 20.8 million to 21.5 million by March 31, 2026.",
+   "say": "Members jumped from twenty point eight million to twenty-one point five million by March thirty-first, twenty twenty-six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "12/25",
+      "20.8M members"
+     ],
+     [
+      "3/26",
+      "21.5M members"
+     ],
+     [
+      "9/26",
+      "Still 21.5M"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Six months later, on Sept. 30, it was still 21.5 million.",
+   "say": "Six months later, on September thirtieth, it was still twenty-one point five million.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "12/25",
+      "20.8M members"
+     ],
+     [
+      "3/26",
+      "21.5M members"
+     ],
+     [
+      "9/26",
+      "Still 21.5M"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Members pay average dues of $19.51 a month as of late 2025, plus a $49 annual fee.",
+   "say": "Members pay average dues of about nineteen fifty a month by late twenty twenty-five, plus a forty-nine dollar annual fee.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg monthly dues",
+    "value": "$19.51",
+    "tone": "neutral",
+    "sub": "+$49 fee, 12/31/25",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Good intentions cost money: a 2006 study of 3 US gyms found members on $70+ monthly plans paid over $17 a visit.",
+   "say": "Good intentions cost money: a two thousand six study of three US gyms found members on seventy-dollar-plus monthly plans paid over seventeen dollars a visit.",
+   "scene": {
+    "t": "compare",
+    "title": "Per visit",
+    "left": {
+     "label": "Visit pass",
+     "value": "$10",
+     "tone": "up",
+     "sub": "2006 study"
+    },
+    "right": {
+     "label": "Monthly",
+     "value": "$17+",
+     "tone": "down",
+     "sub": "$70+ plans"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 10-visit pass cost $10 a visit.",
+   "say": "A ten-visit pass cost ten dollars a visit.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Per visit",
+    "left": {
+     "label": "Visit pass",
+     "value": "$10",
+     "tone": "up",
+     "sub": "2006 study"
+    },
+    "right": {
+     "label": "Monthly",
+     "value": "$17+",
+     "tone": "down",
+     "sub": "$70+ plans"
+    },
+    "winner": "left",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your real price: monthly fee divided by visits you actually make.",
+   "say": "Your real price: monthly fee divided by visits you actually make.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fee ÷ real visits",
+     "= your real price"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How Planet Fitness makes money from January joiners",
+  "ig": "Planet Fitness averages about 7,200 members per club (our math: 20.8 million members / 2,896 clubs at the end of 2025).\nIts fiscal 2025 10-K says member joins are typically higher in January than in other months.\nMembers went from about 20.8 million (Dec 31, 2025) to 21.5 million (Mar 31, 2026), and were still 21.5 million on Sept 30, 2026.\nAverage monthly dues were $19.51 per member as of Dec 31, 2025, plus a standard $49 annual fee. A 2006 study of three US gyms (not Planet Fitness) found members on monthly plans over $70 paid over $17 per visit when a 10-visit pass cost $10 per visit.\nSources: Planet Fitness FY2025 10-K and 2025-2026 results releases; DellaVigna & Malmendier, American Economic Review, 2006.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#planetfitness #gym #newyearsresolution #howtheymakemoney #financeprostv",
+  "tiktok": "Planet Fitness: about 7,200 members per club at the end of 2025 (our math). Not financial advice. #moneytok #personalfinance #gym #financeprostv",
+  "yt_desc": "Planet Fitness had about 20.8 million members and 2,896 clubs at the end of 2025, about 7,200 members per club (our math), and its FY2025 10-K says joins are typically highest in January. Members reached 21.5 million by March 31, 2026 and were still 21.5 million on Sept 30, 2026; a 2006 American Economic Review study of three US gyms found members on $70+ monthly plans paid over $17 per visit versus $10 with a 10-visit pass. News and education, not financial advice. #Shorts #planetfitness #gym",
+  "tags": [
+   "how planet fitness makes money",
+   "gym business model",
+   "new years resolution gym",
+   "paying not to go to the gym",
+   "how they make money"
+  ]
+ }
+}
