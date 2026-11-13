@@ -1,0 +1,1604 @@
+{
+ "series": "ticker",
+ "header": "Rates up,\nmortgages down?",
+ "cover": {
+  "title": "Why Rates Fell?",
+  "prop": "house",
+  "label": "30-yr",
+  "value": "7.11%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The Fed may hike. So why did mortgage rates fall?",
+   "say": "The Fed may hike. So why did mortgage rates fall?",
+   "scene": {
+    "t": "hook",
+    "title": "Why rates [fell]?",
+    "prop": "house",
+    "label": "30-yr",
+    "value": "7.11%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Freddie Mac says the average 30-year mortgage rate fell for a fourth straight week, to 7.11%.",
+   "say": "Freddie Mac says the average thirty-year mortgage rate fell for a fourth straight week, to seven point one one percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Mortgages fall again",
+    "source": "Freddie Mac, Nov 12, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That same week, inflation came in hot, and a Fed governor floated a half-point rate hike.",
+   "say": "That same week, inflation came in hot, and a Fed governor floated a half-point rate hike.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hot inflation +",
+     "half-point talk"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rates heading up, mortgages heading down. It sounds backwards, but it's one of the most useful things to understand about money.",
+   "say": "Rates heading up, mortgages heading down. It sounds backwards, but it's one of the most useful things to understand about money.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rates up,",
+     "mortgages down?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So today: the week inflation ran hot, why mortgages fell anyway, the dollar's big week, and what it all means for you.",
+   "say": "So today: the week inflation ran hot, why mortgages fell anyway, the dollar's big week, and what it all means for you.",
+   "scene": {
+    "t": "list",
+    "title": "Coming up",
+    "items": [
+     "Hot inflation",
+     "Why loans fell",
+     "Strong dollar",
+     "Your money"
+    ],
+    "reveal": 4,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Because the Fed's next decision lands on December 9th, and it reaches your card, your savings and your paycheck.",
+   "say": "Because the Fed's next decision lands on December ninth, and it reaches your card, your savings and your paycheck.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Dec 9",
+    "caption": "Next decision"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: A hot inflation week.",
+   "say": "Chapter one: a hot inflation week.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "A hot inflation week"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It started Tuesday morning, with the government's October inflation report.",
+   "say": "It started Tuesday morning, with the government's October inflation report.",
+   "scene": {
+    "t": "news",
+    "headline": "Oct prices up 0.4%",
+    "source": "BLS, Nov 10, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices rose 0.4% in a single month. Economists had expected 0.3%.",
+   "say": "Prices rose zero point four percent in a single month. Economists had expected zero point three.",
+   "scene": {
+    "t": "compare",
+    "title": "October CPI",
+    "left": {
+     "label": "Expected",
+     "value": "+0.3%",
+     "tone": "neutral",
+     "sub": "Dow Jones poll"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "+0.4%",
+     "tone": "down",
+     "sub": "BLS, Nov 10"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A tenth of a point sounds tiny, but the Fed watches these tenths very closely.",
+   "say": "A tenth of a point sounds tiny, but the Fed watches these tenths very closely.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "October CPI",
+    "left": {
+     "label": "Expected",
+     "value": "+0.3%",
+     "tone": "neutral",
+     "sub": "Dow Jones poll"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "+0.4%",
+     "tone": "down",
+     "sub": "BLS, Nov 10"
+    },
+    "winner": "right",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Core prices, which leave out food and energy because they jump around, rose 0.3%. Forecasters expected 0.2%.",
+   "say": "Core prices, which leave out food and energy because they jump around, rose zero point three percent. Forecasters expected zero point two.",
+   "scene": {
+    "t": "stat",
+    "label": "Core CPI, October",
+    "value": "+0.3%",
+    "tone": "down",
+    "sub": "Expected +0.2%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Groceries were up 0.4% and gasoline 1% in that one month.",
+   "say": "Groceries were up zero point four percent and gasoline one percent in that one month.",
+   "scene": {
+    "t": "compare",
+    "title": "One month",
+    "left": {
+     "label": "Groceries",
+     "value": "+0.4%",
+     "tone": "down",
+     "sub": "Food at home"
+    },
+    "right": {
+     "label": "Gasoline",
+     "value": "+1.0%",
+     "tone": "down",
+     "sub": "BLS, October"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the strange part. This report had no yearly inflation number at all.",
+   "say": "Here's the strange part. This report had no yearly inflation number at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No yearly rate",
+     "this time"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2025 government shutdown stopped the BLS from collecting prices in October 2025, so there was nothing to compare against.",
+   "say": "The twenty twenty-five government shutdown stopped the B L S from collecting prices in October twenty twenty-five, so there was nothing to compare against.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2025 shutdown:",
+     "no Oct 2025 data"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The last yearly number we have is September's: prices up 3.7% from a year earlier.",
+   "say": "The last yearly number we have is September's: prices up three point seven percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Inflation, Sept",
+    "value": "3.7%",
+    "tone": "down",
+    "sub": "BLS, Oct 14"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For scale, 0.4% a month, kept up for a full year, works out to about 4.9%. That's our math, and it's a pace, not a forecast.",
+   "say": "For scale, zero point four percent a month, kept up for a full year, works out to about four point nine percent. That's our math, and it's a pace, not a forecast.",
+   "scene": {
+    "t": "stat",
+    "label": "0.4% a month =",
+    "value": "~4.9%",
+    "tone": "down",
+    "sub": "Our math, a pace"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That same day, Fed Governor Christopher Waller gave a speech in London, and he was blunt about December.",
+   "say": "That same day, Fed Governor Christopher Waller gave a speech in London, and he was blunt about December.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Waller",
+    "caption": "Speech in London"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "He said: \"Hiking only 25 basis points would put our credibility at risk, a risk I am not eager to take.\"",
+   "say": "He said: hiking only twenty-five basis points would put our credibility at risk, a risk I am not eager to take.",
+   "scene": {
+    "t": "quote",
+    "text": "Hiking only 25 basis points would put our credibility at risk, a risk I am not eager to take.",
+    "source": "Fed Gov. Christopher Waller, Nov 10, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "His starting point is a quarter-point hike. But if core prices kept rising about 0.3% a month, he said a half point should be considered.",
+   "say": "His starting point is a quarter-point hike. But if core prices kept rising about zero point three percent a month, he said a half point should be considered.",
+   "scene": {
+    "t": "compare",
+    "title": "Dec options",
+    "left": {
+     "label": "Base case",
+     "value": "+0.25",
+     "tone": "neutral",
+     "sub": "Quarter point"
+    },
+    "right": {
+     "label": "If core hot",
+     "value": "+0.50",
+     "tone": "down",
+     "sub": "Half point"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hours later, October's core number came in at 0.3%, right at the line he drew.",
+   "say": "Hours later, October's core number came in at zero point three percent, right at the line he drew.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Core: 0.3%",
+     "right at his line"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bond traders reacted fast. The 10-year Treasury yield touched about 5% that day.",
+   "say": "Bond traders reacted fast. The ten-year Treasury yield touched about five percent that day.",
+   "scene": {
+    "t": "stat",
+    "label": "10-year yield",
+    "value": "~5%",
+    "tone": "down",
+    "sub": "Nov 10, intraday"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That matters because the 10-year is the benchmark lenders lean on for mortgages and car loans.",
+   "say": "That matters because the ten-year is the benchmark lenders lean on for mortgages and car loans.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "10-year yield =",
+     "loan benchmark"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's not a record, though. On October 7th it hit about 5.36%, its highest since 2002.",
+   "say": "It's not a record, though. On October seventh it hit about five point three six percent, its highest since two thousand two.",
+   "scene": {
+    "t": "stat",
+    "label": "10-yr peak, Oct 7",
+    "value": "~5.36%",
+    "tone": "down",
+    "sub": "Highest since 2002"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add it up: hot prices, a Fed governor talking about bigger hikes, and bond yields near 5%. That's a heavy week for rates.",
+   "say": "Add it up: hot prices, a Fed governor talking about bigger hikes, and bond yields near five percent. That's a heavy week for rates.",
+   "scene": {
+    "t": "list",
+    "title": "This week",
+    "items": [
+     "Hot prices",
+     "Hike talk",
+     "5% yields"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Why mortgages fell anyway.",
+   "say": "Chapter two: why mortgages fell anyway.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Why mortgages fell anyway"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So with all that going on, why did mortgage rates fall four weeks in a row?",
+   "say": "So with all that going on, why did mortgage rates fall four weeks in a row?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "So why did they",
+     "fall?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, they were falling from a high place. Freddie Mac's average hit 7.40% in early October, its highest in nearly 3 years.",
+   "say": "First, they were falling from a high place. Freddie Mac's average hit seven point four percent in early October, its highest in nearly three years.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Oct 8",
+      "what": "7.40% peak"
+     },
+     {
+      "when": "Oct22",
+      "what": "7.32%"
+     },
+     {
+      "when": "Oct29",
+      "what": "7.24%"
+     },
+     {
+      "when": "Nov 5",
+      "what": "7.18%"
+     },
+     {
+      "when": "Nov12",
+      "what": "7.11%"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it slipped, week after week: 7.32, 7.24, 7.18, and now 7.11%, the lowest in seven weeks.",
+   "say": "Then it slipped, week after week: seven point three two, seven point two four, seven point one eight, and now seven point one one percent, the lowest in seven weeks.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "Oct 8",
+      "what": "7.40% peak"
+     },
+     {
+      "when": "Oct22",
+      "what": "7.32%"
+     },
+     {
+      "when": "Oct29",
+      "what": "7.24%"
+     },
+     {
+      "when": "Nov 5",
+      "what": "7.18%"
+     },
+     {
+      "when": "Nov12",
+      "what": "7.11%"
+     }
+    ],
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Freddie Mac's chief economist, Sam Khater, called it \"a welcome development that gives borrowers greater flexibility.\"",
+   "say": "Freddie Mac's chief economist, Sam Khater, called it a welcome development that gives borrowers greater flexibility.",
+   "scene": {
+    "t": "quote",
+    "text": "Mortgage rates dropped to their lowest level in seven weeks, a welcome development that gives borrowers greater flexibility as they navigate the current housing market.",
+    "source": "Sam Khater, Freddie Mac, Nov 12, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, and this is the big one: the Fed doesn't set mortgage rates. It sets one short-term rate that banks charge each other overnight.",
+   "say": "Second, and this is the big one: the Fed doesn't set mortgage rates. It sets one short-term rate that banks charge each other overnight.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fed sets ONE",
+     "short-term rate"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgages follow long-term bond yields, like the 10-year, and traders move those yields on what they expect the Fed to do, long before it acts.",
+   "say": "Mortgages follow long-term bond yields, like the ten-year, and traders move those yields on what they expect the Fed to do, long before it acts.",
+   "scene": {
+    "t": "list",
+    "title": "How it flows",
+    "items": [
+     "Expectations",
+     "Bond yields",
+     "Mortgage rates"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A December hike was already largely priced in. So when yields eased from their October peak, mortgage rates eased with them.",
+   "say": "A December hike was already largely priced in. So when yields eased from their October peak, mortgage rates eased with them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hike already",
+     "priced in"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We've seen this movie before, in reverse. In September 2024, the Fed cut its rate by half a point.",
+   "say": "We've seen this movie before, in reverse. In September twenty twenty-four, the Fed cut its rate by half a point.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed cuts half point",
+    "source": "Federal Reserve, Sept 18, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage rates were about 6.1% right after. By mid-January 2025, they were back above 7%.",
+   "say": "Mortgage rates were about six point one percent right after. By mid-January twenty twenty-five, they were back above seven percent.",
+   "scene": {
+    "t": "compare",
+    "title": "After a cut",
+    "left": {
+     "label": "Sept 2024",
+     "value": "6.09%",
+     "tone": "neutral",
+     "sub": "Freddie Mac"
+    },
+    "right": {
+     "label": "Jan 2025",
+     "value": "7.04%",
+     "tone": "down",
+     "sub": "Freddie Mac"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed cut, and mortgages went up. It's the same lesson as this week, just flipped.",
+   "say": "The Fed cut, and mortgages went up. It's the same lesson as this week, just flipped.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fed cut,",
+     "mortgages rose"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the bigger picture: Freddie Mac's 30-year rate in mid-November of each of the last six years.",
+   "say": "Here's the bigger picture: Freddie Mac's thirty-year rate in mid-November of each of the last six years.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, mid-Nov",
+    "points": [
+     [
+      2021,
+      3.1
+     ],
+     [
+      2022,
+      6.61
+     ],
+     [
+      2023,
+      7.44
+     ],
+     [
+      2024,
+      6.78
+     ],
+     [
+      2025,
+      6.24
+     ],
+     [
+      2026,
+      7.11
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.11%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In November 2021, the average was about 3.1%.",
+   "say": "In November twenty twenty-one, the average was about three point one percent.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, mid-Nov",
+    "points": [
+     [
+      2021,
+      3.1
+     ],
+     [
+      2022,
+      6.61
+     ],
+     [
+      2023,
+      7.44
+     ],
+     [
+      2024,
+      6.78
+     ],
+     [
+      2025,
+      6.24
+     ],
+     [
+      2026,
+      7.11
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.11%",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2021,
+     "text": "3.10%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By November 2023, after the Fed's big hiking run, it was about 7.4%.",
+   "say": "By November twenty twenty-three, after the Fed's big hiking run, it was about seven point four percent.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, mid-Nov",
+    "points": [
+     [
+      2021,
+      3.1
+     ],
+     [
+      2022,
+      6.61
+     ],
+     [
+      2023,
+      7.44
+     ],
+     [
+      2024,
+      6.78
+     ],
+     [
+      2025,
+      6.24
+     ],
+     [
+      2026,
+      7.11
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.11%",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2023,
+     "text": "7.44%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A year ago it had eased to about 6.2%.",
+   "say": "A year ago it had eased to about six point two percent.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, mid-Nov",
+    "points": [
+     [
+      2021,
+      3.1
+     ],
+     [
+      2022,
+      6.61
+     ],
+     [
+      2023,
+      7.44
+     ],
+     [
+      2024,
+      6.78
+     ],
+     [
+      2025,
+      6.24
+     ],
+     [
+      2026,
+      7.11
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.11%",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "6.24%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now it's 7.11%, nearly a full point higher than a year ago, even after four weekly drops.",
+   "say": "Now it's seven point one one percent, nearly a full point higher than a year ago, even after four weekly drops.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, mid-Nov",
+    "points": [
+     [
+      2021,
+      3.1
+     ],
+     [
+      2022,
+      6.61
+     ],
+     [
+      2023,
+      7.44
+     ],
+     [
+      2024,
+      6.78
+     ],
+     [
+      2025,
+      6.24
+     ],
+     [
+      2026,
+      7.11
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.11%",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "+0.87 pt"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the dip is real relief, but borrowing for a home still costs a lot more than it did last fall.",
+   "say": "So the dip is real relief, but borrowing for a home still costs a lot more than it did last fall.",
+   "scene": {
+    "t": "compare",
+    "title": "Mid-November",
+    "left": {
+     "label": "2025",
+     "value": "6.24%",
+     "tone": "neutral",
+     "sub": "Nov 13, 2025"
+    },
+    "right": {
+     "label": "2026",
+     "value": "7.11%",
+     "tone": "down",
+     "sub": "Nov 12, 2026"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: The dollar's big week.",
+   "say": "Chapter three: the dollar's big week.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The dollar's big week"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same rate bets that moved bond yields also pushed the dollar up.",
+   "say": "The same rate bets that moved bond yields also pushed the dollar up.",
+   "scene": {
+    "t": "news",
+    "headline": "Dollar at 19-mo high",
+    "source": "Reuters, Nov 12, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Thursday, the dollar index climbed above 103, its highest since April 2025.",
+   "say": "On Thursday, the dollar index climbed above one hundred three, its highest since April twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Dollar index",
+    "value": "103+",
+    "tone": "up",
+    "sub": "Top since Apr 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That index measures the dollar against six major currencies, like the euro, the yen and the British pound.",
+   "say": "That index measures the dollar against six major currencies, like the euro, the yen and the British pound.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Dollar vs 6",
+     "big currencies"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why is it rising? Money tends to flow toward higher interest rates, and traders are betting US rates go up again in December.",
+   "say": "Why is it rising? Money tends to flow toward higher interest rates, and traders are betting U S rates go up again in December.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Higher rates here"
+     }
+    ],
+    "caption": "Money chases rates"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The flip side is Japan. This week the yen weakened to about 160 per dollar, a level that has made Tokyo nervous before.",
+   "say": "The flip side is Japan. This week the yen weakened to about one hundred sixty per dollar, a level that has made Tokyo nervous before.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "160 yen per $"
+     }
+    ],
+    "caption": "Yen near 160"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Japan's finance minister said the government will respond appropriately to currency moves.",
+   "say": "Japan's finance minister said the government will respond appropriately to currency moves.",
+   "scene": {
+    "t": "news",
+    "headline": "Japan warns on yen",
+    "source": "Bloomberg, Nov 12, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a fact most people missed. In July, the yen sank to about 163 per dollar, its weakest since 1986.",
+   "say": "Here's a fact most people missed. In July, the yen sank to about one hundred sixty-three per dollar, its weakest since nineteen eighty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Yen per $, July",
+    "value": "163.24",
+    "tone": "down",
+    "sub": "Weakest since 1986"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the US and Japan stepped in together to buy yen, the first joint move like that since 1998.",
+   "say": "So the U S and Japan stepped in together to buy yen, the first joint move like that since nineteen ninety-eight.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1998",
+      "what": "Joint yen buy"
+     },
+     {
+      "when": "July",
+      "what": "Yen at 163"
+     },
+     {
+      "when": "Jul31",
+      "what": "US buys yen"
+     },
+     {
+      "when": "Nov",
+      "what": "Back near 160"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And now, a few months later, the yen is back near that 160 line.",
+   "say": "And now, a few months later, the yen is back near that one hundred sixty line.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "1998",
+      "what": "Joint yen buy"
+     },
+     {
+      "when": "July",
+      "what": "Yen at 163"
+     },
+     {
+      "when": "Jul31",
+      "what": "US buys yen"
+     },
+     {
+      "when": "Nov",
+      "what": "Back near 160"
+     }
+    ],
+    "reveal": 4,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So who wins when the dollar is strong? Americans traveling abroad, and anyone buying imported goods, get more for each dollar.",
+   "say": "So who wins when the dollar is strong? Americans traveling abroad, and anyone buying imported goods, get more for each dollar.",
+   "scene": {
+    "t": "split",
+    "title": "Strong USD",
+    "left": {
+     "title": "Winners",
+     "items": [
+      "Travel abroad",
+      "Imports"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Losers",
+     "items": [
+      "US exporters",
+      "Overseas sales"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The losers are US companies that sell overseas. Their goods cost more abroad, and their foreign sales turn into fewer dollars.",
+   "say": "The losers are US companies that sell overseas. Their goods cost more abroad, and their foreign sales turn into fewer dollars.",
+   "scene": {
+    "t": "split",
+    "title": "Strong USD",
+    "left": {
+     "title": "Winners",
+     "items": [
+      "Travel abroad",
+      "Imports"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Losers",
+     "items": [
+      "US exporters",
+      "Overseas sales"
+     ],
+     "tone": "down"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For Japan, it's the reverse. A weak yen makes imported food and fuel more expensive for Japanese families.",
+   "say": "For Japan, it's the reverse. A weak yen makes imported food and fuel more expensive for Japanese families.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "japan",
+      "mood": "sad",
+      "says": "Pricier imports"
+     }
+    ],
+    "caption": "Weak yen hurts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Your loans, savings, paycheck.",
+   "say": "Chapter four: your loans, your savings, and your paycheck.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Your loans, savings, paycheck"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the part that hits your wallet. The Fed's rate range today is 3.75% to 4%.",
+   "say": "Now the part that hits your wallet. The Fed's rate range today is three point seven five to four percent.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75-4%",
+    "caption": "Today's range"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A quarter-point hike in December would lift the top of that range to 4.25%. A half point would lift it to 4.5%.",
+   "say": "A quarter-point hike in December would lift the top of that range to four point two five percent. A half point would lift it to four point five.",
+   "scene": {
+    "t": "compare",
+    "title": "Top of range",
+    "left": {
+     "label": "+0.25 hike",
+     "value": "4.25%",
+     "tone": "neutral",
+     "sub": "Quarter point"
+    },
+    "right": {
+     "label": "+0.50 hike",
+     "value": "4.50%",
+     "tone": "down",
+     "sub": "Half point"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Credit cards feel it first. Most have variable rates, and Bankrate's average was about 19.7% in late October.",
+   "say": "Credit cards feel it first. Most have variable rates, and Bankrate's average was about nineteen point seven percent in late October.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg card rate",
+    "value": "19.70%",
+    "tone": "down",
+    "sub": "Bankrate, Oct 21"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $5,000 balance, that's about $985 a year in interest, by our math.",
+   "say": "On a five thousand dollar balance, that's about nine hundred eighty-five dollars a year in interest, by our math.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Card balance",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Interest a year",
+     "value": "~$985"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A quarter-point hike would add about $12.50 a year to that. A half point, about $25.",
+   "say": "A quarter-point hike would add about twelve dollars and fifty cents a year to that. A half point, about twenty-five dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Extra a year",
+    "left": {
+     "label": "+0.25 pt",
+     "value": "$12.50",
+     "tone": "down",
+     "sub": "Our math"
+    },
+    "right": {
+     "label": "+0.50 pt",
+     "value": "$25",
+     "tone": "down",
+     "sub": "Our math"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the hike itself is small money. The big cost is the nearly 20% already charged on any balance you carry.",
+   "say": "So the hike itself is small money. The big cost is the nearly twenty percent already charged on any balance you carry.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Small: the hike",
+     "Big: the 19.7%"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgages work differently. A fixed-rate loan you already have doesn't change at all.",
+   "say": "Mortgages work differently. A fixed-rate loan you already have doesn't change at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fixed loans",
+     "don't change"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For new loans, here's the gap. On a $400,000 loan, 7.11% is about $2,691 a month, versus about $2,460 a year ago at 6.24%.",
+   "say": "For new loans, here's the gap. On a four hundred thousand dollar loan, seven point one one percent is about two thousand six hundred ninety-one dollars a month, versus about two thousand four hundred sixty a year ago at six point two four percent.",
+   "scene": {
+    "t": "compare",
+    "title": "$400K loan",
+    "left": {
+     "label": "Year ago",
+     "value": "$2,460",
+     "tone": "neutral",
+     "sub": "At 6.24%"
+    },
+    "right": {
+     "label": "Now",
+     "value": "$2,691",
+     "tone": "down",
+     "sub": "At 7.11%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $231 more every month, principal and interest only, by our math.",
+   "say": "That's about two hundred thirty-one dollars more every month, principal and interest only, by our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra per month",
+    "value": "+$231",
+    "tone": "down",
+    "sub": "Our math, P&I only"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Home equity lines, and many new car and personal loans, also tend to get pricier when rates rise.",
+   "say": "Home equity lines, and many new car and personal loans, also tend to get pricier when rates rise.",
+   "scene": {
+    "t": "list",
+    "title": "Also pricier",
+    "items": [
+     "HELOCs",
+     "New car loans",
+     "Personal loans"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the good news. Savers tend to come out ahead, because savings and CD rates usually follow the Fed's rate.",
+   "say": "Now the good news. Savers tend to come out ahead, because savings and C D rates usually follow the Fed's rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hikes can help",
+     "savers"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bankrate's top listed savings rate on November 7th was 4.35%. The FDIC's national average is about 0.38%.",
+   "say": "Bankrate's top listed savings rate on November seventh was four point three five percent. The F D I C's national average is about zero point three eight percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Savings APY",
+    "left": {
+     "label": "Nat'l avg",
+     "value": "0.38%",
+     "tone": "neutral",
+     "sub": "FDIC"
+    },
+    "right": {
+     "label": "Top listed",
+     "value": "4.35%",
+     "tone": "up",
+     "sub": "Bankrate, Nov 7"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On $10,000 for a year, that's about $38 versus about $435, by our math.",
+   "say": "On ten thousand dollars for a year, that's about thirty-eight dollars versus about four hundred thirty-five, by our math.",
+   "scene": {
+    "t": "compare",
+    "title": "Savings APY",
+    "left": {
+     "label": "Nat'l avg",
+     "value": "0.38%",
+     "tone": "neutral",
+     "sub": "FDIC"
+    },
+    "right": {
+     "label": "Top listed",
+     "value": "4.35%",
+     "tone": "up",
+     "sub": "Bankrate, Nov 7"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same Fed, very different payouts. The gap between the average and the top is where savers gain or lose.",
+   "say": "Same Fed, very different payouts. The gap between the average and the top is where savers gain or lose.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same Fed rate,",
+     "very different APY"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then your paycheck. In October, average hourly pay was up 3.1% from a year earlier.",
+   "say": "Then your paycheck. In October, average hourly pay was up three point one percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Hourly pay, 1 yr",
+    "value": "+3.1%",
+    "tone": "up",
+    "sub": "BLS, Nov 6"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But prices were up 3.7% in September, the last yearly number we have. So prices are still running ahead of pay.",
+   "say": "But prices were up three point seven percent in September, the last yearly number we have. So prices are still running ahead of pay.",
+   "scene": {
+    "t": "compare",
+    "title": "Pay & prices",
+    "left": {
+     "label": "Pay",
+     "value": "+3.1%",
+     "tone": "up",
+     "sub": "October"
+    },
+    "right": {
+     "label": "Prices",
+     "value": "+3.7%",
+     "tone": "down",
+     "sub": "September"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That gap is what the Fed is trying to close: slow price growth down so paychecks can catch up.",
+   "say": "That gap is what the Fed is trying to close: slow price growth down so paychecks can catch up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Goal: prices",
+     "slower than pay"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The risk is that higher rates also cool hiring. That's the trade-off every hiking cycle carries.",
+   "say": "The risk is that higher rates also cool hiring. That's the trade-off every hiking cycle carries.",
+   "scene": {
+    "t": "split",
+    "title": "Trade-off",
+    "left": {
+     "title": "Can help",
+     "items": [
+      "Savers",
+      "Cooling prices"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Can hurt",
+     "items": [
+      "Borrowers",
+      "Hiring"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Savers and price growth can get relief, while borrowers pay more and job growth can slow.",
+   "say": "Savers and price growth can get relief, while borrowers pay more and job growth can slow.",
+   "scene": {
+    "t": "split",
+    "title": "Trade-off",
+    "left": {
+     "title": "Can help",
+     "items": [
+      "Savers",
+      "Cooling prices"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Can hurt",
+     "items": [
+      "Borrowers",
+      "Hiring"
+     ],
+     "tone": "down"
+    },
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: What to watch next.",
+   "say": "Chapter five: what to watch next.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What to watch next"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the calendar. Thursday, November 19th: Freddie Mac's next mortgage survey, to see if the streak reaches five weeks.",
+   "say": "Here's the calendar. Thursday, November nineteenth: Freddie Mac's next mortgage survey, to see if the streak reaches five weeks.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Nov19",
+      "what": "Mortgage survey"
+     },
+     {
+      "when": "Dec 9",
+      "what": "Fed decision"
+     },
+     {
+      "when": "Dec10",
+      "what": "Nov inflation"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then December 8th and 9th, the Fed's meeting, with the decision on Wednesday the 9th.",
+   "say": "Then December eighth and ninth, the Fed's meeting, with the decision on Wednesday the ninth.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "Nov19",
+      "what": "Mortgage survey"
+     },
+     {
+      "when": "Dec 9",
+      "what": "Fed decision"
+     },
+     {
+      "when": "Dec10",
+      "what": "Nov inflation"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And here's the twist: the next inflation report comes out the day after, on December 10th.",
+   "say": "And here's the twist: the next inflation report comes out the day after, on December tenth.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "Nov19",
+      "what": "Mortgage survey"
+     },
+     {
+      "when": "Dec 9",
+      "what": "Fed decision"
+     },
+     {
+      "when": "Dec10",
+      "what": "Nov inflation"
+     }
+    ],
+    "reveal": 3,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the Fed will decide without November's inflation number in hand.",
+   "say": "So the Fed will decide without November's inflation number in hand.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Decision first,",
+     "data after"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That December meeting also brings the Fed's new projections, including the dot plot of where officials see rates heading.",
+   "say": "That December meeting also brings the Fed's new projections, including the dot plot of where officials see rates heading.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Dot plot",
+    "caption": "New projections"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Traders see a hike as very likely. The open question is a quarter point or a half point.",
+   "say": "Traders see a hike as very likely. The open question is a quarter point or a half point.",
+   "scene": {
+    "t": "compare",
+    "title": "Dec options",
+    "left": {
+     "label": "Quarter",
+     "value": "+0.25",
+     "tone": "neutral",
+     "sub": "Most expected"
+    },
+    "right": {
+     "label": "Half",
+     "value": "+0.50",
+     "tone": "down",
+     "sub": "Waller's 'if'"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But odds aren't promises. Data that comes in softer, or rougher, can change the mood quickly.",
+   "say": "But odds aren't promises. Data that comes in softer, or rougher, can change the mood quickly.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Odds are not",
+     "promises"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And remember this week's lesson: mortgage rates react to expectations, so they can move before the Fed does anything.",
+   "say": "And remember this week's lesson: mortgage rates react to expectations, so they can move before the Fed does anything.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Markets move",
+     "before the Fed"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The recap.",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Recap. October prices rose 0.4% in a month, hotter than expected, with no yearly number because of the 2025 shutdown.",
+   "say": "Recap. October prices rose zero point four percent in a month, hotter than expected, with no yearly number because of the twenty twenty-five shutdown.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Hot CPI",
+     "Hike talk",
+     "Mortgages dip",
+     "Strong dollar"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A Fed governor said a half-point hike should be considered if core inflation stayed hot, and core came in at 0.3%.",
+   "say": "A Fed governor said a half-point hike should be considered if core inflation stayed hot, and core came in at zero point three percent.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Hot CPI",
+     "Hike talk",
+     "Mortgages dip",
+     "Strong dollar"
+    ],
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mortgage rates still fell for a fourth week, to 7.11%, because they follow bond markets, not the Fed directly.",
+   "say": "Mortgage rates still fell for a fourth week, to seven point one one percent, because they follow bond markets, not the Fed directly.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Hot CPI",
+     "Hike talk",
+     "Mortgages dip",
+     "Strong dollar"
+    ],
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the dollar hit a 19-month high, while the yen slid back near 160.",
+   "say": "And the dollar hit a nineteen-month high, while the yen slid back near one hundred sixty.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Hot CPI",
+     "Hike talk",
+     "Mortgages dip",
+     "Strong dollar"
+    ],
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For your money: card rates and savings rates move with the Fed, while fixed loans you already have don't move at all.",
+   "say": "For your money: card rates and savings rates move with the Fed, while fixed loans you already have don't move at all.",
+   "scene": {
+    "t": "split",
+    "title": "Your money",
+    "left": {
+     "title": "Moves w/ Fed",
+     "items": [
+      "Card APR",
+      "Savings APY"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Doesn't move",
+     "items": [
+      "Fixed mortgage",
+      "Fixed car loan"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So rates up, mortgages down isn't a contradiction. It's markets moving first, and now you know why.",
+   "say": "So rates up, mortgages down isn't a contradiction. It's markets moving first, and now you know why.",
+   "scene": {
+    "t": "hook",
+    "title": "Now you [know]",
+    "prop": "house",
+    "label": "30-yr",
+    "value": "7.11%",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this made the week make sense, subscribe for next week's big story.",
+   "say": "If this made the week make sense, subscribe for next week's big story.",
+   "scene": {
+    "t": "cta",
+    "tagline": "The week's big money story"
+   }
+  }
+ ],
+ "post": {
+  "title": "The Fed May Hike in December. So Why Did Mortgage Rates Just Fall?",
+  "ig": "The Fed may hike in December, yet mortgage rates just fell a 4th week to 7.11%. Here's why.",
+  "tiktok": "The Fed may hike, yet mortgage rates fell a 4th straight week to 7.11%. Here's why, and what it means for you.",
+  "yt_desc": "October prices rose 0.4% in a month, hotter than expected, and Fed Governor Christopher Waller said a half-point December hike should be considered if core inflation stayed hot. Yet Freddie Mac's 30-year mortgage rate fell for a fourth straight week, to 7.11%, while the dollar hit a 19-month high and the yen slid back near 160. This video explains why mortgage rates move before the Fed does, who wins and loses from a strong dollar, and what a December hike would mean for your credit card, mortgage, savings and paycheck.\n\nCHAPTERS\n\nSources: Bureau of Labor Statistics (October CPI, Nov 10, 2026; September CPI, Oct 14, 2026; October jobs report, Nov 6, 2026); Federal Reserve FOMC calendar; Fed Gov. Christopher Waller speech via CNBC and Reuters (Nov 10, 2026); Freddie Mac PMMS (Nov 12, 2026 and earlier weeks); Reuters and Bloomberg currency reports (Nov 12, 2026); Japan Ministry of Finance via Reuters (Aug 2026); Bankrate (Oct 21 and Nov 7, 2026); FDIC via Fortune (Nov 2026).\n\nNews and education, not financial advice.\n\n#federalreserve #mortgagerates #inflation",
+  "tags": [
+   "fed rate hike",
+   "mortgage rates",
+   "inflation",
+   "cpi",
+   "10-year treasury",
+   "dollar",
+   "yen",
+   "personal finance"
+  ]
+ }
+}
