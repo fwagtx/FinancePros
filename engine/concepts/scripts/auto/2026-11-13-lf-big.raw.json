@@ -276,8 +276,8 @@
   },
   {
    "who": "ticker",
-   "text": "Hours later, October's core number came in at 0.3%, right at the line he drew.",
-   "say": "Hours later, October's core number came in at zero point three percent, right at the line he drew.",
+   "text": "Then October's core number came in at 0.3%, right at the line he drew.",
+   "say": "Then October's core number came in at zero point three percent, right at the line he drew.",
    "scene": {
     "t": "board",
     "lines": [
@@ -321,6 +321,40 @@
     "value": "~5.36%",
     "tone": "down",
     "sub": "Highest since 2002"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And this morning, wholesale prices for October rose 0.3%, a bit cooler than the 0.4% economists expected.",
+   "say": "And this morning, wholesale prices for October rose zero point three percent, a bit cooler than the zero point four economists expected.",
+   "scene": {
+    "t": "compare",
+    "title": "October PPI",
+    "left": {
+     "label": "Expected",
+     "value": "+0.4%",
+     "tone": "neutral",
+     "sub": "Dow Jones poll"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "+0.3%",
+     "tone": "neutral",
+     "sub": "BLS, Nov 13"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But over 12 months, wholesale prices are up 6.5%, the most since November 2022. Those are costs businesses often try to pass on to shoppers.",
+   "say": "But over twelve months, wholesale prices are up six point five percent, the most since November twenty twenty-two. Those are costs businesses often try to pass on to shoppers.",
+   "scene": {
+    "t": "stat",
+    "label": "Wholesale, 1 yr",
+    "value": "+6.5%",
+    "tone": "down",
+    "sub": "Top since Nov 2022",
+    "mood": "worried"
    }
   },
   {
@@ -1589,7 +1623,7 @@
   "title": "The Fed May Hike in December. So Why Did Mortgage Rates Just Fall?",
   "ig": "The Fed may hike in December, yet mortgage rates just fell a 4th week to 7.11%. Here's why.",
   "tiktok": "The Fed may hike, yet mortgage rates fell a 4th straight week to 7.11%. Here's why, and what it means for you.",
-  "yt_desc": "October prices rose 0.4% in a month, hotter than expected, and Fed Governor Christopher Waller said a half-point December hike should be considered if core inflation stayed hot. Yet Freddie Mac's 30-year mortgage rate fell for a fourth straight week, to 7.11%, while the dollar hit a 19-month high and the yen slid back near 160. This video explains why mortgage rates move before the Fed does, who wins and loses from a strong dollar, and what a December hike would mean for your credit card, mortgage, savings and paycheck.\n\nCHAPTERS\n\nSources: Bureau of Labor Statistics (October CPI, Nov 10, 2026; September CPI, Oct 14, 2026; October jobs report, Nov 6, 2026); Federal Reserve FOMC calendar; Fed Gov. Christopher Waller speech via CNBC and Reuters (Nov 10, 2026); Freddie Mac PMMS (Nov 12, 2026 and earlier weeks); Reuters and Bloomberg currency reports (Nov 12, 2026); Japan Ministry of Finance via Reuters (Aug 2026); Bankrate (Oct 21 and Nov 7, 2026); FDIC via Fortune (Nov 2026).\n\nNews and education, not financial advice.\n\n#federalreserve #mortgagerates #inflation",
+  "yt_desc": "October consumer prices rose 0.4% in a month, hotter than expected, and wholesale prices are up 6.5% over a year, and Fed Governor Christopher Waller said a half-point December hike should be considered if core inflation stayed hot. Yet Freddie Mac's 30-year mortgage rate fell for a fourth straight week, to 7.11%, while the dollar hit a 19-month high and the yen slid back near 160. This video explains why mortgage rates move before the Fed does, who wins and loses from a strong dollar, and what a December hike would mean for your credit card, mortgage, savings and paycheck.\n\nCHAPTERS\n\nSources: Bureau of Labor Statistics (October CPI, Nov 10, 2026; October PPI, Nov 13, 2026, via CNBC; September CPI, Oct 14, 2026; October jobs report, Nov 6, 2026); Federal Reserve FOMC calendar; Fed Gov. Christopher Waller speech via CNBC and Reuters (Nov 10, 2026); Freddie Mac PMMS (Nov 12, 2026 and earlier weeks); Reuters and Bloomberg currency reports (Nov 12, 2026); Japan Ministry of Finance via Reuters (Aug 2026); Bankrate (Oct 21 and Nov 7, 2026); FDIC via Fortune (Nov 2026).\n\nNews and education, not financial advice.\n\n#federalreserve #mortgagerates #inflation",
   "tags": [
    "fed rate hike",
    "mortgage rates",
