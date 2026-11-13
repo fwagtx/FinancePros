@@ -1,38 +1,34 @@
 {
   "series": "ticker",
-  "header": "Fake vacation deals:\nthe $274M trap",
+  "header": "Fake vacation deals:\nthe $297M trap",
   "cover": {
     "title": "Fake Trip Deals",
     "prop": "tag",
     "label": "TRIP",
-    "value": "$274M"
+    "value": "$297M"
   },
   "lines": [
     {
       "who": "ticker",
-      "text": "Travel scams cost Americans $274 million in 2024.",
-      "say": "Travel scams cost Americans two hundred seventy-four million dollars in twenty twenty-four.",
+      "text": "Travel and timeshare scams took $297 million in 2025.",
+      "say": "Travel and timeshare scams took two hundred ninety-seven million in twenty twenty-five.",
       "scene": {
         "t": "hook",
         "title": "Travel [Scam] Alert",
         "prop": "tag",
         "label": "TRIP",
-        "value": "$274M",
+        "value": "$297M",
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "FTC reports on travel, vacation and timeshare scams: $122M lost in 2023.",
-      "say": "That's F T C data on travel, vacation and timeshare scams, up from about a hundred twenty-two million in twenty twenty-three.",
+      "text": "That's FTC data: losses nearly tripled from $104M in 2022.",
+      "say": "That's F T C data: losses nearly tripled from a hundred four million in twenty twenty-two.",
       "scene": {
         "t": "chart",
         "title": "Reported losses",
         "points": [
-          [
-            2021,
-            95
-          ],
           [
             2022,
             104
@@ -44,28 +40,28 @@
           [
             2024,
             274
+          ],
+          [
+            2025,
+            297
           ]
         ],
         "prefix": "$",
         "suffix": "M",
-        "end": "$274M",
+        "end": "$297M",
         "color": "down",
         "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "More than double in one year, while reports rose only about 6%.",
-      "say": "More than double in one year, while reports rose only about six percent.",
+      "text": "The big jump was 2024: losses more than doubled while reports rose about 6%.",
+      "say": "The big jump was twenty twenty-four: losses more than doubled while reports rose about six percent.",
       "scene": {
         "t": "chart",
         "keep": true,
         "title": "Reported losses",
         "points": [
-          [
-            2021,
-            95
-          ],
           [
             2022,
             104
@@ -77,23 +73,27 @@
           [
             2024,
             274
+          ],
+          [
+            2025,
+            297
           ]
         ],
         "prefix": "$",
         "suffix": "M",
-        "end": "$274M",
+        "end": "$297M",
         "color": "down",
         "chart_note": {
           "x": 2024,
-          "text": "2x+ in a year"
+          "text": "2x+ in 2024"
         },
         "mood": "shock"
       }
     },
     {
       "who": "ticker",
-      "text": "The BBB says fake agencies dangle a big package discount, take your money upfront, then vanish.",
-      "say": "The B B B says fake agencies dangle a big package discount, take your money upfront, then vanish.",
+      "text": "The BBB says fake agencies dangle huge discounts, take your money upfront, then vanish.",
+      "say": "The B B B says fake agencies dangle huge discounts, take your money upfront, then vanish.",
       "scene": {
         "t": "board",
         "lines": [
@@ -105,30 +105,30 @@
     },
     {
       "who": "ticker",
-      "text": "The median loss in 2024 was $922, nearly double the $497 for all fraud.",
-      "say": "The median loss was about nine hundred twenty-two dollars, nearly double the four hundred ninety-seven for all fraud.",
+      "text": "In 2025 the median loss was $700, about 70% above fraud overall.",
+      "say": "In twenty twenty-five, the median loss was seven hundred dollars, about seventy percent above fraud overall.",
       "scene": {
         "t": "compare",
         "title": "Median loss",
         "left": {
           "label": "Travel scam",
-          "value": "$922",
+          "value": "$700",
           "tone": "down",
-          "sub": "FTC, 2024"
+          "sub": "FTC, 2025"
         },
         "right": {
           "label": "All fraud",
-          "value": "$497",
+          "value": "~$415",
           "tone": "neutral",
-          "sub": "FTC, 2024"
+          "sub": "FTC, 2025"
         },
         "mood": "worried"
       }
     },
     {
       "who": "ticker",
-      "text": "The FTC says wire, gift card or crypto demands are scam signs. Credit cards protect you best.",
-      "say": "The F T C says wire, gift card, or crypto demands are scam signs. Credit cards protect you best.",
+      "text": "The FTC says demands for wire, gift cards or crypto are red flags. Credit cards protect you best.",
+      "say": "The F T C says demands for wire, gift cards, or crypto are red flags. Credit cards protect you best.",
       "scene": {
         "t": "split",
         "title": "How you pay",
@@ -154,8 +154,8 @@
     },
     {
       "who": "ticker",
-      "text": "If the trip never comes, federal law lets you dispute the card charge within 60 days of the statement.",
-      "say": "If the trip never comes, federal law lets you dispute the card charge within sixty days of the statement.",
+      "text": "If the trip never happens, federal law lets you dispute the charge in writing within 60 days of the first bill showing it.",
+      "say": "If the trip never happens, federal law lets you dispute the charge in writing within sixty days of the first bill showing it.",
       "scene": {
         "t": "stat",
         "label": "Dispute window",
@@ -167,8 +167,8 @@
     },
     {
       "who": "ticker",
-      "text": "Before you pay, call the hotel or airline and make sure the booking exists.",
-      "say": "Before you pay, call the hotel or airline and make sure the booking exists.",
+      "text": "Before you pay, call the hotel or airline yourself and confirm the booking.",
+      "say": "Before you pay, call the hotel or airline yourself and confirm the booking.",
       "scene": {
         "t": "board",
         "lines": [
@@ -189,10 +189,10 @@
     }
   ],
   "post": {
-    "title": "Travel scam losses more than doubled in one year",
-    "ig": "Travel scams cost Americans $274 million in 2024, per FTC reports.\nFTC Consumer Sentinel losses for travel, vacation and timeshare scams: $104M in 2022, $122M in 2023, $274M in 2024. Reports rose only about 6% (55,063 to 58,347).\nThe median reported loss in 2024 was $922, nearly double the $497 median for all fraud.\nThe BBB says fake agencies push big package discounts, take payment upfront and vanish. The FTC says demands for wire, gift card or crypto payment are a scam sign; credit cards give the most protection, and the Fair Credit Billing Act lets you dispute an undelivered purchase in writing within 60 days of the statement.\nSources: FTC Consumer Sentinel Data Books 2022-2024, FTC consumer guidance, BBB.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#travelscams #scamalert #personalfinance #vacation #financeprostv",
-    "tiktok": "Travel scams took $274M in 2024 (FTC). Know the red flags. Not financial advice. #moneytok #personalfinance #scamalert #travelscams #financeprostv",
-    "yt_desc": "Americans reported losing $274 million to travel, vacation and timeshare scams in 2024, up from $122 million in 2023, according to the FTC's Consumer Sentinel Data Books. The median loss was $922. The FTC says demands for wire, gift card or crypto payment are a scam sign and credit cards give the most protection; the BBB says to confirm bookings directly with the hotel or airline. News and education, not financial advice. #Shorts #scamalert #travelscams",
+    "title": "Travel scam losses nearly tripled since 2022",
+    "ig": "Americans reported losing $297 million to travel, vacation and timeshare scams in 2025, per FTC Consumer Sentinel data.\nReported losses in that FTC category: $104M in 2022, $122M in 2023, $274M in 2024, $297M in 2025. The big jump was 2024, when losses more than doubled while reports rose only about 6% (55,063 to 58,347). In 2025 there were about 64,300 reports.\nThe median reported loss in 2025 was $700, about 70% more than the roughly $415 median for all fraud.\nThe BBB says fake agencies push big package discounts, take payment upfront and vanish, and recommends confirming bookings directly with the hotel or airline. The FTC says a demand for wire, gift card or crypto payment is a scam sign and credit cards give the most protection; under the Fair Credit Billing Act you can dispute a charge for something not delivered, in writing, within 60 days after the first statement showing it.\nSources: FTC Consumer Sentinel Network data (2022-2025), FTC consumer guidance, BBB.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#travelscams #scamalert #personalfinance #vacation #financeprostv",
+    "tiktok": "Travel and timeshare scams took $297M in 2025 (FTC). Know the red flags. Not financial advice. #personalfinance #scamalert #travelscams #financeprostv",
+    "yt_desc": "Americans reported losing $297 million to travel, vacation and timeshare scams in 2025, up from $104 million in 2022, according to FTC Consumer Sentinel data. Losses more than doubled in 2024 alone. The median loss in 2025 was $700. The FTC says a demand for wire, gift card or crypto payment is a scam sign and credit cards give the most protection; the BBB says to confirm bookings directly with the hotel or airline. News and education, not financial advice. #Shorts #scamalert #travelscams",
     "tags": [
       "travel scams",
       "fake travel agency",

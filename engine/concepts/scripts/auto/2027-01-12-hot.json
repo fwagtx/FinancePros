@@ -1,0 +1,206 @@
+{
+ "id": "2027-01-12-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Fake vacation deals:\nthe $297M trap",
+ "cover": {
+  "title": "Fake Trip Deals",
+  "prop": "tag",
+  "label": "TRIP",
+  "value": "$297M"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Travel and timeshare scams took $297 million in 2025.",
+   "say": "Travel and timeshare scams took two hundred ninety-seven million in twenty twenty-five.",
+   "scene": {
+    "t": "hook",
+    "title": "Travel [Scam] Alert",
+    "prop": "tag",
+    "label": "TRIP",
+    "value": "$297M",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's FTC data: losses nearly tripled from $104M in 2022.",
+   "say": "That's F T C data: losses nearly tripled from a hundred four million in twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "title": "Reported losses",
+    "points": [
+     [
+      2022,
+      104
+     ],
+     [
+      2023,
+      122
+     ],
+     [
+      2024,
+      274
+     ],
+     [
+      2025,
+      297
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$297M",
+    "color": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The big jump was 2024: losses more than doubled while reports rose about 6%.",
+   "say": "The big jump was twenty twenty-four: losses more than doubled while reports rose about six percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Reported losses",
+    "points": [
+     [
+      2022,
+      104
+     ],
+     [
+      2023,
+      122
+     ],
+     [
+      2024,
+      274
+     ],
+     [
+      2025,
+      297
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$297M",
+    "color": "down",
+    "mood": "shock",
+    "note": {
+     "x": 2024,
+     "text": "2x+ in 2024"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The BBB says fake agencies dangle huge discounts, take your money upfront, then vanish.",
+   "say": "The B B B says fake agencies dangle huge discounts, take your money upfront, then vanish.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Huge discount",
+     "Pay now, then poof"
+    ],
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025 the median loss was $700, about 70% above fraud overall.",
+   "say": "In twenty twenty-five, the median loss was seven hundred dollars, about seventy percent above fraud overall.",
+   "scene": {
+    "t": "compare",
+    "title": "Median loss",
+    "left": {
+     "label": "Travel scam",
+     "value": "$700",
+     "tone": "down",
+     "sub": "FTC, 2025"
+    },
+    "right": {
+     "label": "All fraud",
+     "value": "~$415",
+     "tone": "neutral",
+     "sub": "FTC, 2025"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC says demands for wire, gift cards or crypto are red flags. Credit cards protect you best.",
+   "say": "The F T C says demands for wire, gift cards, or crypto are red flags. Credit cards protect you best.",
+   "scene": {
+    "t": "split",
+    "title": "How you pay",
+    "left": {
+     "title": "Red flags",
+     "items": [
+      "Wire transfer",
+      "Gift cards",
+      "Crypto"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Safer",
+     "items": [
+      "Credit card",
+      "Refund terms"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the trip never happens, federal law lets you dispute the charge in writing within 60 days of the first bill showing it.",
+   "say": "If the trip never happens, federal law lets you dispute the charge in writing within sixty days of the first bill showing it.",
+   "scene": {
+    "t": "stat",
+    "label": "Dispute window",
+    "value": "60 days",
+    "tone": "up",
+    "sub": "credit cards only",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before you pay, call the hotel or airline yourself and confirm the booking.",
+   "say": "Before you pay, call the hotel or airline yourself and confirm the booking.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Call the hotel",
+     "Confirm it's real"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Too cheap? Call first."
+   }
+  }
+ ],
+ "post": {
+  "title": "Travel scam losses nearly tripled since 2022",
+  "ig": "Americans reported losing $297 million to travel, vacation and timeshare scams in 2025, per FTC Consumer Sentinel data.\nReported losses in that FTC category: $104M in 2022, $122M in 2023, $274M in 2024, $297M in 2025. The big jump was 2024, when losses more than doubled while reports rose only about 6% (55,063 to 58,347). In 2025 there were about 64,300 reports.\nThe median reported loss in 2025 was $700, about 70% more than the roughly $415 median for all fraud.\nThe BBB says fake agencies push big package discounts, take payment upfront and vanish, and recommends confirming bookings directly with the hotel or airline. The FTC says a demand for wire, gift card or crypto payment is a scam sign and credit cards give the most protection; under the Fair Credit Billing Act you can dispute a charge for something not delivered, in writing, within 60 days after the first statement showing it.\nSources: FTC Consumer Sentinel Network data (2022-2025), FTC consumer guidance, BBB.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#travelscams #scamalert #personalfinance #vacation #financeprostv",
+  "tiktok": "Travel and timeshare scams took $297M in 2025 (FTC). Know the red flags. Not financial advice. #personalfinance #scamalert #travelscams #financeprostv",
+  "yt_desc": "Americans reported losing $297 million to travel, vacation and timeshare scams in 2025, up from $104 million in 2022, according to FTC Consumer Sentinel data. Losses more than doubled in 2024 alone. The median loss in 2025 was $700. The FTC says a demand for wire, gift card or crypto payment is a scam sign and credit cards give the most protection; the BBB says to confirm bookings directly with the hotel or airline. News and education, not financial advice. #Shorts #scamalert #travelscams",
+  "tags": [
+   "travel scams",
+   "fake travel agency",
+   "vacation package scam",
+   "ftc consumer sentinel",
+   "scam alert"
+  ]
+ }
+}
