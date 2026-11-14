@@ -1,0 +1,178 @@
+{
+ "id": "2027-01-13-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Overtime or hustle?\nThe tax face-off",
+ "cover": {
+  "title": "OT vs Hustle",
+  "prop": "coins",
+  "label": "$300",
+  "value": "1.85x"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Side hustle vs overtime: nearly double the Social Security and Medicare tax.",
+   "say": "Side hustle versus overtime: nearly double the Social Security and Medicare tax.",
+   "scene": {
+    "t": "hook",
+    "title": "Overtime vs [Hustle]",
+    "prop": "coins",
+    "label": "$300",
+    "value": "1.85x",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most hourly workers get time-and-a-half after 40 hours a week.",
+   "say": "Most hourly workers get time-and-a-half after forty hours a week.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Overtime = 1.5x",
+     "after 40 hrs/week"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math, your share only, before income tax: on $300 extra, overtime pays $22.95. Side-hustle profit: $42.39.",
+   "say": "Our math, your share only, before income tax: on three hundred extra, overtime pays about twenty-three. Side hustle profit, about forty-two.",
+   "scene": {
+    "t": "compare",
+    "title": "Your SS+Med",
+    "left": {
+     "label": "Overtime",
+     "value": "$22.95",
+     "tone": "up",
+     "sub": "7.65%"
+    },
+    "right": {
+     "label": "Side hustle",
+     "value": "$42.39",
+     "tone": "down",
+     "sub": "15.3% x 92.35%"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? A boss pays half. Solo, you pay all 15.3%, on 92.35% of profit.",
+   "say": "Why? A boss pays half. Solo, you pay all fifteen point three percent, on about ninety-two percent of profit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Boss pays half",
+     "Solo: you pay all"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And no tax on overtime only deducts the half-time premium, up to $12,500, through 2028.",
+   "say": "And no tax on overtime only deducts the half-time premium, up to twelve thousand five hundred, through twenty twenty-eight.",
+   "scene": {
+    "t": "stat",
+    "label": "OT deduction cap",
+    "value": "$12,500",
+    "tone": "neutral",
+    "sub": "2025-2028, federal",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Payroll tax still applies, and the break shrinks above $150,000 for single filers.",
+   "say": "Payroll tax still applies, and the break shrinks above a hundred fifty thousand for single filers.",
+   "scene": {
+    "t": "split",
+    "title": "OT break",
+    "left": {
+     "title": "Deducted",
+     "items": [
+      "Half-time pay",
+      "Fed income tax"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Not touched",
+     "items": [
+      "Payroll tax",
+      "State: varies"
+     ],
+     "tone": "down"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The hustle's edge: you're taxed on profit, after business costs.",
+   "say": "The hustle's edge: you're taxed on profit, after business costs.",
+   "scene": {
+    "t": "list",
+    "title": "Hustle deducts",
+    "items": [
+     "Supplies",
+     "Business miles",
+     "Platform fees"
+    ],
+    "reveal": 3,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No 1099-K? Still taxable. Owe $1,000 or more, and you pay quarterly.",
+   "say": "No ten ninety-nine K? Still taxable. Owe a thousand or more, and you pay quarterly.",
+   "scene": {
+    "t": "stat",
+    "label": "Quarterly if owe",
+    "value": "$1,000+",
+    "tone": "down",
+    "sub": "estimated tax",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So compare what you keep, not what you earn.",
+   "say": "So compare what you keep, not what you earn.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Compare what",
+     "you KEEP"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Count what you keep."
+   }
+  }
+ ],
+ "post": {
+  "title": "Overtime vs side hustle: the tax gap nobody mentions",
+  "ig": "Same $300 extra, different tax: side-hustle profit pays nearly double the Social Security and Medicare tax of overtime (the worker's own share).\nOur math: $300 of overtime pays $22.95 in employee payroll tax (7.65%). $300 of side-hustle profit pays $42.39 in self-employment tax (15.3% on 92.35% of net earnings), because no employer pays half. This compares only the worker's own Social Security/Medicare share, before income tax: the employer also pays a matching 7.65% on overtime, and income-tax effects (half-of-SE-tax deduction, the 20% QBI deduction, the overtime deduction, your bracket) can change the bottom line. Assumes wages below the 2026 Social Security wage base ($184,500).\nThe federal no-tax-on-overtime deduction (2025-2028) covers only the half-time premium, up to $12,500 ($25,000 joint), phases out above $150,000 of modified AGI ($300,000 joint), and does not cut payroll tax; state rules vary.\nA side hustle is taxed on profit after business expenses, and half of SE tax is deductible. A payment app or marketplace sends a 1099-K only above $20,000 and 200 transactions, but the income is taxable either way; if you expect to owe $1,000 or more, estimated taxes are due quarterly (the last 2026 payment is due Jan 15, 2027).\nFor scale: Bankrate's 2025 survey (fielded June 2025, released July 2025) found 27% of US adults had a side hustle, earning an average of $885 a month but a median of just $200.\nSources: US Dept. of Labor, IRS (Topics 554 and 751, Form 1040-ES, 1099-K FAQs, no-tax-on-overtime guidance), Bankrate (July 2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#overtime #sidehustle #taxes #personalfinance #financeprostv",
+  "tiktok": "Side hustle vs overtime: same $300, nearly double the Social Security/Medicare tax. Not financial advice. #moneytok #sidehustle #taxes #financeprostv",
+  "yt_desc": "Our math (worker's own Social Security/Medicare share only, before income tax): $300 of overtime pays $22.95 in employee payroll tax, while $300 of side-hustle profit pays $42.39 in self-employment tax (15.3% on 92.35%). The federal no-tax-on-overtime deduction covers only the half-time premium, up to $12,500 for 2025-2028, and not payroll tax; side hustles are taxed on profit after expenses, and estimated taxes apply if you expect to owe $1,000 or more. Sources: US Dept. of Labor, IRS. News and education, not financial advice. #Shorts #sidehustle #overtime",
+  "tags": [
+   "overtime vs side hustle",
+   "no tax on overtime",
+   "self employment tax",
+   "side hustle taxes",
+   "1099-K"
+  ]
+ }
+}
