@@ -1,0 +1,207 @@
+{
+ "id": "2027-01-13-explainer",
+ "format": "vertical",
+ "series": "acorn",
+ "header": "Acorn Economics\nWhat's an IPO?",
+ "cover": {
+  "title": "What's an IPO?",
+  "prop": "acorns",
+  "label": "2025",
+  "value": "$13.1B"
+ },
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "In 2025, US IPOs left about $13 billion on the table.",
+   "say": "In twenty twenty-five, US IPOs left about thirteen billion on the table.",
+   "scene": {
+    "t": "hook",
+    "title": "Left on the [table]",
+    "prop": "acorns",
+    "label": "2025",
+    "value": "$13.1B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel's private orchard wants cash, so it sells slices to strangers.",
+   "say": "Squirrel's private orchard wants cash, so it sells slices to strangers.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "tree",
+    "caption": "Slices for sale",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "That's an IPO: the orchard's first sale of shares to the public.",
+   "say": "That's an I P O: the orchard's first sale of shares to the public.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "IPO = first sale",
+     "to the public"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Our math: 2 million slices at $20, minus a 7% banker fee, nets $37.2 million.",
+   "say": "Our math: two million slices at twenty dollars, minus a seven percent banker fee, nets thirty-seven point two million.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2M x $20",
+     "value": "$40M"
+    },
+    "to": {
+     "label": "After 7% fee",
+     "value": "$37.2M"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "On day one in 2025, new stocks popped about 29% on average.",
+   "say": "On day one in twenty twenty-five, new stocks popped about twenty-nine percent on average.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg day-one pop",
+    "value": "29.3%",
+    "tone": "up",
+    "sub": "2025, Jay Ritter",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Our math: if slices close at $26, not $20, that's $12 million left on the table for first buyers.",
+   "say": "Our math: if slices close at twenty-six, not twenty, that's twelve million left on the table for first buyers.",
+   "scene": {
+    "t": "compare",
+    "title": "Per slice",
+    "left": {
+     "label": "Orchard got",
+     "value": "$20",
+     "tone": "neutral",
+     "sub": "offer price"
+    },
+    "right": {
+     "label": "Day-1 close",
+     "value": "$26",
+     "tone": "up",
+     "sub": "+30%, our math"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "The window swings: 311 IPOs in 2021, just 38 in 2022.",
+   "say": "The window swings: three hundred eleven IPOs in twenty twenty-one, just thirty-eight in twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "title": "US IPOs (Ritter)",
+    "points": [
+     [
+      2015,
+      118
+     ],
+     [
+      2016,
+      75
+     ],
+     [
+      2017,
+      107
+     ],
+     [
+      2018,
+      134
+     ],
+     [
+      2019,
+      113
+     ],
+     [
+      2020,
+      165
+     ],
+     [
+      2021,
+      311
+     ],
+     [
+      2022,
+      38
+     ],
+     [
+      2023,
+      54
+     ],
+     [
+      2024,
+      73
+     ],
+     [
+      2025,
+      90
+     ]
+    ],
+    "end": "90",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Insiders usually can't sell for about 180 days: the lockup.",
+   "say": "Insiders usually can't sell for about a hundred eighty days: the lockup.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "wait",
+    "caption": "180-day lockup",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "But pops aren't promised: in 2025, about 1 in 4 closed day one below offer.",
+   "say": "But pops aren't promised: in twenty twenty-five, about one in four closed day one below offer.",
+   "scene": {
+    "t": "stat",
+    "label": "Closed below offer",
+    "value": "24.4%",
+    "tone": "down",
+    "sub": "2025 IPOs, Ritter",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained IPOs. Squirrel would like one follow.",
+   "say": "Squirrel explained IPOs. Squirrel would like one follow.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Slices, not luck"
+   }
+  }
+ ],
+ "post": {
+  "title": "What an IPO is, and who gets the day-one pop, with acorns",
+  "ig": "In 2025, US IPOs left about $13.1 billion on the table (Jay Ritter's data): the first-day gain on shares sold at the offer price, which went to the first buyers, not the companies.\nAn IPO is a company's first sale of shares to the public. Bankers typically keep 7% on moderate-size deals; our math: 2M shares at $20 = $40M, $37.2M after the fee.\nIn 2025 new stocks rose 29.3% on day one on average, but 24.4% closed below their offer price. Ritter counts 311 IPOs in 2021, 38 in 2022, 90 in 2025 (operating companies only; excludes SPACs and penny stocks, so broader trackers show more).\nInsiders are usually locked up for about 180 days.\nSources: Jay Ritter, Univ. of Florida IPO Statistics (Nov 2026); Chen & Ritter (2000); Investor.gov.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#ipo #stockmarket #acorneconomics #personalfinance #financeprostv",
+  "tiktok": "In 2025, US IPOs left about $13B on the table. IPOs explained with acorns. Not financial advice. #moneytok #personalfinance #ipo #financeprostv",
+  "yt_desc": "An IPO is a company's first sale of shares to the public. In 2025, the 90 US operating-company IPOs Jay Ritter counts (University of Florida data; excludes SPACs and penny stocks) left about $13.1 billion on the table, the first-day gain that went to buyers at the offer price rather than the companies. They rose 29.3% on day one on average, yet 24.4% closed below their offer price. Underwriters typically keep 7% on moderate-size deals and insiders are usually locked up about 180 days (Investor.gov). News and education, not financial advice. #Shorts #ipo #investing",
+  "tags": [
+   "what is an IPO",
+   "IPO explained",
+   "acorn economics",
+   "IPO first day pop",
+   "how companies go public"
+  ]
+ }
+}

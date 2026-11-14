@@ -34,3 +34,7 @@ Checked Nov 14, 2026 for posting Wed Jan 13, 2027 noon CT. Evergreen; every numb
 Sources: https://site.warrington.ufl.edu/ritter/files/IPO-Statistics.pdf ; https://www.investor.gov/introduction-investing/investing-basics/glossary/initial-public-offerings-lockup-agreements ; https://www.sec.gov/answers/lockup.htm ; https://SEC.gov/news/speech/2018/ipo-data-appendix.pdf ; https://site.warrington.ufl.edu/ritter/files/2016/01/The-Seven-Percent-Solution-2000-06.pdf
 
 VERDICT: PASS
+
+## Round 2 (editor)
+Hook says US IPOs; chart labeled Ritter count. check.py OK.
+VERDICT: PASS
