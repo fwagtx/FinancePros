@@ -1,0 +1,1512 @@
+{
+ "id": "2027-01-13-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "Student loans:\nevery way out",
+ "cover": {
+  "title": "1 in 10 Is Late.",
+  "prop": "paper",
+  "label": "LOANS",
+  "value": "10.9%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Over 1 in 10 student loan dollars is seriously past due.",
+   "say": "Over one in ten student loan dollars is seriously past due.",
+   "scene": {
+    "t": "hook",
+    "title": "Seriously Past [Due]",
+    "prop": "paper",
+    "label": "LOANS",
+    "value": "10.9%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "NY Fed: in Q3 2026, 10.9% of student loan balances were 90+ days late or in default.",
+   "say": "That's from the New York Fed. In the third quarter of twenty twenty-six, ten point nine percent of balances were at least ninety days late, or in default.",
+   "scene": {
+    "t": "stat",
+    "label": "90+ days late",
+    "value": "10.9%",
+    "tone": "down",
+    "sub": "NY Fed, Q3 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Total student debt: about $1.50 trillion in 2019 to about $1.66 trillion in 2026 (Q3).",
+   "say": "And the pile keeps growing. Total student debt went from about one point five trillion dollars in twenty nineteen to about one point six six trillion in twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Student debt, Q3",
+    "points": [
+     [
+      2019,
+      1.5
+     ],
+     [
+      2020,
+      1.55
+     ],
+     [
+      2021,
+      1.58
+     ],
+     [
+      2022,
+      1.57
+     ],
+     [
+      2023,
+      1.6
+     ],
+     [
+      2024,
+      1.61
+     ],
+     [
+      2025,
+      1.65
+     ],
+     [
+      2026,
+      1.66
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$1.66T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Q3 2026 reading: $1.656 trillion.",
+   "say": "The latest reading, from the third quarter of twenty twenty-six, was one point six five six trillion dollars.",
+   "scene": {
+    "t": "chart",
+    "title": "Student debt, Q3",
+    "points": [
+     [
+      2019,
+      1.5
+     ],
+     [
+      2020,
+      1.55
+     ],
+     [
+      2021,
+      1.58
+     ],
+     [
+      2022,
+      1.57
+     ],
+     [
+      2023,
+      1.6
+     ],
+     [
+      2024,
+      1.61
+     ],
+     [
+      2025,
+      1.65
+     ],
+     [
+      2026,
+      1.66
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$1.66T",
+    "color": "up",
+    "keep": true,
+    "mood": "worried",
+    "note": {
+     "x": 2026,
+     "text": "$1.656T"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, a 2025 law rewrote federal repayment, and much of it kicked in July 1, 2026.",
+   "say": "Meanwhile, a twenty twenty-five law rewrote federal repayment, and much of it kicked in on July first, twenty twenty-six.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "New rules",
+     "since July 2026"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The law was signed in July 2025. A new plan, RAP, opened in July 2026.",
+   "say": "The law was signed in July twenty twenty-five, and a new plan called RAP opened in July twenty twenty-six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2025",
+      "Law signed"
+     ],
+     [
+      "2026",
+      "RAP launches"
+     ],
+     [
+      "2027",
+      "2nd rehab option"
+     ],
+     [
+      "2028",
+      "PAYE, ICR end"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "More changes roll in through 2028, so some advice online is already out of date.",
+   "say": "More changes roll in through twenty twenty-eight, so some online advice is already out of date.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2025",
+      "Law signed"
+     ],
+     [
+      "2026",
+      "RAP launches"
+     ],
+     [
+      "2027",
+      "2nd rehab option"
+     ],
+     [
+      "2028",
+      "PAYE, ICR end"
+     ]
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The road map: know your loans, pick a plan, check forgiveness, pay it down faster.",
+   "say": "So here's the road map: know your loans, pick a plan, check forgiveness, and pay it down faster.",
+   "scene": {
+    "t": "list",
+    "title": "The road map",
+    "items": [
+     "Your loans",
+     "Your plan",
+     "Forgiveness",
+     "Pay it down"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the traps: refinancing, default, and scammers who charge for free help. Plus a checklist.",
+   "say": "Then the traps: refinancing, default, and the scammers who charge for free help. Plus a checklist at the end.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Then: refinance,",
+     "default, scams"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is education, not advice, and every number comes with its date.",
+   "say": "Quick note: this is education, not advice, and every number comes with its date.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education,",
+     "not advice"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Know what you owe.",
+   "say": "Chapter one: know what you owe.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Know what you owe"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one: student loans come in two kinds, federal and private.",
+   "say": "Step one: student loans come in two kinds, federal and private.",
+   "scene": {
+    "t": "split",
+    "title": "Two kinds",
+    "left": {
+     "title": "Federal",
+     "items": [
+      "Ed. Dept.",
+      "Income plans",
+      "Forgiveness",
+      "Pauses"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Private",
+     "items": [
+      "Bank, lender",
+      "Their contract",
+      "No PSLF",
+      "No fed plans"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal loans come from the Education Department, with safety nets: income-based plans, forgiveness, and pauses when life goes sideways.",
+   "say": "Federal loans come from the Education Department, with safety nets: income-based plans, forgiveness, and pauses when life goes sideways.",
+   "scene": {
+    "t": "split",
+    "keep": true,
+    "title": "Two kinds",
+    "left": {
+     "title": "Federal",
+     "items": [
+      "Ed. Dept.",
+      "Income plans",
+      "Forgiveness",
+      "Pauses"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Private",
+     "items": [
+      "Bank, lender",
+      "Their contract",
+      "No PSLF",
+      "No fed plans"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Private loans come from banks, credit unions and online lenders. You get the contract's terms, and none of the federal programs.",
+   "say": "Private loans come from banks, credit unions, and online lenders. You get the contract's terms, and none of the federal programs.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Private = the",
+     "lender's rules"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most student debt is federal: about $1.7 trillion, held by about 42 million people (2026).",
+   "say": "Most student debt is federal. The Education Department reported about one point seven trillion dollars in federal loans in twenty twenty-six, held by about forty-two million people.",
+   "scene": {
+    "t": "stat",
+    "label": "Federal loans",
+    "value": "$1.7T",
+    "tone": "neutral",
+    "sub": "FSA, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To see your federal loans, log in at studentaid.gov: every loan, balance, rate and servicer.",
+   "say": "Log in at studentaid dot gov to see every federal loan, its balance, rate, and servicer.",
+   "scene": {
+    "t": "list",
+    "title": "Find them",
+    "items": [
+     "StudentAid.gov",
+     "Credit report",
+     "Your servicer"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For private loans, your free credit report shows those too.",
+   "say": "For private loans, your free credit report shows those too.",
+   "scene": {
+    "t": "list",
+    "title": "Find them",
+    "items": [
+     "StudentAid.gov",
+     "Credit report",
+     "Your servicer"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For every loan, write down: balance, rate, federal or private, and servicer.",
+   "say": "Write down four things for every loan: the balance, the interest rate, federal or private, and the servicer.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Balance, rate,",
+     "type, servicer"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "New federal undergrad loans for 2026-27 carry a fixed 6.52% rate.",
+   "say": "New federal undergraduate loans for the twenty twenty-six to twenty-seven school year carry a fixed rate of six point five two percent.",
+   "scene": {
+    "t": "stat",
+    "label": "New undergrad rate",
+    "value": "6.52%",
+    "tone": "neutral",
+    "sub": "2026-27, fixed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Pick a repayment plan.",
+   "say": "Chapter two: pick a repayment plan.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Pick a repayment plan"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With federal loans, your bill depends on your plan. Since July 2026, the menu is different.",
+   "say": "With federal loans, your monthly bill depends on your plan, and since July twenty twenty-six, the menu looks different.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Federal loans:",
+     "you pick a plan"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "New loans made on or after July 1, 2026 get two choices: Tiered Standard, or RAP.",
+   "say": "If you take out a new loan on or after July first, twenty twenty-six, you get two choices: the Tiered Standard plan, or RAP.",
+   "scene": {
+    "t": "split",
+    "title": "New loans",
+    "left": {
+     "title": "Tiered Std",
+     "items": [
+      "Fixed payment",
+      "10 to 25 yrs"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "RAP",
+     "items": [
+      "% of income",
+      "Up to 30 yrs"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tiered Standard is fixed. Under $25,000: 10 years. Up to $50,000: 15 years.",
+   "say": "Tiered Standard is a fixed payment, and the term depends on your balance. Under twenty-five thousand dollars, it's ten years. Up to fifty thousand, fifteen years.",
+   "scene": {
+    "t": "list",
+    "title": "Years to repay",
+    "items": [
+     "Under $25K: 10",
+     "$25K-50K: 15",
+     "$50K-100K: 20",
+     "Over $100K: 25"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Up to $100,000: 20 years. Above that: 25. Longer term, smaller bill, more interest overall.",
+   "say": "Up to a hundred thousand, twenty years, and above that, twenty-five. Bigger balance, longer runway, smaller monthly bill, more interest overall.",
+   "scene": {
+    "t": "list",
+    "title": "Years to repay",
+    "items": [
+     "Under $25K: 10",
+     "$25K-50K: 15",
+     "$50K-100K: 20",
+     "Over $100K: 25"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other option is RAP, the Repayment Assistance Plan: a slice of your adjusted gross income.",
+   "say": "The other option is RAP, the Repayment Assistance Plan. Your payment is a slice of your adjusted gross income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "RAP: Repayment",
+     "Assistance Plan"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It runs from 1% to 10%, up 1 point per $10,000 of income, up to 10% above $100,000.",
+   "say": "It runs from one to ten percent, rising one point per ten thousand dollars of income, up to ten percent above a hundred thousand.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1% to 10%",
+     "of your AGI"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: an adjusted gross income of $45,000 is in the 4% bracket.",
+   "say": "Let's do an example. Say your adjusted gross income is forty-five thousand dollars. That lands in the four percent bracket.",
+   "scene": {
+    "t": "stat",
+    "label": "Example AGI",
+    "value": "$45,000",
+    "tone": "neutral",
+    "sub": "Our math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "4% of $45,000 = $1,800 a year. Divided by 12: $150 a month.",
+   "say": "Four percent of forty-five thousand is eighteen hundred dollars a year, or a hundred fifty dollars a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "4% of $45,000",
+     "value": "$1,800"
+    },
+    "to": {
+     "label": "Per month",
+     "value": "$150"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "RAP takes $50 a month off per dependent. With one child: $100 a month.",
+   "say": "RAP takes fifty dollars a month off for each dependent. With one child, that's a hundred dollars a month.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per month",
+     "value": "$150"
+    },
+    "to": {
+     "label": "With 1 child",
+     "value": "$100"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Surprise: the lowest RAP payment is $10 a month. Some older plans allowed $0.",
+   "say": "Here's a surprise: the lowest RAP payment is ten dollars a month. Some older plans allowed zero.",
+   "scene": {
+    "t": "stat",
+    "label": "Lowest RAP payment",
+    "value": "$10",
+    "tone": "down",
+    "sub": "No $0 payments",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Pay on time, and interest your payment doesn't cover is waived. The balance doesn't snowball.",
+   "say": "The upside: if you pay on time and your payment doesn't cover the interest, the unpaid part is waived. Your balance doesn't snowball.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Unpaid interest:",
+     "waived"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If your payment cuts principal by less than $50, the government matches the gap, up to $50 a month.",
+   "say": "And if your payment cuts principal by less than fifty dollars, the government adds the difference, up to fifty.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Principal drops",
+     "at least $50"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What's left after 360 qualifying payments, 30 years, is forgiven.",
+   "say": "Whatever's left after three hundred sixty qualifying payments, that's thirty years, is forgiven.",
+   "scene": {
+    "t": "stat",
+    "label": "RAP forgiveness",
+    "value": "30 yrs",
+    "tone": "neutral",
+    "sub": "360 payments"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Borrowed before July 2026? You also have income-based repayment (IBR) and the old standard plans.",
+   "say": "Borrowed before July twenty twenty-six? You also have income-based repayment, or I B R, and the older standard plans.",
+   "scene": {
+    "t": "list",
+    "title": "Older loans",
+    "items": [
+     "RAP",
+     "IBR",
+     "Old standard"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "PAYE and ICR are closing. Borrowers must move to IBR or RAP by July 1, 2028.",
+   "say": "Two older plans, PAYE and ICR, are closing. Borrowers in them must move to IBR or RAP by July first, twenty twenty-eight.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "PAYE, ICR close",
+     "by July 1, 2028"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "SAVE is ending. In Dec 2025, the Education Department announced a settlement with Missouri to end it.",
+   "say": "And the SAVE plan is ending. In December twenty twenty-five, the Education Department announced a settlement with Missouri to shut it down.",
+   "scene": {
+    "t": "news",
+    "headline": "SAVE plan ending",
+    "source": "NPR, Dec 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About 7 million SAVE borrowers sat in forbearance, with interest building since Aug 2025.",
+   "say": "About seven million borrowers sat in SAVE forbearance, with interest building since August twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "SAVE borrowers",
+    "value": "~7M",
+    "tone": "down",
+    "sub": "In forbearance"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "From July 2026, servicers sent notices with 90 days to pick a plan. Check yours for your date.",
+   "say": "Starting in July twenty twenty-six, servicers gave SAVE borrowers ninety days to pick a new plan, so check your notice for your exact date.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Check your",
+     "servicer notice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No choice? You get placed in a standard plan, usually the highest monthly payment.",
+   "say": "If you don't choose, you get placed in a standard plan, which usually has the highest monthly payment.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No choice =",
+     "standard plan"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Parent PLUS loans aren't eligible for RAP. Check studentaid.gov for their options.",
+   "say": "Parent PLUS loans aren't eligible for RAP, so check studentaid dot gov for their options.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Parent PLUS:",
+     "not RAP-eligible"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most new Parent PLUS borrowing is capped at $20,000 a year and $65,000 total per student, from July 2026.",
+   "say": "And most new Parent PLUS borrowing is capped at twenty thousand dollars a year and sixty-five thousand total, per student, starting July twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "PLUS caps",
+    "left": {
+     "label": "Per year",
+     "value": "$20K",
+     "tone": "neutral",
+     "sub": "per student"
+    },
+    "right": {
+     "label": "Lifetime",
+     "value": "$65K",
+     "tone": "neutral",
+     "sub": "per student"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Forgiveness and taxes.",
+   "say": "Chapter three: forgiveness and taxes.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Forgiveness and taxes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The big one: Public Service Loan Forgiveness, or PSLF.",
+   "say": "The big one is Public Service Loan Forgiveness, or P S L F.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "PSLF:",
+     "public service"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Make 120 qualifying monthly payments: 10 years, not necessarily in a row.",
+   "say": "The rules: make a hundred twenty qualifying monthly payments. That's ten years, and they don't have to be in a row.",
+   "scene": {
+    "t": "list",
+    "title": "PSLF rules",
+    "items": [
+     "120 payments",
+     "Full-time job",
+     "Gov/nonprofit",
+     "Direct Loans"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "While working full time, 30+ hours a week, for a government employer or a 501(c)(3) nonprofit.",
+   "say": "While working full time, at least thirty hours a week, for a government employer or a five oh one c three nonprofit.",
+   "scene": {
+    "t": "list",
+    "title": "PSLF rules",
+    "items": [
+     "120 payments",
+     "Full-time job",
+     "Gov/nonprofit",
+     "Direct Loans"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Loans must be federal Direct Loans on a qualifying plan. RAP, IBR and the 10-year standard count.",
+   "say": "The loans must be federal Direct Loans, on a qualifying plan. RAP, I B R, and the ten-year standard plan all count.",
+   "scene": {
+    "t": "list",
+    "title": "PSLF rules",
+    "items": [
+     "120 payments",
+     "Full-time job",
+     "Gov/nonprofit",
+     "Direct Loans"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Through April 2026, about 1.25 million borrowers had about $93.4 billion forgiven.",
+   "say": "Through April twenty twenty-six, about one point two five million borrowers had about ninety-three billion dollars forgiven.",
+   "scene": {
+    "t": "stat",
+    "label": "PSLF forgiven",
+    "value": "$93.4B",
+    "tone": "up",
+    "sub": "CRS, thru Apr 2026",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 2025 rule would have let the department disqualify some employers. Courts struck it down in June 2026.",
+   "say": "A twenty twenty-five rule would have let the department disqualify some employers, but courts struck it down in June twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "PSLF rule vacated",
+    "source": "Federal courts, June 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Oct 2026, the department dropped 2 of its 3 appeals. Check your employer with the PSLF tool at studentaid.gov.",
+   "say": "In October twenty twenty-six, the department dropped two of its three appeals, so the old employer rules still applied that fall. Check yours with the P S L F tool at studentaid dot gov.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "As of fall 2026:",
+     "rules unchanged"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "PSLF forgiveness is federal tax-free. Income-driven plan forgiveness became taxable again in 2026.",
+   "say": "Now taxes. PSLF forgiveness is free of federal tax. But forgiveness at the end of an income-driven plan became taxable again in twenty twenty-six.",
+   "scene": {
+    "t": "split",
+    "title": "Tax bill?",
+    "left": {
+     "title": "PSLF",
+     "items": [
+      "Tax-free",
+      "federally"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "IDR",
+     "items": [
+      "Taxable",
+      "from 2026"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a 20- to 30-year path, forgiveness may come with a tax bill. Worth knowing early.",
+   "say": "So if you're on a twenty to thirty year path, forgiveness may come with a tax bill. Worth knowing early.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Long IDR path?",
+     "Plan for taxes"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Pay it down faster, or refinance?",
+   "say": "Chapter four: pay it down faster, or refinance?",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Pay faster or refinance?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Student loans have no prepayment penalty, federal or private.",
+   "say": "Not everyone wants to wait for forgiveness. Good news: student loans have no prepayment penalty, federal or private.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No prepayment",
+     "penalty"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When you pay extra, tell your servicer which loan gets it.",
+   "say": "One tip: when you pay extra, tell your servicer which loan gets it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Tell servicer",
+     "which loan"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three loans: $4,000 federal at 5.5%, $9,000 federal at 6.53%, $7,000 private at 11%.",
+   "say": "Let's run real numbers. Three loans: four thousand dollars federal at five point five percent, nine thousand federal at six point five three, and seven thousand private at eleven percent.",
+   "scene": {
+    "t": "list",
+    "title": "Our example",
+    "items": [
+     "$4K at 5.5%",
+     "$9K at 6.53%",
+     "$7K at 11%"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "10-year minimums: about $242. Add $200 extra: about $442 a month.",
+   "say": "Ten-year minimums add up to about two hundred forty-two dollars. Add two hundred extra, and it's about four hundred forty-two a month.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly budget",
+    "value": "$442",
+    "tone": "neutral",
+    "sub": "$242 min + $200"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Minimums only: about $9,060 in interest over 10 years. Our math.",
+   "say": "Paying only the minimums, you'd pay about nine thousand sixty dollars in interest over ten years. That's our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Minimums only",
+    "value": "$9,060",
+    "tone": "down",
+    "sub": "Interest, 10 yrs",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Where does the extra $200 go? Avalanche: highest rate first. Snowball: smallest balance first.",
+   "say": "So where does the extra two hundred go? Avalanche means highest rate first. Snowball means smallest balance first.",
+   "scene": {
+    "t": "split",
+    "title": "Two methods",
+    "left": {
+     "title": "Avalanche",
+     "items": [
+      "Highest rate",
+      "first"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Snowball",
+     "items": [
+      "Smallest",
+      "balance first"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Avalanche: the 11% private loan goes first. Interest: about $3,327. Debt-free in 53 months.",
+   "say": "With the avalanche, the eleven percent private loan goes first. Total interest is about three thousand three hundred twenty-seven dollars, and you're debt-free in fifty-three months.",
+   "scene": {
+    "t": "compare",
+    "title": "Interest",
+    "left": {
+     "label": "Avalanche",
+     "value": "$3,327",
+     "tone": "up",
+     "sub": "53 months"
+    },
+    "right": {
+     "label": "Snowball",
+     "value": "$3,840",
+     "tone": "down",
+     "sub": "54 months"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Snowball: the $4,000 loan goes first. Interest: about $3,840. Done in 54 months.",
+   "say": "With the snowball, the four thousand dollar loan goes first. Total interest is about three thousand eight hundred forty, and you're done in fifty-four months.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "left",
+    "title": "Interest",
+    "left": {
+     "label": "Avalanche",
+     "value": "$3,327",
+     "tone": "up",
+     "sub": "53 months"
+    },
+    "right": {
+     "label": "Snowball",
+     "value": "$3,840",
+     "tone": "down",
+     "sub": "54 months"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The avalanche saves about $512 and one month of payments. Our math.",
+   "say": "So the avalanche saves about five hundred twelve dollars and a month of payments, in our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Avalanche saves",
+    "value": "$512",
+    "tone": "up",
+    "sub": "Our math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the snowball clears its first loan in month 18, versus month 27.",
+   "say": "But the snowball clears its first loan in month eighteen, versus month twenty-seven. That quick win keeps some people going.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Snowball: 1st win",
+     "9 months sooner"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The math favors the avalanche. The best plan is the one you'll stick with.",
+   "say": "Which is better? The math favors the avalanche, but the best plan is the one you'll stick with.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Best method:",
+     "the one you keep"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Either way, interest drops from about $9,060 to under $4,000.",
+   "say": "Either way, interest drops from about nine thousand dollars to under four thousand.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Minimums only",
+     "value": "$9,060"
+    },
+    "to": {
+     "label": "With +$200",
+     "value": "< $4,000"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Consolidating and refinancing get mixed up, and the difference is huge.",
+   "say": "People mix up consolidating and refinancing, and the difference is huge.",
+   "scene": {
+    "t": "split",
+    "title": "Different",
+    "left": {
+     "title": "Consolidate",
+     "items": [
+      "Federal, free",
+      "Rate averaged",
+      "One payment"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Refinance",
+     "items": [
+      "Private lender",
+      "Maybe lower %",
+      "Lose fed perks"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Consolidation is a free federal program at studentaid.gov that rolls federal loans into one.",
+   "say": "Consolidation is a federal program. It's free at studentaid dot gov, and it rolls your federal loans into one.",
+   "scene": {
+    "t": "split",
+    "keep": true,
+    "title": "Different",
+    "left": {
+     "title": "Consolidate",
+     "items": [
+      "Federal, free",
+      "Rate averaged",
+      "One payment"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Refinance",
+     "items": [
+      "Private lender",
+      "Maybe lower %",
+      "Lose fed perks"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It doesn't lower your rate: it's the weighted average, rounded up to the nearest 1/8 of a percent.",
+   "say": "But it doesn't lower your rate. The new rate is the weighted average of the old ones, rounded up to the nearest eighth of a percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rate = weighted",
+     "avg, rounded up"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our two federal loans average 6.213%. Rounded up, the new rate is 6.25%.",
+   "say": "Take our two federal loans. The weighted average is six point two one three percent. Rounded up, the new rate is six point two five.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Weighted avg",
+     "value": "6.213%"
+    },
+    "to": {
+     "label": "New rate",
+     "value": "6.25%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Consolidate on or after July 1, 2026, and your plans narrow to RAP or Tiered Standard.",
+   "say": "And here's a catch: consolidate on or after July first, twenty twenty-six, and your plan choices narrow to RAP or Tiered Standard.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "After 7/1/2026:",
+     "RAP or Tiered"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Refinancing: a private lender pays off your loans with a new private loan, maybe at a lower rate.",
+   "say": "Refinancing is different: a private lender pays off your loans with a new private loan, maybe at a lower rate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Refinance =",
+     "new private loan"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Refinancing federal loans is a one-way door. You can't turn them back into federal loans.",
+   "say": "If you refinance federal loans, it's a one-way door. You can't turn them back into federal loans.",
+   "scene": {
+    "t": "hook",
+    "title": "One-Way [Door]",
+    "prop": "box",
+    "label": "FED",
+    "value": "No undo",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You'd lose RAP and IBR, PSLF, federal hardship pauses, and federal death and disability discharge.",
+   "say": "You'd give up RAP and I B R, P S L F, federal hardship pauses, and federal discharge for death or disability.",
+   "scene": {
+    "t": "list",
+    "title": "You'd lose",
+    "items": [
+     "RAP and IBR",
+     "PSLF",
+     "Fed pauses",
+     "Fed discharge"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Loans already private have no federal perks to lose, so rate and terms are the main trade-off.",
+   "say": "For loans already private, there are no federal perks to lose, so rate and terms are the main trade-off.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Private loans?",
+     "Compare terms"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: Default and scams.",
+   "say": "Chapter five: default and scams.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "Default and scams"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A federal loan defaults after 270 days of missed payments.",
+   "say": "A federal loan goes into default after two hundred seventy days of missed payments.",
+   "scene": {
+    "t": "stat",
+    "label": "Default after",
+    "value": "270 days",
+    "tone": "down",
+    "sub": "Missed payments",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Default: the whole balance can come due, and it lands on your credit report.",
+   "say": "Default means the whole balance can come due at once, and the default lands on your credit report.",
+   "scene": {
+    "t": "list",
+    "title": "Default can mean",
+    "items": [
+     "Whole bill due",
+     "Credit damage",
+     "Refund seized",
+     "Garnished pay"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The government can also take tax refunds and garnish up to 15% of disposable pay, after 30+ days' notice.",
+   "say": "The government can also take your tax refund and garnish up to fifteen percent of your disposable pay, after at least thirty days' notice.",
+   "scene": {
+    "t": "list",
+    "title": "Default can mean",
+    "items": [
+     "Whole bill due",
+     "Credit damage",
+     "Refund seized",
+     "Garnished pay"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Jan 2026, the Education Department paused wage garnishment and tax refund seizures. No restart date as of Nov 2026.",
+   "say": "In January twenty twenty-six, the Education Department paused wage garnishment and tax refund seizures. As of November twenty twenty-six, no restart date had been announced.",
+   "scene": {
+    "t": "news",
+    "headline": "Collections paused",
+    "source": "Ed. Dept., Jan 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Paused isn't forgiven. Defaults still hit credit reports, and collections can restart. Check studentaid.gov.",
+   "say": "But paused isn't forgiven. Defaults still hit credit reports, and collections can restart, so check the current status at studentaid dot gov.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paused isn't",
+     "forgiven"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The main way out: rehabilitation. 9 on-time payments within 10 months, set by your income.",
+   "say": "The main way out is rehabilitation: nine on-time payments within ten months, with the amount based on your income.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rehab: 9 payments",
+     "in 10 months"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Finish it, and the default record comes off your credit report. Earlier late payments stay.",
+   "say": "Finish it, and the default record comes off your credit report, though the earlier late payments stay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rehab removes the",
+     "default record"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Right now you get one rehabilitation. Starting July 2027, the law allows two.",
+   "say": "Right now you get one rehabilitation. Starting in July twenty twenty-seven, the law allows two.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rehab: once now,",
+     "twice from 7/2027"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other route: consolidating out of default. Faster, but the default stays in your credit history.",
+   "say": "The other route is consolidating out of default. It's faster, but the default stays in your credit history.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Or: consolidate",
+     "out of default"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last trap: scams. What debt relief companies sell for federal loans is free at studentaid.gov or your servicer.",
+   "say": "Last trap: scams. Everything a debt relief company sells for federal loans is free at studentaid dot gov, or from your servicer.",
+   "scene": {
+    "t": "hook",
+    "title": "It's [Free]",
+    "prop": "tag",
+    "label": "FREE",
+    "value": "$0"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Red flags: upfront fees, which the FTC says are illegal before a company helps you, and instant forgiveness promises.",
+   "say": "Red flags: upfront fees, which the F T C says are illegal before a company helps you, and promises of instant forgiveness.",
+   "scene": {
+    "t": "list",
+    "title": "Red flags",
+    "items": [
+     "Upfront fees",
+     "Instant relief",
+     "FSA ID request",
+     "Fake gov ties"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Asking for your FSA ID, or claiming ties to the Education Department. Report them at ReportFraud.ftc.gov.",
+   "say": "Others ask for your F S A I D login, or claim ties to the Education Department. Report them at report fraud dot F T C dot gov.",
+   "scene": {
+    "t": "list",
+    "title": "Red flags",
+    "items": [
+     "Upfront fees",
+     "Instant relief",
+     "FSA ID request",
+     "Fake gov ties"
+    ],
+    "reveal": 4,
+    "keep": true,
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The checklist.",
+   "say": "Chapter six: the checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "List every loan with its rate, and mark it federal or private.",
+   "say": "Here's the one-screen checklist. List every loan with its rate, and mark it federal or private.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist, part 1",
+    "items": [
+     "List all loans",
+     "Fed/private?",
+     "Check plan",
+     "Run RAP math"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Check which plan you're in, especially after SAVE, and run the RAP math on your income.",
+   "say": "Check which plan you're in, especially if you were on SAVE, and run the RAP math on your own income.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist, part 1",
+    "items": [
+     "List all loans",
+     "Fed/private?",
+     "Check plan",
+     "Run RAP math"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In public service? Confirm your employer and track your 120 payments. Then aim extra money at one loan at a time.",
+   "say": "In public service? Confirm your employer and track your hundred twenty payments. Then aim extra money at one loan at a time.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist, part 2",
+    "items": [
+     "PSLF employer?",
+     "Extra to top %",
+     "Refi: one-way",
+     "Never pay fees"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Treat refinancing federal loans as permanent, and never pay for help that's free.",
+   "say": "Treat refinancing federal loans as permanent, and never pay anyone for help that's free.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist, part 2",
+    "items": [
+     "PSLF employer?",
+     "Extra to top %",
+     "Refi: one-way",
+     "Never pay fees"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Key numbers: RAP takes 1% to 10% of income. PSLF takes 120 payments.",
+   "say": "Two key numbers: RAP takes one to ten percent of your income, and P S L F takes a hundred twenty payments.",
+   "scene": {
+    "t": "compare",
+    "title": "Key numbers",
+    "left": {
+     "label": "RAP",
+     "value": "1-10%",
+     "tone": "neutral",
+     "sub": "of AGI"
+    },
+    "right": {
+     "label": "PSLF",
+     "value": "120",
+     "tone": "up",
+     "sub": "payments"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Falling behind? Act before day 270. Every option is easier before default.",
+   "say": "And if you're falling behind, act before day two hundred seventy. Every option is easier before default than after.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Behind? Act",
+     "before day 270"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 1 in 10 student loan dollars is seriously late. Knowing the rules keeps you out of that number.",
+   "say": "Over one in ten student loan dollars is seriously late. Knowing the rules is how you stay out of that number.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Know the rules.",
+     "Pick your exit."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this helped, subscribe for more step-by-step money guides. Education, not advice.",
+   "say": "If this helped, subscribe for more step-by-step money guides. Education, not advice.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Education, not advice."
+   }
+  }
+ ],
+ "post": {
+  "title": "Over 1 in 10 student loan dollars is seriously late. Every way out under the 2026 rules",
+  "ig": "Over 1 in 10 student loan dollars was 90+ days late or in default in Q3 2026 (NY Fed). Every way out, under the new rules.",
+  "tiktok": "10.9% of student loan balances were 90+ days late in Q3 2026 (NY Fed). The ways out, step by step. Not financial advice.",
+  "yt_desc": "In the third quarter of 2026, 10.9% of US student loan balances were 90+ days delinquent or in default, and total student debt reached $1.656 trillion (New York Fed, Nov 2026). Federal repayment rules changed under the July 2025 budget law: the Repayment Assistance Plan (RAP) launched July 1, 2026, the SAVE plan is ending, PAYE and ICR close by July 1, 2028, and new Parent PLUS limits apply. This guide covers federal vs private loans, the Tiered Standard plan and RAP with worked math, PSLF (120 payments, tax-free) and the June 2026 court rulings on employer rules, avalanche vs snowball on a $20,000 example (our math), consolidation vs refinancing, getting out of default, and how to spot scams.\n\nCHAPTERS\n\nSources: Federal Reserve Bank of New York, Household Debt and Credit reports (Q3 2019-Q3 2026; Nov 10, 2026); Federal Student Aid Data Center (2026); FSA 2026-27 interest rate announcement (June 2026); U.S. Department of Education RAP fact sheet and Jan 16, 2026 collections announcement; NPR (Dec 2025, June 2026); Congressional Research Service on PSLF (Aug 2026); NASFAA (2026); FTC consumer guidance on student loan scams.\n\nNews and education, not financial advice.\n\n#studentloans #personalfinance #debtfree",
+  "tags": [
+   "student loans",
+   "how to pay off student loans",
+   "repayment assistance plan",
+   "RAP student loans",
+   "PSLF",
+   "SAVE plan ending",
+   "student loan default",
+   "avalanche vs snowball"
+  ]
+ }
+}
