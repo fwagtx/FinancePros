@@ -1,0 +1,181 @@
+{
+  "series": "ticker",
+  "header": "Gas Fell Below $4\nOil Supply > Demand",
+  "cover": {
+    "title": "Gas Under $4",
+    "prop": "car",
+    "label": "GAS",
+    "value": "$3.90"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Gas just fell below $4. Oil supply finally tops demand.",
+      "say": "Gas just fell below four dollars. Oil supply finally tops demand.",
+      "scene": {
+        "t": "hook",
+        "title": "Gas Under [$4]",
+        "prop": "car",
+        "label": "GAS",
+        "value": "$3.90",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "AAA says the national average hit $3.90 Thursday, after slipping under $4 Tuesday for the first time since July.",
+      "say": "AAA says the national average hit about three ninety Thursday, after slipping under four dollars Tuesday for the first time since July.",
+      "scene": {
+        "t": "news",
+        "headline": "Gas dips below $4",
+        "source": "AAA, Nov 12, 2026",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Friday, the International Energy Agency said the world now pumps more oil than it uses, a first since the Iran war began.",
+      "say": "Friday, the International Energy Agency said the world now pumps more oil than it uses, a first since the Iran war began.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Supply > demand",
+          "1st since the war"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "October stockpiles grew 52 million barrels, the first build since June.",
+      "say": "October stockpiles grew fifty-two million barrels, the first build since June.",
+      "scene": {
+        "t": "stat",
+        "label": "World oil stocks",
+        "value": "+52M bbl",
+        "tone": "up",
+        "sub": "IEA: 1st since Jun",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Why? Gulf oil exports are coming back.",
+      "say": "Why? Gulf oil exports are coming back.",
+      "scene": {
+        "t": "list",
+        "title": "Why gas fell",
+        "items": [
+          "Gulf oil back",
+          "Winter blend",
+          "Less driving"
+        ],
+        "reveal": 1,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "AAA adds cheaper winter-blend gas and less fall driving.",
+      "say": "AAA adds cheaper winter-blend gas and less fall driving.",
+      "scene": {
+        "t": "list",
+        "keep": true,
+        "title": "Why gas fell",
+        "items": [
+          "Gulf oil back",
+          "Winter blend",
+          "Less driving"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's 46 cents less than a month ago.",
+      "say": "That's forty-six cents less than a month ago.",
+      "scene": {
+        "t": "compare",
+        "title": "Gas/gallon",
+        "left": {
+          "label": "Month ago",
+          "value": "$4.36",
+          "tone": "down",
+          "sub": "AAA"
+        },
+        "right": {
+          "label": "Thursday",
+          "value": "$3.90",
+          "tone": "up",
+          "sub": "AAA, Nov 12"
+        },
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: a 15-gallon fill-up went from $65.40 to $58.50.",
+      "say": "Our math: a fifteen-gallon fill-up went from sixty-five forty to fifty-eight fifty.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "15 gal, Oct",
+          "value": "$65.40"
+        },
+        "to": {
+          "label": "15 gal, Nov 12",
+          "value": "$58.50"
+        },
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But gas is still 82 cents above last year's $3.08.",
+      "say": "But gas is still eighty-two cents above last year's three oh eight.",
+      "scene": {
+        "t": "stat",
+        "label": "vs a year ago",
+        "value": "+82¢",
+        "tone": "down",
+        "sub": "AAA: $3.08 in 2025",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Takeaway: gas follows oil with a lag, and the IEA warns tanker attacks remain a risk.",
+      "say": "Takeaway: gas follows oil with a lag, and the IEA warns tanker attacks remain a risk.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Gas follows oil",
+          "with a lag"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Gas fell below $4. Oil supply finally tops demand",
+    "ig": "Gas just fell below $4. Oil supply finally tops demand.\nAAA: the national average slipped under $4 on Nov 10, 2026, for the first time since July, and hit $3.90 by Nov 12. A month ago it was $4.36; a year ago about $3.08.\nOn Nov 13, the International Energy Agency said global oil supply is topping demand for the first time since the Iran war began. Observed global stockpiles rose 52 million barrels in October, the first build since June.\nOur math: at $3.90, a 15-gallon fill-up cost $6.90 less than a month earlier, but gas is still 82 cents a gallon above last year.\nSources: AAA (Nov 12, 2026); IEA Oil Market Report (Nov 13, 2026); Quartz; The National.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gasprices #oil #inflation #personalfinance #financeprostv",
+    "tiktok": "Gas just fell below $4. Oil supply finally tops demand. #moneytok #personalfinance #gasprices #oil #financeprostv Not financial advice.",
+    "yt_desc": "AAA says the US average for regular gas slipped under $4 on Nov 10, 2026, for the first time since July and hit $3.90 on Nov 12, down from $4.36 a month earlier but still above about $3.08 a year ago. On Nov 13, the IEA said global oil supply is topping demand for the first time since the Iran war began, with stockpiles up 52 million barrels in October. Sources: AAA, IEA Oil Market Report (Nov 2026). News and education, not financial advice. #Shorts #gasprices #oil",
+    "tags": [
+      "gas prices",
+      "AAA",
+      "IEA oil market report",
+      "oil prices",
+      "inflation"
+    ]
+  }
+}
