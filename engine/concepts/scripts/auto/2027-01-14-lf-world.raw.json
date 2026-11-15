@@ -1,1650 +1,1593 @@
 {
- "series": "ticker",
- "header": "WORLD MONEY",
- "cover": {
-  "title": "Who Owes China?",
-  "countries": [
-   "china",
-   "us"
+  "series": "ticker",
+  "header": "WORLD MONEY",
+  "cover": {
+    "title": "Who Owes China?",
+    "countries": [
+      "china",
+      "us"
+    ],
+    "value": "$202B"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "China's state lenders sent more money to America than anywhere else.",
+      "say": "China's state lenders sent more money to America than anywhere else.",
+      "scene": {
+        "t": "hook",
+        "title": "Top recipient: [America]",
+        "prop": "bag",
+        "label": "LOANS",
+        "value": "$202B",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Not Sri Lanka. Not Pakistan. America: nearly $202 billion from 2000 to 2023, says AidData.",
+      "say": "Not Sri Lanka. Not Pakistan. America: nearly two hundred two billion dollars from two thousand to twenty twenty-three, says AidData.",
+      "scene": {
+        "t": "stat",
+        "label": "Into the US",
+        "value": "~$202B",
+        "tone": "neutral",
+        "sub": "2000-2023, AidData"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Most of it went to companies and projects here, not to the US government itself.",
+      "say": "Most of it went to companies and projects here, not to the US government itself.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "china",
+            "mood": "happy",
+            "says": "Top customer!"
+          },
+          {
+            "name": "us",
+            "mood": "worried",
+            "says": "Wait, me?"
+          }
+        ],
+        "caption": "Loans to US firms and projects"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Worldwide, China's state lenders committed about $2.2 trillion in loans and grants over those years.",
+      "say": "Worldwide, China's state lenders committed about two point two trillion dollars in loans and grants over those years.",
+      "scene": {
+        "t": "stat",
+        "label": "China's total",
+        "value": "~$2.2T",
+        "tone": "neutral",
+        "sub": "2000-2023, AidData"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And the most famous slice of that money has a name you've probably heard: the Belt and Road.",
+      "say": "And the most famous slice of that money has a name you've probably heard: the Belt and Road.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "The Belt",
+          "and Road"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So how does China lend? Is it a bank, a debt trap, or something in between?",
+      "say": "So how does China lend? Is it a bank, a debt trap, or something in between?",
+      "scene": {
+        "t": "list",
+        "title": "Three questions",
+        "items": [
+          "How it lends",
+          "Debt trap?",
+          "Your wallet"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And how do mines and railways in Africa end up inside the battery in your pocket?",
+      "say": "And how do mines and railways in Africa end up inside the battery in your pocket?",
+      "scene": {
+        "t": "building",
+        "kind": "store",
+        "name": "CONGO MINE",
+        "label": "Cobalt",
+        "caption": "Into your battery"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Quick note: this is news and education, not financial advice.",
+      "say": "Quick note: this is news and education, not financial advice.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "News + education,",
+          "not advice"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter one: the big idea.",
+      "say": "Chapter one: the big idea.",
+      "scene": {
+        "t": "chapter",
+        "n": 1,
+        "title": "The big idea"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In September 2013, Xi Jinping proposed a Silk Road Economic Belt, in a speech in Kazakhstan.",
+      "say": "In September twenty thirteen, Xi Jinping proposed a Silk Road Economic Belt, in a speech in Kazakhstan.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Sep13",
+            "what": "Belt: Kazakhstan"
+          },
+          {
+            "when": "Oct13",
+            "what": "Road: Indonesia"
+          },
+          {
+            "when": "2017",
+            "what": "Port lease"
+          },
+          {
+            "when": "2020",
+            "what": "Zambia defaults"
+          },
+          {
+            "when": "2022",
+            "what": "Lanka defaults"
+          }
+        ],
+        "reveal": 1
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A month later, speaking in Indonesia, he added a 21st Century Maritime Silk Road.",
+      "say": "A month later, speaking in Indonesia, he added a twenty-first century Maritime Silk Road.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Sep13",
+            "what": "Belt: Kazakhstan"
+          },
+          {
+            "when": "Oct13",
+            "what": "Road: Indonesia"
+          },
+          {
+            "when": "2017",
+            "what": "Port lease"
+          },
+          {
+            "when": "2020",
+            "what": "Zambia defaults"
+          },
+          {
+            "when": "2022",
+            "what": "Lanka defaults"
+          }
+        ],
+        "reveal": 2,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's the confusing part. The belt is the land routes, like railways, roads and pipelines. The road is the sea.",
+      "say": "Here's the confusing part. The belt is the land routes, like railways, roads and pipelines. The road is the sea.",
+      "scene": {
+        "t": "split",
+        "title": "Belt vs Road",
+        "left": {
+          "title": "Belt",
+          "items": [
+            "Land routes",
+            "Rail, roads"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "Road",
+          "items": [
+            "Sea lanes",
+            "Ports"
+          ],
+          "tone": "neutral"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Yes, the road is in the ocean. Naming things is hard.",
+      "say": "Yes, the road is in the ocean. Naming things is hard.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "The road",
+          "is at sea."
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "China says more than 150 countries have signed Belt and Road papers, by its own count.",
+      "say": "China says more than a hundred fifty countries have signed Belt and Road papers, by its own count.",
+      "scene": {
+        "t": "stat",
+        "label": "BRI partners",
+        "value": "150+",
+        "tone": "neutral",
+        "sub": "China's own count"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "AidData, a research lab at William & Mary, spent years piecing together those loan records.",
+      "say": "AidData, a research lab at William and Mary, spent years piecing together those loan records.",
+      "scene": {
+        "t": "building",
+        "kind": "store",
+        "name": "AIDDATA LAB",
+        "label": "Tracking loans",
+        "caption": "Counting China's money"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Their 2021 report counted 13,427 projects worth $843 billion, in 165 countries.",
+      "say": "Their twenty twenty-one report counted thirteen thousand four hundred twenty-seven projects worth eight hundred forty-three billion dollars, in a hundred sixty-five countries.",
+      "scene": {
+        "t": "stat",
+        "label": "Projects tracked",
+        "value": "13,427",
+        "tone": "neutral",
+        "sub": "$843B, 2021 report"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In an average Belt and Road year, China spent about $85 billion on overseas development. The US spent about $37 billion.",
+      "say": "In an average Belt and Road year, China spent about eighty-five billion dollars on overseas development. The US spent about thirty-seven billion.",
+      "scene": {
+        "t": "compare",
+        "title": "Yearly spend",
+        "left": {
+          "label": "China",
+          "value": "$85B",
+          "tone": "neutral",
+          "sub": "avg BRI year"
+        },
+        "right": {
+          "label": "US",
+          "value": "$37B",
+          "tone": "neutral",
+          "sub": "same years"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: that's about 2.3 times as much. And most of China's money wasn't gifts. It was loans.",
+      "say": "Our math: that's about two point three times as much. And most of China's money wasn't gifts. It was loans.",
+      "scene": {
+        "t": "compare",
+        "title": "Yearly spend",
+        "left": {
+          "label": "China",
+          "value": "$85B",
+          "tone": "neutral",
+          "sub": "avg BRI year"
+        },
+        "right": {
+          "label": "US",
+          "value": "$37B",
+          "tone": "neutral",
+          "sub": "same years"
+        },
+        "keep": true,
+        "winner": "left"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So what does a Chinese loan actually look like on paper?",
+      "say": "So what does a Chinese loan actually look like on paper?",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "What's in",
+          "the loan?"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter two: how China lends.",
+      "say": "Chapter two: how China lends.",
+      "scene": {
+        "t": "chapter",
+        "n": 2,
+        "title": "How China lends"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Most of the money comes from two state-owned banks: China Development Bank and the Export-Import Bank of China.",
+      "say": "Most of the money comes from two state-owned banks: China Development Bank and the Export-Import Bank of China.",
+      "scene": {
+        "t": "building",
+        "kind": "fed",
+        "name": "CHINA EXIM BANK",
+        "label": "State-owned",
+        "caption": "Plus China Development Bank"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "They're not charities. AidData found the average Chinese loan carried an interest rate of 4.2%.",
+      "say": "They're not charities. AidData found the average Chinese loan carried an interest rate of four point two percent.",
+      "scene": {
+        "t": "stat",
+        "label": "Avg interest rate",
+        "value": "4.2%",
+        "tone": "down",
+        "sub": "AidData, 2021"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It was usually repaid in under 10 years, with under two years of breathing room first.",
+      "say": "It was usually repaid in under ten years, with under two years of breathing room first.",
+      "scene": {
+        "t": "list",
+        "title": "Typical terms",
+        "items": [
+          "4.2% interest",
+          "Under 10 years",
+          "<2-yr grace"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "By AidData's comparison, a typical aid loan from Germany or Japan ran about 1.1% over 28 years.",
+      "say": "By AidData's comparison, a typical aid loan from Germany or Japan ran about one point one percent over twenty-eight years.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "germany",
+            "mood": "happy",
+            "says": "1.1%, 28 years"
+          },
+          {
+            "name": "japan",
+            "mood": "happy",
+            "says": "Similar here"
+          }
+        ],
+        "caption": "A typical aid-agency loan"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's what that gap does. Our math, simplified: a $1 billion loan, repaid in equal yearly payments.",
+      "say": "Here's what that gap does. Our math, simplified: a one billion dollar loan, repaid in equal yearly payments.",
+      "scene": {
+        "t": "hook",
+        "title": "One [$1B] loan",
+        "prop": "bag",
+        "label": "LOAN",
+        "value": "$1B"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "At 4.2% over 10 years, the payment is about $124.5 million a year.",
+      "say": "At four point two percent over ten years, the payment is about a hundred twenty-four and a half million dollars a year.",
+      "scene": {
+        "t": "compare",
+        "title": "Yearly bill",
+        "left": {
+          "label": "4.2%, 10 yr",
+          "value": "$124.5M",
+          "tone": "down",
+          "sub": "per year"
+        },
+        "right": {
+          "label": "1.1%, 28 yr",
+          "value": "$41.7M",
+          "tone": "up",
+          "sub": "per year"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "At 1.1% over 28 years, it's about $41.7 million a year. Roughly a third of the bill.",
+      "say": "At one point one percent over twenty-eight years, it's about forty-one point seven million dollars a year. Roughly a third of the bill.",
+      "scene": {
+        "t": "compare",
+        "title": "Yearly bill",
+        "left": {
+          "label": "4.2%, 10 yr",
+          "value": "$124.5M",
+          "tone": "down",
+          "sub": "per year"
+        },
+        "right": {
+          "label": "1.1%, 28 yr",
+          "value": "$41.7M",
+          "tone": "up",
+          "sub": "per year"
+        },
+        "winner": "left",
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Total interest differs less: about $245 million versus $167 million. The squeeze is speed.",
+      "say": "Total interest differs less: about two hundred forty-five million versus a hundred sixty-seven million dollars. The squeeze is speed.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "The squeeze:",
+          "speed"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's like paying off a house in 10 years at a higher rate instead of 28 at a low one. About triple the yearly bill.",
+      "say": "It's like paying off a house in ten years at a higher rate instead of twenty-eight at a low one. About triple the yearly bill.",
+      "scene": {
+        "t": "hook",
+        "title": "Same [house]",
+        "prop": "house",
+        "label": "10 YR",
+        "value": "3x bill"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Then there's collateral. AidData says lending backed by collateral, guarantees or insurance rose from about 30% in the early 2000s to nearly 60%.",
+      "say": "Then there's collateral. AidData says lending backed by collateral, guarantees or insurance rose from about thirty percent in the early two thousands to nearly sixty percent.",
+      "scene": {
+        "t": "compare",
+        "title": "Safeguards",
+        "left": {
+          "label": "Early 2000s",
+          "value": "~30%",
+          "tone": "neutral",
+          "sub": "of lending"
+        },
+        "right": {
+          "label": "BRI era",
+          "value": "~60%",
+          "tone": "down",
+          "sub": "of lending"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2021, researchers read 100 Chinese loan contracts. Every one signed since 2014 had a confidentiality clause.",
+      "say": "In twenty twenty-one, researchers read a hundred Chinese loan contracts. Every one signed since twenty fourteen had a confidentiality clause.",
+      "scene": {
+        "t": "stat",
+        "label": "Contracts read",
+        "value": "100",
+        "tone": "neutral",
+        "sub": "How China Lends"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Many also kept the Chinese debt out of group debt deals with other government lenders, known as the Paris Club.",
+      "say": "Many also kept the Chinese debt out of group debt deals with other government lenders, known as the Paris Club.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "\"No Paris Club\"",
+          "clause"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And much of the money went to state companies and project firms, so it often didn't show up as government debt.",
+      "say": "And much of the money went to state companies and project firms, so it often didn't show up as government debt.",
+      "scene": {
+        "t": "building",
+        "kind": "customs",
+        "name": "PROJECT COMPANY",
+        "label": "Off the books",
+        "caption": "Debt, but not on paper"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "AidData called this hidden debt, and its 2021 report put it at about $385 billion.",
+      "say": "AidData called this hidden debt, and its twenty twenty-one report put it at about three hundred eighty-five billion dollars.",
+      "scene": {
+        "t": "stat",
+        "label": "Hidden debt",
+        "value": "~$385B",
+        "tone": "down",
+        "sub": "AidData, 2021"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 42 countries, public debt exposure to China was more than 10% of the whole economy.",
+      "say": "In forty-two countries, public debt exposure to China was more than ten percent of the whole economy.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "42 countries:",
+          "over 10% of GDP"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "None of that proves a trap. But it makes the loans pricey, fast and hard to see. Now, real cases.",
+      "say": "None of that proves a trap. But it makes the loans pricey, fast and hard to see. Now, real cases.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Pricey. Fast.",
+          "Hard to see."
+        ],
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter three: three famous cases.",
+      "say": "Chapter three: three famous cases.",
+      "scene": {
+        "t": "chapter",
+        "n": 3,
+        "title": "Three famous cases"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Case one: Sri Lanka's Hambantota port, built with loans from China's Export-Import Bank.",
+      "say": "Case one: Sri Lanka's Hambantota port, built with loans from China's Export-Import Bank.",
+      "scene": {
+        "t": "building",
+        "kind": "customs",
+        "name": "SRI LANKA PORT",
+        "label": "Hambantota",
+        "caption": "Built with China Exim loans"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Critics called it a white elephant. In 2017, Sri Lanka leased a 70% stake to a Chinese state firm for 99 years.",
+      "say": "Critics called it a white elephant. In twenty seventeen, Sri Lanka leased a seventy percent stake to a Chinese state firm for ninety-nine years.",
+      "scene": {
+        "t": "stat",
+        "label": "Port lease",
+        "value": "99 years",
+        "tone": "down",
+        "sub": "70% stake, 2017"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The firm, China Merchants Port, paid $1.12 billion. It became the most famous Belt and Road story.",
+      "say": "The firm, China Merchants Port, paid one point one two billion dollars. It became the most famous Belt and Road story.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "70% of port",
+          "value": "99 yrs"
+        },
+        "to": {
+          "label": "Cash paid",
+          "value": "$1.12B"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The headline version: China grabbed a port when Sri Lanka couldn't pay. The researchers' version is messier.",
+      "say": "The headline version: China grabbed a port when Sri Lanka couldn't pay. The researchers' version is messier.",
+      "scene": {
+        "t": "split",
+        "title": "Two versions",
+        "left": {
+          "title": "Headline",
+          "items": [
+            "China took it",
+            "Unpaid debt"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Research",
+          "items": [
+            "Lease for cash",
+            "Debt stayed"
+          ],
+          "tone": "neutral"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The lease was a separate deal: it didn't cancel the port loans. The cash helped ease a dollar crunch.",
+      "say": "The lease was a separate deal: it didn't cancel the port loans. The cash helped ease a dollar crunch.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Loans stayed.",
+          "Cash went to bills"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "When Sri Lanka stopped paying foreign debts in April 2022, China held a tenth to a fifth, depending on the count. Bondholders held more.",
+      "say": "When Sri Lanka stopped paying foreign debts in April twenty twenty-two, China held a tenth to a fifth, depending on the count. Bondholders held more.",
+      "scene": {
+        "t": "compare",
+        "title": "Who was owed",
+        "left": {
+          "label": "China",
+          "value": "10-20%",
+          "tone": "neutral",
+          "sub": "by measure"
+        },
+        "right": {
+          "label": "Bondholders",
+          "value": "~36%",
+          "tone": "down",
+          "sub": "May 2022"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So China mattered a lot, but it wasn't the biggest lender in the room.",
+      "say": "So China mattered a lot, but it wasn't the biggest lender in the room.",
+      "scene": {
+        "t": "compare",
+        "title": "Who was owed",
+        "left": {
+          "label": "China",
+          "value": "10-20%",
+          "tone": "neutral",
+          "sub": "by measure"
+        },
+        "right": {
+          "label": "Bondholders",
+          "value": "~36%",
+          "tone": "down",
+          "sub": "May 2022"
+        },
+        "winner": "right",
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Case two: Zambia, a big copper producer in southern Africa.",
+      "say": "Case two: Zambia, a big copper producer in southern Africa.",
+      "scene": {
+        "t": "building",
+        "kind": "fed",
+        "name": "ZAMBIA TREASURY",
+        "label": "Copper economy",
+        "caption": "Case two"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In November 2020, Zambia missed a payment on its international bonds: the first African default of the pandemic era.",
+      "say": "In November twenty twenty, Zambia missed a payment on its international bonds: the first African default of the pandemic era.",
+      "scene": {
+        "t": "timeline",
+        "events": [
+          {
+            "when": "Sep13",
+            "what": "Belt: Kazakhstan"
+          },
+          {
+            "when": "Oct13",
+            "what": "Road: Indonesia"
+          },
+          {
+            "when": "2017",
+            "what": "Port lease"
+          },
+          {
+            "when": "2020",
+            "what": "Zambia defaults"
+          },
+          {
+            "when": "2022",
+            "what": "Lanka defaults"
+          }
+        ],
+        "reveal": 4
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "China was its biggest government lender, and getting China, France, other governments and bondholders to agree took years.",
+      "say": "China was its biggest government lender, and getting China, France, other governments and bondholders to agree took years.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "china",
+            "mood": "worried",
+            "says": "Who cuts first?"
+          }
+        ],
+        "caption": "Zambia's lenders had to agree"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In June 2023, Zambia struck a $6.3 billion deal with its government lenders. Bondholders followed in 2024.",
+      "say": "In June twenty twenty-three, Zambia struck a six point three billion dollar deal with its government lenders. Bondholders followed in twenty twenty-four.",
+      "scene": {
+        "t": "stat",
+        "label": "Official deal",
+        "value": "$6.3B",
+        "tone": "up",
+        "sub": "June 2023"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Case three: Kenya's Standard Gauge Railway, from the port of Mombasa to Nairobi, which opened in 2017.",
+      "say": "Case three: Kenya's Standard Gauge Railway, from the port of Mombasa to Nairobi, which opened in twenty seventeen.",
+      "scene": {
+        "t": "building",
+        "kind": "customs",
+        "name": "KENYA RAILWAY",
+        "label": "Mombasa-Nairobi",
+        "caption": "Opened 2017"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "China's Export-Import Bank financed about 90% of it, with roughly $3.2 billion in loans.",
+      "say": "China's Export-Import Bank financed about ninety percent of it, with roughly three point two billion dollars in loans.",
+      "scene": {
+        "t": "stat",
+        "label": "China Exim share",
+        "value": "~90%",
+        "tone": "neutral",
+        "sub": "~$3.2B in loans"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Paying in dollars got painful. In October 2025, Kenya switched three of those loans into Chinese yuan.",
+      "say": "Paying in dollars got painful. In October twenty twenty-five, Kenya switched three of those loans into Chinese yuan.",
+      "scene": {
+        "t": "news",
+        "headline": "Kenya: loans to yuan",
+        "source": "Bloomberg, Oct 7, 2025"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Kenya's Treasury said the rate fell from over 6% to about 3%, saving about $215 million a year.",
+      "say": "Kenya's Treasury said the rate fell from over six percent to about three percent, saving about two hundred fifteen million dollars a year.",
+      "scene": {
+        "t": "compare",
+        "title": "Kenya rail loans",
+        "left": {
+          "label": "In dollars",
+          "value": "6%+",
+          "tone": "down",
+          "sub": "floating rate"
+        },
+        "right": {
+          "label": "In yuan",
+          "value": "~3%",
+          "tone": "up",
+          "sub": "saves ~$215M/yr"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Pakistan has its own version: the China-Pakistan Economic Corridor, a plan reported at about $62 billion by 2018.",
+      "say": "Pakistan has its own version: the China-Pakistan Economic Corridor, a plan reported at about sixty-two billion dollars by twenty eighteen.",
+      "scene": {
+        "t": "stat",
+        "label": "CPEC plan",
+        "value": "~$62B",
+        "tone": "neutral",
+        "sub": "as reported, 2018"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A port, a railway, power plants. Different countries, a similar pattern: a big build, then a hard repayment.",
+      "say": "A port, a railway, power plants. Different countries, a similar pattern: a big build, then a hard repayment.",
+      "scene": {
+        "t": "list",
+        "title": "The pattern",
+        "items": [
+          "Big build",
+          "Slow returns",
+          "Hard repayment"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter four: trap or myth?",
+      "say": "Chapter four: trap or myth?",
+      "scene": {
+        "t": "chapter",
+        "n": 4,
+        "title": "Trap or myth?"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So is it debt-trap diplomacy? Lend too much, then grab the asset when the country can't pay?",
+      "say": "So is it debt-trap diplomacy? Lend too much, then grab the asset when the country can't pay?",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Debt trap:",
+          "lend, then grab?"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That idea took off after Hambantota. Critics point to short terms, collateral, secrecy and hidden debt.",
+      "say": "That idea took off after Hambantota. Critics point to short terms, collateral, secrecy and hidden debt.",
+      "scene": {
+        "t": "split",
+        "title": "Critics say",
+        "left": {
+          "title": "Terms",
+          "items": [
+            "Short loans",
+            "Collateral"
+          ],
+          "tone": "down"
+        },
+        "right": {
+          "title": "Secrecy",
+          "items": [
+            "Hidden debt",
+            "Gag clauses"
+          ],
+          "tone": "down"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Now the other side. A 2020 Chatham House study found the projects in Sri Lanka and Malaysia were driven mostly by local governments.",
+      "say": "Now the other side. A twenty twenty Chatham House study found the projects in Sri Lanka and Malaysia were driven mostly by local governments.",
+      "scene": {
+        "t": "news",
+        "headline": "Debunking the myth",
+        "source": "Chatham House, Aug 2020"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The Hambantota port, for example, was a long-standing dream of Sri Lanka's ruling Rajapaksa family.",
+      "say": "The Hambantota port, for example, was a long-standing dream of Sri Lanka's ruling Rajapaksa family.",
+      "scene": {
+        "t": "building",
+        "kind": "customs",
+        "name": "SRI LANKA PORT",
+        "label": "Local plan",
+        "caption": "Pushed by local leaders"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2021, researchers Deborah Brautigam and Meg Rithmire wrote that Chinese banks had never actually seized an asset from any country.",
+      "say": "In twenty twenty-one, researchers Deborah Brautigam and Meg Rithmire wrote that Chinese banks had never actually seized an asset from any country.",
+      "scene": {
+        "t": "news",
+        "headline": "Debt trap 'a myth'",
+        "source": "The Atlantic, Feb 2021"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Rhodium Group studied 40 Chinese debt renegotiations in 2019 and counted just one asset seizure: Sri Lanka's port.",
+      "say": "Rhodium Group studied forty Chinese debt renegotiations in twenty nineteen and counted just one asset seizure: Sri Lanka's port.",
+      "scene": {
+        "t": "stat",
+        "label": "Asset seizures",
+        "value": "1 of 40",
+        "tone": "neutral",
+        "sub": "Rhodium, 2019"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So which is it? The evidence points to something less dramatic, but still serious.",
+      "say": "So which is it? The evidence points to something less dramatic, but still serious.",
+      "scene": {
+        "t": "split",
+        "title": "So which is it?",
+        "left": {
+          "title": "Weak proof",
+          "items": [
+            "Grab plan",
+            "Many seizures"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Real issues",
+          "items": [
+            "Fast terms",
+            "Secrecy",
+            "Strain"
+          ],
+          "tone": "down"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Researchers find little sign of a master plan to seize assets, and plenty of expensive, secretive loans that strained some borrowers.",
+      "say": "Researchers find little sign of a master plan to seize assets, and plenty of expensive, secretive loans that strained some borrowers.",
+      "scene": {
+        "t": "split",
+        "title": "So which is it?",
+        "left": {
+          "title": "Weak proof",
+          "items": [
+            "Grab plan",
+            "Many seizures"
+          ],
+          "tone": "up"
+        },
+        "right": {
+          "title": "Real issues",
+          "items": [
+            "Fast terms",
+            "Secrecy",
+            "Strain"
+          ],
+          "tone": "down"
+        },
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "China isn't the only reason poor countries struggle. On the IMF's September 2025 list, about half of low-income countries were at high risk of, or in, debt distress.",
+      "say": "China isn't the only reason poor countries struggle. On the I M F's September twenty twenty-five list, about half of low-income countries were at high risk of, or in, debt distress.",
+      "scene": {
+        "t": "stat",
+        "label": "Low-income nations",
+        "value": "~1 in 2",
+        "tone": "down",
+        "sub": "IMF list, Sep 2025"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Bondholders, Western banks and big global lenders lent to these countries too.",
+      "say": "Bondholders, Western banks and big global lenders lent to these countries too.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "us",
+            "mood": "worried",
+            "says": "We lent too"
+          },
+          {
+            "name": "uk",
+            "mood": "worried",
+            "says": "So did we"
+          }
+        ],
+        "caption": "Many lenders, one bill"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "When borrowers got in trouble, China often lent again: $240 billion of rescue lending by the end of 2021, says AidData.",
+      "say": "When borrowers got in trouble, China often lent again: two hundred forty billion dollars of rescue lending by the end of twenty twenty-one, says AidData.",
+      "scene": {
+        "t": "stat",
+        "label": "Rescue lending",
+        "value": "$240B",
+        "tone": "down",
+        "sub": "AidData, to 2021"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Lending to countries in debt distress went from under 5% of China's overseas lending in 2010 to 60% in 2022.",
+      "say": "Lending to countries in debt distress went from under five percent of China's overseas lending in twenty ten to sixty percent in twenty twenty-two.",
+      "scene": {
+        "t": "compare",
+        "title": "Distressed",
+        "left": {
+          "label": "2010",
+          "value": "<5%",
+          "tone": "neutral",
+          "sub": "of lending"
+        },
+        "right": {
+          "label": "2022",
+          "value": "60%",
+          "tone": "down",
+          "sub": "of lending"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's what a lender does when its borrowers are struggling: it lends more just to keep the old loans alive.",
+      "say": "That's what a lender does when its borrowers are struggling: it lends more just to keep the old loans alive.",
+      "scene": {
+        "t": "compare",
+        "title": "Distressed",
+        "left": {
+          "label": "2010",
+          "value": "<5%",
+          "tone": "neutral",
+          "sub": "of lending"
+        },
+        "right": {
+          "label": "2022",
+          "value": "60%",
+          "tone": "down",
+          "sub": "of lending"
+        },
+        "winner": "right",
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Which brings us to the twist. By 2023, the Lowy Institute says, 60 developing countries paid China more than they got in new loans.",
+      "say": "Which brings us to the twist. By twenty twenty-three, the Lowy Institute says, sixty developing countries paid China more than they got in new loans.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "2023: 60 nations",
+          "paid China more"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter five: the flip, and your wallet.",
+      "say": "Chapter five: the flip, and your wallet.",
+      "scene": {
+        "t": "chapter",
+        "n": 5,
+        "title": "The flip, and your wallet"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Here's Chinese lending to African governments, from Boston University's latest database, released in November 2025.",
+      "say": "Here's Chinese lending to African governments, from Boston University's latest database, released in November twenty twenty-five.",
+      "scene": {
+        "t": "compare",
+        "title": "China→Africa",
+        "left": {
+          "label": "2016 peak",
+          "value": "$28.8B",
+          "tone": "neutral",
+          "sub": "BU, Nov 2025"
+        },
+        "right": {
+          "label": "2024",
+          "value": "$2.1B",
+          "tone": "down",
+          "sub": "BU, Nov 2025"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "At the 2016 peak, Chinese lenders committed about $28.8 billion to Africa in a single year.",
+      "say": "At the twenty sixteen peak, Chinese lenders committed about twenty-eight point eight billion dollars to Africa in a single year.",
+      "scene": {
+        "t": "compare",
+        "title": "China→Africa",
+        "left": {
+          "label": "2016 peak",
+          "value": "$28.8B",
+          "tone": "neutral",
+          "sub": "BU, Nov 2025"
+        },
+        "right": {
+          "label": "2024",
+          "value": "$2.1B",
+          "tone": "down",
+          "sub": "BU, Nov 2025"
+        },
+        "mood": "think",
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Since 2020, it's stayed under $5 billion a year. In 2023, it was about $3.9 billion.",
+      "say": "Since twenty twenty, it's stayed under five billion dollars a year. In twenty twenty-three, it was about three point nine billion.",
+      "scene": {
+        "t": "stat",
+        "label": "2023 loans",
+        "value": "$3.9B",
+        "tone": "down",
+        "sub": "BU, Nov 2025",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "By 2024, it had fallen to about $2.1 billion, spread across just six projects.",
+      "say": "By twenty twenty-four, it had fallen to about two point one billion dollars, spread across just six projects.",
+      "scene": {
+        "t": "compare",
+        "title": "Africa loans",
+        "left": {
+          "label": "2016 peak",
+          "value": "$28.8B",
+          "tone": "neutral",
+          "sub": "BU, Nov 2025"
+        },
+        "right": {
+          "label": "2024",
+          "value": "$2.1B",
+          "tone": "down",
+          "sub": "BU, Nov 2025"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: that's about 7% of the 2016 peak. The firehose turned into a garden hose.",
+      "say": "Our math: that's about seven percent of the twenty sixteen peak. The firehose turned into a garden hose.",
+      "scene": {
+        "t": "compare",
+        "title": "Africa loans",
+        "left": {
+          "label": "2016 peak",
+          "value": "$28.8B",
+          "tone": "neutral",
+          "sub": "BU, Nov 2025"
+        },
+        "right": {
+          "label": "2024",
+          "value": "$2.1B",
+          "tone": "down",
+          "sub": "BU, Nov 2025"
+        },
+        "winner": "left",
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Meanwhile, old loans are coming due. The Lowy Institute estimated developing countries owe China about $35 billion in payments in 2025.",
+      "say": "Meanwhile, old loans are coming due. The Lowy Institute estimated developing countries owe China about thirty-five billion dollars in payments in twenty twenty-five.",
+      "scene": {
+        "t": "stat",
+        "label": "Owed to China",
+        "value": "~$35B",
+        "tone": "down",
+        "sub": "2025, Lowy est."
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "About $22 billion of it comes from the 75 poorest countries: money that can't go to schools or hospitals.",
+      "say": "About twenty-two billion dollars of it comes from the seventy-five poorest countries: money that can't go to schools or hospitals.",
+      "scene": {
+        "t": "hook",
+        "title": "Poorest [75] pay",
+        "prop": "coins",
+        "label": "2025",
+        "value": "$22B"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "But don't call the Belt and Road dead. It's changing shape.",
+      "say": "But don't call the Belt and Road dead. It's changing shape.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Not dead.",
+          "New shape."
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In the first half of 2026, a University of Queensland report counted about $49.8 billion of Chinese investment and $76.5 billion of building contracts there.",
+      "say": "In the first half of twenty twenty-six, a University of Queensland report counted about forty-nine point eight billion dollars of Chinese investment and seventy-six point five billion of building contracts there.",
+      "scene": {
+        "t": "compare",
+        "title": "BRI, H1 2026",
+        "left": {
+          "label": "Investment",
+          "value": "$49.8B",
+          "tone": "neutral",
+          "sub": "Jan-Jun 2026"
+        },
+        "right": {
+          "label": "Building",
+          "value": "$76.5B",
+          "tone": "neutral",
+          "sub": "contracts"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: about $126 billion, a record first half. Those are deals, not loans, led by energy, and nearly half by private firms.",
+      "say": "Our math: about a hundred twenty-six billion dollars, a record first half. Those are deals, not loans, led by energy, and nearly half by private firms.",
+      "scene": {
+        "t": "compare",
+        "title": "BRI, H1 2026",
+        "left": {
+          "label": "Investment",
+          "value": "$49.8B",
+          "tone": "neutral",
+          "sub": "Jan-Jun 2026"
+        },
+        "right": {
+          "label": "Building",
+          "value": "$76.5B",
+          "tone": "neutral",
+          "sub": "contracts"
+        },
+        "winner": "right",
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So how does this reach your wallet? Start with that $202 billion into America, mostly loans to companies.",
+      "say": "So how does this reach your wallet? Start with that two hundred two billion dollars into America, mostly loans to companies.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "china",
+            "mood": "happy",
+            "says": "Here you go"
+          },
+          {
+            "name": "us",
+            "mood": "happy",
+            "says": "Thanks, I guess"
+          }
+        ],
+        "caption": "~$202B into the US, 2000-2023"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Next, raw materials. Chinese money helped build mines, railways and ports that move copper and cobalt.",
+      "say": "Next, raw materials. Chinese money helped build mines, railways and ports that move copper and cobalt.",
+      "scene": {
+        "t": "building",
+        "kind": "store",
+        "name": "CONGO MINE",
+        "label": "Copper, cobalt",
+        "caption": "Mines, rails, ports"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Congo mines roughly seven of every ten tons of the world's cobalt, a key metal in phone and electric car batteries.",
+      "say": "Congo mines roughly seven of every ten tons of the world's cobalt, a key metal in phone and electric car batteries.",
+      "scene": {
+        "t": "stat",
+        "label": "Congo cobalt share",
+        "value": "~70%",
+        "tone": "neutral",
+        "sub": "USGS data"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2024, Congo and its Chinese partners revised a mines-for-roads deal: up to $7 billion for infrastructure, tied to copper prices.",
+      "say": "In twenty twenty-four, Congo and its Chinese partners revised a mines-for-roads deal, with up to seven billion dollars for infrastructure, tied to copper prices.",
+      "scene": {
+        "t": "news",
+        "headline": "Mines-for-roads: $7B",
+        "source": "Reuters, 2024"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "When deals like that work, or stall, it can ripple into metal prices, and into what your phone, car or shipping costs.",
+      "say": "When deals like that work, or stall, it can ripple into metal prices, and into what your phone, car or shipping costs.",
+      "scene": {
+        "t": "list",
+        "title": "Where it shows up",
+        "items": [
+          "Phone battery",
+          "EV battery",
+          "Shipping"
+        ],
+        "reveal": 3
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "There's also a rival offer. In June 2022, the G7 set a goal to mobilize $600 billion for infrastructure by 2027.",
+      "say": "There's also a rival offer. In June twenty twenty-two, the G seven set a goal to mobilize six hundred billion dollars for infrastructure by twenty twenty-seven.",
+      "scene": {
+        "t": "countries",
+        "cast": [
+          {
+            "name": "us",
+            "mood": "happy",
+            "says": "Our offer"
+          },
+          {
+            "name": "japan",
+            "mood": "happy",
+            "says": "Count us in"
+          },
+          {
+            "name": "canada",
+            "mood": "happy",
+            "says": "Same"
+          }
+        ],
+        "caption": "G7: $600B goal by 2027"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It's called the Partnership for Global Infrastructure and Investment. The US pledged $200 billion of it.",
+      "say": "It's called the Partnership for Global Infrastructure and Investment. The US pledged two hundred billion dollars of it.",
+      "scene": {
+        "t": "stat",
+        "label": "US share of PGII",
+        "value": "$200B",
+        "tone": "neutral",
+        "sub": "White House, 2022"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Its flagship is the Lobito Corridor, a railway linking Africa's copper belt to an Atlantic port in Angola.",
+      "say": "Its flagship is the Lobito Corridor, a railway linking Africa's copper belt to an Atlantic port in Angola.",
+      "scene": {
+        "t": "building",
+        "kind": "customs",
+        "name": "LOBITO PORT",
+        "label": "Copper rail",
+        "caption": "Angola's Atlantic port"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Which you prefer is a political call. The money fact: two big camps now compete to finance the world's roads and ports.",
+      "say": "Which you prefer is a political call. The money fact: two big camps now compete to finance the world's roads and ports.",
+      "scene": {
+        "t": "split",
+        "title": "Two offers",
+        "left": {
+          "title": "China",
+          "items": [
+            "Fast loans",
+            "Builders"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "G7",
+          "items": [
+            "Grants, loans",
+            "Private money"
+          ],
+          "tone": "neutral"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Competition can give borrowers more options, or pile on more debt. The terms decide which.",
+      "say": "Competition can give borrowers more options, or pile on more debt. The terms decide which.",
+      "scene": {
+        "t": "split",
+        "title": "Two offers",
+        "left": {
+          "title": "China",
+          "items": [
+            "Fast loans",
+            "Builders"
+          ],
+          "tone": "neutral"
+        },
+        "right": {
+          "title": "G7",
+          "items": [
+            "Grants, loans",
+            "Private money"
+          ],
+          "tone": "neutral"
+        },
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Chapter six: the recap.",
+      "say": "Chapter six: the recap.",
+      "scene": {
+        "t": "chapter",
+        "n": 6,
+        "title": "The recap"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "One: the Belt and Road began in 2013, and AidData counted $843 billion of projects by 2021.",
+      "say": "One: the Belt and Road began in twenty thirteen, and AidData counted eight hundred forty-three billion dollars of projects by twenty twenty-one.",
+      "scene": {
+        "t": "list",
+        "title": "Recap",
+        "items": [
+          "Since 2013",
+          "Fast loans",
+          "Mixed record",
+          "Flows back"
+        ],
+        "reveal": 1
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Two: the loans cost more and were repaid faster than aid loans, often secured and secret.",
+      "say": "Two: the loans cost more and were repaid faster than aid loans, often secured and secret.",
+      "scene": {
+        "t": "list",
+        "title": "Recap",
+        "items": [
+          "Since 2013",
+          "Fast loans",
+          "Mixed record",
+          "Flows back"
+        ],
+        "reveal": 2,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Three: Sri Lanka, Zambia and Kenya show real strain, but researchers find little proof of a plan to seize assets.",
+      "say": "Three: Sri Lanka, Zambia and Kenya show real strain, but researchers find little proof of a plan to seize assets.",
+      "scene": {
+        "t": "list",
+        "title": "Recap",
+        "items": [
+          "Since 2013",
+          "Fast loans",
+          "Mixed record",
+          "Flows back"
+        ],
+        "reveal": 3,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Four: new lending has shrunk, repayments to China hit an estimated $35 billion in 2025, and investment is taking over.",
+      "say": "Four: new lending has shrunk, repayments to China hit an estimated thirty-five billion dollars in twenty twenty-five, and investment is taking over.",
+      "scene": {
+        "t": "list",
+        "title": "Recap",
+        "items": [
+          "Since 2013",
+          "Fast loans",
+          "Mixed record",
+          "Flows back"
+        ],
+        "reveal": 4,
+        "keep": true
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "And the biggest single recipient of all that Chinese state money? Not a Belt and Road country. America.",
+      "say": "And the biggest single recipient of all that Chinese state money? Not a Belt and Road country. America.",
+      "scene": {
+        "t": "hook",
+        "title": "Number one: [America]",
+        "prop": "bag",
+        "label": "LOANS",
+        "value": "$202B",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Like any loan, the terms matter more than the headline. For countries, and for you.",
+      "say": "Like any loan, the terms matter more than the headline. For countries, and for you.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Read the terms.",
+          "Always."
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "If this made the world economy click a little more, subscribe for more World Money.",
+      "say": "If this made the world economy click a little more, subscribe for more World Money.",
+      "scene": {
+        "t": "cta",
+        "tagline": "World Money, one country at a time"
+      }
+    }
   ],
-  "value": "$202B"
- },
- "lines": [
-  {
-   "who": "ticker",
-   "text": "China's state lenders sent more money to America than anywhere else.",
-   "say": "China's state lenders sent more money to America than anywhere else.",
-   "scene": {
-    "t": "hook",
-    "title": "Top recipient: [America]",
-    "prop": "bag",
-    "label": "LOANS",
-    "value": "$202B",
-    "mood": "shock"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Not Sri Lanka. Not Pakistan. America: nearly $202 billion from 2000 to 2023, says AidData.",
-   "say": "Not Sri Lanka. Not Pakistan. America: nearly two hundred two billion dollars from two thousand to twenty twenty-three, says AidData.",
-   "scene": {
-    "t": "stat",
-    "label": "Into the US",
-    "value": "~$202B",
-    "tone": "neutral",
-    "sub": "2000-2023, AidData"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Most of it went to companies and projects here, not to the US government itself.",
-   "say": "Most of it went to companies and projects here, not to the US government itself.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "china",
-      "mood": "happy",
-      "says": "Top customer!"
-     },
-     {
-      "name": "us",
-      "mood": "worried",
-      "says": "Wait, me?"
-     }
-    ],
-    "caption": "Loans to US firms and projects"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Worldwide, China's state lenders committed about $2.2 trillion in loans and grants over those years.",
-   "say": "Worldwide, China's state lenders committed about two point two trillion dollars in loans and grants over those years.",
-   "scene": {
-    "t": "stat",
-    "label": "China's total",
-    "value": "~$2.2T",
-    "tone": "neutral",
-    "sub": "2000-2023, AidData"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And the most famous slice of that money has a name you've probably heard: the Belt and Road.",
-   "say": "And the most famous slice of that money has a name you've probably heard: the Belt and Road.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "The Belt",
-     "and Road"
+  "post": {
+    "title": "China's state lenders sent more money to the US than anywhere else. Here's the Belt and Road.",
+    "ig": "China's state lenders sent about $202 billion to the US from 2000 to 2023. Here's how China lends to the world.",
+    "tiktok": "China's biggest borrower isn't Sri Lanka or Pakistan. It's America. Here's how the Belt and Road really works.",
+    "yt_desc": "From 2000 to 2023, China's state lenders and donors committed about $2.2 trillion worldwide, and the single biggest recipient was the United States, at nearly $202 billion, according to AidData. This video explains the Belt and Road Initiative: how China's policy banks lend, why a 4.2% loan repaid in under 10 years squeezes a budget (with our worked example), and what really happened in Sri Lanka, Zambia, Kenya and Pakistan. We lay out both sides of the debt-trap debate, show how China went from top lender to top debt collector, and follow the money to your wallet: cobalt in your batteries, Chinese state loans to US companies, and the G7's $600 billion infrastructure plan.\n\nCHAPTERS\n\nSources: AidData, Chasing China (Nov 2025) and Banking on the Belt and Road (Sept 2021); AidData, Kiel Institute, CGD and PIIE, How China Lends (March 2021); Horn, Parks, Reinhart and Trebesch, China as an International Lender of Last Resort (March 2023); Boston University Global Development Policy Center, Chinese Loans to Africa Database (2000-2024 edition, Nov 2025); Lowy Institute, Peak Repayment (May 2025); Christoph Nedopil, University of Queensland / Green Finance & Development Center, China BRI Investment Report 2026 H1 (July 2026); Chatham House (Aug 2020); The Atlantic (Feb 2021); Rhodium Group, New Data on the Debt Trap Question (2019); IMF LIC debt sustainability list (Sept 30, 2025); The Diplomat (Jan 2020); Reuters (2020-2024); Bloomberg (Oct 2025); USGS; White House PGII fact sheets (2022, 2024).\n\nNews and education, not financial advice.\n\n#BeltAndRoad #China #economics",
+    "tags": [
+      "Belt and Road",
+      "China",
+      "debt trap",
+      "Sri Lanka",
+      "Zambia",
+      "Kenya",
+      "world economy",
+      "AidData"
     ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So how does China lend? Is it a bank, a debt trap, or something in between?",
-   "say": "So how does China lend? Is it a bank, a debt trap, or something in between?",
-   "scene": {
-    "t": "list",
-    "title": "Three questions",
-    "items": [
-     "How it lends",
-     "Debt trap?",
-     "Your wallet"
-    ],
-    "reveal": 3,
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And how do mines and railways in Africa end up inside the battery in your pocket?",
-   "say": "And how do mines and railways in Africa end up inside the battery in your pocket?",
-   "scene": {
-    "t": "building",
-    "kind": "store",
-    "name": "CONGO MINE",
-    "label": "Cobalt",
-    "caption": "Into your battery"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Quick note: this is news and education, not financial advice.",
-   "say": "Quick note: this is news and education, not financial advice.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "News + education,",
-     "not advice"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter one: the big idea.",
-   "say": "Chapter one: the big idea.",
-   "scene": {
-    "t": "chapter",
-    "n": 1,
-    "title": "The big idea"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In September 2013, Xi Jinping proposed a Silk Road Economic Belt, in a speech in Kazakhstan.",
-   "say": "In September twenty thirteen, Xi Jinping proposed a Silk Road Economic Belt, in a speech in Kazakhstan.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     {
-      "when": "Sep13",
-      "what": "Belt: Kazakhstan"
-     },
-     {
-      "when": "Oct13",
-      "what": "Road: Indonesia"
-     },
-     {
-      "when": "2017",
-      "what": "Port lease"
-     },
-     {
-      "when": "2020",
-      "what": "Zambia defaults"
-     },
-     {
-      "when": "2022",
-      "what": "Lanka defaults"
-     }
-    ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "A month later, speaking in Indonesia, he added a 21st Century Maritime Silk Road.",
-   "say": "A month later, speaking in Indonesia, he added a twenty-first century Maritime Silk Road.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     {
-      "when": "Sep13",
-      "what": "Belt: Kazakhstan"
-     },
-     {
-      "when": "Oct13",
-      "what": "Road: Indonesia"
-     },
-     {
-      "when": "2017",
-      "what": "Port lease"
-     },
-     {
-      "when": "2020",
-      "what": "Zambia defaults"
-     },
-     {
-      "when": "2022",
-      "what": "Lanka defaults"
-     }
-    ],
-    "reveal": 2,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Here's the confusing part. The belt is the land routes, like railways, roads and pipelines. The road is the sea.",
-   "say": "Here's the confusing part. The belt is the land routes, like railways, roads and pipelines. The road is the sea.",
-   "scene": {
-    "t": "split",
-    "title": "Belt vs Road",
-    "left": {
-     "title": "Belt",
-     "items": [
-      "Land routes",
-      "Rail, roads"
-     ],
-     "tone": "neutral"
-    },
-    "right": {
-     "title": "Road",
-     "items": [
-      "Sea lanes",
-      "Ports"
-     ],
-     "tone": "neutral"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Yes, the road is in the ocean. Naming things is hard.",
-   "say": "Yes, the road is in the ocean. Naming things is hard.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "The road",
-     "is at sea."
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "China says more than 150 countries have signed Belt and Road papers, by its own count.",
-   "say": "China says more than a hundred fifty countries have signed Belt and Road papers, by its own count.",
-   "scene": {
-    "t": "stat",
-    "label": "BRI partners",
-    "value": "150+",
-    "tone": "neutral",
-    "sub": "China's own count"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "AidData, a research lab at William & Mary, spent years piecing together those loan records.",
-   "say": "AidData, a research lab at William and Mary, spent years piecing together those loan records.",
-   "scene": {
-    "t": "building",
-    "kind": "store",
-    "name": "AIDDATA LAB",
-    "label": "Tracking loans",
-    "caption": "Counting China's money"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Their 2021 report counted 13,427 projects worth $843 billion, in 165 countries.",
-   "say": "Their twenty twenty-one report counted thirteen thousand four hundred twenty-seven projects worth eight hundred forty-three billion dollars, in a hundred sixty-five countries.",
-   "scene": {
-    "t": "stat",
-    "label": "Projects tracked",
-    "value": "13,427",
-    "tone": "neutral",
-    "sub": "$843B, 2021 report"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In an average Belt and Road year, China spent about $85 billion on overseas development. The US spent about $37 billion.",
-   "say": "In an average Belt and Road year, China spent about eighty-five billion dollars on overseas development. The US spent about thirty-seven billion.",
-   "scene": {
-    "t": "compare",
-    "title": "Yearly spend",
-    "left": {
-     "label": "China",
-     "value": "$85B",
-     "tone": "neutral",
-     "sub": "avg BRI year"
-    },
-    "right": {
-     "label": "US",
-     "value": "$37B",
-     "tone": "neutral",
-     "sub": "same years"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Our math: that's about 2.3 times as much. And most of China's money wasn't gifts. It was loans.",
-   "say": "Our math: that's about two point three times as much. And most of China's money wasn't gifts. It was loans.",
-   "scene": {
-    "t": "compare",
-    "title": "Yearly spend",
-    "left": {
-     "label": "China",
-     "value": "$85B",
-     "tone": "neutral",
-     "sub": "avg BRI year"
-    },
-    "right": {
-     "label": "US",
-     "value": "$37B",
-     "tone": "neutral",
-     "sub": "same years"
-    },
-    "keep": true,
-    "winner": "left"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So what does a Chinese loan actually look like on paper?",
-   "say": "So what does a Chinese loan actually look like on paper?",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "What's in",
-     "the loan?"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter two: how China lends.",
-   "say": "Chapter two: how China lends.",
-   "scene": {
-    "t": "chapter",
-    "n": 2,
-    "title": "How China lends"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Most of the money comes from two state-owned banks: China Development Bank and the Export-Import Bank of China.",
-   "say": "Most of the money comes from two state-owned banks: China Development Bank and the Export-Import Bank of China.",
-   "scene": {
-    "t": "building",
-    "kind": "fed",
-    "name": "CHINA EXIM BANK",
-    "label": "State-owned",
-    "caption": "Plus China Development Bank"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "They're not charities. AidData found the average Chinese loan carried an interest rate of 4.2%.",
-   "say": "They're not charities. AidData found the average Chinese loan carried an interest rate of four point two percent.",
-   "scene": {
-    "t": "stat",
-    "label": "Avg interest rate",
-    "value": "4.2%",
-    "tone": "down",
-    "sub": "AidData, 2021"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It was usually repaid in under 10 years, with under two years of breathing room first.",
-   "say": "It was usually repaid in under ten years, with under two years of breathing room first.",
-   "scene": {
-    "t": "list",
-    "title": "Typical terms",
-    "items": [
-     "4.2% interest",
-     "Under 10 years",
-     "<2-yr grace"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "By AidData's comparison, a typical aid loan from Germany or Japan ran about 1.1% over 28 years.",
-   "say": "By AidData's comparison, a typical aid loan from Germany or Japan ran about one point one percent over twenty-eight years.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "germany",
-      "mood": "happy",
-      "says": "1.1%, 28 years"
-     },
-     {
-      "name": "japan",
-      "mood": "happy",
-      "says": "Similar here"
-     }
-    ],
-    "caption": "A typical aid-agency loan"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Here's what that gap does. Our math, simplified: a $1 billion loan, repaid in equal yearly payments.",
-   "say": "Here's what that gap does. Our math, simplified: a one billion dollar loan, repaid in equal yearly payments.",
-   "scene": {
-    "t": "hook",
-    "title": "One [$1B] loan",
-    "prop": "bag",
-    "label": "LOAN",
-    "value": "$1B"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "At 4.2% over 10 years, the payment is about $124.5 million a year.",
-   "say": "At four point two percent over ten years, the payment is about a hundred twenty-four and a half million dollars a year.",
-   "scene": {
-    "t": "compare",
-    "title": "Yearly bill",
-    "left": {
-     "label": "4.2%, 10 yr",
-     "value": "$124.5M",
-     "tone": "down",
-     "sub": "per year"
-    },
-    "right": {
-     "label": "1.1%, 28 yr",
-     "value": "$41.7M",
-     "tone": "up",
-     "sub": "per year"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "At 1.1% over 28 years, it's about $41.7 million a year. Roughly a third of the bill.",
-   "say": "At one point one percent over twenty-eight years, it's about forty-one point seven million dollars a year. Roughly a third of the bill.",
-   "scene": {
-    "t": "compare",
-    "title": "Yearly bill",
-    "left": {
-     "label": "4.2%, 10 yr",
-     "value": "$124.5M",
-     "tone": "down",
-     "sub": "per year"
-    },
-    "right": {
-     "label": "1.1%, 28 yr",
-     "value": "$41.7M",
-     "tone": "up",
-     "sub": "per year"
-    },
-    "winner": "left",
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Total interest differs less: about $245 million versus $167 million. The squeeze is speed.",
-   "say": "Total interest differs less: about two hundred forty-five million versus a hundred sixty-seven million dollars. The squeeze is speed.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "The squeeze:",
-     "speed"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It's like paying off a house in 10 years at a higher rate instead of 28 at a low one. About triple the yearly bill.",
-   "say": "It's like paying off a house in ten years at a higher rate instead of twenty-eight at a low one. About triple the yearly bill.",
-   "scene": {
-    "t": "hook",
-    "title": "Same [house]",
-    "prop": "house",
-    "label": "10 YR",
-    "value": "3x bill"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Then there's collateral. AidData says secured lending rose from about 30% in the early 2000s to nearly 60% in the Belt and Road era.",
-   "say": "Then there's collateral. AidData says secured lending rose from about thirty percent in the early two thousands to nearly sixty percent in the Belt and Road era.",
-   "scene": {
-    "t": "compare",
-    "title": "Secured loans",
-    "left": {
-     "label": "Early 2000s",
-     "value": "~30%",
-     "tone": "neutral",
-     "sub": "of lending"
-    },
-    "right": {
-     "label": "BRI era",
-     "value": "~60%",
-     "tone": "down",
-     "sub": "of lending"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In 2021, researchers read 100 Chinese loan contracts. Every one signed since 2014 had a confidentiality clause.",
-   "say": "In twenty twenty-one, researchers read a hundred Chinese loan contracts. Every one signed since twenty fourteen had a confidentiality clause.",
-   "scene": {
-    "t": "stat",
-    "label": "Contracts read",
-    "value": "100",
-    "tone": "neutral",
-    "sub": "How China Lends"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Many also kept the Chinese debt out of group debt deals with other government lenders, known as the Paris Club.",
-   "say": "Many also kept the Chinese debt out of group debt deals with other government lenders, known as the Paris Club.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "\"No Paris Club\"",
-     "clause"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And much of the money went to state companies and project firms, so it often didn't show up as government debt.",
-   "say": "And much of the money went to state companies and project firms, so it often didn't show up as government debt.",
-   "scene": {
-    "t": "building",
-    "kind": "customs",
-    "name": "PROJECT COMPANY",
-    "label": "Off the books",
-    "caption": "Debt, but not on paper"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "AidData called this hidden debt, and its 2021 report put it at about $385 billion.",
-   "say": "AidData called this hidden debt, and its twenty twenty-one report put it at about three hundred eighty-five billion dollars.",
-   "scene": {
-    "t": "stat",
-    "label": "Hidden debt",
-    "value": "~$385B",
-    "tone": "down",
-    "sub": "AidData, 2021"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In 42 countries, public debt exposure to China was more than 10% of the whole economy.",
-   "say": "In forty-two countries, public debt exposure to China was more than ten percent of the whole economy.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "42 countries:",
-     "over 10% of GDP"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "None of that proves a trap. But it makes the loans pricey, fast and hard to see. Now, real cases.",
-   "say": "None of that proves a trap. But it makes the loans pricey, fast and hard to see. Now, real cases.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Pricey. Fast.",
-     "Hard to see."
-    ],
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter three: three famous cases.",
-   "say": "Chapter three: three famous cases.",
-   "scene": {
-    "t": "chapter",
-    "n": 3,
-    "title": "Three famous cases"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Case one: Sri Lanka's Hambantota port, built with loans from China's Export-Import Bank.",
-   "say": "Case one: Sri Lanka's Hambantota port, built with loans from China's Export-Import Bank.",
-   "scene": {
-    "t": "building",
-    "kind": "customs",
-    "name": "SRI LANKA PORT",
-    "label": "Hambantota",
-    "caption": "Built with China Exim loans"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Critics called it a white elephant. In 2017, Sri Lanka leased a 70% stake to a Chinese state firm for 99 years.",
-   "say": "Critics called it a white elephant. In twenty seventeen, Sri Lanka leased a seventy percent stake to a Chinese state firm for ninety-nine years.",
-   "scene": {
-    "t": "stat",
-    "label": "Port lease",
-    "value": "99 years",
-    "tone": "down",
-    "sub": "70% stake, 2017"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The firm, China Merchants Port, paid $1.12 billion. It became the most famous Belt and Road story.",
-   "say": "The firm, China Merchants Port, paid one point one two billion dollars. It became the most famous Belt and Road story.",
-   "scene": {
-    "t": "money",
-    "from": {
-     "label": "70% of port",
-     "value": "99 yrs"
-    },
-    "to": {
-     "label": "Cash paid",
-     "value": "$1.12B"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The headline version: China grabbed a port when Sri Lanka couldn't pay. The researchers' version is messier.",
-   "say": "The headline version: China grabbed a port when Sri Lanka couldn't pay. The researchers' version is messier.",
-   "scene": {
-    "t": "split",
-    "title": "Two versions",
-    "left": {
-     "title": "Headline",
-     "items": [
-      "China took it",
-      "Unpaid debt"
-     ],
-     "tone": "down"
-    },
-    "right": {
-     "title": "Research",
-     "items": [
-      "Lease for cash",
-      "Debt stayed"
-     ],
-     "tone": "neutral"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The lease didn't cancel the port loans, and the port wasn't collateral. The cash helped ease a dollar crunch.",
-   "say": "The lease didn't cancel the port loans, and the port wasn't collateral. The cash helped ease a dollar crunch.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Loans stayed.",
-     "Cash went to bills"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "When Sri Lanka stopped paying foreign debts in April 2022, China held roughly a tenth of it. Bondholders held far more.",
-   "say": "When Sri Lanka stopped paying foreign debts in April twenty twenty-two, China held roughly a tenth of it. Bondholders held far more.",
-   "scene": {
-    "t": "compare",
-    "title": "Who was owed",
-    "left": {
-     "label": "China",
-     "value": "~10%",
-     "tone": "neutral",
-     "sub": "of external debt"
-    },
-    "right": {
-     "label": "Bondholders",
-     "value": "~36%",
-     "tone": "down",
-     "sub": "at default"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So China mattered a lot, but it wasn't the biggest lender in the room.",
-   "say": "So China mattered a lot, but it wasn't the biggest lender in the room.",
-   "scene": {
-    "t": "compare",
-    "title": "Who was owed",
-    "left": {
-     "label": "China",
-     "value": "~10%",
-     "tone": "neutral",
-     "sub": "of external debt"
-    },
-    "right": {
-     "label": "Bondholders",
-     "value": "~36%",
-     "tone": "down",
-     "sub": "at default"
-    },
-    "winner": "right",
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Case two: Zambia, a big copper producer in southern Africa.",
-   "say": "Case two: Zambia, a big copper producer in southern Africa.",
-   "scene": {
-    "t": "building",
-    "kind": "fed",
-    "name": "ZAMBIA TREASURY",
-    "label": "Copper economy",
-    "caption": "Case two"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In November 2020, Zambia missed a payment on its international bonds: the first African default of the pandemic era.",
-   "say": "In November twenty twenty, Zambia missed a payment on its international bonds: the first African default of the pandemic era.",
-   "scene": {
-    "t": "timeline",
-    "events": [
-     {
-      "when": "Sep13",
-      "what": "Belt: Kazakhstan"
-     },
-     {
-      "when": "Oct13",
-      "what": "Road: Indonesia"
-     },
-     {
-      "when": "2017",
-      "what": "Port lease"
-     },
-     {
-      "when": "2020",
-      "what": "Zambia defaults"
-     },
-     {
-      "when": "2022",
-      "what": "Lanka defaults"
-     }
-    ],
-    "reveal": 4
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "China was its biggest government lender, and getting China, France, other governments and bondholders to agree took years.",
-   "say": "China was its biggest government lender, and getting China, France, other governments and bondholders to agree took years.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "china",
-      "mood": "worried",
-      "says": "Who cuts first?"
-     }
-    ],
-    "caption": "Zambia's lenders had to agree"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In June 2023, Zambia struck a $6.3 billion deal with its government lenders. Bondholders followed in 2024.",
-   "say": "In June twenty twenty-three, Zambia struck a six point three billion dollar deal with its government lenders. Bondholders followed in twenty twenty-four.",
-   "scene": {
-    "t": "stat",
-    "label": "Official deal",
-    "value": "$6.3B",
-    "tone": "up",
-    "sub": "June 2023"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Case three: Kenya's Standard Gauge Railway, from the port of Mombasa to Nairobi, which opened in 2017.",
-   "say": "Case three: Kenya's Standard Gauge Railway, from the port of Mombasa to Nairobi, which opened in twenty seventeen.",
-   "scene": {
-    "t": "building",
-    "kind": "customs",
-    "name": "KENYA RAILWAY",
-    "label": "Mombasa-Nairobi",
-    "caption": "Opened 2017"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "China's Export-Import Bank financed about 90% of it, with roughly $3.2 billion in loans.",
-   "say": "China's Export-Import Bank financed about ninety percent of it, with roughly three point two billion dollars in loans.",
-   "scene": {
-    "t": "stat",
-    "label": "China Exim share",
-    "value": "~90%",
-    "tone": "neutral",
-    "sub": "~$3.2B in loans"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Paying in dollars got painful. In October 2025, Kenya switched three of those loans into Chinese yuan.",
-   "say": "Paying in dollars got painful. In October twenty twenty-five, Kenya switched three of those loans into Chinese yuan.",
-   "scene": {
-    "t": "news",
-    "headline": "Kenya: loans to yuan",
-    "source": "Bloomberg, Oct 7, 2025"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Kenya's Treasury said the rate fell from over 6% to about 3%, saving about $215 million a year.",
-   "say": "Kenya's Treasury said the rate fell from over six percent to about three percent, saving about two hundred fifteen million dollars a year.",
-   "scene": {
-    "t": "compare",
-    "title": "Kenya rail loans",
-    "left": {
-     "label": "In dollars",
-     "value": "6%+",
-     "tone": "down",
-     "sub": "floating rate"
-    },
-    "right": {
-     "label": "In yuan",
-     "value": "~3%",
-     "tone": "up",
-     "sub": "saves ~$215M/yr"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Pakistan has its own version: the China-Pakistan Economic Corridor, a plan reported at about $62 billion by 2018.",
-   "say": "Pakistan has its own version: the China-Pakistan Economic Corridor, a plan reported at about sixty-two billion dollars by twenty eighteen.",
-   "scene": {
-    "t": "stat",
-    "label": "CPEC plan",
-    "value": "~$62B",
-    "tone": "neutral",
-    "sub": "as reported, 2018"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "A port, a railway, power plants. Different countries, a similar pattern: a big build, then a hard repayment.",
-   "say": "A port, a railway, power plants. Different countries, a similar pattern: a big build, then a hard repayment.",
-   "scene": {
-    "t": "list",
-    "title": "The pattern",
-    "items": [
-     "Big build",
-     "Slow returns",
-     "Hard repayment"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter four: trap or myth?",
-   "say": "Chapter four: trap or myth?",
-   "scene": {
-    "t": "chapter",
-    "n": 4,
-    "title": "Trap or myth?"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So is it debt-trap diplomacy? Lend too much, then grab the asset when the country can't pay?",
-   "say": "So is it debt-trap diplomacy? Lend too much, then grab the asset when the country can't pay?",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Debt trap:",
-     "lend, then grab?"
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That idea took off after Hambantota. Critics point to short terms, collateral, secrecy and hidden debt.",
-   "say": "That idea took off after Hambantota. Critics point to short terms, collateral, secrecy and hidden debt.",
-   "scene": {
-    "t": "split",
-    "title": "Critics say",
-    "left": {
-     "title": "Terms",
-     "items": [
-      "Short loans",
-      "Collateral"
-     ],
-     "tone": "down"
-    },
-    "right": {
-     "title": "Secrecy",
-     "items": [
-      "Hidden debt",
-      "Gag clauses"
-     ],
-     "tone": "down"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Now the other side. A 2020 Chatham House study found the projects in Sri Lanka and Malaysia were driven mostly by local governments.",
-   "say": "Now the other side. A twenty twenty Chatham House study found the projects in Sri Lanka and Malaysia were driven mostly by local governments.",
-   "scene": {
-    "t": "news",
-    "headline": "Debunking the myth",
-    "source": "Chatham House, Aug 2020"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "The Hambantota port, for example, was a long-standing dream of Sri Lanka's ruling Rajapaksa family.",
-   "say": "The Hambantota port, for example, was a long-standing dream of Sri Lanka's ruling Rajapaksa family.",
-   "scene": {
-    "t": "building",
-    "kind": "customs",
-    "name": "SRI LANKA PORT",
-    "label": "Local plan",
-    "caption": "Pushed by local leaders"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In 2021, researchers Deborah Brautigam and Meg Rithmire wrote that they'd found no Chinese asset seizures from loans to governments.",
-   "say": "In twenty twenty-one, researchers Deborah Brautigam and Meg Rithmire wrote that they'd found no Chinese asset seizures from loans to governments.",
-   "scene": {
-    "t": "news",
-    "headline": "Debt trap 'a myth'",
-    "source": "The Atlantic, Feb 2021"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Rhodium Group found outright seizures are rare, with Sri Lanka's lease and one case in Tajikistan as the main examples.",
-   "say": "Rhodium Group found outright seizures are rare, with Sri Lanka's lease and one case in Tajikistan as the main examples.",
-   "scene": {
-    "t": "stat",
-    "label": "Asset seizures",
-    "value": "Rare",
-    "tone": "neutral",
-    "sub": "Rhodium, 2019"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So which is it? The evidence points to something less dramatic, but still serious.",
-   "say": "So which is it? The evidence points to something less dramatic, but still serious.",
-   "scene": {
-    "t": "split",
-    "title": "So which is it?",
-    "left": {
-     "title": "Weak proof",
-     "items": [
-      "Grab plan",
-      "Many seizures"
-     ],
-     "tone": "up"
-    },
-    "right": {
-     "title": "Real issues",
-     "items": [
-      "Fast terms",
-      "Secrecy",
-      "Strain"
-     ],
-     "tone": "down"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Researchers find little sign of a master plan to seize assets, and plenty of expensive, secretive loans that strained some borrowers.",
-   "say": "Researchers find little sign of a master plan to seize assets, and plenty of expensive, secretive loans that strained some borrowers.",
-   "scene": {
-    "t": "split",
-    "title": "So which is it?",
-    "left": {
-     "title": "Weak proof",
-     "items": [
-      "Grab plan",
-      "Many seizures"
-     ],
-     "tone": "up"
-    },
-    "right": {
-     "title": "Real issues",
-     "items": [
-      "Fast terms",
-      "Secrecy",
-      "Strain"
-     ],
-     "tone": "down"
-    },
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "China isn't the only reason poor countries struggle. The IMF says about half of low-income countries are at high risk of, or in, debt distress.",
-   "say": "China isn't the only reason poor countries struggle. The I M F says about half of low-income countries are at high risk of, or in, debt distress.",
-   "scene": {
-    "t": "stat",
-    "label": "Low-income nations",
-    "value": "~1 in 2",
-    "tone": "down",
-    "sub": "IMF, 2025"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Bondholders, Western banks and big global lenders lent to these countries too.",
-   "say": "Bondholders, Western banks and big global lenders lent to these countries too.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "us",
-      "mood": "worried",
-      "says": "We lent too"
-     },
-     {
-      "name": "uk",
-      "mood": "worried",
-      "says": "So did we"
-     }
-    ],
-    "caption": "Many lenders, one bill"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "When borrowers got in trouble, China often lent again: $240 billion of rescue lending by the end of 2021, says AidData.",
-   "say": "When borrowers got in trouble, China often lent again: two hundred forty billion dollars of rescue lending by the end of twenty twenty-one, says AidData.",
-   "scene": {
-    "t": "stat",
-    "label": "Rescue lending",
-    "value": "$240B",
-    "tone": "down",
-    "sub": "AidData, to 2021"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Lending to countries in debt distress went from under 5% of China's overseas lending in 2010 to 60% in 2022.",
-   "say": "Lending to countries in debt distress went from under five percent of China's overseas lending in twenty ten to sixty percent in twenty twenty-two.",
-   "scene": {
-    "t": "compare",
-    "title": "Rescue share",
-    "left": {
-     "label": "2010",
-     "value": "<5%",
-     "tone": "neutral",
-     "sub": "of lending"
-    },
-    "right": {
-     "label": "2022",
-     "value": "60%",
-     "tone": "down",
-     "sub": "of lending"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "That's what a lender does when its borrowers are struggling: it lends more just to keep the old loans alive.",
-   "say": "That's what a lender does when its borrowers are struggling: it lends more just to keep the old loans alive.",
-   "scene": {
-    "t": "compare",
-    "title": "Rescue share",
-    "left": {
-     "label": "2010",
-     "value": "<5%",
-     "tone": "neutral",
-     "sub": "of lending"
-    },
-    "right": {
-     "label": "2022",
-     "value": "60%",
-     "tone": "down",
-     "sub": "of lending"
-    },
-    "winner": "right",
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Which brings us to the twist. By 2023, the Lowy Institute says, 60 developing countries paid China more than they got in new loans.",
-   "say": "Which brings us to the twist. By twenty twenty-three, the Lowy Institute says, sixty developing countries paid China more than they got in new loans.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "2023: 60 nations",
-     "paid China more"
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter five: the flip, and your wallet.",
-   "say": "Chapter five: the flip, and your wallet.",
-   "scene": {
-    "t": "chapter",
-    "n": 5,
-    "title": "The flip, and your wallet"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Here's yearly Chinese lending to African governments, from a Boston University database.",
-   "say": "Here's yearly Chinese lending to African governments, from a Boston University database.",
-   "scene": {
-    "t": "chart",
-    "title": "China loans to Africa",
-    "points": [
-     [
-      2020,
-      1.9
-     ],
-     [
-      2021,
-      1.22
-     ],
-     [
-      2022,
-      0.99
-     ],
-     [
-      2023,
-      3.9
-     ],
-     [
-      2024,
-      2.1
-     ]
-    ],
-    "prefix": "$",
-    "suffix": "B",
-    "end": "$2.1B",
-    "color": "down"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It hovered around $1 to $2 billion a year through 2022, then rose to about $3.9 billion in 2023.",
-   "say": "It hovered around one to two billion dollars a year through twenty twenty-two, then rose to about three point nine billion in twenty twenty-three.",
-   "scene": {
-    "t": "chart",
-    "title": "China loans to Africa",
-    "points": [
-     [
-      2020,
-      1.9
-     ],
-     [
-      2021,
-      1.22
-     ],
-     [
-      2022,
-      0.99
-     ],
-     [
-      2023,
-      3.9
-     ],
-     [
-      2024,
-      2.1
-     ]
-    ],
-    "prefix": "$",
-    "suffix": "B",
-    "end": "$2.1B",
-    "color": "down",
-    "chart_note": {
-     "x": 2023,
-     "text": "$3.9B"
-    },
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "By 2024 it had fallen back to about $2.1 billion, spread across just six projects.",
-   "say": "By twenty twenty-four it had fallen back to about two point one billion dollars, spread across just six projects.",
-   "scene": {
-    "t": "chart",
-    "title": "China loans to Africa",
-    "points": [
-     [
-      2020,
-      1.9
-     ],
-     [
-      2021,
-      1.22
-     ],
-     [
-      2022,
-      0.99
-     ],
-     [
-      2023,
-      3.9
-     ],
-     [
-      2024,
-      2.1
-     ]
-    ],
-    "prefix": "$",
-    "suffix": "B",
-    "end": "$2.1B",
-    "color": "down",
-    "chart_note": {
-     "x": 2024,
-     "text": "$2.1B"
-    },
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Compare that with the 2016 peak, when Chinese lenders committed about $28.8 billion to Africa.",
-   "say": "Compare that with the twenty sixteen peak, when Chinese lenders committed about twenty-eight point eight billion dollars to Africa.",
-   "scene": {
-    "t": "compare",
-    "title": "Africa loans",
-    "left": {
-     "label": "2016 peak",
-     "value": "$28.8B",
-     "tone": "neutral",
-     "sub": "BU data"
-    },
-    "right": {
-     "label": "2024",
-     "value": "$2.1B",
-     "tone": "down",
-     "sub": "BU data"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Our math: $2.1 billion is about 7% of that peak. The firehose turned into a garden hose.",
-   "say": "Our math: two point one billion is about seven percent of that peak. The firehose turned into a garden hose.",
-   "scene": {
-    "t": "compare",
-    "title": "Africa loans",
-    "left": {
-     "label": "2016 peak",
-     "value": "$28.8B",
-     "tone": "neutral",
-     "sub": "BU data"
-    },
-    "right": {
-     "label": "2024",
-     "value": "$2.1B",
-     "tone": "down",
-     "sub": "BU data"
-    },
-    "winner": "left",
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Meanwhile, old loans are coming due. The Lowy Institute estimated developing countries owe China about $35 billion in payments in 2025.",
-   "say": "Meanwhile, old loans are coming due. The Lowy Institute estimated developing countries owe China about thirty-five billion dollars in payments in twenty twenty-five.",
-   "scene": {
-    "t": "stat",
-    "label": "Owed to China",
-    "value": "~$35B",
-    "tone": "down",
-    "sub": "2025, Lowy est."
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "A record $22 billion of it comes from the 75 poorest countries: money that can't go to schools or hospitals.",
-   "say": "A record twenty-two billion dollars of it comes from the seventy-five poorest countries: money that can't go to schools or hospitals.",
-   "scene": {
-    "t": "hook",
-    "title": "Poorest [75] pay",
-    "prop": "coins",
-    "label": "2025",
-    "value": "$22B"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "But don't call the Belt and Road dead. It's changing shape.",
-   "say": "But don't call the Belt and Road dead. It's changing shape.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Not dead.",
-     "New shape."
-    ]
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In the first half of 2026, a Griffith Asia Institute report counted about $49.8 billion of Chinese investment and $76.5 billion of building contracts there.",
-   "say": "In the first half of twenty twenty-six, a Griffith Asia Institute report counted about forty-nine point eight billion dollars of Chinese investment and seventy-six point five billion of building contracts there.",
-   "scene": {
-    "t": "compare",
-    "title": "BRI, H1 2026",
-    "left": {
-     "label": "Investment",
-     "value": "$49.8B",
-     "tone": "neutral",
-     "sub": "Jan-Jun 2026"
-    },
-    "right": {
-     "label": "Building",
-     "value": "$76.5B",
-     "tone": "neutral",
-     "sub": "contracts"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Our math: about $126 billion, a record half-year. More of it is green energy, and nearly half is from private firms.",
-   "say": "Our math: about a hundred twenty-six billion dollars, a record half-year. More of it is green energy, and nearly half is from private firms.",
-   "scene": {
-    "t": "compare",
-    "title": "BRI, H1 2026",
-    "left": {
-     "label": "Investment",
-     "value": "$49.8B",
-     "tone": "neutral",
-     "sub": "Jan-Jun 2026"
-    },
-    "right": {
-     "label": "Building",
-     "value": "$76.5B",
-     "tone": "neutral",
-     "sub": "contracts"
-    },
-    "winner": "right",
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "So how does this reach your wallet? Start with that $202 billion into America, mostly loans to companies.",
-   "say": "So how does this reach your wallet? Start with that two hundred two billion dollars into America, mostly loans to companies.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "china",
-      "mood": "happy",
-      "says": "Here you go"
-     },
-     {
-      "name": "us",
-      "mood": "happy",
-      "says": "Thanks, I guess"
-     }
-    ],
-    "caption": "~$202B into the US, 2000-2023"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Next, raw materials. Chinese money helped build mines, railways and ports that move copper and cobalt.",
-   "say": "Next, raw materials. Chinese money helped build mines, railways and ports that move copper and cobalt.",
-   "scene": {
-    "t": "building",
-    "kind": "store",
-    "name": "CONGO MINE",
-    "label": "Copper, cobalt",
-    "caption": "Mines, rails, ports"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Congo mines roughly seven of every ten tons of the world's cobalt, a key metal in phone and electric car batteries.",
-   "say": "Congo mines roughly seven of every ten tons of the world's cobalt, a key metal in phone and electric car batteries.",
-   "scene": {
-    "t": "stat",
-    "label": "Congo cobalt share",
-    "value": "~70%",
-    "tone": "neutral",
-    "sub": "USGS data"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "In 2024, Congo and its Chinese partners revised a mines-for-roads deal: up to $7 billion for infrastructure, tied to copper prices.",
-   "say": "In twenty twenty-four, Congo and its Chinese partners revised a mines-for-roads deal, with up to seven billion dollars for infrastructure, tied to copper prices.",
-   "scene": {
-    "t": "news",
-    "headline": "Mines-for-roads: $7B",
-    "source": "Reuters, Jan-Mar 2024"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "When deals like that work, or stall, it can ripple into metal prices, and into what your phone, car or shipping costs.",
-   "say": "When deals like that work, or stall, it can ripple into metal prices, and into what your phone, car or shipping costs.",
-   "scene": {
-    "t": "list",
-    "title": "Where it shows up",
-    "items": [
-     "Phone battery",
-     "EV battery",
-     "Shipping"
-    ],
-    "reveal": 3
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "There's also a rival offer. In June 2022, the G7 set a goal to mobilize $600 billion for infrastructure by 2027.",
-   "say": "There's also a rival offer. In June twenty twenty-two, the G seven set a goal to mobilize six hundred billion dollars for infrastructure by twenty twenty-seven.",
-   "scene": {
-    "t": "countries",
-    "cast": [
-     {
-      "name": "us",
-      "mood": "happy",
-      "says": "Our offer"
-     },
-     {
-      "name": "japan",
-      "mood": "happy",
-      "says": "Count us in"
-     },
-     {
-      "name": "canada",
-      "mood": "happy",
-      "says": "Same"
-     }
-    ],
-    "caption": "G7: $600B goal by 2027"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "It's called the Partnership for Global Infrastructure and Investment. The US pledged $200 billion of it.",
-   "say": "It's called the Partnership for Global Infrastructure and Investment. The US pledged two hundred billion dollars of it.",
-   "scene": {
-    "t": "stat",
-    "label": "US share of PGII",
-    "value": "$200B",
-    "tone": "neutral",
-    "sub": "White House, 2022"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Its flagship is the Lobito Corridor, a railway linking Africa's copper belt to an Atlantic port in Angola.",
-   "say": "Its flagship is the Lobito Corridor, a railway linking Africa's copper belt to an Atlantic port in Angola.",
-   "scene": {
-    "t": "building",
-    "kind": "customs",
-    "name": "LOBITO PORT",
-    "label": "Copper rail",
-    "caption": "Angola's Atlantic port"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Which you prefer is a political call. The money fact: two big camps now compete to finance the world's roads and ports.",
-   "say": "Which you prefer is a political call. The money fact: two big camps now compete to finance the world's roads and ports.",
-   "scene": {
-    "t": "split",
-    "title": "Two offers",
-    "left": {
-     "title": "China",
-     "items": [
-      "Fast loans",
-      "Builders"
-     ],
-     "tone": "neutral"
-    },
-    "right": {
-     "title": "G7",
-     "items": [
-      "Grants, loans",
-      "Private money"
-     ],
-     "tone": "neutral"
-    }
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Competition can give borrowers more options, or pile on more debt. The terms decide which.",
-   "say": "Competition can give borrowers more options, or pile on more debt. The terms decide which.",
-   "scene": {
-    "t": "split",
-    "title": "Two offers",
-    "left": {
-     "title": "China",
-     "items": [
-      "Fast loans",
-      "Builders"
-     ],
-     "tone": "neutral"
-    },
-    "right": {
-     "title": "G7",
-     "items": [
-      "Grants, loans",
-      "Private money"
-     ],
-     "tone": "neutral"
-    },
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Chapter six: the recap.",
-   "say": "Chapter six: the recap.",
-   "scene": {
-    "t": "chapter",
-    "n": 6,
-    "title": "The recap"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "One: the Belt and Road began in 2013, and AidData counted $843 billion of projects by 2021.",
-   "say": "One: the Belt and Road began in twenty thirteen, and AidData counted eight hundred forty-three billion dollars of projects by twenty twenty-one.",
-   "scene": {
-    "t": "list",
-    "title": "Recap",
-    "items": [
-     "Since 2013",
-     "Fast loans",
-     "Mixed record",
-     "Flows back"
-    ],
-    "reveal": 1
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Two: the loans cost more and were repaid faster than aid loans, often secured and secret.",
-   "say": "Two: the loans cost more and were repaid faster than aid loans, often secured and secret.",
-   "scene": {
-    "t": "list",
-    "title": "Recap",
-    "items": [
-     "Since 2013",
-     "Fast loans",
-     "Mixed record",
-     "Flows back"
-    ],
-    "reveal": 2,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Three: Sri Lanka, Zambia and Kenya show real strain, but researchers find little proof of a plan to seize assets.",
-   "say": "Three: Sri Lanka, Zambia and Kenya show real strain, but researchers find little proof of a plan to seize assets.",
-   "scene": {
-    "t": "list",
-    "title": "Recap",
-    "items": [
-     "Since 2013",
-     "Fast loans",
-     "Mixed record",
-     "Flows back"
-    ],
-    "reveal": 3,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Four: new lending has shrunk, repayments to China hit an estimated $35 billion in 2025, and investment is taking over.",
-   "say": "Four: new lending has shrunk, repayments to China hit an estimated thirty-five billion dollars in twenty twenty-five, and investment is taking over.",
-   "scene": {
-    "t": "list",
-    "title": "Recap",
-    "items": [
-     "Since 2013",
-     "Fast loans",
-     "Mixed record",
-     "Flows back"
-    ],
-    "reveal": 4,
-    "keep": true
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And the biggest single recipient of all that Chinese state money? Not a Belt and Road country. America.",
-   "say": "And the biggest single recipient of all that Chinese state money? Not a Belt and Road country. America.",
-   "scene": {
-    "t": "hook",
-    "title": "Number one: [America]",
-    "prop": "bag",
-    "label": "LOANS",
-    "value": "$202B",
-    "mood": "happy"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "Like any loan, the terms matter more than the headline. For countries, and for you.",
-   "say": "Like any loan, the terms matter more than the headline. For countries, and for you.",
-   "scene": {
-    "t": "board",
-    "lines": [
-     "Read the terms.",
-     "Always."
-    ],
-    "mood": "think"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "If this made the world economy click a little more, subscribe for more World Money.",
-   "say": "If this made the world economy click a little more, subscribe for more World Money.",
-   "scene": {
-    "t": "cta",
-    "tagline": "World Money, one country at a time"
-   }
   }
- ],
- "post": {
-  "title": "China's state lenders sent more money to the US than anywhere else. Here's the Belt and Road.",
-  "ig": "China's state lenders sent about $202 billion to the US from 2000 to 2023. Here's how China lends to the world.",
-  "tiktok": "China's biggest borrower isn't Sri Lanka or Pakistan. It's America. Here's how the Belt and Road really works.",
-  "yt_desc": "From 2000 to 2023, China's state lenders and donors committed about $2.2 trillion worldwide, and the single biggest recipient was the United States, at nearly $202 billion, according to AidData. This video explains the Belt and Road Initiative: how China's policy banks lend, why a 4.2% loan repaid in under 10 years squeezes a budget (with our worked example), and what really happened in Sri Lanka, Zambia, Kenya and Pakistan. We lay out both sides of the debt-trap debate, show how China went from top lender to top debt collector, and follow the money to your wallet: cobalt in your batteries, Chinese state loans to US companies, and the G7's $600 billion infrastructure plan.\n\nCHAPTERS\n\nSources: AidData, Chasing China (Nov 2025) and Banking on the Belt and Road (Sept 2021); AidData, Kiel Institute, CGD and PIIE, How China Lends (March 2021); Horn, Parks, Reinhart and Trebesch, China as an International Lender of Last Resort (March 2023); Boston University Global Development Policy Center, Chinese Loans to Africa Database (2022-2025 updates); Lowy Institute, Peak Repayment (May 2025); Griffith Asia Institute / Green Finance & Development Center, BRI Investment Report 2026 H1 (July 2026); Chatham House (Aug 2020); The Atlantic (Feb 2021); Rhodium Group (2019); IMF (Oct 2025); The Diplomat (Jan 2020); Reuters (2020-2024); Bloomberg (Oct 2025); USGS; White House PGII fact sheets (2022, 2024).\n\nNews and education, not financial advice.\n\n#BeltAndRoad #China #economics",
-  "tags": [
-   "Belt and Road",
-   "China",
-   "debt trap",
-   "Sri Lanka",
-   "Zambia",
-   "Kenya",
-   "world economy",
-   "AidData"
-  ]
- }
 }
