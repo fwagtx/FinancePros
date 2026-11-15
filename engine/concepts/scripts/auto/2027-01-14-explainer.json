@@ -1,0 +1,227 @@
+{
+ "id": "2027-01-14-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Broker fees:\nwho pays the broker?",
+ "cover": {
+  "title": "The Broker Fee",
+  "prop": "tag",
+  "label": "rent",
+  "value": "15%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Some New York renters paid 15% of a year's rent upfront.",
+   "say": "Some New York renters paid fifteen percent of a year's rent upfront.",
+   "scene": {
+    "t": "hook",
+    "title": "The [broker] fee",
+    "prop": "tag",
+    "label": "FEE",
+    "value": "15%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The norm: one month's rent to 15%, often paid even to the landlord's broker.",
+   "say": "The norm: one month's rent to fifteen percent, often paid even to the landlord's broker.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "NYC, pre-June 2025",
+     "Tenant paid fee"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add rent and deposit, and StreetEasy put fee listings at $12,951 upfront by late 2024.",
+   "say": "Add rent and deposit, and StreetEasy put fee listings near thirteen thousand upfront by late twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "NYC upfront cost, fee units (2024 YTD)",
+    "points": [
+     [
+      2017,
+      10007
+     ],
+     [
+      2018,
+      9741
+     ],
+     [
+      2019,
+      9984
+     ],
+     [
+      2020,
+      9835
+     ],
+     [
+      2021,
+      9201
+     ],
+     [
+      2022,
+      11793
+     ],
+     [
+      2023,
+      12667
+     ],
+     [
+      2024,
+      12951
+     ]
+    ],
+    "prefix": "$",
+    "end": "$12,951",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By our math, 12% of a year at $3,500 a month is $5,040.",
+   "say": "By our math, twelve percent of a year at thirty-five hundred a month is five thousand forty.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Rent a month",
+     "value": "$3,500"
+    },
+    "to": {
+     "label": "12% of a year",
+     "value": "$5,040"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, on June 11, 2025, New York City's FARE Act made whoever hires the broker pay.",
+   "say": "Then, on June eleventh, twenty twenty-five, New York City's FARE Act made whoever hires the broker pay.",
+   "scene": {
+    "t": "timeline",
+    "title": "Who pays now",
+    "events": [
+     [
+      "11/24",
+      "NYC passes FARE"
+     ],
+     [
+      "6/25",
+      "Hirer pays"
+     ],
+     [
+      "8/25",
+      "Mass. follows"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Massachusetts followed on August 1, 2025.",
+   "say": "Massachusetts followed on August first, twenty twenty-five.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "title": "Who pays now",
+    "events": [
+     [
+      "11/24",
+      "NYC passes FARE"
+     ],
+     [
+      "6/25",
+      "Hirer pays"
+     ],
+     [
+      "8/25",
+      "Mass. follows"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The trade-off? As of May 2026, StreetEasy put rents up about $46 a month, against about $5,862 saved upfront.",
+   "say": "The trade-off? As of May twenty twenty-six, StreetEasy put rents up about forty-six dollars a month, against about fifty-nine hundred saved upfront.",
+   "scene": {
+    "t": "compare",
+    "title": "StreetEasy",
+    "left": {
+     "label": "Rent bump",
+     "value": "+$46",
+     "tone": "down",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Saved upfront",
+     "value": "$5,862",
+     "tone": "up",
+     "sub": "May 2026"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still, the city got over 2,000 complaints and inquiries in year one.",
+   "say": "Still, the city got over two thousand complaints and inquiries in year one.",
+   "scene": {
+    "t": "stat",
+    "label": "FARE complaints",
+    "value": "2,000+",
+    "tone": "down",
+    "sub": "Year 1, NYC DCWP",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before paying: ask who hired the broker, get fees in writing, check local rules.",
+   "say": "Before paying: ask who hired the broker, get fees in writing, check local rules.",
+   "scene": {
+    "t": "list",
+    "title": "Before you pay",
+    "items": [
+     "Who hired?",
+     "Get it written",
+     "Local rules"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why NYC renters paid 15% of a year's rent to a broker",
+  "ig": "Before June 11, 2025, New York City renters often paid a broker fee of one month's rent up to 15% of a year's rent, even when the landlord hired the broker.\nStreetEasy: upfront costs on NYC fee listings averaged $12,951 in 2024 (year to date, reported Dec 2024).\nNYC's FARE Act (in effect June 11, 2025) and a Massachusetts state law (Aug 1, 2025): whoever hires the broker pays.\nStreetEasy (May 2026): rents on broker-represented units about $46 a month higher (~1.1%), versus an average $5,862 broker fee avoided upfront. Our math: 12% of a year's rent at $3,500 a month is $5,040.\nNYC DCWP logged 2,000+ FARE Act complaints and inquiries in the law's first year (The Real Deal, June 2026).\nSources: NYC DCWP, StreetEasy, Mass.gov, Boston.gov, The Real Deal.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#renting #brokerfee #nyc #personalfinance #financeprostv",
+  "tiktok": "NYC broker fees once hit 15% of a year's rent. Now whoever hires the broker pays. Not financial advice. #moneytok #personalfinance #financeprostv",
+  "yt_desc": "Before New York City's FARE Act took effect on June 11, 2025, NYC renters often paid broker fees of one month's rent up to 15% of annual rent, and StreetEasy put upfront costs on fee listings at $12,951 in 2024 (year to date). Now in NYC, and in Massachusetts since Aug 1, 2025, whoever hires the broker pays. StreetEasy (May 2026) estimated about $46 a month in higher rent versus $5,862 in broker fees avoided upfront. Sources: NYC DCWP, StreetEasy, Mass.gov, Boston.gov, The Real Deal. News and education, not financial advice. #Shorts #renting #personalfinance",
+  "tags": [
+   "broker fee",
+   "FARE Act",
+   "NYC apartment",
+   "renting tips",
+   "personal finance explained"
+  ]
+ }
+}
