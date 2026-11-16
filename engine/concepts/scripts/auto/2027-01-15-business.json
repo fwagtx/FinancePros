@@ -1,0 +1,234 @@
+{
+ "id": "2027-01-15-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Apartments Make\nMoney on Fees",
+ "cover": {
+  "title": "Beyond Base Rent",
+  "prop": "house",
+  "label": "OTHER",
+  "value": "$174M"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Camden's 2025 revenue beyond base rent: nearly $174 million.",
+   "say": "Camden's twenty twenty-five revenue beyond base rent: nearly a hundred seventy-four million.",
+   "scene": {
+    "t": "hook",
+    "title": "Beyond Base [Rent]",
+    "prop": "house",
+    "label": "OTHER",
+    "value": "$173.6M",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Camden is an apartment landlord with 58,759 homes.",
+   "say": "Camden's an apartment landlord with about fifty-nine thousand homes.",
+   "scene": {
+    "t": "stat",
+    "label": "Camden apartments",
+    "value": "58,759",
+    "tone": "neutral",
+    "sub": "Q4 2025 release",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its filings say that's utility rebills plus other fees, not pure profit.",
+   "say": "Its filings say that's utility rebills plus other fees, not pure profit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Utility rebills",
+     "+ other fees"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It grew from $120.8 million in 2020, partly because Camden added homes.",
+   "say": "It grew from about a hundred twenty-one million in twenty twenty, partly because Camden added homes.",
+   "scene": {
+    "t": "chart",
+    "title": "Non-rent revenue",
+    "points": [
+     [
+      2020,
+      120.8
+     ],
+     [
+      2021,
+      134.4
+     ],
+     [
+      2022,
+      156.8
+     ],
+     [
+      2023,
+      168.0
+     ],
+     [
+      2024,
+      167.8
+     ],
+     [
+      2025,
+      173.6
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$173.6M",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 11% of its 2025 property revenue, by our math.",
+   "say": "That's about eleven percent of its twenty twenty-five property revenue, by our math.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Non-rent revenue",
+    "points": [
+     [
+      2020,
+      120.8
+     ],
+     [
+      2021,
+      134.4
+     ],
+     [
+      2022,
+      156.8
+     ],
+     [
+      2023,
+      168.0
+     ],
+     [
+      2024,
+      167.8
+     ],
+     [
+      2025,
+      173.6
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$173.6M",
+    "color": "up",
+    "mood": "shock",
+    "note": {
+     "x": 2025,
+     "text": "11%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: that averages about $246 a month per home.",
+   "say": "Our math: that averages about two hundred forty-six dollars a month per home.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$173.6M/58,759/12",
+     "= ~$246/mo avg"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A separate company, Greystar, agreed in Dec. 2025 to pay $24 million to settle hidden-fee allegations.",
+   "say": "A separate company, Greystar, agreed in December twenty twenty-five to pay twenty-four million to settle hidden-fee allegations.",
+   "scene": {
+    "t": "news",
+    "headline": "Greystar to pay $24M",
+    "source": "FTC, Dec. 2, 2025",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC alleged its ads left out mandatory fees like valet trash and smart home packages. Greystar denied wrongdoing.",
+   "say": "The FTC alleged its ads left out mandatory fees like valet trash and smart home packages. Greystar denied wrongdoing.",
+   "scene": {
+    "t": "list",
+    "title": "Mandatory fees",
+    "items": [
+     "Valet trash",
+     "Package fees",
+     "Smart home"
+    ],
+    "reveal": 3,
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One renter quoted just over $1,000 said they paid about $1,400.",
+   "say": "One renter quoted just over a thousand dollars said they paid about fourteen hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "One renter",
+    "left": {
+     "label": "Quoted",
+     "value": "$1,000",
+     "tone": "neutral",
+     "sub": "just over"
+    },
+    "right": {
+     "label": "Paid",
+     "value": "$1,400",
+     "tone": "down",
+     "sub": "FTC complaint"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Real price: total monthly cost, not base rent.",
+   "say": "Real price: total monthly cost, not base rent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Total monthly",
+     "> base rent"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How apartment landlords make millions beyond base rent",
+  "ig": "Camden collected $173.6 million beyond base rent in 2025.\nThe apartment landlord (58,759 homes) books it as other services, including $46.9M of utility rebilling plus other fees: about 11% of its 2025 property revenue, up from $120.8M in 2020.\nOur math: $173.6M / 58,759 homes = roughly $246 a month per home, on average (rough average; includes utility pass-throughs).\nSeparately (Camden is not part of this case): in Dec. 2025, Greystar, a different company, agreed to pay $24M to settle FTC and Colorado charges that its ads hid mandatory fees like valet trash and smart home packages. Greystar denied wrongdoing.\nSources: Camden Q4 2025 and earlier earnings releases (SEC filings), FTC press releases (Jan. 16 and Dec. 2, 2025).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#apartments #renting #junkfees #howtheymakemoney #financeprostv",
+  "tiktok": "Camden collected $173.6M beyond base rent in 2025, incl. utility rebills and fees. Not financial advice. #renting #apartments #financeprostv",
+  "yt_desc": "Apartment landlord Camden collected $173.6 million in 2025 from non-rent services, including utility rebills and other fees, about 11% of its property revenue (Camden Q4 2025 release). Separately, in December 2025, Greystar, a different company not connected to Camden, agreed to pay $24 million to settle FTC and Colorado charges that it advertised rents without mandatory fees (FTC); Greystar denied wrongdoing. News and education, not financial advice. #Shorts #renting #apartments",
+  "tags": [
+   "apartment fees",
+   "junk fees rent",
+   "how landlords make money",
+   "greystar ftc settlement",
+   "how they make money"
+  ]
+ }
+}
