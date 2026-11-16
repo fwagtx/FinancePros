@@ -1,0 +1,171 @@
+{
+ "id": "2026-11-16-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "China and Japan\nShoppers Pull Back",
+ "cover": {
+  "title": "Sales Stall",
+  "prop": "store",
+  "label": "CHINA",
+  "value": "+0.4%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "China's retail sales grew just 0.4% from last October.",
+   "say": "China's retail sales grew just zero point four percent from last October.",
+   "scene": {
+    "t": "hook",
+    "title": "China Sales [Stall]",
+    "prop": "store",
+    "label": "CHINA",
+    "value": "+0.4%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the October number, out overnight, and it missed forecasts. Japan's economy shrank too.",
+   "say": "That's the October number, out overnight, and it missed forecasts. Japan's economy shrank too.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "china",
+      "mood": "sad",
+      "says": "Sales +0.4%"
+     },
+     {
+      "name": "japan",
+      "mood": "worried",
+      "says": "GDP -0.1%"
+     }
+    ],
+    "caption": "Both missed forecasts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sales growth slowed from 1.1% in September to 0.4% in October, below the roughly 0.8% economists expected.",
+   "say": "Sales growth slowed from one point one percent in September to zero point four in October, below the roughly zero point eight percent economists expected.",
+   "scene": {
+    "t": "compare",
+    "title": "Sales y/y",
+    "left": {
+     "label": "September",
+     "value": "+1.1%",
+     "tone": "neutral",
+     "sub": "China, 2026"
+    },
+    "right": {
+     "label": "October",
+     "value": "+0.4%",
+     "tone": "down",
+     "sub": "China, 2026"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Japan's economy shrank at a 0.1% annual pace from July to September, its first drop in a year.",
+   "say": "Japan's economy shrank at a zero point one percent annual pace from July to September, its first drop in a year.",
+   "scene": {
+    "t": "stat",
+    "label": "Japan GDP, Q3",
+    "value": "-0.1%",
+    "tone": "down",
+    "sub": "Annualized pace",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The weak spot in both? Shoppers. Japanese consumer spending fell 0.3% last quarter, a second straight drop.",
+   "say": "The weak spot in both? Shoppers. Japanese consumer spending fell zero point three percent last quarter, a second straight drop.",
+   "scene": {
+    "t": "split",
+    "title": "Weak spot",
+    "left": {
+     "title": "China",
+     "items": [
+      "Sales +0.4%",
+      "Missed 0.8%"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Japan",
+     "items": [
+      "Spending -0.3%",
+      "2nd drop"
+     ],
+     "tone": "down"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Reports blame high prices squeezing households, plus heavy rain and typhoons during the quarter.",
+   "say": "Reports blame high prices squeezing households, plus heavy rain and typhoons during the quarter.",
+   "scene": {
+    "t": "list",
+    "title": "Why Japan cut back",
+    "items": [
+     "High prices",
+     "Heavy rain",
+     "Typhoons"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why it matters here: in the US, consumer spending is about two-thirds of the economy.",
+   "say": "Why it matters here: in the US, consumer spending is about two-thirds of the economy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "US economy:",
+     "~2/3 is spending"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Takeaway: factories grab headlines, but shoppers are the engine of an economy.",
+   "say": "Takeaway: factories grab headlines, but shoppers are the engine of an economy.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "Sales +0.4%",
+    "caption": "Shoppers = engine",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "China's retail sales grew just 0.4%. Japan shrank too",
+  "ig": "China's retail sales grew just 0.4% from last October.\nChina's October retail sales rose 0.4% year on year, down from 1.1% in September and below the roughly 0.8% economists expected (National Bureau of Statistics, released Nov 16, 2026).\nJapan's economy shrank at a 0.1% annualized pace in July-September, its first contraction in a year, as private consumption fell 0.3% from the prior quarter, a second straight quarterly drop (Cabinet Office).\nIn the US, consumer spending is about two-thirds of the economy (BEA data via FRED).\nSources: China NBS, Japan Cabinet Office, Reuters, Euronews, ING, FRED (Nov 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#china #japan #economy #personalfinance #financeprostv",
+  "tiktok": "China's retail sales grew just 0.4% from last October. Japan shrank too. #moneytok #personalfinance #china #financeprostv Not financial advice.",
+  "yt_desc": "China's October retail sales rose just 0.4% from a year earlier, missing forecasts, and Japan's economy shrank at a 0.1% annualized pace in Q3 as consumer spending fell. We explain why shoppers are the engine of an economy. Sources: China NBS, Japan Cabinet Office, Reuters, FRED. News and education, not financial advice. #Shorts #economy #china",
+  "tags": [
+   "china retail sales",
+   "japan gdp",
+   "consumer spending",
+   "global economy",
+   "economy news"
+  ]
+ }
+}
