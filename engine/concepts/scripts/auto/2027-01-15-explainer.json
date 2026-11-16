@@ -1,0 +1,240 @@
+{
+ "id": "2027-01-15-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Free trials:\nbuilt to be forgotten?",
+ "cover": {
+  "title": "Free Trial Trap",
+  "prop": "card",
+  "label": "SUBS",
+  "value": "$219/m"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The FTC says Amazon called its Prime cancel flow \"Iliad.\"",
+   "say": "The FTC says Amazon called its Prime cancel flow Iliad.",
+   "scene": {
+    "t": "hook",
+    "title": "The [Iliad] exit",
+    "prop": "card",
+    "label": "PRIME",
+    "value": "ILIAD",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Signing up: 1 or 2 clicks. Canceling: 4 pages, 6 clicks, 15 options.",
+   "say": "Signing up: one or two clicks. Canceling: four pages, six clicks, fifteen options.",
+   "scene": {
+    "t": "split",
+    "title": "FTC complaint",
+    "left": {
+     "title": "Sign up",
+     "items": [
+      "1-2 clicks"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Cancel",
+     "items": [
+      "4 pages",
+      "6 clicks",
+      "15 options"
+     ],
+     "tone": "down"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many free trials work like this: $0 now, card saved, auto-pay later.",
+   "say": "Many free trials work like this: zero dollars now, card saved, auto-pay later.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$0 now, card saved",
+     "auto-pay later"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 2022 C+R survey: people guessed $86 a month on subscriptions. Itemized: $219.",
+   "say": "A twenty twenty-two C plus R survey: people guessed eighty-six dollars a month on subscriptions. Itemized: two nineteen.",
+   "scene": {
+    "t": "compare",
+    "title": "C+R, 2022",
+    "left": {
+     "label": "Guessed",
+     "value": "$86",
+     "tone": "neutral",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "$219",
+     "tone": "down",
+     "sub": "per month"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CNET, 2026: $252 a year on unused subscriptions.",
+   "say": "CNET, twenty twenty-six: two fifty-two a year on unused subscriptions.",
+   "scene": {
+    "t": "stat",
+    "label": "Unused subs/year",
+    "value": "$252",
+    "tone": "down",
+    "sub": "CNET/YouGov 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prime's yearly fee went from $79 to $139 by 2022.",
+   "say": "Prime's yearly fee went from seventy-nine dollars to one thirty-nine by twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "title": "Prime fee/year",
+    "points": [
+     [
+      2006,
+      79
+     ],
+     [
+      2010,
+      79
+     ],
+     [
+      2014,
+      99
+     ],
+     [
+      2018,
+      119
+     ],
+     [
+      2022,
+      139
+     ]
+    ],
+    "prefix": "$",
+    "end": "$139",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By our math, forgetting $14.99 monthly costs $179.88 a year.",
+   "say": "By our math, forgetting fourteen ninety-nine monthly costs about one eighty a year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per month",
+     "value": "$14.99"
+    },
+    "to": {
+     "label": "12 months",
+     "value": "$179.88"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A court voided the FTC's click-to-cancel rule in July 2025. Amazon settled for $2.5 billion, admitting no wrongdoing.",
+   "say": "A court voided the FTC's click-to-cancel rule in July twenty twenty-five. Amazon settled for two point five billion, admitting no wrongdoing.",
+   "scene": {
+    "t": "timeline",
+    "title": "Cancel rules",
+    "events": [
+     [
+      "7/25",
+      "Court voids rule"
+     ],
+     [
+      "9/25",
+      "Amazon: $2.5B"
+     ],
+     [
+      "3/26",
+      "FTC restarts"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of November 2026, the FTC is reconsidering it. California requires click-to-cancel.",
+   "say": "As of November twenty twenty-six, the FTC is reconsidering it. California requires click-to-cancel.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "title": "Cancel rules",
+    "events": [
+     [
+      "7/25",
+      "Court voids rule"
+     ],
+     [
+      "9/25",
+      "Amazon: $2.5B"
+     ],
+     [
+      "3/26",
+      "FTC restarts"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fix is boring: alarm the end date, check statements.",
+   "say": "The fix is boring: alarm the end date, check statements.",
+   "scene": {
+    "t": "list",
+    "title": "Beat the trap",
+    "items": [
+     "End-date alarm",
+     "Statements"
+    ],
+    "reveal": 2,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Why free trials are built to be forgotten",
+  "ig": "The FTC says Amazon called its Prime cancel flow \"Iliad\" and alleged it took 4 pages, 6 clicks, 15 options to cancel, versus 1-2 clicks to sign up (FTC complaint, 2023).\nC+R Research (spring 2022): people guessed $86 a month on subscriptions; itemized, it was $219.\nCNET/YouGov (2026): about $252 a year spent on unused subscriptions.\nPrime's annual fee: $79 (2005) to $139 (2022), still $139 as of Nov 2026. Our math: a forgotten $14.99-a-month plan costs $179.88 a year.\nRules: California click-to-cancel (July 1, 2025); FTC click-to-cancel rule vacated by the 8th Circuit (July 2025); Amazon's $2.5B FTC settlement under ROSCA, no admission of wrongdoing (Sept 2025); FTC restarted rulemaking (March 2026; no proposed rule as of Nov 2026).\nSources: FTC, C+R Research, CNET/YouGov, Kiplinger, California AB 2863.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#freetrial #subscriptions #budgeting #personalfinance #financeprostv",
+  "tiktok": "FTC: Amazon called its Prime cancel flow \"Iliad.\" Amazon admits no wrongdoing. Not financial advice. #moneytok #freetrial #financeprostv",
+  "yt_desc": "The FTC says Amazon's Prime cancel flow, internally called \"Iliad,\" took 4 pages, 6 clicks and 15 options; Amazon settled for $2.5 billion in September 2025 without admitting wrongdoing. Surveys show we forget: C+R Research (2022) found people guessed $86 a month on subscriptions versus $219 itemized, and CNET/YouGov (2026) put unused-subscription spending at $252 a year. Sources: FTC, C+R Research, CNET/YouGov, Kiplinger, California AB 2863. News and education, not financial advice. #Shorts #subscriptions #personalfinance",
+  "tags": [
+   "free trial",
+   "auto renewal",
+   "click to cancel",
+   "subscriptions",
+   "personal finance explained"
+  ]
+ }
+}
