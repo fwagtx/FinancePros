@@ -1,0 +1,240 @@
+{
+ "id": "2027-01-16-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "GDP: what it counts\nand what it misses",
+ "cover": {
+  "title": "What GDP Misses",
+  "prop": "house",
+  "label": "LAWN",
+  "value": "$0"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Mowing your own lawn? GDP values it at $0.",
+   "say": "Mowing your own lawn? GDP values it at zero.",
+   "scene": {
+    "t": "hook",
+    "title": "Your work counts [zero]",
+    "prop": "house",
+    "label": "LAWN",
+    "value": "$0",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "GDP adds up the market value of the final goods and services a country produces.",
+   "say": "GDP adds up the market value of the final goods and services a country produces.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "GDP = market value",
+     "of final output"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025, US GDP was about $30.9 trillion.",
+   "say": "In twenty twenty-five, US GDP was about thirty point nine trillion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "US GDP, 2025",
+    "value": "$30.9T",
+    "tone": "up",
+    "sub": "BEA, Sept 2026",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After inflation, it grew 2.3% in 2025.",
+   "say": "After inflation, it grew two point three percent in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Real GDP growth",
+    "points": [
+     [
+      2019,
+      2.6
+     ],
+     [
+      2020,
+      -2.1
+     ],
+     [
+      2021,
+      6.3
+     ],
+     [
+      2022,
+      2.4
+     ],
+     [
+      2023,
+      2.9
+     ],
+     [
+      2024,
+      3.0
+     ],
+     [
+      2025,
+      2.3
+     ]
+    ],
+    "suffix": "%",
+    "end": "2.3%",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The only drop here was 2020, the pandemic year: -2.1%.",
+   "say": "The only drop here was twenty twenty, the pandemic year: minus two point one percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Real GDP growth",
+    "points": [
+     [
+      2019,
+      2.6
+     ],
+     [
+      2020,
+      -2.1
+     ],
+     [
+      2021,
+      6.3
+     ],
+     [
+      2022,
+      2.4
+     ],
+     [
+      2023,
+      2.9
+     ],
+     [
+      2024,
+      3.0
+     ],
+     [
+      2025,
+      2.3
+     ]
+    ],
+    "suffix": "%",
+    "end": "2.3%",
+    "color": "up",
+    "mood": "worried",
+    "note": {
+     "x": 2020,
+     "text": "-2.1%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before the inflation adjustment, our math says it grew about 5%, so over half was higher prices.",
+   "say": "Before the inflation adjustment, our math says it grew about five percent, so over half was higher prices.",
+   "scene": {
+    "t": "compare",
+    "title": "2025 GDP",
+    "left": {
+     "label": "Nominal",
+     "value": "5%",
+     "tone": "neutral",
+     "sub": "our math"
+    },
+    "right": {
+     "label": "Real",
+     "value": "2.3%",
+     "tone": "up",
+     "sub": "BEA"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "GDP counts paid work, like a hired lawn crew or crash repairs, but it misses unpaid chores, free time and pollution.",
+   "say": "GDP counts paid work, like a hired lawn crew or crash repairs, but it misses unpaid chores, free time and pollution.",
+   "scene": {
+    "t": "split",
+    "title": "GDP sees",
+    "left": {
+     "title": "Counts",
+     "items": [
+      "Paid lawn care",
+      "Crash repairs"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Misses",
+     "items": [
+      "Unpaid chores",
+      "Free time",
+      "Pollution"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A government study found unpaid home work would have added about 26% to 2010 GDP.",
+   "say": "A government study found unpaid home work would have added about twenty-six percent to twenty ten GDP.",
+   "scene": {
+    "t": "stat",
+    "label": "2010 GDP boost",
+    "value": "+26%",
+    "tone": "neutral",
+    "sub": "BEA, 2012 study",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "National income pioneer Simon Kuznets warned in 1934: it measures size, not well-being.",
+   "say": "National income pioneer Simon Kuznets warned in nineteen thirty-four: it measures size, not well-being.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Size, not",
+     "well-being"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "GDP: what it counts and the work it misses",
+  "ig": "Mow your own lawn and GDP values that work at $0. Hire a crew and it counts.\nUS GDP was $30.86 trillion in 2025, about $30.9 trillion (BEA, as revised Sept 2026).\nReal growth was 2.3% in 2025; before the inflation adjustment, about 5% (our math), so over half of nominal growth was higher prices.\nA 2012 BEA study found unpaid household work would have added about 26% to GDP in 2010.\nGDP measures the size of an economy, not well-being.\nSources: BEA (via FRED), BEA Survey of Current Business (2012).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gdp #economics #moneyexplained #personalfinance #financeprostv",
+  "tiktok": "Mow your own lawn: GDP values it at $0. What GDP measures and misses. Not financial advice. #moneytok #personalfinance #gdp #economics #financeprostv",
+  "yt_desc": "GDP adds up the market value of final goods and services: US GDP was $30.86 trillion in 2025, with real growth of 2.3% (BEA, as revised September 2026). It misses unpaid work: a 2012 BEA study found household production would have added about 26% to GDP in 2010. Sources: BEA, FRED, BEA Survey of Current Business. News and education, not financial advice. #Shorts #gdp #economics",
+  "tags": [
+   "gdp explained",
+   "what is gdp",
+   "real vs nominal gdp",
+   "economics basics",
+   "unpaid work"
+  ]
+ }
+}

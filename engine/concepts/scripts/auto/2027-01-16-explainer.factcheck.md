@@ -40,3 +40,7 @@ Cover ("What GDP Misses", LAWN, $0) is paid off by lines 0, 6 and 7. Chart lines
 `python3 check.py 2027-01-16-explainer` -> OK: 10 lines, 138 spoken words, hook 9 words.
 
 VERDICT: PASS
+
+## Round 2 (editor)
+Reviewed applied fixes: hook 9 words and accurate (labor valued at $0), screen values match speech, study year vs data year clarified, Kuznets wording softened.
+VERDICT: PASS
