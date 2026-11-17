@@ -1,0 +1,155 @@
+{
+  "series": "ticker",
+  "header": "Builders Are\nCutting Prices",
+  "cover": {
+    "title": "Home Price Cuts",
+    "prop": "house",
+    "label": "SALE",
+    "value": "46%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "46% of home builders just cut their prices.",
+      "say": "Forty-six percent of home builders just cut their prices.",
+      "scene": {
+        "t": "hook",
+        "title": "Builders [cut] prices",
+        "prop": "house",
+        "label": "SALE",
+        "value": "46%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's from a builder survey out today. Their confidence index fell to 25, the lowest since 2012.",
+      "say": "That's from a builder survey out today. Their confidence index fell to twenty-five, the lowest since twenty twelve.",
+      "scene": {
+        "t": "stat",
+        "label": "Builder mood",
+        "value": "25",
+        "tone": "down",
+        "sub": "Lowest since 2012",
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "It was 34 in July. Anything under 50 means more builders see bad conditions than good.",
+      "say": "It was thirty-four in July. Anything under fifty means more builders see bad conditions than good.",
+      "scene": {
+        "t": "chart",
+        "title": "Builder mood 2026",
+        "points": [
+          [
+            "Jul",
+            34
+          ],
+          [
+            "Aug",
+            35
+          ],
+          [
+            "Sep",
+            32
+          ],
+          [
+            "Oct",
+            29
+          ],
+          [
+            "Nov",
+            25
+          ]
+        ],
+        "end": "25",
+        "color": "down"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The problem is buyers. Buyer traffic fell to 16, the weakest in 15 years if you skip the start of the pandemic.",
+      "say": "The problem is buyers. Buyer traffic fell to sixteen, the weakest in fifteen years if you skip the start of the pandemic.",
+      "scene": {
+        "t": "stat",
+        "label": "Buyer traffic",
+        "value": "16",
+        "tone": "down",
+        "sub": "Ex-2020: 15-yr low",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "A big reason? The average 30-year mortgage rate hit 7.51% Monday, versus 6.38% a year ago.",
+      "say": "A big reason? The average thirty-year mortgage rate hit seven point five one percent Monday, versus six point three eight percent a year ago.",
+      "scene": {
+        "t": "compare",
+        "title": "30-yr rate",
+        "left": {
+          "label": "A year ago",
+          "value": "6.38%",
+          "tone": "neutral",
+          "sub": "Nov 2025"
+        },
+        "right": {
+          "label": "Monday",
+          "value": "7.51%",
+          "tone": "down",
+          "sub": "Mortgage News Daily"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So builders are bargaining. 46% cut prices and 68% offer incentives, both post-Covid highs. The average cut is 6%.",
+      "say": "So builders are bargaining. Forty-six percent cut prices and sixty-eight percent offer incentives, both post-Covid highs. The average cut is six percent.",
+      "scene": {
+        "t": "list",
+        "title": "Builder deals",
+        "items": [
+          "46% cut prices",
+          "68% add perks",
+          "Avg cut: 6%"
+        ],
+        "reveal": 3,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The takeaway is simple. New homes come with more deals than in years, but the loan costs more.",
+      "say": "The takeaway is simple. New homes come with more deals than in years, but the loan costs more.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Cheaper house,",
+          "pricier loan"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Nearly half of home builders just cut prices. Here's why",
+    "ig": "46% of US home builders just cut their prices.\nBuilder confidence fell to 25 in November, the lowest since April 2012 (NAHB/Wells Fargo index, Nov 17).\nBuyer traffic dropped to 16 as the 30-year mortgage rate hit 7.51% (Mortgage News Daily, Nov 16), up from 6.38% a year ago.\nThe average price cut is 6%, and 68% of builders are offering incentives.\nSources: NAHB, Reuters, CNBC.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#housingmarket #homebuyers #mortgagerates #realestate #financeprostv",
+    "tiktok": "46% of home builders just cut prices. Builder mood is at a 2012 low. Not financial advice. #moneytok #personalfinance #housingmarket #financeprostv",
+    "yt_desc": "Home builder confidence fell to 25 in November 2026, the lowest since April 2012, and 46% of builders cut prices (NAHB/Wells Fargo Housing Market Index, Nov 17). Buyer traffic sank to 16 as the 30-year mortgage rate hit 7.51%, per Mortgage News Daily via CNBC. News and education, not financial advice. #Shorts #housingmarket #mortgagerates",
+    "tags": [
+      "housing market",
+      "home builders",
+      "mortgage rates",
+      "NAHB index",
+      "home prices"
+    ]
+  }
+}
