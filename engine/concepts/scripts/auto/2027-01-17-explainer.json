@@ -1,0 +1,188 @@
+{
+ "id": "2027-01-17-explainer",
+ "format": "vertical",
+ "series": "acorn",
+ "header": "Acorn Economics\nGood debt, bad debt",
+ "cover": {
+  "title": "Is Debt Smart?",
+  "prop": "card",
+  "label": "APR",
+  "value": "22.36%"
+ },
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "Cards charge about 22%. Can borrowed acorns be smart?",
+   "say": "Cards charge about twenty-two percent. Can borrowed acorns be smart?",
+   "scene": {
+    "t": "hook",
+    "title": "Can debt be [smart]?",
+    "prop": "card",
+    "label": "APR",
+    "value": "22.36%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel's test: what does the debt cost, and what does it earn?",
+   "say": "Squirrel's test: what does the debt cost, and what does it earn?",
+   "scene": {
+    "t": "squirrel",
+    "kind": "think",
+    "caption": "Cost vs. earn",
+    "value": "?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "The Fed's card rate rose from about 16% in 2021 to about 22% by 2025.",
+   "say": "The Fed's card rate rose from about sixteen percent in twenty twenty-one to about twenty-two by twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Card APR (Fed)",
+    "points": [
+     [
+      2019,
+      16.98
+     ],
+     [
+      2020,
+      16.28
+     ],
+     [
+      2021,
+      16.45
+     ],
+     [
+      2022,
+      17.91
+     ],
+     [
+      2023,
+      22.15
+     ],
+     [
+      2024,
+      22.9
+     ],
+     [
+      2025,
+      22.32
+     ]
+    ],
+    "suffix": "%",
+    "end": "22.32%",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Our math: $1,000 for a year at 22.36% costs about $224; at the 6.52% student loan rate, about $65.",
+   "say": "Our math: a thousand dollars for a year at about twenty-two percent costs about two hundred twenty-four; at the six point five two percent student loan rate, about sixty-five.",
+   "scene": {
+    "t": "compare",
+    "title": "$1K, 1 year",
+    "left": {
+     "label": "Card",
+     "value": "$223.60",
+     "tone": "down",
+     "sub": "22.36%, simple"
+    },
+    "right": {
+     "label": "Student loan",
+     "value": "$65.20",
+     "tone": "up",
+     "sub": "6.52%, simple"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Same thousand dollars, under a third of the cost.",
+   "say": "Same thousand dollars, under a third of the cost.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "$1K, 1 year",
+    "winner": "right",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Debt can work when a low rate buys something that earns more. It hurts when it buys stuff that's gone.",
+   "say": "Debt can work when a low rate buys something that earns more. It hurts when it buys stuff that's gone.",
+   "scene": {
+    "t": "split",
+    "title": "Judge it",
+    "left": {
+     "title": "Can work",
+     "items": [
+      "Low rate",
+      "Earns more"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Hurts",
+     "items": [
+      "High rate",
+      "Stuff gone"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Even useful debt costs: 30-year mortgages averaged 7.11% the week of November 12, 2026.",
+   "say": "Even useful debt costs: thirty-year mortgages averaged about seven point one percent in mid-November twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "30-yr mortgage",
+    "value": "7.11%",
+    "tone": "neutral",
+    "sub": "Freddie, 11/12/26",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Borrowed acorns are smart only when they grow faster than they cost.",
+   "say": "Borrowed acorns are smart only when they grow faster than they cost.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "tree",
+    "caption": "Grow > cost",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained good debt versus bad debt. Squirrel would like one follow.",
+   "say": "Squirrel explained good debt versus bad debt. Squirrel would like one follow.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Rate vs. payoff"
+   }
+  }
+ ],
+ "post": {
+  "title": "Good debt vs bad debt: the rate test, explained with acorns",
+  "ig": "Cards charge about 22%. Can borrowed money be smart?\nThe Fed's average card APR on accounts paying interest was 22.36% in Q3 2026, up from a 16.45% average in 2021.\nThe federal undergrad student loan rate for 2026-27 is 6.52%. Our math: $1,000 for one year costs $223.60 at 22.36% vs $65.20 at 6.52% (simple interest).\nThe 30-year mortgage averaged 7.11% for the week of Nov 12, 2026 (Freddie Mac). The test: what the debt costs vs what it earns or saves.\nSources: Federal Reserve G.19 / FRED TERMCBCCINTNS (Q3 2026 data); Federal Student Aid and Federal Register (2026-27 rates); Freddie Mac PMMS (Nov 12, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#debt #creditcards #acorneconomics #personalfinance #financeprostv",
+  "tiktok": "Card APR averaged 22.36% on accounts charged interest (Fed, Q3 2026). Good vs bad debt with acorns. Not financial advice. #personalfinance #debt",
+  "yt_desc": "Is any debt smart? The Fed's average credit card rate on accounts paying interest was 22.36% in Q3 2026, versus 6.52% for 2026-27 federal undergrad student loans and a 7.11% 30-year mortgage average for the week of Nov 12, 2026 (Freddie Mac). Our math (simple interest): $1,000 for a year costs $223.60 on the card vs $65.20 at the student loan rate. News and education, not financial advice. #Shorts #debt #personalfinance",
+  "tags": [
+   "good debt vs bad debt",
+   "acorn economics",
+   "credit card interest rate",
+   "student loan interest rate",
+   "how to judge debt"
+  ]
+ }
+}
