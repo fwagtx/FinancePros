@@ -1,0 +1,173 @@
+{
+ "series": "ticker",
+ "header": "Nvidia's Giant\nQuarter",
+ "cover": {
+  "title": "$1.27B Every Day",
+  "prop": "chart-up",
+  "label": "NVDA",
+  "value": "$1.27B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Nvidia took in $1.27 billion a day.",
+   "say": "Nvidia took in one point two seven billion dollars a day.",
+   "scene": {
+    "t": "hook",
+    "title": "Nvidia's [daily] take",
+    "prop": "chart-up",
+    "label": "NVDA",
+    "value": "$1.27B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's sales, not profit: $115.8 billion over a 91-day quarter, reported last night.",
+   "say": "That's sales, not profit: one hundred fifteen point eight billion dollars over a ninety-one-day quarter, reported last night.",
+   "scene": {
+    "t": "stat",
+    "label": "Q3 revenue",
+    "value": "$115.8B",
+    "tone": "up",
+    "sub": "Jul 27 to Oct 25",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same quarter a year ago was $57 billion, so sales more than doubled.",
+   "say": "The same quarter a year ago was fifty-seven billion, so sales more than doubled.",
+   "scene": {
+    "t": "chart",
+    "title": "Nvidia revenue",
+    "points": [
+     [
+      "Q3 FY26",
+      57.0
+     ],
+     [
+      "Q4 FY26",
+      68.1
+     ],
+     [
+      "Q1 FY27",
+      81.6
+     ],
+     [
+      "Q2 FY27",
+      96.2
+     ],
+     [
+      "Q3 FY27",
+      115.8
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$115.8B",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Profit more than doubled too, from $31.9 billion to $65.3 billion.",
+   "say": "Profit more than doubled too, from thirty-one point nine billion dollars to sixty-five point three billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Profit",
+    "left": {
+     "label": "Year ago",
+     "value": "$31.9B",
+     "tone": "neutral",
+     "sub": "Q3 FY26"
+    },
+    "right": {
+     "label": "Now",
+     "value": "$65.3B",
+     "tone": "up",
+     "sub": "Q3 FY27"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why should you care? If you own an S&P 500 fund, Nvidia is about 6% of it.",
+   "say": "Why should you care? If you own an S and P five hundred fund, Nvidia is about six percent of it.",
+   "scene": {
+    "t": "stat",
+    "label": "Nvidia in S&P 500",
+    "value": "~6%",
+    "tone": "neutral",
+    "sub": "Mid-Nov 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That means for every $100 in that fund, about $6 rides on this one company.",
+   "say": "That means for every one hundred dollars in that fund, about six dollars rides on this one company.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "In your fund",
+     "value": "$100"
+    },
+    "to": {
+     "label": "In Nvidia",
+     "value": "~$6"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nvidia's own forecast for next quarter is $130 billion, give or take 3%.",
+   "say": "Nvidia's own forecast for next quarter is one hundred thirty billion, give or take three percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Next qtr forecast",
+    "value": "$130B",
+    "tone": "up",
+    "sub": "+/- 3%, per Nvidia",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The takeaway: an index fund holds 500 companies, but a few giants steer it. Know what's inside yours.",
+   "say": "The takeaway: an index fund holds five hundred companies, but a few giants steer it. Know what's inside yours.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "500 companies,",
+     "a few steer it"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Nvidia took in $1.27 billion a day. Why your fund cares",
+  "ig": "Nvidia took in $1.27 billion a day last quarter (our math: $115.8B over 91 days).\nRevenue hit $115.8 billion for the quarter ended Oct 25, up 103% from $57.0B a year ago (Nvidia, Nov 17).\nProfit rose to $65.3 billion from $31.9 billion. Nvidia's own forecast for next quarter: $130 billion, plus or minus 3%.\nNvidia is about 6% of the S&P 500, so about $6 of every $100 in an S&P 500 fund rides on it.\nSources: Nvidia Q3 FY2027 release and CFO commentary (SEC 8-K, Nov 17), CNBC, Carson Group via Yahoo Finance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#nvidia #indexfunds #401k #investing #financeprostv",
+  "tiktok": "Nvidia took in $1.27B a day last quarter. Here's why your index fund cares. Not financial advice. #moneytok #personalfinance #nvidia #financeprostv",
+  "yt_desc": "Nvidia reported $115.8 billion in revenue for the quarter ended Oct 25, 2026, up 103% from a year ago, and forecast $130 billion, plus or minus 3%, for next quarter (Nvidia release and SEC 8-K, Nov 17). That works out to about $1.27 billion a day, and Nvidia is about 6% of the S&P 500. News and education, not financial advice. #Shorts #nvidia #indexfunds",
+  "tags": [
+   "nvidia earnings",
+   "nvidia revenue",
+   "s&p 500 index fund",
+   "401k",
+   "stock market news"
+  ]
+ }
+}
