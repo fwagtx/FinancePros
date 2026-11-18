@@ -1,0 +1,226 @@
+{
+ "series": "ticker",
+ "header": "Money Myth:\nBankruptcy Erases All",
+ "cover": {
+  "title": "Bankruptcy Myth",
+  "prop": "paper",
+  "label": "DEBT",
+  "value": "MYTH"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Bankruptcy wipes out all your debt? Not even close.",
+   "say": "Bankruptcy wipes out all your debt? Not even close.",
+   "scene": {
+    "t": "hook",
+    "title": "Bankruptcy Erases [Everything]?",
+    "prop": "paper",
+    "label": "DEBT",
+    "value": "MYTH",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And filings are climbing. US filings hit about 621,000 in the year ending September 2026.",
+   "say": "And filings are climbing. US filings hit about six hundred twenty-one thousand in the year ending September twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "US bankruptcy filings",
+    "points": [
+     [
+      2021,
+      434540
+     ],
+     [
+      2022,
+      383810
+     ],
+     [
+      2023,
+      433658
+     ],
+     [
+      2024,
+      504112
+     ],
+     [
+      2025,
+      557376
+     ],
+     [
+      2026,
+      621111
+     ]
+    ],
+    "end": "621K",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up 11.4% from a year earlier, the fourth straight yearly rise.",
+   "say": "That's up eleven point four percent from a year earlier, the fourth straight yearly rise.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "US bankruptcy filings",
+    "points": [
+     [
+      2021,
+      434540
+     ],
+     [
+      2022,
+      383810
+     ],
+     [
+      2023,
+      433658
+     ],
+     [
+      2024,
+      504112
+     ],
+     [
+      2025,
+      557376
+     ],
+     [
+      2026,
+      621111
+     ]
+    ],
+    "end": "621K",
+    "color": "up",
+    "chart_note": {
+     "x": 2026,
+     "text": "+11.4%"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the fact. A discharge can wipe out many debts, like credit cards and medical bills.",
+   "say": "Here's the fact. A discharge can wipe out many debts, like credit cards and medical bills.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Can wipe out:",
+     "cards, med bills"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But federal law, section 523, lists debts that survive, like child support, alimony, recent taxes and criminal fines.",
+   "say": "But federal law, section five twenty-three, lists debts that survive, like child support, alimony, recent taxes and criminal fines.",
+   "scene": {
+    "t": "split",
+    "title": "§ 523",
+    "left": {
+     "title": "Can erase",
+     "items": [
+      "Credit cards",
+      "Medical bills",
+      "Personal loans"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Survives",
+     "items": [
+      "Child support",
+      "Recent taxes",
+      "Criminal fines"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Debts from fraud usually stick around too, and so do debts for injuring someone while driving drunk.",
+   "say": "Debts from fraud usually stick around too, and so do debts for injuring someone while driving drunk.",
+   "scene": {
+    "t": "list",
+    "title": "Also survives",
+    "items": [
+     "Fraud debts",
+     "DUI injuries",
+     "Student loans"
+    ],
+    "reveal": 2,
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Student loans stay unless you prove undue hardship in court.",
+   "say": "Student loans stay unless you prove undue hardship in court.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Also survives",
+    "items": [
+     "Fraud debts",
+     "DUI injuries",
+     "Student loans"
+    ],
+    "reveal": 3,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since November 2022, a federal attestation form has made that case simpler to bring for federal loans.",
+   "say": "Since November twenty twenty-two, a federal attestation form has made that case simpler to bring for federal loans.",
+   "scene": {
+    "t": "news",
+    "headline": "Loan hardship form",
+    "source": "DOJ and Education Dept, Nov 2022",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So bankruptcy is a reset button, not a magic eraser.",
+   "say": "So bankruptcy is a reset button, not a magic eraser.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reset button,",
+     "not a magic eraser"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "mood": "happy"
+   }
+  }
+ ],
+ "post": {
+  "title": "Money Myth: Does Bankruptcy Erase Every Debt?",
+  "ig": "Bankruptcy wipes out all your debt? Not even close.\nUS bankruptcy filings hit 621,111 in the 12 months ending Sept 30, 2026, up 11.4% from a year earlier and the fourth straight yearly rise (US Courts).\nA discharge can wipe out debts like credit cards and medical bills.\nUnder 11 U.S.C. 523, child support, alimony, recent taxes, criminal fines, fraud debts (usually) and drunk-driving injury debts generally survive. Student loans survive unless you prove undue hardship.\nSince Nov 2022, a DOJ and Education Dept attestation process has applied to federal student loan hardship cases.\nSources: US Courts (Bankruptcy Basics, Table F); 11 U.S.C. 523; DOJ guidance, Nov 17, 2022.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#moneymyth #bankruptcy #debt #personalfinance #financeprostv",
+  "tiktok": "Bankruptcy doesn't erase every debt. What survives. Not financial advice. #moneytok #personalfinance #bankruptcy #moneymyth #financeprostv",
+  "yt_desc": "Bankruptcy does not erase every debt. US bankruptcy filings hit 621,111 in the 12 months ending Sept 30, 2026, up 11.4% from a year earlier (US Courts), but under 11 U.S.C. 523, child support, alimony, recent taxes, criminal fines, fraud and DUI injury debts generally survive, and student loans survive unless undue hardship is proven. Sources: US Courts Bankruptcy Basics and Table F; DOJ guidance, Nov 2022. News and education, not financial advice. #Shorts #bankruptcy #personalfinance",
+  "tags": [
+   "bankruptcy myth",
+   "what bankruptcy does not erase",
+   "nondischargeable debts",
+   "student loans bankruptcy",
+   "money myths"
+  ]
+ }
+}
