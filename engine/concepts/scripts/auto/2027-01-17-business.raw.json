@@ -1,0 +1,149 @@
+{
+  "series": "ticker",
+  "header": "How They Make Money\nThe Service Call",
+  "cover": {
+    "title": "Pay vs The Bill",
+    "prop": "bill",
+    "value": "$30.67"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Plumbers make about $31 an hour. Some bill $200.",
+      "say": "Plumbers make about thirty-one dollars an hour. Some bill two hundred.",
+      "scene": {
+        "t": "hook",
+        "title": "Why your [bill] is bigger",
+        "prop": "tag",
+        "label": "$?",
+        "value": "$31",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "BLS median pay, May 2025: plumbers $30.67 an hour, electricians $30.38.",
+      "say": "Government data puts the May 2025 median at thirty dollars, sixty-seven cents an hour for plumbers, and thirty dollars, thirty-eight cents for electricians.",
+      "scene": {
+        "t": "compare",
+        "title": "Median pay",
+        "left": {
+          "label": "Plumber",
+          "value": "$30.67",
+          "tone": "neutral",
+          "sub": "BLS, May 2025"
+        },
+        "right": {
+          "label": "Electrician",
+          "value": "$30.38",
+          "tone": "neutral",
+          "sub": "BLS, May 2025"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Angi's cost guide: plumbers bill $45 to $200 an hour.",
+      "say": "Yet Angi's cost guide says plumbers bill anywhere from forty-five to two hundred dollars an hour.",
+      "scene": {
+        "t": "stat",
+        "label": "Billed per hour",
+        "value": "$45-$200",
+        "tone": "up",
+        "sub": "Angi cost guide",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Many add a trip fee for the truck, gas and drive time.",
+      "say": "Many also add a trip fee for the truck, gas and the drive to you.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Trip fee = truck,",
+          "gas + drive time"
+        ]
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Benefits were 30% of private pay costs (BLS, June 2026). Our math: $30.67 becomes $43.81.",
+      "say": "Benefits were thirty percent of private employer pay costs in June 2026, so our math turns that wage into about forty-four dollars.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Wage",
+          "value": "$30.67"
+        },
+        "to": {
+          "label": "With benefits",
+          "value": "$43.81"
+        }
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Techs can't bill every hour. At 65% billable (an HVAC study), that's $67.40 per billed hour (our math).",
+      "say": "Techs can't bill every hour. If sixty-five percent are billable, as one study of HVAC techs found, that's about sixty-seven dollars each.",
+      "scene": {
+        "t": "stat",
+        "label": "Per billable hour",
+        "value": "$67.40",
+        "tone": "up",
+        "sub": "Our math @ 65%",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Still not counted: truck, insurance, office, profit.",
+      "say": "That's before the truck, the insurance, the office and any profit.",
+      "scene": {
+        "t": "list",
+        "title": "Still unpaid",
+        "items": [
+          "Truck and fuel",
+          "Insurance",
+          "Office staff",
+          "Profit"
+        ],
+        "reveal": 4
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Many shops quote from a flat-rate price book: one set price per job.",
+      "say": "So many shops quote from a flat-rate price book: one set price per job.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Flat rate:",
+          "one price per job"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Plumbers make $30.67 an hour. Why bill up to $200?",
+    "ig": "Plumbers make about $31 an hour. Some bill $200.\nBLS median pay, May 2025: plumbers $30.67/hr, electricians $30.38/hr.\nAngi's cost guide: plumbers bill $45 to $200 an hour, depending on experience.\nBenefits were 30% of private employer pay costs in June 2026 (BLS), so our math turns $30.67 into $43.81.\nIf 65% of hours are billable (the share one study of HVAC techs found), our math puts the cost at $67.40 per billed hour, before truck, insurance, office and profit.\nSources: BLS OEWS (May 2025), BLS ECEC (June 2026), Angi, Field Promax via ACHR News.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#plumber #electrician #smallbusiness #howtheymakemoney #financeprostv",
+    "tiktok": "Plumber earns $30.67/hr. Bills run $45-$200/hr. Here's the math. Not financial advice. #personalfinance #plumber #smallbusiness #financeprostv",
+    "yt_desc": "The median plumber earned $30.67 an hour in May 2025 (BLS), yet Angi's cost guide shows plumbers billing $45 to $200 an hour. Benefits (30% of private pay costs in June 2026, BLS), unbillable time (65% billable in one HVAC study), trucks, insurance and profit fill the gap. News and education, not financial advice. #Shorts #plumber #smallbusiness",
+    "tags": [
+      "plumber cost",
+      "electrician cost",
+      "service call fee",
+      "flat rate pricing",
+      "how they make money"
+    ]
+  }
+}
