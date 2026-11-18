@@ -1,0 +1,154 @@
+{
+ "series": "ticker",
+ "header": "Tariff refunds:\nwho gets the cash?",
+ "cover": {
+  "title": "Do You Get Any?",
+  "prop": "bill",
+  "label": "$1.3B",
+  "value": "$1.3B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Target booked about $1.3 billion in tariff refunds.",
+   "say": "Target booked about one point three billion dollars in tariff refunds.",
+   "scene": {
+    "t": "hook",
+    "title": "Target's [Refund]",
+    "prop": "bill",
+    "label": "$1.3B",
+    "value": "$1.3B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stores often pass tariff costs to shoppers. So do you get a cut?",
+   "say": "Stores often pass tariff costs to shoppers. So do you get a cut?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who paid?",
+     "Who gets it back?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Supreme Court struck down the emergency tariffs. Importers paid about $166 billion, and refunds are flowing back.",
+   "say": "The Supreme Court struck down the emergency tariffs. Importers paid about one hundred sixty-six billion dollars, and refunds are flowing back.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "name": "US CUSTOMS",
+    "label": "$166B",
+    "caption": "Paid in by importers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That $1.3 billion is our math: $994 million last quarter, plus $301 million now.",
+   "say": "That one point three billion is our math: nine hundred ninety-four million last quarter, plus three hundred one million now.",
+   "scene": {
+    "t": "compare",
+    "title": "Target",
+    "left": {
+     "label": "Q2 refund",
+     "value": "$994M",
+     "tone": "neutral",
+     "sub": "Aug report"
+    },
+    "right": {
+     "label": "Q3 refund",
+     "value": "$301M",
+     "tone": "neutral",
+     "sub": "Nov 18 report"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That added 50 cents to Target's $2.65 per share.",
+   "say": "That added fifty cents to Target's two dollars and sixty-five cents per share.",
+   "scene": {
+    "t": "stat",
+    "label": "Refund boost",
+    "value": "$0.50",
+    "tone": "up",
+    "sub": "of $2.65 EPS, Q3"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To be fair, total sales still rose 7.1%.",
+   "say": "To be fair, Target's total sales still rose seven point one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Q3 sales growth",
+    "value": "+7.1%",
+    "tone": "up",
+    "sub": "Net sales, Q3"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But only importers and their customs brokers can file for a refund. Shoppers who paid higher prices can't.",
+   "say": "But only importers and their customs brokers can file for a refund. Shoppers who paid higher prices can't.",
+   "scene": {
+    "t": "split",
+    "title": "Who files",
+    "left": {
+     "title": "Can file",
+     "items": [
+      "Importers",
+      "Brokers"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Can't file",
+     "items": [
+      "Shoppers"
+     ],
+     "tone": "down"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One bright spot: paid a duty fee on a package? FedEx and UPS say they'll refund you once customs pays them.",
+   "say": "One bright spot: if you paid a duty fee on a package, FedEx and UPS say they'll refund you once customs pays them.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Paid a duty fee?",
+     "Watch your carrier"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Target booked $1.3B in tariff refunds. Do shoppers get any?",
+  "ig": "Target has booked about $1.3 billion in tariff refunds over two quarters (our math: $994M in Q2 + $301M in Q3).\nQ3 (reported Nov 18): $301M pretax refund benefit, adding $0.50 to EPS of $2.65.\nNet sales still rose 7.1% to about $27.1B.\nImporters paid about $166B in the struck-down emergency tariffs, and refunds are flowing back to them. Shoppers can't file. FedEx and UPS say they'll pass duty-fee refunds to customers once CBP pays them.\nSources: Target Q3 and Q2 releases, CBP court filings, CBS News.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#tariffs #target #moneynews #personalfinance #financeprostv",
+  "tiktok": "Target booked $1.3B in tariff refunds. Can you get any? Not financial advice. #moneytok #personalfinance #tariffs #target #financeprostv",
+  "yt_desc": "Target reported a $301 million pretax tariff refund benefit in its Q3 results on Nov 18, 2026, after $994 million in Q2 (about $1.3 billion combined, our math). Importers paid about $166 billion in the struck-down emergency tariffs and refunds are flowing back to them, but shoppers can't file (Target releases, CBP court filings, CBS News). News and education, not financial advice. #Shorts #tariffs #personalfinance",
+  "tags": [
+   "tariff refunds",
+   "Target earnings",
+   "tariffs explained",
+   "Supreme Court tariffs",
+   "personal finance"
+  ]
+ }
+}
