@@ -1,0 +1,167 @@
+{
+ "series": "ticker",
+ "header": "How Stripe makes money\nA tiny cut, huge scale",
+ "cover": {
+  "title": "Who Gets $1.75?",
+  "prop": "card",
+  "label": "$50",
+  "value": "$1.75"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Stripe takes $1.75 from a $50 sale.",
+   "say": "Stripe takes a dollar seventy-five from a fifty dollar sale.",
+   "scene": {
+    "t": "hook",
+    "title": "Who gets [it]?",
+    "prop": "card",
+    "label": "$50",
+    "value": "$1.75",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But most of it isn't Stripe's. Here's where it goes.",
+   "say": "But most of it isn't Stripe's. Here's where it goes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Stripe's fee",
+     "Whose cut?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: the standard US fee is 2.9% plus 30¢, so $1.75.",
+   "say": "Our math: the standard US fee is two point nine percent plus thirty cents, so a dollar seventy-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "2.9% + 30¢",
+     "on $50 = $1.75"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Visa and Mastercard credit swipe fees averaged 2.35% in 2024, per the Nilson Report. That's about $1.18, mostly to the card's bank.",
+   "say": "Visa and Mastercard credit swipe fees averaged two point three five percent in twenty twenty-four, per the Nilson Report. That's about a dollar eighteen, mostly to the card's bank.",
+   "scene": {
+    "t": "compare",
+    "title": "Your $1.75",
+    "left": {
+     "label": "Bank",
+     "value": "$1.18",
+     "tone": "down",
+     "sub": "2.35% avg"
+    },
+    "right": {
+     "label": "Left",
+     "value": "57¢",
+     "tone": "neutral",
+     "sub": "our math"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves about 57¢ for network fees, fraud and Stripe's own cut.",
+   "say": "That leaves about fifty-seven cents for network fees, fraud and Stripe's own cut.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Your $1.75",
+    "winner": "right",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On debit, Stripe keeps more: big-bank debit interchange averaged 22¢ to 24¢ in 2023, per the Fed.",
+   "say": "On debit, Stripe keeps more: big-bank debit interchange averaged twenty-two to twenty-four cents in twenty twenty-three, per the Fed.",
+   "scene": {
+    "t": "stat",
+    "label": "Debit interchange",
+    "value": "22-24¢",
+    "tone": "up",
+    "sub": "big banks, 2023",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Tiny slices add up: Stripe's volume grew from $817 billion in 2022 to $1.9 trillion in 2025.",
+   "say": "Tiny slices add up: Stripe's volume grew from eight hundred seventeen billion in twenty twenty-two to one point nine trillion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Stripe volume ($B)",
+    "points": [
+     [
+      2022,
+      817
+     ],
+     [
+      2023,
+      1000
+     ],
+     [
+      2024,
+      1400
+     ],
+     [
+      2025,
+      1900
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$1.9T",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up 34% in 2025, per Stripe's letter.",
+   "say": "That's up thirty-four percent in twenty twenty-five, per Stripe's letter.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Stripe volume ($B)",
+    "chart_note": {
+     "x": 2025,
+     "text": "+34%"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Tiny cut, huge scale"
+   }
+  }
+ ],
+ "post": {
+  "title": "Stripe charges $1.75 on a $50 sale. Who keeps it?",
+  "ig": "Stripe takes $1.75 from a $50 sale. Most of it isn't Stripe's.\nOur math: Stripe's standard US card fee of 2.9% + 30¢ on $50 = $1.75.\nVisa and Mastercard credit swipe fees averaged 2.35% in 2024 (Nilson Report): about $1.18, mostly to the card-issuing bank.\nBig-bank debit interchange averaged about 22-24¢ in 2023 (Federal Reserve), so Stripe keeps more on debit at the same price.\nPayments on Stripe grew from $817B in 2022 to $1.9T in 2025, up 34% that year (Stripe annual letters).\nSources: Stripe pricing and annual letters; Nilson Report via NACS; Federal Reserve Regulation II data.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stripe #payments #fintech #howtheymakemoney #financeprostv",
+  "tiktok": "Stripe takes $1.75 on a $50 sale. Most goes to the card's bank. Not financial advice. #moneytok #personalfinance #stripe #fintech #financeprostv",
+  "yt_desc": "Stripe's standard US card fee is 2.9% + 30¢, or $1.75 on a $50 sale (our math), but with credit swipe fees averaging 2.35% in 2024 (Nilson Report), about $1.18 goes mostly to the card-issuing bank. Big-bank debit interchange averaged about 22-24¢ in 2023 (Federal Reserve), so Stripe keeps more on debit, and payments on Stripe grew from $817B in 2022 to $1.9T in 2025 (Stripe annual letters). News and education, not financial advice. #Shorts #stripe #fintech",
+  "tags": [
+   "how stripe makes money",
+   "stripe fees",
+   "interchange fees",
+   "credit card swipe fees",
+   "payment processing"
+  ]
+ }
+}
