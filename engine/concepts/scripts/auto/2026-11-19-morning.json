@@ -1,0 +1,208 @@
+{
+ "id": "2026-11-19-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Fed minutes:\nmore hikes ahead?",
+ "cover": {
+  "title": "More Rate Hikes?",
+  "prop": "fed",
+  "label": "Fed",
+  "value": "Hike?"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Almost all Fed officials expect more rate hikes.",
+   "say": "Almost all Fed officials expect more rate hikes.",
+   "scene": {
+    "t": "hook",
+    "title": "More [Hikes]",
+    "prop": "fed",
+    "label": "Fed",
+    "value": "UP",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's from Fed meeting minutes released yesterday. Rates held at 3.75% to 4%.",
+   "say": "That's from Fed meeting minutes released yesterday. Rates held at three point seven five to four percent.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75-4%",
+    "caption": "Held in October"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The vote was 10 to 2, and both no votes wanted a hike right away.",
+   "say": "The vote was ten to two, and both no votes wanted a hike right away.",
+   "scene": {
+    "t": "compare",
+    "title": "Oct vote",
+    "left": {
+     "label": "Hold",
+     "value": "10",
+     "tone": "neutral",
+     "sub": "votes"
+    },
+    "right": {
+     "label": "Hike now",
+     "value": "2",
+     "tone": "up",
+     "sub": "votes"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's a U-turn: after two years of cuts, the Fed hiked in September.",
+   "say": "It's a U-turn: after two years of cuts, the Fed hiked in September.",
+   "scene": {
+    "t": "chart",
+    "title": "Fed top rate, year-end",
+    "points": [
+     [
+      2021,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      4.5
+     ],
+     [
+      2025,
+      3.75
+     ],
+     [
+      2026,
+      4
+     ]
+    ],
+    "suffix": "%",
+    "end": "4%",
+    "color": "up",
+    "note": {
+     "x": 2026,
+     "text": "Now"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The reason? Fed staff put inflation at 3.6%, versus a 2% goal.",
+   "say": "The reason? Fed staff put inflation at three point six percent, versus a two percent goal.",
+   "scene": {
+    "t": "compare",
+    "title": "Inflation",
+    "left": {
+     "label": "Sept PCE",
+     "value": "3.6%",
+     "tone": "down",
+     "sub": "staff estimate"
+    },
+    "right": {
+     "label": "Fed goal",
+     "value": "2%",
+     "tone": "neutral",
+     "sub": "target"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A couple of officials even floated a bigger December hike if inflation runs hot.",
+   "say": "A couple of officials even floated a bigger December hike if inflation runs hot.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Dec 8-9 meeting",
+     "Bigger hike?"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Card rates follow the Fed. Bankrate's average is 19.71%.",
+   "say": "Card rates follow the Fed. Bankrate's average is nineteen point seven one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg card APR",
+    "value": "19.71%",
+    "tone": "down",
+    "sub": "Bankrate, Nov 4"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rising rates make card debt and variable loans cost more, while savings and CDs often pay more.",
+   "say": "Rising rates make card debt and variable loans cost more, while savings and CDs often pay more.",
+   "scene": {
+    "t": "split",
+    "title": "Rate hikes",
+    "left": {
+     "title": "Pay more",
+     "items": [
+      "Card debt",
+      "Variable loans"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Earn more",
+     "items": [
+      "Savings",
+      "CDs"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If you carry a balance, know your APR. Most card rates move with the Fed.",
+   "say": "If you carry a balance, know your A P R. Most card rates move with the Fed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Carry a balance?",
+     "Know your APR"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Fed minutes: almost all officials see more rate hikes",
+  "ig": "Almost all Fed officials expect more rate hikes, minutes show.\nThe Fed held rates at 3.75%-4% in October in a 10-2 vote; both dissenters wanted a hike.\nFed staff put September PCE inflation at 3.6%, versus a 2% goal.\nA couple of officials floated a bigger-than-usual hike at the Dec 8-9 meeting if inflation runs hot.\nBankrate's average credit card rate: 19.71% (Nov 4).\nSources: Federal Reserve FOMC minutes (Nov 18, 2026), CNBC, Bankrate.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#federalreserve #interestrates #creditcards #personalfinance #financeprostv",
+  "tiktok": "Almost all Fed officials expect more rate hikes. What it means for your card. Not financial advice. #moneytok #personalfinance #fed #financeprostv",
+  "yt_desc": "Minutes released Nov 18, 2026 show almost all Fed officials judged more rate hikes would likely be appropriate after holding at 3.75%-4% in a 10-2 vote in October. Fed staff put September PCE inflation at 3.6% versus a 2% goal, and Bankrate's average card rate is 19.71% (Federal Reserve, CNBC, Bankrate). News and education, not financial advice. #Shorts #federalreserve #interestrates",
+  "tags": [
+   "Fed minutes",
+   "interest rates",
+   "rate hike",
+   "credit card APR",
+   "Federal Reserve"
+  ]
+ }
+}
