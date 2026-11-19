@@ -1,0 +1,189 @@
+{
+ "id": "2027-01-18-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "HMO vs PPO\nFreedom has a price",
+ "cover": {
+  "title": "HMO or PPO?",
+  "prop": "paper",
+  "label": "PPO",
+  "value": "50%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Half of covered workers are in a pricier PPO. Why?",
+   "say": "Half of covered workers are in a pricier PPO. Why?",
+   "scene": {
+    "t": "hook",
+    "title": "Why [PPO]?",
+    "prop": "paper",
+    "label": "PPO",
+    "value": "50%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, only 12% were in an HMO, per KFF. So what's the difference?",
+   "say": "In twenty twenty-six, only twelve percent were in an HMO, per KFF. So what's the difference?",
+   "scene": {
+    "t": "compare",
+    "title": "2026 share",
+    "left": {
+     "label": "HMO",
+     "value": "12%",
+     "tone": "neutral",
+     "sub": "KFF 2026"
+    },
+    "right": {
+     "label": "PPO",
+     "value": "50%",
+     "tone": "up",
+     "sub": "KFF 2026"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An HMO usually covers only its network, except emergencies, and often needs a referral for a specialist.",
+   "say": "An HMO usually covers only its network, except emergencies, and often needs a referral for a specialist.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "HMO: network only",
+     "often a referral"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A PPO lets you go outside the network without a referral, but you pay more.",
+   "say": "A PPO lets you go outside the network without a referral, but you pay more.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "PPO: go outside",
+     "but pay more"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, PPO single premiums averaged $10,272 versus $9,804 for all plans, per KFF.",
+   "say": "In twenty twenty-six, PPO single premiums averaged about ten thousand three hundred dollars, versus about ninety-eight hundred for all plans, per KFF.",
+   "scene": {
+    "t": "compare",
+    "title": "Single '26",
+    "left": {
+     "label": "All",
+     "value": "$9,804",
+     "tone": "neutral",
+     "sub": "avg premium"
+    },
+    "right": {
+     "label": "PPO",
+     "value": "$10,272",
+     "tone": "down",
+     "sub": "avg premium"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: family PPO coverage cost $1,219 more a year than average, employer and worker shares combined.",
+   "say": "Our math: family PPO coverage cost about twelve hundred dollars more a year than average, employer and worker shares combined.",
+   "scene": {
+    "t": "stat",
+    "label": "PPO family extra",
+    "value": "+$1,219",
+    "tone": "down",
+    "sub": "our math, 2026",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, HMOs fell from 19% of covered workers in 2019 to 12% in 2025.",
+   "say": "Meanwhile, HMOs fell from nineteen percent of covered workers in twenty nineteen to twelve percent in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "HMO share",
+    "points": [
+     [
+      2016,
+      15
+     ],
+     [
+      2019,
+      19
+     ],
+     [
+      2022,
+      12
+     ],
+     [
+      2025,
+      12
+     ]
+    ],
+    "suffix": "%",
+    "end": "12%",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the trade-off: an HMO limits choices, while a PPO sells freedom at a higher price.",
+   "say": "That's the trade-off: an HMO limits choices, while a PPO sells freedom at a higher price.",
+   "scene": {
+    "t": "split",
+    "title": "Trade-off",
+    "left": {
+     "title": "HMO",
+     "items": [
+      "Network only",
+      "Referrals"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "PPO",
+     "items": [
+      "Out-of-network",
+      "Higher premium"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Freedom has a price"
+   }
+  }
+ ],
+ "post": {
+  "title": "HMO vs PPO: why half of covered workers pay more for a PPO",
+  "ig": "In 2026, 50% of workers with job coverage were in a PPO. Only 12% were in an HMO (KFF changed its plan categories in 2026).\nAn HMO usually covers only its network (except emergencies) and often needs referrals; a PPO covers out-of-network care at a higher cost.\nKFF 2026: PPO single premiums averaged $10,272 vs $9,804 for all plans. Our math: family PPO coverage ran $1,219 more than average.\nHMO share fell from 19% in 2019 to 12% in 2025.\nSources: KFF Employer Health Benefits Surveys 2016-2026; HealthCare.gov.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#healthinsurance #hmo #ppo #openenrollment #financeprostv",
+  "tiktok": "HMO vs PPO: half of covered workers are in a pricier PPO. Not financial advice. #moneytok #personalfinance #healthinsurance #financeprostv",
+  "yt_desc": "In 2026, 50% of workers with job coverage were in a PPO and 12% in an HMO, per KFF. PPO single premiums averaged $10,272 versus $9,804 for all plans; an HMO usually covers only its network, while a PPO pays for out-of-network care at a higher cost (KFF 2026 Employer Health Benefits Survey; HealthCare.gov). News and education, not financial advice. #Shorts #healthinsurance #personalfinance",
+  "tags": [
+   "hmo vs ppo",
+   "health insurance",
+   "employer health plan",
+   "kff survey",
+   "ppo premium"
+  ]
+ }
+}
