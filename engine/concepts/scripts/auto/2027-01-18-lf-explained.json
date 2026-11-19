@@ -1,0 +1,1599 @@
+{
+ "id": "2027-01-18-lf-explained",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "EXPLAINED",
+ "cover": {
+  "title": "How It Got Huge.",
+  "prop": "bill",
+  "label": "LOANS",
+  "value": "$1.66T"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Americans owe more on student loans than on credit cards.",
+   "say": "Americans owe more on student loans than on credit cards.",
+   "scene": {
+    "t": "hook",
+    "title": "Bigger than [cards]",
+    "prop": "bill",
+    "label": "LOANS",
+    "value": "$1.66T",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of September 2026, student debt stood at $1.66 trillion. Credit cards? $1.29 trillion.",
+   "say": "As of September twenty twenty-six, student debt stood at one point six six trillion dollars. Credit cards? One point two nine trillion.",
+   "scene": {
+    "t": "compare",
+    "title": "Q3 2026",
+    "left": {
+     "label": "Student loans",
+     "value": "$1.66T",
+     "tone": "down",
+     "sub": "NY Fed"
+    },
+    "right": {
+     "label": "Credit cards",
+     "value": "$1.29T",
+     "tone": "neutral",
+     "sub": "NY Fed"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's New York Fed data. Among household debts, only mortgages and auto loans are bigger.",
+   "say": "That's New York Fed data. Among household debts, only mortgages and auto loans are bigger.",
+   "scene": {
+    "t": "compare",
+    "title": "Q3 2026",
+    "left": {
+     "label": "Student loans",
+     "value": "$1.66T",
+     "tone": "down",
+     "sub": "NY Fed"
+    },
+    "right": {
+     "label": "Credit cards",
+     "value": "$1.29T",
+     "tone": "neutral",
+     "sub": "NY Fed"
+    },
+    "keep": true,
+    "winner": "left"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal data counts 42.3 million people with federal student loans, as of June 2026.",
+   "say": "Federal data counts forty-two point three million people with federal student loans, as of June twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Federal borrowers",
+    "value": "42.3M",
+    "tone": "neutral",
+    "sub": "FSA, June 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They owe more than $1.7 trillion. Our math: that's over $40,000 each, on average.",
+   "say": "They owe more than one point seven trillion dollars. Our math: that's over forty thousand dollars each, on average.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg federal debt",
+    "value": "$40,000+",
+    "tone": "down",
+    "sub": "our math, 6/2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So how did a program meant to open college doors turn into a pile this big?",
+   "say": "So how did a program meant to open college doors turn into a pile this big?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "How did it",
+     "get this big?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The answer is four things stacked together: who lends, rising prices, easier borrowing, and interest that never sleeps.",
+   "say": "The answer is four things stacked together: who lends, rising prices, easier borrowing, and interest that never sleeps.",
+   "scene": {
+    "t": "list",
+    "title": "Four causes",
+    "items": [
+     "Who lends",
+     "Rising prices",
+     "Easy borrowing",
+     "Interest"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Quick note: this is news and education, not financial advice, and it takes no political side.",
+   "say": "Quick note: this is news and education, not financial advice, and it takes no political side.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "News + education,",
+     "not advice"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter one: where the loans came from.",
+   "say": "Chapter one: where the loans came from.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Where the loans came from"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 1958, a Cold War law, the National Defense Education Act, created the first federal student loans.",
+   "say": "In nineteen fifty-eight, a Cold War law, the National Defense Education Act, created the first federal student loans.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1958",
+      "First US loans"
+     ],
+     [
+      "1965",
+      "Higher Ed Act"
+     ],
+     [
+      "1976",
+      "Bankruptcy limit"
+     ],
+     [
+      "2005",
+      "Private too"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, on November 8, 1965, President Lyndon Johnson signed the Higher Education Act.",
+   "say": "Then, on November eighth, nineteen sixty-five, President Lyndon Johnson signed the Higher Education Act.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1958",
+      "First US loans"
+     ],
+     [
+      "1965",
+      "Higher Ed Act"
+     ],
+     [
+      "1976",
+      "Bankruptcy limit"
+     ],
+     [
+      "2005",
+      "Private too"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "His goal: any high school senior could apply to college and, in his words, \"not be turned away because his family is poor.\"",
+   "say": "His goal: any high school senior could apply to college and, in his words, not be turned away because his family is poor.",
+   "scene": {
+    "t": "quote",
+    "text": "...and not be turned away because his family is poor.",
+    "source": "Lyndon B. Johnson, Nov 8, 1965"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The law created Guaranteed Student Loans. Banks lent the money, and the government promised to cover it if students didn't pay.",
+   "say": "The law created Guaranteed Student Loans. Banks lent the money, and the government promised to cover it if students didn't pay.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "LOCAL BANK",
+    "label": "Gov't backed",
+    "caption": "Guaranteed Student Loans"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For banks, that was a low-risk setup: they earned the interest, and the government carried most of the risk.",
+   "say": "For banks, that was a low-risk setup: they earned the interest, and the government carried most of the risk.",
+   "scene": {
+    "t": "split",
+    "title": "The deal",
+    "left": {
+     "title": "Banks",
+     "items": [
+      "Lend money",
+      "Earn interest"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Government",
+     "items": [
+      "Guarantees it",
+      "Pays if unpaid"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back to the timeline. In 1976, Congress made federal student loans much harder to wipe out in bankruptcy.",
+   "say": "Back to the timeline. In nineteen seventy-six, Congress made federal student loans much harder to wipe out in bankruptcy.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1958",
+      "First US loans"
+     ],
+     [
+      "1965",
+      "Higher Ed Act"
+     ],
+     [
+      "1976",
+      "Bankruptcy limit"
+     ],
+     [
+      "2005",
+      "Private too"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Borrowers had to prove \"undue hardship\" in the early years of repayment. In 1998, that time limit was removed entirely.",
+   "say": "Borrowers had to prove undue hardship in the early years of repayment. In nineteen ninety-eight, that time limit was removed entirely.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Must prove",
+     "\"undue hardship\""
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in 2005, a big bankruptcy law extended the same tough rule to private student loans from banks.",
+   "say": "And in two thousand five, a big bankruptcy law extended the same tough rule to private student loans from banks.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1958",
+      "First US loans"
+     ],
+     [
+      "1965",
+      "Higher Ed Act"
+     ],
+     [
+      "1976",
+      "Bankruptcy limit"
+     ],
+     [
+      "2005",
+      "Private too"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's why that matters. Credit card debt can often be wiped out in bankruptcy, but student loans usually stick around.",
+   "say": "Here's why that matters. Credit card debt can often be wiped out in bankruptcy, but student loans usually stick around.",
+   "scene": {
+    "t": "split",
+    "title": "Go broke?",
+    "left": {
+     "title": "Credit cards",
+     "items": [
+      "Can be wiped"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Student loans",
+     "items": [
+      "Undue hardship"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So for lenders, student loans became unusually safe. And for borrowers, unusually sticky.",
+   "say": "So for lenders, student loans became unusually safe. And for borrowers, unusually sticky.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lenders: low risk",
+     "Debt: sticky"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter two: the price went up.",
+   "say": "Chapter two: the price went up.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The price went up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For the 2026-27 school year, College Board puts average published tuition and fees at a public four-year college, in-state, at $12,290.",
+   "say": "For the twenty twenty-six to twenty-seven school year, College Board puts average published tuition and fees at a public four-year college, in-state, at twelve thousand two hundred ninety dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Public 4-yr price",
+    "value": "$12,290",
+    "tone": "down",
+    "sub": "2026-27 in-state"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the sticker price, before grants and scholarships knock it down for many students. Housing and food come on top.",
+   "say": "That's the sticker price, before grants and scholarships knock it down for many students. Housing and food come on top.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sticker price",
+     "= before aid"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For the long view, College Board's 2025 report uses 2025 dollars, so inflation is already taken out. In 1995-96, it was $5,940.",
+   "say": "For the long view, College Board's twenty twenty-five report uses twenty twenty-five dollars, so inflation is already taken out. In nineteen ninety-five to ninety-six, it was five thousand nine hundred forty dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "1995-96 tuition",
+    "value": "$5,940",
+    "tone": "neutral",
+    "sub": "in 2025 dollars"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2015-16, it had climbed to a peak of about $12,810. By 2025-26, it was $11,950.",
+   "say": "By twenty fifteen to sixteen, it had climbed to a peak of about twelve thousand eight hundred ten dollars. By twenty twenty-five to twenty-six, it was eleven thousand nine hundred fifty.",
+   "scene": {
+    "t": "stat",
+    "label": "2015-16 peak",
+    "value": "$12,810",
+    "tone": "down",
+    "sub": "in 2025 dollars"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: after inflation, the sticker price at a public four-year college about doubled in thirty years.",
+   "say": "Our math: after inflation, the sticker price at a public four-year college about doubled in thirty years.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "1995-96",
+     "value": "$5,940"
+    },
+    "to": {
+     "label": "2025-26",
+     "value": "$11,950"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In plain numbers, that's $6,010 more per year, in 2025 dollars, for the exact same seat in class.",
+   "say": "In plain numbers, that's six thousand ten dollars more per year, in twenty twenty-five dollars, for the exact same seat in class.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "+$6,010 a year",
+     "after inflation"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Researchers still argue about why. Some point to state funding cuts, some to campus spending, and some to easy federal loans.",
+   "say": "Researchers still argue about why. Some point to state funding cuts, some to campus spending, and some to easy federal loans.",
+   "scene": {
+    "t": "list",
+    "title": "Debated causes",
+    "items": [
+     "State cuts",
+     "Campus costs",
+     "Easy loans"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But here's the twist. College Board says that sticker price fell 7% after inflation in the ten years through 2025-26.",
+   "say": "But here's the twist. College Board says that sticker price fell seven percent after inflation in the ten years through twenty twenty-five to twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Decade",
+    "left": {
+     "label": "2015-16",
+     "value": "$12,810",
+     "tone": "down",
+     "sub": "2025 dollars"
+    },
+    "right": {
+     "label": "2025-26",
+     "value": "$11,950",
+     "tone": "up",
+     "sub": "2025 dollars"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a drop of $860 in real terms. Its newest report shows an 8% real drop in the ten years through 2026-27.",
+   "say": "That's a drop of eight hundred sixty dollars in real terms. Its newest report shows an eight percent real drop in the ten years through twenty twenty-six to twenty-seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Decade",
+    "left": {
+     "label": "2015-16",
+     "value": "$12,810",
+     "tone": "down",
+     "sub": "2025 dollars"
+    },
+    "right": {
+     "label": "2025-26",
+     "value": "$11,950",
+     "tone": "up",
+     "sub": "2025 dollars"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But by then, the debt pile had already been built, and interest was keeping it there.",
+   "say": "But by then, the debt pile had already been built, and interest was keeping it there.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price: flat.",
+     "Pile: still huge"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter three: the borrowing boom.",
+   "say": "Chapter three: the borrowing boom.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "The borrowing boom"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By the end of 2012, the New York Fed said student loans had become the biggest household debt after mortgages.",
+   "say": "By the end of twenty twelve, the New York Fed said student loans had become the biggest household debt after mortgages.",
+   "scene": {
+    "t": "news",
+    "headline": "Loans now No. 2 debt",
+    "source": "New York Fed, Q4 2012 report"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the New York Fed's count at the end of every other year. At the end of 2012, it was $966 billion, just under a trillion.",
+   "say": "Here's the New York Fed's count at the end of every other year. At the end of twenty twelve, it was nine hundred sixty-six billion dollars, just under a trillion.",
+   "scene": {
+    "t": "chart",
+    "title": "Student debt",
+    "points": [
+     [
+      2012,
+      0.966
+     ],
+     [
+      2014,
+      1.16
+     ],
+     [
+      2016,
+      1.31
+     ],
+     [
+      2018,
+      1.46
+     ],
+     [
+      2020,
+      1.56
+     ],
+     [
+      2022,
+      1.6
+     ],
+     [
+      2024,
+      1.62
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$1.62T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it climbed by about $600 billion in eight years, to $1.56 trillion by the end of 2020. That's our math.",
+   "say": "Then it climbed by about six hundred billion dollars in eight years, to one point five six trillion by the end of twenty twenty. That's our math.",
+   "scene": {
+    "t": "chart",
+    "title": "Student debt",
+    "points": [
+     [
+      2012,
+      0.966
+     ],
+     [
+      2014,
+      1.16
+     ],
+     [
+      2016,
+      1.31
+     ],
+     [
+      2018,
+      1.46
+     ],
+     [
+      2020,
+      1.56
+     ],
+     [
+      2022,
+      1.6
+     ],
+     [
+      2024,
+      1.62
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$1.62T",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2020,
+     "text": "Pause"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After that, it nearly stalled: $1.62 trillion at the end of 2024, and $1.66 trillion by September 2026.",
+   "say": "After that, it nearly stalled: one point six two trillion at the end of twenty twenty-four, and one point six six trillion by September twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Student debt",
+    "points": [
+     [
+      2012,
+      0.966
+     ],
+     [
+      2014,
+      1.16
+     ],
+     [
+      2016,
+      1.31
+     ],
+     [
+      2018,
+      1.46
+     ],
+     [
+      2020,
+      1.56
+     ],
+     [
+      2022,
+      1.6
+     ],
+     [
+      2024,
+      1.62
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$1.62T",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2024,
+     "text": "Flat"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In other words, the steep part of the climb happened before 2020. Since then, it's been close to flat.",
+   "say": "In other words, the steep part of the climb happened before twenty twenty. Since then, it's been close to flat.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Steep: 2012-2020",
+     "Flat: 2020-2026"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what fueled the boom years? Two rule changes stand out. First, Grad PLUS loans arrived for the 2006-07 school year.",
+   "say": "So what fueled the boom years? Two rule changes stand out. First, Grad PLUS loans arrived for the twenty oh-six to oh-seven school year.",
+   "scene": {
+    "t": "list",
+    "title": "Two rule changes",
+    "items": [
+     "2006 Grad PLUS",
+     "2010 Direct"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Grad PLUS let graduate students borrow up to the full cost of attendance, minus other aid. No fixed dollar cap.",
+   "say": "Grad PLUS let graduate students borrow up to the full cost of attendance, minus other aid. No fixed dollar cap.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Grad PLUS: up to",
+     "full cost"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, starting July 1, 2010, the government stopped guaranteeing bank loans and started lending directly.",
+   "say": "Second, starting July first, twenty ten, the government stopped guaranteeing bank loans and started lending directly.",
+   "scene": {
+    "t": "list",
+    "title": "Two rule changes",
+    "items": [
+     "2006 Grad PLUS",
+     "2010 Direct"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since then, the lender for new federal student loans has been the US Department of Education itself.",
+   "say": "Since then, the lender for new federal student loans has been the US Department of Education itself.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "US DEPT OF EDUCATION",
+    "label": "The lender",
+    "caption": "Since July 2010"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Supporters said it cut out bank middlemen and saved money. Critics worried it made borrowing too easy. Either way, the money kept flowing.",
+   "say": "Supporters said it cut out bank middlemen and saved money. Critics worried it made borrowing too easy. Either way, the money kept flowing.",
+   "scene": {
+    "t": "split",
+    "title": "Old vs new",
+    "left": {
+     "title": "Before 2010",
+     "items": [
+      "Banks lend",
+      "Gov't backs"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "After 2010",
+     "items": [
+      "Gov't lends",
+      "No middleman"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Federal Reserve Board's broader measure tells the same story: $481 billion in March 2006, versus $1.86 trillion by June 2026.",
+   "say": "The Federal Reserve Board's broader measure tells the same story: four hundred eighty-one billion dollars in March two thousand six, versus one point eight six trillion by June twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "Fed's G.19",
+    "left": {
+     "label": "Mar 2006",
+     "value": "$481B",
+     "tone": "neutral",
+     "sub": "Fed Board"
+    },
+    "right": {
+     "label": "June 2026",
+     "value": "$1.86T",
+     "tone": "down",
+     "sub": "Fed Board"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: that's about 3.9 times as much. It counts loans differently than the New York Fed, so the two don't mix.",
+   "say": "Our math: that's about three point nine times as much. It counts loans differently than the New York Fed, so the two don't mix.",
+   "scene": {
+    "t": "compare",
+    "title": "Fed's G.19",
+    "left": {
+     "label": "Mar 2006",
+     "value": "$481B",
+     "tone": "neutral",
+     "sub": "Fed Board"
+    },
+    "right": {
+     "label": "June 2026",
+     "value": "$1.86T",
+     "tone": "down",
+     "sub": "Fed Board"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For scale, all US household debt was $19.1 trillion in Q3 2026. Student loans were about 9% of it, by our math.",
+   "say": "For scale, all US household debt was nineteen point one trillion dollars in the third quarter of twenty twenty-six. Student loans were about nine percent of it, by our math.",
+   "scene": {
+    "t": "stat",
+    "label": "All household debt",
+    "value": "$19.1T",
+    "tone": "neutral",
+    "sub": "Q3 2026, NY Fed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Put it together: higher prices, easy access to loans, and years of interest. That's the recipe for the pile.",
+   "say": "Put it together: higher prices, easy access to loans, and years of interest. That's the recipe for the pile.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Prices + access",
+     "+ time = pile"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter four: what a loan really costs.",
+   "say": "Chapter four: what a loan really costs.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "What a loan really costs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal undergraduate loans made from July 2026 through June 2027 carry a fixed rate of 6.52%.",
+   "say": "Federal undergraduate loans made from July twenty twenty-six through June twenty twenty-seven carry a fixed rate of six point five two percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Undergrad rate",
+    "value": "6.52%",
+    "tone": "down",
+    "sub": "2026-27, fixed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That rate is set each spring from the 10-year Treasury auction, plus a fixed add-on of 2.05 percentage points.",
+   "say": "That rate is set each spring from the ten-year Treasury auction, plus a fixed add-on of two point oh five percentage points.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "10-yr Treasury",
+     "+ 2.05 points"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Graduate loans cost more: 8.07% for grad students' regular loans, and 9.07% for PLUS loans.",
+   "say": "Graduate loans cost more: eight point oh seven percent for grad students' regular loans, and nine point oh seven percent for PLUS loans.",
+   "scene": {
+    "t": "compare",
+    "title": "Grad rates",
+    "left": {
+     "label": "Grad loans",
+     "value": "8.07%",
+     "tone": "down",
+     "sub": "2026-27"
+    },
+    "right": {
+     "label": "PLUS loans",
+     "value": "9.07%",
+     "tone": "down",
+     "sub": "2026-27"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So let's run one. Our math: a $30,000 undergrad loan at 6.52%, paid over the standard ten years.",
+   "say": "So let's run one. Our math: a thirty thousand dollar undergrad loan at six point five two percent, paid over the standard ten years.",
+   "scene": {
+    "t": "hook",
+    "title": "One [$30,000] loan",
+    "prop": "bill",
+    "label": "LOAN",
+    "value": "$30,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We use the standard loan formula. It blends principal and interest into one equal monthly payment.",
+   "say": "We use the standard loan formula. It blends principal and interest into one equal monthly payment.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "M = P x r /",
+     "(1 - (1+r)^-n)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The answer: about $341 a month, every month, for 120 months.",
+   "say": "The answer: about three hundred forty-one dollars a month, every month, for a hundred twenty months.",
+   "scene": {
+    "t": "stat",
+    "label": "Monthly payment",
+    "value": "$340.95",
+    "tone": "neutral",
+    "sub": "our math, 10 yrs"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In month one, $163 of that payment is pure interest. That's almost half the payment.",
+   "say": "In month one, a hundred sixty-three dollars of that payment is pure interest. That's almost half the payment.",
+   "scene": {
+    "t": "stat",
+    "label": "Month 1 interest",
+    "value": "$163",
+    "tone": "down",
+    "sub": "our math"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The other $178 or so actually shrinks the loan. Over the years, that split slowly flips toward principal.",
+   "say": "The other hundred seventy-eight dollars or so actually shrinks the loan. Over the years, that split slowly flips toward principal.",
+   "scene": {
+    "t": "compare",
+    "title": "Month 1",
+    "left": {
+     "label": "Interest",
+     "value": "$163",
+     "tone": "down",
+     "sub": "our math"
+    },
+    "right": {
+     "label": "Principal",
+     "value": "$178",
+     "tone": "up",
+     "sub": "our math"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over ten years, you'd pay back the $30,000 you borrowed, plus about $10,914 in interest.",
+   "say": "Over ten years, you'd pay back the thirty thousand dollars you borrowed, plus about ten thousand nine hundred fourteen dollars in interest.",
+   "scene": {
+    "t": "compare",
+    "title": "10 years",
+    "left": {
+     "label": "Borrowed",
+     "value": "$30,000",
+     "tone": "neutral",
+     "sub": "principal"
+    },
+    "right": {
+     "label": "Interest",
+     "value": "$10,914",
+     "tone": "down",
+     "sub": "our math"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $40,914 in total, or roughly 36% more than the original loan.",
+   "say": "That's about forty thousand nine hundred fourteen dollars in total, or roughly thirty-six percent more than the original loan.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Borrowed",
+     "value": "$30,000"
+    },
+    "to": {
+     "label": "Total paid",
+     "value": "$40,914"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now stretch the same loan to 20 years. The monthly payment drops to about $224.",
+   "say": "Now stretch the same loan to twenty years. The monthly payment drops to about two hundred twenty-four dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Stretch it",
+    "left": {
+     "label": "10 years",
+     "value": "$341/mo",
+     "tone": "neutral",
+     "sub": "our math"
+    },
+    "right": {
+     "label": "20 years",
+     "value": "$224/mo",
+     "tone": "up",
+     "sub": "our math"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But total interest jumps to about $23,766. That's more than double. Lower payments, bigger total bill.",
+   "say": "But total interest jumps to about twenty-three thousand seven hundred sixty-six dollars. That's more than double. Lower payments, bigger total bill.",
+   "scene": {
+    "t": "compare",
+    "title": "Interest",
+    "left": {
+     "label": "10 years",
+     "value": "$10,914",
+     "tone": "neutral",
+     "sub": "our math"
+    },
+    "right": {
+     "label": "20 years",
+     "value": "$23,766",
+     "tone": "down",
+     "sub": "our math"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Stretch that across 42.3 million borrowers, and you can see why the national total shrinks so slowly.",
+   "say": "Stretch that across forty-two point three million borrowers, and you can see why the national total shrinks so slowly.",
+   "scene": {
+    "t": "compare",
+    "title": "Interest",
+    "left": {
+     "label": "10 years",
+     "value": "$10,914",
+     "tone": "neutral",
+     "sub": "our math"
+    },
+    "right": {
+     "label": "20 years",
+     "value": "$23,766",
+     "tone": "down",
+     "sub": "our math"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One fine-print note: federal loans charge simple daily interest, so real bills can differ a little from our math.",
+   "say": "One fine-print note: federal loans charge simple daily interest, so real bills can differ a little from our math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Daily interest:",
+     "small differences"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the big lesson holds. With student loans, time is part of the price tag.",
+   "say": "But the big lesson holds. With student loans, time is part of the price tag.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Time is",
+     "the price tag"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter five: the pause, then new rules.",
+   "say": "Chapter five: the pause, then new rules.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The pause, then new rules"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In March 2020, as the pandemic hit, federal student loan payments were paused, and the interest rate dropped to zero.",
+   "say": "In March twenty twenty, as the pandemic hit, federal student loan payments were paused, and the interest rate dropped to zero.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Mar20",
+      "Pause starts"
+     ],
+     [
+      "Sep23",
+      "Interest returns"
+     ],
+     [
+      "Oct23",
+      "Bills return"
+     ],
+     [
+      "Mar26",
+      "SAVE ends"
+     ],
+     [
+      "Jul26",
+      "New limits"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That pause lasted about three and a half years. Interest restarted September 1, 2023, and bills came due from October.",
+   "say": "That pause lasted about three and a half years. Interest restarted September first, twenty twenty-three, and bills came due from October.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Mar20",
+      "Pause starts"
+     ],
+     [
+      "Sep23",
+      "Interest returns"
+     ],
+     [
+      "Oct23",
+      "Bills return"
+     ],
+     [
+      "Mar26",
+      "SAVE ends"
+     ],
+     [
+      "Jul26",
+      "New limits"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With 0% interest for years, the national balance barely grew. That's the flat stretch on our chart.",
+   "say": "With zero percent interest for years, the national balance barely grew. That's the flat stretch on our chart.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "0% interest",
+     "for ~3.5 years"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since payments restarted, many borrowers have fallen behind. As of September 2026, 10.9% of student loan balances were 90+ days late.",
+   "say": "Since payments restarted, many borrowers have fallen behind. As of September twenty twenty-six, ten point nine percent of student loan balances were ninety or more days late.",
+   "scene": {
+    "t": "stat",
+    "label": "90+ days late",
+    "value": "10.9%",
+    "tone": "down",
+    "sub": "Q3 2026, NY Fed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Federal data shows about 9.3 million borrowers in default as of June 2026, holding about $234 billion.",
+   "say": "Federal data shows about nine point three million borrowers in default as of June twenty twenty-six, holding about two hundred thirty-four billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "In default",
+    "value": "9.3M",
+    "tone": "down",
+    "sub": "June 2026, FSA"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Default isn't just a credit-score hit. By law, refunds and wages can be taken. Collections restarted in May 2025, then paused again in January 2026.",
+   "say": "Default isn't just a credit-score hit. By law, refunds and wages can be taken. Collections restarted in May twenty twenty-five, then paused again in January twenty twenty-six.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "US TREASURY",
+    "label": "Can take refunds",
+    "caption": "Paused again Jan 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Repayment plans changed too. SAVE, an income-driven plan launched in 2023, ended in March 2026, when a court made a settlement final.",
+   "say": "Repayment plans changed too. SAVE, an income-driven plan launched in twenty twenty-three, ended in March twenty twenty-six, when a court made a settlement final.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Mar20",
+      "Pause starts"
+     ],
+     [
+      "Sep23",
+      "Interest returns"
+     ],
+     [
+      "Oct23",
+      "Bills return"
+     ],
+     [
+      "Mar26",
+      "SAVE ends"
+     ],
+     [
+      "Jul26",
+      "New limits"
+     ]
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And on July 4, 2025, a big tax-and-spending law, the One Big Beautiful Bill Act, rewrote the loan rules.",
+   "say": "And on July fourth, twenty twenty-five, a big tax-and-spending law, the One Big Beautiful Bill Act, rewrote the loan rules.",
+   "scene": {
+    "t": "news",
+    "headline": "New loan law signed",
+    "source": "Public Law 119-21, July 4, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most of its loan changes kicked in on July 1, 2026, for new borrowers.",
+   "say": "Most of its loan changes kicked in on July first, twenty twenty-six, for new borrowers.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Mar20",
+      "Pause starts"
+     ],
+     [
+      "Sep23",
+      "Interest returns"
+     ],
+     [
+      "Oct23",
+      "Bills return"
+     ],
+     [
+      "Mar26",
+      "SAVE ends"
+     ],
+     [
+      "Jul26",
+      "New limits"
+     ]
+    ],
+    "reveal": 5
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, Grad PLUS is closed to new borrowers, apart from a limited phase-out for students already enrolled and borrowing.",
+   "say": "First, Grad PLUS is closed to new borrowers, apart from a limited phase-out for students already enrolled and borrowing.",
+   "scene": {
+    "t": "list",
+    "title": "New limits, 7/2026",
+    "items": [
+     "Grad PLUS ends",
+     "Grad cap $100K",
+     "Pro cap $200K",
+     "Parents $65K"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Graduate students now face a $20,500 yearly limit and a $100,000 total limit.",
+   "say": "Graduate students now face a twenty thousand five hundred dollar yearly limit and a one hundred thousand dollar total limit.",
+   "scene": {
+    "t": "list",
+    "title": "New limits, 7/2026",
+    "items": [
+     "Grad PLUS ends",
+     "Grad cap $100K",
+     "Pro cap $200K",
+     "Parents $65K"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Professional students, like future doctors and lawyers, get $50,000 a year and $200,000 total.",
+   "say": "Professional students, like future doctors and lawyers, get fifty thousand dollars a year and two hundred thousand total.",
+   "scene": {
+    "t": "list",
+    "title": "New limits, 7/2026",
+    "items": [
+     "Grad PLUS ends",
+     "Grad cap $100K",
+     "Pro cap $200K",
+     "Parents $65K"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Parent PLUS loans are now capped at $20,000 a year and $65,000 in total per student.",
+   "say": "Parent PLUS loans are now capped at twenty thousand dollars a year and sixty-five thousand in total per student.",
+   "scene": {
+    "t": "list",
+    "title": "New limits, 7/2026",
+    "items": [
+     "Grad PLUS ends",
+     "Grad cap $100K",
+     "Pro cap $200K",
+     "Parents $65K"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There's also a new lifetime limit of $257,500 in federal student loans, not counting Parent PLUS.",
+   "say": "There's also a new lifetime limit of two hundred fifty-seven thousand five hundred dollars in federal student loans, not counting Parent PLUS.",
+   "scene": {
+    "t": "stat",
+    "label": "Lifetime limit",
+    "value": "$257,500",
+    "tone": "neutral",
+    "sub": "excl. Parent PLUS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Undergraduate limits didn't change. A dependent undergrad can still borrow up to $31,000 in total.",
+   "say": "Undergraduate limits didn't change. A dependent undergrad can still borrow up to thirty-one thousand dollars in total.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Undergrad limit:",
+     "$31,000 (same)"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Loans made since July 1, 2026 get two repayment choices: a tiered standard plan with fixed payments, or the new Repayment Assistance Plan, called RAP.",
+   "say": "Loans made since July first, twenty twenty-six get two repayment choices: a tiered standard plan with fixed payments, or the new Repayment Assistance Plan, called RAP.",
+   "scene": {
+    "t": "split",
+    "title": "New plans",
+    "left": {
+     "title": "Tiered Standard",
+     "items": [
+      "Fixed payments",
+      "Set schedule"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "RAP",
+     "items": [
+      "1-10% of AGI",
+      "$10 minimum"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "RAP charges 1 to 10% of adjusted gross income, at least $10 a month, and forgives what's left after 30 years of payments.",
+   "say": "RAP charges one to ten percent of adjusted gross income, at least ten dollars a month, and forgives what's left after thirty years of payments.",
+   "scene": {
+    "t": "split",
+    "title": "New plans",
+    "left": {
+     "title": "Tiered Standard",
+     "items": [
+      "Fixed payments",
+      "Set schedule"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "RAP",
+     "items": [
+      "1-10% of AGI",
+      "$10 minimum"
+     ],
+     "tone": "neutral"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "RAP also waives unpaid monthly interest when payments are made on time, so balances don't balloon.",
+   "say": "RAP also waives unpaid monthly interest when payments are made on time, so balances don't balloon.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "On time = unpaid",
+     "interest waived"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Older loans can stay on older plans like IBR for now. Other legacy plans close by July 1, 2028.",
+   "say": "Older loans can stay on older plans like I B R for now. Other legacy plans close by July first, twenty twenty-eight.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old plans close",
+     "by July 2028"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Supporters say caps could slow borrowing and pressure schools on price. Critics say some students may turn to private loans instead.",
+   "say": "Supporters say caps could slow borrowing and pressure schools on price. Critics say some students may turn to private loans instead.",
+   "scene": {
+    "t": "split",
+    "title": "Two views",
+    "left": {
+     "title": "Supporters",
+     "items": [
+      "Less borrowing",
+      "Price pressure"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Critics",
+     "items": [
+      "Less access",
+      "Private loans"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Either way, the $1.66 trillion already owed doesn't vanish. It still gets paid down one bill at a time.",
+   "say": "Either way, the one point six six trillion dollars already owed doesn't vanish. It still gets paid down one bill at a time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Same pile.",
+     "New rules."
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter six: the recap.",
+   "say": "Chapter six: the recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: since 1965, Washington has backed student loans, and bankruptcy rules made them very hard to escape.",
+   "say": "One: since nineteen sixty-five, Washington has backed student loans, and bankruptcy rules made them very hard to escape.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sticky loans",
+     "Prices doubled",
+     "Easy borrowing",
+     "Interest grows"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: after inflation, public college sticker prices about doubled in thirty years.",
+   "say": "Two: after inflation, public college sticker prices about doubled in thirty years.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sticky loans",
+     "Prices doubled",
+     "Easy borrowing",
+     "Interest grows"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: Grad PLUS in 2006 and direct lending in 2010 made big loans easier to get.",
+   "say": "Three: Grad PLUS in twenty oh-six and direct lending in twenty ten made big loans easier to get.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sticky loans",
+     "Prices doubled",
+     "Easy borrowing",
+     "Interest grows"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: interest over ten or twenty years can add a third or more to what was borrowed.",
+   "say": "Four: interest over ten or twenty years can add a third or more to what was borrowed.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Sticky loans",
+     "Prices doubled",
+     "Easy borrowing",
+     "Interest grows"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And that's how student debt reached $1.66 trillion, more than Americans owe on credit cards.",
+   "say": "And that's how student debt reached one point six six trillion dollars, more than Americans owe on credit cards.",
+   "scene": {
+    "t": "hook",
+    "title": "Bigger than [cards]",
+    "prop": "bill",
+    "label": "LOANS",
+    "value": "$1.66T",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The one takeaway: every loan has two numbers that matter most, the rate and the time. Now you know how both work.",
+   "say": "The one takeaway: every loan has two numbers that matter most, the rate and the time. Now you know how both work.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rate + time",
+     "= real cost"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Follow FinancePros TV for more money, explained.",
+   "say": "Follow FinancePros TV for more money, explained.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Explained: money from zero"
+   }
+  }
+ ],
+ "post": {
+  "title": "Student debt is bigger than credit card debt. Here's how it got to $1.66 trillion.",
+  "ig": "Americans owe $1.66 trillion in student loans, more than on credit cards. Here's how it got so big.",
+  "tiktok": "Student debt is bigger than all US credit card debt. Here's how it got to $1.66 trillion.",
+  "yt_desc": "As of the third quarter of 2026, Americans owed $1.66 trillion in student loans, more than the $1.29 trillion on credit cards, according to the New York Fed. This video explains how it got so big: the 1965 Higher Education Act and its bank guarantees, bankruptcy rules that made student loans hard to escape, a public college sticker price that about doubled after inflation from 1995-96 to 2025-26, and Grad PLUS and direct federal lending. College Board's newest figure puts 2026-27 in-state public four-year tuition and fees at $12,290. We run the math on a $30,000 loan at the 2026-27 rate of 6.52% (our math: about $10,914 in interest over 10 years), then walk through the 2020-2023 payment pause, the end of SAVE, and the 2025 law that changed loan limits and repayment plans from July 1, 2026.\n\nCHAPTERS\n\nSources: Federal Reserve Bank of New York, Household Debt and Credit Report (Q3 2026, Nov 2026; Q4 reports 2012-2024); Federal Reserve Board G.19 Consumer Credit via FRED; Federal Student Aid data center announcements (June 2026, Sept 2026) and 2026-27 interest rate announcement (June 2026); College Board, Trends in College Pricing and Student Aid 2025 and 2026; LBJ Presidential Library; Congressional Research Service reports on student loans in bankruptcy and the SAFRA Act; Public Law 119-21 (July 4, 2025) as summarized by the US Department of Education and university aid offices; US Department of Education (2023, 2025, 2026).\n\nNews and education, not financial advice.\n\n#StudentLoans #StudentDebt #PersonalFinance",
+  "tags": [
+   "student loans",
+   "student debt",
+   "college tuition",
+   "Grad PLUS",
+   "RAP",
+   "SAVE plan",
+   "New York Fed",
+   "FinancePros"
+  ]
+ }
+}

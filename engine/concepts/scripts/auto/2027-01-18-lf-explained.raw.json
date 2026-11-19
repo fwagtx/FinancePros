@@ -44,8 +44,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's New York Fed data. Among household debts, only mortgages are bigger.",
-   "say": "That's New York Fed data. Among household debts, only mortgages are bigger.",
+   "text": "That's New York Fed data. Among household debts, only mortgages and auto loans are bigger.",
+   "say": "That's New York Fed data. Among household debts, only mortgages and auto loans are bigger.",
    "scene": {
     "t": "compare",
     "title": "Q3 2026",
@@ -67,26 +67,26 @@
   },
   {
    "who": "ticker",
-   "text": "Federal data counts 42.6 million people with federal student loans, as of March 2026.",
-   "say": "Federal data counts forty-two point six million people with federal student loans, as of March twenty twenty-six.",
+   "text": "Federal data counts 42.3 million people with federal student loans, as of June 2026.",
+   "say": "Federal data counts forty-two point three million people with federal student loans, as of June twenty twenty-six.",
    "scene": {
     "t": "stat",
     "label": "Federal borrowers",
-    "value": "42.6M",
+    "value": "42.3M",
     "tone": "neutral",
-    "sub": "FSA, March 2026"
+    "sub": "FSA, June 2026"
    }
   },
   {
    "who": "ticker",
-   "text": "Our math: that works out to an average of about $40,500 each.",
-   "say": "Our math: that works out to an average of about forty thousand five hundred dollars each.",
+   "text": "They owe more than $1.7 trillion. Our math: that's over $40,000 each, on average.",
+   "say": "They owe more than one point seven trillion dollars. Our math: that's over forty thousand dollars each, on average.",
    "scene": {
     "t": "stat",
     "label": "Avg federal debt",
-    "value": "~$40,500",
+    "value": "$40,000+",
     "tone": "down",
-    "sub": "our math, 3/2026"
+    "sub": "our math, 6/2026"
    }
   },
   {
@@ -197,8 +197,8 @@
   },
   {
    "who": "ticker",
-   "text": "His goal, in his own words: a student should not be turned away because his family is poor.",
-   "say": "His goal, in his own words: a student should not be turned away because his family is poor.",
+   "text": "His goal: any high school senior could apply to college and, in his words, \"not be turned away because his family is poor.\"",
+   "say": "His goal: any high school senior could apply to college and, in his words, not be turned away because his family is poor.",
    "scene": {
     "t": "quote",
     "text": "...and not be turned away because his family is poor.",
@@ -219,8 +219,8 @@
   },
   {
    "who": "ticker",
-   "text": "For banks, that was a pretty sweet setup: they earned the interest, and the government carried most of the risk.",
-   "say": "For banks, that was a pretty sweet setup: they earned the interest, and the government carried most of the risk.",
+   "text": "For banks, that was a low-risk setup: they earned the interest, and the government carried most of the risk.",
+   "say": "For banks, that was a low-risk setup: they earned the interest, and the government carried most of the risk.",
    "scene": {
     "t": "split",
     "title": "The deal",
@@ -356,14 +356,14 @@
   },
   {
    "who": "ticker",
-   "text": "In the 2025-26 school year, average published tuition and fees at a public four-year college, in-state, hit $11,950.",
-   "say": "In the twenty twenty-five to twenty-six school year, average published tuition and fees at a public four-year college, in-state, hit eleven thousand nine hundred fifty dollars.",
+   "text": "For the 2026-27 school year, College Board puts average published tuition and fees at a public four-year college, in-state, at $12,290.",
+   "say": "For the twenty twenty-six to twenty-seven school year, College Board puts average published tuition and fees at a public four-year college, in-state, at twelve thousand two hundred ninety dollars.",
    "scene": {
     "t": "stat",
     "label": "Public 4-yr price",
-    "value": "$11,950",
+    "value": "$12,290",
     "tone": "down",
-    "sub": "2025-26 in-state"
+    "sub": "2026-27 in-state"
    }
   },
   {
@@ -380,67 +380,26 @@
   },
   {
    "who": "ticker",
-   "text": "Now watch it over thirty years, in 2025 dollars, so inflation is already taken out. In 1995-96, it was $5,940.",
-   "say": "Now watch it over thirty years, in twenty twenty-five dollars, so inflation is already taken out. In nineteen ninety-five to ninety-six, it was five thousand nine hundred forty dollars.",
+   "text": "For the long view, College Board's 2025 report uses 2025 dollars, so inflation is already taken out. In 1995-96, it was $5,940.",
+   "say": "For the long view, College Board's twenty twenty-five report uses twenty twenty-five dollars, so inflation is already taken out. In nineteen ninety-five to ninety-six, it was five thousand nine hundred forty dollars.",
    "scene": {
-    "t": "chart",
-    "title": "Tuition, 2025 dollars",
-    "points": [
-     [
-      1995,
-      5940
-     ],
-     [
-      2005,
-      9050
-     ],
-     [
-      2015,
-      12810
-     ],
-     [
-      2025,
-      11950
-     ]
-    ],
-    "prefix": "$",
-    "end": "$11,950",
-    "color": "up"
+    "t": "stat",
+    "label": "1995-96 tuition",
+    "value": "$5,940",
+    "tone": "neutral",
+    "sub": "in 2025 dollars"
    }
   },
   {
    "who": "ticker",
-   "text": "Ten years later it was $9,050, and by 2015-16 it peaked at $12,810. Those two are our math from College Board's figures.",
-   "say": "Ten years later it was nine thousand fifty dollars, and by twenty fifteen to sixteen it peaked at twelve thousand eight hundred ten. Those two are our math from College Board's figures.",
+   "text": "By 2015-16, it had climbed to a peak of about $12,810. By 2025-26, it was $11,950.",
+   "say": "By twenty fifteen to sixteen, it had climbed to a peak of about twelve thousand eight hundred ten dollars. By twenty twenty-five to twenty-six, it was eleven thousand nine hundred fifty.",
    "scene": {
-    "t": "chart",
-    "title": "Tuition, 2025 dollars",
-    "points": [
-     [
-      1995,
-      5940
-     ],
-     [
-      2005,
-      9050
-     ],
-     [
-      2015,
-      12810
-     ],
-     [
-      2025,
-      11950
-     ]
-    ],
-    "prefix": "$",
-    "end": "$11,950",
-    "color": "up",
-    "keep": true,
-    "chart_note": {
-     "x": 2015,
-     "text": "Peak"
-    }
+    "t": "stat",
+    "label": "2015-16 peak",
+    "value": "$12,810",
+    "tone": "down",
+    "sub": "in 2025 dollars"
    }
   },
   {
@@ -489,8 +448,8 @@
   },
   {
    "who": "ticker",
-   "text": "But here's the twist. College Board says that sticker price actually fell 7% after inflation over the last decade.",
-   "say": "But here's the twist. College Board says that sticker price actually fell seven percent after inflation over the last decade.",
+   "text": "But here's the twist. College Board says that sticker price fell 7% after inflation in the ten years through 2025-26.",
+   "say": "But here's the twist. College Board says that sticker price fell seven percent after inflation in the ten years through twenty twenty-five to twenty-six.",
    "scene": {
     "t": "compare",
     "title": "Decade",
@@ -510,8 +469,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's a drop of $860 in real terms. So the price stopped racing ahead, at least on paper.",
-   "say": "That's a drop of eight hundred sixty dollars in real terms. So the price stopped racing ahead, at least on paper.",
+   "text": "That's a drop of $860 in real terms. Its newest report shows an 8% real drop in the ten years through 2026-27.",
+   "say": "That's a drop of eight hundred sixty dollars in real terms. Its newest report shows an eight percent real drop in the ten years through twenty twenty-six to twenty-seven.",
    "scene": {
     "t": "compare",
     "title": "Decade",
@@ -555,12 +514,12 @@
   },
   {
    "who": "ticker",
-   "text": "Back in the second quarter of 2010, the New York Fed says student debt passed credit card debt for the first time.",
-   "say": "Back in the second quarter of twenty ten, the New York Fed says student debt passed credit card debt for the first time.",
+   "text": "By the end of 2012, the New York Fed said student loans had become the biggest household debt after mortgages.",
+   "say": "By the end of twenty twelve, the New York Fed said student loans had become the biggest household debt after mortgages.",
    "scene": {
     "t": "news",
-    "headline": "Loans top card debt",
-    "source": "New York Fed, 2012 report"
+    "headline": "Loans now No. 2 debt",
+    "source": "New York Fed, Q4 2012 report"
    }
   },
   {
@@ -723,7 +682,7 @@
     "title": "Two rule changes",
     "items": [
      "2006 Grad PLUS",
-     "2010: Direct"
+     "2010 Direct"
     ],
     "reveal": 1
    }
@@ -749,7 +708,7 @@
     "title": "Two rule changes",
     "items": [
      "2006 Grad PLUS",
-     "2010: Direct"
+     "2010 Direct"
     ],
     "reveal": 2
    }
@@ -793,20 +752,20 @@
   },
   {
    "who": "ticker",
-   "text": "The Federal Reserve Board's broader measure tells the same story: $481 billion in early 2006, versus $1.84 trillion by December 2025.",
-   "say": "The Federal Reserve Board's broader measure tells the same story: four hundred eighty-one billion dollars in early two thousand six, versus one point eight four trillion by December twenty twenty-five.",
+   "text": "The Federal Reserve Board's broader measure tells the same story: $481 billion in March 2006, versus $1.86 trillion by June 2026.",
+   "say": "The Federal Reserve Board's broader measure tells the same story: four hundred eighty-one billion dollars in March two thousand six, versus one point eight six trillion by June twenty twenty-six.",
    "scene": {
     "t": "compare",
     "title": "Fed's G.19",
     "left": {
-     "label": "Early 2006",
+     "label": "Mar 2006",
      "value": "$481B",
      "tone": "neutral",
      "sub": "Fed Board"
     },
     "right": {
-     "label": "Dec 2025",
-     "value": "$1.84T",
+     "label": "June 2026",
+     "value": "$1.86T",
      "tone": "down",
      "sub": "Fed Board"
     }
@@ -814,20 +773,20 @@
   },
   {
    "who": "ticker",
-   "text": "Our math: that's about 3.8 times as much. It counts loans differently than the New York Fed, so the two don't mix.",
-   "say": "Our math: that's about three point eight times as much. It counts loans differently than the New York Fed, so the two don't mix.",
+   "text": "Our math: that's about 3.9 times as much. It counts loans differently than the New York Fed, so the two don't mix.",
+   "say": "Our math: that's about three point nine times as much. It counts loans differently than the New York Fed, so the two don't mix.",
    "scene": {
     "t": "compare",
     "title": "Fed's G.19",
     "left": {
-     "label": "Early 2006",
+     "label": "Mar 2006",
      "value": "$481B",
      "tone": "neutral",
      "sub": "Fed Board"
     },
     "right": {
-     "label": "Dec 2025",
-     "value": "$1.84T",
+     "label": "June 2026",
+     "value": "$1.86T",
      "tone": "down",
      "sub": "Fed Board"
     },
@@ -1064,8 +1023,8 @@
   },
   {
    "who": "ticker",
-   "text": "Stretch that across 42.6 million borrowers, and you can see why the national total shrinks so slowly.",
-   "say": "Stretch that across forty-two point six million borrowers, and you can see why the national total shrinks so slowly.",
+   "text": "Stretch that across 42.3 million borrowers, and you can see why the national total shrinks so slowly.",
+   "say": "Stretch that across forty-two point three million borrowers, and you can see why the national total shrinks so slowly.",
    "scene": {
     "t": "compare",
     "title": "Interest",
@@ -1087,13 +1046,13 @@
   },
   {
    "who": "ticker",
-   "text": "One fine-print note: federal loans charge simple daily interest, so real bills can differ by a few cents.",
-   "say": "One fine-print note: federal loans charge simple daily interest, so real bills can differ by a few cents.",
+   "text": "One fine-print note: federal loans charge simple daily interest, so real bills can differ a little from our math.",
+   "say": "One fine-print note: federal loans charge simple daily interest, so real bills can differ a little from our math.",
    "scene": {
     "t": "board",
     "lines": [
      "Daily interest:",
-     "cents may differ"
+     "small differences"
     ]
    }
   },
@@ -1221,20 +1180,20 @@
   },
   {
    "who": "ticker",
-   "text": "Default isn't just a credit-score hit. The government can take tax refunds and garnish wages, and it restarted collections in May 2025.",
-   "say": "Default isn't just a credit-score hit. The government can take tax refunds and garnish wages, and it restarted collections in May twenty twenty-five.",
+   "text": "Default isn't just a credit-score hit. By law, refunds and wages can be taken. Collections restarted in May 2025, then paused again in January 2026.",
+   "say": "Default isn't just a credit-score hit. By law, refunds and wages can be taken. Collections restarted in May twenty twenty-five, then paused again in January twenty twenty-six.",
    "scene": {
     "t": "building",
     "kind": "fed",
     "name": "US TREASURY",
-    "label": "Refunds taken",
-    "caption": "Collections restarted 2025"
+    "label": "Can take refunds",
+    "caption": "Paused again Jan 2026"
    }
   },
   {
    "who": "ticker",
-   "text": "Repayment plans changed too. SAVE, an income-driven plan launched in 2023, was ended through a court settlement in March 2026.",
-   "say": "Repayment plans changed too. SAVE, an income-driven plan launched in twenty twenty-three, was ended through a court settlement in March twenty twenty-six.",
+   "text": "Repayment plans changed too. SAVE, an income-driven plan launched in 2023, ended in March 2026, when a court made a settlement final.",
+   "say": "Repayment plans changed too. SAVE, an income-driven plan launched in twenty twenty-three, ended in March twenty twenty-six, when a court made a settlement final.",
    "scene": {
     "t": "timeline",
     "events": [
@@ -1305,8 +1264,8 @@
   },
   {
    "who": "ticker",
-   "text": "First, Grad PLUS is closed to new borrowers, apart from a short window for students who were already using it.",
-   "say": "First, Grad PLUS is closed to new borrowers, apart from a short window for students who were already using it.",
+   "text": "First, Grad PLUS is closed to new borrowers, apart from a limited phase-out for students already enrolled and borrowing.",
+   "say": "First, Grad PLUS is closed to new borrowers, apart from a limited phase-out for students already enrolled and borrowing.",
    "scene": {
     "t": "list",
     "title": "New limits, 7/2026",
@@ -1534,8 +1493,8 @@
   },
   {
    "who": "ticker",
-   "text": "Two: after inflation, public college sticker prices about doubled from 1995-96 to 2025-26.",
-   "say": "Two: after inflation, public college sticker prices about doubled from nineteen ninety-five to twenty twenty-five.",
+   "text": "Two: after inflation, public college sticker prices about doubled in thirty years.",
+   "say": "Two: after inflation, public college sticker prices about doubled in thirty years.",
    "scene": {
     "t": "list",
     "title": "Recap",
@@ -1623,7 +1582,7 @@
   "title": "Student debt is bigger than credit card debt. Here's how it got to $1.66 trillion.",
   "ig": "Americans owe $1.66 trillion in student loans, more than on credit cards. Here's how it got so big.",
   "tiktok": "Student debt is bigger than all US credit card debt. Here's how it got to $1.66 trillion.",
-  "yt_desc": "As of the third quarter of 2026, Americans owed $1.66 trillion in student loans, more than the $1.29 trillion on credit cards, according to the New York Fed. This video explains how it got so big: the 1965 Higher Education Act and its bank guarantees, bankruptcy rules that made student loans hard to escape, a public college sticker price that about doubled after inflation from 1995-96 to 2025-26, and Grad PLUS and direct federal lending. We run the math on a $30,000 loan at the 2026-27 rate of 6.52% (our math: about $10,914 in interest over 10 years), then walk through the 2020-2023 payment pause, the end of SAVE, and the 2025 law that changed loan limits and repayment plans from July 1, 2026.\n\nCHAPTERS\n\nSources: Federal Reserve Bank of New York, Household Debt and Credit Report (Q3 2026, Nov 2026; Q4 reports 2012-2024; 2012 release); Federal Reserve Board G.19 Consumer Credit via FRED; Federal Student Aid data center announcements (June 2026, Sept 2026) and 2026-27 interest rate announcement (June 2026); College Board, Trends in College Pricing and Student Aid 2025; LBJ Presidential Library; Congressional Research Service reports on student loans in bankruptcy and the SAFRA Act; Public Law 119-21 (July 4, 2025) as summarized by the US Department of Education and university aid offices; US Department of Education (2023, 2025).\n\nNews and education, not financial advice.\n\n#StudentLoans #StudentDebt #PersonalFinance",
+  "yt_desc": "As of the third quarter of 2026, Americans owed $1.66 trillion in student loans, more than the $1.29 trillion on credit cards, according to the New York Fed. This video explains how it got so big: the 1965 Higher Education Act and its bank guarantees, bankruptcy rules that made student loans hard to escape, a public college sticker price that about doubled after inflation from 1995-96 to 2025-26, and Grad PLUS and direct federal lending. College Board's newest figure puts 2026-27 in-state public four-year tuition and fees at $12,290. We run the math on a $30,000 loan at the 2026-27 rate of 6.52% (our math: about $10,914 in interest over 10 years), then walk through the 2020-2023 payment pause, the end of SAVE, and the 2025 law that changed loan limits and repayment plans from July 1, 2026.\n\nCHAPTERS\n\nSources: Federal Reserve Bank of New York, Household Debt and Credit Report (Q3 2026, Nov 2026; Q4 reports 2012-2024); Federal Reserve Board G.19 Consumer Credit via FRED; Federal Student Aid data center announcements (June 2026, Sept 2026) and 2026-27 interest rate announcement (June 2026); College Board, Trends in College Pricing and Student Aid 2025 and 2026; LBJ Presidential Library; Congressional Research Service reports on student loans in bankruptcy and the SAFRA Act; Public Law 119-21 (July 4, 2025) as summarized by the US Department of Education and university aid offices; US Department of Education (2023, 2025, 2026).\n\nNews and education, not financial advice.\n\n#StudentLoans #StudentDebt #PersonalFinance",
   "tags": [
    "student loans",
    "student debt",
