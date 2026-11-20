@@ -1,0 +1,197 @@
+{
+ "id": "2027-01-19-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Roommate moved out?\nYou may owe it all",
+ "cover": {
+  "title": "Owe All Rent?",
+  "prop": "bill",
+  "label": "RENT",
+  "value": "100%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Roommate moves out? You could owe the whole rent.",
+   "say": "Roommate moves out? You could owe the whole rent.",
+   "scene": {
+    "t": "hook",
+    "title": "Owe [All] of It?",
+    "prop": "bill",
+    "label": "RENT",
+    "value": "100%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Blame a phrase in many shared leases: joint and several liability.",
+   "say": "Blame a phrase in many shared leases: joint and several liability.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Joint and several",
+     "liability"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Each signer can owe the full rent, not just their half.",
+   "say": "Each signer can owe the full rent, not just their half.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Each signer can",
+     "owe the FULL rent"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $2,000 in rent, split two ways, is $1,000 each. If they stop paying, the landlord can ask you for all $2,000.",
+   "say": "Our math: two thousand dollars in rent, split two ways, is one thousand each. If they stop paying, the landlord can ask you for all two thousand.",
+   "scene": {
+    "t": "compare",
+    "title": "Our math",
+    "left": {
+     "label": "Split",
+     "value": "$1,000",
+     "tone": "neutral",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "Alone",
+     "value": "$2,000",
+     "tone": "down",
+     "sub": "per month"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three months left? That's $3,000 extra on you.",
+   "say": "Three months left? That's three thousand dollars extra on you.",
+   "scene": {
+    "t": "stat",
+    "label": "3 months extra",
+    "value": "$3,000",
+    "tone": "down",
+    "sub": "our math",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Per Nolo, side deals don't bind the landlord, though your ex-roommate usually still owes too.",
+   "say": "Per Nolo, side deals don't bind the landlord, though your ex-roommate usually still owes too.",
+   "scene": {
+    "t": "split",
+    "title": "Who owes",
+    "left": {
+     "title": "You",
+     "items": [
+      "Full rent",
+      "Eviction risk"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Ex-roomie",
+     "items": [
+      "Still liable",
+      "Small claims"
+     ],
+     "tone": "neutral"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the deposit usually stays with the landlord until everyone moves out.",
+   "say": "And the deposit usually stays with the landlord until everyone moves out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deposit stays",
+     "till all move out"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And rent keeps climbing: median gross rent went from $1,191 in 2021 to $1,557 in 2025, per the Census.",
+   "say": "And rent keeps climbing: median gross rent went from about twelve hundred dollars in twenty twenty-one to nearly sixteen hundred in twenty twenty-five, per the Census.",
+   "scene": {
+    "t": "chart",
+    "title": "Median gross rent",
+    "points": [
+     [
+      2021,
+      1191
+     ],
+     [
+      2022,
+      1300
+     ],
+     [
+      2023,
+      1406
+     ],
+     [
+      2024,
+      1487
+     ],
+     [
+      2025,
+      1557
+     ]
+    ],
+    "prefix": "$",
+    "end": "$1,557",
+    "color": "up",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Laws vary by state and lease, so read yours.",
+   "say": "Laws vary by state and lease, so read yours.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Read your lease",
+     "Laws vary by state"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Half the rent, all the risk"
+   }
+  }
+ ],
+ "post": {
+  "title": "Your roommate moved out. Do you owe the whole rent?",
+  "ig": "Roommate moves out? You could owe the whole rent.\nMany shared leases make tenants \"jointly and severally liable\": each signer can owe the full rent (Nolo).\nOur math: $2,000 rent split two ways is $1,000 each. If one stops paying, the landlord can ask the other for $2,000.\nA roommate side deal doesn't change what you owe the landlord, and the deposit usually stays until everyone moves out.\nUS median gross rent (rent plus utilities): $1,191 in 2021, $1,557 in 2025 (Census ACS 1-year). Laws vary by state and lease.\nSources: Nolo; FindLaw; US Census Bureau American Community Survey.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#roommates #renting #tenantrights #personalfinance #financeprostv",
+  "tiktok": "Roommate moved out? You could owe the whole rent. Not financial advice. #moneytok #personalfinance #renting #roommates #financeprostv",
+  "yt_desc": "On many shared leases, roommates are jointly and severally liable, so each signer can owe the full rent if one moves out (Nolo; FindLaw). Our math: on $2,000 rent split two ways, you could go from $1,000 to $2,000 a month. US median gross rent (rent plus utilities) rose from $1,191 in 2021 to $1,557 in 2025 (US Census Bureau ACS 1-year). Laws vary by state and lease. News and education, not financial advice. #Shorts #renting #personalfinance",
+  "tags": [
+   "roommate moves out",
+   "joint and several liability",
+   "splitting rent",
+   "tenant rights",
+   "lease rent"
+  ]
+ }
+}
