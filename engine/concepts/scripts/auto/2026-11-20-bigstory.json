@@ -1,0 +1,208 @@
+{
+ "id": "2026-11-20-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Inflation Fears\nJust Dropped",
+ "cover": {
+  "title": "Price Fears Drop",
+  "prop": "chart-down",
+  "value": "3.7%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Americans' inflation fears just dropped a full point.",
+   "say": "Americans' inflation fears just dropped a full point.",
+   "scene": {
+    "t": "hook",
+    "title": "Inflation [fears] drop",
+    "prop": "chart-down",
+    "value": "3.7%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In October, people expected prices to rise 4.7% over the next year. Now it's 3.7%.",
+   "say": "In October, people expected prices to rise four point seven percent over the next year. Now it's three point seven.",
+   "scene": {
+    "t": "compare",
+    "title": "Next 12 mo",
+    "left": {
+     "label": "October",
+     "value": "4.7%",
+     "tone": "down",
+     "sub": "Expected"
+    },
+    "right": {
+     "label": "November",
+     "value": "3.7%",
+     "tone": "up",
+     "sub": "Expected"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's from the University of Michigan's final November survey, and it's the lowest since February.",
+   "say": "That's from the University of Michigan's final November survey, and it's the lowest since February.",
+   "scene": {
+    "t": "chart",
+    "title": "Expected inflation",
+    "points": [
+     [
+      "Feb",
+      3.4
+     ],
+     [
+      "Mar",
+      3.8
+     ],
+     [
+      "Apr",
+      4.7
+     ],
+     [
+      "May",
+      4.8
+     ],
+     [
+      "Jun",
+      4.6
+     ],
+     [
+      "Jul",
+      4.2
+     ],
+     [
+      "Aug",
+      4.0
+     ],
+     [
+      "Sep",
+      4.6
+     ],
+     [
+      "Oct",
+      4.7
+     ],
+     [
+      "Nov",
+      3.7
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.7%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back then it was 3.4%. After the Iran conflict began, it climbed, staying at 4% or higher from April to October.",
+   "say": "Back then it was three point four percent. After the Iran conflict began, it climbed, staying at four percent or higher from April to October.",
+   "scene": {
+    "t": "chart",
+    "title": "Expected inflation",
+    "keep": true,
+    "note": {
+     "x": "Feb",
+     "text": "3.4%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Overall mood rose too. The sentiment index hit 51.5, up from 48 in October.",
+   "say": "Overall mood rose too. The sentiment index hit fifty-one point five, up from forty-eight in October.",
+   "scene": {
+    "t": "stat",
+    "label": "Consumer mood",
+    "value": "51.5",
+    "tone": "up",
+    "sub": "Best since Aug",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Survey director Joanne Hsu pointed to falling gas prices and a better post-election outlook. But the biggest stockholders felt worse.",
+   "say": "Survey director Joanne Hsu pointed to falling gas prices and a better post-election outlook. But the biggest stockholders felt worse.",
+   "scene": {
+    "t": "split",
+    "title": "Finances",
+    "left": {
+     "title": "Better",
+     "items": [
+      "Lower wealth",
+      "Middle wealth"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Worse",
+     "items": [
+      "Big investors",
+      "Stock swings"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why care? What people expect can shape real prices and pay raises.",
+   "say": "Why care? What people expect can shape real prices and pay raises.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Expectations",
+     "shape prices"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A forecast isn't a price cut. And 3.7% is still above February's 3.4%.",
+   "say": "A forecast isn't a price cut. And three point seven is still above February's three point four.",
+   "scene": {
+    "t": "compare",
+    "title": "Still up",
+    "left": {
+     "label": "February",
+     "value": "3.4%",
+     "tone": "neutral",
+     "sub": "Expected"
+    },
+    "right": {
+     "label": "November",
+     "value": "3.7%",
+     "tone": "down",
+     "sub": "Expected"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Americans' inflation fears just dropped a full point",
+  "ig": "Americans' inflation fears just dropped a full point, to 3.7%.\nYear-ahead inflation expectations fell from 4.7% in October to 3.7% in November, the lowest since February (University of Michigan, final survey, Nov 20).\nThe consumer sentiment index rose to 51.5 from 48.\nSurvey director Joanne Hsu pointed to falling gas prices and a better post-election outlook. Lower- and middle-wealth households felt better; those with the largest stockholdings felt worse amid stock market swings.\nLong-run expectations eased to 3.3% from 3.5%.\nSources: University of Michigan Surveys of Consumers, Axios, Kitco.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#inflation #consumersentiment #economy #moneynews #financeprostv",
+  "tiktok": "Inflation fears just fell a full point, 4.7% to 3.7% (UMich survey). Not financial advice. #moneytok #inflation #economy #financeprostv",
+  "yt_desc": "Year-ahead inflation expectations fell from 4.7% to 3.7% in November, the lowest since February, per the University of Michigan's final survey released Nov 20, 2026. Consumer sentiment rose to 51.5 from 48. News and education, not financial advice. #Shorts #inflation #economy",
+  "tags": [
+   "inflation expectations",
+   "consumer sentiment",
+   "University of Michigan survey",
+   "inflation",
+   "economy news"
+  ]
+ }
+}
