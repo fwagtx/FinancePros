@@ -1,0 +1,1699 @@
+{
+ "id": "2026-11-20-lf-big",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "Stocks down,\nrates up",
+ "cover": {
+  "title": "Lose-Lose Week?",
+  "prop": "chart-down",
+  "label": "S&P",
+  "value": "-8.2%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Stocks fell six days straight. Mortgage rates rose anyway.",
+   "say": "Stocks fell six days straight. Mortgage rates rose anyway.",
+   "scene": {
+    "t": "hook",
+    "title": "Stocks down, rates [up]",
+    "prop": "chart-down",
+    "label": "S&P",
+    "value": "6 days",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Normally, when stocks drop, scared money runs into bonds, and loan rates ease a little. That's the cushion.",
+   "say": "Normally, when stocks drop, scared money runs into bonds, and loan rates ease a little. That's the cushion.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Stocks fall,",
+     "loans get cheaper"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This week, no cushion. As of Thursday's close, the S&P 500 sits 8.2% below its record.",
+   "say": "This week, no cushion. As of Thursday's close, the S and P five hundred sits eight point two percent below its record.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 vs record",
+    "value": "-8.2%",
+    "tone": "down",
+    "sub": "As of Thu close"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Freddie Mac's average 30-year mortgage rate jumped to 7.28%, up from 7.11% a week earlier.",
+   "say": "And Freddie Mac's average thirty-year mortgage rate jumped to seven point two eight percent, up from seven point one one percent a week earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "30-yr rate",
+    "left": {
+     "label": "Nov 12",
+     "value": "7.11%",
+     "tone": "neutral",
+     "sub": "Freddie Mac"
+    },
+    "right": {
+     "label": "Nov 19",
+     "value": "7.28%",
+     "tone": "down",
+     "sub": "Freddie Mac"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So your 401(k) and your borrowing costs both moved the wrong way in the same week.",
+   "say": "So your four oh one k and your borrowing costs both moved the wrong way in the same week.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "401(k): down",
+     "Borrowing: up"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the plan: why stocks slid, why the Fed wants more hikes, why loan rates rose anyway, and what it means for you.",
+   "say": "Here's the plan: why stocks slid, why the Fed wants more hikes, why loan rates rose anyway, and what it means for you.",
+   "scene": {
+    "t": "list",
+    "title": "Coming up",
+    "items": [
+     "Stocks slid",
+     "The Fed's plan",
+     "Why rates rose",
+     "Your money"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And one surprising thread ties the whole week together: the AI boom.",
+   "say": "And one surprising thread ties the whole week together: the AI boom.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "The thread:",
+     "the AI boom"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Six days of red.",
+   "say": "Chapter one: Six days of red.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Six days of red"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Thursday, the S&P 500 fell 2%, to 7,175.83, its sixth loss in a row.",
+   "say": "On Thursday, the S and P five hundred fell two percent, to seven thousand one hundred seventy-five point eight three, its sixth loss in a row.",
+   "scene": {
+    "t": "news",
+    "headline": "S&P 500 down 6 days",
+    "source": "AP, Nov 19, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's its longest losing streak since 2024. The Dow dropped 1,101 points, and the Nasdaq fell 2.3%.",
+   "say": "That's its longest losing streak since twenty twenty-four. The Dow dropped one thousand one hundred one points, and the Nasdaq fell two point three percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Thursday",
+    "left": {
+     "label": "Dow",
+     "value": "-1,101",
+     "tone": "down",
+     "sub": "points"
+    },
+    "right": {
+     "label": "Nasdaq",
+     "value": "-2.3%",
+     "tone": "down",
+     "sub": "Nov 19"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "More than 90% of S&P 500 stocks fell that day. This wasn't one bad company.",
+   "say": "More than ninety percent of S and P five hundred stocks fell that day. This wasn't one bad company.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P stocks down",
+    "value": ">90%",
+    "tone": "down",
+    "sub": "Thursday, Nov 19",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the bigger picture: where the S&P 500 ended each year since 2021, plus where it closed on Thursday.",
+   "say": "Here's the bigger picture: where the S and P five hundred ended each year since twenty twenty-one, plus where it closed on Thursday.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 level",
+    "points": [
+     [
+      2021,
+      4766
+     ],
+     [
+      2022,
+      3840
+     ],
+     [
+      2023,
+      4770
+     ],
+     [
+      2024,
+      5882
+     ],
+     [
+      2025,
+      6846
+     ],
+     [
+      2026,
+      7176
+     ]
+    ],
+    "end": "7,176",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2022, when the Fed was raising rates fast, the index fell about 19%, and bonds lost money that year too.",
+   "say": "In twenty twenty-two, when the Fed was raising rates fast, the index fell about nineteen percent, and bonds lost money that year too.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 level",
+    "points": [
+     [
+      2021,
+      4766
+     ],
+     [
+      2022,
+      3840
+     ],
+     [
+      2023,
+      4770
+     ],
+     [
+      2024,
+      5882
+     ],
+     [
+      2025,
+      6846
+     ],
+     [
+      2026,
+      7176
+     ]
+    ],
+    "end": "7,176",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2022,
+     "text": "-19%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After that came three strong years in a row, ending with 2025 up about 16% for the year.",
+   "say": "After that came three strong years in a row, ending with twenty twenty-five up about sixteen percent for the year.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 level",
+    "points": [
+     [
+      2021,
+      4766
+     ],
+     [
+      2022,
+      3840
+     ],
+     [
+      2023,
+      4770
+     ],
+     [
+      2024,
+      5882
+     ],
+     [
+      2025,
+      6846
+     ],
+     [
+      2026,
+      7176
+     ]
+    ],
+    "end": "7,176",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "+16%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So even after this slide, it was still up about 4.8% for 2026 as of Thursday's close. That's our math.",
+   "say": "So even after this slide, it was still up about four point eight percent for twenty twenty-six as of Thursday's close. That's our math.",
+   "scene": {
+    "t": "chart",
+    "title": "S&P 500 level",
+    "points": [
+     [
+      2021,
+      4766
+     ],
+     [
+      2022,
+      3840
+     ],
+     [
+      2023,
+      4770
+     ],
+     [
+      2024,
+      5882
+     ],
+     [
+      2025,
+      6846
+     ],
+     [
+      2026,
+      7176
+     ]
+    ],
+    "end": "7,176",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2026,
+     "text": "+4.8%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The mood around AI soured. The question is whether the enormous sums being spent on it will ever pay off.",
+   "say": "The mood around AI soured. The question is whether the enormous sums being spent on it will ever pay off.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Will AI spending",
+     "pay off?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Look at Nvidia, the company selling the chips. On Tuesday it reported record quarterly revenue of $115.8 billion.",
+   "say": "Look at Nvidia, the company selling the chips. On Tuesday it reported record quarterly revenue of one hundred fifteen point eight billion dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Nvidia Q3 revenue",
+    "value": "$115.8B",
+    "tone": "up",
+    "sub": "Record, Nov 17"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up 103% from a year earlier, and above the roughly $109.2 billion analysts expected.",
+   "say": "That's up one hundred three percent from a year earlier, and above the roughly one hundred nine point two billion dollars analysts expected.",
+   "scene": {
+    "t": "compare",
+    "title": "Nvidia Q3",
+    "left": {
+     "label": "Expected",
+     "value": "$109.2B",
+     "tone": "neutral",
+     "sub": "Analyst avg"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "$115.8B",
+     "tone": "up",
+     "sub": "Nvidia, Nov 17"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a clear beat, by more than $6.5 billion, by our math. On paper, it was a blowout quarter.",
+   "say": "That's a clear beat, by more than six and a half billion dollars, by our math. On paper, it was a blowout quarter.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Nvidia Q3",
+    "left": {
+     "label": "Expected",
+     "value": "$109.2B",
+     "tone": "neutral",
+     "sub": "Analyst avg"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "$115.8B",
+     "tone": "up",
+     "sub": "Nvidia, Nov 17"
+    },
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It also guided next quarter's sales to about $130 billion, plus or minus 3%.",
+   "say": "It also guided next quarter's sales to about one hundred thirty billion dollars, plus or minus three percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Nvidia Q4 outlook",
+    "value": "~$130B",
+    "tone": "up",
+    "sub": "Plus or minus 3%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And yet the stock fell almost 3% on Wednesday, then fell again on Thursday after an early jump faded.",
+   "say": "And yet the stock fell almost three percent on Wednesday, then fell again on Thursday after an early jump faded.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Great numbers,",
+     "stock fell anyway"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It was also Nvidia's first report since longtime CEO Jensen Huang resigned on November 12th. Finance chief Colette Kress is interim CEO.",
+   "say": "It was also Nvidia's first report since longtime CEO Jensen Huang resigned on November twelfth. Finance chief Colette Kress is interim CEO.",
+   "scene": {
+    "t": "news",
+    "headline": "Nvidia CEO change",
+    "source": "CNBC, Nov 12, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the biggest AI chip company beats and still drops, the market is asking for proof, not promises.",
+   "say": "When the biggest AI chip company beats and still drops, the market is asking for proof, not promises.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Market wants",
+     "proof, not hype"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The Fed isn't done.",
+   "say": "Chapter two: The Fed isn't done.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The Fed isn't done"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the second half of the story. On Wednesday, the Fed released minutes from its October meeting.",
+   "say": "Now the second half of the story. On Wednesday, the Fed released minutes from its October meeting.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Minutes",
+    "caption": "Released Nov 18"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, a quick rewind. In September, the Fed raised rates for the first time since July 2023.",
+   "say": "First, a quick rewind. In September, the Fed raised rates for the first time since July twenty twenty-three.",
+   "scene": {
+    "t": "news",
+    "headline": "Fed raises rates",
+    "source": "Federal Reserve, Sept 16, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That quarter-point hike put its key rate at 3.75% to 4%. In October, it held there.",
+   "say": "That quarter-point hike put its key rate at three point seven five to four percent. In October, it held there.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed target range",
+    "value": "3.75-4%",
+    "tone": "neutral",
+    "sub": "Since Sept 16"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's that rate at the end of each year since 2021, plus where it is now, using the top of the range. It's been a roller coaster.",
+   "say": "Here's that rate at the end of each year since twenty twenty-one, plus where it is now, using the top of the range. It's been a roller coaster.",
+   "scene": {
+    "t": "chart",
+    "title": "Fed rate, top",
+    "points": [
+     [
+      2021,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      4.5
+     ],
+     [
+      2025,
+      3.75
+     ],
+     [
+      2026,
+      4.0
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.00%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It peaked at 5.5% in 2023. Then the Fed cut rates in 2024 and 2025, down to 3.75%.",
+   "say": "It peaked at five and a half percent in twenty twenty-three. Then the Fed cut rates in twenty twenty-four and twenty twenty-five, down to three point seven five percent.",
+   "scene": {
+    "t": "chart",
+    "title": "Fed rate, top",
+    "points": [
+     [
+      2021,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      4.5
+     ],
+     [
+      2025,
+      3.75
+     ],
+     [
+      2026,
+      4.0
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.00%",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2023,
+     "text": "5.50%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now it's climbing again, to 4%, because inflation came back. In September, the latest yearly reading, prices were up 3.7% from a year earlier.",
+   "say": "Now it's climbing again, to four percent, because inflation came back. In September, the latest yearly reading, prices were up three point seven percent from a year earlier.",
+   "scene": {
+    "t": "chart",
+    "title": "Fed rate, top",
+    "points": [
+     [
+      2021,
+      0.25
+     ],
+     [
+      2022,
+      4.5
+     ],
+     [
+      2023,
+      5.5
+     ],
+     [
+      2024,
+      4.5
+     ],
+     [
+      2025,
+      3.75
+     ],
+     [
+      2026,
+      4.0
+     ]
+    ],
+    "suffix": "%",
+    "end": "4.00%",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2026,
+     "text": "4.00%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Is the Fed done? The minutes say probably not.",
+   "say": "Is the Fed done? The minutes say probably not.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Is the Fed",
+     "done hiking?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The minutes say almost all officials judged that raising rates further would likely be appropriate.",
+   "say": "The minutes say almost all officials judged that raising rates further would likely be appropriate.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Almost all:",
+     "more hikes likely"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In plain English: under their main forecast, almost every official at the table expects more rate hikes.",
+   "say": "In plain English: under their main forecast, almost every official at the table expects more rate hikes.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Translation:",
+     "rates may rise"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A couple of officials even said a hike bigger than a quarter point could be considered in December, if inflation data look bad.",
+   "say": "A couple of officials even said a hike bigger than a quarter point could be considered in December, if inflation data look bad.",
+   "scene": {
+    "t": "compare",
+    "title": "December",
+    "left": {
+     "label": "Usual step",
+     "value": "+0.25",
+     "tone": "neutral",
+     "sub": "Quarter point"
+    },
+    "right": {
+     "label": "Floated",
+     "value": ">0.25",
+     "tone": "down",
+     "sub": "If data bad"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The October vote to hold was 10 to 2. The two dissenters, Lisa Cook and Beth Hammack, wanted a hike right away.",
+   "say": "The October vote to hold was ten to two. The two dissenters, Lisa Cook and Beth Hammack, wanted a hike right away.",
+   "scene": {
+    "t": "stat",
+    "label": "October vote",
+    "value": "10-2",
+    "tone": "neutral",
+    "sub": "2 wanted a hike"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now here's the thread I promised. The minutes say many officials called the AI buildout a material source of inflation risk.",
+   "say": "Now here's the thread I promised. The minutes say many officials called the AI buildout a material source of inflation risk.",
+   "scene": {
+    "t": "quote",
+    "text": "a material source of inflation risk",
+    "source": "FOMC minutes, released Nov 18, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A data center needs chips, electricity, land, steel and workers. All that demand can push prices up.",
+   "say": "A data center needs chips, electricity, land, steel and workers. All that demand can push prices up.",
+   "scene": {
+    "t": "list",
+    "title": "AI buildout needs",
+    "items": [
+     "Chips",
+     "Electricity",
+     "Steel and land",
+     "Workers"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most officials also noted that AI-related debt has grown fast, often through complex and opaque financing. That's a risk if the payoff disappoints.",
+   "say": "Most officials also noted that AI-related debt has grown fast, often through complex and opaque financing. That's a risk if the payoff disappoints.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AI debt:",
+     "a new Fed worry"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So AI is doing two jobs at once: it's shaking stock prices, and it's giving the Fed a reason to keep rates high.",
+   "say": "So AI is doing two jobs at once: it's shaking stock prices, and it's giving the Fed a reason to keep rates high.",
+   "scene": {
+    "t": "split",
+    "title": "Two jobs",
+    "left": {
+     "title": "Stocks",
+     "items": [
+      "Spending doubt",
+      "Nvidia slid"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Rates",
+     "items": [
+      "Inflation risk",
+      "More hikes"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's how a story about computer chips ends up inside your mortgage payment.",
+   "say": "That's how a story about computer chips ends up inside your mortgage payment.",
+   "scene": {
+    "t": "split",
+    "keep": true,
+    "title": "Two jobs",
+    "left": {
+     "title": "Stocks",
+     "items": [
+      "Spending doubt",
+      "Nvidia slid"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Rates",
+     "items": [
+      "Inflation risk",
+      "More hikes"
+     ],
+     "tone": "down"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Why rates rose anyway.",
+   "say": "Chapter three: Why rates rose anyway.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Why rates rose anyway"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember the usual pattern: stocks fall, investors buy bonds, yields drop, and loans get cheaper.",
+   "say": "Remember the usual pattern: stocks fall, investors buy bonds, yields drop, and loans get cheaper.",
+   "scene": {
+    "t": "list",
+    "title": "Usual pattern",
+    "items": [
+     "Stocks fall",
+     "Bonds bought",
+     "Yields drop",
+     "Loans cheaper"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Thursday, that sort of happened. The 10-year Treasury yield slipped a little, to 5.04%.",
+   "say": "On Thursday, that sort of happened. The ten-year Treasury yield slipped a little, to five point oh four percent.",
+   "scene": {
+    "t": "stat",
+    "label": "10-year yield",
+    "value": "5.04%",
+    "tone": "down",
+    "sub": "Thu, Nov 19 close"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But look at that level. In September, the 10-year closed above 5% for the first time since 2007.",
+   "say": "But look at that level. In September, the ten-year closed above five percent for the first time since two thousand seven.",
+   "scene": {
+    "t": "news",
+    "headline": "10-yr closes over 5%",
+    "source": "Trading Economics, Sept 15, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why so high? Inflation is above the Fed's 2% goal, and bond buyers expect more hikes, so they demand more.",
+   "say": "Why so high? Inflation is above the Fed's two percent goal, and bond buyers expect more hikes, so they demand more.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Inflation + hikes",
+     "= high yields"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2-year Treasury yield shows those hike bets. It closed Thursday at 4.76%, well above the Fed's 4% top rate.",
+   "say": "The two-year Treasury yield shows those hike bets. It closed Thursday at four point seven six percent, well above the Fed's four percent top rate.",
+   "scene": {
+    "t": "compare",
+    "title": "Thursday",
+    "left": {
+     "label": "Fed top",
+     "value": "4.00%",
+     "tone": "neutral",
+     "sub": "Fed range"
+    },
+    "right": {
+     "label": "2-yr yield",
+     "value": "4.76%",
+     "tone": "down",
+     "sub": "Nov 19 close"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "When the 2-year sits that far above the Fed's rate, traders are betting short-term rates are headed higher.",
+   "say": "When the two-year sits that far above the Fed's rate, traders are betting short-term rates are headed higher.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Thursday",
+    "left": {
+     "label": "Fed top",
+     "value": "4.00%",
+     "tone": "neutral",
+     "sub": "Fed range"
+    },
+    "right": {
+     "label": "2-yr yield",
+     "value": "4.76%",
+     "tone": "down",
+     "sub": "Nov 19 close"
+    },
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And here's the key: mortgage rates follow long-term bond yields, not the Fed's rate directly.",
+   "say": "And here's the key: mortgage rates follow long-term bond yields, not the Fed's rate directly.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mortgages follow",
+     "bond yields"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So Freddie Mac's 30-year rate jumped to 7.28% this week, ending a four-week slide.",
+   "say": "So Freddie Mac's thirty-year rate jumped to seven point two eight percent this week, ending a four-week slide.",
+   "scene": {
+    "t": "news",
+    "headline": "Mortgage rate: 7.28%",
+    "source": "Freddie Mac, Nov 19, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It hit 7.40% on October 8th, held there a week, then fell four weeks in a row, down to 7.11%.",
+   "say": "It hit seven point four percent on October eighth, held there a week, then fell four weeks in a row, down to seven point one one percent.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Oct 8",
+      "7.40% high"
+     ],
+     [
+      "Nov12",
+      "7.11% low"
+     ],
+     [
+      "Nov19",
+      "Back to 7.28%"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This week's bounce erased more than half of that drop.",
+   "say": "This week's bounce erased more than half of that drop.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Oct 8",
+      "7.40% high"
+     ],
+     [
+      "Nov12",
+      "7.11% low"
+     ],
+     [
+      "Nov19",
+      "Back to 7.28%"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's Freddie Mac's 30-year rate in the same week of November, every year since 2021.",
+   "say": "Here's Freddie Mac's thirty-year rate in the same week of November, every year since twenty twenty-one.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, mid-Nov",
+    "points": [
+     [
+      2021,
+      3.1
+     ],
+     [
+      2022,
+      6.61
+     ],
+     [
+      2023,
+      7.44
+     ],
+     [
+      2024,
+      6.84
+     ],
+     [
+      2025,
+      6.26
+     ],
+     [
+      2026,
+      7.28
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.28%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back in 2021, it was about 3.1%. Those days feel like a different planet.",
+   "say": "Back in twenty twenty-one, it was about three point one percent. Those days feel like a different planet.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, mid-Nov",
+    "points": [
+     [
+      2021,
+      3.1
+     ],
+     [
+      2022,
+      6.61
+     ],
+     [
+      2023,
+      7.44
+     ],
+     [
+      2024,
+      6.84
+     ],
+     [
+      2025,
+      6.26
+     ],
+     [
+      2026,
+      7.28
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.28%",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2021,
+     "text": "3.10%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A year ago, it was 6.26%. Now it's more than a full point higher.",
+   "say": "A year ago, it was six point two six percent. Now it's more than a full point higher.",
+   "scene": {
+    "t": "chart",
+    "title": "30-yr rate, mid-Nov",
+    "points": [
+     [
+      2021,
+      3.1
+     ],
+     [
+      2022,
+      6.61
+     ],
+     [
+      2023,
+      7.44
+     ],
+     [
+      2024,
+      6.84
+     ],
+     [
+      2025,
+      6.26
+     ],
+     [
+      2026,
+      7.28
+     ]
+    ],
+    "suffix": "%",
+    "end": "7.28%",
+    "color": "up",
+    "keep": true,
+    "note": {
+     "x": 2025,
+     "text": "6.26%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $400,000 loan, monthly principal and interest goes from about $2,465 to about $2,737, by our math.",
+   "say": "On a four hundred thousand dollar loan, monthly principal and interest goes from about two thousand four hundred sixty-five dollars to about two thousand seven hundred thirty-seven dollars, by our math.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "At 6.26%",
+     "value": "$2,465"
+    },
+    "to": {
+     "label": "At 7.28%",
+     "value": "$2,737"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $271 more every month, or more than $3,000 a year, for the same house.",
+   "say": "That's about two hundred seventy-one dollars more every month, or more than three thousand dollars a year, for the same house.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra per month",
+    "value": "~$271",
+    "tone": "down",
+    "sub": "Our math, $400K",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Home builders feel it too. Their confidence index fell to 25 in November, the lowest since April 2012.",
+   "say": "Home builders feel it too. Their confidence index fell to twenty-five in November, the lowest since April twenty twelve.",
+   "scene": {
+    "t": "stat",
+    "label": "Builder confidence",
+    "value": "25",
+    "tone": "down",
+    "sub": "Lowest since 2012"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 46% of builders cut prices this month, with an average cut of 6%.",
+   "say": "And forty-six percent of builders cut prices this month, with an average cut of six percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Builders",
+    "left": {
+     "label": "Cut prices",
+     "value": "46%",
+     "tone": "down",
+     "sub": "NAHB, Nov"
+    },
+    "right": {
+     "label": "Average cut",
+     "value": "6%",
+     "tone": "down",
+     "sub": "NAHB, Nov"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So housing has a strange mix: some lower new-home prices, but pricier loans.",
+   "say": "So housing has a strange mix: some lower new-home prices, but pricier loans.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lower prices,",
+     "pricier loans"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Shoppers kept spending.",
+   "say": "Chapter four: Shoppers kept spending.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Shoppers kept spending"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a twist: while Wall Street sold off, big retailers had a decent week.",
+   "say": "Here's a twist: while Wall Street sold off, big retailers had a decent week.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "label": "Earnings",
+    "caption": "Retail week"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Walmart said revenue rose 5.2%, to $188.8 billion, and it raised its outlook for the third time this year.",
+   "say": "Walmart said revenue rose five point two percent, to one hundred eighty-eight point eight billion dollars, and it raised its outlook for the third time this year.",
+   "scene": {
+    "t": "stat",
+    "label": "Walmart revenue",
+    "value": "$188.8B",
+    "tone": "up",
+    "sub": "+5.2%, Nov 19"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Target's comparable sales grew 5.6%, and Home Depot's sales rose 4.9%, to $43.4 billion.",
+   "say": "Target's comparable sales grew five point six percent, and Home Depot's sales rose four point nine percent, to forty-three point four billion dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Q3 growth",
+    "left": {
+     "label": "Target",
+     "value": "+5.6%",
+     "tone": "up",
+     "sub": "Comp sales"
+    },
+    "right": {
+     "label": "Home Depot",
+     "value": "+4.9%",
+     "tone": "up",
+     "sub": "Sales $43.4B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But part of that boost doesn't come from shoppers at all. It comes from tariff refunds.",
+   "say": "But part of that boost doesn't come from shoppers at all. It comes from tariff refunds.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hidden boost:",
+     "tariff refunds"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In February, the Supreme Court struck down tariffs that were imposed under an emergency powers law called IEEPA.",
+   "say": "In February, the Supreme Court struck down tariffs that were imposed under an emergency powers law called I E E P A.",
+   "scene": {
+    "t": "news",
+    "headline": "Court voids tariffs",
+    "source": "Supreme Court, Feb 20, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So importers can get those tariffs refunded, and that money can boost their profits.",
+   "say": "So importers can get those tariffs refunded, and that money can boost their profits.",
+   "scene": {
+    "t": "building",
+    "kind": "customs",
+    "label": "Refunds",
+    "caption": "Tariffs paid back"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Target's third quarter included $301 million in tariff refund benefits, before taxes.",
+   "say": "Target's third quarter included three hundred one million dollars in tariff refund benefits, before taxes.",
+   "scene": {
+    "t": "stat",
+    "label": "Target refunds",
+    "value": "$301M",
+    "tone": "up",
+    "sub": "Pretax, Q3"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Walmart said in August it had received nearly all of about $2.9 billion in refunds, and was using them to cut prices.",
+   "say": "Walmart said in August it had received nearly all of about two point nine billion dollars in refunds, and was using them to cut prices.",
+   "scene": {
+    "t": "stat",
+    "label": "Walmart refunds",
+    "value": "~$2.9B",
+    "tone": "up",
+    "sub": "Reported in Aug"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So who came out ahead? Savers earning higher yields and big retailers did better, while stock owners and home buyers took the hit.",
+   "say": "So who came out ahead? Savers earning higher yields and big retailers did better, while stock owners and home buyers took the hit.",
+   "scene": {
+    "t": "split",
+    "title": "This week",
+    "left": {
+     "title": "Did better",
+     "items": [
+      "Savers",
+      "Big retailers"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Took a hit",
+     "items": [
+      "Stock owners",
+      "Home buyers"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Notice those can be the same person. Many of us save, invest and borrow at once.",
+   "say": "Notice those can be the same person. Many of us save, invest and borrow at once.",
+   "scene": {
+    "t": "split",
+    "title": "This week",
+    "left": {
+     "title": "Did better",
+     "items": [
+      "Savers",
+      "Big retailers"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Took a hit",
+     "items": [
+      "Stock owners",
+      "Home buyers"
+     ],
+     "tone": "down"
+    },
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: What it means for you.",
+   "say": "Chapter five: What it means for you.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's make it personal, with four pieces of your money. First, your 401(k).",
+   "say": "Let's make it personal, with four pieces of your money. First, your four oh one k.",
+   "scene": {
+    "t": "list",
+    "title": "Your money",
+    "items": [
+     "401(k)",
+     "Credit cards",
+     "Savings",
+     "Home loans"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you had $50,000 in an S&P 500 fund at the record. An 8.2% drop leaves about $45,900, by our math.",
+   "say": "Say you had fifty thousand dollars in an S and P five hundred fund at the record. An eight point two percent drop leaves about forty-five thousand nine hundred, by our math.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "At the record",
+     "value": "$50,000"
+    },
+    "to": {
+     "label": "After -8.2%",
+     "value": "$45,900"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But as of Thursday's close, the index was still up about 4.8% this year. And a paper drop only becomes a real loss when shares are sold.",
+   "say": "But as of Thursday's close, the index was still up about four point eight percent this year. And a paper drop only becomes a real loss when shares are sold.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 in 2026",
+    "value": "+4.8%",
+    "tone": "up",
+    "sub": "As of Thu close"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wall Street calls a 10% drop from a record a correction. As of Thursday, the S&P 500 was down 8.2%.",
+   "say": "Wall Street calls a ten percent drop from a record a correction. As of Thursday, the S and P five hundred was down eight point two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Vs record",
+    "left": {
+     "label": "Correction",
+     "value": "-10%",
+     "tone": "neutral",
+     "sub": "Common label"
+    },
+    "right": {
+     "label": "S&P, Thu",
+     "value": "-8.2%",
+     "tone": "down",
+     "sub": "Nov 19 close"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nobody knows if it gets there, and we won't guess. Markets have hit bumps like this many times.",
+   "say": "Nobody knows if it gets there, and we won't guess. Markets have hit bumps like this many times.",
+   "scene": {
+    "t": "compare",
+    "title": "Vs record",
+    "left": {
+     "label": "Correction",
+     "value": "-10%",
+     "tone": "neutral",
+     "sub": "Common label"
+    },
+    "right": {
+     "label": "S&P, Thu",
+     "value": "-8.2%",
+     "tone": "down",
+     "sub": "Nov 19 close"
+    },
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, credit cards. Most card rates are tied to the prime rate, which moves up with every Fed hike.",
+   "say": "Second, credit cards. Most card rates are tied to the prime rate, which moves up with every Fed hike.",
+   "scene": {
+    "t": "list",
+    "title": "Your money",
+    "items": [
+     "401(k)",
+     "Credit cards",
+     "Savings",
+     "Home loans"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By our math, one more quarter-point hike on a $5,000 balance adds about $12.50 a year in interest.",
+   "say": "By our math, one more quarter-point hike on a five thousand dollar balance adds about twelve dollars and fifty cents a year in interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Card balance",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Extra a year",
+     "value": "~$12.50"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Small per hike, but they stack up. Since the end of 2021, the Fed's top rate went from 0.25% to 4%.",
+   "say": "Small per hike, but they stack up. Since the end of twenty twenty-one, the Fed's top rate went from a quarter of a percent to four percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hikes stack up:",
+     "0.25% to 4%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, savings. Higher rates have a bright side, because savings accounts and CDs can pay you more.",
+   "say": "Third, savings. Higher rates have a bright side, because savings accounts and CDs can pay you more.",
+   "scene": {
+    "t": "list",
+    "title": "Your money",
+    "items": [
+     "401(k)",
+     "Credit cards",
+     "Savings",
+     "Home loans"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fourth, home loans. A fixed-rate mortgage you already have doesn't change, but new loans and adjustable ones can.",
+   "say": "And fourth, home loans. A fixed-rate mortgage you already have doesn't change, but new loans and adjustable ones can.",
+   "scene": {
+    "t": "list",
+    "title": "Your money",
+    "items": [
+     "401(k)",
+     "Credit cards",
+     "Savings",
+     "Home loans"
+    ],
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Card rates, savings yields and new loans move with rates, while fixed loans you already have stay put.",
+   "say": "Card rates, savings yields and new loans move with rates, while fixed loans you already have stay put.",
+   "scene": {
+    "t": "split",
+    "title": "Rate moves",
+    "left": {
+     "title": "Can change",
+     "items": [
+      "Card APR",
+      "Savings yield",
+      "New loans"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Locked in",
+     "items": [
+      "Fixed mortgage",
+      "Fixed car loan"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, what to watch. First, the Fed's December 8th and 9th meeting, its next chance to act on the hike talk in these minutes.",
+   "say": "Now, what to watch. First, the Fed's December eighth and ninth meeting, its next chance to act on the hike talk in these minutes.",
+   "scene": {
+    "t": "list",
+    "title": "Watch next",
+    "items": [
+     "Fed, Dec 8-9",
+     "Inflation data",
+     "Mortgage rates",
+     "AI spending"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, the next inflation reports, because hot numbers are what keep officials talking about hikes.",
+   "say": "Second, the next inflation reports, because hot numbers are what keep officials talking about hikes.",
+   "scene": {
+    "t": "list",
+    "title": "Watch next",
+    "items": [
+     "Fed, Dec 8-9",
+     "Inflation data",
+     "Mortgage rates",
+     "AI spending"
+    ],
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, Freddie Mac's weekly mortgage survey, to see whether this week's jump sticks or fades.",
+   "say": "Third, Freddie Mac's weekly mortgage survey, to see whether this week's jump sticks or fades.",
+   "scene": {
+    "t": "list",
+    "title": "Watch next",
+    "items": [
+     "Fed, Dec 8-9",
+     "Inflation data",
+     "Mortgage rates",
+     "AI spending"
+    ],
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fourth, AI spending. Nvidia's next report, against its forecast of about $130 billion, will be a big test.",
+   "say": "And fourth, AI spending. Nvidia's next report, against its forecast of about one hundred thirty billion dollars, will be a big test.",
+   "scene": {
+    "t": "list",
+    "title": "Watch next",
+    "items": [
+     "Fed, Dec 8-9",
+     "Inflation data",
+     "Mortgage rates",
+     "AI spending"
+    ],
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The recap.",
+   "say": "Chapter six: The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Recap. The S&P 500 fell six days straight, ending Thursday 8.2% below its record, on AI spending doubts.",
+   "say": "Recap. The S and P five hundred fell six days straight, ending Thursday eight point two percent below its record, on AI spending doubts.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Stocks slid",
+     "Fed sees hikes",
+     "Rates rose",
+     "Retail held up"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's minutes showed almost all officials expect more rate hikes, and many see the AI buildout as an inflation risk.",
+   "say": "The Fed's minutes showed almost all officials expect more rate hikes, and many see the AI buildout as an inflation risk.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Stocks slid",
+     "Fed sees hikes",
+     "Rates rose",
+     "Retail held up"
+    ],
+    "keep": true,
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With bond yields near 5%, the 30-year mortgage rate jumped to 7.28%, and builder confidence hit its lowest since 2012.",
+   "say": "With bond yields near five percent, the thirty-year mortgage rate jumped to seven point two eight percent, and builder confidence hit its lowest since twenty twelve.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Stocks slid",
+     "Fed sees hikes",
+     "Rates rose",
+     "Retail held up"
+    ],
+    "keep": true,
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And big retailers held up, helped partly by tariff refunds after the Supreme Court ruling.",
+   "say": "And big retailers held up, helped partly by tariff refunds after the Supreme Court ruling.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Stocks slid",
+     "Fed sees hikes",
+     "Rates rose",
+     "Retail held up"
+    ],
+    "keep": true,
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The big lesson: stocks and loan rates can both turn against you at once. Knowing which parts of your money move with rates helps.",
+   "say": "The big lesson: stocks and loan rates can both turn against you at once. Knowing which parts of your money move with rates helps.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Know what moves",
+     "with rates"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If this made the week make sense, subscribe for next week's big story.",
+   "say": "If this made the week make sense, subscribe for next week's big story.",
+   "scene": {
+    "t": "cta",
+    "tagline": "The week's big money story"
+   }
+  }
+ ],
+ "post": {
+  "title": "Stocks Fell 6 Days Straight. So Why Did Mortgage Rates Go Up?",
+  "ig": "Stocks fell six days straight, yet mortgage rates jumped to 7.28%. Here's why, and what it means for you.",
+  "tiktok": "Stocks fell 6 days straight. Mortgage rates rose anyway, to 7.28%. Here's the AI thread that ties it together.",
+  "yt_desc": "The S&P 500 fell six days in a row and, as of Thursday's close, sat 8.2% below its October record, as doubts about AI spending hit stocks even after Nvidia reported record revenue of $115.8 billion. In the same week, Fed minutes showed almost all officials expect more rate hikes, with many calling the AI buildout an inflation risk, and Freddie Mac's 30-year mortgage rate jumped to 7.28%. This video explains why loan rates rose while stocks fell, who came out ahead and who took the hit, and what it means for your 401(k), credit cards, savings and home loans.\n\nCHAPTERS\n\nSources: AP market close (Nov 19, 2026); Federal Reserve FOMC minutes (released Nov 18, 2026) via CNBC; Federal Reserve (Sept 16, 2026 decision); Nvidia Q3 FY2027 release (Nov 17, 2026); Freddie Mac PMMS (Nov 19, 2026 and prior years); NAHB/Wells Fargo HMI (Nov 17, 2026); BLS CPI via CNBC (Oct 14, 2026); Trading Economics (Sept 15, 2026); CNBC (Nov 12, 2026, Nvidia CEO change); Walmart, Target and Home Depot Q3 releases (Nov 17-19, 2026); Kiplinger (S&P 500 2025 close).\n\nNews and education, not financial advice.\n\n#stockmarket #mortgagerates #federalreserve",
+  "tags": [
+   "stock market",
+   "s&p 500",
+   "fed rate hike",
+   "mortgage rates",
+   "nvidia",
+   "ai stocks",
+   "401k",
+   "personal finance"
+  ]
+ }
+}
