@@ -353,16 +353,16 @@
   },
   {
    "who": "ticker",
-   "text": "That's up 103% from a year earlier, and above the $109.1 billion analysts expected.",
-   "say": "That's up one hundred three percent from a year earlier, and above the one hundred nine point one billion dollars analysts expected.",
+   "text": "That's up 103% from a year earlier, and above the roughly $109.2 billion analysts expected.",
+   "say": "That's up one hundred three percent from a year earlier, and above the roughly one hundred nine point two billion dollars analysts expected.",
    "scene": {
     "t": "compare",
     "title": "Nvidia Q3",
     "left": {
      "label": "Expected",
-     "value": "$109.1B",
+     "value": "$109.2B",
      "tone": "neutral",
-     "sub": "LSEG poll"
+     "sub": "Analyst avg"
     },
     "right": {
      "label": "Actual",
@@ -374,17 +374,17 @@
   },
   {
    "who": "ticker",
-   "text": "That's a clear beat, by about $6.7 billion, by our math. On paper, it was a blowout quarter.",
-   "say": "That's a clear beat, by about six point seven billion dollars, by our math. On paper, it was a blowout quarter.",
+   "text": "That's a clear beat, by more than $6.5 billion, by our math. On paper, it was a blowout quarter.",
+   "say": "That's a clear beat, by more than six and a half billion dollars, by our math. On paper, it was a blowout quarter.",
    "scene": {
     "t": "compare",
     "keep": true,
     "title": "Nvidia Q3",
     "left": {
      "label": "Expected",
-     "value": "$109.1B",
+     "value": "$109.2B",
      "tone": "neutral",
-     "sub": "LSEG poll"
+     "sub": "Analyst avg"
     },
     "right": {
      "label": "Actual",
@@ -409,8 +409,8 @@
   },
   {
    "who": "ticker",
-   "text": "And yet the stock slipped on Wednesday, then fell again on Thursday after an early jump faded.",
-   "say": "And yet the stock slipped on Wednesday, then fell again on Thursday after an early jump faded.",
+   "text": "And yet the stock fell almost 3% on Wednesday, then fell again on Thursday after an early jump faded.",
+   "say": "And yet the stock fell almost three percent on Wednesday, then fell again on Thursday after an early jump faded.",
    "scene": {
     "t": "board",
     "lines": [
@@ -422,12 +422,12 @@
   },
   {
    "who": "ticker",
-   "text": "Investors were also digesting a leadership shock: longtime CEO Jensen Huang's sudden exit.",
-   "say": "Investors were also digesting a leadership shock: longtime CEO Jensen Huang's sudden exit.",
+   "text": "It was also Nvidia's first report since longtime CEO Jensen Huang resigned on November 12th. Finance chief Colette Kress is interim CEO.",
+   "say": "It was also Nvidia's first report since longtime CEO Jensen Huang resigned on November twelfth. Finance chief Colette Kress is interim CEO.",
    "scene": {
     "t": "news",
     "headline": "Nvidia CEO change",
-    "source": "CNBC, Nov 2026"
+    "source": "CNBC, Nov 12, 2026"
    }
   },
   {
@@ -488,8 +488,8 @@
   },
   {
    "who": "ticker",
-   "text": "Here's that rate at the end of each year since 2021, using the top of the range. It's been a roller coaster.",
-   "say": "Here's that rate at the end of each year since twenty twenty-one, using the top of the range. It's been a roller coaster.",
+   "text": "Here's that rate at the end of each year since 2021, plus where it is now, using the top of the range. It's been a roller coaster.",
+   "say": "Here's that rate at the end of each year since twenty twenty-one, plus where it is now, using the top of the range. It's been a roller coaster.",
    "scene": {
     "t": "chart",
     "title": "Fed rate, top",
@@ -569,8 +569,8 @@
   },
   {
    "who": "ticker",
-   "text": "Now it's climbing again, to 4%, because inflation came back. September prices were up 3.7% from a year earlier.",
-   "say": "Now it's climbing again, to four percent, because inflation came back. September prices were up three point seven percent from a year earlier.",
+   "text": "Now it's climbing again, to 4%, because inflation came back. In September, the latest yearly reading, prices were up 3.7% from a year earlier.",
+   "say": "Now it's climbing again, to four percent, because inflation came back. In September, the latest yearly reading, prices were up three point seven percent from a year earlier.",
    "scene": {
     "t": "chart",
     "title": "Fed rate, top",
@@ -625,23 +625,26 @@
   },
   {
    "who": "ticker",
-   "text": "Almost all officials judged that further action to raise the target range for the federal funds rate would likely be appropriate.",
-   "say": "Almost all officials judged that further action to raise the target range for the federal funds rate would likely be appropriate.",
+   "text": "The minutes say almost all officials judged that raising rates further would likely be appropriate.",
+   "say": "The minutes say almost all officials judged that raising rates further would likely be appropriate.",
    "scene": {
-    "t": "quote",
-    "text": "further action to raise the target range for the federal funds rate would likely be appropriate",
-    "source": "FOMC minutes, released Nov 18, 2026"
+    "t": "board",
+    "lines": [
+     "Almost all:",
+     "more hikes likely"
+    ],
+    "mood": "worried"
    }
   },
   {
    "who": "ticker",
-   "text": "In plain English: almost every official at the table expects more rate hikes.",
-   "say": "In plain English: almost every official at the table expects more rate hikes.",
+   "text": "In plain English: under their main forecast, almost every official at the table expects more rate hikes.",
+   "say": "In plain English: under their main forecast, almost every official at the table expects more rate hikes.",
    "scene": {
     "t": "board",
     "lines": [
      "Translation:",
-     "more hikes likely"
+     "rates may rise"
     ]
    }
   },
@@ -680,18 +683,18 @@
   },
   {
    "who": "ticker",
-   "text": "Now here's the thread I promised. The minutes say many officials see the AI buildout as a material source of inflation risk.",
-   "say": "Now here's the thread I promised. The minutes say many officials see the AI buildout as a material source of inflation risk.",
+   "text": "Now here's the thread I promised. The minutes say many officials called the AI buildout a material source of inflation risk.",
+   "say": "Now here's the thread I promised. The minutes say many officials called the AI buildout a material source of inflation risk.",
    "scene": {
     "t": "quote",
-    "text": "many participants viewed the AI buildout as a material source of inflation risk",
+    "text": "a material source of inflation risk",
     "source": "FOMC minutes, released Nov 18, 2026"
    }
   },
   {
    "who": "ticker",
-   "text": "A data center needs chips, electricity, steel and land, and workers. All that demand can push prices up.",
-   "say": "A data center needs chips, electricity, steel and land, and workers. All that demand can push prices up.",
+   "text": "A data center needs chips, electricity, land, steel and workers. All that demand can push prices up.",
+   "say": "A data center needs chips, electricity, land, steel and workers. All that demand can push prices up.",
    "scene": {
     "t": "list",
     "title": "AI buildout needs",
@@ -706,12 +709,12 @@
   },
   {
    "who": "ticker",
-   "text": "Fed staff also flagged a risk in how some AI companies finance each other, in case the payoff disappoints.",
-   "say": "Fed staff also flagged a risk in how some AI companies finance each other, in case the payoff disappoints.",
+   "text": "Most officials also noted that AI-related debt has grown fast, often through complex and opaque financing. That's a risk if the payoff disappoints.",
+   "say": "Most officials also noted that AI-related debt has grown fast, often through complex and opaque financing. That's a risk if the payoff disappoints.",
    "scene": {
     "t": "board",
     "lines": [
-     "AI financing:",
+     "AI debt:",
      "a new Fed worry"
     ],
     "mood": "worried"
@@ -809,12 +812,12 @@
   },
   {
    "who": "ticker",
-   "text": "But look at that level. In September, the 10-year topped 5% for the first time since 2007.",
-   "say": "But look at that level. In September, the ten-year topped five percent for the first time since two thousand seven.",
+   "text": "But look at that level. In September, the 10-year closed above 5% for the first time since 2007.",
+   "say": "But look at that level. In September, the ten-year closed above five percent for the first time since two thousand seven.",
    "scene": {
     "t": "news",
-    "headline": "10-year tops 5%",
-    "source": "Fortune, Sept 22, 2026"
+    "headline": "10-yr closes over 5%",
+    "source": "Trading Economics, Sept 15, 2026"
    }
   },
   {
@@ -897,14 +900,14 @@
   },
   {
    "who": "ticker",
-   "text": "It had peaked at 7.40% on October 8th, then fell four weeks in a row, down to 7.11%.",
-   "say": "It had peaked at seven point four percent on October eighth, then fell four weeks in a row, down to seven point one one percent.",
+   "text": "It hit 7.40% on October 8th, held there a week, then fell four weeks in a row, down to 7.11%.",
+   "say": "It hit seven point four percent on October eighth, held there a week, then fell four weeks in a row, down to seven point one one percent.",
    "scene": {
     "t": "timeline",
     "events": [
      {
       "when": "Oct 8",
-      "what": "7.40% peak"
+      "what": "7.40% high"
      },
      {
       "when": "Nov12",
@@ -928,7 +931,7 @@
     "events": [
      {
       "when": "Oct 8",
-      "what": "7.40% peak"
+      "what": "7.40% high"
      },
      {
       "when": "Nov12",
@@ -1070,7 +1073,7 @@
   {
    "who": "ticker",
    "text": "On a $400,000 loan, monthly principal and interest goes from about $2,465 to about $2,737, by our math.",
-   "say": "On a four hundred thousand dollar loan, monthly principal and interest goes from about two thousand four hundred sixty-five dollars to about two thousand seven hundred thirty-seven, by our math.",
+   "say": "On a four hundred thousand dollar loan, monthly principal and interest goes from about two thousand four hundred sixty-five dollars to about two thousand seven hundred thirty-seven dollars, by our math.",
    "scene": {
     "t": "money",
     "from": {
@@ -1221,8 +1224,8 @@
   },
   {
    "who": "ticker",
-   "text": "So importers can get those tariffs refunded, and that money lands in their profits.",
-   "say": "So importers can get those tariffs refunded, and that money lands in their profits.",
+   "text": "So importers can get those tariffs refunded, and that money can boost their profits.",
+   "say": "So importers can get those tariffs refunded, and that money can boost their profits.",
    "scene": {
     "t": "building",
     "kind": "customs",
@@ -1244,8 +1247,8 @@
   },
   {
    "who": "ticker",
-   "text": "Walmart said in August it had received about $2.9 billion in refunds, and planned to use them to cut prices.",
-   "say": "Walmart said in August it had received about two point nine billion dollars in refunds, and planned to use them to cut prices.",
+   "text": "Walmart said in August it had received nearly all of about $2.9 billion in refunds, and was using them to cut prices.",
+   "say": "Walmart said in August it had received nearly all of about two point nine billion dollars in refunds, and was using them to cut prices.",
    "scene": {
     "t": "stat",
     "label": "Walmart refunds",
@@ -1510,8 +1513,8 @@
   },
   {
    "who": "ticker",
-   "text": "Now, what to watch. First, the Fed's December 8th and 9th meeting, where these minutes suggest most officials lean toward a hike.",
-   "say": "Now, what to watch. First, the Fed's December eighth and ninth meeting, where these minutes suggest most officials lean toward a hike.",
+   "text": "Now, what to watch. First, the Fed's December 8th and 9th meeting, its next chance to act on the hike talk in these minutes.",
+   "say": "Now, what to watch. First, the Fed's December eighth and ninth meeting, its next chance to act on the hike talk in these minutes.",
    "scene": {
     "t": "list",
     "title": "Watch next",
@@ -1620,8 +1623,8 @@
   },
   {
    "who": "ticker",
-   "text": "Bond yields stayed near 5%, so the 30-year mortgage rate jumped to 7.28%, and builder confidence hit its lowest since 2012.",
-   "say": "Bond yields stayed near five percent, so the thirty-year mortgage rate jumped to seven point two eight percent, and builder confidence hit its lowest since twenty twelve.",
+   "text": "With bond yields near 5%, the 30-year mortgage rate jumped to 7.28%, and builder confidence hit its lowest since 2012.",
+   "say": "With bond yields near five percent, the thirty-year mortgage rate jumped to seven point two eight percent, and builder confidence hit its lowest since twenty twelve.",
    "scene": {
     "t": "list",
     "title": "Recap",
@@ -1679,7 +1682,7 @@
   "title": "Stocks Fell 6 Days Straight. So Why Did Mortgage Rates Go Up?",
   "ig": "Stocks fell six days straight, yet mortgage rates jumped to 7.28%. Here's why, and what it means for you.",
   "tiktok": "Stocks fell 6 days straight. Mortgage rates rose anyway, to 7.28%. Here's the AI thread that ties it together.",
-  "yt_desc": "The S&P 500 fell six days in a row and, as of Thursday's close, sat 8.2% below its October record, as doubts about AI spending hit stocks even after Nvidia reported record revenue of $115.8 billion. In the same week, Fed minutes showed almost all officials expect more rate hikes, with many calling the AI buildout an inflation risk, and Freddie Mac's 30-year mortgage rate jumped to 7.28%. This video explains why loan rates rose while stocks fell, who came out ahead and who took the hit, and what it means for your 401(k), credit cards, savings and home loans.\n\nCHAPTERS\n\nSources: AP market close (Nov 19, 2026); Federal Reserve FOMC minutes (released Nov 18, 2026) via CNBC and Bloomberg; Federal Reserve (Sept 16, 2026 decision); Nvidia Q3 FY2027 release (Nov 17, 2026); Freddie Mac PMMS (Nov 19, 2026 and prior years); NAHB/Wells Fargo HMI (Nov 17, 2026); BLS CPI via CNBC (Oct 14, 2026); Fortune (Sept 22, 2026); Walmart, Target and Home Depot Q3 releases (Nov 17-19, 2026); Kiplinger (S&P 500 2025 close).\n\nNews and education, not financial advice.\n\n#stockmarket #mortgagerates #federalreserve",
+  "yt_desc": "The S&P 500 fell six days in a row and, as of Thursday's close, sat 8.2% below its October record, as doubts about AI spending hit stocks even after Nvidia reported record revenue of $115.8 billion. In the same week, Fed minutes showed almost all officials expect more rate hikes, with many calling the AI buildout an inflation risk, and Freddie Mac's 30-year mortgage rate jumped to 7.28%. This video explains why loan rates rose while stocks fell, who came out ahead and who took the hit, and what it means for your 401(k), credit cards, savings and home loans.\n\nCHAPTERS\n\nSources: AP market close (Nov 19, 2026); Federal Reserve FOMC minutes (released Nov 18, 2026) via CNBC; Federal Reserve (Sept 16, 2026 decision); Nvidia Q3 FY2027 release (Nov 17, 2026); Freddie Mac PMMS (Nov 19, 2026 and prior years); NAHB/Wells Fargo HMI (Nov 17, 2026); BLS CPI via CNBC (Oct 14, 2026); Trading Economics (Sept 15, 2026); CNBC (Nov 12, 2026, Nvidia CEO change); Walmart, Target and Home Depot Q3 releases (Nov 17-19, 2026); Kiplinger (S&P 500 2025 close).\n\nNews and education, not financial advice.\n\n#stockmarket #mortgagerates #federalreserve",
   "tags": [
    "stock market",
    "s&p 500",
