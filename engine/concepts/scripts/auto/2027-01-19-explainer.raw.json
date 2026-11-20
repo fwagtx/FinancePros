@@ -1,0 +1,188 @@
+{
+  "series": "ticker",
+  "header": "Marginal vs effective\nYour real tax rate",
+  "cover": {
+    "title": "22%? Not Really",
+    "prop": "bill",
+    "label": "TAX",
+    "value": "10.2%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "22% bracket? You don't pay 22%.",
+      "say": "Twenty-two percent bracket? You don't pay twenty-two percent.",
+      "scene": {
+        "t": "hook",
+        "title": "Not [22%]?",
+        "prop": "bill",
+        "label": "TAX",
+        "value": "22%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Brackets work like buckets: each rate only taxes its own bucket.",
+      "say": "Brackets work like buckets: each rate only taxes its own bucket.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Brackets = buckets",
+          "Each rate: 1 slice"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "2026, single, $75,000. Minus the $16,100 standard deduction: $58,900 taxable.",
+      "say": "Twenty twenty-six, single, seventy-five thousand. Minus the sixteen thousand one hundred standard deduction: fifty-eight thousand nine hundred taxable.",
+      "scene": {
+        "t": "money",
+        "from": {
+          "label": "Gross 2026",
+          "value": "$75,000"
+        },
+        "to": {
+          "label": "Taxable",
+          "value": "$58,900"
+        },
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "10% on the first $12,400 is $1,240. 12% on the next $38,000 is $4,560.",
+      "say": "Ten percent on the first twelve thousand four hundred is twelve hundred forty. Twelve percent on the next thirty-eight thousand is forty-five hundred sixty.",
+      "scene": {
+        "t": "list",
+        "title": "Bucket math",
+        "items": [
+          "10%: $1,240",
+          "12%: $4,560",
+          "22%: $1,870"
+        ],
+        "reveal": 2,
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Only the last $8,500 gets 22%: $1,870.",
+      "say": "Only the last eighty-five hundred gets twenty-two percent: eighteen hundred seventy.",
+      "scene": {
+        "t": "list",
+        "keep": true,
+        "title": "Bucket math",
+        "reveal": 3,
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Federal income tax only, no state or payroll tax: $7,670, about 13% of taxable.",
+      "say": "Federal income tax only, no state or payroll tax: seventy-six hundred seventy dollars, about thirteen percent of taxable.",
+      "scene": {
+        "t": "stat",
+        "label": "Federal income tax",
+        "value": "$7,670",
+        "tone": "neutral",
+        "sub": "13.0% of taxable",
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Bracket: 22%. Effective rate on all $75,000: about 10%.",
+      "say": "Bracket: twenty-two percent. Effective rate on all seventy-five thousand: about ten percent.",
+      "scene": {
+        "t": "compare",
+        "title": "Tax rate",
+        "left": {
+          "label": "Bracket",
+          "value": "22%",
+          "tone": "down",
+          "sub": "marginal"
+        },
+        "right": {
+          "label": "Effective",
+          "value": "10.2%",
+          "tone": "up",
+          "sub": "of gross"
+        },
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Same math across incomes: about 4% at $25,000, rising to about 15% at $125,000.",
+      "say": "Same math across incomes: about four percent at twenty-five thousand, rising to about fifteen percent at a hundred twenty-five thousand.",
+      "scene": {
+        "t": "chart",
+        "title": "Effective rate",
+        "points": [
+          [
+            "$25K",
+            3.56
+          ],
+          [
+            "$50K",
+            7.64
+          ],
+          [
+            "$75K",
+            10.23
+          ],
+          [
+            "$100K",
+            13.17
+          ],
+          [
+            "$125K",
+            14.99
+          ]
+        ],
+        "suffix": "%",
+        "end": "15.0%",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "So a raise into a higher bracket only taxes the extra dollars.",
+      "say": "So a raise into a higher bracket only taxes the extra dollars.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "Higher bracket?",
+          "Only extra $ pay"
+        ],
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta",
+        "tagline": "Bracket is not your rate"
+      }
+    }
+  ],
+  "post": {
+    "title": "In the 22% tax bracket? Why you don't pay 22%",
+    "ig": "In the 22% bracket? You don't pay 22% on everything.\nFederal income tax brackets work in layers: each rate only hits the dollars inside its bracket (IRS, tax year 2026).\nOur math: a single filer earning $75,000 in 2026 minus the $16,100 standard deduction = $58,900 taxable.\n10% x $12,400 = $1,240; 12% x $38,000 = $4,560; 22% x $8,500 = $1,870. Total: $7,670.\nThat's 13.0% of taxable income and 10.2% of gross. Same math: about 3.6% effective at $25,000, 7.6% at $50,000, 13.2% at $100,000, 15.0% at $125,000 (single, standard deduction). Federal income tax only: no state tax, payroll (FICA) tax or credits.\nSources: IRS IR-2025-103 and Rev. Proc. 2025-32 (2026 brackets and standard deduction).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#taxes #taxbrackets #incometax #personalfinance #financeprostv",
+    "tiktok": "In the 22% bracket but paying about 10%? Marginal vs effective tax rate. Not financial advice. #moneytok #personalfinance #taxes #financeprostv",
+    "yt_desc": "Your tax bracket is your marginal rate, not the rate on all your income. Our math with IRS 2026 figures: a single filer earning $75,000 minus the $16,100 standard deduction owes $7,670 in federal income tax, 13.0% of taxable income and 10.2% of gross, despite being in the 22% bracket (IRS IR-2025-103, Rev. Proc. 2025-32). Federal income tax only; no state tax, payroll (FICA) tax or credits. News and education, not financial advice. #Shorts #taxes #personalfinance",
+    "tags": [
+      "marginal tax rate",
+      "effective tax rate",
+      "2026 tax brackets",
+      "standard deduction 2026",
+      "how tax brackets work"
+    ]
+  }
+}
