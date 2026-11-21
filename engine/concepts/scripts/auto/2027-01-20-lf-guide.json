@@ -1,0 +1,1583 @@
+{
+ "id": "2027-01-20-lf-guide",
+ "format": "landscape",
+ "series": "ticker",
+ "header": "Identity theft:\nlock it down",
+ "cover": {
+  "title": "It Happens Fast.",
+  "prop": "paper",
+  "label": "ID",
+  "value": "23 sec"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Every 23 seconds, someone reports identity theft.",
+   "say": "Every twenty-three seconds, someone reports identity theft.",
+   "scene": {
+    "t": "hook",
+    "title": "Every 23 [Seconds]",
+    "prop": "paper",
+    "label": "ID",
+    "value": "23 sec",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's our math for 2025, when the FTC logged 1,358,253 identity theft reports, about 1.36 million.",
+   "say": "That's our math for twenty twenty-five, when the F T C logged about one point three six million identity theft reports.",
+   "scene": {
+    "t": "stat",
+    "label": "ID theft reports",
+    "value": "1,358,253",
+    "tone": "down",
+    "sub": "FTC, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2025 had 31,536,000 seconds. Divide by 1,358,253 reports: about 23 seconds each.",
+   "say": "Twenty twenty-five had about thirty-one point five million seconds. Divide by the reports, and it's about twenty-three seconds each.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "31,536,000 sec",
+     "/ 1,358,253 = 23.2"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the surprise: the strongest lock on your identity is free, by federal law, since 2018.",
+   "say": "Here's the surprise. The strongest lock on your identity costs nothing, by federal law, and it has since twenty eighteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Credit freeze cost",
+    "value": "$0",
+    "tone": "up",
+    "sub": "Since Sept 2018",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It takes minutes, and most of the steps in this video cost $0.",
+   "say": "It takes a few minutes, and almost every step in this video costs zero dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Most steps:",
+     "free"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The plan: freeze, watch, lock accounts, guard taxes, and know what to do if it happens.",
+   "say": "The plan: freeze your credit, watch your reports, lock your accounts, guard your taxes, and know what to do if it happens.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "Freeze credit",
+     "Watch reports",
+     "Lock accounts",
+     "Guard taxes"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Education, not advice. Every number has its date, and no products get named.",
+   "say": "Quick note: this is education, not advice. Every number comes with its date, and I'm not selling you any product.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Education,",
+     "not advice"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Freeze your credit.",
+   "say": "Chapter one: freeze your credit.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Freeze your credit"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, the scale. FTC identity theft reports: 1.39M in 2020, 1.43M in 2021, 1.11M in 2022.",
+   "say": "First, the scale. Identity theft reports to the F T C were about one point three nine million in twenty twenty, one point four three million in twenty twenty-one, and one point one one million in twenty twenty-two.",
+   "scene": {
+    "t": "chart",
+    "title": "ID theft reports (FTC)",
+    "points": [
+     [
+      2020,
+      1.39
+     ],
+     [
+      2021,
+      1.43
+     ],
+     [
+      2022,
+      1.11
+     ],
+     [
+      2023,
+      1.04
+     ],
+     [
+      2024,
+      1.14
+     ],
+     [
+      2025,
+      1.36
+     ]
+    ],
+    "suffix": "M",
+    "end": "1.36M",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then 1.04M in 2023, 1.14M in 2024, and about 1.36M in 2025.",
+   "say": "Then about one point zero four million in twenty twenty-three, one point one four million in twenty twenty-four, and about one point three six million in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "ID theft reports (FTC)",
+    "points": [
+     [
+      2020,
+      1.39
+     ],
+     [
+      2021,
+      1.43
+     ],
+     [
+      2022,
+      1.11
+     ],
+     [
+      2023,
+      1.04
+     ],
+     [
+      2024,
+      1.14
+     ],
+     [
+      2025,
+      1.36
+     ]
+    ],
+    "suffix": "M",
+    "end": "1.36M",
+    "color": "up",
+    "keep": true,
+    "mood": "worried",
+    "note": {
+     "x": 2025,
+     "text": "1.36M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2020-21 spike: pandemic unemployment claims in other people's names. Benefits reports: 12,900 in 2019, 394,280 in 2020.",
+   "say": "That twenty twenty spike had a cause: pandemic unemployment claims filed in other people's names. Government benefits reports went from about twelve thousand nine hundred in twenty nineteen to about three hundred ninety-four thousand in twenty twenty.",
+   "scene": {
+    "t": "compare",
+    "title": "Benefits",
+    "left": {
+     "label": "2019",
+     "value": "12,900",
+     "tone": "neutral",
+     "sub": "Reports"
+    },
+    "right": {
+     "label": "2020",
+     "value": "394,280",
+     "tone": "down",
+     "sub": "Reports"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The top type in 2024: credit card fraud, with about 449,000 reports.",
+   "say": "The most common type in twenty twenty-four was credit card fraud, with about four hundred forty-nine thousand reports.",
+   "scene": {
+    "t": "stat",
+    "label": "Credit card fraud",
+    "value": "~449K",
+    "tone": "down",
+    "sub": "FTC, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 1,358,253 reports / 365 days = about 3,700 a day in 2025.",
+   "say": "Our math again: divide the twenty twenty-four reports by three hundred sixty-six days, and it's about thirty-one hundred a day.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per year",
+     "value": "1.36M"
+    },
+    "to": {
+     "label": "Per day",
+     "value": "~3,700"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A lot of that is someone opening a brand-new account in your name. That's what a freeze stops.",
+   "say": "A lot of that is someone opening a brand-new account in your name. That's exactly what a freeze stops.",
+   "scene": {
+    "t": "hook",
+    "title": "New Card, Not [Yours]",
+    "prop": "card",
+    "label": "NEW",
+    "value": "$0",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A freeze blocks lenders from pulling your credit report, so new accounts fail.",
+   "say": "Here's how it works. A freeze blocks lenders from pulling your credit report, so a thief's new card or loan application just fails.",
+   "scene": {
+    "t": "split",
+    "title": "Freeze it",
+    "left": {
+     "title": "Blocks",
+     "items": [
+      "New accounts",
+      "New loans",
+      "New cards"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Doesn't",
+     "items": [
+      "Your score",
+      "Old accounts",
+      "Your cards"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It doesn't change your score, close old accounts, or stop you using your cards.",
+   "say": "What it doesn't do: change your credit score, close your old accounts, or stop you from using your cards.",
+   "scene": {
+    "t": "split",
+    "title": "Freeze it",
+    "left": {
+     "title": "Blocks",
+     "items": [
+      "New accounts",
+      "New loans",
+      "New cards"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Doesn't",
+     "items": [
+      "Your score",
+      "Old accounts",
+      "Your cards"
+     ],
+     "tone": "neutral"
+    },
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step one: freeze at all three bureaus, Equifax, Experian, and TransUnion. Each one separately.",
+   "say": "Step one: freeze at all three nationwide bureaus, Equifax, Experian, and TransUnion. You have to contact each one separately.",
+   "scene": {
+    "t": "list",
+    "title": "Freeze at all 3",
+    "items": [
+     "Equifax",
+     "Experian",
+     "TransUnion"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A freeze at one bureau doesn't cover the other two. Lenders might check any of them.",
+   "say": "That matters, because a freeze at one bureau does nothing at the other two, and a lender might check any of them.",
+   "scene": {
+    "t": "list",
+    "title": "Freeze at all 3",
+    "items": [
+     "Equifax",
+     "Experian",
+     "TransUnion"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since Sept 21, 2018, federal law makes freezing and unfreezing free.",
+   "say": "Since September twenty-first, twenty eighteen, federal law has made freezing and unfreezing free at all three.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2018",
+      "Freezes go free"
+     ],
+     [
+      "2018",
+      "Alerts: 1 year"
+     ],
+     [
+      "2023",
+      "Weekly reports"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 3 bureaus times $0 is $0.",
+   "say": "So, our math: three bureaus, times zero dollars, is zero dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "3 freezes",
+     "value": "3 x $0"
+    },
+    "to": {
+     "label": "Total",
+     "value": "$0"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Request online or by phone: the bureau must place it within 1 business day.",
+   "say": "The rules on speed: request it online or by phone, and the bureau has to place the freeze within one business day.",
+   "scene": {
+    "t": "compare",
+    "title": "Speed",
+    "left": {
+     "label": "Freeze",
+     "value": "1 day",
+     "tone": "neutral",
+     "sub": "Business day"
+    },
+    "right": {
+     "label": "Thaw",
+     "value": "1 hour",
+     "tone": "up",
+     "sub": "Online or phone"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Need credit? Ask online or by phone and they must lift it within 1 hour. By mail, 3 business days.",
+   "say": "Need credit later? Ask online or by phone, and they have to lift it within one hour. By mail, it's three business days each way.",
+   "scene": {
+    "t": "compare",
+    "title": "Speed",
+    "keep": true,
+    "winner": "right",
+    "left": {
+     "label": "Freeze",
+     "value": "1 day",
+     "tone": "neutral",
+     "sub": "Business day"
+    },
+    "right": {
+     "label": "Thaw",
+     "value": "1 hour",
+     "tone": "up",
+     "sub": "Online or phone"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You get a PIN or a login for each bureau. Save all three somewhere safe.",
+   "say": "When you freeze, each bureau gives you a PIN or an account login. Save all three somewhere safe, because you'll need them to thaw.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Save 3 PINs",
+     "or logins"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Applying for a loan or apartment? Ask which bureau they use, thaw that one, then refreeze.",
+   "say": "Applying for a loan or an apartment? Ask which bureau they use, thaw that one, then refreeze.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Thaw, apply,",
+     "refreeze"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Parents can freeze a child's credit for free too, for kids under 16.",
+   "say": "Parents can also freeze a child's credit for free, for kids under sixteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Child freeze",
+    "value": "$0",
+    "tone": "up",
+    "sub": "Under age 16"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Watch the word lock: bureau locks may charge monthly fees. Only a freeze is free by law.",
+   "say": "One trap: the word lock. The F T C notes that bureau locks may carry monthly fees, while a freeze is free by law.",
+   "scene": {
+    "t": "split",
+    "title": "Freeze/lock",
+    "left": {
+     "title": "Freeze",
+     "items": [
+      "Free by law",
+      "Federal rules"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Lock",
+     "items": [
+      "May cost $",
+      "Company terms"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Watch your reports.",
+   "say": "Chapter two: watch your reports.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Watch your reports"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since Oct 2023, free weekly credit reports from all three bureaus are permanent.",
+   "say": "A freeze stops new accounts, but you still want to look. Since October twenty twenty-three, free weekly credit reports from all three bureaus are permanent.",
+   "scene": {
+    "t": "stat",
+    "label": "Free reports",
+    "value": "Weekly",
+    "tone": "up",
+    "sub": "All 3 bureaus"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The only official site: AnnualCreditReport.com.",
+   "say": "The only official site for that is annual credit report dot com.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AnnualCredit",
+     "Report.com"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lookalike sites pretend to be it. The FTC says the real one won't email you for your SSN.",
+   "say": "Watch for lookalike sites. The F T C warns that the real site and the bureaus will never email you asking for your Social Security number.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real site never",
+     "emails for SSN"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What to scan for: accounts you didn't open, addresses you never lived at, and inquiries you didn't make.",
+   "say": "So what are you scanning for? Accounts you didn't open, addresses you never lived at, and credit inquiries you never made.",
+   "scene": {
+    "t": "list",
+    "title": "Red flags",
+    "items": [
+     "New accounts",
+     "Odd addresses",
+     "Odd inquiries",
+     "Wrong balances"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And balances that look wrong on accounts that are yours.",
+   "say": "And balances that just look wrong on accounts that really are yours.",
+   "scene": {
+    "t": "list",
+    "title": "Red flags",
+    "items": [
+     "New accounts",
+     "Odd addresses",
+     "Odd inquiries",
+     "Wrong balances"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spot something wrong? Dispute it with the bureau and with the company that reported it.",
+   "say": "Spot something that isn't yours? Dispute it with the credit bureau, and with the company that reported it, in writing if you can.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Dispute with",
+     "bureau + company"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A simple rhythm: rotate one bureau every few months, or pull all three at once. Weekly is allowed.",
+   "say": "A simple rhythm: rotate one bureau every few months, or pull all three at once. Weekly is allowed.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Rotate bureaus",
+     "or check all 3"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Free reports don't include your credit score. You don't need a score to spot fraud.",
+   "say": "Heads up: the free reports don't include a credit score. You don't need one to spot fraud.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Report, not",
+     "a score"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Also: a fraud alert. It's free and tells lenders to verify it's really you.",
+   "say": "There's a second tool here, called a fraud alert. It's free, and it tells lenders to take extra steps to make sure it's really you.",
+   "scene": {
+    "t": "split",
+    "title": "Alert/freeze",
+    "left": {
+     "title": "Fraud alert",
+     "items": [
+      "Lender checks",
+      "Still open"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Freeze",
+     "items": [
+      "Lender blocked",
+      "Fully locked"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An alert is a speed bump; a freeze is a locked door. You can use both.",
+   "say": "Think of it this way: an alert is a speed bump, and a freeze is a locked door. You can use both.",
+   "scene": {
+    "t": "split",
+    "title": "Alert/freeze",
+    "keep": true,
+    "left": {
+     "title": "Fraud alert",
+     "items": [
+      "Lender checks",
+      "Still open"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Freeze",
+     "items": [
+      "Lender blocked",
+      "Fully locked"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Contact one bureau, and it must tell the other two. An initial alert lasts 1 year, renewable.",
+   "say": "Shortcut: for an alert, contact one bureau, and it must tell the other two. An initial alert lasts one year, and you can renew it.",
+   "scene": {
+    "t": "compare",
+    "title": "Alerts",
+    "left": {
+     "label": "Initial",
+     "value": "1 year",
+     "tone": "neutral",
+     "sub": "Anyone"
+    },
+    "right": {
+     "label": "Extended",
+     "value": "7 years",
+     "tone": "up",
+     "sub": "ID theft victims"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Identity theft victims with an FTC report can get an extended alert: 7 years.",
+   "say": "And if you're already a victim with an official identity theft report, you can get an extended alert that lasts seven years.",
+   "scene": {
+    "t": "compare",
+    "title": "Alerts",
+    "keep": true,
+    "winner": "right",
+    "left": {
+     "label": "Initial",
+     "value": "1 year",
+     "tone": "neutral",
+     "sub": "Anyone"
+    },
+    "right": {
+     "label": "Extended",
+     "value": "7 years",
+     "tone": "up",
+     "sub": "ID theft victims"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before Sept 2018, an initial alert lasted just 90 days.",
+   "say": "For context, before September twenty eighteen, an initial alert lasted just ninety days.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2018",
+      "Freezes go free"
+     ],
+     [
+      "2018",
+      "Alerts: 1 year"
+     ],
+     [
+      "2023",
+      "Weekly reports"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in 2023, weekly reports became permanent.",
+   "say": "And in twenty twenty-three, those free weekly reports became permanent.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "2018",
+      "Freezes go free"
+     ],
+     [
+      "2018",
+      "Alerts: 1 year"
+     ],
+     [
+      "2023",
+      "Weekly reports"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Lock down your accounts.",
+   "say": "Chapter three: lock down your accounts.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Lock down your accounts"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your credit file isn't the only target. Thieves also go after accounts you already have.",
+   "say": "Your credit file isn't the only target. Thieves also go after the accounts you already have, like your bank, your email, and your phone.",
+   "scene": {
+    "t": "hook",
+    "title": "Already [Open]",
+    "prop": "bag",
+    "label": "BANK",
+    "value": "Target",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Scams feed identity theft. In 2025, people reported losing $15.9 billion to fraud.",
+   "say": "Scams and identity theft feed each other. In twenty twenty-five, people told the F T C they lost fifteen point nine billion dollars to fraud.",
+   "scene": {
+    "t": "chart",
+    "title": "Fraud losses (FTC)",
+    "points": [
+     [
+      2022,
+      8.8
+     ],
+     [
+      2023,
+      10.0
+     ],
+     [
+      2024,
+      12.5
+     ],
+     [
+      2025,
+      15.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$15.9B",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "2022: about $8.8B. 2023: more than $10B. 2024: $12.5B.",
+   "say": "And it keeps climbing: nearly eight point eight billion dollars in twenty twenty-two, more than ten billion in twenty twenty-three, and twelve point five billion in twenty twenty-four.",
+   "scene": {
+    "t": "chart",
+    "title": "Fraud losses (FTC)",
+    "points": [
+     [
+      2022,
+      8.8
+     ],
+     [
+      2023,
+      10.0
+     ],
+     [
+      2024,
+      12.5
+     ],
+     [
+      2025,
+      15.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$15.9B",
+    "color": "down",
+    "keep": true,
+    "mood": "shock",
+    "note": {
+     "x": 2025,
+     "text": "Record"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FTC: $15.9 billion in fraud losses reported for 2025.",
+   "say": "The F T C shared that twenty twenty-five total with Congress in March twenty twenty-six.",
+   "scene": {
+    "t": "news",
+    "headline": "Fraud losses: $15.9B",
+    "source": "FTC testimony, Mar 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up $3.4 billion from 2024.",
+   "say": "That's a jump of three point four billion dollars in a single year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "2024",
+     "value": "$12.5B"
+    },
+    "to": {
+     "label": "2025",
+     "value": "$15.9B"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $15.9 billion over about 3 million fraud reports is about $5,300 per report.",
+   "say": "Our rough math: fifteen point nine billion dollars over about three million fraud reports is about fifty-three hundred dollars per report.",
+   "scene": {
+    "t": "stat",
+    "label": "Loss per report",
+    "value": "~$5,300",
+    "tone": "down",
+    "sub": "Our math, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the FTC says reported losses are only a fraction of the real total.",
+   "say": "And the F T C itself says reported losses are only a fraction of what people actually lose.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reported losses:",
+     "a fraction"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rule one: never give a code, password, or PIN to someone who contacted you first.",
+   "say": "So, rule one: never give a code, password, or PIN to someone who contacted you first.",
+   "scene": {
+    "t": "list",
+    "title": "Account rules",
+    "items": [
+     "Share no codes",
+     "Long passwords",
+     "Turn on 2-step",
+     "Call back"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Use a long, different password for each important account.",
+   "say": "Rule two: use a long, different password for each important account, especially email, because email resets everything else.",
+   "scene": {
+    "t": "list",
+    "title": "Account rules",
+    "items": [
+     "Share no codes",
+     "Long passwords",
+     "Turn on 2-step",
+     "Call back"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Turn on two-step login wherever it's offered.",
+   "say": "Rule three: turn on two-step login wherever it's offered, so a stolen password alone isn't enough.",
+   "scene": {
+    "t": "list",
+    "title": "Account rules",
+    "items": [
+     "Share no codes",
+     "Long passwords",
+     "Turn on 2-step",
+     "Call back"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Got a scary call from your bank? Hang up and call the number on your card.",
+   "say": "Rule four: got a scary call or text from your bank? Hang up, and call the number printed on the back of your card.",
+   "scene": {
+    "t": "list",
+    "title": "Account rules",
+    "items": [
+     "Share no codes",
+     "Long passwords",
+     "Turn on 2-step",
+     "Call back"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your Social Security number: share it only when it's truly required.",
+   "say": "And treat your Social Security number like cash. Share it only when it's truly required, and ask why when someone wants it.",
+   "scene": {
+    "t": "hook",
+    "title": "Guard the [SSN]",
+    "prop": "paper",
+    "label": "SSN",
+    "value": "Ask why",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ask your phone carrier about adding a PIN or passcode to your account.",
+   "say": "Your phone number matters too, because it gets your login codes. Ask your carrier about adding a PIN or passcode to your account.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Add a PIN to",
+     "your phone plan"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Old mail and papers with account numbers: shred them before they hit the trash.",
+   "say": "Old mail, bank statements, and anything with account numbers on it: shred them before they hit the trash.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Shred papers",
+     "with numbers"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Set up account alerts with your bank and card so every charge pings your phone.",
+   "say": "Then set up alerts with your bank and card issuer, so every charge pings your phone.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Turn on",
+     "charge alerts"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Protect your taxes.",
+   "say": "Chapter four: protect your taxes.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Protect your taxes"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A thief with your SSN can file a tax return in your name and grab your refund first.",
+   "say": "Here's a sneaky one: a thief with your Social Security number can file a tax return in your name and grab your refund first.",
+   "scene": {
+    "t": "hook",
+    "title": "Refund [Stolen]",
+    "prop": "bill",
+    "label": "IRS",
+    "value": "Gone",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fix: an IRS Identity Protection PIN, a 6-digit number.",
+   "say": "The fix is an I R S Identity Protection PIN. It's a six-digit number that only you and the I R S know.",
+   "scene": {
+    "t": "stat",
+    "label": "IRS IP PIN",
+    "value": "6 digits",
+    "tone": "up",
+    "sub": "Free, from the IRS"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Without it, an e-filed return using your SSN gets rejected. Anyone with an SSN or ITIN who can verify their identity can get one.",
+   "say": "Without it, an e-filed return using your number gets rejected. Anyone with a Social Security number or ITIN who can verify their identity can get one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No PIN =",
+     "return rejected"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's free, and you get a new one every calendar year.",
+   "say": "It's free, and you get a brand-new number every calendar year, so last year's PIN won't work this year.",
+   "scene": {
+    "t": "compare",
+    "title": "IP PIN",
+    "left": {
+     "label": "Cost",
+     "value": "$0",
+     "tone": "up",
+     "sub": "Free"
+    },
+    "right": {
+     "label": "Lasts",
+     "value": "1 year",
+     "tone": "neutral",
+     "sub": "New each year"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The fastest way: your IRS Online Account, on the Profile page.",
+   "say": "The I R S says the fastest way is your I R S Online Account, on the Profile page.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "IRS Online",
+     "Account > Profile"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Timing: the IRS says its online IP PIN tool is generally offline mid-November to mid-January.",
+   "say": "One timing catch. The I R S says its online IP PIN tool is generally unavailable from mid-November through mid-January each year.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Nov",
+      "Tool offline"
+     ],
+     [
+      "Jan",
+      "Tool returns"
+     ],
+     [
+      "Jan+",
+      "Filing season"
+     ]
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So check if it's back before you file, and never e-file without your current PIN.",
+   "say": "So check that it's back before you file, and keep your current PIN handy, because your return needs it.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Nov",
+      "Tool offline"
+     ],
+     [
+      "Jan",
+      "Tool returns"
+     ],
+     [
+      "Jan+",
+      "Filing season"
+     ]
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS says it will never call, email, or text you to ask for your IP PIN.",
+   "say": "And the I R S is clear about this: it will never call, email, or text you to ask for your IP PIN. Anyone who does is a scammer.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "IRS won't call,",
+     "email or text"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Already hit? IRS Form 14039 is the Identity Theft Affidavit.",
+   "say": "And if someone already filed in your name, the I R S has a form for that: Form fourteen oh three nine, the Identity Theft Affidavit.",
+   "scene": {
+    "t": "stat",
+    "label": "Tax ID theft form",
+    "value": "14039",
+    "tone": "neutral",
+    "sub": "IRS affidavit"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Give it only to the tax preparer filing your return, at signing time.",
+   "say": "The only person who should see it is the tax preparer filing your return, at the moment you're ready to sign.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Share it only",
+     "with your preparer"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: If it happens.",
+   "say": "Chapter five: what to do if it happens.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "If it happens"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Say you spot a card you never opened. Don't panic. Follow the FTC's order.",
+   "say": "Okay, say you spot a card you never opened. Don't panic. The F T C lays out an order.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Found fraud?",
+     "Go in order"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 1: call the company where the fraud happened. Ask for the fraud department.",
+   "say": "Step one: call the company where the fraud happened. Ask for the fraud department, close or freeze that account, and change your logins.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1",
+      "Call the company"
+     ],
+     [
+      "2",
+      "Fraud alert"
+     ],
+     [
+      "3",
+      "Report to FTC"
+     ],
+     [
+      "4",
+      "Fix the damage"
+     ]
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 2: place a fraud alert with one bureau, and pull your credit reports.",
+   "say": "Step two: place a fraud alert with one bureau, and pull your free credit reports to see what else is there.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1",
+      "Call the company"
+     ],
+     [
+      "2",
+      "Fraud alert"
+     ],
+     [
+      "3",
+      "Report to FTC"
+     ],
+     [
+      "4",
+      "Fix the damage"
+     ]
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 3: report it at IdentityTheft.gov, the FTC's site, or by calling the FTC.",
+   "say": "Step three: report it at identity theft dot gov, the F T C's site, or by calling the F T C.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1",
+      "Call the company"
+     ],
+     [
+      "2",
+      "Fraud alert"
+     ],
+     [
+      "3",
+      "Report to FTC"
+     ],
+     [
+      "4",
+      "Fix the damage"
+     ]
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Step 4: fix the damage, using the recovery plan the site builds for you.",
+   "say": "Step four: fix the damage. The site builds you a personal recovery plan, with letters you can send to dispute the fraud.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "1",
+      "Call the company"
+     ],
+     [
+      "2",
+      "Fraud alert"
+     ],
+     [
+      "3",
+      "Report to FTC"
+     ],
+     [
+      "4",
+      "Fix the damage"
+     ]
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your FTC report is an official Identity Theft Report. It unlocks the 7-year extended alert.",
+   "say": "That F T C report counts as an official Identity Theft Report, and it unlocks the seven-year extended fraud alert.",
+   "scene": {
+    "t": "stat",
+    "label": "Extended alert",
+    "value": "7 years",
+    "tone": "up",
+    "sub": "With an FTC report"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then freeze all three bureaus if you haven't already.",
+   "say": "Then, if you haven't already, freeze your credit at all three bureaus, so the thief can't open anything new.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Then freeze",
+     "all 3 bureaus"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Keep a log: who you called, when, and what they said. Save copies of every letter.",
+   "say": "And keep a simple log: who you called, when you called, and what they said. Save a copy of every letter you send.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Log every call",
+     "and letter"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Mistakes to skip: freezing just one bureau, losing your PINs, and paying for help that's free.",
+   "say": "Now, the common mistakes. Freezing just one bureau. Losing your PINs. And paying someone for recovery help the F T C offers for free.",
+   "scene": {
+    "t": "split",
+    "title": "Mistakes",
+    "left": {
+     "title": "Don't",
+     "items": [
+      "Freeze just 1",
+      "Lose PINs",
+      "Pay for free"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Do",
+     "items": [
+      "Freeze all 3",
+      "Save PINs",
+      "Use FTC site"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And trusting a callback number from the person who called you.",
+   "say": "And the big one: trusting a callback number from the very person who contacted you. Always look up the number yourself.",
+   "scene": {
+    "t": "split",
+    "title": "Mistakes",
+    "keep": true,
+    "left": {
+     "title": "Don't",
+     "items": [
+      "Freeze just 1",
+      "Lose PINs",
+      "Pay for free"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Do",
+     "items": [
+      "Freeze all 3",
+      "Save PINs",
+      "Use FTC site"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Javelin Strategy estimates identity fraud losses at $27.3 billion in 2025, about flat from 2024.",
+   "say": "For the full cost, the research firm Javelin Strategy estimated identity fraud losses at twenty-seven point three billion dollars in twenty twenty-five, roughly flat from twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "ID fraud losses",
+    "value": "$27.3B",
+    "tone": "down",
+    "sub": "Javelin, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's a survey estimate, bigger than FTC totals. Not every victim files a report.",
+   "say": "That's a survey estimate, which is why it's bigger than the F T C's totals. Not every victim files a report.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Survey estimate,",
+     "not reports"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The checklist.",
+   "say": "Chapter six: the checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: freeze your credit at Equifax, Experian, and TransUnion. It's $0.",
+   "say": "One: freeze your credit at Equifax, Experian, and TransUnion. It costs zero dollars and takes minutes.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "Freeze all 3",
+     "Check reports",
+     "Get an IP PIN",
+     "Share no codes"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: check your free reports at AnnualCreditReport.com, as often as weekly.",
+   "say": "Two: check your free reports at annual credit report dot com, as often as every week.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "Freeze all 3",
+     "Check reports",
+     "Get an IP PIN",
+     "Share no codes"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: get an IRS IP PIN, a new one every year.",
+   "say": "Three: get an I R S Identity Protection PIN, and grab the new one every year.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "Freeze all 3",
+     "Check reports",
+     "Get an IP PIN",
+     "Share no codes"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: never share a code, password, or PIN with someone who contacted you.",
+   "say": "Four: never share a code, a password, or a PIN with anyone who contacted you first.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "Freeze all 3",
+     "Check reports",
+     "Get an IP PIN",
+     "Share no codes"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if it happens: company, alert, IdentityTheft.gov, then the recovery plan.",
+   "say": "And if it happens anyway: call the company, place an alert, report at identity theft dot gov, and follow the recovery plan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "If it happens:",
+     "IdentityTheft.gov"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Cost of a freeze: $0. Average reported fraud loss per report in 2025: about $5,300 (our math).",
+   "say": "Side by side: a freeze costs zero dollars, and the average fraud report in twenty twenty-five came with about fifty-three hundred dollars in losses, by our rough math.",
+   "scene": {
+    "t": "compare",
+    "title": "The trade",
+    "left": {
+     "label": "Freeze",
+     "value": "$0",
+     "tone": "up",
+     "sub": "All 3 bureaus"
+    },
+    "right": {
+     "label": "Avg loss",
+     "value": "~$5,300",
+     "tone": "down",
+     "sub": "Our math, 2025"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember the math: about one report every 23 seconds in 2025.",
+   "say": "Remember the math from the top: in twenty twenty-five, about one report every twenty-three seconds.",
+   "scene": {
+    "t": "stat",
+    "label": "One report every",
+    "value": "23 sec",
+    "tone": "down",
+    "sub": "Our math, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A freeze takes minutes and costs $0. That's a good trade.",
+   "say": "A freeze takes a few minutes and costs zero dollars. That's a pretty good trade for a locked door. Send this to someone who still hasn't frozen their credit.",
+   "scene": {
+    "t": "hook",
+    "title": "Lock The [Door]",
+    "prop": "house",
+    "label": "ID",
+    "value": "$0",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Freeze. Check. Protect."
+   }
+  }
+ ],
+ "post": {
+  "title": "One ID theft report every 23 seconds. How to lock down your identity for $0",
+  "ig": "The FTC logged an identity theft report about every 23 seconds in 2025 (our math). The free fix, step by step.",
+  "tiktok": "One ID theft report every 23 seconds in 2025 (our math, FTC data). The $0 freeze, step by step. Not financial advice.",
+  "yt_desc": "The FTC received 1,358,253 identity theft reports in 2025, about one every 23 seconds (our math), up from about 1.14 million in 2024. This guide walks through every step in order: a free credit freeze at Equifax, Experian and TransUnion (free by federal law since Sept 21, 2018), free weekly credit reports at AnnualCreditReport.com, fraud alerts (1 year initial, 7 years extended), locking down your accounts, the IRS Identity Protection PIN, and exactly what to do at IdentityTheft.gov if it happens. Plus the common mistakes and a one-screen checklist.\n\nCHAPTERS\n\nSources: FTC Consumer Sentinel Network Data Books (2020-2024; Mar 2025); FTC press release (Mar 2025); FTC testimony to the Joint Economic Committee (Mar 25, 2026); Experian citing FTC 2025 Consumer Sentinel data (2026); FTC consumer guidance on credit freezes and fraud alerts (Sept 2018) and free weekly credit reports (Oct 2023); IRS.gov IP PIN guidance and IRS newsroom; FTC IdentityTheft.gov; Javelin Strategy & Research Identity Fraud Study (Apr 2026).\n\nNews and education, not financial advice.\n\n#identitytheft #creditfreeze #personalfinance",
+  "tags": [
+   "identity theft",
+   "how to protect yourself from identity theft",
+   "credit freeze",
+   "fraud alert",
+   "IRS IP PIN",
+   "IdentityTheft.gov",
+   "free credit report",
+   "FTC identity theft"
+  ]
+ }
+}
