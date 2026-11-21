@@ -1,0 +1,190 @@
+{
+ "id": "2026-11-21-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Thanksgiving gas\nis racing a record",
+ "cover": {
+  "title": "Gas Record Watch",
+  "prop": "car",
+  "value": "$3.58"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Gas just fell 50 cents. Thanksgiving could still set a record.",
+   "say": "Gas just fell fifty cents. Thanksgiving could still set a record.",
+   "scene": {
+    "t": "hook",
+    "title": "Gas [Record]?",
+    "prop": "car",
+    "value": "-50¢",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AAA's national average slid from about $4.23 on October 29 to $3.72 on Thursday.",
+   "say": "AAA's national average slid from about four twenty-three on October twenty-ninth to three seventy-two on Thursday.",
+   "scene": {
+    "t": "chart",
+    "title": "Gas, national average",
+    "points": [
+     [
+      "Oct 29",
+      4.23
+     ],
+     [
+      "Nov 5",
+      4.1
+     ],
+     [
+      "Nov 12",
+      3.91
+     ],
+     [
+      "Nov 19",
+      3.72
+     ]
+    ],
+    "prefix": "$",
+    "end": "$3.72",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "CNN's look at AAA data says that 50.5-cent drop is the biggest three-week slide since 2008.",
+   "say": "CNN's look at AAA data says that fifty-and-a-half-cent drop is the biggest three-week slide since two thousand eight.",
+   "scene": {
+    "t": "stat",
+    "label": "3-week drop",
+    "value": "50.5¢",
+    "tone": "down",
+    "sub": "Most since 2008",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The catch: AAA's Thanksgiving Day record is $3.58, from 2022, and Friday was $3.69.",
+   "say": "The catch: AAA's Thanksgiving Day record is three fifty-eight, from twenty twenty-two, and Friday was three sixty-nine.",
+   "scene": {
+    "t": "compare",
+    "title": "Gas price",
+    "left": {
+     "label": "Record",
+     "value": "$3.58",
+     "tone": "neutral",
+     "sub": "Thanksgiving 2022"
+    },
+    "right": {
+     "label": "Friday",
+     "value": "$3.69",
+     "tone": "down",
+     "sub": "AAA, Nov 20"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "AAA says another 15-cent drop by Thanksgiving would dodge it. GasBuddy forecasts $3.62, which would be a record.",
+   "say": "AAA says another fifteen-cent drop by Thanksgiving would dodge it. GasBuddy forecasts three sixty-two, which would be a record.",
+   "scene": {
+    "t": "split",
+    "title": "Forecasts",
+    "left": {
+     "title": "AAA",
+     "items": [
+      "15¢ more drop",
+      "Avoids record"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "GasBuddy",
+     "items": [
+      "$3.62",
+      "New record"
+     ],
+     "tone": "down"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Still, $3.72 is 63 cents more than a year ago, when gas was $3.09.",
+   "say": "Still, three seventy-two is sixty-three cents more than a year ago, when gas was three oh nine.",
+   "scene": {
+    "t": "compare",
+    "title": "Per gallon",
+    "left": {
+     "label": "Year ago",
+     "value": "$3.09",
+     "tone": "neutral",
+     "sub": "AAA, Nov 2025"
+    },
+    "right": {
+     "label": "Now",
+     "value": "$3.72",
+     "tone": "down",
+     "sub": "AAA, Nov 19"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a 15-gallon tank, that's $55.80 now versus $46.35 last year, by our math.",
+   "say": "On a fifteen-gallon tank, that's fifty-five eighty now versus forty-six thirty-five last year, by our math.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "15 gal, 2025",
+     "value": "$46.35"
+    },
+    "to": {
+     "label": "15 gal, now",
+     "value": "$55.80"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So for the nearly 73 million people driving this Thanksgiving, falling fast still isn't cheap.",
+   "say": "So for the nearly seventy-three million people driving this Thanksgiving, falling fast still isn't cheap.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Falling fast",
+     "isn't cheap yet"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Gas Fell 50 Cents, but Thanksgiving Could Still Set a Record",
+  "ig": "Gas just fell about 50 cents, and Thanksgiving could still set a price record.\nAAA's national average fell from about $4.23 on Oct 29 to $3.72 on Nov 19, which CNN's analysis of AAA data calls the biggest 3-week drop since 2008.\nAAA's Thanksgiving Day record is $3.58 (2022). Friday's average: $3.69.\nAAA says another ~15-cent drop by Thanksgiving would avoid a record; GasBuddy forecasts $3.62, which would be a record. These are their forecasts, not ours.\nGas is still 63 cents above last year's $3.09.\nSources: AAA, CNN, GasBuddy.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#gasprices #thanksgiving #economy #inflation #financeprostv",
+  "tiktok": "Gas fell 50 cents in 3 weeks. Thanksgiving could still set a record. Not financial advice. #moneytok #personalfinance #gasprices #financeprostv",
+  "yt_desc": "AAA's national average for gas fell 50.5 cents from Oct 29 to $3.72 on Nov 19, 2026, which CNN's analysis of AAA data calls the biggest three-week drop since 2008. AAA's Thanksgiving Day record is $3.58 from 2022; Friday's average was $3.69. AAA says another 15-cent drop by Thanksgiving would avoid a record, while GasBuddy forecasts $3.62. News and education, not financial advice. #Shorts #gasprices #thanksgiving",
+  "tags": [
+   "gas prices",
+   "thanksgiving gas prices",
+   "AAA gas prices",
+   "gas price record",
+   "economy news"
+  ]
+ }
+}
