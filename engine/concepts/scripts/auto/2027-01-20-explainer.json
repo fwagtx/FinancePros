@@ -1,0 +1,185 @@
+{
+ "id": "2027-01-20-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Tax season dates\nW-2, 1099, refund",
+ "cover": {
+  "title": "When W-2s Arrive",
+  "prop": "paper",
+  "label": "W-2",
+  "value": "Feb 1"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your employer doesn't have to send your W-2 until February 1.",
+   "say": "Your employer doesn't have to send your W two until February first.",
+   "scene": {
+    "t": "hook",
+    "title": "W-2 Due [Feb 1]",
+    "prop": "paper",
+    "label": "W-2",
+    "value": "Feb 1",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2027, January 31 is a Sunday, so the deadline moves to Monday.",
+   "say": "In twenty twenty-seven, January thirty-first is a Sunday, so the deadline moves to Monday.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Jan 31, 2027: Sun",
+     "Due: Mon, Feb 1"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Same day for most 1099s, like bank interest or freelance pay.",
+   "say": "Same day for most ten ninety-nines, like bank interest or freelance pay.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2/1",
+      "W-2 + most 1099s"
+     ],
+     [
+      "2/16",
+      "Brokerage 1099-B"
+     ],
+     [
+      "4/15",
+      "Tax Day"
+     ]
+    ],
+    "reveal": 1,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Brokerage 1099-Bs get until February 16, because of Presidents' Day.",
+   "say": "Brokerage ten ninety-nine B forms get until February sixteenth, because of Presidents' Day.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 2,
+    "mood": "happy",
+    "events": []
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The IRS usually opens filing in late January. In 2026, it opened January 26.",
+   "say": "The IRS usually opens filing in late January. In twenty twenty-six, it opened January twenty-sixth.",
+   "scene": {
+    "t": "stat",
+    "label": "2026 season opened",
+    "value": "Jan 26",
+    "tone": "neutral",
+    "sub": "IRS, IR-2026-02",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "E-file with direct deposit, and the IRS says most refunds arrive within 21 days.",
+   "say": "E-file with direct deposit, and the IRS says most refunds arrive within twenty-one days.",
+   "scene": {
+    "t": "stat",
+    "label": "Most refunds",
+    "value": "21 days",
+    "tone": "up",
+    "sub": "IRS, e-file + bank",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Surprise: claim the EITC or additional child tax credit, and by law your whole refund waits until mid-February.",
+   "say": "Surprise: claim the earned income or additional child tax credit, and by law your whole refund waits until mid-February.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "EITC or ACTC?",
+     "Held to mid-Feb"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, the IRS expected most of those by March 2.",
+   "say": "In twenty twenty-six, the IRS expected most of those by March second.",
+   "scene": {
+    "t": "stat",
+    "label": "EITC/ACTC refunds",
+    "value": "Mar 2",
+    "tone": "down",
+    "sub": "IRS expected, 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By Tax Day week, the average refund hit $3,275 in 2026.",
+   "say": "By Tax Day week, the average refund hit three thousand two hundred seventy-five dollars in twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg refund, Tax Day wk",
+    "points": [
+     [
+      2022,
+      3012
+     ],
+     [
+      2023,
+      2753
+     ],
+     [
+      2024,
+      2850
+     ],
+     [
+      2025,
+      2942
+     ],
+     [
+      2026,
+      3275
+     ]
+    ],
+    "prefix": "$",
+    "end": "$3,275",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Forms first, refund later"
+   }
+  }
+ ],
+ "post": {
+  "title": "When your W-2, 1099s and tax refund actually arrive",
+  "ig": "Your employer doesn't have to send your W-2 until Feb. 1, 2027.\nJan. 31, 2027 is a Sunday, so W-2s and most 1099s are due Monday, Feb. 1. Brokerage 1099-Bs are due Feb. 16 (Feb. 15 is Presidents' Day).\nThe IRS usually opens filing season in late January; the 2026 season opened Jan. 26, 2026.\nIRS: most e-filed refunds with direct deposit arrive within 21 days. By law, refunds claiming the EITC or ACTC are held until mid-February; in 2026 the IRS expected most by March 2.\nAverage refund, IRS weekly report covering Tax Day week: $3,012 (2022), $2,753 (2023), $2,850 (2024), $2,942 (2025), $3,275 (2026).\nSources: IRS filing season statistics (weeks ending Apr. 22, 2022; Apr. 21, 2023; Apr. 19, 2024; Apr. 18, 2025; Apr. 17, 2026), IRS IR-2026-02 and IR-2026-12, IRS PATH Act guidance.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#taxseason #taxrefund #w2 #personalfinance #financeprostv",
+  "tiktok": "W-2s are due Feb 1, 2027. 1099-Bs Feb 16. Refunds: most within 21 days. Not financial advice. #moneytok #personalfinance #taxseason #financeprostv",
+  "yt_desc": "Employers must send W-2s by Feb. 1, 2027 (Jan. 31 is a Sunday), most 1099s are due the same day, and brokerage 1099-Bs by Feb. 16. The IRS says most e-filed refunds with direct deposit arrive within 21 days, but refunds claiming the EITC or ACTC are held until mid-February by law; the average refund by Tax Day week was $3,275 in 2026 (IRS filing season statistics, week ending Apr. 17, 2026). News and education, not financial advice. #Shorts #taxseason #taxrefund",
+  "tags": [
+   "tax season 2027",
+   "when will I get my W-2",
+   "1099 deadline 2027",
+   "tax refund timeline",
+   "PATH Act refund"
+  ]
+ }
+}
