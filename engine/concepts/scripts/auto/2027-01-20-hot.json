@@ -1,0 +1,172 @@
+{
+ "id": "2027-01-20-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Mortgage rate shopping\nMyth vs. fact",
+ "cover": {
+  "title": "5 Quotes, 1 Hit?",
+  "prop": "house",
+  "label": "x5",
+  "value": "1 hit"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Five mortgage quotes can count as one hit on your credit.",
+   "say": "Five mortgage quotes can count as one hit on your credit.",
+   "scene": {
+    "t": "hook",
+    "title": "Five Quotes, [One] Hit",
+    "prop": "house",
+    "label": "x5",
+    "value": "1 hit",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FICO scores count mortgage credit checks made close together as one inquiry.",
+   "say": "FICO scores count mortgage credit checks made close together as one inquiry.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Many lender pulls",
+     "= 1 inquiry"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Older FICO versions, still common for mortgages, use a 14-day window.",
+   "say": "Older FICO versions, still common for mortgages, use a fourteen-day window.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "D1",
+      "1st credit pull"
+     ],
+     [
+      "D14",
+      "Older FICO limit"
+     ],
+     [
+      "D45",
+      "Newer FICO limit"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Newer versions stretch it to 45 days. Either way, it's one hit.",
+   "say": "Newer versions stretch it to forty-five days. Either way, it's one hit.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "reveal": 3,
+    "mood": "happy",
+    "events": []
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And FICO says one hard inquiry usually costs fewer than 5 points.",
+   "say": "And FICO says one hard inquiry usually costs fewer than five points.",
+   "scene": {
+    "t": "stat",
+    "label": "One hard inquiry",
+    "value": "<5 pts",
+    "tone": "neutral",
+    "sub": "FICO, via Experian"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the upside. Our math, principal and interest: $350,000 for 30 years at 6.5% versus 6.25%.",
+   "say": "Now the upside. Our math, principal and interest: three hundred fifty thousand dollars for thirty years at six and a half percent versus six and a quarter.",
+   "scene": {
+    "t": "compare",
+    "title": "$350K loan",
+    "left": {
+     "label": "6.50%",
+     "value": "$2,212",
+     "tone": "down",
+     "sub": "per month"
+    },
+    "right": {
+     "label": "6.25%",
+     "value": "$2,155",
+     "tone": "up",
+     "sub": "per month"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That quarter point cuts the payment by about $57 a month.",
+   "say": "That quarter point cuts the payment by about fifty-seven dollars a month.",
+   "scene": {
+    "t": "compare",
+    "title": "$350K loan",
+    "keep": true,
+    "winner": "right",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Over 30 years, that's $20,602.",
+   "say": "Over thirty years, that's twenty thousand six hundred two dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Saved in 30 years",
+    "value": "$20,602",
+    "tone": "up",
+    "sub": "Our math",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many lenders suggest keeping quotes within 14 days, and skipping new cards or car loans until closing.",
+   "say": "Many lenders suggest keeping quotes within fourteen days, and skipping new cards or car loans until closing.",
+   "scene": {
+    "t": "list",
+    "title": "Often suggested",
+    "items": [
+     "All in 14 days",
+     "No new cards",
+     "No car loan"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Does shopping mortgage lenders hurt your credit score?",
+  "ig": "Five mortgage quotes can count as one hit on your credit.\nFICO counts mortgage credit checks within 14 days (older versions) or 45 days (newer) as one inquiry.\nPer FICO (via Experian), one hard inquiry usually costs fewer than 5 points.\nOur math (principal and interest): 6.25% vs 6.5% on a $350,000 30-year loan = about $57 a month, about $20,602 over 30 years.\nMany lenders suggest keeping quotes within 14 days and avoiding new credit until closing.\nSources: myFICO, CFPB, Experian.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#mortgage #creditscore #homebuying #moneymyths #financeprostv",
+  "tiktok": "5 mortgage quotes = 1 credit hit. The 14-day rule explained. Not financial advice. #moneytok #personalfinance #mortgage #creditscore #financeprostv",
+  "yt_desc": "Shopping several mortgage lenders doesn't wreck your credit: FICO counts mortgage inquiries within 14 days (older versions) or 45 days (newer versions) as one, and FICO says one hard inquiry usually costs fewer than 5 points (via Experian). Our math (principal and interest): a 0.25-point lower rate on a $350,000 30-year loan saves about $57 a month and about $20,602 over 30 years. Sources: myFICO, CFPB, Experian. News and education, not financial advice. #Shorts #mortgage #creditscore",
+  "tags": [
+   "mortgage rate shopping",
+   "credit score myth",
+   "hard inquiry",
+   "FICO 45 day rule",
+   "first time home buyer"
+  ]
+ }
+}
