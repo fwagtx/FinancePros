@@ -1,0 +1,197 @@
+{
+  "series": "ticker",
+  "header": "How rent-to-own\nmakes money on a TV",
+  "cover": {
+    "title": "Sold at a Loss?",
+    "prop": "tag",
+    "label": "TV",
+    "value": "-15.5%"
+  },
+  "lines": [
+    {
+      "who": "ticker",
+      "text": "Rent-A-Center's owner sells its goods at a loss. Rent pays the bills.",
+      "say": "Rent-A-Center's owner sells its goods at a loss. Rent pays the bills.",
+      "scene": {
+        "t": "hook",
+        "title": "Sold at a [loss]",
+        "prop": "tag",
+        "label": "TV",
+        "value": "-15.5%",
+        "mood": "shock"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "In 2025, Upbound sold goods for $829M that cost $958M.",
+      "say": "In twenty twenty-five, Upbound sold goods for eight hundred twenty-nine million that cost nine hundred fifty-eight million.",
+      "scene": {
+        "t": "compare",
+        "title": "2025 sales",
+        "left": {
+          "label": "Sold for",
+          "value": "$829M",
+          "tone": "neutral",
+          "sub": "merchandise"
+        },
+        "right": {
+          "label": "Cost",
+          "value": "$958M",
+          "tone": "down",
+          "sub": "goods sold"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Its real money: rent and fees, about 77% of revenue.",
+      "say": "Its real money: rent and fees, about seventy-seven percent of revenue.",
+      "scene": {
+        "t": "stat",
+        "label": "Rent + fees, 2025",
+        "value": "77%",
+        "tone": "up",
+        "sub": "of 2025 revenue",
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Our math: $100 of rent, minus about $40 in costs, leaves $60.",
+      "say": "Our math: a hundred dollars of rent, minus about forty in costs, leaves sixty.",
+      "scene": {
+        "t": "board",
+        "lines": [
+          "$100 of rent",
+          "-$40 cost = $60"
+        ],
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Only about 38% of store agreements end in ownership, per its 2024 report.",
+      "say": "Only about thirty-eight percent of store agreements end in ownership, per its twenty twenty-four report.",
+      "scene": {
+        "t": "stat",
+        "label": "Reach ownership",
+        "value": "38%",
+        "tone": "neutral",
+        "sub": "RAC stores, FY2024",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The rest come back and go out again, often to several customers.",
+      "say": "The rest come back and go out again, often to several customers.",
+      "scene": {
+        "t": "list",
+        "title": "One TV",
+        "items": [
+          "Rented out",
+          "Returned",
+          "Back on shelf",
+          "Rented again"
+        ],
+        "reveal": 4,
+        "mood": "happy"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "The catch: late-2025 write-offs hit 4.9% in stores and 10.1% at Acima, its checkout lease.",
+      "say": "The catch: late twenty twenty-five write-offs hit four point nine percent in stores and ten point one percent at Acima, its checkout lease.",
+      "scene": {
+        "t": "compare",
+        "title": "Q4 losses",
+        "left": {
+          "label": "Stores",
+          "value": "4.9%",
+          "tone": "neutral",
+          "sub": "Rent-A-Center"
+        },
+        "right": {
+          "label": "Acima",
+          "value": "10.1%",
+          "tone": "down",
+          "sub": "other stores"
+        },
+        "mood": "worried"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Revenue slid from $4.58 billion in 2021, then hit $4.7 billion in 2025.",
+      "say": "Revenue slid from four point five eight billion in twenty twenty-one, then hit four point seven billion in twenty twenty-five.",
+      "scene": {
+        "t": "chart",
+        "title": "Revenue",
+        "points": [
+          [
+            2021,
+            4.58
+          ],
+          [
+            2022,
+            4.25
+          ],
+          [
+            2023,
+            3.99
+          ],
+          [
+            2024,
+            4.32
+          ],
+          [
+            2025,
+            4.7
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "end": "$4.7B",
+        "color": "up",
+        "mood": "think"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "Acima added about $251 million of that growth.",
+      "say": "Acima added about two hundred fifty-one million of that growth.",
+      "scene": {
+        "t": "chart",
+        "keep": true,
+        "title": "Revenue",
+        "chart_note": {
+          "x": 2025,
+          "text": "+$251M"
+        },
+        "mood": "up"
+      }
+    },
+    {
+      "who": "ticker",
+      "text": "That's the money. Follow for more.",
+      "say": "That's the money. Follow for more.",
+      "scene": {
+        "t": "cta"
+      }
+    }
+  ],
+  "post": {
+    "title": "Rent-A-Center's Owner Sells Goods at a Loss. Here's Why",
+    "ig": "Rent-A-Center's parent sold its merchandise at a loss in 2025. Rent is the business.\nUpbound sold $829 million of merchandise in 2025 that cost it $958 million (a -15.5% margin).\nRentals and fees brought in $3.63 billion, about 77% of $4.7 billion in revenue; cost of rentals was 39.8% of that.\nAbout 38% of Rent-A-Center store agreements ended in ownership (2024 10-K). Q4 2025 write-offs: 4.9% in stores, 10.1% at Acima.\nSources: Upbound Group 2025 and 2024 Form 10-K; Q4 2025 results (Feb 19, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#renttoown #rentacenter #businessmodel #howtheymakemoney #financeprostv",
+    "tiktok": "Rent-A-Center's owner sold goods below cost in 2025. Rent is the money. Not financial advice. #moneytok #personalfinance #renttoown #financeprostv",
+    "yt_desc": "In 2025, Upbound Group, parent of Rent-A-Center and Acima, sold $829 million of merchandise that cost $958 million, while rentals and fees brought in $3.63 billion, about 77% of its $4.7 billion revenue. Only about 38% of store agreements ended in ownership (2024 10-K), and Q4 2025 write-offs were 4.9% in stores and 10.1% at Acima. Sources: Upbound 2025 and 2024 Form 10-K and Q4 2025 results (Feb 19, 2026). News and education, not financial advice.\n#Shorts #renttoown #businessmodel",
+    "tags": [
+      "rent to own",
+      "rent-a-center",
+      "how rent to own makes money",
+      "upbound acima",
+      "business model"
+    ]
+  }
+}
