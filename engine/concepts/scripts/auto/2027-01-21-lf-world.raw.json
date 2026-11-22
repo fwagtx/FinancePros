@@ -1,0 +1,1366 @@
+{
+ "series": "ticker",
+ "header": "El Salvador's\nbitcoin experiment",
+ "cover": {
+  "title": "Bitcoin Nation?",
+  "prop": "coins",
+  "label": "BTC",
+  "value": "91.8%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The first bitcoin nation, and about 92% skipped it.",
+   "say": "The first bitcoin nation, and about ninety-two percent skipped it.",
+   "scene": {
+    "t": "hook",
+    "title": "Bitcoin [nation]?",
+    "prop": "coins",
+    "label": "BTC",
+    "value": "92%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A university survey found 91.8% of Salvadorans didn't use bitcoin at all in 2024, three years after it became legal money.",
+   "say": "A university survey found that about ninety-two percent of Salvadorans didn't use bitcoin at all in twenty twenty-four, three years after it became legal money.",
+   "scene": {
+    "t": "stat",
+    "label": "No BTC use in 2024",
+    "value": "91.8%",
+    "tone": "down",
+    "sub": "UCA IUDOP, 1/2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, the government kept stacking coins: about 7,825 as of Nov 4, 2026.",
+   "say": "Meanwhile, the government kept stacking coins, and as of November fourth, twenty twenty-six, it reported about seven thousand eight hundred twenty-five of them.",
+   "scene": {
+    "t": "stat",
+    "label": "BTC held, Nov 2026",
+    "value": "7,825",
+    "tone": "neutral",
+    "sub": "Bitcoin Office"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in 2025 it signed a $1.4 billion IMF loan deal that rolled much of the bitcoin law back.",
+   "say": "And in twenty twenty-five, it signed a one point four billion dollar loan deal with the I M F that rolled much of the bitcoin law back.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "INTERNATIONAL MONETARY FUND",
+    "label": "$1.4B loan",
+    "caption": "Approved Feb 2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So what really happened to the world's boldest money experiment, and what does it have to do with dollars sent from the US?",
+   "say": "So what really happened to the world's boldest money experiment, and what does it have to do with dollars sent from the US?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "What happened?",
+     "Where's the $?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The road map: the dollar in 2001, the Bitcoin Law in 2021, a coin a day from 2022, and the IMF deal in 2025.",
+   "say": "The road map: the dollar in two thousand one, the Bitcoin Law in twenty twenty-one, a coin a day from twenty twenty-two, and the I M F deal in twenty twenty-five.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2001",
+      "what": "Dollar adopted"
+     },
+     {
+      "when": "2021",
+      "what": "Bitcoin Law"
+     },
+     {
+      "when": "2022",
+      "what": "One BTC a day"
+     },
+     {
+      "when": "2025",
+      "what": "IMF loan deal"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: The dollar country",
+   "say": "Chapter one. The dollar country.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "The dollar country"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Surprise: El Salvador has no currency of its own. Since Jan 1, 2001, it has used the US dollar.",
+   "say": "First, a surprise: El Salvador doesn't have a currency of its own. Since January first, two thousand one, it has used the US dollar.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Same dollar!"
+     }
+    ],
+    "caption": "Official since Jan 1, 2001"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The old currency, the colón, was swapped at a fixed 8.75 colones per dollar.",
+   "say": "The old currency, the colón, was swapped at a fixed eight point seven five colones per dollar.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Old colones",
+     "value": "8.75"
+    },
+    "to": {
+     "label": "One US dollar",
+     "value": "$1"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Since then, prices, paychecks and savings there are counted in the same dollars Americans use.",
+   "say": "Since then, prices, paychecks and savings there have been counted in the very same dollars Americans carry in their wallets.",
+   "scene": {
+    "t": "compare",
+    "title": "Currency",
+    "left": {
+     "label": "United States",
+     "value": "USD",
+     "tone": "neutral",
+     "sub": "US dollar"
+    },
+    "right": {
+     "label": "El Salvador",
+     "value": "USD",
+     "tone": "neutral",
+     "sub": "since 2001"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So El Salvador can't print money or set its own interest rates. Those decisions happen at the Federal Reserve.",
+   "say": "That means El Salvador can't print money or set its own interest rates. Those decisions happen in Washington, at the Federal Reserve.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "Sets rates",
+    "caption": "Rates set in the US"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So where do the dollars come from? A big chunk is sent home by Salvadorans working abroad, many in the US.",
+   "say": "So where do the dollars come from? A big chunk is sent home by Salvadorans working abroad, many of them in the United States.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Sending $ home"
+     }
+    ],
+    "caption": "Money sent to family"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That money is called remittances: cash workers send to family back home.",
+   "say": "That money has a name: remittances. It's cash that workers send to family back home, often a few hundred dollars at a time.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Remittance =",
+     "money sent home"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "World Bank: remittances equaled 21.0% of El Salvador's economy in 2019, 26.2% in 2021 and 24.7% in 2023.",
+   "say": "According to the World Bank, remittances equaled about twenty-one percent of El Salvador's economy in twenty nineteen, about twenty-six percent in twenty twenty-one, and close to twenty-five percent in twenty twenty-three.",
+   "scene": {
+    "t": "chart",
+    "title": "Remittances, % of GDP",
+    "points": [
+     [
+      2019,
+      21.0
+     ],
+     [
+      2021,
+      26.2
+     ],
+     [
+      2023,
+      24.7
+     ],
+     [
+      2025,
+      27.5
+     ]
+    ],
+    "suffix": "%",
+    "end": "27.5%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 2025 it hit 27.5%, more than a quarter of the whole economy.",
+   "say": "By twenty twenty-five it reached about twenty-seven and a half percent, which means more than a quarter of the whole economy arrived as money from relatives abroad.",
+   "scene": {
+    "t": "chart",
+    "title": "Remittances, % of GDP",
+    "points": [
+     [
+      2019,
+      21.0
+     ],
+     [
+      2021,
+      26.2
+     ],
+     [
+      2023,
+      24.7
+     ],
+     [
+      2025,
+      27.5
+     ]
+    ],
+    "suffix": "%",
+    "end": "27.5%",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "27.5%"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "El Salvador's central bank, the Central Reserve Bank, tracks every dollar that comes in.",
+   "say": "El Salvador's central bank, called the Central Reserve Bank, keeps track of every one of those dollars as it comes in.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "CENTRAL RESERVE BANK",
+    "label": "Counts $",
+    "caption": "Tracks remittances"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In dollars, the central bank counted $9.99 billion in 2025, up 17.7% from 2024.",
+   "say": "In dollars, the central bank counted almost ten billion dollars in twenty twenty-five, up about eighteen percent from the year before.",
+   "scene": {
+    "t": "stat",
+    "label": "Remittances, 2025",
+    "value": "$9.99B",
+    "tone": "up",
+    "sub": "BCR, up 17.7%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The average transfer topped $340 a month in 2025.",
+   "say": "And the average transfer topped three hundred forty dollars a month in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg transfer, 2025",
+    "value": "$340+",
+    "tone": "neutral",
+    "sub": "BCR, per month"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sending money across borders usually costs a fee, and that's what bitcoin was pitched to fix.",
+   "say": "Sending money across borders usually costs a fee, and that's exactly the problem bitcoin was pitched to fix.",
+   "scene": {
+    "t": "hook",
+    "title": "The [fee] problem",
+    "prop": "bill",
+    "label": "FEE",
+    "value": "-$",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The pitch: send money home on the bitcoin network, skip the middleman, keep more of every dollar.",
+   "say": "The pitch was simple: send money home on the bitcoin network, skip the middleman, and keep more of every dollar.",
+   "scene": {
+    "t": "split",
+    "title": "The pitch",
+    "left": {
+     "title": "Old way",
+     "items": [
+      "Money transfer",
+      "Fee per send"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Bitcoin",
+     "items": [
+      "Phone wallet",
+      "Lower fees"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: The Bitcoin Law",
+   "say": "Chapter two. The Bitcoin Law.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "The Bitcoin Law"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bitcoin is a digital currency with no central bank. Its price is set by trading, around the clock.",
+   "say": "Quick refresher: bitcoin is a digital currency with no central bank, and its price is set by trading around the clock.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bitcoin: no",
+     "central bank"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In June 2021, El Salvador's congress passed the Bitcoin Law: the first country to make bitcoin legal tender.",
+   "say": "In June twenty twenty-one, El Salvador's congress passed the Bitcoin Law, making it the first country ever to treat bitcoin as legal tender.",
+   "scene": {
+    "t": "news",
+    "headline": "Bitcoin made legal",
+    "source": "Al Jazeera, June 9, 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The vote was 62 of 84, though opposition lawmakers said it was barely debated.",
+   "say": "The vote was sixty-two out of eighty-four, a big majority, though opposition lawmakers complained it was barely debated.",
+   "scene": {
+    "t": "stat",
+    "label": "Votes for the law",
+    "value": "62 of 84",
+    "tone": "neutral",
+    "sub": "June 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Legal tender means money that must be accepted to settle a debt. The original law told businesses to take bitcoin if they had the tech.",
+   "say": "Legal tender means money that must be accepted to settle a debt, and the original law told businesses to take bitcoin if they had the technology.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Legal tender =",
+     "must be accepted"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The law took effect 90 days after publication: Sept 7, 2021.",
+   "say": "The law took effect ninety days after it was published, so bitcoin officially became legal tender on September seventh, twenty twenty-one.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Jun 9",
+      "what": "Law passes"
+     },
+     {
+      "when": "+90d",
+      "what": "Waiting period"
+     },
+     {
+      "when": "Sep 7",
+      "what": "Legal tender"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same day, the government launched its own phone wallet, Chivo.",
+   "say": "That same day, the government launched its own phone wallet, called Chivo, which is Salvadoran slang for cool.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "CHIVO WALLET",
+    "label": "BTC or $",
+    "caption": "Launched Sept 7, 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Every adult who signed up got $30 in bitcoin, free.",
+   "say": "And to get people started, every adult who signed up got thirty dollars in bitcoin, for free.",
+   "scene": {
+    "t": "hook",
+    "title": "Free [bitcoin]",
+    "prop": "bill",
+    "label": "$30",
+    "value": "$30",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sign up with your ID, get the $30, then spend it or cash it out.",
+   "say": "The idea: sign up with your national ID, get the thirty dollars, then spend it or cash it out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Sign up, get $30",
+     "spend or cash out"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Launch day was rough: servers buckled and the app was briefly pulled.",
+   "say": "Launch day was rough, though. Servers buckled, the app was briefly pulled offline, and some people couldn't register at all.",
+   "scene": {
+    "t": "news",
+    "headline": "Chivo app stalls",
+    "source": "The Block, Sept 7, 2021",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The big question: would people use money whose price can swing so much in a day?",
+   "say": "So the big question: would people actually use money whose price can swing so much in a single day?",
+   "scene": {
+    "t": "split",
+    "title": "Money test",
+    "left": {
+     "title": "Dollar",
+     "items": [
+      "Stable price",
+      "Known by all"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Bitcoin",
+     "items": [
+      "Price swings",
+      "New to most"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Did people use it?",
+   "say": "Chapter three. Did people use it?",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Did people use it?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Economists in an NBER study surveyed 1,800 households face to face in early 2022.",
+   "say": "A team of economists, publishing through the National Bureau of Economic Research, surveyed eighteen hundred households face to face in early twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Homes surveyed",
+    "value": "1,800",
+    "tone": "neutral",
+    "sub": "NBER paper, 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chivo spread fast at first, and the $30 bonus did a lot of the work.",
+   "say": "They found Chivo spread fast at first, and the free thirty dollars did a lot of the work.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fast start:",
+     "the $30 bonus"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But fewer than half of those who downloaded Chivo kept using it after the bonus was spent.",
+   "say": "But fewer than half of the people who downloaded Chivo kept using it once the free bonus was spent.",
+   "scene": {
+    "t": "hook",
+    "title": "Bonus [spent]",
+    "prop": "card",
+    "label": "$30",
+    "value": "then?",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's only 20% of everyone surveyed.",
+   "say": "Put another way, only about one in five people in the whole survey kept using the app after the bonus.",
+   "scene": {
+    "t": "stat",
+    "label": "Kept using Chivo",
+    "value": "20%",
+    "tone": "down",
+    "sub": "of all surveyed"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why not? People didn't trust it, worried about privacy, or simply preferred cash.",
+   "say": "Why not? People told the researchers they didn't trust it, worried about privacy, or simply preferred good old cash.",
+   "scene": {
+    "t": "list",
+    "title": "Why not?",
+    "items": [
+     "Low trust",
+     "Privacy worry",
+     "Prefer cash"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Users skewed younger, banked and better educated.",
+   "say": "The people who did use it tended to be younger, already banked, and better educated.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Users: younger,",
+     "banked, educated"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A local university asks every year: 88% didn't use bitcoin in 2023, and 91.8% in 2024.",
+   "say": "A local university, the U C A, asks the same question every year. About eighty-eight percent didn't use bitcoin in twenty twenty-three, and nearly ninety-two percent in twenty twenty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "No BTC use",
+    "left": {
+     "label": "2023",
+     "value": "88%",
+     "tone": "down",
+     "sub": "UCA survey"
+    },
+    "right": {
+     "label": "2024",
+     "value": "91.8%",
+     "tone": "down",
+     "sub": "UCA survey"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Use fell as the experiment got older, not the other way around.",
+   "say": "That's the opposite of how a new currency is supposed to catch on: use fell as the experiment got older.",
+   "scene": {
+    "t": "compare",
+    "title": "No BTC use",
+    "left": {
+     "label": "2023",
+     "value": "88%",
+     "tone": "down",
+     "sub": "UCA survey"
+    },
+    "right": {
+     "label": "2024",
+     "value": "91.8%",
+     "tone": "down",
+     "sub": "UCA survey"
+    },
+    "keep": true,
+    "winner": "right"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Among Chivo users, only 10% said they spent less cash, and 11% used cards less.",
+   "say": "Even among Chivo users, only about ten percent said they spent less cash, and about eleven percent said they used their cards less.",
+   "scene": {
+    "t": "compare",
+    "title": "Chivo use",
+    "left": {
+     "label": "Less cash",
+     "value": "10%",
+     "tone": "neutral",
+     "sub": "NBER survey"
+    },
+    "right": {
+     "label": "Fewer cards",
+     "value": "11%",
+     "tone": "neutral",
+     "sub": "NBER survey"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those who did use it averaged about 14 uses a year.",
+   "say": "And the people who did use it averaged only about fourteen transactions a year, according to the survey's director.",
+   "scene": {
+    "t": "stat",
+    "label": "Uses per user",
+    "value": "14/yr",
+    "tone": "down",
+    "sub": "UCA IUDOP, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What about cheaper remittances? Crypto wallets carried $126.7 million of them in 2022.",
+   "say": "What about the big promise, cheaper remittances? Central bank data shows crypto wallets carried about one hundred twenty-seven million dollars of them in twenty twenty-two.",
+   "scene": {
+    "t": "stat",
+    "label": "Via crypto wallets",
+    "value": "$126.7M",
+    "tone": "neutral",
+    "sub": "BCR, 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That was just 1.6% of all remittances, and about 1% in 2023.",
+   "say": "That was only about one point six percent of all remittances, and in twenty twenty-three the share slipped to roughly one percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Via crypto",
+    "left": {
+     "label": "2022",
+     "value": "1.6%",
+     "tone": "neutral",
+     "sub": "of remittances"
+    },
+    "right": {
+     "label": "2023",
+     "value": "~1%",
+     "tone": "down",
+     "sub": "of remittances"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So roughly $99 of every $100 sent home still came as plain dollars.",
+   "say": "So roughly ninety-nine of every hundred dollars sent home still traveled the old way, as plain US dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$99 of every $100",
+     "still in dollars"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For an American sending money to family there, little changed: dollars out, dollars in.",
+   "say": "For an American sending money to family in El Salvador, very little changed: dollars went out, and dollars arrived.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Still dollars"
+     }
+    ],
+    "caption": "Remittances stayed in USD"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: One bitcoin a day",
+   "say": "Chapter four. One bitcoin a day.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "One bitcoin a day"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "While most people stuck with cash, the government kept buying, often announcing buys when the price dropped.",
+   "say": "While most people stuck with cash, the government kept buying, and it often announced purchases right after the price dropped.",
+   "scene": {
+    "t": "hook",
+    "title": "Buy the [dip]",
+    "prop": "chart-down",
+    "label": "BTC",
+    "value": "dips",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nov 17, 2022, President Nayib Bukele: \"We are buying one #Bitcoin every day starting tomorrow.\"",
+   "say": "Then, on November seventeenth, twenty twenty-two, President Nayib Bukele posted: We are buying one bitcoin every day starting tomorrow.",
+   "scene": {
+    "t": "quote",
+    "text": "We are buying one #Bitcoin every day starting tomorrow.",
+    "source": "Nayib Bukele on X, Nov 17, 2022"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That came during a crypto crash, with one bitcoin at about $16,672.",
+   "say": "That came in the middle of a crypto crash, with one bitcoin worth about sixteen thousand seven hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "1 BTC, 11/17/22",
+    "value": "$16,672",
+    "tone": "down",
+    "sub": "Kitco"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: one coin a day at that price is about $6.1 million a year.",
+   "say": "Our math: one coin a day at that price works out to about six point one million dollars over a full year.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "1 BTC a day",
+     "value": "$16,672"
+    },
+    "to": {
+     "label": "x 365, our math",
+     "value": "$6.1M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Nov 17, 2025, the Bitcoin Office disclosed its biggest single addition: 1,090 coins, about $100 million.",
+   "say": "Three years later, on November seventeenth, twenty twenty-five, the Bitcoin Office disclosed its biggest single addition: one thousand ninety coins, worth about one hundred million dollars.",
+   "scene": {
+    "t": "news",
+    "headline": "1,090 BTC added",
+    "source": "The Block, Nov 17, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That lifted holdings to 7,474 coins, the Bitcoin Office said.",
+   "say": "That lifted the total to seven thousand four hundred seventy-four coins, according to the Bitcoin Office.",
+   "scene": {
+    "t": "stat",
+    "label": "BTC held, 11/17/25",
+    "value": "7,474",
+    "tone": "neutral",
+    "sub": "Bitcoin Office"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of Nov 4, 2026, the government's bitcoin dashboard showed about 7,825 coins.",
+   "say": "As of November fourth, twenty twenty-six, the government's bitcoin dashboard showed about seven thousand eight hundred twenty-five coins.",
+   "scene": {
+    "t": "stat",
+    "label": "BTC held",
+    "value": "7,825",
+    "tone": "neutral",
+    "sub": "as of Nov 4, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 7,825 coins x $78,520, the price Fortune listed on Nov 4, 2026.",
+   "say": "Our math on what that was worth: seven thousand eight hundred twenty-five coins, times seventy-eight thousand five hundred twenty dollars, Fortune's price that morning.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Our math:",
+     "7,825 x $78,520"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "= $614,419,000, or about $614 million on that one day.",
+   "say": "That comes to about six hundred fourteen million dollars, at that one moment, on that one day.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "7,825 BTC at",
+     "value": "$78,520"
+    },
+    "to": {
+     "label": "Our math, 11/4/26",
+     "value": "$614M"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For scale: 1 BTC was $16,672 on Nov 17, 2022, and $78,520 on Nov 4, 2026.",
+   "say": "For scale, one bitcoin cost about sixteen thousand seven hundred dollars in November twenty twenty-two, versus about seventy-eight thousand five hundred on November fourth, twenty twenty-six.",
+   "scene": {
+    "t": "compare",
+    "title": "1 bitcoin",
+    "left": {
+     "label": "Nov 17, 2022",
+     "value": "$16,672",
+     "tone": "neutral",
+     "sub": "Kitco"
+    },
+    "right": {
+     "label": "Nov 4, 2026",
+     "value": "$78,520",
+     "tone": "up",
+     "sub": "Fortune"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bitcoin's price moves every minute. That's a snapshot, not a forecast.",
+   "say": "But bitcoin's price moves every minute, so that value changes constantly. It's a snapshot, not a forecast.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "A snapshot,",
+     "not a forecast"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Is it a profit? The government hasn't published a full receipt for every purchase.",
+   "say": "Is that a profit? It depends on what was paid, and the government hasn't published a full receipt for every single purchase.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Price paid?",
+     "Not fully public"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There was also a plan for volcano bonds: $1 billion of bitcoin-linked debt, announced Nov 2021.",
+   "say": "There was also a plan for bitcoin bonds, nicknamed volcano bonds: one billion dollars of debt, announced in November twenty twenty-one.",
+   "scene": {
+    "t": "stat",
+    "label": "Volcano bond plan",
+    "value": "$1B",
+    "tone": "neutral",
+    "sub": "Announced Nov 2021"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$1 billion, 10 years, 6.5% interest, half to buy bitcoin, half for a volcano-powered Bitcoin City.",
+   "say": "The plan: one billion dollars, ten years, six and a half percent interest, half to buy bitcoin and half for a volcano-powered Bitcoin City.",
+   "scene": {
+    "t": "list",
+    "title": "Bond plan",
+    "items": [
+     "$1 billion",
+     "10 years",
+     "6.5% interest",
+     "Half to BTC"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then came delays: postponed in 2022, a legal framework in Jan 2023, regulatory approval in Dec 2023.",
+   "say": "Then came the delays: postponed through twenty twenty-two as bitcoin fell, a legal framework in January twenty twenty-three, and regulatory approval that December.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2021",
+      "what": "Bond announced"
+     },
+     {
+      "when": "2022",
+      "what": "Delayed again"
+     },
+     {
+      "when": "2023",
+      "what": "Rules approved"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: The IMF deal",
+   "say": "Chapter five. The I M F deal.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "The IMF deal"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "El Salvador turned to the International Monetary Fund, which had warned about bitcoin since 2021.",
+   "say": "Next, El Salvador sought financing from the International Monetary Fund, which had warned about bitcoin's risks since twenty twenty-one.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "INTERNATIONAL MONETARY FUND",
+    "label": "Since 2021",
+    "caption": "Warned about bitcoin risks"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Dec 2024: staff-level agreement. Feb 26, 2025: the IMF board approved it.",
+   "say": "In December twenty twenty-four, the two sides reached a staff-level agreement, and the I M F board approved it on February twenty-sixth, twenty twenty-five.",
+   "scene": {
+    "t": "news",
+    "headline": "IMF deal reached",
+    "source": "IMF, Dec 18, 2024"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About $1.4 billion over 40 months, with over $3.5 billion more expected from other lenders.",
+   "say": "The deal: about one point four billion dollars over forty months, with more than three and a half billion dollars more expected from other lenders.",
+   "scene": {
+    "t": "stat",
+    "label": "40-month IMF loan",
+    "value": "$1.4B",
+    "tone": "neutral",
+    "sub": "Approved Feb 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "About $113 million was paid out right away.",
+   "say": "About one hundred thirteen million dollars of it was paid out right away.",
+   "scene": {
+    "t": "stat",
+    "label": "Paid up front",
+    "value": "$113M",
+    "tone": "neutral",
+    "sub": "IMF, Feb 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "IMF loans come in pieces: each review checks the promises before the next payment.",
+   "say": "I M F loans come in pieces. Every few months, a review checks whether the promises were kept before the next payment goes out.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Review first,",
+     "then next payment"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $1.4 billion ÷ 6.4 million people = about $219 each.",
+   "say": "Our math: spread across roughly six point four million people, that's about two hundred nineteen dollars per Salvadoran.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "IMF loan",
+     "value": "$1.4B"
+    },
+    "to": {
+     "label": "Per person, our math",
+     "value": "$219"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The strings: first, accepting bitcoin becomes optional for businesses.",
+   "say": "The loan came with strings. First, accepting bitcoin would become optional for businesses.",
+   "scene": {
+    "t": "list",
+    "title": "The strings",
+    "items": [
+     "BTC optional",
+     "Taxes in USD",
+     "Exit Chivo",
+     "Limit buying"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second: taxes paid only in US dollars.",
+   "say": "Second, taxes would be paid only in US dollars, not in bitcoin.",
+   "scene": {
+    "t": "list",
+    "title": "The strings",
+    "items": [
+     "BTC optional",
+     "Taxes in USD",
+     "Exit Chivo",
+     "Limit buying"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third: the government winds down its role in Chivo.",
+   "say": "Third, the government would wind down its role in the Chivo wallet.",
+   "scene": {
+    "t": "list",
+    "title": "The strings",
+    "items": [
+     "BTC optional",
+     "Taxes in USD",
+     "Exit Chivo",
+     "Limit buying"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fourth: limits on the public sector adding bitcoin.",
+   "say": "And fourth, there would be limits on the public sector piling up more bitcoin.",
+   "scene": {
+    "t": "list",
+    "title": "The strings",
+    "items": [
+     "BTC optional",
+     "Taxes in USD",
+     "Exit Chivo",
+     "Limit buying"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Jan 29, 2025: congress voted 55 to 2 to reform the Bitcoin Law and make acceptance voluntary.",
+   "say": "On January twenty-ninth, twenty twenty-five, congress voted fifty-five to two to reform the Bitcoin Law and make accepting it voluntary.",
+   "scene": {
+    "t": "news",
+    "headline": "Bitcoin Law reformed",
+    "source": "Reuters, Jan 29, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The 2021 rule that businesses must accept bitcoin became, in 2025, a choice.",
+   "say": "So the twenty twenty-one rule that businesses must accept bitcoin turned, in twenty twenty-five, into a simple choice.",
+   "scene": {
+    "t": "compare",
+    "title": "The rule",
+    "left": {
+     "label": "2021 law",
+     "value": "Must",
+     "tone": "neutral",
+     "sub": "accept bitcoin"
+    },
+    "right": {
+     "label": "2025 reform",
+     "value": "Choice",
+     "tone": "neutral",
+     "sub": "voluntary"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The first review wrapped up in June 2025, and the next payment was released.",
+   "say": "The first review wrapped up in June twenty twenty-five, and the next payment was released.",
+   "scene": {
+    "t": "news",
+    "headline": "First review done",
+    "source": "IMF, June 27, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's where it gets confusing. The government kept posting daily bitcoin buys through 2025.",
+   "say": "Here's where it gets confusing. The government kept announcing daily bitcoin purchases on social media through twenty twenty-five.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Posts: buying",
+     "one a day"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But a July 2025 IMF report said reserve-fund increases reflected coins moved between government wallets.",
+   "say": "But a July twenty twenty-five I M F report said the reserve fund's increases reflected coins being moved between government wallets, not new purchases.",
+   "scene": {
+    "t": "split",
+    "title": "2 stories",
+    "left": {
+     "title": "Posts",
+     "items": [
+      "Buying daily",
+      "Holdings up"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "IMF",
+     "items": [
+      "Moved wallets",
+      "Not new buys"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sept 2026: IMF staff said no public money went into bitcoin since June 2025; new coins came from private donations.",
+   "say": "In September twenty twenty-six, I M F staff said no public money had gone into bitcoin since June twenty twenty-five, and new coins came from documented private donations.",
+   "scene": {
+    "t": "stat",
+    "label": "Public $ into BTC",
+    "value": "$0",
+    "tone": "neutral",
+    "sub": "IMF, since 6/2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The donors haven't been named, and the IMF has asked for more disclosure of government crypto wallets.",
+   "say": "Who the donors are hasn't been made public, and the I M F has pushed for more disclosure of government crypto wallets.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Donors: not named",
+     "IMF: disclose more"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Oct 1, 2026: the IMF board finished two reviews and released about $138 million, with waivers for missed targets.",
+   "say": "On October first, twenty twenty-six, the I M F board finished two more reviews and released about one hundred thirty-eight million dollars, with waivers for some missed targets.",
+   "scene": {
+    "t": "stat",
+    "label": "IMF payout, Oct 1",
+    "value": "$138M",
+    "tone": "neutral",
+    "sub": "2026, with waivers"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And Chivo? IMF staff said in Sept 2026 that majority control passed to a private operator.",
+   "say": "And the Chivo wallet? I M F staff said in September twenty twenty-six that majority control had passed to a private operator.",
+   "scene": {
+    "t": "news",
+    "headline": "Chivo goes private",
+    "source": "IMF staff, Sept 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In about two years: a deal in 2024, a reformed law in 2025, more loan money in 2026.",
+   "say": "So in about two years: a deal in twenty twenty-four, a reformed law in twenty twenty-five, and more loan money in twenty twenty-six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2024",
+      "what": "Deal reached"
+     },
+     {
+      "when": "2025",
+      "what": "Law reformed"
+     },
+     {
+      "when": "2026",
+      "what": "$138M released"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: Recap",
+   "say": "Chapter six. Recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "Recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "El Salvador has used the US dollar since 2001, and remittances are over a quarter of its economy.",
+   "say": "Let's recap. El Salvador has used the US dollar since two thousand one, and remittances are now over a quarter of its economy.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Dollar in 2001",
+     "Law in 2021",
+     "Few users",
+     "IMF deal 2025"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2021 it made bitcoin legal tender and gave $30 to every adult who signed up for Chivo.",
+   "say": "In twenty twenty-one it made bitcoin legal tender and handed thirty dollars to every adult who signed up for Chivo.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Dollar in 2001",
+     "Law in 2021",
+     "Few users",
+     "IMF deal 2025"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many spent the bonus and stopped; about 92% didn't use bitcoin at all in 2024.",
+   "say": "Many people spent the bonus and stopped, and about ninety-two percent didn't use bitcoin at all in twenty twenty-four.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Dollar in 2001",
+     "Law in 2021",
+     "Few users",
+     "IMF deal 2025"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025 a $1.4 billion IMF deal made bitcoin optional. Stash: about 7,825 coins as of Nov 4, 2026.",
+   "say": "In twenty twenty-five, a one point four billion dollar I M F deal made bitcoin optional, and the stash sat near seven thousand eight hundred twenty-five coins as of November fourth, twenty twenty-six.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Dollar in 2001",
+     "Law in 2021",
+     "Few users",
+     "IMF deal 2025"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For Americans, the link is the dollar: money sent from the US still arrives as dollars.",
+   "say": "For Americans, the link is the dollar: the money families in the US send home still arrives as dollars, just like before the experiment.",
+   "scene": {
+    "t": "countries",
+    "cast": [
+     {
+      "name": "us",
+      "mood": "happy",
+      "says": "Sent in dollars"
+     }
+    ],
+    "caption": "The dollar link"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The lesson: a law can make something legal money, but it can't make people use it.",
+   "say": "The big lesson: a law can make something legal money, but it can't make people use it.",
+   "scene": {
+    "t": "hook",
+    "title": "Law vs [habit]",
+    "prop": "paper",
+    "label": "LAW",
+    "value": "habits",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "El Salvador made bitcoin legal money in 2021. Why did about 92% skip it in 2024?",
+  "ig": "El Salvador made bitcoin legal tender in 2021. By 2024, about 92% of people didn't use it. Here's what happened.",
+  "tiktok": "The first bitcoin nation, and about 92% skipped it in 2024. What happened?",
+  "yt_desc": "In September 2021, El Salvador became the first country to make bitcoin legal tender and gave $30 in bitcoin to every adult who signed up for its Chivo wallet. This video explains why a country that has used the US dollar since 2001 tried bitcoin, what surveys found about who actually used it, how the government built a stash of about 7,825 coins (as of Nov 4, 2026), and how a $1.4 billion IMF loan approved in February 2025 made bitcoin acceptance voluntary. Along the way we chart remittances as a share of El Salvador's economy and work through the math on the government's holdings and the IMF loan per person.\n\nCHAPTERS\n\nSources: IMF press releases (Dec 18, 2024; Feb 26, 2025; Dec 22, 2025; Oct 1, 2026); NBER Working Paper 29968 (2022); UCA IUDOP surveys (Jan 2024, Jan 2025); World Bank, personal remittances % of GDP; Banco Central de Reserva via Diario El Mundo (2022-2026); Al Jazeera (June 2021); The Block (Sept 2021, July 2025, Nov 2025, Sept 2026); Kitco (Nov 17, 2022); Bloomberg (Nov 2021, Nov 2025); Fortune (Dec 2023; Nov 4, 2026); Reuters (Jan 2025); CoinDesk (Sept 2026).\n\nNews and education, not financial advice.\n\n#bitcoin #elsalvador #economy",
+  "tags": [
+   "El Salvador bitcoin",
+   "bitcoin legal tender",
+   "Chivo wallet",
+   "IMF El Salvador",
+   "remittances",
+   "world economy",
+   "bitcoin explained"
+  ]
+ }
+}
