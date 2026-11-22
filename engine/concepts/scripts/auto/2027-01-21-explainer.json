@@ -1,0 +1,195 @@
+{
+ "id": "2027-01-21-explainer",
+ "format": "vertical",
+ "series": "acorn",
+ "header": "Acorn Economics\nStock splits",
+ "cover": {
+  "title": "Down 90%. Fine?",
+  "prop": "acorns",
+  "label": "NVDA",
+  "value": "-90%"
+ },
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "Nvidia's share price fell 90% in a weekend. Nobody lost anything.",
+   "say": "Nvidia's share price fell ninety percent in a weekend. Nobody lost anything.",
+   "scene": {
+    "t": "hook",
+    "title": "Price cut, [no loss]",
+    "prop": "acorns",
+    "label": "NVDA",
+    "value": "-90%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel's secret: a stock split. Same pie, more slices.",
+   "say": "Squirrel's secret: a stock split. Same pie, more slices.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "think",
+    "caption": "Same pie",
+    "value": "x10",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Nvidia closed June 7, 2024 at about $1,209 a share. A 10-for-1 split made that about $121.",
+   "say": "Nvidia closed June seventh, twenty twenty-four, at about twelve hundred nine dollars a share. A ten-for-one split made that about a hundred twenty-one.",
+   "scene": {
+    "t": "compare",
+    "title": "NVDA 2024",
+    "left": {
+     "label": "Before split",
+     "value": "$1,209",
+     "tone": "neutral",
+     "sub": "$1,208.88 close"
+    },
+    "right": {
+     "label": "After split",
+     "value": "$121",
+     "tone": "neutral",
+     "sub": "$120.88 adjusted"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Our math: 1 share at $1,000 becomes 10 shares at $100. Still $1,000.",
+   "say": "Our math: one share at a thousand dollars becomes ten shares at a hundred. Still a thousand dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1 x $1,000=$1,000",
+     "10 x $100=$1,000"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "You get more shares, and each one costs less.",
+   "say": "You get more shares, and each one costs less.",
+   "scene": {
+    "t": "list",
+    "title": "A split",
+    "items": [
+     "More shares",
+     "Lower price",
+     "Same total"
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "But the total value of your pile stays the same.",
+   "say": "But the total value of your pile stays the same.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "A split",
+    "reveal": 3,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "From its 1980 IPO to 2020, Apple split 5 times. One original share became 224 shares.",
+   "say": "From its nineteen eighty I P O to twenty twenty, Apple split five times. One original share became two hundred twenty-four shares.",
+   "scene": {
+    "t": "chart",
+    "title": "1 AAPL share",
+    "points": [
+     [
+      1985,
+      1
+     ],
+     [
+      1990,
+      2
+     ],
+     [
+      1995,
+      2
+     ],
+     [
+      2000,
+      4
+     ],
+     [
+      2005,
+      8
+     ],
+     [
+      2010,
+      8
+     ],
+     [
+      2015,
+      56
+     ],
+     [
+      2020,
+      224
+     ]
+    ],
+    "suffix": "",
+    "end": "224",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "A reverse split runs it backward. Citigroup went 1-for-10 in May 2011: fewer, bigger slices.",
+   "say": "A reverse split runs it backward. Citigroup went one-for-ten in May twenty eleven: fewer, bigger slices.",
+   "scene": {
+    "t": "stat",
+    "label": "Citi reverse split",
+    "value": "1-for-10",
+    "tone": "neutral",
+    "sub": "May 2011",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "A split slices the pie. It doesn't bake a bigger one.",
+   "say": "A split slices the pie. It doesn't bake a bigger one.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "pile",
+    "caption": "Same pie",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained stock splits. Squirrel would like one follow.",
+   "say": "Squirrel explained stock splits. Squirrel would like one follow.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Same pie, more slices"
+   }
+  }
+ ],
+ "post": {
+  "title": "Stock splits explained with acorns: same pie, more slices",
+  "ig": "Nvidia's share price fell 90% in a weekend. Nobody lost anything.\nIt was a 10-for-1 split: the June 7, 2024 close of $1,208.88 became $120.88 per share, with 10x the shares (split-adjusted trading began June 10, 2024).\nOur math: 1 share at $1,000 = 10 shares at $100 = still $1,000.\nFrom its 1980 IPO to 2020, Apple split 5 times (1987, 2000, 2005, 2014, 2020): 1 original share became 224 shares. A reverse split goes the other way, like Citigroup's 1-for-10 in May 2011.\nSources: FINRA and Investor.gov (stock split definitions); Fortune and Nasdaq (Nvidia, June 2024); Apple split history via Yahoo Finance and Motley Fool; Citigroup 8-K (May 2011).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stocksplit #investing #acorneconomics #personalfinance #financeprostv",
+  "tiktok": "Nvidia's share price fell 90% in a weekend. Nobody lost anything. Stock splits explained. Not financial advice. #stocks #financeprostv",
+  "yt_desc": "A stock split adds shares and cuts the price per share, but the total value stays the same. Nvidia's 10-for-1 split turned a $1,208.88 close on June 7, 2024 into $120.88 per share; Apple's five splits from its 1980 IPO to 2020 turned 1 original share into 224; Citigroup did a 1-for-10 reverse split in May 2011. Sources: FINRA, Investor.gov, Fortune, Nasdaq, Citigroup SEC filing. News and education, not financial advice. #Shorts #stocksplit #investing",
+  "tags": [
+   "stock split explained",
+   "what is a stock split",
+   "reverse stock split",
+   "acorn economics",
+   "nvidia stock split"
+  ]
+ }
+}
