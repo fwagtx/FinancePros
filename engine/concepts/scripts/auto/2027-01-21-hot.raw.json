@@ -1,0 +1,219 @@
+{
+ "series": "ticker",
+ "header": "Scam Alert:\nThe Free Dinner Pitch",
+ "cover": {
+  "title": "Free Dinner Trap",
+  "prop": "tag",
+  "label": "$0",
+  "value": "110"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "That free steak dinner could be the priciest meal you ever eat.",
+   "say": "That free steak dinner could be the priciest meal you ever eat.",
+   "scene": {
+    "t": "hook",
+    "title": "The [Free] Dinner",
+    "prop": "tag",
+    "label": "$0",
+    "value": "FREE?",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In a 2007 report, US regulators examined 110 free-lunch investment seminars.",
+   "say": "In a two thousand seven report, US regulators examined one hundred ten free lunch investment seminars.",
+   "scene": {
+    "t": "stat",
+    "label": "Seminars examined",
+    "value": "110",
+    "tone": "neutral",
+    "sub": "SEC, FINRA, NASAA",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "100% were sales pitches dressed up as classes.",
+   "say": "One hundred percent were sales pitches dressed up as classes.",
+   "scene": {
+    "t": "list",
+    "title": "What they found",
+    "items": [
+     "100% sales",
+     "50% misleading",
+     "23% unsuitable"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "50% used exaggerated or misleading advertising.",
+   "say": "Fifty percent used exaggerated or misleading advertising.",
+   "scene": {
+    "t": "list",
+    "title": "What they found",
+    "items": [
+     "100% sales",
+     "50% misleading",
+     "23% unsuitable"
+    ],
+    "reveal": 2,
+    "keep": true,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 23% involved possibly unsuitable investments.",
+   "say": "And twenty-three percent involved possibly unsuitable investments.",
+   "scene": {
+    "t": "list",
+    "title": "What they found",
+    "items": [
+     "100% sales",
+     "50% misleading",
+     "23% unsuitable"
+    ],
+    "reveal": 3,
+    "keep": true,
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Scams keep growing. FTC reports show investment-scam losses went from $3.8 billion in 2022 to $7.9 billion in 2025.",
+   "say": "Scams keep growing. F T C reports show investment scam losses went from three point eight billion dollars in twenty twenty-two to seven point nine billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Investment-scam losses",
+    "points": [
+     [
+      2022,
+      3.8
+     ],
+     [
+      2023,
+      4.6
+     ],
+     [
+      2024,
+      5.7
+     ],
+     [
+      2025,
+      7.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$7.9B",
+    "color": "down",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: that's about double in three years.",
+   "say": "By our math, that's about double in just three years.",
+   "scene": {
+    "t": "chart",
+    "title": "Investment-scam losses",
+    "points": [
+     [
+      2022,
+      3.8
+     ],
+     [
+      2023,
+      4.6
+     ],
+     [
+      2024,
+      5.7
+     ],
+     [
+      2025,
+      7.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$7.9B",
+    "color": "down",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "~2x"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Red flags: guaranteed returns, sign-today pressure, fancy \"senior\" titles. Check sellers on BrokerCheck, the SEC site, or your state regulator.",
+   "say": "Red flags are guaranteed returns, pressure to sign today, and fancy senior titles. Check sellers on BrokerCheck, the S E C site, or with your state regulator.",
+   "scene": {
+    "t": "split",
+    "title": "Spot it",
+    "left": {
+     "title": "Red flags",
+     "items": [
+      "Guaranteed",
+      "Sign today",
+      "Fancy titles"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Check it",
+     "items": [
+      "BrokerCheck",
+      "SEC IAPD",
+      "Your state"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Enjoy the dinner, take the brochure home, and sign nothing at the table.",
+   "say": "Enjoy the dinner, take the brochure home, and sign nothing at the table.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Eat the dinner.",
+     "Sign nothing."
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Free investment dinners: what regulators found in 110 checks",
+  "ig": "That free steak dinner could be the priciest meal you ever eat.\nIn a 2007 joint review of 110 free-lunch investment seminars, regulators found every one was a sales pitch.\n50% used exaggerated or misleading ads; 23% involved possibly unsuitable investments.\nFTC data: reported investment-scam losses hit $7.9 billion in 2025, up from $3.8 billion in 2022.\nCheck any seller on FINRA BrokerCheck, the SEC adviser site, or with your state regulator.\nSources: SEC/NASAA/FINRA 2007 report; FTC Consumer Sentinel.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#scamalert #investing #personalfinance #moneytips #financeprostv",
+  "tiktok": "Every free-lunch seminar regulators checked was a sales pitch. Not financial advice. #moneytok #personalfinance #scamalert #investing #financeprostv",
+  "yt_desc": "A 2007 SEC, NASAA and FINRA review of 110 free-lunch investment seminars found every one was a sales pitch, 50% used misleading ads and 23% involved possibly unsuitable investments. FTC data shows reported investment-scam losses reached $7.9 billion in 2025. Check sellers on FINRA BrokerCheck, the SEC adviser site, or your state regulator. News and education, not financial advice.\n#Shorts #scamalert #personalfinance",
+  "tags": [
+   "free lunch seminar",
+   "investment scam",
+   "scam alert",
+   "brokercheck",
+   "personal finance"
+  ]
+ }
+}
