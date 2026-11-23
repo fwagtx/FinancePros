@@ -1,0 +1,201 @@
+{
+ "series": "ticker",
+ "header": "The pain\nof paying",
+ "cover": {
+  "title": "Cash vs. Card",
+  "prop": "card",
+  "value": "x2"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "In one experiment, card payers bid double for the same Celtics tickets.",
+   "say": "In one experiment, card payers bid double for the same Celtics tickets.",
+   "scene": {
+    "t": "hook",
+    "title": "Card bids [double]",
+    "prop": "card",
+    "value": "x2",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In that 2001 study, cash bidders averaged $28.51; card bidders, $60.64.",
+   "say": "In that two thousand one study, cash bidders averaged twenty-eight dollars fifty-one; card bidders, sixty dollars sixty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Celtics",
+    "left": {
+     "label": "Cash",
+     "value": "$28.51",
+     "tone": "neutral",
+     "sub": "avg bid"
+    },
+    "right": {
+     "label": "Card",
+     "value": "$60.64",
+     "tone": "down",
+     "sub": "avg bid"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $60.64 divided by $28.51 is about 2.1 times.",
+   "say": "Our math: sixty sixty-four divided by twenty-eight fifty-one is about two point one times.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$60.64 / $28.51",
+     "= about 2.1x"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Researchers call it the pain of paying: handing over cash can sting, while a swipe may barely register.",
+   "say": "Researchers call it the pain of paying: handing over cash can sting, while a swipe may barely register.",
+   "scene": {
+    "t": "split",
+    "title": "Pain",
+    "left": {
+     "title": "Cash",
+     "items": [
+      "Hand it over",
+      "It can sting"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Card",
+     "items": [
+      "Just a swipe",
+      "Less felt"
+     ],
+     "tone": "down"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A 2007 brain-scan study found excessive prices activated the insula, a region linked to anticipating loss.",
+   "say": "A two thousand seven brain-scan study found excessive prices activated the insula, a region linked to anticipating loss.",
+   "scene": {
+    "t": "stat",
+    "label": "Brain scan study",
+    "value": "2007",
+    "tone": "neutral",
+    "sub": "Neuron journal",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Meanwhile, the Fed's payment diary shows cash fell from 31% of US consumer payments in 2016 to 14% in 2025.",
+   "say": "Meanwhile, the Fed's payment diary shows cash fell from thirty-one percent of US consumer payments in twenty sixteen to fourteen percent in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Cash share of payments",
+    "points": [
+     [
+      2016,
+      31
+     ],
+     [
+      2017,
+      30
+     ],
+     [
+      2018,
+      26
+     ],
+     [
+      2019,
+      26
+     ],
+     [
+      2020,
+      19
+     ],
+     [
+      2021,
+      20
+     ],
+     [
+      2022,
+      18
+     ],
+     [
+      2023,
+      16
+     ],
+     [
+      2024,
+      14
+     ],
+     [
+      2025,
+      14
+     ]
+    ],
+    "suffix": "%",
+    "end": "14%",
+    "color": "down",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest one-year drop came in 2020, from 26% to 19%.",
+   "say": "The biggest one-year drop came in twenty twenty, from twenty-six percent to nineteen percent.",
+   "scene": {
+    "t": "chart",
+    "keep": true,
+    "title": "Cash share of payments",
+    "chart_note": {
+     "x": 2020,
+     "text": "26>19"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Worth a thought: would you pay the same amount if it were cash?",
+   "say": "Worth a thought: would you pay the same amount if it were cash?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Would I pay this",
+     "in cash?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "In one study, card bidders offered twice as much",
+  "ig": "In one experiment, card payers bid double for the same Celtics tickets.\nIn that 2001 study, cash bidders averaged $28.51 and card bidders $60.64.\nResearchers call it the pain of paying: handing over cash can sting, while a swipe may barely register.\nThe Fed's payment diary shows cash fell from 31% of US consumer payments in 2016 to 14% in 2025.\nSources: Prelec & Simester, Marketing Letters (2001); Knutson et al., Neuron (2007); Federal Reserve Diary of Consumer Payment Choice.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#painofpaying #creditcards #moneypsychology #personalfinance #financeprostv",
+  "tiktok": "In one study, card bidders offered 2x for the same tickets. #moneytok #personalfinance #creditcards #painofpaying #financeprostv Not financial advice.",
+  "yt_desc": "In one 2001 experiment (Prelec & Simester, Marketing Letters), card bidders offered $60.64 on average for Celtics tickets versus $28.51 for cash bidders. Researchers call it the pain of paying, and the Federal Reserve's Diary of Consumer Payment Choice shows cash fell from 31% of US consumer payments in 2016 to 14% in 2025. News and education, not financial advice. #Shorts #personalfinance #creditcards",
+  "tags": [
+   "pain of paying",
+   "credit cards vs cash",
+   "money psychology",
+   "behavioral economics",
+   "personal finance"
+  ]
+ }
+}
