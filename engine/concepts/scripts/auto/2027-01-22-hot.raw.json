@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "Miss the deadline by even $1, and interest gets charged back to the day you bought it.",
-   "say": "Miss the deadline by even one dollar, and interest gets charged back to the day you bought it.",
+   "text": "Miss the deadline by $1, and interest goes back to day 1.",
+   "say": "Miss the deadline by one dollar, and interest goes back to day one.",
    "scene": {
     "t": "board",
     "lines": [
@@ -36,8 +36,8 @@
   },
   {
    "who": "ticker",
-   "text": "Our math: a $1,200 purchase at 29.99% APR, and you pay $100 a month for 11 months.",
-   "say": "Our math: a twelve hundred dollar purchase at twenty-nine point nine nine percent A P R, and you pay one hundred dollars a month for eleven months.",
+   "text": "Our simple math: $1,200 at 29.99%, paying $100 a month for 11 months.",
+   "say": "Our simple math: twelve hundred dollars at twenty-nine point nine nine percent, paying one hundred a month for eleven months.",
    "scene": {
     "t": "board",
     "lines": [
@@ -62,8 +62,8 @@
   },
   {
    "who": "ticker",
-   "text": "On a true 0% intro card, you've paid $0 interest so far. On the deferred deal, you get billed about $195.",
-   "say": "On a true zero percent intro card, you've paid zero interest so far. On the deferred deal, you get billed about one hundred ninety-five dollars.",
+   "text": "A true 0% intro card charges $0 interest so far. The deferred deal bills about $195.",
+   "say": "A true zero percent intro card charges zero interest so far. The deferred deal bills about one hundred ninety-five dollars.",
    "scene": {
     "t": "compare",
     "title": "Interest",
@@ -84,8 +84,8 @@
   },
   {
    "who": "ticker",
-   "text": "That's almost double the $100 you still owed, and after the promo the 0% card only charges interest on that $100.",
-   "say": "That's almost double the hundred dollars you still owed, and after the promo the zero percent card only charges interest on that hundred.",
+   "text": "That's almost double what you still owed, and the 0% card only charges on the leftover.",
+   "say": "That's almost double what you still owed, and the zero percent card only charges on the leftover.",
    "scene": {
     "t": "compare",
     "title": "Interest",
@@ -108,34 +108,30 @@
   },
   {
    "who": "ticker",
-   "text": "It happens a lot: a 2015 CFPB report found more than 40% of subprime borrowers got hit with that back interest.",
-   "say": "It happens a lot: a twenty fifteen C F P B report found more than forty percent of subprime borrowers got hit with that back interest.",
+   "text": "And per the CFPB, store cards averaged 31.3% APR in 2024, vs. 25.2% on general cards.",
+   "say": "And per the C F P B, store cards averaged thirty-one point three percent A P R in twenty twenty-four, versus twenty-five point two on general cards.",
    "scene": {
-    "t": "stat",
-    "label": "Subprime hit",
-    "value": "40%+",
-    "tone": "down",
-    "sub": "CFPB, 2015 report",
-    "mood": "worried"
-   }
-  },
-  {
-   "who": "ticker",
-   "text": "And store cards, where these deals live, averaged 31.3% APR in 2024.",
-   "say": "And store cards, where these deals live, averaged thirty-one point three percent A P R in twenty twenty-four.",
-   "scene": {
-    "t": "stat",
-    "label": "Store card APR",
-    "value": "31.3%",
-    "tone": "down",
-    "sub": "CFPB, 2024 avg",
+    "t": "compare",
+    "title": "2024 APR",
+    "left": {
+     "label": "Store",
+     "value": "31.3%",
+     "tone": "down",
+     "sub": "CFPB avg"
+    },
+    "right": {
+     "label": "General",
+     "value": "25.2%",
+     "tone": "neutral",
+     "sub": "CFPB avg"
+    },
     "mood": "angry"
    }
   },
   {
    "who": "ticker",
-   "text": "So read the wording: \"if paid in full\" means deferred interest, while \"0% intro APR\" means truly zero for now.",
-   "say": "So read the wording: if paid in full means deferred interest, while zero percent intro A P R means truly zero for now.",
+   "text": "So check the wording: \"if paid in full\" means deferred interest.",
+   "say": "So check the wording: if paid in full means deferred interest.",
    "scene": {
     "t": "split",
     "title": "Wording",
@@ -169,9 +165,9 @@
  ],
  "post": {
   "title": "\"No interest if paid in full\" is not a 0% APR deal",
-  "ig": "\"No interest if paid in full\" is not the same as 0% APR.\nDeferred interest builds from the purchase date and gets charged if any balance is left when the promo ends.\nOur math: $1,200 at 29.99% APR, $100 left after 12 months = about $195 in back interest. A true 0% intro card: $0 so far.\nA 2015 CFPB report found more than 40% of subprime borrowers were charged that back interest. Store cards averaged 31.3% APR in 2024 (CFPB).\nSources: CFPB Consumer Credit Card Market reports (2015, 2025), CFPB consumer guides.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditcards #deferredinterest #moneymyths #personalfinance #financeprostv",
+  "ig": "\"No interest if paid in full\" is not the same as 0% APR.\nDeferred interest builds from the purchase date and gets charged on the full original amount if any balance is left when the promo ends.\nOur simplified math: $1,200 at 29.99% APR, $100 left after 12 months = about $195 in back interest (real issuers use average daily balance, so exact amounts vary). A true 0% intro card: $0 so far.\nStore cards averaged 31.3% APR in 2024 vs. 25.2% on general-purpose cards (CFPB).\nSources: CFPB Consumer Credit Card Market report (Dec 2025), CFPB consumer guides.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditcards #deferredinterest #moneymyths #personalfinance #financeprostv",
   "tiktok": "\"No interest if paid in full\" isn't 0% APR. Not financial advice. #moneytok #personalfinance #creditcards #deferredinterest #financeprostv",
-  "yt_desc": "\"No interest if paid in full\" means deferred interest: miss the deadline and interest is charged back to the purchase date. Our math: $1,200 at 29.99% APR with $100 left after 12 months means about $195 in back interest, versus $0 on a true 0% intro APR card. Sources: CFPB Consumer Credit Card Market reports (2015, 2025). News and education, not financial advice. #Shorts #creditcards #personalfinance",
+  "yt_desc": "\"No interest if paid in full\" means deferred interest: miss the deadline and interest is charged back to the purchase date. Our simplified math: $1,200 at 29.99% APR with $100 left after 12 months means about $195 in back interest, versus $0 on a true 0% intro APR card. Store cards averaged 31.3% APR in 2024 vs. 25.2% on general-purpose cards. Sources: CFPB Consumer Credit Card Market report (Dec 2025), CFPB consumer guides. News and education, not financial advice. #Shorts #creditcards #personalfinance",
   "tags": [
    "deferred interest",
    "0% APR",
