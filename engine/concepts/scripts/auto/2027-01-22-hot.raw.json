@@ -1,0 +1,183 @@
+{
+ "series": "ticker",
+ "header": "No interest\nif paid in full?",
+ "cover": {
+  "title": "Not Really 0%",
+  "prop": "card",
+  "label": "0%",
+  "value": "$195"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "\"No interest if paid in full\" is not 0%.",
+   "say": "\"No interest if paid in full\" is not zero percent.",
+   "scene": {
+    "t": "hook",
+    "title": "Not [0%] APR",
+    "prop": "card",
+    "label": "0%",
+    "value": "$195",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Miss the deadline by even $1, and interest gets charged back to the day you bought it.",
+   "say": "Miss the deadline by even one dollar, and interest gets charged back to the day you bought it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Miss by $1?",
+     "Billed from day 1"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: a $1,200 purchase at 29.99% APR, and you pay $100 a month for 11 months.",
+   "say": "Our math: a twelve hundred dollar purchase at twenty-nine point nine nine percent A P R, and you pay one hundred dollars a month for eleven months.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,200 at 29.99%",
+     "$100/mo x 11"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That leaves $100 when the 12-month promo ends.",
+   "say": "That leaves one hundred dollars when the twelve-month promo ends.",
+   "scene": {
+    "t": "stat",
+    "label": "Left at month 12",
+    "value": "$100",
+    "tone": "neutral",
+    "sub": "our math",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a true 0% intro card, you've paid $0 interest so far. On the deferred deal, you get billed about $195.",
+   "say": "On a true zero percent intro card, you've paid zero interest so far. On the deferred deal, you get billed about one hundred ninety-five dollars.",
+   "scene": {
+    "t": "compare",
+    "title": "Interest",
+    "left": {
+     "label": "0% intro",
+     "value": "$0",
+     "tone": "up",
+     "sub": "so far"
+    },
+    "right": {
+     "label": "Deferred",
+     "value": "$195",
+     "tone": "down",
+     "sub": "our math"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's almost double the $100 you still owed, and after the promo the 0% card only charges interest on that $100.",
+   "say": "That's almost double the hundred dollars you still owed, and after the promo the zero percent card only charges interest on that hundred.",
+   "scene": {
+    "t": "compare",
+    "title": "Interest",
+    "keep": true,
+    "left": {
+     "label": "0% intro",
+     "value": "$0",
+     "tone": "up",
+     "sub": "so far"
+    },
+    "right": {
+     "label": "Deferred",
+     "value": "$195",
+     "tone": "down",
+     "sub": "our math"
+    },
+    "winner": "left",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It happens a lot: a 2015 CFPB report found more than 40% of subprime borrowers got hit with that back interest.",
+   "say": "It happens a lot: a twenty fifteen C F P B report found more than forty percent of subprime borrowers got hit with that back interest.",
+   "scene": {
+    "t": "stat",
+    "label": "Subprime hit",
+    "value": "40%+",
+    "tone": "down",
+    "sub": "CFPB, 2015 report",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And store cards, where these deals live, averaged 31.3% APR in 2024.",
+   "say": "And store cards, where these deals live, averaged thirty-one point three percent A P R in twenty twenty-four.",
+   "scene": {
+    "t": "stat",
+    "label": "Store card APR",
+    "value": "31.3%",
+    "tone": "down",
+    "sub": "CFPB, 2024 avg",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So read the wording: \"if paid in full\" means deferred interest, while \"0% intro APR\" means truly zero for now.",
+   "say": "So read the wording: if paid in full means deferred interest, while zero percent intro A P R means truly zero for now.",
+   "scene": {
+    "t": "split",
+    "title": "Wording",
+    "left": {
+     "title": "Deferred",
+     "items": [
+      "Paid in full?",
+      "Back interest"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "True 0%",
+     "items": [
+      "0% intro APR",
+      "Only leftover"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "\"No interest if paid in full\" is not a 0% APR deal",
+  "ig": "\"No interest if paid in full\" is not the same as 0% APR.\nDeferred interest builds from the purchase date and gets charged if any balance is left when the promo ends.\nOur math: $1,200 at 29.99% APR, $100 left after 12 months = about $195 in back interest. A true 0% intro card: $0 so far.\nA 2015 CFPB report found more than 40% of subprime borrowers were charged that back interest. Store cards averaged 31.3% APR in 2024 (CFPB).\nSources: CFPB Consumer Credit Card Market reports (2015, 2025), CFPB consumer guides.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditcards #deferredinterest #moneymyths #personalfinance #financeprostv",
+  "tiktok": "\"No interest if paid in full\" isn't 0% APR. Not financial advice. #moneytok #personalfinance #creditcards #deferredinterest #financeprostv",
+  "yt_desc": "\"No interest if paid in full\" means deferred interest: miss the deadline and interest is charged back to the purchase date. Our math: $1,200 at 29.99% APR with $100 left after 12 months means about $195 in back interest, versus $0 on a true 0% intro APR card. Sources: CFPB Consumer Credit Card Market reports (2015, 2025). News and education, not financial advice. #Shorts #creditcards #personalfinance",
+  "tags": [
+   "deferred interest",
+   "0% APR",
+   "store credit card",
+   "credit card interest",
+   "money myths"
+  ]
+ }
+}
