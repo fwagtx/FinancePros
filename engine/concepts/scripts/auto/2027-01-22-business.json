@@ -1,0 +1,180 @@
+{
+ "id": "2027-01-22-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Keurig makes\nmoney on pods",
+ "cover": {
+  "title": "Pods Pay Keurig",
+  "prop": "box",
+  "label": "K-CUP",
+  "value": "~80%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "About 80% of Keurig's U.S. coffee sales are pods, not machines.",
+   "say": "About eighty percent of Keurig's US coffee sales are pods, not machines.",
+   "scene": {
+    "t": "hook",
+    "title": "[Pods], not machines",
+    "prop": "box",
+    "label": "K-CUP",
+    "value": "~80%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "U.S. Coffee segment sales hovered near $4B a year, hitting $3.99B in 2025.",
+   "say": "US coffee sales hovered near four billion a year, hitting three point nine nine billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "US coffee sales",
+    "points": [
+     [
+      2021,
+      4.09
+     ],
+     [
+      2022,
+      4.3
+     ],
+     [
+      2023,
+      4.07
+     ],
+     [
+      2024,
+      3.97
+     ],
+     [
+      2025,
+      3.99
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$3.99B",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Razor and blades: pods were $3.21B. Brewers and the rest, $777M (our math).",
+   "say": "Razor and blades: pods were three point two one billion. Brewers and the rest, seven hundred seventy-seven million.",
+   "scene": {
+    "t": "compare",
+    "title": "2025 sales",
+    "left": {
+     "label": "Pods",
+     "value": "$3.21B",
+     "tone": "up",
+     "sub": "K-Cup pods"
+    },
+    "right": {
+     "label": "Rest",
+     "value": "$777M",
+     "tone": "neutral",
+     "sub": "brewers + other"
+    },
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Ground coffee averaged $9.46/lb in Feb 2026 (BLS). Example pods at $1.97/oz? $31.52/lb.",
+   "say": "Ground coffee averaged nine forty-six a pound in February twenty twenty-six. Example pods at a dollar ninety-seven an ounce? Thirty-one fifty-two a pound.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Ground, Feb '26",
+     "value": "$9.46"
+    },
+    "to": {
+     "label": "Pods, example",
+     "value": "$31.52"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The segment's adjusted operating margin: 30.9% in 2025.",
+   "say": "The segment's adjusted operating margin: thirty point nine percent in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Adj. op. margin",
+    "value": "30.9%",
+    "tone": "up",
+    "sub": "U.S. Coffee, 2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2014, Keurig 2.0 brewers rejected unlicensed pods. In one early-2015 quarter, brewer and accessory sales fell 23%.",
+   "say": "In twenty fourteen, Keurig two point oh brewers rejected unlicensed pods. In one early twenty fifteen quarter, brewer and accessory sales fell twenty-three percent.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2014",
+      "2.0 locks pods"
+     ],
+     [
+      "2015",
+      "Brewers -23%"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2026, Keurig's parent closed its JDE Peet's deal, part of a plan to spin coffee off.",
+   "say": "In twenty twenty-six, Keurig's parent closed its JDE Peet's deal, part of a plan to spin coffee off.",
+   "scene": {
+    "t": "news",
+    "headline": "KDP closes JDE deal",
+    "source": "KDP release, Apr 1, 2026",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Takeaway: with cheap machines, price a year of refills.",
+   "say": "Takeaway: with cheap machines, price a year of refills.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cheap machine?",
+     "Price the refills"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "About 80% of Keurig's U.S. Coffee Sales Are Pods",
+  "ig": "Keurig's real business is the pod, not the machine.\nKeurig Dr Pepper's U.S. Coffee segment sold $3.99 billion in 2025; K-Cup pods were $3.21 billion of it (about 80%, our math).\nSegment adjusted (non-GAAP) operating margin: 30.9% in 2025.\nIn 2014, Keurig 2.0 brewers rejected unlicensed pods; in Keurig's fiscal Q2 2015 (ended March 2015), brewer and accessory sales fell 23% from a year earlier.\nOur math: an example pod price of $1.97/oz is $31.52/lb, vs. a $9.46/lb BLS average for ground coffee in February 2026.\nIn 2026, Keurig Dr Pepper closed its JDE Peet's acquisition, part of a plan to split coffee into its own company.\nSources: Keurig Dr Pepper 2025 Form 10-K and Q4 2025 release; Keurig Green Mountain Q2 FY2015 results; BLS average prices; KDP release, Apr 1, 2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#keurig #coffee #businessmodel #howtheymakemoney #financeprostv",
+  "tiktok": "About 80% of Keurig's U.S. coffee sales are pods. Razor and blades. Not financial advice. #moneytok #personalfinance #keurig #financeprostv",
+  "yt_desc": "In 2025, Keurig Dr Pepper's U.S. Coffee segment sold $3.99 billion, and K-Cup pods were $3.21 billion of it, about 80% (our math), with a 30.9% adjusted (non-GAAP) segment operating margin. In 2014, Keurig 2.0 brewers rejected unlicensed pods; in fiscal Q2 2015, brewer and accessory sales fell 23% from a year earlier. Our math: an example $1.97/oz pod price is $31.52/lb, vs. $9.46/lb for ground coffee (BLS, February 2026). In 2026, Keurig Dr Pepper closed its JDE Peet's deal, part of a plan to split coffee into its own company. Sources: Keurig Dr Pepper 2025 Form 10-K and Q4 2025 release, Keurig Green Mountain Q2 FY2015 results, BLS average prices, KDP release Apr 1, 2026. News and education, not financial advice.\n#Shorts #keurig #businessmodel",
+  "tags": [
+   "keurig",
+   "k-cup pods",
+   "razor and blades",
+   "how keurig makes money",
+   "business model"
+  ]
+ }
+}
