@@ -1,188 +1,187 @@
 {
-  "series": "ticker",
-  "header": "How self-storage\nmakes money",
-  "cover": {
-    "title": "Stuff That Stays",
+ "series": "ticker",
+ "header": "How self-storage\nmakes money",
+ "cover": {
+  "title": "Stuff That Stays",
+  "prop": "box",
+  "label": "STUFF",
+  "value": ">1 YR"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Most Public Storage tenants have stayed over a year.",
+   "say": "Most Public Storage tenants have stayed over a year.",
+   "scene": {
+    "t": "hook",
+    "title": "The box that [stays]",
     "prop": "box",
     "label": "STUFF",
-    "value": ">1 YR"
+    "value": ">1 YEAR",
+    "mood": "shock"
+   }
   },
-  "lines": [
-    {
-      "who": "ticker",
-      "text": "Most Public Storage tenants have stayed over a year.",
-      "say": "Most Public Storage tenants have stayed over a year.",
-      "scene": {
-        "t": "hook",
-        "title": "The box that [stays]",
-        "prop": "box",
-        "label": "STUFF",
-        "value": ">1 YEAR",
-        "mood": "shock"
-      }
+  {
+   "who": "ticker",
+   "text": "The model: cheap move-in rates, then rent increases for people who stay.",
+   "say": "The model: cheap move-in rates, then rent increases for people who stay.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Cheap move-in",
+     "Then raise rent"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At the end of 2025, Public Storage owned or ran 3,533 facilities.",
+   "say": "At the end of twenty twenty-five, Public Storage owned or ran three thousand five hundred thirty-three facilities.",
+   "scene": {
+    "t": "stat",
+    "label": "Facilities, 2025",
+    "value": "3,533",
+    "tone": "neutral",
+    "sub": "Q4 2025 release",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its revenue climbed from $3.42B in 2021 to $4.82B in 2025.",
+   "say": "Its revenue climbed from three point four two billion dollars in twenty twenty-one to four point eight two billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Total revenue",
+    "points": [
+     [
+      2021,
+      3.42
+     ],
+     [
+      2022,
+      4.18
+     ],
+     [
+      2023,
+      4.52
+     ],
+     [
+      2024,
+      4.7
+     ],
+     [
+      2025,
+      4.82
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$4.82B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2025 it lowered move-in rates, while long-term tenants got rate increases.",
+   "say": "In twenty twenty-five it lowered move-in rates, while long-term tenants got rate increases.",
+   "scene": {
+    "t": "split",
+    "title": "2025 rent",
+    "left": {
+     "title": "Newcomers",
+     "items": [
+      "Lower move-in"
+     ],
+     "tone": "up"
     },
-    {
-      "who": "ticker",
-      "text": "The model: cheap move-in rates, then rent increases for people who stay.",
-      "say": "The model: cheap move-in rates, then rent increases for people who stay.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "Cheap move-in",
-          "Then raise rent"
-        ],
-        "mood": "think"
-      }
+    "right": {
+     "title": "Stayers",
+     "items": [
+      "Rate increases"
+     ],
+     "tone": "down"
     },
-    {
-      "who": "ticker",
-      "text": "At the end of 2025, Public Storage owned or ran 3,533 facilities.",
-      "say": "At the end of twenty twenty-five, Public Storage owned or ran three thousand five hundred thirty-three facilities.",
-      "scene": {
-        "t": "stat",
-        "label": "Facilities, 2025",
-        "value": "3,533",
-        "tone": "neutral",
-        "sub": "Q4 2025 release",
-        "mood": "think"
-      }
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Side income, mostly tenant insurance, brought in $334.7M in 2025.",
+   "say": "Side income, mostly tenant insurance, brought in three hundred thirty-four point seven million dollars in twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Side income, 2025",
+    "value": "$334.7M",
+    "tone": "up",
+    "sub": "mostly insurance",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At established locations, about 75 cents per revenue dollar was left after property costs in 2025, our math.",
+   "say": "At established locations, about seventy-five cents per revenue dollar was left after property costs in twenty twenty-five, our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Left per $1, 2025",
+    "value": "~75¢",
+    "tone": "up",
+    "sub": "our math",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: a $100-a-month unit kept 3 years costs $3,600 before any increases.",
+   "say": "Our math: a hundred-dollar-a-month unit kept three years costs three thousand six hundred dollars before any increases.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Per month",
+     "value": "$100"
     },
-    {
-      "who": "ticker",
-      "text": "Its revenue climbed from $3.42B in 2021 to $4.82B in 2025.",
-      "say": "Its revenue climbed from three point four two billion dollars in twenty twenty-one to four point eight two billion in twenty twenty-five.",
-      "scene": {
-        "t": "chart",
-        "title": "Total revenue",
-        "points": [
-          [
-            2021,
-            3.42
-          ],
-          [
-            2022,
-            4.18
-          ],
-          [
-            2023,
-            4.52
-          ],
-          [
-            2024,
-            4.7
-          ],
-          [
-            2025,
-            4.82
-          ]
-        ],
-        "prefix": "$",
-        "suffix": "B",
-        "end": "$4.82B",
-        "color": "up",
-        "mood": "up"
-      }
+    "to": {
+     "label": "3 yrs, no raises",
+     "value": "$3,600"
     },
-    {
-      "who": "ticker",
-      "text": "In 2025 it lowered move-in rates, while long-term tenants got rate increases.",
-      "say": "In twenty twenty-five it lowered move-in rates, while long-term tenants got rate increases.",
-      "scene": {
-        "t": "split",
-        "title": "2025 rent",
-        "left": {
-          "title": "Newcomers",
-          "items": [
-            "Lower move-in"
-          ],
-          "tone": "up"
-        },
-        "right": {
-          "title": "Stayers",
-          "items": [
-            "Rate increases"
-          ],
-          "tone": "down"
-        },
-        "mood": "think"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Side income, mostly tenant insurance, brought in $334.7M in 2025.",
-      "say": "Side income, mostly tenant insurance, brought in three hundred thirty-four point seven million dollars in twenty twenty-five.",
-      "scene": {
-        "t": "stat",
-        "label": "Side income, 2025",
-        "value": "$334.7M",
-        "tone": "up",
-        "sub": "mostly insurance",
-        "mood": "shock"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "At established locations, about 75 cents per revenue dollar was left after property costs in 2025, our math.",
-      "say": "At established locations, about seventy-five cents per revenue dollar was left after property costs in twenty twenty-five, our math.",
-      "scene": {
-        "t": "stat",
-        "label": "Left per $1, 2025",
-        "value": "~75¢",
-        "tone": "up",
-        "sub": "our math",
-        "mood": "shock"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "Our math: a $100-a-month unit kept 3 years costs $3,600 before any increases.",
-      "say": "Our math: a hundred-dollar-a-month unit kept three years costs three thousand six hundred dollars before any increases.",
-      "scene": {
-        "t": "money",
-        "from": {
-          "label": "Per month",
-          "value": "$100"
-        },
-        "to": {
-          "label": "3 yrs, no raises",
-          "value": "$3,600"
-        },
-        "mood": "worried"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "The real price shows up after month one.",
-      "say": "The real price shows up after month one.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "Real price shows",
-          "after month 1"
-        ],
-        "mood": "happy"
-      }
-    },
-    {
-      "who": "ticker",
-      "text": "That's the money. Follow for more.",
-      "say": "That's the money. Follow for more.",
-      "scene": {
-        "t": "cta"
-      }
-    }
-  ],
-  "post": {
-    "title": "How Self-Storage Makes Money on People Who Stay",
-    "ig": "Self-storage's best customer is the one who stays.\nAt Dec 31, 2025, more than half of Public Storage's tenants had rented for over a year (FY2025 10-K).\nIn 2025 it lowered move-in rates for new tenants while existing long-term tenants got rate increases; total revenue was $4.82 billion, up from $3.42 billion in 2021.\nAt Dec 31, 2025 it owned and/or operated 3,533 facilities, including 362 it managed for others (Q4 2025 release).\nSide income (ancillary revenue), mostly tenant insurance, brought in $334.7 million in 2025.\nOur math: same-store net operating income after indirect costs ($2.83B) divided by same-store revenue ($3.76B) is about 75 cents per revenue dollar, before interest, depreciation and corporate overhead. The company's own reported same-store direct margin is 78.2%.\nOur math: a $100/month unit for 3 years is $3,600 before any increases.\nSources: Public Storage FY2025 10-K and earlier annual reports; Q4 2025 results release.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#selfstorage #businessmodel #howtheymakemoney #money #financeprostv",
-    "tiktok": "Over half of Public Storage tenants had rented 1+ year at end of 2025. Not financial advice. #moneytok #selfstorage #financeprostv",
-    "yt_desc": "Public Storage's FY2025 10-K says more than half of its tenants had rented for over a year at Dec 31, 2025; in 2025 it lowered move-in rates for new tenants while existing long-term tenants got rate increases. Total revenue rose from $3.42 billion in 2021 to $4.82 billion in 2025, side income (ancillary revenue, mostly tenant insurance) brought in $334.7 million, and by our math about 75 cents of each same-store revenue dollar was left as net operating income after direct and indirect property costs (before interest, depreciation and corporate overhead). Sources: Public Storage FY2025 10-K and earlier annual reports, Q4 2025 results release. News and education, not financial advice.\n#Shorts #selfstorage #businessmodel",
-    "tags": [
-      "self storage",
-      "public storage",
-      "how self storage makes money",
-      "business model",
-      "storage unit rent increase"
-    ]
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The real price shows up after month one.",
+   "say": "The real price shows up after month one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Real cost: later"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
   }
+ ],
+ "post": {
+  "title": "How Self-Storage Makes Money on People Who Stay",
+  "ig": "Self-storage's best customer is the one who stays.\nAt Dec 31, 2025, more than half of Public Storage's tenants had rented for over a year (FY2025 10-K).\nIn 2025 it lowered move-in rates for new tenants while existing long-term tenants got rate increases; total revenue was $4.82 billion, up from $3.42 billion in 2021.\nAt Dec 31, 2025 it owned and/or operated 3,533 facilities, including 362 it managed for others (Q4 2025 release).\nSide income (ancillary revenue), mostly tenant insurance, brought in $334.7 million in 2025.\nOur math: same-store net operating income after indirect costs ($2.83B) divided by same-store revenue ($3.76B) is about 75 cents per revenue dollar, before interest, depreciation and corporate overhead. The company's own reported same-store direct margin is 78.2%.\nOur math: a $100/month unit for 3 years is $3,600 before any increases.\nSources: Public Storage FY2025 10-K and earlier annual reports; Q4 2025 results release.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#selfstorage #businessmodel #howtheymakemoney #money #financeprostv",
+  "tiktok": "Over half of Public Storage tenants had rented 1+ year at end of 2025. Not financial advice. #moneytok #selfstorage #financeprostv",
+  "yt_desc": "Public Storage's FY2025 10-K says more than half of its tenants had rented for over a year at Dec 31, 2025; in 2025 it lowered move-in rates for new tenants while existing long-term tenants got rate increases. Total revenue rose from $3.42 billion in 2021 to $4.82 billion in 2025, side income (ancillary revenue, mostly tenant insurance) brought in $334.7 million, and by our math about 75 cents of each same-store revenue dollar was left as net operating income after direct and indirect property costs (before interest, depreciation and corporate overhead). Sources: Public Storage FY2025 10-K and earlier annual reports, Q4 2025 results release. News and education, not financial advice.\n#Shorts #selfstorage #businessmodel",
+  "tags": [
+   "self storage",
+   "public storage",
+   "how self storage makes money",
+   "business model",
+   "storage unit rent increase"
+  ]
+ }
 }
