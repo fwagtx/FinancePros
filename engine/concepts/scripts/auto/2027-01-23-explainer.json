@@ -1,0 +1,195 @@
+{
+ "id": "2027-01-23-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Secured cards:\ndeposit to credit",
+ "cover": {
+  "title": "Cash Into Credit",
+  "prop": "bag",
+  "label": "$300",
+  "value": "$300"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "No credit? Your own $300 can become your limit.",
+   "say": "No credit? Your own three hundred dollars can become your limit.",
+   "scene": {
+    "t": "hook",
+    "title": "Cash to [credit]",
+    "prop": "bag",
+    "label": "$300",
+    "value": "$300",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB estimated 7 million US adults had no credit record in December 2020.",
+   "say": "The C F P B estimated seven million US adults had no credit record in December twenty twenty.",
+   "scene": {
+    "t": "stat",
+    "label": "No credit record",
+    "value": "7 million",
+    "tone": "down",
+    "sub": "CFPB, Dec 2020",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "With a secured card, the deposit usually becomes your limit.",
+   "say": "With a secured card, the deposit usually becomes your limit.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deposit usually",
+     "= your limit"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's often reported like any card, and payment history is 35% of FICO scores.",
+   "say": "It's often reported like any card, and payment history is thirty-five percent of FICO scores.",
+   "scene": {
+    "t": "stat",
+    "label": "Payment history",
+    "value": "35%",
+    "tone": "up",
+    "sub": "of FICO, myFICO",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: on a $300 limit, owing $90 is 30% utilization, and $30 is 10%.",
+   "say": "Our math: on a three hundred dollar limit, owing ninety dollars is thirty percent utilization, and thirty dollars is ten percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Our math",
+    "left": {
+     "label": "$90 owed",
+     "value": "30%",
+     "tone": "down",
+     "sub": "of $300"
+    },
+    "right": {
+     "label": "$30 owed",
+     "value": "10%",
+     "tone": "up",
+     "sub": "of $300"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lower utilization is generally better, since amounts owed count toward FICO scores.",
+   "say": "Lower utilization is generally better, since amounts owed count toward FICO scores.",
+   "scene": {
+    "t": "compare",
+    "title": "Our math",
+    "keep": true,
+    "left": {
+     "label": "$90 owed",
+     "value": "30%",
+     "tone": "down",
+     "sub": "of $300"
+    },
+    "right": {
+     "label": "$30 owed",
+     "value": "10%",
+     "tone": "up",
+     "sub": "of $300"
+    },
+    "winner": "right",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FICO needs an account open six months or more, and one reported in the last six.",
+   "say": "FICO needs an account open six months or more, and one reported in the last six.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "Day 1",
+      "Card opens"
+     ],
+     [
+      "6 mo",
+      "FICO can score"
+     ],
+     [
+      "Later",
+      "Maybe graduate"
+     ]
+    ],
+    "reveal": 2,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Some issuers let you graduate. Close or upgrade in good standing, and the deposit's generally refunded.",
+   "say": "Some issuers let you graduate. Close or upgrade in good standing, and the deposit's generally refunded.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "Day 1",
+      "Card opens"
+     ],
+     [
+      "6 mo",
+      "FICO can score"
+     ],
+     [
+      "Later",
+      "Maybe graduate"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before applying, check it reports to all 3 bureaus. Not all do.",
+   "say": "Before applying, check it reports to all three bureaus. Not all do.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Check: reports to",
+     "all 3 bureaus?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "How a $300 deposit can turn into a credit history",
+  "ig": "No credit? Your own $300 can become your limit.\nA secured card's deposit usually becomes its credit limit, and many issuers report your payments to the credit bureaus like a regular card.\nPayment history is 35% of a FICO Score. Our math: a $90 balance on a $300 limit is 30% utilization; $30 is 10%. Lower utilization is generally better.\nTo score you, FICO needs at least one account open six months or more and at least one account reported in the last six months. Close or upgrade in good standing and the deposit is generally refunded (issuer terms vary). Before applying, check that the card reports to all 3 bureaus.\nThe CFPB estimated 7 million US adults had no credit record in December 2020.\nSources: CFPB (June 2025), myFICO, Federal Reserve (Dec 2024).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #securedcard #buildcredit #personalfinance #financeprostv",
+  "tiktok": "How a $300 deposit can build a credit history. Not financial advice. #moneytok #personalfinance #creditscore #securedcard #financeprostv",
+  "yt_desc": "A secured card's deposit usually becomes its credit limit, and many issuers report payments to the credit bureaus like a regular card; payment history is 35% of a FICO Score. Our math: a $90 balance on a $300 limit is 30% utilization, versus 10% for $30; lower utilization is generally better. To score you, FICO needs at least one account open six months or more and at least one account reported in the last six months. The deposit is generally refunded when you close or upgrade in good standing (issuer terms vary). The CFPB estimated 7 million US adults had no credit record in December 2020. Sources: CFPB (June 2025), myFICO, Federal Reserve (Dec 2024). News and education, not financial advice. #Shorts #creditscore #personalfinance",
+  "tags": [
+   "secured credit card",
+   "build credit",
+   "credit utilization",
+   "FICO score",
+   "credit invisible"
+  ]
+ }
+}
