@@ -1,0 +1,177 @@
+{
+ "id": "2027-01-23-hot",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Own a stock that goes\nbankrupt? Now what?",
+ "cover": {
+  "title": "Paid Dead Last",
+  "prop": "paper",
+  "label": "STOCK",
+  "value": "$0"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Own a stock that goes bankrupt? Shareholders get paid dead last.",
+   "say": "Own a stock that goes bankrupt? Shareholders get paid dead last.",
+   "scene": {
+    "t": "hook",
+    "title": "Paid [last]",
+    "prop": "paper",
+    "label": "STOCK",
+    "value": "LAST",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "S&P Global counted 785 large US corporate bankruptcies in 2025, the most since 2010.",
+   "say": "S and P Global counted seven hundred eighty-five large US corporate bankruptcies in twenty twenty-five, the most since twenty ten.",
+   "scene": {
+    "t": "stat",
+    "label": "Big US bankruptcies",
+    "value": "785",
+    "tone": "down",
+    "sub": "S&P, 2025: most since 2010",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The SEC's payout line: secured creditors, then unsecured creditors like bondholders, then stockholders last.",
+   "say": "The S E C's payout line: secured creditors, then unsecured creditors like bondholders, then stockholders last.",
+   "scene": {
+    "t": "list",
+    "title": "Who gets paid",
+    "items": [
+     "Secured debt",
+     "Unsecured debt",
+     "Stockholders"
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Chapter 11, the plan often cancels old shares and hands new stock to creditors.",
+   "say": "In Chapter eleven, the plan often cancels old shares and hands new stock to creditors.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Old: cancelled",
+     "New: to creditors"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 100 shares at $20 is $2,000. If they're cancelled, that's $0.",
+   "say": "Our math: one hundred shares at twenty dollars is two thousand dollars. If they're cancelled, that's zero.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "100 x $20",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "Cancelled",
+     "value": "$0"
+    },
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lehman filed in 2008; its shares were cancelled in 2012. Old GM shareholders got nothing.",
+   "say": "Lehman filed in two thousand eight; its shares were cancelled in twenty twelve. Old GM shareholders got nothing.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     [
+      "2008",
+      "Lehman files"
+     ],
+     [
+      "2009",
+      "Old GM: nothing"
+     ],
+     [
+      "2012",
+      "Lehman cancelled"
+     ],
+     [
+      "2021",
+      "Hertz: rare win"
+     ]
+    ],
+    "reveal": 3,
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hertz in 2021 was rare: creditors got paid in full, so shareholders got value.",
+   "say": "Hertz in twenty twenty-one was rare: creditors got paid in full, so shareholders got value.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     [
+      "2008",
+      "Lehman files"
+     ],
+     [
+      "2009",
+      "Old GM: nothing"
+     ],
+     [
+      "2012",
+      "Lehman cancelled"
+     ],
+     [
+      "2021",
+      "Hertz: rare win"
+     ]
+    ],
+    "reveal": 4,
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "SIPC covers up to $500,000 if your broker fails, not if your stock does.",
+   "say": "S I P C covers up to five hundred thousand dollars if your broker fails, not if your stock does.",
+   "scene": {
+    "t": "stat",
+    "label": "SIPC limit",
+    "value": "$500,000",
+    "tone": "neutral",
+    "sub": "if broker fails",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "What happens to your stock when a company goes bankrupt",
+  "ig": "Own a stock that goes bankrupt? Shareholders get paid dead last.\nThe SEC says stockholders are last in line, after secured creditors and unsecured creditors like bondholders.\nIn Chapter 11, the plan often cancels old shares and new stock goes to creditors.\nS&P Global counted 785 large US corporate bankruptcies in 2025, the most since 2010.\nSIPC (up to $500,000, including $250,000 cash) covers a failed brokerage, not a stock losing value.\nSources: SEC/Investor.gov, FINRA, SIPC, S&P Global Market Intelligence, company filings.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#bankruptcy #stocks #investing #personalfinance #financeprostv",
+  "tiktok": "Own a stock that goes bankrupt? Shareholders get paid dead last. Not financial advice. #moneytok #personalfinance #stocks #investing #financeprostv",
+  "yt_desc": "When a company you own stock in goes bankrupt, the SEC says stockholders are last in line, and in Chapter 11 the plan often cancels old shares and gives new stock to creditors. S&P Global counted 785 large US corporate bankruptcies in 2025, the most since 2010. SIPC covers a failed brokerage, not losses from a company going broke. Sources: SEC/Investor.gov, FINRA, SIPC, S&P Global Market Intelligence. News and education, not financial advice. #Shorts #investing #stocks",
+  "tags": [
+   "bankruptcy",
+   "stocks",
+   "chapter 11",
+   "investing basics",
+   "SIPC"
+  ]
+ }
+}
