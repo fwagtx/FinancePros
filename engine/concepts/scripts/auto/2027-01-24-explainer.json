@@ -1,0 +1,165 @@
+{
+ "id": "2027-01-24-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "No income tax?\nHere's who pays",
+ "cover": {
+  "title": "No Paycheck Tax",
+  "prop": "bill",
+  "label": "PAY",
+  "value": "9"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "9 states don't tax your paycheck. So who pays the bills?",
+   "say": "Nine states don't tax your paycheck. So who pays the bills?",
+   "scene": {
+    "t": "hook",
+    "title": "No wage [tax]",
+    "prop": "bill",
+    "label": "PAY",
+    "value": "9 states",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "As of 2026, 8 states have no income tax, and Washington taxes only some capital gains.",
+   "say": "As of twenty twenty-six, eight states have no income tax, and Washington taxes only some capital gains.",
+   "scene": {
+    "t": "list",
+    "title": "As of 2026",
+    "items": [
+     "AK, FL, NV",
+     "NH, SD, TN",
+     "TX, WY",
+     "WA: gains only"
+    ],
+    "reveal": 4,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The answer is mostly sales tax: Tennessee averaged 9.61% as of July 2026.",
+   "say": "The answer is mostly sales tax: Tennessee averaged nine point six one percent as of July twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "TN sales tax",
+    "value": "9.61%",
+    "tone": "down",
+    "sub": "Tax Fdn, Jul 2026",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In Texas, sales tax brought in 58% of state tax collections in fiscal 2025.",
+   "say": "In Texas, sales tax brought in fifty-eight percent of state tax collections in fiscal twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "TX sales tax share",
+    "value": "58%",
+    "tone": "neutral",
+    "sub": "Comptroller FY2025",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Alaska has no state sales tax either. It leans on oil and its Permanent Fund, which paid $1,200 in 2026, counting one-time relief.",
+   "say": "Alaska has no state sales tax either. It leans on oil and its Permanent Fund, which paid twelve hundred dollars in twenty twenty-six, counting one-time relief.",
+   "scene": {
+    "t": "chart",
+    "title": "PFD + relief",
+    "points": [
+     [
+      2021,
+      1114
+     ],
+     [
+      2022,
+      3284
+     ],
+     [
+      2023,
+      1312
+     ],
+     [
+      2024,
+      1702
+     ],
+     [
+      2025,
+      1000
+     ],
+     [
+      2026,
+      1200
+     ]
+    ],
+    "prefix": "$",
+    "end": "$1,200",
+    "color": "down",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rough math: $40,000 of taxable spending means $3,844 in sales tax at Tennessee's rate, versus $3,012 at the 7.53% US average.",
+   "say": "Rough math: forty thousand dollars of taxable spending means three thousand eight hundred forty-four in sales tax at Tennessee's rate, versus three thousand twelve at the seven point five three percent US average.",
+   "scene": {
+    "t": "compare",
+    "title": "Rough math",
+    "left": {
+     "label": "TN rate",
+     "value": "$3,844",
+     "tone": "down",
+     "sub": "on $40,000"
+    },
+    "right": {
+     "label": "US avg",
+     "value": "$3,012",
+     "tone": "neutral",
+     "sub": "on $40,000"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So no income tax isn't no tax. It shows up somewhere else.",
+   "say": "So no income tax isn't no tax. It shows up somewhere else.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No income tax",
+     "isn't no tax"
+    ],
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "9 states don't tax wages. Here's how they pay the bills",
+  "ig": "9 states don't tax your paycheck. So who pays the bills?\nAs of 2026, Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas and Wyoming have no income tax; Washington taxes only some capital gains (its new tax on income over $1 million starts in 2028).\nTennessee's average combined sales tax was 9.61% as of July 2026, vs a 7.53% population-weighted US average. In Texas, sales tax was 58% of state tax collections in fiscal 2025.\nAlaska has no state sales tax and leans on oil and its Permanent Fund, which paid each eligible resident $1,200 in 2026 ($1,000 dividend plus $200 one-time energy relief). Chart amounts include one-time relief in 2022, 2024 and 2026.\nRough math: $40,000 of taxable spending is $3,844 in sales tax at 9.61% vs $3,012 at 7.53%. Simplified: actual rates vary by city, and some items like groceries are taxed differently.\nSources: Tax Foundation (Feb and July 2026), Texas Comptroller (FY2025), Alaska Dept. of Revenue (2026), NH Dept. of Revenue Administration.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#statetaxes #incometax #salestax #personalfinance #financeprostv",
+  "tiktok": "9 states don't tax wages. Here's how they pay the bills. Not financial advice. #moneytok #personalfinance #statetaxes #salestax #financeprostv",
+  "yt_desc": "As of 2026, eight states have no income tax and Washington taxes only some capital gains, with a new tax on income over $1 million starting in 2028 (Tax Foundation). They lean on other revenue: Tennessee's average combined sales tax was 9.61% as of July 2026 vs a 7.53% population-weighted US average, Texas got 58% of state tax collections from sales tax in fiscal 2025 (Texas Comptroller), and Alaska relies on oil and its Permanent Fund, which paid residents $1,200 in 2026, a $1,000 dividend plus $200 one-time energy relief (Alaska Dept. of Revenue). Rough math: $40,000 of taxable spending means $3,844 in sales tax at 9.61% vs $3,012 at 7.53% (simplified; rates vary by city and some items, like groceries, are taxed differently). News and education, not financial advice. #Shorts #statetaxes #personalfinance",
+  "tags": [
+   "states with no income tax",
+   "state sales tax",
+   "Alaska Permanent Fund",
+   "Texas taxes",
+   "Tennessee sales tax"
+  ]
+ }
+}
