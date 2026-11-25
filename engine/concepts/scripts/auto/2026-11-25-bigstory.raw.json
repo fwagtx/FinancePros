@@ -61,29 +61,21 @@
    "text": "Strip out food and energy, and core inflation climbed from 3% this summer to 3.3% in October.",
    "say": "Strip out food and energy, and core inflation climbed from three percent this summer to three point three percent in October.",
    "scene": {
-    "t": "chart",
-    "title": "Core PCE 2026",
-    "points": [
-     [
-      7,
-      3.0
-     ],
-     [
-      8,
-      3.0
-     ],
-     [
-      9,
-      3.1
-     ],
-     [
-      10,
-      3.3
-     ]
-    ],
-    "suffix": "%",
-    "end": "3.3%",
-    "color": "down"
+    "t": "compare",
+    "title": "Core PCE",
+    "left": {
+     "label": "Summer",
+     "value": "3%",
+     "tone": "neutral",
+     "sub": "July-Aug"
+    },
+    "right": {
+     "label": "October",
+     "value": "3.3%",
+     "tone": "down",
+     "sub": "vs 3.2% est."
+    },
+    "mood": "worried"
    }
   },
   {
@@ -91,34 +83,23 @@
    "text": "Economists expected 3.2%, so it came in hotter than forecast.",
    "say": "Economists expected three point two percent, so it came in hotter than forecast.",
    "scene": {
-    "t": "chart",
-    "title": "Core PCE 2026",
-    "points": [
-     [
-      7,
-      3.0
-     ],
-     [
-      8,
-      3.0
-     ],
-     [
-      9,
-      3.1
-     ],
-     [
-      10,
-      3.3
-     ]
-    ],
-    "suffix": "%",
-    "end": "3.3%",
-    "color": "down",
+    "t": "compare",
+    "title": "Core PCE",
+    "left": {
+     "label": "Summer",
+     "value": "3%",
+     "tone": "neutral",
+     "sub": "July-Aug"
+    },
+    "right": {
+     "label": "October",
+     "value": "3.3%",
+     "tone": "down",
+     "sub": "vs 3.2% est."
+    },
+    "mood": "shock",
     "keep": true,
-    "chart_note": {
-     "x": 10,
-     "text": "Hot!"
-    }
+    "winner": "right"
    }
   },
   {
