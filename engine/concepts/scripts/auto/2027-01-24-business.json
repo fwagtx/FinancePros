@@ -1,0 +1,203 @@
+{
+ "id": "2027-01-24-business",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "How Affirm makes\nmoney from stores",
+ "cover": {
+  "title": "Who Pays Affirm?",
+  "prop": "store",
+  "label": "fee",
+  "value": "2.3%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Your 0% Affirm plan? Often, the store pays for it.",
+   "say": "Your zero percent Affirm plan? Often, the store pays for it.",
+   "scene": {
+    "t": "hook",
+    "title": "The store [pays]",
+    "prop": "store",
+    "value": "0%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fiscal 2026, store fees hit about $1.15B.",
+   "say": "In fiscal twenty twenty-six, store fees hit about one point one five billion.",
+   "scene": {
+    "t": "stat",
+    "label": "Merchant fees FY26",
+    "value": "$1.15B",
+    "tone": "up",
+    "sub": "Year to June 2026",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 2.3% of $50.2B spent through Affirm.",
+   "say": "That's about two point three percent of fifty point two billion spent through Affirm.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$50.2B spent",
+     "fees = about 2.3%"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At that average, a $2,000 laptop sends about $46 to Affirm. The store keeps $1,954.",
+   "say": "At that average, a two thousand dollar laptop sends about forty-six dollars to Affirm. The store keeps nineteen hundred fifty-four.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "You pay",
+     "value": "$2,000"
+    },
+    "to": {
+     "label": "Store gets",
+     "value": "$1,954"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Twist: Affirm's 10-K says fees are generally bigger on 0% APR loans, lower on interest-bearing ones.",
+   "say": "Twist: Affirm's ten K says fees are generally bigger on zero percent A P R loans, lower on interest-bearing ones.",
+   "scene": {
+    "t": "compare",
+    "title": "Store fee",
+    "left": {
+     "label": "0% APR",
+     "value": "Bigger",
+     "tone": "down",
+     "sub": "no interest"
+    },
+    "right": {
+     "label": "Interest",
+     "value": "Lower",
+     "tone": "neutral",
+     "sub": "interest loans"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "No interest for you? The store covers more of the cost.",
+   "say": "No interest for you? The store covers more of the cost.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "title": "Store fee",
+    "left": {
+     "label": "0% APR",
+     "value": "Bigger",
+     "tone": "down",
+     "sub": "no interest"
+    },
+    "right": {
+     "label": "Interest",
+     "value": "Lower",
+     "tone": "neutral",
+     "sub": "interest loans"
+    },
+    "winner": "left",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why do stores pay? Affirm says bigger orders, more checkouts, new shoppers.",
+   "say": "Why do stores pay? Affirm says bigger orders, more checkouts, new shoppers.",
+   "scene": {
+    "t": "list",
+    "title": "Why stores pay",
+    "items": [
+     "Bigger orders",
+     "More checkouts",
+     "New shoppers"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those fees grew from about $380M in fiscal 2021 to $1.15B in 2026.",
+   "say": "Those fees grew from about three hundred eighty million in fiscal twenty twenty-one to one point one five billion in twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Store fees",
+    "points": [
+     [
+      2021,
+      379.6
+     ],
+     [
+      2022,
+      458.5
+     ],
+     [
+      2023,
+      507.6
+     ],
+     [
+      2024,
+      674.6
+     ],
+     [
+      2025,
+      882.7
+     ],
+     [
+      2026,
+      1149.9
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "M",
+    "end": "$1.15B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Zero percent for you isn't free. Somebody pays, often the store.",
+   "say": "Zero percent for you isn't free. Somebody pays, often the store.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "0% for you",
+     "isn't free"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Affirm's other business: the fee stores pay",
+  "ig": "When you pay with Affirm, the store pays Affirm a fee too.\nStore fees (merchant network revenue) were about $1.15B in fiscal 2026, the year to June 30, 2026.\nThat's about 2.3% of the $50.2B spent through Affirm, per its 10-K.\nAffirm's 10-K says stores generally pay bigger fees on 0% APR loans.\nSources: Affirm Form 10-K filings, fiscal 2021-2026.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#affirm #buynowpaylater #howtheymakemoney #personalfinance #financeprostv",
+  "tiktok": "Stores paid Affirm about $1.15B in fees in fiscal 2026. Not financial advice. #moneytok #personalfinance #affirm #bnpl #financeprostv",
+  "yt_desc": "When you pay with Affirm, the store pays a fee too. Affirm's merchant network revenue was about $1.15 billion in fiscal 2026 (year to June 30, 2026), about 2.3% of $50.2 billion in GMV, and its 10-K says merchants generally pay bigger fees on 0% APR loans. Sources: Affirm Form 10-K filings, fiscal 2021-2026. News and education, not financial advice. #Shorts #affirm #personalfinance",
+  "tags": [
+   "affirm",
+   "buy now pay later",
+   "how affirm makes money",
+   "merchant fees",
+   "personal finance"
+  ]
+ }
+}
