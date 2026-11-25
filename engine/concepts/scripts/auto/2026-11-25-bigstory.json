@@ -1,0 +1,188 @@
+{
+ "id": "2026-11-25-bigstory",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Inflation Heats\nUp Again",
+ "cover": {
+  "title": "Prices Heat Up",
+  "prop": "chart-up",
+  "label": "PCE",
+  "value": "3.8%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The Fed's favorite inflation gauge just hit 3.8%.",
+   "say": "The Fed's favorite inflation gauge just hit three point eight percent.",
+   "scene": {
+    "t": "hook",
+    "title": "Prices [Heat] Up",
+    "prop": "chart-up",
+    "label": "PCE",
+    "value": "3.8%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wednesday's report puts October inflation near double the Fed's 2% goal.",
+   "say": "Wednesday's report puts October inflation near double the Fed's two percent goal.",
+   "scene": {
+    "t": "compare",
+    "title": "Inflation",
+    "left": {
+     "label": "Fed goal",
+     "value": "2%",
+     "tone": "neutral",
+     "sub": "target"
+    },
+    "right": {
+     "label": "October",
+     "value": "3.8%",
+     "tone": "down",
+     "sub": "PCE, yearly"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "PCE tracks prices on what we all buy, and it's the gauge the Fed watches most.",
+   "say": "P C E tracks prices on what we all buy, and it's the gauge the Fed watches most.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "PCE = prices on",
+     "what we all buy"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Strip out food and energy, and core inflation climbed from 3% this summer to 3.3% in October.",
+   "say": "Strip out food and energy, and core inflation climbed from three percent this summer to three point three percent in October.",
+   "scene": {
+    "t": "chart",
+    "title": "Core PCE 2026",
+    "points": [
+     [
+      7,
+      3.0
+     ],
+     [
+      8,
+      3.0
+     ],
+     [
+      9,
+      3.1
+     ],
+     [
+      10,
+      3.3
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.3%",
+    "color": "down"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Economists expected 3.2%, so it came in hotter than forecast.",
+   "say": "Economists expected three point two percent, so it came in hotter than forecast.",
+   "scene": {
+    "t": "chart",
+    "title": "Core PCE 2026",
+    "points": [
+     [
+      7,
+      3.0
+     ],
+     [
+      8,
+      3.0
+     ],
+     [
+      9,
+      3.1
+     ],
+     [
+      10,
+      3.3
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.3%",
+    "color": "down",
+    "keep": true,
+    "note": {
+     "x": 10,
+     "text": "Hot!"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same morning, third-quarter growth was revised up to 4.3%, from 3.4%.",
+   "say": "The same morning, third-quarter growth was revised up to four point three percent, from three point four.",
+   "scene": {
+    "t": "stat",
+    "label": "Q3 GDP growth",
+    "value": "4.3%",
+    "tone": "up",
+    "sub": "was 3.4%",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's rate sits at 3.75% to 4%, and markets see a hike at its December 8-9 meeting as close to certain.",
+   "say": "The Fed's rate sits at three and three quarters to four percent, and markets see a hike at its December eighth and ninth meeting as close to certain.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75-4%",
+    "caption": "Dec 8-9",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A hike usually lifts credit card rates, new loan rates, and savings yields too.",
+   "say": "A hike usually lifts credit card rates, new loan rates, and savings yields too.",
+   "scene": {
+    "t": "list",
+    "title": "Rates that move",
+    "items": [
+     "Card rates",
+     "Loan rates",
+     "Savings yields"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Inflation just hit 3.8% and the Fed may hike in December",
+  "ig": "The Fed's favorite inflation gauge just hit 3.8%.\nOctober PCE inflation: 3.8% a year, nearly double the Fed's 2% goal.\nCore PCE: 3.3%, above the 3.2% economists expected.\nQ3 GDP was revised up to 4.3% from 3.4%.\nMarkets see a Fed rate hike at the Dec 8-9 meeting as close to certain.\nSources: BEA (Nov 25, 2026), CNBC, Morningstar, CME FedWatch.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#inflation #federalreserve #interestrates #personalfinance #financeprostv",
+  "tiktok": "Fed's favorite inflation gauge hit 3.8%. Rate hike next? Not financial advice. #moneytok #personalfinance #inflation #fed #financeprostv",
+  "yt_desc": "October PCE inflation, the Fed's preferred gauge, rose to 3.8% a year, with core at 3.3%, above forecasts, per the BEA's November 25, 2026 release. Q3 GDP was revised up to 4.3%, and markets now see a Fed rate hike at the December 8-9 meeting as close to certain. News and education, not financial advice. #Shorts #inflation #federalreserve",
+  "tags": [
+   "pce inflation",
+   "federal reserve",
+   "rate hike",
+   "gdp",
+   "inflation october 2026"
+  ]
+ }
+}
