@@ -1,0 +1,184 @@
+{
+ "series": "ticker",
+ "header": "Is 0% utilization\nreally the best score?",
+ "cover": {
+  "title": "The 0% Myth",
+  "prop": "card",
+  "label": "0%",
+  "value": "MYTH"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Myth: 0% credit utilization gets you the highest score.",
+   "say": "Myth: zero percent credit utilization gets you the highest score.",
+   "scene": {
+    "t": "hook",
+    "title": "The [0%] myth",
+    "prop": "card",
+    "label": "0%",
+    "value": "MYTH",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Utilization is your reported card balances divided by your limits.",
+   "say": "Utilization is your reported card balances divided by your limits.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Balances ÷ limits",
+     "= utilization"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "myFICO says amounts owed make up about 30% of a FICO Score.",
+   "say": "myFICO says amounts owed make up about thirty percent of a FICO Score.",
+   "scene": {
+    "t": "stat",
+    "label": "Amounts owed",
+    "value": "30%",
+    "tone": "neutral",
+    "sub": "of a FICO Score",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The twist: myFICO says all cards at $0 can score slightly lower than a small balance, like 3%, since it can look unused.",
+   "say": "The twist: myFICO says all cards at zero dollars can score slightly lower than a small balance, like three percent, since it can look unused.",
+   "scene": {
+    "t": "compare",
+    "title": "Reported",
+    "left": {
+     "label": "All cards",
+     "value": "$0",
+     "tone": "down",
+     "sub": "looks unused"
+    },
+    "right": {
+     "label": "Small bal",
+     "value": "3%",
+     "tone": "up",
+     "sub": "slightly better"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "People with 800+ scores average about 7%, per Experian's 2026 data.",
+   "say": "People with eight hundred plus scores average about seven percent, per Experian's twenty twenty-six data.",
+   "scene": {
+    "t": "stat",
+    "label": "800+ score avg use",
+    "value": "7%",
+    "tone": "up",
+    "sub": "Experian, 2026",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $150 of a $5,000 limit is 3%. Paid in full: $0 interest.",
+   "say": "Our math: a hundred fifty dollars of a five thousand dollar limit is three percent. Paid in full: zero dollars interest.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "$150 of $5,000",
+     "value": "3%"
+    },
+    "to": {
+     "label": "Interest",
+     "value": "$0"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "FICO's US average, each April: 706 in 2019, a record 718 in 2023, 715 in 2025.",
+   "say": "FICO's US average, each April: seven oh six in twenty nineteen, a record seven eighteen in twenty twenty-three, seven fifteen in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Avg FICO Score",
+    "points": [
+     [
+      2019,
+      706
+     ],
+     [
+      2020,
+      708
+     ],
+     [
+      2021,
+      716
+     ],
+     [
+      2022,
+      716
+     ],
+     [
+      2023,
+      718
+     ],
+     [
+      2024,
+      717
+     ],
+     [
+      2025,
+      715
+     ]
+    ],
+    "prefix": "",
+    "suffix": "",
+    "end": "715",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So 0% versus low single digits is a small gap, and you never need to carry interest.",
+   "say": "So zero versus low single digits is a small gap, and you never need to carry interest.",
+   "scene": {
+    "t": "list",
+    "title": "The fact",
+    "items": [
+     "Tiny gap",
+     "Pay in full",
+     "No interest"
+    ],
+    "reveal": 3,
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Does 0% credit utilization give you the best score?",
+  "ig": "Myth: 0% credit utilization gets you the highest score.\nmyFICO says amounts owed make up about 30% of a FICO Score.\nmyFICO also says every card reporting $0 can score slightly lower than a small reported balance, because it can look like no active use.\nPeople with 800+ FICO Scores average about 7% utilization (myFICO; Experian 2026 data).\nThe gap is small, and you never need to carry interest: a small balance paid in full costs $0.\nSources: myFICO, FICO, Experian.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditscore #creditutilization #fico #personalfinance #financeprostv",
+  "tiktok": "Myth: 0% utilization = highest credit score. Not quite. Not financial advice. #moneytok #personalfinance #creditscore #fico #financeprostv",
+  "yt_desc": "Is 0% credit utilization the best for your score? myFICO says amounts owed are about 30% of a FICO Score, and every card reporting $0 can score slightly lower than a small reported balance. People with 800+ FICO Scores average about 7% utilization (myFICO; Experian 2026), and a small balance paid in full costs no interest. Sources: myFICO, FICO, Experian. News and education, not financial advice. #Shorts #creditscore #personalfinance",
+  "tags": [
+   "credit utilization",
+   "credit score myth",
+   "FICO score",
+   "0% utilization",
+   "credit cards"
+  ]
+ }
+}
