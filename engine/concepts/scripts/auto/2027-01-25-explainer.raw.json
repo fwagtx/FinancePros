@@ -1,183 +1,184 @@
 {
-  "series": "acorn",
-  "header": "Acorn Economics\nMargin calls",
-  "cover": {
-    "title": "Pay Up. Now.",
+ "series": "acorn",
+ "header": "Acorn Economics\nMargin calls",
+ "cover": {
+  "title": "Pay Up. Now.",
+  "prop": "acorns",
+  "label": "LOAN",
+  "value": "-33%"
+ },
+ "lines": [
+  {
+   "who": "nutty",
+   "text": "Squirrel buys stock on a loan. It drops 33%. Broker calls.",
+   "say": "Squirrel buys stock on a loan. It drops thirty-three percent. Broker calls.",
+   "scene": {
+    "t": "hook",
+    "title": "Margin [call]",
     "prop": "acorns",
     "label": "LOAN",
-    "value": "-33%"
+    "value": "-33%",
+    "mood": "shock"
+   }
   },
-  "lines": [
-    {
-      "who": "nutty",
-      "text": "Squirrel buys stock on a loan. It drops 33%. Broker calls.",
-      "say": "Squirrel buys stock on a loan. It drops thirty-three percent. Broker calls.",
-      "scene": {
-        "t": "hook",
-        "title": "Margin [call]",
-        "prop": "acorns",
-        "label": "LOAN",
-        "value": "-33%",
-        "mood": "shock"
-      }
+  {
+   "who": "nutty",
+   "text": "That's a margin call. The Fed's Reg T lets you borrow up to 50%.",
+   "say": "That's a margin call. The Fed's Regulation T lets you borrow up to fifty percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Reg T: borrow 50%"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Our math: $5,000 cash, $5,000 borrowed, $10,000 of stock. Squirrel feels rich.",
+   "say": "Our math: five thousand cash, five thousand borrowed, ten thousand dollars of stock. Squirrel feels rich.",
+   "scene": {
+    "t": "compare",
+    "title": "The loan",
+    "left": {
+     "label": "Your cash",
+     "value": "$5,000",
+     "tone": "neutral",
+     "sub": "squirrel's own"
     },
-    {
-      "who": "nutty",
-      "text": "That's a margin call. The Fed's Reg T lets you borrow up to 50%.",
-      "say": "That's a margin call. The Fed's Regulation T lets you borrow up to fifty percent.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "Reg T: borrow 50%"
-        ],
-        "mood": "think"
-      }
+    "right": {
+     "label": "Loan",
+     "value": "$5,000",
+     "tone": "down",
+     "sub": "$10,000 of stock"
     },
-    {
-      "who": "nutty",
-      "text": "Our math: $5,000 cash, $5,000 borrowed, $10,000 of stock. Squirrel feels rich.",
-      "say": "Our math: five thousand cash, five thousand borrowed, ten thousand dollars of stock. Squirrel feels rich.",
-      "scene": {
-        "t": "compare",
-        "title": "The loan",
-        "left": {
-          "label": "Your cash",
-          "value": "$5,000",
-          "tone": "neutral",
-          "sub": "squirrel's own"
-        },
-        "right": {
-          "label": "Loan",
-          "value": "$5,000",
-          "tone": "down",
-          "sub": "$10,000 of stock"
-        },
-        "mood": "happy"
-      }
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "FINRA's floor: your equity must stay at least 25%. Many brokers want 30%.",
+   "say": "FINRA's floor: your equity must stay at least twenty-five percent. Many brokers want thirty percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Minimum equity",
+    "value": "25%",
+    "tone": "neutral",
+    "sub": "Many brokers: 30%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Our math: the call hits when stock falls to $6,667, down 33%.",
+   "say": "Our math: the call hits when stock falls to six thousand six hundred sixty-seven dollars, down thirty-three percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Call at $6,667",
+     "= 33% drop"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "And the broker can sell your stock without calling you first.",
+   "say": "And the broker can sell your stock without calling you first.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "fire",
+    "caption": "Sold. No call.",
+    "mood": "shock",
+    "label": "STOCK"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "If stock falls 50%, squirrel's $5,000 is 100% gone.",
+   "say": "If stock falls fifty percent, squirrel's five thousand is one hundred percent gone.",
+   "scene": {
+    "t": "compare",
+    "title": "Our math",
+    "left": {
+     "label": "Stock",
+     "value": "-50%",
+     "tone": "down",
+     "sub": "the stock"
     },
-    {
-      "who": "nutty",
-      "text": "FINRA's floor: your equity must stay at least 25%. Many brokers want 30%.",
-      "say": "FINRA's floor: your equity must stay at least twenty-five percent. Many brokers want thirty percent.",
-      "scene": {
-        "t": "stat",
-        "label": "Minimum equity",
-        "value": "25%",
-        "tone": "neutral",
-        "sub": "Many brokers: 30%",
-        "mood": "think"
-      }
+    "right": {
+     "label": "Your cash",
+     "value": "-100%",
+     "tone": "down",
+     "sub": "squirrel's cash"
     },
-    {
-      "who": "nutty",
-      "text": "Our math: the call hits when stock falls to $6,667, down 33%.",
-      "say": "Our math: the call hits when stock falls to six thousand six hundred sixty-seven dollars, down thirty-three percent.",
-      "scene": {
-        "t": "board",
-        "lines": [
-          "Call at $6,667",
-          "= 33% drop"
-        ],
-        "mood": "worried"
-      }
-    },
-    {
-      "who": "nutty",
-      "text": "And the broker can sell without calling you first.",
-      "say": "And the broker can sell without calling you first.",
-      "scene": {
-        "t": "squirrel",
-        "kind": "fire",
-        "caption": "Sold. No call.",
-        "mood": "shock"
-      }
-    },
-    {
-      "who": "nutty",
-      "text": "If stock falls 50%, squirrel's $5,000 is 100% gone.",
-      "say": "If stock falls fifty percent, squirrel's five thousand is one hundred percent gone.",
-      "scene": {
-        "t": "compare",
-        "title": "Our math",
-        "left": {
-          "label": "Stock",
-          "value": "-50%",
-          "tone": "down",
-          "sub": "the stock"
-        },
-        "right": {
-          "label": "Your cash",
-          "value": "-100%",
-          "tone": "down",
-          "sub": "squirrel's cash"
-        },
-        "mood": "sad"
-      }
-    },
-    {
-      "who": "nutty",
-      "text": "FINRA says year-end US margin debt went from about $607 billion in 2022 to $1.2 trillion in 2025.",
-      "say": "FINRA says year-end US margin debt went from about six hundred seven billion dollars in twenty twenty-two to one point two trillion in twenty twenty-five.",
-      "scene": {
-        "t": "chart",
-        "title": "Margin debt, Dec",
-        "points": [
-          [
-            2022,
-            607
-          ],
-          [
-            2023,
-            701
-          ],
-          [
-            2024,
-            899
-          ],
-          [
-            2025,
-            1226
-          ]
-        ],
-        "prefix": "$",
-        "suffix": "B",
-        "end": "$1.2T",
-        "color": "up",
-        "mood": "shock"
-      }
-    },
-    {
-      "who": "nutty",
-      "text": "Borrowed acorns grow gains and losses. Same speed.",
-      "say": "Borrowed acorns grow gains and losses. Same speed.",
-      "scene": {
-        "t": "squirrel",
-        "kind": "think",
-        "caption": "Both ways",
-        "mood": "think"
-      }
-    },
-    {
-      "who": "nutty",
-      "text": "Squirrel explained margin calls. Squirrel would like one follow.",
-      "say": "Squirrel explained margin calls. Squirrel would like one follow.",
-      "scene": {
-        "t": "cta",
-        "tagline": "Borrowed acorns bite"
-      }
-    }
-  ],
-  "post": {
-    "title": "Margin calls explained with acorns: the math behind the call",
-    "ig": "Squirrel buys stock on a loan. It drops 33%. Broker calls.\nRegulation T (Federal Reserve) lets a broker lend up to 50% of a stock's price to start. FINRA Rule 4210 requires equity of at least 25% of market value; many brokers ask 30% or more.\nOur math: $5,000 cash + $5,000 loan buys $10,000 of stock. At 25% maintenance, the call hits at $6,666.67, a 33.3% drop. A 50% drop wipes out 100% of the $5,000 cash.\nBrokers can sell without calling first. FINRA data: US margin debt was about $607B at end of 2022 and about $1.2T at end of 2025.\nSources: Federal Reserve (Regulation T), FINRA Rule 4210 and margin statistics, SEC, YCharts.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#margincall #investing #acorneconomics #personalfinance #financeprostv",
-    "tiktok": "A 33% drop can trigger a margin call. Squirrel does the math. Not financial advice. #moneytok #personalfinance #margincall #investing #financeprostv",
-    "yt_desc": "Buy $10,000 of stock with $5,000 cash and a $5,000 margin loan, and a 25% maintenance rule (FINRA Rule 4210) triggers a margin call at $6,666.67, a 33.3% drop (our math). Regulation T allows borrowing up to 50% to start, brokers can sell without notice, and FINRA data show US margin debt rose from about $607 billion at end of 2022 to about $1.2 trillion at end of 2025. Sources: Federal Reserve, FINRA, SEC. News and education, not financial advice. #Shorts #margincall #investing",
-    "tags": [
-      "margin call explained",
-      "what is a margin call",
-      "buying on margin",
-      "acorn economics",
-      "maintenance margin"
-    ]
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "FINRA says year-end US margin debt went from about $607 billion in 2022 to $1.2 trillion in 2025.",
+   "say": "FINRA says year-end US margin debt went from about six hundred seven billion dollars in twenty twenty-two to one point two trillion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Margin debt, Dec",
+    "points": [
+     [
+      2022,
+      607
+     ],
+     [
+      2023,
+      701
+     ],
+     [
+      2024,
+      899
+     ],
+     [
+      2025,
+      1226
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$1.2T",
+    "color": "up",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Borrowed acorns grow gains and losses.",
+   "say": "Borrowed acorns grow gains and losses.",
+   "scene": {
+    "t": "squirrel",
+    "kind": "think",
+    "caption": "Both ways",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "nutty",
+   "text": "Squirrel explained margin calls. Squirrel would like one follow.",
+   "say": "Squirrel explained margin calls. Squirrel would like one follow.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Borrowed acorns bite"
+   }
   }
+ ],
+ "post": {
+  "title": "Margin calls explained with acorns: the math behind the call",
+  "ig": "Squirrel buys stock on a loan. It drops 33%. Broker calls.\nRegulation T (Federal Reserve) lets a broker lend up to 50% of a stock's price to start. FINRA Rule 4210 requires equity of at least 25% of market value; many brokers ask 30% or more.\nOur math: $5,000 cash + $5,000 loan buys $10,000 of stock. At 25% maintenance, the call hits at $6,666.67, a 33.3% drop. A 50% drop wipes out 100% of the $5,000 cash.\nBrokers can sell without calling first. FINRA data: US margin debt was about $607B at end of 2022 and about $1.2T at end of 2025.\nSources: Federal Reserve (Regulation T), FINRA Rule 4210 and margin statistics, SEC, YCharts.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#margincall #investing #acorneconomics #personalfinance #financeprostv",
+  "tiktok": "A 33% drop can trigger a margin call. Squirrel does the math. Not financial advice. #moneytok #personalfinance #margincall #investing #financeprostv",
+  "yt_desc": "Buy $10,000 of stock with $5,000 cash and a $5,000 margin loan, and a 25% maintenance rule (FINRA Rule 4210) triggers a margin call at $6,666.67, a 33.3% drop (our math). Regulation T allows borrowing up to 50% to start, brokers can sell without notice, and FINRA data show US margin debt rose from about $607 billion at end of 2022 to about $1.2 trillion at end of 2025. Sources: Federal Reserve, FINRA, SEC. News and education, not financial advice. #Shorts #margincall #investing",
+  "tags": [
+   "margin call explained",
+   "what is a margin call",
+   "buying on margin",
+   "acorn economics",
+   "maintenance margin"
+  ]
+ }
 }

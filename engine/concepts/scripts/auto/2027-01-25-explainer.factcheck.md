@@ -25,3 +25,4 @@ VERDICT: PASS
 ## Round 2 (editor)
 Reviewed applied fixes (hook accuracy, $6,667 board, equity wording, cover); limits pass.
 VERDICT: PASS
+Editor: fire scene label set to STOCK (was default INDEX FUND); line 5 says 'your stock'; trimmed 'Same speed.'
