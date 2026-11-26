@@ -1,0 +1,158 @@
+{
+ "series": "ticker",
+ "header": "MORNING MONEY\nWall Street whiplash",
+ "cover": {
+  "title": "Dow's Wild Day",
+  "prop": "chart-down",
+  "label": "Wed",
+  "value": "-1,100"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The Dow dropped more than 1,100 points Wednesday, then closed higher.",
+   "say": "The Dow dropped more than eleven hundred points Wednesday, then closed higher.",
+   "scene": {
+    "t": "hook",
+    "title": "Dow [Whiplash]",
+    "prop": "chart-down",
+    "label": "Wed",
+    "value": "-1,100",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "At its low it was down 2.2%. It closed up 0.3%.",
+   "say": "At its low it was down two point two percent. It closed up point three percent.",
+   "scene": {
+    "t": "compare",
+    "title": "The Dow",
+    "left": {
+     "label": "At the low",
+     "value": "-2.2%",
+     "tone": "down",
+     "sub": "Wednesday morning"
+    },
+    "right": {
+     "label": "At close",
+     "value": "+0.3%",
+     "tone": "up",
+     "sub": "Wednesday close"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The S&P 500 fell as much as 3.2%, and closed down just 0.25%.",
+   "say": "The S and P five hundred fell as much as three point two percent, and closed down just a quarter percent.",
+   "scene": {
+    "t": "stat",
+    "label": "S&P 500 close",
+    "value": "-0.25%",
+    "tone": "neutral",
+    "sub": "low was -3.2%",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "What hit in the morning? Hotter inflation data, new tariff proposals and an AI chip sell-off.",
+   "say": "What hit in the morning? Hotter inflation data, new tariff proposals and an A I chip sell-off.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hot inflation",
+     "AI chip sell-off"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But Nvidia still closed down 3.9%.",
+   "say": "But Nvidia still closed down three point nine percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Nvidia fell 3.9%",
+    "source": "CNBC, Nov 25, 2026",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: $1,000 in the S&P fell to $968, then ended at $997.50.",
+   "say": "Our math: a thousand dollars in the S and P fell to nine sixty-eight, then ended at nine ninety-seven fifty.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "At the low",
+     "value": "$968"
+    },
+    "to": {
+     "label": "At the close",
+     "value": "$997.50"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most 401(k) funds price at the close, not at the scary morning low.",
+   "say": "Most four oh one k funds price at the close, not at the scary morning low.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Priced at close"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Markets are closed today, close early at 1 p.m. Eastern Friday, and jobless claims land December 3.",
+   "say": "Markets are closed today, close early at one P M Eastern Friday, and jobless claims land December third.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Thu",
+      "what": "Markets closed"
+     },
+     {
+      "when": "Fri",
+      "what": "1 PM ET close"
+     },
+     {
+      "when": "Dec 3",
+      "what": "Jobless claims"
+     }
+    ],
+    "reveal": 3,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "The Dow fell 1,100+ points Wednesday, then closed higher",
+  "ig": "The Dow dropped more than 1,100 points Wednesday, then closed higher.\nDow: down 2.2% at the low, closed up 164 points (+0.33%) at 50,182.95.\nS&P 500: down as much as 3.2%, closed down 0.25% at 7,182.78. Nasdaq: down as much as 4.6%, closed down 0.62%.\nOur math: $1,000 tracking the S&P 500 was worth $968 at the low and $997.50 at the close. Markets are closed for Thanksgiving and close early at 1 PM ET Friday.\nSources: Fox Business, CNBC, AP, NYSE (Nov 25, 2026).\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#stockmarket #dowjones #401k #investing #financeprostv",
+  "tiktok": "The Dow fell 1,100+ points Wednesday, then closed higher. Not financial advice. #moneytok #personalfinance #stockmarket #401k #financeprostv",
+  "yt_desc": "On Nov 25, 2026 the Dow fell about 1,105 points (2.2%) at its low before closing up 164 points at 50,182.95, while the S&P 500 recovered from a 3.2% drop to close down 0.25% and the Nasdaq pared a 4.6% drop to close down 0.62%. Hot inflation data, new tariff proposals and an AI chip sell-off drove the morning slide. Sources: Fox Business, CNBC, AP, NYSE. News and education, not financial advice. #Shorts #stockmarket #401k",
+  "tags": [
+   "dow jones today",
+   "stock market comeback",
+   "s&p 500",
+   "401k",
+   "thanksgiving stock market"
+  ]
+ }
+}
