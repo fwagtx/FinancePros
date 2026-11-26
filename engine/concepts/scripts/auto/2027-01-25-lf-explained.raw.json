@@ -10,8 +10,8 @@
   "lines": [
     {
       "who": "ticker",
-      "text": "Gold pays 0% interest. Central banks bought 863 tonnes.",
-      "say": "Gold pays zero percent interest. Central banks bought eight hundred sixty-three tonnes.",
+      "text": "Gold pays zero. Why did central banks buy 863 tonnes?",
+      "say": "Gold pays zero. Why did central banks buy eight hundred sixty-three tonnes?",
       "scene": {
         "t": "hook",
         "title": "Zero [interest]",
@@ -23,8 +23,8 @@
     },
     {
       "who": "ticker",
-      "text": "That was 2025, when gold set 53 record highs, says the World Gold Council.",
-      "say": "That was twenty twenty-five, when gold set fifty-three record highs, says the World Gold Council.",
+      "text": "That was in 2025, when gold set 53 record highs, says the World Gold Council.",
+      "say": "That was in twenty twenty-five, when gold set fifty-three record highs, says the World Gold Council.",
       "scene": {
         "t": "stat",
         "label": "Record highs, 2025",
@@ -375,8 +375,8 @@
     },
     {
       "who": "ticker",
-      "text": "In 1980, the yearly average was about $615. Then came one of the longest slumps of any big asset.",
-      "say": "In nineteen eighty, the yearly average was about six hundred fifteen dollars. Then came one of the longest slumps of any big asset.",
+      "text": "In 1980, the yearly average was about $615. Then came a slump that lasted about 20 years.",
+      "say": "In nineteen eighty, the yearly average was about six hundred fifteen dollars. Then came a slump that lasted about twenty years.",
       "scene": {
         "t": "chart",
         "title": "Gold, yearly avg $/oz",
@@ -578,14 +578,14 @@
     },
     {
       "who": "ticker",
-      "text": "The very bottom of that long slump came in August 1999, near $252 an ounce.",
-      "say": "The very bottom of that long slump came in August nineteen ninety-nine, near two hundred fifty-two dollars an ounce.",
+      "text": "The very bottom of that long slump came in mid-1999, near $252 an ounce.",
+      "say": "The very bottom of that long slump came in mid nineteen ninety-nine, near two hundred fifty-two dollars an ounce.",
       "scene": {
         "t": "stat",
         "label": "The 1999 low",
         "value": "$252",
         "tone": "down",
-        "sub": "Aug 1999, spot"
+        "sub": "mid-1999, London"
       }
     },
     {
@@ -730,7 +730,7 @@
           ],
           [
             2023,
-            1037
+            1051
           ],
           [
             2024,
@@ -748,7 +748,7 @@
     },
     {
       "who": "ticker",
-      "text": "In 2020, they bought about 255 tonnes, the lowest in a decade.",
+      "text": "In 2020, they bought about 255 tonnes, the lowest in a decade, during the pandemic.",
       "say": "In twenty twenty, they bought about two hundred fifty-five tonnes, the lowest in a decade, during the pandemic.",
       "scene": {
         "t": "chart",
@@ -768,7 +768,7 @@
           ],
           [
             2023,
-            1037
+            1051
           ],
           [
             2024,
@@ -811,7 +811,7 @@
           ],
           [
             2023,
-            1037
+            1051
           ],
           [
             2024,
@@ -855,7 +855,7 @@
           ],
           [
             2023,
-            1037
+            1051
           ],
           [
             2024,
@@ -878,8 +878,8 @@
     },
     {
       "who": "ticker",
-      "text": "And it hasn't stopped. In the third quarter of 2026, central banks bought 321 tonnes, up 42% from a year earlier.",
-      "say": "And it hasn't stopped. In the third quarter of twenty twenty-six, central banks bought three hundred twenty-one tonnes, up forty-two percent from a year earlier.",
+      "text": "And it didn't stop. In the third quarter of 2026, central banks bought 321 tonnes, up 42% from a year earlier.",
+      "say": "And it didn't stop. In the third quarter of twenty twenty-six, central banks bought three hundred twenty-one tonnes, up forty-two percent from a year earlier.",
       "scene": {
         "t": "stat",
         "label": "Q3 2026 buying",
@@ -890,13 +890,13 @@
     },
     {
       "who": "ticker",
-      "text": "One steady buyer is China's central bank. It reported adding gold for 14 straight months through December 2025.",
-      "say": "One steady buyer is China's central bank. It reported adding gold for fourteen straight months through December twenty twenty-five.",
+      "text": "One steady buyer is China's central bank. It reported adding gold for 24 straight months through October 2026.",
+      "say": "One steady buyer is China's central bank. It reported adding gold for twenty-four straight months through October twenty twenty-six.",
       "scene": {
         "t": "building",
         "kind": "fed",
         "name": "PEOPLE'S BANK OF CHINA",
-        "label": "14 months",
+        "label": "24 months",
         "caption": "Buying streak"
       }
     },
@@ -915,8 +915,8 @@
     },
     {
       "who": "ticker",
-      "text": "The biggest official pile is still America's, about 8,133 tonnes. Germany holds about 3,350, and China reports about 2,313.",
-      "say": "The biggest official pile is still America's, about eight thousand one hundred thirty-three tonnes. Germany holds about three thousand three hundred fifty, and China reports about two thousand three hundred thirteen.",
+      "text": "The biggest official pile is still America's, about 8,133 tonnes. Germany holds about 3,350, and China reported about 2,306 at the end of 2025.",
+      "say": "The biggest official pile is still America's, about eight thousand one hundred thirty-three tonnes. Germany holds about three thousand three hundred fifty, and China reported about two thousand three hundred six at the end of twenty twenty-five.",
       "scene": {
         "t": "countries",
         "cast": [
@@ -933,10 +933,10 @@
           {
             "name": "china",
             "mood": "happy",
-            "says": "2,313 tonnes"
+            "says": "2,306 tonnes"
           }
         ],
-        "caption": "Official gold, IMF data"
+        "caption": "Official gold, end-2025"
       }
     },
     {
@@ -1011,7 +1011,7 @@
     },
     {
       "who": "ticker",
-      "text": "High prices scared off jewelry buyers by weight. But spending on jewelry still hit a record $172 billion.",
+      "text": "High prices scared off jewelry buyers by weight, to a five-year low. But spending on jewelry still hit a record $172 billion.",
       "say": "High prices scared off jewelry buyers by weight, to a five-year low. But spending on jewelry still hit a record one hundred seventy-two billion dollars.",
       "scene": {
         "t": "stat",
@@ -1223,13 +1223,13 @@
       "scene": {
         "t": "news",
         "headline": "Gold at one-year low",
-        "source": "Reuters, Nov 16, 2026"
+        "source": "Reuters, Nov 2026"
       }
     },
     {
       "who": "ticker",
-      "text": "Higher US rates make gold's zero interest look worse, and the dollar sat near a 19-month high.",
-      "say": "Higher US rates make gold's zero interest look worse, and the dollar sat near a nineteen-month high.",
+      "text": "Higher US rates make gold's zero interest look worse, and a strong dollar added to the pressure.",
+      "say": "Higher US rates make gold's zero interest look worse, and a strong dollar added to the pressure.",
       "scene": {
         "t": "building",
         "kind": "fed",
@@ -1316,20 +1316,20 @@
     },
     {
       "who": "ticker",
-      "text": "One dealer survey put the typical premium on a 1 ounce American Eagle at about 5.1% over spot on November 3, 2026.",
-      "say": "One dealer survey put the typical premium on a one ounce American Eagle coin at about five point one percent over spot, on November third, twenty twenty-six.",
+      "text": "Premiums change daily. For a 1 ounce American Eagle coin, dealer premiums often run about 3% to 8% over spot.",
+      "say": "Premiums change daily. For a one ounce American Eagle coin, dealer premiums often run about three to eight percent over spot.",
       "scene": {
         "t": "stat",
         "label": "1 oz Eagle premium",
-        "value": "5.1%",
+        "value": "3% to 8%",
         "tone": "down",
-        "sub": "Nov 3, 2026"
+        "sub": "varies by dealer"
       }
     },
     {
       "who": "ticker",
-      "text": "Our math: at $3,720 spot, a 5.1% premium adds about $190, so the coin costs about $3,910.",
-      "say": "Our math: at three thousand seven hundred twenty dollars spot, a five point one percent premium adds about a hundred ninety dollars, so the coin costs about three thousand nine hundred ten.",
+      "text": "Our math: say the premium is 5%. At $3,720 spot, that adds $186, so the coin costs about $3,906.",
+      "say": "Our math: say the premium is five percent. At three thousand seven hundred twenty dollars spot, that adds a hundred eighty-six dollars, so the coin costs about three thousand nine hundred six.",
       "scene": {
         "t": "money",
         "from": {
@@ -1338,19 +1338,19 @@
         },
         "to": {
           "label": "You pay",
-          "value": "$3,910"
+          "value": "$3,906"
         }
       }
     },
     {
       "who": "ticker",
-      "text": "If a dealer later buys it back at spot, gold has to rise about 5.1% just to break even, plus any storage costs.",
-      "say": "If a dealer later buys it back at spot, gold has to rise about five point one percent just to break even, plus any storage costs.",
+      "text": "If a dealer later buys it back at spot, gold has to rise about 5% just to break even, plus any storage costs.",
+      "say": "If a dealer later buys it back at spot, gold has to rise about five percent just to break even, plus any storage costs.",
       "scene": {
         "t": "board",
         "lines": [
           "Break even:",
-          "+5.1% needed"
+          "+5% needed"
         ],
         "mood": "worried"
       }
@@ -1614,14 +1614,14 @@
     },
     {
       "who": "ticker",
-      "text": "Four: owning it costs money. Our coin needed a 5.1% gain to break even, and the pricier ETF cost about $393 over 10 years.",
-      "say": "Four: owning it costs money. Our coin needed a five point one percent gain to break even, and the pricier E T F cost about three hundred ninety-three dollars over ten years.",
+      "text": "Four: owning it costs money. Our coin needed a 5% gain to break even, and the pricier ETF cost about $393 over 10 years.",
+      "say": "Four: owning it costs money. Our coin needed a five percent gain to break even, and the pricier E T F cost about three hundred ninety-three dollars over ten years.",
       "scene": {
         "t": "compare",
         "title": "Costs",
         "left": {
           "label": "Coin premium",
-          "value": "5.1%",
+          "value": "5%",
           "tone": "down",
           "sub": "our math"
         },
@@ -1684,7 +1684,7 @@
     "title": "Gold pays zero interest. So why do central banks keep buying it, and why does it crash?",
     "ig": "Gold pays zero interest, yet central banks bought 863 tonnes in 2025. Here's why it hits records and why it falls.",
     "tiktok": "Gold pays zero interest. Central banks bought 863 tonnes anyway. Here's why.",
-    "yt_desc": "Gold pays no interest, yet it set 53 record highs in 2025, peaked near $5,590 an ounce in January 2026, and then fell about a third by November 2026. This video explains gold from zero: how it went from money to the backing for money until 1971, its long booms and busts, who buys it (central banks bought 863 tonnes in 2025, per the World Gold Council), and the four levers that move its price: real interest rates, the dollar, fear and inflation worries. We also work through the real costs of owning it, with our math on a coin premium and on ETF fees over 10 years, plus the risks.\n\nCHAPTERS\n\nSources: World Gold Council, Gold Demand Trends Full Year 2025 (Jan 29, 2026) and Q3 2026 (Nov 3, 2026); WGC Central Bank Survey (June 2026); Reuters via Kitco and Nation Thailand gold market reports (Nov 12-18, 2026); Federal Reserve History, Gold Reserve Act of 1934; US State Department Office of the Historian, Nixon and the End of Bretton Woods; Nixon address (Aug 15, 1971); Bloomberg (Sept 11, 2025; Dec 31, 2025); BullionVault (Dec 31, 2025); MetalCharts and NMA LBMA annual averages; ETF.com fund fee comparison (2026); dealer premium survey (Nov 3, 2026); IMF/WGC official gold reserves (Dec 2025).\n\nNews and education, not financial advice.\n\n#gold #personalfinance #economics",
+    "yt_desc": "Gold pays no interest, yet it set 53 record highs in 2025, peaked near $5,590 an ounce in January 2026, and then fell about a third by November 2026. This video explains gold from zero: how it went from money to the backing for money until 1971, its long booms and busts, who buys it (central banks bought 863 tonnes in 2025, per the World Gold Council), and the four levers that move its price: real interest rates, the dollar, fear and inflation worries. We also work through the real costs of owning it, with our math on a coin premium and on ETF fees over 10 years, plus the risks.\n\nCHAPTERS\n\nSources: World Gold Council, Gold Demand Trends Full Year 2025 (Jan 29, 2026) and Q3 2026 (Nov 3, 2026); WGC Central Bank Survey (June 2026); Reuters via Nation Thailand, Khaleej Times and NST gold market reports (Nov 12-18, 2026); Federal Reserve History, Gold Reserve Act of 1934; US State Department Office of the Historian, Nixon and the End of Bretton Woods; Nixon address (Aug 15, 1971); Bloomberg (Sept 11, 2025; Dec 31, 2025); BullionVault (Dec 31, 2025); MetalCharts and NMA LBMA annual averages; ETF.com fund fee comparison (2026); USAGOLD and dealer premium trackers (Nov 2026); PBOC/SAFE reserve data via China Daily HK (Nov 2026); IMF/WGC official gold reserves (Dec 2025).\n\nNews and education, not financial advice.\n\n#gold #personalfinance #economics",
     "tags": [
       "gold",
       "gold price",
