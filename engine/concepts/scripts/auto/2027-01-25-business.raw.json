@@ -1,0 +1,195 @@
+{
+ "series": "ticker",
+ "header": "Who pays for\nfree shipping?",
+ "cover": {
+  "title": "Free Shipping?",
+  "prop": "box",
+  "value": "$103B"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Amazon spent about $103B on shipping in 2025.",
+   "say": "Amazon spent about a hundred three billion on shipping in twenty twenty-five.",
+   "scene": {
+    "t": "hook",
+    "title": "Free [shipping]?",
+    "prop": "box",
+    "value": "$103B",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So who pays for \"free\" shipping? Its 10-K shows the bill climbing.",
+   "say": "So who pays for free shipping? Its ten K shows the bill climbing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who pays for",
+     "free shipping?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Shipping costs went from about $77B in 2021 to about $103B in 2025.",
+   "say": "Shipping costs went from about seventy-seven billion in twenty twenty-one to about a hundred three billion in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Amazon shipping",
+    "points": [
+     [
+      2021,
+      76.7
+     ],
+     [
+      2022,
+      83.5
+     ],
+     [
+      2023,
+      89.5
+     ],
+     [
+      2024,
+      95.8
+     ],
+     [
+      2025,
+      102.7
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$103B",
+    "color": "up",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Way one: the minimum. Target and Walmart both want $35 from non-members.",
+   "say": "Way one is the minimum. Target and Walmart both want thirty-five dollars from non-members.",
+   "scene": {
+    "t": "compare",
+    "title": "Min order",
+    "left": {
+     "label": "Target",
+     "value": "$35",
+     "tone": "neutral",
+     "sub": "non-members"
+    },
+    "right": {
+     "label": "Walmart",
+     "value": "$35",
+     "tone": "neutral",
+     "sub": "non-members"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: topping a $28 cart up to $35 is $7, or 25%, more.",
+   "say": "Our math: topping a twenty-eight dollar cart up to thirty-five is seven dollars, or twenty-five percent, more.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Your cart",
+     "value": "$28"
+    },
+    "to": {
+     "label": "Topped up",
+     "value": "$35"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Way two: memberships. Prime is $139 a year, Walmart+ is $98.",
+   "say": "Way two is memberships: Prime is a hundred thirty-nine dollars a year, Walmart Plus is ninety-eight.",
+   "scene": {
+    "t": "compare",
+    "title": "Per year",
+    "left": {
+     "label": "Prime",
+     "value": "$139",
+     "tone": "neutral",
+     "sub": "Amazon"
+    },
+    "right": {
+     "label": "Walmart+",
+     "value": "$98",
+     "tone": "neutral",
+     "sub": "Walmart"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Way three: Amazon's 10-K counts shipping as a cost of sales, so item prices help cover it.",
+   "say": "Way three: Amazon's ten K counts shipping as a cost of sales, so item prices help cover it.",
+   "scene": {
+    "t": "stat",
+    "label": "Shipping is a",
+    "value": "Cost",
+    "tone": "down",
+    "sub": "of sales, 10-K",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So free shipping is paid by bigger carts, yearly fees and item prices.",
+   "say": "So free shipping is paid by bigger carts, yearly fees and item prices.",
+   "scene": {
+    "t": "list",
+    "title": "Who pays",
+    "items": [
+     "Bigger carts",
+     "Yearly fees",
+     "Item prices"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Free shipping isn't free. It's just moved where you don't see it.",
+   "say": "Free shipping isn't free. It's just moved where you don't see it.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Free shipping",
+     "isn't free"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Amazon spent $102.7B on shipping. Here's who pays.",
+  "ig": "Amazon spent about $103B on shipping in 2025. So who pays for free shipping?\nAmazon's shipping costs rose from $76.7B in 2021 to $102.7B in 2025, per its 10-K.\nTarget and Walmart set a $35 free-shipping minimum for non-members.\nPrime costs $139 a year and Walmart+ $98 a year (as of 2026).\nOur math: topping a $28 cart up to $35 is 25% more spending.\nSources: Amazon Form 10-K filings 2021-2025, Target and Walmart shipping policies.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#amazon #freeshipping #howtheymakemoney #personalfinance #financeprostv",
+  "tiktok": "Amazon spent $102.7B on shipping in 2025. Who pays? Not financial advice. #moneytok #personalfinance #freeshipping #amazon #financeprostv",
+  "yt_desc": "Amazon's shipping costs grew from $76.7 billion in 2021 to $102.7 billion in 2025, per its 10-K. Retailers recover it with free-shipping minimums ($35 at Target and Walmart for non-members), memberships (Prime $139 a year, Walmart+ $98 as of 2026) and item prices. Sources: Amazon Form 10-K filings, Target and Walmart shipping policies. News and education, not financial advice. #Shorts #amazon #personalfinance",
+  "tags": [
+   "free shipping",
+   "amazon shipping costs",
+   "how amazon makes money",
+   "amazon prime",
+   "personal finance"
+  ]
+ }
+}
