@@ -1,0 +1,1659 @@
+{
+ "series": "ticker",
+ "header": "Growth up,\npay lags",
+ "cover": {
+  "title": "The Boom You Can't Feel?",
+  "prop": "chart-up",
+  "value": "4.3%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "The economy grew 4.3%. Your paycheck still buys less.",
+   "say": "The economy grew four point three percent. Your paycheck still buys less.",
+   "scene": {
+    "t": "hook",
+    "title": "Growth up, pay [lags]",
+    "prop": "chart-up",
+    "value": "4.3%",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Sounds like a riddle. By the end of this video, you'll know how both are true.",
+   "say": "Sounds like a riddle. By the end of this video, you'll know how both are true.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Booming economy,",
+     "pay buys less?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On Wednesday, the government said the economy grew at a 4.3% yearly pace last summer, up from a first estimate of 3.4%.",
+   "say": "On Wednesday, the government said the economy grew at a four point three percent yearly pace last summer, up from a first estimate of three point four percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Q3 GDP growth",
+    "value": "4.3%",
+    "tone": "up",
+    "sub": "Was 3.4% at first"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That same morning, the Fed's favorite inflation gauge showed prices up 3.8% from a year earlier.",
+   "say": "That same morning, the Fed's favorite inflation gauge showed prices up three point eight percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "PCE inflation",
+    "value": "3.8%",
+    "tone": "down",
+    "sub": "October, yearly"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And the average hourly paycheck? It's up just 3.1% in a year, slower than prices.",
+   "say": "And the average hourly paycheck? It's up just three point one percent in a year, slower than prices.",
+   "scene": {
+    "t": "compare",
+    "title": "Raise race",
+    "left": {
+     "label": "Pay",
+     "value": "+3.1%",
+     "tone": "neutral",
+     "sub": "October, BLS"
+    },
+    "right": {
+     "label": "Prices",
+     "value": "+3.8%",
+     "tone": "down",
+     "sub": "October, PCE"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices won that race. When your raise is smaller than inflation, you're quietly falling behind.",
+   "say": "Prices won that race. When your raise is smaller than inflation, you're quietly falling behind.",
+   "scene": {
+    "keep": true,
+    "winner": "right",
+    "mood": "worried",
+    "t": "compare",
+    "title": "Raise race",
+    "left": {
+     "label": "Pay",
+     "value": "+3.1%",
+     "tone": "neutral",
+     "sub": "October, BLS"
+    },
+    "right": {
+     "label": "Prices",
+     "value": "+3.8%",
+     "tone": "down",
+     "sub": "October, PCE"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Coming up: why it's running hot, why hot means pricier, and what it does to your paycheck and debt.",
+   "say": "Coming up: why it's running hot, why hot means pricier, and what it does to your paycheck and debt.",
+   "scene": {
+    "t": "list",
+    "title": "Coming up",
+    "items": [
+     "Running hot",
+     "Why prices rise",
+     "Your paycheck",
+     "Your debt"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: An economy running hot.",
+   "say": "Chapter one: An economy running hot.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "An economy running hot"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, what does running hot mean? Spending, hiring and investing grow faster than the economy can keep up with.",
+   "say": "First, what does running hot mean? Spending, hiring and investing grow faster than the economy can keep up with.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Demand faster",
+     "than supply"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Picture a kitchen with more orders than cooks. The food still comes out, but menu prices creep up.",
+   "say": "Picture a kitchen with more orders than cooks. The food still comes out, but menu prices creep up.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Too many orders,",
+     "too few cooks"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Is that us? Start with growth. The government's second look at summer growth came in at 4.3%.",
+   "say": "Is that us? Start with growth. The government's second look at summer growth came in at four point three percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Q3 GDP revised: 4.3%",
+    "source": "BEA, Nov 25, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about double the 2.2% pace of the spring quarter, and well above the roughly 3.5% economists expected.",
+   "say": "That's about double the two point two percent pace of the spring quarter, and well above the roughly three and a half percent economists expected.",
+   "scene": {
+    "t": "compare",
+    "title": "GDP growth",
+    "left": {
+     "label": "Q2",
+     "value": "2.2%",
+     "tone": "neutral",
+     "sub": "Spring"
+    },
+    "right": {
+     "label": "Q3",
+     "value": "4.3%",
+     "tone": "up",
+     "sub": "Summer"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The biggest engine was you. Consumer spending grew at a 4.2% pace, revised up from 3.8%.",
+   "say": "The biggest engine was you. Consumer spending grew at a four point two percent pace, revised up from three point eight percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Consumer spending",
+    "value": "4.2%",
+    "tone": "up",
+    "sub": "Q3, was 3.8%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Jobs held up too. Employers added 165,000 jobs in October, far more than expected, and unemployment dipped to 4.1%.",
+   "say": "Jobs held up too. Employers added one hundred sixty-five thousand jobs in October, far more than expected, and unemployment dipped to four point one percent.",
+   "scene": {
+    "t": "stat",
+    "label": "October jobs",
+    "value": "+165,000",
+    "tone": "up",
+    "sub": "Unemployment 4.1%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And people feel it. The Conference Board's consumer confidence index jumped to 103.3 in November, its highest since January 2025.",
+   "say": "And people feel it. The Conference Board's consumer confidence index jumped to one hundred three point three in November, its highest since January twenty twenty-five.",
+   "scene": {
+    "t": "stat",
+    "label": "Confidence index",
+    "value": "103.3",
+    "tone": "up",
+    "sub": "November 2026",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then the holiday rush. Adobe says Americans spent $82.5 billion online from November 1st to the 22nd.",
+   "say": "Then the holiday rush. Adobe says Americans spent eighty-two and a half billion dollars online from November first to the twenty-second.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "ONLINE SALES",
+    "label": "$82.5B",
+    "caption": "Nov 1-22, Adobe"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up 9.1% from a year ago, and faster than the 6.7% growth Adobe expects for the whole season.",
+   "say": "That's up nine point one percent from a year ago, and faster than the six point seven percent growth Adobe expects for the whole season.",
+   "scene": {
+    "t": "stat",
+    "label": "Online spending",
+    "value": "+9.1%",
+    "tone": "up",
+    "sub": "Season guess: 6.7%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Spending topped $3 billion on every one of those 22 days, and two days passed $4 billion.",
+   "say": "Spending topped three billion dollars on every one of those twenty-two days, and two days passed four billion dollars.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$3B+ every day",
+     "Two days: $4B+"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it isn't only gifts. The AP reports carts are also filling with basics, like toiletries, T-shirts and pet supplies.",
+   "say": "And it isn't only gifts. The AP reports carts are also filling with basics, like toiletries, T-shirts and pet supplies.",
+   "scene": {
+    "t": "list",
+    "title": "In the cart",
+    "items": [
+     "Gifts",
+     "Toiletries",
+     "T-shirts",
+     "Pet supplies"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Add it up: growth at 4.3%, 165,000 new jobs, confidence at 103.3, and online sales up 9.1%.",
+   "say": "Add it up: growth at four point three percent, one hundred sixty-five thousand new jobs, confidence at one hundred three point three, and online sales up nine point one percent.",
+   "scene": {
+    "t": "list",
+    "title": "Running hot",
+    "items": [
+     "GDP 4.3%",
+     "Jobs +165,000",
+     "Confidence 103.3",
+     "Online +9.1%"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's an economy with its foot on the gas. And in an economy, heat means higher prices.",
+   "say": "That's an economy with its foot on the gas. And in an economy, heat means higher prices.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hot engine,",
+     "hot prices"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Why hot means pricier.",
+   "say": "Chapter two: Why hot means pricier.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Why hot means pricier"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The same Wednesday release had the other half of the story. Inflation rose to 3.8% in the year through October.",
+   "say": "The same Wednesday release had the other half of the story. Inflation rose to three point eight percent in the year through October.",
+   "scene": {
+    "t": "news",
+    "headline": "PCE inflation: 3.8%",
+    "source": "BEA, Nov 25, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Core inflation, which skips food and energy, rose 3.3%. Economists had forecast 3.2%.",
+   "say": "Core inflation, which skips food and energy, rose three point three percent. Economists had forecast three point two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Core PCE",
+    "left": {
+     "label": "Forecast",
+     "value": "3.2%",
+     "tone": "neutral",
+     "sub": "Economists"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "3.3%",
+     "tone": "down",
+     "sub": "October"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Officials watch core for the trend, and this was its highest reading in about three years.",
+   "say": "Officials watch core for the trend, and this was its highest reading in about three years.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Core inflation:",
+     "3-year high"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The Fed's goal is 2% inflation. At 3.8%, the headline number is running almost double that.",
+   "say": "The Fed's goal is two percent inflation. At three point eight percent, the headline number is running almost double that.",
+   "scene": {
+    "t": "stat",
+    "label": "Fed's goal",
+    "value": "2%",
+    "tone": "neutral",
+    "sub": "Now: 3.8%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's that same inflation gauge for the 12 months through each October, as first reported, from 2021 to this year's 3.8%.",
+   "say": "Here's that same inflation gauge for the twelve months through each October, as first reported, from twenty twenty-one to this year's three point eight percent.",
+   "scene": {
+    "t": "chart",
+    "title": "PCE inflation, Oct",
+    "points": [
+     [
+      2021,
+      5.0
+     ],
+     [
+      2022,
+      6.0
+     ],
+     [
+      2023,
+      3.0
+     ],
+     [
+      2024,
+      2.3
+     ],
+     [
+      2025,
+      2.7
+     ],
+     [
+      2026,
+      3.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.8%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In October 2021 it was already 5%, the fastest pace since 1990, as a burst of demand ran into tangled supply chains.",
+   "say": "In October twenty twenty-one it was already five percent, the fastest pace since nineteen ninety, as a burst of demand ran into tangled supply chains.",
+   "scene": {
+    "keep": true,
+    "chart_note": {
+     "x": 2021,
+     "text": "5%"
+    },
+    "t": "chart",
+    "title": "PCE inflation, Oct",
+    "points": [
+     [
+      2021,
+      5.0
+     ],
+     [
+      2022,
+      6.0
+     ],
+     [
+      2023,
+      3.0
+     ],
+     [
+      2024,
+      2.3
+     ],
+     [
+      2025,
+      2.7
+     ],
+     [
+      2026,
+      3.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.8%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A year later it hit 6%. That's when the Fed raised rates hard and fast.",
+   "say": "A year later it hit six percent. That's when the Fed raised rates hard and fast.",
+   "scene": {
+    "keep": true,
+    "chart_note": {
+     "x": 2022,
+     "text": "6%"
+    },
+    "t": "chart",
+    "title": "PCE inflation, Oct",
+    "points": [
+     [
+      2021,
+      5.0
+     ],
+     [
+      2022,
+      6.0
+     ],
+     [
+      2023,
+      3.0
+     ],
+     [
+      2024,
+      2.3
+     ],
+     [
+      2025,
+      2.7
+     ],
+     [
+      2026,
+      3.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.8%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By October 2024, it had cooled to 2.3%, close to the goal. It looked like the fight was nearly over.",
+   "say": "By October twenty twenty-four, it had cooled to two point three percent, close to the goal. It looked like the fight was nearly over.",
+   "scene": {
+    "keep": true,
+    "chart_note": {
+     "x": 2024,
+     "text": "2.3%"
+    },
+    "t": "chart",
+    "title": "PCE inflation, Oct",
+    "points": [
+     [
+      2021,
+      5.0
+     ],
+     [
+      2022,
+      6.0
+     ],
+     [
+      2023,
+      3.0
+     ],
+     [
+      2024,
+      2.3
+     ],
+     [
+      2025,
+      2.7
+     ],
+     [
+      2026,
+      3.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.8%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Instead, it climbed back to 3.8%. Part of that is energy: gasoline and other energy goods rose 0.8% in October alone.",
+   "say": "Instead, it climbed back to three point eight percent. Part of that is energy: gasoline and other energy goods rose zero point eight percent in October alone.",
+   "scene": {
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "3.8%"
+    },
+    "t": "chart",
+    "title": "PCE inflation, Oct",
+    "points": [
+     [
+      2021,
+      5.0
+     ],
+     [
+      2022,
+      6.0
+     ],
+     [
+      2023,
+      3.0
+     ],
+     [
+      2024,
+      2.3
+     ],
+     [
+      2025,
+      2.7
+     ],
+     [
+      2026,
+      3.8
+     ]
+    ],
+    "suffix": "%",
+    "end": "3.8%",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But it's not just gas. When core prices speed up too, inflation is spreading through the whole economy.",
+   "say": "But it's not just gas. When core prices speed up too, inflation is spreading through the whole economy.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Not just gas:",
+     "it's spreading"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "This is the overheating loop. Strong demand lets businesses raise prices, and higher prices push everyone's costs up.",
+   "say": "This is the overheating loop. Strong demand lets businesses raise prices, and higher prices push everyone's costs up.",
+   "scene": {
+    "t": "split",
+    "title": "Hot loop",
+    "left": {
+     "title": "Demand",
+     "items": [
+      "Strong spending",
+      "Strong hiring"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Prices",
+     "items": [
+      "Firms raise prices",
+      "Costs keep rising"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's why a booming economy can feel so expensive to actually live in.",
+   "say": "That's why a booming economy can feel so expensive to actually live in.",
+   "scene": {
+    "keep": true,
+    "mood": "think",
+    "t": "split",
+    "title": "Hot loop",
+    "left": {
+     "title": "Demand",
+     "items": [
+      "Strong spending",
+      "Strong hiring"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Prices",
+     "items": [
+      "Firms raise prices",
+      "Costs keep rising"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We've seen this before. Economists call the years from 1965 to 1982 the Great Inflation.",
+   "say": "We've seen this before. Economists call the years from nineteen sixty-five to nineteen eighty-two the Great Inflation.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "1965",
+      "what": "Great Inflation begins"
+     },
+     {
+      "when": "1980-81",
+      "what": "Fed rate near 20%"
+     },
+     {
+      "when": "1982",
+      "what": "Inflation finally tamed"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "To end it, the Fed pushed its key interest rate to around 20% in the early 1980s.",
+   "say": "To end it, the Fed pushed its key interest rate to around twenty percent in the early nineteen eighties.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "1965",
+      "what": "Great Inflation begins"
+     },
+     {
+      "when": "1980-81",
+      "what": "Fed rate near 20%"
+     },
+     {
+      "when": "1982",
+      "what": "Inflation finally tamed"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Today is nowhere near that. But it's why the Fed gets nervous when hot growth and rising prices show up together.",
+   "say": "Today is nowhere near that. But it's why the Fed gets nervous when hot growth and rising prices show up together.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hot growth +",
+     "rising prices"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Its key rate is already 3.75% to 4%, after a hike in September.",
+   "say": "Its key rate is already three point seven five to four percent, after a hike in September.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "label": "3.75-4%",
+    "caption": "Since Sept 16"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And after Wednesday's report, markets priced a December rate hike as close to certain, at more than 90%.",
+   "say": "And after Wednesday's report, markets priced a December rate hike as close to certain, at more than ninety percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Odds of Dec hike",
+    "value": ">90%",
+    "tone": "down",
+    "sub": "Market pricing"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Wall Street had a wild day. On Wednesday the Dow fell 1,105 points at its low, then closed up 164.",
+   "say": "Wall Street had a wild day. On Wednesday the Dow fell one thousand one hundred five points at its low, then closed up one hundred sixty-four.",
+   "scene": {
+    "t": "compare",
+    "title": "Wednesday",
+    "left": {
+     "label": "Dow low",
+     "value": "-1,105",
+     "tone": "down",
+     "sub": "Points, midday"
+    },
+    "right": {
+     "label": "Dow close",
+     "value": "+164",
+     "tone": "up",
+     "sub": "Points, Nov 25"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "We've covered the Fed a lot lately, so the short version: hot data means higher rates, and pricier loans.",
+   "say": "We've covered the Fed a lot lately, so the short version: hot data means higher rates, and pricier loans.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Hot data,",
+     "pricier loans"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: Your paycheck versus prices.",
+   "say": "Chapter three: Your paycheck versus prices.",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "Your paycheck versus prices"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, back to that hook. In October, average hourly pay hit $38.00, up 3.1% from a year earlier.",
+   "say": "Now, back to that hook. In October, average hourly pay hit thirty-eight dollars, up three point one percent from a year earlier.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg hourly pay",
+    "value": "$38.00",
+    "tone": "neutral",
+    "sub": "Up 3.1%, October"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Prices rose 3.8% over the same stretch. So pay trailed prices by about 0.7 points. That's our math.",
+   "say": "Prices rose three point eight percent over the same stretch. So pay trailed prices by about zero point seven points. That's our math.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay trails",
+     "prices by 0.7"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's what that looks like. Say you earned $50,000 and got a 3.1% raise. You'd now make $51,550.",
+   "say": "Here's what that looks like. Say you earned fifty thousand dollars and got a three point one percent raise. You'd now make fifty-one thousand five hundred fifty dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Before",
+     "value": "$50,000"
+    },
+    "to": {
+     "label": "After raise",
+     "value": "$51,550"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But just to keep up with 3.8% inflation, you'd need $51,900.",
+   "say": "But just to keep up with three point eight percent inflation, you'd need fifty-one thousand nine hundred dollars.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Your raise",
+     "value": "$51,550"
+    },
+    "to": {
+     "label": "To keep up",
+     "value": "$51,900"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's a $350 gap. On paper you got a raise, but in buying power, you took a small pay cut. That's our math.",
+   "say": "That's a three hundred fifty dollar gap. On paper you got a raise, but in buying power, you took a small pay cut. That's our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Buying power gap",
+    "value": "-$350",
+    "tone": "down",
+    "sub": "Our math, 1 year",
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "These are averages. Plenty of people got bigger raises, and plenty got no raise at all.",
+   "say": "These are averages. Plenty of people got bigger raises, and plenty got no raise at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Averages,",
+     "not everyone"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the twist most headlines skipped. In October, Americans spent $63.8 billion more than in September, a 0.3% rise.",
+   "say": "Here's the twist most headlines skipped. In October, Americans spent sixty-three point eight billion dollars more than in September, a zero point three percent rise.",
+   "scene": {
+    "t": "news",
+    "headline": "Spending up 0.3%",
+    "source": "BEA, Nov 25, 2026"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But adjust for inflation, and real spending was about zero. It actually slipped, by less than a tenth of a percent.",
+   "say": "But adjust for inflation, and real spending was about zero. It actually slipped, by less than a tenth of a percent.",
+   "scene": {
+    "t": "compare",
+    "title": "October",
+    "left": {
+     "label": "Dollars",
+     "value": "+0.3%",
+     "tone": "up",
+     "sub": "Before inflation"
+    },
+    "right": {
+     "label": "Real",
+     "value": "~0%",
+     "tone": "down",
+     "sub": "After inflation"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So we spent more dollars, but brought home slightly less stuff. The extra money went to higher prices.",
+   "say": "So we spent more dollars, but brought home slightly less stuff. The extra money went to higher prices.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "More dollars,",
+     "less stuff"
+    ],
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And people started saving more. The saving rate jumped to 4.1% of income, up from 3.6% in September.",
+   "say": "And people started saving more. The saving rate jumped to four point one percent of income, up from three point six percent in September.",
+   "scene": {
+    "t": "stat",
+    "label": "Saving rate",
+    "value": "4.1%",
+    "tone": "up",
+    "sub": "Was 3.6% in Sept"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That might be caution. In the confidence survey, people expect prices to rise 5.7% over the next year.",
+   "say": "That might be caution. In the confidence survey, people expect prices to rise five point seven percent over the next year.",
+   "scene": {
+    "t": "stat",
+    "label": "Expected inflation",
+    "value": "5.7%",
+    "tone": "down",
+    "sub": "Next 12 months"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the boom is real, but it isn't felt evenly. Which brings us to who's winning and who's losing.",
+   "say": "So the boom is real, but it isn't felt evenly. Which brings us to who's winning and who's losing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Who wins?",
+     "Who loses?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: Who wins and who loses.",
+   "say": "Chapter four: Who wins and who loses.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "Who wins and who loses"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember, a hot economy isn't all good or all bad. It depends which side of it you're on.",
+   "say": "Remember, a hot economy isn't all good or all bad. It depends which side of it you're on.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Good or bad?",
+     "Depends on you"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's sort it. On the winning side: people with steady jobs, savers earning higher rates, and anyone who locked in a low fixed-rate loan.",
+   "say": "Let's sort it. On the winning side: people with steady jobs, savers earning higher rates, and anyone who locked in a low fixed-rate loan.",
+   "scene": {
+    "t": "split",
+    "title": "Scorecard",
+    "left": {
+     "title": "Winners",
+     "items": [
+      "Steady jobs",
+      "Savers",
+      "Locked low rates"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Losers",
+     "items": [
+      "Pay below prices",
+      "Card borrowers",
+      "New homebuyers"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On the losing side: anyone whose pay trails prices, people carrying credit card debt, and new homebuyers.",
+   "say": "On the losing side: anyone whose pay trails prices, people carrying credit card debt, and new homebuyers.",
+   "scene": {
+    "keep": true,
+    "t": "split",
+    "title": "Scorecard",
+    "left": {
+     "title": "Winners",
+     "items": [
+      "Steady jobs",
+      "Savers",
+      "Locked low rates"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Losers",
+     "items": [
+      "Pay below prices",
+      "Card borrowers",
+      "New homebuyers"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Start with credit cards. Here's what Americans owed on cards each third quarter, from 2022 to a record $1.29 trillion this year.",
+   "say": "Start with credit cards. Here's what Americans owed on cards each third quarter, from twenty twenty-two to a record one point two nine trillion dollars this year.",
+   "scene": {
+    "t": "chart",
+    "title": "Card debt, Q3",
+    "points": [
+     [
+      2022,
+      0.93
+     ],
+     [
+      2023,
+      1.08
+     ],
+     [
+      2024,
+      1.17
+     ],
+     [
+      2025,
+      1.23
+     ],
+     [
+      2026,
+      1.29
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$1.29T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2023, balances crossed $1 trillion for the first time, reaching $1.08 trillion that fall.",
+   "say": "In twenty twenty-three, balances crossed one trillion dollars for the first time, reaching one point zero eight trillion that fall.",
+   "scene": {
+    "keep": true,
+    "chart_note": {
+     "x": 2023,
+     "text": "$1.08T"
+    },
+    "t": "chart",
+    "title": "Card debt, Q3",
+    "points": [
+     [
+      2022,
+      0.93
+     ],
+     [
+      2023,
+      1.08
+     ],
+     [
+      2024,
+      1.17
+     ],
+     [
+      2025,
+      1.23
+     ],
+     [
+      2026,
+      1.29
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$1.29T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They've kept climbing since, up about $22 billion in just the last quarter, to $1.29 trillion.",
+   "say": "They've kept climbing since, up about twenty-two billion dollars in just the last quarter, to one point two nine trillion.",
+   "scene": {
+    "keep": true,
+    "chart_note": {
+     "x": 2026,
+     "text": "$1.29T"
+    },
+    "t": "chart",
+    "title": "Card debt, Q3",
+    "points": [
+     [
+      2022,
+      0.93
+     ],
+     [
+      2023,
+      1.08
+     ],
+     [
+      2024,
+      1.17
+     ],
+     [
+      2025,
+      1.23
+     ],
+     [
+      2026,
+      1.29
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "T",
+    "end": "$1.29T",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And it's pricey debt. The average card rate for people who pay interest was 22.36% in the third quarter.",
+   "say": "And it's pricey debt. The average card rate for people who pay interest was twenty-two point three six percent in the third quarter.",
+   "scene": {
+    "t": "stat",
+    "label": "Avg card APR",
+    "value": "22.36%",
+    "tone": "down",
+    "sub": "Q3 2026, Fed data"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Carry a $5,000 balance for a full year at that rate, and you'd pay about $1,118 in interest. That's our math.",
+   "say": "Carry a five thousand dollar balance for a full year at that rate, and you'd pay about one thousand one hundred eighteen dollars in interest. That's our math.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Card balance",
+     "value": "$5,000"
+    },
+    "to": {
+     "label": "Interest, 1 yr",
+     "value": "$1,118"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most card rates are tied to the prime rate, which moves with the Fed. So when the Fed hikes, card rates usually follow.",
+   "say": "Most card rates are tied to the prime rate, which moves with the Fed. So when the Fed hikes, card rates usually follow.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fed hikes,",
+     "card rates follow"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One bit of good news: the share of card balances turning seriously late fell to 6.87%, from 7.05% a year earlier.",
+   "say": "One bit of good news: the share of card balances turning seriously late fell to six point eight seven percent, from seven point zero five percent a year earlier.",
+   "scene": {
+    "t": "compare",
+    "title": "90+ days",
+    "left": {
+     "label": "Q3 2025",
+     "value": "7.05%",
+     "tone": "neutral",
+     "sub": "NY Fed"
+    },
+    "right": {
+     "label": "Q3 2026",
+     "value": "6.87%",
+     "tone": "up",
+     "sub": "NY Fed"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So most borrowers are keeping up with their payments, at least so far.",
+   "say": "So most borrowers are keeping up with their payments, at least so far.",
+   "scene": {
+    "keep": true,
+    "winner": "right",
+    "mood": "happy",
+    "t": "compare",
+    "title": "90+ days",
+    "left": {
+     "label": "Q3 2025",
+     "value": "7.05%",
+     "tone": "neutral",
+     "sub": "NY Fed"
+    },
+    "right": {
+     "label": "Q3 2026",
+     "value": "6.87%",
+     "tone": "up",
+     "sub": "NY Fed"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then there's buy now, pay later. Adobe counts $6.1 billion of online spending on those plans so far this season.",
+   "say": "Then there's buy now, pay later. Adobe counts six point one billion dollars of online spending on those plans so far this season.",
+   "scene": {
+    "t": "stat",
+    "label": "Buy now, pay later",
+    "value": "$6.1B",
+    "tone": "neutral",
+    "sub": "Season so far"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Those payments don't vanish. Most plans split a purchase into installments due in the weeks after the holidays.",
+   "say": "Those payments don't vanish. Most plans split a purchase into installments due in the weeks after the holidays.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Pay later =",
+     "pay in weeks"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Homebuyers feel it too. Freddie Mac's average 30-year mortgage rate was 7.21% this week, versus 6.23% a year ago.",
+   "say": "Homebuyers feel it too. Freddie Mac's average thirty-year mortgage rate was seven point two one percent this week, versus six point two three percent a year ago.",
+   "scene": {
+    "t": "compare",
+    "title": "30-yr rate",
+    "left": {
+     "label": "Year ago",
+     "value": "6.23%",
+     "tone": "neutral",
+     "sub": "Freddie Mac"
+    },
+    "right": {
+     "label": "Nov 25",
+     "value": "7.21%",
+     "tone": "down",
+     "sub": "Freddie Mac"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On a $400,000 loan, that's about $2,718 a month in principal and interest, versus $2,458 at last year's rate.",
+   "say": "On a four hundred thousand dollar loan, that's about two thousand seven hundred eighteen dollars a month in principal and interest, versus two thousand four hundred fifty-eight at last year's rate.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "At 6.23%",
+     "value": "$2,458"
+    },
+    "to": {
+     "label": "At 7.21%",
+     "value": "$2,718"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about $260 more every month, or over $3,100 a year. That's our math.",
+   "say": "That's about two hundred sixty dollars more every month, or over three thousand one hundred dollars a year. That's our math.",
+   "scene": {
+    "t": "stat",
+    "label": "Extra per month",
+    "value": "+$260",
+    "tone": "down",
+    "sub": "Over $3,100 a year",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the bright side. When rates rise, savings accounts, CDs and money market funds tend to pay more too.",
+   "say": "Now the bright side. When rates rise, savings accounts, CDs and money market funds tend to pay more too.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Savers:",
+     "higher yields"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And if you already have a fixed-rate mortgage or car loan, your payment doesn't change at all.",
+   "say": "And if you already have a fixed-rate mortgage or car loan, your payment doesn't change at all.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Fixed loan?",
+     "Payment stays"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So the same hot economy can help your savings and hurt your credit card, sometimes in the same month.",
+   "say": "So the same hot economy can help your savings and hurt your credit card, sometimes in the same month.",
+   "scene": {
+    "t": "split",
+    "title": "Your money",
+    "left": {
+     "title": "Helps",
+     "items": [
+      "Savings yields",
+      "Job market"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Hurts",
+     "items": [
+      "Card interest",
+      "New loans"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Many of us are on both sides at once: we save a little, owe a little, and work for a paycheck.",
+   "say": "Many of us are on both sides at once: we save a little, owe a little, and work for a paycheck.",
+   "scene": {
+    "keep": true,
+    "mood": "think",
+    "t": "split",
+    "title": "Your money",
+    "left": {
+     "title": "Helps",
+     "items": [
+      "Savings yields",
+      "Job market"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Hurts",
+     "items": [
+      "Card interest",
+      "New loans"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: What to watch next.",
+   "say": "Chapter five: What to watch next.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What to watch next"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the calendar. Monday, December 1st, is Cyber Monday, which Adobe expects to be the biggest online shopping day of the year.",
+   "say": "Here's the calendar. Monday, December first, is Cyber Monday, which Adobe expects to be the biggest online shopping day of the year.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Dec 1",
+      "what": "Cyber Monday"
+     },
+     {
+      "when": "Early Dec",
+      "what": "November jobs report"
+     },
+     {
+      "when": "Dec 8-9",
+      "what": "Fed meeting"
+     },
+     {
+      "when": "Dec 23",
+      "what": "GDP and inflation update"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then, in early December, the November jobs report shows whether hiring and pay are still running strong.",
+   "say": "Then, in early December, the November jobs report shows whether hiring and pay are still running strong.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "Dec 1",
+      "what": "Cyber Monday"
+     },
+     {
+      "when": "Early Dec",
+      "what": "November jobs report"
+     },
+     {
+      "when": "Dec 8-9",
+      "what": "Fed meeting"
+     },
+     {
+      "when": "Dec 23",
+      "what": "GDP and inflation update"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "On December 8th and 9th, the Fed meets. Markets expect a hike, but the decision is the Fed's, and we won't guess.",
+   "say": "On December eighth and ninth, the Fed meets. Markets expect a hike, but the decision is the Fed's, and we won't guess.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "Dec 1",
+      "what": "Cyber Monday"
+     },
+     {
+      "when": "Early Dec",
+      "what": "November jobs report"
+     },
+     {
+      "when": "Dec 8-9",
+      "what": "Fed meeting"
+     },
+     {
+      "when": "Dec 23",
+      "what": "GDP and inflation update"
+     }
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And on December 23rd, the government updates summer growth and releases November inflation.",
+   "say": "And on December twenty-third, the government updates summer growth and releases November inflation.",
+   "scene": {
+    "t": "timeline",
+    "keep": true,
+    "events": [
+     {
+      "when": "Dec 1",
+      "what": "Cyber Monday"
+     },
+     {
+      "when": "Early Dec",
+      "what": "November jobs report"
+     },
+     {
+      "when": "Dec 8-9",
+      "what": "Fed meeting"
+     },
+     {
+      "when": "Dec 23",
+      "what": "GDP and inflation update"
+     }
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Beyond dates, three numbers are worth watching. First, whether pay growth catches up with prices.",
+   "say": "Beyond dates, three numbers are worth watching. First, whether pay growth catches up with prices.",
+   "scene": {
+    "t": "list",
+    "title": "Watch for",
+    "items": [
+     "Pay vs prices",
+     "Real spending",
+     "Card balances"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, real spending, to see if shoppers are buying more stuff or just paying more for it.",
+   "say": "Second, real spending, to see if shoppers are buying more stuff or just paying more for it.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Watch for",
+    "items": [
+     "Pay vs prices",
+     "Real spending",
+     "Card balances"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And third, card and buy now, pay later balances, once the holiday bills come in.",
+   "say": "And third, card and buy now, pay later balances, once the holiday bills come in.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Watch for",
+    "items": [
+     "Pay vs prices",
+     "Real spending",
+     "Card balances"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If pay pulls ahead of prices, the boom starts to feel like one. If not, it stays a squeeze.",
+   "say": "If pay pulls ahead of prices, the boom starts to feel like one. If not, it stays a squeeze.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Boom or squeeze?"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The recap.",
+   "say": "Chapter six: The recap.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The recap"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Let's recap. The economy grew at a 4.3% pace last summer, and shoppers set online records this month.",
+   "say": "Let's recap. The economy grew at a four point three percent pace last summer, and shoppers set online records this month.",
+   "scene": {
+    "t": "list",
+    "title": "Recap",
+    "items": [
+     "Growth: 4.3%",
+     "Inflation: 3.8%",
+     "Pay: +3.1%",
+     "Card debt: $1.29T"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But inflation rose to 3.8%, with core at 3.3%, and markets now expect a December rate hike.",
+   "say": "But inflation rose to three point eight percent, with core at three point three percent, and markets now expect a December rate hike.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Growth: 4.3%",
+     "Inflation: 3.8%",
+     "Pay: +3.1%",
+     "Card debt: $1.29T"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Average pay rose just 3.1%, so the typical raise lost ground to prices, and real spending slipped.",
+   "say": "Average pay rose just three point one percent, so the typical raise lost ground to prices, and real spending slipped.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Growth: 4.3%",
+     "Inflation: 3.8%",
+     "Pay: +3.1%",
+     "Card debt: $1.29T"
+    ],
+    "reveal": 3
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And card debt hit a record $1.29 trillion, at an average rate above 22%.",
+   "say": "And card debt hit a record one point two nine trillion dollars, at an average rate above twenty-two percent.",
+   "scene": {
+    "t": "list",
+    "keep": true,
+    "title": "Recap",
+    "items": [
+     "Growth: 4.3%",
+     "Inflation: 3.8%",
+     "Pay: +3.1%",
+     "Card debt: $1.29T"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The big lesson: a hot economy shows up in headlines first and in your budget second. Knowing both helps you plan.",
+   "say": "The big lesson: a hot economy shows up in headlines first and in your budget second. Knowing both helps you plan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Headlines first,",
+     "budget second"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "The Economy Grew 4.3%. So Why Does Your Paycheck Buy Less?",
+  "ig": "The economy grew 4.3% and shoppers set records, but pay rose 3.1% while prices rose 3.8%. Here's what a hot economy means for you.",
+  "tiktok": "GDP 4.3%. Inflation 3.8%. Pay 3.1%. Here's why a booming economy can still feel like a squeeze.",
+  "yt_desc": "The US economy grew at a 4.3% pace last summer, shoppers spent a record $82.5 billion online in the first three weeks of November, and consumer confidence jumped to 103.3. But October inflation rose to 3.8%, core inflation hit 3.3%, average pay rose just 3.1%, and real spending slipped. This video explains what an overheating economy is, why it pushes prices and rates up, who wins and who loses, and what it means for your paycheck, credit cards, buy now, pay later plans, savings and mortgage.\n\nCHAPTERS\n\nSources: BEA GDP second estimate, Q3 2026 (Nov 25, 2026); BEA Personal Income and Outlays, October 2026 (Nov 25, 2026); BLS Employment Situation, October 2026 (Nov 6, 2026); The Conference Board (Nov 24, 2026); Adobe Analytics via Digital Commerce 360 (Nov 25, 2026); AP (Nov 26, 2026); Freddie Mac PMMS (Nov 25, 2026); New York Fed Household Debt and Credit Report (Nov 10, 2026); Federal Reserve G.19; CME FedWatch via InvestmentNews (Nov 25, 2026); Fox Business (Nov 25, 2026); BEA PCE releases 2021-2025; Federal Reserve History (Great Inflation).\n\nNews and education, not financial advice.\n\n#economy #inflation #personalfinance",
+  "tags": [
+   "economy",
+   "inflation",
+   "gdp",
+   "pce",
+   "paycheck",
+   "credit card debt",
+   "buy now pay later",
+   "mortgage rates",
+   "personal finance"
+  ]
+ }
+}
