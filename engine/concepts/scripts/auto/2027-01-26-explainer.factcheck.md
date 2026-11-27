@@ -29,3 +29,4 @@ VERDICT: PASS
 ## Round 2 (editor)
 Reviewed applied fixes (caption/voice match, chart title, tax-year wording, cover); limits pass.
 VERDICT: PASS
+Editor: split left title 'Nonrefundable' overflowed its card; shortened to 'No refund'.
