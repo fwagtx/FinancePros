@@ -9,8 +9,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "The economy grew 4.3%. Your paycheck still buys less.",
-   "say": "The economy grew four point three percent. Your paycheck still buys less.",
+   "text": "The economy grew 4.3%. Your paycheck buys less.",
+   "say": "The economy grew four point three percent. Your paycheck buys less.",
    "scene": {
     "t": "hook",
     "title": "Growth up, pay [lags]",
@@ -58,8 +58,8 @@
   },
   {
    "who": "ticker",
-   "text": "And the average hourly paycheck? It's up just 3.1% in a year, slower than prices.",
-   "say": "And the average hourly paycheck? It's up just three point one percent in a year, slower than prices.",
+   "text": "And average hourly pay? It's up just 3.1% in a year, slower than prices.",
+   "say": "And average hourly pay? It's up just three point one percent in a year, slower than prices.",
    "scene": {
     "t": "compare",
     "title": "Raise race",
@@ -129,8 +129,8 @@
   },
   {
    "who": "ticker",
-   "text": "First, what does running hot mean? Spending, hiring and investing grow faster than the economy can keep up with.",
-   "say": "First, what does running hot mean? Spending, hiring and investing grow faster than the economy can keep up with.",
+   "text": "First, what does running hot mean? Spending, hiring and investing grow faster than the economy can produce.",
+   "say": "First, what does running hot mean? Spending, hiring and investing grow faster than the economy can produce.",
    "scene": {
     "t": "board",
     "lines": [
@@ -158,7 +158,7 @@
    "say": "Is that us? Start with growth. The government's second look at summer growth came in at four point three percent.",
    "scene": {
     "t": "news",
-    "headline": "Q3 GDP revised: 4.3%",
+    "headline": "GDP revised: 4.3%",
     "source": "BEA, Nov 25, 2026"
    }
   },
@@ -170,16 +170,16 @@
     "t": "compare",
     "title": "GDP growth",
     "left": {
-     "label": "Q2",
+     "label": "Spring",
      "value": "2.2%",
      "tone": "neutral",
-     "sub": "Spring"
+     "sub": "Earlier pace"
     },
     "right": {
-     "label": "Q3",
+     "label": "Summer",
      "value": "4.3%",
      "tone": "up",
-     "sub": "Summer"
+     "sub": "Second look"
     }
    }
   },
@@ -192,7 +192,7 @@
     "label": "Consumer spending",
     "value": "4.2%",
     "tone": "up",
-    "sub": "Q3, was 3.8%"
+    "sub": "Summer, was 3.8%"
    }
   },
   {
@@ -259,16 +259,16 @@
   },
   {
    "who": "ticker",
-   "text": "And it isn't only gifts. The AP reports carts are also filling with basics, like toiletries, T-shirts and pet supplies.",
-   "say": "And it isn't only gifts. The AP reports carts are also filling with basics, like toiletries, T-shirts and pet supplies.",
+   "text": "And it isn't only gifts. Adobe expects carts to fill with basics too, like self-care items, pet supplies and cleaning goods.",
+   "say": "And it isn't only gifts. Adobe expects carts to fill with basics too, like self-care items, pet supplies and cleaning goods.",
    "scene": {
     "t": "list",
     "title": "In the cart",
     "items": [
      "Gifts",
-     "Toiletries",
-     "T-shirts",
-     "Pet supplies"
+     "Self-care",
+     "Pet supplies",
+     "Cleaning goods"
     ],
     "reveal": 4
    }
@@ -314,8 +314,8 @@
   },
   {
    "who": "ticker",
-   "text": "The same Wednesday release had the other half of the story. Inflation rose to 3.8% in the year through October.",
-   "say": "The same Wednesday release had the other half of the story. Inflation rose to three point eight percent in the year through October.",
+   "text": "The same Wednesday morning brought the other half of the story. Inflation rose to 3.8% in the year through October.",
+   "say": "The same Wednesday morning brought the other half of the story. Inflation rose to three point eight percent in the year through October.",
    "scene": {
     "t": "news",
     "headline": "PCE inflation: 3.8%",
@@ -537,8 +537,8 @@
   },
   {
    "who": "ticker",
-   "text": "Instead, it climbed back to 3.8%. Part of that is energy: gasoline and other energy goods rose 0.8% in October alone.",
-   "say": "Instead, it climbed back to three point eight percent. Part of that is energy: gasoline and other energy goods rose zero point eight percent in October alone.",
+   "text": "Instead, it climbed back to 3.8%. Part of that is energy: in September, gasoline cost about a third more than a year earlier.",
+   "say": "Instead, it climbed back to three point eight percent. Part of that is energy: in September, gasoline cost about a third more than a year earlier.",
    "scene": {
     "keep": true,
     "chart_note": {
@@ -728,29 +728,29 @@
   },
   {
    "who": "ticker",
-   "text": "Wall Street had a wild day. On Wednesday the Dow fell 1,105 points at its low, then closed up 164.",
-   "say": "Wall Street had a wild day. On Wednesday the Dow fell one thousand one hundred five points at its low, then closed up one hundred sixty-four.",
+   "text": "Wall Street had a wild day. On Wednesday the Dow fell more than 1,100 points at its low, then closed up 164.",
+   "say": "Wall Street had a wild day. On Wednesday the Dow fell more than eleven hundred points at its low, then closed up one hundred sixty-four.",
    "scene": {
     "t": "compare",
     "title": "Wednesday",
     "left": {
      "label": "Dow low",
-     "value": "-1,105",
+     "value": "-1,100",
      "tone": "down",
-     "sub": "Points, midday"
+     "sub": "Points, at low"
     },
     "right": {
      "label": "Dow close",
      "value": "+164",
      "tone": "up",
-     "sub": "Points, Nov 25"
+     "sub": "Points, at close"
     }
    }
   },
   {
    "who": "ticker",
-   "text": "We've covered the Fed a lot lately, so the short version: hot data means higher rates, and pricier loans.",
-   "say": "We've covered the Fed a lot lately, so the short version: hot data means higher rates, and pricier loans.",
+   "text": "We've covered the Fed a lot lately, so the short version: hot data can mean higher rates, and pricier loans.",
+   "say": "We've covered the Fed a lot lately, so the short version: hot data can mean higher rates, and pricier loans.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1047,8 +1047,8 @@
   },
   {
    "who": "ticker",
-   "text": "In 2023, balances crossed $1 trillion for the first time, reaching $1.08 trillion that fall.",
-   "say": "In twenty twenty-three, balances crossed one trillion dollars for the first time, reaching one point zero eight trillion that fall.",
+   "text": "In 2023, balances crossed $1 trillion for the first time, reaching $1.08 trillion by that fall.",
+   "say": "In twenty twenty-three, balances crossed one trillion dollars for the first time, reaching one point zero eight trillion by that fall.",
    "scene": {
     "keep": true,
     "chart_note": {
@@ -1127,14 +1127,14 @@
   },
   {
    "who": "ticker",
-   "text": "And it's pricey debt. The average card rate for people who pay interest was 22.36% in the third quarter.",
-   "say": "And it's pricey debt. The average card rate for people who pay interest was twenty-two point three six percent in the third quarter.",
+   "text": "And it's pricey debt. The Fed's latest average card rate, for people who pay interest, is 22.36%.",
+   "say": "And it's pricey debt. The Fed's latest average card rate, for people who pay interest, is twenty-two point three six percent.",
    "scene": {
     "t": "stat",
     "label": "Avg card APR",
     "value": "22.36%",
     "tone": "down",
-    "sub": "Q3 2026, Fed data"
+    "sub": "Fed data, latest"
    }
   },
   {
@@ -1173,13 +1173,13 @@
     "t": "compare",
     "title": "90+ days",
     "left": {
-     "label": "Q3 2025",
+     "label": "Year ago",
      "value": "7.05%",
      "tone": "neutral",
      "sub": "NY Fed"
     },
     "right": {
-     "label": "Q3 2026",
+     "label": "Now",
      "value": "6.87%",
      "tone": "up",
      "sub": "NY Fed"
@@ -1197,13 +1197,13 @@
     "t": "compare",
     "title": "90+ days",
     "left": {
-     "label": "Q3 2025",
+     "label": "Year ago",
      "value": "7.05%",
      "tone": "neutral",
      "sub": "NY Fed"
     },
     "right": {
-     "label": "Q3 2026",
+     "label": "Now",
      "value": "6.87%",
      "tone": "up",
      "sub": "NY Fed"
@@ -1248,7 +1248,7 @@
      "sub": "Freddie Mac"
     },
     "right": {
-     "label": "Nov 25",
+     "label": "This week",
      "value": "7.21%",
      "tone": "down",
      "sub": "Freddie Mac"
@@ -1373,17 +1373,17 @@
   },
   {
    "who": "ticker",
-   "text": "Here's the calendar. Monday, December 1st, is Cyber Monday, which Adobe expects to be the biggest online shopping day of the year.",
-   "say": "Here's the calendar. Monday, December first, is Cyber Monday, which Adobe expects to be the biggest online shopping day of the year.",
+   "text": "Here's the calendar. Monday, November 30th, is Cyber Monday, which Adobe expects to be the biggest online shopping day of the year.",
+   "say": "Here's the calendar. Monday, November thirtieth, is Cyber Monday, which Adobe expects to be the biggest online shopping day of the year.",
    "scene": {
     "t": "timeline",
     "events": [
      {
-      "when": "Dec 1",
+      "when": "Nov 30",
       "what": "Cyber Monday"
      },
      {
-      "when": "Early Dec",
+      "when": "Dec 4",
       "what": "November jobs report"
      },
      {
@@ -1392,7 +1392,7 @@
      },
      {
       "when": "Dec 23",
-      "what": "GDP and inflation update"
+      "what": "Final summer GDP"
      }
     ],
     "reveal": 1
@@ -1400,18 +1400,18 @@
   },
   {
    "who": "ticker",
-   "text": "Then, in early December, the November jobs report shows whether hiring and pay are still running strong.",
-   "say": "Then, in early December, the November jobs report shows whether hiring and pay are still running strong.",
+   "text": "Then, on Friday, December 4th, the November jobs report shows whether hiring and pay are still running strong.",
+   "say": "Then, on Friday, December fourth, the November jobs report shows whether hiring and pay are still running strong.",
    "scene": {
     "t": "timeline",
     "keep": true,
     "events": [
      {
-      "when": "Dec 1",
+      "when": "Nov 30",
       "what": "Cyber Monday"
      },
      {
-      "when": "Early Dec",
+      "when": "Dec 4",
       "what": "November jobs report"
      },
      {
@@ -1420,7 +1420,7 @@
      },
      {
       "when": "Dec 23",
-      "what": "GDP and inflation update"
+      "what": "Final summer GDP"
      }
     ],
     "reveal": 2
@@ -1435,11 +1435,11 @@
     "keep": true,
     "events": [
      {
-      "when": "Dec 1",
+      "when": "Nov 30",
       "what": "Cyber Monday"
      },
      {
-      "when": "Early Dec",
+      "when": "Dec 4",
       "what": "November jobs report"
      },
      {
@@ -1448,7 +1448,7 @@
      },
      {
       "when": "Dec 23",
-      "what": "GDP and inflation update"
+      "what": "Final summer GDP"
      }
     ],
     "reveal": 3
@@ -1456,18 +1456,18 @@
   },
   {
    "who": "ticker",
-   "text": "And on December 23rd, the government updates summer growth and releases November inflation.",
-   "say": "And on December twenty-third, the government updates summer growth and releases November inflation.",
+   "text": "And on December 23rd, the government takes its final look at summer growth.",
+   "say": "And on December twenty-third, the government takes its final look at summer growth.",
    "scene": {
     "t": "timeline",
     "keep": true,
     "events": [
      {
-      "when": "Dec 1",
+      "when": "Nov 30",
       "what": "Cyber Monday"
      },
      {
-      "when": "Early Dec",
+      "when": "Dec 4",
       "what": "November jobs report"
      },
      {
@@ -1476,7 +1476,7 @@
      },
      {
       "when": "Dec 23",
-      "what": "GDP and inflation update"
+      "what": "Final summer GDP"
      }
     ],
     "reveal": 4
@@ -1586,8 +1586,8 @@
   },
   {
    "who": "ticker",
-   "text": "Average pay rose just 3.1%, so the typical raise lost ground to prices, and real spending slipped.",
-   "say": "Average pay rose just three point one percent, so the typical raise lost ground to prices, and real spending slipped.",
+   "text": "Average pay rose just 3.1%, so the average raise lost ground to prices, and real spending slipped.",
+   "say": "Average pay rose just three point one percent, so the average raise lost ground to prices, and real spending slipped.",
    "scene": {
     "t": "list",
     "keep": true,
@@ -1643,7 +1643,7 @@
   "title": "The Economy Grew 4.3%. So Why Does Your Paycheck Buy Less?",
   "ig": "The economy grew 4.3% and shoppers set records, but pay rose 3.1% while prices rose 3.8%. Here's what a hot economy means for you.",
   "tiktok": "GDP 4.3%. Inflation 3.8%. Pay 3.1%. Here's why a booming economy can still feel like a squeeze.",
-  "yt_desc": "The US economy grew at a 4.3% pace last summer, shoppers spent a record $82.5 billion online in the first three weeks of November, and consumer confidence jumped to 103.3. But October inflation rose to 3.8%, core inflation hit 3.3%, average pay rose just 3.1%, and real spending slipped. This video explains what an overheating economy is, why it pushes prices and rates up, who wins and who loses, and what it means for your paycheck, credit cards, buy now, pay later plans, savings and mortgage.\n\nCHAPTERS\n\nSources: BEA GDP second estimate, Q3 2026 (Nov 25, 2026); BEA Personal Income and Outlays, October 2026 (Nov 25, 2026); BLS Employment Situation, October 2026 (Nov 6, 2026); The Conference Board (Nov 24, 2026); Adobe Analytics via Digital Commerce 360 (Nov 25, 2026); AP (Nov 26, 2026); Freddie Mac PMMS (Nov 25, 2026); New York Fed Household Debt and Credit Report (Nov 10, 2026); Federal Reserve G.19; CME FedWatch via InvestmentNews (Nov 25, 2026); Fox Business (Nov 25, 2026); BEA PCE releases 2021-2025; Federal Reserve History (Great Inflation).\n\nNews and education, not financial advice.\n\n#economy #inflation #personalfinance",
+  "yt_desc": "The US economy grew at a 4.3% pace last summer, shoppers spent a record $82.5 billion online from November 1 to 22, and consumer confidence jumped to 103.3. But October inflation rose to 3.8%, core inflation hit 3.3%, average pay rose just 3.1%, and real spending slipped. This video explains what an overheating economy is, why it pushes prices and rates up, who wins and who loses, and what it means for your paycheck, credit cards, buy now, pay later plans, savings and mortgage.\n\nCHAPTERS\n\nSources: BEA GDP second estimate, Q3 2026 (Nov 25, 2026); BEA Personal Income and Outlays, October 2026 (Nov 25, 2026); BLS Employment Situation, October 2026 (Nov 6, 2026; average hourly earnings); The Conference Board (Nov 24, 2026); Adobe Analytics via Digital Commerce 360 (Nov 25, 2026); Adobe Research via The New York Times (Nov 9, 2026); BLS (gasoline prices, Sept 2026); Freddie Mac PMMS (Nov 25, 2026); New York Fed Household Debt and Credit Report (Nov 10, 2026); Federal Reserve G.19; CME FedWatch via InvestmentNews (Nov 25, 2026); CNBC (Nov 25, 2026); BEA PCE releases 2021-2025; Federal Reserve History (Great Inflation).\n\nNews and education, not financial advice.\n\n#economy #inflation #personalfinance",
   "tags": [
    "economy",
    "inflation",
