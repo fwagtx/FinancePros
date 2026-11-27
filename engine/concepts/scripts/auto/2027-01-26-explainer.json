@@ -1,0 +1,207 @@
+{
+ "id": "2027-01-26-explainer",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Deduction vs credit\nWhy credits win",
+ "cover": {
+  "title": "$1K Isn't $1K",
+  "prop": "bill",
+  "label": "$1K",
+  "value": "$220"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "A $1,000 deduction can save just $220.",
+   "say": "A thousand-dollar deduction can save just two hundred twenty dollars.",
+   "scene": {
+    "t": "hook",
+    "title": "Deduction vs [Credit]",
+    "prop": "bill",
+    "label": "$1K",
+    "value": "$220",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A $1,000 credit saves all of it, because each one hits something different.",
+   "say": "A thousand-dollar credit saves all of it, because each one hits something different.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Deduction: income",
+     "Credit: tax bill"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A deduction trims taxable income, so at 22%, $1,000 saves $220, by our math.",
+   "say": "A deduction trims taxable income, so at twenty-two percent, a thousand saves two hundred twenty, by our math.",
+   "scene": {
+    "t": "compare",
+    "title": "$1K break",
+    "left": {
+     "label": "Deduction",
+     "value": "$220",
+     "tone": "down",
+     "sub": "22% bracket"
+    },
+    "right": {
+     "label": "Credit",
+     "value": "$1,000",
+     "tone": "up",
+     "sub": "any bracket"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A credit cuts the bill itself, dollar for dollar: the full $1,000.",
+   "say": "A credit cuts the bill itself, dollar for dollar: the full thousand.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "title": "$1K break",
+    "left": {
+     "label": "Deduction",
+     "value": "$220",
+     "tone": "down",
+     "sub": "22% bracket"
+    },
+    "right": {
+     "label": "Credit",
+     "value": "$1,000",
+     "tone": "up",
+     "sub": "any bracket"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Example: the Child Tax Credit, up to $2,200 per child for 2026.",
+   "say": "Example: the Child Tax Credit, up to twenty-two hundred dollars per child for twenty twenty-six.",
+   "scene": {
+    "t": "stat",
+    "label": "Child Tax Credit",
+    "value": "$2,200",
+    "tone": "up",
+    "sub": "per child, 2026",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Nonrefundable credits stop when your tax hits $0; refundable ones can pay you the rest.",
+   "say": "Nonrefundable credits stop when your tax hits zero; refundable ones can pay you the rest.",
+   "scene": {
+    "t": "split",
+    "title": "2 kinds",
+    "left": {
+     "title": "Nonrefundable",
+     "items": [
+      "Cuts tax to $0",
+      "Leftover is lost"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "Refundable",
+     "items": [
+      "Cuts tax to $0",
+      "Can pay you back"
+     ],
+     "tone": "up"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "For tax year 2026, up to $1,700 per child is refundable.",
+   "say": "For tax year twenty twenty-six, up to seventeen hundred per child is refundable.",
+   "scene": {
+    "t": "stat",
+    "label": "Refundable part",
+    "value": "$1,700",
+    "tone": "up",
+    "sub": "per child, 2026",
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Deductions still help: the single standard deduction grew from $12,950 in 2022 to $16,100 in 2026.",
+   "say": "Deductions still help: the single standard deduction grew from twelve thousand nine hundred fifty in twenty twenty-two to sixteen thousand one hundred in twenty twenty-six.",
+   "scene": {
+    "t": "chart",
+    "title": "Standard deduction",
+    "points": [
+     [
+      2022,
+      12950
+     ],
+     [
+      2023,
+      13850
+     ],
+     [
+      2024,
+      14600
+     ],
+     [
+      2025,
+      15750
+     ],
+     [
+      2026,
+      16100
+     ]
+    ],
+    "prefix": "$",
+    "end": "$16,100",
+    "color": "up",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So ask one question about any tax break: my income, or my bill?",
+   "say": "So ask one question about any tax break: my income, or my bill?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Income or bill?"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Education, not advice"
+   }
+  }
+ ],
+ "post": {
+  "title": "Tax deduction vs tax credit: why $1,000 isn't $1,000",
+  "ig": "A $1,000 tax deduction can save just $220. A $1,000 credit saves $1,000.\nDeductions cut taxable income: in the 22% bracket, $1,000 off = $220 less tax (our math).\nCredits cut the tax bill dollar for dollar. Refundable credits can even pay you back.\nTax year 2026: Child Tax Credit up to $2,200 per child, up to $1,700 refundable. Single standard deduction: $16,100.\nSources: IRS tax year 2026 inflation adjustments, Tax Foundation, Kiplinger.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#taxes #taxseason #taxcredit #personalfinance #financeprostv",
+  "tiktok": "A $1,000 deduction can save just $220. A credit saves $1,000. Not financial advice. #moneytok #personalfinance #taxes #taxseason #financeprostv",
+  "yt_desc": "A $1,000 tax deduction lowers taxable income, so in the 22% bracket it saves about $220 (our math), while a $1,000 credit cuts the tax bill by the full $1,000. For tax year 2026, the Child Tax Credit is up to $2,200 per child with up to $1,700 refundable, and the single standard deduction is $16,100 (IRS, Tax Foundation). News and education, not financial advice. #Shorts #taxes #personalfinance",
+  "tags": [
+   "tax deduction vs tax credit",
+   "child tax credit 2026",
+   "standard deduction 2026",
+   "refundable tax credit",
+   "tax season"
+  ]
+ }
+}
