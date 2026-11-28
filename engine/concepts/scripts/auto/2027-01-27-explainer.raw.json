@@ -1,0 +1,158 @@
+{
+ "series": "ticker",
+ "header": "Store card discount\nThe real math",
+ "cover": {
+  "title": "20% Off, Or Not?",
+  "prop": "tag",
+  "label": "20%",
+  "value": "30.14%"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "That 20% checkout discount can cost more than it saves.",
+   "say": "That twenty percent checkout discount can cost more than it saves.",
+   "scene": {
+    "t": "hook",
+    "title": "Store Card [Math]",
+    "prop": "tag",
+    "label": "20%",
+    "value": "20% off",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Bankrate's 2025 study: store cards averaged 30.14% APR, versus 20.12% for all cards.",
+   "say": "Bankrate's twenty twenty-five study: store cards averaged thirty point one four percent A P R, versus twenty point one two for all cards.",
+   "scene": {
+    "t": "compare",
+    "title": "Card APR",
+    "left": {
+     "label": "Store cards",
+     "value": "30.14%",
+     "tone": "down",
+     "sub": "Bankrate 2025"
+    },
+    "right": {
+     "label": "All cards",
+     "value": "20.12%",
+     "tone": "neutral",
+     "sub": "Bankrate 2025"
+    },
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It climbed from 24.35% in 2021 to 30.14% in 2025.",
+   "say": "It climbed from twenty-four point three five percent in twenty twenty-one to thirty point one four in twenty twenty-five.",
+   "scene": {
+    "t": "chart",
+    "title": "Store card APR",
+    "points": [
+     [
+      2021,
+      24.35
+     ],
+     [
+      2022,
+      26.72
+     ],
+     [
+      2023,
+      28.93
+     ],
+     [
+      2024,
+      30.45
+     ],
+     [
+      2025,
+      30.14
+     ]
+    ],
+    "suffix": "%",
+    "end": "30.14%",
+    "color": "down",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The CFPB agrees: in 2024, 90% of retail cards had max APRs over 30%.",
+   "say": "The C F P B agrees: in twenty twenty-four, ninety percent of retail cards had max A P Rs over thirty percent.",
+   "scene": {
+    "t": "news",
+    "headline": "Store cards cost more",
+    "source": "CFPB, Dec 2024",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Our math: 20% off $500 saves $100, but carrying the other $400 a year at that rate costs about $121.",
+   "say": "Our math: twenty percent off five hundred dollars saves a hundred, but carrying the other four hundred a year at that rate costs about a hundred twenty-one.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Discount",
+     "value": "$100"
+    },
+    "to": {
+     "label": "1 yr interest",
+     "value": "$121"
+    },
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Small limits hurt too: per Experian, $200 on a $400 limit is 50% utilization.",
+   "say": "Small limits hurt too: per Experian, two hundred dollars on a four hundred dollar limit is fifty percent utilization.",
+   "scene": {
+    "t": "stat",
+    "label": "Card utilization",
+    "value": "50%",
+    "tone": "down",
+    "sub": "$200 of $400 limit",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Plus a hard inquiry. The discount happens once; interest repeats every month.",
+   "say": "Plus a hard inquiry. The discount happens once; interest repeats every month.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Discount: once",
+     "Interest: monthly"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "Education, not advice"
+   }
+  }
+ ],
+ "post": {
+  "title": "Store card discounts: why 20% off can cost you more",
+  "ig": "That 20% store card discount can cost more than it saves.\nBankrate's 2025 study: store cards averaged 30.14% APR vs 20.12% for all cards.\nOur math: 20% off $500 saves $100. Carry the other $400 for a year at 30.14% and it's about $121 in interest (simple interest, approx.).\nCFPB (Dec 2024): 90% of retail cards had max APRs above 30%. Small limits can push utilization up fast.\nSources: Bankrate Retail Cards Study 2025, CFPB, Experian.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#creditcards #storecards #creditscore #personalfinance #financeprostv",
+  "tiktok": "20% off at checkout vs 30.14% APR: the store card math. Not financial advice. #moneytok #personalfinance #creditcards #storecards #financeprostv",
+  "yt_desc": "Store credit cards averaged a 30.14% APR in Bankrate's 2025 study, versus 20.12% for all cards, and the CFPB found 90% of retail cards had max APRs above 30% in 2024. Our math: 20% off $500 saves $100, but carrying the other $400 for a year at 30.14% costs about $121 in interest. Sources: Bankrate, CFPB, Experian. News and education, not financial advice. #Shorts #creditcards #personalfinance",
+  "tags": [
+   "store credit card",
+   "retail credit card APR",
+   "store card discount",
+   "credit utilization",
+   "credit card interest"
+  ]
+ }
+}
