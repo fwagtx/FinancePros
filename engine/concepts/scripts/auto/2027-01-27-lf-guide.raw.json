@@ -1,0 +1,1662 @@
+{
+ "series": "ticker",
+ "header": "How to check and fix\nyour credit report",
+ "cover": {
+  "title": "Is Yours Wrong?",
+  "prop": "chart-down",
+  "label": "ERROR",
+  "value": "1 in 5"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "1 in 5 people found an error on their credit reports.",
+   "say": "One in five people found an error on their credit reports.",
+   "scene": {
+    "t": "hook",
+    "title": "Is Yours [Wrong]?",
+    "prop": "chart-down",
+    "label": "ERROR",
+    "value": "1 in 5",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And fixing it takes one free website and one letter. Here's the whole process.",
+   "say": "And fixing it takes one free website and one letter. Here's the whole process, step by step.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Free site",
+     "One letter"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That 1 in 5 comes from a Federal Trade Commission study published in 2013. About 1,000 people went through their reports.",
+   "say": "That one in five comes from a Federal Trade Commission study published in twenty thirteen. About a thousand people went through their reports with help.",
+   "scene": {
+    "t": "stat",
+    "label": "Had a fixed error",
+    "value": "1 in 5",
+    "tone": "down",
+    "sub": "FTC study, 2013"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And 5% had errors serious enough that they could pay more for things like car loans and insurance.",
+   "say": "And five percent had errors serious enough that they could end up paying more for things like car loans and insurance.",
+   "scene": {
+    "t": "stat",
+    "label": "Costly errors",
+    "value": "5%",
+    "tone": "down",
+    "sub": "FTC study, 2013"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, a credit report isn't your credit score. The report is the raw file. The score is just a number built from it.",
+   "say": "Now, a credit report isn't your credit score. The report is the raw file. The score is just a number that gets built from it.",
+   "scene": {
+    "t": "compare",
+    "title": "Not same",
+    "left": {
+     "label": "Report",
+     "value": "File",
+     "tone": "neutral",
+     "sub": "The raw data"
+    },
+    "right": {
+     "label": "Score",
+     "value": "Number",
+     "tone": "neutral",
+     "sub": "Built from it"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Garbage in, garbage out.",
+   "say": "Garbage in, garbage out.",
+   "scene": {
+    "t": "compare",
+    "title": "Not same",
+    "left": {
+     "label": "Report",
+     "value": "File",
+     "tone": "neutral",
+     "sub": "The raw data"
+    },
+    "right": {
+     "label": "Score",
+     "value": "Number",
+     "tone": "neutral",
+     "sub": "Built from it"
+    },
+    "winner": "left",
+    "keep": true,
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So here's the plan: get the reports, read them, dispute what's wrong, and protect the file.",
+   "say": "So here's the plan: get the reports, read them line by line, dispute what's wrong, and then protect the file.",
+   "scene": {
+    "t": "list",
+    "title": "The plan",
+    "items": [
+     "Get the reports",
+     "Read every line",
+     "Dispute errors",
+     "Protect the file"
+    ],
+    "reveal": 4
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Rules here come from the FTC, the CFPB and federal law. This is education, not advice.",
+   "say": "The rules here come from the F T C, the C F P B and federal law. This is education, not advice.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "FTC, CFPB, law",
+     "Education only"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 1: Get all three reports",
+   "say": "Chapter one: get all three reports.",
+   "scene": {
+    "t": "chapter",
+    "n": 1,
+    "title": "Get all three reports"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "There are three big credit bureaus: Equifax, Experian and TransUnion. Each keeps its own file on you.",
+   "say": "There are three big credit bureaus: Equifax, Experian and TransUnion. Each one keeps its own separate file on you.",
+   "scene": {
+    "t": "building",
+    "kind": "store",
+    "name": "CREDIT BUREAU",
+    "label": "x3",
+    "caption": "Three separate files"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "They're not identical. Not every lender reports to all three, so one file can be missing something.",
+   "say": "And they're not identical. Not every lender reports to all three, so one file can be missing something the others have.",
+   "scene": {
+    "t": "split",
+    "title": "3 files",
+    "left": {
+     "title": "Bureau A",
+     "items": [
+      "Card",
+      "Car loan"
+     ],
+     "tone": "neutral"
+    },
+    "right": {
+     "title": "Bureau B",
+     "items": [
+      "Card",
+      "No car loan"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The official place to get them free is AnnualCreditReport.com.",
+   "say": "The official place to get them for free is Annual Credit Report dot com.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "AnnualCredit",
+     "Report.com"
+    ],
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It's the only site federal law authorizes for free reports. Look-alike sites may try to sell you something.",
+   "say": "It's the only site federal law authorizes for free reports. Look-alike sites with similar names may try to sell you something.",
+   "scene": {
+    "t": "split",
+    "title": "Real site?",
+    "left": {
+     "title": "Official",
+     "items": [
+      "Free",
+      "No card needed"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Look-alike",
+     "items": [
+      "Trial offer",
+      "Asks for card"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You used to get one free report a year from each bureau. That changed.",
+   "say": "You used to get one free report a year from each bureau. That changed.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Old rule",
+     "value": "1 a year"
+    },
+    "to": {
+     "label": "Now",
+     "value": "Weekly"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Free weekly reports started during the pandemic, and in 2023 the bureaus made them permanent.",
+   "say": "Free weekly reports started during the pandemic, and in twenty twenty-three the bureaus made them permanent.",
+   "scene": {
+    "t": "news",
+    "headline": "Free weekly, for good",
+    "source": "FTC consumer alert, Oct 2023"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So that's 3 bureaus, every week, for $0.",
+   "say": "So that's three bureaus, every single week, for zero dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Cost per report",
+    "value": "$0",
+    "tone": "up",
+    "sub": "3 bureaus, weekly"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two things to know. The free report doesn't include your score. It's just the file.",
+   "say": "Two things to know. First, the free report doesn't include your credit score. It's just the file itself.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "No score",
+     "included"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And checking your own report has no score hit. None. A loan application is a hard inquiry; your own look isn't.",
+   "say": "And second, checking your own report has no score hit. None. A loan application is a hard inquiry, but your own look isn't.",
+   "scene": {
+    "t": "compare",
+    "title": "Score hit?",
+    "left": {
+     "label": "You check",
+     "value": "None",
+     "tone": "up",
+     "sub": "Soft look"
+    },
+    "right": {
+     "label": "Loan app",
+     "value": "Hard",
+     "tone": "down",
+     "sub": "Hard inquiry"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can also request reports by phone at 1-877-322-8228, if online isn't your thing.",
+   "say": "You can also request them by phone at one, eight seven seven, three two two, eight two two eight, if online isn't your thing.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "1-877-322-8228"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 2: Read it line by line",
+   "say": "Chapter two: read it line by line.",
+   "scene": {
+    "t": "chapter",
+    "n": 2,
+    "title": "Read it line by line"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Open one report and go section by section. Start with the boring part: your personal info.",
+   "say": "Open one report and go section by section. Start with the boring part, which is your personal information.",
+   "scene": {
+    "t": "list",
+    "title": "Check each line",
+    "items": [
+     "Name and address",
+     "Accounts you know",
+     "Balances and limits",
+     "Late marks, inquiries"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Check your name, addresses, and Social Security digits. Someone else's info can mean a mixed file.",
+   "say": "Check your name, your addresses, and the Social Security digits. Someone else's info in there can mean a mixed-up file.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Mixed file?",
+     "Not your address"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Next, the accounts. Do you recognize every single one?",
+   "say": "Next, the accounts. Do you recognize every single one of them?",
+   "scene": {
+    "t": "list",
+    "title": "Check each line",
+    "items": [
+     "Name and address",
+     "Accounts you know",
+     "Balances and limits",
+     "Late marks, inquiries"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "An account you never opened is a red flag for identity theft, not just a typo.",
+   "say": "An account you never opened is a red flag for identity theft, not just a typo.",
+   "scene": {
+    "t": "stat",
+    "label": "Unknown account",
+    "value": "Red flag",
+    "tone": "down",
+    "sub": "Possible ID theft",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then check each account's status. A closed account shown as open, or a debt listed twice, is an error.",
+   "say": "Then check each account's status. A closed account shown as open, or one debt listed twice, is an error.",
+   "scene": {
+    "t": "split",
+    "title": "Look for",
+    "left": {
+     "title": "Status",
+     "items": [
+      "Closed as open",
+      "Listed twice"
+     ],
+     "tone": "down"
+    },
+    "right": {
+     "title": "History",
+     "items": [
+      "Late you paid",
+      "Wrong dates"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the balances and credit limits. This is where a small error can cost you.",
+   "say": "Now look at the balances and credit limits. This is where a small error can quietly cost you.",
+   "scene": {
+    "t": "list",
+    "title": "Check each line",
+    "items": [
+     "Name and address",
+     "Accounts you know",
+     "Balances and limits",
+     "Late marks, inquiries"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Why? In FICO's formula, amounts owed make up about 30% of the score. Payment history is 35%.",
+   "say": "Why? In FICO's formula, amounts owed make up about thirty percent of the score, and payment history makes up about thirty-five percent.",
+   "scene": {
+    "t": "compare",
+    "title": "FICO",
+    "left": {
+     "label": "Payments",
+     "value": "35%",
+     "tone": "neutral",
+     "sub": "Biggest part"
+    },
+    "right": {
+     "label": "Owed",
+     "value": "30%",
+     "tone": "neutral",
+     "sub": "Second"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's a worked example. It's our math, with made-up numbers.",
+   "say": "Here's a worked example. This is our math, with made-up numbers.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Worked example",
+     "(our math)"
+    ],
+    "mood": "think",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You have two cards. Card A has a $3,000 limit, Card B a $2,000 limit. That's $5,000 total.",
+   "say": "Say you have two cards. Card A has a three thousand dollar limit, and Card B has a two thousand dollar limit. That's five thousand dollars total.",
+   "scene": {
+    "t": "stat",
+    "label": "Total credit limit",
+    "value": "$5,000",
+    "tone": "neutral",
+    "sub": "$3,000 + $2,000"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You really owe $600 on Card A and $400 on Card B. That's $1,000.",
+   "say": "You really owe six hundred dollars on Card A and four hundred on Card B. That's one thousand dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Real balances",
+    "value": "$1,000",
+    "tone": "neutral",
+    "sub": "$600 + $400"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "$1,000 divided by $5,000 is 20%. That's your utilization, the share of your limits you're using.",
+   "say": "One thousand divided by five thousand is twenty percent. That's your utilization, the share of your limits you're using.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$1,000 / $5,000",
+     "= 20%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "But the report still shows Card B at an old balance of $1,400, from before you paid it down.",
+   "say": "But the report still shows Card B at an old balance of fourteen hundred dollars, from before you paid it down.",
+   "scene": {
+    "t": "stat",
+    "label": "Card B on report",
+    "value": "$1,400",
+    "tone": "down",
+    "sub": "Real: $400",
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now it's $600 plus $1,400, which is $2,000. Divided by $5,000, that's 40%.",
+   "say": "Now it's six hundred plus fourteen hundred, which is two thousand dollars. Divided by five thousand, that's forty percent.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "$2,000 / $5,000",
+     "= 40%"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One wrong number doubled how much of your credit you look like you're using.",
+   "say": "One wrong number doubled how much of your credit you look like you're using.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "Real",
+     "value": "20%"
+    },
+    "to": {
+     "label": "On report",
+     "value": "40%"
+    },
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Last, check late marks and inquiries. A 30-day late you didn't earn, or a loan you never applied for.",
+   "say": "Last, check late payment marks and inquiries. Look for a thirty-day late you didn't earn, or a loan application you never made.",
+   "scene": {
+    "t": "list",
+    "title": "Check each line",
+    "items": [
+     "Name and address",
+     "Accounts you know",
+     "Balances and limits",
+     "Late marks, inquiries"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Write down every problem, and which bureau's report it's on. You'll need that list in chapter 4.",
+   "say": "Write down every problem, and which bureau's report it's on. You'll need that list in chapter four.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Item + bureau",
+     "Write it down"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 3: How common are errors?",
+   "say": "Chapter three: how common are errors, really?",
+   "scene": {
+    "t": "chapter",
+    "n": 3,
+    "title": "How common are errors?"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Back to that FTC study. It looked at 2,968 credit reports from 1,001 people.",
+   "say": "Back to that F T C study. It looked at two thousand nine hundred sixty-eight credit reports from one thousand and one people.",
+   "scene": {
+    "t": "compare",
+    "title": "FTC study",
+    "left": {
+     "label": "People",
+     "value": "1,001",
+     "tone": "neutral",
+     "sub": "Volunteers"
+    },
+    "right": {
+     "label": "Reports",
+     "value": "2,968",
+     "tone": "neutral",
+     "sub": "All three"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After fixes, about 1 in 10 people saw their score change.",
+   "say": "After the fixes, about one in ten people saw their score change.",
+   "scene": {
+    "t": "stat",
+    "label": "Score changed",
+    "value": "1 in 10",
+    "tone": "neutral",
+    "sub": "FTC study, 2013"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And about 1 in 20 saw a jump of more than 25 points. That's real money on a loan rate.",
+   "say": "And about one in twenty saw a jump of more than twenty-five points. That can be real money on a loan rate.",
+   "scene": {
+    "t": "stat",
+    "label": "Score jump",
+    "value": "25+ pts",
+    "tone": "up",
+    "sub": "About 1 in 20",
+    "mood": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That study is old, so here's newer data: complaints to the Consumer Financial Protection Bureau.",
+   "say": "That study is getting old, so here's newer data: complaints sent to the Consumer Financial Protection Bureau.",
+   "scene": {
+    "t": "building",
+    "kind": "fed",
+    "name": "CFPB",
+    "label": "Complaints",
+    "caption": "Consumer complaints"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In 2020, the CFPB got about 540,000 complaints (0.54M). By 2025 it was about 6.6 million, per its annual reports.",
+   "say": "In twenty twenty, the C F P B received about five hundred forty thousand complaints. By twenty twenty-five, it was about six point six million, according to its annual reports.",
+   "scene": {
+    "t": "chart",
+    "title": "CFPB complaints (M)",
+    "points": [
+     [
+      2020,
+      0.54
+     ],
+     [
+      2021,
+      0.99
+     ],
+     [
+      2022,
+      1.29
+     ],
+     [
+      2023,
+      1.66
+     ],
+     [
+      2024,
+      3.19
+     ],
+     [
+      2025,
+      6.64
+     ]
+    ],
+    "suffix": "M",
+    "end": "6.6M",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's more than double 2024's 3.2 million, in a single year.",
+   "say": "That's more than double twenty twenty-four's three point two million, in a single year.",
+   "scene": {
+    "t": "chart",
+    "title": "CFPB complaints (M)",
+    "points": [
+     [
+      2020,
+      0.54
+     ],
+     [
+      2021,
+      0.99
+     ],
+     [
+      2022,
+      1.29
+     ],
+     [
+      2023,
+      1.66
+     ],
+     [
+      2024,
+      3.19
+     ],
+     [
+      2025,
+      6.64
+     ]
+    ],
+    "suffix": "M",
+    "end": "6.6M",
+    "color": "up",
+    "keep": true,
+    "chart_note": {
+     "x": 2025,
+     "text": "2x"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And more than 5.8 million of the 2025 complaints were about credit or consumer reporting.",
+   "say": "And more than five point eight million of the twenty twenty-five complaints were about credit or consumer reporting.",
+   "scene": {
+    "t": "stat",
+    "label": "Credit reporting",
+    "value": "5.8M+",
+    "tone": "down",
+    "sub": "CFPB, 2025"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's about 88% of everything people complained about.",
+   "say": "That's about eighty-eight percent of everything people complained about.",
+   "scene": {
+    "t": "stat",
+    "label": "Share of all",
+    "value": "88%",
+    "tone": "down",
+    "sub": "CFPB, 2025",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A fair caveat: a complaint isn't proof of an error. The CFPB said in 2026 that some came from third parties filing in bulk.",
+   "say": "A fair caveat: a complaint isn't proof of an error. The C F P B said in twenty twenty-six that some came from third parties filing in bulk, and consumer groups disputed that.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Complaint",
+     "is not proof"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Either way, the lesson is the same. Nobody checks your file for you. You do.",
+   "say": "Either way, the lesson is the same. Nobody checks your file for you. You do.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "You're the",
+     "fact-checker"
+    ],
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 4: File the dispute",
+   "say": "Chapter four: file the dispute.",
+   "scene": {
+    "t": "chapter",
+    "n": 4,
+    "title": "File the dispute"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Disputes are free. You file with each bureau whose report shows the error, online, by mail, or by phone.",
+   "say": "Disputes are free. You file with each bureau whose report shows the error, online, by mail, or by phone.",
+   "scene": {
+    "t": "stat",
+    "label": "Cost to dispute",
+    "value": "$0",
+    "tone": "up",
+    "sub": "Mail or online"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Online is fastest. Mail gives you a paper trail. Either way, your evidence matters most.",
+   "say": "Online is usually the fastest. Mail gives you a paper trail. Either way, it's your evidence that matters most.",
+   "scene": {
+    "t": "split",
+    "title": "How",
+    "left": {
+     "title": "Online",
+     "items": [
+      "Fast",
+      "Upload files"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Mail",
+     "items": [
+      "Paper trail",
+      "Return receipt"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The FTC says a dispute letter should include your full name and address.",
+   "say": "The F T C says a dispute letter should include your full name and address.",
+   "scene": {
+    "t": "list",
+    "title": "Dispute letter",
+    "items": [
+     "Name and address",
+     "Each wrong item",
+     "Why it's wrong",
+     "Copies, not originals"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then list each item you're disputing, with the account number.",
+   "say": "Then list each item you're disputing, along with the account number.",
+   "scene": {
+    "t": "list",
+    "title": "Dispute letter",
+    "items": [
+     "Name and address",
+     "Each wrong item",
+     "Why it's wrong",
+     "Copies, not originals"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Explain why it's wrong, and ask for it to be corrected or deleted.",
+   "say": "Explain why each one is wrong, and ask for it to be corrected or deleted.",
+   "scene": {
+    "t": "list",
+    "title": "Dispute letter",
+    "items": [
+     "Name and address",
+     "Each wrong item",
+     "Why it's wrong",
+     "Copies, not originals"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And attach copies, never originals, of proof: statements, payment confirmations, letters.",
+   "say": "And attach copies, never originals, of your proof: statements, payment confirmations, letters.",
+   "scene": {
+    "t": "list",
+    "title": "Dispute letter",
+    "items": [
+     "Name and address",
+     "Each wrong item",
+     "Why it's wrong",
+     "Copies, not originals"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In our example, that's the bank statement showing Card B paid down to $400.",
+   "say": "In our example, that's the bank statement showing Card B paid down to four hundred dollars.",
+   "scene": {
+    "t": "stat",
+    "label": "Your proof",
+    "value": "$400",
+    "tone": "up",
+    "sub": "Card B statement"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the part most people skip: also dispute with the furnisher.",
+   "say": "Now here's the part most people skip: also dispute directly with the furnisher.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Skip this?",
+     "Don't."
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The bureau stores the data. The furnisher, the lender or collector, sends it. The FTC says you can dispute with both.",
+   "say": "The bureau stores the data. The furnisher, meaning the lender or collector, is the one that sends it. The F T C says you can dispute with both, using the same documents.",
+   "scene": {
+    "t": "compare",
+    "title": "Dispute",
+    "left": {
+     "label": "Bureau",
+     "value": "Stores",
+     "tone": "neutral",
+     "sub": "Keeps the file"
+    },
+    "right": {
+     "label": "Furnisher",
+     "value": "Sends",
+     "tone": "neutral",
+     "sub": "Lender, collector"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Fix it at the source, and it stops flowing back into all three files.",
+   "say": "Fix it at the source, and it stops flowing back into all three files.",
+   "scene": {
+    "t": "compare",
+    "title": "Dispute",
+    "left": {
+     "label": "Bureau",
+     "value": "Stores",
+     "tone": "neutral",
+     "sub": "Keeps the file"
+    },
+    "right": {
+     "label": "Furnisher",
+     "value": "Sends",
+     "tone": "neutral",
+     "sub": "Lender, collector"
+    },
+    "winner": "right",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now the clock. Under the Fair Credit Reporting Act, the bureau has to pass your dispute to the furnisher, within 5 business days.",
+   "say": "Now the clock. Under the Fair Credit Reporting Act, the bureau has to pass your dispute along to the furnisher within five business days.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Day 0",
+      "what": "Bureau gets your dispute"
+     },
+     {
+      "when": "5 days",
+      "what": "Furnisher gets notified"
+     },
+     {
+      "when": "30 days",
+      "what": "Investigation generally done"
+     },
+     {
+      "when": "+5 days",
+      "what": "Results sent to you"
+     }
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The bureau generally has 30 days to investigate.",
+   "say": "The bureau generally has thirty days to investigate.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Day 0",
+      "what": "Bureau gets your dispute"
+     },
+     {
+      "when": "5 days",
+      "what": "Furnisher gets notified"
+     },
+     {
+      "when": "30 days",
+      "what": "Investigation generally done"
+     },
+     {
+      "when": "+5 days",
+      "what": "Results sent to you"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That can stretch to 45 days if you send new information during the window, or for some disputes after a free annual report.",
+   "say": "That can stretch to forty-five days if you send new information during the window, or for some disputes filed after a free annual report.",
+   "scene": {
+    "t": "compare",
+    "title": "Deadline",
+    "left": {
+     "label": "Usual",
+     "value": "30 days",
+     "tone": "neutral",
+     "sub": "Generally"
+    },
+    "right": {
+     "label": "Extended",
+     "value": "45 days",
+     "tone": "neutral",
+     "sub": "Some cases"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Then it has 5 business days to send you the results, plus a free copy of the report if it changed.",
+   "say": "After that, it has five business days to send you the results, plus a free copy of your report if it changed.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "Day 0",
+      "what": "Bureau gets your dispute"
+     },
+     {
+      "when": "5 days",
+      "what": "Furnisher gets notified"
+     },
+     {
+      "when": "30 days",
+      "what": "Investigation generally done"
+     },
+     {
+      "when": "+5 days",
+      "what": "Results sent to you"
+     }
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "If the info is wrong, or can't be verified, it has to be corrected or deleted.",
+   "say": "If the information is wrong, or it can't be verified, it has to be corrected or deleted.",
+   "scene": {
+    "t": "split",
+    "title": "Outcome",
+    "left": {
+     "title": "Wrong",
+     "items": [
+      "Corrected",
+      "or deleted"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Unverified",
+     "items": [
+      "Deleted",
+      "Not kept"
+     ],
+     "tone": "up"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Keep copies of everything, with dates. Treat it like a little court case, because it might become one.",
+   "say": "Keep copies of everything, with the dates. Treat it like a little court case, because it might turn into one.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Keep copies",
+     "Keep dates"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, what if the bureau says no?",
+   "say": "Now, what happens if the bureau looks at your dispute and says no?",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Bureau says",
+     "no?"
+    ],
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "It happens. The bureau says the item is verified, and you still know it's wrong. You have options.",
+   "say": "Sometimes the bureau says the item is verified, and you still know it's wrong. You have options.",
+   "scene": {
+    "t": "stat",
+    "label": "Bureau says",
+    "value": "Verified",
+    "tone": "down",
+    "sub": "You disagree",
+    "mood": "angry"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "First, you can add a statement of dispute to your file. Federal law says the bureau can cap it at 100 words.",
+   "say": "First, you can add a statement of dispute to your file. Federal law says the bureau can cap it at one hundred words.",
+   "scene": {
+    "t": "stat",
+    "label": "Dispute statement",
+    "value": "100 words",
+    "tone": "neutral",
+    "sub": "Max, if capped"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The exact text: the agency \"may limit such statements to not more than one hundred words\" if it helps you write a clear summary.",
+   "say": "Here's the exact text: the agency may limit such statements to not more than one hundred words, if it helps you write a clear summary.",
+   "scene": {
+    "t": "quote",
+    "text": "May limit such statements to not more than one hundred words.",
+    "source": "Fair Credit Reporting Act, 15 U.S.C. 1681i(b)"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "After that, the bureau has to flag the item as disputed in future reports, so lenders see your side.",
+   "say": "After that, the bureau generally has to flag the item as disputed in future reports, so lenders can see your side.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Flagged:",
+     "disputed"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Second, dispute again with new evidence, and go straight to the furnisher if you haven't.",
+   "say": "Second, dispute again with any new evidence, and go straight to the furnisher if you haven't yet.",
+   "scene": {
+    "t": "list",
+    "title": "If it fails",
+    "items": [
+     "Add a statement",
+     "New evidence",
+     "CFPB complaint",
+     "Know your rights"
+    ],
+    "reveal": 2
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Third, you can file a complaint with the CFPB at consumerfinance.gov. The company is asked to respond.",
+   "say": "Third, you can file a complaint with the C F P B at consumer finance dot gov, and the company is asked to respond.",
+   "scene": {
+    "t": "list",
+    "title": "If it fails",
+    "items": [
+     "Add a statement",
+     "New evidence",
+     "CFPB complaint",
+     "Know your rights"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You can also contact your state attorney general. And the law gives you the right to sue over violations.",
+   "say": "You can also contact your state attorney general. And the law gives you the right to sue if your rights are violated.",
+   "scene": {
+    "t": "list",
+    "title": "If it fails",
+    "items": [
+     "Add a statement",
+     "New evidence",
+     "CFPB complaint",
+     "Know your rights"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most disputes never get that far. But knowing the next step keeps you calm.",
+   "say": "Most disputes never get that far. But knowing the next step keeps you calm and keeps the bureau honest.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Know step two"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 5: What stays, and for how long",
+   "say": "Chapter five: what stays, and for how long.",
+   "scene": {
+    "t": "chapter",
+    "n": 5,
+    "title": "What stays, and how long"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Here's the hard truth. You can only remove errors. Accurate bad news stays, for a while.",
+   "say": "Here's the hard truth. You can only remove errors. Accurate bad news stays, at least for a while.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Errors: go",
+     "True: stays"
+    ],
+    "mood": "sad"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Hard inquiries, from applying for credit, can stay up to 2 years.",
+   "say": "Hard inquiries, from applying for credit, can stay on your report for up to two years.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2 yrs",
+      "what": "Hard inquiries"
+     },
+     {
+      "when": "7 yrs",
+      "what": "Late payments, collections"
+     },
+     {
+      "when": "10 yrs",
+      "what": "Chapter 7 bankruptcy"
+     }
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Most negative items, like late payments and collections, can be reported for up to 7 years.",
+   "say": "Most negative items, like late payments and collections, can generally be reported for up to seven years.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2 yrs",
+      "what": "Hard inquiries"
+     },
+     {
+      "when": "7 yrs",
+      "what": "Late payments, collections"
+     },
+     {
+      "when": "10 yrs",
+      "what": "Chapter 7 bankruptcy"
+     }
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a Chapter 7 bankruptcy can stay up to 10 years from the filing date.",
+   "say": "And a Chapter Seven bankruptcy can stay for up to ten years from the filing date.",
+   "scene": {
+    "t": "timeline",
+    "events": [
+     {
+      "when": "2 yrs",
+      "what": "Hard inquiries"
+     },
+     {
+      "when": "7 yrs",
+      "what": "Late payments, collections"
+     },
+     {
+      "when": "10 yrs",
+      "what": "Chapter 7 bankruptcy"
+     }
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So anyone promising to erase accurate, recent history for a fee is promising something the law doesn't allow.",
+   "say": "So anyone promising to erase accurate, recent history for a fee is promising something the law doesn't allow.",
+   "scene": {
+    "t": "split",
+    "title": "Repair?",
+    "left": {
+     "title": "You can",
+     "items": [
+      "Dispute free",
+      "Same rights"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Red flags",
+     "items": [
+      "Fee upfront",
+      "Erase anything"
+     ],
+     "tone": "down"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "In fact, the FTC says it's illegal for credit repair companies to charge you before they do the work.",
+   "say": "In fact, the F T C says it's illegal for credit repair companies to charge you before they've actually done the work.",
+   "scene": {
+    "t": "stat",
+    "label": "Upfront fees",
+    "value": "Illegal",
+    "tone": "down",
+    "sub": "Credit repair, FTC"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Now, protecting the file. The strongest tool is a credit freeze, and it's been free by law since 2018.",
+   "say": "Now, protecting the file. The strongest tool is a credit freeze, and it's been free by federal law since twenty eighteen.",
+   "scene": {
+    "t": "stat",
+    "label": "Credit freeze",
+    "value": "Free",
+    "tone": "up",
+    "sub": "Since Sept 2018"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A freeze blocks new lenders from pulling your file. It doesn't change your score.",
+   "say": "A freeze blocks new lenders from pulling your file, so nobody can open credit in your name. It doesn't change your score.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Freeze: blocks",
+     "new credit"
+    ]
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "You set it up with each of the 3 bureaus, and lift it before you apply for a loan.",
+   "say": "You set it up separately with each of the three bureaus, and you lift it before you apply for a loan.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "3 bureaus",
+     "Lift to apply"
+    ],
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "A lighter option is a fraud alert. An initial alert is free, lasts 1 year, and one bureau tells the other two.",
+   "say": "A lighter option is a fraud alert. An initial alert is free, it lasts one year, and the bureau you contact tells the other two.",
+   "scene": {
+    "t": "compare",
+    "title": "Alerts",
+    "left": {
+     "label": "Initial",
+     "value": "1 year",
+     "tone": "neutral",
+     "sub": "Anyone, free"
+    },
+    "right": {
+     "label": "Extended",
+     "value": "7 years",
+     "tone": "neutral",
+     "sub": "ID theft victims"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Identity theft victims with a report from IdentityTheft.gov can get an extended alert for 7 years.",
+   "say": "Identity theft victims with a report from Identity Theft dot gov can get an extended alert that lasts seven years.",
+   "scene": {
+    "t": "compare",
+    "title": "Alerts",
+    "left": {
+     "label": "Initial",
+     "value": "1 year",
+     "tone": "neutral",
+     "sub": "Anyone, free"
+    },
+    "right": {
+     "label": "Extended",
+     "value": "7 years",
+     "tone": "neutral",
+     "sub": "ID theft victims"
+    },
+    "winner": "right",
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Lenders must take extra steps to confirm it's you. You can still apply for credit.",
+   "say": "With an alert, lenders have to take extra steps to confirm it's really you. You can still apply for credit.",
+   "scene": {
+    "t": "split",
+    "title": "Which one",
+    "left": {
+     "title": "Freeze",
+     "items": [
+      "Blocks pulls",
+      "Each bureau"
+     ],
+     "tone": "up"
+    },
+    "right": {
+     "title": "Alert",
+     "items": [
+      "Extra checks",
+      "One call"
+     ],
+     "tone": "neutral"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Before the recap, the common mistakes. Number one: checking only one bureau.",
+   "say": "Before the recap, let's hit the common mistakes. Number one: checking only one bureau.",
+   "scene": {
+    "t": "list",
+    "title": "Mistakes",
+    "items": [
+     "Only one bureau",
+     "Fake free sites",
+     "Sending originals",
+     "Skipping furnisher"
+    ],
+    "reveal": 1,
+    "mood": "worried"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: using a look-alike site instead of AnnualCreditReport.com.",
+   "say": "Two: using a look-alike site instead of Annual Credit Report dot com.",
+   "scene": {
+    "t": "list",
+    "title": "Mistakes",
+    "items": [
+     "Only one bureau",
+     "Fake free sites",
+     "Sending originals",
+     "Skipping furnisher"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: mailing your only copy of the proof.",
+   "say": "Three: mailing off your only copy of the proof.",
+   "scene": {
+    "t": "list",
+    "title": "Mistakes",
+    "items": [
+     "Only one bureau",
+     "Fake free sites",
+     "Sending originals",
+     "Skipping furnisher"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: disputing with the bureau but never telling the lender that sent the bad data.",
+   "say": "Four: disputing with the bureau, but never telling the lender that sent the bad data.",
+   "scene": {
+    "t": "list",
+    "title": "Mistakes",
+    "items": [
+     "Only one bureau",
+     "Fake free sites",
+     "Sending originals",
+     "Skipping furnisher"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And a bonus: forgetting to lift a freeze before a loan application, then wondering why it failed.",
+   "say": "And a bonus one: forgetting to lift a freeze before a loan application, and then wondering why it got stuck.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Lift the freeze",
+     "before applying"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Chapter 6: The one-screen checklist",
+   "say": "Chapter six: the one-screen checklist.",
+   "scene": {
+    "t": "chapter",
+    "n": 6,
+    "title": "The one-screen checklist"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "One: pull all 3 reports free at AnnualCreditReport.com. Weekly is allowed.",
+   "say": "One: pull all three reports for free at Annual Credit Report dot com. You're allowed to do it weekly.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "Pull all three",
+     "Check every line",
+     "Dispute with proof",
+     "Freeze if needed"
+    ],
+    "reveal": 1
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Two: check names, accounts, balances, limits, late marks and inquiries.",
+   "say": "Two: check the names, accounts, balances, limits, late marks and inquiries.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "Pull all three",
+     "Check every line",
+     "Dispute with proof",
+     "Freeze if needed"
+    ],
+    "reveal": 2,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Three: dispute errors with the bureau and the furnisher, with copies of proof. Expect about 30 days.",
+   "say": "Three: dispute errors with the bureau and the furnisher, with copies of proof. Expect about thirty days.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "Pull all three",
+     "Check every line",
+     "Dispute with proof",
+     "Freeze if needed"
+    ],
+    "reveal": 3,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Four: if you need it, freeze your credit at all 3 bureaus for free.",
+   "say": "Four: if you need it, freeze your credit at all three bureaus, for free.",
+   "scene": {
+    "t": "list",
+    "title": "Checklist",
+    "items": [
+     "Pull all three",
+     "Check every line",
+     "Dispute with proof",
+     "Freeze if needed"
+    ],
+    "reveal": 4,
+    "keep": true
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Remember the FTC's 1 in 5. The odds you'll find something are not small.",
+   "say": "Remember the F T C's one in five. The odds that you'll find something are not small.",
+   "scene": {
+    "t": "stat",
+    "label": "Found an error",
+    "value": "1 in 5",
+    "tone": "down",
+    "sub": "FTC study, 2013"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "And in our example, one stale balance made 20% look like 40%. Fixing it took one letter.",
+   "say": "And in our example, one stale balance made twenty percent look like forty percent. Fixing it took one letter.",
+   "scene": {
+    "t": "money",
+    "from": {
+     "label": "On report",
+     "value": "40%"
+    },
+    "to": {
+     "label": "Fixed",
+     "value": "20%"
+    },
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Your credit report is your money's résumé. Ten minutes a year to proofread it is a pretty good deal.",
+   "say": "Your credit report is basically your money's resume. Ten minutes to proofread it is a pretty good deal.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Proofread it"
+    ],
+    "mood": "happy"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta",
+    "tagline": "The Guide"
+   }
+  }
+ ],
+ "post": {
+  "title": "How to Check and Fix Your Credit Report: 1 in 5 Found an Error",
+  "ig": "1 in 5 people in an FTC study found an error on a credit report. Here's how to check yours and fix it, free.",
+  "tiktok": "Your credit report might be wrong. 1 in 5 people in an FTC study found an error. Here's the fix.",
+  "yt_desc": "In a Federal Trade Commission study published in 2013, 1 in 5 people found an error on at least one of their three credit reports. This guide walks through every step: getting free weekly reports from Equifax, Experian and TransUnion at AnnualCreditReport.com (made permanent in 2023), what to check line by line, and a worked example (our math) showing how one stale balance turns 20% utilization into 40%. We cover how to dispute with the bureau and the furnisher, the 30-day (sometimes 45-day) investigation clock under the Fair Credit Reporting Act, how long negative items stay (7 years for most, 10 for Chapter 7 bankruptcy), free credit freezes (since 2018), fraud alerts, and what to do if a dispute fails. We also chart CFPB complaints from 2020 to 2025.\n\nCHAPTERS\n\nSources: FTC, Report to Congress on credit report accuracy (Dec 2012; press release Feb 11, 2013); CFPB Consumer Response Annual Reports 2020-2025 (latest Mar 31, 2026); CFPB complaint system announcement (June 24, 2026); FTC consumer alert on permanent free weekly credit reports (Oct 13, 2023); FTC, Disputing Errors on Your Credit Reports; FTC, Free credit freezes are here (Sept 2018) and Credit Freezes and Fraud Alerts; CFPB, Ask CFPB on dispute timelines and negative information; Fair Credit Reporting Act, 15 U.S.C. 1681i; myFICO, What's in my FICO Scores; Experian.\n\nNews and education, not financial advice.\n\n#creditreport #credit #personalfinance",
+  "tags": [
+   "how to check credit report",
+   "fix credit report errors",
+   "credit report dispute",
+   "annualcreditreport.com",
+   "credit freeze",
+   "fraud alert",
+   "fair credit reporting act",
+   "credit utilization"
+  ]
+ }
+}
