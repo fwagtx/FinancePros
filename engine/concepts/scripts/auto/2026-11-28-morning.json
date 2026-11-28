@@ -1,0 +1,186 @@
+{
+ "id": "2026-11-28-morning",
+ "format": "vertical",
+ "series": "ticker",
+ "header": "Black Friday\nOnline Sales",
+ "cover": {
+  "title": "Black Friday",
+  "prop": "chart-up",
+  "value": "$13B+"
+ },
+ "lines": [
+  {
+   "who": "ticker",
+   "text": "Black Friday online sales outran forecasts, on track to top $13 billion.",
+   "say": "Black Friday online sales outran forecasts, on track to top thirteen billion.",
+   "scene": {
+    "t": "hook",
+    "title": "Black Friday [Online]",
+    "prop": "chart-up",
+    "value": "$13B+",
+    "mood": "shock"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "By 6:30 PM Eastern Friday, shoppers had already spent $9.7 billion, Adobe says.",
+   "say": "By six thirty PM Eastern Friday, shoppers had already spent nine point seven billion dollars, Adobe says.",
+   "scene": {
+    "t": "stat",
+    "label": "Spent by 6:30 PM",
+    "value": "$9.7B",
+    "tone": "up",
+    "sub": "Adobe Analytics",
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's up 12.8% from last year, ahead of Adobe's own forecast of 9.2%.",
+   "say": "That's up twelve point eight percent from last year, ahead of Adobe's own forecast of nine point two percent.",
+   "scene": {
+    "t": "compare",
+    "title": "Growth",
+    "left": {
+     "label": "Forecast",
+     "value": "+9.2%",
+     "tone": "neutral",
+     "sub": "September"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "+12.8%",
+     "tone": "up",
+     "sub": "by 6:30 PM"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "So shoppers are spending faster than the trackers expected.",
+   "say": "So shoppers are spending faster than the trackers expected.",
+   "scene": {
+    "t": "compare",
+    "keep": true,
+    "winner": "right",
+    "mood": "up",
+    "title": "Growth",
+    "left": {
+     "label": "Forecast",
+     "value": "+9.2%",
+     "tone": "neutral",
+     "sub": "September"
+    },
+    "right": {
+     "label": "Actual",
+     "value": "+12.8%",
+     "tone": "up",
+     "sub": "by 6:30 PM"
+    }
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Zoom out, and Black Friday online sales climbed from about $8.9 billion in 2021 to $11.8 billion last year.",
+   "say": "Zoom out, and Black Friday online sales climbed from about eight point nine billion in twenty twenty-one to eleven point eight billion last year.",
+   "scene": {
+    "t": "chart",
+    "title": "Black Friday online",
+    "points": [
+     [
+      2021,
+      8.9
+     ],
+     [
+      2022,
+      9.1
+     ],
+     [
+      2023,
+      9.8
+     ],
+     [
+      2024,
+      10.8
+     ],
+     [
+      2025,
+      11.8
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "end": "$11.8B",
+    "color": "up"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Twist: Salesforce counts differently and projects $18.7 billion, versus Adobe's over $13 billion.",
+   "say": "Twist: Salesforce counts differently and projects eighteen point seven billion, versus Adobe's over thirteen billion.",
+   "scene": {
+    "t": "compare",
+    "title": "Who counts",
+    "left": {
+     "label": "Adobe",
+     "value": "$13B+",
+     "tone": "neutral",
+     "sub": "projection"
+    },
+    "right": {
+     "label": "Salesforce",
+     "value": "$18.7B",
+     "tone": "neutral",
+     "sub": "projection"
+    },
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "Adobe expects the biggest day is still ahead: Cyber Monday, at $15.1 billion, up 6.2%.",
+   "say": "Adobe expects the biggest day is still ahead: Cyber Monday, at fifteen point one billion, up six point two percent.",
+   "scene": {
+    "t": "stat",
+    "label": "Cyber Monday",
+    "value": "$15.1B",
+    "tone": "up",
+    "sub": "forecast, up 6.2%"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "The takeaway: big spending totals show where the money went, not whether the deals were good.",
+   "say": "The takeaway: big spending totals show where the money went, not whether the deals were good.",
+   "scene": {
+    "t": "board",
+    "lines": [
+     "Big spending",
+     "isn't a deal"
+    ],
+    "mood": "think"
+   }
+  },
+  {
+   "who": "ticker",
+   "text": "That's the money. Follow for more.",
+   "say": "That's the money. Follow for more.",
+   "scene": {
+    "t": "cta"
+   }
+  }
+ ],
+ "post": {
+  "title": "Black Friday online sales on track to top $13 billion",
+  "ig": "Black Friday online spending is on track to top $13 billion.\nShoppers spent $9.7B online by 6:30 PM ET Friday, up 12.8% from last year (Adobe).\nAdobe had forecast $12.9B (+9.2%); it now projects $13.0B-$13.4B for the day. Final total not yet released.\nSalesforce, which measures differently, projects $18.7B.\nNext: Cyber Monday, forecast at $15.1B, up 6.2%.\nSources: Adobe Analytics, Reuters, Salesforce.\nNews and education, not financial advice.\nFollow @financeprostv for money explained simply.\n#blackfriday #cybermonday #shopping #personalfinance #financeprostv",
+  "tiktok": "Black Friday online sales on track to top $13B, up 12.8% through 6:30 PM ET (Adobe). Not financial advice. #moneytok #personalfinance #blackfriday #financeprostv",
+  "yt_desc": "Adobe Analytics says US shoppers spent $9.7 billion online on Black Friday by 6:30 PM ET, up 12.8% from last year, and projects $13.0 to $13.4 billion for the full day, above its September forecast of $12.9 billion. Salesforce, which measures differently, projects $18.7 billion, and Adobe expects Cyber Monday to hit $15.1 billion. Sources: Adobe Analytics, Reuters, Salesforce. News and education, not financial advice. #Shorts #blackfriday #personalfinance",
+  "tags": [
+   "black friday 2026",
+   "adobe analytics",
+   "online shopping",
+   "cyber monday",
+   "holiday spending"
+  ]
+ }
+}
