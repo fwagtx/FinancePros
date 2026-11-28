@@ -10,8 +10,8 @@
  "lines": [
   {
    "who": "ticker",
-   "text": "1 in 5 people found an error on their credit reports.",
-   "say": "One in five people found an error on their credit reports.",
+   "text": "1 in 5 had credit report errors. Is yours?",
+   "say": "One in five had credit report errors. Is yours?",
    "scene": {
     "t": "hook",
     "title": "Is Yours [Wrong]?",
@@ -23,8 +23,8 @@
   },
   {
    "who": "ticker",
-   "text": "And fixing it takes one free website and one letter. Here's the whole process.",
-   "say": "And fixing it takes one free website and one letter. Here's the whole process, step by step.",
+   "text": "Checking takes one free website. Fixing an error often starts with one letter. Here's the whole process.",
+   "say": "Checking takes one free website, and fixing an error often starts with one letter. Here's the whole process, step by step.",
    "scene": {
     "t": "board",
     "lines": [
@@ -36,8 +36,8 @@
   },
   {
    "who": "ticker",
-   "text": "That 1 in 5 comes from a Federal Trade Commission study published in 2013. About 1,000 people went through their reports.",
-   "say": "That one in five comes from a Federal Trade Commission study published in twenty thirteen. About a thousand people went through their reports with help.",
+   "text": "That 1 in 5 comes from a Federal Trade Commission study released in 2013. About 1,000 people went through their reports.",
+   "say": "That one in five comes from a Federal Trade Commission study released in twenty thirteen. About a thousand people went through their reports with help.",
    "scene": {
     "t": "stat",
     "label": "Had a fixed error",
@@ -596,11 +596,11 @@
   },
   {
    "who": "ticker",
-   "text": "And about 1 in 20 saw a jump of more than 25 points. That's real money on a loan rate.",
-   "say": "And about one in twenty saw a jump of more than twenty-five points. That can be real money on a loan rate.",
+   "text": "And about 1 in 20 saw a change of more than 25 points. That can mean real money on a loan rate.",
+   "say": "And about one in twenty saw their score move by more than twenty-five points. That can mean real money on a loan rate.",
    "scene": {
     "t": "stat",
-    "label": "Score jump",
+    "label": "Big score change",
     "value": "25+ pts",
     "tone": "up",
     "sub": "About 1 in 20",
@@ -727,8 +727,8 @@
   },
   {
    "who": "ticker",
-   "text": "A fair caveat: a complaint isn't proof of an error. The CFPB said in 2026 that some came from third parties filing in bulk.",
-   "say": "A fair caveat: a complaint isn't proof of an error. The C F P B said in twenty twenty-six that some came from third parties filing in bulk, and consumer groups disputed that.",
+   "text": "A fair caveat: a complaint isn't proof of an error. In June 2026, the CFPB said third parties and high-volume filing may make the data less reliable. Consumer groups disagreed.",
+   "say": "A fair caveat: a complaint isn't proof of an error. In June twenty twenty-six, the C F P B said third parties and high-volume filing may make the data less reliable. Consumer groups disagreed.",
    "scene": {
     "t": "board",
     "lines": [
@@ -913,8 +913,8 @@
   },
   {
    "who": "ticker",
-   "text": "Fix it at the source, and it stops flowing back into all three files.",
-   "say": "Fix it at the source, and it stops flowing back into all three files.",
+   "text": "Fix it at the source, and the lender has to correct it with every bureau it reports to.",
+   "say": "Fix it at the source, and the lender has to correct it with every bureau it reports to.",
    "scene": {
     "t": "compare",
     "title": "Dispute",
@@ -1125,7 +1125,7 @@
   },
   {
    "who": "ticker",
-   "text": "After that, the bureau has to flag the item as disputed in future reports, so lenders see your side.",
+   "text": "After that, the bureau generally has to flag the item as disputed in future reports, so lenders can see your side.",
    "say": "After that, the bureau generally has to flag the item as disputed in future reports, so lenders can see your side.",
    "scene": {
     "t": "board",
@@ -1188,7 +1188,7 @@
   {
    "who": "ticker",
    "text": "Most disputes never get that far. But knowing the next step keeps you calm.",
-   "say": "Most disputes never get that far. But knowing the next step keeps you calm and keeps the bureau honest.",
+   "say": "Most disputes never get that far. But knowing the next step keeps you calm.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1342,8 +1342,8 @@
   },
   {
    "who": "ticker",
-   "text": "A freeze blocks new lenders from pulling your file. It doesn't change your score.",
-   "say": "A freeze blocks new lenders from pulling your file, so nobody can open credit in your name. It doesn't change your score.",
+   "text": "A freeze blocks new lenders from pulling your file, which makes new credit in your name much harder to open. It doesn't change your score.",
+   "say": "A freeze blocks new lenders from pulling your file, which makes new credit in your name much harder to open. It doesn't change your score.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1504,7 +1504,7 @@
   },
   {
    "who": "ticker",
-   "text": "And a bonus: forgetting to lift a freeze before a loan application, then wondering why it failed.",
+   "text": "And a bonus: forgetting to lift a freeze before a loan application, then wondering why it got stuck.",
    "say": "And a bonus one: forgetting to lift a freeze before a loan application, and then wondering why it got stuck.",
    "scene": {
     "t": "board",
@@ -1606,8 +1606,8 @@
   },
   {
    "who": "ticker",
-   "text": "And in our example, one stale balance made 20% look like 40%. Fixing it took one letter.",
-   "say": "And in our example, one stale balance made twenty percent look like forty percent. Fixing it took one letter.",
+   "text": "And in our example, one stale balance made 20% look like 40%. Fixing it started with one letter.",
+   "say": "And in our example, one stale balance made twenty percent look like forty percent. Fixing it started with one letter.",
    "scene": {
     "t": "money",
     "from": {
@@ -1623,8 +1623,8 @@
   },
   {
    "who": "ticker",
-   "text": "Your credit report is your money's résumé. Ten minutes a year to proofread it is a pretty good deal.",
-   "say": "Your credit report is basically your money's resume. Ten minutes to proofread it is a pretty good deal.",
+   "text": "Your credit report is your money's résumé. A little time to proofread it is a pretty good deal.",
+   "say": "Your credit report is basically your money's resume. A little time to proofread it is a pretty good deal.",
    "scene": {
     "t": "board",
     "lines": [
@@ -1647,7 +1647,7 @@
   "title": "How to Check and Fix Your Credit Report: 1 in 5 Found an Error",
   "ig": "1 in 5 people in an FTC study found an error on a credit report. Here's how to check yours and fix it, free.",
   "tiktok": "Your credit report might be wrong. 1 in 5 people in an FTC study found an error. Here's the fix.",
-  "yt_desc": "In a Federal Trade Commission study published in 2013, 1 in 5 people found an error on at least one of their three credit reports. This guide walks through every step: getting free weekly reports from Equifax, Experian and TransUnion at AnnualCreditReport.com (made permanent in 2023), what to check line by line, and a worked example (our math) showing how one stale balance turns 20% utilization into 40%. We cover how to dispute with the bureau and the furnisher, the 30-day (sometimes 45-day) investigation clock under the Fair Credit Reporting Act, how long negative items stay (7 years for most, 10 for Chapter 7 bankruptcy), free credit freezes (since 2018), fraud alerts, and what to do if a dispute fails. We also chart CFPB complaints from 2020 to 2025.\n\nCHAPTERS\n\nSources: FTC, Report to Congress on credit report accuracy (Dec 2012; press release Feb 11, 2013); CFPB Consumer Response Annual Reports 2020-2025 (latest Mar 31, 2026); CFPB complaint system announcement (June 24, 2026); FTC consumer alert on permanent free weekly credit reports (Oct 13, 2023); FTC, Disputing Errors on Your Credit Reports; FTC, Free credit freezes are here (Sept 2018) and Credit Freezes and Fraud Alerts; CFPB, Ask CFPB on dispute timelines and negative information; Fair Credit Reporting Act, 15 U.S.C. 1681i; myFICO, What's in my FICO Scores; Experian.\n\nNews and education, not financial advice.\n\n#creditreport #credit #personalfinance",
+  "yt_desc": "In a Federal Trade Commission study published in 2013, 1 in 5 people found an error on at least one of their three credit reports. This guide walks through every step: getting free weekly reports from Equifax, Experian and TransUnion at AnnualCreditReport.com (made permanent in 2023), what to check line by line, and a worked example (our math) showing how one stale balance turns 20% utilization into 40%. We cover how to dispute with the bureau and the furnisher, the 30-day (sometimes 45-day) investigation clock under the Fair Credit Reporting Act, how long negative items stay (7 years for most, 10 for Chapter 7 bankruptcy), free credit freezes (since 2018), fraud alerts, and what to do if a dispute fails. We also chart CFPB complaints from 2020 to 2025.\n\nCHAPTERS\n\nSources: FTC, Report to Congress on credit report accuracy (Dec 2012; press release Feb 11, 2013); CFPB Consumer Response Annual Reports 2020-2025 (latest Mar 31, 2026); CFPB complaint system announcement (June 24, 2026); National Consumer Law Center comments (2026); FTC consumer alert on permanent free weekly credit reports (Oct 13, 2023); FTC, Disputing Errors on Your Credit Reports; FTC, Free credit freezes are here (Sept 2018) and Credit Freezes and Fraud Alerts; CFPB, Ask CFPB on dispute timelines and negative information; Fair Credit Reporting Act, 15 U.S.C. 1681i; myFICO, What's in my FICO Scores; Experian.\n\nNews and education, not financial advice.\n\n#creditreport #credit #personalfinance",
   "tags": [
    "how to check credit report",
    "fix credit report errors",
